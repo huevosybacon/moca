@@ -1,0 +1,775 @@
+"completion/rule.ml" 27 1191 1195 "completion/rule.ml" 27 1191 1202
+type(
+  Format.formatter -> Term.term * Term.term -> unit
+)
+ident(
+  def fprintf "completion/rule.ml" 31 1315 1315 "completion/rule.ml" 1 0 -1
+)
+"completion/rule.ml" 27 1191 1203 "completion/rule.ml" 27 1191 1206
+type(
+  Format.formatter
+)
+ident(
+  def ppf "completion/rule.ml" 27 1191 1207 "completion/rule.ml" 27 1191 1274
+)
+"completion/rule.ml" 27 1191 1208 "completion/rule.ml" 27 1191 1209
+type(
+  Term.term
+)
+ident(
+  def l "completion/rule.ml" 27 1191 1215 "completion/rule.ml" 27 1191 1274
+)
+"completion/rule.ml" 27 1191 1210 "completion/rule.ml" 27 1191 1211
+type(
+  Term.term
+)
+ident(
+  def r "completion/rule.ml" 27 1191 1215 "completion/rule.ml" 27 1191 1274
+)
+"completion/rule.ml" 27 1191 1207 "completion/rule.ml" 27 1191 1212
+type(
+  Term.term * Term.term
+)
+"completion/rule.ml" 27 1191 1215 "completion/rule.ml" 27 1191 1229
+type(
+  Format.formatter ->
+  ((Format.formatter -> Term.term -> unit) ->
+   Term.term -> (Format.formatter -> Term.term -> unit) -> Term.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Term.term -> unit) ->
+  Term.term -> (Format.formatter -> Term.term -> unit) -> Term.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"completion/rule.ml" 27 1191 1230 "completion/rule.ml" 27 1191 1233
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/rule.ml" 27 1191 1203 "completion/rule.ml" 27 1191 1206
+)
+"completion/rule.ml" 27 1191 1234 "completion/rule.ml" 27 1191 1244
+type(
+  ((Format.formatter -> Term.term -> unit) ->
+   Term.term -> (Format.formatter -> Term.term -> unit) -> Term.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"completion/rule.ml" 27 1191 1245 "completion/rule.ml" 27 1191 1257
+type(
+  Format.formatter -> Term.term -> unit
+)
+ident(
+  ext_ref Term.fprintf
+)
+"completion/rule.ml" 27 1191 1258 "completion/rule.ml" 27 1191 1259
+type(
+  Term.term
+)
+ident(
+  int_ref l "completion/rule.ml" 27 1191 1208 "completion/rule.ml" 27 1191 1209
+)
+"completion/rule.ml" 27 1191 1260 "completion/rule.ml" 27 1191 1272
+type(
+  Format.formatter -> Term.term -> unit
+)
+ident(
+  ext_ref Term.fprintf
+)
+"completion/rule.ml" 27 1191 1273 "completion/rule.ml" 27 1191 1274
+type(
+  Term.term
+)
+ident(
+  int_ref r "completion/rule.ml" 27 1191 1210 "completion/rule.ml" 27 1191 1211
+)
+"completion/rule.ml" 27 1191 1215 "completion/rule.ml" 27 1191 1274
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/rule.ml" 31 1315 1319 "completion/rule.ml" 31 1315 1321
+type(
+  Term.term * Term.term -> rule
+)
+ident(
+  def mk "completion/rule.ml" 40 1565 1565 "completion/rule.ml" 1 0 -1
+)
+"completion/rule.ml" 31 1315 1323 "completion/rule.ml" 31 1315 1324
+type(
+  Term.term
+)
+ident(
+  def l "completion/rule.ml" 32 1331 1333 "completion/rule.ml" 36 1481 1503
+)
+"completion/rule.ml" 31 1315 1326 "completion/rule.ml" 31 1315 1327
+type(
+  Term.term
+)
+ident(
+  def r "completion/rule.ml" 32 1331 1333 "completion/rule.ml" 36 1481 1503
+)
+"completion/rule.ml" 31 1315 1322 "completion/rule.ml" 31 1315 1328
+type(
+  Term.term * Term.term
+)
+"completion/rule.ml" 32 1331 1337 "completion/rule.ml" 32 1331 1339
+type(
+  Var.var list
+)
+ident(
+  def xs "completion/rule.ml" 33 1368 1370 "completion/rule.ml" 36 1481 1503
+)
+"completion/rule.ml" 32 1331 1342 "completion/rule.ml" 32 1331 1360
+type(
+  Term.term list -> Var.var list
+)
+ident(
+  ext_ref Term.list_vars_of_terms
+)
+"completion/rule.ml" 32 1331 1362 "completion/rule.ml" 32 1331 1363
+type(
+  Term.term
+)
+ident(
+  int_ref l "completion/rule.ml" 31 1315 1323 "completion/rule.ml" 31 1315 1324
+)
+"completion/rule.ml" 32 1331 1361 "completion/rule.ml" 32 1331 1364
+type(
+  Term.term list
+)
+"completion/rule.ml" 32 1331 1342 "completion/rule.ml" 32 1331 1364
+call(
+  stack
+)
+type(
+  Var.var list
+)
+"completion/rule.ml" 33 1368 1378 "completion/rule.ml" 33 1368 1381
+type(
+  Term.term -> Term.term
+)
+ident(
+  def aux "completion/rule.ml" 33 1368 1370 "completion/rule.ml" 36 1481 1503
+)
+"completion/rule.ml" 34 1393 1403 "completion/rule.ml" 34 1393 1404
+type(
+  Var.var
+)
+ident(
+  def x "completion/rule.ml" 34 1393 1408 "completion/rule.ml" 34 1393 1434
+)
+"completion/rule.ml" 34 1393 1399 "completion/rule.ml" 34 1393 1404
+type(
+  Term.term
+)
+"completion/rule.ml" 34 1393 1413 "completion/rule.ml" 34 1393 1428
+type(
+  Var.var -> Var.var list -> Var.var
+)
+ident(
+  ext_ref Mylist.position
+)
+"completion/rule.ml" 34 1393 1429 "completion/rule.ml" 34 1393 1430
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/rule.ml" 34 1393 1403 "completion/rule.ml" 34 1393 1404
+)
+"completion/rule.ml" 34 1393 1431 "completion/rule.ml" 34 1393 1433
+type(
+  Var.var list
+)
+ident(
+  int_ref xs "completion/rule.ml" 32 1331 1337 "completion/rule.ml" 32 1331 1339
+)
+"completion/rule.ml" 34 1393 1412 "completion/rule.ml" 34 1393 1434
+call(
+  stack
+)
+type(
+  Var.var
+)
+"completion/rule.ml" 34 1393 1408 "completion/rule.ml" 34 1393 1434
+type(
+  Term.term
+)
+"completion/rule.ml" 35 1435 1446 "completion/rule.ml" 35 1435 1447
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/rule.ml" 35 1435 1456 "completion/rule.ml" 35 1435 1480
+)
+"completion/rule.ml" 35 1435 1449 "completion/rule.ml" 35 1435 1451
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/rule.ml" 35 1435 1456 "completion/rule.ml" 35 1435 1480
+)
+"completion/rule.ml" 35 1435 1441 "completion/rule.ml" 35 1435 1452
+type(
+  Term.term
+)
+"completion/rule.ml" 35 1435 1461 "completion/rule.ml" 35 1435 1462
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/rule.ml" 35 1435 1446 "completion/rule.ml" 35 1435 1447
+)
+"completion/rule.ml" 35 1435 1464 "completion/rule.ml" 35 1435 1472
+type(
+  (Term.term -> Term.term) -> Term.term list -> Term.term list
+)
+ident(
+  ext_ref List.map
+)
+"completion/rule.ml" 35 1435 1473 "completion/rule.ml" 35 1435 1476
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref aux "completion/rule.ml" 33 1368 1378 "completion/rule.ml" 33 1368 1381
+)
+"completion/rule.ml" 35 1435 1477 "completion/rule.ml" 35 1435 1479
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/rule.ml" 35 1435 1449 "completion/rule.ml" 35 1435 1451
+)
+"completion/rule.ml" 35 1435 1464 "completion/rule.ml" 35 1435 1479
+call(
+  stack
+)
+type(
+  Term.term list
+)
+"completion/rule.ml" 35 1435 1456 "completion/rule.ml" 35 1435 1480
+type(
+  Term.term
+)
+"completion/rule.ml" 33 1368 1384 "completion/rule.ml" 35 1435 1480
+type(
+  Term.term -> Term.term
+)
+"completion/rule.ml" 36 1481 1490 "completion/rule.ml" 36 1481 1493
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref aux "completion/rule.ml" 33 1368 1378 "completion/rule.ml" 33 1368 1381
+)
+"completion/rule.ml" 36 1481 1494 "completion/rule.ml" 36 1481 1495
+type(
+  Term.term
+)
+ident(
+  int_ref l "completion/rule.ml" 31 1315 1323 "completion/rule.ml" 31 1315 1324
+)
+"completion/rule.ml" 36 1481 1490 "completion/rule.ml" 36 1481 1495
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/rule.ml" 36 1481 1497 "completion/rule.ml" 36 1481 1500
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref aux "completion/rule.ml" 33 1368 1378 "completion/rule.ml" 33 1368 1381
+)
+"completion/rule.ml" 36 1481 1501 "completion/rule.ml" 36 1481 1502
+type(
+  Term.term
+)
+ident(
+  int_ref r "completion/rule.ml" 31 1315 1326 "completion/rule.ml" 31 1315 1327
+)
+"completion/rule.ml" 36 1481 1497 "completion/rule.ml" 36 1481 1502
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/rule.ml" 36 1481 1486 "completion/rule.ml" 36 1481 1503
+type(
+  rule
+)
+"completion/rule.ml" 33 1368 1370 "completion/rule.ml" 36 1481 1503
+type(
+  rule
+)
+"completion/rule.ml" 32 1331 1333 "completion/rule.ml" 36 1481 1503
+type(
+  rule
+)
+"completion/rule.ml" 40 1565 1569 "completion/rule.ml" 40 1565 1576
+type(
+  rule -> rule -> int
+)
+ident(
+  def compare "completion/rule.ml" 42 1643 1643 "completion/rule.ml" 1 0 -1
+)
+"completion/rule.ml" 40 1565 1582 "completion/rule.ml" 40 1565 1584
+type(
+  Term.term
+)
+ident(
+  def l1 "completion/rule.ml" 40 1565 1590 "completion/rule.ml" 40 1565 1639
+)
+"completion/rule.ml" 40 1565 1585 "completion/rule.ml" 40 1565 1587
+type(
+  Term.term
+)
+ident(
+  def r1 "completion/rule.ml" 40 1565 1590 "completion/rule.ml" 40 1565 1639
+)
+"completion/rule.ml" 40 1565 1577 "completion/rule.ml" 40 1565 1589
+type(
+  rule
+)
+"completion/rule.ml" 40 1565 1595 "completion/rule.ml" 40 1565 1597
+type(
+  Term.term
+)
+ident(
+  def l2 "completion/rule.ml" 40 1565 1605 "completion/rule.ml" 40 1565 1639
+)
+"completion/rule.ml" 40 1565 1598 "completion/rule.ml" 40 1565 1600
+type(
+  Term.term
+)
+ident(
+  def r2 "completion/rule.ml" 40 1565 1605 "completion/rule.ml" 40 1565 1639
+)
+"completion/rule.ml" 40 1565 1590 "completion/rule.ml" 40 1565 1602
+type(
+  rule
+)
+"completion/rule.ml" 40 1565 1605 "completion/rule.ml" 40 1565 1623
+type(
+  Term.term * Term.term -> Term.term * Term.term -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"completion/rule.ml" 40 1565 1625 "completion/rule.ml" 40 1565 1627
+type(
+  Term.term
+)
+ident(
+  int_ref l1 "completion/rule.ml" 40 1565 1582 "completion/rule.ml" 40 1565 1584
+)
+"completion/rule.ml" 40 1565 1628 "completion/rule.ml" 40 1565 1630
+type(
+  Term.term
+)
+ident(
+  int_ref r1 "completion/rule.ml" 40 1565 1585 "completion/rule.ml" 40 1565 1587
+)
+"completion/rule.ml" 40 1565 1624 "completion/rule.ml" 40 1565 1631
+type(
+  Term.term * Term.term
+)
+"completion/rule.ml" 40 1565 1633 "completion/rule.ml" 40 1565 1635
+type(
+  Term.term
+)
+ident(
+  int_ref l2 "completion/rule.ml" 40 1565 1595 "completion/rule.ml" 40 1565 1597
+)
+"completion/rule.ml" 40 1565 1636 "completion/rule.ml" 40 1565 1638
+type(
+  Term.term
+)
+ident(
+  int_ref r2 "completion/rule.ml" 40 1565 1598 "completion/rule.ml" 40 1565 1600
+)
+"completion/rule.ml" 40 1565 1632 "completion/rule.ml" 40 1565 1639
+type(
+  Term.term * Term.term
+)
+"completion/rule.ml" 40 1565 1605 "completion/rule.ml" 40 1565 1639
+type(
+  int
+)
+"completion/rule.ml" 42 1643 1647 "completion/rule.ml" 42 1643 1649
+type(
+  rule -> rule -> bool
+)
+ident(
+  def eq "completion/rule.ml" 46 1701 1701 "completion/rule.ml" 1 0 -1
+)
+"completion/rule.ml" 42 1643 1650 "completion/rule.ml" 42 1643 1652
+type(
+  rule
+)
+ident(
+  def e1 "completion/rule.ml" 42 1643 1653 "completion/rule.ml" 42 1643 1675
+)
+"completion/rule.ml" 42 1643 1653 "completion/rule.ml" 42 1643 1655
+type(
+  rule
+)
+ident(
+  def e2 "completion/rule.ml" 42 1643 1658 "completion/rule.ml" 42 1643 1675
+)
+"completion/rule.ml" 42 1643 1658 "completion/rule.ml" 42 1643 1665
+type(
+  rule -> rule -> int
+)
+ident(
+  int_ref compare "completion/rule.ml" 40 1565 1569 "completion/rule.ml" 40 1565 1576
+)
+"completion/rule.ml" 42 1643 1666 "completion/rule.ml" 42 1643 1668
+type(
+  rule
+)
+ident(
+  int_ref e1 "completion/rule.ml" 42 1643 1650 "completion/rule.ml" 42 1643 1652
+)
+"completion/rule.ml" 42 1643 1669 "completion/rule.ml" 42 1643 1671
+type(
+  rule
+)
+ident(
+  int_ref e2 "completion/rule.ml" 42 1643 1653 "completion/rule.ml" 42 1643 1655
+)
+"completion/rule.ml" 42 1643 1658 "completion/rule.ml" 42 1643 1671
+call(
+  stack
+)
+type(
+  int
+)
+"completion/rule.ml" 42 1643 1672 "completion/rule.ml" 42 1643 1673
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/rule.ml" 42 1643 1674 "completion/rule.ml" 42 1643 1675
+type(
+  int
+)
+"completion/rule.ml" 42 1643 1658 "completion/rule.ml" 42 1643 1675
+type(
+  bool
+)
+"completion/rule.ml" 46 1701 1705 "completion/rule.ml" 46 1701 1712
+type(
+  Format.formatter -> rule -> unit
+)
+ident(
+  def fprintf "completion/rule.ml" 48 1751 1751 "completion/rule.ml" 1 0 -1
+)
+"completion/rule.ml" 46 1701 1713 "completion/rule.ml" 46 1701 1716
+type(
+  Format.formatter
+)
+ident(
+  def ppf "completion/rule.ml" 46 1701 1717 "completion/rule.ml" 46 1701 1747
+)
+"completion/rule.ml" 46 1701 1722 "completion/rule.ml" 46 1701 1723
+type(
+  Term.term
+)
+ident(
+  def l "completion/rule.ml" 46 1701 1730 "completion/rule.ml" 46 1701 1747
+)
+"completion/rule.ml" 46 1701 1724 "completion/rule.ml" 46 1701 1725
+type(
+  Term.term
+)
+ident(
+  def r "completion/rule.ml" 46 1701 1730 "completion/rule.ml" 46 1701 1747
+)
+"completion/rule.ml" 46 1701 1717 "completion/rule.ml" 46 1701 1727
+type(
+  rule
+)
+"completion/rule.ml" 46 1701 1730 "completion/rule.ml" 46 1701 1737
+type(
+  Format.formatter -> Term.term * Term.term -> unit
+)
+ident(
+  int_ref fprintf "completion/rule.ml" 27 1191 1195 "completion/rule.ml" 27 1191 1202
+)
+"completion/rule.ml" 46 1701 1738 "completion/rule.ml" 46 1701 1741
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/rule.ml" 46 1701 1713 "completion/rule.ml" 46 1701 1716
+)
+"completion/rule.ml" 46 1701 1743 "completion/rule.ml" 46 1701 1744
+type(
+  Term.term
+)
+ident(
+  int_ref l "completion/rule.ml" 46 1701 1722 "completion/rule.ml" 46 1701 1723
+)
+"completion/rule.ml" 46 1701 1745 "completion/rule.ml" 46 1701 1746
+type(
+  Term.term
+)
+ident(
+  int_ref r "completion/rule.ml" 46 1701 1724 "completion/rule.ml" 46 1701 1725
+)
+"completion/rule.ml" 46 1701 1742 "completion/rule.ml" 46 1701 1747
+type(
+  Term.term * Term.term
+)
+"completion/rule.ml" 46 1701 1730 "completion/rule.ml" 46 1701 1747
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/rule.ml" 50 1792 1798 "completion/rule.ml" 50 1792 1805
+type(
+  rule -> rule -> int
+)
+ident(
+  def compare "completion/rule.ml" 51 1818 1820 "completion/rule.ml" 52 1844 1847
+)
+"completion/rule.ml" 50 1792 1808 "completion/rule.ml" 50 1792 1815
+type(
+  rule -> rule -> int
+)
+ident(
+  int_ref compare "completion/rule.ml" 40 1565 1569 "completion/rule.ml" 40 1565 1576
+)
+"completion/rule.ml" 51 1818 1824 "completion/rule.ml" 51 1818 1831
+type(
+  Format.formatter -> rule -> unit
+)
+ident(
+  def fprintf "completion/rule.ml" 51 1818 1841 "completion/rule.ml" 52 1844 1847
+)
+"completion/rule.ml" 51 1818 1834 "completion/rule.ml" 51 1818 1841
+type(
+  Format.formatter -> rule -> unit
+)
+ident(
+  int_ref fprintf "completion/rule.ml" 46 1701 1705 "completion/rule.ml" 46 1701 1712
+)
+"completion/rule.ml" 54 1851 1867 "completion/rule.ml" 54 1851 1886
+call(
+  stack
+)
+"completion/rule.ml" 60 1936 1940 "completion/rule.ml" 60 1936 1955
+type(
+  rule -> Symb.SymbolSet.t
+)
+ident(
+  def symbols_of_rule "completion/rule.ml" 62 2013 2013 "completion/rule.ml" 1 0 -1
+)
+"completion/rule.ml" 60 1936 1961 "completion/rule.ml" 60 1936 1962
+type(
+  Term.term
+)
+ident(
+  def l "completion/rule.ml" 60 1936 1970 "completion/rule.ml" 60 1936 2009
+)
+"completion/rule.ml" 60 1936 1964 "completion/rule.ml" 60 1936 1965
+type(
+  Term.term
+)
+ident(
+  def r "completion/rule.ml" 60 1936 1970 "completion/rule.ml" 60 1936 2009
+)
+"completion/rule.ml" 60 1936 1956 "completion/rule.ml" 60 1936 1967
+type(
+  rule
+)
+"completion/rule.ml" 60 1936 1970 "completion/rule.ml" 60 1936 1985
+type(
+  Symb.SymbolSet.t -> Symb.SymbolSet.t -> Symb.SymbolSet.t
+)
+ident(
+  ext_ref Symb.SymbolSet.union
+)
+"completion/rule.ml" 60 1936 1987 "completion/rule.ml" 60 1936 1994
+type(
+  Term.term -> Symb.SymbolSet.t
+)
+ident(
+  ext_ref Term.symbols
+)
+"completion/rule.ml" 60 1936 1995 "completion/rule.ml" 60 1936 1996
+type(
+  Term.term
+)
+ident(
+  int_ref l "completion/rule.ml" 60 1936 1961 "completion/rule.ml" 60 1936 1962
+)
+"completion/rule.ml" 60 1936 1986 "completion/rule.ml" 60 1936 1997
+call(
+  stack
+)
+type(
+  Symb.SymbolSet.t
+)
+"completion/rule.ml" 60 1936 1999 "completion/rule.ml" 60 1936 2006
+type(
+  Term.term -> Symb.SymbolSet.t
+)
+ident(
+  ext_ref Term.symbols
+)
+"completion/rule.ml" 60 1936 2007 "completion/rule.ml" 60 1936 2008
+type(
+  Term.term
+)
+ident(
+  int_ref r "completion/rule.ml" 60 1936 1964 "completion/rule.ml" 60 1936 1965
+)
+"completion/rule.ml" 60 1936 1998 "completion/rule.ml" 60 1936 2009
+call(
+  stack
+)
+type(
+  Symb.SymbolSet.t
+)
+"completion/rule.ml" 60 1936 1970 "completion/rule.ml" 60 1936 2009
+call(
+  tail
+)
+type(
+  Symb.SymbolSet.t
+)
+"completion/rule.ml" 62 2013 2017 "completion/rule.ml" 62 2013 2033
+type(
+  RulSet.t -> Symb.SymbolSet.t
+)
+ident(
+  def symbols_of_rules "completion/rule.ml" 64 2091 2137 "completion/rule.ml" 1 0 -1
+)
+"completion/rule.ml" 63 2036 2042 "completion/rule.ml" 63 2036 2043
+type(
+  rule -> Symb.SymbolSet.t -> Symb.SymbolSet.t
+)
+ident(
+  def f "completion/rule.ml" 64 2091 2095 "completion/rule.ml" 64 2091 2137
+)
+"completion/rule.ml" 63 2036 2044 "completion/rule.ml" 63 2036 2045
+type(
+  rule
+)
+ident(
+  def r "completion/rule.ml" 63 2036 2046 "completion/rule.ml" 63 2036 2087
+)
+"completion/rule.ml" 63 2036 2046 "completion/rule.ml" 63 2036 2047
+type(
+  Symb.SymbolSet.t
+)
+ident(
+  def s "completion/rule.ml" 63 2036 2050 "completion/rule.ml" 63 2036 2087
+)
+"completion/rule.ml" 63 2036 2050 "completion/rule.ml" 63 2036 2065
+type(
+  Symb.SymbolSet.t -> Symb.SymbolSet.t -> Symb.SymbolSet.t
+)
+ident(
+  ext_ref Symb.SymbolSet.union
+)
+"completion/rule.ml" 63 2036 2067 "completion/rule.ml" 63 2036 2082
+type(
+  rule -> Symb.SymbolSet.t
+)
+ident(
+  int_ref symbols_of_rule "completion/rule.ml" 60 1936 1940 "completion/rule.ml" 60 1936 1955
+)
+"completion/rule.ml" 63 2036 2083 "completion/rule.ml" 63 2036 2084
+type(
+  rule
+)
+ident(
+  int_ref r "completion/rule.ml" 63 2036 2044 "completion/rule.ml" 63 2036 2045
+)
+"completion/rule.ml" 63 2036 2066 "completion/rule.ml" 63 2036 2085
+call(
+  stack
+)
+type(
+  Symb.SymbolSet.t
+)
+"completion/rule.ml" 63 2036 2086 "completion/rule.ml" 63 2036 2087
+type(
+  Symb.SymbolSet.t
+)
+ident(
+  int_ref s "completion/rule.ml" 63 2036 2046 "completion/rule.ml" 63 2036 2047
+)
+"completion/rule.ml" 63 2036 2050 "completion/rule.ml" 63 2036 2087
+call(
+  tail
+)
+type(
+  Symb.SymbolSet.t
+)
+"completion/rule.ml" 64 2091 2099 "completion/rule.ml" 64 2091 2101
+type(
+  RulSet.t
+)
+ident(
+  def rs "completion/rule.ml" 64 2091 2105 "completion/rule.ml" 64 2091 2137
+)
+"completion/rule.ml" 64 2091 2105 "completion/rule.ml" 64 2091 2116
+type(
+  (RulSet.elt -> Symb.SymbolSet.t -> Symb.SymbolSet.t) ->
+  RulSet.t -> Symb.SymbolSet.t -> Symb.SymbolSet.t
+)
+ident(
+  ext_ref RulSet.fold
+)
+"completion/rule.ml" 64 2091 2117 "completion/rule.ml" 64 2091 2118
+type(
+  RulSet.elt -> Symb.SymbolSet.t -> Symb.SymbolSet.t
+)
+ident(
+  int_ref f "completion/rule.ml" 63 2036 2042 "completion/rule.ml" 63 2036 2043
+)
+"completion/rule.ml" 64 2091 2119 "completion/rule.ml" 64 2091 2121
+type(
+  RulSet.t
+)
+ident(
+  int_ref rs "completion/rule.ml" 64 2091 2099 "completion/rule.ml" 64 2091 2101
+)
+"completion/rule.ml" 64 2091 2122 "completion/rule.ml" 64 2091 2137
+type(
+  Symb.SymbolSet.t
+)
+ident(
+  ext_ref Symb.SymbolSet.empty
+)
+"completion/rule.ml" 64 2091 2105 "completion/rule.ml" 64 2091 2137
+call(
+  tail
+)
+type(
+  Symb.SymbolSet.t
+)
+"completion/rule.ml" 64 2091 2095 "completion/rule.ml" 64 2091 2137
+type(
+  RulSet.t -> Symb.SymbolSet.t
+)
+"completion/rule.ml" 63 2036 2038 "completion/rule.ml" 64 2091 2137
+type(
+  RulSet.t -> Symb.SymbolSet.t
+)

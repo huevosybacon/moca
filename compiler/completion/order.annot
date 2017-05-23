@@ -1,0 +1,3406 @@
+"completion/order.ml" 32 1321 1325 "completion/order.ml" 32 1321 1334
+type(
+  ('a -> 'b -> ord) ->
+  ('a * 'b) list ->
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+ident(
+  def partition "completion/order.ml" 46 1682 1682 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 32 1321 1335 "completion/order.ml" 32 1321 1338
+type(
+  'a -> 'b -> ord
+)
+ident(
+  def cmp "completion/order.ml" 33 1341 1343 "completion/order.ml" 41 1627 1647
+)
+"completion/order.ml" 33 1341 1351 "completion/order.ml" 33 1341 1354
+type(
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+ident(
+  def aux "completion/order.ml" 33 1341 1343 "completion/order.ml" 41 1627 1647
+)
+"completion/order.ml" 33 1341 1355 "completion/order.ml" 33 1341 1356
+type(
+  ('a * 'b) list
+)
+ident(
+  def g "completion/order.ml" 33 1341 1357 "completion/order.ml" 40 1579 1626
+)
+"completion/order.ml" 33 1341 1357 "completion/order.ml" 33 1341 1358
+type(
+  ('a * 'b) list
+)
+ident(
+  def e "completion/order.ml" 33 1341 1359 "completion/order.ml" 40 1579 1626
+)
+"completion/order.ml" 33 1341 1359 "completion/order.ml" 33 1341 1360
+type(
+  ('a * 'b) list
+)
+ident(
+  def s "completion/order.ml" 33 1341 1361 "completion/order.ml" 40 1579 1626
+)
+"completion/order.ml" 33 1341 1361 "completion/order.ml" 33 1341 1362
+type(
+  ('a * 'b) list
+)
+ident(
+  def u "completion/order.ml" 33 1341 1365 "completion/order.ml" 40 1579 1626
+)
+"completion/order.ml" 34 1374 1380 "completion/order.ml" 34 1374 1382
+type(
+  ('a * 'b) list
+)
+"completion/order.ml" 34 1374 1386 "completion/order.ml" 34 1374 1387
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref g "completion/order.ml" 33 1341 1355 "completion/order.ml" 33 1341 1356
+)
+"completion/order.ml" 34 1374 1389 "completion/order.ml" 34 1374 1390
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref e "completion/order.ml" 33 1341 1357 "completion/order.ml" 33 1341 1358
+)
+"completion/order.ml" 34 1374 1392 "completion/order.ml" 34 1374 1393
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref s "completion/order.ml" 33 1341 1359 "completion/order.ml" 33 1341 1360
+)
+"completion/order.ml" 34 1374 1395 "completion/order.ml" 34 1374 1396
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref u "completion/order.ml" 33 1341 1361 "completion/order.ml" 33 1341 1362
+)
+"completion/order.ml" 34 1374 1386 "completion/order.ml" 34 1374 1396
+type(
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+"completion/order.ml" 35 1397 1405 "completion/order.ml" 35 1397 1406
+type(
+  'a
+)
+ident(
+  def l "completion/order.ml" 36 1425 1433 "completion/order.ml" 40 1579 1626
+)
+"completion/order.ml" 35 1397 1407 "completion/order.ml" 35 1397 1408
+type(
+  'b
+)
+ident(
+  def r "completion/order.ml" 36 1425 1433 "completion/order.ml" 40 1579 1626
+)
+"completion/order.ml" 35 1397 1404 "completion/order.ml" 35 1397 1409
+type(
+  'a * 'b
+)
+"completion/order.ml" 35 1397 1413 "completion/order.ml" 35 1397 1414
+ident(
+  def x "completion/order.ml" 36 1425 1433 "completion/order.ml" 40 1579 1626
+)
+"completion/order.ml" 35 1397 1403 "completion/order.ml" 35 1397 1415
+type(
+  'a * 'b
+)
+"completion/order.ml" 35 1397 1419 "completion/order.ml" 35 1397 1421
+type(
+  ('a * 'b) list
+)
+ident(
+  def xs "completion/order.ml" 36 1425 1433 "completion/order.ml" 40 1579 1626
+)
+"completion/order.ml" 35 1397 1403 "completion/order.ml" 35 1397 1421
+type(
+  ('a * 'b) list
+)
+"completion/order.ml" 36 1425 1439 "completion/order.ml" 36 1425 1442
+type(
+  'a -> 'b -> ord
+)
+ident(
+  int_ref cmp "completion/order.ml" 32 1321 1335 "completion/order.ml" 32 1321 1338
+)
+"completion/order.ml" 36 1425 1443 "completion/order.ml" 36 1425 1444
+type(
+  'a
+)
+ident(
+  int_ref l "completion/order.ml" 35 1397 1405 "completion/order.ml" 35 1397 1406
+)
+"completion/order.ml" 36 1425 1445 "completion/order.ml" 36 1425 1446
+type(
+  'b
+)
+ident(
+  int_ref r "completion/order.ml" 35 1397 1407 "completion/order.ml" 35 1397 1408
+)
+"completion/order.ml" 36 1425 1439 "completion/order.ml" 36 1425 1446
+call(
+  stack
+)
+type(
+  ord
+)
+"completion/order.ml" 37 1452 1464 "completion/order.ml" 37 1452 1471
+type(
+  ord
+)
+"completion/order.ml" 37 1452 1475 "completion/order.ml" 37 1452 1478
+type(
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+ident(
+  int_ref aux "completion/order.ml" 33 1341 1351 "completion/order.ml" 33 1341 1354
+)
+"completion/order.ml" 37 1452 1480 "completion/order.ml" 37 1452 1481
+type(
+  'a * 'b
+)
+ident(
+  int_ref x "completion/order.ml" 35 1397 1403 "completion/order.ml" 35 1397 1415
+)
+"completion/order.ml" 37 1452 1483 "completion/order.ml" 37 1452 1484
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref g "completion/order.ml" 33 1341 1355 "completion/order.ml" 33 1341 1356
+)
+"completion/order.ml" 37 1452 1479 "completion/order.ml" 37 1452 1485
+type(
+  ('a * 'b) list
+)
+"completion/order.ml" 37 1452 1486 "completion/order.ml" 37 1452 1487
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref e "completion/order.ml" 33 1341 1357 "completion/order.ml" 33 1341 1358
+)
+"completion/order.ml" 37 1452 1488 "completion/order.ml" 37 1452 1489
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref s "completion/order.ml" 33 1341 1359 "completion/order.ml" 33 1341 1360
+)
+"completion/order.ml" 37 1452 1490 "completion/order.ml" 37 1452 1491
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref u "completion/order.ml" 33 1341 1361 "completion/order.ml" 33 1341 1362
+)
+"completion/order.ml" 37 1452 1492 "completion/order.ml" 37 1452 1494
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref xs "completion/order.ml" 35 1397 1419 "completion/order.ml" 35 1397 1421
+)
+"completion/order.ml" 37 1452 1475 "completion/order.ml" 37 1452 1494
+call(
+  tail
+)
+type(
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+"completion/order.ml" 38 1495 1507 "completion/order.ml" 38 1495 1512
+type(
+  ord
+)
+"completion/order.ml" 38 1495 1516 "completion/order.ml" 38 1495 1519
+type(
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+ident(
+  int_ref aux "completion/order.ml" 33 1341 1351 "completion/order.ml" 33 1341 1354
+)
+"completion/order.ml" 38 1495 1520 "completion/order.ml" 38 1495 1521
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref g "completion/order.ml" 33 1341 1355 "completion/order.ml" 33 1341 1356
+)
+"completion/order.ml" 38 1495 1523 "completion/order.ml" 38 1495 1524
+type(
+  'a * 'b
+)
+ident(
+  int_ref x "completion/order.ml" 35 1397 1403 "completion/order.ml" 35 1397 1415
+)
+"completion/order.ml" 38 1495 1526 "completion/order.ml" 38 1495 1527
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref e "completion/order.ml" 33 1341 1357 "completion/order.ml" 33 1341 1358
+)
+"completion/order.ml" 38 1495 1522 "completion/order.ml" 38 1495 1528
+type(
+  ('a * 'b) list
+)
+"completion/order.ml" 38 1495 1529 "completion/order.ml" 38 1495 1530
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref s "completion/order.ml" 33 1341 1359 "completion/order.ml" 33 1341 1360
+)
+"completion/order.ml" 38 1495 1531 "completion/order.ml" 38 1495 1532
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref u "completion/order.ml" 33 1341 1361 "completion/order.ml" 33 1341 1362
+)
+"completion/order.ml" 38 1495 1533 "completion/order.ml" 38 1495 1535
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref xs "completion/order.ml" 35 1397 1419 "completion/order.ml" 35 1397 1421
+)
+"completion/order.ml" 38 1495 1516 "completion/order.ml" 38 1495 1535
+call(
+  tail
+)
+type(
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+"completion/order.ml" 39 1536 1548 "completion/order.ml" 39 1536 1555
+type(
+  ord
+)
+"completion/order.ml" 39 1536 1559 "completion/order.ml" 39 1536 1562
+type(
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+ident(
+  int_ref aux "completion/order.ml" 33 1341 1351 "completion/order.ml" 33 1341 1354
+)
+"completion/order.ml" 39 1536 1563 "completion/order.ml" 39 1536 1564
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref g "completion/order.ml" 33 1341 1355 "completion/order.ml" 33 1341 1356
+)
+"completion/order.ml" 39 1536 1565 "completion/order.ml" 39 1536 1566
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref e "completion/order.ml" 33 1341 1357 "completion/order.ml" 33 1341 1358
+)
+"completion/order.ml" 39 1536 1568 "completion/order.ml" 39 1536 1569
+type(
+  'a * 'b
+)
+ident(
+  int_ref x "completion/order.ml" 35 1397 1403 "completion/order.ml" 35 1397 1415
+)
+"completion/order.ml" 39 1536 1571 "completion/order.ml" 39 1536 1572
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref s "completion/order.ml" 33 1341 1359 "completion/order.ml" 33 1341 1360
+)
+"completion/order.ml" 39 1536 1567 "completion/order.ml" 39 1536 1573
+type(
+  ('a * 'b) list
+)
+"completion/order.ml" 39 1536 1574 "completion/order.ml" 39 1536 1575
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref u "completion/order.ml" 33 1341 1361 "completion/order.ml" 33 1341 1362
+)
+"completion/order.ml" 39 1536 1576 "completion/order.ml" 39 1536 1578
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref xs "completion/order.ml" 35 1397 1419 "completion/order.ml" 35 1397 1421
+)
+"completion/order.ml" 39 1536 1559 "completion/order.ml" 39 1536 1578
+call(
+  tail
+)
+type(
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+"completion/order.ml" 40 1579 1591 "completion/order.ml" 40 1579 1603
+type(
+  ord
+)
+"completion/order.ml" 40 1579 1607 "completion/order.ml" 40 1579 1610
+type(
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+ident(
+  int_ref aux "completion/order.ml" 33 1341 1351 "completion/order.ml" 33 1341 1354
+)
+"completion/order.ml" 40 1579 1611 "completion/order.ml" 40 1579 1612
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref g "completion/order.ml" 33 1341 1355 "completion/order.ml" 33 1341 1356
+)
+"completion/order.ml" 40 1579 1613 "completion/order.ml" 40 1579 1614
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref e "completion/order.ml" 33 1341 1357 "completion/order.ml" 33 1341 1358
+)
+"completion/order.ml" 40 1579 1615 "completion/order.ml" 40 1579 1616
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref s "completion/order.ml" 33 1341 1359 "completion/order.ml" 33 1341 1360
+)
+"completion/order.ml" 40 1579 1618 "completion/order.ml" 40 1579 1619
+type(
+  'a * 'b
+)
+ident(
+  int_ref x "completion/order.ml" 35 1397 1403 "completion/order.ml" 35 1397 1415
+)
+"completion/order.ml" 40 1579 1621 "completion/order.ml" 40 1579 1622
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref u "completion/order.ml" 33 1341 1361 "completion/order.ml" 33 1341 1362
+)
+"completion/order.ml" 40 1579 1617 "completion/order.ml" 40 1579 1623
+type(
+  ('a * 'b) list
+)
+"completion/order.ml" 40 1579 1624 "completion/order.ml" 40 1579 1626
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref xs "completion/order.ml" 35 1397 1419 "completion/order.ml" 35 1397 1421
+)
+"completion/order.ml" 40 1579 1607 "completion/order.ml" 40 1579 1626
+call(
+  tail
+)
+type(
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+"completion/order.ml" 36 1425 1433 "completion/order.ml" 40 1579 1626
+type(
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+"completion/order.ml" 33 1341 1365 "completion/order.ml" 40 1579 1626
+type(
+  ('a * 'b) list ->
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+"completion/order.ml" 41 1627 1632 "completion/order.ml" 41 1627 1635
+type(
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list ->
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+ident(
+  int_ref aux "completion/order.ml" 33 1341 1351 "completion/order.ml" 33 1341 1354
+)
+"completion/order.ml" 41 1627 1636 "completion/order.ml" 41 1627 1638
+type(
+  ('a * 'b) list
+)
+"completion/order.ml" 41 1627 1639 "completion/order.ml" 41 1627 1641
+type(
+  ('a * 'b) list
+)
+"completion/order.ml" 41 1627 1642 "completion/order.ml" 41 1627 1644
+type(
+  ('a * 'b) list
+)
+"completion/order.ml" 41 1627 1645 "completion/order.ml" 41 1627 1647
+type(
+  ('a * 'b) list
+)
+"completion/order.ml" 41 1627 1632 "completion/order.ml" 41 1627 1647
+call(
+  tail
+)
+type(
+  ('a * 'b) list ->
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+"completion/order.ml" 33 1341 1343 "completion/order.ml" 41 1627 1647
+type(
+  ('a * 'b) list ->
+  ('a * 'b) list * ('a * 'b) list * ('a * 'b) list * ('a * 'b) list
+)
+"completion/order.ml" 46 1682 1686 "completion/order.ml" 46 1682 1689
+type(
+  ord -> ord
+)
+ident(
+  def opp "completion/order.ml" 52 1788 1788 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 47 1701 1705 "completion/order.ml" 47 1701 1712
+type(
+  ord
+)
+"completion/order.ml" 47 1701 1716 "completion/order.ml" 47 1701 1723
+type(
+  ord
+)
+"completion/order.ml" 48 1724 1728 "completion/order.ml" 48 1724 1735
+type(
+  ord
+)
+"completion/order.ml" 48 1724 1739 "completion/order.ml" 48 1724 1746
+type(
+  ord
+)
+"completion/order.ml" 49 1747 1752 "completion/order.ml" 49 1747 1757
+type(
+  ord
+)
+"completion/order.ml" 49 1747 1760 "completion/order.ml" 49 1747 1772
+type(
+  ord
+)
+"completion/order.ml" 49 1747 1751 "completion/order.ml" 49 1747 1773
+type(
+  ord
+)
+"completion/order.ml" 49 1747 1777 "completion/order.ml" 49 1747 1778
+ident(
+  def x "completion/order.ml" 49 1747 1782 "completion/order.ml" 49 1747 1783
+)
+"completion/order.ml" 49 1747 1751 "completion/order.ml" 49 1747 1778
+type(
+  ord
+)
+"completion/order.ml" 49 1747 1782 "completion/order.ml" 49 1747 1783
+type(
+  ord
+)
+ident(
+  int_ref x "completion/order.ml" 49 1747 1751 "completion/order.ml" 49 1747 1778
+)
+"completion/order.ml" 46 1682 1692 "completion/order.ml" 49 1747 1783
+type(
+  ord -> ord
+)
+"completion/order.ml" 52 1788 1792 "completion/order.ml" 52 1788 1794
+type(
+  ord -> bool
+)
+ident(
+  def ge "completion/order.ml" 57 1874 1874 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 53 1806 1810 "completion/order.ml" 53 1806 1817
+type(
+  ord
+)
+"completion/order.ml" 53 1806 1820 "completion/order.ml" 53 1806 1825
+type(
+  ord
+)
+"completion/order.ml" 53 1806 1810 "completion/order.ml" 53 1806 1825
+type(
+  ord
+)
+"completion/order.ml" 53 1806 1829 "completion/order.ml" 53 1806 1833
+type(
+  bool
+)
+"completion/order.ml" 54 1834 1838 "completion/order.ml" 54 1834 1845
+type(
+  ord
+)
+"completion/order.ml" 54 1834 1848 "completion/order.ml" 54 1834 1860
+type(
+  ord
+)
+"completion/order.ml" 54 1834 1838 "completion/order.ml" 54 1834 1860
+type(
+  ord
+)
+"completion/order.ml" 54 1834 1864 "completion/order.ml" 54 1834 1869
+type(
+  bool
+)
+"completion/order.ml" 52 1788 1797 "completion/order.ml" 54 1834 1869
+type(
+  ord -> bool
+)
+"completion/order.ml" 57 1874 1878 "completion/order.ml" 57 1874 1880
+type(
+  ord -> bool
+)
+ident(
+  def le "completion/order.ml" 62 1960 1960 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 58 1892 1896 "completion/order.ml" 58 1892 1903
+type(
+  ord
+)
+"completion/order.ml" 58 1892 1906 "completion/order.ml" 58 1892 1911
+type(
+  ord
+)
+"completion/order.ml" 58 1892 1896 "completion/order.ml" 58 1892 1911
+type(
+  ord
+)
+"completion/order.ml" 58 1892 1915 "completion/order.ml" 58 1892 1919
+type(
+  bool
+)
+"completion/order.ml" 59 1920 1924 "completion/order.ml" 59 1920 1931
+type(
+  ord
+)
+"completion/order.ml" 59 1920 1934 "completion/order.ml" 59 1920 1946
+type(
+  ord
+)
+"completion/order.ml" 59 1920 1924 "completion/order.ml" 59 1920 1946
+type(
+  ord
+)
+"completion/order.ml" 59 1920 1950 "completion/order.ml" 59 1920 1955
+type(
+  bool
+)
+"completion/order.ml" 57 1874 1883 "completion/order.ml" 59 1920 1955
+type(
+  ord -> bool
+)
+"completion/order.ml" 62 1960 1964 "completion/order.ml" 62 1960 1968
+type(
+  ord -> ord -> ord
+)
+ident(
+  def comp "completion/order.ml" 76 2424 2424 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 62 1960 1969 "completion/order.ml" 62 1960 1971
+type(
+  ord
+)
+ident(
+  def o1 "completion/order.ml" 62 1960 1972 "completion/order.ml" 73 2398 2419
+)
+"completion/order.ml" 62 1960 1972 "completion/order.ml" 62 1960 1974
+type(
+  ord
+)
+ident(
+  def o2 "completion/order.ml" 63 1977 1979 "completion/order.ml" 73 2398 2419
+)
+"completion/order.ml" 63 1977 1985 "completion/order.ml" 63 1977 1987
+type(
+  ord
+)
+ident(
+  int_ref o1 "completion/order.ml" 62 1960 1969 "completion/order.ml" 62 1960 1971
+)
+"completion/order.ml" 63 1977 1989 "completion/order.ml" 63 1977 1991
+type(
+  ord
+)
+ident(
+  int_ref o2 "completion/order.ml" 62 1960 1972 "completion/order.ml" 62 1960 1974
+)
+"completion/order.ml" 63 1977 1985 "completion/order.ml" 63 1977 1991
+type(
+  ord * ord
+)
+"completion/order.ml" 64 1997 2003 "completion/order.ml" 64 1997 2010
+type(
+  ord
+)
+"completion/order.ml" 64 1997 2012 "completion/order.ml" 64 1997 2019
+type(
+  ord
+)
+"completion/order.ml" 64 1997 2003 "completion/order.ml" 64 1997 2019
+type(
+  ord * ord
+)
+"completion/order.ml" 64 1997 2022 "completion/order.ml" 64 1997 2029
+type(
+  ord
+)
+"completion/order.ml" 64 1997 2031 "completion/order.ml" 64 1997 2036
+type(
+  ord
+)
+"completion/order.ml" 64 1997 2022 "completion/order.ml" 64 1997 2036
+type(
+  ord * ord
+)
+"completion/order.ml" 64 1997 2003 "completion/order.ml" 64 1997 2036
+type(
+  ord * ord
+)
+"completion/order.ml" 64 1997 2039 "completion/order.ml" 64 1997 2044
+type(
+  ord
+)
+"completion/order.ml" 64 1997 2046 "completion/order.ml" 64 1997 2053
+type(
+  ord
+)
+"completion/order.ml" 64 1997 2039 "completion/order.ml" 64 1997 2053
+type(
+  ord * ord
+)
+"completion/order.ml" 64 1997 2003 "completion/order.ml" 64 1997 2053
+type(
+  ord * ord
+)
+"completion/order.ml" 65 2054 2063 "completion/order.ml" 65 2054 2070
+type(
+  ord
+)
+"completion/order.ml" 66 2071 2077 "completion/order.ml" 66 2071 2082
+type(
+  ord
+)
+"completion/order.ml" 66 2071 2084 "completion/order.ml" 66 2071 2089
+type(
+  ord
+)
+"completion/order.ml" 66 2071 2077 "completion/order.ml" 66 2071 2089
+type(
+  ord * ord
+)
+"completion/order.ml" 67 2090 2099 "completion/order.ml" 67 2090 2104
+type(
+  ord
+)
+"completion/order.ml" 68 2105 2111 "completion/order.ml" 68 2105 2118
+type(
+  ord
+)
+"completion/order.ml" 68 2105 2120 "completion/order.ml" 68 2105 2127
+type(
+  ord
+)
+"completion/order.ml" 68 2105 2111 "completion/order.ml" 68 2105 2127
+type(
+  ord * ord
+)
+"completion/order.ml" 68 2105 2130 "completion/order.ml" 68 2105 2137
+type(
+  ord
+)
+"completion/order.ml" 68 2105 2139 "completion/order.ml" 68 2105 2144
+type(
+  ord
+)
+"completion/order.ml" 68 2105 2130 "completion/order.ml" 68 2105 2144
+type(
+  ord * ord
+)
+"completion/order.ml" 68 2105 2111 "completion/order.ml" 68 2105 2144
+type(
+  ord * ord
+)
+"completion/order.ml" 68 2105 2147 "completion/order.ml" 68 2105 2152
+type(
+  ord
+)
+"completion/order.ml" 68 2105 2154 "completion/order.ml" 68 2105 2161
+type(
+  ord
+)
+"completion/order.ml" 68 2105 2147 "completion/order.ml" 68 2105 2161
+type(
+  ord * ord
+)
+"completion/order.ml" 68 2105 2111 "completion/order.ml" 68 2105 2161
+type(
+  ord * ord
+)
+"completion/order.ml" 69 2162 2171 "completion/order.ml" 69 2162 2178
+type(
+  ord
+)
+"completion/order.ml" 70 2179 2185 "completion/order.ml" 70 2179 2192
+type(
+  ord
+)
+"completion/order.ml" 70 2179 2194 "completion/order.ml" 70 2179 2201
+type(
+  ord
+)
+"completion/order.ml" 70 2179 2185 "completion/order.ml" 70 2179 2201
+type(
+  ord * ord
+)
+"completion/order.ml" 70 2179 2204 "completion/order.ml" 70 2179 2211
+type(
+  ord
+)
+"completion/order.ml" 70 2179 2213 "completion/order.ml" 70 2179 2220
+type(
+  ord
+)
+"completion/order.ml" 70 2179 2204 "completion/order.ml" 70 2179 2220
+type(
+  ord * ord
+)
+"completion/order.ml" 70 2179 2185 "completion/order.ml" 70 2179 2220
+type(
+  ord * ord
+)
+"completion/order.ml" 70 2179 2223 "completion/order.ml" 70 2179 2235
+type(
+  ord
+)
+"completion/order.ml" 70 2179 2237 "completion/order.ml" 70 2179 2249
+type(
+  ord
+)
+"completion/order.ml" 70 2179 2223 "completion/order.ml" 70 2179 2249
+type(
+  ord * ord
+)
+"completion/order.ml" 70 2179 2185 "completion/order.ml" 70 2179 2249
+type(
+  ord * ord
+)
+"completion/order.ml" 71 2250 2256 "completion/order.ml" 71 2250 2268
+type(
+  ord
+)
+"completion/order.ml" 71 2250 2270 "completion/order.ml" 71 2250 2277
+type(
+  ord
+)
+"completion/order.ml" 71 2250 2256 "completion/order.ml" 71 2250 2277
+type(
+  ord * ord
+)
+"completion/order.ml" 70 2179 2185 "completion/order.ml" 71 2250 2277
+type(
+  ord * ord
+)
+"completion/order.ml" 71 2250 2280 "completion/order.ml" 71 2250 2292
+type(
+  ord
+)
+"completion/order.ml" 71 2250 2294 "completion/order.ml" 71 2250 2299
+type(
+  ord
+)
+"completion/order.ml" 71 2250 2280 "completion/order.ml" 71 2250 2299
+type(
+  ord * ord
+)
+"completion/order.ml" 70 2179 2185 "completion/order.ml" 71 2250 2299
+type(
+  ord * ord
+)
+"completion/order.ml" 71 2250 2302 "completion/order.ml" 71 2250 2314
+type(
+  ord
+)
+"completion/order.ml" 71 2250 2316 "completion/order.ml" 71 2250 2323
+type(
+  ord
+)
+"completion/order.ml" 71 2250 2302 "completion/order.ml" 71 2250 2323
+type(
+  ord * ord
+)
+"completion/order.ml" 70 2179 2185 "completion/order.ml" 71 2250 2323
+type(
+  ord * ord
+)
+"completion/order.ml" 72 2324 2330 "completion/order.ml" 72 2324 2337
+type(
+  ord
+)
+"completion/order.ml" 72 2324 2339 "completion/order.ml" 72 2324 2351
+type(
+  ord
+)
+"completion/order.ml" 72 2324 2330 "completion/order.ml" 72 2324 2351
+type(
+  ord * ord
+)
+"completion/order.ml" 70 2179 2185 "completion/order.ml" 72 2324 2351
+type(
+  ord * ord
+)
+"completion/order.ml" 72 2324 2354 "completion/order.ml" 72 2324 2359
+type(
+  ord
+)
+"completion/order.ml" 72 2324 2361 "completion/order.ml" 72 2324 2373
+type(
+  ord
+)
+"completion/order.ml" 72 2324 2354 "completion/order.ml" 72 2324 2373
+type(
+  ord * ord
+)
+"completion/order.ml" 70 2179 2185 "completion/order.ml" 72 2324 2373
+type(
+  ord * ord
+)
+"completion/order.ml" 72 2324 2376 "completion/order.ml" 72 2324 2383
+type(
+  ord
+)
+"completion/order.ml" 72 2324 2385 "completion/order.ml" 72 2324 2397
+type(
+  ord
+)
+"completion/order.ml" 72 2324 2376 "completion/order.ml" 72 2324 2397
+type(
+  ord * ord
+)
+"completion/order.ml" 70 2179 2185 "completion/order.ml" 72 2324 2397
+type(
+  ord * ord
+)
+"completion/order.ml" 73 2398 2407 "completion/order.ml" 73 2398 2419
+type(
+  ord
+)
+"completion/order.ml" 63 1977 1979 "completion/order.ml" 73 2398 2419
+type(
+  ord
+)
+"completion/order.ml" 76 2424 2428 "completion/order.ml" 76 2424 2438
+type(
+  ord -> int
+)
+ident(
+  def int_of_ord "completion/order.ml" 82 2561 2561 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 77 2450 2454 "completion/order.ml" 77 2450 2461
+type(
+  ord
+)
+"completion/order.ml" 77 2450 2465 "completion/order.ml" 77 2450 2466
+type(
+  int
+)
+"completion/order.ml" 78 2467 2471 "completion/order.ml" 78 2467 2476
+type(
+  ord
+)
+"completion/order.ml" 78 2467 2480 "completion/order.ml" 78 2467 2481
+type(
+  int
+)
+"completion/order.ml" 79 2482 2486 "completion/order.ml" 79 2482 2493
+type(
+  ord
+)
+"completion/order.ml" 79 2482 2497 "completion/order.ml" 79 2482 2499
+type(
+  int
+)
+"completion/order.ml" 80 2500 2504 "completion/order.ml" 80 2500 2516
+type(
+  ord
+)
+"completion/order.ml" 80 2500 2520 "completion/order.ml" 80 2500 2525
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"completion/order.ml" 80 2500 2544 "completion/order.ml" 80 2500 2556
+type(
+  string
+)
+"completion/order.ml" 80 2500 2526 "completion/order.ml" 80 2500 2557
+type(
+  exn
+)
+"completion/order.ml" 80 2500 2520 "completion/order.ml" 80 2500 2557
+type(
+  int
+)
+"completion/order.ml" 76 2424 2441 "completion/order.ml" 80 2500 2557
+type(
+  ord -> int
+)
+"completion/order.ml" 82 2561 2565 "completion/order.ml" 82 2561 2570
+type(
+  bool -> ord
+)
+ident(
+  def gt_if "completion/order.ml" 87 2632 2632 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 83 2582 2586 "completion/order.ml" 83 2582 2590
+type(
+  bool
+)
+"completion/order.ml" 83 2582 2594 "completion/order.ml" 83 2582 2601
+type(
+  ord
+)
+"completion/order.ml" 84 2602 2606 "completion/order.ml" 84 2602 2611
+type(
+  bool
+)
+"completion/order.ml" 84 2602 2615 "completion/order.ml" 84 2602 2627
+type(
+  ord
+)
+"completion/order.ml" 82 2561 2573 "completion/order.ml" 84 2602 2627
+type(
+  bool -> ord
+)
+"completion/order.ml" 87 2632 2636 "completion/order.ml" 87 2632 2641
+type(
+  bool -> ord
+)
+ident(
+  def lt_if "completion/order.ml" 92 2703 2703 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 88 2653 2657 "completion/order.ml" 88 2653 2661
+type(
+  bool
+)
+"completion/order.ml" 88 2653 2665 "completion/order.ml" 88 2653 2672
+type(
+  ord
+)
+"completion/order.ml" 89 2673 2677 "completion/order.ml" 89 2673 2682
+type(
+  bool
+)
+"completion/order.ml" 89 2673 2686 "completion/order.ml" 89 2673 2698
+type(
+  ord
+)
+"completion/order.ml" 87 2632 2644 "completion/order.ml" 89 2673 2698
+type(
+  bool -> ord
+)
+"completion/order.ml" 92 2703 2707 "completion/order.ml" 92 2703 2712
+type(
+  bool -> ord
+)
+ident(
+  def eq_if "completion/order.ml" 99 2818 2818 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 93 2724 2728 "completion/order.ml" 93 2724 2732
+type(
+  bool
+)
+"completion/order.ml" 93 2724 2736 "completion/order.ml" 93 2724 2741
+type(
+  ord
+)
+"completion/order.ml" 94 2742 2746 "completion/order.ml" 94 2742 2751
+type(
+  bool
+)
+"completion/order.ml" 94 2742 2755 "completion/order.ml" 94 2742 2767
+type(
+  ord
+)
+"completion/order.ml" 92 2703 2715 "completion/order.ml" 94 2742 2767
+type(
+  bool -> ord
+)
+"completion/order.ml" 99 2818 2822 "completion/order.ml" 99 2818 2825
+type(
+  ('a -> 'b -> ord) -> 'a list -> 'b list -> ord
+)
+ident(
+  def lex "completion/order.ml" 114 3201 3201 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 99 2818 2826 "completion/order.ml" 99 2818 2829
+type(
+  'a -> 'b -> ord
+)
+ident(
+  def cmp "completion/order.ml" 100 2832 2834 "completion/order.ml" 108 3083 3091
+)
+"completion/order.ml" 100 2832 2842 "completion/order.ml" 100 2832 2845
+type(
+  'a list -> 'b list -> ord
+)
+ident(
+  def aux "completion/order.ml" 100 2832 2834 "completion/order.ml" 108 3083 3091
+)
+"completion/order.ml" 100 2832 2846 "completion/order.ml" 100 2832 2848
+type(
+  'a list
+)
+ident(
+  def xs "completion/order.ml" 100 2832 2849 "completion/order.ml" 107 3057 3082
+)
+"completion/order.ml" 100 2832 2849 "completion/order.ml" 100 2832 2851
+type(
+  'b list
+)
+ident(
+  def ys "completion/order.ml" 101 2854 2858 "completion/order.ml" 107 3057 3082
+)
+"completion/order.ml" 101 2854 2864 "completion/order.ml" 101 2854 2866
+type(
+  'a list
+)
+ident(
+  int_ref xs "completion/order.ml" 100 2832 2846 "completion/order.ml" 100 2832 2848
+)
+"completion/order.ml" 101 2854 2868 "completion/order.ml" 101 2854 2870
+type(
+  'b list
+)
+ident(
+  int_ref ys "completion/order.ml" 100 2832 2849 "completion/order.ml" 100 2832 2851
+)
+"completion/order.ml" 101 2854 2864 "completion/order.ml" 101 2854 2870
+type(
+  'a list * 'b list
+)
+"completion/order.ml" 102 2876 2884 "completion/order.ml" 102 2876 2886
+type(
+  'a list
+)
+"completion/order.ml" 102 2876 2888 "completion/order.ml" 102 2876 2890
+type(
+  'b list
+)
+"completion/order.ml" 102 2876 2884 "completion/order.ml" 102 2876 2890
+type(
+  'a list * 'b list
+)
+"completion/order.ml" 102 2876 2894 "completion/order.ml" 102 2876 2899
+type(
+  ord
+)
+"completion/order.ml" 103 2900 2908 "completion/order.ml" 103 2900 2909
+type(
+  'a
+)
+ident(
+  def x "completion/order.ml" 104 2930 2940 "completion/order.ml" 106 2996 3056
+)
+"completion/order.ml" 103 2900 2913 "completion/order.ml" 103 2900 2916
+type(
+  'a list
+)
+ident(
+  def xs2 "completion/order.ml" 104 2930 2940 "completion/order.ml" 106 2996 3056
+)
+"completion/order.ml" 103 2900 2908 "completion/order.ml" 103 2900 2916
+type(
+  'a list
+)
+"completion/order.ml" 103 2900 2918 "completion/order.ml" 103 2900 2919
+type(
+  'b
+)
+ident(
+  def y "completion/order.ml" 104 2930 2940 "completion/order.ml" 106 2996 3056
+)
+"completion/order.ml" 103 2900 2923 "completion/order.ml" 103 2900 2926
+type(
+  'b list
+)
+ident(
+  def ys2 "completion/order.ml" 104 2930 2940 "completion/order.ml" 106 2996 3056
+)
+"completion/order.ml" 103 2900 2918 "completion/order.ml" 103 2900 2926
+type(
+  'b list
+)
+"completion/order.ml" 103 2900 2908 "completion/order.ml" 103 2900 2926
+type(
+  'a list * 'b list
+)
+"completion/order.ml" 104 2930 2947 "completion/order.ml" 104 2930 2950
+type(
+  'a -> 'b -> ord
+)
+ident(
+  int_ref cmp "completion/order.ml" 99 2818 2826 "completion/order.ml" 99 2818 2829
+)
+"completion/order.ml" 104 2930 2951 "completion/order.ml" 104 2930 2952
+type(
+  'a
+)
+ident(
+  int_ref x "completion/order.ml" 103 2900 2908 "completion/order.ml" 103 2900 2909
+)
+"completion/order.ml" 104 2930 2953 "completion/order.ml" 104 2930 2954
+type(
+  'b
+)
+ident(
+  int_ref y "completion/order.ml" 103 2900 2918 "completion/order.ml" 103 2900 2919
+)
+"completion/order.ml" 104 2930 2947 "completion/order.ml" 104 2930 2954
+call(
+  stack
+)
+type(
+  ord
+)
+"completion/order.ml" 105 2960 2975 "completion/order.ml" 105 2960 2980
+type(
+  ord
+)
+"completion/order.ml" 105 2960 2984 "completion/order.ml" 105 2960 2987
+type(
+  'a list -> 'b list -> ord
+)
+ident(
+  int_ref aux "completion/order.ml" 100 2832 2842 "completion/order.ml" 100 2832 2845
+)
+"completion/order.ml" 105 2960 2988 "completion/order.ml" 105 2960 2991
+type(
+  'a list
+)
+ident(
+  int_ref xs2 "completion/order.ml" 103 2900 2913 "completion/order.ml" 103 2900 2916
+)
+"completion/order.ml" 105 2960 2992 "completion/order.ml" 105 2960 2995
+type(
+  'b list
+)
+ident(
+  int_ref ys2 "completion/order.ml" 103 2900 2923 "completion/order.ml" 103 2900 2926
+)
+"completion/order.ml" 105 2960 2984 "completion/order.ml" 105 2960 2995
+call(
+  tail
+)
+type(
+  ord
+)
+"completion/order.ml" 106 2996 3012 "completion/order.ml" 106 2996 3019
+type(
+  ord
+)
+"completion/order.ml" 106 2996 3022 "completion/order.ml" 106 2996 3029
+type(
+  ord
+)
+"completion/order.ml" 106 2996 3012 "completion/order.ml" 106 2996 3029
+type(
+  ord
+)
+"completion/order.ml" 106 2996 3032 "completion/order.ml" 106 2996 3044
+type(
+  ord
+)
+"completion/order.ml" 106 2996 3011 "completion/order.ml" 106 2996 3045
+type(
+  ord
+)
+"completion/order.ml" 106 2996 3049 "completion/order.ml" 106 2996 3050
+ident(
+  def n "completion/order.ml" 106 2996 3054 "completion/order.ml" 106 2996 3055
+)
+"completion/order.ml" 106 2996 3011 "completion/order.ml" 106 2996 3050
+type(
+  ord
+)
+"completion/order.ml" 106 2996 3054 "completion/order.ml" 106 2996 3055
+type(
+  ord
+)
+ident(
+  int_ref n "completion/order.ml" 106 2996 3011 "completion/order.ml" 106 2996 3050
+)
+"completion/order.ml" 104 2930 2940 "completion/order.ml" 106 2996 3056
+type(
+  ord
+)
+"completion/order.ml" 107 3057 3065 "completion/order.ml" 107 3057 3066
+type(
+  'a list * 'b list
+)
+"completion/order.ml" 107 3057 3070 "completion/order.ml" 107 3057 3082
+type(
+  ord
+)
+"completion/order.ml" 101 2854 2858 "completion/order.ml" 107 3057 3082
+type(
+  ord
+)
+"completion/order.ml" 108 3083 3088 "completion/order.ml" 108 3083 3091
+type(
+  'a list -> 'b list -> ord
+)
+ident(
+  int_ref aux "completion/order.ml" 100 2832 2842 "completion/order.ml" 100 2832 2845
+)
+"completion/order.ml" 100 2832 2834 "completion/order.ml" 108 3083 3091
+type(
+  'a list -> 'b list -> ord
+)
+"completion/order.ml" 114 3201 3205 "completion/order.ml" 114 3201 3208
+type(
+  ('a -> 'a -> ord) -> 'a list -> 'a list -> ord
+)
+ident(
+  def mul "completion/order.ml" 146 3941 3941 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 114 3201 3209 "completion/order.ml" 114 3201 3212
+type(
+  'a -> 'a -> ord
+)
+ident(
+  def cmp "completion/order.ml" 115 3215 3217 "completion/order.ml" 141 3893 3901
+)
+"completion/order.ml" 115 3215 3225 "completion/order.ml" 115 3215 3228
+type(
+  'a list -> 'a -> 'a list
+)
+ident(
+  def rem "completion/order.ml" 115 3215 3217 "completion/order.ml" 141 3893 3901
+)
+"completion/order.ml" 115 3215 3229 "completion/order.ml" 115 3215 3231
+type(
+  'a list
+)
+ident(
+  def xs "completion/order.ml" 115 3215 3232 "completion/order.ml" 121 3337 3397
+)
+"completion/order.ml" 115 3215 3232 "completion/order.ml" 115 3215 3233
+type(
+  'a
+)
+ident(
+  def y "completion/order.ml" 116 3236 3240 "completion/order.ml" 121 3337 3397
+)
+"completion/order.ml" 116 3236 3246 "completion/order.ml" 116 3236 3248
+type(
+  'a list
+)
+ident(
+  int_ref xs "completion/order.ml" 115 3215 3229 "completion/order.ml" 115 3215 3231
+)
+"completion/order.ml" 117 3254 3260 "completion/order.ml" 117 3254 3262
+type(
+  'a list
+)
+"completion/order.ml" 117 3254 3266 "completion/order.ml" 117 3254 3268
+type(
+  'a list
+)
+ident(
+  int_ref xs "completion/order.ml" 115 3215 3229 "completion/order.ml" 115 3215 3231
+)
+"completion/order.ml" 118 3269 3275 "completion/order.ml" 118 3269 3276
+type(
+  'a
+)
+ident(
+  def x "completion/order.ml" 119 3287 3295 "completion/order.ml" 121 3337 3397
+)
+"completion/order.ml" 118 3269 3280 "completion/order.ml" 118 3269 3283
+type(
+  'a list
+)
+ident(
+  def xs1 "completion/order.ml" 119 3287 3295 "completion/order.ml" 121 3337 3397
+)
+"completion/order.ml" 118 3269 3275 "completion/order.ml" 118 3269 3283
+type(
+  'a list
+)
+"completion/order.ml" 119 3287 3301 "completion/order.ml" 119 3287 3304
+type(
+  'a -> 'a -> ord
+)
+ident(
+  int_ref cmp "completion/order.ml" 114 3201 3209 "completion/order.ml" 114 3201 3212
+)
+"completion/order.ml" 119 3287 3305 "completion/order.ml" 119 3287 3306
+type(
+  'a
+)
+ident(
+  int_ref x "completion/order.ml" 118 3269 3275 "completion/order.ml" 118 3269 3276
+)
+"completion/order.ml" 119 3287 3307 "completion/order.ml" 119 3287 3308
+type(
+  'a
+)
+ident(
+  int_ref y "completion/order.ml" 115 3215 3232 "completion/order.ml" 115 3215 3233
+)
+"completion/order.ml" 119 3287 3301 "completion/order.ml" 119 3287 3308
+call(
+  stack
+)
+type(
+  ord
+)
+"completion/order.ml" 120 3314 3324 "completion/order.ml" 120 3314 3329
+type(
+  ord
+)
+"completion/order.ml" 120 3314 3333 "completion/order.ml" 120 3314 3336
+type(
+  'a list
+)
+ident(
+  int_ref xs1 "completion/order.ml" 118 3269 3280 "completion/order.ml" 118 3269 3283
+)
+"completion/order.ml" 121 3337 3347 "completion/order.ml" 121 3337 3354
+type(
+  ord
+)
+"completion/order.ml" 121 3337 3357 "completion/order.ml" 121 3337 3364
+type(
+  ord
+)
+"completion/order.ml" 121 3337 3347 "completion/order.ml" 121 3337 3364
+type(
+  ord
+)
+"completion/order.ml" 121 3337 3367 "completion/order.ml" 121 3337 3379
+type(
+  ord
+)
+"completion/order.ml" 121 3337 3347 "completion/order.ml" 121 3337 3379
+type(
+  ord
+)
+"completion/order.ml" 121 3337 3383 "completion/order.ml" 121 3337 3384
+type(
+  'a
+)
+ident(
+  int_ref x "completion/order.ml" 118 3269 3275 "completion/order.ml" 118 3269 3276
+)
+"completion/order.ml" 121 3337 3388 "completion/order.ml" 121 3337 3391
+type(
+  'a list -> 'a -> 'a list
+)
+ident(
+  int_ref rem "completion/order.ml" 115 3215 3225 "completion/order.ml" 115 3215 3228
+)
+"completion/order.ml" 121 3337 3392 "completion/order.ml" 121 3337 3395
+type(
+  'a list
+)
+ident(
+  int_ref xs1 "completion/order.ml" 118 3269 3280 "completion/order.ml" 118 3269 3283
+)
+"completion/order.ml" 121 3337 3396 "completion/order.ml" 121 3337 3397
+type(
+  'a
+)
+ident(
+  int_ref y "completion/order.ml" 115 3215 3232 "completion/order.ml" 115 3215 3233
+)
+"completion/order.ml" 121 3337 3388 "completion/order.ml" 121 3337 3397
+call(
+  stack
+)
+type(
+  'a list
+)
+"completion/order.ml" 121 3337 3383 "completion/order.ml" 121 3337 3397
+type(
+  'a list
+)
+"completion/order.ml" 119 3287 3295 "completion/order.ml" 121 3337 3397
+type(
+  'a list
+)
+"completion/order.ml" 116 3236 3240 "completion/order.ml" 121 3337 3397
+type(
+  'a list
+)
+"completion/order.ml" 122 3401 3411 "completion/order.ml" 122 3401 3416
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def mdiff "completion/order.ml" 122 3401 3403 "completion/order.ml" 141 3893 3901
+)
+"completion/order.ml" 122 3401 3417 "completion/order.ml" 122 3401 3419
+type(
+  'a list
+)
+ident(
+  def xs "completion/order.ml" 122 3401 3420 "completion/order.ml" 126 3476 3504
+)
+"completion/order.ml" 122 3401 3420 "completion/order.ml" 122 3401 3422
+type(
+  'a list
+)
+ident(
+  def ys "completion/order.ml" 123 3425 3429 "completion/order.ml" 126 3476 3504
+)
+"completion/order.ml" 123 3425 3435 "completion/order.ml" 123 3425 3437
+type(
+  'a list
+)
+ident(
+  int_ref ys "completion/order.ml" 122 3401 3420 "completion/order.ml" 122 3401 3422
+)
+"completion/order.ml" 124 3443 3449 "completion/order.ml" 124 3443 3451
+type(
+  'a list
+)
+"completion/order.ml" 124 3443 3455 "completion/order.ml" 124 3443 3457
+type(
+  'a list
+)
+ident(
+  int_ref xs "completion/order.ml" 122 3401 3417 "completion/order.ml" 122 3401 3419
+)
+"completion/order.ml" 125 3458 3464 "completion/order.ml" 125 3458 3465
+type(
+  'a
+)
+ident(
+  def y "completion/order.ml" 126 3476 3484 "completion/order.ml" 126 3476 3504
+)
+"completion/order.ml" 125 3458 3469 "completion/order.ml" 125 3458 3472
+type(
+  'a list
+)
+ident(
+  def ys1 "completion/order.ml" 126 3476 3484 "completion/order.ml" 126 3476 3504
+)
+"completion/order.ml" 125 3458 3464 "completion/order.ml" 125 3458 3472
+type(
+  'a list
+)
+"completion/order.ml" 126 3476 3484 "completion/order.ml" 126 3476 3489
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref mdiff "completion/order.ml" 122 3401 3411 "completion/order.ml" 122 3401 3416
+)
+"completion/order.ml" 126 3476 3491 "completion/order.ml" 126 3476 3494
+type(
+  'a list -> 'a -> 'a list
+)
+ident(
+  int_ref rem "completion/order.ml" 115 3215 3225 "completion/order.ml" 115 3215 3228
+)
+"completion/order.ml" 126 3476 3495 "completion/order.ml" 126 3476 3497
+type(
+  'a list
+)
+ident(
+  int_ref xs "completion/order.ml" 122 3401 3417 "completion/order.ml" 122 3401 3419
+)
+"completion/order.ml" 126 3476 3498 "completion/order.ml" 126 3476 3499
+type(
+  'a
+)
+ident(
+  int_ref y "completion/order.ml" 125 3458 3464 "completion/order.ml" 125 3458 3465
+)
+"completion/order.ml" 126 3476 3490 "completion/order.ml" 126 3476 3500
+call(
+  stack
+)
+type(
+  'a list
+)
+"completion/order.ml" 126 3476 3501 "completion/order.ml" 126 3476 3504
+type(
+  'a list
+)
+ident(
+  int_ref ys1 "completion/order.ml" 125 3458 3469 "completion/order.ml" 125 3458 3472
+)
+"completion/order.ml" 126 3476 3484 "completion/order.ml" 126 3476 3504
+call(
+  tail
+)
+type(
+  'a list
+)
+"completion/order.ml" 123 3425 3429 "completion/order.ml" 126 3476 3504
+type(
+  'a list
+)
+"completion/order.ml" 127 3508 3514 "completion/order.ml" 127 3508 3528
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  def mul_is_greater "completion/order.ml" 130 3621 3623 "completion/order.ml" 141 3893 3901
+)
+"completion/order.ml" 127 3508 3529 "completion/order.ml" 127 3508 3531
+type(
+  'a list
+)
+ident(
+  def e1 "completion/order.ml" 127 3508 3532 "completion/order.ml" 129 3554 3617
+)
+"completion/order.ml" 127 3508 3532 "completion/order.ml" 127 3508 3534
+type(
+  'a list
+)
+ident(
+  def e2 "completion/order.ml" 128 3537 3541 "completion/order.ml" 129 3554 3617
+)
+"completion/order.ml" 128 3537 3541 "completion/order.ml" 128 3537 3553
+type(
+  ('a -> bool) -> 'a list -> bool
+)
+ident(
+  ext_ref List.for_all
+)
+"completion/order.ml" 129 3554 3565 "completion/order.ml" 129 3554 3566
+type(
+  'a
+)
+ident(
+  def n "completion/order.ml" 129 3554 3570 "completion/order.ml" 129 3554 3613
+)
+"completion/order.ml" 129 3554 3570 "completion/order.ml" 129 3554 3581
+type(
+  ('a -> bool) -> 'a list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"completion/order.ml" 129 3554 3587 "completion/order.ml" 129 3554 3588
+type(
+  'a
+)
+ident(
+  def m "completion/order.ml" 129 3554 3592 "completion/order.ml" 129 3554 3609
+)
+"completion/order.ml" 129 3554 3592 "completion/order.ml" 129 3554 3595
+type(
+  'a -> 'a -> ord
+)
+ident(
+  int_ref cmp "completion/order.ml" 114 3201 3209 "completion/order.ml" 114 3201 3212
+)
+"completion/order.ml" 129 3554 3596 "completion/order.ml" 129 3554 3597
+type(
+  'a
+)
+ident(
+  int_ref m "completion/order.ml" 129 3554 3587 "completion/order.ml" 129 3554 3588
+)
+"completion/order.ml" 129 3554 3598 "completion/order.ml" 129 3554 3599
+type(
+  'a
+)
+ident(
+  int_ref n "completion/order.ml" 129 3554 3565 "completion/order.ml" 129 3554 3566
+)
+"completion/order.ml" 129 3554 3592 "completion/order.ml" 129 3554 3599
+call(
+  stack
+)
+type(
+  ord
+)
+"completion/order.ml" 129 3554 3600 "completion/order.ml" 129 3554 3601
+type(
+  ord -> ord -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/order.ml" 129 3554 3602 "completion/order.ml" 129 3554 3609
+type(
+  ord
+)
+"completion/order.ml" 129 3554 3592 "completion/order.ml" 129 3554 3609
+type(
+  bool
+)
+"completion/order.ml" 129 3554 3582 "completion/order.ml" 129 3554 3610
+type(
+  'a -> bool
+)
+"completion/order.ml" 129 3554 3611 "completion/order.ml" 129 3554 3613
+type(
+  'a list
+)
+ident(
+  int_ref e1 "completion/order.ml" 127 3508 3529 "completion/order.ml" 127 3508 3531
+)
+"completion/order.ml" 129 3554 3570 "completion/order.ml" 129 3554 3613
+call(
+  tail
+)
+type(
+  bool
+)
+"completion/order.ml" 129 3554 3560 "completion/order.ml" 129 3554 3614
+type(
+  'a -> bool
+)
+"completion/order.ml" 129 3554 3615 "completion/order.ml" 129 3554 3617
+type(
+  'a list
+)
+ident(
+  int_ref e2 "completion/order.ml" 127 3508 3532 "completion/order.ml" 127 3508 3534
+)
+"completion/order.ml" 128 3537 3541 "completion/order.ml" 129 3554 3617
+call(
+  tail
+)
+type(
+  bool
+)
+"completion/order.ml" 130 3621 3627 "completion/order.ml" 130 3621 3630
+type(
+  'a list -> 'a list -> ord
+)
+ident(
+  def aux "completion/order.ml" 141 3893 3898 "completion/order.ml" 141 3893 3901
+)
+"completion/order.ml" 130 3621 3631 "completion/order.ml" 130 3621 3632
+type(
+  'a list
+)
+ident(
+  def m "completion/order.ml" 130 3621 3633 "completion/order.ml" 140 3865 3892
+)
+"completion/order.ml" 130 3621 3633 "completion/order.ml" 130 3621 3634
+type(
+  'a list
+)
+ident(
+  def n "completion/order.ml" 131 3637 3641 "completion/order.ml" 140 3865 3892
+)
+"completion/order.ml" 131 3637 3645 "completion/order.ml" 131 3637 3648
+type(
+  'a list
+)
+ident(
+  def n_m "completion/order.ml" 133 3688 3692 "completion/order.ml" 140 3865 3892
+)
+"completion/order.ml" 131 3637 3651 "completion/order.ml" 131 3637 3656
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref mdiff "completion/order.ml" 122 3401 3411 "completion/order.ml" 122 3401 3416
+)
+"completion/order.ml" 131 3637 3657 "completion/order.ml" 131 3637 3658
+type(
+  'a list
+)
+ident(
+  int_ref n "completion/order.ml" 130 3621 3633 "completion/order.ml" 130 3621 3634
+)
+"completion/order.ml" 131 3637 3659 "completion/order.ml" 131 3637 3660
+type(
+  'a list
+)
+ident(
+  int_ref m "completion/order.ml" 130 3621 3631 "completion/order.ml" 130 3621 3632
+)
+"completion/order.ml" 131 3637 3651 "completion/order.ml" 131 3637 3660
+call(
+  stack
+)
+type(
+  'a list
+)
+"completion/order.ml" 132 3661 3669 "completion/order.ml" 132 3661 3672
+type(
+  'a list
+)
+ident(
+  def m_n "completion/order.ml" 133 3688 3692 "completion/order.ml" 140 3865 3892
+)
+"completion/order.ml" 132 3661 3675 "completion/order.ml" 132 3661 3680
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref mdiff "completion/order.ml" 122 3401 3411 "completion/order.ml" 122 3401 3416
+)
+"completion/order.ml" 132 3661 3681 "completion/order.ml" 132 3661 3682
+type(
+  'a list
+)
+ident(
+  int_ref m "completion/order.ml" 130 3621 3631 "completion/order.ml" 130 3621 3632
+)
+"completion/order.ml" 132 3661 3683 "completion/order.ml" 132 3661 3684
+type(
+  'a list
+)
+ident(
+  int_ref n "completion/order.ml" 130 3621 3633 "completion/order.ml" 130 3621 3634
+)
+"completion/order.ml" 132 3661 3675 "completion/order.ml" 132 3661 3684
+call(
+  stack
+)
+type(
+  'a list
+)
+"completion/order.ml" 133 3688 3698 "completion/order.ml" 133 3688 3701
+type(
+  'a list
+)
+ident(
+  int_ref n_m "completion/order.ml" 131 3637 3645 "completion/order.ml" 131 3637 3648
+)
+"completion/order.ml" 133 3688 3703 "completion/order.ml" 133 3688 3706
+type(
+  'a list
+)
+ident(
+  int_ref m_n "completion/order.ml" 132 3661 3669 "completion/order.ml" 132 3661 3672
+)
+"completion/order.ml" 133 3688 3698 "completion/order.ml" 133 3688 3706
+type(
+  'a list * 'a list
+)
+"completion/order.ml" 134 3712 3718 "completion/order.ml" 134 3712 3720
+type(
+  'a list
+)
+"completion/order.ml" 134 3712 3722 "completion/order.ml" 134 3712 3724
+type(
+  'a list
+)
+"completion/order.ml" 134 3712 3718 "completion/order.ml" 134 3712 3724
+type(
+  'a list * 'a list
+)
+"completion/order.ml" 134 3712 3728 "completion/order.ml" 134 3712 3733
+type(
+  ord
+)
+"completion/order.ml" 135 3734 3740 "completion/order.ml" 135 3734 3741
+type(
+  'a list
+)
+"completion/order.ml" 135 3734 3743 "completion/order.ml" 135 3734 3744
+type(
+  'a list
+)
+"completion/order.ml" 135 3734 3740 "completion/order.ml" 135 3734 3744
+type(
+  'a list * 'a list
+)
+"completion/order.ml" 136 3748 3759 "completion/order.ml" 136 3748 3773
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  int_ref mul_is_greater "completion/order.ml" 127 3508 3514 "completion/order.ml" 127 3508 3528
+)
+"completion/order.ml" 136 3748 3774 "completion/order.ml" 136 3748 3777
+type(
+  'a list
+)
+ident(
+  int_ref m_n "completion/order.ml" 132 3661 3669 "completion/order.ml" 132 3661 3672
+)
+"completion/order.ml" 136 3748 3778 "completion/order.ml" 136 3748 3781
+type(
+  'a list
+)
+ident(
+  int_ref n_m "completion/order.ml" 131 3637 3645 "completion/order.ml" 131 3637 3648
+)
+"completion/order.ml" 136 3748 3759 "completion/order.ml" 136 3748 3781
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/order.ml" 137 3782 3795 "completion/order.ml" 137 3782 3802
+type(
+  ord
+)
+"completion/order.ml" 139 3816 3829 "completion/order.ml" 139 3816 3843
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  int_ref mul_is_greater "completion/order.ml" 127 3508 3514 "completion/order.ml" 127 3508 3528
+)
+"completion/order.ml" 139 3816 3844 "completion/order.ml" 139 3816 3847
+type(
+  'a list
+)
+ident(
+  int_ref n_m "completion/order.ml" 131 3637 3645 "completion/order.ml" 131 3637 3648
+)
+"completion/order.ml" 139 3816 3848 "completion/order.ml" 139 3816 3851
+type(
+  'a list
+)
+ident(
+  int_ref m_n "completion/order.ml" 132 3661 3669 "completion/order.ml" 132 3661 3672
+)
+"completion/order.ml" 139 3816 3829 "completion/order.ml" 139 3816 3851
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/order.ml" 139 3816 3857 "completion/order.ml" 139 3816 3864
+type(
+  ord
+)
+"completion/order.ml" 140 3865 3880 "completion/order.ml" 140 3865 3892
+type(
+  ord
+)
+"completion/order.ml" 139 3816 3826 "completion/order.ml" 140 3865 3892
+type(
+  ord
+)
+"completion/order.ml" 136 3748 3756 "completion/order.ml" 140 3865 3892
+type(
+  ord
+)
+"completion/order.ml" 133 3688 3692 "completion/order.ml" 140 3865 3892
+type(
+  ord
+)
+"completion/order.ml" 131 3637 3641 "completion/order.ml" 140 3865 3892
+type(
+  ord
+)
+"completion/order.ml" 141 3893 3898 "completion/order.ml" 141 3893 3901
+type(
+  'a list -> 'a list -> ord
+)
+ident(
+  int_ref aux "completion/order.ml" 130 3621 3627 "completion/order.ml" 130 3621 3630
+)
+"completion/order.ml" 130 3621 3623 "completion/order.ml" 141 3893 3901
+type(
+  'a list -> 'a list -> ord
+)
+"completion/order.ml" 127 3508 3510 "completion/order.ml" 141 3893 3901
+type(
+  'a list -> 'a list -> ord
+)
+"completion/order.ml" 122 3401 3403 "completion/order.ml" 141 3893 3901
+type(
+  'a list -> 'a list -> ord
+)
+"completion/order.ml" 115 3215 3217 "completion/order.ml" 141 3893 3901
+type(
+  'a list -> 'a list -> ord
+)
+"completion/order.ml" 152 4036 4044 "completion/order.ml" 152 4036 4059
+type(
+  ('a -> 'b -> ord) -> 'a list -> 'b -> bool
+)
+ident(
+  def has_one_greater "completion/order.ml" 152 4036 4036 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 152 4036 4060 "completion/order.ml" 152 4036 4063
+type(
+  'a -> 'b -> ord
+)
+ident(
+  def cmp "completion/order.ml" 152 4036 4064 "completion/order.ml" 157 4169 4201
+)
+"completion/order.ml" 152 4036 4064 "completion/order.ml" 152 4036 4066
+type(
+  'a list
+)
+ident(
+  def ts "completion/order.ml" 152 4036 4067 "completion/order.ml" 157 4169 4201
+)
+"completion/order.ml" 152 4036 4067 "completion/order.ml" 152 4036 4068
+type(
+  'b
+)
+ident(
+  def t "completion/order.ml" 153 4072 4074 "completion/order.ml" 157 4169 4201
+)
+"completion/order.ml" 153 4072 4080 "completion/order.ml" 153 4072 4082
+type(
+  'a list
+)
+ident(
+  int_ref ts "completion/order.ml" 152 4036 4064 "completion/order.ml" 152 4036 4066
+)
+"completion/order.ml" 154 4088 4092 "completion/order.ml" 154 4088 4094
+type(
+  'a list
+)
+"completion/order.ml" 154 4088 4098 "completion/order.ml" 154 4088 4103
+type(
+  bool
+)
+"completion/order.ml" 155 4104 4108 "completion/order.ml" 155 4104 4109
+type(
+  'a
+)
+ident(
+  def x "completion/order.ml" 156 4119 4125 "completion/order.ml" 157 4169 4201
+)
+"completion/order.ml" 155 4104 4113 "completion/order.ml" 155 4104 4115
+type(
+  'a list
+)
+ident(
+  def xs "completion/order.ml" 156 4119 4125 "completion/order.ml" 157 4169 4201
+)
+"completion/order.ml" 155 4104 4108 "completion/order.ml" 155 4104 4115
+type(
+  'a list
+)
+"completion/order.ml" 156 4119 4126 "completion/order.ml" 156 4119 4129
+type(
+  'a -> 'b -> ord
+)
+ident(
+  int_ref cmp "completion/order.ml" 152 4036 4060 "completion/order.ml" 152 4036 4063
+)
+"completion/order.ml" 156 4119 4130 "completion/order.ml" 156 4119 4131
+type(
+  'a
+)
+ident(
+  int_ref x "completion/order.ml" 155 4104 4108 "completion/order.ml" 155 4104 4109
+)
+"completion/order.ml" 156 4119 4132 "completion/order.ml" 156 4119 4133
+type(
+  'b
+)
+ident(
+  int_ref t "completion/order.ml" 152 4036 4067 "completion/order.ml" 152 4036 4068
+)
+"completion/order.ml" 156 4119 4126 "completion/order.ml" 156 4119 4133
+call(
+  stack
+)
+type(
+  ord
+)
+"completion/order.ml" 156 4119 4134 "completion/order.ml" 156 4119 4135
+type(
+  ord -> ord -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/order.ml" 156 4119 4136 "completion/order.ml" 156 4119 4143
+type(
+  ord
+)
+"completion/order.ml" 156 4119 4125 "completion/order.ml" 156 4119 4144
+type(
+  bool
+)
+"completion/order.ml" 156 4119 4145 "completion/order.ml" 156 4119 4147
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"completion/order.ml" 156 4119 4149 "completion/order.ml" 156 4119 4152
+type(
+  'a -> 'b -> ord
+)
+ident(
+  int_ref cmp "completion/order.ml" 152 4036 4060 "completion/order.ml" 152 4036 4063
+)
+"completion/order.ml" 156 4119 4153 "completion/order.ml" 156 4119 4154
+type(
+  'a
+)
+ident(
+  int_ref x "completion/order.ml" 155 4104 4108 "completion/order.ml" 155 4104 4109
+)
+"completion/order.ml" 156 4119 4155 "completion/order.ml" 156 4119 4156
+type(
+  'b
+)
+ident(
+  int_ref t "completion/order.ml" 152 4036 4067 "completion/order.ml" 152 4036 4068
+)
+"completion/order.ml" 156 4119 4149 "completion/order.ml" 156 4119 4156
+call(
+  stack
+)
+type(
+  ord
+)
+"completion/order.ml" 156 4119 4157 "completion/order.ml" 156 4119 4158
+type(
+  ord -> ord -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/order.ml" 156 4119 4159 "completion/order.ml" 156 4119 4164
+type(
+  ord
+)
+"completion/order.ml" 156 4119 4148 "completion/order.ml" 156 4119 4165
+type(
+  bool
+)
+"completion/order.ml" 156 4119 4166 "completion/order.ml" 156 4119 4168
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"completion/order.ml" 157 4169 4176 "completion/order.ml" 157 4169 4191
+type(
+  ('a -> 'b -> ord) -> 'a list -> 'b -> bool
+)
+ident(
+  int_ref has_one_greater "completion/order.ml" 152 4036 4044 "completion/order.ml" 152 4036 4059
+)
+"completion/order.ml" 157 4169 4192 "completion/order.ml" 157 4169 4195
+type(
+  'a -> 'b -> ord
+)
+ident(
+  int_ref cmp "completion/order.ml" 152 4036 4060 "completion/order.ml" 152 4036 4063
+)
+"completion/order.ml" 157 4169 4196 "completion/order.ml" 157 4169 4198
+type(
+  'a list
+)
+ident(
+  int_ref xs "completion/order.ml" 155 4104 4113 "completion/order.ml" 155 4104 4115
+)
+"completion/order.ml" 157 4169 4199 "completion/order.ml" 157 4169 4200
+type(
+  'b
+)
+ident(
+  int_ref t "completion/order.ml" 152 4036 4067 "completion/order.ml" 152 4036 4068
+)
+"completion/order.ml" 157 4169 4175 "completion/order.ml" 157 4169 4201
+call(
+  tail
+)
+type(
+  bool
+)
+"completion/order.ml" 156 4119 4148 "completion/order.ml" 157 4169 4201
+type(
+  bool
+)
+"completion/order.ml" 156 4119 4125 "completion/order.ml" 157 4169 4201
+type(
+  bool
+)
+"completion/order.ml" 153 4072 4074 "completion/order.ml" 157 4169 4201
+type(
+  bool
+)
+"completion/order.ml" 160 4206 4214 "completion/order.ml" 160 4206 4230
+type(
+  ('a -> 'b -> ord) -> 'a -> 'b list -> bool
+)
+ident(
+  def greater_than_all "completion/order.ml" 160 4206 4206 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 160 4206 4231 "completion/order.ml" 160 4206 4234
+type(
+  'a -> 'b -> ord
+)
+ident(
+  def cmp "completion/order.ml" 160 4206 4235 "completion/order.ml" 164 4336 4352
+)
+"completion/order.ml" 160 4206 4235 "completion/order.ml" 160 4206 4236
+type(
+  'a
+)
+ident(
+  def t "completion/order.ml" 160 4206 4239 "completion/order.ml" 164 4336 4352
+)
+"completion/order.ml" 161 4248 4252 "completion/order.ml" 161 4248 4254
+type(
+  'b list
+)
+"completion/order.ml" 161 4248 4258 "completion/order.ml" 161 4248 4262
+type(
+  bool
+)
+"completion/order.ml" 162 4263 4267 "completion/order.ml" 162 4263 4268
+type(
+  'b
+)
+ident(
+  def x "completion/order.ml" 163 4278 4284 "completion/order.ml" 164 4336 4352
+)
+"completion/order.ml" 162 4263 4272 "completion/order.ml" 162 4263 4274
+type(
+  'b list
+)
+ident(
+  def xs "completion/order.ml" 163 4278 4284 "completion/order.ml" 164 4336 4352
+)
+"completion/order.ml" 162 4263 4267 "completion/order.ml" 162 4263 4274
+type(
+  'b list
+)
+"completion/order.ml" 163 4278 4287 "completion/order.ml" 163 4278 4290
+type(
+  'a -> 'b -> ord
+)
+ident(
+  int_ref cmp "completion/order.ml" 160 4206 4231 "completion/order.ml" 160 4206 4234
+)
+"completion/order.ml" 163 4278 4291 "completion/order.ml" 163 4278 4292
+type(
+  'a
+)
+ident(
+  int_ref t "completion/order.ml" 160 4206 4235 "completion/order.ml" 160 4206 4236
+)
+"completion/order.ml" 163 4278 4293 "completion/order.ml" 163 4278 4294
+type(
+  'b
+)
+ident(
+  int_ref x "completion/order.ml" 162 4263 4267 "completion/order.ml" 162 4263 4268
+)
+"completion/order.ml" 163 4278 4287 "completion/order.ml" 163 4278 4294
+call(
+  stack
+)
+type(
+  ord
+)
+"completion/order.ml" 163 4278 4295 "completion/order.ml" 163 4278 4296
+type(
+  ord -> ord -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/order.ml" 163 4278 4297 "completion/order.ml" 163 4278 4304
+type(
+  ord
+)
+"completion/order.ml" 163 4278 4287 "completion/order.ml" 163 4278 4304
+type(
+  bool
+)
+"completion/order.ml" 163 4278 4310 "completion/order.ml" 163 4278 4326
+type(
+  ('a -> 'b -> ord) -> 'a -> 'b list -> bool
+)
+ident(
+  int_ref greater_than_all "completion/order.ml" 160 4206 4214 "completion/order.ml" 160 4206 4230
+)
+"completion/order.ml" 163 4278 4327 "completion/order.ml" 163 4278 4330
+type(
+  'a -> 'b -> ord
+)
+ident(
+  int_ref cmp "completion/order.ml" 160 4206 4231 "completion/order.ml" 160 4206 4234
+)
+"completion/order.ml" 163 4278 4331 "completion/order.ml" 163 4278 4332
+type(
+  'a
+)
+ident(
+  int_ref t "completion/order.ml" 160 4206 4235 "completion/order.ml" 160 4206 4236
+)
+"completion/order.ml" 163 4278 4333 "completion/order.ml" 163 4278 4335
+type(
+  'b list
+)
+ident(
+  int_ref xs "completion/order.ml" 162 4263 4272 "completion/order.ml" 162 4263 4274
+)
+"completion/order.ml" 163 4278 4310 "completion/order.ml" 163 4278 4335
+call(
+  tail
+)
+type(
+  bool
+)
+"completion/order.ml" 164 4336 4347 "completion/order.ml" 164 4336 4352
+type(
+  bool
+)
+"completion/order.ml" 163 4278 4284 "completion/order.ml" 164 4336 4352
+type(
+  bool
+)
+"completion/order.ml" 160 4206 4239 "completion/order.ml" 164 4336 4352
+type(
+  'b list -> bool
+)
+"completion/order.ml" 236 6465 6469 "completion/order.ml" 236 6465 6472
+type(
+  'a Symb.SymbolMap.t -> Symb.SymbolMap.key -> Parsetree.rpo_status
+)
+ident(
+  def get "completion/order.ml" 240 6549 6549 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 236 6465 6473 "completion/order.ml" 236 6465 6479
+type(
+  'a Symb.SymbolMap.t
+)
+ident(
+  def status "completion/order.ml" 236 6465 6480 "completion/order.ml" 237 6484 6544
+)
+"completion/order.ml" 236 6465 6480 "completion/order.ml" 236 6465 6481
+type(
+  Symb.SymbolMap.key
+)
+ident(
+  def f "completion/order.ml" 237 6484 6486 "completion/order.ml" 237 6484 6544
+)
+"completion/order.ml" 237 6484 6489 "completion/order.ml" 237 6484 6502
+type(
+  Symb.SymbolMap.key -> 'a Symb.SymbolMap.t -> bool
+)
+ident(
+  ext_ref Symb.SymbolMap.mem
+)
+"completion/order.ml" 237 6484 6503 "completion/order.ml" 237 6484 6504
+type(
+  Symb.SymbolMap.key
+)
+ident(
+  int_ref f "completion/order.ml" 236 6465 6480 "completion/order.ml" 236 6465 6481
+)
+"completion/order.ml" 237 6484 6505 "completion/order.ml" 237 6484 6511
+type(
+  'a Symb.SymbolMap.t
+)
+ident(
+  int_ref status "completion/order.ml" 236 6465 6473 "completion/order.ml" 236 6465 6479
+)
+"completion/order.ml" 237 6484 6489 "completion/order.ml" 237 6484 6511
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/order.ml" 237 6484 6517 "completion/order.ml" 237 6484 6525
+type(
+  Parsetree.rpo_status
+)
+"completion/order.ml" 237 6484 6531 "completion/order.ml" 237 6484 6544
+type(
+  Parsetree.rpo_status
+)
+"completion/order.ml" 237 6484 6486 "completion/order.ml" 237 6484 6544
+type(
+  Parsetree.rpo_status
+)
+"completion/order.ml" 240 6549 6553 "completion/order.ml" 240 6549 6561
+type(
+  'a Symb.SymbolMap.t ->
+  (Symb.symbol -> Symb.symbol -> ord) -> Term.term -> Term.term -> ord
+)
+ident(
+  def rpo_fail "completion/order.ml" 278 7891 7891 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 240 6549 6562 "completion/order.ml" 240 6549 6568
+type(
+  'a Symb.SymbolMap.t
+)
+ident(
+  def status "completion/order.ml" 240 6549 6569 "completion/order.ml" 275 7874 7886
+)
+"completion/order.ml" 240 6549 6569 "completion/order.ml" 240 6549 6573
+type(
+  Symb.symbol -> Symb.symbol -> ord
+)
+ident(
+  def prec "completion/order.ml" 241 6576 6578 "completion/order.ml" 275 7874 7886
+)
+"completion/order.ml" 241 6576 6586 "completion/order.ml" 241 6576 6593
+type(
+  Term.term -> Term.term -> ord
+)
+ident(
+  def rpo_rec "completion/order.ml" 241 6576 6578 "completion/order.ml" 275 7874 7886
+)
+"completion/order.ml" 241 6576 6594 "completion/order.ml" 241 6576 6595
+type(
+  Term.term
+)
+ident(
+  def t "completion/order.ml" 241 6576 6596 "completion/order.ml" 274 7860 7873
+)
+"completion/order.ml" 241 6576 6596 "completion/order.ml" 241 6576 6597
+type(
+  Term.term
+)
+ident(
+  def u "completion/order.ml" 242 6600 6604 "completion/order.ml" 274 7860 7873
+)
+"completion/order.ml" 242 6600 6610 "completion/order.ml" 242 6600 6611
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/order.ml" 241 6576 6594 "completion/order.ml" 241 6576 6595
+)
+"completion/order.ml" 242 6600 6613 "completion/order.ml" 242 6600 6614
+type(
+  Term.term
+)
+ident(
+  int_ref u "completion/order.ml" 241 6576 6596 "completion/order.ml" 241 6576 6597
+)
+"completion/order.ml" 242 6600 6610 "completion/order.ml" 242 6600 6614
+type(
+  Term.term * Term.term
+)
+"completion/order.ml" 243 6620 6630 "completion/order.ml" 243 6620 6631
+type(
+  Var.var
+)
+ident(
+  def x "completion/order.ml" 243 6620 6643 "completion/order.ml" 243 6620 6656
+)
+"completion/order.ml" 243 6620 6626 "completion/order.ml" 243 6620 6631
+type(
+  Term.term
+)
+"completion/order.ml" 243 6620 6638 "completion/order.ml" 243 6620 6639
+type(
+  Var.var
+)
+ident(
+  def y "completion/order.ml" 243 6620 6643 "completion/order.ml" 243 6620 6656
+)
+"completion/order.ml" 243 6620 6634 "completion/order.ml" 243 6620 6639
+type(
+  Term.term
+)
+"completion/order.ml" 243 6620 6626 "completion/order.ml" 243 6620 6639
+type(
+  Term.term * Term.term
+)
+"completion/order.ml" 243 6620 6643 "completion/order.ml" 243 6620 6648
+type(
+  bool -> ord
+)
+ident(
+  int_ref eq_if "completion/order.ml" 92 2703 2707 "completion/order.ml" 92 2703 2712
+)
+"completion/order.ml" 243 6620 6650 "completion/order.ml" 243 6620 6651
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/order.ml" 243 6620 6630 "completion/order.ml" 243 6620 6631
+)
+"completion/order.ml" 243 6620 6652 "completion/order.ml" 243 6620 6653
+type(
+  Var.var -> Var.var -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/order.ml" 243 6620 6654 "completion/order.ml" 243 6620 6655
+type(
+  Var.var
+)
+ident(
+  int_ref y "completion/order.ml" 243 6620 6638 "completion/order.ml" 243 6620 6639
+)
+"completion/order.ml" 243 6620 6649 "completion/order.ml" 243 6620 6656
+type(
+  bool
+)
+"completion/order.ml" 243 6620 6643 "completion/order.ml" 243 6620 6656
+call(
+  tail
+)
+type(
+  ord
+)
+"completion/order.ml" 244 6657 6667 "completion/order.ml" 244 6657 6668
+type(
+  Term.term list
+)
+type(
+  Symb.symbol
+)
+"completion/order.ml" 244 6657 6663 "completion/order.ml" 244 6657 6668
+type(
+  Term.term
+)
+"completion/order.ml" 244 6657 6672 "completion/order.ml" 244 6657 6673
+ident(
+  def t "completion/order.ml" 244 6657 6684 "completion/order.ml" 244 6657 6702
+)
+"completion/order.ml" 244 6657 6663 "completion/order.ml" 244 6657 6673
+type(
+  Term.term
+)
+"completion/order.ml" 244 6657 6679 "completion/order.ml" 244 6657 6680
+type(
+  Var.var
+)
+ident(
+  def y "completion/order.ml" 244 6657 6684 "completion/order.ml" 244 6657 6702
+)
+"completion/order.ml" 244 6657 6675 "completion/order.ml" 244 6657 6680
+type(
+  Term.term
+)
+"completion/order.ml" 244 6657 6663 "completion/order.ml" 244 6657 6680
+type(
+  Term.term * Term.term
+)
+"completion/order.ml" 244 6657 6684 "completion/order.ml" 244 6657 6689
+type(
+  bool -> ord
+)
+ident(
+  int_ref gt_if "completion/order.ml" 82 2561 2565 "completion/order.ml" 82 2561 2570
+)
+"completion/order.ml" 244 6657 6691 "completion/order.ml" 244 6657 6697
+type(
+  Var.var -> Term.term -> bool
+)
+ident(
+  ext_ref Term.occurs
+)
+"completion/order.ml" 244 6657 6698 "completion/order.ml" 244 6657 6699
+type(
+  Var.var
+)
+ident(
+  int_ref y "completion/order.ml" 244 6657 6679 "completion/order.ml" 244 6657 6680
+)
+"completion/order.ml" 244 6657 6700 "completion/order.ml" 244 6657 6701
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/order.ml" 244 6657 6663 "completion/order.ml" 244 6657 6673
+)
+"completion/order.ml" 244 6657 6690 "completion/order.ml" 244 6657 6702
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/order.ml" 244 6657 6684 "completion/order.ml" 244 6657 6702
+call(
+  tail
+)
+type(
+  ord
+)
+"completion/order.ml" 245 6703 6713 "completion/order.ml" 245 6703 6714
+type(
+  Var.var
+)
+ident(
+  def x "completion/order.ml" 245 6703 6732 "completion/order.ml" 245 6703 6750
+)
+"completion/order.ml" 245 6703 6709 "completion/order.ml" 245 6703 6714
+type(
+  Term.term
+)
+"completion/order.ml" 245 6703 6721 "completion/order.ml" 245 6703 6722
+type(
+  Term.term list
+)
+type(
+  Symb.symbol
+)
+"completion/order.ml" 245 6703 6717 "completion/order.ml" 245 6703 6722
+type(
+  Term.term
+)
+"completion/order.ml" 245 6703 6726 "completion/order.ml" 245 6703 6727
+ident(
+  def u "completion/order.ml" 245 6703 6732 "completion/order.ml" 245 6703 6750
+)
+"completion/order.ml" 245 6703 6716 "completion/order.ml" 245 6703 6728
+type(
+  Term.term
+)
+"completion/order.ml" 245 6703 6709 "completion/order.ml" 245 6703 6728
+type(
+  Term.term * Term.term
+)
+"completion/order.ml" 245 6703 6732 "completion/order.ml" 245 6703 6737
+type(
+  bool -> ord
+)
+ident(
+  int_ref lt_if "completion/order.ml" 87 2632 2636 "completion/order.ml" 87 2632 2641
+)
+"completion/order.ml" 245 6703 6739 "completion/order.ml" 245 6703 6745
+type(
+  Var.var -> Term.term -> bool
+)
+ident(
+  ext_ref Term.occurs
+)
+"completion/order.ml" 245 6703 6746 "completion/order.ml" 245 6703 6747
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/order.ml" 245 6703 6713 "completion/order.ml" 245 6703 6714
+)
+"completion/order.ml" 245 6703 6748 "completion/order.ml" 245 6703 6749
+type(
+  Term.term
+)
+ident(
+  int_ref u "completion/order.ml" 245 6703 6716 "completion/order.ml" 245 6703 6728
+)
+"completion/order.ml" 245 6703 6738 "completion/order.ml" 245 6703 6750
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/order.ml" 245 6703 6732 "completion/order.ml" 245 6703 6750
+call(
+  tail
+)
+type(
+  ord
+)
+"completion/order.ml" 246 6751 6763 "completion/order.ml" 246 6751 6764
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/order.ml" 247 6799 6806 "completion/order.ml" 274 7860 7873
+)
+"completion/order.ml" 246 6751 6766 "completion/order.ml" 246 6751 6768
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/order.ml" 247 6799 6806 "completion/order.ml" 274 7860 7873
+)
+"completion/order.ml" 246 6751 6758 "completion/order.ml" 246 6751 6769
+type(
+  Term.term
+)
+"completion/order.ml" 246 6751 6773 "completion/order.ml" 246 6751 6774
+ident(
+  def t "completion/order.ml" 247 6799 6806 "completion/order.ml" 274 7860 7873
+)
+"completion/order.ml" 246 6751 6757 "completion/order.ml" 246 6751 6775
+type(
+  Term.term
+)
+"completion/order.ml" 246 6751 6783 "completion/order.ml" 246 6751 6784
+type(
+  Symb.symbol
+)
+ident(
+  def g "completion/order.ml" 247 6799 6806 "completion/order.ml" 274 7860 7873
+)
+"completion/order.ml" 246 6751 6786 "completion/order.ml" 246 6751 6788
+type(
+  Term.term list
+)
+ident(
+  def us "completion/order.ml" 247 6799 6806 "completion/order.ml" 274 7860 7873
+)
+"completion/order.ml" 246 6751 6778 "completion/order.ml" 246 6751 6789
+type(
+  Term.term
+)
+"completion/order.ml" 246 6751 6793 "completion/order.ml" 246 6751 6794
+ident(
+  def u "completion/order.ml" 247 6799 6806 "completion/order.ml" 274 7860 7873
+)
+"completion/order.ml" 246 6751 6777 "completion/order.ml" 246 6751 6795
+type(
+  Term.term
+)
+"completion/order.ml" 246 6751 6757 "completion/order.ml" 246 6751 6795
+type(
+  Term.term * Term.term
+)
+"completion/order.ml" 247 6799 6809 "completion/order.ml" 247 6799 6824
+type(
+  (Term.term -> Term.term -> ord) -> Term.term list -> Term.term -> bool
+)
+ident(
+  int_ref has_one_greater "completion/order.ml" 152 4036 4044 "completion/order.ml" 152 4036 4059
+)
+"completion/order.ml" 247 6799 6825 "completion/order.ml" 247 6799 6832
+type(
+  Term.term -> Term.term -> ord
+)
+ident(
+  int_ref rpo_rec "completion/order.ml" 241 6576 6586 "completion/order.ml" 241 6576 6593
+)
+"completion/order.ml" 247 6799 6833 "completion/order.ml" 247 6799 6835
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/order.ml" 246 6751 6766 "completion/order.ml" 246 6751 6768
+)
+"completion/order.ml" 247 6799 6836 "completion/order.ml" 247 6799 6837
+type(
+  Term.term
+)
+ident(
+  int_ref u "completion/order.ml" 246 6751 6777 "completion/order.ml" 246 6751 6795
+)
+"completion/order.ml" 247 6799 6809 "completion/order.ml" 247 6799 6837
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/order.ml" 247 6799 6843 "completion/order.ml" 247 6799 6850
+type(
+  ord
+)
+"completion/order.ml" 248 6851 6866 "completion/order.ml" 248 6851 6881
+type(
+  (Term.term -> Term.term -> ord) -> Term.term list -> Term.term -> bool
+)
+ident(
+  int_ref has_one_greater "completion/order.ml" 152 4036 4044 "completion/order.ml" 152 4036 4059
+)
+"completion/order.ml" 248 6851 6882 "completion/order.ml" 248 6851 6889
+type(
+  Term.term -> Term.term -> ord
+)
+ident(
+  int_ref rpo_rec "completion/order.ml" 241 6576 6586 "completion/order.ml" 241 6576 6593
+)
+"completion/order.ml" 248 6851 6890 "completion/order.ml" 248 6851 6892
+type(
+  Term.term list
+)
+ident(
+  int_ref us "completion/order.ml" 246 6751 6786 "completion/order.ml" 246 6751 6788
+)
+"completion/order.ml" 248 6851 6893 "completion/order.ml" 248 6851 6894
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/order.ml" 246 6751 6757 "completion/order.ml" 246 6751 6775
+)
+"completion/order.ml" 248 6851 6866 "completion/order.ml" 248 6851 6894
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/order.ml" 248 6851 6900 "completion/order.ml" 248 6851 6907
+type(
+  ord
+)
+"completion/order.ml" 251 6935 6950 "completion/order.ml" 251 6935 6954
+type(
+  Symb.symbol -> Symb.symbol -> ord
+)
+ident(
+  int_ref prec "completion/order.ml" 240 6549 6569 "completion/order.ml" 240 6549 6573
+)
+"completion/order.ml" 251 6935 6955 "completion/order.ml" 251 6935 6956
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/order.ml" 246 6751 6763 "completion/order.ml" 246 6751 6764
+)
+"completion/order.ml" 251 6935 6957 "completion/order.ml" 251 6935 6958
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/order.ml" 246 6751 6783 "completion/order.ml" 246 6751 6784
+)
+"completion/order.ml" 251 6935 6950 "completion/order.ml" 251 6935 6958
+call(
+  stack
+)
+type(
+  ord
+)
+"completion/order.ml" 252 6964 6975 "completion/order.ml" 252 6964 6987
+type(
+  ord
+)
+"completion/order.ml" 252 6964 6991 "completion/order.ml" 252 6964 6996
+type(
+  exn -> ord
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"completion/order.ml" 252 6964 7020 "completion/order.ml" 252 6964 7021
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/order.ml" 246 6751 6763 "completion/order.ml" 246 6751 6764
+)
+"completion/order.ml" 252 6964 7023 "completion/order.ml" 252 6964 7024
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/order.ml" 246 6751 6783 "completion/order.ml" 246 6751 6784
+)
+"completion/order.ml" 252 6964 6997 "completion/order.ml" 252 6964 7026
+type(
+  exn
+)
+"completion/order.ml" 252 6964 6991 "completion/order.ml" 252 6964 7026
+type(
+  ord
+)
+"completion/order.ml" 253 7027 7038 "completion/order.ml" 253 7027 7045
+type(
+  ord
+)
+"completion/order.ml" 254 7049 7062 "completion/order.ml" 254 7049 7067
+type(
+  bool -> ord
+)
+ident(
+  int_ref gt_if "completion/order.ml" 82 2561 2565 "completion/order.ml" 82 2561 2570
+)
+"completion/order.ml" 254 7049 7069 "completion/order.ml" 254 7049 7085
+type(
+  (Term.term -> Term.term -> ord) -> Term.term -> Term.term list -> bool
+)
+ident(
+  int_ref greater_than_all "completion/order.ml" 160 4206 4214 "completion/order.ml" 160 4206 4230
+)
+"completion/order.ml" 254 7049 7086 "completion/order.ml" 254 7049 7093
+type(
+  Term.term -> Term.term -> ord
+)
+ident(
+  int_ref rpo_rec "completion/order.ml" 241 6576 6586 "completion/order.ml" 241 6576 6593
+)
+"completion/order.ml" 254 7049 7094 "completion/order.ml" 254 7049 7095
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/order.ml" 246 6751 6757 "completion/order.ml" 246 6751 6775
+)
+"completion/order.ml" 254 7049 7096 "completion/order.ml" 254 7049 7098
+type(
+  Term.term list
+)
+ident(
+  int_ref us "completion/order.ml" 246 6751 6786 "completion/order.ml" 246 6751 6788
+)
+"completion/order.ml" 254 7049 7068 "completion/order.ml" 254 7049 7099
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/order.ml" 254 7049 7062 "completion/order.ml" 254 7049 7099
+call(
+  tail
+)
+type(
+  ord
+)
+"completion/order.ml" 255 7100 7111 "completion/order.ml" 255 7100 7118
+type(
+  ord
+)
+"completion/order.ml" 256 7122 7135 "completion/order.ml" 256 7122 7140
+type(
+  bool -> ord
+)
+ident(
+  int_ref lt_if "completion/order.ml" 87 2632 2636 "completion/order.ml" 87 2632 2641
+)
+"completion/order.ml" 256 7122 7142 "completion/order.ml" 256 7122 7158
+type(
+  (Term.term -> Term.term -> ord) -> Term.term -> Term.term list -> bool
+)
+ident(
+  int_ref greater_than_all "completion/order.ml" 160 4206 4214 "completion/order.ml" 160 4206 4230
+)
+"completion/order.ml" 256 7122 7159 "completion/order.ml" 256 7122 7166
+type(
+  Term.term -> Term.term -> ord
+)
+ident(
+  int_ref rpo_rec "completion/order.ml" 241 6576 6586 "completion/order.ml" 241 6576 6593
+)
+"completion/order.ml" 256 7122 7167 "completion/order.ml" 256 7122 7168
+type(
+  Term.term
+)
+ident(
+  int_ref u "completion/order.ml" 246 6751 6777 "completion/order.ml" 246 6751 6795
+)
+"completion/order.ml" 256 7122 7169 "completion/order.ml" 256 7122 7171
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/order.ml" 246 6751 6766 "completion/order.ml" 246 6751 6768
+)
+"completion/order.ml" 256 7122 7141 "completion/order.ml" 256 7122 7172
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/order.ml" 256 7122 7135 "completion/order.ml" 256 7122 7172
+call(
+  tail
+)
+type(
+  ord
+)
+"completion/order.ml" 257 7173 7184 "completion/order.ml" 257 7173 7189
+type(
+  ord
+)
+"completion/order.ml" 259 7212 7231 "completion/order.ml" 259 7212 7234
+type(
+  'a Symb.SymbolMap.t -> Symb.SymbolMap.key -> Parsetree.rpo_status
+)
+ident(
+  int_ref get "completion/order.ml" 236 6465 6469 "completion/order.ml" 236 6465 6472
+)
+"completion/order.ml" 259 7212 7235 "completion/order.ml" 259 7212 7241
+type(
+  'a Symb.SymbolMap.t
+)
+ident(
+  int_ref status "completion/order.ml" 240 6549 6562 "completion/order.ml" 240 6549 6568
+)
+"completion/order.ml" 259 7212 7242 "completion/order.ml" 259 7212 7243
+type(
+  Symb.SymbolMap.key
+)
+ident(
+  int_ref f "completion/order.ml" 246 6751 6763 "completion/order.ml" 246 6751 6764
+)
+"completion/order.ml" 259 7212 7231 "completion/order.ml" 259 7212 7243
+call(
+  stack
+)
+type(
+  Parsetree.rpo_status
+)
+"completion/order.ml" 259 7212 7245 "completion/order.ml" 259 7212 7248
+type(
+  'a Symb.SymbolMap.t -> Symb.SymbolMap.key -> Parsetree.rpo_status
+)
+ident(
+  int_ref get "completion/order.ml" 236 6465 6469 "completion/order.ml" 236 6465 6472
+)
+"completion/order.ml" 259 7212 7249 "completion/order.ml" 259 7212 7255
+type(
+  'a Symb.SymbolMap.t
+)
+ident(
+  int_ref status "completion/order.ml" 240 6549 6562 "completion/order.ml" 240 6549 6568
+)
+"completion/order.ml" 259 7212 7256 "completion/order.ml" 259 7212 7257
+type(
+  Symb.SymbolMap.key
+)
+ident(
+  int_ref g "completion/order.ml" 246 6751 6783 "completion/order.ml" 246 6751 6784
+)
+"completion/order.ml" 259 7212 7245 "completion/order.ml" 259 7212 7257
+call(
+  stack
+)
+type(
+  Parsetree.rpo_status
+)
+"completion/order.ml" 259 7212 7231 "completion/order.ml" 259 7212 7257
+type(
+  Parsetree.rpo_status * Parsetree.rpo_status
+)
+"completion/order.ml" 260 7263 7278 "completion/order.ml" 260 7263 7286
+type(
+  Parsetree.rpo_status
+)
+"completion/order.ml" 260 7263 7288 "completion/order.ml" 260 7263 7296
+type(
+  Parsetree.rpo_status
+)
+"completion/order.ml" 260 7263 7278 "completion/order.ml" 260 7263 7296
+type(
+  Parsetree.rpo_status * Parsetree.rpo_status
+)
+"completion/order.ml" 260 7263 7300 "completion/order.ml" 260 7263 7303
+type(
+  (Term.term -> Term.term -> ord) -> Term.term list -> Term.term list -> ord
+)
+ident(
+  int_ref mul "completion/order.ml" 114 3201 3205 "completion/order.ml" 114 3201 3208
+)
+"completion/order.ml" 260 7263 7304 "completion/order.ml" 260 7263 7311
+type(
+  Term.term -> Term.term -> ord
+)
+ident(
+  int_ref rpo_rec "completion/order.ml" 241 6576 6586 "completion/order.ml" 241 6576 6593
+)
+"completion/order.ml" 260 7263 7312 "completion/order.ml" 260 7263 7314
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/order.ml" 246 6751 6766 "completion/order.ml" 246 6751 6768
+)
+"completion/order.ml" 260 7263 7315 "completion/order.ml" 260 7263 7317
+type(
+  Term.term list
+)
+ident(
+  int_ref us "completion/order.ml" 246 6751 6786 "completion/order.ml" 246 6751 6788
+)
+"completion/order.ml" 260 7263 7300 "completion/order.ml" 260 7263 7317
+call(
+  tail
+)
+type(
+  ord
+)
+"completion/order.ml" 261 7318 7333 "completion/order.ml" 261 7318 7346
+type(
+  Parsetree.rpo_status
+)
+"completion/order.ml" 261 7318 7348 "completion/order.ml" 261 7318 7361
+type(
+  Parsetree.rpo_status
+)
+"completion/order.ml" 261 7318 7333 "completion/order.ml" 261 7318 7361
+type(
+  Parsetree.rpo_status * Parsetree.rpo_status
+)
+"completion/order.ml" 263 7389 7414 "completion/order.ml" 263 7389 7417
+type(
+  (Term.term -> Term.term -> ord) -> Term.term list -> Term.term list -> ord
+)
+ident(
+  int_ref lex "completion/order.ml" 99 2818 2822 "completion/order.ml" 99 2818 2825
+)
+"completion/order.ml" 263 7389 7418 "completion/order.ml" 263 7389 7425
+type(
+  Term.term -> Term.term -> ord
+)
+ident(
+  int_ref rpo_rec "completion/order.ml" 241 6576 6586 "completion/order.ml" 241 6576 6593
+)
+"completion/order.ml" 263 7389 7426 "completion/order.ml" 263 7389 7428
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/order.ml" 246 6751 6766 "completion/order.ml" 246 6751 6768
+)
+"completion/order.ml" 263 7389 7429 "completion/order.ml" 263 7389 7431
+type(
+  Term.term list
+)
+ident(
+  int_ref us "completion/order.ml" 246 6751 6786 "completion/order.ml" 246 6751 6788
+)
+"completion/order.ml" 263 7389 7414 "completion/order.ml" 263 7389 7431
+call(
+  stack
+)
+type(
+  ord
+)
+"completion/order.ml" 264 7437 7458 "completion/order.ml" 264 7437 7463
+type(
+  ord
+)
+"completion/order.ml" 264 7437 7467 "completion/order.ml" 264 7437 7472
+type(
+  ord
+)
+"completion/order.ml" 265 7473 7494 "completion/order.ml" 265 7473 7501
+type(
+  ord
+)
+"completion/order.ml" 266 7505 7528 "completion/order.ml" 266 7505 7533
+type(
+  bool -> ord
+)
+ident(
+  int_ref gt_if "completion/order.ml" 82 2561 2565 "completion/order.ml" 82 2561 2570
+)
+"completion/order.ml" 266 7505 7535 "completion/order.ml" 266 7505 7551
+type(
+  (Term.term -> Term.term -> ord) -> Term.term -> Term.term list -> bool
+)
+ident(
+  int_ref greater_than_all "completion/order.ml" 160 4206 4214 "completion/order.ml" 160 4206 4230
+)
+"completion/order.ml" 266 7505 7552 "completion/order.ml" 266 7505 7559
+type(
+  Term.term -> Term.term -> ord
+)
+ident(
+  int_ref rpo_rec "completion/order.ml" 241 6576 6586 "completion/order.ml" 241 6576 6593
+)
+"completion/order.ml" 266 7505 7560 "completion/order.ml" 266 7505 7561
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/order.ml" 246 6751 6757 "completion/order.ml" 246 6751 6775
+)
+"completion/order.ml" 266 7505 7562 "completion/order.ml" 266 7505 7564
+type(
+  Term.term list
+)
+ident(
+  int_ref us "completion/order.ml" 246 6751 6786 "completion/order.ml" 246 6751 6788
+)
+"completion/order.ml" 266 7505 7534 "completion/order.ml" 266 7505 7565
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/order.ml" 266 7505 7528 "completion/order.ml" 266 7505 7565
+call(
+  tail
+)
+type(
+  ord
+)
+"completion/order.ml" 267 7566 7587 "completion/order.ml" 267 7566 7594
+type(
+  ord
+)
+"completion/order.ml" 268 7598 7621 "completion/order.ml" 268 7598 7626
+type(
+  bool -> ord
+)
+ident(
+  int_ref lt_if "completion/order.ml" 87 2632 2636 "completion/order.ml" 87 2632 2641
+)
+"completion/order.ml" 268 7598 7628 "completion/order.ml" 268 7598 7644
+type(
+  (Term.term -> Term.term -> ord) -> Term.term -> Term.term list -> bool
+)
+ident(
+  int_ref greater_than_all "completion/order.ml" 160 4206 4214 "completion/order.ml" 160 4206 4230
+)
+"completion/order.ml" 268 7598 7645 "completion/order.ml" 268 7598 7652
+type(
+  Term.term -> Term.term -> ord
+)
+ident(
+  int_ref rpo_rec "completion/order.ml" 241 6576 6586 "completion/order.ml" 241 6576 6593
+)
+"completion/order.ml" 268 7598 7653 "completion/order.ml" 268 7598 7654
+type(
+  Term.term
+)
+ident(
+  int_ref u "completion/order.ml" 246 6751 6777 "completion/order.ml" 246 6751 6795
+)
+"completion/order.ml" 268 7598 7655 "completion/order.ml" 268 7598 7657
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/order.ml" 246 6751 6766 "completion/order.ml" 246 6751 6768
+)
+"completion/order.ml" 268 7598 7627 "completion/order.ml" 268 7598 7658
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/order.ml" 268 7598 7621 "completion/order.ml" 268 7598 7658
+call(
+  tail
+)
+type(
+  ord
+)
+"completion/order.ml" 269 7659 7680 "completion/order.ml" 269 7659 7692
+type(
+  ord
+)
+"completion/order.ml" 269 7659 7696 "completion/order.ml" 269 7659 7708
+type(
+  ord
+)
+"completion/order.ml" 262 7365 7383 "completion/order.ml" 270 7709 7731
+type(
+  ord
+)
+"completion/order.ml" 271 7732 7747 "completion/order.ml" 271 7732 7755
+type(
+  Parsetree.rpo_status
+)
+"completion/order.ml" 271 7732 7757 "completion/order.ml" 271 7732 7770
+type(
+  Parsetree.rpo_status
+)
+"completion/order.ml" 271 7732 7747 "completion/order.ml" 271 7732 7770
+type(
+  Parsetree.rpo_status * Parsetree.rpo_status
+)
+"completion/order.ml" 271 7732 7773 "completion/order.ml" 271 7732 7786
+type(
+  Parsetree.rpo_status
+)
+"completion/order.ml" 271 7732 7788 "completion/order.ml" 271 7732 7796
+type(
+  Parsetree.rpo_status
+)
+"completion/order.ml" 271 7732 7773 "completion/order.ml" 271 7732 7796
+type(
+  Parsetree.rpo_status * Parsetree.rpo_status
+)
+"completion/order.ml" 271 7732 7747 "completion/order.ml" 271 7732 7796
+type(
+  Parsetree.rpo_status * Parsetree.rpo_status
+)
+"completion/order.ml" 272 7800 7809 "completion/order.ml" 272 7800 7814
+type(
+  exn -> ord
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"completion/order.ml" 272 7800 7836 "completion/order.ml" 272 7800 7837
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/order.ml" 246 6751 6763 "completion/order.ml" 246 6751 6764
+)
+"completion/order.ml" 272 7800 7839 "completion/order.ml" 272 7800 7840
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/order.ml" 246 6751 6783 "completion/order.ml" 246 6751 6784
+)
+"completion/order.ml" 272 7800 7815 "completion/order.ml" 272 7800 7842
+type(
+  exn
+)
+"completion/order.ml" 272 7800 7809 "completion/order.ml" 272 7800 7842
+type(
+  ord
+)
+"completion/order.ml" 258 7193 7206 "completion/order.ml" 273 7843 7859
+type(
+  ord
+)
+"completion/order.ml" 250 6920 6929 "completion/order.ml" 274 7860 7873
+type(
+  ord
+)
+"completion/order.ml" 248 6851 6863 "completion/order.ml" 274 7860 7873
+type(
+  ord
+)
+"completion/order.ml" 247 6799 6806 "completion/order.ml" 274 7860 7873
+type(
+  ord
+)
+"completion/order.ml" 242 6600 6604 "completion/order.ml" 274 7860 7873
+type(
+  ord
+)
+"completion/order.ml" 275 7874 7879 "completion/order.ml" 275 7874 7886
+type(
+  Term.term -> Term.term -> ord
+)
+ident(
+  int_ref rpo_rec "completion/order.ml" 241 6576 6586 "completion/order.ml" 241 6576 6593
+)
+"completion/order.ml" 241 6576 6578 "completion/order.ml" 275 7874 7886
+type(
+  Term.term -> Term.term -> ord
+)
+"completion/order.ml" 278 7891 7895 "completion/order.ml" 278 7891 7898
+type(
+  'a Symb.SymbolMap.t ->
+  (Symb.symbol -> Symb.symbol -> ord) -> Term.term -> Term.term -> ord
+)
+ident(
+  def rpo "completion/order.ml" 280 7948 7993 "completion/order.ml" 1 0 -1
+)
+"completion/order.ml" 278 7891 7899 "completion/order.ml" 278 7891 7905
+type(
+  'a Symb.SymbolMap.t
+)
+ident(
+  def status "completion/order.ml" 278 7891 7906 "completion/order.ml" 280 7948 7993
+)
+"completion/order.ml" 278 7891 7906 "completion/order.ml" 278 7891 7910
+type(
+  Symb.symbol -> Symb.symbol -> ord
+)
+ident(
+  def prec "completion/order.ml" 278 7891 7911 "completion/order.ml" 280 7948 7993
+)
+"completion/order.ml" 278 7891 7911 "completion/order.ml" 278 7891 7912
+type(
+  Term.term
+)
+ident(
+  def t "completion/order.ml" 278 7891 7913 "completion/order.ml" 280 7948 7993
+)
+"completion/order.ml" 278 7891 7913 "completion/order.ml" 278 7891 7914
+type(
+  Term.term
+)
+ident(
+  def u "completion/order.ml" 279 7917 7919 "completion/order.ml" 280 7948 7993
+)
+"completion/order.ml" 279 7917 7923 "completion/order.ml" 279 7917 7931
+type(
+  'a Symb.SymbolMap.t ->
+  (Symb.symbol -> Symb.symbol -> ord) -> Term.term -> Term.term -> ord
+)
+ident(
+  int_ref rpo_fail "completion/order.ml" 240 6549 6553 "completion/order.ml" 240 6549 6561
+)
+"completion/order.ml" 279 7917 7932 "completion/order.ml" 279 7917 7938
+type(
+  'a Symb.SymbolMap.t
+)
+ident(
+  int_ref status "completion/order.ml" 278 7891 7899 "completion/order.ml" 278 7891 7905
+)
+"completion/order.ml" 279 7917 7939 "completion/order.ml" 279 7917 7943
+type(
+  Symb.symbol -> Symb.symbol -> ord
+)
+ident(
+  int_ref prec "completion/order.ml" 278 7891 7906 "completion/order.ml" 278 7891 7910
+)
+"completion/order.ml" 279 7917 7944 "completion/order.ml" 279 7917 7945
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/order.ml" 278 7891 7911 "completion/order.ml" 278 7891 7912
+)
+"completion/order.ml" 279 7917 7946 "completion/order.ml" 279 7917 7947
+type(
+  Term.term
+)
+ident(
+  int_ref u "completion/order.ml" 278 7891 7913 "completion/order.ml" 278 7891 7914
+)
+"completion/order.ml" 279 7917 7923 "completion/order.ml" 279 7917 7947
+call(
+  stack
+)
+type(
+  ord
+)
+"completion/order.ml" 280 7948 7976 "completion/order.ml" 280 7948 7977
+type(
+  Symb.symbol
+)
+type(
+  Symb.symbol
+)
+"completion/order.ml" 280 7948 7955 "completion/order.ml" 280 7948 7977
+type(
+  exn
+)
+"completion/order.ml" 280 7948 7981 "completion/order.ml" 280 7948 7993
+type(
+  ord
+)
+"completion/order.ml" 279 7917 7919 "completion/order.ml" 280 7948 7993
+type(
+  ord
+)

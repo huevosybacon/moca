@@ -1,0 +1,4863 @@
+"ocaml_src/parsing/location.ml" 20 973 977 "ocaml_src/parsing/location.ml" 20 973 984
+type(
+  string -> t
+)
+ident(
+  def in_file "ocaml_src/parsing/location.ml" 30 1148 1148 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 20 973 985 "ocaml_src/parsing/location.ml" 20 973 989
+type(
+  string
+)
+ident(
+  def name "ocaml_src/parsing/location.ml" 21 992 994 "ocaml_src/parsing/location.ml" 27 1089 1143
+)
+"ocaml_src/parsing/location.ml" 21 992 998 "ocaml_src/parsing/location.ml" 21 992 1001
+type(
+  Lexing.position
+)
+ident(
+  def loc "ocaml_src/parsing/location.ml" 27 1089 1091 "ocaml_src/parsing/location.ml" 27 1089 1143
+)
+"ocaml_src/parsing/location.ml" 22 1006 1022 "ocaml_src/parsing/location.ml" 22 1006 1026
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/parsing/location.ml" 20 973 985 "ocaml_src/parsing/location.ml" 20 973 989
+)
+"ocaml_src/parsing/location.ml" 23 1028 1043 "ocaml_src/parsing/location.ml" 23 1028 1044
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 24 1046 1060 "ocaml_src/parsing/location.ml" 24 1046 1061
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 25 1063 1078 "ocaml_src/parsing/location.ml" 25 1063 1080
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 21 992 1004 "ocaml_src/parsing/location.ml" 26 1082 1085
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 27 1089 1105 "ocaml_src/parsing/location.ml" 27 1089 1108
+type(
+  Lexing.position
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 21 992 998 "ocaml_src/parsing/location.ml" 21 992 1001
+)
+"ocaml_src/parsing/location.ml" 27 1089 1120 "ocaml_src/parsing/location.ml" 27 1089 1123
+type(
+  Lexing.position
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 21 992 998 "ocaml_src/parsing/location.ml" 21 992 1001
+)
+"ocaml_src/parsing/location.ml" 27 1089 1137 "ocaml_src/parsing/location.ml" 27 1089 1141
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 27 1089 1091 "ocaml_src/parsing/location.ml" 27 1089 1143
+type(
+  t
+)
+"ocaml_src/parsing/location.ml" 21 992 994 "ocaml_src/parsing/location.ml" 27 1089 1143
+type(
+  t
+)
+"ocaml_src/parsing/location.ml" 30 1148 1152 "ocaml_src/parsing/location.ml" 30 1148 1156
+type(
+  t
+)
+ident(
+  def none "ocaml_src/parsing/location.ml" 32 1179 1179 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 30 1148 1159 "ocaml_src/parsing/location.ml" 30 1148 1166
+type(
+  string -> t
+)
+ident(
+  int_ref in_file "ocaml_src/parsing/location.ml" 20 973 977 "ocaml_src/parsing/location.ml" 20 973 984
+)
+"ocaml_src/parsing/location.ml" 30 1148 1167 "ocaml_src/parsing/location.ml" 30 1148 1175
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 30 1148 1159 "ocaml_src/parsing/location.ml" 30 1148 1175
+call(
+  stack
+)
+type(
+  t
+)
+"ocaml_src/parsing/location.ml" 32 1179 1183 "ocaml_src/parsing/location.ml" 32 1179 1187
+type(
+  Lexing.lexbuf -> t
+)
+ident(
+  def curr "ocaml_src/parsing/location.ml" 38 1289 1289 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 32 1179 1188 "ocaml_src/parsing/location.ml" 32 1179 1194
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocaml_src/parsing/location.ml" 32 1179 1197 "ocaml_src/parsing/location.ml" 36 1284 1285
+)
+"ocaml_src/parsing/location.ml" 33 1199 1213 "ocaml_src/parsing/location.ml" 33 1199 1219
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/location.ml" 32 1179 1188 "ocaml_src/parsing/location.ml" 32 1179 1194
+)
+"ocaml_src/parsing/location.ml" 33 1199 1213 "ocaml_src/parsing/location.ml" 33 1199 1231
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 34 1233 1245 "ocaml_src/parsing/location.ml" 34 1233 1251
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/location.ml" 32 1179 1188 "ocaml_src/parsing/location.ml" 32 1179 1194
+)
+"ocaml_src/parsing/location.ml" 34 1233 1245 "ocaml_src/parsing/location.ml" 34 1233 1262
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 35 1264 1278 "ocaml_src/parsing/location.ml" 35 1264 1283
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 32 1179 1197 "ocaml_src/parsing/location.ml" 36 1284 1285
+type(
+  t
+)
+"ocaml_src/parsing/location.ml" 38 1289 1293 "ocaml_src/parsing/location.ml" 38 1289 1297
+type(
+  Lexing.lexbuf -> string -> unit
+)
+ident(
+  def init "ocaml_src/parsing/location.ml" 47 1422 1422 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 38 1289 1298 "ocaml_src/parsing/location.ml" 38 1289 1304
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocaml_src/parsing/location.ml" 38 1289 1305 "ocaml_src/parsing/location.ml" 44 1414 1417
+)
+"ocaml_src/parsing/location.ml" 38 1289 1305 "ocaml_src/parsing/location.ml" 38 1289 1310
+type(
+  string
+)
+ident(
+  def fname "ocaml_src/parsing/location.ml" 39 1313 1315 "ocaml_src/parsing/location.ml" 44 1414 1417
+)
+"ocaml_src/parsing/location.ml" 39 1313 1315 "ocaml_src/parsing/location.ml" 39 1313 1321
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/location.ml" 38 1289 1298 "ocaml_src/parsing/location.ml" 38 1289 1304
+)
+"ocaml_src/parsing/location.ml" 40 1338 1354 "ocaml_src/parsing/location.ml" 40 1338 1359
+type(
+  string
+)
+ident(
+  int_ref fname "ocaml_src/parsing/location.ml" 38 1289 1305 "ocaml_src/parsing/location.ml" 38 1289 1310
+)
+"ocaml_src/parsing/location.ml" 41 1361 1376 "ocaml_src/parsing/location.ml" 41 1361 1377
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 42 1379 1393 "ocaml_src/parsing/location.ml" 42 1379 1394
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 43 1396 1411 "ocaml_src/parsing/location.ml" 43 1396 1412
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 39 1313 1336 "ocaml_src/parsing/location.ml" 44 1414 1417
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 39 1313 1315 "ocaml_src/parsing/location.ml" 44 1414 1417
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 47 1422 1426 "ocaml_src/parsing/location.ml" 47 1422 1437
+type(
+  unit -> t
+)
+ident(
+  def symbol_rloc "ocaml_src/parsing/location.ml" 53 1553 1553 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 47 1422 1438 "ocaml_src/parsing/location.ml" 47 1422 1440
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 48 1445 1459 "ocaml_src/parsing/location.ml" 48 1445 1483
+type(
+  unit -> Lexing.position
+)
+ident(
+  ext_ref Parsing.symbol_start_pos
+)
+"ocaml_src/parsing/location.ml" 48 1445 1484 "ocaml_src/parsing/location.ml" 48 1445 1486
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 48 1445 1459 "ocaml_src/parsing/location.ml" 48 1445 1486
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 49 1488 1500 "ocaml_src/parsing/location.ml" 49 1488 1522
+type(
+  unit -> Lexing.position
+)
+ident(
+  ext_ref Parsing.symbol_end_pos
+)
+"ocaml_src/parsing/location.ml" 49 1488 1523 "ocaml_src/parsing/location.ml" 49 1488 1525
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 49 1488 1500 "ocaml_src/parsing/location.ml" 49 1488 1525
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 50 1527 1541 "ocaml_src/parsing/location.ml" 50 1527 1546
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 47 1422 1443 "ocaml_src/parsing/location.ml" 51 1548 1549
+type(
+  t
+)
+"ocaml_src/parsing/location.ml" 53 1553 1557 "ocaml_src/parsing/location.ml" 53 1553 1568
+type(
+  unit -> t
+)
+ident(
+  def symbol_gloc "ocaml_src/parsing/location.ml" 59 1683 1683 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 53 1553 1569 "ocaml_src/parsing/location.ml" 53 1553 1571
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 54 1576 1590 "ocaml_src/parsing/location.ml" 54 1576 1614
+type(
+  unit -> Lexing.position
+)
+ident(
+  ext_ref Parsing.symbol_start_pos
+)
+"ocaml_src/parsing/location.ml" 54 1576 1615 "ocaml_src/parsing/location.ml" 54 1576 1617
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 54 1576 1590 "ocaml_src/parsing/location.ml" 54 1576 1617
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 55 1619 1631 "ocaml_src/parsing/location.ml" 55 1619 1653
+type(
+  unit -> Lexing.position
+)
+ident(
+  ext_ref Parsing.symbol_end_pos
+)
+"ocaml_src/parsing/location.ml" 55 1619 1654 "ocaml_src/parsing/location.ml" 55 1619 1656
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 55 1619 1631 "ocaml_src/parsing/location.ml" 55 1619 1656
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 56 1658 1672 "ocaml_src/parsing/location.ml" 56 1658 1676
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 53 1553 1574 "ocaml_src/parsing/location.ml" 57 1678 1679
+type(
+  t
+)
+"ocaml_src/parsing/location.ml" 59 1683 1687 "ocaml_src/parsing/location.ml" 59 1683 1694
+type(
+  int -> t
+)
+ident(
+  def rhs_loc "ocaml_src/parsing/location.ml" 65 1801 1801 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 59 1683 1695 "ocaml_src/parsing/location.ml" 59 1683 1696
+type(
+  int
+)
+ident(
+  def n "ocaml_src/parsing/location.ml" 59 1683 1699 "ocaml_src/parsing/location.ml" 63 1796 1797
+)
+"ocaml_src/parsing/location.ml" 60 1701 1715 "ocaml_src/parsing/location.ml" 60 1701 1736
+type(
+  int -> Lexing.position
+)
+ident(
+  ext_ref Parsing.rhs_start_pos
+)
+"ocaml_src/parsing/location.ml" 60 1701 1737 "ocaml_src/parsing/location.ml" 60 1701 1738
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/parsing/location.ml" 59 1683 1695 "ocaml_src/parsing/location.ml" 59 1683 1696
+)
+"ocaml_src/parsing/location.ml" 60 1701 1715 "ocaml_src/parsing/location.ml" 60 1701 1738
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 61 1740 1752 "ocaml_src/parsing/location.ml" 61 1740 1771
+type(
+  int -> Lexing.position
+)
+ident(
+  ext_ref Parsing.rhs_end_pos
+)
+"ocaml_src/parsing/location.ml" 61 1740 1772 "ocaml_src/parsing/location.ml" 61 1740 1773
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/parsing/location.ml" 59 1683 1695 "ocaml_src/parsing/location.ml" 59 1683 1696
+)
+"ocaml_src/parsing/location.ml" 61 1740 1752 "ocaml_src/parsing/location.ml" 61 1740 1773
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 62 1775 1789 "ocaml_src/parsing/location.ml" 62 1775 1794
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 59 1683 1699 "ocaml_src/parsing/location.ml" 63 1796 1797
+type(
+  t
+)
+"ocaml_src/parsing/location.ml" 65 1801 1805 "ocaml_src/parsing/location.ml" 65 1801 1815
+type(
+  string ref
+)
+ident(
+  def input_name "ocaml_src/parsing/location.ml" 66 1831 1831 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 65 1801 1818 "ocaml_src/parsing/location.ml" 65 1801 1821
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/location.ml" 65 1801 1822 "ocaml_src/parsing/location.ml" 65 1801 1830
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 65 1801 1818 "ocaml_src/parsing/location.ml" 65 1801 1830
+type(
+  string ref
+)
+"ocaml_src/parsing/location.ml" 66 1831 1835 "ocaml_src/parsing/location.ml" 66 1831 1847
+type(
+  Lexing.lexbuf option ref
+)
+ident(
+  def input_lexbuf "ocaml_src/parsing/location.ml" 70 1899 1899 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 66 1831 1850 "ocaml_src/parsing/location.ml" 66 1831 1853
+type(
+  Lexing.lexbuf option -> Lexing.lexbuf option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/location.ml" 66 1831 1855 "ocaml_src/parsing/location.ml" 66 1831 1859
+type(
+  Lexing.lexbuf option
+)
+type(
+  Lexing.lexbuf option
+)
+"ocaml_src/parsing/location.ml" 66 1831 1850 "ocaml_src/parsing/location.ml" 66 1831 1876
+type(
+  Lexing.lexbuf option ref
+)
+"ocaml_src/parsing/location.ml" 70 1899 1903 "ocaml_src/parsing/location.ml" 70 1899 1909
+type(
+  Terminfo.status ref
+)
+ident(
+  def status "ocaml_src/parsing/location.ml" 72 1940 1940 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 70 1899 1912 "ocaml_src/parsing/location.ml" 70 1899 1915
+type(
+  Terminfo.status -> Terminfo.status ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/location.ml" 70 1899 1916 "ocaml_src/parsing/location.ml" 70 1899 1938
+type(
+  Terminfo.status
+)
+"ocaml_src/parsing/location.ml" 70 1899 1912 "ocaml_src/parsing/location.ml" 70 1899 1938
+type(
+  Terminfo.status ref
+)
+"ocaml_src/parsing/location.ml" 72 1940 1944 "ocaml_src/parsing/location.ml" 72 1940 1957
+type(
+  int ref
+)
+ident(
+  def num_loc_lines "ocaml_src/parsing/location.ml" 76 2069 2069 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 72 1940 1960 "ocaml_src/parsing/location.ml" 72 1940 1963
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/location.ml" 72 1940 1964 "ocaml_src/parsing/location.ml" 72 1940 1965
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 72 1940 1960 "ocaml_src/parsing/location.ml" 72 1940 1965
+type(
+  int ref
+)
+"ocaml_src/parsing/location.ml" 76 2069 2073 "ocaml_src/parsing/location.ml" 76 2069 2091
+type(
+  Format.formatter -> int -> Lexing.lexbuf -> t -> t -> unit
+)
+ident(
+  def highlight_terminfo "ocaml_src/parsing/location.ml" 112 3453 3453 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 76 2069 2092 "ocaml_src/parsing/location.ml" 76 2069 2095
+type(
+  Format.formatter
+)
+ident(
+  def ppf "ocaml_src/parsing/location.ml" 76 2069 2096 "ocaml_src/parsing/location.ml" 108 3385 3399
+)
+"ocaml_src/parsing/location.ml" 76 2069 2096 "ocaml_src/parsing/location.ml" 76 2069 2105
+type(
+  int
+)
+ident(
+  def num_lines "ocaml_src/parsing/location.ml" 76 2069 2106 "ocaml_src/parsing/location.ml" 108 3385 3399
+)
+"ocaml_src/parsing/location.ml" 76 2069 2106 "ocaml_src/parsing/location.ml" 76 2069 2108
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "ocaml_src/parsing/location.ml" 76 2069 2109 "ocaml_src/parsing/location.ml" 108 3385 3399
+)
+"ocaml_src/parsing/location.ml" 76 2069 2109 "ocaml_src/parsing/location.ml" 76 2069 2113
+type(
+  t
+)
+ident(
+  def loc1 "ocaml_src/parsing/location.ml" 76 2069 2114 "ocaml_src/parsing/location.ml" 108 3385 3399
+)
+"ocaml_src/parsing/location.ml" 76 2069 2114 "ocaml_src/parsing/location.ml" 76 2069 2118
+type(
+  t
+)
+ident(
+  def loc2 "ocaml_src/parsing/location.ml" 77 2121 2123 "ocaml_src/parsing/location.ml" 108 3385 3399
+)
+"ocaml_src/parsing/location.ml" 77 2121 2123 "ocaml_src/parsing/location.ml" 77 2121 2137
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 77 2121 2138 "ocaml_src/parsing/location.ml" 77 2121 2141
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 76 2069 2092 "ocaml_src/parsing/location.ml" 76 2069 2095
+)
+"ocaml_src/parsing/location.ml" 77 2121 2142 "ocaml_src/parsing/location.ml" 77 2121 2146
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 77 2121 2123 "ocaml_src/parsing/location.ml" 77 2121 2146
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 79 2255 2261 "ocaml_src/parsing/location.ml" 79 2255 2265
+type(
+  int
+)
+ident(
+  def pos0 "ocaml_src/parsing/location.ml" 81 2355 2357 "ocaml_src/parsing/location.ml" 108 3385 3399
+)
+"ocaml_src/parsing/location.ml" 79 2255 2268 "ocaml_src/parsing/location.ml" 79 2255 2269
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"ocaml_src/parsing/location.ml" 79 2255 2269 "ocaml_src/parsing/location.ml" 79 2255 2271
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "ocaml_src/parsing/location.ml" 76 2069 2106 "ocaml_src/parsing/location.ml" 76 2069 2108
+)
+"ocaml_src/parsing/location.ml" 79 2255 2269 "ocaml_src/parsing/location.ml" 79 2255 2283
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 79 2255 2268 "ocaml_src/parsing/location.ml" 79 2255 2283
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 81 2355 2360 "ocaml_src/parsing/location.ml" 81 2355 2364
+type(
+  int
+)
+ident(
+  int_ref pos0 "ocaml_src/parsing/location.ml" 79 2255 2261 "ocaml_src/parsing/location.ml" 79 2255 2265
+)
+"ocaml_src/parsing/location.ml" 81 2355 2365 "ocaml_src/parsing/location.ml" 81 2355 2366
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/parsing/location.ml" 81 2355 2367 "ocaml_src/parsing/location.ml" 81 2355 2368
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 81 2355 2360 "ocaml_src/parsing/location.ml" 81 2355 2368
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 81 2355 2374 "ocaml_src/parsing/location.ml" 81 2355 2379
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/parsing/location.ml" 81 2355 2380 "ocaml_src/parsing/location.ml" 81 2355 2384
+type(
+  exn
+)
+"ocaml_src/parsing/location.ml" 81 2355 2374 "ocaml_src/parsing/location.ml" 81 2355 2384
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 81 2355 2357 "ocaml_src/parsing/location.ml" 81 2355 2384
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 83 2426 2432 "ocaml_src/parsing/location.ml" 83 2426 2437
+type(
+  int ref
+)
+ident(
+  def lines "ocaml_src/parsing/location.ml" 84 2462 2464 "ocaml_src/parsing/location.ml" 108 3385 3399
+)
+"ocaml_src/parsing/location.ml" 83 2426 2440 "ocaml_src/parsing/location.ml" 83 2426 2443
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/location.ml" 83 2426 2444 "ocaml_src/parsing/location.ml" 83 2426 2445
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 83 2426 2445 "ocaml_src/parsing/location.ml" 83 2426 2458
+type(
+  int ref
+)
+ident(
+  int_ref num_loc_lines "ocaml_src/parsing/location.ml" 72 1940 1944 "ocaml_src/parsing/location.ml" 72 1940 1957
+)
+"ocaml_src/parsing/location.ml" 83 2426 2444 "ocaml_src/parsing/location.ml" 83 2426 2458
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 83 2426 2440 "ocaml_src/parsing/location.ml" 83 2426 2458
+type(
+  int ref
+)
+"ocaml_src/parsing/location.ml" 84 2462 2472 "ocaml_src/parsing/location.ml" 84 2462 2476
+type(
+  int
+)
+ident(
+  int_ref pos0 "ocaml_src/parsing/location.ml" 79 2255 2261 "ocaml_src/parsing/location.ml" 79 2255 2265
+)
+"ocaml_src/parsing/location.ml" 84 2462 2480 "ocaml_src/parsing/location.ml" 84 2462 2482
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "ocaml_src/parsing/location.ml" 76 2069 2106 "ocaml_src/parsing/location.ml" 76 2069 2108
+)
+"ocaml_src/parsing/location.ml" 84 2462 2480 "ocaml_src/parsing/location.ml" 84 2462 2497
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 84 2462 2498 "ocaml_src/parsing/location.ml" 84 2462 2499
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/location.ml" 84 2462 2500 "ocaml_src/parsing/location.ml" 84 2462 2501
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 84 2462 2480 "ocaml_src/parsing/location.ml" 84 2462 2501
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 85 2505 2512 "ocaml_src/parsing/location.ml" 85 2505 2514
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "ocaml_src/parsing/location.ml" 76 2069 2106 "ocaml_src/parsing/location.ml" 76 2069 2108
+)
+"ocaml_src/parsing/location.ml" 85 2505 2512 "ocaml_src/parsing/location.ml" 85 2505 2525
+type(
+  bytes
+)
+"ocaml_src/parsing/location.ml" 85 2505 2527 "ocaml_src/parsing/location.ml" 85 2505 2528
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/parsing/location.ml" 84 2462 2464 "ocaml_src/parsing/location.ml" 86 2553 2559
+)
+"ocaml_src/parsing/location.ml" 85 2505 2512 "ocaml_src/parsing/location.ml" 85 2505 2529
+type(
+  char
+)
+"ocaml_src/parsing/location.ml" 85 2505 2530 "ocaml_src/parsing/location.ml" 85 2505 2531
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 85 2505 2532 "ocaml_src/parsing/location.ml" 85 2505 2536
+type(
+  char
+)
+"ocaml_src/parsing/location.ml" 85 2505 2512 "ocaml_src/parsing/location.ml" 85 2505 2536
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 85 2505 2542 "ocaml_src/parsing/location.ml" 85 2505 2546
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/parsing/location.ml" 85 2505 2547 "ocaml_src/parsing/location.ml" 85 2505 2552
+type(
+  int ref
+)
+ident(
+  int_ref lines "ocaml_src/parsing/location.ml" 83 2426 2432 "ocaml_src/parsing/location.ml" 83 2426 2437
+)
+"ocaml_src/parsing/location.ml" 85 2505 2542 "ocaml_src/parsing/location.ml" 85 2505 2552
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 85 2505 2509 "ocaml_src/parsing/location.ml" 85 2505 2552
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 84 2462 2464 "ocaml_src/parsing/location.ml" 86 2553 2559
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 88 2596 2601 "ocaml_src/parsing/location.ml" 88 2596 2602
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 88 2596 2602 "ocaml_src/parsing/location.ml" 88 2596 2607
+type(
+  int ref
+)
+ident(
+  int_ref lines "ocaml_src/parsing/location.ml" 83 2426 2432 "ocaml_src/parsing/location.ml" 83 2426 2437
+)
+"ocaml_src/parsing/location.ml" 88 2596 2601 "ocaml_src/parsing/location.ml" 88 2596 2607
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 88 2596 2608 "ocaml_src/parsing/location.ml" 88 2596 2610
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/parsing/location.ml" 88 2596 2611 "ocaml_src/parsing/location.ml" 88 2596 2620
+type(
+  int
+)
+ident(
+  int_ref num_lines "ocaml_src/parsing/location.ml" 76 2069 2096 "ocaml_src/parsing/location.ml" 76 2069 2105
+)
+"ocaml_src/parsing/location.ml" 88 2596 2621 "ocaml_src/parsing/location.ml" 88 2596 2622
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/location.ml" 88 2596 2623 "ocaml_src/parsing/location.ml" 88 2596 2624
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 88 2596 2611 "ocaml_src/parsing/location.ml" 88 2596 2624
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 88 2596 2601 "ocaml_src/parsing/location.ml" 88 2596 2624
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 88 2596 2630 "ocaml_src/parsing/location.ml" 88 2596 2635
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/parsing/location.ml" 88 2596 2636 "ocaml_src/parsing/location.ml" 88 2596 2640
+type(
+  exn
+)
+"ocaml_src/parsing/location.ml" 88 2596 2630 "ocaml_src/parsing/location.ml" 88 2596 2640
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 88 2596 2598 "ocaml_src/parsing/location.ml" 88 2596 2640
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 90 2686 2688 "ocaml_src/parsing/location.ml" 90 2686 2693
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"ocaml_src/parsing/location.ml" 90 2686 2694 "ocaml_src/parsing/location.ml" 90 2686 2700
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"ocaml_src/parsing/location.ml" 90 2686 2688 "ocaml_src/parsing/location.ml" 90 2686 2700
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 90 2686 2702 "ocaml_src/parsing/location.ml" 90 2686 2717
+type(
+  int -> unit
+)
+ident(
+  ext_ref Terminfo.backup
+)
+"ocaml_src/parsing/location.ml" 90 2686 2718 "ocaml_src/parsing/location.ml" 90 2686 2719
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 90 2686 2719 "ocaml_src/parsing/location.ml" 90 2686 2724
+type(
+  int ref
+)
+ident(
+  int_ref lines "ocaml_src/parsing/location.ml" 83 2426 2432 "ocaml_src/parsing/location.ml" 83 2426 2437
+)
+"ocaml_src/parsing/location.ml" 90 2686 2718 "ocaml_src/parsing/location.ml" 90 2686 2724
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 90 2686 2702 "ocaml_src/parsing/location.ml" 90 2686 2724
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 92 2790 2796 "ocaml_src/parsing/location.ml" 92 2790 2799
+type(
+  bool ref
+)
+ident(
+  def bol "ocaml_src/parsing/location.ml" 93 2815 2817 "ocaml_src/parsing/location.ml" 108 3385 3399
+)
+"ocaml_src/parsing/location.ml" 92 2790 2802 "ocaml_src/parsing/location.ml" 92 2790 2805
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/location.ml" 92 2790 2806 "ocaml_src/parsing/location.ml" 92 2790 2811
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 92 2790 2802 "ocaml_src/parsing/location.ml" 92 2790 2811
+type(
+  bool ref
+)
+"ocaml_src/parsing/location.ml" 93 2815 2817 "ocaml_src/parsing/location.ml" 93 2815 2829
+type(
+  string -> unit
+)
+ident(
+  ext_ref Format.print_string
+)
+"ocaml_src/parsing/location.ml" 93 2815 2830 "ocaml_src/parsing/location.ml" 93 2815 2834
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 93 2815 2817 "ocaml_src/parsing/location.ml" 93 2815 2834
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 94 2836 2848 "ocaml_src/parsing/location.ml" 94 2836 2849
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 94 2836 2853 "ocaml_src/parsing/location.ml" 94 2836 2855
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "ocaml_src/parsing/location.ml" 76 2069 2106 "ocaml_src/parsing/location.ml" 76 2069 2108
+)
+"ocaml_src/parsing/location.ml" 94 2836 2853 "ocaml_src/parsing/location.ml" 94 2836 2870
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 94 2836 2871 "ocaml_src/parsing/location.ml" 94 2836 2872
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/location.ml" 94 2836 2873 "ocaml_src/parsing/location.ml" 94 2836 2877
+type(
+  int
+)
+ident(
+  int_ref pos0 "ocaml_src/parsing/location.ml" 79 2255 2261 "ocaml_src/parsing/location.ml" 79 2255 2265
+)
+"ocaml_src/parsing/location.ml" 94 2836 2853 "ocaml_src/parsing/location.ml" 94 2836 2877
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 94 2836 2878 "ocaml_src/parsing/location.ml" 94 2836 2879
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/location.ml" 94 2836 2880 "ocaml_src/parsing/location.ml" 94 2836 2881
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 94 2836 2853 "ocaml_src/parsing/location.ml" 94 2836 2881
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 95 2885 2892 "ocaml_src/parsing/location.ml" 95 2885 2893
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 95 2885 2893 "ocaml_src/parsing/location.ml" 95 2885 2896
+type(
+  bool ref
+)
+ident(
+  int_ref bol "ocaml_src/parsing/location.ml" 92 2790 2796 "ocaml_src/parsing/location.ml" 92 2790 2799
+)
+"ocaml_src/parsing/location.ml" 95 2885 2892 "ocaml_src/parsing/location.ml" 95 2885 2896
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 95 2885 2903 "ocaml_src/parsing/location.ml" 95 2885 2915
+type(
+  string -> unit
+)
+ident(
+  ext_ref Format.print_string
+)
+"ocaml_src/parsing/location.ml" 95 2885 2916 "ocaml_src/parsing/location.ml" 95 2885 2920
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 95 2885 2903 "ocaml_src/parsing/location.ml" 95 2885 2920
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 95 2885 2922 "ocaml_src/parsing/location.ml" 95 2885 2925
+type(
+  bool ref
+)
+ident(
+  int_ref bol "ocaml_src/parsing/location.ml" 92 2790 2796 "ocaml_src/parsing/location.ml" 92 2790 2799
+)
+"ocaml_src/parsing/location.ml" 95 2885 2926 "ocaml_src/parsing/location.ml" 95 2885 2928
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/parsing/location.ml" 95 2885 2929 "ocaml_src/parsing/location.ml" 95 2885 2934
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 95 2885 2922 "ocaml_src/parsing/location.ml" 95 2885 2934
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 95 2885 2902 "ocaml_src/parsing/location.ml" 95 2885 2935
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 95 2885 2889 "ocaml_src/parsing/location.ml" 95 2885 2935
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 96 2937 2944 "ocaml_src/parsing/location.ml" 96 2937 2947
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 94 2836 2838 "ocaml_src/parsing/location.ml" 103 3226 3232
+)
+"ocaml_src/parsing/location.ml" 96 2937 2948 "ocaml_src/parsing/location.ml" 96 2937 2949
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 96 2937 2950 "ocaml_src/parsing/location.ml" 96 2937 2954
+type(
+  t
+)
+ident(
+  int_ref loc1 "ocaml_src/parsing/location.ml" 76 2069 2109 "ocaml_src/parsing/location.ml" 76 2069 2113
+)
+"ocaml_src/parsing/location.ml" 96 2937 2950 "ocaml_src/parsing/location.ml" 96 2937 2964
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 96 2937 2950 "ocaml_src/parsing/location.ml" 96 2937 2973
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 96 2937 2944 "ocaml_src/parsing/location.ml" 96 2937 2973
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 96 2937 2974 "ocaml_src/parsing/location.ml" 96 2937 2976
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ocaml_src/parsing/location.ml" 96 2937 2977 "ocaml_src/parsing/location.ml" 96 2937 2980
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 94 2836 2838 "ocaml_src/parsing/location.ml" 103 3226 3232
+)
+"ocaml_src/parsing/location.ml" 96 2937 2981 "ocaml_src/parsing/location.ml" 96 2937 2982
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 96 2937 2983 "ocaml_src/parsing/location.ml" 96 2937 2987
+type(
+  t
+)
+ident(
+  int_ref loc2 "ocaml_src/parsing/location.ml" 76 2069 2114 "ocaml_src/parsing/location.ml" 76 2069 2118
+)
+"ocaml_src/parsing/location.ml" 96 2937 2983 "ocaml_src/parsing/location.ml" 96 2937 2997
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 96 2937 2983 "ocaml_src/parsing/location.ml" 96 2937 3006
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 96 2937 2977 "ocaml_src/parsing/location.ml" 96 2937 3006
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 96 2937 2944 "ocaml_src/parsing/location.ml" 96 2937 3006
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 97 3012 3018 "ocaml_src/parsing/location.ml" 97 3012 3035
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Terminfo.standout
+)
+"ocaml_src/parsing/location.ml" 97 3012 3036 "ocaml_src/parsing/location.ml" 97 3012 3040
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 97 3012 3018 "ocaml_src/parsing/location.ml" 97 3012 3040
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 96 2937 2941 "ocaml_src/parsing/location.ml" 97 3012 3040
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 98 3042 3049 "ocaml_src/parsing/location.ml" 98 3042 3052
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 94 2836 2838 "ocaml_src/parsing/location.ml" 103 3226 3232
+)
+"ocaml_src/parsing/location.ml" 98 3042 3053 "ocaml_src/parsing/location.ml" 98 3042 3054
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 98 3042 3055 "ocaml_src/parsing/location.ml" 98 3042 3059
+type(
+  t
+)
+ident(
+  int_ref loc1 "ocaml_src/parsing/location.ml" 76 2069 2109 "ocaml_src/parsing/location.ml" 76 2069 2113
+)
+"ocaml_src/parsing/location.ml" 98 3042 3055 "ocaml_src/parsing/location.ml" 98 3042 3067
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 98 3042 3055 "ocaml_src/parsing/location.ml" 98 3042 3076
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 98 3042 3049 "ocaml_src/parsing/location.ml" 98 3042 3076
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 98 3042 3077 "ocaml_src/parsing/location.ml" 98 3042 3079
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ocaml_src/parsing/location.ml" 98 3042 3080 "ocaml_src/parsing/location.ml" 98 3042 3083
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 94 2836 2838 "ocaml_src/parsing/location.ml" 103 3226 3232
+)
+"ocaml_src/parsing/location.ml" 98 3042 3084 "ocaml_src/parsing/location.ml" 98 3042 3085
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 98 3042 3086 "ocaml_src/parsing/location.ml" 98 3042 3090
+type(
+  t
+)
+ident(
+  int_ref loc2 "ocaml_src/parsing/location.ml" 76 2069 2114 "ocaml_src/parsing/location.ml" 76 2069 2118
+)
+"ocaml_src/parsing/location.ml" 98 3042 3086 "ocaml_src/parsing/location.ml" 98 3042 3098
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 98 3042 3086 "ocaml_src/parsing/location.ml" 98 3042 3107
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 98 3042 3080 "ocaml_src/parsing/location.ml" 98 3042 3107
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 98 3042 3049 "ocaml_src/parsing/location.ml" 98 3042 3107
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 99 3113 3119 "ocaml_src/parsing/location.ml" 99 3113 3136
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Terminfo.standout
+)
+"ocaml_src/parsing/location.ml" 99 3113 3137 "ocaml_src/parsing/location.ml" 99 3113 3142
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 99 3113 3119 "ocaml_src/parsing/location.ml" 99 3113 3142
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 98 3042 3046 "ocaml_src/parsing/location.ml" 99 3113 3142
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 100 3144 3152 "ocaml_src/parsing/location.ml" 100 3144 3153
+type(
+  char
+)
+ident(
+  def c "ocaml_src/parsing/location.ml" 101 3186 3190 "ocaml_src/parsing/location.ml" 102 3204 3225
+)
+"ocaml_src/parsing/location.ml" 100 3144 3156 "ocaml_src/parsing/location.ml" 100 3144 3158
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "ocaml_src/parsing/location.ml" 76 2069 2106 "ocaml_src/parsing/location.ml" 76 2069 2108
+)
+"ocaml_src/parsing/location.ml" 100 3144 3156 "ocaml_src/parsing/location.ml" 100 3144 3169
+type(
+  bytes
+)
+"ocaml_src/parsing/location.ml" 100 3144 3171 "ocaml_src/parsing/location.ml" 100 3144 3174
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 94 2836 2838 "ocaml_src/parsing/location.ml" 103 3226 3232
+)
+"ocaml_src/parsing/location.ml" 100 3144 3175 "ocaml_src/parsing/location.ml" 100 3144 3176
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/parsing/location.ml" 100 3144 3177 "ocaml_src/parsing/location.ml" 100 3144 3181
+type(
+  int
+)
+ident(
+  int_ref pos0 "ocaml_src/parsing/location.ml" 79 2255 2261 "ocaml_src/parsing/location.ml" 79 2255 2265
+)
+"ocaml_src/parsing/location.ml" 100 3144 3171 "ocaml_src/parsing/location.ml" 100 3144 3181
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 100 3144 3156 "ocaml_src/parsing/location.ml" 100 3144 3182
+type(
+  char
+)
+"ocaml_src/parsing/location.ml" 101 3186 3190 "ocaml_src/parsing/location.ml" 101 3186 3200
+type(
+  char -> unit
+)
+ident(
+  ext_ref Format.print_char
+)
+"ocaml_src/parsing/location.ml" 101 3186 3201 "ocaml_src/parsing/location.ml" 101 3186 3202
+type(
+  char
+)
+ident(
+  int_ref c "ocaml_src/parsing/location.ml" 100 3144 3152 "ocaml_src/parsing/location.ml" 100 3144 3153
+)
+"ocaml_src/parsing/location.ml" 101 3186 3190 "ocaml_src/parsing/location.ml" 101 3186 3202
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 102 3204 3208 "ocaml_src/parsing/location.ml" 102 3204 3211
+type(
+  bool ref
+)
+ident(
+  int_ref bol "ocaml_src/parsing/location.ml" 92 2790 2796 "ocaml_src/parsing/location.ml" 92 2790 2799
+)
+"ocaml_src/parsing/location.ml" 102 3204 3212 "ocaml_src/parsing/location.ml" 102 3204 3214
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/parsing/location.ml" 102 3204 3216 "ocaml_src/parsing/location.ml" 102 3204 3217
+type(
+  char
+)
+ident(
+  int_ref c "ocaml_src/parsing/location.ml" 100 3144 3152 "ocaml_src/parsing/location.ml" 100 3144 3153
+)
+"ocaml_src/parsing/location.ml" 102 3204 3218 "ocaml_src/parsing/location.ml" 102 3204 3219
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 102 3204 3220 "ocaml_src/parsing/location.ml" 102 3204 3224
+type(
+  char
+)
+"ocaml_src/parsing/location.ml" 102 3204 3215 "ocaml_src/parsing/location.ml" 102 3204 3225
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 102 3204 3208 "ocaml_src/parsing/location.ml" 102 3204 3225
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 101 3186 3190 "ocaml_src/parsing/location.ml" 102 3204 3225
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 100 3144 3148 "ocaml_src/parsing/location.ml" 102 3204 3225
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 98 3042 3046 "ocaml_src/parsing/location.ml" 102 3204 3225
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 96 2937 2941 "ocaml_src/parsing/location.ml" 102 3204 3225
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 95 2885 2889 "ocaml_src/parsing/location.ml" 102 3204 3225
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 94 2836 2838 "ocaml_src/parsing/location.ml" 103 3226 3232
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 105 3274 3276 "ocaml_src/parsing/location.ml" 105 3274 3293
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Terminfo.standout
+)
+"ocaml_src/parsing/location.ml" 105 3274 3294 "ocaml_src/parsing/location.ml" 105 3274 3299
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 105 3274 3276 "ocaml_src/parsing/location.ml" 105 3274 3299
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 107 3351 3353 "ocaml_src/parsing/location.ml" 107 3351 3368
+type(
+  int -> unit
+)
+ident(
+  ext_ref Terminfo.resume
+)
+"ocaml_src/parsing/location.ml" 107 3351 3369 "ocaml_src/parsing/location.ml" 107 3351 3370
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 107 3351 3370 "ocaml_src/parsing/location.ml" 107 3351 3383
+type(
+  int ref
+)
+ident(
+  int_ref num_loc_lines "ocaml_src/parsing/location.ml" 72 1940 1944 "ocaml_src/parsing/location.ml" 72 1940 1957
+)
+"ocaml_src/parsing/location.ml" 107 3351 3369 "ocaml_src/parsing/location.ml" 107 3351 3383
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 107 3351 3353 "ocaml_src/parsing/location.ml" 107 3351 3383
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 108 3385 3387 "ocaml_src/parsing/location.ml" 108 3385 3392
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"ocaml_src/parsing/location.ml" 108 3385 3393 "ocaml_src/parsing/location.ml" 108 3385 3399
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"ocaml_src/parsing/location.ml" 108 3385 3387 "ocaml_src/parsing/location.ml" 108 3385 3399
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 107 3351 3353 "ocaml_src/parsing/location.ml" 108 3385 3399
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 105 3274 3276 "ocaml_src/parsing/location.ml" 108 3385 3399
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 94 2836 2838 "ocaml_src/parsing/location.ml" 108 3385 3399
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 93 2815 2817 "ocaml_src/parsing/location.ml" 108 3385 3399
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 92 2790 2792 "ocaml_src/parsing/location.ml" 108 3385 3399
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 90 2686 2702 "ocaml_src/parsing/location.ml" 108 3385 3399
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 90 2686 2688 "ocaml_src/parsing/location.ml" 108 3385 3399
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 88 2596 2598 "ocaml_src/parsing/location.ml" 108 3385 3399
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 84 2462 2464 "ocaml_src/parsing/location.ml" 108 3385 3399
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 83 2426 2428 "ocaml_src/parsing/location.ml" 108 3385 3399
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 81 2355 2357 "ocaml_src/parsing/location.ml" 108 3385 3399
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 79 2255 2257 "ocaml_src/parsing/location.ml" 108 3385 3399
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 77 2121 2123 "ocaml_src/parsing/location.ml" 108 3385 3399
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 112 3453 3457 "ocaml_src/parsing/location.ml" 112 3453 3471
+type(
+  Format.formatter -> Lexing.lexbuf -> t -> unit
+)
+ident(
+  def highlight_dumb "ocaml_src/parsing/location.ml" 174 5907 5907 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 112 3453 3472 "ocaml_src/parsing/location.ml" 112 3453 3475
+type(
+  Format.formatter
+)
+ident(
+  def ppf "ocaml_src/parsing/location.ml" 112 3453 3476 "ocaml_src/parsing/location.ml" 170 5835 5841
+)
+"ocaml_src/parsing/location.ml" 112 3453 3476 "ocaml_src/parsing/location.ml" 112 3453 3478
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "ocaml_src/parsing/location.ml" 112 3453 3479 "ocaml_src/parsing/location.ml" 170 5835 5841
+)
+"ocaml_src/parsing/location.ml" 112 3453 3479 "ocaml_src/parsing/location.ml" 112 3453 3482
+type(
+  t
+)
+ident(
+  def loc "ocaml_src/parsing/location.ml" 114 3547 3549 "ocaml_src/parsing/location.ml" 170 5835 5841
+)
+"ocaml_src/parsing/location.ml" 114 3547 3553 "ocaml_src/parsing/location.ml" 114 3547 3557
+type(
+  int
+)
+ident(
+  def pos0 "ocaml_src/parsing/location.ml" 116 3647 3649 "ocaml_src/parsing/location.ml" 170 5835 5841
+)
+"ocaml_src/parsing/location.ml" 114 3547 3560 "ocaml_src/parsing/location.ml" 114 3547 3561
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"ocaml_src/parsing/location.ml" 114 3547 3561 "ocaml_src/parsing/location.ml" 114 3547 3563
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "ocaml_src/parsing/location.ml" 112 3453 3476 "ocaml_src/parsing/location.ml" 112 3453 3478
+)
+"ocaml_src/parsing/location.ml" 114 3547 3561 "ocaml_src/parsing/location.ml" 114 3547 3575
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 114 3547 3560 "ocaml_src/parsing/location.ml" 114 3547 3575
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 116 3647 3652 "ocaml_src/parsing/location.ml" 116 3647 3656
+type(
+  int
+)
+ident(
+  int_ref pos0 "ocaml_src/parsing/location.ml" 114 3547 3553 "ocaml_src/parsing/location.ml" 114 3547 3557
+)
+"ocaml_src/parsing/location.ml" 116 3647 3657 "ocaml_src/parsing/location.ml" 116 3647 3658
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/parsing/location.ml" 116 3647 3659 "ocaml_src/parsing/location.ml" 116 3647 3660
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 116 3647 3652 "ocaml_src/parsing/location.ml" 116 3647 3660
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 116 3647 3666 "ocaml_src/parsing/location.ml" 116 3647 3671
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/parsing/location.ml" 116 3647 3672 "ocaml_src/parsing/location.ml" 116 3647 3676
+type(
+  exn
+)
+"ocaml_src/parsing/location.ml" 116 3647 3666 "ocaml_src/parsing/location.ml" 116 3647 3676
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 116 3647 3649 "ocaml_src/parsing/location.ml" 116 3647 3676
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 117 3678 3684 "ocaml_src/parsing/location.ml" 117 3678 3691
+type(
+  int
+)
+ident(
+  def end_pos "ocaml_src/parsing/location.ml" 119 3786 3788 "ocaml_src/parsing/location.ml" 170 5835 5841
+)
+"ocaml_src/parsing/location.ml" 117 3678 3694 "ocaml_src/parsing/location.ml" 117 3678 3696
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "ocaml_src/parsing/location.ml" 112 3453 3476 "ocaml_src/parsing/location.ml" 112 3453 3478
+)
+"ocaml_src/parsing/location.ml" 117 3678 3694 "ocaml_src/parsing/location.ml" 117 3678 3711
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 117 3678 3712 "ocaml_src/parsing/location.ml" 117 3678 3713
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/location.ml" 117 3678 3714 "ocaml_src/parsing/location.ml" 117 3678 3718
+type(
+  int
+)
+ident(
+  int_ref pos0 "ocaml_src/parsing/location.ml" 114 3547 3553 "ocaml_src/parsing/location.ml" 114 3547 3557
+)
+"ocaml_src/parsing/location.ml" 117 3678 3694 "ocaml_src/parsing/location.ml" 117 3678 3718
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 117 3678 3719 "ocaml_src/parsing/location.ml" 117 3678 3720
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/location.ml" 117 3678 3721 "ocaml_src/parsing/location.ml" 117 3678 3722
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 117 3678 3694 "ocaml_src/parsing/location.ml" 117 3678 3722
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 119 3786 3792 "ocaml_src/parsing/location.ml" 119 3786 3802
+type(
+  int ref
+)
+ident(
+  def line_start "ocaml_src/parsing/location.ml" 120 3835 3837 "ocaml_src/parsing/location.ml" 170 5835 5841
+)
+"ocaml_src/parsing/location.ml" 119 3786 3805 "ocaml_src/parsing/location.ml" 119 3786 3808
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/location.ml" 119 3786 3809 "ocaml_src/parsing/location.ml" 119 3786 3810
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 119 3786 3805 "ocaml_src/parsing/location.ml" 119 3786 3810
+type(
+  int ref
+)
+"ocaml_src/parsing/location.ml" 119 3786 3815 "ocaml_src/parsing/location.ml" 119 3786 3823
+type(
+  int ref
+)
+ident(
+  def line_end "ocaml_src/parsing/location.ml" 120 3835 3837 "ocaml_src/parsing/location.ml" 170 5835 5841
+)
+"ocaml_src/parsing/location.ml" 119 3786 3826 "ocaml_src/parsing/location.ml" 119 3786 3829
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/location.ml" 119 3786 3830 "ocaml_src/parsing/location.ml" 119 3786 3831
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 119 3786 3826 "ocaml_src/parsing/location.ml" 119 3786 3831
+type(
+  int ref
+)
+"ocaml_src/parsing/location.ml" 120 3835 3847 "ocaml_src/parsing/location.ml" 120 3835 3848
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 120 3835 3852 "ocaml_src/parsing/location.ml" 120 3835 3859
+type(
+  int
+)
+ident(
+  int_ref end_pos "ocaml_src/parsing/location.ml" 117 3678 3684 "ocaml_src/parsing/location.ml" 117 3678 3691
+)
+"ocaml_src/parsing/location.ml" 121 3863 3870 "ocaml_src/parsing/location.ml" 121 3863 3872
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "ocaml_src/parsing/location.ml" 112 3453 3476 "ocaml_src/parsing/location.ml" 112 3453 3478
+)
+"ocaml_src/parsing/location.ml" 121 3863 3870 "ocaml_src/parsing/location.ml" 121 3863 3883
+type(
+  bytes
+)
+"ocaml_src/parsing/location.ml" 121 3863 3885 "ocaml_src/parsing/location.ml" 121 3863 3888
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 120 3835 3837 "ocaml_src/parsing/location.ml" 125 4041 4047
+)
+"ocaml_src/parsing/location.ml" 121 3863 3889 "ocaml_src/parsing/location.ml" 121 3863 3890
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/parsing/location.ml" 121 3863 3891 "ocaml_src/parsing/location.ml" 121 3863 3895
+type(
+  int
+)
+ident(
+  int_ref pos0 "ocaml_src/parsing/location.ml" 114 3547 3553 "ocaml_src/parsing/location.ml" 114 3547 3557
+)
+"ocaml_src/parsing/location.ml" 121 3863 3885 "ocaml_src/parsing/location.ml" 121 3863 3895
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 121 3863 3870 "ocaml_src/parsing/location.ml" 121 3863 3896
+type(
+  char
+)
+"ocaml_src/parsing/location.ml" 121 3863 3897 "ocaml_src/parsing/location.ml" 121 3863 3898
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 121 3863 3899 "ocaml_src/parsing/location.ml" 121 3863 3903
+type(
+  char
+)
+"ocaml_src/parsing/location.ml" 121 3863 3870 "ocaml_src/parsing/location.ml" 121 3863 3903
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 122 3915 3924 "ocaml_src/parsing/location.ml" 122 3915 3927
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 112 3453 3479 "ocaml_src/parsing/location.ml" 112 3453 3482
+)
+"ocaml_src/parsing/location.ml" 122 3915 3924 "ocaml_src/parsing/location.ml" 122 3915 3937
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 122 3915 3924 "ocaml_src/parsing/location.ml" 122 3915 3946
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 122 3915 3947 "ocaml_src/parsing/location.ml" 122 3915 3948
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ocaml_src/parsing/location.ml" 122 3915 3949 "ocaml_src/parsing/location.ml" 122 3915 3952
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 120 3835 3837 "ocaml_src/parsing/location.ml" 125 4041 4047
+)
+"ocaml_src/parsing/location.ml" 122 3915 3924 "ocaml_src/parsing/location.ml" 122 3915 3952
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 122 3915 3958 "ocaml_src/parsing/location.ml" 122 3915 3962
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/parsing/location.ml" 122 3915 3963 "ocaml_src/parsing/location.ml" 122 3915 3973
+type(
+  int ref
+)
+ident(
+  int_ref line_start "ocaml_src/parsing/location.ml" 119 3786 3792 "ocaml_src/parsing/location.ml" 119 3786 3802
+)
+"ocaml_src/parsing/location.ml" 122 3915 3958 "ocaml_src/parsing/location.ml" 122 3915 3973
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 122 3915 3921 "ocaml_src/parsing/location.ml" 122 3915 3973
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 123 3975 3984 "ocaml_src/parsing/location.ml" 123 3975 3987
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 112 3453 3479 "ocaml_src/parsing/location.ml" 112 3453 3482
+)
+"ocaml_src/parsing/location.ml" 123 3975 3984 "ocaml_src/parsing/location.ml" 123 3975 3995
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 123 3975 3984 "ocaml_src/parsing/location.ml" 123 3975 4004
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 123 3975 4007 "ocaml_src/parsing/location.ml" 123 3975 4008
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ocaml_src/parsing/location.ml" 123 3975 4009 "ocaml_src/parsing/location.ml" 123 3975 4012
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 120 3835 3837 "ocaml_src/parsing/location.ml" 125 4041 4047
+)
+"ocaml_src/parsing/location.ml" 123 3975 3984 "ocaml_src/parsing/location.ml" 123 3975 4012
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 123 3975 4018 "ocaml_src/parsing/location.ml" 123 3975 4022
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/parsing/location.ml" 123 3975 4023 "ocaml_src/parsing/location.ml" 123 3975 4031
+type(
+  int ref
+)
+ident(
+  int_ref line_end "ocaml_src/parsing/location.ml" 119 3786 3815 "ocaml_src/parsing/location.ml" 119 3786 3823
+)
+"ocaml_src/parsing/location.ml" 123 3975 4018 "ocaml_src/parsing/location.ml" 123 3975 4031
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 123 3975 3981 "ocaml_src/parsing/location.ml" 123 3975 4032
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 121 3863 3909 "ocaml_src/parsing/location.ml" 124 4033 4040
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 121 3863 3867 "ocaml_src/parsing/location.ml" 124 4033 4040
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 120 3835 3837 "ocaml_src/parsing/location.ml" 125 4041 4047
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 127 4101 4103 "ocaml_src/parsing/location.ml" 127 4101 4117
+type(
+  Format.formatter ->
+  (int -> int -> unit, Format.formatter, unit) format -> int -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 127 4101 4118 "ocaml_src/parsing/location.ml" 127 4101 4121
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 112 3453 3472 "ocaml_src/parsing/location.ml" 112 3453 3475
+)
+"ocaml_src/parsing/location.ml" 127 4101 4122 "ocaml_src/parsing/location.ml" 127 4101 4143
+type(
+  (int -> int -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 128 4144 4161 "ocaml_src/parsing/location.ml" 128 4144 4164
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 112 3453 3479 "ocaml_src/parsing/location.ml" 112 3453 3482
+)
+"ocaml_src/parsing/location.ml" 128 4144 4161 "ocaml_src/parsing/location.ml" 128 4144 4174
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 128 4144 4161 "ocaml_src/parsing/location.ml" 128 4144 4183
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 128 4144 4184 "ocaml_src/parsing/location.ml" 128 4144 4187
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 112 3453 3479 "ocaml_src/parsing/location.ml" 112 3453 3482
+)
+"ocaml_src/parsing/location.ml" 128 4144 4184 "ocaml_src/parsing/location.ml" 128 4144 4195
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 128 4144 4184 "ocaml_src/parsing/location.ml" 128 4144 4204
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 127 4101 4103 "ocaml_src/parsing/location.ml" 128 4144 4204
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 130 4256 4258 "ocaml_src/parsing/location.ml" 130 4256 4272
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 130 4256 4273 "ocaml_src/parsing/location.ml" 130 4256 4276
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 112 3453 3472 "ocaml_src/parsing/location.ml" 112 3453 3475
+)
+"ocaml_src/parsing/location.ml" 130 4256 4277 "ocaml_src/parsing/location.ml" 130 4256 4281
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 130 4256 4282 "ocaml_src/parsing/location.ml" 130 4256 4286
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 130 4256 4258 "ocaml_src/parsing/location.ml" 130 4256 4286
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 131 4288 4294 "ocaml_src/parsing/location.ml" 131 4288 4298
+type(
+  int ref
+)
+ident(
+  def line "ocaml_src/parsing/location.ml" 132 4310 4312 "ocaml_src/parsing/location.ml" 170 5835 5841
+)
+"ocaml_src/parsing/location.ml" 131 4288 4301 "ocaml_src/parsing/location.ml" 131 4288 4304
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/location.ml" 131 4288 4305 "ocaml_src/parsing/location.ml" 131 4288 4306
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 131 4288 4301 "ocaml_src/parsing/location.ml" 131 4288 4306
+type(
+  int ref
+)
+"ocaml_src/parsing/location.ml" 132 4310 4316 "ocaml_src/parsing/location.ml" 132 4310 4326
+type(
+  int ref
+)
+ident(
+  def pos_at_bol "ocaml_src/parsing/location.ml" 133 4338 4340 "ocaml_src/parsing/location.ml" 170 5835 5841
+)
+"ocaml_src/parsing/location.ml" 132 4310 4329 "ocaml_src/parsing/location.ml" 132 4310 4332
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/location.ml" 132 4310 4333 "ocaml_src/parsing/location.ml" 132 4310 4334
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 132 4310 4329 "ocaml_src/parsing/location.ml" 132 4310 4334
+type(
+  int ref
+)
+"ocaml_src/parsing/location.ml" 133 4338 4350 "ocaml_src/parsing/location.ml" 133 4338 4351
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 133 4338 4355 "ocaml_src/parsing/location.ml" 133 4338 4362
+type(
+  int
+)
+ident(
+  int_ref end_pos "ocaml_src/parsing/location.ml" 117 3678 3684 "ocaml_src/parsing/location.ml" 117 3678 3691
+)
+"ocaml_src/parsing/location.ml" 134 4366 4374 "ocaml_src/parsing/location.ml" 134 4366 4375
+type(
+  char
+)
+ident(
+  def c "ocaml_src/parsing/location.ml" 135 4408 4412 "ocaml_src/parsing/location.ml" 169 5827 5834
+)
+"ocaml_src/parsing/location.ml" 134 4366 4378 "ocaml_src/parsing/location.ml" 134 4366 4380
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "ocaml_src/parsing/location.ml" 112 3453 3476 "ocaml_src/parsing/location.ml" 112 3453 3478
+)
+"ocaml_src/parsing/location.ml" 134 4366 4378 "ocaml_src/parsing/location.ml" 134 4366 4391
+type(
+  bytes
+)
+"ocaml_src/parsing/location.ml" 134 4366 4393 "ocaml_src/parsing/location.ml" 134 4366 4396
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 133 4338 4340 "ocaml_src/parsing/location.ml" 170 5835 5841
+)
+"ocaml_src/parsing/location.ml" 134 4366 4397 "ocaml_src/parsing/location.ml" 134 4366 4398
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/parsing/location.ml" 134 4366 4399 "ocaml_src/parsing/location.ml" 134 4366 4403
+type(
+  int
+)
+ident(
+  int_ref pos0 "ocaml_src/parsing/location.ml" 114 3547 3553 "ocaml_src/parsing/location.ml" 114 3547 3557
+)
+"ocaml_src/parsing/location.ml" 134 4366 4393 "ocaml_src/parsing/location.ml" 134 4366 4403
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 134 4366 4378 "ocaml_src/parsing/location.ml" 134 4366 4404
+type(
+  char
+)
+"ocaml_src/parsing/location.ml" 135 4408 4415 "ocaml_src/parsing/location.ml" 135 4408 4416
+type(
+  char
+)
+ident(
+  int_ref c "ocaml_src/parsing/location.ml" 134 4366 4374 "ocaml_src/parsing/location.ml" 134 4366 4375
+)
+"ocaml_src/parsing/location.ml" 135 4408 4417 "ocaml_src/parsing/location.ml" 135 4408 4419
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ocaml_src/parsing/location.ml" 135 4408 4420 "ocaml_src/parsing/location.ml" 135 4408 4424
+type(
+  char
+)
+"ocaml_src/parsing/location.ml" 135 4408 4415 "ocaml_src/parsing/location.ml" 135 4408 4424
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 136 4436 4445 "ocaml_src/parsing/location.ml" 136 4436 4446
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 136 4436 4446 "ocaml_src/parsing/location.ml" 136 4436 4450
+type(
+  int ref
+)
+ident(
+  int_ref line "ocaml_src/parsing/location.ml" 131 4288 4294 "ocaml_src/parsing/location.ml" 131 4288 4298
+)
+"ocaml_src/parsing/location.ml" 136 4436 4445 "ocaml_src/parsing/location.ml" 136 4436 4450
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 136 4436 4451 "ocaml_src/parsing/location.ml" 136 4436 4452
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 136 4436 4453 "ocaml_src/parsing/location.ml" 136 4436 4454
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 136 4436 4454 "ocaml_src/parsing/location.ml" 136 4436 4464
+type(
+  int ref
+)
+ident(
+  int_ref line_start "ocaml_src/parsing/location.ml" 119 3786 3792 "ocaml_src/parsing/location.ml" 119 3786 3802
+)
+"ocaml_src/parsing/location.ml" 136 4436 4453 "ocaml_src/parsing/location.ml" 136 4436 4464
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 136 4436 4445 "ocaml_src/parsing/location.ml" 136 4436 4464
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 136 4436 4465 "ocaml_src/parsing/location.ml" 136 4436 4467
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/parsing/location.ml" 136 4436 4468 "ocaml_src/parsing/location.ml" 136 4436 4469
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 136 4436 4469 "ocaml_src/parsing/location.ml" 136 4436 4473
+type(
+  int ref
+)
+ident(
+  int_ref line "ocaml_src/parsing/location.ml" 131 4288 4294 "ocaml_src/parsing/location.ml" 131 4288 4298
+)
+"ocaml_src/parsing/location.ml" 136 4436 4468 "ocaml_src/parsing/location.ml" 136 4436 4473
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 136 4436 4474 "ocaml_src/parsing/location.ml" 136 4436 4475
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 136 4436 4476 "ocaml_src/parsing/location.ml" 136 4436 4477
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 136 4436 4477 "ocaml_src/parsing/location.ml" 136 4436 4485
+type(
+  int ref
+)
+ident(
+  int_ref line_end "ocaml_src/parsing/location.ml" 119 3786 3815 "ocaml_src/parsing/location.ml" 119 3786 3823
+)
+"ocaml_src/parsing/location.ml" 136 4436 4476 "ocaml_src/parsing/location.ml" 136 4436 4485
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 136 4436 4468 "ocaml_src/parsing/location.ml" 136 4436 4485
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 136 4436 4445 "ocaml_src/parsing/location.ml" 136 4436 4485
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 138 4542 4550 "ocaml_src/parsing/location.ml" 138 4542 4564
+type(
+  Format.formatter ->
+  (char -> unit, Format.formatter, unit) format -> char -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 138 4542 4565 "ocaml_src/parsing/location.ml" 138 4542 4568
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 112 3453 3472 "ocaml_src/parsing/location.ml" 112 3453 3475
+)
+"ocaml_src/parsing/location.ml" 138 4542 4569 "ocaml_src/parsing/location.ml" 138 4542 4573
+type(
+  (char -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 138 4542 4574 "ocaml_src/parsing/location.ml" 138 4542 4575
+type(
+  char
+)
+ident(
+  int_ref c "ocaml_src/parsing/location.ml" 134 4366 4374 "ocaml_src/parsing/location.ml" 134 4366 4375
+)
+"ocaml_src/parsing/location.ml" 138 4542 4550 "ocaml_src/parsing/location.ml" 138 4542 4575
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 139 4576 4590 "ocaml_src/parsing/location.ml" 139 4576 4591
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 139 4576 4591 "ocaml_src/parsing/location.ml" 139 4576 4595
+type(
+  int ref
+)
+ident(
+  int_ref line "ocaml_src/parsing/location.ml" 131 4288 4294 "ocaml_src/parsing/location.ml" 131 4288 4298
+)
+"ocaml_src/parsing/location.ml" 139 4576 4590 "ocaml_src/parsing/location.ml" 139 4576 4595
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 139 4576 4596 "ocaml_src/parsing/location.ml" 139 4576 4597
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 139 4576 4598 "ocaml_src/parsing/location.ml" 139 4576 4599
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 139 4576 4599 "ocaml_src/parsing/location.ml" 139 4576 4609
+type(
+  int ref
+)
+ident(
+  int_ref line_start "ocaml_src/parsing/location.ml" 119 3786 3792 "ocaml_src/parsing/location.ml" 119 3786 3802
+)
+"ocaml_src/parsing/location.ml" 139 4576 4598 "ocaml_src/parsing/location.ml" 139 4576 4609
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 139 4576 4590 "ocaml_src/parsing/location.ml" 139 4576 4609
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 141 4685 4696 "ocaml_src/parsing/location.ml" 141 4685 4699
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 133 4338 4340 "ocaml_src/parsing/location.ml" 170 5835 5841
+)
+"ocaml_src/parsing/location.ml" 141 4685 4700 "ocaml_src/parsing/location.ml" 141 4685 4701
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/parsing/location.ml" 141 4685 4702 "ocaml_src/parsing/location.ml" 141 4685 4705
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 112 3453 3479 "ocaml_src/parsing/location.ml" 112 3453 3482
+)
+"ocaml_src/parsing/location.ml" 141 4685 4702 "ocaml_src/parsing/location.ml" 141 4685 4715
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 141 4685 4702 "ocaml_src/parsing/location.ml" 141 4685 4724
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 141 4685 4696 "ocaml_src/parsing/location.ml" 141 4685 4724
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 142 4725 4738 "ocaml_src/parsing/location.ml" 142 4725 4752
+type(
+  Format.formatter ->
+  (char -> unit, Format.formatter, unit) format -> char -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 142 4725 4753 "ocaml_src/parsing/location.ml" 142 4725 4756
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 112 3453 3472 "ocaml_src/parsing/location.ml" 112 3453 3475
+)
+"ocaml_src/parsing/location.ml" 142 4725 4757 "ocaml_src/parsing/location.ml" 142 4725 4761
+type(
+  (char -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 142 4725 4762 "ocaml_src/parsing/location.ml" 142 4725 4765
+type(
+  char
+)
+"ocaml_src/parsing/location.ml" 142 4725 4738 "ocaml_src/parsing/location.ml" 142 4725 4765
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 143 4766 4779 "ocaml_src/parsing/location.ml" 143 4766 4793
+type(
+  Format.formatter ->
+  (char -> unit, Format.formatter, unit) format -> char -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 143 4766 4794 "ocaml_src/parsing/location.ml" 143 4766 4797
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 112 3453 3472 "ocaml_src/parsing/location.ml" 112 3453 3475
+)
+"ocaml_src/parsing/location.ml" 143 4766 4798 "ocaml_src/parsing/location.ml" 143 4766 4802
+type(
+  (char -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 143 4766 4803 "ocaml_src/parsing/location.ml" 143 4766 4804
+type(
+  char
+)
+ident(
+  int_ref c "ocaml_src/parsing/location.ml" 134 4366 4374 "ocaml_src/parsing/location.ml" 134 4366 4375
+)
+"ocaml_src/parsing/location.ml" 143 4766 4779 "ocaml_src/parsing/location.ml" 143 4766 4804
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 141 4685 4693 "ocaml_src/parsing/location.ml" 143 4766 4804
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 144 4805 4819 "ocaml_src/parsing/location.ml" 144 4805 4820
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 144 4805 4820 "ocaml_src/parsing/location.ml" 144 4805 4824
+type(
+  int ref
+)
+ident(
+  int_ref line "ocaml_src/parsing/location.ml" 131 4288 4294 "ocaml_src/parsing/location.ml" 131 4288 4298
+)
+"ocaml_src/parsing/location.ml" 144 4805 4819 "ocaml_src/parsing/location.ml" 144 4805 4824
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 144 4805 4825 "ocaml_src/parsing/location.ml" 144 4805 4826
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 144 4805 4827 "ocaml_src/parsing/location.ml" 144 4805 4828
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 144 4805 4828 "ocaml_src/parsing/location.ml" 144 4805 4836
+type(
+  int ref
+)
+ident(
+  int_ref line_end "ocaml_src/parsing/location.ml" 119 3786 3815 "ocaml_src/parsing/location.ml" 119 3786 3823
+)
+"ocaml_src/parsing/location.ml" 144 4805 4827 "ocaml_src/parsing/location.ml" 144 4805 4836
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 144 4805 4819 "ocaml_src/parsing/location.ml" 144 4805 4836
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 146 4908 4919 "ocaml_src/parsing/location.ml" 146 4908 4922
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 133 4338 4340 "ocaml_src/parsing/location.ml" 170 5835 5841
+)
+"ocaml_src/parsing/location.ml" 146 4908 4923 "ocaml_src/parsing/location.ml" 146 4908 4924
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/parsing/location.ml" 146 4908 4925 "ocaml_src/parsing/location.ml" 146 4908 4928
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 112 3453 3479 "ocaml_src/parsing/location.ml" 112 3453 3482
+)
+"ocaml_src/parsing/location.ml" 146 4908 4925 "ocaml_src/parsing/location.ml" 146 4908 4936
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 146 4908 4925 "ocaml_src/parsing/location.ml" 146 4908 4945
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 146 4908 4919 "ocaml_src/parsing/location.ml" 146 4908 4945
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 147 4946 4959 "ocaml_src/parsing/location.ml" 147 4946 4973
+type(
+  Format.formatter ->
+  (char -> unit, Format.formatter, unit) format -> char -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 147 4946 4974 "ocaml_src/parsing/location.ml" 147 4946 4977
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 112 3453 3472 "ocaml_src/parsing/location.ml" 112 3453 3475
+)
+"ocaml_src/parsing/location.ml" 147 4946 4978 "ocaml_src/parsing/location.ml" 147 4946 4982
+type(
+  (char -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 147 4946 4983 "ocaml_src/parsing/location.ml" 147 4946 4984
+type(
+  char
+)
+ident(
+  int_ref c "ocaml_src/parsing/location.ml" 134 4366 4374 "ocaml_src/parsing/location.ml" 134 4366 4375
+)
+"ocaml_src/parsing/location.ml" 147 4946 4959 "ocaml_src/parsing/location.ml" 147 4946 4984
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 148 4985 4998 "ocaml_src/parsing/location.ml" 148 4985 5012
+type(
+  Format.formatter ->
+  (char -> unit, Format.formatter, unit) format -> char -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 148 4985 5013 "ocaml_src/parsing/location.ml" 148 4985 5016
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 112 3453 3472 "ocaml_src/parsing/location.ml" 112 3453 3475
+)
+"ocaml_src/parsing/location.ml" 148 4985 5017 "ocaml_src/parsing/location.ml" 148 4985 5021
+type(
+  (char -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 148 4985 5022 "ocaml_src/parsing/location.ml" 148 4985 5025
+type(
+  char
+)
+"ocaml_src/parsing/location.ml" 148 4985 4998 "ocaml_src/parsing/location.ml" 148 4985 5025
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 146 4908 4916 "ocaml_src/parsing/location.ml" 148 4985 5025
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 149 5026 5040 "ocaml_src/parsing/location.ml" 149 5026 5041
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 149 5026 5041 "ocaml_src/parsing/location.ml" 149 5026 5045
+type(
+  int ref
+)
+ident(
+  int_ref line "ocaml_src/parsing/location.ml" 131 4288 4294 "ocaml_src/parsing/location.ml" 131 4288 4298
+)
+"ocaml_src/parsing/location.ml" 149 5026 5040 "ocaml_src/parsing/location.ml" 149 5026 5045
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 149 5026 5046 "ocaml_src/parsing/location.ml" 149 5026 5047
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ocaml_src/parsing/location.ml" 149 5026 5048 "ocaml_src/parsing/location.ml" 149 5026 5049
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 149 5026 5049 "ocaml_src/parsing/location.ml" 149 5026 5059
+type(
+  int ref
+)
+ident(
+  int_ref line_start "ocaml_src/parsing/location.ml" 119 3786 3792 "ocaml_src/parsing/location.ml" 119 3786 3802
+)
+"ocaml_src/parsing/location.ml" 149 5026 5048 "ocaml_src/parsing/location.ml" 149 5026 5059
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 149 5026 5040 "ocaml_src/parsing/location.ml" 149 5026 5059
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 149 5026 5060 "ocaml_src/parsing/location.ml" 149 5026 5062
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/parsing/location.ml" 149 5026 5063 "ocaml_src/parsing/location.ml" 149 5026 5064
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 149 5026 5064 "ocaml_src/parsing/location.ml" 149 5026 5068
+type(
+  int ref
+)
+ident(
+  int_ref line "ocaml_src/parsing/location.ml" 131 4288 4294 "ocaml_src/parsing/location.ml" 131 4288 4298
+)
+"ocaml_src/parsing/location.ml" 149 5026 5063 "ocaml_src/parsing/location.ml" 149 5026 5068
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 149 5026 5069 "ocaml_src/parsing/location.ml" 149 5026 5070
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/parsing/location.ml" 149 5026 5071 "ocaml_src/parsing/location.ml" 149 5026 5072
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 149 5026 5072 "ocaml_src/parsing/location.ml" 149 5026 5080
+type(
+  int ref
+)
+ident(
+  int_ref line_end "ocaml_src/parsing/location.ml" 119 3786 3815 "ocaml_src/parsing/location.ml" 119 3786 3823
+)
+"ocaml_src/parsing/location.ml" 149 5026 5071 "ocaml_src/parsing/location.ml" 149 5026 5080
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 149 5026 5063 "ocaml_src/parsing/location.ml" 149 5026 5080
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 149 5026 5040 "ocaml_src/parsing/location.ml" 149 5026 5080
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 151 5153 5161 "ocaml_src/parsing/location.ml" 151 5153 5175
+type(
+  Format.formatter ->
+  (char -> unit, Format.formatter, unit) format -> char -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 151 5153 5176 "ocaml_src/parsing/location.ml" 151 5153 5179
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 112 3453 3472 "ocaml_src/parsing/location.ml" 112 3453 3475
+)
+"ocaml_src/parsing/location.ml" 151 5153 5180 "ocaml_src/parsing/location.ml" 151 5153 5184
+type(
+  (char -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 151 5153 5185 "ocaml_src/parsing/location.ml" 151 5153 5186
+type(
+  char
+)
+ident(
+  int_ref c "ocaml_src/parsing/location.ml" 134 4366 4374 "ocaml_src/parsing/location.ml" 134 4366 4375
+)
+"ocaml_src/parsing/location.ml" 151 5153 5161 "ocaml_src/parsing/location.ml" 151 5153 5186
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 149 5026 5037 "ocaml_src/parsing/location.ml" 151 5153 5186
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 144 4805 4816 "ocaml_src/parsing/location.ml" 151 5153 5186
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 139 4576 4587 "ocaml_src/parsing/location.ml" 151 5153 5186
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 135 4408 4430 "ocaml_src/parsing/location.ml" 152 5187 5194
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 153 5206 5215 "ocaml_src/parsing/location.ml" 153 5206 5216
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 153 5206 5216 "ocaml_src/parsing/location.ml" 153 5206 5220
+type(
+  int ref
+)
+ident(
+  int_ref line "ocaml_src/parsing/location.ml" 131 4288 4294 "ocaml_src/parsing/location.ml" 131 4288 4298
+)
+"ocaml_src/parsing/location.ml" 153 5206 5215 "ocaml_src/parsing/location.ml" 153 5206 5220
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 153 5206 5221 "ocaml_src/parsing/location.ml" 153 5206 5222
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 153 5206 5223 "ocaml_src/parsing/location.ml" 153 5206 5224
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 153 5206 5224 "ocaml_src/parsing/location.ml" 153 5206 5234
+type(
+  int ref
+)
+ident(
+  int_ref line_start "ocaml_src/parsing/location.ml" 119 3786 3792 "ocaml_src/parsing/location.ml" 119 3786 3802
+)
+"ocaml_src/parsing/location.ml" 153 5206 5223 "ocaml_src/parsing/location.ml" 153 5206 5234
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 153 5206 5215 "ocaml_src/parsing/location.ml" 153 5206 5234
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 153 5206 5235 "ocaml_src/parsing/location.ml" 153 5206 5237
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/parsing/location.ml" 153 5206 5238 "ocaml_src/parsing/location.ml" 153 5206 5239
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 153 5206 5239 "ocaml_src/parsing/location.ml" 153 5206 5243
+type(
+  int ref
+)
+ident(
+  int_ref line "ocaml_src/parsing/location.ml" 131 4288 4294 "ocaml_src/parsing/location.ml" 131 4288 4298
+)
+"ocaml_src/parsing/location.ml" 153 5206 5238 "ocaml_src/parsing/location.ml" 153 5206 5243
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 153 5206 5244 "ocaml_src/parsing/location.ml" 153 5206 5245
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 153 5206 5246 "ocaml_src/parsing/location.ml" 153 5206 5247
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 153 5206 5247 "ocaml_src/parsing/location.ml" 153 5206 5255
+type(
+  int ref
+)
+ident(
+  int_ref line_end "ocaml_src/parsing/location.ml" 119 3786 3815 "ocaml_src/parsing/location.ml" 119 3786 3823
+)
+"ocaml_src/parsing/location.ml" 153 5206 5246 "ocaml_src/parsing/location.ml" 153 5206 5255
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 153 5206 5238 "ocaml_src/parsing/location.ml" 153 5206 5255
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 153 5206 5215 "ocaml_src/parsing/location.ml" 153 5206 5255
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 155 5320 5328 "ocaml_src/parsing/location.ml" 155 5320 5342
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 155 5320 5343 "ocaml_src/parsing/location.ml" 155 5320 5346
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 112 3453 3472 "ocaml_src/parsing/location.ml" 112 3453 3475
+)
+"ocaml_src/parsing/location.ml" 155 5320 5347 "ocaml_src/parsing/location.ml" 155 5320 5353
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 155 5320 5328 "ocaml_src/parsing/location.ml" 155 5320 5353
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 156 5355 5372 "ocaml_src/parsing/location.ml" 156 5355 5373
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 156 5355 5373 "ocaml_src/parsing/location.ml" 156 5355 5383
+type(
+  int ref
+)
+ident(
+  int_ref pos_at_bol "ocaml_src/parsing/location.ml" 132 4310 4316 "ocaml_src/parsing/location.ml" 132 4310 4326
+)
+"ocaml_src/parsing/location.ml" 156 5355 5372 "ocaml_src/parsing/location.ml" 156 5355 5383
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 156 5355 5387 "ocaml_src/parsing/location.ml" 156 5355 5390
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 112 3453 3479 "ocaml_src/parsing/location.ml" 112 3453 3482
+)
+"ocaml_src/parsing/location.ml" 156 5355 5387 "ocaml_src/parsing/location.ml" 156 5355 5400
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 156 5355 5387 "ocaml_src/parsing/location.ml" 156 5355 5409
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 156 5355 5410 "ocaml_src/parsing/location.ml" 156 5355 5411
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/location.ml" 156 5355 5412 "ocaml_src/parsing/location.ml" 156 5355 5413
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 156 5355 5387 "ocaml_src/parsing/location.ml" 156 5355 5413
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 157 5417 5427 "ocaml_src/parsing/location.ml" 157 5417 5441
+type(
+  Format.formatter ->
+  (char -> unit, Format.formatter, unit) format -> char -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 157 5417 5442 "ocaml_src/parsing/location.ml" 157 5417 5445
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 112 3453 3472 "ocaml_src/parsing/location.ml" 112 3453 3475
+)
+"ocaml_src/parsing/location.ml" 157 5417 5446 "ocaml_src/parsing/location.ml" 157 5417 5450
+type(
+  (char -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 157 5417 5451 "ocaml_src/parsing/location.ml" 157 5417 5454
+type(
+  char
+)
+"ocaml_src/parsing/location.ml" 157 5417 5427 "ocaml_src/parsing/location.ml" 157 5417 5454
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 156 5355 5363 "ocaml_src/parsing/location.ml" 158 5455 5467
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 159 5469 5486 "ocaml_src/parsing/location.ml" 159 5469 5489
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 112 3453 3479 "ocaml_src/parsing/location.ml" 112 3453 3482
+)
+"ocaml_src/parsing/location.ml" 159 5469 5486 "ocaml_src/parsing/location.ml" 159 5469 5499
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 159 5469 5486 "ocaml_src/parsing/location.ml" 159 5469 5508
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 159 5469 5512 "ocaml_src/parsing/location.ml" 159 5469 5515
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 112 3453 3479 "ocaml_src/parsing/location.ml" 112 3453 3482
+)
+"ocaml_src/parsing/location.ml" 159 5469 5512 "ocaml_src/parsing/location.ml" 159 5469 5523
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 159 5469 5512 "ocaml_src/parsing/location.ml" 159 5469 5532
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 159 5469 5533 "ocaml_src/parsing/location.ml" 159 5469 5534
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/location.ml" 159 5469 5535 "ocaml_src/parsing/location.ml" 159 5469 5536
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 159 5469 5512 "ocaml_src/parsing/location.ml" 159 5469 5536
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 160 5540 5550 "ocaml_src/parsing/location.ml" 160 5540 5564
+type(
+  Format.formatter ->
+  (char -> unit, Format.formatter, unit) format -> char -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 160 5540 5565 "ocaml_src/parsing/location.ml" 160 5540 5568
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 112 3453 3472 "ocaml_src/parsing/location.ml" 112 3453 3475
+)
+"ocaml_src/parsing/location.ml" 160 5540 5569 "ocaml_src/parsing/location.ml" 160 5540 5573
+type(
+  (char -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 160 5540 5574 "ocaml_src/parsing/location.ml" 160 5540 5577
+type(
+  char
+)
+"ocaml_src/parsing/location.ml" 160 5540 5550 "ocaml_src/parsing/location.ml" 160 5540 5577
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 159 5469 5477 "ocaml_src/parsing/location.ml" 161 5578 5590
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 156 5355 5363 "ocaml_src/parsing/location.ml" 161 5578 5590
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 153 5206 5261 "ocaml_src/parsing/location.ml" 162 5591 5600
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 153 5206 5212 "ocaml_src/parsing/location.ml" 162 5591 5600
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 163 5602 5611 "ocaml_src/parsing/location.ml" 163 5602 5612
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 163 5602 5612 "ocaml_src/parsing/location.ml" 163 5602 5616
+type(
+  int ref
+)
+ident(
+  int_ref line "ocaml_src/parsing/location.ml" 131 4288 4294 "ocaml_src/parsing/location.ml" 131 4288 4298
+)
+"ocaml_src/parsing/location.ml" 163 5602 5611 "ocaml_src/parsing/location.ml" 163 5602 5616
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 163 5602 5617 "ocaml_src/parsing/location.ml" 163 5602 5619
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/parsing/location.ml" 163 5602 5620 "ocaml_src/parsing/location.ml" 163 5602 5621
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 163 5602 5621 "ocaml_src/parsing/location.ml" 163 5602 5631
+type(
+  int ref
+)
+ident(
+  int_ref line_start "ocaml_src/parsing/location.ml" 119 3786 3792 "ocaml_src/parsing/location.ml" 119 3786 3802
+)
+"ocaml_src/parsing/location.ml" 163 5602 5620 "ocaml_src/parsing/location.ml" 163 5602 5631
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 163 5602 5611 "ocaml_src/parsing/location.ml" 163 5602 5631
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 163 5602 5632 "ocaml_src/parsing/location.ml" 163 5602 5634
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/parsing/location.ml" 163 5602 5635 "ocaml_src/parsing/location.ml" 163 5602 5636
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 163 5602 5636 "ocaml_src/parsing/location.ml" 163 5602 5640
+type(
+  int ref
+)
+ident(
+  int_ref line "ocaml_src/parsing/location.ml" 131 4288 4294 "ocaml_src/parsing/location.ml" 131 4288 4298
+)
+"ocaml_src/parsing/location.ml" 163 5602 5635 "ocaml_src/parsing/location.ml" 163 5602 5640
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 163 5602 5641 "ocaml_src/parsing/location.ml" 163 5602 5643
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"ocaml_src/parsing/location.ml" 163 5602 5644 "ocaml_src/parsing/location.ml" 163 5602 5645
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 163 5602 5645 "ocaml_src/parsing/location.ml" 163 5602 5653
+type(
+  int ref
+)
+ident(
+  int_ref line_end "ocaml_src/parsing/location.ml" 119 3786 3815 "ocaml_src/parsing/location.ml" 119 3786 3823
+)
+"ocaml_src/parsing/location.ml" 163 5602 5644 "ocaml_src/parsing/location.ml" 163 5602 5653
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 163 5602 5635 "ocaml_src/parsing/location.ml" 163 5602 5653
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 163 5602 5611 "ocaml_src/parsing/location.ml" 163 5602 5653
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 164 5665 5673 "ocaml_src/parsing/location.ml" 164 5665 5687
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 164 5665 5688 "ocaml_src/parsing/location.ml" 164 5665 5691
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 112 3453 3472 "ocaml_src/parsing/location.ml" 112 3453 3475
+)
+"ocaml_src/parsing/location.ml" 164 5665 5692 "ocaml_src/parsing/location.ml" 164 5665 5696
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 164 5665 5673 "ocaml_src/parsing/location.ml" 164 5665 5696
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 165 5698 5709 "ocaml_src/parsing/location.ml" 165 5698 5712
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 133 4338 4340 "ocaml_src/parsing/location.ml" 170 5835 5841
+)
+"ocaml_src/parsing/location.ml" 165 5698 5713 "ocaml_src/parsing/location.ml" 165 5698 5714
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/parsing/location.ml" 165 5698 5715 "ocaml_src/parsing/location.ml" 165 5698 5718
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 112 3453 3479 "ocaml_src/parsing/location.ml" 112 3453 3482
+)
+"ocaml_src/parsing/location.ml" 165 5698 5715 "ocaml_src/parsing/location.ml" 165 5698 5726
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 165 5698 5715 "ocaml_src/parsing/location.ml" 165 5698 5735
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 165 5698 5709 "ocaml_src/parsing/location.ml" 165 5698 5735
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 165 5698 5741 "ocaml_src/parsing/location.ml" 165 5698 5755
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 165 5698 5756 "ocaml_src/parsing/location.ml" 165 5698 5759
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 112 3453 3472 "ocaml_src/parsing/location.ml" 112 3453 3475
+)
+"ocaml_src/parsing/location.ml" 165 5698 5760 "ocaml_src/parsing/location.ml" 165 5698 5764
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 165 5698 5765 "ocaml_src/parsing/location.ml" 165 5698 5769
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 165 5698 5741 "ocaml_src/parsing/location.ml" 165 5698 5769
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 165 5698 5706 "ocaml_src/parsing/location.ml" 165 5698 5769
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 163 5602 5659 "ocaml_src/parsing/location.ml" 166 5770 5779
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 163 5602 5608 "ocaml_src/parsing/location.ml" 166 5770 5779
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 167 5781 5787 "ocaml_src/parsing/location.ml" 167 5781 5791
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/parsing/location.ml" 167 5781 5792 "ocaml_src/parsing/location.ml" 167 5781 5796
+type(
+  int ref
+)
+ident(
+  int_ref line "ocaml_src/parsing/location.ml" 131 4288 4294 "ocaml_src/parsing/location.ml" 131 4288 4298
+)
+"ocaml_src/parsing/location.ml" 167 5781 5787 "ocaml_src/parsing/location.ml" 167 5781 5796
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 168 5798 5804 "ocaml_src/parsing/location.ml" 168 5798 5814
+type(
+  int ref
+)
+ident(
+  int_ref pos_at_bol "ocaml_src/parsing/location.ml" 132 4310 4316 "ocaml_src/parsing/location.ml" 132 4310 4326
+)
+"ocaml_src/parsing/location.ml" 168 5798 5815 "ocaml_src/parsing/location.ml" 168 5798 5817
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/parsing/location.ml" 168 5798 5818 "ocaml_src/parsing/location.ml" 168 5798 5821
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 133 4338 4340 "ocaml_src/parsing/location.ml" 170 5835 5841
+)
+"ocaml_src/parsing/location.ml" 168 5798 5822 "ocaml_src/parsing/location.ml" 168 5798 5823
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/parsing/location.ml" 168 5798 5824 "ocaml_src/parsing/location.ml" 168 5798 5825
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 168 5798 5818 "ocaml_src/parsing/location.ml" 168 5798 5825
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 168 5798 5804 "ocaml_src/parsing/location.ml" 168 5798 5826
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 167 5781 5787 "ocaml_src/parsing/location.ml" 168 5798 5826
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 163 5602 5608 "ocaml_src/parsing/location.ml" 168 5798 5826
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 152 5187 5200 "ocaml_src/parsing/location.ml" 169 5827 5834
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 135 4408 4412 "ocaml_src/parsing/location.ml" 169 5827 5834
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 134 4366 4370 "ocaml_src/parsing/location.ml" 169 5827 5834
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 133 4338 4340 "ocaml_src/parsing/location.ml" 170 5835 5841
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 132 4310 4312 "ocaml_src/parsing/location.ml" 170 5835 5841
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 131 4288 4290 "ocaml_src/parsing/location.ml" 170 5835 5841
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 130 4256 4258 "ocaml_src/parsing/location.ml" 170 5835 5841
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 127 4101 4103 "ocaml_src/parsing/location.ml" 170 5835 5841
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 120 3835 3837 "ocaml_src/parsing/location.ml" 170 5835 5841
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 119 3786 3788 "ocaml_src/parsing/location.ml" 170 5835 5841
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 117 3678 3680 "ocaml_src/parsing/location.ml" 170 5835 5841
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 116 3647 3649 "ocaml_src/parsing/location.ml" 170 5835 5841
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 114 3547 3549 "ocaml_src/parsing/location.ml" 170 5835 5841
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 174 5907 5915 "ocaml_src/parsing/location.ml" 174 5907 5934
+type(
+  Format.formatter -> t -> t -> bool
+)
+ident(
+  def highlight_locations "ocaml_src/parsing/location.ml" 174 5907 5907 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 174 5907 5935 "ocaml_src/parsing/location.ml" 174 5907 5938
+type(
+  Format.formatter
+)
+ident(
+  def ppf "ocaml_src/parsing/location.ml" 174 5907 5939 "ocaml_src/parsing/location.ml" 194 6614 6623
+)
+"ocaml_src/parsing/location.ml" 174 5907 5939 "ocaml_src/parsing/location.ml" 174 5907 5943
+type(
+  t
+)
+ident(
+  def loc1 "ocaml_src/parsing/location.ml" 174 5907 5944 "ocaml_src/parsing/location.ml" 194 6614 6623
+)
+"ocaml_src/parsing/location.ml" 174 5907 5944 "ocaml_src/parsing/location.ml" 174 5907 5948
+type(
+  t
+)
+ident(
+  def loc2 "ocaml_src/parsing/location.ml" 175 5951 5953 "ocaml_src/parsing/location.ml" 194 6614 6623
+)
+"ocaml_src/parsing/location.ml" 175 5951 5959 "ocaml_src/parsing/location.ml" 175 5951 5960
+type(
+  Terminfo.status ref -> Terminfo.status
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 175 5951 5960 "ocaml_src/parsing/location.ml" 175 5951 5966
+type(
+  Terminfo.status ref
+)
+ident(
+  int_ref status "ocaml_src/parsing/location.ml" 70 1899 1903 "ocaml_src/parsing/location.ml" 70 1899 1909
+)
+"ocaml_src/parsing/location.ml" 175 5951 5959 "ocaml_src/parsing/location.ml" 175 5951 5966
+type(
+  Terminfo.status
+)
+"ocaml_src/parsing/location.ml" 176 5972 5976 "ocaml_src/parsing/location.ml" 176 5972 5998
+type(
+  Terminfo.status
+)
+"ocaml_src/parsing/location.ml" 177 6002 6008 "ocaml_src/parsing/location.ml" 177 6002 6014
+type(
+  Terminfo.status ref
+)
+ident(
+  int_ref status "ocaml_src/parsing/location.ml" 70 1899 1903 "ocaml_src/parsing/location.ml" 70 1899 1909
+)
+"ocaml_src/parsing/location.ml" 177 6002 6015 "ocaml_src/parsing/location.ml" 177 6002 6017
+type(
+  Terminfo.status ref -> Terminfo.status -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/parsing/location.ml" 177 6002 6018 "ocaml_src/parsing/location.ml" 177 6002 6032
+type(
+  out_channel -> Terminfo.status
+)
+ident(
+  ext_ref Terminfo.setup
+)
+"ocaml_src/parsing/location.ml" 177 6002 6033 "ocaml_src/parsing/location.ml" 177 6002 6039
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"ocaml_src/parsing/location.ml" 177 6002 6018 "ocaml_src/parsing/location.ml" 177 6002 6039
+type(
+  Terminfo.status
+)
+"ocaml_src/parsing/location.ml" 177 6002 6008 "ocaml_src/parsing/location.ml" 177 6002 6039
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 177 6002 6041 "ocaml_src/parsing/location.ml" 177 6002 6060
+type(
+  Format.formatter -> t -> t -> bool
+)
+ident(
+  int_ref highlight_locations "ocaml_src/parsing/location.ml" 174 5907 5915 "ocaml_src/parsing/location.ml" 174 5907 5934
+)
+"ocaml_src/parsing/location.ml" 177 6002 6061 "ocaml_src/parsing/location.ml" 177 6002 6064
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 174 5907 5935 "ocaml_src/parsing/location.ml" 174 5907 5938
+)
+"ocaml_src/parsing/location.ml" 177 6002 6065 "ocaml_src/parsing/location.ml" 177 6002 6069
+type(
+  t
+)
+ident(
+  int_ref loc1 "ocaml_src/parsing/location.ml" 174 5907 5939 "ocaml_src/parsing/location.ml" 174 5907 5943
+)
+"ocaml_src/parsing/location.ml" 177 6002 6070 "ocaml_src/parsing/location.ml" 177 6002 6074
+type(
+  t
+)
+ident(
+  int_ref loc2 "ocaml_src/parsing/location.ml" 174 5907 5944 "ocaml_src/parsing/location.ml" 174 5907 5948
+)
+"ocaml_src/parsing/location.ml" 177 6002 6041 "ocaml_src/parsing/location.ml" 177 6002 6074
+call(
+  tail
+)
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 177 6002 6008 "ocaml_src/parsing/location.ml" 177 6002 6074
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 178 6075 6079 "ocaml_src/parsing/location.ml" 178 6075 6096
+type(
+  Terminfo.status
+)
+"ocaml_src/parsing/location.ml" 179 6100 6118 "ocaml_src/parsing/location.ml" 179 6100 6119
+type(
+  Lexing.lexbuf option ref -> Lexing.lexbuf option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 179 6100 6119 "ocaml_src/parsing/location.ml" 179 6100 6131
+type(
+  Lexing.lexbuf option ref
+)
+ident(
+  int_ref input_lexbuf "ocaml_src/parsing/location.ml" 66 1831 1835 "ocaml_src/parsing/location.ml" 66 1831 1847
+)
+"ocaml_src/parsing/location.ml" 179 6100 6118 "ocaml_src/parsing/location.ml" 179 6100 6131
+type(
+  Lexing.lexbuf option
+)
+"ocaml_src/parsing/location.ml" 180 6137 6145 "ocaml_src/parsing/location.ml" 180 6137 6149
+type(
+  Lexing.lexbuf option
+)
+"ocaml_src/parsing/location.ml" 180 6137 6153 "ocaml_src/parsing/location.ml" 180 6137 6158
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 181 6159 6172 "ocaml_src/parsing/location.ml" 181 6159 6174
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "ocaml_src/parsing/location.ml" 182 6178 6188 "ocaml_src/parsing/location.ml" 186 6364 6394
+)
+"ocaml_src/parsing/location.ml" 181 6159 6167 "ocaml_src/parsing/location.ml" 181 6159 6174
+type(
+  Lexing.lexbuf option
+)
+"ocaml_src/parsing/location.ml" 182 6178 6192 "ocaml_src/parsing/location.ml" 182 6178 6200
+type(
+  bool
+)
+ident(
+  def norepeat "ocaml_src/parsing/location.ml" 184 6277 6287 "ocaml_src/parsing/location.ml" 186 6364 6394
+)
+"ocaml_src/parsing/location.ml" 183 6203 6219 "ocaml_src/parsing/location.ml" 183 6203 6229
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"ocaml_src/parsing/location.ml" 183 6203 6230 "ocaml_src/parsing/location.ml" 183 6203 6236
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 183 6203 6219 "ocaml_src/parsing/location.ml" 183 6203 6236
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 183 6203 6237 "ocaml_src/parsing/location.ml" 183 6203 6238
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 183 6203 6239 "ocaml_src/parsing/location.ml" 183 6203 6249
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 183 6203 6219 "ocaml_src/parsing/location.ml" 183 6203 6249
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 183 6203 6255 "ocaml_src/parsing/location.ml" 183 6203 6264
+type(
+  exn
+)
+"ocaml_src/parsing/location.ml" 183 6203 6268 "ocaml_src/parsing/location.ml" 183 6203 6273
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 183 6203 6215 "ocaml_src/parsing/location.ml" 183 6203 6273
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 184 6277 6290 "ocaml_src/parsing/location.ml" 184 6277 6298
+type(
+  bool
+)
+ident(
+  int_ref norepeat "ocaml_src/parsing/location.ml" 182 6178 6192 "ocaml_src/parsing/location.ml" 182 6178 6200
+)
+"ocaml_src/parsing/location.ml" 184 6277 6304 "ocaml_src/parsing/location.ml" 184 6277 6309
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 185 6315 6331 "ocaml_src/parsing/location.ml" 185 6315 6345
+type(
+  Format.formatter -> Lexing.lexbuf -> t -> unit
+)
+ident(
+  int_ref highlight_dumb "ocaml_src/parsing/location.ml" 112 3453 3457 "ocaml_src/parsing/location.ml" 112 3453 3471
+)
+"ocaml_src/parsing/location.ml" 185 6315 6346 "ocaml_src/parsing/location.ml" 185 6315 6349
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 174 5907 5935 "ocaml_src/parsing/location.ml" 174 5907 5938
+)
+"ocaml_src/parsing/location.ml" 185 6315 6350 "ocaml_src/parsing/location.ml" 185 6315 6352
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "ocaml_src/parsing/location.ml" 181 6159 6172 "ocaml_src/parsing/location.ml" 181 6159 6174
+)
+"ocaml_src/parsing/location.ml" 185 6315 6353 "ocaml_src/parsing/location.ml" 185 6315 6357
+type(
+  t
+)
+ident(
+  int_ref loc1 "ocaml_src/parsing/location.ml" 174 5907 5939 "ocaml_src/parsing/location.ml" 174 5907 5943
+)
+"ocaml_src/parsing/location.ml" 185 6315 6331 "ocaml_src/parsing/location.ml" 185 6315 6357
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 185 6315 6359 "ocaml_src/parsing/location.ml" 185 6315 6363
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 185 6315 6331 "ocaml_src/parsing/location.ml" 185 6315 6363
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 186 6364 6381 "ocaml_src/parsing/location.ml" 186 6364 6385
+type(
+  exn
+)
+"ocaml_src/parsing/location.ml" 186 6364 6389 "ocaml_src/parsing/location.ml" 186 6364 6394
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 185 6315 6327 "ocaml_src/parsing/location.ml" 186 6364 6394
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 184 6277 6287 "ocaml_src/parsing/location.ml" 186 6364 6394
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 182 6178 6188 "ocaml_src/parsing/location.ml" 186 6364 6394
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 179 6100 6106 "ocaml_src/parsing/location.ml" 187 6395 6404
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 188 6405 6428 "ocaml_src/parsing/location.ml" 188 6405 6437
+type(
+  int
+)
+ident(
+  def num_lines "ocaml_src/parsing/location.ml" 189 6441 6447 "ocaml_src/parsing/location.ml" 194 6614 6623
+)
+"ocaml_src/parsing/location.ml" 188 6405 6409 "ocaml_src/parsing/location.ml" 188 6405 6437
+type(
+  Terminfo.status
+)
+"ocaml_src/parsing/location.ml" 189 6441 6459 "ocaml_src/parsing/location.ml" 189 6441 6460
+type(
+  Lexing.lexbuf option ref -> Lexing.lexbuf option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 189 6441 6460 "ocaml_src/parsing/location.ml" 189 6441 6472
+type(
+  Lexing.lexbuf option ref
+)
+ident(
+  int_ref input_lexbuf "ocaml_src/parsing/location.ml" 66 1831 1835 "ocaml_src/parsing/location.ml" 66 1831 1847
+)
+"ocaml_src/parsing/location.ml" 189 6441 6459 "ocaml_src/parsing/location.ml" 189 6441 6472
+type(
+  Lexing.lexbuf option
+)
+"ocaml_src/parsing/location.ml" 190 6478 6486 "ocaml_src/parsing/location.ml" 190 6478 6490
+type(
+  Lexing.lexbuf option
+)
+"ocaml_src/parsing/location.ml" 190 6478 6494 "ocaml_src/parsing/location.ml" 190 6478 6499
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 191 6500 6513 "ocaml_src/parsing/location.ml" 191 6500 6515
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "ocaml_src/parsing/location.ml" 192 6519 6529 "ocaml_src/parsing/location.ml" 193 6585 6613
+)
+"ocaml_src/parsing/location.ml" 191 6500 6508 "ocaml_src/parsing/location.ml" 191 6500 6515
+type(
+  Lexing.lexbuf option
+)
+"ocaml_src/parsing/location.ml" 192 6519 6533 "ocaml_src/parsing/location.ml" 192 6519 6551
+type(
+  Format.formatter -> int -> Lexing.lexbuf -> t -> t -> unit
+)
+ident(
+  int_ref highlight_terminfo "ocaml_src/parsing/location.ml" 76 2069 2073 "ocaml_src/parsing/location.ml" 76 2069 2091
+)
+"ocaml_src/parsing/location.ml" 192 6519 6552 "ocaml_src/parsing/location.ml" 192 6519 6555
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 174 5907 5935 "ocaml_src/parsing/location.ml" 174 5907 5938
+)
+"ocaml_src/parsing/location.ml" 192 6519 6556 "ocaml_src/parsing/location.ml" 192 6519 6565
+type(
+  int
+)
+ident(
+  int_ref num_lines "ocaml_src/parsing/location.ml" 188 6405 6428 "ocaml_src/parsing/location.ml" 188 6405 6437
+)
+"ocaml_src/parsing/location.ml" 192 6519 6566 "ocaml_src/parsing/location.ml" 192 6519 6568
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "ocaml_src/parsing/location.ml" 191 6500 6513 "ocaml_src/parsing/location.ml" 191 6500 6515
+)
+"ocaml_src/parsing/location.ml" 192 6519 6569 "ocaml_src/parsing/location.ml" 192 6519 6573
+type(
+  t
+)
+ident(
+  int_ref loc1 "ocaml_src/parsing/location.ml" 174 5907 5939 "ocaml_src/parsing/location.ml" 174 5907 5943
+)
+"ocaml_src/parsing/location.ml" 192 6519 6574 "ocaml_src/parsing/location.ml" 192 6519 6578
+type(
+  t
+)
+ident(
+  int_ref loc2 "ocaml_src/parsing/location.ml" 174 5907 5944 "ocaml_src/parsing/location.ml" 174 5907 5948
+)
+"ocaml_src/parsing/location.ml" 192 6519 6533 "ocaml_src/parsing/location.ml" 192 6519 6578
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 192 6519 6580 "ocaml_src/parsing/location.ml" 192 6519 6584
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 192 6519 6533 "ocaml_src/parsing/location.ml" 192 6519 6584
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 193 6585 6600 "ocaml_src/parsing/location.ml" 193 6585 6604
+type(
+  exn
+)
+"ocaml_src/parsing/location.ml" 193 6585 6608 "ocaml_src/parsing/location.ml" 193 6585 6613
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 192 6519 6529 "ocaml_src/parsing/location.ml" 193 6585 6613
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 189 6441 6447 "ocaml_src/parsing/location.ml" 194 6614 6623
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 175 5951 5953 "ocaml_src/parsing/location.ml" 194 6614 6623
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 198 6674 6678 "ocaml_src/parsing/location.ml" 198 6674 6683
+type(
+  unit -> unit
+)
+ident(
+  def reset "ocaml_src/parsing/location.ml" 201 6711 6711 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 198 6674 6684 "ocaml_src/parsing/location.ml" 198 6674 6686
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 199 6689 6691 "ocaml_src/parsing/location.ml" 199 6689 6704
+type(
+  int ref
+)
+ident(
+  int_ref num_loc_lines "ocaml_src/parsing/location.ml" 72 1940 1944 "ocaml_src/parsing/location.ml" 72 1940 1957
+)
+"ocaml_src/parsing/location.ml" 199 6689 6705 "ocaml_src/parsing/location.ml" 199 6689 6707
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/parsing/location.ml" 199 6689 6708 "ocaml_src/parsing/location.ml" 199 6689 6709
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 199 6689 6691 "ocaml_src/parsing/location.ml" 199 6689 6709
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 201 6711 6716 "ocaml_src/parsing/location.ml" 201 6711 6724
+type(
+  string
+)
+ident(
+  def msg_file "ocaml_src/parsing/location.ml" 205 6891 6891 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 201 6711 6726 "ocaml_src/parsing/location.ml" 201 6711 6734
+type(
+  string
+)
+ident(
+  def msg_line "ocaml_src/parsing/location.ml" 205 6891 6891 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 201 6711 6736 "ocaml_src/parsing/location.ml" 201 6711 6745
+type(
+  string
+)
+ident(
+  def msg_chars "ocaml_src/parsing/location.ml" 205 6891 6891 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 201 6711 6747 "ocaml_src/parsing/location.ml" 201 6711 6753
+type(
+  string
+)
+ident(
+  def msg_to "ocaml_src/parsing/location.ml" 205 6891 6891 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 201 6711 6755 "ocaml_src/parsing/location.ml" 201 6711 6764
+type(
+  string
+)
+ident(
+  def msg_colon "ocaml_src/parsing/location.ml" 205 6891 6891 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 201 6711 6766 "ocaml_src/parsing/location.ml" 201 6711 6774
+type(
+  string
+)
+ident(
+  def msg_head "ocaml_src/parsing/location.ml" 205 6891 6891 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 201 6711 6715 "ocaml_src/parsing/location.ml" 201 6711 6775
+type(
+  string * string * string * string * string * string
+)
+"ocaml_src/parsing/location.ml" 202 6778 6781 "ocaml_src/parsing/location.ml" 202 6778 6790
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 202 6778 6792 "ocaml_src/parsing/location.ml" 202 6778 6803
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 202 6778 6805 "ocaml_src/parsing/location.ml" 202 6778 6820
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 202 6778 6822 "ocaml_src/parsing/location.ml" 202 6778 6825
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 202 6778 6827 "ocaml_src/parsing/location.ml" 202 6778 6830
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 202 6778 6832 "ocaml_src/parsing/location.ml" 202 6778 6834
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 202 6778 6780 "ocaml_src/parsing/location.ml" 202 6778 6835
+type(
+  string * string * string * string * string * string
+)
+"ocaml_src/parsing/location.ml" 205 6891 6895 "ocaml_src/parsing/location.ml" 205 6891 6907
+type(
+  Lexing.position -> string * int * int
+)
+ident(
+  def get_pos_info "ocaml_src/parsing/location.ml" 209 6978 6978 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 205 6891 6908 "ocaml_src/parsing/location.ml" 205 6891 6911
+type(
+  Lexing.position
+)
+ident(
+  def pos "ocaml_src/parsing/location.ml" 206 6914 6916 "ocaml_src/parsing/location.ml" 206 6914 6973
+)
+"ocaml_src/parsing/location.ml" 206 6914 6917 "ocaml_src/parsing/location.ml" 206 6914 6920
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 205 6891 6908 "ocaml_src/parsing/location.ml" 205 6891 6911
+)
+"ocaml_src/parsing/location.ml" 206 6914 6917 "ocaml_src/parsing/location.ml" 206 6914 6930
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 206 6914 6932 "ocaml_src/parsing/location.ml" 206 6914 6935
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 205 6891 6908 "ocaml_src/parsing/location.ml" 205 6891 6911
+)
+"ocaml_src/parsing/location.ml" 206 6914 6932 "ocaml_src/parsing/location.ml" 206 6914 6944
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 206 6914 6946 "ocaml_src/parsing/location.ml" 206 6914 6949
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 205 6891 6908 "ocaml_src/parsing/location.ml" 205 6891 6911
+)
+"ocaml_src/parsing/location.ml" 206 6914 6946 "ocaml_src/parsing/location.ml" 206 6914 6958
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 206 6914 6959 "ocaml_src/parsing/location.ml" 206 6914 6960
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/location.ml" 206 6914 6961 "ocaml_src/parsing/location.ml" 206 6914 6964
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "ocaml_src/parsing/location.ml" 205 6891 6908 "ocaml_src/parsing/location.ml" 205 6891 6911
+)
+"ocaml_src/parsing/location.ml" 206 6914 6961 "ocaml_src/parsing/location.ml" 206 6914 6972
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 206 6914 6946 "ocaml_src/parsing/location.ml" 206 6914 6972
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 206 6914 6916 "ocaml_src/parsing/location.ml" 206 6914 6973
+type(
+  string * int * int
+)
+"ocaml_src/parsing/location.ml" 209 6978 6982 "ocaml_src/parsing/location.ml" 209 6978 6987
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "ocaml_src/parsing/location.ml" 224 7546 7546 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 209 6978 6988 "ocaml_src/parsing/location.ml" 209 6978 6991
+type(
+  Format.formatter
+)
+ident(
+  def ppf "ocaml_src/parsing/location.ml" 209 6978 6992 "ocaml_src/parsing/location.ml" 221 7536 7541
+)
+"ocaml_src/parsing/location.ml" 209 6978 6992 "ocaml_src/parsing/location.ml" 209 6978 6995
+type(
+  t
+)
+ident(
+  def loc "ocaml_src/parsing/location.ml" 210 6998 7000 "ocaml_src/parsing/location.ml" 221 7536 7541
+)
+"ocaml_src/parsing/location.ml" 210 6998 7005 "ocaml_src/parsing/location.ml" 210 6998 7009
+type(
+  string
+)
+ident(
+  def file "ocaml_src/parsing/location.ml" 211 7060 7062 "ocaml_src/parsing/location.ml" 221 7536 7541
+)
+"ocaml_src/parsing/location.ml" 210 6998 7011 "ocaml_src/parsing/location.ml" 210 6998 7015
+type(
+  int
+)
+ident(
+  def line "ocaml_src/parsing/location.ml" 211 7060 7062 "ocaml_src/parsing/location.ml" 221 7536 7541
+)
+"ocaml_src/parsing/location.ml" 210 6998 7017 "ocaml_src/parsing/location.ml" 210 6998 7026
+type(
+  int
+)
+ident(
+  def startchar "ocaml_src/parsing/location.ml" 211 7060 7062 "ocaml_src/parsing/location.ml" 221 7536 7541
+)
+"ocaml_src/parsing/location.ml" 210 6998 7004 "ocaml_src/parsing/location.ml" 210 6998 7027
+type(
+  string * int * int
+)
+"ocaml_src/parsing/location.ml" 210 6998 7030 "ocaml_src/parsing/location.ml" 210 6998 7042
+type(
+  Lexing.position -> string * int * int
+)
+ident(
+  int_ref get_pos_info "ocaml_src/parsing/location.ml" 205 6891 6895 "ocaml_src/parsing/location.ml" 205 6891 6907
+)
+"ocaml_src/parsing/location.ml" 210 6998 7043 "ocaml_src/parsing/location.ml" 210 6998 7046
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 209 6978 6992 "ocaml_src/parsing/location.ml" 209 6978 6995
+)
+"ocaml_src/parsing/location.ml" 210 6998 7043 "ocaml_src/parsing/location.ml" 210 6998 7056
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 210 6998 7030 "ocaml_src/parsing/location.ml" 210 6998 7056
+call(
+  stack
+)
+type(
+  string * int * int
+)
+"ocaml_src/parsing/location.ml" 211 7060 7066 "ocaml_src/parsing/location.ml" 211 7060 7073
+type(
+  int
+)
+ident(
+  def endchar "ocaml_src/parsing/location.ml" 212 7137 7139 "ocaml_src/parsing/location.ml" 221 7536 7541
+)
+"ocaml_src/parsing/location.ml" 211 7060 7076 "ocaml_src/parsing/location.ml" 211 7060 7079
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 209 6978 6992 "ocaml_src/parsing/location.ml" 209 6978 6995
+)
+"ocaml_src/parsing/location.ml" 211 7060 7076 "ocaml_src/parsing/location.ml" 211 7060 7087
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 211 7060 7076 "ocaml_src/parsing/location.ml" 211 7060 7096
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 211 7060 7097 "ocaml_src/parsing/location.ml" 211 7060 7098
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/location.ml" 211 7060 7099 "ocaml_src/parsing/location.ml" 211 7060 7102
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 209 6978 6992 "ocaml_src/parsing/location.ml" 209 6978 6995
+)
+"ocaml_src/parsing/location.ml" 211 7060 7099 "ocaml_src/parsing/location.ml" 211 7060 7112
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 211 7060 7099 "ocaml_src/parsing/location.ml" 211 7060 7121
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 211 7060 7076 "ocaml_src/parsing/location.ml" 211 7060 7121
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 211 7060 7122 "ocaml_src/parsing/location.ml" 211 7060 7123
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/parsing/location.ml" 211 7060 7124 "ocaml_src/parsing/location.ml" 211 7060 7133
+type(
+  int
+)
+ident(
+  int_ref startchar "ocaml_src/parsing/location.ml" 210 6998 7017 "ocaml_src/parsing/location.ml" 210 6998 7026
+)
+"ocaml_src/parsing/location.ml" 211 7060 7076 "ocaml_src/parsing/location.ml" 211 7060 7133
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 212 7137 7142 "ocaml_src/parsing/location.ml" 212 7137 7146
+type(
+  string
+)
+ident(
+  int_ref file "ocaml_src/parsing/location.ml" 210 6998 7005 "ocaml_src/parsing/location.ml" 210 6998 7009
+)
+"ocaml_src/parsing/location.ml" 212 7137 7147 "ocaml_src/parsing/location.ml" 212 7137 7148
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/location.ml" 212 7137 7149 "ocaml_src/parsing/location.ml" 212 7137 7163
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 212 7137 7142 "ocaml_src/parsing/location.ml" 212 7137 7163
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 213 7175 7182 "ocaml_src/parsing/location.ml" 213 7175 7201
+type(
+  Format.formatter -> t -> t -> bool
+)
+ident(
+  int_ref highlight_locations "ocaml_src/parsing/location.ml" 174 5907 5915 "ocaml_src/parsing/location.ml" 174 5907 5934
+)
+"ocaml_src/parsing/location.ml" 213 7175 7202 "ocaml_src/parsing/location.ml" 213 7175 7205
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 209 6978 6988 "ocaml_src/parsing/location.ml" 209 6978 6991
+)
+"ocaml_src/parsing/location.ml" 213 7175 7206 "ocaml_src/parsing/location.ml" 213 7175 7209
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 209 6978 6992 "ocaml_src/parsing/location.ml" 209 6978 6995
+)
+"ocaml_src/parsing/location.ml" 213 7175 7210 "ocaml_src/parsing/location.ml" 213 7175 7214
+type(
+  t
+)
+ident(
+  int_ref none "ocaml_src/parsing/location.ml" 30 1148 1152 "ocaml_src/parsing/location.ml" 30 1148 1156
+)
+"ocaml_src/parsing/location.ml" 213 7175 7182 "ocaml_src/parsing/location.ml" 213 7175 7214
+call(
+  stack
+)
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 213 7175 7220 "ocaml_src/parsing/location.ml" 213 7175 7222
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 214 7228 7234 "ocaml_src/parsing/location.ml" 214 7228 7241
+type(
+  Format.formatter ->
+  (int -> int -> unit, Format.formatter, unit) format -> int -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 214 7228 7242 "ocaml_src/parsing/location.ml" 214 7228 7245
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 209 6978 6988 "ocaml_src/parsing/location.ml" 209 6978 6991
+)
+"ocaml_src/parsing/location.ml" 214 7228 7246 "ocaml_src/parsing/location.ml" 214 7228 7267
+type(
+  (int -> int -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 215 7268 7282 "ocaml_src/parsing/location.ml" 215 7268 7285
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 209 6978 6992 "ocaml_src/parsing/location.ml" 209 6978 6995
+)
+"ocaml_src/parsing/location.ml" 215 7268 7282 "ocaml_src/parsing/location.ml" 215 7268 7295
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 215 7268 7282 "ocaml_src/parsing/location.ml" 215 7268 7304
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 215 7268 7305 "ocaml_src/parsing/location.ml" 215 7268 7308
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 209 6978 6992 "ocaml_src/parsing/location.ml" 209 6978 6995
+)
+"ocaml_src/parsing/location.ml" 215 7268 7305 "ocaml_src/parsing/location.ml" 215 7268 7316
+type(
+  Lexing.position
+)
+"ocaml_src/parsing/location.ml" 215 7268 7305 "ocaml_src/parsing/location.ml" 215 7268 7325
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 214 7228 7234 "ocaml_src/parsing/location.ml" 215 7268 7325
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 212 7137 7169 "ocaml_src/parsing/location.ml" 216 7326 7331
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 217 7343 7347 "ocaml_src/parsing/location.ml" 217 7343 7354
+type(
+  Format.formatter ->
+  (string -> string -> string -> int -> unit, Format.formatter, unit) format ->
+  string -> string -> string -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 217 7343 7355 "ocaml_src/parsing/location.ml" 217 7343 7358
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 209 6978 6988 "ocaml_src/parsing/location.ml" 209 6978 6991
+)
+"ocaml_src/parsing/location.ml" 217 7343 7359 "ocaml_src/parsing/location.ml" 217 7343 7369
+type(
+  (string -> string -> string -> int -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 217 7343 7370 "ocaml_src/parsing/location.ml" 217 7343 7378
+type(
+  string
+)
+ident(
+  int_ref msg_file "ocaml_src/parsing/location.ml" 201 6711 6716 "ocaml_src/parsing/location.ml" 201 6711 6724
+)
+"ocaml_src/parsing/location.ml" 217 7343 7379 "ocaml_src/parsing/location.ml" 217 7343 7383
+type(
+  string
+)
+ident(
+  int_ref file "ocaml_src/parsing/location.ml" 210 6998 7005 "ocaml_src/parsing/location.ml" 210 6998 7009
+)
+"ocaml_src/parsing/location.ml" 217 7343 7384 "ocaml_src/parsing/location.ml" 217 7343 7392
+type(
+  string
+)
+ident(
+  int_ref msg_line "ocaml_src/parsing/location.ml" 201 6711 6726 "ocaml_src/parsing/location.ml" 201 6711 6734
+)
+"ocaml_src/parsing/location.ml" 217 7343 7393 "ocaml_src/parsing/location.ml" 217 7343 7397
+type(
+  int
+)
+ident(
+  int_ref line "ocaml_src/parsing/location.ml" 210 6998 7011 "ocaml_src/parsing/location.ml" 210 6998 7015
+)
+"ocaml_src/parsing/location.ml" 217 7343 7347 "ocaml_src/parsing/location.ml" 217 7343 7397
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 218 7399 7406 "ocaml_src/parsing/location.ml" 218 7399 7415
+type(
+  int
+)
+ident(
+  int_ref startchar "ocaml_src/parsing/location.ml" 210 6998 7017 "ocaml_src/parsing/location.ml" 210 6998 7026
+)
+"ocaml_src/parsing/location.ml" 218 7399 7416 "ocaml_src/parsing/location.ml" 218 7399 7418
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/parsing/location.ml" 218 7399 7419 "ocaml_src/parsing/location.ml" 218 7399 7420
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 218 7399 7406 "ocaml_src/parsing/location.ml" 218 7399 7420
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 219 7426 7432 "ocaml_src/parsing/location.ml" 219 7426 7439
+type(
+  Format.formatter ->
+  (string -> int -> string -> int -> unit, Format.formatter, unit) format ->
+  string -> int -> string -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 219 7426 7440 "ocaml_src/parsing/location.ml" 219 7426 7443
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 209 6978 6988 "ocaml_src/parsing/location.ml" 209 6978 6991
+)
+"ocaml_src/parsing/location.ml" 219 7426 7444 "ocaml_src/parsing/location.ml" 219 7426 7454
+type(
+  (string -> int -> string -> int -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 219 7426 7455 "ocaml_src/parsing/location.ml" 219 7426 7464
+type(
+  string
+)
+ident(
+  int_ref msg_chars "ocaml_src/parsing/location.ml" 201 6711 6736 "ocaml_src/parsing/location.ml" 201 6711 6745
+)
+"ocaml_src/parsing/location.ml" 219 7426 7465 "ocaml_src/parsing/location.ml" 219 7426 7474
+type(
+  int
+)
+ident(
+  int_ref startchar "ocaml_src/parsing/location.ml" 210 6998 7017 "ocaml_src/parsing/location.ml" 210 6998 7026
+)
+"ocaml_src/parsing/location.ml" 219 7426 7475 "ocaml_src/parsing/location.ml" 219 7426 7481
+type(
+  string
+)
+ident(
+  int_ref msg_to "ocaml_src/parsing/location.ml" 201 6711 6747 "ocaml_src/parsing/location.ml" 201 6711 6753
+)
+"ocaml_src/parsing/location.ml" 219 7426 7482 "ocaml_src/parsing/location.ml" 219 7426 7489
+type(
+  int
+)
+ident(
+  int_ref endchar "ocaml_src/parsing/location.ml" 211 7060 7066 "ocaml_src/parsing/location.ml" 211 7060 7073
+)
+"ocaml_src/parsing/location.ml" 219 7426 7432 "ocaml_src/parsing/location.ml" 219 7426 7489
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 218 7399 7403 "ocaml_src/parsing/location.ml" 219 7426 7489
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 220 7491 7495 "ocaml_src/parsing/location.ml" 220 7491 7502
+type(
+  Format.formatter ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 220 7491 7503 "ocaml_src/parsing/location.ml" 220 7491 7506
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 209 6978 6988 "ocaml_src/parsing/location.ml" 209 6978 6991
+)
+"ocaml_src/parsing/location.ml" 220 7491 7507 "ocaml_src/parsing/location.ml" 220 7491 7515
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 220 7491 7516 "ocaml_src/parsing/location.ml" 220 7491 7525
+type(
+  string
+)
+ident(
+  int_ref msg_colon "ocaml_src/parsing/location.ml" 201 6711 6755 "ocaml_src/parsing/location.ml" 201 6711 6764
+)
+"ocaml_src/parsing/location.ml" 220 7491 7526 "ocaml_src/parsing/location.ml" 220 7491 7534
+type(
+  string
+)
+ident(
+  int_ref msg_head "ocaml_src/parsing/location.ml" 201 6711 6766 "ocaml_src/parsing/location.ml" 201 6711 6774
+)
+"ocaml_src/parsing/location.ml" 220 7491 7495 "ocaml_src/parsing/location.ml" 220 7491 7535
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 218 7399 7403 "ocaml_src/parsing/location.ml" 220 7491 7535
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 216 7326 7337 "ocaml_src/parsing/location.ml" 221 7536 7541
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 212 7137 7139 "ocaml_src/parsing/location.ml" 221 7536 7541
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 211 7060 7062 "ocaml_src/parsing/location.ml" 221 7536 7541
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 210 6998 7000 "ocaml_src/parsing/location.ml" 221 7536 7541
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 224 7546 7550 "ocaml_src/parsing/location.ml" 224 7546 7561
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print_error "ocaml_src/parsing/location.ml" 229 7618 7618 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 224 7546 7562 "ocaml_src/parsing/location.ml" 224 7546 7565
+type(
+  Format.formatter
+)
+ident(
+  def ppf "ocaml_src/parsing/location.ml" 224 7546 7566 "ocaml_src/parsing/location.ml" 226 7589 7613
+)
+"ocaml_src/parsing/location.ml" 224 7546 7566 "ocaml_src/parsing/location.ml" 224 7546 7569
+type(
+  t
+)
+ident(
+  def loc "ocaml_src/parsing/location.ml" 225 7572 7574 "ocaml_src/parsing/location.ml" 226 7589 7613
+)
+"ocaml_src/parsing/location.ml" 225 7572 7574 "ocaml_src/parsing/location.ml" 225 7572 7579
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  int_ref print "ocaml_src/parsing/location.ml" 209 6978 6982 "ocaml_src/parsing/location.ml" 209 6978 6987
+)
+"ocaml_src/parsing/location.ml" 225 7572 7580 "ocaml_src/parsing/location.ml" 225 7572 7583
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 224 7546 7562 "ocaml_src/parsing/location.ml" 224 7546 7565
+)
+"ocaml_src/parsing/location.ml" 225 7572 7584 "ocaml_src/parsing/location.ml" 225 7572 7587
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 224 7546 7566 "ocaml_src/parsing/location.ml" 224 7546 7569
+)
+"ocaml_src/parsing/location.ml" 225 7572 7574 "ocaml_src/parsing/location.ml" 225 7572 7587
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 226 7589 7591 "ocaml_src/parsing/location.ml" 226 7589 7598
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 226 7589 7599 "ocaml_src/parsing/location.ml" 226 7589 7602
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 224 7546 7562 "ocaml_src/parsing/location.ml" 224 7546 7565
+)
+"ocaml_src/parsing/location.ml" 226 7589 7603 "ocaml_src/parsing/location.ml" 226 7589 7612
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 226 7589 7591 "ocaml_src/parsing/location.ml" 226 7589 7613
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 225 7572 7574 "ocaml_src/parsing/location.ml" 226 7589 7613
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 229 7618 7622 "ocaml_src/parsing/location.ml" 229 7618 7642
+type(
+  Format.formatter -> unit
+)
+ident(
+  def print_error_cur_file "ocaml_src/parsing/location.ml" 231 7690 7690 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 229 7618 7643 "ocaml_src/parsing/location.ml" 229 7618 7646
+type(
+  Format.formatter
+)
+ident(
+  def ppf "ocaml_src/parsing/location.ml" 229 7618 7649 "ocaml_src/parsing/location.ml" 229 7618 7686
+)
+"ocaml_src/parsing/location.ml" 229 7618 7649 "ocaml_src/parsing/location.ml" 229 7618 7660
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  int_ref print_error "ocaml_src/parsing/location.ml" 224 7546 7550 "ocaml_src/parsing/location.ml" 224 7546 7561
+)
+"ocaml_src/parsing/location.ml" 229 7618 7661 "ocaml_src/parsing/location.ml" 229 7618 7664
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 229 7618 7643 "ocaml_src/parsing/location.ml" 229 7618 7646
+)
+"ocaml_src/parsing/location.ml" 229 7618 7666 "ocaml_src/parsing/location.ml" 229 7618 7673
+type(
+  string -> t
+)
+ident(
+  int_ref in_file "ocaml_src/parsing/location.ml" 20 973 977 "ocaml_src/parsing/location.ml" 20 973 984
+)
+"ocaml_src/parsing/location.ml" 229 7618 7674 "ocaml_src/parsing/location.ml" 229 7618 7675
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 229 7618 7675 "ocaml_src/parsing/location.ml" 229 7618 7685
+type(
+  string ref
+)
+ident(
+  int_ref input_name "ocaml_src/parsing/location.ml" 65 1801 1805 "ocaml_src/parsing/location.ml" 65 1801 1815
+)
+"ocaml_src/parsing/location.ml" 229 7618 7674 "ocaml_src/parsing/location.ml" 229 7618 7685
+type(
+  string
+)
+"ocaml_src/parsing/location.ml" 229 7618 7665 "ocaml_src/parsing/location.ml" 229 7618 7686
+call(
+  stack
+)
+type(
+  t
+)
+"ocaml_src/parsing/location.ml" 229 7618 7649 "ocaml_src/parsing/location.ml" 229 7618 7686
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 231 7690 7694 "ocaml_src/parsing/location.ml" 231 7690 7707
+type(
+  t -> Format.formatter -> Warnings.t -> unit
+)
+ident(
+  def print_warning "ocaml_src/parsing/location.ml" 244 7996 7996 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 231 7690 7708 "ocaml_src/parsing/location.ml" 231 7690 7711
+type(
+  t
+)
+ident(
+  def loc "ocaml_src/parsing/location.ml" 231 7690 7712 "ocaml_src/parsing/location.ml" 241 7986 7991
+)
+"ocaml_src/parsing/location.ml" 231 7690 7712 "ocaml_src/parsing/location.ml" 231 7690 7715
+type(
+  Format.formatter
+)
+ident(
+  def ppf "ocaml_src/parsing/location.ml" 231 7690 7716 "ocaml_src/parsing/location.ml" 241 7986 7991
+)
+"ocaml_src/parsing/location.ml" 231 7690 7716 "ocaml_src/parsing/location.ml" 231 7690 7717
+type(
+  Warnings.t
+)
+ident(
+  def w "ocaml_src/parsing/location.ml" 232 7720 7722 "ocaml_src/parsing/location.ml" 241 7986 7991
+)
+"ocaml_src/parsing/location.ml" 232 7720 7725 "ocaml_src/parsing/location.ml" 232 7720 7743
+type(
+  Warnings.t -> bool
+)
+ident(
+  ext_ref Warnings.is_active
+)
+"ocaml_src/parsing/location.ml" 232 7720 7744 "ocaml_src/parsing/location.ml" 232 7720 7745
+type(
+  Warnings.t
+)
+ident(
+  int_ref w "ocaml_src/parsing/location.ml" 231 7690 7716 "ocaml_src/parsing/location.ml" 231 7690 7717
+)
+"ocaml_src/parsing/location.ml" 232 7720 7725 "ocaml_src/parsing/location.ml" 232 7720 7745
+call(
+  stack
+)
+type(
+  bool
+)
+"ocaml_src/parsing/location.ml" 233 7757 7765 "ocaml_src/parsing/location.ml" 233 7757 7771
+type(
+  Format.formatter -> Warnings.t -> unit
+)
+ident(
+  def printw "ocaml_src/parsing/location.ml" 237 7867 7871 "ocaml_src/parsing/location.ml" 240 7962 7985
+)
+"ocaml_src/parsing/location.ml" 233 7757 7772 "ocaml_src/parsing/location.ml" 233 7757 7775
+type(
+  Format.formatter
+)
+ident(
+  def ppf "ocaml_src/parsing/location.ml" 233 7757 7776 "ocaml_src/parsing/location.ml" 235 7818 7859
+)
+"ocaml_src/parsing/location.ml" 233 7757 7776 "ocaml_src/parsing/location.ml" 233 7757 7777
+type(
+  Warnings.t
+)
+ident(
+  def w "ocaml_src/parsing/location.ml" 234 7780 7786 "ocaml_src/parsing/location.ml" 235 7818 7859
+)
+"ocaml_src/parsing/location.ml" 234 7780 7790 "ocaml_src/parsing/location.ml" 234 7780 7791
+type(
+  int
+)
+ident(
+  def n "ocaml_src/parsing/location.ml" 235 7818 7824 "ocaml_src/parsing/location.ml" 235 7818 7859
+)
+"ocaml_src/parsing/location.ml" 234 7780 7794 "ocaml_src/parsing/location.ml" 234 7780 7808
+type(
+  Format.formatter -> Warnings.t -> int
+)
+ident(
+  ext_ref Warnings.print
+)
+"ocaml_src/parsing/location.ml" 234 7780 7809 "ocaml_src/parsing/location.ml" 234 7780 7812
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 233 7757 7772 "ocaml_src/parsing/location.ml" 233 7757 7775
+)
+"ocaml_src/parsing/location.ml" 234 7780 7813 "ocaml_src/parsing/location.ml" 234 7780 7814
+type(
+  Warnings.t
+)
+ident(
+  int_ref w "ocaml_src/parsing/location.ml" 233 7757 7776 "ocaml_src/parsing/location.ml" 233 7757 7777
+)
+"ocaml_src/parsing/location.ml" 234 7780 7794 "ocaml_src/parsing/location.ml" 234 7780 7814
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 235 7818 7824 "ocaml_src/parsing/location.ml" 235 7818 7837
+type(
+  int ref
+)
+ident(
+  int_ref num_loc_lines "ocaml_src/parsing/location.ml" 72 1940 1944 "ocaml_src/parsing/location.ml" 72 1940 1957
+)
+"ocaml_src/parsing/location.ml" 235 7818 7838 "ocaml_src/parsing/location.ml" 235 7818 7840
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/parsing/location.ml" 235 7818 7841 "ocaml_src/parsing/location.ml" 235 7818 7842
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/location.ml" 235 7818 7842 "ocaml_src/parsing/location.ml" 235 7818 7855
+type(
+  int ref
+)
+ident(
+  int_ref num_loc_lines "ocaml_src/parsing/location.ml" 72 1940 1944 "ocaml_src/parsing/location.ml" 72 1940 1957
+)
+"ocaml_src/parsing/location.ml" 235 7818 7841 "ocaml_src/parsing/location.ml" 235 7818 7855
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 235 7818 7856 "ocaml_src/parsing/location.ml" 235 7818 7857
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/parsing/location.ml" 235 7818 7858 "ocaml_src/parsing/location.ml" 235 7818 7859
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/parsing/location.ml" 234 7780 7790 "ocaml_src/parsing/location.ml" 234 7780 7791
+)
+"ocaml_src/parsing/location.ml" 235 7818 7841 "ocaml_src/parsing/location.ml" 235 7818 7859
+type(
+  int
+)
+"ocaml_src/parsing/location.ml" 235 7818 7824 "ocaml_src/parsing/location.ml" 235 7818 7859
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 234 7780 7786 "ocaml_src/parsing/location.ml" 235 7818 7859
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 237 7867 7871 "ocaml_src/parsing/location.ml" 237 7867 7878
+type(
+  Format.formatter ->
+  ((Format.formatter -> t -> unit) -> t -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> t -> unit) -> t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 237 7867 7879 "ocaml_src/parsing/location.ml" 237 7867 7882
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 231 7690 7712 "ocaml_src/parsing/location.ml" 231 7690 7715
+)
+"ocaml_src/parsing/location.ml" 237 7867 7883 "ocaml_src/parsing/location.ml" 237 7867 7887
+type(
+  ((Format.formatter -> t -> unit) -> t -> unit, Format.formatter, unit)
+  format
+)
+"ocaml_src/parsing/location.ml" 237 7867 7888 "ocaml_src/parsing/location.ml" 237 7867 7893
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  int_ref print "ocaml_src/parsing/location.ml" 209 6978 6982 "ocaml_src/parsing/location.ml" 209 6978 6987
+)
+"ocaml_src/parsing/location.ml" 237 7867 7894 "ocaml_src/parsing/location.ml" 237 7867 7897
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 231 7690 7708 "ocaml_src/parsing/location.ml" 231 7690 7711
+)
+"ocaml_src/parsing/location.ml" 237 7867 7871 "ocaml_src/parsing/location.ml" 237 7867 7897
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 238 7899 7903 "ocaml_src/parsing/location.ml" 238 7899 7910
+type(
+  Format.formatter ->
+  ((Format.formatter -> Warnings.t -> unit) -> Warnings.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Warnings.t -> unit) -> Warnings.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 238 7899 7911 "ocaml_src/parsing/location.ml" 238 7899 7914
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 231 7690 7712 "ocaml_src/parsing/location.ml" 231 7690 7715
+)
+"ocaml_src/parsing/location.ml" 238 7899 7915 "ocaml_src/parsing/location.ml" 238 7899 7929
+type(
+  ((Format.formatter -> Warnings.t -> unit) -> Warnings.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"ocaml_src/parsing/location.ml" 238 7899 7930 "ocaml_src/parsing/location.ml" 238 7899 7936
+type(
+  Format.formatter -> Warnings.t -> unit
+)
+ident(
+  int_ref printw "ocaml_src/parsing/location.ml" 233 7757 7765 "ocaml_src/parsing/location.ml" 233 7757 7771
+)
+"ocaml_src/parsing/location.ml" 238 7899 7937 "ocaml_src/parsing/location.ml" 238 7899 7938
+type(
+  Warnings.t
+)
+ident(
+  int_ref w "ocaml_src/parsing/location.ml" 231 7690 7716 "ocaml_src/parsing/location.ml" 231 7690 7717
+)
+"ocaml_src/parsing/location.ml" 238 7899 7903 "ocaml_src/parsing/location.ml" 238 7899 7938
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 239 7940 7944 "ocaml_src/parsing/location.ml" 239 7940 7951
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/location.ml" 239 7940 7952 "ocaml_src/parsing/location.ml" 239 7940 7955
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/location.ml" 231 7690 7712 "ocaml_src/parsing/location.ml" 231 7690 7715
+)
+"ocaml_src/parsing/location.ml" 239 7940 7956 "ocaml_src/parsing/location.ml" 239 7940 7960
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/location.ml" 239 7940 7944 "ocaml_src/parsing/location.ml" 239 7940 7960
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 240 7962 7966 "ocaml_src/parsing/location.ml" 240 7962 7970
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/parsing/location.ml" 240 7962 7971 "ocaml_src/parsing/location.ml" 240 7962 7984
+type(
+  int ref
+)
+ident(
+  int_ref num_loc_lines "ocaml_src/parsing/location.ml" 72 1940 1944 "ocaml_src/parsing/location.ml" 72 1940 1957
+)
+"ocaml_src/parsing/location.ml" 240 7962 7966 "ocaml_src/parsing/location.ml" 240 7962 7985
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 239 7940 7944 "ocaml_src/parsing/location.ml" 240 7962 7985
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 238 7899 7903 "ocaml_src/parsing/location.ml" 240 7962 7985
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 237 7867 7871 "ocaml_src/parsing/location.ml" 240 7962 7985
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 232 7720 7751 "ocaml_src/parsing/location.ml" 241 7986 7991
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 232 7720 7722 "ocaml_src/parsing/location.ml" 241 7986 7991
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 244 7996 8000 "ocaml_src/parsing/location.ml" 244 7996 8013
+type(
+  t -> Warnings.t -> unit
+)
+ident(
+  def prerr_warning "ocaml_src/parsing/location.ml" 246 8059 8059 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 244 7996 8014 "ocaml_src/parsing/location.ml" 244 7996 8017
+type(
+  t
+)
+ident(
+  def loc "ocaml_src/parsing/location.ml" 244 7996 8018 "ocaml_src/parsing/location.ml" 244 7996 8055
+)
+"ocaml_src/parsing/location.ml" 244 7996 8018 "ocaml_src/parsing/location.ml" 244 7996 8019
+type(
+  Warnings.t
+)
+ident(
+  def w "ocaml_src/parsing/location.ml" 244 7996 8022 "ocaml_src/parsing/location.ml" 244 7996 8055
+)
+"ocaml_src/parsing/location.ml" 244 7996 8022 "ocaml_src/parsing/location.ml" 244 7996 8035
+type(
+  t -> Format.formatter -> Warnings.t -> unit
+)
+ident(
+  int_ref print_warning "ocaml_src/parsing/location.ml" 231 7690 7694 "ocaml_src/parsing/location.ml" 231 7690 7707
+)
+"ocaml_src/parsing/location.ml" 244 7996 8036 "ocaml_src/parsing/location.ml" 244 7996 8039
+type(
+  t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/location.ml" 244 7996 8014 "ocaml_src/parsing/location.ml" 244 7996 8017
+)
+"ocaml_src/parsing/location.ml" 244 7996 8040 "ocaml_src/parsing/location.ml" 244 7996 8053
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.err_formatter
+)
+"ocaml_src/parsing/location.ml" 244 7996 8054 "ocaml_src/parsing/location.ml" 244 7996 8055
+type(
+  Warnings.t
+)
+ident(
+  int_ref w "ocaml_src/parsing/location.ml" 244 7996 8018 "ocaml_src/parsing/location.ml" 244 7996 8019
+)
+"ocaml_src/parsing/location.ml" 244 7996 8022 "ocaml_src/parsing/location.ml" 244 7996 8055
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 246 8059 8063 "ocaml_src/parsing/location.ml" 246 8059 8071
+type(
+  unit -> unit
+)
+ident(
+  def echo_eof "ocaml_src/parsing/location.ml" 248 8097 8117 "ocaml_src/parsing/location.ml" 1 0 -1
+)
+"ocaml_src/parsing/location.ml" 246 8059 8072 "ocaml_src/parsing/location.ml" 246 8059 8074
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 247 8077 8079 "ocaml_src/parsing/location.ml" 247 8077 8092
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Format.print_newline
+)
+"ocaml_src/parsing/location.ml" 247 8077 8093 "ocaml_src/parsing/location.ml" 247 8077 8095
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 247 8077 8079 "ocaml_src/parsing/location.ml" 247 8077 8095
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 248 8097 8099 "ocaml_src/parsing/location.ml" 248 8097 8103
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/parsing/location.ml" 248 8097 8104 "ocaml_src/parsing/location.ml" 248 8097 8117
+type(
+  int ref
+)
+ident(
+  int_ref num_loc_lines "ocaml_src/parsing/location.ml" 72 1940 1944 "ocaml_src/parsing/location.ml" 72 1940 1957
+)
+"ocaml_src/parsing/location.ml" 248 8097 8099 "ocaml_src/parsing/location.ml" 248 8097 8117
+type(
+  unit
+)
+"ocaml_src/parsing/location.ml" 247 8077 8079 "ocaml_src/parsing/location.ml" 248 8097 8117
+type(
+  unit
+)

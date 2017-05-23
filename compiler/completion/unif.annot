@@ -1,0 +1,811 @@
+"completion/unif.ml" 21 1067 1071 "completion/unif.ml" 21 1067 1075
+type(
+  (Term.term * Term.term) list -> Subs.subs
+)
+ident(
+  def unif "completion/unif.ml" 36 1623 1623 "completion/unif.ml" 1 0 -1
+)
+"completion/unif.ml" 22 1078 1088 "completion/unif.ml" 22 1078 1091
+type(
+  Subs.subs -> (Term.term * Term.term) list -> Subs.subs
+)
+ident(
+  def aux "completion/unif.ml" 22 1078 1080 "completion/unif.ml" 33 1604 1618
+)
+"completion/unif.ml" 22 1078 1092 "completion/unif.ml" 22 1078 1093
+type(
+  Subs.subs
+)
+ident(
+  def s "completion/unif.ml" 22 1078 1096 "completion/unif.ml" 32 1536 1603
+)
+"completion/unif.ml" 23 1105 1111 "completion/unif.ml" 23 1105 1113
+type(
+  (Term.term * Term.term) list
+)
+"completion/unif.ml" 23 1105 1117 "completion/unif.ml" 23 1105 1118
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/unif.ml" 22 1078 1092 "completion/unif.ml" 22 1078 1093
+)
+"completion/unif.ml" 24 1119 1130 "completion/unif.ml" 24 1119 1131
+type(
+  Var.var
+)
+ident(
+  def x "completion/unif.ml" 24 1119 1150 "completion/unif.ml" 24 1119 1166
+)
+"completion/unif.ml" 24 1119 1126 "completion/unif.ml" 24 1119 1131
+type(
+  Term.term
+)
+"completion/unif.ml" 24 1119 1137 "completion/unif.ml" 24 1119 1138
+type(
+  Var.var
+)
+ident(
+  def y "completion/unif.ml" 24 1119 1150 "completion/unif.ml" 24 1119 1166
+)
+"completion/unif.ml" 24 1119 1133 "completion/unif.ml" 24 1119 1138
+type(
+  Term.term
+)
+"completion/unif.ml" 24 1119 1125 "completion/unif.ml" 24 1119 1139
+type(
+  Term.term * Term.term
+)
+"completion/unif.ml" 24 1119 1143 "completion/unif.ml" 24 1119 1144
+type(
+  (Term.term * Term.term) list
+)
+ident(
+  def l "completion/unif.ml" 24 1119 1150 "completion/unif.ml" 24 1119 1166
+)
+"completion/unif.ml" 24 1119 1125 "completion/unif.ml" 24 1119 1144
+type(
+  (Term.term * Term.term) list
+)
+"completion/unif.ml" 24 1119 1150 "completion/unif.ml" 24 1119 1151
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/unif.ml" 24 1119 1130 "completion/unif.ml" 24 1119 1131
+)
+"completion/unif.ml" 24 1119 1152 "completion/unif.ml" 24 1119 1153
+type(
+  Var.var -> Var.var -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/unif.ml" 24 1119 1154 "completion/unif.ml" 24 1119 1155
+type(
+  Var.var
+)
+ident(
+  int_ref y "completion/unif.ml" 24 1119 1137 "completion/unif.ml" 24 1119 1138
+)
+"completion/unif.ml" 24 1119 1150 "completion/unif.ml" 24 1119 1155
+type(
+  bool
+)
+"completion/unif.ml" 24 1119 1159 "completion/unif.ml" 24 1119 1162
+type(
+  Subs.subs -> (Term.term * Term.term) list -> Subs.subs
+)
+ident(
+  int_ref aux "completion/unif.ml" 22 1078 1088 "completion/unif.ml" 22 1078 1091
+)
+"completion/unif.ml" 24 1119 1163 "completion/unif.ml" 24 1119 1164
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/unif.ml" 22 1078 1092 "completion/unif.ml" 22 1078 1093
+)
+"completion/unif.ml" 24 1119 1165 "completion/unif.ml" 24 1119 1166
+type(
+  (Term.term * Term.term) list
+)
+ident(
+  int_ref l "completion/unif.ml" 24 1119 1143 "completion/unif.ml" 24 1119 1144
+)
+"completion/unif.ml" 24 1119 1159 "completion/unif.ml" 24 1119 1166
+call(
+  tail
+)
+type(
+  Subs.subs
+)
+"completion/unif.ml" 25 1167 1178 "completion/unif.ml" 25 1167 1179
+type(
+  Var.var
+)
+ident(
+  def x "completion/unif.ml" 26 1210 1218 "completion/unif.ml" 29 1368 1417
+)
+"completion/unif.ml" 25 1167 1174 "completion/unif.ml" 25 1167 1179
+type(
+  Term.term
+)
+"completion/unif.ml" 25 1167 1181 "completion/unif.ml" 25 1167 1182
+type(
+  Term.term
+)
+ident(
+  def t "completion/unif.ml" 26 1210 1218 "completion/unif.ml" 29 1368 1417
+)
+"completion/unif.ml" 25 1167 1173 "completion/unif.ml" 25 1167 1183
+type(
+  Term.term * Term.term
+)
+"completion/unif.ml" 25 1167 1187 "completion/unif.ml" 25 1167 1188
+type(
+  (Term.term * Term.term) list
+)
+ident(
+  def l "completion/unif.ml" 26 1210 1218 "completion/unif.ml" 29 1368 1417
+)
+"completion/unif.ml" 25 1167 1173 "completion/unif.ml" 25 1167 1188
+type(
+  (Term.term * Term.term) list
+)
+"completion/unif.ml" 25 1167 1192 "completion/unif.ml" 25 1167 1193
+type(
+  Term.term
+)
+ident(
+  def t "completion/unif.ml" 26 1210 1218 "completion/unif.ml" 29 1368 1417
+)
+"completion/unif.ml" 25 1167 1199 "completion/unif.ml" 25 1167 1200
+type(
+  Var.var
+)
+ident(
+  def x "completion/unif.ml" 26 1210 1218 "completion/unif.ml" 29 1368 1417
+)
+"completion/unif.ml" 25 1167 1195 "completion/unif.ml" 25 1167 1200
+type(
+  Term.term
+)
+"completion/unif.ml" 25 1167 1191 "completion/unif.ml" 25 1167 1201
+type(
+  Term.term * Term.term
+)
+"completion/unif.ml" 25 1167 1205 "completion/unif.ml" 25 1167 1206
+type(
+  (Term.term * Term.term) list
+)
+ident(
+  def l "completion/unif.ml" 26 1210 1218 "completion/unif.ml" 29 1368 1417
+)
+"completion/unif.ml" 25 1167 1191 "completion/unif.ml" 25 1167 1206
+type(
+  (Term.term * Term.term) list
+)
+"completion/unif.ml" 25 1167 1173 "completion/unif.ml" 25 1167 1206
+type(
+  (Term.term * Term.term) list
+)
+"completion/unif.ml" 26 1210 1221 "completion/unif.ml" 26 1210 1227
+type(
+  Var.var -> Term.term -> bool
+)
+ident(
+  ext_ref Term.occurs
+)
+"completion/unif.ml" 26 1210 1228 "completion/unif.ml" 26 1210 1229
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/unif.ml" 25 1167 1178 "completion/unif.ml" 25 1167 1179
+)
+"completion/unif.ml" 26 1210 1230 "completion/unif.ml" 26 1210 1231
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/unif.ml" 25 1167 1181 "completion/unif.ml" 25 1167 1182
+)
+"completion/unif.ml" 26 1210 1221 "completion/unif.ml" 26 1210 1231
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/unif.ml" 26 1210 1237 "completion/unif.ml" 26 1210 1245
+type(
+  string -> Subs.subs
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"completion/unif.ml" 26 1210 1246 "completion/unif.ml" 26 1210 1265
+type(
+  string
+)
+"completion/unif.ml" 26 1210 1237 "completion/unif.ml" 26 1210 1265
+call(
+  tail
+)
+type(
+  Subs.subs
+)
+"completion/unif.ml" 27 1271 1285 "completion/unif.ml" 27 1271 1286
+type(
+  Term.term -> Term.term
+)
+ident(
+  def f "completion/unif.ml" 28 1309 1319 "completion/unif.ml" 29 1368 1417
+)
+"completion/unif.ml" 27 1271 1289 "completion/unif.ml" 27 1271 1294
+type(
+  Subs.subs -> Term.term -> Term.term
+)
+ident(
+  ext_ref Subs.apply
+)
+"completion/unif.ml" 27 1271 1296 "completion/unif.ml" 27 1271 1300
+type(
+  Var.var -> Term.term -> Subs.subs
+)
+ident(
+  ext_ref Subs.subs
+)
+"completion/unif.ml" 27 1271 1301 "completion/unif.ml" 27 1271 1302
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/unif.ml" 25 1167 1178 "completion/unif.ml" 25 1167 1179
+)
+"completion/unif.ml" 27 1271 1303 "completion/unif.ml" 27 1271 1304
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/unif.ml" 25 1167 1181 "completion/unif.ml" 25 1167 1182
+)
+"completion/unif.ml" 27 1271 1295 "completion/unif.ml" 27 1271 1305
+call(
+  stack
+)
+type(
+  Subs.subs
+)
+"completion/unif.ml" 27 1271 1289 "completion/unif.ml" 27 1271 1305
+call(
+  stack
+)
+type(
+  Term.term -> Term.term
+)
+"completion/unif.ml" 28 1309 1323 "completion/unif.ml" 28 1309 1326
+type(
+  Term.term * Term.term -> Term.term * Term.term
+)
+ident(
+  def feq "completion/unif.ml" 29 1368 1380 "completion/unif.ml" 29 1368 1417
+)
+"completion/unif.ml" 28 1309 1328 "completion/unif.ml" 28 1309 1329
+type(
+  Term.term
+)
+ident(
+  def u "completion/unif.ml" 28 1309 1335 "completion/unif.ml" 28 1309 1343
+)
+"completion/unif.ml" 28 1309 1330 "completion/unif.ml" 28 1309 1331
+type(
+  Term.term
+)
+ident(
+  def v "completion/unif.ml" 28 1309 1335 "completion/unif.ml" 28 1309 1343
+)
+"completion/unif.ml" 28 1309 1327 "completion/unif.ml" 28 1309 1332
+type(
+  Term.term * Term.term
+)
+"completion/unif.ml" 28 1309 1335 "completion/unif.ml" 28 1309 1336
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref f "completion/unif.ml" 27 1271 1285 "completion/unif.ml" 27 1271 1286
+)
+"completion/unif.ml" 28 1309 1337 "completion/unif.ml" 28 1309 1338
+type(
+  Term.term
+)
+ident(
+  int_ref u "completion/unif.ml" 28 1309 1328 "completion/unif.ml" 28 1309 1329
+)
+"completion/unif.ml" 28 1309 1335 "completion/unif.ml" 28 1309 1338
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/unif.ml" 28 1309 1340 "completion/unif.ml" 28 1309 1341
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref f "completion/unif.ml" 27 1271 1285 "completion/unif.ml" 27 1271 1286
+)
+"completion/unif.ml" 28 1309 1342 "completion/unif.ml" 28 1309 1343
+type(
+  Term.term
+)
+ident(
+  int_ref v "completion/unif.ml" 28 1309 1330 "completion/unif.ml" 28 1309 1331
+)
+"completion/unif.ml" 28 1309 1340 "completion/unif.ml" 28 1309 1343
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/unif.ml" 28 1309 1335 "completion/unif.ml" 28 1309 1343
+type(
+  Term.term * Term.term
+)
+"completion/unif.ml" 28 1309 1348 "completion/unif.ml" 28 1309 1349
+type(
+  Subs.subs
+)
+ident(
+  def s "completion/unif.ml" 29 1368 1380 "completion/unif.ml" 29 1368 1417
+)
+"completion/unif.ml" 28 1309 1352 "completion/unif.ml" 28 1309 1360
+type(
+  (Term.term -> Term.term) -> Subs.subs -> Subs.subs
+)
+ident(
+  ext_ref Subs.map
+)
+"completion/unif.ml" 28 1309 1361 "completion/unif.ml" 28 1309 1362
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref f "completion/unif.ml" 27 1271 1285 "completion/unif.ml" 27 1271 1286
+)
+"completion/unif.ml" 28 1309 1363 "completion/unif.ml" 28 1309 1364
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/unif.ml" 22 1078 1092 "completion/unif.ml" 22 1078 1093
+)
+"completion/unif.ml" 28 1309 1352 "completion/unif.ml" 28 1309 1364
+call(
+  stack
+)
+type(
+  Subs.subs
+)
+"completion/unif.ml" 29 1368 1380 "completion/unif.ml" 29 1368 1383
+type(
+  Subs.subs -> (Term.term * Term.term) list -> Subs.subs
+)
+ident(
+  int_ref aux "completion/unif.ml" 22 1078 1088 "completion/unif.ml" 22 1078 1091
+)
+"completion/unif.ml" 29 1368 1385 "completion/unif.ml" 29 1368 1393
+type(
+  Var.var -> Term.term -> Subs.subs -> Subs.subs
+)
+ident(
+  ext_ref Subs.add
+)
+"completion/unif.ml" 29 1368 1394 "completion/unif.ml" 29 1368 1395
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/unif.ml" 25 1167 1178 "completion/unif.ml" 25 1167 1179
+)
+"completion/unif.ml" 29 1368 1396 "completion/unif.ml" 29 1368 1397
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/unif.ml" 25 1167 1181 "completion/unif.ml" 25 1167 1182
+)
+"completion/unif.ml" 29 1368 1398 "completion/unif.ml" 29 1368 1399
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/unif.ml" 28 1309 1348 "completion/unif.ml" 28 1309 1349
+)
+"completion/unif.ml" 29 1368 1384 "completion/unif.ml" 29 1368 1400
+call(
+  stack
+)
+type(
+  Subs.subs
+)
+"completion/unif.ml" 29 1368 1402 "completion/unif.ml" 29 1368 1410
+type(
+  (Term.term * Term.term -> Term.term * Term.term) ->
+  (Term.term * Term.term) list -> (Term.term * Term.term) list
+)
+ident(
+  ext_ref List.map
+)
+"completion/unif.ml" 29 1368 1411 "completion/unif.ml" 29 1368 1414
+type(
+  Term.term * Term.term -> Term.term * Term.term
+)
+ident(
+  int_ref feq "completion/unif.ml" 28 1309 1323 "completion/unif.ml" 28 1309 1326
+)
+"completion/unif.ml" 29 1368 1415 "completion/unif.ml" 29 1368 1416
+type(
+  (Term.term * Term.term) list
+)
+ident(
+  int_ref l "completion/unif.ml" 25 1167 1187 "completion/unif.ml" 25 1167 1188
+)
+"completion/unif.ml" 29 1368 1401 "completion/unif.ml" 29 1368 1417
+call(
+  stack
+)
+type(
+  (Term.term * Term.term) list
+)
+"completion/unif.ml" 29 1368 1380 "completion/unif.ml" 29 1368 1417
+call(
+  tail
+)
+type(
+  Subs.subs
+)
+"completion/unif.ml" 28 1309 1319 "completion/unif.ml" 29 1368 1417
+type(
+  Subs.subs
+)
+"completion/unif.ml" 27 1271 1281 "completion/unif.ml" 29 1368 1417
+type(
+  Subs.subs
+)
+"completion/unif.ml" 26 1210 1218 "completion/unif.ml" 29 1368 1417
+type(
+  Subs.subs
+)
+"completion/unif.ml" 30 1418 1430 "completion/unif.ml" 30 1418 1431
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/unif.ml" 30 1418 1461 "completion/unif.ml" 31 1470 1535
+)
+"completion/unif.ml" 30 1418 1433 "completion/unif.ml" 30 1418 1435
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/unif.ml" 30 1418 1461 "completion/unif.ml" 31 1470 1535
+)
+"completion/unif.ml" 30 1418 1425 "completion/unif.ml" 30 1418 1436
+type(
+  Term.term
+)
+"completion/unif.ml" 30 1418 1443 "completion/unif.ml" 30 1418 1444
+type(
+  Symb.symbol
+)
+ident(
+  def g "completion/unif.ml" 30 1418 1461 "completion/unif.ml" 31 1470 1535
+)
+"completion/unif.ml" 30 1418 1446 "completion/unif.ml" 30 1418 1448
+type(
+  Term.term list
+)
+ident(
+  def us "completion/unif.ml" 30 1418 1461 "completion/unif.ml" 31 1470 1535
+)
+"completion/unif.ml" 30 1418 1438 "completion/unif.ml" 30 1418 1449
+type(
+  Term.term
+)
+"completion/unif.ml" 30 1418 1424 "completion/unif.ml" 30 1418 1450
+type(
+  Term.term * Term.term
+)
+"completion/unif.ml" 30 1418 1454 "completion/unif.ml" 30 1418 1455
+type(
+  (Term.term * Term.term) list
+)
+ident(
+  def l "completion/unif.ml" 30 1418 1461 "completion/unif.ml" 31 1470 1535
+)
+"completion/unif.ml" 30 1418 1424 "completion/unif.ml" 30 1418 1455
+type(
+  (Term.term * Term.term) list
+)
+"completion/unif.ml" 30 1418 1461 "completion/unif.ml" 30 1418 1462
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/unif.ml" 30 1418 1430 "completion/unif.ml" 30 1418 1431
+)
+"completion/unif.ml" 30 1418 1463 "completion/unif.ml" 30 1418 1464
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/unif.ml" 30 1418 1465 "completion/unif.ml" 30 1418 1466
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/unif.ml" 30 1418 1443 "completion/unif.ml" 30 1418 1444
+)
+"completion/unif.ml" 30 1418 1461 "completion/unif.ml" 30 1418 1466
+type(
+  bool
+)
+"completion/unif.ml" 31 1470 1478 "completion/unif.ml" 31 1470 1481
+type(
+  Subs.subs -> (Term.term * Term.term) list -> Subs.subs
+)
+ident(
+  int_ref aux "completion/unif.ml" 22 1078 1088 "completion/unif.ml" 22 1078 1091
+)
+"completion/unif.ml" 31 1470 1482 "completion/unif.ml" 31 1470 1483
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/unif.ml" 22 1078 1092 "completion/unif.ml" 22 1078 1093
+)
+"completion/unif.ml" 31 1470 1485 "completion/unif.ml" 31 1470 1500
+type(
+  ((Term.term * Term.term) list ->
+   Term.term -> Term.term -> (Term.term * Term.term) list) ->
+  (Term.term * Term.term) list ->
+  Term.term list -> Term.term list -> (Term.term * Term.term) list
+)
+ident(
+  ext_ref List.fold_left2
+)
+"completion/unif.ml" 31 1470 1506 "completion/unif.ml" 31 1470 1507
+type(
+  (Term.term * Term.term) list
+)
+ident(
+  def r "completion/unif.ml" 31 1470 1508 "completion/unif.ml" 31 1470 1525
+)
+"completion/unif.ml" 31 1470 1508 "completion/unif.ml" 31 1470 1509
+type(
+  Term.term
+)
+ident(
+  def t "completion/unif.ml" 31 1470 1510 "completion/unif.ml" 31 1470 1525
+)
+"completion/unif.ml" 31 1470 1510 "completion/unif.ml" 31 1470 1511
+type(
+  Term.term
+)
+ident(
+  def u "completion/unif.ml" 31 1470 1515 "completion/unif.ml" 31 1470 1525
+)
+"completion/unif.ml" 31 1470 1516 "completion/unif.ml" 31 1470 1517
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/unif.ml" 31 1470 1508 "completion/unif.ml" 31 1470 1509
+)
+"completion/unif.ml" 31 1470 1518 "completion/unif.ml" 31 1470 1519
+type(
+  Term.term
+)
+ident(
+  int_ref u "completion/unif.ml" 31 1470 1510 "completion/unif.ml" 31 1470 1511
+)
+"completion/unif.ml" 31 1470 1515 "completion/unif.ml" 31 1470 1520
+type(
+  Term.term * Term.term
+)
+"completion/unif.ml" 31 1470 1524 "completion/unif.ml" 31 1470 1525
+type(
+  (Term.term * Term.term) list
+)
+ident(
+  int_ref r "completion/unif.ml" 31 1470 1506 "completion/unif.ml" 31 1470 1507
+)
+"completion/unif.ml" 31 1470 1515 "completion/unif.ml" 31 1470 1525
+type(
+  (Term.term * Term.term) list
+)
+"completion/unif.ml" 31 1470 1501 "completion/unif.ml" 31 1470 1526
+type(
+  (Term.term * Term.term) list ->
+  Term.term -> Term.term -> (Term.term * Term.term) list
+)
+"completion/unif.ml" 31 1470 1527 "completion/unif.ml" 31 1470 1528
+type(
+  (Term.term * Term.term) list
+)
+ident(
+  int_ref l "completion/unif.ml" 30 1418 1454 "completion/unif.ml" 30 1418 1455
+)
+"completion/unif.ml" 31 1470 1529 "completion/unif.ml" 31 1470 1531
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/unif.ml" 30 1418 1433 "completion/unif.ml" 30 1418 1435
+)
+"completion/unif.ml" 31 1470 1532 "completion/unif.ml" 31 1470 1534
+type(
+  Term.term list
+)
+ident(
+  int_ref us "completion/unif.ml" 30 1418 1446 "completion/unif.ml" 30 1418 1448
+)
+"completion/unif.ml" 31 1470 1484 "completion/unif.ml" 31 1470 1535
+call(
+  stack
+)
+type(
+  (Term.term * Term.term) list
+)
+"completion/unif.ml" 31 1470 1478 "completion/unif.ml" 31 1470 1535
+call(
+  tail
+)
+type(
+  Subs.subs
+)
+"completion/unif.ml" 32 1536 1547 "completion/unif.ml" 32 1536 1548
+type(
+  Term.term list
+)
+type(
+  Symb.symbol
+)
+"completion/unif.ml" 32 1536 1543 "completion/unif.ml" 32 1536 1548
+type(
+  Term.term
+)
+"completion/unif.ml" 32 1536 1554 "completion/unif.ml" 32 1536 1555
+type(
+  Term.term list
+)
+type(
+  Symb.symbol
+)
+"completion/unif.ml" 32 1536 1550 "completion/unif.ml" 32 1536 1555
+type(
+  Term.term
+)
+"completion/unif.ml" 32 1536 1542 "completion/unif.ml" 32 1536 1556
+type(
+  Term.term * Term.term
+)
+"completion/unif.ml" 32 1536 1560 "completion/unif.ml" 32 1536 1561
+type(
+  (Term.term * Term.term) list
+)
+"completion/unif.ml" 32 1536 1542 "completion/unif.ml" 32 1536 1561
+type(
+  (Term.term * Term.term) list
+)
+"completion/unif.ml" 32 1536 1565 "completion/unif.ml" 32 1536 1573
+type(
+  string -> Subs.subs
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"completion/unif.ml" 32 1536 1574 "completion/unif.ml" 32 1536 1603
+type(
+  string
+)
+"completion/unif.ml" 32 1536 1565 "completion/unif.ml" 32 1536 1603
+call(
+  tail
+)
+type(
+  Subs.subs
+)
+"completion/unif.ml" 22 1078 1096 "completion/unif.ml" 32 1536 1603
+type(
+  (Term.term * Term.term) list -> Subs.subs
+)
+"completion/unif.ml" 33 1604 1609 "completion/unif.ml" 33 1604 1612
+type(
+  Subs.subs -> (Term.term * Term.term) list -> Subs.subs
+)
+ident(
+  int_ref aux "completion/unif.ml" 22 1078 1088 "completion/unif.ml" 22 1078 1091
+)
+"completion/unif.ml" 33 1604 1613 "completion/unif.ml" 33 1604 1618
+type(
+  Subs.subs
+)
+ident(
+  ext_ref Subs.empty
+)
+"completion/unif.ml" 33 1604 1609 "completion/unif.ml" 33 1604 1618
+call(
+  stack
+)
+type(
+  (Term.term * Term.term) list -> Subs.subs
+)
+"completion/unif.ml" 22 1078 1080 "completion/unif.ml" 33 1604 1618
+type(
+  (Term.term * Term.term) list -> Subs.subs
+)
+"completion/unif.ml" 36 1623 1627 "completion/unif.ml" 36 1623 1630
+type(
+  Term.term -> Term.term -> Subs.subs
+)
+ident(
+  def mgu "completion/unif.ml" 36 1623 1649 "completion/unif.ml" 1 0 -1
+)
+"completion/unif.ml" 36 1623 1631 "completion/unif.ml" 36 1623 1632
+type(
+  Term.term
+)
+ident(
+  def t "completion/unif.ml" 36 1623 1633 "completion/unif.ml" 36 1623 1649
+)
+"completion/unif.ml" 36 1623 1633 "completion/unif.ml" 36 1623 1634
+type(
+  Term.term
+)
+ident(
+  def u "completion/unif.ml" 36 1623 1637 "completion/unif.ml" 36 1623 1649
+)
+"completion/unif.ml" 36 1623 1637 "completion/unif.ml" 36 1623 1641
+type(
+  (Term.term * Term.term) list -> Subs.subs
+)
+ident(
+  int_ref unif "completion/unif.ml" 21 1067 1071 "completion/unif.ml" 21 1067 1075
+)
+"completion/unif.ml" 36 1623 1644 "completion/unif.ml" 36 1623 1645
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/unif.ml" 36 1623 1631 "completion/unif.ml" 36 1623 1632
+)
+"completion/unif.ml" 36 1623 1646 "completion/unif.ml" 36 1623 1647
+type(
+  Term.term
+)
+ident(
+  int_ref u "completion/unif.ml" 36 1623 1633 "completion/unif.ml" 36 1623 1634
+)
+"completion/unif.ml" 36 1623 1643 "completion/unif.ml" 36 1623 1648
+type(
+  Term.term * Term.term
+)
+"completion/unif.ml" 36 1623 1642 "completion/unif.ml" 36 1623 1649
+type(
+  (Term.term * Term.term) list
+)
+"completion/unif.ml" 36 1623 1637 "completion/unif.ml" 36 1623 1649
+call(
+  tail
+)
+type(
+  Subs.subs
+)

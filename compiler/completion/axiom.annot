@@ -1,0 +1,3876 @@
+"completion/axiom.ml" 41 1564 1568 "completion/axiom.ml" 41 1564 1571
+type(
+  Symb.symbol -> axiom list
+)
+ident(
+  def com "completion/axiom.ml" 42 1586 1586 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 41 1564 1572 "completion/axiom.ml" 41 1564 1573
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 41 1564 1576 "completion/axiom.ml" 41 1564 1583
+)
+"completion/axiom.ml" 41 1564 1581 "completion/axiom.ml" 41 1564 1582
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 41 1564 1572 "completion/axiom.ml" 41 1564 1573
+)
+"completion/axiom.ml" 41 1564 1577 "completion/axiom.ml" 41 1564 1582
+type(
+  axiom
+)
+"completion/axiom.ml" 41 1564 1576 "completion/axiom.ml" 41 1564 1583
+type(
+  axiom list
+)
+"completion/axiom.ml" 42 1586 1590 "completion/axiom.ml" 42 1586 1593
+type(
+  Symb.symbol -> axiom list
+)
+ident(
+  def ass "completion/axiom.ml" 43 1608 1608 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 42 1586 1594 "completion/axiom.ml" 42 1586 1595
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 42 1586 1598 "completion/axiom.ml" 42 1586 1605
+)
+"completion/axiom.ml" 42 1586 1603 "completion/axiom.ml" 42 1586 1604
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 42 1586 1594 "completion/axiom.ml" 42 1586 1595
+)
+"completion/axiom.ml" 42 1586 1599 "completion/axiom.ml" 42 1586 1604
+type(
+  axiom
+)
+"completion/axiom.ml" 42 1586 1598 "completion/axiom.ml" 42 1586 1605
+type(
+  axiom list
+)
+"completion/axiom.ml" 43 1608 1612 "completion/axiom.ml" 43 1608 1615
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def nil "completion/axiom.ml" 44 1636 1636 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 43 1608 1616 "completion/axiom.ml" 43 1608 1617
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 43 1608 1618 "completion/axiom.ml" 43 1608 1633
+)
+"completion/axiom.ml" 43 1608 1618 "completion/axiom.ml" 43 1608 1619
+type(
+  Symb.symbol
+)
+ident(
+  def a "completion/axiom.ml" 43 1608 1622 "completion/axiom.ml" 43 1608 1633
+)
+"completion/axiom.ml" 43 1608 1628 "completion/axiom.ml" 43 1608 1629
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 43 1608 1616 "completion/axiom.ml" 43 1608 1617
+)
+"completion/axiom.ml" 43 1608 1630 "completion/axiom.ml" 43 1608 1631
+type(
+  Symb.symbol
+)
+ident(
+  int_ref a "completion/axiom.ml" 43 1608 1618 "completion/axiom.ml" 43 1608 1619
+)
+"completion/axiom.ml" 43 1608 1623 "completion/axiom.ml" 43 1608 1632
+type(
+  axiom
+)
+"completion/axiom.ml" 43 1608 1622 "completion/axiom.ml" 43 1608 1633
+type(
+  axiom list
+)
+"completion/axiom.ml" 44 1636 1640 "completion/axiom.ml" 44 1636 1644
+type(
+  Symb.symbol -> axiom list
+)
+ident(
+  def idem "completion/axiom.ml" 45 1660 1660 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 44 1636 1645 "completion/axiom.ml" 44 1636 1646
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 44 1636 1649 "completion/axiom.ml" 44 1636 1657
+)
+"completion/axiom.ml" 44 1636 1655 "completion/axiom.ml" 44 1636 1656
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 44 1636 1645 "completion/axiom.ml" 44 1636 1646
+)
+"completion/axiom.ml" 44 1636 1650 "completion/axiom.ml" 44 1636 1656
+type(
+  axiom
+)
+"completion/axiom.ml" 44 1636 1649 "completion/axiom.ml" 44 1636 1657
+type(
+  axiom list
+)
+"completion/axiom.ml" 45 1660 1664 "completion/axiom.ml" 45 1660 1668
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def lneu "completion/axiom.ml" 46 1694 1694 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 45 1660 1669 "completion/axiom.ml" 45 1660 1670
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 45 1660 1671 "completion/axiom.ml" 45 1660 1691
+)
+"completion/axiom.ml" 45 1660 1671 "completion/axiom.ml" 45 1660 1672
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 45 1660 1675 "completion/axiom.ml" 45 1660 1691
+)
+"completion/axiom.ml" 45 1660 1681 "completion/axiom.ml" 45 1660 1685
+type(
+  side
+)
+"completion/axiom.ml" 45 1660 1686 "completion/axiom.ml" 45 1660 1687
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 45 1660 1669 "completion/axiom.ml" 45 1660 1670
+)
+"completion/axiom.ml" 45 1660 1688 "completion/axiom.ml" 45 1660 1689
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 45 1660 1671 "completion/axiom.ml" 45 1660 1672
+)
+"completion/axiom.ml" 45 1660 1676 "completion/axiom.ml" 45 1660 1690
+type(
+  axiom
+)
+"completion/axiom.ml" 45 1660 1675 "completion/axiom.ml" 45 1660 1691
+type(
+  axiom list
+)
+"completion/axiom.ml" 46 1694 1698 "completion/axiom.ml" 46 1694 1702
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def rneu "completion/axiom.ml" 47 1729 1729 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 46 1694 1703 "completion/axiom.ml" 46 1694 1704
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 46 1694 1705 "completion/axiom.ml" 46 1694 1726
+)
+"completion/axiom.ml" 46 1694 1705 "completion/axiom.ml" 46 1694 1706
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 46 1694 1709 "completion/axiom.ml" 46 1694 1726
+)
+"completion/axiom.ml" 46 1694 1715 "completion/axiom.ml" 46 1694 1720
+type(
+  side
+)
+"completion/axiom.ml" 46 1694 1721 "completion/axiom.ml" 46 1694 1722
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 46 1694 1703 "completion/axiom.ml" 46 1694 1704
+)
+"completion/axiom.ml" 46 1694 1723 "completion/axiom.ml" 46 1694 1724
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 46 1694 1705 "completion/axiom.ml" 46 1694 1706
+)
+"completion/axiom.ml" 46 1694 1710 "completion/axiom.ml" 46 1694 1725
+type(
+  axiom
+)
+"completion/axiom.ml" 46 1694 1709 "completion/axiom.ml" 46 1694 1726
+type(
+  axiom list
+)
+"completion/axiom.ml" 47 1729 1733 "completion/axiom.ml" 47 1729 1736
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def neu "completion/axiom.ml" 48 1765 1765 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 47 1729 1737 "completion/axiom.ml" 47 1729 1738
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 47 1729 1739 "completion/axiom.ml" 47 1729 1762
+)
+"completion/axiom.ml" 47 1729 1739 "completion/axiom.ml" 47 1729 1740
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 47 1729 1743 "completion/axiom.ml" 47 1729 1762
+)
+"completion/axiom.ml" 47 1729 1743 "completion/axiom.ml" 47 1729 1747
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  int_ref lneu "completion/axiom.ml" 45 1660 1664 "completion/axiom.ml" 45 1660 1668
+)
+"completion/axiom.ml" 47 1729 1748 "completion/axiom.ml" 47 1729 1749
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 47 1729 1737 "completion/axiom.ml" 47 1729 1738
+)
+"completion/axiom.ml" 47 1729 1750 "completion/axiom.ml" 47 1729 1751
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 47 1729 1739 "completion/axiom.ml" 47 1729 1740
+)
+"completion/axiom.ml" 47 1729 1743 "completion/axiom.ml" 47 1729 1751
+call(
+  stack
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 47 1729 1752 "completion/axiom.ml" 47 1729 1753
+type(
+  axiom list -> axiom list -> axiom list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"completion/axiom.ml" 47 1729 1754 "completion/axiom.ml" 47 1729 1758
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  int_ref rneu "completion/axiom.ml" 46 1694 1698 "completion/axiom.ml" 46 1694 1702
+)
+"completion/axiom.ml" 47 1729 1759 "completion/axiom.ml" 47 1729 1760
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 47 1729 1737 "completion/axiom.ml" 47 1729 1738
+)
+"completion/axiom.ml" 47 1729 1761 "completion/axiom.ml" 47 1729 1762
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 47 1729 1739 "completion/axiom.ml" 47 1729 1740
+)
+"completion/axiom.ml" 47 1729 1754 "completion/axiom.ml" 47 1729 1762
+call(
+  stack
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 47 1729 1743 "completion/axiom.ml" 47 1729 1762
+call(
+  tail
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 48 1765 1769 "completion/axiom.ml" 48 1765 1773
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def labs "completion/axiom.ml" 49 1799 1799 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 48 1765 1774 "completion/axiom.ml" 48 1765 1775
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 48 1765 1776 "completion/axiom.ml" 48 1765 1796
+)
+"completion/axiom.ml" 48 1765 1776 "completion/axiom.ml" 48 1765 1777
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 48 1765 1780 "completion/axiom.ml" 48 1765 1796
+)
+"completion/axiom.ml" 48 1765 1786 "completion/axiom.ml" 48 1765 1790
+type(
+  side
+)
+"completion/axiom.ml" 48 1765 1791 "completion/axiom.ml" 48 1765 1792
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 48 1765 1774 "completion/axiom.ml" 48 1765 1775
+)
+"completion/axiom.ml" 48 1765 1793 "completion/axiom.ml" 48 1765 1794
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 48 1765 1776 "completion/axiom.ml" 48 1765 1777
+)
+"completion/axiom.ml" 48 1765 1781 "completion/axiom.ml" 48 1765 1795
+type(
+  axiom
+)
+"completion/axiom.ml" 48 1765 1780 "completion/axiom.ml" 48 1765 1796
+type(
+  axiom list
+)
+"completion/axiom.ml" 49 1799 1803 "completion/axiom.ml" 49 1799 1807
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def rabs "completion/axiom.ml" 50 1834 1834 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 49 1799 1808 "completion/axiom.ml" 49 1799 1809
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 49 1799 1810 "completion/axiom.ml" 49 1799 1831
+)
+"completion/axiom.ml" 49 1799 1810 "completion/axiom.ml" 49 1799 1811
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 49 1799 1814 "completion/axiom.ml" 49 1799 1831
+)
+"completion/axiom.ml" 49 1799 1820 "completion/axiom.ml" 49 1799 1825
+type(
+  side
+)
+"completion/axiom.ml" 49 1799 1826 "completion/axiom.ml" 49 1799 1827
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 49 1799 1808 "completion/axiom.ml" 49 1799 1809
+)
+"completion/axiom.ml" 49 1799 1828 "completion/axiom.ml" 49 1799 1829
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 49 1799 1810 "completion/axiom.ml" 49 1799 1811
+)
+"completion/axiom.ml" 49 1799 1815 "completion/axiom.ml" 49 1799 1830
+type(
+  axiom
+)
+"completion/axiom.ml" 49 1799 1814 "completion/axiom.ml" 49 1799 1831
+type(
+  axiom list
+)
+"completion/axiom.ml" 50 1834 1838 "completion/axiom.ml" 50 1834 1841
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def abs "completion/axiom.ml" 51 1870 1870 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 50 1834 1842 "completion/axiom.ml" 50 1834 1843
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 50 1834 1844 "completion/axiom.ml" 50 1834 1867
+)
+"completion/axiom.ml" 50 1834 1844 "completion/axiom.ml" 50 1834 1845
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 50 1834 1848 "completion/axiom.ml" 50 1834 1867
+)
+"completion/axiom.ml" 50 1834 1848 "completion/axiom.ml" 50 1834 1852
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  int_ref labs "completion/axiom.ml" 48 1765 1769 "completion/axiom.ml" 48 1765 1773
+)
+"completion/axiom.ml" 50 1834 1853 "completion/axiom.ml" 50 1834 1854
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 50 1834 1842 "completion/axiom.ml" 50 1834 1843
+)
+"completion/axiom.ml" 50 1834 1855 "completion/axiom.ml" 50 1834 1856
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 50 1834 1844 "completion/axiom.ml" 50 1834 1845
+)
+"completion/axiom.ml" 50 1834 1848 "completion/axiom.ml" 50 1834 1856
+call(
+  stack
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 50 1834 1857 "completion/axiom.ml" 50 1834 1858
+type(
+  axiom list -> axiom list -> axiom list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"completion/axiom.ml" 50 1834 1859 "completion/axiom.ml" 50 1834 1863
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  int_ref rabs "completion/axiom.ml" 49 1799 1803 "completion/axiom.ml" 49 1799 1807
+)
+"completion/axiom.ml" 50 1834 1864 "completion/axiom.ml" 50 1834 1865
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 50 1834 1842 "completion/axiom.ml" 50 1834 1843
+)
+"completion/axiom.ml" 50 1834 1866 "completion/axiom.ml" 50 1834 1867
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 50 1834 1844 "completion/axiom.ml" 50 1834 1845
+)
+"completion/axiom.ml" 50 1834 1859 "completion/axiom.ml" 50 1834 1867
+call(
+  stack
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 50 1834 1848 "completion/axiom.ml" 50 1834 1867
+call(
+  tail
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 51 1870 1874 "completion/axiom.ml" 51 1870 1878
+type(
+  Symb.symbol -> Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def linv "completion/axiom.ml" 52 1908 1908 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 51 1870 1879 "completion/axiom.ml" 51 1870 1880
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 51 1870 1881 "completion/axiom.ml" 51 1870 1905
+)
+"completion/axiom.ml" 51 1870 1881 "completion/axiom.ml" 51 1870 1882
+type(
+  Symb.symbol
+)
+ident(
+  def i "completion/axiom.ml" 51 1870 1883 "completion/axiom.ml" 51 1870 1905
+)
+"completion/axiom.ml" 51 1870 1883 "completion/axiom.ml" 51 1870 1884
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 51 1870 1887 "completion/axiom.ml" 51 1870 1905
+)
+"completion/axiom.ml" 51 1870 1893 "completion/axiom.ml" 51 1870 1897
+type(
+  side
+)
+"completion/axiom.ml" 51 1870 1898 "completion/axiom.ml" 51 1870 1899
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 51 1870 1879 "completion/axiom.ml" 51 1870 1880
+)
+"completion/axiom.ml" 51 1870 1900 "completion/axiom.ml" 51 1870 1901
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 51 1870 1881 "completion/axiom.ml" 51 1870 1882
+)
+"completion/axiom.ml" 51 1870 1902 "completion/axiom.ml" 51 1870 1903
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 51 1870 1883 "completion/axiom.ml" 51 1870 1884
+)
+"completion/axiom.ml" 51 1870 1888 "completion/axiom.ml" 51 1870 1904
+type(
+  axiom
+)
+"completion/axiom.ml" 51 1870 1887 "completion/axiom.ml" 51 1870 1905
+type(
+  axiom list
+)
+"completion/axiom.ml" 52 1908 1912 "completion/axiom.ml" 52 1908 1916
+type(
+  Symb.symbol -> Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def rinv "completion/axiom.ml" 53 1947 1947 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 52 1908 1917 "completion/axiom.ml" 52 1908 1918
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 52 1908 1919 "completion/axiom.ml" 52 1908 1944
+)
+"completion/axiom.ml" 52 1908 1919 "completion/axiom.ml" 52 1908 1920
+type(
+  Symb.symbol
+)
+ident(
+  def i "completion/axiom.ml" 52 1908 1921 "completion/axiom.ml" 52 1908 1944
+)
+"completion/axiom.ml" 52 1908 1921 "completion/axiom.ml" 52 1908 1922
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 52 1908 1925 "completion/axiom.ml" 52 1908 1944
+)
+"completion/axiom.ml" 52 1908 1931 "completion/axiom.ml" 52 1908 1936
+type(
+  side
+)
+"completion/axiom.ml" 52 1908 1937 "completion/axiom.ml" 52 1908 1938
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 52 1908 1917 "completion/axiom.ml" 52 1908 1918
+)
+"completion/axiom.ml" 52 1908 1939 "completion/axiom.ml" 52 1908 1940
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 52 1908 1919 "completion/axiom.ml" 52 1908 1920
+)
+"completion/axiom.ml" 52 1908 1941 "completion/axiom.ml" 52 1908 1942
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 52 1908 1921 "completion/axiom.ml" 52 1908 1922
+)
+"completion/axiom.ml" 52 1908 1926 "completion/axiom.ml" 52 1908 1943
+type(
+  axiom
+)
+"completion/axiom.ml" 52 1908 1925 "completion/axiom.ml" 52 1908 1944
+type(
+  axiom list
+)
+"completion/axiom.ml" 53 1947 1951 "completion/axiom.ml" 53 1947 1954
+type(
+  Symb.symbol -> Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def inv "completion/axiom.ml" 54 1989 1989 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 53 1947 1955 "completion/axiom.ml" 53 1947 1956
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 53 1947 1957 "completion/axiom.ml" 53 1947 1986
+)
+"completion/axiom.ml" 53 1947 1957 "completion/axiom.ml" 53 1947 1958
+type(
+  Symb.symbol
+)
+ident(
+  def i "completion/axiom.ml" 53 1947 1959 "completion/axiom.ml" 53 1947 1986
+)
+"completion/axiom.ml" 53 1947 1959 "completion/axiom.ml" 53 1947 1960
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 53 1947 1963 "completion/axiom.ml" 53 1947 1986
+)
+"completion/axiom.ml" 53 1947 1963 "completion/axiom.ml" 53 1947 1967
+type(
+  Symb.symbol -> Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  int_ref linv "completion/axiom.ml" 51 1870 1874 "completion/axiom.ml" 51 1870 1878
+)
+"completion/axiom.ml" 53 1947 1968 "completion/axiom.ml" 53 1947 1969
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 53 1947 1955 "completion/axiom.ml" 53 1947 1956
+)
+"completion/axiom.ml" 53 1947 1970 "completion/axiom.ml" 53 1947 1971
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 53 1947 1957 "completion/axiom.ml" 53 1947 1958
+)
+"completion/axiom.ml" 53 1947 1972 "completion/axiom.ml" 53 1947 1973
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 53 1947 1959 "completion/axiom.ml" 53 1947 1960
+)
+"completion/axiom.ml" 53 1947 1963 "completion/axiom.ml" 53 1947 1973
+call(
+  stack
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 53 1947 1974 "completion/axiom.ml" 53 1947 1975
+type(
+  axiom list -> axiom list -> axiom list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"completion/axiom.ml" 53 1947 1976 "completion/axiom.ml" 53 1947 1980
+type(
+  Symb.symbol -> Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  int_ref rinv "completion/axiom.ml" 52 1908 1912 "completion/axiom.ml" 52 1908 1916
+)
+"completion/axiom.ml" 53 1947 1981 "completion/axiom.ml" 53 1947 1982
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 53 1947 1955 "completion/axiom.ml" 53 1947 1956
+)
+"completion/axiom.ml" 53 1947 1983 "completion/axiom.ml" 53 1947 1984
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 53 1947 1957 "completion/axiom.ml" 53 1947 1958
+)
+"completion/axiom.ml" 53 1947 1985 "completion/axiom.ml" 53 1947 1986
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 53 1947 1959 "completion/axiom.ml" 53 1947 1960
+)
+"completion/axiom.ml" 53 1947 1976 "completion/axiom.ml" 53 1947 1986
+call(
+  stack
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 53 1947 1963 "completion/axiom.ml" 53 1947 1986
+call(
+  tail
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 54 1989 1993 "completion/axiom.ml" 54 1989 1997
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def ldis "completion/axiom.ml" 55 2023 2023 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 54 1989 1998 "completion/axiom.ml" 54 1989 1999
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 54 1989 2000 "completion/axiom.ml" 54 1989 2020
+)
+"completion/axiom.ml" 54 1989 2000 "completion/axiom.ml" 54 1989 2001
+type(
+  Symb.symbol
+)
+ident(
+  def d "completion/axiom.ml" 54 1989 2004 "completion/axiom.ml" 54 1989 2020
+)
+"completion/axiom.ml" 54 1989 2010 "completion/axiom.ml" 54 1989 2014
+type(
+  side
+)
+"completion/axiom.ml" 54 1989 2015 "completion/axiom.ml" 54 1989 2016
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 54 1989 1998 "completion/axiom.ml" 54 1989 1999
+)
+"completion/axiom.ml" 54 1989 2017 "completion/axiom.ml" 54 1989 2018
+type(
+  Symb.symbol
+)
+ident(
+  int_ref d "completion/axiom.ml" 54 1989 2000 "completion/axiom.ml" 54 1989 2001
+)
+"completion/axiom.ml" 54 1989 2005 "completion/axiom.ml" 54 1989 2019
+type(
+  axiom
+)
+"completion/axiom.ml" 54 1989 2004 "completion/axiom.ml" 54 1989 2020
+type(
+  axiom list
+)
+"completion/axiom.ml" 55 2023 2027 "completion/axiom.ml" 55 2023 2031
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def rdis "completion/axiom.ml" 56 2058 2058 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 55 2023 2032 "completion/axiom.ml" 55 2023 2033
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 55 2023 2034 "completion/axiom.ml" 55 2023 2055
+)
+"completion/axiom.ml" 55 2023 2034 "completion/axiom.ml" 55 2023 2035
+type(
+  Symb.symbol
+)
+ident(
+  def d "completion/axiom.ml" 55 2023 2038 "completion/axiom.ml" 55 2023 2055
+)
+"completion/axiom.ml" 55 2023 2044 "completion/axiom.ml" 55 2023 2049
+type(
+  side
+)
+"completion/axiom.ml" 55 2023 2050 "completion/axiom.ml" 55 2023 2051
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 55 2023 2032 "completion/axiom.ml" 55 2023 2033
+)
+"completion/axiom.ml" 55 2023 2052 "completion/axiom.ml" 55 2023 2053
+type(
+  Symb.symbol
+)
+ident(
+  int_ref d "completion/axiom.ml" 55 2023 2034 "completion/axiom.ml" 55 2023 2035
+)
+"completion/axiom.ml" 55 2023 2039 "completion/axiom.ml" 55 2023 2054
+type(
+  axiom
+)
+"completion/axiom.ml" 55 2023 2038 "completion/axiom.ml" 55 2023 2055
+type(
+  axiom list
+)
+"completion/axiom.ml" 56 2058 2062 "completion/axiom.ml" 56 2058 2065
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def dis "completion/axiom.ml" 57 2094 2094 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 56 2058 2066 "completion/axiom.ml" 56 2058 2067
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 56 2058 2068 "completion/axiom.ml" 56 2058 2091
+)
+"completion/axiom.ml" 56 2058 2068 "completion/axiom.ml" 56 2058 2069
+type(
+  Symb.symbol
+)
+ident(
+  def d "completion/axiom.ml" 56 2058 2072 "completion/axiom.ml" 56 2058 2091
+)
+"completion/axiom.ml" 56 2058 2072 "completion/axiom.ml" 56 2058 2076
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  int_ref ldis "completion/axiom.ml" 54 1989 1993 "completion/axiom.ml" 54 1989 1997
+)
+"completion/axiom.ml" 56 2058 2077 "completion/axiom.ml" 56 2058 2078
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 56 2058 2066 "completion/axiom.ml" 56 2058 2067
+)
+"completion/axiom.ml" 56 2058 2079 "completion/axiom.ml" 56 2058 2080
+type(
+  Symb.symbol
+)
+ident(
+  int_ref d "completion/axiom.ml" 56 2058 2068 "completion/axiom.ml" 56 2058 2069
+)
+"completion/axiom.ml" 56 2058 2072 "completion/axiom.ml" 56 2058 2080
+call(
+  stack
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 56 2058 2081 "completion/axiom.ml" 56 2058 2082
+type(
+  axiom list -> axiom list -> axiom list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"completion/axiom.ml" 56 2058 2083 "completion/axiom.ml" 56 2058 2087
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  int_ref rdis "completion/axiom.ml" 55 2023 2027 "completion/axiom.ml" 55 2023 2031
+)
+"completion/axiom.ml" 56 2058 2088 "completion/axiom.ml" 56 2058 2089
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 56 2058 2066 "completion/axiom.ml" 56 2058 2067
+)
+"completion/axiom.ml" 56 2058 2090 "completion/axiom.ml" 56 2058 2091
+type(
+  Symb.symbol
+)
+ident(
+  int_ref d "completion/axiom.ml" 56 2058 2068 "completion/axiom.ml" 56 2058 2069
+)
+"completion/axiom.ml" 56 2058 2083 "completion/axiom.ml" 56 2058 2091
+call(
+  stack
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 56 2058 2072 "completion/axiom.ml" 56 2058 2091
+call(
+  tail
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 57 2094 2098 "completion/axiom.ml" 57 2094 2105
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def linvdis "completion/axiom.ml" 58 2134 2134 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 57 2094 2106 "completion/axiom.ml" 57 2094 2107
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 57 2094 2108 "completion/axiom.ml" 57 2094 2131
+)
+"completion/axiom.ml" 57 2094 2108 "completion/axiom.ml" 57 2094 2109
+type(
+  Symb.symbol
+)
+ident(
+  def i "completion/axiom.ml" 57 2094 2112 "completion/axiom.ml" 57 2094 2131
+)
+"completion/axiom.ml" 57 2094 2121 "completion/axiom.ml" 57 2094 2125
+type(
+  side
+)
+"completion/axiom.ml" 57 2094 2126 "completion/axiom.ml" 57 2094 2127
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 57 2094 2106 "completion/axiom.ml" 57 2094 2107
+)
+"completion/axiom.ml" 57 2094 2128 "completion/axiom.ml" 57 2094 2129
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 57 2094 2108 "completion/axiom.ml" 57 2094 2109
+)
+"completion/axiom.ml" 57 2094 2113 "completion/axiom.ml" 57 2094 2130
+type(
+  axiom
+)
+"completion/axiom.ml" 57 2094 2112 "completion/axiom.ml" 57 2094 2131
+type(
+  axiom list
+)
+"completion/axiom.ml" 58 2134 2138 "completion/axiom.ml" 58 2134 2145
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def rinvdis "completion/axiom.ml" 59 2175 2175 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 58 2134 2146 "completion/axiom.ml" 58 2134 2147
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 58 2134 2148 "completion/axiom.ml" 58 2134 2172
+)
+"completion/axiom.ml" 58 2134 2148 "completion/axiom.ml" 58 2134 2149
+type(
+  Symb.symbol
+)
+ident(
+  def i "completion/axiom.ml" 58 2134 2152 "completion/axiom.ml" 58 2134 2172
+)
+"completion/axiom.ml" 58 2134 2161 "completion/axiom.ml" 58 2134 2166
+type(
+  side
+)
+"completion/axiom.ml" 58 2134 2167 "completion/axiom.ml" 58 2134 2168
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 58 2134 2146 "completion/axiom.ml" 58 2134 2147
+)
+"completion/axiom.ml" 58 2134 2169 "completion/axiom.ml" 58 2134 2170
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 58 2134 2148 "completion/axiom.ml" 58 2134 2149
+)
+"completion/axiom.ml" 58 2134 2153 "completion/axiom.ml" 58 2134 2171
+type(
+  axiom
+)
+"completion/axiom.ml" 58 2134 2152 "completion/axiom.ml" 58 2134 2172
+type(
+  axiom list
+)
+"completion/axiom.ml" 59 2175 2179 "completion/axiom.ml" 59 2175 2185
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def invdis "completion/axiom.ml" 60 2220 2220 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 59 2175 2186 "completion/axiom.ml" 59 2175 2187
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 59 2175 2188 "completion/axiom.ml" 59 2175 2217
+)
+"completion/axiom.ml" 59 2175 2188 "completion/axiom.ml" 59 2175 2189
+type(
+  Symb.symbol
+)
+ident(
+  def i "completion/axiom.ml" 59 2175 2192 "completion/axiom.ml" 59 2175 2217
+)
+"completion/axiom.ml" 59 2175 2192 "completion/axiom.ml" 59 2175 2199
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  int_ref linvdis "completion/axiom.ml" 57 2094 2098 "completion/axiom.ml" 57 2094 2105
+)
+"completion/axiom.ml" 59 2175 2200 "completion/axiom.ml" 59 2175 2201
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 59 2175 2186 "completion/axiom.ml" 59 2175 2187
+)
+"completion/axiom.ml" 59 2175 2202 "completion/axiom.ml" 59 2175 2203
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 59 2175 2188 "completion/axiom.ml" 59 2175 2189
+)
+"completion/axiom.ml" 59 2175 2192 "completion/axiom.ml" 59 2175 2203
+call(
+  stack
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 59 2175 2204 "completion/axiom.ml" 59 2175 2205
+type(
+  axiom list -> axiom list -> axiom list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"completion/axiom.ml" 59 2175 2206 "completion/axiom.ml" 59 2175 2213
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  int_ref rinvdis "completion/axiom.ml" 58 2134 2138 "completion/axiom.ml" 58 2134 2145
+)
+"completion/axiom.ml" 59 2175 2214 "completion/axiom.ml" 59 2175 2215
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 59 2175 2186 "completion/axiom.ml" 59 2175 2187
+)
+"completion/axiom.ml" 59 2175 2216 "completion/axiom.ml" 59 2175 2217
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 59 2175 2188 "completion/axiom.ml" 59 2175 2189
+)
+"completion/axiom.ml" 59 2175 2206 "completion/axiom.ml" 59 2175 2217
+call(
+  stack
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 59 2175 2192 "completion/axiom.ml" 59 2175 2217
+call(
+  tail
+)
+type(
+  axiom list
+)
+"completion/axiom.ml" 60 2220 2224 "completion/axiom.ml" 60 2220 2228
+type(
+  Symb.symbol -> Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def udis "completion/axiom.ml" 61 2254 2254 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 60 2220 2229 "completion/axiom.ml" 60 2220 2230
+type(
+  Symb.symbol
+)
+ident(
+  def i "completion/axiom.ml" 60 2220 2231 "completion/axiom.ml" 60 2220 2251
+)
+"completion/axiom.ml" 60 2220 2231 "completion/axiom.ml" 60 2220 2232
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 60 2220 2233 "completion/axiom.ml" 60 2220 2251
+)
+"completion/axiom.ml" 60 2220 2233 "completion/axiom.ml" 60 2220 2234
+type(
+  Symb.symbol
+)
+ident(
+  def d "completion/axiom.ml" 60 2220 2237 "completion/axiom.ml" 60 2220 2251
+)
+"completion/axiom.ml" 60 2220 2244 "completion/axiom.ml" 60 2220 2245
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 60 2220 2229 "completion/axiom.ml" 60 2220 2230
+)
+"completion/axiom.ml" 60 2220 2246 "completion/axiom.ml" 60 2220 2247
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 60 2220 2231 "completion/axiom.ml" 60 2220 2232
+)
+"completion/axiom.ml" 60 2220 2248 "completion/axiom.ml" 60 2220 2249
+type(
+  Symb.symbol
+)
+ident(
+  int_ref d "completion/axiom.ml" 60 2220 2233 "completion/axiom.ml" 60 2220 2234
+)
+"completion/axiom.ml" 60 2220 2238 "completion/axiom.ml" 60 2220 2250
+type(
+  axiom
+)
+"completion/axiom.ml" 60 2220 2237 "completion/axiom.ml" 60 2220 2251
+type(
+  axiom list
+)
+"completion/axiom.ml" 61 2254 2258 "completion/axiom.ml" 61 2254 2263
+type(
+  Symb.symbol -> axiom list
+)
+ident(
+  def invol "completion/axiom.ml" 62 2280 2280 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 61 2254 2264 "completion/axiom.ml" 61 2254 2265
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 61 2254 2268 "completion/axiom.ml" 61 2254 2277
+)
+"completion/axiom.ml" 61 2254 2275 "completion/axiom.ml" 61 2254 2276
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 61 2254 2264 "completion/axiom.ml" 61 2254 2265
+)
+"completion/axiom.ml" 61 2254 2269 "completion/axiom.ml" 61 2254 2276
+type(
+  axiom
+)
+"completion/axiom.ml" 61 2254 2268 "completion/axiom.ml" 61 2254 2277
+type(
+  axiom list
+)
+"completion/axiom.ml" 62 2280 2284 "completion/axiom.ml" 62 2280 2288
+type(
+  Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def unil "completion/axiom.ml" 63 2310 2310 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 62 2280 2289 "completion/axiom.ml" 62 2280 2290
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 62 2280 2291 "completion/axiom.ml" 62 2280 2307
+)
+"completion/axiom.ml" 62 2280 2291 "completion/axiom.ml" 62 2280 2292
+type(
+  Symb.symbol
+)
+ident(
+  def a "completion/axiom.ml" 62 2280 2295 "completion/axiom.ml" 62 2280 2307
+)
+"completion/axiom.ml" 62 2280 2302 "completion/axiom.ml" 62 2280 2303
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 62 2280 2289 "completion/axiom.ml" 62 2280 2290
+)
+"completion/axiom.ml" 62 2280 2304 "completion/axiom.ml" 62 2280 2305
+type(
+  Symb.symbol
+)
+ident(
+  int_ref a "completion/axiom.ml" 62 2280 2291 "completion/axiom.ml" 62 2280 2292
+)
+"completion/axiom.ml" 62 2280 2296 "completion/axiom.ml" 62 2280 2306
+type(
+  axiom
+)
+"completion/axiom.ml" 62 2280 2295 "completion/axiom.ml" 62 2280 2307
+type(
+  axiom list
+)
+"completion/axiom.ml" 63 2310 2314 "completion/axiom.ml" 63 2310 2319
+type(
+  Symb.symbol -> axiom list
+)
+ident(
+  def uidem "completion/axiom.ml" 64 2336 2336 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 63 2310 2320 "completion/axiom.ml" 63 2310 2321
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 63 2310 2324 "completion/axiom.ml" 63 2310 2333
+)
+"completion/axiom.ml" 63 2310 2331 "completion/axiom.ml" 63 2310 2332
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 63 2310 2320 "completion/axiom.ml" 63 2310 2321
+)
+"completion/axiom.ml" 63 2310 2325 "completion/axiom.ml" 63 2310 2332
+type(
+  axiom
+)
+"completion/axiom.ml" 63 2310 2324 "completion/axiom.ml" 63 2310 2333
+type(
+  axiom list
+)
+"completion/axiom.ml" 64 2336 2340 "completion/axiom.ml" 64 2336 2346
+type(
+  Symb.symbol -> Symb.symbol -> Symb.symbol -> axiom list
+)
+ident(
+  def invneu "completion/axiom.ml" 66 2375 2375 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 64 2336 2347 "completion/axiom.ml" 64 2336 2348
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 64 2336 2349 "completion/axiom.ml" 64 2336 2371
+)
+"completion/axiom.ml" 64 2336 2349 "completion/axiom.ml" 64 2336 2350
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 64 2336 2351 "completion/axiom.ml" 64 2336 2371
+)
+"completion/axiom.ml" 64 2336 2351 "completion/axiom.ml" 64 2336 2352
+type(
+  Symb.symbol
+)
+ident(
+  def a "completion/axiom.ml" 64 2336 2355 "completion/axiom.ml" 64 2336 2371
+)
+"completion/axiom.ml" 64 2336 2364 "completion/axiom.ml" 64 2336 2365
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 64 2336 2347 "completion/axiom.ml" 64 2336 2348
+)
+"completion/axiom.ml" 64 2336 2366 "completion/axiom.ml" 64 2336 2367
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 64 2336 2349 "completion/axiom.ml" 64 2336 2350
+)
+"completion/axiom.ml" 64 2336 2368 "completion/axiom.ml" 64 2336 2369
+type(
+  Symb.symbol
+)
+ident(
+  int_ref a "completion/axiom.ml" 64 2336 2351 "completion/axiom.ml" 64 2336 2352
+)
+"completion/axiom.ml" 64 2336 2356 "completion/axiom.ml" 64 2336 2370
+type(
+  axiom
+)
+"completion/axiom.ml" 64 2336 2355 "completion/axiom.ml" 64 2336 2371
+type(
+  axiom list
+)
+"completion/axiom.ml" 68 2388 2392 "completion/axiom.ml" 68 2388 2396
+type(
+  Symb.symbol -> Term.term
+)
+ident(
+  def app0 "completion/axiom.ml" 69 2415 2415 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 68 2388 2397 "completion/axiom.ml" 68 2388 2398
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 68 2388 2401 "completion/axiom.ml" 68 2388 2412
+)
+"completion/axiom.ml" 68 2388 2406 "completion/axiom.ml" 68 2388 2407
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 68 2388 2397 "completion/axiom.ml" 68 2388 2398
+)
+"completion/axiom.ml" 68 2388 2409 "completion/axiom.ml" 68 2388 2411
+type(
+  Term.term list
+)
+"completion/axiom.ml" 68 2388 2401 "completion/axiom.ml" 68 2388 2412
+type(
+  Term.term
+)
+"completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  def app1 "completion/axiom.ml" 70 2445 2445 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 69 2415 2424 "completion/axiom.ml" 69 2415 2425
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 69 2415 2426 "completion/axiom.ml" 69 2415 2442
+)
+"completion/axiom.ml" 69 2415 2426 "completion/axiom.ml" 69 2415 2427
+type(
+  Term.term
+)
+ident(
+  def x "completion/axiom.ml" 69 2415 2430 "completion/axiom.ml" 69 2415 2442
+)
+"completion/axiom.ml" 69 2415 2435 "completion/axiom.ml" 69 2415 2436
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 69 2415 2424 "completion/axiom.ml" 69 2415 2425
+)
+"completion/axiom.ml" 69 2415 2439 "completion/axiom.ml" 69 2415 2440
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 69 2415 2426 "completion/axiom.ml" 69 2415 2427
+)
+"completion/axiom.ml" 69 2415 2438 "completion/axiom.ml" 69 2415 2441
+type(
+  Term.term list
+)
+"completion/axiom.ml" 69 2415 2430 "completion/axiom.ml" 69 2415 2442
+type(
+  Term.term
+)
+"completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  def app2 "completion/axiom.ml" 72 2480 2480 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 70 2445 2454 "completion/axiom.ml" 70 2445 2455
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 70 2445 2456 "completion/axiom.ml" 70 2445 2476
+)
+"completion/axiom.ml" 70 2445 2456 "completion/axiom.ml" 70 2445 2457
+type(
+  Term.term
+)
+ident(
+  def x "completion/axiom.ml" 70 2445 2458 "completion/axiom.ml" 70 2445 2476
+)
+"completion/axiom.ml" 70 2445 2458 "completion/axiom.ml" 70 2445 2459
+type(
+  Term.term
+)
+ident(
+  def y "completion/axiom.ml" 70 2445 2462 "completion/axiom.ml" 70 2445 2476
+)
+"completion/axiom.ml" 70 2445 2467 "completion/axiom.ml" 70 2445 2468
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 70 2445 2454 "completion/axiom.ml" 70 2445 2455
+)
+"completion/axiom.ml" 70 2445 2471 "completion/axiom.ml" 70 2445 2472
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 70 2445 2456 "completion/axiom.ml" 70 2445 2457
+)
+"completion/axiom.ml" 70 2445 2473 "completion/axiom.ml" 70 2445 2474
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 70 2445 2458 "completion/axiom.ml" 70 2445 2459
+)
+"completion/axiom.ml" 70 2445 2470 "completion/axiom.ml" 70 2445 2475
+type(
+  Term.term list
+)
+"completion/axiom.ml" 70 2445 2462 "completion/axiom.ml" 70 2445 2476
+type(
+  Term.term
+)
+"completion/axiom.ml" 72 2480 2484 "completion/axiom.ml" 72 2480 2502
+type(
+  axiom -> Term.term * Term.term
+)
+ident(
+  def term_pair_of_axiom "completion/axiom.ml" 97 3717 3717 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+type(
+  Term.term
+)
+ident(
+  def x "completion/axiom.ml" 74 2552 2554 "completion/axiom.ml" 95 3643 3713
+)
+"completion/axiom.ml" 73 2505 2519 "completion/axiom.ml" 73 2505 2520
+type(
+  Var.var
+)
+"completion/axiom.ml" 73 2505 2515 "completion/axiom.ml" 73 2505 2520
+type(
+  Term.term
+)
+"completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+type(
+  Term.term
+)
+ident(
+  def y "completion/axiom.ml" 74 2552 2554 "completion/axiom.ml" 95 3643 3713
+)
+"completion/axiom.ml" 73 2505 2533 "completion/axiom.ml" 73 2505 2534
+type(
+  Var.var
+)
+"completion/axiom.ml" 73 2505 2529 "completion/axiom.ml" 73 2505 2534
+type(
+  Term.term
+)
+"completion/axiom.ml" 73 2505 2539 "completion/axiom.ml" 73 2505 2540
+type(
+  Term.term
+)
+ident(
+  def z "completion/axiom.ml" 74 2552 2554 "completion/axiom.ml" 95 3643 3713
+)
+"completion/axiom.ml" 73 2505 2547 "completion/axiom.ml" 73 2505 2548
+type(
+  Var.var
+)
+"completion/axiom.ml" 73 2505 2543 "completion/axiom.ml" 73 2505 2548
+type(
+  Term.term
+)
+"completion/axiom.ml" 75 2563 2573 "completion/axiom.ml" 75 2563 2574
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 75 2563 2578 "completion/axiom.ml" 75 2563 2600
+)
+"completion/axiom.ml" 75 2563 2569 "completion/axiom.ml" 75 2563 2574
+type(
+  axiom
+)
+"completion/axiom.ml" 75 2563 2578 "completion/axiom.ml" 75 2563 2582
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 75 2563 2583 "completion/axiom.ml" 75 2563 2584
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 75 2563 2573 "completion/axiom.ml" 75 2563 2574
+)
+"completion/axiom.ml" 75 2563 2585 "completion/axiom.ml" 75 2563 2586
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 75 2563 2587 "completion/axiom.ml" 75 2563 2588
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+)
+"completion/axiom.ml" 75 2563 2578 "completion/axiom.ml" 75 2563 2588
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 75 2563 2590 "completion/axiom.ml" 75 2563 2594
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 75 2563 2595 "completion/axiom.ml" 75 2563 2596
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 75 2563 2573 "completion/axiom.ml" 75 2563 2574
+)
+"completion/axiom.ml" 75 2563 2597 "completion/axiom.ml" 75 2563 2598
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+)
+"completion/axiom.ml" 75 2563 2599 "completion/axiom.ml" 75 2563 2600
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 75 2563 2590 "completion/axiom.ml" 75 2563 2600
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 75 2563 2578 "completion/axiom.ml" 75 2563 2600
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 76 2601 2611 "completion/axiom.ml" 76 2601 2612
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 76 2601 2616 "completion/axiom.ml" 76 2601 2660
+)
+"completion/axiom.ml" 76 2601 2607 "completion/axiom.ml" 76 2601 2612
+type(
+  axiom
+)
+"completion/axiom.ml" 76 2601 2616 "completion/axiom.ml" 76 2601 2620
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 76 2601 2621 "completion/axiom.ml" 76 2601 2622
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 76 2601 2611 "completion/axiom.ml" 76 2601 2612
+)
+"completion/axiom.ml" 76 2601 2624 "completion/axiom.ml" 76 2601 2628
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 76 2601 2629 "completion/axiom.ml" 76 2601 2630
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 76 2601 2611 "completion/axiom.ml" 76 2601 2612
+)
+"completion/axiom.ml" 76 2601 2631 "completion/axiom.ml" 76 2601 2632
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 76 2601 2633 "completion/axiom.ml" 76 2601 2634
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+)
+"completion/axiom.ml" 76 2601 2623 "completion/axiom.ml" 76 2601 2635
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 76 2601 2636 "completion/axiom.ml" 76 2601 2637
+type(
+  Term.term
+)
+ident(
+  int_ref z "completion/axiom.ml" 73 2505 2539 "completion/axiom.ml" 73 2505 2540
+)
+"completion/axiom.ml" 76 2601 2616 "completion/axiom.ml" 76 2601 2637
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 76 2601 2639 "completion/axiom.ml" 76 2601 2643
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 76 2601 2644 "completion/axiom.ml" 76 2601 2645
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 76 2601 2611 "completion/axiom.ml" 76 2601 2612
+)
+"completion/axiom.ml" 76 2601 2646 "completion/axiom.ml" 76 2601 2647
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 76 2601 2649 "completion/axiom.ml" 76 2601 2653
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 76 2601 2654 "completion/axiom.ml" 76 2601 2655
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 76 2601 2611 "completion/axiom.ml" 76 2601 2612
+)
+"completion/axiom.ml" 76 2601 2656 "completion/axiom.ml" 76 2601 2657
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+)
+"completion/axiom.ml" 76 2601 2658 "completion/axiom.ml" 76 2601 2659
+type(
+  Term.term
+)
+ident(
+  int_ref z "completion/axiom.ml" 73 2505 2539 "completion/axiom.ml" 73 2505 2540
+)
+"completion/axiom.ml" 76 2601 2648 "completion/axiom.ml" 76 2601 2660
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 76 2601 2639 "completion/axiom.ml" 76 2601 2660
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 76 2601 2616 "completion/axiom.ml" 76 2601 2660
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 77 2661 2672 "completion/axiom.ml" 77 2661 2673
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 77 2661 2680 "completion/axiom.ml" 77 2661 2698
+)
+"completion/axiom.ml" 77 2661 2674 "completion/axiom.ml" 77 2661 2675
+type(
+  Symb.symbol
+)
+ident(
+  def a "completion/axiom.ml" 77 2661 2680 "completion/axiom.ml" 77 2661 2698
+)
+"completion/axiom.ml" 77 2661 2667 "completion/axiom.ml" 77 2661 2676
+type(
+  axiom
+)
+"completion/axiom.ml" 77 2661 2680 "completion/axiom.ml" 77 2661 2684
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 77 2661 2685 "completion/axiom.ml" 77 2661 2686
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 77 2661 2672 "completion/axiom.ml" 77 2661 2673
+)
+"completion/axiom.ml" 77 2661 2687 "completion/axiom.ml" 77 2661 2688
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 77 2661 2689 "completion/axiom.ml" 77 2661 2690
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 77 2661 2680 "completion/axiom.ml" 77 2661 2690
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 77 2661 2692 "completion/axiom.ml" 77 2661 2696
+type(
+  Symb.symbol -> Term.term
+)
+ident(
+  int_ref app0 "completion/axiom.ml" 68 2388 2392 "completion/axiom.ml" 68 2388 2396
+)
+"completion/axiom.ml" 77 2661 2697 "completion/axiom.ml" 77 2661 2698
+type(
+  Symb.symbol
+)
+ident(
+  int_ref a "completion/axiom.ml" 77 2661 2674 "completion/axiom.ml" 77 2661 2675
+)
+"completion/axiom.ml" 77 2661 2692 "completion/axiom.ml" 77 2661 2698
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 77 2661 2680 "completion/axiom.ml" 77 2661 2698
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 78 2699 2710 "completion/axiom.ml" 78 2699 2711
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 78 2699 2715 "completion/axiom.ml" 78 2699 2728
+)
+"completion/axiom.ml" 78 2699 2705 "completion/axiom.ml" 78 2699 2711
+type(
+  axiom
+)
+"completion/axiom.ml" 78 2699 2715 "completion/axiom.ml" 78 2699 2719
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 78 2699 2720 "completion/axiom.ml" 78 2699 2721
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 78 2699 2710 "completion/axiom.ml" 78 2699 2711
+)
+"completion/axiom.ml" 78 2699 2722 "completion/axiom.ml" 78 2699 2723
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 78 2699 2724 "completion/axiom.ml" 78 2699 2725
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 78 2699 2715 "completion/axiom.ml" 78 2699 2725
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 78 2699 2727 "completion/axiom.ml" 78 2699 2728
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 78 2699 2715 "completion/axiom.ml" 78 2699 2728
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 79 2729 2740 "completion/axiom.ml" 79 2729 2744
+type(
+  side
+)
+"completion/axiom.ml" 79 2729 2746 "completion/axiom.ml" 79 2729 2747
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 79 2729 2755 "completion/axiom.ml" 79 2729 2786
+)
+"completion/axiom.ml" 79 2729 2749 "completion/axiom.ml" 79 2729 2750
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 79 2729 2755 "completion/axiom.ml" 79 2729 2786
+)
+"completion/axiom.ml" 79 2729 2735 "completion/axiom.ml" 79 2729 2751
+type(
+  axiom
+)
+"completion/axiom.ml" 79 2729 2759 "completion/axiom.ml" 79 2729 2760
+type(
+  Term.term
+)
+ident(
+  def e "completion/axiom.ml" 79 2729 2773 "completion/axiom.ml" 79 2729 2786
+)
+"completion/axiom.ml" 79 2729 2763 "completion/axiom.ml" 79 2729 2767
+type(
+  Symb.symbol -> Term.term
+)
+ident(
+  int_ref app0 "completion/axiom.ml" 68 2388 2392 "completion/axiom.ml" 68 2388 2396
+)
+"completion/axiom.ml" 79 2729 2768 "completion/axiom.ml" 79 2729 2769
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 79 2729 2749 "completion/axiom.ml" 79 2729 2750
+)
+"completion/axiom.ml" 79 2729 2763 "completion/axiom.ml" 79 2729 2769
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 79 2729 2773 "completion/axiom.ml" 79 2729 2777
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 79 2729 2778 "completion/axiom.ml" 79 2729 2779
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 79 2729 2746 "completion/axiom.ml" 79 2729 2747
+)
+"completion/axiom.ml" 79 2729 2780 "completion/axiom.ml" 79 2729 2781
+type(
+  Term.term
+)
+ident(
+  int_ref e "completion/axiom.ml" 79 2729 2759 "completion/axiom.ml" 79 2729 2760
+)
+"completion/axiom.ml" 79 2729 2782 "completion/axiom.ml" 79 2729 2783
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 79 2729 2773 "completion/axiom.ml" 79 2729 2783
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 79 2729 2785 "completion/axiom.ml" 79 2729 2786
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 79 2729 2773 "completion/axiom.ml" 79 2729 2786
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 79 2729 2755 "completion/axiom.ml" 79 2729 2786
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 80 2787 2798 "completion/axiom.ml" 80 2787 2803
+type(
+  side
+)
+"completion/axiom.ml" 80 2787 2805 "completion/axiom.ml" 80 2787 2806
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 80 2787 2814 "completion/axiom.ml" 80 2787 2845
+)
+"completion/axiom.ml" 80 2787 2808 "completion/axiom.ml" 80 2787 2809
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 80 2787 2814 "completion/axiom.ml" 80 2787 2845
+)
+"completion/axiom.ml" 80 2787 2793 "completion/axiom.ml" 80 2787 2810
+type(
+  axiom
+)
+"completion/axiom.ml" 80 2787 2818 "completion/axiom.ml" 80 2787 2819
+type(
+  Term.term
+)
+ident(
+  def e "completion/axiom.ml" 80 2787 2832 "completion/axiom.ml" 80 2787 2845
+)
+"completion/axiom.ml" 80 2787 2822 "completion/axiom.ml" 80 2787 2826
+type(
+  Symb.symbol -> Term.term
+)
+ident(
+  int_ref app0 "completion/axiom.ml" 68 2388 2392 "completion/axiom.ml" 68 2388 2396
+)
+"completion/axiom.ml" 80 2787 2827 "completion/axiom.ml" 80 2787 2828
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 80 2787 2808 "completion/axiom.ml" 80 2787 2809
+)
+"completion/axiom.ml" 80 2787 2822 "completion/axiom.ml" 80 2787 2828
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 80 2787 2832 "completion/axiom.ml" 80 2787 2836
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 80 2787 2837 "completion/axiom.ml" 80 2787 2838
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 80 2787 2805 "completion/axiom.ml" 80 2787 2806
+)
+"completion/axiom.ml" 80 2787 2839 "completion/axiom.ml" 80 2787 2840
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 80 2787 2841 "completion/axiom.ml" 80 2787 2842
+type(
+  Term.term
+)
+ident(
+  int_ref e "completion/axiom.ml" 80 2787 2818 "completion/axiom.ml" 80 2787 2819
+)
+"completion/axiom.ml" 80 2787 2832 "completion/axiom.ml" 80 2787 2842
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 80 2787 2844 "completion/axiom.ml" 80 2787 2845
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 80 2787 2832 "completion/axiom.ml" 80 2787 2845
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 80 2787 2814 "completion/axiom.ml" 80 2787 2845
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 81 2846 2857 "completion/axiom.ml" 81 2846 2861
+type(
+  side
+)
+"completion/axiom.ml" 81 2846 2863 "completion/axiom.ml" 81 2846 2864
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 81 2846 2872 "completion/axiom.ml" 81 2846 2903
+)
+"completion/axiom.ml" 81 2846 2866 "completion/axiom.ml" 81 2846 2867
+type(
+  Symb.symbol
+)
+ident(
+  def a "completion/axiom.ml" 81 2846 2872 "completion/axiom.ml" 81 2846 2903
+)
+"completion/axiom.ml" 81 2846 2852 "completion/axiom.ml" 81 2846 2868
+type(
+  axiom
+)
+"completion/axiom.ml" 81 2846 2876 "completion/axiom.ml" 81 2846 2877
+type(
+  Term.term
+)
+ident(
+  def a "completion/axiom.ml" 81 2846 2890 "completion/axiom.ml" 81 2846 2903
+)
+"completion/axiom.ml" 81 2846 2880 "completion/axiom.ml" 81 2846 2884
+type(
+  Symb.symbol -> Term.term
+)
+ident(
+  int_ref app0 "completion/axiom.ml" 68 2388 2392 "completion/axiom.ml" 68 2388 2396
+)
+"completion/axiom.ml" 81 2846 2885 "completion/axiom.ml" 81 2846 2886
+type(
+  Symb.symbol
+)
+ident(
+  int_ref a "completion/axiom.ml" 81 2846 2866 "completion/axiom.ml" 81 2846 2867
+)
+"completion/axiom.ml" 81 2846 2880 "completion/axiom.ml" 81 2846 2886
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 81 2846 2890 "completion/axiom.ml" 81 2846 2894
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 81 2846 2895 "completion/axiom.ml" 81 2846 2896
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 81 2846 2863 "completion/axiom.ml" 81 2846 2864
+)
+"completion/axiom.ml" 81 2846 2897 "completion/axiom.ml" 81 2846 2898
+type(
+  Term.term
+)
+ident(
+  int_ref a "completion/axiom.ml" 81 2846 2876 "completion/axiom.ml" 81 2846 2877
+)
+"completion/axiom.ml" 81 2846 2899 "completion/axiom.ml" 81 2846 2900
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 81 2846 2890 "completion/axiom.ml" 81 2846 2900
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 81 2846 2902 "completion/axiom.ml" 81 2846 2903
+type(
+  Term.term
+)
+ident(
+  int_ref a "completion/axiom.ml" 81 2846 2876 "completion/axiom.ml" 81 2846 2877
+)
+"completion/axiom.ml" 81 2846 2890 "completion/axiom.ml" 81 2846 2903
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 81 2846 2872 "completion/axiom.ml" 81 2846 2903
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 82 2904 2915 "completion/axiom.ml" 82 2904 2920
+type(
+  side
+)
+"completion/axiom.ml" 82 2904 2922 "completion/axiom.ml" 82 2904 2923
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 82 2904 2931 "completion/axiom.ml" 82 2904 2962
+)
+"completion/axiom.ml" 82 2904 2925 "completion/axiom.ml" 82 2904 2926
+type(
+  Symb.symbol
+)
+ident(
+  def a "completion/axiom.ml" 82 2904 2931 "completion/axiom.ml" 82 2904 2962
+)
+"completion/axiom.ml" 82 2904 2910 "completion/axiom.ml" 82 2904 2927
+type(
+  axiom
+)
+"completion/axiom.ml" 82 2904 2935 "completion/axiom.ml" 82 2904 2936
+type(
+  Term.term
+)
+ident(
+  def a "completion/axiom.ml" 82 2904 2949 "completion/axiom.ml" 82 2904 2962
+)
+"completion/axiom.ml" 82 2904 2939 "completion/axiom.ml" 82 2904 2943
+type(
+  Symb.symbol -> Term.term
+)
+ident(
+  int_ref app0 "completion/axiom.ml" 68 2388 2392 "completion/axiom.ml" 68 2388 2396
+)
+"completion/axiom.ml" 82 2904 2944 "completion/axiom.ml" 82 2904 2945
+type(
+  Symb.symbol
+)
+ident(
+  int_ref a "completion/axiom.ml" 82 2904 2925 "completion/axiom.ml" 82 2904 2926
+)
+"completion/axiom.ml" 82 2904 2939 "completion/axiom.ml" 82 2904 2945
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 82 2904 2949 "completion/axiom.ml" 82 2904 2953
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 82 2904 2954 "completion/axiom.ml" 82 2904 2955
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 82 2904 2922 "completion/axiom.ml" 82 2904 2923
+)
+"completion/axiom.ml" 82 2904 2956 "completion/axiom.ml" 82 2904 2957
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 82 2904 2958 "completion/axiom.ml" 82 2904 2959
+type(
+  Term.term
+)
+ident(
+  int_ref a "completion/axiom.ml" 82 2904 2935 "completion/axiom.ml" 82 2904 2936
+)
+"completion/axiom.ml" 82 2904 2949 "completion/axiom.ml" 82 2904 2959
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 82 2904 2961 "completion/axiom.ml" 82 2904 2962
+type(
+  Term.term
+)
+ident(
+  int_ref a "completion/axiom.ml" 82 2904 2935 "completion/axiom.ml" 82 2904 2936
+)
+"completion/axiom.ml" 82 2904 2949 "completion/axiom.ml" 82 2904 2962
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 82 2904 2931 "completion/axiom.ml" 82 2904 2962
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 83 2963 2974 "completion/axiom.ml" 83 2963 2978
+type(
+  side
+)
+"completion/axiom.ml" 83 2963 2980 "completion/axiom.ml" 83 2963 2981
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 83 2963 2992 "completion/axiom.ml" 83 2963 3032
+)
+"completion/axiom.ml" 83 2963 2983 "completion/axiom.ml" 83 2963 2984
+type(
+  Symb.symbol
+)
+ident(
+  def i "completion/axiom.ml" 83 2963 2992 "completion/axiom.ml" 83 2963 3032
+)
+"completion/axiom.ml" 83 2963 2986 "completion/axiom.ml" 83 2963 2987
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 83 2963 2992 "completion/axiom.ml" 83 2963 3032
+)
+"completion/axiom.ml" 83 2963 2969 "completion/axiom.ml" 83 2963 2988
+type(
+  axiom
+)
+"completion/axiom.ml" 83 2963 2996 "completion/axiom.ml" 83 2963 2997
+type(
+  Term.term
+)
+ident(
+  def e "completion/axiom.ml" 83 2963 3010 "completion/axiom.ml" 83 2963 3032
+)
+"completion/axiom.ml" 83 2963 3000 "completion/axiom.ml" 83 2963 3004
+type(
+  Symb.symbol -> Term.term
+)
+ident(
+  int_ref app0 "completion/axiom.ml" 68 2388 2392 "completion/axiom.ml" 68 2388 2396
+)
+"completion/axiom.ml" 83 2963 3005 "completion/axiom.ml" 83 2963 3006
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 83 2963 2986 "completion/axiom.ml" 83 2963 2987
+)
+"completion/axiom.ml" 83 2963 3000 "completion/axiom.ml" 83 2963 3006
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 83 2963 3010 "completion/axiom.ml" 83 2963 3014
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 83 2963 3015 "completion/axiom.ml" 83 2963 3016
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 83 2963 2980 "completion/axiom.ml" 83 2963 2981
+)
+"completion/axiom.ml" 83 2963 3018 "completion/axiom.ml" 83 2963 3022
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 83 2963 3023 "completion/axiom.ml" 83 2963 3024
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 83 2963 2983 "completion/axiom.ml" 83 2963 2984
+)
+"completion/axiom.ml" 83 2963 3025 "completion/axiom.ml" 83 2963 3026
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 83 2963 3017 "completion/axiom.ml" 83 2963 3027
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 83 2963 3028 "completion/axiom.ml" 83 2963 3029
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 83 2963 3010 "completion/axiom.ml" 83 2963 3029
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 83 2963 3031 "completion/axiom.ml" 83 2963 3032
+type(
+  Term.term
+)
+ident(
+  int_ref e "completion/axiom.ml" 83 2963 2996 "completion/axiom.ml" 83 2963 2997
+)
+"completion/axiom.ml" 83 2963 3010 "completion/axiom.ml" 83 2963 3032
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 83 2963 2992 "completion/axiom.ml" 83 2963 3032
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 84 3033 3044 "completion/axiom.ml" 84 3033 3049
+type(
+  side
+)
+"completion/axiom.ml" 84 3033 3051 "completion/axiom.ml" 84 3033 3052
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 84 3033 3063 "completion/axiom.ml" 84 3033 3103
+)
+"completion/axiom.ml" 84 3033 3054 "completion/axiom.ml" 84 3033 3055
+type(
+  Symb.symbol
+)
+ident(
+  def i "completion/axiom.ml" 84 3033 3063 "completion/axiom.ml" 84 3033 3103
+)
+"completion/axiom.ml" 84 3033 3057 "completion/axiom.ml" 84 3033 3058
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 84 3033 3063 "completion/axiom.ml" 84 3033 3103
+)
+"completion/axiom.ml" 84 3033 3039 "completion/axiom.ml" 84 3033 3059
+type(
+  axiom
+)
+"completion/axiom.ml" 84 3033 3067 "completion/axiom.ml" 84 3033 3068
+type(
+  Term.term
+)
+ident(
+  def e "completion/axiom.ml" 84 3033 3081 "completion/axiom.ml" 84 3033 3103
+)
+"completion/axiom.ml" 84 3033 3071 "completion/axiom.ml" 84 3033 3075
+type(
+  Symb.symbol -> Term.term
+)
+ident(
+  int_ref app0 "completion/axiom.ml" 68 2388 2392 "completion/axiom.ml" 68 2388 2396
+)
+"completion/axiom.ml" 84 3033 3076 "completion/axiom.ml" 84 3033 3077
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 84 3033 3057 "completion/axiom.ml" 84 3033 3058
+)
+"completion/axiom.ml" 84 3033 3071 "completion/axiom.ml" 84 3033 3077
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 84 3033 3081 "completion/axiom.ml" 84 3033 3085
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 84 3033 3086 "completion/axiom.ml" 84 3033 3087
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 84 3033 3051 "completion/axiom.ml" 84 3033 3052
+)
+"completion/axiom.ml" 84 3033 3088 "completion/axiom.ml" 84 3033 3089
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 84 3033 3091 "completion/axiom.ml" 84 3033 3095
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 84 3033 3096 "completion/axiom.ml" 84 3033 3097
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 84 3033 3054 "completion/axiom.ml" 84 3033 3055
+)
+"completion/axiom.ml" 84 3033 3098 "completion/axiom.ml" 84 3033 3099
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 84 3033 3090 "completion/axiom.ml" 84 3033 3100
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 84 3033 3081 "completion/axiom.ml" 84 3033 3100
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 84 3033 3102 "completion/axiom.ml" 84 3033 3103
+type(
+  Term.term
+)
+ident(
+  int_ref e "completion/axiom.ml" 84 3033 3067 "completion/axiom.ml" 84 3033 3068
+)
+"completion/axiom.ml" 84 3033 3081 "completion/axiom.ml" 84 3033 3103
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 84 3033 3063 "completion/axiom.ml" 84 3033 3103
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 85 3104 3115 "completion/axiom.ml" 85 3104 3119
+type(
+  side
+)
+"completion/axiom.ml" 85 3104 3121 "completion/axiom.ml" 85 3104 3122
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 86 3130 3138 "completion/axiom.ml" 86 3130 3193
+)
+"completion/axiom.ml" 85 3104 3124 "completion/axiom.ml" 85 3104 3125
+type(
+  Symb.symbol
+)
+ident(
+  def d "completion/axiom.ml" 86 3130 3138 "completion/axiom.ml" 86 3130 3193
+)
+"completion/axiom.ml" 85 3104 3110 "completion/axiom.ml" 85 3104 3126
+type(
+  axiom
+)
+"completion/axiom.ml" 86 3130 3138 "completion/axiom.ml" 86 3130 3142
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 86 3130 3143 "completion/axiom.ml" 86 3130 3144
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 85 3104 3121 "completion/axiom.ml" 85 3104 3122
+)
+"completion/axiom.ml" 86 3130 3146 "completion/axiom.ml" 86 3130 3150
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 86 3130 3151 "completion/axiom.ml" 86 3130 3152
+type(
+  Symb.symbol
+)
+ident(
+  int_ref d "completion/axiom.ml" 85 3104 3124 "completion/axiom.ml" 85 3104 3125
+)
+"completion/axiom.ml" 86 3130 3153 "completion/axiom.ml" 86 3130 3154
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 86 3130 3155 "completion/axiom.ml" 86 3130 3156
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+)
+"completion/axiom.ml" 86 3130 3145 "completion/axiom.ml" 86 3130 3157
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 86 3130 3158 "completion/axiom.ml" 86 3130 3159
+type(
+  Term.term
+)
+ident(
+  int_ref z "completion/axiom.ml" 73 2505 2539 "completion/axiom.ml" 73 2505 2540
+)
+"completion/axiom.ml" 86 3130 3138 "completion/axiom.ml" 86 3130 3159
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 86 3130 3161 "completion/axiom.ml" 86 3130 3165
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 86 3130 3166 "completion/axiom.ml" 86 3130 3167
+type(
+  Symb.symbol
+)
+ident(
+  int_ref d "completion/axiom.ml" 85 3104 3124 "completion/axiom.ml" 85 3104 3125
+)
+"completion/axiom.ml" 86 3130 3169 "completion/axiom.ml" 86 3130 3173
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 86 3130 3174 "completion/axiom.ml" 86 3130 3175
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 85 3104 3121 "completion/axiom.ml" 85 3104 3122
+)
+"completion/axiom.ml" 86 3130 3176 "completion/axiom.ml" 86 3130 3177
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 86 3130 3178 "completion/axiom.ml" 86 3130 3179
+type(
+  Term.term
+)
+ident(
+  int_ref z "completion/axiom.ml" 73 2505 2539 "completion/axiom.ml" 73 2505 2540
+)
+"completion/axiom.ml" 86 3130 3168 "completion/axiom.ml" 86 3130 3180
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 86 3130 3182 "completion/axiom.ml" 86 3130 3186
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 86 3130 3187 "completion/axiom.ml" 86 3130 3188
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 85 3104 3121 "completion/axiom.ml" 85 3104 3122
+)
+"completion/axiom.ml" 86 3130 3189 "completion/axiom.ml" 86 3130 3190
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+)
+"completion/axiom.ml" 86 3130 3191 "completion/axiom.ml" 86 3130 3192
+type(
+  Term.term
+)
+ident(
+  int_ref z "completion/axiom.ml" 73 2505 2539 "completion/axiom.ml" 73 2505 2540
+)
+"completion/axiom.ml" 86 3130 3181 "completion/axiom.ml" 86 3130 3193
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 86 3130 3161 "completion/axiom.ml" 86 3130 3193
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 86 3130 3138 "completion/axiom.ml" 86 3130 3193
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 87 3194 3205 "completion/axiom.ml" 87 3194 3210
+type(
+  side
+)
+"completion/axiom.ml" 87 3194 3212 "completion/axiom.ml" 87 3194 3213
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 88 3221 3229 "completion/axiom.ml" 88 3221 3284
+)
+"completion/axiom.ml" 87 3194 3215 "completion/axiom.ml" 87 3194 3216
+type(
+  Symb.symbol
+)
+ident(
+  def d "completion/axiom.ml" 88 3221 3229 "completion/axiom.ml" 88 3221 3284
+)
+"completion/axiom.ml" 87 3194 3200 "completion/axiom.ml" 87 3194 3217
+type(
+  axiom
+)
+"completion/axiom.ml" 88 3221 3229 "completion/axiom.ml" 88 3221 3233
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 88 3221 3234 "completion/axiom.ml" 88 3221 3235
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 87 3194 3212 "completion/axiom.ml" 87 3194 3213
+)
+"completion/axiom.ml" 88 3221 3236 "completion/axiom.ml" 88 3221 3237
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 88 3221 3239 "completion/axiom.ml" 88 3221 3243
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 88 3221 3244 "completion/axiom.ml" 88 3221 3245
+type(
+  Symb.symbol
+)
+ident(
+  int_ref d "completion/axiom.ml" 87 3194 3215 "completion/axiom.ml" 87 3194 3216
+)
+"completion/axiom.ml" 88 3221 3246 "completion/axiom.ml" 88 3221 3247
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+)
+"completion/axiom.ml" 88 3221 3248 "completion/axiom.ml" 88 3221 3249
+type(
+  Term.term
+)
+ident(
+  int_ref z "completion/axiom.ml" 73 2505 2539 "completion/axiom.ml" 73 2505 2540
+)
+"completion/axiom.ml" 88 3221 3238 "completion/axiom.ml" 88 3221 3250
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 88 3221 3229 "completion/axiom.ml" 88 3221 3250
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 88 3221 3252 "completion/axiom.ml" 88 3221 3256
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 88 3221 3257 "completion/axiom.ml" 88 3221 3258
+type(
+  Symb.symbol
+)
+ident(
+  int_ref d "completion/axiom.ml" 87 3194 3215 "completion/axiom.ml" 87 3194 3216
+)
+"completion/axiom.ml" 88 3221 3260 "completion/axiom.ml" 88 3221 3264
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 88 3221 3265 "completion/axiom.ml" 88 3221 3266
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 87 3194 3212 "completion/axiom.ml" 87 3194 3213
+)
+"completion/axiom.ml" 88 3221 3267 "completion/axiom.ml" 88 3221 3268
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 88 3221 3269 "completion/axiom.ml" 88 3221 3270
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+)
+"completion/axiom.ml" 88 3221 3259 "completion/axiom.ml" 88 3221 3271
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 88 3221 3273 "completion/axiom.ml" 88 3221 3277
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 88 3221 3278 "completion/axiom.ml" 88 3221 3279
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 87 3194 3212 "completion/axiom.ml" 87 3194 3213
+)
+"completion/axiom.ml" 88 3221 3280 "completion/axiom.ml" 88 3221 3281
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 88 3221 3282 "completion/axiom.ml" 88 3221 3283
+type(
+  Term.term
+)
+ident(
+  int_ref z "completion/axiom.ml" 73 2505 2539 "completion/axiom.ml" 73 2505 2540
+)
+"completion/axiom.ml" 88 3221 3272 "completion/axiom.ml" 88 3221 3284
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 88 3221 3252 "completion/axiom.ml" 88 3221 3284
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 88 3221 3229 "completion/axiom.ml" 88 3221 3284
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 89 3285 3299 "completion/axiom.ml" 89 3285 3303
+type(
+  side
+)
+"completion/axiom.ml" 89 3285 3305 "completion/axiom.ml" 89 3285 3306
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 89 3285 3314 "completion/axiom.ml" 89 3285 3354
+)
+"completion/axiom.ml" 89 3285 3308 "completion/axiom.ml" 89 3285 3309
+type(
+  Symb.symbol
+)
+ident(
+  def i "completion/axiom.ml" 89 3285 3314 "completion/axiom.ml" 89 3285 3354
+)
+"completion/axiom.ml" 89 3285 3291 "completion/axiom.ml" 89 3285 3310
+type(
+  axiom
+)
+"completion/axiom.ml" 89 3285 3314 "completion/axiom.ml" 89 3285 3318
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 89 3285 3319 "completion/axiom.ml" 89 3285 3320
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 89 3285 3305 "completion/axiom.ml" 89 3285 3306
+)
+"completion/axiom.ml" 89 3285 3322 "completion/axiom.ml" 89 3285 3326
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 89 3285 3327 "completion/axiom.ml" 89 3285 3328
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 89 3285 3308 "completion/axiom.ml" 89 3285 3309
+)
+"completion/axiom.ml" 89 3285 3329 "completion/axiom.ml" 89 3285 3330
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 89 3285 3321 "completion/axiom.ml" 89 3285 3331
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 89 3285 3332 "completion/axiom.ml" 89 3285 3333
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+)
+"completion/axiom.ml" 89 3285 3314 "completion/axiom.ml" 89 3285 3333
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 89 3285 3335 "completion/axiom.ml" 89 3285 3339
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 89 3285 3340 "completion/axiom.ml" 89 3285 3341
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 89 3285 3308 "completion/axiom.ml" 89 3285 3309
+)
+"completion/axiom.ml" 89 3285 3343 "completion/axiom.ml" 89 3285 3347
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 89 3285 3348 "completion/axiom.ml" 89 3285 3349
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 89 3285 3305 "completion/axiom.ml" 89 3285 3306
+)
+"completion/axiom.ml" 89 3285 3350 "completion/axiom.ml" 89 3285 3351
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 89 3285 3352 "completion/axiom.ml" 89 3285 3353
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+)
+"completion/axiom.ml" 89 3285 3342 "completion/axiom.ml" 89 3285 3354
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 89 3285 3335 "completion/axiom.ml" 89 3285 3354
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 89 3285 3314 "completion/axiom.ml" 89 3285 3354
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 90 3355 3369 "completion/axiom.ml" 90 3355 3374
+type(
+  side
+)
+"completion/axiom.ml" 90 3355 3376 "completion/axiom.ml" 90 3355 3377
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 90 3355 3385 "completion/axiom.ml" 90 3355 3425
+)
+"completion/axiom.ml" 90 3355 3379 "completion/axiom.ml" 90 3355 3380
+type(
+  Symb.symbol
+)
+ident(
+  def i "completion/axiom.ml" 90 3355 3385 "completion/axiom.ml" 90 3355 3425
+)
+"completion/axiom.ml" 90 3355 3361 "completion/axiom.ml" 90 3355 3381
+type(
+  axiom
+)
+"completion/axiom.ml" 90 3355 3385 "completion/axiom.ml" 90 3355 3389
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 90 3355 3390 "completion/axiom.ml" 90 3355 3391
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 90 3355 3376 "completion/axiom.ml" 90 3355 3377
+)
+"completion/axiom.ml" 90 3355 3392 "completion/axiom.ml" 90 3355 3393
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 90 3355 3395 "completion/axiom.ml" 90 3355 3399
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 90 3355 3400 "completion/axiom.ml" 90 3355 3401
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 90 3355 3379 "completion/axiom.ml" 90 3355 3380
+)
+"completion/axiom.ml" 90 3355 3402 "completion/axiom.ml" 90 3355 3403
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+)
+"completion/axiom.ml" 90 3355 3394 "completion/axiom.ml" 90 3355 3404
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 90 3355 3385 "completion/axiom.ml" 90 3355 3404
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 90 3355 3406 "completion/axiom.ml" 90 3355 3410
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 90 3355 3411 "completion/axiom.ml" 90 3355 3412
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 90 3355 3379 "completion/axiom.ml" 90 3355 3380
+)
+"completion/axiom.ml" 90 3355 3414 "completion/axiom.ml" 90 3355 3418
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 90 3355 3419 "completion/axiom.ml" 90 3355 3420
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 90 3355 3376 "completion/axiom.ml" 90 3355 3377
+)
+"completion/axiom.ml" 90 3355 3421 "completion/axiom.ml" 90 3355 3422
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 90 3355 3423 "completion/axiom.ml" 90 3355 3424
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+)
+"completion/axiom.ml" 90 3355 3413 "completion/axiom.ml" 90 3355 3425
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 90 3355 3406 "completion/axiom.ml" 90 3355 3425
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 90 3355 3385 "completion/axiom.ml" 90 3355 3425
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 91 3426 3438 "completion/axiom.ml" 91 3426 3439
+type(
+  Symb.symbol
+)
+ident(
+  def i "completion/axiom.ml" 91 3426 3450 "completion/axiom.ml" 91 3426 3499
+)
+"completion/axiom.ml" 91 3426 3441 "completion/axiom.ml" 91 3426 3442
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 91 3426 3450 "completion/axiom.ml" 91 3426 3499
+)
+"completion/axiom.ml" 91 3426 3444 "completion/axiom.ml" 91 3426 3445
+type(
+  Symb.symbol
+)
+ident(
+  def d "completion/axiom.ml" 91 3426 3450 "completion/axiom.ml" 91 3426 3499
+)
+"completion/axiom.ml" 91 3426 3432 "completion/axiom.ml" 91 3426 3446
+type(
+  axiom
+)
+"completion/axiom.ml" 91 3426 3450 "completion/axiom.ml" 91 3426 3454
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 91 3426 3455 "completion/axiom.ml" 91 3426 3456
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 91 3426 3438 "completion/axiom.ml" 91 3426 3439
+)
+"completion/axiom.ml" 91 3426 3458 "completion/axiom.ml" 91 3426 3462
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 91 3426 3463 "completion/axiom.ml" 91 3426 3464
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 91 3426 3441 "completion/axiom.ml" 91 3426 3442
+)
+"completion/axiom.ml" 91 3426 3465 "completion/axiom.ml" 91 3426 3466
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 91 3426 3467 "completion/axiom.ml" 91 3426 3468
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+)
+"completion/axiom.ml" 91 3426 3457 "completion/axiom.ml" 91 3426 3469
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 91 3426 3450 "completion/axiom.ml" 91 3426 3469
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 91 3426 3471 "completion/axiom.ml" 91 3426 3475
+type(
+  Symb.symbol -> Term.term -> Term.term -> Term.term
+)
+ident(
+  int_ref app2 "completion/axiom.ml" 70 2445 2449 "completion/axiom.ml" 70 2445 2453
+)
+"completion/axiom.ml" 91 3426 3476 "completion/axiom.ml" 91 3426 3477
+type(
+  Symb.symbol
+)
+ident(
+  int_ref d "completion/axiom.ml" 91 3426 3444 "completion/axiom.ml" 91 3426 3445
+)
+"completion/axiom.ml" 91 3426 3479 "completion/axiom.ml" 91 3426 3483
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 91 3426 3484 "completion/axiom.ml" 91 3426 3485
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 91 3426 3438 "completion/axiom.ml" 91 3426 3439
+)
+"completion/axiom.ml" 91 3426 3486 "completion/axiom.ml" 91 3426 3487
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/axiom.ml" 73 2505 2525 "completion/axiom.ml" 73 2505 2526
+)
+"completion/axiom.ml" 91 3426 3478 "completion/axiom.ml" 91 3426 3488
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 91 3426 3490 "completion/axiom.ml" 91 3426 3494
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 91 3426 3495 "completion/axiom.ml" 91 3426 3496
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 91 3426 3438 "completion/axiom.ml" 91 3426 3439
+)
+"completion/axiom.ml" 91 3426 3497 "completion/axiom.ml" 91 3426 3498
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 91 3426 3489 "completion/axiom.ml" 91 3426 3499
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 91 3426 3471 "completion/axiom.ml" 91 3426 3499
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 91 3426 3450 "completion/axiom.ml" 91 3426 3499
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 92 3500 3512 "completion/axiom.ml" 92 3500 3513
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 92 3500 3517 "completion/axiom.ml" 92 3500 3537
+)
+"completion/axiom.ml" 92 3500 3506 "completion/axiom.ml" 92 3500 3513
+type(
+  axiom
+)
+"completion/axiom.ml" 92 3500 3517 "completion/axiom.ml" 92 3500 3521
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 92 3500 3522 "completion/axiom.ml" 92 3500 3523
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 92 3500 3512 "completion/axiom.ml" 92 3500 3513
+)
+"completion/axiom.ml" 92 3500 3525 "completion/axiom.ml" 92 3500 3529
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 92 3500 3530 "completion/axiom.ml" 92 3500 3531
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 92 3500 3512 "completion/axiom.ml" 92 3500 3513
+)
+"completion/axiom.ml" 92 3500 3532 "completion/axiom.ml" 92 3500 3533
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 92 3500 3524 "completion/axiom.ml" 92 3500 3534
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 92 3500 3517 "completion/axiom.ml" 92 3500 3534
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 92 3500 3536 "completion/axiom.ml" 92 3500 3537
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 92 3500 3517 "completion/axiom.ml" 92 3500 3537
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 93 3538 3550 "completion/axiom.ml" 93 3538 3551
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 93 3538 3559 "completion/axiom.ml" 93 3538 3597
+)
+"completion/axiom.ml" 93 3538 3553 "completion/axiom.ml" 93 3538 3554
+type(
+  Symb.symbol
+)
+ident(
+  def a "completion/axiom.ml" 93 3538 3559 "completion/axiom.ml" 93 3538 3597
+)
+"completion/axiom.ml" 93 3538 3544 "completion/axiom.ml" 93 3538 3555
+type(
+  axiom
+)
+"completion/axiom.ml" 93 3538 3563 "completion/axiom.ml" 93 3538 3564
+type(
+  Term.term
+)
+ident(
+  def a "completion/axiom.ml" 93 3538 3577 "completion/axiom.ml" 93 3538 3597
+)
+"completion/axiom.ml" 93 3538 3567 "completion/axiom.ml" 93 3538 3571
+type(
+  Symb.symbol -> Term.term
+)
+ident(
+  int_ref app0 "completion/axiom.ml" 68 2388 2392 "completion/axiom.ml" 68 2388 2396
+)
+"completion/axiom.ml" 93 3538 3572 "completion/axiom.ml" 93 3538 3573
+type(
+  Symb.symbol
+)
+ident(
+  int_ref a "completion/axiom.ml" 93 3538 3553 "completion/axiom.ml" 93 3538 3554
+)
+"completion/axiom.ml" 93 3538 3567 "completion/axiom.ml" 93 3538 3573
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 93 3538 3577 "completion/axiom.ml" 93 3538 3581
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 93 3538 3582 "completion/axiom.ml" 93 3538 3583
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 93 3538 3550 "completion/axiom.ml" 93 3538 3551
+)
+"completion/axiom.ml" 93 3538 3585 "completion/axiom.ml" 93 3538 3589
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 93 3538 3590 "completion/axiom.ml" 93 3538 3591
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 93 3538 3550 "completion/axiom.ml" 93 3538 3551
+)
+"completion/axiom.ml" 93 3538 3592 "completion/axiom.ml" 93 3538 3593
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 93 3538 3584 "completion/axiom.ml" 93 3538 3594
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 93 3538 3577 "completion/axiom.ml" 93 3538 3594
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 93 3538 3596 "completion/axiom.ml" 93 3538 3597
+type(
+  Term.term
+)
+ident(
+  int_ref a "completion/axiom.ml" 93 3538 3563 "completion/axiom.ml" 93 3538 3564
+)
+"completion/axiom.ml" 93 3538 3577 "completion/axiom.ml" 93 3538 3597
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 93 3538 3559 "completion/axiom.ml" 93 3538 3597
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 94 3598 3610 "completion/axiom.ml" 94 3598 3611
+type(
+  Symb.symbol
+)
+ident(
+  def c "completion/axiom.ml" 94 3598 3615 "completion/axiom.ml" 94 3598 3642
+)
+"completion/axiom.ml" 94 3598 3604 "completion/axiom.ml" 94 3598 3611
+type(
+  axiom
+)
+"completion/axiom.ml" 94 3598 3615 "completion/axiom.ml" 94 3598 3619
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 94 3598 3620 "completion/axiom.ml" 94 3598 3621
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 94 3598 3610 "completion/axiom.ml" 94 3598 3611
+)
+"completion/axiom.ml" 94 3598 3623 "completion/axiom.ml" 94 3598 3627
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 94 3598 3628 "completion/axiom.ml" 94 3598 3629
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 94 3598 3610 "completion/axiom.ml" 94 3598 3611
+)
+"completion/axiom.ml" 94 3598 3630 "completion/axiom.ml" 94 3598 3631
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 94 3598 3622 "completion/axiom.ml" 94 3598 3632
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 94 3598 3615 "completion/axiom.ml" 94 3598 3632
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 94 3598 3634 "completion/axiom.ml" 94 3598 3638
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 94 3598 3639 "completion/axiom.ml" 94 3598 3640
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "completion/axiom.ml" 94 3598 3610 "completion/axiom.ml" 94 3598 3611
+)
+"completion/axiom.ml" 94 3598 3641 "completion/axiom.ml" 94 3598 3642
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/axiom.ml" 73 2505 2511 "completion/axiom.ml" 73 2505 2512
+)
+"completion/axiom.ml" 94 3598 3634 "completion/axiom.ml" 94 3598 3642
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 94 3598 3615 "completion/axiom.ml" 94 3598 3642
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 95 3643 3657 "completion/axiom.ml" 95 3643 3658
+type(
+  Symb.symbol
+)
+ident(
+  def i "completion/axiom.ml" 95 3643 3669 "completion/axiom.ml" 95 3643 3713
+)
+"completion/axiom.ml" 95 3643 3660 "completion/axiom.ml" 95 3643 3661
+type(
+  Symb.symbol
+)
+ident(
+  def e "completion/axiom.ml" 95 3643 3669 "completion/axiom.ml" 95 3643 3713
+)
+"completion/axiom.ml" 95 3643 3663 "completion/axiom.ml" 95 3643 3664
+type(
+  Symb.symbol
+)
+ident(
+  def a "completion/axiom.ml" 95 3643 3669 "completion/axiom.ml" 95 3643 3713
+)
+"completion/axiom.ml" 95 3643 3649 "completion/axiom.ml" 95 3643 3665
+type(
+  axiom
+)
+"completion/axiom.ml" 95 3643 3673 "completion/axiom.ml" 95 3643 3674
+type(
+  Term.term
+)
+ident(
+  def a "completion/axiom.ml" 95 3643 3702 "completion/axiom.ml" 95 3643 3713
+)
+"completion/axiom.ml" 95 3643 3677 "completion/axiom.ml" 95 3643 3681
+type(
+  Symb.symbol -> Term.term
+)
+ident(
+  int_ref app0 "completion/axiom.ml" 68 2388 2392 "completion/axiom.ml" 68 2388 2396
+)
+"completion/axiom.ml" 95 3643 3682 "completion/axiom.ml" 95 3643 3683
+type(
+  Symb.symbol
+)
+ident(
+  int_ref a "completion/axiom.ml" 95 3643 3663 "completion/axiom.ml" 95 3643 3664
+)
+"completion/axiom.ml" 95 3643 3677 "completion/axiom.ml" 95 3643 3683
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 95 3643 3688 "completion/axiom.ml" 95 3643 3689
+type(
+  Term.term
+)
+ident(
+  def e "completion/axiom.ml" 95 3643 3702 "completion/axiom.ml" 95 3643 3713
+)
+"completion/axiom.ml" 95 3643 3692 "completion/axiom.ml" 95 3643 3696
+type(
+  Symb.symbol -> Term.term
+)
+ident(
+  int_ref app0 "completion/axiom.ml" 68 2388 2392 "completion/axiom.ml" 68 2388 2396
+)
+"completion/axiom.ml" 95 3643 3697 "completion/axiom.ml" 95 3643 3698
+type(
+  Symb.symbol
+)
+ident(
+  int_ref e "completion/axiom.ml" 95 3643 3660 "completion/axiom.ml" 95 3643 3661
+)
+"completion/axiom.ml" 95 3643 3692 "completion/axiom.ml" 95 3643 3698
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 95 3643 3702 "completion/axiom.ml" 95 3643 3706
+type(
+  Symb.symbol -> Term.term -> Term.term
+)
+ident(
+  int_ref app1 "completion/axiom.ml" 69 2415 2419 "completion/axiom.ml" 69 2415 2423
+)
+"completion/axiom.ml" 95 3643 3707 "completion/axiom.ml" 95 3643 3708
+type(
+  Symb.symbol
+)
+ident(
+  int_ref i "completion/axiom.ml" 95 3643 3657 "completion/axiom.ml" 95 3643 3658
+)
+"completion/axiom.ml" 95 3643 3709 "completion/axiom.ml" 95 3643 3710
+type(
+  Term.term
+)
+ident(
+  int_ref e "completion/axiom.ml" 95 3643 3688 "completion/axiom.ml" 95 3643 3689
+)
+"completion/axiom.ml" 95 3643 3702 "completion/axiom.ml" 95 3643 3710
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/axiom.ml" 95 3643 3712 "completion/axiom.ml" 95 3643 3713
+type(
+  Term.term
+)
+ident(
+  int_ref a "completion/axiom.ml" 95 3643 3673 "completion/axiom.ml" 95 3643 3674
+)
+"completion/axiom.ml" 95 3643 3702 "completion/axiom.ml" 95 3643 3713
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 95 3643 3669 "completion/axiom.ml" 95 3643 3713
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 74 2552 2554 "completion/axiom.ml" 95 3643 3713
+type(
+  axiom -> Term.term * Term.term
+)
+"completion/axiom.ml" 73 2505 2507 "completion/axiom.ml" 95 3643 3713
+type(
+  axiom -> Term.term * Term.term
+)
+"completion/axiom.ml" 99 3734 3738 "completion/axiom.ml" 99 3734 3754
+type(
+  axiom list -> Equation.EqnSet.t
+)
+ident(
+  def eqnset_of_theory "completion/axiom.ml" 103 3889 3910 "completion/axiom.ml" 1 0 -1
+)
+"completion/axiom.ml" 100 3757 3767 "completion/axiom.ml" 100 3757 3770
+type(
+  Equation.EqnSet.t -> axiom list -> Equation.EqnSet.t
+)
+ident(
+  def aux "completion/axiom.ml" 100 3757 3759 "completion/axiom.ml" 103 3889 3910
+)
+"completion/axiom.ml" 100 3757 3771 "completion/axiom.ml" 100 3757 3774
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def acc "completion/axiom.ml" 100 3757 3777 "completion/axiom.ml" 102 3811 3888
+)
+"completion/axiom.ml" 101 3786 3792 "completion/axiom.ml" 101 3786 3794
+type(
+  axiom list
+)
+"completion/axiom.ml" 101 3786 3798 "completion/axiom.ml" 101 3786 3810
+type(
+  Equation.EqnSet.t
+)
+ident(
+  ext_ref Equation.EqnSet.empty
+)
+"completion/axiom.ml" 102 3811 3817 "completion/axiom.ml" 102 3811 3818
+type(
+  axiom
+)
+ident(
+  def x "completion/axiom.ml" 102 3811 3828 "completion/axiom.ml" 102 3811 3888
+)
+"completion/axiom.ml" 102 3811 3822 "completion/axiom.ml" 102 3811 3824
+type(
+  axiom list
+)
+ident(
+  def xs "completion/axiom.ml" 102 3811 3828 "completion/axiom.ml" 102 3811 3888
+)
+"completion/axiom.ml" 102 3811 3817 "completion/axiom.ml" 102 3811 3824
+type(
+  axiom list
+)
+"completion/axiom.ml" 102 3811 3828 "completion/axiom.ml" 102 3811 3831
+type(
+  Equation.EqnSet.t -> axiom list -> Equation.EqnSet.t
+)
+ident(
+  int_ref aux "completion/axiom.ml" 100 3757 3767 "completion/axiom.ml" 100 3757 3770
+)
+"completion/axiom.ml" 102 3811 3833 "completion/axiom.ml" 102 3811 3843
+type(
+  Equation.EqnSet.elt -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  ext_ref Equation.EqnSet.add
+)
+"completion/axiom.ml" 102 3811 3845 "completion/axiom.ml" 102 3811 3856
+type(
+  Term.term * Term.term -> Equation.EqnSet.elt
+)
+ident(
+  ext_ref Equation.mk
+)
+"completion/axiom.ml" 102 3811 3858 "completion/axiom.ml" 102 3811 3876
+type(
+  axiom -> Term.term * Term.term
+)
+ident(
+  int_ref term_pair_of_axiom "completion/axiom.ml" 72 2480 2484 "completion/axiom.ml" 72 2480 2502
+)
+"completion/axiom.ml" 102 3811 3877 "completion/axiom.ml" 102 3811 3878
+type(
+  axiom
+)
+ident(
+  int_ref x "completion/axiom.ml" 102 3811 3817 "completion/axiom.ml" 102 3811 3818
+)
+"completion/axiom.ml" 102 3811 3857 "completion/axiom.ml" 102 3811 3879
+call(
+  stack
+)
+type(
+  Term.term * Term.term
+)
+"completion/axiom.ml" 102 3811 3844 "completion/axiom.ml" 102 3811 3880
+call(
+  stack
+)
+type(
+  Equation.EqnSet.elt
+)
+"completion/axiom.ml" 102 3811 3881 "completion/axiom.ml" 102 3811 3884
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref acc "completion/axiom.ml" 100 3757 3771 "completion/axiom.ml" 100 3757 3774
+)
+"completion/axiom.ml" 102 3811 3832 "completion/axiom.ml" 102 3811 3885
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t
+)
+"completion/axiom.ml" 102 3811 3886 "completion/axiom.ml" 102 3811 3888
+type(
+  axiom list
+)
+ident(
+  int_ref xs "completion/axiom.ml" 102 3811 3822 "completion/axiom.ml" 102 3811 3824
+)
+"completion/axiom.ml" 102 3811 3828 "completion/axiom.ml" 102 3811 3888
+call(
+  tail
+)
+type(
+  Equation.EqnSet.t
+)
+"completion/axiom.ml" 100 3757 3777 "completion/axiom.ml" 102 3811 3888
+type(
+  axiom list -> Equation.EqnSet.t
+)
+"completion/axiom.ml" 103 3889 3894 "completion/axiom.ml" 103 3889 3897
+type(
+  Equation.EqnSet.t -> axiom list -> Equation.EqnSet.t
+)
+ident(
+  int_ref aux "completion/axiom.ml" 100 3757 3767 "completion/axiom.ml" 100 3757 3770
+)
+"completion/axiom.ml" 103 3889 3898 "completion/axiom.ml" 103 3889 3910
+type(
+  Equation.EqnSet.t
+)
+ident(
+  ext_ref Equation.EqnSet.empty
+)
+"completion/axiom.ml" 103 3889 3894 "completion/axiom.ml" 103 3889 3910
+call(
+  stack
+)
+type(
+  axiom list -> Equation.EqnSet.t
+)
+"completion/axiom.ml" 100 3757 3759 "completion/axiom.ml" 103 3889 3910
+type(
+  axiom list -> Equation.EqnSet.t
+)

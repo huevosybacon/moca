@@ -1,0 +1,4642 @@
+"ocaml_src/utils/misc.ml" 19 909 913 "ocaml_src/utils/misc.ml" 19 909 924
+type(
+  string -> 'a
+)
+ident(
+  def fatal_error "ocaml_src/utils/misc.ml" 24 1022 1022 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 19 909 925 "ocaml_src/utils/misc.ml" 19 909 928
+type(
+  string
+)
+ident(
+  def msg "ocaml_src/utils/misc.ml" 20 931 933 "ocaml_src/utils/misc.ml" 20 931 1002
+)
+"ocaml_src/utils/misc.ml" 20 931 933 "ocaml_src/utils/misc.ml" 20 931 945
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"ocaml_src/utils/misc.ml" 20 931 946 "ocaml_src/utils/misc.ml" 20 931 964
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 20 931 933 "ocaml_src/utils/misc.ml" 20 931 964
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 20 931 966 "ocaml_src/utils/misc.ml" 20 931 979
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"ocaml_src/utils/misc.ml" 20 931 980 "ocaml_src/utils/misc.ml" 20 931 983
+type(
+  string
+)
+ident(
+  int_ref msg "ocaml_src/utils/misc.ml" 19 909 925 "ocaml_src/utils/misc.ml" 19 909 928
+)
+"ocaml_src/utils/misc.ml" 20 931 966 "ocaml_src/utils/misc.ml" 20 931 983
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 20 931 985 "ocaml_src/utils/misc.ml" 20 931 990
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/utils/misc.ml" 20 931 991 "ocaml_src/utils/misc.ml" 20 931 1002
+type(
+  exn
+)
+"ocaml_src/utils/misc.ml" 20 931 985 "ocaml_src/utils/misc.ml" 20 931 1002
+type(
+  'a
+)
+"ocaml_src/utils/misc.ml" 20 931 966 "ocaml_src/utils/misc.ml" 20 931 1002
+type(
+  'a
+)
+"ocaml_src/utils/misc.ml" 20 931 933 "ocaml_src/utils/misc.ml" 20 931 1002
+type(
+  'a
+)
+"ocaml_src/utils/misc.ml" 24 1022 1026 "ocaml_src/utils/misc.ml" 24 1022 1037
+type(
+  (unit -> 'a) -> (unit -> 'b) -> 'a
+)
+ident(
+  def try_finally "ocaml_src/utils/misc.ml" 34 1153 1153 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 24 1022 1038 "ocaml_src/utils/misc.ml" 24 1022 1040
+type(
+  unit -> 'a
+)
+ident(
+  def f1 "ocaml_src/utils/misc.ml" 24 1022 1041 "ocaml_src/utils/misc.ml" 29 1100 1126
+)
+"ocaml_src/utils/misc.ml" 24 1022 1041 "ocaml_src/utils/misc.ml" 24 1022 1043
+type(
+  unit -> 'b
+)
+ident(
+  def f2 "ocaml_src/utils/misc.ml" 25 1046 1048 "ocaml_src/utils/misc.ml" 29 1100 1126
+)
+"ocaml_src/utils/misc.ml" 26 1052 1060 "ocaml_src/utils/misc.ml" 26 1052 1066
+type(
+  'a
+)
+ident(
+  def result "ocaml_src/utils/misc.ml" 27 1078 1082 "ocaml_src/utils/misc.ml" 28 1089 1099
+)
+"ocaml_src/utils/misc.ml" 26 1052 1069 "ocaml_src/utils/misc.ml" 26 1052 1071
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f1 "ocaml_src/utils/misc.ml" 24 1022 1038 "ocaml_src/utils/misc.ml" 24 1022 1040
+)
+"ocaml_src/utils/misc.ml" 26 1052 1072 "ocaml_src/utils/misc.ml" 26 1052 1074
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 26 1052 1069 "ocaml_src/utils/misc.ml" 26 1052 1074
+call(
+  stack
+)
+type(
+  'a
+)
+"ocaml_src/utils/misc.ml" 27 1078 1082 "ocaml_src/utils/misc.ml" 27 1078 1084
+type(
+  unit -> 'b
+)
+ident(
+  int_ref f2 "ocaml_src/utils/misc.ml" 24 1022 1041 "ocaml_src/utils/misc.ml" 24 1022 1043
+)
+"ocaml_src/utils/misc.ml" 27 1078 1085 "ocaml_src/utils/misc.ml" 27 1078 1087
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 27 1078 1082 "ocaml_src/utils/misc.ml" 27 1078 1087
+call(
+  stack
+)
+type(
+  'b
+)
+"ocaml_src/utils/misc.ml" 28 1089 1093 "ocaml_src/utils/misc.ml" 28 1089 1099
+type(
+  'a
+)
+ident(
+  int_ref result "ocaml_src/utils/misc.ml" 26 1052 1060 "ocaml_src/utils/misc.ml" 26 1052 1066
+)
+"ocaml_src/utils/misc.ml" 27 1078 1082 "ocaml_src/utils/misc.ml" 28 1089 1099
+type(
+  'a
+)
+"ocaml_src/utils/misc.ml" 26 1052 1056 "ocaml_src/utils/misc.ml" 28 1089 1099
+type(
+  'a
+)
+"ocaml_src/utils/misc.ml" 29 1100 1107 "ocaml_src/utils/misc.ml" 29 1100 1108
+type(
+  exn
+)
+ident(
+  def x "ocaml_src/utils/misc.ml" 29 1100 1112 "ocaml_src/utils/misc.ml" 29 1100 1126
+)
+"ocaml_src/utils/misc.ml" 29 1100 1112 "ocaml_src/utils/misc.ml" 29 1100 1114
+type(
+  unit -> 'b
+)
+ident(
+  int_ref f2 "ocaml_src/utils/misc.ml" 24 1022 1041 "ocaml_src/utils/misc.ml" 24 1022 1043
+)
+"ocaml_src/utils/misc.ml" 29 1100 1115 "ocaml_src/utils/misc.ml" 29 1100 1117
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 29 1100 1112 "ocaml_src/utils/misc.ml" 29 1100 1117
+call(
+  stack
+)
+type(
+  'b
+)
+"ocaml_src/utils/misc.ml" 29 1100 1119 "ocaml_src/utils/misc.ml" 29 1100 1124
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/utils/misc.ml" 29 1100 1125 "ocaml_src/utils/misc.ml" 29 1100 1126
+type(
+  exn
+)
+ident(
+  int_ref x "ocaml_src/utils/misc.ml" 29 1100 1107 "ocaml_src/utils/misc.ml" 29 1100 1108
+)
+"ocaml_src/utils/misc.ml" 29 1100 1119 "ocaml_src/utils/misc.ml" 29 1100 1126
+type(
+  'a
+)
+"ocaml_src/utils/misc.ml" 29 1100 1112 "ocaml_src/utils/misc.ml" 29 1100 1126
+type(
+  'a
+)
+"ocaml_src/utils/misc.ml" 25 1046 1048 "ocaml_src/utils/misc.ml" 29 1100 1126
+type(
+  'a
+)
+"ocaml_src/utils/misc.ml" 34 1153 1161 "ocaml_src/utils/misc.ml" 34 1153 1168
+type(
+  ('a -> 'b) -> 'a list -> 'b list -> 'b list
+)
+ident(
+  def map_end "ocaml_src/utils/misc.ml" 34 1153 1153 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 34 1153 1169 "ocaml_src/utils/misc.ml" 34 1153 1170
+type(
+  'a -> 'b
+)
+ident(
+  def f "ocaml_src/utils/misc.ml" 34 1153 1171 "ocaml_src/utils/misc.ml" 37 1208 1245
+)
+"ocaml_src/utils/misc.ml" 34 1153 1171 "ocaml_src/utils/misc.ml" 34 1153 1173
+type(
+  'a list
+)
+ident(
+  def l1 "ocaml_src/utils/misc.ml" 34 1153 1174 "ocaml_src/utils/misc.ml" 37 1208 1245
+)
+"ocaml_src/utils/misc.ml" 34 1153 1174 "ocaml_src/utils/misc.ml" 34 1153 1176
+type(
+  'b list
+)
+ident(
+  def l2 "ocaml_src/utils/misc.ml" 35 1179 1181 "ocaml_src/utils/misc.ml" 37 1208 1245
+)
+"ocaml_src/utils/misc.ml" 35 1179 1187 "ocaml_src/utils/misc.ml" 35 1179 1189
+type(
+  'a list
+)
+ident(
+  int_ref l1 "ocaml_src/utils/misc.ml" 34 1153 1171 "ocaml_src/utils/misc.ml" 34 1153 1173
+)
+"ocaml_src/utils/misc.ml" 36 1195 1199 "ocaml_src/utils/misc.ml" 36 1195 1201
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 36 1195 1205 "ocaml_src/utils/misc.ml" 36 1195 1207
+type(
+  'b list
+)
+ident(
+  int_ref l2 "ocaml_src/utils/misc.ml" 34 1153 1174 "ocaml_src/utils/misc.ml" 34 1153 1176
+)
+"ocaml_src/utils/misc.ml" 37 1208 1212 "ocaml_src/utils/misc.ml" 37 1208 1214
+type(
+  'a
+)
+ident(
+  def hd "ocaml_src/utils/misc.ml" 37 1208 1222 "ocaml_src/utils/misc.ml" 37 1208 1245
+)
+"ocaml_src/utils/misc.ml" 37 1208 1216 "ocaml_src/utils/misc.ml" 37 1208 1218
+type(
+  'a list
+)
+ident(
+  def tl "ocaml_src/utils/misc.ml" 37 1208 1222 "ocaml_src/utils/misc.ml" 37 1208 1245
+)
+"ocaml_src/utils/misc.ml" 37 1208 1212 "ocaml_src/utils/misc.ml" 37 1208 1218
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 37 1208 1222 "ocaml_src/utils/misc.ml" 37 1208 1223
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "ocaml_src/utils/misc.ml" 34 1153 1169 "ocaml_src/utils/misc.ml" 34 1153 1170
+)
+"ocaml_src/utils/misc.ml" 37 1208 1224 "ocaml_src/utils/misc.ml" 37 1208 1226
+type(
+  'a
+)
+ident(
+  int_ref hd "ocaml_src/utils/misc.ml" 37 1208 1212 "ocaml_src/utils/misc.ml" 37 1208 1214
+)
+"ocaml_src/utils/misc.ml" 37 1208 1222 "ocaml_src/utils/misc.ml" 37 1208 1226
+call(
+  stack
+)
+type(
+  'b
+)
+"ocaml_src/utils/misc.ml" 37 1208 1230 "ocaml_src/utils/misc.ml" 37 1208 1237
+type(
+  ('a -> 'b) -> 'a list -> 'b list -> 'b list
+)
+ident(
+  int_ref map_end "ocaml_src/utils/misc.ml" 34 1153 1161 "ocaml_src/utils/misc.ml" 34 1153 1168
+)
+"ocaml_src/utils/misc.ml" 37 1208 1238 "ocaml_src/utils/misc.ml" 37 1208 1239
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "ocaml_src/utils/misc.ml" 34 1153 1169 "ocaml_src/utils/misc.ml" 34 1153 1170
+)
+"ocaml_src/utils/misc.ml" 37 1208 1240 "ocaml_src/utils/misc.ml" 37 1208 1242
+type(
+  'a list
+)
+ident(
+  int_ref tl "ocaml_src/utils/misc.ml" 37 1208 1216 "ocaml_src/utils/misc.ml" 37 1208 1218
+)
+"ocaml_src/utils/misc.ml" 37 1208 1243 "ocaml_src/utils/misc.ml" 37 1208 1245
+type(
+  'b list
+)
+ident(
+  int_ref l2 "ocaml_src/utils/misc.ml" 34 1153 1174 "ocaml_src/utils/misc.ml" 34 1153 1176
+)
+"ocaml_src/utils/misc.ml" 37 1208 1230 "ocaml_src/utils/misc.ml" 37 1208 1245
+call(
+  stack
+)
+type(
+  'b list
+)
+"ocaml_src/utils/misc.ml" 37 1208 1222 "ocaml_src/utils/misc.ml" 37 1208 1245
+type(
+  'b list
+)
+"ocaml_src/utils/misc.ml" 35 1179 1181 "ocaml_src/utils/misc.ml" 37 1208 1245
+type(
+  'b list
+)
+"ocaml_src/utils/misc.ml" 39 1247 1255 "ocaml_src/utils/misc.ml" 39 1247 1269
+type(
+  ('a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  def map_left_right "ocaml_src/utils/misc.ml" 39 1247 1247 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 39 1247 1270 "ocaml_src/utils/misc.ml" 39 1247 1271
+type(
+  'a -> 'b
+)
+ident(
+  def f "ocaml_src/utils/misc.ml" 39 1247 1274 "ocaml_src/utils/misc.ml" 41 1296 1354
+)
+"ocaml_src/utils/misc.ml" 40 1283 1287 "ocaml_src/utils/misc.ml" 40 1283 1289
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 40 1283 1293 "ocaml_src/utils/misc.ml" 40 1283 1295
+type(
+  'b list
+)
+"ocaml_src/utils/misc.ml" 41 1296 1300 "ocaml_src/utils/misc.ml" 41 1296 1302
+type(
+  'a
+)
+ident(
+  def hd "ocaml_src/utils/misc.ml" 41 1296 1310 "ocaml_src/utils/misc.ml" 41 1296 1354
+)
+"ocaml_src/utils/misc.ml" 41 1296 1304 "ocaml_src/utils/misc.ml" 41 1296 1306
+type(
+  'a list
+)
+ident(
+  def tl "ocaml_src/utils/misc.ml" 41 1296 1310 "ocaml_src/utils/misc.ml" 41 1296 1354
+)
+"ocaml_src/utils/misc.ml" 41 1296 1300 "ocaml_src/utils/misc.ml" 41 1296 1306
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 41 1296 1314 "ocaml_src/utils/misc.ml" 41 1296 1317
+type(
+  'b
+)
+ident(
+  def res "ocaml_src/utils/misc.ml" 41 1296 1328 "ocaml_src/utils/misc.ml" 41 1296 1354
+)
+"ocaml_src/utils/misc.ml" 41 1296 1320 "ocaml_src/utils/misc.ml" 41 1296 1321
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "ocaml_src/utils/misc.ml" 39 1247 1270 "ocaml_src/utils/misc.ml" 39 1247 1271
+)
+"ocaml_src/utils/misc.ml" 41 1296 1322 "ocaml_src/utils/misc.ml" 41 1296 1324
+type(
+  'a
+)
+ident(
+  int_ref hd "ocaml_src/utils/misc.ml" 41 1296 1300 "ocaml_src/utils/misc.ml" 41 1296 1302
+)
+"ocaml_src/utils/misc.ml" 41 1296 1320 "ocaml_src/utils/misc.ml" 41 1296 1324
+call(
+  stack
+)
+type(
+  'b
+)
+"ocaml_src/utils/misc.ml" 41 1296 1328 "ocaml_src/utils/misc.ml" 41 1296 1331
+type(
+  'b
+)
+ident(
+  int_ref res "ocaml_src/utils/misc.ml" 41 1296 1314 "ocaml_src/utils/misc.ml" 41 1296 1317
+)
+"ocaml_src/utils/misc.ml" 41 1296 1335 "ocaml_src/utils/misc.ml" 41 1296 1349
+type(
+  ('a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  int_ref map_left_right "ocaml_src/utils/misc.ml" 39 1247 1255 "ocaml_src/utils/misc.ml" 39 1247 1269
+)
+"ocaml_src/utils/misc.ml" 41 1296 1350 "ocaml_src/utils/misc.ml" 41 1296 1351
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "ocaml_src/utils/misc.ml" 39 1247 1270 "ocaml_src/utils/misc.ml" 39 1247 1271
+)
+"ocaml_src/utils/misc.ml" 41 1296 1352 "ocaml_src/utils/misc.ml" 41 1296 1354
+type(
+  'a list
+)
+ident(
+  int_ref tl "ocaml_src/utils/misc.ml" 41 1296 1304 "ocaml_src/utils/misc.ml" 41 1296 1306
+)
+"ocaml_src/utils/misc.ml" 41 1296 1335 "ocaml_src/utils/misc.ml" 41 1296 1354
+call(
+  stack
+)
+type(
+  'b list
+)
+"ocaml_src/utils/misc.ml" 41 1296 1328 "ocaml_src/utils/misc.ml" 41 1296 1354
+type(
+  'b list
+)
+"ocaml_src/utils/misc.ml" 41 1296 1310 "ocaml_src/utils/misc.ml" 41 1296 1354
+type(
+  'b list
+)
+"ocaml_src/utils/misc.ml" 39 1247 1274 "ocaml_src/utils/misc.ml" 41 1296 1354
+type(
+  'a list -> 'b list
+)
+"ocaml_src/utils/misc.ml" 43 1356 1364 "ocaml_src/utils/misc.ml" 43 1356 1372
+type(
+  ('a -> 'b -> bool) -> 'a list -> 'b list -> bool
+)
+ident(
+  def for_all2 "ocaml_src/utils/misc.ml" 43 1356 1356 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 43 1356 1373 "ocaml_src/utils/misc.ml" 43 1356 1377
+type(
+  'a -> 'b -> bool
+)
+ident(
+  def pred "ocaml_src/utils/misc.ml" 43 1356 1378 "ocaml_src/utils/misc.ml" 47 1495 1514
+)
+"ocaml_src/utils/misc.ml" 43 1356 1378 "ocaml_src/utils/misc.ml" 43 1356 1380
+type(
+  'a list
+)
+ident(
+  def l1 "ocaml_src/utils/misc.ml" 43 1356 1381 "ocaml_src/utils/misc.ml" 47 1495 1514
+)
+"ocaml_src/utils/misc.ml" 43 1356 1381 "ocaml_src/utils/misc.ml" 43 1356 1383
+type(
+  'b list
+)
+ident(
+  def l2 "ocaml_src/utils/misc.ml" 44 1386 1388 "ocaml_src/utils/misc.ml" 47 1495 1514
+)
+"ocaml_src/utils/misc.ml" 44 1386 1395 "ocaml_src/utils/misc.ml" 44 1386 1397
+type(
+  'a list
+)
+ident(
+  int_ref l1 "ocaml_src/utils/misc.ml" 43 1356 1378 "ocaml_src/utils/misc.ml" 43 1356 1380
+)
+"ocaml_src/utils/misc.ml" 44 1386 1399 "ocaml_src/utils/misc.ml" 44 1386 1401
+type(
+  'b list
+)
+ident(
+  int_ref l2 "ocaml_src/utils/misc.ml" 43 1356 1381 "ocaml_src/utils/misc.ml" 43 1356 1383
+)
+"ocaml_src/utils/misc.ml" 44 1386 1394 "ocaml_src/utils/misc.ml" 44 1386 1402
+type(
+  'a list * 'b list
+)
+"ocaml_src/utils/misc.ml" 45 1408 1413 "ocaml_src/utils/misc.ml" 45 1408 1415
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 45 1408 1417 "ocaml_src/utils/misc.ml" 45 1408 1419
+type(
+  'b list
+)
+"ocaml_src/utils/misc.ml" 45 1408 1412 "ocaml_src/utils/misc.ml" 45 1408 1420
+type(
+  'a list * 'b list
+)
+"ocaml_src/utils/misc.ml" 45 1408 1424 "ocaml_src/utils/misc.ml" 45 1408 1428
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 46 1429 1434 "ocaml_src/utils/misc.ml" 46 1429 1437
+type(
+  'a
+)
+ident(
+  def hd1 "ocaml_src/utils/misc.ml" 46 1429 1457 "ocaml_src/utils/misc.ml" 46 1429 1494
+)
+"ocaml_src/utils/misc.ml" 46 1429 1439 "ocaml_src/utils/misc.ml" 46 1429 1442
+type(
+  'a list
+)
+ident(
+  def tl1 "ocaml_src/utils/misc.ml" 46 1429 1457 "ocaml_src/utils/misc.ml" 46 1429 1494
+)
+"ocaml_src/utils/misc.ml" 46 1429 1434 "ocaml_src/utils/misc.ml" 46 1429 1442
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 46 1429 1444 "ocaml_src/utils/misc.ml" 46 1429 1447
+type(
+  'b
+)
+ident(
+  def hd2 "ocaml_src/utils/misc.ml" 46 1429 1457 "ocaml_src/utils/misc.ml" 46 1429 1494
+)
+"ocaml_src/utils/misc.ml" 46 1429 1449 "ocaml_src/utils/misc.ml" 46 1429 1452
+type(
+  'b list
+)
+ident(
+  def tl2 "ocaml_src/utils/misc.ml" 46 1429 1457 "ocaml_src/utils/misc.ml" 46 1429 1494
+)
+"ocaml_src/utils/misc.ml" 46 1429 1444 "ocaml_src/utils/misc.ml" 46 1429 1452
+type(
+  'b list
+)
+"ocaml_src/utils/misc.ml" 46 1429 1433 "ocaml_src/utils/misc.ml" 46 1429 1453
+type(
+  'a list * 'b list
+)
+"ocaml_src/utils/misc.ml" 46 1429 1457 "ocaml_src/utils/misc.ml" 46 1429 1461
+type(
+  'a -> 'b -> bool
+)
+ident(
+  int_ref pred "ocaml_src/utils/misc.ml" 43 1356 1373 "ocaml_src/utils/misc.ml" 43 1356 1377
+)
+"ocaml_src/utils/misc.ml" 46 1429 1462 "ocaml_src/utils/misc.ml" 46 1429 1465
+type(
+  'a
+)
+ident(
+  int_ref hd1 "ocaml_src/utils/misc.ml" 46 1429 1434 "ocaml_src/utils/misc.ml" 46 1429 1437
+)
+"ocaml_src/utils/misc.ml" 46 1429 1466 "ocaml_src/utils/misc.ml" 46 1429 1469
+type(
+  'b
+)
+ident(
+  int_ref hd2 "ocaml_src/utils/misc.ml" 46 1429 1444 "ocaml_src/utils/misc.ml" 46 1429 1447
+)
+"ocaml_src/utils/misc.ml" 46 1429 1457 "ocaml_src/utils/misc.ml" 46 1429 1469
+call(
+  stack
+)
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 46 1429 1470 "ocaml_src/utils/misc.ml" 46 1429 1472
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/utils/misc.ml" 46 1429 1473 "ocaml_src/utils/misc.ml" 46 1429 1481
+type(
+  ('a -> 'b -> bool) -> 'a list -> 'b list -> bool
+)
+ident(
+  int_ref for_all2 "ocaml_src/utils/misc.ml" 43 1356 1364 "ocaml_src/utils/misc.ml" 43 1356 1372
+)
+"ocaml_src/utils/misc.ml" 46 1429 1482 "ocaml_src/utils/misc.ml" 46 1429 1486
+type(
+  'a -> 'b -> bool
+)
+ident(
+  int_ref pred "ocaml_src/utils/misc.ml" 43 1356 1373 "ocaml_src/utils/misc.ml" 43 1356 1377
+)
+"ocaml_src/utils/misc.ml" 46 1429 1487 "ocaml_src/utils/misc.ml" 46 1429 1490
+type(
+  'a list
+)
+ident(
+  int_ref tl1 "ocaml_src/utils/misc.ml" 46 1429 1439 "ocaml_src/utils/misc.ml" 46 1429 1442
+)
+"ocaml_src/utils/misc.ml" 46 1429 1491 "ocaml_src/utils/misc.ml" 46 1429 1494
+type(
+  'b list
+)
+ident(
+  int_ref tl2 "ocaml_src/utils/misc.ml" 46 1429 1449 "ocaml_src/utils/misc.ml" 46 1429 1452
+)
+"ocaml_src/utils/misc.ml" 46 1429 1473 "ocaml_src/utils/misc.ml" 46 1429 1494
+call(
+  tail
+)
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 46 1429 1457 "ocaml_src/utils/misc.ml" 46 1429 1494
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 47 1495 1500 "ocaml_src/utils/misc.ml" 47 1495 1501
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 47 1495 1503 "ocaml_src/utils/misc.ml" 47 1495 1504
+type(
+  'b list
+)
+"ocaml_src/utils/misc.ml" 47 1495 1499 "ocaml_src/utils/misc.ml" 47 1495 1505
+type(
+  'a list * 'b list
+)
+"ocaml_src/utils/misc.ml" 47 1495 1509 "ocaml_src/utils/misc.ml" 47 1495 1514
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 44 1386 1388 "ocaml_src/utils/misc.ml" 47 1495 1514
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 49 1516 1524 "ocaml_src/utils/misc.ml" 49 1516 1538
+type(
+  'a -> int -> 'a list
+)
+ident(
+  def replicate_list "ocaml_src/utils/misc.ml" 49 1516 1516 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 49 1516 1539 "ocaml_src/utils/misc.ml" 49 1516 1543
+type(
+  'a
+)
+ident(
+  def elem "ocaml_src/utils/misc.ml" 49 1516 1544 "ocaml_src/utils/misc.ml" 50 1548 1606
+)
+"ocaml_src/utils/misc.ml" 49 1516 1544 "ocaml_src/utils/misc.ml" 49 1516 1545
+type(
+  int
+)
+ident(
+  def n "ocaml_src/utils/misc.ml" 50 1548 1550 "ocaml_src/utils/misc.ml" 50 1548 1606
+)
+"ocaml_src/utils/misc.ml" 50 1548 1553 "ocaml_src/utils/misc.ml" 50 1548 1554
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/misc.ml" 49 1516 1544 "ocaml_src/utils/misc.ml" 49 1516 1545
+)
+"ocaml_src/utils/misc.ml" 50 1548 1555 "ocaml_src/utils/misc.ml" 50 1548 1557
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"ocaml_src/utils/misc.ml" 50 1548 1558 "ocaml_src/utils/misc.ml" 50 1548 1559
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 50 1548 1553 "ocaml_src/utils/misc.ml" 50 1548 1559
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 50 1548 1565 "ocaml_src/utils/misc.ml" 50 1548 1567
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 50 1548 1573 "ocaml_src/utils/misc.ml" 50 1548 1577
+type(
+  'a
+)
+ident(
+  int_ref elem "ocaml_src/utils/misc.ml" 49 1516 1539 "ocaml_src/utils/misc.ml" 49 1516 1543
+)
+"ocaml_src/utils/misc.ml" 50 1548 1581 "ocaml_src/utils/misc.ml" 50 1548 1595
+type(
+  'a -> int -> 'a list
+)
+ident(
+  int_ref replicate_list "ocaml_src/utils/misc.ml" 49 1516 1524 "ocaml_src/utils/misc.ml" 49 1516 1538
+)
+"ocaml_src/utils/misc.ml" 50 1548 1596 "ocaml_src/utils/misc.ml" 50 1548 1600
+type(
+  'a
+)
+ident(
+  int_ref elem "ocaml_src/utils/misc.ml" 49 1516 1539 "ocaml_src/utils/misc.ml" 49 1516 1543
+)
+"ocaml_src/utils/misc.ml" 50 1548 1602 "ocaml_src/utils/misc.ml" 50 1548 1603
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/misc.ml" 49 1516 1544 "ocaml_src/utils/misc.ml" 49 1516 1545
+)
+"ocaml_src/utils/misc.ml" 50 1548 1603 "ocaml_src/utils/misc.ml" 50 1548 1604
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/utils/misc.ml" 50 1548 1604 "ocaml_src/utils/misc.ml" 50 1548 1605
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 50 1548 1601 "ocaml_src/utils/misc.ml" 50 1548 1606
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 50 1548 1581 "ocaml_src/utils/misc.ml" 50 1548 1606
+call(
+  stack
+)
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 50 1548 1573 "ocaml_src/utils/misc.ml" 50 1548 1606
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 50 1548 1550 "ocaml_src/utils/misc.ml" 50 1548 1606
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 52 1608 1616 "ocaml_src/utils/misc.ml" 52 1608 1627
+type(
+  'a -> 'a list -> 'a list
+)
+ident(
+  def list_remove "ocaml_src/utils/misc.ml" 52 1608 1608 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 52 1608 1628 "ocaml_src/utils/misc.ml" 52 1608 1629
+type(
+  'a
+)
+ident(
+  def x "ocaml_src/utils/misc.ml" 52 1608 1632 "ocaml_src/utils/misc.ml" 55 1670 1721
+)
+"ocaml_src/utils/misc.ml" 53 1641 1645 "ocaml_src/utils/misc.ml" 53 1641 1647
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 53 1641 1651 "ocaml_src/utils/misc.ml" 53 1641 1653
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 54 1654 1658 "ocaml_src/utils/misc.ml" 54 1654 1660
+type(
+  'a
+)
+ident(
+  def hd "ocaml_src/utils/misc.ml" 55 1670 1676 "ocaml_src/utils/misc.ml" 55 1670 1721
+)
+"ocaml_src/utils/misc.ml" 54 1654 1664 "ocaml_src/utils/misc.ml" 54 1654 1666
+type(
+  'a list
+)
+ident(
+  def tl "ocaml_src/utils/misc.ml" 55 1670 1676 "ocaml_src/utils/misc.ml" 55 1670 1721
+)
+"ocaml_src/utils/misc.ml" 54 1654 1658 "ocaml_src/utils/misc.ml" 54 1654 1666
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 55 1670 1679 "ocaml_src/utils/misc.ml" 55 1670 1681
+type(
+  'a
+)
+ident(
+  int_ref hd "ocaml_src/utils/misc.ml" 54 1654 1658 "ocaml_src/utils/misc.ml" 54 1654 1660
+)
+"ocaml_src/utils/misc.ml" 55 1670 1682 "ocaml_src/utils/misc.ml" 55 1670 1683
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/misc.ml" 55 1670 1684 "ocaml_src/utils/misc.ml" 55 1670 1685
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/misc.ml" 52 1608 1628 "ocaml_src/utils/misc.ml" 52 1608 1629
+)
+"ocaml_src/utils/misc.ml" 55 1670 1679 "ocaml_src/utils/misc.ml" 55 1670 1685
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 55 1670 1691 "ocaml_src/utils/misc.ml" 55 1670 1693
+type(
+  'a list
+)
+ident(
+  int_ref tl "ocaml_src/utils/misc.ml" 54 1654 1664 "ocaml_src/utils/misc.ml" 54 1654 1666
+)
+"ocaml_src/utils/misc.ml" 55 1670 1699 "ocaml_src/utils/misc.ml" 55 1670 1701
+type(
+  'a
+)
+ident(
+  int_ref hd "ocaml_src/utils/misc.ml" 54 1654 1658 "ocaml_src/utils/misc.ml" 54 1654 1660
+)
+"ocaml_src/utils/misc.ml" 55 1670 1705 "ocaml_src/utils/misc.ml" 55 1670 1716
+type(
+  'a -> 'a list -> 'a list
+)
+ident(
+  int_ref list_remove "ocaml_src/utils/misc.ml" 52 1608 1616 "ocaml_src/utils/misc.ml" 52 1608 1627
+)
+"ocaml_src/utils/misc.ml" 55 1670 1717 "ocaml_src/utils/misc.ml" 55 1670 1718
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/misc.ml" 52 1608 1628 "ocaml_src/utils/misc.ml" 52 1608 1629
+)
+"ocaml_src/utils/misc.ml" 55 1670 1719 "ocaml_src/utils/misc.ml" 55 1670 1721
+type(
+  'a list
+)
+ident(
+  int_ref tl "ocaml_src/utils/misc.ml" 54 1654 1664 "ocaml_src/utils/misc.ml" 54 1654 1666
+)
+"ocaml_src/utils/misc.ml" 55 1670 1705 "ocaml_src/utils/misc.ml" 55 1670 1721
+call(
+  stack
+)
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 55 1670 1699 "ocaml_src/utils/misc.ml" 55 1670 1721
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 55 1670 1676 "ocaml_src/utils/misc.ml" 55 1670 1721
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 52 1608 1632 "ocaml_src/utils/misc.ml" 55 1670 1721
+type(
+  'a list -> 'a list
+)
+"ocaml_src/utils/misc.ml" 57 1723 1731 "ocaml_src/utils/misc.ml" 57 1723 1741
+type(
+  'a list -> 'a list * 'a
+)
+ident(
+  def split_last "ocaml_src/utils/misc.ml" 57 1723 1723 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 58 1753 1757 "ocaml_src/utils/misc.ml" 58 1753 1759
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 58 1753 1770 "ocaml_src/utils/misc.ml" 58 1753 1775
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 58 1753 1763 "ocaml_src/utils/misc.ml" 58 1753 1775
+type(
+  'a list * 'a
+)
+"ocaml_src/utils/misc.ml" 59 1776 1781 "ocaml_src/utils/misc.ml" 59 1776 1782
+type(
+  'a
+)
+ident(
+  def x "ocaml_src/utils/misc.ml" 59 1776 1787 "ocaml_src/utils/misc.ml" 59 1776 1794
+)
+"ocaml_src/utils/misc.ml" 59 1776 1780 "ocaml_src/utils/misc.ml" 59 1776 1783
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 59 1776 1788 "ocaml_src/utils/misc.ml" 59 1776 1790
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 59 1776 1792 "ocaml_src/utils/misc.ml" 59 1776 1793
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/misc.ml" 59 1776 1781 "ocaml_src/utils/misc.ml" 59 1776 1782
+)
+"ocaml_src/utils/misc.ml" 59 1776 1787 "ocaml_src/utils/misc.ml" 59 1776 1794
+type(
+  'a list * 'a
+)
+"ocaml_src/utils/misc.ml" 60 1795 1799 "ocaml_src/utils/misc.ml" 60 1795 1801
+type(
+  'a
+)
+ident(
+  def hd "ocaml_src/utils/misc.ml" 61 1811 1817 "ocaml_src/utils/misc.ml" 62 1852 1875
+)
+"ocaml_src/utils/misc.ml" 60 1795 1805 "ocaml_src/utils/misc.ml" 60 1795 1807
+type(
+  'a list
+)
+ident(
+  def tl "ocaml_src/utils/misc.ml" 61 1811 1817 "ocaml_src/utils/misc.ml" 62 1852 1875
+)
+"ocaml_src/utils/misc.ml" 60 1795 1799 "ocaml_src/utils/misc.ml" 60 1795 1807
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 61 1811 1822 "ocaml_src/utils/misc.ml" 61 1811 1825
+type(
+  'a list
+)
+ident(
+  def lst "ocaml_src/utils/misc.ml" 62 1852 1858 "ocaml_src/utils/misc.ml" 62 1852 1875
+)
+"ocaml_src/utils/misc.ml" 61 1811 1827 "ocaml_src/utils/misc.ml" 61 1811 1831
+type(
+  'a
+)
+ident(
+  def last "ocaml_src/utils/misc.ml" 62 1852 1858 "ocaml_src/utils/misc.ml" 62 1852 1875
+)
+"ocaml_src/utils/misc.ml" 61 1811 1821 "ocaml_src/utils/misc.ml" 61 1811 1832
+type(
+  'a list * 'a
+)
+"ocaml_src/utils/misc.ml" 61 1811 1835 "ocaml_src/utils/misc.ml" 61 1811 1845
+type(
+  'a list -> 'a list * 'a
+)
+ident(
+  int_ref split_last "ocaml_src/utils/misc.ml" 57 1723 1731 "ocaml_src/utils/misc.ml" 57 1723 1741
+)
+"ocaml_src/utils/misc.ml" 61 1811 1846 "ocaml_src/utils/misc.ml" 61 1811 1848
+type(
+  'a list
+)
+ident(
+  int_ref tl "ocaml_src/utils/misc.ml" 60 1795 1805 "ocaml_src/utils/misc.ml" 60 1795 1807
+)
+"ocaml_src/utils/misc.ml" 61 1811 1835 "ocaml_src/utils/misc.ml" 61 1811 1848
+call(
+  stack
+)
+type(
+  'a list * 'a
+)
+"ocaml_src/utils/misc.ml" 62 1852 1859 "ocaml_src/utils/misc.ml" 62 1852 1861
+type(
+  'a
+)
+ident(
+  int_ref hd "ocaml_src/utils/misc.ml" 60 1795 1799 "ocaml_src/utils/misc.ml" 60 1795 1801
+)
+"ocaml_src/utils/misc.ml" 62 1852 1865 "ocaml_src/utils/misc.ml" 62 1852 1868
+type(
+  'a list
+)
+ident(
+  int_ref lst "ocaml_src/utils/misc.ml" 61 1811 1822 "ocaml_src/utils/misc.ml" 61 1811 1825
+)
+"ocaml_src/utils/misc.ml" 62 1852 1859 "ocaml_src/utils/misc.ml" 62 1852 1868
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 62 1852 1870 "ocaml_src/utils/misc.ml" 62 1852 1874
+type(
+  'a
+)
+ident(
+  int_ref last "ocaml_src/utils/misc.ml" 61 1811 1827 "ocaml_src/utils/misc.ml" 61 1811 1831
+)
+"ocaml_src/utils/misc.ml" 62 1852 1858 "ocaml_src/utils/misc.ml" 62 1852 1875
+type(
+  'a list * 'a
+)
+"ocaml_src/utils/misc.ml" 61 1811 1817 "ocaml_src/utils/misc.ml" 62 1852 1875
+type(
+  'a list * 'a
+)
+"ocaml_src/utils/misc.ml" 57 1723 1744 "ocaml_src/utils/misc.ml" 62 1852 1875
+type(
+  'a list -> 'a list * 'a
+)
+"ocaml_src/utils/misc.ml" 64 1877 1885 "ocaml_src/utils/misc.ml" 64 1877 1893
+type(
+  ('a -> 'b -> bool) -> 'a list -> 'b list -> bool
+)
+ident(
+  def samelist "ocaml_src/utils/misc.ml" 64 1877 1877 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 64 1877 1894 "ocaml_src/utils/misc.ml" 64 1877 1898
+type(
+  'a -> 'b -> bool
+)
+ident(
+  def pred "ocaml_src/utils/misc.ml" 64 1877 1899 "ocaml_src/utils/misc.ml" 68 2020 2039
+)
+"ocaml_src/utils/misc.ml" 64 1877 1899 "ocaml_src/utils/misc.ml" 64 1877 1901
+type(
+  'a list
+)
+ident(
+  def l1 "ocaml_src/utils/misc.ml" 64 1877 1902 "ocaml_src/utils/misc.ml" 68 2020 2039
+)
+"ocaml_src/utils/misc.ml" 64 1877 1902 "ocaml_src/utils/misc.ml" 64 1877 1904
+type(
+  'b list
+)
+ident(
+  def l2 "ocaml_src/utils/misc.ml" 65 1907 1909 "ocaml_src/utils/misc.ml" 68 2020 2039
+)
+"ocaml_src/utils/misc.ml" 65 1907 1916 "ocaml_src/utils/misc.ml" 65 1907 1918
+type(
+  'a list
+)
+ident(
+  int_ref l1 "ocaml_src/utils/misc.ml" 64 1877 1899 "ocaml_src/utils/misc.ml" 64 1877 1901
+)
+"ocaml_src/utils/misc.ml" 65 1907 1920 "ocaml_src/utils/misc.ml" 65 1907 1922
+type(
+  'b list
+)
+ident(
+  int_ref l2 "ocaml_src/utils/misc.ml" 64 1877 1902 "ocaml_src/utils/misc.ml" 64 1877 1904
+)
+"ocaml_src/utils/misc.ml" 65 1907 1915 "ocaml_src/utils/misc.ml" 65 1907 1923
+type(
+  'a list * 'b list
+)
+"ocaml_src/utils/misc.ml" 66 1929 1934 "ocaml_src/utils/misc.ml" 66 1929 1936
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 66 1929 1938 "ocaml_src/utils/misc.ml" 66 1929 1940
+type(
+  'b list
+)
+"ocaml_src/utils/misc.ml" 66 1929 1933 "ocaml_src/utils/misc.ml" 66 1929 1941
+type(
+  'a list * 'b list
+)
+"ocaml_src/utils/misc.ml" 66 1929 1945 "ocaml_src/utils/misc.ml" 66 1929 1949
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 67 1950 1955 "ocaml_src/utils/misc.ml" 67 1950 1958
+type(
+  'a
+)
+ident(
+  def hd1 "ocaml_src/utils/misc.ml" 67 1950 1982 "ocaml_src/utils/misc.ml" 67 1950 2019
+)
+"ocaml_src/utils/misc.ml" 67 1950 1962 "ocaml_src/utils/misc.ml" 67 1950 1965
+type(
+  'a list
+)
+ident(
+  def tl1 "ocaml_src/utils/misc.ml" 67 1950 1982 "ocaml_src/utils/misc.ml" 67 1950 2019
+)
+"ocaml_src/utils/misc.ml" 67 1950 1955 "ocaml_src/utils/misc.ml" 67 1950 1965
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 67 1950 1967 "ocaml_src/utils/misc.ml" 67 1950 1970
+type(
+  'b
+)
+ident(
+  def hd2 "ocaml_src/utils/misc.ml" 67 1950 1982 "ocaml_src/utils/misc.ml" 67 1950 2019
+)
+"ocaml_src/utils/misc.ml" 67 1950 1974 "ocaml_src/utils/misc.ml" 67 1950 1977
+type(
+  'b list
+)
+ident(
+  def tl2 "ocaml_src/utils/misc.ml" 67 1950 1982 "ocaml_src/utils/misc.ml" 67 1950 2019
+)
+"ocaml_src/utils/misc.ml" 67 1950 1967 "ocaml_src/utils/misc.ml" 67 1950 1977
+type(
+  'b list
+)
+"ocaml_src/utils/misc.ml" 67 1950 1954 "ocaml_src/utils/misc.ml" 67 1950 1978
+type(
+  'a list * 'b list
+)
+"ocaml_src/utils/misc.ml" 67 1950 1982 "ocaml_src/utils/misc.ml" 67 1950 1986
+type(
+  'a -> 'b -> bool
+)
+ident(
+  int_ref pred "ocaml_src/utils/misc.ml" 64 1877 1894 "ocaml_src/utils/misc.ml" 64 1877 1898
+)
+"ocaml_src/utils/misc.ml" 67 1950 1987 "ocaml_src/utils/misc.ml" 67 1950 1990
+type(
+  'a
+)
+ident(
+  int_ref hd1 "ocaml_src/utils/misc.ml" 67 1950 1955 "ocaml_src/utils/misc.ml" 67 1950 1958
+)
+"ocaml_src/utils/misc.ml" 67 1950 1991 "ocaml_src/utils/misc.ml" 67 1950 1994
+type(
+  'b
+)
+ident(
+  int_ref hd2 "ocaml_src/utils/misc.ml" 67 1950 1967 "ocaml_src/utils/misc.ml" 67 1950 1970
+)
+"ocaml_src/utils/misc.ml" 67 1950 1982 "ocaml_src/utils/misc.ml" 67 1950 1994
+call(
+  stack
+)
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 67 1950 1995 "ocaml_src/utils/misc.ml" 67 1950 1997
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/utils/misc.ml" 67 1950 1998 "ocaml_src/utils/misc.ml" 67 1950 2006
+type(
+  ('a -> 'b -> bool) -> 'a list -> 'b list -> bool
+)
+ident(
+  int_ref samelist "ocaml_src/utils/misc.ml" 64 1877 1885 "ocaml_src/utils/misc.ml" 64 1877 1893
+)
+"ocaml_src/utils/misc.ml" 67 1950 2007 "ocaml_src/utils/misc.ml" 67 1950 2011
+type(
+  'a -> 'b -> bool
+)
+ident(
+  int_ref pred "ocaml_src/utils/misc.ml" 64 1877 1894 "ocaml_src/utils/misc.ml" 64 1877 1898
+)
+"ocaml_src/utils/misc.ml" 67 1950 2012 "ocaml_src/utils/misc.ml" 67 1950 2015
+type(
+  'a list
+)
+ident(
+  int_ref tl1 "ocaml_src/utils/misc.ml" 67 1950 1962 "ocaml_src/utils/misc.ml" 67 1950 1965
+)
+"ocaml_src/utils/misc.ml" 67 1950 2016 "ocaml_src/utils/misc.ml" 67 1950 2019
+type(
+  'b list
+)
+ident(
+  int_ref tl2 "ocaml_src/utils/misc.ml" 67 1950 1974 "ocaml_src/utils/misc.ml" 67 1950 1977
+)
+"ocaml_src/utils/misc.ml" 67 1950 1998 "ocaml_src/utils/misc.ml" 67 1950 2019
+call(
+  tail
+)
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 67 1950 1982 "ocaml_src/utils/misc.ml" 67 1950 2019
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 68 2020 2025 "ocaml_src/utils/misc.ml" 68 2020 2026
+type(
+  'a list
+)
+"ocaml_src/utils/misc.ml" 68 2020 2028 "ocaml_src/utils/misc.ml" 68 2020 2029
+type(
+  'b list
+)
+"ocaml_src/utils/misc.ml" 68 2020 2024 "ocaml_src/utils/misc.ml" 68 2020 2030
+type(
+  'a list * 'b list
+)
+"ocaml_src/utils/misc.ml" 68 2020 2034 "ocaml_src/utils/misc.ml" 68 2020 2039
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 65 1907 1909 "ocaml_src/utils/misc.ml" 68 2020 2039
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 72 2056 2060 "ocaml_src/utils/misc.ml" 72 2056 2063
+type(
+  ('a -> unit) -> 'a option -> unit
+)
+ident(
+  def may "ocaml_src/utils/misc.ml" 76 2111 2111 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 72 2056 2064 "ocaml_src/utils/misc.ml" 72 2056 2065
+type(
+  'a -> unit
+)
+ident(
+  def f "ocaml_src/utils/misc.ml" 72 2056 2068 "ocaml_src/utils/misc.ml" 74 2095 2109
+)
+"ocaml_src/utils/misc.ml" 73 2077 2086 "ocaml_src/utils/misc.ml" 73 2077 2087
+type(
+  'a
+)
+ident(
+  def x "ocaml_src/utils/misc.ml" 73 2077 2091 "ocaml_src/utils/misc.ml" 73 2077 2094
+)
+"ocaml_src/utils/misc.ml" 73 2077 2081 "ocaml_src/utils/misc.ml" 73 2077 2087
+type(
+  'a option
+)
+"ocaml_src/utils/misc.ml" 73 2077 2091 "ocaml_src/utils/misc.ml" 73 2077 2092
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "ocaml_src/utils/misc.ml" 72 2056 2064 "ocaml_src/utils/misc.ml" 72 2056 2065
+)
+"ocaml_src/utils/misc.ml" 73 2077 2093 "ocaml_src/utils/misc.ml" 73 2077 2094
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/misc.ml" 73 2077 2086 "ocaml_src/utils/misc.ml" 73 2077 2087
+)
+"ocaml_src/utils/misc.ml" 73 2077 2091 "ocaml_src/utils/misc.ml" 73 2077 2094
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 74 2095 2099 "ocaml_src/utils/misc.ml" 74 2095 2103
+type(
+  'a option
+)
+"ocaml_src/utils/misc.ml" 74 2095 2107 "ocaml_src/utils/misc.ml" 74 2095 2109
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 72 2056 2068 "ocaml_src/utils/misc.ml" 74 2095 2109
+type(
+  'a option -> unit
+)
+"ocaml_src/utils/misc.ml" 76 2111 2115 "ocaml_src/utils/misc.ml" 76 2111 2122
+type(
+  ('a -> 'b) -> 'a option -> 'b option
+)
+ident(
+  def may_map "ocaml_src/utils/misc.ml" 82 2201 2201 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 76 2111 2123 "ocaml_src/utils/misc.ml" 76 2111 2124
+type(
+  'a -> 'b
+)
+ident(
+  def f "ocaml_src/utils/misc.ml" 76 2111 2127 "ocaml_src/utils/misc.ml" 78 2161 2177
+)
+"ocaml_src/utils/misc.ml" 77 2136 2145 "ocaml_src/utils/misc.ml" 77 2136 2146
+type(
+  'a
+)
+ident(
+  def x "ocaml_src/utils/misc.ml" 77 2136 2150 "ocaml_src/utils/misc.ml" 77 2136 2160
+)
+"ocaml_src/utils/misc.ml" 77 2136 2140 "ocaml_src/utils/misc.ml" 77 2136 2146
+type(
+  'a option
+)
+"ocaml_src/utils/misc.ml" 77 2136 2156 "ocaml_src/utils/misc.ml" 77 2136 2157
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "ocaml_src/utils/misc.ml" 76 2111 2123 "ocaml_src/utils/misc.ml" 76 2111 2124
+)
+"ocaml_src/utils/misc.ml" 77 2136 2158 "ocaml_src/utils/misc.ml" 77 2136 2159
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/misc.ml" 77 2136 2145 "ocaml_src/utils/misc.ml" 77 2136 2146
+)
+"ocaml_src/utils/misc.ml" 77 2136 2155 "ocaml_src/utils/misc.ml" 77 2136 2160
+call(
+  stack
+)
+type(
+  'b
+)
+"ocaml_src/utils/misc.ml" 77 2136 2150 "ocaml_src/utils/misc.ml" 77 2136 2160
+type(
+  'b option
+)
+"ocaml_src/utils/misc.ml" 78 2161 2165 "ocaml_src/utils/misc.ml" 78 2161 2169
+type(
+  'a option
+)
+"ocaml_src/utils/misc.ml" 78 2161 2173 "ocaml_src/utils/misc.ml" 78 2161 2177
+type(
+  'b option
+)
+"ocaml_src/utils/misc.ml" 76 2111 2127 "ocaml_src/utils/misc.ml" 78 2161 2177
+type(
+  'a option -> 'b option
+)
+"ocaml_src/utils/misc.ml" 82 2201 2205 "ocaml_src/utils/misc.ml" 82 2201 2217
+type(
+  string list -> string -> string
+)
+ident(
+  def find_in_path "ocaml_src/utils/misc.ml" 94 2566 2566 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 82 2201 2218 "ocaml_src/utils/misc.ml" 82 2201 2222
+type(
+  string list
+)
+ident(
+  def path "ocaml_src/utils/misc.ml" 82 2201 2223 "ocaml_src/utils/misc.ml" 92 2559 2564
+)
+"ocaml_src/utils/misc.ml" 82 2201 2223 "ocaml_src/utils/misc.ml" 82 2201 2227
+type(
+  string
+)
+ident(
+  def name "ocaml_src/utils/misc.ml" 83 2230 2232 "ocaml_src/utils/misc.ml" 92 2559 2564
+)
+"ocaml_src/utils/misc.ml" 83 2230 2235 "ocaml_src/utils/misc.ml" 83 2230 2238
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocaml_src/utils/misc.ml" 83 2230 2240 "ocaml_src/utils/misc.ml" 83 2230 2260
+type(
+  string -> bool
+)
+ident(
+  ext_ref Filename.is_implicit
+)
+"ocaml_src/utils/misc.ml" 83 2230 2261 "ocaml_src/utils/misc.ml" 83 2230 2265
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/misc.ml" 82 2201 2223 "ocaml_src/utils/misc.ml" 82 2201 2227
+)
+"ocaml_src/utils/misc.ml" 83 2230 2239 "ocaml_src/utils/misc.ml" 83 2230 2266
+call(
+  stack
+)
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 83 2230 2235 "ocaml_src/utils/misc.ml" 83 2230 2266
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 84 2272 2279 "ocaml_src/utils/misc.ml" 84 2272 2294
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"ocaml_src/utils/misc.ml" 84 2272 2295 "ocaml_src/utils/misc.ml" 84 2272 2299
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/misc.ml" 82 2201 2223 "ocaml_src/utils/misc.ml" 82 2201 2227
+)
+"ocaml_src/utils/misc.ml" 84 2272 2279 "ocaml_src/utils/misc.ml" 84 2272 2299
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 84 2272 2305 "ocaml_src/utils/misc.ml" 84 2272 2309
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/misc.ml" 82 2201 2223 "ocaml_src/utils/misc.ml" 82 2201 2227
+)
+"ocaml_src/utils/misc.ml" 84 2272 2315 "ocaml_src/utils/misc.ml" 84 2272 2320
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/utils/misc.ml" 84 2272 2321 "ocaml_src/utils/misc.ml" 84 2272 2330
+type(
+  exn
+)
+"ocaml_src/utils/misc.ml" 84 2272 2315 "ocaml_src/utils/misc.ml" 84 2272 2330
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 84 2272 2276 "ocaml_src/utils/misc.ml" 84 2272 2330
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 86 2344 2356 "ocaml_src/utils/misc.ml" 86 2344 2363
+type(
+  string list -> string
+)
+ident(
+  def try_dir "ocaml_src/utils/misc.ml" 85 2331 2338 "ocaml_src/utils/misc.ml" 92 2559 2564
+)
+"ocaml_src/utils/misc.ml" 87 2375 2381 "ocaml_src/utils/misc.ml" 87 2375 2383
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 87 2375 2387 "ocaml_src/utils/misc.ml" 87 2375 2392
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/utils/misc.ml" 87 2375 2393 "ocaml_src/utils/misc.ml" 87 2375 2402
+type(
+  exn
+)
+"ocaml_src/utils/misc.ml" 87 2375 2387 "ocaml_src/utils/misc.ml" 87 2375 2402
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 88 2403 2409 "ocaml_src/utils/misc.ml" 88 2403 2412
+type(
+  string
+)
+ident(
+  def dir "ocaml_src/utils/misc.ml" 89 2421 2429 "ocaml_src/utils/misc.ml" 90 2472 2538
+)
+"ocaml_src/utils/misc.ml" 88 2403 2414 "ocaml_src/utils/misc.ml" 88 2403 2417
+type(
+  string list
+)
+ident(
+  def rem "ocaml_src/utils/misc.ml" 89 2421 2429 "ocaml_src/utils/misc.ml" 90 2472 2538
+)
+"ocaml_src/utils/misc.ml" 88 2403 2409 "ocaml_src/utils/misc.ml" 88 2403 2417
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 89 2421 2433 "ocaml_src/utils/misc.ml" 89 2421 2441
+type(
+  string
+)
+ident(
+  def fullname "ocaml_src/utils/misc.ml" 90 2472 2480 "ocaml_src/utils/misc.ml" 90 2472 2538
+)
+"ocaml_src/utils/misc.ml" 89 2421 2444 "ocaml_src/utils/misc.ml" 89 2421 2459
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"ocaml_src/utils/misc.ml" 89 2421 2460 "ocaml_src/utils/misc.ml" 89 2421 2463
+type(
+  string
+)
+ident(
+  int_ref dir "ocaml_src/utils/misc.ml" 88 2403 2409 "ocaml_src/utils/misc.ml" 88 2403 2412
+)
+"ocaml_src/utils/misc.ml" 89 2421 2464 "ocaml_src/utils/misc.ml" 89 2421 2468
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/misc.ml" 82 2201 2223 "ocaml_src/utils/misc.ml" 82 2201 2227
+)
+"ocaml_src/utils/misc.ml" 89 2421 2444 "ocaml_src/utils/misc.ml" 89 2421 2468
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 90 2472 2483 "ocaml_src/utils/misc.ml" 90 2472 2498
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"ocaml_src/utils/misc.ml" 90 2472 2499 "ocaml_src/utils/misc.ml" 90 2472 2507
+type(
+  string
+)
+ident(
+  int_ref fullname "ocaml_src/utils/misc.ml" 89 2421 2433 "ocaml_src/utils/misc.ml" 89 2421 2441
+)
+"ocaml_src/utils/misc.ml" 90 2472 2483 "ocaml_src/utils/misc.ml" 90 2472 2507
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 90 2472 2513 "ocaml_src/utils/misc.ml" 90 2472 2521
+type(
+  string
+)
+ident(
+  int_ref fullname "ocaml_src/utils/misc.ml" 89 2421 2433 "ocaml_src/utils/misc.ml" 89 2421 2441
+)
+"ocaml_src/utils/misc.ml" 90 2472 2527 "ocaml_src/utils/misc.ml" 90 2472 2534
+type(
+  string list -> string
+)
+ident(
+  int_ref try_dir "ocaml_src/utils/misc.ml" 86 2344 2356 "ocaml_src/utils/misc.ml" 86 2344 2363
+)
+"ocaml_src/utils/misc.ml" 90 2472 2535 "ocaml_src/utils/misc.ml" 90 2472 2538
+type(
+  string list
+)
+ident(
+  int_ref rem "ocaml_src/utils/misc.ml" 88 2403 2414 "ocaml_src/utils/misc.ml" 88 2403 2417
+)
+"ocaml_src/utils/misc.ml" 90 2472 2527 "ocaml_src/utils/misc.ml" 90 2472 2538
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 90 2472 2480 "ocaml_src/utils/misc.ml" 90 2472 2538
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 89 2421 2429 "ocaml_src/utils/misc.ml" 90 2472 2538
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 86 2344 2366 "ocaml_src/utils/misc.ml" 90 2472 2538
+type(
+  string list -> string
+)
+"ocaml_src/utils/misc.ml" 91 2539 2546 "ocaml_src/utils/misc.ml" 91 2539 2553
+type(
+  string list -> string
+)
+ident(
+  int_ref try_dir "ocaml_src/utils/misc.ml" 86 2344 2356 "ocaml_src/utils/misc.ml" 86 2344 2363
+)
+"ocaml_src/utils/misc.ml" 91 2539 2554 "ocaml_src/utils/misc.ml" 91 2539 2558
+type(
+  string list
+)
+ident(
+  int_ref path "ocaml_src/utils/misc.ml" 82 2201 2218 "ocaml_src/utils/misc.ml" 82 2201 2222
+)
+"ocaml_src/utils/misc.ml" 91 2539 2546 "ocaml_src/utils/misc.ml" 91 2539 2558
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 85 2331 2338 "ocaml_src/utils/misc.ml" 92 2559 2564
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 83 2230 2232 "ocaml_src/utils/misc.ml" 92 2559 2564
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 94 2566 2570 "ocaml_src/utils/misc.ml" 94 2566 2588
+type(
+  string list -> string -> string
+)
+ident(
+  def find_in_path_uncap "ocaml_src/utils/misc.ml" 106 2956 2956 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 94 2566 2589 "ocaml_src/utils/misc.ml" 94 2566 2593
+type(
+  string list
+)
+ident(
+  def path "ocaml_src/utils/misc.ml" 94 2566 2594 "ocaml_src/utils/misc.ml" 104 2937 2954
+)
+"ocaml_src/utils/misc.ml" 94 2566 2594 "ocaml_src/utils/misc.ml" 94 2566 2598
+type(
+  string
+)
+ident(
+  def name "ocaml_src/utils/misc.ml" 95 2601 2603 "ocaml_src/utils/misc.ml" 104 2937 2954
+)
+"ocaml_src/utils/misc.ml" 95 2601 2607 "ocaml_src/utils/misc.ml" 95 2601 2612
+type(
+  string
+)
+ident(
+  def uname "ocaml_src/utils/misc.ml" 96 2643 2645 "ocaml_src/utils/misc.ml" 104 2937 2954
+)
+"ocaml_src/utils/misc.ml" 95 2601 2615 "ocaml_src/utils/misc.ml" 95 2601 2634
+type(
+  string -> string
+)
+ident(
+  ext_ref String.uncapitalize
+)
+"ocaml_src/utils/misc.ml" 95 2601 2635 "ocaml_src/utils/misc.ml" 95 2601 2639
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/misc.ml" 94 2566 2594 "ocaml_src/utils/misc.ml" 94 2566 2598
+)
+"ocaml_src/utils/misc.ml" 95 2601 2615 "ocaml_src/utils/misc.ml" 95 2601 2639
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 96 2643 2653 "ocaml_src/utils/misc.ml" 96 2643 2660
+type(
+  string list -> string
+)
+ident(
+  def try_dir "ocaml_src/utils/misc.ml" 96 2643 2645 "ocaml_src/utils/misc.ml" 104 2937 2954
+)
+"ocaml_src/utils/misc.ml" 97 2672 2676 "ocaml_src/utils/misc.ml" 97 2672 2678
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 97 2672 2682 "ocaml_src/utils/misc.ml" 97 2672 2687
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/utils/misc.ml" 97 2672 2688 "ocaml_src/utils/misc.ml" 97 2672 2697
+type(
+  exn
+)
+"ocaml_src/utils/misc.ml" 97 2672 2682 "ocaml_src/utils/misc.ml" 97 2672 2697
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 98 2698 2702 "ocaml_src/utils/misc.ml" 98 2698 2705
+type(
+  string
+)
+ident(
+  def dir "ocaml_src/utils/misc.ml" 99 2714 2720 "ocaml_src/utils/misc.ml" 103 2914 2936
+)
+"ocaml_src/utils/misc.ml" 98 2698 2707 "ocaml_src/utils/misc.ml" 98 2698 2710
+type(
+  string list
+)
+ident(
+  def rem "ocaml_src/utils/misc.ml" 99 2714 2720 "ocaml_src/utils/misc.ml" 103 2914 2936
+)
+"ocaml_src/utils/misc.ml" 98 2698 2702 "ocaml_src/utils/misc.ml" 98 2698 2710
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 99 2714 2724 "ocaml_src/utils/misc.ml" 99 2714 2732
+type(
+  string
+)
+ident(
+  def fullname "ocaml_src/utils/misc.ml" 101 2811 2817 "ocaml_src/utils/misc.ml" 103 2914 2936
+)
+"ocaml_src/utils/misc.ml" 99 2714 2735 "ocaml_src/utils/misc.ml" 99 2714 2750
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"ocaml_src/utils/misc.ml" 99 2714 2751 "ocaml_src/utils/misc.ml" 99 2714 2754
+type(
+  string
+)
+ident(
+  int_ref dir "ocaml_src/utils/misc.ml" 98 2698 2702 "ocaml_src/utils/misc.ml" 98 2698 2705
+)
+"ocaml_src/utils/misc.ml" 99 2714 2755 "ocaml_src/utils/misc.ml" 99 2714 2759
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/misc.ml" 94 2566 2594 "ocaml_src/utils/misc.ml" 94 2566 2598
+)
+"ocaml_src/utils/misc.ml" 99 2714 2735 "ocaml_src/utils/misc.ml" 99 2714 2759
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 100 2760 2770 "ocaml_src/utils/misc.ml" 100 2760 2779
+type(
+  string
+)
+ident(
+  def ufullname "ocaml_src/utils/misc.ml" 101 2811 2817 "ocaml_src/utils/misc.ml" 103 2914 2936
+)
+"ocaml_src/utils/misc.ml" 100 2760 2782 "ocaml_src/utils/misc.ml" 100 2760 2797
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"ocaml_src/utils/misc.ml" 100 2760 2798 "ocaml_src/utils/misc.ml" 100 2760 2801
+type(
+  string
+)
+ident(
+  int_ref dir "ocaml_src/utils/misc.ml" 98 2698 2702 "ocaml_src/utils/misc.ml" 98 2698 2705
+)
+"ocaml_src/utils/misc.ml" 100 2760 2802 "ocaml_src/utils/misc.ml" 100 2760 2807
+type(
+  string
+)
+ident(
+  int_ref uname "ocaml_src/utils/misc.ml" 95 2601 2607 "ocaml_src/utils/misc.ml" 95 2601 2612
+)
+"ocaml_src/utils/misc.ml" 100 2760 2782 "ocaml_src/utils/misc.ml" 100 2760 2807
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 101 2811 2820 "ocaml_src/utils/misc.ml" 101 2811 2835
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"ocaml_src/utils/misc.ml" 101 2811 2836 "ocaml_src/utils/misc.ml" 101 2811 2845
+type(
+  string
+)
+ident(
+  int_ref ufullname "ocaml_src/utils/misc.ml" 100 2760 2770 "ocaml_src/utils/misc.ml" 100 2760 2779
+)
+"ocaml_src/utils/misc.ml" 101 2811 2820 "ocaml_src/utils/misc.ml" 101 2811 2845
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 101 2811 2851 "ocaml_src/utils/misc.ml" 101 2811 2860
+type(
+  string
+)
+ident(
+  int_ref ufullname "ocaml_src/utils/misc.ml" 100 2760 2770 "ocaml_src/utils/misc.ml" 100 2760 2779
+)
+"ocaml_src/utils/misc.ml" 102 2861 2875 "ocaml_src/utils/misc.ml" 102 2861 2890
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"ocaml_src/utils/misc.ml" 102 2861 2891 "ocaml_src/utils/misc.ml" 102 2861 2899
+type(
+  string
+)
+ident(
+  int_ref fullname "ocaml_src/utils/misc.ml" 99 2714 2724 "ocaml_src/utils/misc.ml" 99 2714 2732
+)
+"ocaml_src/utils/misc.ml" 102 2861 2875 "ocaml_src/utils/misc.ml" 102 2861 2899
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 102 2861 2905 "ocaml_src/utils/misc.ml" 102 2861 2913
+type(
+  string
+)
+ident(
+  int_ref fullname "ocaml_src/utils/misc.ml" 99 2714 2724 "ocaml_src/utils/misc.ml" 99 2714 2732
+)
+"ocaml_src/utils/misc.ml" 103 2914 2925 "ocaml_src/utils/misc.ml" 103 2914 2932
+type(
+  string list -> string
+)
+ident(
+  int_ref try_dir "ocaml_src/utils/misc.ml" 96 2643 2653 "ocaml_src/utils/misc.ml" 96 2643 2660
+)
+"ocaml_src/utils/misc.ml" 103 2914 2933 "ocaml_src/utils/misc.ml" 103 2914 2936
+type(
+  string list
+)
+ident(
+  int_ref rem "ocaml_src/utils/misc.ml" 98 2698 2707 "ocaml_src/utils/misc.ml" 98 2698 2710
+)
+"ocaml_src/utils/misc.ml" 103 2914 2925 "ocaml_src/utils/misc.ml" 103 2914 2936
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 102 2861 2872 "ocaml_src/utils/misc.ml" 103 2914 2936
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 101 2811 2817 "ocaml_src/utils/misc.ml" 103 2914 2936
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 99 2714 2720 "ocaml_src/utils/misc.ml" 103 2914 2936
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 96 2643 2663 "ocaml_src/utils/misc.ml" 103 2914 2936
+type(
+  string list -> string
+)
+"ocaml_src/utils/misc.ml" 104 2937 2942 "ocaml_src/utils/misc.ml" 104 2937 2949
+type(
+  string list -> string
+)
+ident(
+  int_ref try_dir "ocaml_src/utils/misc.ml" 96 2643 2653 "ocaml_src/utils/misc.ml" 96 2643 2660
+)
+"ocaml_src/utils/misc.ml" 104 2937 2950 "ocaml_src/utils/misc.ml" 104 2937 2954
+type(
+  string list
+)
+ident(
+  int_ref path "ocaml_src/utils/misc.ml" 94 2566 2589 "ocaml_src/utils/misc.ml" 94 2566 2593
+)
+"ocaml_src/utils/misc.ml" 104 2937 2942 "ocaml_src/utils/misc.ml" 104 2937 2954
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 96 2643 2645 "ocaml_src/utils/misc.ml" 104 2937 2954
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 95 2601 2603 "ocaml_src/utils/misc.ml" 104 2937 2954
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 106 2956 2960 "ocaml_src/utils/misc.ml" 106 2956 2971
+type(
+  string -> unit
+)
+ident(
+  def remove_file "ocaml_src/utils/misc.ml" 115 3145 3145 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 106 2956 2972 "ocaml_src/utils/misc.ml" 106 2956 2980
+type(
+  string
+)
+ident(
+  def filename "ocaml_src/utils/misc.ml" 107 2983 2985 "ocaml_src/utils/misc.ml" 110 3035 3041
+)
+"ocaml_src/utils/misc.ml" 108 2989 2993 "ocaml_src/utils/misc.ml" 108 2989 3003
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"ocaml_src/utils/misc.ml" 108 2989 3004 "ocaml_src/utils/misc.ml" 108 2989 3012
+type(
+  string
+)
+ident(
+  int_ref filename "ocaml_src/utils/misc.ml" 106 2956 2972 "ocaml_src/utils/misc.ml" 106 2956 2980
+)
+"ocaml_src/utils/misc.ml" 108 2989 2993 "ocaml_src/utils/misc.ml" 108 2989 3012
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 109 3013 3030 "ocaml_src/utils/misc.ml" 109 3013 3031
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 109 3013 3020 "ocaml_src/utils/misc.ml" 109 3013 3031
+type(
+  exn
+)
+"ocaml_src/utils/misc.ml" 110 3035 3039 "ocaml_src/utils/misc.ml" 110 3035 3041
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 107 2983 2985 "ocaml_src/utils/misc.ml" 110 3035 3041
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 115 3145 3149 "ocaml_src/utils/misc.ml" 115 3145 3165
+type(
+  string -> string -> string
+)
+ident(
+  def expand_directory "ocaml_src/utils/misc.ml" 123 3340 3340 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 115 3145 3166 "ocaml_src/utils/misc.ml" 115 3145 3169
+type(
+  string
+)
+ident(
+  def alt "ocaml_src/utils/misc.ml" 115 3145 3170 "ocaml_src/utils/misc.ml" 119 3303 3311
+)
+"ocaml_src/utils/misc.ml" 115 3145 3170 "ocaml_src/utils/misc.ml" 115 3145 3171
+type(
+  string
+)
+ident(
+  def s "ocaml_src/utils/misc.ml" 116 3174 3176 "ocaml_src/utils/misc.ml" 119 3303 3311
+)
+"ocaml_src/utils/misc.ml" 116 3174 3179 "ocaml_src/utils/misc.ml" 116 3174 3192
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/misc.ml" 116 3174 3193 "ocaml_src/utils/misc.ml" 116 3174 3194
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/misc.ml" 115 3145 3170 "ocaml_src/utils/misc.ml" 115 3145 3171
+)
+"ocaml_src/utils/misc.ml" 116 3174 3179 "ocaml_src/utils/misc.ml" 116 3174 3194
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 116 3174 3195 "ocaml_src/utils/misc.ml" 116 3174 3196
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ocaml_src/utils/misc.ml" 116 3174 3197 "ocaml_src/utils/misc.ml" 116 3174 3198
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 116 3174 3179 "ocaml_src/utils/misc.ml" 116 3174 3198
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 116 3174 3199 "ocaml_src/utils/misc.ml" 116 3174 3201
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/utils/misc.ml" 116 3174 3202 "ocaml_src/utils/misc.ml" 116 3174 3203
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/misc.ml" 115 3145 3170 "ocaml_src/utils/misc.ml" 115 3145 3171
+)
+"ocaml_src/utils/misc.ml" 116 3174 3205 "ocaml_src/utils/misc.ml" 116 3174 3206
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 116 3174 3202 "ocaml_src/utils/misc.ml" 116 3174 3207
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 116 3174 3208 "ocaml_src/utils/misc.ml" 116 3174 3209
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/misc.ml" 116 3174 3210 "ocaml_src/utils/misc.ml" 116 3174 3213
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 116 3174 3202 "ocaml_src/utils/misc.ml" 116 3174 3213
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 116 3174 3179 "ocaml_src/utils/misc.ml" 116 3174 3213
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 117 3214 3221 "ocaml_src/utils/misc.ml" 117 3214 3236
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"ocaml_src/utils/misc.ml" 117 3214 3237 "ocaml_src/utils/misc.ml" 117 3214 3240
+type(
+  string
+)
+ident(
+  int_ref alt "ocaml_src/utils/misc.ml" 115 3145 3166 "ocaml_src/utils/misc.ml" 115 3145 3169
+)
+"ocaml_src/utils/misc.ml" 118 3241 3265 "ocaml_src/utils/misc.ml" 118 3241 3275
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"ocaml_src/utils/misc.ml" 118 3241 3276 "ocaml_src/utils/misc.ml" 118 3241 3277
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/misc.ml" 115 3145 3170 "ocaml_src/utils/misc.ml" 115 3145 3171
+)
+"ocaml_src/utils/misc.ml" 118 3241 3278 "ocaml_src/utils/misc.ml" 118 3241 3279
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 118 3241 3281 "ocaml_src/utils/misc.ml" 118 3241 3294
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/misc.ml" 118 3241 3295 "ocaml_src/utils/misc.ml" 118 3241 3296
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/misc.ml" 115 3145 3170 "ocaml_src/utils/misc.ml" 115 3145 3171
+)
+"ocaml_src/utils/misc.ml" 118 3241 3281 "ocaml_src/utils/misc.ml" 118 3241 3296
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 118 3241 3297 "ocaml_src/utils/misc.ml" 118 3241 3298
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/utils/misc.ml" 118 3241 3299 "ocaml_src/utils/misc.ml" 118 3241 3300
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 118 3241 3280 "ocaml_src/utils/misc.ml" 118 3241 3301
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 118 3241 3264 "ocaml_src/utils/misc.ml" 118 3241 3302
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 117 3214 3221 "ocaml_src/utils/misc.ml" 118 3241 3302
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 119 3303 3310 "ocaml_src/utils/misc.ml" 119 3303 3311
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/misc.ml" 115 3145 3170 "ocaml_src/utils/misc.ml" 115 3145 3171
+)
+"ocaml_src/utils/misc.ml" 116 3174 3176 "ocaml_src/utils/misc.ml" 119 3303 3311
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 123 3340 3344 "ocaml_src/utils/misc.ml" 123 3340 3360
+type(
+  int -> ('a * 'b) list -> ('a, 'b) Hashtbl.t
+)
+ident(
+  def create_hashtable "ocaml_src/utils/misc.ml" 130 3496 3496 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 123 3340 3361 "ocaml_src/utils/misc.ml" 123 3340 3365
+type(
+  int
+)
+ident(
+  def size "ocaml_src/utils/misc.ml" 123 3340 3366 "ocaml_src/utils/misc.ml" 126 3472 3477
+)
+"ocaml_src/utils/misc.ml" 123 3340 3366 "ocaml_src/utils/misc.ml" 123 3340 3370
+type(
+  ('a * 'b) list
+)
+ident(
+  def init "ocaml_src/utils/misc.ml" 124 3373 3375 "ocaml_src/utils/misc.ml" 126 3472 3477
+)
+"ocaml_src/utils/misc.ml" 124 3373 3379 "ocaml_src/utils/misc.ml" 124 3373 3382
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  def tbl "ocaml_src/utils/misc.ml" 125 3408 3410 "ocaml_src/utils/misc.ml" 126 3472 3477
+)
+"ocaml_src/utils/misc.ml" 124 3373 3385 "ocaml_src/utils/misc.ml" 124 3373 3399
+type(
+  ?random:bool -> int -> ('a, 'b) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ocaml_src/utils/misc.ml" 124 3373 3400 "ocaml_src/utils/misc.ml" 124 3373 3404
+type(
+  int
+)
+ident(
+  int_ref size "ocaml_src/utils/misc.ml" 123 3340 3361 "ocaml_src/utils/misc.ml" 123 3340 3365
+)
+"ocaml_src/utils/misc.ml" 124 3373 3385 "ocaml_src/utils/misc.ml" 124 3373 3404
+call(
+  stack
+)
+type(
+  ('a, 'b) Hashtbl.t
+)
+"ocaml_src/utils/misc.ml" 125 3408 3410 "ocaml_src/utils/misc.ml" 125 3408 3419
+type(
+  ('a * 'b -> unit) -> ('a * 'b) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ocaml_src/utils/misc.ml" 125 3408 3426 "ocaml_src/utils/misc.ml" 125 3408 3429
+type(
+  'a
+)
+ident(
+  def key "ocaml_src/utils/misc.ml" 125 3408 3440 "ocaml_src/utils/misc.ml" 125 3408 3464
+)
+"ocaml_src/utils/misc.ml" 125 3408 3431 "ocaml_src/utils/misc.ml" 125 3408 3435
+type(
+  'b
+)
+ident(
+  def data "ocaml_src/utils/misc.ml" 125 3408 3440 "ocaml_src/utils/misc.ml" 125 3408 3464
+)
+"ocaml_src/utils/misc.ml" 125 3408 3425 "ocaml_src/utils/misc.ml" 125 3408 3436
+type(
+  'a * 'b
+)
+"ocaml_src/utils/misc.ml" 125 3408 3440 "ocaml_src/utils/misc.ml" 125 3408 3451
+type(
+  ('a, 'b) Hashtbl.t -> 'a -> 'b -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"ocaml_src/utils/misc.ml" 125 3408 3452 "ocaml_src/utils/misc.ml" 125 3408 3455
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref tbl "ocaml_src/utils/misc.ml" 124 3373 3379 "ocaml_src/utils/misc.ml" 124 3373 3382
+)
+"ocaml_src/utils/misc.ml" 125 3408 3456 "ocaml_src/utils/misc.ml" 125 3408 3459
+type(
+  'a
+)
+ident(
+  int_ref key "ocaml_src/utils/misc.ml" 125 3408 3426 "ocaml_src/utils/misc.ml" 125 3408 3429
+)
+"ocaml_src/utils/misc.ml" 125 3408 3460 "ocaml_src/utils/misc.ml" 125 3408 3464
+type(
+  'b
+)
+ident(
+  int_ref data "ocaml_src/utils/misc.ml" 125 3408 3431 "ocaml_src/utils/misc.ml" 125 3408 3435
+)
+"ocaml_src/utils/misc.ml" 125 3408 3440 "ocaml_src/utils/misc.ml" 125 3408 3464
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 125 3408 3420 "ocaml_src/utils/misc.ml" 125 3408 3465
+type(
+  'a * 'b -> unit
+)
+"ocaml_src/utils/misc.ml" 125 3408 3466 "ocaml_src/utils/misc.ml" 125 3408 3470
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref init "ocaml_src/utils/misc.ml" 123 3340 3366 "ocaml_src/utils/misc.ml" 123 3340 3370
+)
+"ocaml_src/utils/misc.ml" 125 3408 3410 "ocaml_src/utils/misc.ml" 125 3408 3470
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 126 3472 3474 "ocaml_src/utils/misc.ml" 126 3472 3477
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref tbl "ocaml_src/utils/misc.ml" 124 3373 3379 "ocaml_src/utils/misc.ml" 124 3373 3382
+)
+"ocaml_src/utils/misc.ml" 125 3408 3410 "ocaml_src/utils/misc.ml" 126 3472 3477
+type(
+  ('a, 'b) Hashtbl.t
+)
+"ocaml_src/utils/misc.ml" 124 3373 3375 "ocaml_src/utils/misc.ml" 126 3472 3477
+type(
+  ('a, 'b) Hashtbl.t
+)
+"ocaml_src/utils/misc.ml" 130 3496 3500 "ocaml_src/utils/misc.ml" 130 3496 3509
+type(
+  in_channel -> out_channel -> unit
+)
+ident(
+  def copy_file "ocaml_src/utils/misc.ml" 137 3681 3681 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 130 3496 3510 "ocaml_src/utils/misc.ml" 130 3496 3512
+type(
+  in_channel
+)
+ident(
+  def ic "ocaml_src/utils/misc.ml" 130 3496 3513 "ocaml_src/utils/misc.ml" 135 3668 3679
+)
+"ocaml_src/utils/misc.ml" 130 3496 3513 "ocaml_src/utils/misc.ml" 130 3496 3515
+type(
+  out_channel
+)
+ident(
+  def oc "ocaml_src/utils/misc.ml" 131 3518 3520 "ocaml_src/utils/misc.ml" 135 3668 3679
+)
+"ocaml_src/utils/misc.ml" 131 3518 3524 "ocaml_src/utils/misc.ml" 131 3518 3528
+type(
+  bytes
+)
+ident(
+  def buff "ocaml_src/utils/misc.ml" 132 3555 3557 "ocaml_src/utils/misc.ml" 135 3668 3679
+)
+"ocaml_src/utils/misc.ml" 131 3518 3531 "ocaml_src/utils/misc.ml" 131 3518 3544
+type(
+  int -> bytes
+)
+ident(
+  ext_ref String.create
+)
+"ocaml_src/utils/misc.ml" 131 3518 3545 "ocaml_src/utils/misc.ml" 131 3518 3551
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 131 3518 3531 "ocaml_src/utils/misc.ml" 131 3518 3551
+type(
+  bytes
+)
+"ocaml_src/utils/misc.ml" 132 3555 3565 "ocaml_src/utils/misc.ml" 132 3555 3569
+type(
+  unit -> unit
+)
+ident(
+  def copy "ocaml_src/utils/misc.ml" 132 3555 3557 "ocaml_src/utils/misc.ml" 135 3668 3679
+)
+"ocaml_src/utils/misc.ml" 132 3555 3570 "ocaml_src/utils/misc.ml" 132 3555 3572
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 133 3575 3583 "ocaml_src/utils/misc.ml" 133 3575 3584
+type(
+  int
+)
+ident(
+  def n "ocaml_src/utils/misc.ml" 134 3613 3617 "ocaml_src/utils/misc.ml" 134 3613 3667
+)
+"ocaml_src/utils/misc.ml" 133 3575 3587 "ocaml_src/utils/misc.ml" 133 3575 3592
+type(
+  in_channel -> bytes -> int -> int -> int
+)
+ident(
+  ext_ref Pervasives.input
+)
+"ocaml_src/utils/misc.ml" 133 3575 3593 "ocaml_src/utils/misc.ml" 133 3575 3595
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocaml_src/utils/misc.ml" 130 3496 3510 "ocaml_src/utils/misc.ml" 130 3496 3512
+)
+"ocaml_src/utils/misc.ml" 133 3575 3596 "ocaml_src/utils/misc.ml" 133 3575 3600
+type(
+  bytes
+)
+ident(
+  int_ref buff "ocaml_src/utils/misc.ml" 131 3518 3524 "ocaml_src/utils/misc.ml" 131 3518 3528
+)
+"ocaml_src/utils/misc.ml" 133 3575 3601 "ocaml_src/utils/misc.ml" 133 3575 3602
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 133 3575 3603 "ocaml_src/utils/misc.ml" 133 3575 3609
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 133 3575 3587 "ocaml_src/utils/misc.ml" 133 3575 3609
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 134 3613 3620 "ocaml_src/utils/misc.ml" 134 3613 3621
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/misc.ml" 133 3575 3583 "ocaml_src/utils/misc.ml" 133 3575 3584
+)
+"ocaml_src/utils/misc.ml" 134 3613 3622 "ocaml_src/utils/misc.ml" 134 3613 3623
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/misc.ml" 134 3613 3624 "ocaml_src/utils/misc.ml" 134 3613 3625
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 134 3613 3620 "ocaml_src/utils/misc.ml" 134 3613 3625
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 134 3613 3631 "ocaml_src/utils/misc.ml" 134 3613 3633
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 134 3613 3640 "ocaml_src/utils/misc.ml" 134 3613 3646
+type(
+  out_channel -> bytes -> int -> int -> unit
+)
+ident(
+  ext_ref Pervasives.output
+)
+"ocaml_src/utils/misc.ml" 134 3613 3647 "ocaml_src/utils/misc.ml" 134 3613 3649
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocaml_src/utils/misc.ml" 130 3496 3513 "ocaml_src/utils/misc.ml" 130 3496 3515
+)
+"ocaml_src/utils/misc.ml" 134 3613 3650 "ocaml_src/utils/misc.ml" 134 3613 3654
+type(
+  bytes
+)
+ident(
+  int_ref buff "ocaml_src/utils/misc.ml" 131 3518 3524 "ocaml_src/utils/misc.ml" 131 3518 3528
+)
+"ocaml_src/utils/misc.ml" 134 3613 3655 "ocaml_src/utils/misc.ml" 134 3613 3656
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 134 3613 3657 "ocaml_src/utils/misc.ml" 134 3613 3658
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/misc.ml" 133 3575 3583 "ocaml_src/utils/misc.ml" 133 3575 3584
+)
+"ocaml_src/utils/misc.ml" 134 3613 3640 "ocaml_src/utils/misc.ml" 134 3613 3658
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 134 3613 3660 "ocaml_src/utils/misc.ml" 134 3613 3664
+type(
+  unit -> unit
+)
+ident(
+  int_ref copy "ocaml_src/utils/misc.ml" 132 3555 3565 "ocaml_src/utils/misc.ml" 132 3555 3569
+)
+"ocaml_src/utils/misc.ml" 134 3613 3664 "ocaml_src/utils/misc.ml" 134 3613 3666
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 134 3613 3660 "ocaml_src/utils/misc.ml" 134 3613 3666
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 134 3613 3639 "ocaml_src/utils/misc.ml" 134 3613 3667
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 134 3613 3617 "ocaml_src/utils/misc.ml" 134 3613 3667
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 133 3575 3579 "ocaml_src/utils/misc.ml" 134 3613 3667
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 135 3668 3673 "ocaml_src/utils/misc.ml" 135 3668 3677
+type(
+  unit -> unit
+)
+ident(
+  int_ref copy "ocaml_src/utils/misc.ml" 132 3555 3565 "ocaml_src/utils/misc.ml" 132 3555 3569
+)
+"ocaml_src/utils/misc.ml" 135 3668 3677 "ocaml_src/utils/misc.ml" 135 3668 3679
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 135 3668 3673 "ocaml_src/utils/misc.ml" 135 3668 3679
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 132 3555 3557 "ocaml_src/utils/misc.ml" 135 3668 3679
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 131 3518 3520 "ocaml_src/utils/misc.ml" 135 3668 3679
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 137 3681 3685 "ocaml_src/utils/misc.ml" 137 3681 3700
+type(
+  in_channel -> out_channel -> int -> unit
+)
+ident(
+  def copy_file_chunk "ocaml_src/utils/misc.ml" 148 3974 3974 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 137 3681 3701 "ocaml_src/utils/misc.ml" 137 3681 3703
+type(
+  in_channel
+)
+ident(
+  def ic "ocaml_src/utils/misc.ml" 137 3681 3704 "ocaml_src/utils/misc.ml" 144 3933 3946
+)
+"ocaml_src/utils/misc.ml" 137 3681 3704 "ocaml_src/utils/misc.ml" 137 3681 3706
+type(
+  out_channel
+)
+ident(
+  def oc "ocaml_src/utils/misc.ml" 137 3681 3707 "ocaml_src/utils/misc.ml" 144 3933 3946
+)
+"ocaml_src/utils/misc.ml" 137 3681 3707 "ocaml_src/utils/misc.ml" 137 3681 3710
+type(
+  int
+)
+ident(
+  def len "ocaml_src/utils/misc.ml" 138 3713 3715 "ocaml_src/utils/misc.ml" 144 3933 3946
+)
+"ocaml_src/utils/misc.ml" 138 3713 3719 "ocaml_src/utils/misc.ml" 138 3713 3723
+type(
+  bytes
+)
+ident(
+  def buff "ocaml_src/utils/misc.ml" 139 3750 3752 "ocaml_src/utils/misc.ml" 144 3933 3946
+)
+"ocaml_src/utils/misc.ml" 138 3713 3726 "ocaml_src/utils/misc.ml" 138 3713 3739
+type(
+  int -> bytes
+)
+ident(
+  ext_ref String.create
+)
+"ocaml_src/utils/misc.ml" 138 3713 3740 "ocaml_src/utils/misc.ml" 138 3713 3746
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 138 3713 3726 "ocaml_src/utils/misc.ml" 138 3713 3746
+type(
+  bytes
+)
+"ocaml_src/utils/misc.ml" 139 3750 3760 "ocaml_src/utils/misc.ml" 139 3750 3764
+type(
+  int -> unit
+)
+ident(
+  def copy "ocaml_src/utils/misc.ml" 139 3750 3752 "ocaml_src/utils/misc.ml" 144 3933 3946
+)
+"ocaml_src/utils/misc.ml" 139 3750 3765 "ocaml_src/utils/misc.ml" 139 3750 3766
+type(
+  int
+)
+ident(
+  def n "ocaml_src/utils/misc.ml" 140 3769 3773 "ocaml_src/utils/misc.ml" 143 3925 3932
+)
+"ocaml_src/utils/misc.ml" 140 3769 3776 "ocaml_src/utils/misc.ml" 140 3769 3777
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/misc.ml" 139 3750 3765 "ocaml_src/utils/misc.ml" 139 3750 3766
+)
+"ocaml_src/utils/misc.ml" 140 3769 3778 "ocaml_src/utils/misc.ml" 140 3769 3780
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"ocaml_src/utils/misc.ml" 140 3769 3781 "ocaml_src/utils/misc.ml" 140 3769 3782
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 140 3769 3776 "ocaml_src/utils/misc.ml" 140 3769 3782
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 140 3769 3788 "ocaml_src/utils/misc.ml" 140 3769 3790
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 141 3802 3812 "ocaml_src/utils/misc.ml" 141 3802 3813
+type(
+  int
+)
+ident(
+  def r "ocaml_src/utils/misc.ml" 142 3850 3856 "ocaml_src/utils/misc.ml" 142 3850 3924
+)
+"ocaml_src/utils/misc.ml" 141 3802 3816 "ocaml_src/utils/misc.ml" 141 3802 3821
+type(
+  in_channel -> bytes -> int -> int -> int
+)
+ident(
+  ext_ref Pervasives.input
+)
+"ocaml_src/utils/misc.ml" 141 3802 3822 "ocaml_src/utils/misc.ml" 141 3802 3824
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocaml_src/utils/misc.ml" 137 3681 3701 "ocaml_src/utils/misc.ml" 137 3681 3703
+)
+"ocaml_src/utils/misc.ml" 141 3802 3825 "ocaml_src/utils/misc.ml" 141 3802 3829
+type(
+  bytes
+)
+ident(
+  int_ref buff "ocaml_src/utils/misc.ml" 138 3713 3719 "ocaml_src/utils/misc.ml" 138 3713 3723
+)
+"ocaml_src/utils/misc.ml" 141 3802 3830 "ocaml_src/utils/misc.ml" 141 3802 3831
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 141 3802 3833 "ocaml_src/utils/misc.ml" 141 3802 3836
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"ocaml_src/utils/misc.ml" 141 3802 3837 "ocaml_src/utils/misc.ml" 141 3802 3838
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/misc.ml" 139 3750 3765 "ocaml_src/utils/misc.ml" 139 3750 3766
+)
+"ocaml_src/utils/misc.ml" 141 3802 3839 "ocaml_src/utils/misc.ml" 141 3802 3845
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 141 3802 3832 "ocaml_src/utils/misc.ml" 141 3802 3846
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 141 3802 3816 "ocaml_src/utils/misc.ml" 141 3802 3846
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 142 3850 3859 "ocaml_src/utils/misc.ml" 142 3850 3860
+type(
+  int
+)
+ident(
+  int_ref r "ocaml_src/utils/misc.ml" 141 3802 3812 "ocaml_src/utils/misc.ml" 141 3802 3813
+)
+"ocaml_src/utils/misc.ml" 142 3850 3861 "ocaml_src/utils/misc.ml" 142 3850 3862
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/misc.ml" 142 3850 3863 "ocaml_src/utils/misc.ml" 142 3850 3864
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 142 3850 3859 "ocaml_src/utils/misc.ml" 142 3850 3864
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 142 3850 3870 "ocaml_src/utils/misc.ml" 142 3850 3875
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/utils/misc.ml" 142 3850 3876 "ocaml_src/utils/misc.ml" 142 3850 3887
+type(
+  exn
+)
+"ocaml_src/utils/misc.ml" 142 3850 3870 "ocaml_src/utils/misc.ml" 142 3850 3887
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 142 3850 3894 "ocaml_src/utils/misc.ml" 142 3850 3900
+type(
+  out_channel -> bytes -> int -> int -> unit
+)
+ident(
+  ext_ref Pervasives.output
+)
+"ocaml_src/utils/misc.ml" 142 3850 3901 "ocaml_src/utils/misc.ml" 142 3850 3903
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocaml_src/utils/misc.ml" 137 3681 3704 "ocaml_src/utils/misc.ml" 137 3681 3706
+)
+"ocaml_src/utils/misc.ml" 142 3850 3904 "ocaml_src/utils/misc.ml" 142 3850 3908
+type(
+  bytes
+)
+ident(
+  int_ref buff "ocaml_src/utils/misc.ml" 138 3713 3719 "ocaml_src/utils/misc.ml" 138 3713 3723
+)
+"ocaml_src/utils/misc.ml" 142 3850 3909 "ocaml_src/utils/misc.ml" 142 3850 3910
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 142 3850 3911 "ocaml_src/utils/misc.ml" 142 3850 3912
+type(
+  int
+)
+ident(
+  int_ref r "ocaml_src/utils/misc.ml" 141 3802 3812 "ocaml_src/utils/misc.ml" 141 3802 3813
+)
+"ocaml_src/utils/misc.ml" 142 3850 3894 "ocaml_src/utils/misc.ml" 142 3850 3912
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 142 3850 3914 "ocaml_src/utils/misc.ml" 142 3850 3918
+type(
+  int -> unit
+)
+ident(
+  int_ref copy "ocaml_src/utils/misc.ml" 139 3750 3760 "ocaml_src/utils/misc.ml" 139 3750 3764
+)
+"ocaml_src/utils/misc.ml" 142 3850 3919 "ocaml_src/utils/misc.ml" 142 3850 3920
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/misc.ml" 139 3750 3765 "ocaml_src/utils/misc.ml" 139 3750 3766
+)
+"ocaml_src/utils/misc.ml" 142 3850 3920 "ocaml_src/utils/misc.ml" 142 3850 3921
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/utils/misc.ml" 142 3850 3921 "ocaml_src/utils/misc.ml" 142 3850 3922
+type(
+  int
+)
+ident(
+  int_ref r "ocaml_src/utils/misc.ml" 141 3802 3812 "ocaml_src/utils/misc.ml" 141 3802 3813
+)
+"ocaml_src/utils/misc.ml" 142 3850 3918 "ocaml_src/utils/misc.ml" 142 3850 3923
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 142 3850 3914 "ocaml_src/utils/misc.ml" 142 3850 3923
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 142 3850 3893 "ocaml_src/utils/misc.ml" 142 3850 3924
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 142 3850 3856 "ocaml_src/utils/misc.ml" 142 3850 3924
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 140 3769 3796 "ocaml_src/utils/misc.ml" 143 3925 3932
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 140 3769 3773 "ocaml_src/utils/misc.ml" 143 3925 3932
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 144 3933 3938 "ocaml_src/utils/misc.ml" 144 3933 3942
+type(
+  int -> unit
+)
+ident(
+  int_ref copy "ocaml_src/utils/misc.ml" 139 3750 3760 "ocaml_src/utils/misc.ml" 139 3750 3764
+)
+"ocaml_src/utils/misc.ml" 144 3933 3943 "ocaml_src/utils/misc.ml" 144 3933 3946
+type(
+  int
+)
+ident(
+  int_ref len "ocaml_src/utils/misc.ml" 137 3681 3707 "ocaml_src/utils/misc.ml" 137 3681 3710
+)
+"ocaml_src/utils/misc.ml" 144 3933 3938 "ocaml_src/utils/misc.ml" 144 3933 3946
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 139 3750 3752 "ocaml_src/utils/misc.ml" 144 3933 3946
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 138 3713 3715 "ocaml_src/utils/misc.ml" 144 3933 3946
+type(
+  unit
+)
+"ocaml_src/utils/misc.ml" 148 3974 3982 "ocaml_src/utils/misc.ml" 148 3974 3986
+type(
+  int -> int
+)
+ident(
+  def log2 "ocaml_src/utils/misc.ml" 148 3974 3974 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 148 3974 3987 "ocaml_src/utils/misc.ml" 148 3974 3988
+type(
+  int
+)
+ident(
+  def n "ocaml_src/utils/misc.ml" 149 3991 3993 "ocaml_src/utils/misc.ml" 149 3991 4032
+)
+"ocaml_src/utils/misc.ml" 149 3991 3996 "ocaml_src/utils/misc.ml" 149 3991 3997
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/misc.ml" 148 3974 3987 "ocaml_src/utils/misc.ml" 148 3974 3988
+)
+"ocaml_src/utils/misc.ml" 149 3991 3998 "ocaml_src/utils/misc.ml" 149 3991 4000
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"ocaml_src/utils/misc.ml" 149 3991 4001 "ocaml_src/utils/misc.ml" 149 3991 4002
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 149 3991 3996 "ocaml_src/utils/misc.ml" 149 3991 4002
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 149 3991 4008 "ocaml_src/utils/misc.ml" 149 3991 4009
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 149 3991 4015 "ocaml_src/utils/misc.ml" 149 3991 4016
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 149 3991 4017 "ocaml_src/utils/misc.ml" 149 3991 4018
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/misc.ml" 149 3991 4019 "ocaml_src/utils/misc.ml" 149 3991 4023
+type(
+  int -> int
+)
+ident(
+  int_ref log2 "ocaml_src/utils/misc.ml" 148 3974 3982 "ocaml_src/utils/misc.ml" 148 3974 3986
+)
+"ocaml_src/utils/misc.ml" 149 3991 4024 "ocaml_src/utils/misc.ml" 149 3991 4025
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/misc.ml" 148 3974 3987 "ocaml_src/utils/misc.ml" 148 3974 3988
+)
+"ocaml_src/utils/misc.ml" 149 3991 4026 "ocaml_src/utils/misc.ml" 149 3991 4029
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( asr )
+)
+"ocaml_src/utils/misc.ml" 149 3991 4030 "ocaml_src/utils/misc.ml" 149 3991 4031
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 149 3991 4023 "ocaml_src/utils/misc.ml" 149 3991 4032
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 149 3991 4019 "ocaml_src/utils/misc.ml" 149 3991 4032
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 149 3991 4015 "ocaml_src/utils/misc.ml" 149 3991 4032
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 149 3991 3993 "ocaml_src/utils/misc.ml" 149 3991 4032
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 151 4034 4038 "ocaml_src/utils/misc.ml" 151 4034 4043
+type(
+  int -> int -> int
+)
+ident(
+  def align "ocaml_src/utils/misc.ml" 154 4107 4107 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 151 4034 4044 "ocaml_src/utils/misc.ml" 151 4034 4045
+type(
+  int
+)
+ident(
+  def n "ocaml_src/utils/misc.ml" 151 4034 4046 "ocaml_src/utils/misc.ml" 152 4050 4105
+)
+"ocaml_src/utils/misc.ml" 151 4034 4046 "ocaml_src/utils/misc.ml" 151 4034 4047
+type(
+  int
+)
+ident(
+  def a "ocaml_src/utils/misc.ml" 152 4050 4052 "ocaml_src/utils/misc.ml" 152 4050 4105
+)
+"ocaml_src/utils/misc.ml" 152 4050 4055 "ocaml_src/utils/misc.ml" 152 4050 4056
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/misc.ml" 151 4034 4044 "ocaml_src/utils/misc.ml" 151 4034 4045
+)
+"ocaml_src/utils/misc.ml" 152 4050 4057 "ocaml_src/utils/misc.ml" 152 4050 4059
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/utils/misc.ml" 152 4050 4060 "ocaml_src/utils/misc.ml" 152 4050 4061
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 152 4050 4055 "ocaml_src/utils/misc.ml" 152 4050 4061
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 152 4050 4068 "ocaml_src/utils/misc.ml" 152 4050 4069
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/misc.ml" 151 4034 4044 "ocaml_src/utils/misc.ml" 151 4034 4045
+)
+"ocaml_src/utils/misc.ml" 152 4050 4070 "ocaml_src/utils/misc.ml" 152 4050 4071
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/misc.ml" 152 4050 4072 "ocaml_src/utils/misc.ml" 152 4050 4073
+type(
+  int
+)
+ident(
+  int_ref a "ocaml_src/utils/misc.ml" 151 4034 4046 "ocaml_src/utils/misc.ml" 151 4034 4047
+)
+"ocaml_src/utils/misc.ml" 152 4050 4068 "ocaml_src/utils/misc.ml" 152 4050 4073
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 152 4050 4074 "ocaml_src/utils/misc.ml" 152 4050 4075
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/utils/misc.ml" 152 4050 4076 "ocaml_src/utils/misc.ml" 152 4050 4077
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 152 4050 4067 "ocaml_src/utils/misc.ml" 152 4050 4078
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 152 4050 4079 "ocaml_src/utils/misc.ml" 152 4050 4083
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ocaml_src/utils/misc.ml" 152 4050 4085 "ocaml_src/utils/misc.ml" 152 4050 4086
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"ocaml_src/utils/misc.ml" 152 4050 4086 "ocaml_src/utils/misc.ml" 152 4050 4087
+type(
+  int
+)
+ident(
+  int_ref a "ocaml_src/utils/misc.ml" 151 4034 4046 "ocaml_src/utils/misc.ml" 151 4034 4047
+)
+"ocaml_src/utils/misc.ml" 152 4050 4084 "ocaml_src/utils/misc.ml" 152 4050 4088
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 152 4050 4067 "ocaml_src/utils/misc.ml" 152 4050 4088
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 152 4050 4094 "ocaml_src/utils/misc.ml" 152 4050 4095
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/misc.ml" 151 4034 4044 "ocaml_src/utils/misc.ml" 151 4034 4045
+)
+"ocaml_src/utils/misc.ml" 152 4050 4096 "ocaml_src/utils/misc.ml" 152 4050 4100
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ocaml_src/utils/misc.ml" 152 4050 4102 "ocaml_src/utils/misc.ml" 152 4050 4103
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"ocaml_src/utils/misc.ml" 152 4050 4103 "ocaml_src/utils/misc.ml" 152 4050 4104
+type(
+  int
+)
+ident(
+  int_ref a "ocaml_src/utils/misc.ml" 151 4034 4046 "ocaml_src/utils/misc.ml" 151 4034 4047
+)
+"ocaml_src/utils/misc.ml" 152 4050 4101 "ocaml_src/utils/misc.ml" 152 4050 4105
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 152 4050 4094 "ocaml_src/utils/misc.ml" 152 4050 4105
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 152 4050 4052 "ocaml_src/utils/misc.ml" 152 4050 4105
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 154 4107 4111 "ocaml_src/utils/misc.ml" 154 4107 4126
+type(
+  int -> int -> bool
+)
+ident(
+  def no_overflow_add "ocaml_src/utils/misc.ml" 156 4175 4175 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 154 4107 4127 "ocaml_src/utils/misc.ml" 154 4107 4128
+type(
+  int
+)
+ident(
+  def a "ocaml_src/utils/misc.ml" 154 4107 4129 "ocaml_src/utils/misc.ml" 154 4107 4173
+)
+"ocaml_src/utils/misc.ml" 154 4107 4129 "ocaml_src/utils/misc.ml" 154 4107 4130
+type(
+  int
+)
+ident(
+  def b "ocaml_src/utils/misc.ml" 154 4107 4133 "ocaml_src/utils/misc.ml" 154 4107 4173
+)
+"ocaml_src/utils/misc.ml" 154 4107 4134 "ocaml_src/utils/misc.ml" 154 4107 4135
+type(
+  int
+)
+ident(
+  int_ref a "ocaml_src/utils/misc.ml" 154 4107 4127 "ocaml_src/utils/misc.ml" 154 4107 4128
+)
+"ocaml_src/utils/misc.ml" 154 4107 4136 "ocaml_src/utils/misc.ml" 154 4107 4140
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lxor )
+)
+"ocaml_src/utils/misc.ml" 154 4107 4141 "ocaml_src/utils/misc.ml" 154 4107 4142
+type(
+  int
+)
+ident(
+  int_ref b "ocaml_src/utils/misc.ml" 154 4107 4129 "ocaml_src/utils/misc.ml" 154 4107 4130
+)
+"ocaml_src/utils/misc.ml" 154 4107 4133 "ocaml_src/utils/misc.ml" 154 4107 4143
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 154 4107 4144 "ocaml_src/utils/misc.ml" 154 4107 4147
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"ocaml_src/utils/misc.ml" 154 4107 4149 "ocaml_src/utils/misc.ml" 154 4107 4150
+type(
+  int
+)
+ident(
+  int_ref a "ocaml_src/utils/misc.ml" 154 4107 4127 "ocaml_src/utils/misc.ml" 154 4107 4128
+)
+"ocaml_src/utils/misc.ml" 154 4107 4151 "ocaml_src/utils/misc.ml" 154 4107 4155
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lxor )
+)
+"ocaml_src/utils/misc.ml" 154 4107 4157 "ocaml_src/utils/misc.ml" 154 4107 4161
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.lnot
+)
+"ocaml_src/utils/misc.ml" 154 4107 4163 "ocaml_src/utils/misc.ml" 154 4107 4164
+type(
+  int
+)
+ident(
+  int_ref a "ocaml_src/utils/misc.ml" 154 4107 4127 "ocaml_src/utils/misc.ml" 154 4107 4128
+)
+"ocaml_src/utils/misc.ml" 154 4107 4164 "ocaml_src/utils/misc.ml" 154 4107 4165
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/misc.ml" 154 4107 4165 "ocaml_src/utils/misc.ml" 154 4107 4166
+type(
+  int
+)
+ident(
+  int_ref b "ocaml_src/utils/misc.ml" 154 4107 4129 "ocaml_src/utils/misc.ml" 154 4107 4130
+)
+"ocaml_src/utils/misc.ml" 154 4107 4162 "ocaml_src/utils/misc.ml" 154 4107 4167
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 154 4107 4156 "ocaml_src/utils/misc.ml" 154 4107 4168
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 154 4107 4148 "ocaml_src/utils/misc.ml" 154 4107 4169
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 154 4107 4133 "ocaml_src/utils/misc.ml" 154 4107 4169
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 154 4107 4170 "ocaml_src/utils/misc.ml" 154 4107 4171
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/utils/misc.ml" 154 4107 4172 "ocaml_src/utils/misc.ml" 154 4107 4173
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 154 4107 4133 "ocaml_src/utils/misc.ml" 154 4107 4173
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 156 4175 4179 "ocaml_src/utils/misc.ml" 156 4175 4194
+type(
+  int -> int -> bool
+)
+ident(
+  def no_overflow_sub "ocaml_src/utils/misc.ml" 158 4243 4243 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 156 4175 4195 "ocaml_src/utils/misc.ml" 156 4175 4196
+type(
+  int
+)
+ident(
+  def a "ocaml_src/utils/misc.ml" 156 4175 4197 "ocaml_src/utils/misc.ml" 156 4175 4241
+)
+"ocaml_src/utils/misc.ml" 156 4175 4197 "ocaml_src/utils/misc.ml" 156 4175 4198
+type(
+  int
+)
+ident(
+  def b "ocaml_src/utils/misc.ml" 156 4175 4201 "ocaml_src/utils/misc.ml" 156 4175 4241
+)
+"ocaml_src/utils/misc.ml" 156 4175 4202 "ocaml_src/utils/misc.ml" 156 4175 4203
+type(
+  int
+)
+ident(
+  int_ref a "ocaml_src/utils/misc.ml" 156 4175 4195 "ocaml_src/utils/misc.ml" 156 4175 4196
+)
+"ocaml_src/utils/misc.ml" 156 4175 4204 "ocaml_src/utils/misc.ml" 156 4175 4208
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lxor )
+)
+"ocaml_src/utils/misc.ml" 156 4175 4210 "ocaml_src/utils/misc.ml" 156 4175 4214
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.lnot
+)
+"ocaml_src/utils/misc.ml" 156 4175 4215 "ocaml_src/utils/misc.ml" 156 4175 4216
+type(
+  int
+)
+ident(
+  int_ref b "ocaml_src/utils/misc.ml" 156 4175 4197 "ocaml_src/utils/misc.ml" 156 4175 4198
+)
+"ocaml_src/utils/misc.ml" 156 4175 4209 "ocaml_src/utils/misc.ml" 156 4175 4217
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 156 4175 4201 "ocaml_src/utils/misc.ml" 156 4175 4218
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 156 4175 4219 "ocaml_src/utils/misc.ml" 156 4175 4222
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"ocaml_src/utils/misc.ml" 156 4175 4224 "ocaml_src/utils/misc.ml" 156 4175 4225
+type(
+  int
+)
+ident(
+  int_ref b "ocaml_src/utils/misc.ml" 156 4175 4197 "ocaml_src/utils/misc.ml" 156 4175 4198
+)
+"ocaml_src/utils/misc.ml" 156 4175 4226 "ocaml_src/utils/misc.ml" 156 4175 4230
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lxor )
+)
+"ocaml_src/utils/misc.ml" 156 4175 4232 "ocaml_src/utils/misc.ml" 156 4175 4233
+type(
+  int
+)
+ident(
+  int_ref a "ocaml_src/utils/misc.ml" 156 4175 4195 "ocaml_src/utils/misc.ml" 156 4175 4196
+)
+"ocaml_src/utils/misc.ml" 156 4175 4233 "ocaml_src/utils/misc.ml" 156 4175 4234
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/utils/misc.ml" 156 4175 4234 "ocaml_src/utils/misc.ml" 156 4175 4235
+type(
+  int
+)
+ident(
+  int_ref b "ocaml_src/utils/misc.ml" 156 4175 4197 "ocaml_src/utils/misc.ml" 156 4175 4198
+)
+"ocaml_src/utils/misc.ml" 156 4175 4231 "ocaml_src/utils/misc.ml" 156 4175 4236
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 156 4175 4223 "ocaml_src/utils/misc.ml" 156 4175 4237
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 156 4175 4201 "ocaml_src/utils/misc.ml" 156 4175 4237
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 156 4175 4238 "ocaml_src/utils/misc.ml" 156 4175 4239
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/utils/misc.ml" 156 4175 4240 "ocaml_src/utils/misc.ml" 156 4175 4241
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 156 4175 4201 "ocaml_src/utils/misc.ml" 156 4175 4241
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 158 4243 4247 "ocaml_src/utils/misc.ml" 158 4243 4262
+type(
+  int -> bool
+)
+ident(
+  def no_overflow_lsl "ocaml_src/utils/misc.ml" 162 4334 4334 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 158 4243 4263 "ocaml_src/utils/misc.ml" 158 4243 4264
+type(
+  int
+)
+ident(
+  def a "ocaml_src/utils/misc.ml" 158 4243 4267 "ocaml_src/utils/misc.ml" 158 4243 4307
+)
+"ocaml_src/utils/misc.ml" 158 4243 4267 "ocaml_src/utils/misc.ml" 158 4243 4274
+type(
+  int
+)
+ident(
+  ext_ref Pervasives.min_int
+)
+"ocaml_src/utils/misc.ml" 158 4243 4275 "ocaml_src/utils/misc.ml" 158 4243 4278
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( asr )
+)
+"ocaml_src/utils/misc.ml" 158 4243 4279 "ocaml_src/utils/misc.ml" 158 4243 4280
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 158 4243 4267 "ocaml_src/utils/misc.ml" 158 4243 4280
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 158 4243 4281 "ocaml_src/utils/misc.ml" 158 4243 4283
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"ocaml_src/utils/misc.ml" 158 4243 4284 "ocaml_src/utils/misc.ml" 158 4243 4285
+type(
+  int
+)
+ident(
+  int_ref a "ocaml_src/utils/misc.ml" 158 4243 4263 "ocaml_src/utils/misc.ml" 158 4243 4264
+)
+"ocaml_src/utils/misc.ml" 158 4243 4267 "ocaml_src/utils/misc.ml" 158 4243 4285
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 158 4243 4286 "ocaml_src/utils/misc.ml" 158 4243 4288
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/utils/misc.ml" 158 4243 4289 "ocaml_src/utils/misc.ml" 158 4243 4290
+type(
+  int
+)
+ident(
+  int_ref a "ocaml_src/utils/misc.ml" 158 4243 4263 "ocaml_src/utils/misc.ml" 158 4243 4264
+)
+"ocaml_src/utils/misc.ml" 158 4243 4291 "ocaml_src/utils/misc.ml" 158 4243 4293
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"ocaml_src/utils/misc.ml" 158 4243 4294 "ocaml_src/utils/misc.ml" 158 4243 4301
+type(
+  int
+)
+ident(
+  ext_ref Pervasives.max_int
+)
+"ocaml_src/utils/misc.ml" 158 4243 4302 "ocaml_src/utils/misc.ml" 158 4243 4305
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( asr )
+)
+"ocaml_src/utils/misc.ml" 158 4243 4306 "ocaml_src/utils/misc.ml" 158 4243 4307
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 158 4243 4294 "ocaml_src/utils/misc.ml" 158 4243 4307
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 158 4243 4289 "ocaml_src/utils/misc.ml" 158 4243 4307
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 158 4243 4267 "ocaml_src/utils/misc.ml" 158 4243 4307
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 162 4334 4338 "ocaml_src/utils/misc.ml" 162 4334 4359
+type(
+  string -> string
+)
+ident(
+  def chop_extension_if_any "ocaml_src/utils/misc.ml" 166 4442 4442 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 162 4334 4360 "ocaml_src/utils/misc.ml" 162 4334 4365
+type(
+  string
+)
+ident(
+  def fname "ocaml_src/utils/misc.ml" 163 4368 4370 "ocaml_src/utils/misc.ml" 164 4409 4440
+)
+"ocaml_src/utils/misc.ml" 163 4368 4374 "ocaml_src/utils/misc.ml" 163 4368 4397
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.chop_extension
+)
+"ocaml_src/utils/misc.ml" 163 4368 4398 "ocaml_src/utils/misc.ml" 163 4368 4403
+type(
+  string
+)
+ident(
+  int_ref fname "ocaml_src/utils/misc.ml" 162 4334 4360 "ocaml_src/utils/misc.ml" 162 4334 4365
+)
+"ocaml_src/utils/misc.ml" 163 4368 4374 "ocaml_src/utils/misc.ml" 163 4368 4403
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 164 4409 4430 "ocaml_src/utils/misc.ml" 164 4409 4431
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 164 4409 4413 "ocaml_src/utils/misc.ml" 164 4409 4431
+type(
+  exn
+)
+"ocaml_src/utils/misc.ml" 164 4409 4435 "ocaml_src/utils/misc.ml" 164 4409 4440
+type(
+  string
+)
+ident(
+  int_ref fname "ocaml_src/utils/misc.ml" 162 4334 4360 "ocaml_src/utils/misc.ml" 162 4334 4365
+)
+"ocaml_src/utils/misc.ml" 163 4368 4370 "ocaml_src/utils/misc.ml" 164 4409 4440
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 166 4442 4446 "ocaml_src/utils/misc.ml" 166 4442 4461
+type(
+  string -> string
+)
+ident(
+  def chop_extensions "ocaml_src/utils/misc.ml" 177 4811 4811 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 166 4442 4462 "ocaml_src/utils/misc.ml" 166 4442 4466
+type(
+  string
+)
+ident(
+  def file "ocaml_src/utils/misc.ml" 167 4469 4471 "ocaml_src/utils/misc.ml" 175 4785 4809
+)
+"ocaml_src/utils/misc.ml" 167 4469 4475 "ocaml_src/utils/misc.ml" 167 4469 4482
+type(
+  string
+)
+ident(
+  def dirname "ocaml_src/utils/misc.ml" 168 4548 4550 "ocaml_src/utils/misc.ml" 175 4785 4809
+)
+"ocaml_src/utils/misc.ml" 167 4469 4485 "ocaml_src/utils/misc.ml" 167 4469 4501
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.dirname
+)
+"ocaml_src/utils/misc.ml" 167 4469 4502 "ocaml_src/utils/misc.ml" 167 4469 4506
+type(
+  string
+)
+ident(
+  int_ref file "ocaml_src/utils/misc.ml" 166 4442 4462 "ocaml_src/utils/misc.ml" 166 4442 4466
+)
+"ocaml_src/utils/misc.ml" 167 4469 4485 "ocaml_src/utils/misc.ml" 167 4469 4506
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 167 4469 4511 "ocaml_src/utils/misc.ml" 167 4469 4519
+type(
+  string
+)
+ident(
+  def basename "ocaml_src/utils/misc.ml" 168 4548 4550 "ocaml_src/utils/misc.ml" 175 4785 4809
+)
+"ocaml_src/utils/misc.ml" 167 4469 4522 "ocaml_src/utils/misc.ml" 167 4469 4539
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.basename
+)
+"ocaml_src/utils/misc.ml" 167 4469 4540 "ocaml_src/utils/misc.ml" 167 4469 4544
+type(
+  string
+)
+ident(
+  int_ref file "ocaml_src/utils/misc.ml" 166 4442 4462 "ocaml_src/utils/misc.ml" 166 4442 4466
+)
+"ocaml_src/utils/misc.ml" 167 4469 4522 "ocaml_src/utils/misc.ml" 167 4469 4544
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 169 4554 4562 "ocaml_src/utils/misc.ml" 169 4554 4565
+type(
+  int
+)
+ident(
+  def pos "ocaml_src/utils/misc.ml" 170 4597 4601 "ocaml_src/utils/misc.ml" 174 4746 4784
+)
+"ocaml_src/utils/misc.ml" 169 4554 4568 "ocaml_src/utils/misc.ml" 169 4554 4580
+type(
+  string -> char -> int
+)
+ident(
+  ext_ref String.index
+)
+"ocaml_src/utils/misc.ml" 169 4554 4581 "ocaml_src/utils/misc.ml" 169 4554 4589
+type(
+  string
+)
+ident(
+  int_ref basename "ocaml_src/utils/misc.ml" 167 4469 4511 "ocaml_src/utils/misc.ml" 167 4469 4519
+)
+"ocaml_src/utils/misc.ml" 169 4554 4590 "ocaml_src/utils/misc.ml" 169 4554 4593
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 169 4554 4568 "ocaml_src/utils/misc.ml" 169 4554 4593
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 170 4597 4605 "ocaml_src/utils/misc.ml" 170 4597 4613
+type(
+  string
+)
+ident(
+  def basename "ocaml_src/utils/misc.ml" 171 4645 4649 "ocaml_src/utils/misc.ml" 174 4746 4784
+)
+"ocaml_src/utils/misc.ml" 170 4597 4616 "ocaml_src/utils/misc.ml" 170 4597 4626
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"ocaml_src/utils/misc.ml" 170 4597 4627 "ocaml_src/utils/misc.ml" 170 4597 4635
+type(
+  string
+)
+ident(
+  int_ref basename "ocaml_src/utils/misc.ml" 167 4469 4511 "ocaml_src/utils/misc.ml" 167 4469 4519
+)
+"ocaml_src/utils/misc.ml" 170 4597 4636 "ocaml_src/utils/misc.ml" 170 4597 4637
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 170 4597 4638 "ocaml_src/utils/misc.ml" 170 4597 4641
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/utils/misc.ml" 169 4554 4562 "ocaml_src/utils/misc.ml" 169 4554 4565
+)
+"ocaml_src/utils/misc.ml" 170 4597 4616 "ocaml_src/utils/misc.ml" 170 4597 4641
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 171 4645 4652 "ocaml_src/utils/misc.ml" 171 4645 4672
+type(
+  string -> bool
+)
+ident(
+  ext_ref Filename.is_implicit
+)
+"ocaml_src/utils/misc.ml" 171 4645 4673 "ocaml_src/utils/misc.ml" 171 4645 4677
+type(
+  string
+)
+ident(
+  int_ref file "ocaml_src/utils/misc.ml" 166 4442 4462 "ocaml_src/utils/misc.ml" 166 4442 4466
+)
+"ocaml_src/utils/misc.ml" 171 4645 4652 "ocaml_src/utils/misc.ml" 171 4645 4677
+call(
+  stack
+)
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 171 4645 4678 "ocaml_src/utils/misc.ml" 171 4645 4680
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/utils/misc.ml" 171 4645 4681 "ocaml_src/utils/misc.ml" 171 4645 4688
+type(
+  string
+)
+ident(
+  int_ref dirname "ocaml_src/utils/misc.ml" 167 4469 4475 "ocaml_src/utils/misc.ml" 167 4469 4482
+)
+"ocaml_src/utils/misc.ml" 171 4645 4689 "ocaml_src/utils/misc.ml" 171 4645 4690
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/misc.ml" 171 4645 4691 "ocaml_src/utils/misc.ml" 171 4645 4716
+type(
+  string
+)
+ident(
+  ext_ref Filename.current_dir_name
+)
+"ocaml_src/utils/misc.ml" 171 4645 4681 "ocaml_src/utils/misc.ml" 171 4645 4716
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 171 4645 4652 "ocaml_src/utils/misc.ml" 171 4645 4716
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 172 4722 4728 "ocaml_src/utils/misc.ml" 172 4722 4736
+type(
+  string
+)
+ident(
+  int_ref basename "ocaml_src/utils/misc.ml" 170 4597 4605 "ocaml_src/utils/misc.ml" 170 4597 4613
+)
+"ocaml_src/utils/misc.ml" 174 4746 4752 "ocaml_src/utils/misc.ml" 174 4746 4767
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"ocaml_src/utils/misc.ml" 174 4746 4768 "ocaml_src/utils/misc.ml" 174 4746 4775
+type(
+  string
+)
+ident(
+  int_ref dirname "ocaml_src/utils/misc.ml" 167 4469 4475 "ocaml_src/utils/misc.ml" 167 4469 4482
+)
+"ocaml_src/utils/misc.ml" 174 4746 4776 "ocaml_src/utils/misc.ml" 174 4746 4784
+type(
+  string
+)
+ident(
+  int_ref basename "ocaml_src/utils/misc.ml" 170 4597 4605 "ocaml_src/utils/misc.ml" 170 4597 4613
+)
+"ocaml_src/utils/misc.ml" 174 4746 4752 "ocaml_src/utils/misc.ml" 174 4746 4784
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 171 4645 4649 "ocaml_src/utils/misc.ml" 174 4746 4784
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 170 4597 4601 "ocaml_src/utils/misc.ml" 174 4746 4784
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 169 4554 4558 "ocaml_src/utils/misc.ml" 174 4746 4784
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 175 4785 4792 "ocaml_src/utils/misc.ml" 175 4785 4801
+type(
+  exn
+)
+"ocaml_src/utils/misc.ml" 175 4785 4805 "ocaml_src/utils/misc.ml" 175 4785 4809
+type(
+  string
+)
+ident(
+  int_ref file "ocaml_src/utils/misc.ml" 166 4442 4462 "ocaml_src/utils/misc.ml" 166 4442 4466
+)
+"ocaml_src/utils/misc.ml" 168 4548 4550 "ocaml_src/utils/misc.ml" 175 4785 4809
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 167 4469 4471 "ocaml_src/utils/misc.ml" 175 4785 4809
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 177 4811 4815 "ocaml_src/utils/misc.ml" 177 4811 4831
+type(
+  string -> string -> int -> int
+)
+ident(
+  def search_substring "ocaml_src/utils/misc.ml" 185 5067 5067 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 177 4811 4832 "ocaml_src/utils/misc.ml" 177 4811 4835
+type(
+  string
+)
+ident(
+  def pat "ocaml_src/utils/misc.ml" 177 4811 4836 "ocaml_src/utils/misc.ml" 183 5046 5065
+)
+"ocaml_src/utils/misc.ml" 177 4811 4836 "ocaml_src/utils/misc.ml" 177 4811 4839
+type(
+  string
+)
+ident(
+  def str "ocaml_src/utils/misc.ml" 177 4811 4840 "ocaml_src/utils/misc.ml" 183 5046 5065
+)
+"ocaml_src/utils/misc.ml" 177 4811 4840 "ocaml_src/utils/misc.ml" 177 4811 4845
+type(
+  int
+)
+ident(
+  def start "ocaml_src/utils/misc.ml" 178 4848 4850 "ocaml_src/utils/misc.ml" 183 5046 5065
+)
+"ocaml_src/utils/misc.ml" 178 4848 4858 "ocaml_src/utils/misc.ml" 178 4848 4864
+type(
+  int -> int -> int
+)
+ident(
+  def search "ocaml_src/utils/misc.ml" 178 4848 4850 "ocaml_src/utils/misc.ml" 183 5046 5065
+)
+"ocaml_src/utils/misc.ml" 178 4848 4865 "ocaml_src/utils/misc.ml" 178 4848 4866
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/misc.ml" 178 4848 4867 "ocaml_src/utils/misc.ml" 182 5022 5045
+)
+"ocaml_src/utils/misc.ml" 178 4848 4867 "ocaml_src/utils/misc.ml" 178 4848 4868
+type(
+  int
+)
+ident(
+  def j "ocaml_src/utils/misc.ml" 179 4871 4875 "ocaml_src/utils/misc.ml" 182 5022 5045
+)
+"ocaml_src/utils/misc.ml" 179 4871 4878 "ocaml_src/utils/misc.ml" 179 4871 4879
+type(
+  int
+)
+ident(
+  int_ref j "ocaml_src/utils/misc.ml" 178 4848 4867 "ocaml_src/utils/misc.ml" 178 4848 4868
+)
+"ocaml_src/utils/misc.ml" 179 4871 4880 "ocaml_src/utils/misc.ml" 179 4871 4882
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/utils/misc.ml" 179 4871 4883 "ocaml_src/utils/misc.ml" 179 4871 4896
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/misc.ml" 179 4871 4897 "ocaml_src/utils/misc.ml" 179 4871 4900
+type(
+  string
+)
+ident(
+  int_ref pat "ocaml_src/utils/misc.ml" 177 4811 4832 "ocaml_src/utils/misc.ml" 177 4811 4835
+)
+"ocaml_src/utils/misc.ml" 179 4871 4883 "ocaml_src/utils/misc.ml" 179 4871 4900
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 179 4871 4878 "ocaml_src/utils/misc.ml" 179 4871 4900
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 179 4871 4906 "ocaml_src/utils/misc.ml" 179 4871 4907
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 178 4848 4865 "ocaml_src/utils/misc.ml" 178 4848 4866
+)
+"ocaml_src/utils/misc.ml" 180 4908 4920 "ocaml_src/utils/misc.ml" 180 4908 4921
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 178 4848 4865 "ocaml_src/utils/misc.ml" 178 4848 4866
+)
+"ocaml_src/utils/misc.ml" 180 4908 4922 "ocaml_src/utils/misc.ml" 180 4908 4923
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/misc.ml" 180 4908 4924 "ocaml_src/utils/misc.ml" 180 4908 4925
+type(
+  int
+)
+ident(
+  int_ref j "ocaml_src/utils/misc.ml" 178 4848 4867 "ocaml_src/utils/misc.ml" 178 4848 4868
+)
+"ocaml_src/utils/misc.ml" 180 4908 4920 "ocaml_src/utils/misc.ml" 180 4908 4925
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 180 4908 4926 "ocaml_src/utils/misc.ml" 180 4908 4928
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/utils/misc.ml" 180 4908 4929 "ocaml_src/utils/misc.ml" 180 4908 4942
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/misc.ml" 180 4908 4943 "ocaml_src/utils/misc.ml" 180 4908 4946
+type(
+  string
+)
+ident(
+  int_ref str "ocaml_src/utils/misc.ml" 177 4811 4836 "ocaml_src/utils/misc.ml" 177 4811 4839
+)
+"ocaml_src/utils/misc.ml" 180 4908 4929 "ocaml_src/utils/misc.ml" 180 4908 4946
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 180 4908 4920 "ocaml_src/utils/misc.ml" 180 4908 4946
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 180 4908 4952 "ocaml_src/utils/misc.ml" 180 4908 4957
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/utils/misc.ml" 180 4908 4958 "ocaml_src/utils/misc.ml" 180 4908 4967
+type(
+  exn
+)
+"ocaml_src/utils/misc.ml" 180 4908 4952 "ocaml_src/utils/misc.ml" 180 4908 4967
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 181 4968 4980 "ocaml_src/utils/misc.ml" 181 4968 4983
+type(
+  string
+)
+ident(
+  int_ref str "ocaml_src/utils/misc.ml" 177 4811 4836 "ocaml_src/utils/misc.ml" 177 4811 4839
+)
+"ocaml_src/utils/misc.ml" 181 4968 4985 "ocaml_src/utils/misc.ml" 181 4968 4986
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 178 4848 4865 "ocaml_src/utils/misc.ml" 178 4848 4866
+)
+"ocaml_src/utils/misc.ml" 181 4968 4987 "ocaml_src/utils/misc.ml" 181 4968 4988
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/misc.ml" 181 4968 4989 "ocaml_src/utils/misc.ml" 181 4968 4990
+type(
+  int
+)
+ident(
+  int_ref j "ocaml_src/utils/misc.ml" 178 4848 4867 "ocaml_src/utils/misc.ml" 178 4848 4868
+)
+"ocaml_src/utils/misc.ml" 181 4968 4985 "ocaml_src/utils/misc.ml" 181 4968 4990
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 181 4968 4980 "ocaml_src/utils/misc.ml" 181 4968 4991
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 181 4968 4992 "ocaml_src/utils/misc.ml" 181 4968 4993
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/misc.ml" 181 4968 4994 "ocaml_src/utils/misc.ml" 181 4968 4997
+type(
+  string
+)
+ident(
+  int_ref pat "ocaml_src/utils/misc.ml" 177 4811 4832 "ocaml_src/utils/misc.ml" 177 4811 4835
+)
+"ocaml_src/utils/misc.ml" 181 4968 4999 "ocaml_src/utils/misc.ml" 181 4968 5000
+type(
+  int
+)
+ident(
+  int_ref j "ocaml_src/utils/misc.ml" 178 4848 4867 "ocaml_src/utils/misc.ml" 178 4848 4868
+)
+"ocaml_src/utils/misc.ml" 181 4968 4994 "ocaml_src/utils/misc.ml" 181 4968 5001
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 181 4968 4980 "ocaml_src/utils/misc.ml" 181 4968 5001
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 181 4968 5007 "ocaml_src/utils/misc.ml" 181 4968 5013
+type(
+  int -> int -> int
+)
+ident(
+  int_ref search "ocaml_src/utils/misc.ml" 178 4848 4858 "ocaml_src/utils/misc.ml" 178 4848 4864
+)
+"ocaml_src/utils/misc.ml" 181 4968 5014 "ocaml_src/utils/misc.ml" 181 4968 5015
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 178 4848 4865 "ocaml_src/utils/misc.ml" 178 4848 4866
+)
+"ocaml_src/utils/misc.ml" 181 4968 5017 "ocaml_src/utils/misc.ml" 181 4968 5018
+type(
+  int
+)
+ident(
+  int_ref j "ocaml_src/utils/misc.ml" 178 4848 4867 "ocaml_src/utils/misc.ml" 178 4848 4868
+)
+"ocaml_src/utils/misc.ml" 181 4968 5018 "ocaml_src/utils/misc.ml" 181 4968 5019
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/misc.ml" 181 4968 5019 "ocaml_src/utils/misc.ml" 181 4968 5020
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 181 4968 5016 "ocaml_src/utils/misc.ml" 181 4968 5021
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 181 4968 5007 "ocaml_src/utils/misc.ml" 181 4968 5021
+call(
+  tail
+)
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 182 5022 5031 "ocaml_src/utils/misc.ml" 182 5022 5037
+type(
+  int -> int -> int
+)
+ident(
+  int_ref search "ocaml_src/utils/misc.ml" 178 4848 4858 "ocaml_src/utils/misc.ml" 178 4848 4864
+)
+"ocaml_src/utils/misc.ml" 182 5022 5039 "ocaml_src/utils/misc.ml" 182 5022 5040
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 178 4848 4865 "ocaml_src/utils/misc.ml" 178 4848 4866
+)
+"ocaml_src/utils/misc.ml" 182 5022 5040 "ocaml_src/utils/misc.ml" 182 5022 5041
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/misc.ml" 182 5022 5041 "ocaml_src/utils/misc.ml" 182 5022 5042
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 182 5022 5038 "ocaml_src/utils/misc.ml" 182 5022 5043
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 182 5022 5044 "ocaml_src/utils/misc.ml" 182 5022 5045
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 182 5022 5031 "ocaml_src/utils/misc.ml" 182 5022 5045
+call(
+  tail
+)
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 181 4968 4977 "ocaml_src/utils/misc.ml" 182 5022 5045
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 180 4908 4917 "ocaml_src/utils/misc.ml" 182 5022 5045
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 179 4871 4875 "ocaml_src/utils/misc.ml" 182 5022 5045
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 183 5046 5051 "ocaml_src/utils/misc.ml" 183 5046 5057
+type(
+  int -> int -> int
+)
+ident(
+  int_ref search "ocaml_src/utils/misc.ml" 178 4848 4858 "ocaml_src/utils/misc.ml" 178 4848 4864
+)
+"ocaml_src/utils/misc.ml" 183 5046 5058 "ocaml_src/utils/misc.ml" 183 5046 5063
+type(
+  int
+)
+ident(
+  int_ref start "ocaml_src/utils/misc.ml" 177 4811 4840 "ocaml_src/utils/misc.ml" 177 4811 4845
+)
+"ocaml_src/utils/misc.ml" 183 5046 5064 "ocaml_src/utils/misc.ml" 183 5046 5065
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 183 5046 5051 "ocaml_src/utils/misc.ml" 183 5046 5065
+call(
+  tail
+)
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 178 4848 4850 "ocaml_src/utils/misc.ml" 183 5046 5065
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 185 5067 5071 "ocaml_src/utils/misc.ml" 185 5067 5086
+type(
+  string -> string list
+)
+ident(
+  def rev_split_words "ocaml_src/utils/misc.ml" 198 5517 5533 "ocaml_src/utils/misc.ml" 1 0 -1
+)
+"ocaml_src/utils/misc.ml" 185 5067 5087 "ocaml_src/utils/misc.ml" 185 5067 5088
+type(
+  string
+)
+ident(
+  def s "ocaml_src/utils/misc.ml" 186 5091 5093 "ocaml_src/utils/misc.ml" 198 5517 5533
+)
+"ocaml_src/utils/misc.ml" 186 5091 5101 "ocaml_src/utils/misc.ml" 186 5091 5107
+type(
+  string list -> int -> string list
+)
+ident(
+  def split1 "ocaml_src/utils/misc.ml" 186 5091 5093 "ocaml_src/utils/misc.ml" 198 5517 5533
+)
+"ocaml_src/utils/misc.ml" 186 5091 5108 "ocaml_src/utils/misc.ml" 186 5091 5111
+type(
+  string list
+)
+ident(
+  def res "ocaml_src/utils/misc.ml" 186 5091 5112 "ocaml_src/utils/misc.ml" 191 5272 5279
+)
+"ocaml_src/utils/misc.ml" 186 5091 5112 "ocaml_src/utils/misc.ml" 186 5091 5113
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/misc.ml" 187 5116 5120 "ocaml_src/utils/misc.ml" 191 5272 5279
+)
+"ocaml_src/utils/misc.ml" 187 5116 5123 "ocaml_src/utils/misc.ml" 187 5116 5124
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 186 5091 5112 "ocaml_src/utils/misc.ml" 186 5091 5113
+)
+"ocaml_src/utils/misc.ml" 187 5116 5125 "ocaml_src/utils/misc.ml" 187 5116 5127
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/utils/misc.ml" 187 5116 5128 "ocaml_src/utils/misc.ml" 187 5116 5141
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/misc.ml" 187 5116 5142 "ocaml_src/utils/misc.ml" 187 5116 5143
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/misc.ml" 185 5067 5087 "ocaml_src/utils/misc.ml" 185 5067 5088
+)
+"ocaml_src/utils/misc.ml" 187 5116 5128 "ocaml_src/utils/misc.ml" 187 5116 5143
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 187 5116 5123 "ocaml_src/utils/misc.ml" 187 5116 5143
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 187 5116 5149 "ocaml_src/utils/misc.ml" 187 5116 5152
+type(
+  string list
+)
+ident(
+  int_ref res "ocaml_src/utils/misc.ml" 186 5091 5108 "ocaml_src/utils/misc.ml" 186 5091 5111
+)
+"ocaml_src/utils/misc.ml" 188 5164 5176 "ocaml_src/utils/misc.ml" 188 5164 5177
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/misc.ml" 185 5067 5087 "ocaml_src/utils/misc.ml" 185 5067 5088
+)
+"ocaml_src/utils/misc.ml" 188 5164 5179 "ocaml_src/utils/misc.ml" 188 5164 5180
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 186 5091 5112 "ocaml_src/utils/misc.ml" 186 5091 5113
+)
+"ocaml_src/utils/misc.ml" 188 5164 5176 "ocaml_src/utils/misc.ml" 188 5164 5181
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 189 5187 5195 "ocaml_src/utils/misc.ml" 189 5187 5198
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 189 5187 5201 "ocaml_src/utils/misc.ml" 189 5187 5205
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 189 5187 5195 "ocaml_src/utils/misc.ml" 189 5187 5205
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 189 5187 5208 "ocaml_src/utils/misc.ml" 189 5187 5212
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 189 5187 5195 "ocaml_src/utils/misc.ml" 189 5187 5212
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 189 5187 5215 "ocaml_src/utils/misc.ml" 189 5187 5219
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 189 5187 5195 "ocaml_src/utils/misc.ml" 189 5187 5219
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 189 5187 5223 "ocaml_src/utils/misc.ml" 189 5187 5229
+type(
+  string list -> int -> string list
+)
+ident(
+  int_ref split1 "ocaml_src/utils/misc.ml" 186 5091 5101 "ocaml_src/utils/misc.ml" 186 5091 5107
+)
+"ocaml_src/utils/misc.ml" 189 5187 5230 "ocaml_src/utils/misc.ml" 189 5187 5233
+type(
+  string list
+)
+ident(
+  int_ref res "ocaml_src/utils/misc.ml" 186 5091 5108 "ocaml_src/utils/misc.ml" 186 5091 5111
+)
+"ocaml_src/utils/misc.ml" 189 5187 5235 "ocaml_src/utils/misc.ml" 189 5187 5236
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 186 5091 5112 "ocaml_src/utils/misc.ml" 186 5091 5113
+)
+"ocaml_src/utils/misc.ml" 189 5187 5236 "ocaml_src/utils/misc.ml" 189 5187 5237
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/misc.ml" 189 5187 5237 "ocaml_src/utils/misc.ml" 189 5187 5238
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 189 5187 5234 "ocaml_src/utils/misc.ml" 189 5187 5239
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 189 5187 5223 "ocaml_src/utils/misc.ml" 189 5187 5239
+call(
+  tail
+)
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 190 5240 5248 "ocaml_src/utils/misc.ml" 190 5240 5249
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 190 5240 5253 "ocaml_src/utils/misc.ml" 190 5240 5259
+type(
+  string list -> int -> int -> string list
+)
+ident(
+  int_ref split2 "ocaml_src/utils/misc.ml" 192 5280 5286 "ocaml_src/utils/misc.ml" 192 5280 5292
+)
+"ocaml_src/utils/misc.ml" 190 5240 5260 "ocaml_src/utils/misc.ml" 190 5240 5263
+type(
+  string list
+)
+ident(
+  int_ref res "ocaml_src/utils/misc.ml" 186 5091 5108 "ocaml_src/utils/misc.ml" 186 5091 5111
+)
+"ocaml_src/utils/misc.ml" 190 5240 5264 "ocaml_src/utils/misc.ml" 190 5240 5265
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 186 5091 5112 "ocaml_src/utils/misc.ml" 186 5091 5113
+)
+"ocaml_src/utils/misc.ml" 190 5240 5267 "ocaml_src/utils/misc.ml" 190 5240 5268
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 186 5091 5112 "ocaml_src/utils/misc.ml" 186 5091 5113
+)
+"ocaml_src/utils/misc.ml" 190 5240 5268 "ocaml_src/utils/misc.ml" 190 5240 5269
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/misc.ml" 190 5240 5269 "ocaml_src/utils/misc.ml" 190 5240 5270
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 190 5240 5266 "ocaml_src/utils/misc.ml" 190 5240 5271
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 190 5240 5253 "ocaml_src/utils/misc.ml" 190 5240 5271
+call(
+  tail
+)
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 187 5116 5158 "ocaml_src/utils/misc.ml" 191 5272 5279
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 187 5116 5120 "ocaml_src/utils/misc.ml" 191 5272 5279
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 192 5280 5286 "ocaml_src/utils/misc.ml" 192 5280 5292
+type(
+  string list -> int -> int -> string list
+)
+ident(
+  def split2 "ocaml_src/utils/misc.ml" 186 5091 5093 "ocaml_src/utils/misc.ml" 198 5517 5533
+)
+"ocaml_src/utils/misc.ml" 192 5280 5293 "ocaml_src/utils/misc.ml" 192 5280 5296
+type(
+  string list
+)
+ident(
+  def res "ocaml_src/utils/misc.ml" 192 5280 5297 "ocaml_src/utils/misc.ml" 197 5509 5516
+)
+"ocaml_src/utils/misc.ml" 192 5280 5297 "ocaml_src/utils/misc.ml" 192 5280 5298
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/misc.ml" 192 5280 5299 "ocaml_src/utils/misc.ml" 197 5509 5516
+)
+"ocaml_src/utils/misc.ml" 192 5280 5299 "ocaml_src/utils/misc.ml" 192 5280 5300
+type(
+  int
+)
+ident(
+  def j "ocaml_src/utils/misc.ml" 193 5303 5307 "ocaml_src/utils/misc.ml" 197 5509 5516
+)
+"ocaml_src/utils/misc.ml" 193 5303 5310 "ocaml_src/utils/misc.ml" 193 5303 5311
+type(
+  int
+)
+ident(
+  int_ref j "ocaml_src/utils/misc.ml" 192 5280 5299 "ocaml_src/utils/misc.ml" 192 5280 5300
+)
+"ocaml_src/utils/misc.ml" 193 5303 5312 "ocaml_src/utils/misc.ml" 193 5303 5314
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/utils/misc.ml" 193 5303 5315 "ocaml_src/utils/misc.ml" 193 5303 5328
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/misc.ml" 193 5303 5329 "ocaml_src/utils/misc.ml" 193 5303 5330
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/misc.ml" 185 5067 5087 "ocaml_src/utils/misc.ml" 185 5067 5088
+)
+"ocaml_src/utils/misc.ml" 193 5303 5315 "ocaml_src/utils/misc.ml" 193 5303 5330
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 193 5303 5310 "ocaml_src/utils/misc.ml" 193 5303 5330
+type(
+  bool
+)
+"ocaml_src/utils/misc.ml" 193 5303 5336 "ocaml_src/utils/misc.ml" 193 5303 5346
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"ocaml_src/utils/misc.ml" 193 5303 5347 "ocaml_src/utils/misc.ml" 193 5303 5348
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/misc.ml" 185 5067 5087 "ocaml_src/utils/misc.ml" 185 5067 5088
+)
+"ocaml_src/utils/misc.ml" 193 5303 5349 "ocaml_src/utils/misc.ml" 193 5303 5350
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 192 5280 5297 "ocaml_src/utils/misc.ml" 192 5280 5298
+)
+"ocaml_src/utils/misc.ml" 193 5303 5352 "ocaml_src/utils/misc.ml" 193 5303 5353
+type(
+  int
+)
+ident(
+  int_ref j "ocaml_src/utils/misc.ml" 192 5280 5299 "ocaml_src/utils/misc.ml" 192 5280 5300
+)
+"ocaml_src/utils/misc.ml" 193 5303 5353 "ocaml_src/utils/misc.ml" 193 5303 5354
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/utils/misc.ml" 193 5303 5354 "ocaml_src/utils/misc.ml" 193 5303 5355
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 192 5280 5297 "ocaml_src/utils/misc.ml" 192 5280 5298
+)
+"ocaml_src/utils/misc.ml" 193 5303 5351 "ocaml_src/utils/misc.ml" 193 5303 5356
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 193 5303 5336 "ocaml_src/utils/misc.ml" 193 5303 5356
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 193 5303 5360 "ocaml_src/utils/misc.ml" 193 5303 5363
+type(
+  string list
+)
+ident(
+  int_ref res "ocaml_src/utils/misc.ml" 192 5280 5293 "ocaml_src/utils/misc.ml" 192 5280 5296
+)
+"ocaml_src/utils/misc.ml" 193 5303 5336 "ocaml_src/utils/misc.ml" 193 5303 5363
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 194 5375 5387 "ocaml_src/utils/misc.ml" 194 5375 5388
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/misc.ml" 185 5067 5087 "ocaml_src/utils/misc.ml" 185 5067 5088
+)
+"ocaml_src/utils/misc.ml" 194 5375 5390 "ocaml_src/utils/misc.ml" 194 5375 5391
+type(
+  int
+)
+ident(
+  int_ref j "ocaml_src/utils/misc.ml" 192 5280 5299 "ocaml_src/utils/misc.ml" 192 5280 5300
+)
+"ocaml_src/utils/misc.ml" 194 5375 5387 "ocaml_src/utils/misc.ml" 194 5375 5392
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 195 5398 5406 "ocaml_src/utils/misc.ml" 195 5398 5409
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 195 5398 5412 "ocaml_src/utils/misc.ml" 195 5398 5416
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 195 5398 5406 "ocaml_src/utils/misc.ml" 195 5398 5416
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 195 5398 5419 "ocaml_src/utils/misc.ml" 195 5398 5423
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 195 5398 5406 "ocaml_src/utils/misc.ml" 195 5398 5423
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 195 5398 5426 "ocaml_src/utils/misc.ml" 195 5398 5430
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 195 5398 5406 "ocaml_src/utils/misc.ml" 195 5398 5430
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 195 5398 5434 "ocaml_src/utils/misc.ml" 195 5398 5440
+type(
+  string list -> int -> string list
+)
+ident(
+  int_ref split1 "ocaml_src/utils/misc.ml" 186 5091 5101 "ocaml_src/utils/misc.ml" 186 5091 5107
+)
+"ocaml_src/utils/misc.ml" 195 5398 5442 "ocaml_src/utils/misc.ml" 195 5398 5452
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"ocaml_src/utils/misc.ml" 195 5398 5453 "ocaml_src/utils/misc.ml" 195 5398 5454
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/misc.ml" 185 5067 5087 "ocaml_src/utils/misc.ml" 185 5067 5088
+)
+"ocaml_src/utils/misc.ml" 195 5398 5455 "ocaml_src/utils/misc.ml" 195 5398 5456
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 192 5280 5297 "ocaml_src/utils/misc.ml" 192 5280 5298
+)
+"ocaml_src/utils/misc.ml" 195 5398 5458 "ocaml_src/utils/misc.ml" 195 5398 5459
+type(
+  int
+)
+ident(
+  int_ref j "ocaml_src/utils/misc.ml" 192 5280 5299 "ocaml_src/utils/misc.ml" 192 5280 5300
+)
+"ocaml_src/utils/misc.ml" 195 5398 5459 "ocaml_src/utils/misc.ml" 195 5398 5460
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/utils/misc.ml" 195 5398 5460 "ocaml_src/utils/misc.ml" 195 5398 5461
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 192 5280 5297 "ocaml_src/utils/misc.ml" 192 5280 5298
+)
+"ocaml_src/utils/misc.ml" 195 5398 5457 "ocaml_src/utils/misc.ml" 195 5398 5462
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 195 5398 5442 "ocaml_src/utils/misc.ml" 195 5398 5462
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/misc.ml" 195 5398 5466 "ocaml_src/utils/misc.ml" 195 5398 5469
+type(
+  string list
+)
+ident(
+  int_ref res "ocaml_src/utils/misc.ml" 192 5280 5293 "ocaml_src/utils/misc.ml" 192 5280 5296
+)
+"ocaml_src/utils/misc.ml" 195 5398 5441 "ocaml_src/utils/misc.ml" 195 5398 5470
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 195 5398 5472 "ocaml_src/utils/misc.ml" 195 5398 5473
+type(
+  int
+)
+ident(
+  int_ref j "ocaml_src/utils/misc.ml" 192 5280 5299 "ocaml_src/utils/misc.ml" 192 5280 5300
+)
+"ocaml_src/utils/misc.ml" 195 5398 5473 "ocaml_src/utils/misc.ml" 195 5398 5474
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/misc.ml" 195 5398 5474 "ocaml_src/utils/misc.ml" 195 5398 5475
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 195 5398 5471 "ocaml_src/utils/misc.ml" 195 5398 5476
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 195 5398 5434 "ocaml_src/utils/misc.ml" 195 5398 5476
+call(
+  tail
+)
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 196 5477 5485 "ocaml_src/utils/misc.ml" 196 5477 5486
+type(
+  char
+)
+"ocaml_src/utils/misc.ml" 196 5477 5490 "ocaml_src/utils/misc.ml" 196 5477 5496
+type(
+  string list -> int -> int -> string list
+)
+ident(
+  int_ref split2 "ocaml_src/utils/misc.ml" 192 5280 5286 "ocaml_src/utils/misc.ml" 192 5280 5292
+)
+"ocaml_src/utils/misc.ml" 196 5477 5497 "ocaml_src/utils/misc.ml" 196 5477 5500
+type(
+  string list
+)
+ident(
+  int_ref res "ocaml_src/utils/misc.ml" 192 5280 5293 "ocaml_src/utils/misc.ml" 192 5280 5296
+)
+"ocaml_src/utils/misc.ml" 196 5477 5501 "ocaml_src/utils/misc.ml" 196 5477 5502
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/misc.ml" 192 5280 5297 "ocaml_src/utils/misc.ml" 192 5280 5298
+)
+"ocaml_src/utils/misc.ml" 196 5477 5504 "ocaml_src/utils/misc.ml" 196 5477 5505
+type(
+  int
+)
+ident(
+  int_ref j "ocaml_src/utils/misc.ml" 192 5280 5299 "ocaml_src/utils/misc.ml" 192 5280 5300
+)
+"ocaml_src/utils/misc.ml" 196 5477 5505 "ocaml_src/utils/misc.ml" 196 5477 5506
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/misc.ml" 196 5477 5506 "ocaml_src/utils/misc.ml" 196 5477 5507
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 196 5477 5503 "ocaml_src/utils/misc.ml" 196 5477 5508
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 196 5477 5490 "ocaml_src/utils/misc.ml" 196 5477 5508
+call(
+  tail
+)
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 193 5303 5369 "ocaml_src/utils/misc.ml" 197 5509 5516
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 193 5303 5307 "ocaml_src/utils/misc.ml" 197 5509 5516
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 198 5517 5522 "ocaml_src/utils/misc.ml" 198 5517 5528
+type(
+  string list -> int -> string list
+)
+ident(
+  int_ref split1 "ocaml_src/utils/misc.ml" 186 5091 5101 "ocaml_src/utils/misc.ml" 186 5091 5107
+)
+"ocaml_src/utils/misc.ml" 198 5517 5529 "ocaml_src/utils/misc.ml" 198 5517 5531
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 198 5517 5532 "ocaml_src/utils/misc.ml" 198 5517 5533
+type(
+  int
+)
+"ocaml_src/utils/misc.ml" 198 5517 5522 "ocaml_src/utils/misc.ml" 198 5517 5533
+call(
+  tail
+)
+type(
+  string list
+)
+"ocaml_src/utils/misc.ml" 186 5091 5093 "ocaml_src/utils/misc.ml" 198 5517 5533
+type(
+  string list
+)

@@ -1,0 +1,1214 @@
+"generation/genr_pattern.ml" 21 1108 1112 "generation/genr_pattern.ml" 21 1108 1126
+type(
+  Parsetree.pattern
+)
+ident(
+  def pat_underscore "generation/genr_pattern.ml" 27 1189 1189 "generation/genr_pattern.ml" 1 0 -1
+)
+"generation/genr_pattern.ml" 22 1131 1145 "generation/genr_pattern.ml" 22 1131 1153
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 23 1155 1168 "generation/genr_pattern.ml" 23 1155 1181
+type(
+  Location.t
+)
+ident(
+  ext_ref Location.none
+)
+"generation/genr_pattern.ml" 21 1108 1129 "generation/genr_pattern.ml" 24 1183 1184
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 27 1189 1193 "generation/genr_pattern.ml" 27 1189 1209
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  def remove_topconstr "generation/genr_pattern.ml" 86 3094 3094 "generation/genr_pattern.ml" 1 0 -1
+)
+"generation/genr_pattern.ml" 27 1189 1210 "generation/genr_pattern.ml" 27 1189 1211
+type(
+  Parsetree.pattern
+)
+ident(
+  def r "generation/genr_pattern.ml" 28 1214 1216 "generation/genr_pattern.ml" 31 1315 1336
+)
+"generation/genr_pattern.ml" 28 1214 1222 "generation/genr_pattern.ml" 28 1214 1223
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref r "generation/genr_pattern.ml" 27 1189 1210 "generation/genr_pattern.ml" 27 1189 1211
+)
+"generation/genr_pattern.ml" 28 1214 1222 "generation/genr_pattern.ml" 28 1214 1233
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 29 1239 1259 "generation/genr_pattern.ml" 29 1239 1260
+type(
+  Longident.t
+)
+"generation/genr_pattern.ml" 29 1239 1267 "generation/genr_pattern.ml" 29 1239 1268
+type(
+  Parsetree.pattern
+)
+ident(
+  def p "generation/genr_pattern.ml" 29 1239 1276 "generation/genr_pattern.ml" 29 1239 1277
+)
+"generation/genr_pattern.ml" 29 1239 1262 "generation/genr_pattern.ml" 29 1239 1268
+type(
+  Parsetree.pattern option
+)
+"generation/genr_pattern.ml" 29 1239 1270 "generation/genr_pattern.ml" 29 1239 1271
+type(
+  bool
+)
+"generation/genr_pattern.ml" 29 1239 1243 "generation/genr_pattern.ml" 29 1239 1272
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 29 1239 1276 "generation/genr_pattern.ml" 29 1239 1277
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "generation/genr_pattern.ml" 29 1239 1267 "generation/genr_pattern.ml" 29 1239 1268
+)
+"generation/genr_pattern.ml" 30 1278 1298 "generation/genr_pattern.ml" 30 1278 1299
+type(
+  Longident.t
+)
+"generation/genr_pattern.ml" 30 1278 1301 "generation/genr_pattern.ml" 30 1278 1305
+type(
+  Parsetree.pattern option
+)
+"generation/genr_pattern.ml" 30 1278 1307 "generation/genr_pattern.ml" 30 1278 1308
+type(
+  bool
+)
+"generation/genr_pattern.ml" 30 1278 1282 "generation/genr_pattern.ml" 30 1278 1309
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 30 1278 1313 "generation/genr_pattern.ml" 30 1278 1314
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref r "generation/genr_pattern.ml" 27 1189 1210 "generation/genr_pattern.ml" 27 1189 1211
+)
+"generation/genr_pattern.ml" 31 1315 1319 "generation/genr_pattern.ml" 31 1315 1320
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 31 1315 1331 "generation/genr_pattern.ml" 31 1315 1336
+type(
+  bool
+)
+"generation/genr_pattern.ml" 31 1315 1324 "generation/genr_pattern.ml" 31 1315 1336
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 28 1214 1216 "generation/genr_pattern.ml" 31 1315 1336
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 86 3094 3102 "generation/genr_pattern.ml" 86 3094 3117
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  def add_underscores "generation/genr_pattern.ml" 86 3094 3094 "generation/genr_pattern.ml" 1 0 -1
+)
+"generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+type(
+  Parsetree.pattern
+)
+ident(
+  def pat "generation/genr_pattern.ml" 87 3124 3126 "generation/genr_pattern.ml" 141 5063 5085
+)
+"generation/genr_pattern.ml" 87 3124 3132 "generation/genr_pattern.ml" 87 3124 3135
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 87 3124 3132 "generation/genr_pattern.ml" 87 3124 3145
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 88 3151 3167 "generation/genr_pattern.ml" 88 3151 3171
+type(
+  Parsetree.pattern
+)
+ident(
+  def pat1 "generation/genr_pattern.ml" 89 3175 3179 "generation/genr_pattern.ml" 90 3202 3244
+)
+"generation/genr_pattern.ml" 88 3151 3155 "generation/genr_pattern.ml" 88 3151 3171
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 89 3175 3181 "generation/genr_pattern.ml" 89 3175 3184
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 90 3202 3221 "generation/genr_pattern.ml" 90 3202 3236
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref add_underscores "generation/genr_pattern.ml" 86 3094 3102 "generation/genr_pattern.ml" 86 3094 3117
+)
+"generation/genr_pattern.ml" 90 3202 3237 "generation/genr_pattern.ml" 90 3202 3241
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat1 "generation/genr_pattern.ml" 88 3151 3167 "generation/genr_pattern.ml" 88 3151 3171
+)
+"generation/genr_pattern.ml" 90 3202 3220 "generation/genr_pattern.ml" 90 3202 3242
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 90 3202 3208 "generation/genr_pattern.ml" 90 3202 3242
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 89 3175 3179 "generation/genr_pattern.ml" 90 3202 3244
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 91 3245 3259 "generation/genr_pattern.ml" 91 3245 3263
+type(
+  Parsetree.pattern
+)
+ident(
+  def pat1 "generation/genr_pattern.ml" 92 3267 3271 "generation/genr_pattern.ml" 93 3294 3334
+)
+"generation/genr_pattern.ml" 91 3245 3249 "generation/genr_pattern.ml" 91 3245 3263
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 92 3267 3273 "generation/genr_pattern.ml" 92 3267 3276
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 93 3294 3311 "generation/genr_pattern.ml" 93 3294 3326
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref add_underscores "generation/genr_pattern.ml" 86 3094 3102 "generation/genr_pattern.ml" 86 3094 3117
+)
+"generation/genr_pattern.ml" 93 3294 3327 "generation/genr_pattern.ml" 93 3294 3331
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat1 "generation/genr_pattern.ml" 91 3245 3259 "generation/genr_pattern.ml" 91 3245 3263
+)
+"generation/genr_pattern.ml" 93 3294 3310 "generation/genr_pattern.ml" 93 3294 3332
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 93 3294 3300 "generation/genr_pattern.ml" 93 3294 3332
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 92 3267 3271 "generation/genr_pattern.ml" 93 3294 3334
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 94 3335 3339 "generation/genr_pattern.ml" 94 3335 3347
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 94 3335 3351 "generation/genr_pattern.ml" 94 3335 3354
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 95 3355 3368 "generation/genr_pattern.ml" 95 3355 3369
+type(
+  string
+)
+"generation/genr_pattern.ml" 95 3355 3359 "generation/genr_pattern.ml" 95 3355 3369
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 95 3355 3373 "generation/genr_pattern.ml" 95 3355 3376
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 96 3377 3393 "generation/genr_pattern.ml" 96 3377 3397
+type(
+  Parsetree.pattern
+)
+ident(
+  def pat1 "generation/genr_pattern.ml" 97 3405 3409 "generation/genr_pattern.ml" 98 3432 3476
+)
+"generation/genr_pattern.ml" 96 3377 3399 "generation/genr_pattern.ml" 96 3377 3400
+type(
+  string
+)
+ident(
+  def s "generation/genr_pattern.ml" 97 3405 3409 "generation/genr_pattern.ml" 98 3432 3476
+)
+"generation/genr_pattern.ml" 96 3377 3381 "generation/genr_pattern.ml" 96 3377 3401
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 97 3405 3411 "generation/genr_pattern.ml" 97 3405 3414
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 98 3432 3450 "generation/genr_pattern.ml" 98 3432 3465
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref add_underscores "generation/genr_pattern.ml" 86 3094 3102 "generation/genr_pattern.ml" 86 3094 3117
+)
+"generation/genr_pattern.ml" 98 3432 3466 "generation/genr_pattern.ml" 98 3432 3470
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat1 "generation/genr_pattern.ml" 96 3377 3393 "generation/genr_pattern.ml" 96 3377 3397
+)
+"generation/genr_pattern.ml" 98 3432 3450 "generation/genr_pattern.ml" 98 3432 3470
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 98 3432 3472 "generation/genr_pattern.ml" 98 3432 3473
+type(
+  string
+)
+ident(
+  int_ref s "generation/genr_pattern.ml" 96 3377 3399 "generation/genr_pattern.ml" 96 3377 3400
+)
+"generation/genr_pattern.ml" 98 3432 3438 "generation/genr_pattern.ml" 98 3432 3474
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 97 3405 3409 "generation/genr_pattern.ml" 98 3432 3476
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 99 3477 3495 "generation/genr_pattern.ml" 99 3477 3496
+type(
+  Asttypes.constant
+)
+"generation/genr_pattern.ml" 99 3477 3481 "generation/genr_pattern.ml" 99 3477 3496
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 99 3477 3500 "generation/genr_pattern.ml" 99 3477 3503
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 100 3504 3519 "generation/genr_pattern.ml" 100 3504 3523
+type(
+  Parsetree.pattern list
+)
+ident(
+  def pats "generation/genr_pattern.ml" 101 3527 3531 "generation/genr_pattern.ml" 102 3554 3604
+)
+"generation/genr_pattern.ml" 100 3504 3508 "generation/genr_pattern.ml" 100 3504 3523
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 101 3527 3533 "generation/genr_pattern.ml" 101 3527 3536
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 102 3554 3572 "generation/genr_pattern.ml" 102 3554 3580
+type(
+  (Parsetree.pattern -> Parsetree.pattern) ->
+  Parsetree.pattern list -> Parsetree.pattern list
+)
+ident(
+  ext_ref List.map
+)
+"generation/genr_pattern.ml" 102 3554 3581 "generation/genr_pattern.ml" 102 3554 3596
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref add_underscores "generation/genr_pattern.ml" 86 3094 3102 "generation/genr_pattern.ml" 86 3094 3117
+)
+"generation/genr_pattern.ml" 102 3554 3597 "generation/genr_pattern.ml" 102 3554 3601
+type(
+  Parsetree.pattern list
+)
+ident(
+  int_ref pats "generation/genr_pattern.ml" 100 3504 3519 "generation/genr_pattern.ml" 100 3504 3523
+)
+"generation/genr_pattern.ml" 102 3554 3571 "generation/genr_pattern.ml" 102 3554 3602
+call(
+  stack
+)
+type(
+  Parsetree.pattern list
+)
+"generation/genr_pattern.ml" 102 3554 3560 "generation/genr_pattern.ml" 102 3554 3602
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 101 3527 3531 "generation/genr_pattern.ml" 102 3554 3604
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 104 3606 3626 "generation/genr_pattern.ml" 104 3606 3627
+type(
+  Longident.t
+)
+"generation/genr_pattern.ml" 104 3606 3629 "generation/genr_pattern.ml" 104 3606 3633
+type(
+  Parsetree.pattern option
+)
+"generation/genr_pattern.ml" 104 3606 3635 "generation/genr_pattern.ml" 104 3606 3636
+type(
+  bool
+)
+"generation/genr_pattern.ml" 104 3606 3610 "generation/genr_pattern.ml" 104 3606 3637
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 104 3606 3641 "generation/genr_pattern.ml" 104 3606 3644
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 105 3645 3665 "generation/genr_pattern.ml" 105 3645 3668
+type(
+  Longident.t
+)
+ident(
+  def gid "generation/genr_pattern.ml" 105 3645 3689 "generation/genr_pattern.ml" 118 4160 4226
+)
+"generation/genr_pattern.ml" 105 3645 3675 "generation/genr_pattern.ml" 105 3645 3679
+type(
+  Parsetree.pattern
+)
+ident(
+  def parg "generation/genr_pattern.ml" 105 3645 3689 "generation/genr_pattern.ml" 118 4160 4226
+)
+"generation/genr_pattern.ml" 105 3645 3670 "generation/genr_pattern.ml" 105 3645 3679
+type(
+  Parsetree.pattern option
+)
+"generation/genr_pattern.ml" 105 3645 3681 "generation/genr_pattern.ml" 105 3645 3682
+type(
+  bool
+)
+ident(
+  def b "generation/genr_pattern.ml" 105 3645 3689 "generation/genr_pattern.ml" 118 4160 4226
+)
+"generation/genr_pattern.ml" 105 3645 3649 "generation/genr_pattern.ml" 105 3645 3683
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 105 3645 3689 "generation/genr_pattern.ml" 105 3645 3713
+type(
+  Longident.t -> bool
+)
+ident(
+  ext_ref Check.is_generator_ident
+)
+"generation/genr_pattern.ml" 105 3645 3714 "generation/genr_pattern.ml" 105 3645 3717
+type(
+  Longident.t
+)
+ident(
+  int_ref gid "generation/genr_pattern.ml" 105 3645 3665 "generation/genr_pattern.ml" 105 3645 3668
+)
+"generation/genr_pattern.ml" 105 3645 3689 "generation/genr_pattern.ml" 105 3645 3717
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_pattern.ml" 106 3721 3733 "generation/genr_pattern.ml" 106 3721 3754
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  def add_underscore_to_arg "generation/genr_pattern.ml" 106 3721 3725 "generation/genr_pattern.ml" 118 4160 4226
+)
+"generation/genr_pattern.ml" 106 3721 3755 "generation/genr_pattern.ml" 106 3721 3759
+type(
+  Parsetree.pattern
+)
+ident(
+  def parg "generation/genr_pattern.ml" 107 3762 3768 "generation/genr_pattern.ml" 116 4084 4129
+)
+"generation/genr_pattern.ml" 107 3762 3774 "generation/genr_pattern.ml" 107 3762 3778
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref parg "generation/genr_pattern.ml" 106 3721 3755 "generation/genr_pattern.ml" 106 3721 3759
+)
+"generation/genr_pattern.ml" 107 3762 3774 "generation/genr_pattern.ml" 107 3762 3788
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 108 3794 3813 "generation/genr_pattern.ml" 108 3794 3817
+type(
+  Parsetree.pattern list
+)
+ident(
+  def pats "generation/genr_pattern.ml" 109 3821 3829 "generation/genr_pattern.ml" 110 3853 3925
+)
+"generation/genr_pattern.ml" 108 3794 3802 "generation/genr_pattern.ml" 108 3794 3817
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 109 3821 3831 "generation/genr_pattern.ml" 109 3821 3835
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref parg "generation/genr_pattern.ml" 106 3721 3755 "generation/genr_pattern.ml" 106 3721 3759
+)
+"generation/genr_pattern.ml" 110 3853 3875 "generation/genr_pattern.ml" 110 3853 3889
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat_underscore "generation/genr_pattern.ml" 21 1108 1112 "generation/genr_pattern.ml" 21 1108 1126
+)
+"generation/genr_pattern.ml" 110 3853 3893 "generation/genr_pattern.ml" 110 3853 3901
+type(
+  (Parsetree.pattern -> Parsetree.pattern) ->
+  Parsetree.pattern list -> Parsetree.pattern list
+)
+ident(
+  ext_ref List.map
+)
+"generation/genr_pattern.ml" 110 3853 3902 "generation/genr_pattern.ml" 110 3853 3917
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref add_underscores "generation/genr_pattern.ml" 86 3094 3102 "generation/genr_pattern.ml" 86 3094 3117
+)
+"generation/genr_pattern.ml" 110 3853 3918 "generation/genr_pattern.ml" 110 3853 3922
+type(
+  Parsetree.pattern list
+)
+ident(
+  int_ref pats "generation/genr_pattern.ml" 108 3794 3813 "generation/genr_pattern.ml" 108 3794 3817
+)
+"generation/genr_pattern.ml" 110 3853 3893 "generation/genr_pattern.ml" 110 3853 3922
+call(
+  stack
+)
+type(
+  Parsetree.pattern list
+)
+"generation/genr_pattern.ml" 110 3853 3874 "generation/genr_pattern.ml" 110 3853 3923
+type(
+  Parsetree.pattern list
+)
+"generation/genr_pattern.ml" 110 3853 3863 "generation/genr_pattern.ml" 110 3853 3923
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 109 3821 3829 "generation/genr_pattern.ml" 110 3853 3925
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 111 3926 3946 "generation/genr_pattern.ml" 111 3926 3950
+type(
+  Parsetree.pattern
+)
+ident(
+  def pat1 "generation/genr_pattern.ml" 112 3954 3962 "generation/genr_pattern.ml" 113 3986 4038
+)
+"generation/genr_pattern.ml" 111 3926 3934 "generation/genr_pattern.ml" 111 3926 3950
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 112 3954 3964 "generation/genr_pattern.ml" 112 3954 3968
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref parg "generation/genr_pattern.ml" 106 3721 3755 "generation/genr_pattern.ml" 106 3721 3759
+)
+"generation/genr_pattern.ml" 113 3986 4009 "generation/genr_pattern.ml" 113 3986 4030
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref add_underscore_to_arg "generation/genr_pattern.ml" 106 3721 3733 "generation/genr_pattern.ml" 106 3721 3754
+)
+"generation/genr_pattern.ml" 113 3986 4031 "generation/genr_pattern.ml" 113 3986 4035
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat1 "generation/genr_pattern.ml" 111 3926 3946 "generation/genr_pattern.ml" 111 3926 3950
+)
+"generation/genr_pattern.ml" 113 3986 4008 "generation/genr_pattern.ml" 113 3986 4036
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 113 3986 3996 "generation/genr_pattern.ml" 113 3986 4036
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 112 3954 3962 "generation/genr_pattern.ml" 113 3986 4038
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 114 4039 4047 "generation/genr_pattern.ml" 114 4039 4048
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 115 4052 4062 "generation/genr_pattern.ml" 115 4052 4066
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref parg "generation/genr_pattern.ml" 106 3721 3755 "generation/genr_pattern.ml" 106 3721 3759
+)
+"generation/genr_pattern.ml" 116 4084 4106 "generation/genr_pattern.ml" 116 4084 4120
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat_underscore "generation/genr_pattern.ml" 21 1108 1112 "generation/genr_pattern.ml" 21 1108 1126
+)
+"generation/genr_pattern.ml" 116 4084 4122 "generation/genr_pattern.ml" 116 4084 4126
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref parg "generation/genr_pattern.ml" 106 3721 3755 "generation/genr_pattern.ml" 106 3721 3759
+)
+"generation/genr_pattern.ml" 116 4084 4105 "generation/genr_pattern.ml" 116 4084 4127
+type(
+  Parsetree.pattern list
+)
+"generation/genr_pattern.ml" 116 4084 4094 "generation/genr_pattern.ml" 116 4084 4127
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 115 4052 4060 "generation/genr_pattern.ml" 116 4084 4129
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 107 3762 3768 "generation/genr_pattern.ml" 116 4084 4129
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 117 4133 4139 "generation/genr_pattern.ml" 117 4133 4142
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 118 4160 4182 "generation/genr_pattern.ml" 118 4160 4185
+type(
+  Longident.t
+)
+ident(
+  int_ref gid "generation/genr_pattern.ml" 105 3645 3665 "generation/genr_pattern.ml" 105 3645 3668
+)
+"generation/genr_pattern.ml" 118 4160 4193 "generation/genr_pattern.ml" 118 4160 4214
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref add_underscore_to_arg "generation/genr_pattern.ml" 106 3721 3733 "generation/genr_pattern.ml" 106 3721 3754
+)
+"generation/genr_pattern.ml" 118 4160 4215 "generation/genr_pattern.ml" 118 4160 4219
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref parg "generation/genr_pattern.ml" 105 3645 3675 "generation/genr_pattern.ml" 105 3645 3679
+)
+"generation/genr_pattern.ml" 118 4160 4192 "generation/genr_pattern.ml" 118 4160 4220
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 118 4160 4187 "generation/genr_pattern.ml" 118 4160 4220
+type(
+  Parsetree.pattern option
+)
+"generation/genr_pattern.ml" 118 4160 4222 "generation/genr_pattern.ml" 118 4160 4223
+type(
+  bool
+)
+ident(
+  int_ref b "generation/genr_pattern.ml" 105 3645 3681 "generation/genr_pattern.ml" 105 3645 3682
+)
+"generation/genr_pattern.ml" 118 4160 4166 "generation/genr_pattern.ml" 118 4160 4224
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 117 4133 4137 "generation/genr_pattern.ml" 118 4160 4226
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 106 3721 3725 "generation/genr_pattern.ml" 118 4160 4226
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 119 4227 4247 "generation/genr_pattern.ml" 119 4227 4250
+type(
+  Longident.t
+)
+ident(
+  def gid "generation/genr_pattern.ml" 120 4269 4273 "generation/genr_pattern.ml" 121 4296 4356
+)
+"generation/genr_pattern.ml" 119 4227 4257 "generation/genr_pattern.ml" 119 4227 4261
+type(
+  Parsetree.pattern
+)
+ident(
+  def pat1 "generation/genr_pattern.ml" 120 4269 4273 "generation/genr_pattern.ml" 121 4296 4356
+)
+"generation/genr_pattern.ml" 119 4227 4252 "generation/genr_pattern.ml" 119 4227 4261
+type(
+  Parsetree.pattern option
+)
+"generation/genr_pattern.ml" 119 4227 4263 "generation/genr_pattern.ml" 119 4227 4264
+type(
+  bool
+)
+ident(
+  def b "generation/genr_pattern.ml" 120 4269 4273 "generation/genr_pattern.ml" 121 4296 4356
+)
+"generation/genr_pattern.ml" 119 4227 4231 "generation/genr_pattern.ml" 119 4227 4265
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 120 4269 4275 "generation/genr_pattern.ml" 120 4269 4278
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 121 4296 4318 "generation/genr_pattern.ml" 121 4296 4321
+type(
+  Longident.t
+)
+ident(
+  int_ref gid "generation/genr_pattern.ml" 119 4227 4247 "generation/genr_pattern.ml" 119 4227 4250
+)
+"generation/genr_pattern.ml" 121 4296 4329 "generation/genr_pattern.ml" 121 4296 4344
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref add_underscores "generation/genr_pattern.ml" 86 3094 3102 "generation/genr_pattern.ml" 86 3094 3117
+)
+"generation/genr_pattern.ml" 121 4296 4345 "generation/genr_pattern.ml" 121 4296 4349
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat1 "generation/genr_pattern.ml" 119 4227 4257 "generation/genr_pattern.ml" 119 4227 4261
+)
+"generation/genr_pattern.ml" 121 4296 4328 "generation/genr_pattern.ml" 121 4296 4350
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 121 4296 4323 "generation/genr_pattern.ml" 121 4296 4350
+type(
+  Parsetree.pattern option
+)
+"generation/genr_pattern.ml" 121 4296 4352 "generation/genr_pattern.ml" 121 4296 4353
+type(
+  bool
+)
+ident(
+  int_ref b "generation/genr_pattern.ml" 119 4227 4263 "generation/genr_pattern.ml" 119 4227 4264
+)
+"generation/genr_pattern.ml" 121 4296 4302 "generation/genr_pattern.ml" 121 4296 4354
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 120 4269 4273 "generation/genr_pattern.ml" 121 4296 4356
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 123 4358 4376 "generation/genr_pattern.ml" 123 4358 4377
+type(
+  Asttypes.label
+)
+"generation/genr_pattern.ml" 123 4358 4379 "generation/genr_pattern.ml" 123 4358 4383
+type(
+  Parsetree.pattern option
+)
+"generation/genr_pattern.ml" 123 4358 4362 "generation/genr_pattern.ml" 123 4358 4384
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 123 4358 4388 "generation/genr_pattern.ml" 123 4358 4391
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 124 4392 4410 "generation/genr_pattern.ml" 124 4392 4415
+type(
+  Asttypes.label
+)
+ident(
+  def label "generation/genr_pattern.ml" 125 4431 4435 "generation/genr_pattern.ml" 126 4458 4515
+)
+"generation/genr_pattern.ml" 124 4392 4422 "generation/genr_pattern.ml" 124 4392 4426
+type(
+  Parsetree.pattern
+)
+ident(
+  def pat1 "generation/genr_pattern.ml" 125 4431 4435 "generation/genr_pattern.ml" 126 4458 4515
+)
+"generation/genr_pattern.ml" 124 4392 4417 "generation/genr_pattern.ml" 124 4392 4426
+type(
+  Parsetree.pattern option
+)
+"generation/genr_pattern.ml" 124 4392 4396 "generation/genr_pattern.ml" 124 4392 4427
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 125 4431 4437 "generation/genr_pattern.ml" 125 4431 4440
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 126 4458 4478 "generation/genr_pattern.ml" 126 4458 4483
+type(
+  Asttypes.label
+)
+ident(
+  int_ref label "generation/genr_pattern.ml" 124 4392 4410 "generation/genr_pattern.ml" 124 4392 4415
+)
+"generation/genr_pattern.ml" 126 4458 4491 "generation/genr_pattern.ml" 126 4458 4506
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref add_underscores "generation/genr_pattern.ml" 86 3094 3102 "generation/genr_pattern.ml" 86 3094 3117
+)
+"generation/genr_pattern.ml" 126 4458 4507 "generation/genr_pattern.ml" 126 4458 4511
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat1 "generation/genr_pattern.ml" 124 4392 4422 "generation/genr_pattern.ml" 124 4392 4426
+)
+"generation/genr_pattern.ml" 126 4458 4490 "generation/genr_pattern.ml" 126 4458 4512
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 126 4458 4485 "generation/genr_pattern.ml" 126 4458 4512
+type(
+  Parsetree.pattern option
+)
+"generation/genr_pattern.ml" 126 4458 4464 "generation/genr_pattern.ml" 126 4458 4513
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 125 4431 4435 "generation/genr_pattern.ml" 126 4458 4515
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 127 4516 4533 "generation/genr_pattern.ml" 127 4516 4539
+type(
+  (Longident.t * Parsetree.pattern) list
+)
+ident(
+  def fields "generation/genr_pattern.ml" 128 4551 4555 "generation/genr_pattern.ml" 131 4664 4733
+)
+"generation/genr_pattern.ml" 127 4516 4541 "generation/genr_pattern.ml" 127 4516 4546
+type(
+  Asttypes.closed_flag
+)
+ident(
+  def eflag "generation/genr_pattern.ml" 128 4551 4555 "generation/genr_pattern.ml" 131 4664 4733
+)
+"generation/genr_pattern.ml" 127 4516 4520 "generation/genr_pattern.ml" 127 4516 4547
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 128 4551 4559 "generation/genr_pattern.ml" 128 4551 4583
+type(
+  'a * Parsetree.pattern -> 'a * Parsetree.pattern
+)
+ident(
+  def add_underscores_to_field "generation/genr_pattern.ml" 130 4637 4641 "generation/genr_pattern.ml" 131 4664 4733
+)
+"generation/genr_pattern.ml" 128 4551 4585 "generation/genr_pattern.ml" 128 4551 4590
+type(
+  'a
+)
+ident(
+  def label "generation/genr_pattern.ml" 129 4599 4605 "generation/genr_pattern.ml" 129 4599 4633
+)
+"generation/genr_pattern.ml" 128 4551 4592 "generation/genr_pattern.ml" 128 4551 4595
+type(
+  Parsetree.pattern
+)
+ident(
+  def pat "generation/genr_pattern.ml" 129 4599 4605 "generation/genr_pattern.ml" 129 4599 4633
+)
+"generation/genr_pattern.ml" 128 4551 4584 "generation/genr_pattern.ml" 128 4551 4596
+type(
+  'a * Parsetree.pattern
+)
+"generation/genr_pattern.ml" 129 4599 4606 "generation/genr_pattern.ml" 129 4599 4611
+type(
+  'a
+)
+ident(
+  int_ref label "generation/genr_pattern.ml" 128 4551 4585 "generation/genr_pattern.ml" 128 4551 4590
+)
+"generation/genr_pattern.ml" 129 4599 4613 "generation/genr_pattern.ml" 129 4599 4628
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref add_underscores "generation/genr_pattern.ml" 86 3094 3102 "generation/genr_pattern.ml" 86 3094 3117
+)
+"generation/genr_pattern.ml" 129 4599 4629 "generation/genr_pattern.ml" 129 4599 4632
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 128 4551 4592 "generation/genr_pattern.ml" 128 4551 4595
+)
+"generation/genr_pattern.ml" 129 4599 4613 "generation/genr_pattern.ml" 129 4599 4632
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 129 4599 4605 "generation/genr_pattern.ml" 129 4599 4633
+type(
+  'a * Parsetree.pattern
+)
+"generation/genr_pattern.ml" 130 4637 4643 "generation/genr_pattern.ml" 130 4637 4646
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 131 4664 4683 "generation/genr_pattern.ml" 131 4664 4691
+type(
+  (Longident.t * Parsetree.pattern -> Longident.t * Parsetree.pattern) ->
+  (Longident.t * Parsetree.pattern) list ->
+  (Longident.t * Parsetree.pattern) list
+)
+ident(
+  ext_ref List.map
+)
+"generation/genr_pattern.ml" 131 4664 4692 "generation/genr_pattern.ml" 131 4664 4716
+type(
+  Longident.t * Parsetree.pattern -> Longident.t * Parsetree.pattern
+)
+ident(
+  int_ref add_underscores_to_field "generation/genr_pattern.ml" 128 4551 4559 "generation/genr_pattern.ml" 128 4551 4583
+)
+"generation/genr_pattern.ml" 131 4664 4717 "generation/genr_pattern.ml" 131 4664 4723
+type(
+  (Longident.t * Parsetree.pattern) list
+)
+ident(
+  int_ref fields "generation/genr_pattern.ml" 127 4516 4533 "generation/genr_pattern.ml" 127 4516 4539
+)
+"generation/genr_pattern.ml" 131 4664 4683 "generation/genr_pattern.ml" 131 4664 4723
+call(
+  stack
+)
+type(
+  (Longident.t * Parsetree.pattern) list
+)
+"generation/genr_pattern.ml" 131 4664 4725 "generation/genr_pattern.ml" 131 4664 4730
+type(
+  Asttypes.closed_flag
+)
+ident(
+  int_ref eflag "generation/genr_pattern.ml" 127 4516 4541 "generation/genr_pattern.ml" 127 4516 4546
+)
+"generation/genr_pattern.ml" 131 4664 4670 "generation/genr_pattern.ml" 131 4664 4731
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 130 4637 4641 "generation/genr_pattern.ml" 131 4664 4733
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 128 4551 4555 "generation/genr_pattern.ml" 131 4664 4733
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 132 4734 4749 "generation/genr_pattern.ml" 132 4734 4753
+type(
+  Parsetree.pattern list
+)
+ident(
+  def pats "generation/genr_pattern.ml" 133 4757 4761 "generation/genr_pattern.ml" 134 4784 4834
+)
+"generation/genr_pattern.ml" 132 4734 4738 "generation/genr_pattern.ml" 132 4734 4753
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 133 4757 4763 "generation/genr_pattern.ml" 133 4757 4766
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 134 4784 4802 "generation/genr_pattern.ml" 134 4784 4810
+type(
+  (Parsetree.pattern -> Parsetree.pattern) ->
+  Parsetree.pattern list -> Parsetree.pattern list
+)
+ident(
+  ext_ref List.map
+)
+"generation/genr_pattern.ml" 134 4784 4811 "generation/genr_pattern.ml" 134 4784 4826
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref add_underscores "generation/genr_pattern.ml" 86 3094 3102 "generation/genr_pattern.ml" 86 3094 3117
+)
+"generation/genr_pattern.ml" 134 4784 4827 "generation/genr_pattern.ml" 134 4784 4831
+type(
+  Parsetree.pattern list
+)
+ident(
+  int_ref pats "generation/genr_pattern.ml" 132 4734 4749 "generation/genr_pattern.ml" 132 4734 4753
+)
+"generation/genr_pattern.ml" 134 4784 4801 "generation/genr_pattern.ml" 134 4784 4832
+call(
+  stack
+)
+type(
+  Parsetree.pattern list
+)
+"generation/genr_pattern.ml" 134 4784 4790 "generation/genr_pattern.ml" 134 4784 4832
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 133 4757 4761 "generation/genr_pattern.ml" 134 4784 4834
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 135 4835 4848 "generation/genr_pattern.ml" 135 4835 4852
+type(
+  Parsetree.pattern
+)
+ident(
+  def pat1 "generation/genr_pattern.ml" 136 4863 4867 "generation/genr_pattern.ml" 137 4890 4950
+)
+"generation/genr_pattern.ml" 135 4835 4854 "generation/genr_pattern.ml" 135 4835 4858
+type(
+  Parsetree.pattern
+)
+ident(
+  def pat2 "generation/genr_pattern.ml" 136 4863 4867 "generation/genr_pattern.ml" 137 4890 4950
+)
+"generation/genr_pattern.ml" 135 4835 4839 "generation/genr_pattern.ml" 135 4835 4859
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 136 4863 4869 "generation/genr_pattern.ml" 136 4863 4872
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 137 4890 4905 "generation/genr_pattern.ml" 137 4890 4920
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref add_underscores "generation/genr_pattern.ml" 86 3094 3102 "generation/genr_pattern.ml" 86 3094 3117
+)
+"generation/genr_pattern.ml" 137 4890 4921 "generation/genr_pattern.ml" 137 4890 4925
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat1 "generation/genr_pattern.ml" 135 4835 4848 "generation/genr_pattern.ml" 135 4835 4852
+)
+"generation/genr_pattern.ml" 137 4890 4905 "generation/genr_pattern.ml" 137 4890 4925
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 137 4890 4927 "generation/genr_pattern.ml" 137 4890 4942
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref add_underscores "generation/genr_pattern.ml" 86 3094 3102 "generation/genr_pattern.ml" 86 3094 3117
+)
+"generation/genr_pattern.ml" 137 4890 4943 "generation/genr_pattern.ml" 137 4890 4947
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat2 "generation/genr_pattern.ml" 135 4835 4854 "generation/genr_pattern.ml" 135 4835 4858
+)
+"generation/genr_pattern.ml" 137 4890 4927 "generation/genr_pattern.ml" 137 4890 4947
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 137 4890 4896 "generation/genr_pattern.ml" 137 4890 4948
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 136 4863 4867 "generation/genr_pattern.ml" 137 4890 4950
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 138 4951 4972 "generation/genr_pattern.ml" 138 4951 4976
+type(
+  Parsetree.pattern
+)
+ident(
+  def pat1 "generation/genr_pattern.ml" 139 4985 4989 "generation/genr_pattern.ml" 140 5012 5062
+)
+"generation/genr_pattern.ml" 138 4951 4978 "generation/genr_pattern.ml" 138 4951 4980
+type(
+  Parsetree.core_type
+)
+ident(
+  def ct "generation/genr_pattern.ml" 139 4985 4989 "generation/genr_pattern.ml" 140 5012 5062
+)
+"generation/genr_pattern.ml" 138 4951 4955 "generation/genr_pattern.ml" 138 4951 4981
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 139 4985 4991 "generation/genr_pattern.ml" 139 4985 4994
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 140 5012 5035 "generation/genr_pattern.ml" 140 5012 5050
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref add_underscores "generation/genr_pattern.ml" 86 3094 3102 "generation/genr_pattern.ml" 86 3094 3117
+)
+"generation/genr_pattern.ml" 140 5012 5051 "generation/genr_pattern.ml" 140 5012 5055
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat1 "generation/genr_pattern.ml" 138 4951 4972 "generation/genr_pattern.ml" 138 4951 4976
+)
+"generation/genr_pattern.ml" 140 5012 5035 "generation/genr_pattern.ml" 140 5012 5055
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 140 5012 5057 "generation/genr_pattern.ml" 140 5012 5059
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref ct "generation/genr_pattern.ml" 138 4951 4978 "generation/genr_pattern.ml" 138 4951 4980
+)
+"generation/genr_pattern.ml" 140 5012 5018 "generation/genr_pattern.ml" 140 5012 5060
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 139 4985 4989 "generation/genr_pattern.ml" 140 5012 5062
+type(
+  Parsetree.pattern
+)
+"generation/genr_pattern.ml" 141 5063 5077 "generation/genr_pattern.ml" 141 5063 5078
+type(
+  Longident.t
+)
+"generation/genr_pattern.ml" 141 5063 5067 "generation/genr_pattern.ml" 141 5063 5078
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_pattern.ml" 141 5063 5082 "generation/genr_pattern.ml" 141 5063 5085
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_pattern.ml" 86 3094 3118 "generation/genr_pattern.ml" 86 3094 3121
+)
+"generation/genr_pattern.ml" 87 3124 3126 "generation/genr_pattern.ml" 141 5063 5085
+type(
+  Parsetree.pattern
+)

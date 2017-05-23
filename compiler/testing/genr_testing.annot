@@ -1,0 +1,1642 @@
+"testing/genr_testing.ml" 24 1140 1144 "testing/genr_testing.ml" 24 1140 1163
+type(
+  string
+)
+ident(
+  def gentest_module_name "testing/genr_testing.ml" 25 1176 1176 "testing/genr_testing.ml" 1 0 -1
+)
+"testing/genr_testing.ml" 24 1140 1166 "testing/genr_testing.ml" 24 1140 1175
+type(
+  string
+)
+"testing/genr_testing.ml" 25 1176 1180 "testing/genr_testing.ml" 25 1176 1201
+type(
+  string
+)
+ident(
+  def testing_function_name "testing/genr_testing.ml" 26 1214 1214 "testing/genr_testing.ml" 1 0 -1
+)
+"testing/genr_testing.ml" 25 1176 1204 "testing/genr_testing.ml" 25 1176 1213
+type(
+  string
+)
+"testing/genr_testing.ml" 26 1214 1218 "testing/genr_testing.ml" 26 1214 1236
+type(
+  string
+)
+ident(
+  def test_function_name "testing/genr_testing.ml" 27 1247 1247 "testing/genr_testing.ml" 1 0 -1
+)
+"testing/genr_testing.ml" 26 1214 1239 "testing/genr_testing.ml" 26 1214 1246
+type(
+  string
+)
+"testing/genr_testing.ml" 27 1247 1251 "testing/genr_testing.ml" 27 1247 1258
+type(
+  int ref
+)
+ident(
+  def gen_num "testing/genr_testing.ml" 30 1271 1271 "testing/genr_testing.ml" 1 0 -1
+)
+"testing/genr_testing.ml" 27 1247 1261 "testing/genr_testing.ml" 27 1247 1264
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"testing/genr_testing.ml" 27 1247 1265 "testing/genr_testing.ml" 27 1247 1266
+type(
+  int
+)
+"testing/genr_testing.ml" 27 1247 1261 "testing/genr_testing.ml" 27 1247 1266
+type(
+  int ref
+)
+"testing/genr_testing.ml" 30 1271 1275 "testing/genr_testing.ml" 30 1271 1289
+type(
+  string -> int -> Code.structure_item
+)
+ident(
+  def testing_module "testing/genr_testing.ml" 38 1563 1563 "testing/genr_testing.ml" 1 0 -1
+)
+"testing/genr_testing.ml" 30 1271 1290 "testing/genr_testing.ml" 30 1271 1301
+type(
+  string
+)
+ident(
+  def module_name "testing/genr_testing.ml" 30 1271 1302 "testing/genr_testing.ml" 35 1489 1558
+)
+"testing/genr_testing.ml" 30 1271 1302 "testing/genr_testing.ml" 30 1271 1306
+type(
+  int
+)
+ident(
+  def seed "testing/genr_testing.ml" 31 1309 1311 "testing/genr_testing.ml" 35 1489 1558
+)
+"testing/genr_testing.ml" 31 1309 1315 "testing/genr_testing.ml" 31 1309 1337
+type(
+  Longident.t
+)
+ident(
+  def testing_function_ident "testing/genr_testing.ml" 33 1386 1388 "testing/genr_testing.ml" 35 1489 1558
+)
+"testing/genr_testing.ml" 32 1340 1361 "testing/genr_testing.ml" 32 1340 1382
+type(
+  string
+)
+ident(
+  int_ref testing_function_name "testing/genr_testing.ml" 25 1176 1180 "testing/genr_testing.ml" 25 1176 1201
+)
+"testing/genr_testing.ml" 32 1340 1344 "testing/genr_testing.ml" 32 1340 1382
+type(
+  Longident.t
+)
+"testing/genr_testing.ml" 33 1386 1392 "testing/genr_testing.ml" 33 1386 1407
+type(
+  Code.exp
+)
+ident(
+  def testing_message "testing/genr_testing.ml" 35 1489 1491 "testing/genr_testing.ml" 35 1489 1558
+)
+"testing/genr_testing.ml" 34 1410 1414 "testing/genr_testing.ml" 34 1410 1423
+type(
+  string -> Code.exp
+)
+ident(
+  ext_ref Tgenr_base.mk_string
+)
+"testing/genr_testing.ml" 34 1410 1425 "testing/genr_testing.ml" 34 1410 1439
+type(
+  (string -> int -> string, unit, string) format -> string -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"testing/genr_testing.ml" 34 1410 1440 "testing/genr_testing.ml" 34 1410 1467
+type(
+  (string -> int -> string, unit, string) format
+)
+"testing/genr_testing.ml" 34 1410 1468 "testing/genr_testing.ml" 34 1410 1479
+type(
+  string
+)
+ident(
+  int_ref module_name "testing/genr_testing.ml" 30 1271 1290 "testing/genr_testing.ml" 30 1271 1301
+)
+"testing/genr_testing.ml" 34 1410 1480 "testing/genr_testing.ml" 34 1410 1484
+type(
+  int
+)
+ident(
+  int_ref seed "testing/genr_testing.ml" 30 1271 1302 "testing/genr_testing.ml" 30 1271 1306
+)
+"testing/genr_testing.ml" 34 1410 1424 "testing/genr_testing.ml" 34 1410 1485
+call(
+  stack
+)
+type(
+  string
+)
+"testing/genr_testing.ml" 34 1410 1414 "testing/genr_testing.ml" 34 1410 1485
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/genr_testing.ml" 35 1489 1507 "testing/genr_testing.ml" 35 1489 1518
+type(
+  Code.lident -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.apply1
+)
+"testing/genr_testing.ml" 35 1489 1519 "testing/genr_testing.ml" 35 1489 1541
+type(
+  Code.lident
+)
+ident(
+  int_ref testing_function_ident "testing/genr_testing.ml" 31 1309 1315 "testing/genr_testing.ml" 31 1309 1337
+)
+"testing/genr_testing.ml" 35 1489 1542 "testing/genr_testing.ml" 35 1489 1557
+type(
+  Code.exp
+)
+ident(
+  int_ref testing_message "testing/genr_testing.ml" 33 1386 1392 "testing/genr_testing.ml" 33 1386 1407
+)
+"testing/genr_testing.ml" 35 1489 1506 "testing/genr_testing.ml" 35 1489 1558
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/genr_testing.ml" 35 1489 1491 "testing/genr_testing.ml" 35 1489 1558
+type(
+  Code.structure_item
+)
+"testing/genr_testing.ml" 33 1386 1388 "testing/genr_testing.ml" 35 1489 1558
+type(
+  Code.structure_item
+)
+"testing/genr_testing.ml" 31 1309 1311 "testing/genr_testing.ml" 35 1489 1558
+type(
+  Code.structure_item
+)
+"testing/genr_testing.ml" 38 1563 1567 "testing/genr_testing.ml" 38 1563 1585
+type(
+  string -> int -> Code.structure_item list
+)
+ident(
+  def genr_test_preamble "testing/genr_testing.ml" 52 2056 2056 "testing/genr_testing.ml" 1 0 -1
+)
+"testing/genr_testing.ml" 38 1563 1586 "testing/genr_testing.ml" 38 1563 1597
+type(
+  string
+)
+ident(
+  def module_name "testing/genr_testing.ml" 38 1563 1598 "testing/genr_testing.ml" 42 1748 1749
+)
+"testing/genr_testing.ml" 38 1563 1598 "testing/genr_testing.ml" 38 1563 1602
+type(
+  int
+)
+ident(
+  def seed "testing/genr_testing.ml" 38 1563 1605 "testing/genr_testing.ml" 42 1748 1749
+)
+"testing/genr_testing.ml" 39 1607 1642 "testing/genr_testing.ml" 39 1607 1653
+type(
+  string
+)
+ident(
+  int_ref module_name "testing/genr_testing.ml" 38 1563 1586 "testing/genr_testing.ml" 38 1563 1597
+)
+"testing/genr_testing.ml" 39 1607 1624 "testing/genr_testing.ml" 39 1607 1654
+type(
+  Longident.t
+)
+"testing/genr_testing.ml" 39 1607 1609 "testing/genr_testing.ml" 39 1607 1654
+type(
+  Code.structure_item
+)
+"testing/genr_testing.ml" 40 1656 1691 "testing/genr_testing.ml" 40 1656 1710
+type(
+  string
+)
+ident(
+  int_ref gentest_module_name "testing/genr_testing.ml" 24 1140 1144 "testing/genr_testing.ml" 24 1140 1163
+)
+"testing/genr_testing.ml" 40 1656 1673 "testing/genr_testing.ml" 40 1656 1711
+type(
+  Longident.t
+)
+"testing/genr_testing.ml" 40 1656 1658 "testing/genr_testing.ml" 40 1656 1711
+type(
+  Code.structure_item
+)
+"testing/genr_testing.ml" 41 1713 1715 "testing/genr_testing.ml" 41 1713 1729
+type(
+  string -> int -> Code.structure_item
+)
+ident(
+  int_ref testing_module "testing/genr_testing.ml" 30 1271 1275 "testing/genr_testing.ml" 30 1271 1289
+)
+"testing/genr_testing.ml" 41 1713 1730 "testing/genr_testing.ml" 41 1713 1741
+type(
+  string
+)
+ident(
+  int_ref module_name "testing/genr_testing.ml" 38 1563 1586 "testing/genr_testing.ml" 38 1563 1597
+)
+"testing/genr_testing.ml" 41 1713 1742 "testing/genr_testing.ml" 41 1713 1746
+type(
+  int
+)
+ident(
+  int_ref seed "testing/genr_testing.ml" 38 1563 1598 "testing/genr_testing.ml" 38 1563 1602
+)
+"testing/genr_testing.ml" 41 1713 1715 "testing/genr_testing.ml" 41 1713 1746
+call(
+  stack
+)
+type(
+  Code.structure_item
+)
+"testing/genr_testing.ml" 38 1563 1605 "testing/genr_testing.ml" 42 1748 1749
+type(
+  Code.structure_item list
+)
+"testing/genr_testing.ml" 52 2056 2060 "testing/genr_testing.ml" 52 2056 2086
+type(
+  Otype.constructor_definition list -> bool
+)
+ident(
+  def need_division_by_absorbent "testing/genr_testing.ml" 61 2307 2307 "testing/genr_testing.ml" 1 0 -1
+)
+"testing/genr_testing.ml" 52 2056 2087 "testing/genr_testing.ml" 52 2056 2092
+type(
+  Otype.constructor_definition list
+)
+ident(
+  def cdefs "testing/genr_testing.ml" 53 2095 2097 "testing/genr_testing.ml" 58 2275 2302
+)
+"testing/genr_testing.ml" 53 2095 2105 "testing/genr_testing.ml" 53 2095 2124
+type(
+  Otype.constructor_definition list -> bool
+)
+ident(
+  def has_absorbent_cdefs "testing/genr_testing.ml" 53 2095 2097 "testing/genr_testing.ml" 58 2275 2302
+)
+"testing/genr_testing.ml" 54 2136 2142 "testing/genr_testing.ml" 54 2136 2144
+type(
+  Otype.constructor_definition list
+)
+"testing/genr_testing.ml" 54 2136 2148 "testing/genr_testing.ml" 54 2136 2153
+type(
+  bool
+)
+"testing/genr_testing.ml" 55 2154 2160 "testing/genr_testing.ml" 55 2154 2164
+type(
+  Otype.constructor_definition
+)
+ident(
+  def cdef "testing/genr_testing.ml" 56 2177 2183 "testing/genr_testing.ml" 57 2237 2271
+)
+"testing/genr_testing.ml" 55 2154 2168 "testing/genr_testing.ml" 55 2154 2173
+type(
+  Otype.constructor_definition list
+)
+ident(
+  def cdefs "testing/genr_testing.ml" 56 2177 2183 "testing/genr_testing.ml" 57 2237 2271
+)
+"testing/genr_testing.ml" 55 2154 2160 "testing/genr_testing.ml" 55 2154 2173
+type(
+  Otype.constructor_definition list
+)
+"testing/genr_testing.ml" 56 2177 2183 "testing/genr_testing.ml" 56 2177 2205
+type(
+  Parsetree.relations -> bool
+)
+ident(
+  ext_ref Relation.has_absorbent
+)
+"testing/genr_testing.ml" 56 2177 2207 "testing/genr_testing.ml" 56 2177 2230
+type(
+  Otype.constructor_definition -> Parsetree.relations
+)
+ident(
+  ext_ref Otype.relations_of_cdef
+)
+"testing/genr_testing.ml" 56 2177 2231 "testing/genr_testing.ml" 56 2177 2235
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "testing/genr_testing.ml" 55 2154 2160 "testing/genr_testing.ml" 55 2154 2164
+)
+"testing/genr_testing.ml" 56 2177 2206 "testing/genr_testing.ml" 56 2177 2236
+call(
+  stack
+)
+type(
+  Parsetree.relations
+)
+"testing/genr_testing.ml" 56 2177 2183 "testing/genr_testing.ml" 56 2177 2236
+call(
+  stack
+)
+type(
+  bool
+)
+"testing/genr_testing.ml" 57 2237 2243 "testing/genr_testing.ml" 57 2237 2245
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"testing/genr_testing.ml" 57 2237 2246 "testing/genr_testing.ml" 57 2237 2265
+type(
+  Otype.constructor_definition list -> bool
+)
+ident(
+  int_ref has_absorbent_cdefs "testing/genr_testing.ml" 53 2095 2105 "testing/genr_testing.ml" 53 2095 2124
+)
+"testing/genr_testing.ml" 57 2237 2266 "testing/genr_testing.ml" 57 2237 2271
+type(
+  Otype.constructor_definition list
+)
+ident(
+  int_ref cdefs "testing/genr_testing.ml" 55 2154 2168 "testing/genr_testing.ml" 55 2154 2173
+)
+"testing/genr_testing.ml" 57 2237 2246 "testing/genr_testing.ml" 57 2237 2271
+call(
+  tail
+)
+type(
+  bool
+)
+"testing/genr_testing.ml" 56 2177 2183 "testing/genr_testing.ml" 57 2237 2271
+type(
+  bool
+)
+"testing/genr_testing.ml" 53 2095 2127 "testing/genr_testing.ml" 57 2237 2271
+type(
+  Otype.constructor_definition list -> bool
+)
+"testing/genr_testing.ml" 58 2275 2277 "testing/genr_testing.ml" 58 2275 2296
+type(
+  Otype.constructor_definition list -> bool
+)
+ident(
+  int_ref has_absorbent_cdefs "testing/genr_testing.ml" 53 2095 2105 "testing/genr_testing.ml" 53 2095 2124
+)
+"testing/genr_testing.ml" 58 2275 2297 "testing/genr_testing.ml" 58 2275 2302
+type(
+  Otype.constructor_definition list
+)
+ident(
+  int_ref cdefs "testing/genr_testing.ml" 52 2056 2087 "testing/genr_testing.ml" 52 2056 2092
+)
+"testing/genr_testing.ml" 58 2275 2277 "testing/genr_testing.ml" 58 2275 2302
+call(
+  tail
+)
+type(
+  bool
+)
+"testing/genr_testing.ml" 53 2095 2097 "testing/genr_testing.ml" 58 2275 2302
+type(
+  bool
+)
+"testing/genr_testing.ml" 61 2307 2311 "testing/genr_testing.ml" 61 2307 2323
+type(
+  Tgenr_base.randomize ->
+  int ->
+  Tgenr_base.nesting_depth ->
+  'a * Parsetree.type_declaration -> bool * Code.exp list
+)
+ident(
+  def genr_testing "testing/genr_testing.ml" 77 2991 2991 "testing/genr_testing.ml" 1 0 -1
+)
+"testing/genr_testing.ml" 61 2307 2324 "testing/genr_testing.ml" 61 2307 2327
+type(
+  Tgenr_base.randomize
+)
+ident(
+  def rnd "testing/genr_testing.ml" 61 2307 2328 "testing/genr_testing.ml" 74 2908 2986
+)
+"testing/genr_testing.ml" 61 2307 2328 "testing/genr_testing.ml" 61 2307 2337
+type(
+  int
+)
+ident(
+  def num_tests "testing/genr_testing.ml" 61 2307 2338 "testing/genr_testing.ml" 74 2908 2986
+)
+"testing/genr_testing.ml" 61 2307 2338 "testing/genr_testing.ml" 61 2307 2347
+type(
+  Tgenr_base.nesting_depth
+)
+ident(
+  def val_depth "testing/genr_testing.ml" 61 2307 2348 "testing/genr_testing.ml" 74 2908 2986
+)
+"testing/genr_testing.ml" 61 2307 2349 "testing/genr_testing.ml" 61 2307 2350
+type(
+  'a
+)
+"testing/genr_testing.ml" 61 2307 2352 "testing/genr_testing.ml" 61 2307 2354
+type(
+  Parsetree.type_declaration
+)
+ident(
+  def td "testing/genr_testing.ml" 62 2358 2360 "testing/genr_testing.ml" 74 2908 2986
+)
+"testing/genr_testing.ml" 61 2307 2348 "testing/genr_testing.ml" 61 2307 2355
+type(
+  'a * Parsetree.type_declaration
+)
+"testing/genr_testing.ml" 62 2358 2366 "testing/genr_testing.ml" 62 2358 2368
+type(
+  Parsetree.type_declaration
+)
+ident(
+  int_ref td "testing/genr_testing.ml" 61 2307 2352 "testing/genr_testing.ml" 61 2307 2354
+)
+"testing/genr_testing.ml" 62 2358 2366 "testing/genr_testing.ml" 62 2358 2379
+type(
+  Parsetree.type_kind
+)
+"testing/genr_testing.ml" 62 2358 2381 "testing/genr_testing.ml" 62 2358 2383
+type(
+  Parsetree.type_declaration
+)
+ident(
+  int_ref td "testing/genr_testing.ml" 61 2307 2352 "testing/genr_testing.ml" 61 2307 2354
+)
+"testing/genr_testing.ml" 62 2358 2381 "testing/genr_testing.ml" 62 2358 2397
+type(
+  Asttypes.private_flag
+)
+"testing/genr_testing.ml" 62 2358 2366 "testing/genr_testing.ml" 62 2358 2397
+type(
+  Parsetree.type_kind * Asttypes.private_flag
+)
+"testing/genr_testing.ml" 64 2457 2474 "testing/genr_testing.ml" 64 2457 2475
+type(
+  (string * Asttypes.mutable_flag * Parsetree.core_type *
+   Parsetree.relations * Location.t)
+  list
+)
+"testing/genr_testing.ml" 64 2457 2461 "testing/genr_testing.ml" 64 2457 2475
+type(
+  Parsetree.type_kind
+)
+"testing/genr_testing.ml" 64 2457 2477 "testing/genr_testing.ml" 64 2457 2492
+type(
+  Asttypes.private_flag
+)
+"testing/genr_testing.ml" 64 2457 2461 "testing/genr_testing.ml" 64 2457 2492
+type(
+  Parsetree.type_kind * Asttypes.private_flag
+)
+"testing/genr_testing.ml" 65 2493 2512 "testing/genr_testing.ml" 65 2493 2513
+type(
+  Parsetree.relations
+)
+"testing/genr_testing.ml" 65 2493 2497 "testing/genr_testing.ml" 65 2493 2513
+type(
+  Parsetree.type_kind
+)
+"testing/genr_testing.ml" 65 2493 2515 "testing/genr_testing.ml" 65 2493 2530
+type(
+  Asttypes.private_flag
+)
+"testing/genr_testing.ml" 65 2493 2497 "testing/genr_testing.ml" 65 2493 2530
+type(
+  Parsetree.type_kind * Asttypes.private_flag
+)
+"testing/genr_testing.ml" 64 2457 2461 "testing/genr_testing.ml" 65 2493 2530
+type(
+  Parsetree.type_kind * Asttypes.private_flag
+)
+"testing/genr_testing.ml" 66 2531 2549 "testing/genr_testing.ml" 66 2531 2550
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list
+)
+"testing/genr_testing.ml" 66 2531 2535 "testing/genr_testing.ml" 66 2531 2550
+type(
+  Parsetree.type_kind
+)
+"testing/genr_testing.ml" 66 2531 2552 "testing/genr_testing.ml" 66 2531 2567
+type(
+  Asttypes.private_flag
+)
+"testing/genr_testing.ml" 66 2531 2535 "testing/genr_testing.ml" 66 2531 2567
+type(
+  Parsetree.type_kind * Asttypes.private_flag
+)
+"testing/genr_testing.ml" 64 2457 2461 "testing/genr_testing.ml" 66 2531 2567
+type(
+  Parsetree.type_kind * Asttypes.private_flag
+)
+"testing/genr_testing.ml" 67 2568 2585 "testing/genr_testing.ml" 67 2568 2586
+type(
+  (string * Asttypes.mutable_flag * Parsetree.core_type *
+   Parsetree.relations * Location.t)
+  list
+)
+"testing/genr_testing.ml" 67 2568 2572 "testing/genr_testing.ml" 67 2568 2586
+type(
+  Parsetree.type_kind
+)
+"testing/genr_testing.ml" 67 2568 2588 "testing/genr_testing.ml" 67 2568 2604
+type(
+  Asttypes.private_flag
+)
+"testing/genr_testing.ml" 67 2568 2572 "testing/genr_testing.ml" 67 2568 2604
+type(
+  Parsetree.type_kind * Asttypes.private_flag
+)
+"testing/genr_testing.ml" 64 2457 2461 "testing/genr_testing.ml" 67 2568 2604
+type(
+  Parsetree.type_kind * Asttypes.private_flag
+)
+"testing/genr_testing.ml" 68 2605 2624 "testing/genr_testing.ml" 68 2605 2625
+type(
+  Parsetree.relations
+)
+"testing/genr_testing.ml" 68 2605 2609 "testing/genr_testing.ml" 68 2605 2625
+type(
+  Parsetree.type_kind
+)
+"testing/genr_testing.ml" 68 2605 2627 "testing/genr_testing.ml" 68 2605 2643
+type(
+  Asttypes.private_flag
+)
+"testing/genr_testing.ml" 68 2605 2609 "testing/genr_testing.ml" 68 2605 2643
+type(
+  Parsetree.type_kind * Asttypes.private_flag
+)
+"testing/genr_testing.ml" 64 2457 2461 "testing/genr_testing.ml" 68 2605 2643
+type(
+  Parsetree.type_kind * Asttypes.private_flag
+)
+"testing/genr_testing.ml" 68 2605 2647 "testing/genr_testing.ml" 68 2605 2652
+type(
+  bool
+)
+"testing/genr_testing.ml" 68 2605 2654 "testing/genr_testing.ml" 68 2605 2656
+type(
+  Code.exp list
+)
+"testing/genr_testing.ml" 68 2605 2647 "testing/genr_testing.ml" 68 2605 2656
+type(
+  bool * Code.exp list
+)
+"testing/genr_testing.ml" 69 2657 2675 "testing/genr_testing.ml" 69 2657 2680
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list
+)
+ident(
+  def cdefs "testing/genr_testing.ml" 70 2702 2706 "testing/genr_testing.ml" 74 2908 2986
+)
+"testing/genr_testing.ml" 69 2657 2661 "testing/genr_testing.ml" 69 2657 2680
+type(
+  Parsetree.type_kind
+)
+"testing/genr_testing.ml" 69 2657 2682 "testing/genr_testing.ml" 69 2657 2698
+type(
+  Asttypes.private_flag
+)
+"testing/genr_testing.ml" 69 2657 2661 "testing/genr_testing.ml" 69 2657 2698
+type(
+  Parsetree.type_kind * Asttypes.private_flag
+)
+"testing/genr_testing.ml" 70 2702 2710 "testing/genr_testing.ml" 70 2702 2736
+type(
+  bool
+)
+ident(
+  def need_division_by_absorbent "testing/genr_testing.ml" 71 2775 2779 "testing/genr_testing.ml" 74 2908 2986
+)
+"testing/genr_testing.ml" 70 2702 2739 "testing/genr_testing.ml" 70 2702 2765
+type(
+  Otype.constructor_definition list -> bool
+)
+ident(
+  int_ref need_division_by_absorbent "testing/genr_testing.ml" 52 2056 2060 "testing/genr_testing.ml" 52 2056 2086
+)
+"testing/genr_testing.ml" 70 2702 2766 "testing/genr_testing.ml" 70 2702 2771
+type(
+  Otype.constructor_definition list
+)
+ident(
+  int_ref cdefs "testing/genr_testing.ml" 69 2657 2675 "testing/genr_testing.ml" 69 2657 2680
+)
+"testing/genr_testing.ml" 70 2702 2739 "testing/genr_testing.ml" 70 2702 2771
+call(
+  stack
+)
+type(
+  bool
+)
+"testing/genr_testing.ml" 71 2775 2783 "testing/genr_testing.ml" 71 2775 2794
+type(
+  Parsetree.core_type -> Tgenr_base.max_length -> Code.exp list
+)
+ident(
+  def genr_values "testing/genr_testing.ml" 72 2853 2857 "testing/genr_testing.ml" 74 2908 2986
+)
+"testing/genr_testing.ml" 71 2775 2795 "testing/genr_testing.ml" 71 2775 2797
+type(
+  Parsetree.core_type
+)
+ident(
+  def ct "testing/genr_testing.ml" 71 2775 2798 "testing/genr_testing.ml" 71 2775 2849
+)
+"testing/genr_testing.ml" 71 2775 2798 "testing/genr_testing.ml" 71 2775 2799
+type(
+  Tgenr_base.max_length
+)
+ident(
+  def n "testing/genr_testing.ml" 71 2775 2802 "testing/genr_testing.ml" 71 2775 2849
+)
+"testing/genr_testing.ml" 71 2775 2802 "testing/genr_testing.ml" 71 2775 2830
+type(
+  Tgenr_base.randomize ->
+  Tgenr_base.max_length ->
+  Tgenr_base.nesting_depth -> Parsetree.core_type -> Code.exp list
+)
+ident(
+  ext_ref Genr_values.genr_core_values
+)
+"testing/genr_testing.ml" 71 2775 2831 "testing/genr_testing.ml" 71 2775 2834
+type(
+  Tgenr_base.randomize
+)
+ident(
+  int_ref rnd "testing/genr_testing.ml" 61 2307 2324 "testing/genr_testing.ml" 61 2307 2327
+)
+"testing/genr_testing.ml" 71 2775 2835 "testing/genr_testing.ml" 71 2775 2836
+type(
+  Tgenr_base.max_length
+)
+ident(
+  int_ref n "testing/genr_testing.ml" 71 2775 2798 "testing/genr_testing.ml" 71 2775 2799
+)
+"testing/genr_testing.ml" 71 2775 2837 "testing/genr_testing.ml" 71 2775 2846
+type(
+  Tgenr_base.nesting_depth
+)
+ident(
+  int_ref val_depth "testing/genr_testing.ml" 61 2307 2338 "testing/genr_testing.ml" 61 2307 2347
+)
+"testing/genr_testing.ml" 71 2775 2847 "testing/genr_testing.ml" 71 2775 2849
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref ct "testing/genr_testing.ml" 71 2775 2795 "testing/genr_testing.ml" 71 2775 2797
+)
+"testing/genr_testing.ml" 71 2775 2802 "testing/genr_testing.ml" 71 2775 2849
+call(
+  tail
+)
+type(
+  Code.exp list
+)
+"testing/genr_testing.ml" 72 2853 2857 "testing/genr_testing.ml" 72 2853 2883
+type(
+  bool
+)
+ident(
+  int_ref need_division_by_absorbent "testing/genr_testing.ml" 70 2702 2710 "testing/genr_testing.ml" 70 2702 2736
+)
+"testing/genr_testing.ml" 73 2885 2889 "testing/genr_testing.ml" 73 2885 2907
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t ->
+   Code.exp list) ->
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list ->
+  Code.exp list
+)
+ident(
+  ext_ref Listutils.flat_map
+)
+"testing/genr_testing.ml" 74 2908 2915 "testing/genr_testing.ml" 74 2908 2957
+type(
+  int ->
+  (Parsetree.core_type -> Tgenr_base.max_length -> Code.exp list) ->
+  string * Parsetree.core_type list * Parsetree.relations * Location.t ->
+  Code.exp list
+)
+ident(
+  ext_ref Genr_equalities.genr_values_and_equalities
+)
+"testing/genr_testing.ml" 74 2908 2958 "testing/genr_testing.ml" 74 2908 2967
+type(
+  int
+)
+ident(
+  int_ref num_tests "testing/genr_testing.ml" 61 2307 2328 "testing/genr_testing.ml" 61 2307 2337
+)
+"testing/genr_testing.ml" 74 2908 2968 "testing/genr_testing.ml" 74 2908 2979
+type(
+  Parsetree.core_type -> Tgenr_base.max_length -> Code.exp list
+)
+ident(
+  int_ref genr_values "testing/genr_testing.ml" 71 2775 2783 "testing/genr_testing.ml" 71 2775 2794
+)
+"testing/genr_testing.ml" 74 2908 2914 "testing/genr_testing.ml" 74 2908 2980
+call(
+  stack
+)
+type(
+  string * Parsetree.core_type list * Parsetree.relations * Location.t ->
+  Code.exp list
+)
+"testing/genr_testing.ml" 74 2908 2981 "testing/genr_testing.ml" 74 2908 2986
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list
+)
+ident(
+  int_ref cdefs "testing/genr_testing.ml" 69 2657 2675 "testing/genr_testing.ml" 69 2657 2680
+)
+"testing/genr_testing.ml" 73 2885 2889 "testing/genr_testing.ml" 74 2908 2986
+call(
+  stack
+)
+type(
+  Code.exp list
+)
+"testing/genr_testing.ml" 72 2853 2857 "testing/genr_testing.ml" 74 2908 2986
+type(
+  bool * Code.exp list
+)
+"testing/genr_testing.ml" 71 2775 2779 "testing/genr_testing.ml" 74 2908 2986
+type(
+  bool * Code.exp list
+)
+"testing/genr_testing.ml" 70 2702 2706 "testing/genr_testing.ml" 74 2908 2986
+type(
+  bool * Code.exp list
+)
+"testing/genr_testing.ml" 62 2358 2360 "testing/genr_testing.ml" 74 2908 2986
+type(
+  bool * Code.exp list
+)
+"testing/genr_testing.ml" 77 2991 2995 "testing/genr_testing.ml" 77 2991 3004
+type(
+  bool -> int -> Code.exp -> Code.structure_item
+)
+ident(
+  def eval_test "testing/genr_testing.ml" 89 3422 3422 "testing/genr_testing.ml" 1 0 -1
+)
+"testing/genr_testing.ml" 77 2991 3005 "testing/genr_testing.ml" 77 2991 3031
+type(
+  bool
+)
+ident(
+  def need_division_by_absorbent "testing/genr_testing.ml" 77 2991 3032 "testing/genr_testing.ml" 86 3352 3417
+)
+"testing/genr_testing.ml" 77 2991 3032 "testing/genr_testing.ml" 77 2991 3033
+type(
+  int
+)
+ident(
+  def i "testing/genr_testing.ml" 77 2991 3034 "testing/genr_testing.ml" 86 3352 3417
+)
+"testing/genr_testing.ml" 77 2991 3034 "testing/genr_testing.ml" 77 2991 3037
+type(
+  Code.exp
+)
+ident(
+  def exp "testing/genr_testing.ml" 78 3040 3042 "testing/genr_testing.ml" 86 3352 3417
+)
+"testing/genr_testing.ml" 78 3040 3046 "testing/genr_testing.ml" 78 3040 3065
+type(
+  Longident.t
+)
+ident(
+  def test_function_ident "testing/genr_testing.ml" 79 3107 3109 "testing/genr_testing.ml" 86 3352 3417
+)
+"testing/genr_testing.ml" 78 3040 3085 "testing/genr_testing.ml" 78 3040 3103
+type(
+  string
+)
+ident(
+  int_ref test_function_name "testing/genr_testing.ml" 26 1214 1218 "testing/genr_testing.ml" 26 1214 1236
+)
+"testing/genr_testing.ml" 78 3040 3068 "testing/genr_testing.ml" 78 3040 3103
+type(
+  Longident.t
+)
+"testing/genr_testing.ml" 79 3107 3112 "testing/genr_testing.ml" 79 3107 3138
+type(
+  bool
+)
+ident(
+  int_ref need_division_by_absorbent "testing/genr_testing.ml" 77 2991 3005 "testing/genr_testing.ml" 77 2991 3031
+)
+"testing/genr_testing.ml" 81 3163 3170 "testing/genr_testing.ml" 81 3163 3181
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.apply2
+)
+"testing/genr_testing.ml" 81 3163 3182 "testing/genr_testing.ml" 81 3163 3201
+type(
+  Code.lident
+)
+ident(
+  int_ref test_function_ident "testing/genr_testing.ml" 78 3040 3046 "testing/genr_testing.ml" 78 3040 3065
+)
+"testing/genr_testing.ml" 81 3163 3203 "testing/genr_testing.ml" 81 3163 3209
+type(
+  int -> Code.exp
+)
+ident(
+  ext_ref Tgenr_base.mk_int
+)
+"testing/genr_testing.ml" 81 3163 3210 "testing/genr_testing.ml" 81 3163 3211
+type(
+  int
+)
+ident(
+  int_ref i "testing/genr_testing.ml" 77 2991 3032 "testing/genr_testing.ml" 77 2991 3033
+)
+"testing/genr_testing.ml" 81 3163 3202 "testing/genr_testing.ml" 81 3163 3212
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/genr_testing.ml" 82 3213 3232 "testing/genr_testing.ml" 82 3213 3235
+type(
+  Code.exp
+)
+ident(
+  int_ref exp "testing/genr_testing.ml" 77 2991 3034 "testing/genr_testing.ml" 77 2991 3037
+)
+"testing/genr_testing.ml" 83 3239 3261 "testing/genr_testing.ml" 83 3239 3295
+type(
+  Code.pattern
+)
+ident(
+  ext_ref Code.failure_division_by_absorbent
+)
+"testing/genr_testing.ml" 84 3297 3308 "testing/genr_testing.ml" 84 3297 3326
+type(
+  string -> Code.exp
+)
+ident(
+  ext_ref Code.make_Constant
+)
+"testing/genr_testing.ml" 84 3297 3327 "testing/genr_testing.ml" 84 3297 3333
+type(
+  string
+)
+"testing/genr_testing.ml" 84 3297 3308 "testing/genr_testing.ml" 84 3297 3333
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/genr_testing.ml" 83 3239 3248 "testing/genr_testing.ml" 84 3297 3334
+type(
+  Code.clause
+)
+"testing/genr_testing.ml" 82 3213 3237 "testing/genr_testing.ml" 84 3297 3335
+type(
+  Code.clauses
+)
+"testing/genr_testing.ml" 82 3213 3221 "testing/genr_testing.ml" 84 3297 3337
+type(
+  Code.exp
+)
+"testing/genr_testing.ml" 81 3163 3169 "testing/genr_testing.ml" 85 3338 3346
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/genr_testing.ml" 80 3144 3148 "testing/genr_testing.ml" 85 3338 3346
+type(
+  Code.structure_item
+)
+"testing/genr_testing.ml" 86 3352 3370 "testing/genr_testing.ml" 86 3352 3381
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.apply2
+)
+"testing/genr_testing.ml" 86 3352 3382 "testing/genr_testing.ml" 86 3352 3401
+type(
+  Code.lident
+)
+ident(
+  int_ref test_function_ident "testing/genr_testing.ml" 78 3040 3046 "testing/genr_testing.ml" 78 3040 3065
+)
+"testing/genr_testing.ml" 86 3352 3403 "testing/genr_testing.ml" 86 3352 3409
+type(
+  int -> Code.exp
+)
+ident(
+  ext_ref Tgenr_base.mk_int
+)
+"testing/genr_testing.ml" 86 3352 3410 "testing/genr_testing.ml" 86 3352 3411
+type(
+  int
+)
+ident(
+  int_ref i "testing/genr_testing.ml" 77 2991 3032 "testing/genr_testing.ml" 77 2991 3033
+)
+"testing/genr_testing.ml" 86 3352 3402 "testing/genr_testing.ml" 86 3352 3412
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/genr_testing.ml" 86 3352 3413 "testing/genr_testing.ml" 86 3352 3416
+type(
+  Code.exp
+)
+ident(
+  int_ref exp "testing/genr_testing.ml" 77 2991 3034 "testing/genr_testing.ml" 77 2991 3037
+)
+"testing/genr_testing.ml" 86 3352 3369 "testing/genr_testing.ml" 86 3352 3417
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/genr_testing.ml" 86 3352 3354 "testing/genr_testing.ml" 86 3352 3417
+type(
+  Code.structure_item
+)
+"testing/genr_testing.ml" 79 3107 3109 "testing/genr_testing.ml" 86 3352 3417
+type(
+  Code.structure_item
+)
+"testing/genr_testing.ml" 78 3040 3042 "testing/genr_testing.ml" 86 3352 3417
+type(
+  Code.structure_item
+)
+"testing/genr_testing.ml" 89 3422 3426 "testing/genr_testing.ml" 89 3422 3440
+type(
+  Tgenr_base.randomize ->
+  int ->
+  Tgenr_base.nesting_depth ->
+  ('a * Parsetree.type_declaration) list -> Code.structure_item list
+)
+ident(
+  def genr_test_body "testing/genr_testing.ml" 100 3881 3881 "testing/genr_testing.ml" 1 0 -1
+)
+"testing/genr_testing.ml" 89 3422 3441 "testing/genr_testing.ml" 89 3422 3444
+type(
+  Tgenr_base.randomize
+)
+ident(
+  def rnd "testing/genr_testing.ml" 89 3422 3445 "testing/genr_testing.ml" 97 3808 3876
+)
+"testing/genr_testing.ml" 89 3422 3445 "testing/genr_testing.ml" 89 3422 3454
+type(
+  int
+)
+ident(
+  def num_tests "testing/genr_testing.ml" 89 3422 3455 "testing/genr_testing.ml" 97 3808 3876
+)
+"testing/genr_testing.ml" 89 3422 3455 "testing/genr_testing.ml" 89 3422 3464
+type(
+  Tgenr_base.nesting_depth
+)
+ident(
+  def val_depth "testing/genr_testing.ml" 89 3422 3465 "testing/genr_testing.ml" 97 3808 3876
+)
+"testing/genr_testing.ml" 89 3422 3465 "testing/genr_testing.ml" 89 3422 3469
+type(
+  ('a * Parsetree.type_declaration) list
+)
+ident(
+  def ntds "testing/genr_testing.ml" 90 3472 3474 "testing/genr_testing.ml" 97 3808 3876
+)
+"testing/genr_testing.ml" 90 3472 3478 "testing/genr_testing.ml" 90 3472 3504
+type(
+  bool
+)
+ident(
+  def need_division_by_absorbent "testing/genr_testing.ml" 94 3666 3668 "testing/genr_testing.ml" 97 3808 3876
+)
+"testing/genr_testing.ml" 90 3472 3506 "testing/genr_testing.ml" 90 3472 3510
+type(
+  Code.exp list
+)
+ident(
+  def exps "testing/genr_testing.ml" 94 3666 3668 "testing/genr_testing.ml" 97 3808 3876
+)
+"testing/genr_testing.ml" 90 3472 3478 "testing/genr_testing.ml" 90 3472 3510
+type(
+  bool * Code.exp list
+)
+"testing/genr_testing.ml" 91 3513 3521 "testing/genr_testing.ml" 91 3513 3530
+type(
+  bool list
+)
+ident(
+  def bool_list "testing/genr_testing.ml" 93 3615 3619 "testing/genr_testing.ml" 93 3615 3662
+)
+"testing/genr_testing.ml" 91 3513 3532 "testing/genr_testing.ml" 91 3513 3537
+type(
+  Code.exp list list
+)
+ident(
+  def elist "testing/genr_testing.ml" 93 3615 3619 "testing/genr_testing.ml" 93 3615 3662
+)
+"testing/genr_testing.ml" 91 3513 3521 "testing/genr_testing.ml" 91 3513 3537
+type(
+  bool list * Code.exp list list
+)
+"testing/genr_testing.ml" 92 3540 3546 "testing/genr_testing.ml" 92 3540 3556
+type(
+  (bool * Code.exp list) list -> bool list * Code.exp list list
+)
+ident(
+  ext_ref List.split
+)
+"testing/genr_testing.ml" 92 3540 3558 "testing/genr_testing.ml" 92 3540 3566
+type(
+  ('a * Parsetree.type_declaration -> bool * Code.exp list) ->
+  ('a * Parsetree.type_declaration) list -> (bool * Code.exp list) list
+)
+ident(
+  ext_ref List.map
+)
+"testing/genr_testing.ml" 92 3540 3568 "testing/genr_testing.ml" 92 3540 3580
+type(
+  Tgenr_base.randomize ->
+  int ->
+  Tgenr_base.nesting_depth ->
+  'a * Parsetree.type_declaration -> bool * Code.exp list
+)
+ident(
+  int_ref genr_testing "testing/genr_testing.ml" 61 2307 2311 "testing/genr_testing.ml" 61 2307 2323
+)
+"testing/genr_testing.ml" 92 3540 3581 "testing/genr_testing.ml" 92 3540 3584
+type(
+  Tgenr_base.randomize
+)
+ident(
+  int_ref rnd "testing/genr_testing.ml" 89 3422 3441 "testing/genr_testing.ml" 89 3422 3444
+)
+"testing/genr_testing.ml" 92 3540 3585 "testing/genr_testing.ml" 92 3540 3594
+type(
+  int
+)
+ident(
+  int_ref num_tests "testing/genr_testing.ml" 89 3422 3445 "testing/genr_testing.ml" 89 3422 3454
+)
+"testing/genr_testing.ml" 92 3540 3595 "testing/genr_testing.ml" 92 3540 3604
+type(
+  Tgenr_base.nesting_depth
+)
+ident(
+  int_ref val_depth "testing/genr_testing.ml" 89 3422 3455 "testing/genr_testing.ml" 89 3422 3464
+)
+"testing/genr_testing.ml" 92 3540 3567 "testing/genr_testing.ml" 92 3540 3605
+call(
+  stack
+)
+type(
+  'a * Parsetree.type_declaration -> bool * Code.exp list
+)
+"testing/genr_testing.ml" 92 3540 3606 "testing/genr_testing.ml" 92 3540 3610
+type(
+  ('a * Parsetree.type_declaration) list
+)
+ident(
+  int_ref ntds "testing/genr_testing.ml" 89 3422 3465 "testing/genr_testing.ml" 89 3422 3469
+)
+"testing/genr_testing.ml" 92 3540 3557 "testing/genr_testing.ml" 92 3540 3611
+call(
+  stack
+)
+type(
+  (bool * Code.exp list) list
+)
+"testing/genr_testing.ml" 92 3540 3546 "testing/genr_testing.ml" 92 3540 3611
+call(
+  stack
+)
+type(
+  bool list * Code.exp list list
+)
+"testing/genr_testing.ml" 93 3615 3619 "testing/genr_testing.ml" 93 3615 3627
+type(
+  bool -> bool list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"testing/genr_testing.ml" 93 3615 3628 "testing/genr_testing.ml" 93 3615 3632
+type(
+  bool
+)
+"testing/genr_testing.ml" 93 3615 3633 "testing/genr_testing.ml" 93 3615 3642
+type(
+  bool list
+)
+ident(
+  int_ref bool_list "testing/genr_testing.ml" 91 3513 3521 "testing/genr_testing.ml" 91 3513 3530
+)
+"testing/genr_testing.ml" 93 3615 3619 "testing/genr_testing.ml" 93 3615 3642
+call(
+  stack
+)
+type(
+  bool
+)
+"testing/genr_testing.ml" 93 3615 3644 "testing/genr_testing.ml" 93 3615 3656
+type(
+  Code.exp list list -> Code.exp list
+)
+ident(
+  ext_ref List.flatten
+)
+"testing/genr_testing.ml" 93 3615 3657 "testing/genr_testing.ml" 93 3615 3662
+type(
+  Code.exp list list
+)
+ident(
+  int_ref elist "testing/genr_testing.ml" 91 3513 3532 "testing/genr_testing.ml" 91 3513 3537
+)
+"testing/genr_testing.ml" 93 3615 3644 "testing/genr_testing.ml" 93 3615 3662
+call(
+  stack
+)
+type(
+  Code.exp list
+)
+"testing/genr_testing.ml" 93 3615 3619 "testing/genr_testing.ml" 93 3615 3662
+type(
+  bool * Code.exp list
+)
+"testing/genr_testing.ml" 91 3513 3517 "testing/genr_testing.ml" 93 3615 3662
+type(
+  bool * Code.exp list
+)
+"testing/genr_testing.ml" 94 3666 3672 "testing/genr_testing.ml" 94 3666 3675
+type(
+  int
+)
+ident(
+  def len "testing/genr_testing.ml" 95 3702 3704 "testing/genr_testing.ml" 97 3808 3876
+)
+"testing/genr_testing.ml" 94 3666 3678 "testing/genr_testing.ml" 94 3666 3689
+type(
+  Code.exp list -> int
+)
+ident(
+  ext_ref List.length
+)
+"testing/genr_testing.ml" 94 3666 3690 "testing/genr_testing.ml" 94 3666 3694
+type(
+  Code.exp list
+)
+ident(
+  int_ref exps "testing/genr_testing.ml" 90 3472 3506 "testing/genr_testing.ml" 90 3472 3510
+)
+"testing/genr_testing.ml" 94 3666 3678 "testing/genr_testing.ml" 94 3666 3694
+call(
+  stack
+)
+type(
+  int
+)
+"testing/genr_testing.ml" 94 3666 3695 "testing/genr_testing.ml" 94 3666 3696
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"testing/genr_testing.ml" 94 3666 3697 "testing/genr_testing.ml" 94 3666 3698
+type(
+  int
+)
+"testing/genr_testing.ml" 94 3666 3678 "testing/genr_testing.ml" 94 3666 3698
+type(
+  int
+)
+"testing/genr_testing.ml" 95 3702 3708 "testing/genr_testing.ml" 95 3702 3720
+type(
+  int list
+)
+ident(
+  def test_numbers "testing/genr_testing.ml" 96 3775 3777 "testing/genr_testing.ml" 97 3808 3876
+)
+"testing/genr_testing.ml" 95 3702 3723 "testing/genr_testing.ml" 95 3702 3740
+type(
+  int -> int -> (int -> int) -> int list
+)
+ident(
+  ext_ref Listutils.from_to
+)
+"testing/genr_testing.ml" 95 3702 3741 "testing/genr_testing.ml" 95 3702 3742
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"testing/genr_testing.ml" 95 3702 3742 "testing/genr_testing.ml" 95 3702 3749
+type(
+  int ref
+)
+ident(
+  int_ref gen_num "testing/genr_testing.ml" 27 1247 1251 "testing/genr_testing.ml" 27 1247 1258
+)
+"testing/genr_testing.ml" 95 3702 3741 "testing/genr_testing.ml" 95 3702 3749
+type(
+  int
+)
+"testing/genr_testing.ml" 95 3702 3751 "testing/genr_testing.ml" 95 3702 3752
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"testing/genr_testing.ml" 95 3702 3752 "testing/genr_testing.ml" 95 3702 3759
+type(
+  int ref
+)
+ident(
+  int_ref gen_num "testing/genr_testing.ml" 27 1247 1251 "testing/genr_testing.ml" 27 1247 1258
+)
+"testing/genr_testing.ml" 95 3702 3751 "testing/genr_testing.ml" 95 3702 3759
+type(
+  int
+)
+"testing/genr_testing.ml" 95 3702 3760 "testing/genr_testing.ml" 95 3702 3761
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"testing/genr_testing.ml" 95 3702 3762 "testing/genr_testing.ml" 95 3702 3765
+type(
+  int
+)
+ident(
+  int_ref len "testing/genr_testing.ml" 94 3666 3672 "testing/genr_testing.ml" 94 3666 3675
+)
+"testing/genr_testing.ml" 95 3702 3750 "testing/genr_testing.ml" 95 3702 3766
+type(
+  int
+)
+"testing/genr_testing.ml" 95 3702 3767 "testing/genr_testing.ml" 95 3702 3771
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"testing/genr_testing.ml" 95 3702 3723 "testing/genr_testing.ml" 95 3702 3771
+call(
+  stack
+)
+type(
+  int list
+)
+"testing/genr_testing.ml" 96 3775 3777 "testing/genr_testing.ml" 96 3775 3784
+type(
+  int ref
+)
+ident(
+  int_ref gen_num "testing/genr_testing.ml" 27 1247 1251 "testing/genr_testing.ml" 27 1247 1258
+)
+"testing/genr_testing.ml" 96 3775 3785 "testing/genr_testing.ml" 96 3775 3787
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"testing/genr_testing.ml" 96 3775 3788 "testing/genr_testing.ml" 96 3775 3789
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"testing/genr_testing.ml" 96 3775 3789 "testing/genr_testing.ml" 96 3775 3796
+type(
+  int ref
+)
+ident(
+  int_ref gen_num "testing/genr_testing.ml" 27 1247 1251 "testing/genr_testing.ml" 27 1247 1258
+)
+"testing/genr_testing.ml" 96 3775 3788 "testing/genr_testing.ml" 96 3775 3796
+type(
+  int
+)
+"testing/genr_testing.ml" 96 3775 3797 "testing/genr_testing.ml" 96 3775 3798
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"testing/genr_testing.ml" 96 3775 3799 "testing/genr_testing.ml" 96 3775 3802
+type(
+  int
+)
+ident(
+  int_ref len "testing/genr_testing.ml" 94 3666 3672 "testing/genr_testing.ml" 94 3666 3675
+)
+"testing/genr_testing.ml" 96 3775 3788 "testing/genr_testing.ml" 96 3775 3802
+type(
+  int
+)
+"testing/genr_testing.ml" 96 3775 3803 "testing/genr_testing.ml" 96 3775 3804
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"testing/genr_testing.ml" 96 3775 3805 "testing/genr_testing.ml" 96 3775 3806
+type(
+  int
+)
+"testing/genr_testing.ml" 96 3775 3788 "testing/genr_testing.ml" 96 3775 3806
+type(
+  int
+)
+"testing/genr_testing.ml" 96 3775 3777 "testing/genr_testing.ml" 96 3775 3806
+type(
+  unit
+)
+"testing/genr_testing.ml" 97 3808 3810 "testing/genr_testing.ml" 97 3808 3819
+type(
+  (int -> Code.exp -> Code.structure_item) ->
+  int list -> Code.exp list -> Code.structure_item list
+)
+ident(
+  ext_ref List.map2
+)
+"testing/genr_testing.ml" 97 3808 3821 "testing/genr_testing.ml" 97 3808 3830
+type(
+  bool -> int -> Code.exp -> Code.structure_item
+)
+ident(
+  int_ref eval_test "testing/genr_testing.ml" 77 2991 2995 "testing/genr_testing.ml" 77 2991 3004
+)
+"testing/genr_testing.ml" 97 3808 3831 "testing/genr_testing.ml" 97 3808 3857
+type(
+  bool
+)
+ident(
+  int_ref need_division_by_absorbent "testing/genr_testing.ml" 90 3472 3478 "testing/genr_testing.ml" 90 3472 3504
+)
+"testing/genr_testing.ml" 97 3808 3820 "testing/genr_testing.ml" 97 3808 3858
+call(
+  stack
+)
+type(
+  int -> Code.exp -> Code.structure_item
+)
+"testing/genr_testing.ml" 97 3808 3859 "testing/genr_testing.ml" 97 3808 3871
+type(
+  int list
+)
+ident(
+  int_ref test_numbers "testing/genr_testing.ml" 95 3702 3708 "testing/genr_testing.ml" 95 3702 3720
+)
+"testing/genr_testing.ml" 97 3808 3872 "testing/genr_testing.ml" 97 3808 3876
+type(
+  Code.exp list
+)
+ident(
+  int_ref exps "testing/genr_testing.ml" 90 3472 3506 "testing/genr_testing.ml" 90 3472 3510
+)
+"testing/genr_testing.ml" 97 3808 3810 "testing/genr_testing.ml" 97 3808 3876
+call(
+  tail
+)
+type(
+  Code.structure_item list
+)
+"testing/genr_testing.ml" 96 3775 3777 "testing/genr_testing.ml" 97 3808 3876
+type(
+  Code.structure_item list
+)
+"testing/genr_testing.ml" 95 3702 3704 "testing/genr_testing.ml" 97 3808 3876
+type(
+  Code.structure_item list
+)
+"testing/genr_testing.ml" 94 3666 3668 "testing/genr_testing.ml" 97 3808 3876
+type(
+  Code.structure_item list
+)
+"testing/genr_testing.ml" 90 3472 3474 "testing/genr_testing.ml" 97 3808 3876
+type(
+  Code.structure_item list
+)
+"testing/genr_testing.ml" 100 3881 3885 "testing/genr_testing.ml" 100 3881 3894
+type(
+  Tgenr_base.randomize ->
+  int ->
+  Tgenr_base.nesting_depth ->
+  ('a * Parsetree.type_declaration) list -> Code.structure_item list
+)
+ident(
+  def genr_test "testing/genr_testing.ml" 104 3976 3976 "testing/genr_testing.ml" 1 0 -1
+)
+"testing/genr_testing.ml" 100 3881 3895 "testing/genr_testing.ml" 100 3881 3898
+type(
+  Tgenr_base.randomize
+)
+ident(
+  def rnd "testing/genr_testing.ml" 100 3881 3899 "testing/genr_testing.ml" 101 3926 3971
+)
+"testing/genr_testing.ml" 100 3881 3899 "testing/genr_testing.ml" 100 3881 3908
+type(
+  int
+)
+ident(
+  def num_tests "testing/genr_testing.ml" 100 3881 3909 "testing/genr_testing.ml" 101 3926 3971
+)
+"testing/genr_testing.ml" 100 3881 3909 "testing/genr_testing.ml" 100 3881 3918
+type(
+  Tgenr_base.nesting_depth
+)
+ident(
+  def val_depth "testing/genr_testing.ml" 100 3881 3919 "testing/genr_testing.ml" 101 3926 3971
+)
+"testing/genr_testing.ml" 100 3881 3919 "testing/genr_testing.ml" 100 3881 3923
+type(
+  ('a * Parsetree.type_declaration) list
+)
+ident(
+  def ntds "testing/genr_testing.ml" 101 3926 3928 "testing/genr_testing.ml" 101 3926 3971
+)
+"testing/genr_testing.ml" 101 3926 3928 "testing/genr_testing.ml" 101 3926 3942
+type(
+  Tgenr_base.randomize ->
+  int ->
+  Tgenr_base.nesting_depth ->
+  ('a * Parsetree.type_declaration) list -> Code.structure_item list
+)
+ident(
+  int_ref genr_test_body "testing/genr_testing.ml" 89 3422 3426 "testing/genr_testing.ml" 89 3422 3440
+)
+"testing/genr_testing.ml" 101 3926 3943 "testing/genr_testing.ml" 101 3926 3946
+type(
+  Tgenr_base.randomize
+)
+ident(
+  int_ref rnd "testing/genr_testing.ml" 100 3881 3895 "testing/genr_testing.ml" 100 3881 3898
+)
+"testing/genr_testing.ml" 101 3926 3947 "testing/genr_testing.ml" 101 3926 3956
+type(
+  int
+)
+ident(
+  int_ref num_tests "testing/genr_testing.ml" 100 3881 3899 "testing/genr_testing.ml" 100 3881 3908
+)
+"testing/genr_testing.ml" 101 3926 3957 "testing/genr_testing.ml" 101 3926 3966
+type(
+  Tgenr_base.nesting_depth
+)
+ident(
+  int_ref val_depth "testing/genr_testing.ml" 100 3881 3909 "testing/genr_testing.ml" 100 3881 3918
+)
+"testing/genr_testing.ml" 101 3926 3967 "testing/genr_testing.ml" 101 3926 3971
+type(
+  ('a * Parsetree.type_declaration) list
+)
+ident(
+  int_ref ntds "testing/genr_testing.ml" 100 3881 3919 "testing/genr_testing.ml" 100 3881 3923
+)
+"testing/genr_testing.ml" 101 3926 3928 "testing/genr_testing.ml" 101 3926 3971
+call(
+  tail
+)
+type(
+  Code.structure_item list
+)
+"testing/genr_testing.ml" 104 3976 3980 "testing/genr_testing.ml" 104 3976 3994
+type(
+  int ->
+  int ->
+  Tgenr_base.nesting_depth ->
+  ('a * Parsetree.type_declaration) list -> Code.structure_item list
+)
+ident(
+  def genr_type_test "testing/genr_testing.ml" 106 4047 4088 "testing/genr_testing.ml" 1 0 -1
+)
+"testing/genr_testing.ml" 104 3976 3995 "testing/genr_testing.ml" 104 3976 3999
+type(
+  int
+)
+ident(
+  def seed "testing/genr_testing.ml" 104 3976 4000 "testing/genr_testing.ml" 106 4047 4088
+)
+"testing/genr_testing.ml" 104 3976 4000 "testing/genr_testing.ml" 104 3976 4009
+type(
+  int
+)
+ident(
+  def num_tests "testing/genr_testing.ml" 104 3976 4010 "testing/genr_testing.ml" 106 4047 4088
+)
+"testing/genr_testing.ml" 104 3976 4010 "testing/genr_testing.ml" 104 3976 4019
+type(
+  Tgenr_base.nesting_depth
+)
+ident(
+  def val_depth "testing/genr_testing.ml" 104 3976 4020 "testing/genr_testing.ml" 106 4047 4088
+)
+"testing/genr_testing.ml" 104 3976 4020 "testing/genr_testing.ml" 104 3976 4024
+type(
+  ('a * Parsetree.type_declaration) list
+)
+ident(
+  def ntds "testing/genr_testing.ml" 105 4027 4029 "testing/genr_testing.ml" 106 4047 4088
+)
+"testing/genr_testing.ml" 105 4027 4029 "testing/genr_testing.ml" 105 4027 4040
+type(
+  int -> unit
+)
+ident(
+  ext_ref Random.init
+)
+"testing/genr_testing.ml" 105 4027 4041 "testing/genr_testing.ml" 105 4027 4045
+type(
+  int
+)
+ident(
+  int_ref seed "testing/genr_testing.ml" 104 3976 3995 "testing/genr_testing.ml" 104 3976 3999
+)
+"testing/genr_testing.ml" 105 4027 4029 "testing/genr_testing.ml" 105 4027 4045
+call(
+  stack
+)
+type(
+  unit
+)
+"testing/genr_testing.ml" 106 4047 4049 "testing/genr_testing.ml" 106 4047 4058
+type(
+  Tgenr_base.randomize ->
+  int ->
+  Tgenr_base.nesting_depth ->
+  ('a * Parsetree.type_declaration) list -> Code.structure_item list
+)
+ident(
+  int_ref genr_test "testing/genr_testing.ml" 100 3881 3885 "testing/genr_testing.ml" 100 3881 3894
+)
+"testing/genr_testing.ml" 106 4047 4059 "testing/genr_testing.ml" 106 4047 4063
+type(
+  Tgenr_base.randomize
+)
+"testing/genr_testing.ml" 106 4047 4064 "testing/genr_testing.ml" 106 4047 4073
+type(
+  int
+)
+ident(
+  int_ref num_tests "testing/genr_testing.ml" 104 3976 4000 "testing/genr_testing.ml" 104 3976 4009
+)
+"testing/genr_testing.ml" 106 4047 4074 "testing/genr_testing.ml" 106 4047 4083
+type(
+  Tgenr_base.nesting_depth
+)
+ident(
+  int_ref val_depth "testing/genr_testing.ml" 104 3976 4010 "testing/genr_testing.ml" 104 3976 4019
+)
+"testing/genr_testing.ml" 106 4047 4084 "testing/genr_testing.ml" 106 4047 4088
+type(
+  ('a * Parsetree.type_declaration) list
+)
+ident(
+  int_ref ntds "testing/genr_testing.ml" 104 3976 4020 "testing/genr_testing.ml" 104 3976 4024
+)
+"testing/genr_testing.ml" 106 4047 4049 "testing/genr_testing.ml" 106 4047 4088
+call(
+  tail
+)
+type(
+  Code.structure_item list
+)
+"testing/genr_testing.ml" 105 4027 4029 "testing/genr_testing.ml" 106 4047 4088
+type(
+  Code.structure_item list
+)

@@ -1,0 +1,1254 @@
+"testing/genr_substitutions.ml" 24 1241 1245 "testing/genr_substitutions.ml" 24 1241 1256
+type(
+  ('a * 'b) list -> 'a -> 'b
+)
+ident(
+  def to_function "testing/genr_substitutions.ml" 46 1893 1893 "testing/genr_substitutions.ml" 1 0 -1
+)
+"testing/genr_substitutions.ml" 24 1241 1257 "testing/genr_substitutions.ml" 24 1241 1262
+type(
+  ('a * 'b) list
+)
+ident(
+  def assoc "testing/genr_substitutions.ml" 24 1241 1265 "testing/genr_substitutions.ml" 24 1241 1292
+)
+"testing/genr_substitutions.ml" 24 1241 1269 "testing/genr_substitutions.ml" 24 1241 1270
+type(
+  'a
+)
+ident(
+  def x "testing/genr_substitutions.ml" 24 1241 1274 "testing/genr_substitutions.ml" 24 1241 1292
+)
+"testing/genr_substitutions.ml" 24 1241 1274 "testing/genr_substitutions.ml" 24 1241 1284
+type(
+  'a -> ('a * 'b) list -> 'b
+)
+ident(
+  ext_ref List.assoc
+)
+"testing/genr_substitutions.ml" 24 1241 1285 "testing/genr_substitutions.ml" 24 1241 1286
+type(
+  'a
+)
+ident(
+  int_ref x "testing/genr_substitutions.ml" 24 1241 1269 "testing/genr_substitutions.ml" 24 1241 1270
+)
+"testing/genr_substitutions.ml" 24 1241 1287 "testing/genr_substitutions.ml" 24 1241 1292
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref assoc "testing/genr_substitutions.ml" 24 1241 1257 "testing/genr_substitutions.ml" 24 1241 1262
+)
+"testing/genr_substitutions.ml" 24 1241 1274 "testing/genr_substitutions.ml" 24 1241 1292
+call(
+  tail
+)
+type(
+  'b
+)
+"testing/genr_substitutions.ml" 24 1241 1265 "testing/genr_substitutions.ml" 24 1241 1292
+type(
+  'a -> 'b
+)
+"testing/genr_substitutions.ml" 46 1893 1897 "testing/genr_substitutions.ml" 46 1893 1914
+type(
+  'a list list list -> 'a list list
+)
+ident(
+  def join_typed_assocs "testing/genr_substitutions.ml" 50 1981 1981 "testing/genr_substitutions.ml" 1 0 -1
+)
+"testing/genr_substitutions.ml" 46 1893 1915 "testing/genr_substitutions.ml" 46 1893 1921
+type(
+  'a list list list
+)
+ident(
+  def assocs "testing/genr_substitutions.ml" 47 1924 1926 "testing/genr_substitutions.ml" 47 1924 1976
+)
+"testing/genr_substitutions.ml" 47 1924 1926 "testing/genr_substitutions.ml" 47 1924 1934
+type(
+  ('a list list -> 'a list) -> 'a list list list -> 'a list list
+)
+ident(
+  ext_ref List.map
+)
+"testing/genr_substitutions.ml" 47 1924 1935 "testing/genr_substitutions.ml" 47 1924 1947
+type(
+  'a list list -> 'a list
+)
+ident(
+  ext_ref List.flatten
+)
+"testing/genr_substitutions.ml" 47 1924 1949 "testing/genr_substitutions.ml" 47 1924 1968
+type(
+  'a list list list -> 'a list list list
+)
+ident(
+  ext_ref Listutils.transpose
+)
+"testing/genr_substitutions.ml" 47 1924 1969 "testing/genr_substitutions.ml" 47 1924 1975
+type(
+  'a list list list
+)
+ident(
+  int_ref assocs "testing/genr_substitutions.ml" 46 1893 1915 "testing/genr_substitutions.ml" 46 1893 1921
+)
+"testing/genr_substitutions.ml" 47 1924 1948 "testing/genr_substitutions.ml" 47 1924 1976
+call(
+  stack
+)
+type(
+  'a list list list
+)
+"testing/genr_substitutions.ml" 47 1924 1926 "testing/genr_substitutions.ml" 47 1924 1976
+call(
+  tail
+)
+type(
+  'a list list
+)
+"testing/genr_substitutions.ml" 50 1981 1985 "testing/genr_substitutions.ml" 50 1981 1993
+type(
+  'a list -> int -> 'a list
+)
+ident(
+  def complete "testing/genr_substitutions.ml" 58 2223 2223 "testing/genr_substitutions.ml" 1 0 -1
+)
+"testing/genr_substitutions.ml" 50 1981 1994 "testing/genr_substitutions.ml" 50 1981 2000
+type(
+  'a list
+)
+ident(
+  def values "testing/genr_substitutions.ml" 50 1981 2001 "testing/genr_substitutions.ml" 55 2159 2218
+)
+"testing/genr_substitutions.ml" 50 1981 2001 "testing/genr_substitutions.ml" 50 1981 2002
+type(
+  int
+)
+ident(
+  def n "testing/genr_substitutions.ml" 51 2005 2007 "testing/genr_substitutions.ml" 55 2159 2218
+)
+"testing/genr_substitutions.ml" 51 2005 2011 "testing/genr_substitutions.ml" 51 2005 2016
+type(
+  int
+)
+ident(
+  def nvals "testing/genr_substitutions.ml" 52 2041 2043 "testing/genr_substitutions.ml" 55 2159 2218
+)
+"testing/genr_substitutions.ml" 51 2005 2019 "testing/genr_substitutions.ml" 51 2005 2030
+type(
+  'a list -> int
+)
+ident(
+  ext_ref List.length
+)
+"testing/genr_substitutions.ml" 51 2005 2031 "testing/genr_substitutions.ml" 51 2005 2037
+type(
+  'a list
+)
+ident(
+  int_ref values "testing/genr_substitutions.ml" 50 1981 1994 "testing/genr_substitutions.ml" 50 1981 2000
+)
+"testing/genr_substitutions.ml" 51 2005 2019 "testing/genr_substitutions.ml" 51 2005 2037
+call(
+  stack
+)
+type(
+  int
+)
+"testing/genr_substitutions.ml" 52 2041 2047 "testing/genr_substitutions.ml" 52 2041 2058
+type(
+  int
+)
+ident(
+  def reps_needed "testing/genr_substitutions.ml" 53 2074 2076 "testing/genr_substitutions.ml" 55 2159 2218
+)
+"testing/genr_substitutions.ml" 52 2041 2061 "testing/genr_substitutions.ml" 52 2041 2062
+type(
+  int
+)
+ident(
+  int_ref n "testing/genr_substitutions.ml" 50 1981 2001 "testing/genr_substitutions.ml" 50 1981 2002
+)
+"testing/genr_substitutions.ml" 52 2041 2063 "testing/genr_substitutions.ml" 52 2041 2064
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"testing/genr_substitutions.ml" 52 2041 2065 "testing/genr_substitutions.ml" 52 2041 2070
+type(
+  int
+)
+ident(
+  int_ref nvals "testing/genr_substitutions.ml" 51 2005 2011 "testing/genr_substitutions.ml" 51 2005 2016
+)
+"testing/genr_substitutions.ml" 52 2041 2061 "testing/genr_substitutions.ml" 52 2041 2070
+type(
+  int
+)
+"testing/genr_substitutions.ml" 53 2074 2080 "testing/genr_substitutions.ml" 53 2074 2085
+type(
+  int
+)
+ident(
+  def nrest "testing/genr_substitutions.ml" 54 2115 2117 "testing/genr_substitutions.ml" 55 2159 2218
+)
+"testing/genr_substitutions.ml" 53 2074 2088 "testing/genr_substitutions.ml" 53 2074 2089
+type(
+  int
+)
+ident(
+  int_ref n "testing/genr_substitutions.ml" 50 1981 2001 "testing/genr_substitutions.ml" 50 1981 2002
+)
+"testing/genr_substitutions.ml" 53 2074 2090 "testing/genr_substitutions.ml" 53 2074 2091
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"testing/genr_substitutions.ml" 53 2074 2092 "testing/genr_substitutions.ml" 53 2074 2097
+type(
+  int
+)
+ident(
+  int_ref nvals "testing/genr_substitutions.ml" 51 2005 2011 "testing/genr_substitutions.ml" 51 2005 2016
+)
+"testing/genr_substitutions.ml" 53 2074 2098 "testing/genr_substitutions.ml" 53 2074 2099
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"testing/genr_substitutions.ml" 53 2074 2100 "testing/genr_substitutions.ml" 53 2074 2111
+type(
+  int
+)
+ident(
+  int_ref reps_needed "testing/genr_substitutions.ml" 52 2041 2047 "testing/genr_substitutions.ml" 52 2041 2058
+)
+"testing/genr_substitutions.ml" 53 2074 2092 "testing/genr_substitutions.ml" 53 2074 2111
+type(
+  int
+)
+"testing/genr_substitutions.ml" 53 2074 2088 "testing/genr_substitutions.ml" 53 2074 2111
+type(
+  int
+)
+"testing/genr_substitutions.ml" 54 2115 2121 "testing/genr_substitutions.ml" 54 2115 2125
+type(
+  'a list
+)
+ident(
+  def rest "testing/genr_substitutions.ml" 55 2159 2161 "testing/genr_substitutions.ml" 55 2159 2218
+)
+"testing/genr_substitutions.ml" 54 2115 2128 "testing/genr_substitutions.ml" 54 2115 2142
+type(
+  int -> 'a list -> 'a list
+)
+ident(
+  ext_ref Listutils.take
+)
+"testing/genr_substitutions.ml" 54 2115 2143 "testing/genr_substitutions.ml" 54 2115 2148
+type(
+  int
+)
+ident(
+  int_ref nrest "testing/genr_substitutions.ml" 53 2074 2080 "testing/genr_substitutions.ml" 53 2074 2085
+)
+"testing/genr_substitutions.ml" 54 2115 2149 "testing/genr_substitutions.ml" 54 2115 2155
+type(
+  'a list
+)
+ident(
+  int_ref values "testing/genr_substitutions.ml" 50 1981 1994 "testing/genr_substitutions.ml" 50 1981 2000
+)
+"testing/genr_substitutions.ml" 54 2115 2128 "testing/genr_substitutions.ml" 54 2115 2155
+call(
+  stack
+)
+type(
+  'a list
+)
+"testing/genr_substitutions.ml" 55 2159 2161 "testing/genr_substitutions.ml" 55 2159 2173
+type(
+  'a list list -> 'a list
+)
+ident(
+  ext_ref List.flatten
+)
+"testing/genr_substitutions.ml" 55 2159 2175 "testing/genr_substitutions.ml" 55 2159 2191
+type(
+  int -> 'a list -> 'a list list
+)
+ident(
+  ext_ref Listutils.repeat
+)
+"testing/genr_substitutions.ml" 55 2159 2192 "testing/genr_substitutions.ml" 55 2159 2203
+type(
+  int
+)
+ident(
+  int_ref reps_needed "testing/genr_substitutions.ml" 52 2041 2047 "testing/genr_substitutions.ml" 52 2041 2058
+)
+"testing/genr_substitutions.ml" 55 2159 2204 "testing/genr_substitutions.ml" 55 2159 2210
+type(
+  'a list
+)
+ident(
+  int_ref values "testing/genr_substitutions.ml" 50 1981 1994 "testing/genr_substitutions.ml" 50 1981 2000
+)
+"testing/genr_substitutions.ml" 55 2159 2174 "testing/genr_substitutions.ml" 55 2159 2211
+call(
+  stack
+)
+type(
+  'a list list
+)
+"testing/genr_substitutions.ml" 55 2159 2161 "testing/genr_substitutions.ml" 55 2159 2211
+call(
+  stack
+)
+type(
+  'a list
+)
+"testing/genr_substitutions.ml" 55 2159 2212 "testing/genr_substitutions.ml" 55 2159 2213
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"testing/genr_substitutions.ml" 55 2159 2214 "testing/genr_substitutions.ml" 55 2159 2218
+type(
+  'a list
+)
+ident(
+  int_ref rest "testing/genr_substitutions.ml" 54 2115 2121 "testing/genr_substitutions.ml" 54 2115 2125
+)
+"testing/genr_substitutions.ml" 55 2159 2161 "testing/genr_substitutions.ml" 55 2159 2218
+call(
+  tail
+)
+type(
+  'a list
+)
+"testing/genr_substitutions.ml" 54 2115 2117 "testing/genr_substitutions.ml" 55 2159 2218
+type(
+  'a list
+)
+"testing/genr_substitutions.ml" 53 2074 2076 "testing/genr_substitutions.ml" 55 2159 2218
+type(
+  'a list
+)
+"testing/genr_substitutions.ml" 52 2041 2043 "testing/genr_substitutions.ml" 55 2159 2218
+type(
+  'a list
+)
+"testing/genr_substitutions.ml" 51 2005 2007 "testing/genr_substitutions.ml" 55 2159 2218
+type(
+  'a list
+)
+"testing/genr_substitutions.ml" 58 2223 2227 "testing/genr_substitutions.ml" 58 2223 2244
+type(
+  ('a -> int -> 'b list) -> 'a -> int -> 'b list
+)
+ident(
+  def get_enough_values "testing/genr_substitutions.ml" 68 2602 2602 "testing/genr_substitutions.ml" 1 0 -1
+)
+"testing/genr_substitutions.ml" 58 2223 2245 "testing/genr_substitutions.ml" 58 2223 2256
+type(
+  'a -> int -> 'b list
+)
+ident(
+  def genr_values "testing/genr_substitutions.ml" 58 2223 2257 "testing/genr_substitutions.ml" 62 2404 2412
+)
+"testing/genr_substitutions.ml" 58 2223 2257 "testing/genr_substitutions.ml" 58 2223 2258
+type(
+  'a
+)
+ident(
+  def t "testing/genr_substitutions.ml" 58 2223 2259 "testing/genr_substitutions.ml" 62 2404 2412
+)
+"testing/genr_substitutions.ml" 58 2223 2259 "testing/genr_substitutions.ml" 58 2223 2260
+type(
+  int
+)
+ident(
+  def n "testing/genr_substitutions.ml" 59 2263 2265 "testing/genr_substitutions.ml" 62 2404 2412
+)
+"testing/genr_substitutions.ml" 59 2263 2269 "testing/genr_substitutions.ml" 59 2263 2275
+type(
+  'b list
+)
+ident(
+  def values "testing/genr_substitutions.ml" 60 2297 2299 "testing/genr_substitutions.ml" 62 2404 2412
+)
+"testing/genr_substitutions.ml" 59 2263 2278 "testing/genr_substitutions.ml" 59 2263 2289
+type(
+  'a -> int -> 'b list
+)
+ident(
+  int_ref genr_values "testing/genr_substitutions.ml" 58 2223 2245 "testing/genr_substitutions.ml" 58 2223 2256
+)
+"testing/genr_substitutions.ml" 59 2263 2290 "testing/genr_substitutions.ml" 59 2263 2291
+type(
+  'a
+)
+ident(
+  int_ref t "testing/genr_substitutions.ml" 58 2223 2257 "testing/genr_substitutions.ml" 58 2223 2258
+)
+"testing/genr_substitutions.ml" 59 2263 2292 "testing/genr_substitutions.ml" 59 2263 2293
+type(
+  int
+)
+ident(
+  int_ref n "testing/genr_substitutions.ml" 58 2223 2259 "testing/genr_substitutions.ml" 58 2223 2260
+)
+"testing/genr_substitutions.ml" 59 2263 2278 "testing/genr_substitutions.ml" 59 2263 2293
+call(
+  stack
+)
+type(
+  'b list
+)
+"testing/genr_substitutions.ml" 60 2297 2302 "testing/genr_substitutions.ml" 60 2297 2308
+type(
+  'b list
+)
+ident(
+  int_ref values "testing/genr_substitutions.ml" 59 2263 2269 "testing/genr_substitutions.ml" 59 2263 2275
+)
+"testing/genr_substitutions.ml" 60 2297 2309 "testing/genr_substitutions.ml" 60 2297 2310
+type(
+  'b list -> 'b list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"testing/genr_substitutions.ml" 60 2297 2311 "testing/genr_substitutions.ml" 60 2297 2313
+type(
+  'b list
+)
+"testing/genr_substitutions.ml" 60 2297 2302 "testing/genr_substitutions.ml" 60 2297 2313
+type(
+  bool
+)
+"testing/genr_substitutions.ml" 60 2297 2319 "testing/genr_substitutions.ml" 60 2297 2324
+type(
+  exn -> 'b list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"testing/genr_substitutions.ml" 60 2297 2325 "testing/genr_substitutions.ml" 60 2297 2342
+type(
+  exn
+)
+"testing/genr_substitutions.ml" 60 2297 2319 "testing/genr_substitutions.ml" 60 2297 2342
+type(
+  'b list
+)
+"testing/genr_substitutions.ml" 61 2348 2353 "testing/genr_substitutions.ml" 61 2348 2364
+type(
+  'b list -> int
+)
+ident(
+  ext_ref List.length
+)
+"testing/genr_substitutions.ml" 61 2348 2365 "testing/genr_substitutions.ml" 61 2348 2371
+type(
+  'b list
+)
+ident(
+  int_ref values "testing/genr_substitutions.ml" 59 2263 2269 "testing/genr_substitutions.ml" 59 2263 2275
+)
+"testing/genr_substitutions.ml" 61 2348 2353 "testing/genr_substitutions.ml" 61 2348 2371
+call(
+  stack
+)
+type(
+  int
+)
+"testing/genr_substitutions.ml" 61 2348 2372 "testing/genr_substitutions.ml" 61 2348 2373
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"testing/genr_substitutions.ml" 61 2348 2374 "testing/genr_substitutions.ml" 61 2348 2375
+type(
+  int
+)
+ident(
+  int_ref n "testing/genr_substitutions.ml" 58 2223 2259 "testing/genr_substitutions.ml" 58 2223 2260
+)
+"testing/genr_substitutions.ml" 61 2348 2353 "testing/genr_substitutions.ml" 61 2348 2375
+type(
+  bool
+)
+"testing/genr_substitutions.ml" 61 2348 2381 "testing/genr_substitutions.ml" 61 2348 2389
+type(
+  'b list -> int -> 'b list
+)
+ident(
+  int_ref complete "testing/genr_substitutions.ml" 50 1981 1985 "testing/genr_substitutions.ml" 50 1981 1993
+)
+"testing/genr_substitutions.ml" 61 2348 2390 "testing/genr_substitutions.ml" 61 2348 2396
+type(
+  'b list
+)
+ident(
+  int_ref values "testing/genr_substitutions.ml" 59 2263 2269 "testing/genr_substitutions.ml" 59 2263 2275
+)
+"testing/genr_substitutions.ml" 61 2348 2397 "testing/genr_substitutions.ml" 61 2348 2398
+type(
+  int
+)
+ident(
+  int_ref n "testing/genr_substitutions.ml" 58 2223 2259 "testing/genr_substitutions.ml" 58 2223 2260
+)
+"testing/genr_substitutions.ml" 61 2348 2381 "testing/genr_substitutions.ml" 61 2348 2398
+call(
+  tail
+)
+type(
+  'b list
+)
+"testing/genr_substitutions.ml" 62 2404 2406 "testing/genr_substitutions.ml" 62 2404 2412
+type(
+  'b list
+)
+ident(
+  int_ref values "testing/genr_substitutions.ml" 59 2263 2269 "testing/genr_substitutions.ml" 59 2263 2275
+)
+"testing/genr_substitutions.ml" 61 2348 2350 "testing/genr_substitutions.ml" 62 2404 2412
+type(
+  'b list
+)
+"testing/genr_substitutions.ml" 60 2297 2299 "testing/genr_substitutions.ml" 62 2404 2412
+type(
+  'b list
+)
+"testing/genr_substitutions.ml" 59 2263 2265 "testing/genr_substitutions.ml" 62 2404 2412
+type(
+  'b list
+)
+"testing/genr_substitutions.ml" 68 2602 2606 "testing/genr_substitutions.ml" 68 2602 2622
+type(
+  int -> ('a -> int -> 'b list) -> 'a * 'c list -> ('c * 'b) list list
+)
+ident(
+  def genr_type_substs "testing/genr_substitutions.ml" 83 3187 3187 "testing/genr_substitutions.ml" 1 0 -1
+)
+"testing/genr_substitutions.ml" 68 2602 2623 "testing/genr_substitutions.ml" 68 2602 2631
+type(
+  int
+)
+ident(
+  def n_substs "testing/genr_substitutions.ml" 68 2602 2632 "testing/genr_substitutions.ml" 75 2905 2961
+)
+"testing/genr_substitutions.ml" 68 2602 2632 "testing/genr_substitutions.ml" 68 2602 2643
+type(
+  'a -> int -> 'b list
+)
+ident(
+  def genr_values "testing/genr_substitutions.ml" 68 2602 2644 "testing/genr_substitutions.ml" 75 2905 2961
+)
+"testing/genr_substitutions.ml" 68 2602 2645 "testing/genr_substitutions.ml" 68 2602 2646
+type(
+  'a
+)
+ident(
+  def t "testing/genr_substitutions.ml" 69 2656 2658 "testing/genr_substitutions.ml" 75 2905 2961
+)
+"testing/genr_substitutions.ml" 68 2602 2648 "testing/genr_substitutions.ml" 68 2602 2652
+type(
+  'c list
+)
+ident(
+  def vars "testing/genr_substitutions.ml" 69 2656 2658 "testing/genr_substitutions.ml" 75 2905 2961
+)
+"testing/genr_substitutions.ml" 68 2602 2644 "testing/genr_substitutions.ml" 68 2602 2653
+type(
+  'a * 'c list
+)
+"testing/genr_substitutions.ml" 69 2656 2662 "testing/genr_substitutions.ml" 69 2656 2668
+type(
+  int
+)
+ident(
+  def n_vars "testing/genr_substitutions.ml" 70 2691 2693 "testing/genr_substitutions.ml" 75 2905 2961
+)
+"testing/genr_substitutions.ml" 69 2656 2671 "testing/genr_substitutions.ml" 69 2656 2682
+type(
+  'c list -> int
+)
+ident(
+  ext_ref List.length
+)
+"testing/genr_substitutions.ml" 69 2656 2683 "testing/genr_substitutions.ml" 69 2656 2687
+type(
+  'c list
+)
+ident(
+  int_ref vars "testing/genr_substitutions.ml" 68 2602 2648 "testing/genr_substitutions.ml" 68 2602 2652
+)
+"testing/genr_substitutions.ml" 69 2656 2671 "testing/genr_substitutions.ml" 69 2656 2687
+call(
+  stack
+)
+type(
+  int
+)
+"testing/genr_substitutions.ml" 70 2691 2697 "testing/genr_substitutions.ml" 70 2691 2705
+type(
+  int
+)
+ident(
+  def n_values "testing/genr_substitutions.ml" 71 2729 2731 "testing/genr_substitutions.ml" 75 2905 2961
+)
+"testing/genr_substitutions.ml" 70 2691 2708 "testing/genr_substitutions.ml" 70 2691 2716
+type(
+  int
+)
+ident(
+  int_ref n_substs "testing/genr_substitutions.ml" 68 2602 2623 "testing/genr_substitutions.ml" 68 2602 2631
+)
+"testing/genr_substitutions.ml" 70 2691 2717 "testing/genr_substitutions.ml" 70 2691 2718
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"testing/genr_substitutions.ml" 70 2691 2719 "testing/genr_substitutions.ml" 70 2691 2725
+type(
+  int
+)
+ident(
+  int_ref n_vars "testing/genr_substitutions.ml" 69 2656 2662 "testing/genr_substitutions.ml" 69 2656 2668
+)
+"testing/genr_substitutions.ml" 70 2691 2708 "testing/genr_substitutions.ml" 70 2691 2725
+type(
+  int
+)
+"testing/genr_substitutions.ml" 71 2729 2735 "testing/genr_substitutions.ml" 71 2729 2741
+type(
+  'b list
+)
+ident(
+  def values "testing/genr_substitutions.ml" 72 2788 2790 "testing/genr_substitutions.ml" 75 2905 2961
+)
+"testing/genr_substitutions.ml" 71 2729 2744 "testing/genr_substitutions.ml" 71 2729 2761
+type(
+  ('a -> int -> 'b list) -> 'a -> int -> 'b list
+)
+ident(
+  int_ref get_enough_values "testing/genr_substitutions.ml" 58 2223 2227 "testing/genr_substitutions.ml" 58 2223 2244
+)
+"testing/genr_substitutions.ml" 71 2729 2762 "testing/genr_substitutions.ml" 71 2729 2773
+type(
+  'a -> int -> 'b list
+)
+ident(
+  int_ref genr_values "testing/genr_substitutions.ml" 68 2602 2632 "testing/genr_substitutions.ml" 68 2602 2643
+)
+"testing/genr_substitutions.ml" 71 2729 2774 "testing/genr_substitutions.ml" 71 2729 2775
+type(
+  'a
+)
+ident(
+  int_ref t "testing/genr_substitutions.ml" 68 2602 2645 "testing/genr_substitutions.ml" 68 2602 2646
+)
+"testing/genr_substitutions.ml" 71 2729 2776 "testing/genr_substitutions.ml" 71 2729 2784
+type(
+  int
+)
+ident(
+  int_ref n_values "testing/genr_substitutions.ml" 70 2691 2697 "testing/genr_substitutions.ml" 70 2691 2705
+)
+"testing/genr_substitutions.ml" 71 2729 2744 "testing/genr_substitutions.ml" 71 2729 2784
+call(
+  stack
+)
+type(
+  'b list
+)
+"testing/genr_substitutions.ml" 72 2788 2794 "testing/genr_substitutions.ml" 72 2788 2804
+type(
+  int -> ('c * 'b) list
+)
+ident(
+  def genr_assoc "testing/genr_substitutions.ml" 75 2905 2907 "testing/genr_substitutions.ml" 75 2905 2961
+)
+"testing/genr_substitutions.ml" 72 2788 2805 "testing/genr_substitutions.ml" 72 2788 2806
+type(
+  int
+)
+ident(
+  def i "testing/genr_substitutions.ml" 73 2809 2813 "testing/genr_substitutions.ml" 74 2869 2901
+)
+"testing/genr_substitutions.ml" 73 2809 2817 "testing/genr_substitutions.ml" 73 2809 2827
+type(
+  'b list
+)
+ident(
+  def ith_values "testing/genr_substitutions.ml" 74 2869 2873 "testing/genr_substitutions.ml" 74 2869 2901
+)
+"testing/genr_substitutions.ml" 73 2809 2830 "testing/genr_substitutions.ml" 73 2809 2849
+type(
+  int -> int -> 'b list -> 'b list
+)
+ident(
+  ext_ref Listutils.ith_group
+)
+"testing/genr_substitutions.ml" 73 2809 2850 "testing/genr_substitutions.ml" 73 2809 2851
+type(
+  int
+)
+ident(
+  int_ref i "testing/genr_substitutions.ml" 72 2788 2805 "testing/genr_substitutions.ml" 72 2788 2806
+)
+"testing/genr_substitutions.ml" 73 2809 2852 "testing/genr_substitutions.ml" 73 2809 2858
+type(
+  int
+)
+ident(
+  int_ref n_vars "testing/genr_substitutions.ml" 69 2656 2662 "testing/genr_substitutions.ml" 69 2656 2668
+)
+"testing/genr_substitutions.ml" 73 2809 2859 "testing/genr_substitutions.ml" 73 2809 2865
+type(
+  'b list
+)
+ident(
+  int_ref values "testing/genr_substitutions.ml" 71 2729 2735 "testing/genr_substitutions.ml" 71 2729 2741
+)
+"testing/genr_substitutions.ml" 73 2809 2830 "testing/genr_substitutions.ml" 73 2809 2865
+call(
+  stack
+)
+type(
+  'b list
+)
+"testing/genr_substitutions.ml" 74 2869 2873 "testing/genr_substitutions.ml" 74 2869 2885
+type(
+  'c list -> 'b list -> ('c * 'b) list
+)
+ident(
+  ext_ref List.combine
+)
+"testing/genr_substitutions.ml" 74 2869 2886 "testing/genr_substitutions.ml" 74 2869 2890
+type(
+  'c list
+)
+ident(
+  int_ref vars "testing/genr_substitutions.ml" 68 2602 2648 "testing/genr_substitutions.ml" 68 2602 2652
+)
+"testing/genr_substitutions.ml" 74 2869 2891 "testing/genr_substitutions.ml" 74 2869 2901
+type(
+  'b list
+)
+ident(
+  int_ref ith_values "testing/genr_substitutions.ml" 73 2809 2817 "testing/genr_substitutions.ml" 73 2809 2827
+)
+"testing/genr_substitutions.ml" 74 2869 2873 "testing/genr_substitutions.ml" 74 2869 2901
+call(
+  tail
+)
+type(
+  ('c * 'b) list
+)
+"testing/genr_substitutions.ml" 73 2809 2813 "testing/genr_substitutions.ml" 74 2869 2901
+type(
+  ('c * 'b) list
+)
+"testing/genr_substitutions.ml" 75 2905 2907 "testing/genr_substitutions.ml" 75 2905 2928
+type(
+  (int -> ('c * 'b) list) ->
+  int -> int -> (int -> int) -> ('c * 'b) list list
+)
+ident(
+  ext_ref Listutils.map_from_to
+)
+"testing/genr_substitutions.ml" 75 2905 2929 "testing/genr_substitutions.ml" 75 2905 2939
+type(
+  int -> ('c * 'b) list
+)
+ident(
+  int_ref genr_assoc "testing/genr_substitutions.ml" 72 2788 2794 "testing/genr_substitutions.ml" 72 2788 2804
+)
+"testing/genr_substitutions.ml" 75 2905 2940 "testing/genr_substitutions.ml" 75 2905 2941
+type(
+  int
+)
+"testing/genr_substitutions.ml" 75 2905 2943 "testing/genr_substitutions.ml" 75 2905 2951
+type(
+  int
+)
+ident(
+  int_ref n_substs "testing/genr_substitutions.ml" 68 2602 2623 "testing/genr_substitutions.ml" 68 2602 2631
+)
+"testing/genr_substitutions.ml" 75 2905 2952 "testing/genr_substitutions.ml" 75 2905 2953
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"testing/genr_substitutions.ml" 75 2905 2954 "testing/genr_substitutions.ml" 75 2905 2955
+type(
+  int
+)
+"testing/genr_substitutions.ml" 75 2905 2942 "testing/genr_substitutions.ml" 75 2905 2956
+type(
+  int
+)
+"testing/genr_substitutions.ml" 75 2905 2957 "testing/genr_substitutions.ml" 75 2905 2961
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"testing/genr_substitutions.ml" 75 2905 2907 "testing/genr_substitutions.ml" 75 2905 2961
+call(
+  tail
+)
+type(
+  ('c * 'b) list list
+)
+"testing/genr_substitutions.ml" 72 2788 2790 "testing/genr_substitutions.ml" 75 2905 2961
+type(
+  ('c * 'b) list list
+)
+"testing/genr_substitutions.ml" 71 2729 2731 "testing/genr_substitutions.ml" 75 2905 2961
+type(
+  ('c * 'b) list list
+)
+"testing/genr_substitutions.ml" 70 2691 2693 "testing/genr_substitutions.ml" 75 2905 2961
+type(
+  ('c * 'b) list list
+)
+"testing/genr_substitutions.ml" 69 2656 2658 "testing/genr_substitutions.ml" 75 2905 2961
+type(
+  ('c * 'b) list list
+)
+"testing/genr_substitutions.ml" 83 3187 3191 "testing/genr_substitutions.ml" 83 3187 3199
+type(
+  Parsetree.core_type -> 'a * Parsetree.core_type -> bool
+)
+ident(
+  def has_type "testing/genr_substitutions.ml" 86 3237 3237 "testing/genr_substitutions.ml" 1 0 -1
+)
+"testing/genr_substitutions.ml" 83 3187 3200 "testing/genr_substitutions.ml" 83 3187 3202
+type(
+  Parsetree.core_type
+)
+ident(
+  def t1 "testing/genr_substitutions.ml" 83 3187 3203 "testing/genr_substitutions.ml" 83 3187 3232
+)
+"testing/genr_substitutions.ml" 83 3187 3204 "testing/genr_substitutions.ml" 83 3187 3205
+type(
+  'a
+)
+"testing/genr_substitutions.ml" 83 3187 3207 "testing/genr_substitutions.ml" 83 3187 3209
+type(
+  Parsetree.core_type
+)
+ident(
+  def t2 "testing/genr_substitutions.ml" 83 3187 3213 "testing/genr_substitutions.ml" 83 3187 3232
+)
+"testing/genr_substitutions.ml" 83 3187 3203 "testing/genr_substitutions.ml" 83 3187 3210
+type(
+  'a * Parsetree.core_type
+)
+"testing/genr_substitutions.ml" 83 3187 3213 "testing/genr_substitutions.ml" 83 3187 3226
+type(
+  Parsetree.core_type -> Parsetree.core_type -> bool
+)
+ident(
+  ext_ref Otype.eq_type
+)
+"testing/genr_substitutions.ml" 83 3187 3227 "testing/genr_substitutions.ml" 83 3187 3229
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref t1 "testing/genr_substitutions.ml" 83 3187 3200 "testing/genr_substitutions.ml" 83 3187 3202
+)
+"testing/genr_substitutions.ml" 83 3187 3230 "testing/genr_substitutions.ml" 83 3187 3232
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref t2 "testing/genr_substitutions.ml" 83 3187 3207 "testing/genr_substitutions.ml" 83 3187 3209
+)
+"testing/genr_substitutions.ml" 83 3187 3213 "testing/genr_substitutions.ml" 83 3187 3232
+call(
+  tail
+)
+type(
+  bool
+)
+"testing/genr_substitutions.ml" 86 3237 3245 "testing/genr_substitutions.ml" 86 3237 3257
+type(
+  ('a * Parsetree.core_type) list -> (Parsetree.core_type * 'a list) list
+)
+ident(
+  def vars_by_type "testing/genr_substitutions.ml" 86 3237 3237 "testing/genr_substitutions.ml" 1 0 -1
+)
+"testing/genr_substitutions.ml" 87 3269 3273 "testing/genr_substitutions.ml" 87 3269 3275
+type(
+  ('a * Parsetree.core_type) list
+)
+"testing/genr_substitutions.ml" 87 3269 3279 "testing/genr_substitutions.ml" 87 3269 3281
+type(
+  (Parsetree.core_type * 'a list) list
+)
+"testing/genr_substitutions.ml" 88 3282 3287 "testing/genr_substitutions.ml" 88 3282 3288
+type(
+  'a
+)
+ident(
+  def v "testing/genr_substitutions.ml" 89 3303 3307 "testing/genr_substitutions.ml" 90 3369 3429
+)
+"testing/genr_substitutions.ml" 88 3282 3290 "testing/genr_substitutions.ml" 88 3282 3291
+type(
+  Parsetree.core_type
+)
+ident(
+  def t "testing/genr_substitutions.ml" 89 3303 3307 "testing/genr_substitutions.ml" 90 3369 3429
+)
+"testing/genr_substitutions.ml" 88 3282 3286 "testing/genr_substitutions.ml" 88 3282 3292
+type(
+  'a * Parsetree.core_type
+)
+"testing/genr_substitutions.ml" 88 3282 3296 "testing/genr_substitutions.ml" 88 3282 3299
+type(
+  ('a * Parsetree.core_type) list
+)
+ident(
+  def vts "testing/genr_substitutions.ml" 89 3303 3307 "testing/genr_substitutions.ml" 90 3369 3429
+)
+"testing/genr_substitutions.ml" 88 3282 3286 "testing/genr_substitutions.ml" 88 3282 3299
+type(
+  ('a * Parsetree.core_type) list
+)
+"testing/genr_substitutions.ml" 89 3303 3312 "testing/genr_substitutions.ml" 89 3303 3318
+type(
+  ('a * Parsetree.core_type) list
+)
+ident(
+  def t_vars "testing/genr_substitutions.ml" 90 3369 3373 "testing/genr_substitutions.ml" 90 3369 3429
+)
+"testing/genr_substitutions.ml" 89 3303 3320 "testing/genr_substitutions.ml" 89 3303 3330
+type(
+  ('a * Parsetree.core_type) list
+)
+ident(
+  def non_t_vars "testing/genr_substitutions.ml" 90 3369 3373 "testing/genr_substitutions.ml" 90 3369 3429
+)
+"testing/genr_substitutions.ml" 89 3303 3311 "testing/genr_substitutions.ml" 89 3303 3331
+type(
+  ('a * Parsetree.core_type) list * ('a * Parsetree.core_type) list
+)
+"testing/genr_substitutions.ml" 89 3303 3334 "testing/genr_substitutions.ml" 89 3303 3348
+type(
+  ('a * Parsetree.core_type -> bool) ->
+  ('a * Parsetree.core_type) list ->
+  ('a * Parsetree.core_type) list * ('a * Parsetree.core_type) list
+)
+ident(
+  ext_ref List.partition
+)
+"testing/genr_substitutions.ml" 89 3303 3350 "testing/genr_substitutions.ml" 89 3303 3358
+type(
+  Parsetree.core_type -> 'a * Parsetree.core_type -> bool
+)
+ident(
+  int_ref has_type "testing/genr_substitutions.ml" 83 3187 3191 "testing/genr_substitutions.ml" 83 3187 3199
+)
+"testing/genr_substitutions.ml" 89 3303 3359 "testing/genr_substitutions.ml" 89 3303 3360
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref t "testing/genr_substitutions.ml" 88 3282 3290 "testing/genr_substitutions.ml" 88 3282 3291
+)
+"testing/genr_substitutions.ml" 89 3303 3349 "testing/genr_substitutions.ml" 89 3303 3361
+call(
+  stack
+)
+type(
+  'a * Parsetree.core_type -> bool
+)
+"testing/genr_substitutions.ml" 89 3303 3362 "testing/genr_substitutions.ml" 89 3303 3365
+type(
+  ('a * Parsetree.core_type) list
+)
+ident(
+  int_ref vts "testing/genr_substitutions.ml" 88 3282 3296 "testing/genr_substitutions.ml" 88 3282 3299
+)
+"testing/genr_substitutions.ml" 89 3303 3334 "testing/genr_substitutions.ml" 89 3303 3365
+call(
+  stack
+)
+type(
+  ('a * Parsetree.core_type) list * ('a * Parsetree.core_type) list
+)
+"testing/genr_substitutions.ml" 90 3369 3374 "testing/genr_substitutions.ml" 90 3369 3375
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref t "testing/genr_substitutions.ml" 88 3282 3290 "testing/genr_substitutions.ml" 88 3282 3291
+)
+"testing/genr_substitutions.ml" 90 3369 3377 "testing/genr_substitutions.ml" 90 3369 3378
+type(
+  'a
+)
+ident(
+  int_ref v "testing/genr_substitutions.ml" 88 3282 3287 "testing/genr_substitutions.ml" 88 3282 3288
+)
+"testing/genr_substitutions.ml" 90 3369 3382 "testing/genr_substitutions.ml" 90 3369 3390
+type(
+  ('a * Parsetree.core_type -> 'a) ->
+  ('a * Parsetree.core_type) list -> 'a list
+)
+ident(
+  ext_ref List.map
+)
+"testing/genr_substitutions.ml" 90 3369 3391 "testing/genr_substitutions.ml" 90 3369 3394
+type(
+  'a * Parsetree.core_type -> 'a
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"testing/genr_substitutions.ml" 90 3369 3395 "testing/genr_substitutions.ml" 90 3369 3401
+type(
+  ('a * Parsetree.core_type) list
+)
+ident(
+  int_ref t_vars "testing/genr_substitutions.ml" 89 3303 3312 "testing/genr_substitutions.ml" 89 3303 3318
+)
+"testing/genr_substitutions.ml" 90 3369 3382 "testing/genr_substitutions.ml" 90 3369 3401
+call(
+  stack
+)
+type(
+  'a list
+)
+"testing/genr_substitutions.ml" 90 3369 3377 "testing/genr_substitutions.ml" 90 3369 3401
+type(
+  'a list
+)
+"testing/genr_substitutions.ml" 90 3369 3373 "testing/genr_substitutions.ml" 90 3369 3402
+type(
+  Parsetree.core_type * 'a list
+)
+"testing/genr_substitutions.ml" 90 3369 3406 "testing/genr_substitutions.ml" 90 3369 3418
+type(
+  ('a * Parsetree.core_type) list -> (Parsetree.core_type * 'a list) list
+)
+ident(
+  int_ref vars_by_type "testing/genr_substitutions.ml" 86 3237 3245 "testing/genr_substitutions.ml" 86 3237 3257
+)
+"testing/genr_substitutions.ml" 90 3369 3419 "testing/genr_substitutions.ml" 90 3369 3429
+type(
+  ('a * Parsetree.core_type) list
+)
+ident(
+  int_ref non_t_vars "testing/genr_substitutions.ml" 89 3303 3320 "testing/genr_substitutions.ml" 89 3303 3330
+)
+"testing/genr_substitutions.ml" 90 3369 3406 "testing/genr_substitutions.ml" 90 3369 3429
+call(
+  stack
+)
+type(
+  (Parsetree.core_type * 'a list) list
+)
+"testing/genr_substitutions.ml" 90 3369 3373 "testing/genr_substitutions.ml" 90 3369 3429
+type(
+  (Parsetree.core_type * 'a list) list
+)
+"testing/genr_substitutions.ml" 89 3303 3307 "testing/genr_substitutions.ml" 90 3369 3429
+type(
+  (Parsetree.core_type * 'a list) list
+)
+"testing/genr_substitutions.ml" 86 3237 3260 "testing/genr_substitutions.ml" 90 3369 3429
+type(
+  ('a * Parsetree.core_type) list -> (Parsetree.core_type * 'a list) list
+)
+"testing/genr_substitutions.ml" 93 3434 3438 "testing/genr_substitutions.ml" 93 3434 3449
+type(
+  int ->
+  (Parsetree.core_type -> int -> 'a list) ->
+  ('b * Parsetree.core_type) list -> ('b -> 'a) list
+)
+ident(
+  def genr_substs "testing/genr_substitutions.ml" 97 3620 3677 "testing/genr_substitutions.ml" 1 0 -1
+)
+"testing/genr_substitutions.ml" 93 3434 3450 "testing/genr_substitutions.ml" 93 3434 3458
+type(
+  int
+)
+ident(
+  def n_substs "testing/genr_substitutions.ml" 93 3434 3459 "testing/genr_substitutions.ml" 97 3620 3677
+)
+"testing/genr_substitutions.ml" 93 3434 3459 "testing/genr_substitutions.ml" 93 3434 3470
+type(
+  Parsetree.core_type -> int -> 'a list
+)
+ident(
+  def genr_values "testing/genr_substitutions.ml" 93 3434 3471 "testing/genr_substitutions.ml" 97 3620 3677
+)
+"testing/genr_substitutions.ml" 93 3434 3471 "testing/genr_substitutions.ml" 93 3434 3481
+type(
+  ('b * Parsetree.core_type) list
+)
+ident(
+  def typed_vars "testing/genr_substitutions.ml" 94 3484 3486 "testing/genr_substitutions.ml" 97 3620 3677
+)
+"testing/genr_substitutions.ml" 94 3484 3490 "testing/genr_substitutions.ml" 94 3484 3500
+type(
+  (Parsetree.core_type * 'b list) list
+)
+ident(
+  def vs_by_type "testing/genr_substitutions.ml" 95 3530 3532 "testing/genr_substitutions.ml" 97 3620 3677
+)
+"testing/genr_substitutions.ml" 94 3484 3503 "testing/genr_substitutions.ml" 94 3484 3515
+type(
+  ('b * Parsetree.core_type) list -> (Parsetree.core_type * 'b list) list
+)
+ident(
+  int_ref vars_by_type "testing/genr_substitutions.ml" 86 3237 3245 "testing/genr_substitutions.ml" 86 3237 3257
+)
+"testing/genr_substitutions.ml" 94 3484 3516 "testing/genr_substitutions.ml" 94 3484 3526
+type(
+  ('b * Parsetree.core_type) list
+)
+ident(
+  int_ref typed_vars "testing/genr_substitutions.ml" 93 3434 3471 "testing/genr_substitutions.ml" 93 3434 3481
+)
+"testing/genr_substitutions.ml" 94 3484 3503 "testing/genr_substitutions.ml" 94 3484 3526
+call(
+  stack
+)
+type(
+  (Parsetree.core_type * 'b list) list
+)
+"testing/genr_substitutions.ml" 95 3530 3536 "testing/genr_substitutions.ml" 95 3530 3550
+type(
+  ('b * 'a) list list list
+)
+ident(
+  def assocs_by_type "testing/genr_substitutions.ml" 97 3620 3622 "testing/genr_substitutions.ml" 97 3620 3677
+)
+"testing/genr_substitutions.ml" 96 3553 3557 "testing/genr_substitutions.ml" 96 3553 3565
+type(
+  (Parsetree.core_type * 'b list -> ('b * 'a) list list) ->
+  (Parsetree.core_type * 'b list) list -> ('b * 'a) list list list
+)
+ident(
+  ext_ref List.map
+)
+"testing/genr_substitutions.ml" 96 3553 3567 "testing/genr_substitutions.ml" 96 3553 3583
+type(
+  int ->
+  (Parsetree.core_type -> int -> 'a list) ->
+  Parsetree.core_type * 'b list -> ('b * 'a) list list
+)
+ident(
+  int_ref genr_type_substs "testing/genr_substitutions.ml" 68 2602 2606 "testing/genr_substitutions.ml" 68 2602 2622
+)
+"testing/genr_substitutions.ml" 96 3553 3584 "testing/genr_substitutions.ml" 96 3553 3592
+type(
+  int
+)
+ident(
+  int_ref n_substs "testing/genr_substitutions.ml" 93 3434 3450 "testing/genr_substitutions.ml" 93 3434 3458
+)
+"testing/genr_substitutions.ml" 96 3553 3593 "testing/genr_substitutions.ml" 96 3553 3604
+type(
+  Parsetree.core_type -> int -> 'a list
+)
+ident(
+  int_ref genr_values "testing/genr_substitutions.ml" 93 3434 3459 "testing/genr_substitutions.ml" 93 3434 3470
+)
+"testing/genr_substitutions.ml" 96 3553 3566 "testing/genr_substitutions.ml" 96 3553 3605
+call(
+  stack
+)
+type(
+  Parsetree.core_type * 'b list -> ('b * 'a) list list
+)
+"testing/genr_substitutions.ml" 96 3553 3606 "testing/genr_substitutions.ml" 96 3553 3616
+type(
+  (Parsetree.core_type * 'b list) list
+)
+ident(
+  int_ref vs_by_type "testing/genr_substitutions.ml" 94 3484 3490 "testing/genr_substitutions.ml" 94 3484 3500
+)
+"testing/genr_substitutions.ml" 96 3553 3557 "testing/genr_substitutions.ml" 96 3553 3616
+call(
+  stack
+)
+type(
+  ('b * 'a) list list list
+)
+"testing/genr_substitutions.ml" 97 3620 3622 "testing/genr_substitutions.ml" 97 3620 3630
+type(
+  (('b * 'a) list -> 'b -> 'a) -> ('b * 'a) list list -> ('b -> 'a) list
+)
+ident(
+  ext_ref List.map
+)
+"testing/genr_substitutions.ml" 97 3620 3631 "testing/genr_substitutions.ml" 97 3620 3642
+type(
+  ('b * 'a) list -> 'b -> 'a
+)
+ident(
+  int_ref to_function "testing/genr_substitutions.ml" 24 1241 1245 "testing/genr_substitutions.ml" 24 1241 1256
+)
+"testing/genr_substitutions.ml" 97 3620 3644 "testing/genr_substitutions.ml" 97 3620 3661
+type(
+  ('b * 'a) list list list -> ('b * 'a) list list
+)
+ident(
+  int_ref join_typed_assocs "testing/genr_substitutions.ml" 46 1893 1897 "testing/genr_substitutions.ml" 46 1893 1914
+)
+"testing/genr_substitutions.ml" 97 3620 3662 "testing/genr_substitutions.ml" 97 3620 3676
+type(
+  ('b * 'a) list list list
+)
+ident(
+  int_ref assocs_by_type "testing/genr_substitutions.ml" 95 3530 3536 "testing/genr_substitutions.ml" 95 3530 3550
+)
+"testing/genr_substitutions.ml" 97 3620 3643 "testing/genr_substitutions.ml" 97 3620 3677
+call(
+  stack
+)
+type(
+  ('b * 'a) list list
+)
+"testing/genr_substitutions.ml" 97 3620 3622 "testing/genr_substitutions.ml" 97 3620 3677
+call(
+  tail
+)
+type(
+  ('b -> 'a) list
+)
+"testing/genr_substitutions.ml" 95 3530 3532 "testing/genr_substitutions.ml" 97 3620 3677
+type(
+  ('b -> 'a) list
+)
+"testing/genr_substitutions.ml" 94 3484 3486 "testing/genr_substitutions.ml" 97 3620 3677
+type(
+  ('b -> 'a) list
+)

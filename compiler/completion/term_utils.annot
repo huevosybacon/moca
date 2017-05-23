@@ -1,0 +1,734 @@
+"completion/term_utils.ml" 22 1110 1114 "completion/term_utils.ml" 22 1110 1115
+type(
+  Term.term
+)
+ident(
+  def x "completion/term_utils.ml" 28 1170 1170 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 22 1110 1122 "completion/term_utils.ml" 22 1110 1123
+type(
+  Var.var
+)
+"completion/term_utils.ml" 22 1110 1118 "completion/term_utils.ml" 22 1110 1123
+type(
+  Term.term
+)
+"completion/term_utils.ml" 23 1124 1128 "completion/term_utils.ml" 23 1124 1129
+type(
+  Term.term
+)
+ident(
+  def y "completion/term_utils.ml" 28 1170 1170 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 23 1124 1136 "completion/term_utils.ml" 23 1124 1137
+type(
+  Var.var
+)
+"completion/term_utils.ml" 23 1124 1132 "completion/term_utils.ml" 23 1124 1137
+type(
+  Term.term
+)
+"completion/term_utils.ml" 24 1138 1142 "completion/term_utils.ml" 24 1138 1143
+type(
+  Term.term
+)
+ident(
+  def z "completion/term_utils.ml" 28 1170 1170 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 24 1138 1150 "completion/term_utils.ml" 24 1138 1151
+type(
+  Var.var
+)
+"completion/term_utils.ml" 24 1138 1146 "completion/term_utils.ml" 24 1138 1151
+type(
+  Term.term
+)
+"completion/term_utils.ml" 25 1152 1156 "completion/term_utils.ml" 25 1152 1157
+type(
+  Term.term
+)
+ident(
+  def w "completion/term_utils.ml" 28 1170 1170 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 25 1152 1164 "completion/term_utils.ml" 25 1152 1165
+type(
+  Var.var
+)
+"completion/term_utils.ml" 25 1152 1160 "completion/term_utils.ml" 25 1152 1165
+type(
+  Term.term
+)
+"completion/term_utils.ml" 28 1170 1174 "completion/term_utils.ml" 28 1170 1185
+type(
+  Parsetree.generator -> Symb.symbol
+)
+ident(
+  def symb_of_gen "completion/term_utils.ml" 30 1248 1248 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 28 1170 1186 "completion/term_utils.ml" 28 1170 1187
+type(
+  Parsetree.generator
+)
+ident(
+  def g "completion/term_utils.ml" 28 1170 1190 "completion/term_utils.ml" 28 1170 1244
+)
+"completion/term_utils.ml" 28 1170 1190 "completion/term_utils.ml" 28 1170 1206
+type(
+  string -> Symb.symbol
+)
+ident(
+  ext_ref Symb.symbol_of_string
+)
+"completion/term_utils.ml" 28 1170 1208 "completion/term_utils.ml" 28 1170 1241
+type(
+  Parsetree.generator -> string
+)
+ident(
+  ext_ref Otype.qualified_name_of_generator
+)
+"completion/term_utils.ml" 28 1170 1242 "completion/term_utils.ml" 28 1170 1243
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "completion/term_utils.ml" 28 1170 1186 "completion/term_utils.ml" 28 1170 1187
+)
+"completion/term_utils.ml" 28 1170 1207 "completion/term_utils.ml" 28 1170 1244
+call(
+  stack
+)
+type(
+  string
+)
+"completion/term_utils.ml" 28 1170 1190 "completion/term_utils.ml" 28 1170 1244
+call(
+  tail
+)
+type(
+  Symb.symbol
+)
+"completion/term_utils.ml" 30 1248 1252 "completion/term_utils.ml" 30 1248 1255
+type(
+  Parsetree.generator -> Term.term list -> Term.term
+)
+ident(
+  def app "completion/term_utils.ml" 32 1290 1290 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 30 1248 1256 "completion/term_utils.ml" 30 1248 1257
+type(
+  Parsetree.generator
+)
+ident(
+  def g "completion/term_utils.ml" 30 1248 1258 "completion/term_utils.ml" 30 1248 1286
+)
+"completion/term_utils.ml" 30 1248 1258 "completion/term_utils.ml" 30 1248 1260
+type(
+  Term.term list
+)
+ident(
+  def xs "completion/term_utils.ml" 30 1248 1263 "completion/term_utils.ml" 30 1248 1286
+)
+"completion/term_utils.ml" 30 1248 1268 "completion/term_utils.ml" 30 1248 1279
+type(
+  Parsetree.generator -> Symb.symbol
+)
+ident(
+  int_ref symb_of_gen "completion/term_utils.ml" 28 1170 1174 "completion/term_utils.ml" 28 1170 1185
+)
+"completion/term_utils.ml" 30 1248 1280 "completion/term_utils.ml" 30 1248 1281
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "completion/term_utils.ml" 30 1248 1256 "completion/term_utils.ml" 30 1248 1257
+)
+"completion/term_utils.ml" 30 1248 1268 "completion/term_utils.ml" 30 1248 1281
+call(
+  stack
+)
+type(
+  Symb.symbol
+)
+"completion/term_utils.ml" 30 1248 1283 "completion/term_utils.ml" 30 1248 1285
+type(
+  Term.term list
+)
+ident(
+  int_ref xs "completion/term_utils.ml" 30 1248 1258 "completion/term_utils.ml" 30 1248 1260
+)
+"completion/term_utils.ml" 30 1248 1263 "completion/term_utils.ml" 30 1248 1286
+type(
+  Term.term
+)
+"completion/term_utils.ml" 32 1290 1294 "completion/term_utils.ml" 32 1290 1298
+type(
+  Parsetree.generator -> Term.term
+)
+ident(
+  def app0 "completion/term_utils.ml" 37 1371 1371 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 32 1290 1299 "completion/term_utils.ml" 32 1290 1300
+type(
+  Parsetree.generator
+)
+ident(
+  def g "completion/term_utils.ml" 32 1290 1303 "completion/term_utils.ml" 32 1290 1311
+)
+"completion/term_utils.ml" 32 1290 1303 "completion/term_utils.ml" 32 1290 1306
+type(
+  Parsetree.generator -> Term.term list -> Term.term
+)
+ident(
+  int_ref app "completion/term_utils.ml" 30 1248 1252 "completion/term_utils.ml" 30 1248 1255
+)
+"completion/term_utils.ml" 32 1290 1307 "completion/term_utils.ml" 32 1290 1308
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "completion/term_utils.ml" 32 1290 1299 "completion/term_utils.ml" 32 1290 1300
+)
+"completion/term_utils.ml" 32 1290 1309 "completion/term_utils.ml" 32 1290 1311
+type(
+  Term.term list
+)
+"completion/term_utils.ml" 32 1290 1303 "completion/term_utils.ml" 32 1290 1311
+call(
+  tail
+)
+type(
+  Term.term
+)
+"completion/term_utils.ml" 33 1312 1316 "completion/term_utils.ml" 33 1312 1320
+type(
+  Parsetree.generator -> Term.term -> Term.term
+)
+ident(
+  def app1 "completion/term_utils.ml" 37 1371 1371 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 33 1312 1321 "completion/term_utils.ml" 33 1312 1322
+type(
+  Parsetree.generator
+)
+ident(
+  def g "completion/term_utils.ml" 33 1312 1323 "completion/term_utils.ml" 33 1312 1336
+)
+"completion/term_utils.ml" 33 1312 1323 "completion/term_utils.ml" 33 1312 1324
+type(
+  Term.term
+)
+ident(
+  def x "completion/term_utils.ml" 33 1312 1327 "completion/term_utils.ml" 33 1312 1336
+)
+"completion/term_utils.ml" 33 1312 1327 "completion/term_utils.ml" 33 1312 1330
+type(
+  Parsetree.generator -> Term.term list -> Term.term
+)
+ident(
+  int_ref app "completion/term_utils.ml" 30 1248 1252 "completion/term_utils.ml" 30 1248 1255
+)
+"completion/term_utils.ml" 33 1312 1331 "completion/term_utils.ml" 33 1312 1332
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "completion/term_utils.ml" 33 1312 1321 "completion/term_utils.ml" 33 1312 1322
+)
+"completion/term_utils.ml" 33 1312 1334 "completion/term_utils.ml" 33 1312 1335
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/term_utils.ml" 33 1312 1323 "completion/term_utils.ml" 33 1312 1324
+)
+"completion/term_utils.ml" 33 1312 1333 "completion/term_utils.ml" 33 1312 1336
+type(
+  Term.term list
+)
+"completion/term_utils.ml" 33 1312 1327 "completion/term_utils.ml" 33 1312 1336
+call(
+  tail
+)
+type(
+  Term.term
+)
+"completion/term_utils.ml" 34 1337 1341 "completion/term_utils.ml" 34 1337 1345
+type(
+  Parsetree.generator -> Term.term -> Term.term -> Term.term
+)
+ident(
+  def app2 "completion/term_utils.ml" 37 1371 1371 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 34 1337 1346 "completion/term_utils.ml" 34 1337 1347
+type(
+  Parsetree.generator
+)
+ident(
+  def g "completion/term_utils.ml" 34 1337 1348 "completion/term_utils.ml" 34 1337 1366
+)
+"completion/term_utils.ml" 34 1337 1348 "completion/term_utils.ml" 34 1337 1349
+type(
+  Term.term
+)
+ident(
+  def x "completion/term_utils.ml" 34 1337 1350 "completion/term_utils.ml" 34 1337 1366
+)
+"completion/term_utils.ml" 34 1337 1350 "completion/term_utils.ml" 34 1337 1351
+type(
+  Term.term
+)
+ident(
+  def y "completion/term_utils.ml" 34 1337 1354 "completion/term_utils.ml" 34 1337 1366
+)
+"completion/term_utils.ml" 34 1337 1354 "completion/term_utils.ml" 34 1337 1357
+type(
+  Parsetree.generator -> Term.term list -> Term.term
+)
+ident(
+  int_ref app "completion/term_utils.ml" 30 1248 1252 "completion/term_utils.ml" 30 1248 1255
+)
+"completion/term_utils.ml" 34 1337 1358 "completion/term_utils.ml" 34 1337 1359
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "completion/term_utils.ml" 34 1337 1346 "completion/term_utils.ml" 34 1337 1347
+)
+"completion/term_utils.ml" 34 1337 1361 "completion/term_utils.ml" 34 1337 1362
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/term_utils.ml" 34 1337 1348 "completion/term_utils.ml" 34 1337 1349
+)
+"completion/term_utils.ml" 34 1337 1364 "completion/term_utils.ml" 34 1337 1365
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/term_utils.ml" 34 1337 1350 "completion/term_utils.ml" 34 1337 1351
+)
+"completion/term_utils.ml" 34 1337 1360 "completion/term_utils.ml" 34 1337 1366
+type(
+  Term.term list
+)
+"completion/term_utils.ml" 34 1337 1354 "completion/term_utils.ml" 34 1337 1366
+call(
+  tail
+)
+type(
+  Term.term
+)
+"completion/term_utils.ml" 37 1371 1375 "completion/term_utils.ml" 37 1371 1386
+type(
+  Longident.t -> Symb.symbol
+)
+ident(
+  def symb_of_lid "completion/term_utils.ml" 40 1455 1455 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 37 1371 1387 "completion/term_utils.ml" 37 1371 1390
+type(
+  Longident.t
+)
+ident(
+  def lid "completion/term_utils.ml" 38 1393 1395 "completion/term_utils.ml" 38 1393 1451
+)
+"completion/term_utils.ml" 38 1393 1395 "completion/term_utils.ml" 38 1393 1411
+type(
+  string -> Symb.symbol
+)
+ident(
+  ext_ref Symb.symbol_of_string
+)
+"completion/term_utils.ml" 38 1393 1413 "completion/term_utils.ml" 38 1393 1446
+type(
+  Longident.t -> string
+)
+ident(
+  ext_ref Otype.qualified_name_of_longident
+)
+"completion/term_utils.ml" 38 1393 1447 "completion/term_utils.ml" 38 1393 1450
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "completion/term_utils.ml" 37 1371 1387 "completion/term_utils.ml" 37 1371 1390
+)
+"completion/term_utils.ml" 38 1393 1412 "completion/term_utils.ml" 38 1393 1451
+call(
+  stack
+)
+type(
+  string
+)
+"completion/term_utils.ml" 38 1393 1395 "completion/term_utils.ml" 38 1393 1451
+call(
+  tail
+)
+type(
+  Symb.symbol
+)
+"completion/term_utils.ml" 40 1455 1459 "completion/term_utils.ml" 40 1455 1463
+type(
+  Longident.t -> Term.term list -> Term.term
+)
+ident(
+  def iapp "completion/term_utils.ml" 42 1502 1502 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 40 1455 1464 "completion/term_utils.ml" 40 1455 1467
+type(
+  Longident.t
+)
+ident(
+  def lid "completion/term_utils.ml" 40 1455 1468 "completion/term_utils.ml" 40 1455 1498
+)
+"completion/term_utils.ml" 40 1455 1468 "completion/term_utils.ml" 40 1455 1470
+type(
+  Term.term list
+)
+ident(
+  def xs "completion/term_utils.ml" 40 1455 1473 "completion/term_utils.ml" 40 1455 1498
+)
+"completion/term_utils.ml" 40 1455 1478 "completion/term_utils.ml" 40 1455 1489
+type(
+  Longident.t -> Symb.symbol
+)
+ident(
+  int_ref symb_of_lid "completion/term_utils.ml" 37 1371 1375 "completion/term_utils.ml" 37 1371 1386
+)
+"completion/term_utils.ml" 40 1455 1490 "completion/term_utils.ml" 40 1455 1493
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "completion/term_utils.ml" 40 1455 1464 "completion/term_utils.ml" 40 1455 1467
+)
+"completion/term_utils.ml" 40 1455 1478 "completion/term_utils.ml" 40 1455 1493
+call(
+  stack
+)
+type(
+  Symb.symbol
+)
+"completion/term_utils.ml" 40 1455 1495 "completion/term_utils.ml" 40 1455 1497
+type(
+  Term.term list
+)
+ident(
+  int_ref xs "completion/term_utils.ml" 40 1455 1468 "completion/term_utils.ml" 40 1455 1470
+)
+"completion/term_utils.ml" 40 1455 1473 "completion/term_utils.ml" 40 1455 1498
+type(
+  Term.term
+)
+"completion/term_utils.ml" 42 1502 1506 "completion/term_utils.ml" 42 1502 1511
+type(
+  Longident.t -> Term.term
+)
+ident(
+  def iapp0 "completion/term_utils.ml" 47 1601 1601 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 42 1502 1512 "completion/term_utils.ml" 42 1502 1515
+type(
+  Longident.t
+)
+ident(
+  def lid "completion/term_utils.ml" 42 1502 1518 "completion/term_utils.ml" 42 1502 1529
+)
+"completion/term_utils.ml" 42 1502 1518 "completion/term_utils.ml" 42 1502 1522
+type(
+  Longident.t -> Term.term list -> Term.term
+)
+ident(
+  int_ref iapp "completion/term_utils.ml" 40 1455 1459 "completion/term_utils.ml" 40 1455 1463
+)
+"completion/term_utils.ml" 42 1502 1523 "completion/term_utils.ml" 42 1502 1526
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "completion/term_utils.ml" 42 1502 1512 "completion/term_utils.ml" 42 1502 1515
+)
+"completion/term_utils.ml" 42 1502 1527 "completion/term_utils.ml" 42 1502 1529
+type(
+  Term.term list
+)
+"completion/term_utils.ml" 42 1502 1518 "completion/term_utils.ml" 42 1502 1529
+call(
+  tail
+)
+type(
+  Term.term
+)
+"completion/term_utils.ml" 43 1530 1534 "completion/term_utils.ml" 43 1530 1539
+type(
+  Longident.t -> Term.term -> Term.term
+)
+ident(
+  def iapp1 "completion/term_utils.ml" 47 1601 1601 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 43 1530 1540 "completion/term_utils.ml" 43 1530 1543
+type(
+  Longident.t
+)
+ident(
+  def lid "completion/term_utils.ml" 43 1530 1544 "completion/term_utils.ml" 43 1530 1560
+)
+"completion/term_utils.ml" 43 1530 1544 "completion/term_utils.ml" 43 1530 1545
+type(
+  Term.term
+)
+ident(
+  def x "completion/term_utils.ml" 43 1530 1548 "completion/term_utils.ml" 43 1530 1560
+)
+"completion/term_utils.ml" 43 1530 1548 "completion/term_utils.ml" 43 1530 1552
+type(
+  Longident.t -> Term.term list -> Term.term
+)
+ident(
+  int_ref iapp "completion/term_utils.ml" 40 1455 1459 "completion/term_utils.ml" 40 1455 1463
+)
+"completion/term_utils.ml" 43 1530 1553 "completion/term_utils.ml" 43 1530 1556
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "completion/term_utils.ml" 43 1530 1540 "completion/term_utils.ml" 43 1530 1543
+)
+"completion/term_utils.ml" 43 1530 1558 "completion/term_utils.ml" 43 1530 1559
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/term_utils.ml" 43 1530 1544 "completion/term_utils.ml" 43 1530 1545
+)
+"completion/term_utils.ml" 43 1530 1557 "completion/term_utils.ml" 43 1530 1560
+type(
+  Term.term list
+)
+"completion/term_utils.ml" 43 1530 1548 "completion/term_utils.ml" 43 1530 1560
+call(
+  tail
+)
+type(
+  Term.term
+)
+"completion/term_utils.ml" 44 1561 1565 "completion/term_utils.ml" 44 1561 1570
+type(
+  Longident.t -> Term.term -> Term.term -> Term.term
+)
+ident(
+  def iapp2 "completion/term_utils.ml" 47 1601 1601 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 44 1561 1571 "completion/term_utils.ml" 44 1561 1574
+type(
+  Longident.t
+)
+ident(
+  def lid "completion/term_utils.ml" 44 1561 1575 "completion/term_utils.ml" 44 1561 1596
+)
+"completion/term_utils.ml" 44 1561 1575 "completion/term_utils.ml" 44 1561 1576
+type(
+  Term.term
+)
+ident(
+  def x "completion/term_utils.ml" 44 1561 1577 "completion/term_utils.ml" 44 1561 1596
+)
+"completion/term_utils.ml" 44 1561 1577 "completion/term_utils.ml" 44 1561 1578
+type(
+  Term.term
+)
+ident(
+  def y "completion/term_utils.ml" 44 1561 1581 "completion/term_utils.ml" 44 1561 1596
+)
+"completion/term_utils.ml" 44 1561 1581 "completion/term_utils.ml" 44 1561 1585
+type(
+  Longident.t -> Term.term list -> Term.term
+)
+ident(
+  int_ref iapp "completion/term_utils.ml" 40 1455 1459 "completion/term_utils.ml" 40 1455 1463
+)
+"completion/term_utils.ml" 44 1561 1586 "completion/term_utils.ml" 44 1561 1589
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "completion/term_utils.ml" 44 1561 1571 "completion/term_utils.ml" 44 1561 1574
+)
+"completion/term_utils.ml" 44 1561 1591 "completion/term_utils.ml" 44 1561 1592
+type(
+  Term.term
+)
+ident(
+  int_ref x "completion/term_utils.ml" 44 1561 1575 "completion/term_utils.ml" 44 1561 1576
+)
+"completion/term_utils.ml" 44 1561 1594 "completion/term_utils.ml" 44 1561 1595
+type(
+  Term.term
+)
+ident(
+  int_ref y "completion/term_utils.ml" 44 1561 1577 "completion/term_utils.ml" 44 1561 1578
+)
+"completion/term_utils.ml" 44 1561 1590 "completion/term_utils.ml" 44 1561 1596
+type(
+  Term.term list
+)
+"completion/term_utils.ml" 44 1561 1581 "completion/term_utils.ml" 44 1561 1596
+call(
+  tail
+)
+type(
+  Term.term
+)
+"completion/term_utils.ml" 47 1601 1605 "completion/term_utils.ml" 47 1601 1609
+type(
+  int -> Term.term list
+)
+ident(
+  def vars "completion/term_utils.ml" 51 1713 1724 "completion/term_utils.ml" 1 0 -1
+)
+"completion/term_utils.ml" 48 1612 1622 "completion/term_utils.ml" 48 1612 1625
+type(
+  Term.term list -> int -> Term.term list
+)
+ident(
+  def aux "completion/term_utils.ml" 48 1612 1614 "completion/term_utils.ml" 51 1713 1724
+)
+"completion/term_utils.ml" 48 1612 1626 "completion/term_utils.ml" 48 1612 1629
+type(
+  Term.term list
+)
+ident(
+  def acc "completion/term_utils.ml" 48 1612 1632 "completion/term_utils.ml" 50 1698 1712
+)
+"completion/term_utils.ml" 49 1641 1647 "completion/term_utils.ml" 49 1641 1648
+type(
+  int
+)
+ident(
+  def n "completion/term_utils.ml" 49 1641 1654 "completion/term_utils.ml" 49 1641 1697
+)
+"completion/term_utils.ml" 49 1641 1654 "completion/term_utils.ml" 49 1641 1655
+type(
+  int
+)
+ident(
+  int_ref n "completion/term_utils.ml" 49 1641 1647 "completion/term_utils.ml" 49 1641 1648
+)
+"completion/term_utils.ml" 49 1641 1656 "completion/term_utils.ml" 49 1641 1657
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"completion/term_utils.ml" 49 1641 1658 "completion/term_utils.ml" 49 1641 1659
+type(
+  int
+)
+"completion/term_utils.ml" 49 1641 1654 "completion/term_utils.ml" 49 1641 1659
+type(
+  bool
+)
+"completion/term_utils.ml" 49 1641 1663 "completion/term_utils.ml" 49 1641 1666
+type(
+  Term.term list -> int -> Term.term list
+)
+ident(
+  int_ref aux "completion/term_utils.ml" 48 1612 1622 "completion/term_utils.ml" 48 1612 1625
+)
+"completion/term_utils.ml" 49 1641 1673 "completion/term_utils.ml" 49 1641 1677
+type(
+  int -> Var.var
+)
+ident(
+  ext_ref Pervasives.pred
+)
+"completion/term_utils.ml" 49 1641 1678 "completion/term_utils.ml" 49 1641 1679
+type(
+  int
+)
+ident(
+  int_ref n "completion/term_utils.ml" 49 1641 1647 "completion/term_utils.ml" 49 1641 1648
+)
+"completion/term_utils.ml" 49 1641 1672 "completion/term_utils.ml" 49 1641 1680
+type(
+  Var.var
+)
+"completion/term_utils.ml" 49 1641 1668 "completion/term_utils.ml" 49 1641 1680
+type(
+  Term.term
+)
+"completion/term_utils.ml" 49 1641 1684 "completion/term_utils.ml" 49 1641 1687
+type(
+  Term.term list
+)
+ident(
+  int_ref acc "completion/term_utils.ml" 48 1612 1626 "completion/term_utils.ml" 48 1612 1629
+)
+"completion/term_utils.ml" 49 1641 1667 "completion/term_utils.ml" 49 1641 1688
+type(
+  Term.term list
+)
+"completion/term_utils.ml" 49 1641 1690 "completion/term_utils.ml" 49 1641 1694
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.pred
+)
+"completion/term_utils.ml" 49 1641 1695 "completion/term_utils.ml" 49 1641 1696
+type(
+  int
+)
+ident(
+  int_ref n "completion/term_utils.ml" 49 1641 1647 "completion/term_utils.ml" 49 1641 1648
+)
+"completion/term_utils.ml" 49 1641 1689 "completion/term_utils.ml" 49 1641 1697
+type(
+  int
+)
+"completion/term_utils.ml" 49 1641 1663 "completion/term_utils.ml" 49 1641 1697
+call(
+  tail
+)
+type(
+  Term.term list
+)
+"completion/term_utils.ml" 50 1698 1704 "completion/term_utils.ml" 50 1698 1705
+type(
+  int
+)
+"completion/term_utils.ml" 50 1698 1709 "completion/term_utils.ml" 50 1698 1712
+type(
+  Term.term list
+)
+ident(
+  int_ref acc "completion/term_utils.ml" 48 1612 1626 "completion/term_utils.ml" 48 1612 1629
+)
+"completion/term_utils.ml" 48 1612 1632 "completion/term_utils.ml" 50 1698 1712
+type(
+  int -> Term.term list
+)
+"completion/term_utils.ml" 51 1713 1718 "completion/term_utils.ml" 51 1713 1721
+type(
+  Term.term list -> int -> Term.term list
+)
+ident(
+  int_ref aux "completion/term_utils.ml" 48 1612 1622 "completion/term_utils.ml" 48 1612 1625
+)
+"completion/term_utils.ml" 51 1713 1722 "completion/term_utils.ml" 51 1713 1724
+type(
+  Term.term list
+)
+"completion/term_utils.ml" 51 1713 1718 "completion/term_utils.ml" 51 1713 1724
+call(
+  stack
+)
+type(
+  int -> Term.term list
+)
+"completion/term_utils.ml" 48 1612 1614 "completion/term_utils.ml" 51 1713 1724
+type(
+  int -> Term.term list
+)

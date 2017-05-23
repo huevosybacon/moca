@@ -1,0 +1,1390 @@
+"ocaml_src/utils/config.ml" 26 1528 1532 "ocaml_src/utils/config.ml" 26 1528 1539
+type(
+  string
+)
+ident(
+  def version "ocaml_src/utils/config.ml" 28 1561 1561 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 26 1528 1542 "ocaml_src/utils/config.ml" 26 1528 1559
+type(
+  string
+)
+ident(
+  ext_ref Sys.ocaml_version
+)
+"ocaml_src/utils/config.ml" 28 1561 1565 "ocaml_src/utils/config.ml" 28 1561 1589
+type(
+  string
+)
+ident(
+  def standard_library_default "ocaml_src/utils/config.ml" 30 1616 1616 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 28 1561 1592 "ocaml_src/utils/config.ml" 28 1561 1614
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 30 1616 1620 "ocaml_src/utils/config.ml" 30 1616 1636
+type(
+  string
+)
+ident(
+  def standard_library "ocaml_src/utils/config.ml" 39 1772 1772 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 32 1645 1649 "ocaml_src/utils/config.ml" 32 1645 1659
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"ocaml_src/utils/config.ml" 32 1645 1660 "ocaml_src/utils/config.ml" 32 1645 1670
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 32 1645 1649 "ocaml_src/utils/config.ml" 32 1645 1670
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 33 1671 1678 "ocaml_src/utils/config.ml" 33 1671 1687
+type(
+  exn
+)
+"ocaml_src/utils/config.ml" 35 1697 1701 "ocaml_src/utils/config.ml" 35 1697 1711
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"ocaml_src/utils/config.ml" 35 1697 1712 "ocaml_src/utils/config.ml" 35 1697 1721
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 35 1697 1701 "ocaml_src/utils/config.ml" 35 1697 1721
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 36 1722 1729 "ocaml_src/utils/config.ml" 36 1722 1738
+type(
+  exn
+)
+"ocaml_src/utils/config.ml" 37 1742 1746 "ocaml_src/utils/config.ml" 37 1742 1770
+type(
+  string
+)
+ident(
+  int_ref standard_library_default "ocaml_src/utils/config.ml" 28 1561 1565 "ocaml_src/utils/config.ml" 28 1561 1589
+)
+"ocaml_src/utils/config.ml" 34 1691 1693 "ocaml_src/utils/config.ml" 37 1742 1770
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 31 1639 1641 "ocaml_src/utils/config.ml" 37 1742 1770
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 39 1772 1776 "ocaml_src/utils/config.ml" 39 1772 1792
+type(
+  string
+)
+ident(
+  def standard_runtime "ocaml_src/utils/config.ml" 40 1821 1821 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 39 1772 1795 "ocaml_src/utils/config.ml" 39 1772 1820
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 40 1821 1825 "ocaml_src/utils/config.ml" 40 1821 1835
+type(
+  string
+)
+ident(
+  def ccomp_type "ocaml_src/utils/config.ml" 41 1843 1843 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 40 1821 1838 "ocaml_src/utils/config.ml" 40 1821 1842
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 41 1843 1847 "ocaml_src/utils/config.ml" 41 1843 1866
+type(
+  string
+)
+ident(
+  def bytecomp_c_compiler "ocaml_src/utils/config.ml" 42 1938 1938 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 41 1843 1869 "ocaml_src/utils/config.ml" 41 1843 1937
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 42 1938 1942 "ocaml_src/utils/config.ml" 42 1938 1962
+type(
+  string
+)
+ident(
+  def bytecomp_c_libraries "ocaml_src/utils/config.ml" 43 1991 1991 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 42 1938 1965 "ocaml_src/utils/config.ml" 42 1938 1990
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 43 1991 1995 "ocaml_src/utils/config.ml" 43 1991 2012
+type(
+  string
+)
+ident(
+  def native_c_compiler "ocaml_src/utils/config.ml" 44 2063 2063 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 43 1991 2015 "ocaml_src/utils/config.ml" 43 1991 2062
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 44 2063 2067 "ocaml_src/utils/config.ml" 44 2063 2085
+type(
+  string
+)
+ident(
+  def native_c_libraries "ocaml_src/utils/config.ml" 45 2094 2094 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 44 2063 2088 "ocaml_src/utils/config.ml" 44 2063 2093
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 45 2094 2098 "ocaml_src/utils/config.ml" 45 2094 2116
+type(
+  string
+)
+ident(
+  def native_pack_linker "ocaml_src/utils/config.ml" 46 2132 2132 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 45 2094 2119 "ocaml_src/utils/config.ml" 45 2094 2131
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 46 2132 2136 "ocaml_src/utils/config.ml" 46 2132 2142
+type(
+  string
+)
+ident(
+  def ranlib "ocaml_src/utils/config.ml" 47 2154 2154 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 46 2132 2145 "ocaml_src/utils/config.ml" 46 2132 2153
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 47 2154 2158 "ocaml_src/utils/config.ml" 47 2154 2168
+type(
+  string
+)
+ident(
+  def cc_profile "ocaml_src/utils/config.ml" 48 2177 2177 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 47 2154 2171 "ocaml_src/utils/config.ml" 47 2154 2176
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 48 2177 2181 "ocaml_src/utils/config.ml" 48 2177 2186
+type(
+  string
+)
+ident(
+  def mkdll "ocaml_src/utils/config.ml" 49 2203 2203 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 48 2177 2189 "ocaml_src/utils/config.ml" 48 2177 2202
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 49 2203 2207 "ocaml_src/utils/config.ml" 49 2203 2212
+type(
+  string
+)
+ident(
+  def mkexe "ocaml_src/utils/config.ml" 50 2221 2221 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 49 2203 2215 "ocaml_src/utils/config.ml" 49 2203 2220
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 50 2221 2225 "ocaml_src/utils/config.ml" 50 2221 2234
+type(
+  string
+)
+ident(
+  def mkmaindll "ocaml_src/utils/config.ml" 52 2252 2252 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 50 2221 2237 "ocaml_src/utils/config.ml" 50 2221 2250
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 52 2252 2256 "ocaml_src/utils/config.ml" 52 2252 2273
+type(
+  string
+)
+ident(
+  def exec_magic_number "ocaml_src/utils/config.ml" 62 2608 2608 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 52 2252 2276 "ocaml_src/utils/config.ml" 52 2252 2290
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 53 2291 2295 "ocaml_src/utils/config.ml" 53 2291 2311
+type(
+  string
+)
+ident(
+  def cmi_magic_number "ocaml_src/utils/config.ml" 62 2608 2608 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 53 2291 2314 "ocaml_src/utils/config.ml" 53 2291 2328
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 54 2329 2333 "ocaml_src/utils/config.ml" 54 2329 2349
+type(
+  string
+)
+ident(
+  def cmo_magic_number "ocaml_src/utils/config.ml" 62 2608 2608 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 54 2329 2352 "ocaml_src/utils/config.ml" 54 2329 2366
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 55 2367 2371 "ocaml_src/utils/config.ml" 55 2367 2387
+type(
+  string
+)
+ident(
+  def cma_magic_number "ocaml_src/utils/config.ml" 62 2608 2608 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 55 2367 2390 "ocaml_src/utils/config.ml" 55 2367 2404
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 56 2405 2409 "ocaml_src/utils/config.ml" 56 2405 2425
+type(
+  string
+)
+ident(
+  def cmx_magic_number "ocaml_src/utils/config.ml" 62 2608 2608 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 56 2405 2428 "ocaml_src/utils/config.ml" 56 2405 2442
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 57 2443 2447 "ocaml_src/utils/config.ml" 57 2443 2464
+type(
+  string
+)
+ident(
+  def cmxa_magic_number "ocaml_src/utils/config.ml" 62 2608 2608 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 57 2443 2467 "ocaml_src/utils/config.ml" 57 2443 2481
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 58 2482 2486 "ocaml_src/utils/config.ml" 58 2482 2507
+type(
+  string
+)
+ident(
+  def ast_impl_magic_number "ocaml_src/utils/config.ml" 62 2608 2608 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 58 2482 2510 "ocaml_src/utils/config.ml" 58 2482 2524
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 59 2525 2529 "ocaml_src/utils/config.ml" 59 2525 2550
+type(
+  string
+)
+ident(
+  def ast_intf_magic_number "ocaml_src/utils/config.ml" 62 2608 2608 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 59 2525 2553 "ocaml_src/utils/config.ml" 59 2525 2567
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 60 2568 2572 "ocaml_src/utils/config.ml" 60 2568 2589
+type(
+  string
+)
+ident(
+  def cmxs_magic_number "ocaml_src/utils/config.ml" 62 2608 2608 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 60 2568 2592 "ocaml_src/utils/config.ml" 60 2568 2606
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 62 2608 2612 "ocaml_src/utils/config.ml" 62 2608 2621
+type(
+  string list ref
+)
+ident(
+  def load_path "ocaml_src/utils/config.ml" 64 2648 2648 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 62 2608 2624 "ocaml_src/utils/config.ml" 62 2608 2627
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/config.ml" 62 2608 2629 "ocaml_src/utils/config.ml" 62 2608 2631
+type(
+  string list
+)
+type(
+  string list
+)
+"ocaml_src/utils/config.ml" 62 2608 2624 "ocaml_src/utils/config.ml" 62 2608 2646
+type(
+  string list ref
+)
+"ocaml_src/utils/config.ml" 64 2648 2652 "ocaml_src/utils/config.ml" 64 2648 2668
+type(
+  string ref
+)
+ident(
+  def interface_suffix "ocaml_src/utils/config.ml" 66 2683 2683 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 64 2648 2671 "ocaml_src/utils/config.ml" 64 2648 2674
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/config.ml" 64 2648 2675 "ocaml_src/utils/config.ml" 64 2648 2681
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 64 2648 2671 "ocaml_src/utils/config.ml" 64 2648 2681
+type(
+  string ref
+)
+"ocaml_src/utils/config.ml" 66 2683 2687 "ocaml_src/utils/config.ml" 66 2683 2694
+type(
+  int
+)
+ident(
+  def max_tag "ocaml_src/utils/config.ml" 70 2862 2862 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 66 2683 2697 "ocaml_src/utils/config.ml" 66 2683 2700
+type(
+  int
+)
+"ocaml_src/utils/config.ml" 70 2862 2866 "ocaml_src/utils/config.ml" 70 2862 2874
+type(
+  int
+)
+ident(
+  def lazy_tag "ocaml_src/utils/config.ml" 72 2882 2882 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 70 2862 2877 "ocaml_src/utils/config.ml" 70 2862 2880
+type(
+  int
+)
+"ocaml_src/utils/config.ml" 72 2882 2886 "ocaml_src/utils/config.ml" 72 2882 2902
+type(
+  int
+)
+ident(
+  def max_young_wosize "ocaml_src/utils/config.ml" 73 2909 2909 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 72 2882 2905 "ocaml_src/utils/config.ml" 72 2882 2908
+type(
+  int
+)
+"ocaml_src/utils/config.ml" 73 2909 2913 "ocaml_src/utils/config.ml" 73 2909 2928
+type(
+  int
+)
+ident(
+  def stack_threshold "ocaml_src/utils/config.ml" 75 2963 2963 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 73 2909 2931 "ocaml_src/utils/config.ml" 73 2909 2934
+type(
+  int
+)
+"ocaml_src/utils/config.ml" 75 2963 2967 "ocaml_src/utils/config.ml" 75 2963 2979
+type(
+  string
+)
+ident(
+  def architecture "ocaml_src/utils/config.ml" 76 2990 2990 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 75 2963 2982 "ocaml_src/utils/config.ml" 75 2963 2989
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 76 2990 2994 "ocaml_src/utils/config.ml" 76 2990 2999
+type(
+  string
+)
+ident(
+  def model "ocaml_src/utils/config.ml" 77 3012 3012 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 76 2990 3002 "ocaml_src/utils/config.ml" 76 2990 3011
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 77 3012 3016 "ocaml_src/utils/config.ml" 77 3012 3022
+type(
+  string
+)
+ident(
+  def system "ocaml_src/utils/config.ml" 79 3035 3035 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 77 3012 3025 "ocaml_src/utils/config.ml" 77 3012 3033
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 79 3035 3039 "ocaml_src/utils/config.ml" 79 3035 3042
+type(
+  string
+)
+ident(
+  def asm "ocaml_src/utils/config.ml" 81 3051 3051 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 79 3035 3045 "ocaml_src/utils/config.ml" 79 3035 3049
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 81 3051 3055 "ocaml_src/utils/config.ml" 81 3051 3062
+type(
+  string
+)
+ident(
+  def ext_obj "ocaml_src/utils/config.ml" 82 3070 3070 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 81 3051 3065 "ocaml_src/utils/config.ml" 81 3051 3069
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 82 3070 3074 "ocaml_src/utils/config.ml" 82 3070 3081
+type(
+  string
+)
+ident(
+  def ext_asm "ocaml_src/utils/config.ml" 83 3089 3089 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 82 3070 3084 "ocaml_src/utils/config.ml" 82 3070 3088
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 83 3089 3093 "ocaml_src/utils/config.ml" 83 3089 3100
+type(
+  string
+)
+ident(
+  def ext_lib "ocaml_src/utils/config.ml" 84 3108 3108 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 83 3089 3103 "ocaml_src/utils/config.ml" 83 3089 3107
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 84 3108 3112 "ocaml_src/utils/config.ml" 84 3108 3119
+type(
+  string
+)
+ident(
+  def ext_dll "ocaml_src/utils/config.ml" 86 3129 3129 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 84 3108 3122 "ocaml_src/utils/config.ml" 84 3108 3127
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 86 3129 3133 "ocaml_src/utils/config.ml" 86 3129 3156
+type(
+  string
+)
+ident(
+  def default_executable_name "ocaml_src/utils/config.ml" 92 3268 3268 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 87 3159 3167 "ocaml_src/utils/config.ml" 87 3159 3178
+type(
+  string
+)
+ident(
+  ext_ref Sys.os_type
+)
+"ocaml_src/utils/config.ml" 88 3184 3188 "ocaml_src/utils/config.ml" 88 3184 3194
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 88 3184 3198 "ocaml_src/utils/config.ml" 88 3184 3205
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 89 3206 3210 "ocaml_src/utils/config.ml" 89 3206 3217
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 89 3206 3220 "ocaml_src/utils/config.ml" 89 3206 3228
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 89 3206 3210 "ocaml_src/utils/config.ml" 89 3206 3228
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 89 3206 3232 "ocaml_src/utils/config.ml" 89 3206 3246
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 90 3247 3251 "ocaml_src/utils/config.ml" 90 3247 3252
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 90 3247 3256 "ocaml_src/utils/config.ml" 90 3247 3266
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 87 3159 3161 "ocaml_src/utils/config.ml" 90 3247 3266
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 92 3268 3272 "ocaml_src/utils/config.ml" 92 3268 3291
+type(
+  bool
+)
+ident(
+  def systhread_supported "ocaml_src/utils/config.ml" 94 3302 3302 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 92 3268 3294 "ocaml_src/utils/config.ml" 92 3268 3298
+type(
+  bool
+)
+"ocaml_src/utils/config.ml" 94 3302 3306 "ocaml_src/utils/config.ml" 94 3302 3318
+type(
+  out_channel -> unit
+)
+ident(
+  def print_config "ocaml_src/utils/config.ml" 120 4237 4248 "ocaml_src/utils/config.ml" 1 0 -1
+)
+"ocaml_src/utils/config.ml" 94 3302 3319 "ocaml_src/utils/config.ml" 94 3302 3321
+type(
+  out_channel
+)
+ident(
+  def oc "ocaml_src/utils/config.ml" 95 3324 3326 "ocaml_src/utils/config.ml" 120 4237 4248
+)
+"ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+type(
+  string -> string -> unit
+)
+ident(
+  def p "ocaml_src/utils/config.ml" 96 3386 3388 "ocaml_src/utils/config.ml" 120 4237 4248
+)
+"ocaml_src/utils/config.ml" 95 3324 3332 "ocaml_src/utils/config.ml" 95 3324 3336
+type(
+  string
+)
+ident(
+  def name "ocaml_src/utils/config.ml" 95 3324 3337 "ocaml_src/utils/config.ml" 95 3324 3382
+)
+"ocaml_src/utils/config.ml" 95 3324 3337 "ocaml_src/utils/config.ml" 95 3324 3341
+type(
+  string
+)
+ident(
+  def valu "ocaml_src/utils/config.ml" 95 3324 3344 "ocaml_src/utils/config.ml" 95 3324 3382
+)
+"ocaml_src/utils/config.ml" 95 3324 3344 "ocaml_src/utils/config.ml" 95 3324 3358
+type(
+  out_channel ->
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"ocaml_src/utils/config.ml" 95 3324 3359 "ocaml_src/utils/config.ml" 95 3324 3361
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocaml_src/utils/config.ml" 94 3302 3319 "ocaml_src/utils/config.ml" 94 3302 3321
+)
+"ocaml_src/utils/config.ml" 95 3324 3362 "ocaml_src/utils/config.ml" 95 3324 3372
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"ocaml_src/utils/config.ml" 95 3324 3373 "ocaml_src/utils/config.ml" 95 3324 3377
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/config.ml" 95 3324 3332 "ocaml_src/utils/config.ml" 95 3324 3336
+)
+"ocaml_src/utils/config.ml" 95 3324 3378 "ocaml_src/utils/config.ml" 95 3324 3382
+type(
+  string
+)
+ident(
+  int_ref valu "ocaml_src/utils/config.ml" 95 3324 3337 "ocaml_src/utils/config.ml" 95 3324 3341
+)
+"ocaml_src/utils/config.ml" 95 3324 3344 "ocaml_src/utils/config.ml" 95 3324 3382
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 96 3386 3392 "ocaml_src/utils/config.ml" 96 3386 3398
+type(
+  string -> bool -> unit
+)
+ident(
+  def p_bool "ocaml_src/utils/config.ml" 97 3453 3455 "ocaml_src/utils/config.ml" 120 4237 4248
+)
+"ocaml_src/utils/config.ml" 96 3386 3399 "ocaml_src/utils/config.ml" 96 3386 3403
+type(
+  string
+)
+ident(
+  def name "ocaml_src/utils/config.ml" 96 3386 3404 "ocaml_src/utils/config.ml" 96 3386 3449
+)
+"ocaml_src/utils/config.ml" 96 3386 3404 "ocaml_src/utils/config.ml" 96 3386 3408
+type(
+  bool
+)
+ident(
+  def valu "ocaml_src/utils/config.ml" 96 3386 3411 "ocaml_src/utils/config.ml" 96 3386 3449
+)
+"ocaml_src/utils/config.ml" 96 3386 3411 "ocaml_src/utils/config.ml" 96 3386 3425
+type(
+  out_channel ->
+  (string -> bool -> unit, out_channel, unit) format ->
+  string -> bool -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"ocaml_src/utils/config.ml" 96 3386 3426 "ocaml_src/utils/config.ml" 96 3386 3428
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocaml_src/utils/config.ml" 94 3302 3319 "ocaml_src/utils/config.ml" 94 3302 3321
+)
+"ocaml_src/utils/config.ml" 96 3386 3429 "ocaml_src/utils/config.ml" 96 3386 3439
+type(
+  (string -> bool -> unit, out_channel, unit) format
+)
+"ocaml_src/utils/config.ml" 96 3386 3440 "ocaml_src/utils/config.ml" 96 3386 3444
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/config.ml" 96 3386 3399 "ocaml_src/utils/config.ml" 96 3386 3403
+)
+"ocaml_src/utils/config.ml" 96 3386 3445 "ocaml_src/utils/config.ml" 96 3386 3449
+type(
+  bool
+)
+ident(
+  int_ref valu "ocaml_src/utils/config.ml" 96 3386 3404 "ocaml_src/utils/config.ml" 96 3386 3408
+)
+"ocaml_src/utils/config.ml" 96 3386 3411 "ocaml_src/utils/config.ml" 96 3386 3449
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 97 3453 3455 "ocaml_src/utils/config.ml" 97 3453 3456
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 97 3453 3457 "ocaml_src/utils/config.ml" 97 3453 3466
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 97 3453 3467 "ocaml_src/utils/config.ml" 97 3453 3474
+type(
+  string
+)
+ident(
+  int_ref version "ocaml_src/utils/config.ml" 26 1528 1532 "ocaml_src/utils/config.ml" 26 1528 1539
+)
+"ocaml_src/utils/config.ml" 97 3453 3455 "ocaml_src/utils/config.ml" 97 3453 3474
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 98 3476 3478 "ocaml_src/utils/config.ml" 98 3476 3479
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 98 3476 3480 "ocaml_src/utils/config.ml" 98 3476 3506
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 98 3476 3507 "ocaml_src/utils/config.ml" 98 3476 3531
+type(
+  string
+)
+ident(
+  int_ref standard_library_default "ocaml_src/utils/config.ml" 28 1561 1565 "ocaml_src/utils/config.ml" 28 1561 1589
+)
+"ocaml_src/utils/config.ml" 98 3476 3478 "ocaml_src/utils/config.ml" 98 3476 3531
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 99 3533 3535 "ocaml_src/utils/config.ml" 99 3533 3536
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 99 3533 3537 "ocaml_src/utils/config.ml" 99 3533 3555
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 99 3533 3556 "ocaml_src/utils/config.ml" 99 3533 3572
+type(
+  string
+)
+ident(
+  int_ref standard_library "ocaml_src/utils/config.ml" 30 1616 1620 "ocaml_src/utils/config.ml" 30 1616 1636
+)
+"ocaml_src/utils/config.ml" 99 3533 3535 "ocaml_src/utils/config.ml" 99 3533 3572
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 100 3574 3576 "ocaml_src/utils/config.ml" 100 3574 3577
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 100 3574 3578 "ocaml_src/utils/config.ml" 100 3574 3596
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 100 3574 3597 "ocaml_src/utils/config.ml" 100 3574 3613
+type(
+  string
+)
+ident(
+  int_ref standard_runtime "ocaml_src/utils/config.ml" 39 1772 1776 "ocaml_src/utils/config.ml" 39 1772 1792
+)
+"ocaml_src/utils/config.ml" 100 3574 3576 "ocaml_src/utils/config.ml" 100 3574 3613
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 101 3615 3617 "ocaml_src/utils/config.ml" 101 3615 3618
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 101 3615 3619 "ocaml_src/utils/config.ml" 101 3615 3631
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 101 3615 3632 "ocaml_src/utils/config.ml" 101 3615 3642
+type(
+  string
+)
+ident(
+  int_ref ccomp_type "ocaml_src/utils/config.ml" 40 1821 1825 "ocaml_src/utils/config.ml" 40 1821 1835
+)
+"ocaml_src/utils/config.ml" 101 3615 3617 "ocaml_src/utils/config.ml" 101 3615 3642
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 102 3644 3646 "ocaml_src/utils/config.ml" 102 3644 3647
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 102 3644 3648 "ocaml_src/utils/config.ml" 102 3644 3669
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 102 3644 3670 "ocaml_src/utils/config.ml" 102 3644 3689
+type(
+  string
+)
+ident(
+  int_ref bytecomp_c_compiler "ocaml_src/utils/config.ml" 41 1843 1847 "ocaml_src/utils/config.ml" 41 1843 1866
+)
+"ocaml_src/utils/config.ml" 102 3644 3646 "ocaml_src/utils/config.ml" 102 3644 3689
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 103 3691 3693 "ocaml_src/utils/config.ml" 103 3691 3694
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 103 3691 3695 "ocaml_src/utils/config.ml" 103 3691 3717
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 103 3691 3718 "ocaml_src/utils/config.ml" 103 3691 3738
+type(
+  string
+)
+ident(
+  int_ref bytecomp_c_libraries "ocaml_src/utils/config.ml" 42 1938 1942 "ocaml_src/utils/config.ml" 42 1938 1962
+)
+"ocaml_src/utils/config.ml" 103 3691 3693 "ocaml_src/utils/config.ml" 103 3691 3738
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 104 3740 3742 "ocaml_src/utils/config.ml" 104 3740 3743
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 104 3740 3744 "ocaml_src/utils/config.ml" 104 3740 3763
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 104 3740 3764 "ocaml_src/utils/config.ml" 104 3740 3781
+type(
+  string
+)
+ident(
+  int_ref native_c_compiler "ocaml_src/utils/config.ml" 43 1991 1995 "ocaml_src/utils/config.ml" 43 1991 2012
+)
+"ocaml_src/utils/config.ml" 104 3740 3742 "ocaml_src/utils/config.ml" 104 3740 3781
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 105 3783 3785 "ocaml_src/utils/config.ml" 105 3783 3786
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 105 3783 3787 "ocaml_src/utils/config.ml" 105 3783 3807
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 105 3783 3808 "ocaml_src/utils/config.ml" 105 3783 3826
+type(
+  string
+)
+ident(
+  int_ref native_c_libraries "ocaml_src/utils/config.ml" 44 2063 2067 "ocaml_src/utils/config.ml" 44 2063 2085
+)
+"ocaml_src/utils/config.ml" 105 3783 3785 "ocaml_src/utils/config.ml" 105 3783 3826
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 106 3828 3830 "ocaml_src/utils/config.ml" 106 3828 3831
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 106 3828 3832 "ocaml_src/utils/config.ml" 106 3828 3852
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 106 3828 3853 "ocaml_src/utils/config.ml" 106 3828 3871
+type(
+  string
+)
+ident(
+  int_ref native_pack_linker "ocaml_src/utils/config.ml" 45 2094 2098 "ocaml_src/utils/config.ml" 45 2094 2116
+)
+"ocaml_src/utils/config.ml" 106 3828 3830 "ocaml_src/utils/config.ml" 106 3828 3871
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 107 3873 3875 "ocaml_src/utils/config.ml" 107 3873 3876
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 107 3873 3877 "ocaml_src/utils/config.ml" 107 3873 3885
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 107 3873 3886 "ocaml_src/utils/config.ml" 107 3873 3892
+type(
+  string
+)
+ident(
+  int_ref ranlib "ocaml_src/utils/config.ml" 46 2132 2136 "ocaml_src/utils/config.ml" 46 2132 2142
+)
+"ocaml_src/utils/config.ml" 107 3873 3875 "ocaml_src/utils/config.ml" 107 3873 3892
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 108 3894 3896 "ocaml_src/utils/config.ml" 108 3894 3897
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 108 3894 3898 "ocaml_src/utils/config.ml" 108 3894 3910
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 108 3894 3911 "ocaml_src/utils/config.ml" 108 3894 3921
+type(
+  string
+)
+ident(
+  int_ref cc_profile "ocaml_src/utils/config.ml" 47 2154 2158 "ocaml_src/utils/config.ml" 47 2154 2168
+)
+"ocaml_src/utils/config.ml" 108 3894 3896 "ocaml_src/utils/config.ml" 108 3894 3921
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 109 3923 3925 "ocaml_src/utils/config.ml" 109 3923 3926
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 109 3923 3927 "ocaml_src/utils/config.ml" 109 3923 3941
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 109 3923 3942 "ocaml_src/utils/config.ml" 109 3923 3954
+type(
+  string
+)
+ident(
+  int_ref architecture "ocaml_src/utils/config.ml" 75 2963 2967 "ocaml_src/utils/config.ml" 75 2963 2979
+)
+"ocaml_src/utils/config.ml" 109 3923 3925 "ocaml_src/utils/config.ml" 109 3923 3954
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 110 3956 3958 "ocaml_src/utils/config.ml" 110 3956 3959
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 110 3956 3960 "ocaml_src/utils/config.ml" 110 3956 3967
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 110 3956 3968 "ocaml_src/utils/config.ml" 110 3956 3973
+type(
+  string
+)
+ident(
+  int_ref model "ocaml_src/utils/config.ml" 76 2990 2994 "ocaml_src/utils/config.ml" 76 2990 2999
+)
+"ocaml_src/utils/config.ml" 110 3956 3958 "ocaml_src/utils/config.ml" 110 3956 3973
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 111 3975 3977 "ocaml_src/utils/config.ml" 111 3975 3978
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 111 3975 3979 "ocaml_src/utils/config.ml" 111 3975 3987
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 111 3975 3988 "ocaml_src/utils/config.ml" 111 3975 3994
+type(
+  string
+)
+ident(
+  int_ref system "ocaml_src/utils/config.ml" 77 3012 3016 "ocaml_src/utils/config.ml" 77 3012 3022
+)
+"ocaml_src/utils/config.ml" 111 3975 3977 "ocaml_src/utils/config.ml" 111 3975 3994
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 112 3996 3998 "ocaml_src/utils/config.ml" 112 3996 3999
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 112 3996 4000 "ocaml_src/utils/config.ml" 112 3996 4005
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 112 3996 4006 "ocaml_src/utils/config.ml" 112 3996 4009
+type(
+  string
+)
+ident(
+  int_ref asm "ocaml_src/utils/config.ml" 79 3035 3039 "ocaml_src/utils/config.ml" 79 3035 3042
+)
+"ocaml_src/utils/config.ml" 112 3996 3998 "ocaml_src/utils/config.ml" 112 3996 4009
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 113 4011 4013 "ocaml_src/utils/config.ml" 113 4011 4014
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 113 4011 4015 "ocaml_src/utils/config.ml" 113 4011 4024
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 113 4011 4025 "ocaml_src/utils/config.ml" 113 4011 4032
+type(
+  string
+)
+ident(
+  int_ref ext_obj "ocaml_src/utils/config.ml" 81 3051 3055 "ocaml_src/utils/config.ml" 81 3051 3062
+)
+"ocaml_src/utils/config.ml" 113 4011 4013 "ocaml_src/utils/config.ml" 113 4011 4032
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 114 4034 4036 "ocaml_src/utils/config.ml" 114 4034 4037
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 114 4034 4038 "ocaml_src/utils/config.ml" 114 4034 4047
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 114 4034 4048 "ocaml_src/utils/config.ml" 114 4034 4055
+type(
+  string
+)
+ident(
+  int_ref ext_asm "ocaml_src/utils/config.ml" 82 3070 3074 "ocaml_src/utils/config.ml" 82 3070 3081
+)
+"ocaml_src/utils/config.ml" 114 4034 4036 "ocaml_src/utils/config.ml" 114 4034 4055
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 115 4057 4059 "ocaml_src/utils/config.ml" 115 4057 4060
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 115 4057 4061 "ocaml_src/utils/config.ml" 115 4057 4070
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 115 4057 4071 "ocaml_src/utils/config.ml" 115 4057 4078
+type(
+  string
+)
+ident(
+  int_ref ext_lib "ocaml_src/utils/config.ml" 83 3089 3093 "ocaml_src/utils/config.ml" 83 3089 3100
+)
+"ocaml_src/utils/config.ml" 115 4057 4059 "ocaml_src/utils/config.ml" 115 4057 4078
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 116 4080 4082 "ocaml_src/utils/config.ml" 116 4080 4083
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 116 4080 4084 "ocaml_src/utils/config.ml" 116 4080 4093
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 116 4080 4094 "ocaml_src/utils/config.ml" 116 4080 4101
+type(
+  string
+)
+ident(
+  int_ref ext_dll "ocaml_src/utils/config.ml" 84 3108 3112 "ocaml_src/utils/config.ml" 84 3108 3119
+)
+"ocaml_src/utils/config.ml" 116 4080 4082 "ocaml_src/utils/config.ml" 116 4080 4101
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 117 4103 4105 "ocaml_src/utils/config.ml" 117 4103 4106
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 117 4103 4107 "ocaml_src/utils/config.ml" 117 4103 4116
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 117 4103 4117 "ocaml_src/utils/config.ml" 117 4103 4128
+type(
+  string
+)
+ident(
+  ext_ref Sys.os_type
+)
+"ocaml_src/utils/config.ml" 117 4103 4105 "ocaml_src/utils/config.ml" 117 4103 4128
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 118 4130 4132 "ocaml_src/utils/config.ml" 118 4130 4133
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref p "ocaml_src/utils/config.ml" 95 3324 3330 "ocaml_src/utils/config.ml" 95 3324 3331
+)
+"ocaml_src/utils/config.ml" 118 4130 4134 "ocaml_src/utils/config.ml" 118 4130 4159
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 118 4130 4160 "ocaml_src/utils/config.ml" 118 4130 4183
+type(
+  string
+)
+ident(
+  int_ref default_executable_name "ocaml_src/utils/config.ml" 86 3129 3133 "ocaml_src/utils/config.ml" 86 3129 3156
+)
+"ocaml_src/utils/config.ml" 118 4130 4132 "ocaml_src/utils/config.ml" 118 4130 4183
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 119 4185 4187 "ocaml_src/utils/config.ml" 119 4185 4193
+type(
+  string -> bool -> unit
+)
+ident(
+  int_ref p_bool "ocaml_src/utils/config.ml" 96 3386 3392 "ocaml_src/utils/config.ml" 96 3386 3398
+)
+"ocaml_src/utils/config.ml" 119 4185 4194 "ocaml_src/utils/config.ml" 119 4185 4215
+type(
+  string
+)
+"ocaml_src/utils/config.ml" 119 4185 4216 "ocaml_src/utils/config.ml" 119 4185 4235
+type(
+  bool
+)
+ident(
+  int_ref systhread_supported "ocaml_src/utils/config.ml" 92 3268 3272 "ocaml_src/utils/config.ml" 92 3268 3291
+)
+"ocaml_src/utils/config.ml" 119 4185 4187 "ocaml_src/utils/config.ml" 119 4185 4235
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 120 4237 4239 "ocaml_src/utils/config.ml" 120 4237 4244
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"ocaml_src/utils/config.ml" 120 4237 4245 "ocaml_src/utils/config.ml" 120 4237 4247
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocaml_src/utils/config.ml" 94 3302 3319 "ocaml_src/utils/config.ml" 94 3302 3321
+)
+"ocaml_src/utils/config.ml" 120 4237 4239 "ocaml_src/utils/config.ml" 120 4237 4248
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 119 4185 4187 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 118 4130 4132 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 117 4103 4105 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 116 4080 4082 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 115 4057 4059 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 114 4034 4036 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 113 4011 4013 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 112 3996 3998 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 111 3975 3977 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 110 3956 3958 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 109 3923 3925 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 108 3894 3896 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 107 3873 3875 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 106 3828 3830 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 105 3783 3785 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 104 3740 3742 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 103 3691 3693 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 102 3644 3646 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 101 3615 3617 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 100 3574 3576 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 99 3533 3535 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 98 3476 3478 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 97 3453 3455 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 96 3386 3388 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)
+"ocaml_src/utils/config.ml" 95 3324 3326 "ocaml_src/utils/config.ml" 120 4237 4248
+type(
+  unit
+)

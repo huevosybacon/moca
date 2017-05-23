@@ -1,0 +1,4 @@
+formula.cmi :
+tableau.cmi : formula.cmi
+tableau.cmo : formula.cmi tableau.cmi
+tableau.cmx : formula.cmi tableau.cmi

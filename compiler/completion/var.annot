@@ -1,0 +1,1575 @@
+"completion/var.ml" 25 1124 1128 "completion/var.ml" 25 1124 1145
+type(
+  int -> string
+)
+ident(
+  def raw_string_of_var "completion/var.ml" 29 1241 1241 "completion/var.ml" 1 0 -1
+)
+"completion/var.ml" 25 1124 1146 "completion/var.ml" 25 1124 1147
+type(
+  int
+)
+ident(
+  def n "completion/var.ml" 26 1150 1152 "completion/var.ml" 27 1169 1237
+)
+"completion/var.ml" 26 1150 1160 "completion/var.ml" 26 1150 1161
+type(
+  int
+)
+ident(
+  int_ref n "completion/var.ml" 25 1124 1146 "completion/var.ml" 25 1124 1147
+)
+"completion/var.ml" 26 1150 1162 "completion/var.ml" 26 1150 1164
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"completion/var.ml" 26 1150 1165 "completion/var.ml" 26 1150 1166
+type(
+  int
+)
+"completion/var.ml" 26 1150 1159 "completion/var.ml" 26 1150 1167
+type(
+  bool
+)
+"completion/var.ml" 26 1150 1152 "completion/var.ml" 26 1150 1167
+type(
+  unit
+)
+"completion/var.ml" 27 1169 1174 "completion/var.ml" 27 1169 1175
+type(
+  int
+)
+ident(
+  int_ref n "completion/var.ml" 25 1124 1146 "completion/var.ml" 25 1124 1147
+)
+"completion/var.ml" 27 1169 1176 "completion/var.ml" 27 1169 1178
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"completion/var.ml" 27 1169 1179 "completion/var.ml" 27 1169 1180
+type(
+  int
+)
+"completion/var.ml" 27 1169 1174 "completion/var.ml" 27 1169 1180
+type(
+  bool
+)
+"completion/var.ml" 27 1169 1186 "completion/var.ml" 27 1169 1189
+type(
+  string
+)
+"completion/var.ml" 27 1169 1190 "completion/var.ml" 27 1169 1191
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"completion/var.ml" 27 1169 1192 "completion/var.ml" 27 1169 1205
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"completion/var.ml" 27 1169 1206 "completion/var.ml" 27 1169 1207
+type(
+  int
+)
+ident(
+  int_ref n "completion/var.ml" 25 1124 1146 "completion/var.ml" 25 1124 1147
+)
+"completion/var.ml" 27 1169 1192 "completion/var.ml" 27 1169 1207
+call(
+  stack
+)
+type(
+  string
+)
+"completion/var.ml" 27 1169 1186 "completion/var.ml" 27 1169 1207
+call(
+  tail
+)
+type(
+  string
+)
+"completion/var.ml" 27 1169 1213 "completion/var.ml" 27 1169 1216
+type(
+  string
+)
+"completion/var.ml" 27 1169 1217 "completion/var.ml" 27 1169 1218
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"completion/var.ml" 27 1169 1219 "completion/var.ml" 27 1169 1232
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"completion/var.ml" 27 1169 1234 "completion/var.ml" 27 1169 1235
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"completion/var.ml" 27 1169 1235 "completion/var.ml" 27 1169 1236
+type(
+  int
+)
+ident(
+  int_ref n "completion/var.ml" 25 1124 1146 "completion/var.ml" 25 1124 1147
+)
+"completion/var.ml" 27 1169 1233 "completion/var.ml" 27 1169 1237
+type(
+  int
+)
+"completion/var.ml" 27 1169 1219 "completion/var.ml" 27 1169 1237
+call(
+  stack
+)
+type(
+  string
+)
+"completion/var.ml" 27 1169 1213 "completion/var.ml" 27 1169 1237
+call(
+  tail
+)
+type(
+  string
+)
+"completion/var.ml" 27 1169 1171 "completion/var.ml" 27 1169 1237
+type(
+  string
+)
+"completion/var.ml" 26 1150 1152 "completion/var.ml" 27 1169 1237
+type(
+  string
+)
+"completion/var.ml" 29 1241 1245 "completion/var.ml" 29 1241 1258
+type(
+  int -> string
+)
+ident(
+  def string_of_var "completion/var.ml" 40 1448 1448 "completion/var.ml" 1 0 -1
+)
+"completion/var.ml" 29 1241 1259 "completion/var.ml" 29 1241 1264
+type(
+  int
+)
+ident(
+  def v_int "completion/var.ml" 30 1267 1269 "completion/var.ml" 37 1410 1443
+)
+"completion/var.ml" 30 1267 1277 "completion/var.ml" 30 1267 1282
+type(
+  int
+)
+ident(
+  int_ref v_int "completion/var.ml" 29 1241 1259 "completion/var.ml" 29 1241 1264
+)
+"completion/var.ml" 30 1267 1283 "completion/var.ml" 30 1267 1285
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"completion/var.ml" 30 1267 1286 "completion/var.ml" 30 1267 1287
+type(
+  int
+)
+"completion/var.ml" 30 1267 1276 "completion/var.ml" 30 1267 1288
+type(
+  bool
+)
+"completion/var.ml" 30 1267 1269 "completion/var.ml" 30 1267 1288
+type(
+  unit
+)
+"completion/var.ml" 31 1290 1298 "completion/var.ml" 31 1290 1303
+type(
+  int
+)
+ident(
+  int_ref v_int "completion/var.ml" 29 1241 1259 "completion/var.ml" 29 1241 1264
+)
+"completion/var.ml" 32 1309 1313 "completion/var.ml" 32 1309 1314
+type(
+  int
+)
+"completion/var.ml" 32 1309 1318 "completion/var.ml" 32 1309 1321
+type(
+  string
+)
+"completion/var.ml" 33 1322 1326 "completion/var.ml" 33 1322 1327
+type(
+  int
+)
+"completion/var.ml" 33 1322 1331 "completion/var.ml" 33 1322 1334
+type(
+  string
+)
+"completion/var.ml" 34 1335 1339 "completion/var.ml" 34 1335 1340
+type(
+  int
+)
+"completion/var.ml" 34 1335 1344 "completion/var.ml" 34 1335 1347
+type(
+  string
+)
+"completion/var.ml" 35 1348 1352 "completion/var.ml" 35 1348 1353
+type(
+  int
+)
+"completion/var.ml" 35 1348 1357 "completion/var.ml" 35 1348 1360
+type(
+  string
+)
+"completion/var.ml" 36 1361 1365 "completion/var.ml" 36 1361 1366
+type(
+  int
+)
+ident(
+  def n "completion/var.ml" 36 1361 1372 "completion/var.ml" 36 1361 1409
+)
+"completion/var.ml" 36 1361 1372 "completion/var.ml" 36 1361 1373
+type(
+  int
+)
+ident(
+  int_ref n "completion/var.ml" 36 1361 1365 "completion/var.ml" 36 1361 1366
+)
+"completion/var.ml" 36 1361 1374 "completion/var.ml" 36 1361 1376
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"completion/var.ml" 36 1361 1377 "completion/var.ml" 36 1361 1378
+type(
+  int
+)
+"completion/var.ml" 36 1361 1372 "completion/var.ml" 36 1361 1378
+type(
+  bool
+)
+"completion/var.ml" 36 1361 1382 "completion/var.ml" 36 1361 1385
+type(
+  string
+)
+"completion/var.ml" 36 1361 1386 "completion/var.ml" 36 1361 1387
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"completion/var.ml" 36 1361 1388 "completion/var.ml" 36 1361 1401
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"completion/var.ml" 36 1361 1403 "completion/var.ml" 36 1361 1404
+type(
+  int
+)
+ident(
+  int_ref n "completion/var.ml" 36 1361 1365 "completion/var.ml" 36 1361 1366
+)
+"completion/var.ml" 36 1361 1405 "completion/var.ml" 36 1361 1406
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"completion/var.ml" 36 1361 1407 "completion/var.ml" 36 1361 1408
+type(
+  int
+)
+"completion/var.ml" 36 1361 1402 "completion/var.ml" 36 1361 1409
+type(
+  int
+)
+"completion/var.ml" 36 1361 1388 "completion/var.ml" 36 1361 1409
+call(
+  stack
+)
+type(
+  string
+)
+"completion/var.ml" 36 1361 1382 "completion/var.ml" 36 1361 1409
+call(
+  tail
+)
+type(
+  string
+)
+"completion/var.ml" 37 1410 1414 "completion/var.ml" 37 1410 1415
+type(
+  int
+)
+ident(
+  def n "completion/var.ml" 37 1410 1419 "completion/var.ml" 37 1410 1443
+)
+"completion/var.ml" 37 1410 1419 "completion/var.ml" 37 1410 1422
+type(
+  string
+)
+"completion/var.ml" 37 1410 1423 "completion/var.ml" 37 1410 1424
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"completion/var.ml" 37 1410 1425 "completion/var.ml" 37 1410 1438
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"completion/var.ml" 37 1410 1440 "completion/var.ml" 37 1410 1441
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"completion/var.ml" 37 1410 1441 "completion/var.ml" 37 1410 1442
+type(
+  int
+)
+ident(
+  int_ref n "completion/var.ml" 37 1410 1414 "completion/var.ml" 37 1410 1415
+)
+"completion/var.ml" 37 1410 1439 "completion/var.ml" 37 1410 1443
+type(
+  int
+)
+"completion/var.ml" 37 1410 1425 "completion/var.ml" 37 1410 1443
+call(
+  stack
+)
+type(
+  string
+)
+"completion/var.ml" 37 1410 1419 "completion/var.ml" 37 1410 1443
+call(
+  tail
+)
+type(
+  string
+)
+"completion/var.ml" 31 1290 1292 "completion/var.ml" 37 1410 1443
+type(
+  string
+)
+"completion/var.ml" 30 1267 1269 "completion/var.ml" 37 1410 1443
+type(
+  string
+)
+"completion/var.ml" 40 1448 1452 "completion/var.ml" 40 1448 1464
+type(
+  'a Useful.StrMap.t -> int -> string
+)
+ident(
+  def fresh_string "completion/var.ml" 47 1676 1676 "completion/var.ml" 1 0 -1
+)
+"completion/var.ml" 40 1448 1465 "completion/var.ml" 40 1448 1470
+type(
+  'a Useful.StrMap.t
+)
+ident(
+  def stmap "completion/var.ml" 40 1448 1471 "completion/var.ml" 44 1622 1671
+)
+"completion/var.ml" 40 1448 1471 "completion/var.ml" 40 1448 1472
+type(
+  int
+)
+ident(
+  def n "completion/var.ml" 41 1475 1477 "completion/var.ml" 44 1622 1671
+)
+"completion/var.ml" 41 1475 1481 "completion/var.ml" 41 1475 1483
+type(
+  string
+)
+ident(
+  def s0 "completion/var.ml" 42 1505 1507 "completion/var.ml" 44 1622 1671
+)
+"completion/var.ml" 41 1475 1486 "completion/var.ml" 41 1475 1499
+type(
+  int -> string
+)
+ident(
+  int_ref string_of_var "completion/var.ml" 29 1241 1245 "completion/var.ml" 29 1241 1258
+)
+"completion/var.ml" 41 1475 1500 "completion/var.ml" 41 1475 1501
+type(
+  int
+)
+ident(
+  int_ref n "completion/var.ml" 40 1448 1471 "completion/var.ml" 40 1448 1472
+)
+"completion/var.ml" 41 1475 1486 "completion/var.ml" 41 1475 1501
+call(
+  stack
+)
+type(
+  string
+)
+"completion/var.ml" 42 1505 1511 "completion/var.ml" 42 1505 1514
+type(
+  int -> string
+)
+ident(
+  def str "completion/var.ml" 43 1549 1551 "completion/var.ml" 44 1622 1671
+)
+"completion/var.ml" 42 1505 1515 "completion/var.ml" 42 1505 1516
+type(
+  int
+)
+ident(
+  def k "completion/var.ml" 42 1505 1519 "completion/var.ml" 42 1505 1545
+)
+"completion/var.ml" 42 1505 1519 "completion/var.ml" 42 1505 1521
+type(
+  string
+)
+ident(
+  int_ref s0 "completion/var.ml" 41 1475 1481 "completion/var.ml" 41 1475 1483
+)
+"completion/var.ml" 42 1505 1522 "completion/var.ml" 42 1505 1523
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"completion/var.ml" 42 1505 1524 "completion/var.ml" 42 1505 1527
+type(
+  string
+)
+"completion/var.ml" 42 1505 1528 "completion/var.ml" 42 1505 1529
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"completion/var.ml" 42 1505 1530 "completion/var.ml" 42 1505 1543
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"completion/var.ml" 42 1505 1544 "completion/var.ml" 42 1505 1545
+type(
+  int
+)
+ident(
+  int_ref k "completion/var.ml" 42 1505 1515 "completion/var.ml" 42 1505 1516
+)
+"completion/var.ml" 42 1505 1530 "completion/var.ml" 42 1505 1545
+call(
+  stack
+)
+type(
+  string
+)
+"completion/var.ml" 42 1505 1524 "completion/var.ml" 42 1505 1545
+call(
+  stack
+)
+type(
+  string
+)
+"completion/var.ml" 42 1505 1519 "completion/var.ml" 42 1505 1545
+call(
+  tail
+)
+type(
+  string
+)
+"completion/var.ml" 43 1549 1559 "completion/var.ml" 43 1549 1562
+type(
+  int -> int
+)
+ident(
+  def aux "completion/var.ml" 43 1549 1551 "completion/var.ml" 44 1622 1671
+)
+"completion/var.ml" 43 1549 1563 "completion/var.ml" 43 1549 1564
+type(
+  int
+)
+ident(
+  def k "completion/var.ml" 43 1549 1567 "completion/var.ml" 43 1549 1618
+)
+"completion/var.ml" 43 1549 1570 "completion/var.ml" 43 1549 1580
+type(
+  Useful.StrMap.key -> 'a Useful.StrMap.t -> bool
+)
+ident(
+  ext_ref Useful.StrMap.mem
+)
+"completion/var.ml" 43 1549 1582 "completion/var.ml" 43 1549 1585
+type(
+  int -> Useful.StrMap.key
+)
+ident(
+  int_ref str "completion/var.ml" 42 1505 1511 "completion/var.ml" 42 1505 1514
+)
+"completion/var.ml" 43 1549 1586 "completion/var.ml" 43 1549 1587
+type(
+  int
+)
+ident(
+  int_ref k "completion/var.ml" 43 1549 1563 "completion/var.ml" 43 1549 1564
+)
+"completion/var.ml" 43 1549 1581 "completion/var.ml" 43 1549 1588
+call(
+  stack
+)
+type(
+  Useful.StrMap.key
+)
+"completion/var.ml" 43 1549 1589 "completion/var.ml" 43 1549 1594
+type(
+  'a Useful.StrMap.t
+)
+ident(
+  int_ref stmap "completion/var.ml" 40 1448 1465 "completion/var.ml" 40 1448 1470
+)
+"completion/var.ml" 43 1549 1570 "completion/var.ml" 43 1549 1594
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/var.ml" 43 1549 1600 "completion/var.ml" 43 1549 1603
+type(
+  int -> int
+)
+ident(
+  int_ref aux "completion/var.ml" 43 1549 1559 "completion/var.ml" 43 1549 1562
+)
+"completion/var.ml" 43 1549 1605 "completion/var.ml" 43 1549 1606
+type(
+  int
+)
+ident(
+  int_ref k "completion/var.ml" 43 1549 1563 "completion/var.ml" 43 1549 1564
+)
+"completion/var.ml" 43 1549 1607 "completion/var.ml" 43 1549 1608
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"completion/var.ml" 43 1549 1609 "completion/var.ml" 43 1549 1610
+type(
+  int
+)
+"completion/var.ml" 43 1549 1604 "completion/var.ml" 43 1549 1611
+type(
+  int
+)
+"completion/var.ml" 43 1549 1600 "completion/var.ml" 43 1549 1611
+call(
+  tail
+)
+type(
+  int
+)
+"completion/var.ml" 43 1549 1617 "completion/var.ml" 43 1549 1618
+type(
+  int
+)
+ident(
+  int_ref k "completion/var.ml" 43 1549 1563 "completion/var.ml" 43 1549 1564
+)
+"completion/var.ml" 43 1549 1567 "completion/var.ml" 43 1549 1618
+type(
+  int
+)
+"completion/var.ml" 44 1622 1627 "completion/var.ml" 44 1622 1637
+type(
+  Useful.StrMap.key -> 'a Useful.StrMap.t -> bool
+)
+ident(
+  ext_ref Useful.StrMap.mem
+)
+"completion/var.ml" 44 1622 1638 "completion/var.ml" 44 1622 1640
+type(
+  Useful.StrMap.key
+)
+ident(
+  int_ref s0 "completion/var.ml" 41 1475 1481 "completion/var.ml" 41 1475 1483
+)
+"completion/var.ml" 44 1622 1641 "completion/var.ml" 44 1622 1646
+type(
+  'a Useful.StrMap.t
+)
+ident(
+  int_ref stmap "completion/var.ml" 40 1448 1465 "completion/var.ml" 40 1448 1470
+)
+"completion/var.ml" 44 1622 1627 "completion/var.ml" 44 1622 1646
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/var.ml" 44 1622 1652 "completion/var.ml" 44 1622 1655
+type(
+  int -> string
+)
+ident(
+  int_ref str "completion/var.ml" 42 1505 1511 "completion/var.ml" 42 1505 1514
+)
+"completion/var.ml" 44 1622 1657 "completion/var.ml" 44 1622 1660
+type(
+  int -> int
+)
+ident(
+  int_ref aux "completion/var.ml" 43 1549 1559 "completion/var.ml" 43 1549 1562
+)
+"completion/var.ml" 44 1622 1661 "completion/var.ml" 44 1622 1662
+type(
+  int
+)
+"completion/var.ml" 44 1622 1656 "completion/var.ml" 44 1622 1663
+call(
+  stack
+)
+type(
+  int
+)
+"completion/var.ml" 44 1622 1652 "completion/var.ml" 44 1622 1663
+call(
+  tail
+)
+type(
+  string
+)
+"completion/var.ml" 44 1622 1669 "completion/var.ml" 44 1622 1671
+type(
+  string
+)
+ident(
+  int_ref s0 "completion/var.ml" 41 1475 1481 "completion/var.ml" 41 1475 1483
+)
+"completion/var.ml" 44 1622 1624 "completion/var.ml" 44 1622 1671
+type(
+  string
+)
+"completion/var.ml" 43 1549 1551 "completion/var.ml" 44 1622 1671
+type(
+  string
+)
+"completion/var.ml" 42 1505 1507 "completion/var.ml" 44 1622 1671
+type(
+  string
+)
+"completion/var.ml" 41 1475 1477 "completion/var.ml" 44 1622 1671
+type(
+  string
+)
+"completion/var.ml" 47 1676 1680 "completion/var.ml" 47 1676 1693
+type(
+  Useful.StrMap.key -> VarMap.key
+)
+ident(
+  def var_of_string "completion/var.ml" 87 2644 2644 "completion/var.ml" 1 0 -1
+)
+"completion/var.ml" 47 1676 1695 "completion/var.ml" 47 1676 1708
+type(
+  VarMap.key -> Useful.StrMap.key
+)
+ident(
+  def string_of_var "completion/var.ml" 87 2644 2644 "completion/var.ml" 1 0 -1
+)
+"completion/var.ml" 47 1676 1710 "completion/var.ml" 47 1676 1720
+type(
+  unit -> unit
+)
+ident(
+  def clear_vars "completion/var.ml" 87 2644 2644 "completion/var.ml" 1 0 -1
+)
+"completion/var.ml" 47 1676 1722 "completion/var.ml" 47 1676 1731
+type(
+  unit -> VarMap.key
+)
+ident(
+  def fresh_var "completion/var.ml" 87 2644 2644 "completion/var.ml" 1 0 -1
+)
+"completion/var.ml" 47 1676 1680 "completion/var.ml" 47 1676 1731
+type(
+  (Useful.StrMap.key -> VarMap.key) * (VarMap.key -> Useful.StrMap.key) *
+  (unit -> unit) * (unit -> VarMap.key)
+)
+"completion/var.ml" 48 1734 1740 "completion/var.ml" 48 1734 1745
+type(
+  Useful.StrMap.key VarMap.t ref
+)
+ident(
+  def vamap "completion/var.ml" 51 1819 1821 "completion/var.ml" 64 2222 2301
+)
+"completion/var.ml" 48 1734 1748 "completion/var.ml" 48 1734 1751
+type(
+  Useful.StrMap.key VarMap.t -> Useful.StrMap.key VarMap.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"completion/var.ml" 48 1734 1752 "completion/var.ml" 48 1734 1764
+type(
+  Useful.StrMap.key VarMap.t
+)
+ident(
+  ext_ref VarMap.empty
+)
+"completion/var.ml" 48 1734 1748 "completion/var.ml" 48 1734 1764
+type(
+  Useful.StrMap.key VarMap.t ref
+)
+"completion/var.ml" 49 1765 1771 "completion/var.ml" 49 1765 1776
+type(
+  VarMap.key Useful.StrMap.t ref
+)
+ident(
+  def stmap "completion/var.ml" 51 1819 1821 "completion/var.ml" 64 2222 2301
+)
+"completion/var.ml" 49 1765 1779 "completion/var.ml" 49 1765 1782
+type(
+  VarMap.key Useful.StrMap.t -> VarMap.key Useful.StrMap.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"completion/var.ml" 49 1765 1783 "completion/var.ml" 49 1765 1795
+type(
+  VarMap.key Useful.StrMap.t
+)
+ident(
+  ext_ref Useful.StrMap.empty
+)
+"completion/var.ml" 49 1765 1779 "completion/var.ml" 49 1765 1795
+type(
+  VarMap.key Useful.StrMap.t ref
+)
+"completion/var.ml" 50 1796 1802 "completion/var.ml" 50 1796 1807
+type(
+  VarMap.key ref
+)
+ident(
+  def index "completion/var.ml" 51 1819 1821 "completion/var.ml" 64 2222 2301
+)
+"completion/var.ml" 50 1796 1810 "completion/var.ml" 50 1796 1813
+type(
+  VarMap.key -> VarMap.key ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"completion/var.ml" 50 1796 1814 "completion/var.ml" 50 1796 1815
+type(
+  VarMap.key
+)
+"completion/var.ml" 50 1796 1810 "completion/var.ml" 50 1796 1815
+type(
+  VarMap.key ref
+)
+"completion/var.ml" 51 1819 1825 "completion/var.ml" 51 1819 1831
+type(
+  Useful.StrMap.key -> VarMap.key -> unit
+)
+ident(
+  def update "completion/var.ml" 55 1914 1916 "completion/var.ml" 64 2222 2301
+)
+"completion/var.ml" 51 1819 1832 "completion/var.ml" 51 1819 1833
+type(
+  Useful.StrMap.key
+)
+ident(
+  def s "completion/var.ml" 51 1819 1834 "completion/var.ml" 53 1874 1908
+)
+"completion/var.ml" 51 1819 1834 "completion/var.ml" 51 1819 1835
+type(
+  VarMap.key
+)
+ident(
+  def n "completion/var.ml" 52 1838 1842 "completion/var.ml" 53 1874 1908
+)
+"completion/var.ml" 52 1838 1842 "completion/var.ml" 52 1838 1847
+type(
+  VarMap.key Useful.StrMap.t ref
+)
+ident(
+  int_ref stmap "completion/var.ml" 49 1765 1771 "completion/var.ml" 49 1765 1776
+)
+"completion/var.ml" 52 1838 1848 "completion/var.ml" 52 1838 1850
+type(
+  VarMap.key Useful.StrMap.t ref -> VarMap.key Useful.StrMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/var.ml" 52 1838 1851 "completion/var.ml" 52 1838 1861
+type(
+  Useful.StrMap.key ->
+  VarMap.key -> VarMap.key Useful.StrMap.t -> VarMap.key Useful.StrMap.t
+)
+ident(
+  ext_ref Useful.StrMap.add
+)
+"completion/var.ml" 52 1838 1862 "completion/var.ml" 52 1838 1863
+type(
+  Useful.StrMap.key
+)
+ident(
+  int_ref s "completion/var.ml" 51 1819 1832 "completion/var.ml" 51 1819 1833
+)
+"completion/var.ml" 52 1838 1864 "completion/var.ml" 52 1838 1865
+type(
+  VarMap.key
+)
+ident(
+  int_ref n "completion/var.ml" 51 1819 1834 "completion/var.ml" 51 1819 1835
+)
+"completion/var.ml" 52 1838 1866 "completion/var.ml" 52 1838 1867
+type(
+  VarMap.key Useful.StrMap.t ref -> VarMap.key Useful.StrMap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/var.ml" 52 1838 1867 "completion/var.ml" 52 1838 1872
+type(
+  VarMap.key Useful.StrMap.t ref
+)
+ident(
+  int_ref stmap "completion/var.ml" 49 1765 1771 "completion/var.ml" 49 1765 1776
+)
+"completion/var.ml" 52 1838 1866 "completion/var.ml" 52 1838 1872
+type(
+  VarMap.key Useful.StrMap.t
+)
+"completion/var.ml" 52 1838 1851 "completion/var.ml" 52 1838 1872
+call(
+  stack
+)
+type(
+  VarMap.key Useful.StrMap.t
+)
+"completion/var.ml" 52 1838 1842 "completion/var.ml" 52 1838 1872
+type(
+  unit
+)
+"completion/var.ml" 53 1874 1878 "completion/var.ml" 53 1874 1883
+type(
+  Useful.StrMap.key VarMap.t ref
+)
+ident(
+  int_ref vamap "completion/var.ml" 48 1734 1740 "completion/var.ml" 48 1734 1745
+)
+"completion/var.ml" 53 1874 1884 "completion/var.ml" 53 1874 1886
+type(
+  Useful.StrMap.key VarMap.t ref -> Useful.StrMap.key VarMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/var.ml" 53 1874 1887 "completion/var.ml" 53 1874 1897
+type(
+  VarMap.key ->
+  Useful.StrMap.key ->
+  Useful.StrMap.key VarMap.t -> Useful.StrMap.key VarMap.t
+)
+ident(
+  ext_ref VarMap.add
+)
+"completion/var.ml" 53 1874 1898 "completion/var.ml" 53 1874 1899
+type(
+  VarMap.key
+)
+ident(
+  int_ref n "completion/var.ml" 51 1819 1834 "completion/var.ml" 51 1819 1835
+)
+"completion/var.ml" 53 1874 1900 "completion/var.ml" 53 1874 1901
+type(
+  Useful.StrMap.key
+)
+ident(
+  int_ref s "completion/var.ml" 51 1819 1832 "completion/var.ml" 51 1819 1833
+)
+"completion/var.ml" 53 1874 1902 "completion/var.ml" 53 1874 1903
+type(
+  Useful.StrMap.key VarMap.t ref -> Useful.StrMap.key VarMap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/var.ml" 53 1874 1903 "completion/var.ml" 53 1874 1908
+type(
+  Useful.StrMap.key VarMap.t ref
+)
+ident(
+  int_ref vamap "completion/var.ml" 48 1734 1740 "completion/var.ml" 48 1734 1745
+)
+"completion/var.ml" 53 1874 1902 "completion/var.ml" 53 1874 1908
+type(
+  Useful.StrMap.key VarMap.t
+)
+"completion/var.ml" 53 1874 1887 "completion/var.ml" 53 1874 1908
+call(
+  stack
+)
+type(
+  Useful.StrMap.key VarMap.t
+)
+"completion/var.ml" 53 1874 1878 "completion/var.ml" 53 1874 1908
+type(
+  unit
+)
+"completion/var.ml" 52 1838 1842 "completion/var.ml" 53 1874 1908
+type(
+  unit
+)
+"completion/var.ml" 55 1914 1921 "completion/var.ml" 55 1914 1922
+type(
+  Useful.StrMap.key
+)
+ident(
+  def s "completion/var.ml" 56 1926 1930 "completion/var.ml" 57 1956 2015
+)
+"completion/var.ml" 56 1926 1935 "completion/var.ml" 56 1926 1946
+type(
+  Useful.StrMap.key -> VarMap.key Useful.StrMap.t -> VarMap.key
+)
+ident(
+  ext_ref Useful.StrMap.find
+)
+"completion/var.ml" 56 1926 1947 "completion/var.ml" 56 1926 1948
+type(
+  Useful.StrMap.key
+)
+ident(
+  int_ref s "completion/var.ml" 55 1914 1921 "completion/var.ml" 55 1914 1922
+)
+"completion/var.ml" 56 1926 1949 "completion/var.ml" 56 1926 1950
+type(
+  VarMap.key Useful.StrMap.t ref -> VarMap.key Useful.StrMap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/var.ml" 56 1926 1950 "completion/var.ml" 56 1926 1955
+type(
+  VarMap.key Useful.StrMap.t ref
+)
+ident(
+  int_ref stmap "completion/var.ml" 49 1765 1771 "completion/var.ml" 49 1765 1776
+)
+"completion/var.ml" 56 1926 1949 "completion/var.ml" 56 1926 1955
+type(
+  VarMap.key Useful.StrMap.t
+)
+"completion/var.ml" 56 1926 1935 "completion/var.ml" 56 1926 1955
+call(
+  stack
+)
+type(
+  VarMap.key
+)
+"completion/var.ml" 57 1956 1966 "completion/var.ml" 57 1956 1975
+type(
+  exn
+)
+"completion/var.ml" 57 1956 1979 "completion/var.ml" 57 1956 1983
+type(
+  VarMap.key ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"completion/var.ml" 57 1956 1984 "completion/var.ml" 57 1956 1989
+type(
+  VarMap.key ref
+)
+ident(
+  int_ref index "completion/var.ml" 50 1796 1802 "completion/var.ml" 50 1796 1807
+)
+"completion/var.ml" 57 1956 1979 "completion/var.ml" 57 1956 1989
+type(
+  unit
+)
+"completion/var.ml" 57 1956 1991 "completion/var.ml" 57 1956 1997
+type(
+  Useful.StrMap.key -> VarMap.key -> unit
+)
+ident(
+  int_ref update "completion/var.ml" 51 1819 1825 "completion/var.ml" 51 1819 1831
+)
+"completion/var.ml" 57 1956 1998 "completion/var.ml" 57 1956 1999
+type(
+  Useful.StrMap.key
+)
+ident(
+  int_ref s "completion/var.ml" 55 1914 1921 "completion/var.ml" 55 1914 1922
+)
+"completion/var.ml" 57 1956 2000 "completion/var.ml" 57 1956 2001
+type(
+  VarMap.key ref -> VarMap.key
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/var.ml" 57 1956 2001 "completion/var.ml" 57 1956 2006
+type(
+  VarMap.key ref
+)
+ident(
+  int_ref index "completion/var.ml" 50 1796 1802 "completion/var.ml" 50 1796 1807
+)
+"completion/var.ml" 57 1956 2000 "completion/var.ml" 57 1956 2006
+type(
+  VarMap.key
+)
+"completion/var.ml" 57 1956 1991 "completion/var.ml" 57 1956 2006
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/var.ml" 57 1956 2008 "completion/var.ml" 57 1956 2009
+type(
+  VarMap.key ref -> VarMap.key
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/var.ml" 57 1956 2009 "completion/var.ml" 57 1956 2014
+type(
+  VarMap.key ref
+)
+ident(
+  int_ref index "completion/var.ml" 50 1796 1802 "completion/var.ml" 50 1796 1807
+)
+"completion/var.ml" 57 1956 2008 "completion/var.ml" 57 1956 2014
+type(
+  VarMap.key
+)
+"completion/var.ml" 57 1956 1991 "completion/var.ml" 57 1956 2014
+type(
+  VarMap.key
+)
+"completion/var.ml" 57 1956 1979 "completion/var.ml" 57 1956 2014
+type(
+  VarMap.key
+)
+"completion/var.ml" 56 1926 1930 "completion/var.ml" 57 1956 2015
+type(
+  VarMap.key
+)
+"completion/var.ml" 55 1914 1916 "completion/var.ml" 57 1956 2016
+type(
+  Useful.StrMap.key -> VarMap.key
+)
+"completion/var.ml" 58 2018 2025 "completion/var.ml" 58 2018 2026
+type(
+  VarMap.key
+)
+ident(
+  def n "completion/var.ml" 59 2030 2034 "completion/var.ml" 60 2060 2130
+)
+"completion/var.ml" 59 2030 2039 "completion/var.ml" 59 2030 2050
+type(
+  VarMap.key -> Useful.StrMap.key VarMap.t -> Useful.StrMap.key
+)
+ident(
+  ext_ref VarMap.find
+)
+"completion/var.ml" 59 2030 2051 "completion/var.ml" 59 2030 2052
+type(
+  VarMap.key
+)
+ident(
+  int_ref n "completion/var.ml" 58 2018 2025 "completion/var.ml" 58 2018 2026
+)
+"completion/var.ml" 59 2030 2053 "completion/var.ml" 59 2030 2054
+type(
+  Useful.StrMap.key VarMap.t ref -> Useful.StrMap.key VarMap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/var.ml" 59 2030 2054 "completion/var.ml" 59 2030 2059
+type(
+  Useful.StrMap.key VarMap.t ref
+)
+ident(
+  int_ref vamap "completion/var.ml" 48 1734 1740 "completion/var.ml" 48 1734 1745
+)
+"completion/var.ml" 59 2030 2053 "completion/var.ml" 59 2030 2059
+type(
+  Useful.StrMap.key VarMap.t
+)
+"completion/var.ml" 59 2030 2039 "completion/var.ml" 59 2030 2059
+call(
+  stack
+)
+type(
+  Useful.StrMap.key
+)
+"completion/var.ml" 60 2060 2070 "completion/var.ml" 60 2060 2079
+type(
+  exn
+)
+"completion/var.ml" 60 2060 2087 "completion/var.ml" 60 2060 2088
+type(
+  string
+)
+ident(
+  def s "completion/var.ml" 60 2060 2116 "completion/var.ml" 60 2060 2129
+)
+"completion/var.ml" 60 2060 2091 "completion/var.ml" 60 2060 2103
+type(
+  VarMap.key Useful.StrMap.t -> VarMap.key -> string
+)
+ident(
+  int_ref fresh_string "completion/var.ml" 40 1448 1452 "completion/var.ml" 40 1448 1464
+)
+"completion/var.ml" 60 2060 2104 "completion/var.ml" 60 2060 2105
+type(
+  VarMap.key Useful.StrMap.t ref -> VarMap.key Useful.StrMap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/var.ml" 60 2060 2105 "completion/var.ml" 60 2060 2110
+type(
+  VarMap.key Useful.StrMap.t ref
+)
+ident(
+  int_ref stmap "completion/var.ml" 49 1765 1771 "completion/var.ml" 49 1765 1776
+)
+"completion/var.ml" 60 2060 2104 "completion/var.ml" 60 2060 2110
+type(
+  VarMap.key Useful.StrMap.t
+)
+"completion/var.ml" 60 2060 2111 "completion/var.ml" 60 2060 2112
+type(
+  VarMap.key
+)
+ident(
+  int_ref n "completion/var.ml" 58 2018 2025 "completion/var.ml" 58 2018 2026
+)
+"completion/var.ml" 60 2060 2091 "completion/var.ml" 60 2060 2112
+call(
+  stack
+)
+type(
+  string
+)
+"completion/var.ml" 60 2060 2116 "completion/var.ml" 60 2060 2122
+type(
+  Useful.StrMap.key -> VarMap.key -> unit
+)
+ident(
+  int_ref update "completion/var.ml" 51 1819 1825 "completion/var.ml" 51 1819 1831
+)
+"completion/var.ml" 60 2060 2123 "completion/var.ml" 60 2060 2124
+type(
+  Useful.StrMap.key
+)
+ident(
+  int_ref s "completion/var.ml" 60 2060 2087 "completion/var.ml" 60 2060 2088
+)
+"completion/var.ml" 60 2060 2125 "completion/var.ml" 60 2060 2126
+type(
+  VarMap.key
+)
+ident(
+  int_ref n "completion/var.ml" 58 2018 2025 "completion/var.ml" 58 2018 2026
+)
+"completion/var.ml" 60 2060 2116 "completion/var.ml" 60 2060 2126
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/var.ml" 60 2060 2128 "completion/var.ml" 60 2060 2129
+type(
+  Useful.StrMap.key
+)
+ident(
+  int_ref s "completion/var.ml" 60 2060 2087 "completion/var.ml" 60 2060 2088
+)
+"completion/var.ml" 60 2060 2116 "completion/var.ml" 60 2060 2129
+type(
+  Useful.StrMap.key
+)
+"completion/var.ml" 60 2060 2083 "completion/var.ml" 60 2060 2129
+type(
+  Useful.StrMap.key
+)
+"completion/var.ml" 59 2030 2034 "completion/var.ml" 60 2060 2130
+type(
+  Useful.StrMap.key
+)
+"completion/var.ml" 58 2018 2020 "completion/var.ml" 60 2060 2131
+type(
+  VarMap.key -> Useful.StrMap.key
+)
+"completion/var.ml" 61 2133 2140 "completion/var.ml" 61 2133 2142
+type(
+  unit
+)
+"completion/var.ml" 62 2146 2150 "completion/var.ml" 62 2146 2155
+type(
+  Useful.StrMap.key VarMap.t ref
+)
+ident(
+  int_ref vamap "completion/var.ml" 48 1734 1740 "completion/var.ml" 48 1734 1745
+)
+"completion/var.ml" 62 2146 2156 "completion/var.ml" 62 2146 2158
+type(
+  Useful.StrMap.key VarMap.t ref -> Useful.StrMap.key VarMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/var.ml" 62 2146 2159 "completion/var.ml" 62 2146 2171
+type(
+  Useful.StrMap.key VarMap.t
+)
+ident(
+  ext_ref VarMap.empty
+)
+"completion/var.ml" 62 2146 2150 "completion/var.ml" 62 2146 2171
+type(
+  unit
+)
+"completion/var.ml" 62 2146 2173 "completion/var.ml" 62 2146 2178
+type(
+  VarMap.key Useful.StrMap.t ref
+)
+ident(
+  int_ref stmap "completion/var.ml" 49 1765 1771 "completion/var.ml" 49 1765 1776
+)
+"completion/var.ml" 62 2146 2179 "completion/var.ml" 62 2146 2181
+type(
+  VarMap.key Useful.StrMap.t ref -> VarMap.key Useful.StrMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/var.ml" 62 2146 2182 "completion/var.ml" 62 2146 2194
+type(
+  VarMap.key Useful.StrMap.t
+)
+ident(
+  ext_ref Useful.StrMap.empty
+)
+"completion/var.ml" 62 2146 2173 "completion/var.ml" 62 2146 2194
+type(
+  unit
+)
+"completion/var.ml" 62 2146 2196 "completion/var.ml" 62 2146 2201
+type(
+  VarMap.key ref
+)
+ident(
+  int_ref index "completion/var.ml" 50 1796 1802 "completion/var.ml" 50 1796 1807
+)
+"completion/var.ml" 62 2146 2202 "completion/var.ml" 62 2146 2204
+type(
+  VarMap.key ref -> VarMap.key -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/var.ml" 62 2146 2205 "completion/var.ml" 62 2146 2206
+type(
+  VarMap.key
+)
+"completion/var.ml" 62 2146 2196 "completion/var.ml" 62 2146 2206
+type(
+  unit
+)
+"completion/var.ml" 62 2146 2173 "completion/var.ml" 62 2146 2206
+type(
+  unit
+)
+"completion/var.ml" 62 2146 2150 "completion/var.ml" 62 2146 2206
+type(
+  unit
+)
+"completion/var.ml" 61 2133 2135 "completion/var.ml" 62 2146 2207
+type(
+  unit -> unit
+)
+"completion/var.ml" 63 2209 2216 "completion/var.ml" 63 2209 2218
+type(
+  unit
+)
+"completion/var.ml" 64 2222 2226 "completion/var.ml" 64 2222 2230
+type(
+  VarMap.key ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"completion/var.ml" 64 2222 2231 "completion/var.ml" 64 2222 2236
+type(
+  VarMap.key ref
+)
+ident(
+  int_ref index "completion/var.ml" 50 1796 1802 "completion/var.ml" 50 1796 1807
+)
+"completion/var.ml" 64 2222 2226 "completion/var.ml" 64 2222 2236
+type(
+  unit
+)
+"completion/var.ml" 64 2222 2242 "completion/var.ml" 64 2222 2243
+type(
+  string
+)
+ident(
+  def s "completion/var.ml" 64 2222 2276 "completion/var.ml" 64 2222 2300
+)
+"completion/var.ml" 64 2222 2246 "completion/var.ml" 64 2222 2258
+type(
+  VarMap.key Useful.StrMap.t -> VarMap.key -> string
+)
+ident(
+  int_ref fresh_string "completion/var.ml" 40 1448 1452 "completion/var.ml" 40 1448 1464
+)
+"completion/var.ml" 64 2222 2259 "completion/var.ml" 64 2222 2260
+type(
+  VarMap.key Useful.StrMap.t ref -> VarMap.key Useful.StrMap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/var.ml" 64 2222 2260 "completion/var.ml" 64 2222 2265
+type(
+  VarMap.key Useful.StrMap.t ref
+)
+ident(
+  int_ref stmap "completion/var.ml" 49 1765 1771 "completion/var.ml" 49 1765 1776
+)
+"completion/var.ml" 64 2222 2259 "completion/var.ml" 64 2222 2265
+type(
+  VarMap.key Useful.StrMap.t
+)
+"completion/var.ml" 64 2222 2266 "completion/var.ml" 64 2222 2267
+type(
+  VarMap.key ref -> VarMap.key
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/var.ml" 64 2222 2267 "completion/var.ml" 64 2222 2272
+type(
+  VarMap.key ref
+)
+ident(
+  int_ref index "completion/var.ml" 50 1796 1802 "completion/var.ml" 50 1796 1807
+)
+"completion/var.ml" 64 2222 2266 "completion/var.ml" 64 2222 2272
+type(
+  VarMap.key
+)
+"completion/var.ml" 64 2222 2246 "completion/var.ml" 64 2222 2272
+call(
+  stack
+)
+type(
+  string
+)
+"completion/var.ml" 64 2222 2276 "completion/var.ml" 64 2222 2282
+type(
+  Useful.StrMap.key -> VarMap.key -> unit
+)
+ident(
+  int_ref update "completion/var.ml" 51 1819 1825 "completion/var.ml" 51 1819 1831
+)
+"completion/var.ml" 64 2222 2283 "completion/var.ml" 64 2222 2284
+type(
+  Useful.StrMap.key
+)
+ident(
+  int_ref s "completion/var.ml" 64 2222 2242 "completion/var.ml" 64 2222 2243
+)
+"completion/var.ml" 64 2222 2285 "completion/var.ml" 64 2222 2286
+type(
+  VarMap.key ref -> VarMap.key
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/var.ml" 64 2222 2286 "completion/var.ml" 64 2222 2291
+type(
+  VarMap.key ref
+)
+ident(
+  int_ref index "completion/var.ml" 50 1796 1802 "completion/var.ml" 50 1796 1807
+)
+"completion/var.ml" 64 2222 2285 "completion/var.ml" 64 2222 2291
+type(
+  VarMap.key
+)
+"completion/var.ml" 64 2222 2276 "completion/var.ml" 64 2222 2291
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/var.ml" 64 2222 2294 "completion/var.ml" 64 2222 2295
+type(
+  VarMap.key ref -> VarMap.key
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/var.ml" 64 2222 2295 "completion/var.ml" 64 2222 2300
+type(
+  VarMap.key ref
+)
+ident(
+  int_ref index "completion/var.ml" 50 1796 1802 "completion/var.ml" 50 1796 1807
+)
+"completion/var.ml" 64 2222 2294 "completion/var.ml" 64 2222 2300
+type(
+  VarMap.key
+)
+"completion/var.ml" 64 2222 2276 "completion/var.ml" 64 2222 2300
+type(
+  VarMap.key
+)
+"completion/var.ml" 64 2222 2238 "completion/var.ml" 64 2222 2300
+type(
+  VarMap.key
+)
+"completion/var.ml" 64 2222 2226 "completion/var.ml" 64 2222 2300
+type(
+  VarMap.key
+)
+"completion/var.ml" 63 2209 2211 "completion/var.ml" 64 2222 2301
+type(
+  unit -> VarMap.key
+)
+"completion/var.ml" 55 1914 1916 "completion/var.ml" 64 2222 2301
+type(
+  (Useful.StrMap.key -> VarMap.key) * (VarMap.key -> Useful.StrMap.key) *
+  (unit -> unit) * (unit -> VarMap.key)
+)
+"completion/var.ml" 51 1819 1821 "completion/var.ml" 64 2222 2301
+type(
+  (Useful.StrMap.key -> VarMap.key) * (VarMap.key -> Useful.StrMap.key) *
+  (unit -> unit) * (unit -> VarMap.key)
+)
+"completion/var.ml" 48 1734 1736 "completion/var.ml" 64 2222 2301
+type(
+  (Useful.StrMap.key -> VarMap.key) * (VarMap.key -> Useful.StrMap.key) *
+  (unit -> unit) * (unit -> VarMap.key)
+)
+"completion/var.ml" 87 2644 2648 "completion/var.ml" 87 2644 2654
+type(
+  Format.formatter -> VarMap.key -> unit
+)
+ident(
+  def pr_var "completion/var.ml" 87 2644 2710 "completion/var.ml" 1 0 -1
+)
+"completion/var.ml" 87 2644 2655 "completion/var.ml" 87 2644 2658
+type(
+  Format.formatter
+)
+ident(
+  def ppf "completion/var.ml" 87 2644 2659 "completion/var.ml" 87 2644 2710
+)
+"completion/var.ml" 87 2644 2659 "completion/var.ml" 87 2644 2660
+type(
+  VarMap.key
+)
+ident(
+  def v "completion/var.ml" 87 2644 2663 "completion/var.ml" 87 2644 2710
+)
+"completion/var.ml" 87 2644 2663 "completion/var.ml" 87 2644 2677
+type(
+  Format.formatter ->
+  (Useful.StrMap.key -> VarMap.key -> unit, Format.formatter, unit) format ->
+  Useful.StrMap.key -> VarMap.key -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"completion/var.ml" 87 2644 2678 "completion/var.ml" 87 2644 2681
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/var.ml" 87 2644 2655 "completion/var.ml" 87 2644 2658
+)
+"completion/var.ml" 87 2644 2682 "completion/var.ml" 87 2644 2690
+type(
+  (Useful.StrMap.key -> VarMap.key -> unit, Format.formatter, unit) format
+)
+"completion/var.ml" 87 2644 2692 "completion/var.ml" 87 2644 2705
+type(
+  VarMap.key -> Useful.StrMap.key
+)
+ident(
+  int_ref string_of_var "completion/var.ml" 47 1676 1695 "completion/var.ml" 47 1676 1708
+)
+"completion/var.ml" 87 2644 2706 "completion/var.ml" 87 2644 2707
+type(
+  VarMap.key
+)
+ident(
+  int_ref v "completion/var.ml" 87 2644 2659 "completion/var.ml" 87 2644 2660
+)
+"completion/var.ml" 87 2644 2691 "completion/var.ml" 87 2644 2708
+call(
+  stack
+)
+type(
+  Useful.StrMap.key
+)
+"completion/var.ml" 87 2644 2709 "completion/var.ml" 87 2644 2710
+type(
+  VarMap.key
+)
+ident(
+  int_ref v "completion/var.ml" 87 2644 2659 "completion/var.ml" 87 2644 2660
+)
+"completion/var.ml" 87 2644 2663 "completion/var.ml" 87 2644 2710
+call(
+  tail
+)
+type(
+  unit
+)

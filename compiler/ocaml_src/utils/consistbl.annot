@@ -1,0 +1,943 @@
+"ocaml_src/utils/consistbl.ml" 19 996 1000 "ocaml_src/utils/consistbl.ml" 19 996 1006
+type(
+  unit -> ('a, 'b) Hashtbl.t
+)
+ident(
+  def create "ocaml_src/utils/consistbl.ml" 21 1031 1031 "ocaml_src/utils/consistbl.ml" 1 0 -1
+)
+"ocaml_src/utils/consistbl.ml" 19 996 1007 "ocaml_src/utils/consistbl.ml" 19 996 1009
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 19 996 1012 "ocaml_src/utils/consistbl.ml" 19 996 1026
+type(
+  ?random:bool -> int -> ('a, 'b) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ocaml_src/utils/consistbl.ml" 19 996 1027 "ocaml_src/utils/consistbl.ml" 19 996 1029
+type(
+  int
+)
+"ocaml_src/utils/consistbl.ml" 19 996 1012 "ocaml_src/utils/consistbl.ml" 19 996 1029
+call(
+  tail
+)
+type(
+  ('a, 'b) Hashtbl.t
+)
+"ocaml_src/utils/consistbl.ml" 21 1031 1035 "ocaml_src/utils/consistbl.ml" 21 1031 1040
+type(
+  ('a, 'b) Hashtbl.t -> unit
+)
+ident(
+  def clear "ocaml_src/utils/consistbl.ml" 23 1058 1058 "ocaml_src/utils/consistbl.ml" 1 0 -1
+)
+"ocaml_src/utils/consistbl.ml" 21 1031 1043 "ocaml_src/utils/consistbl.ml" 21 1031 1056
+type(
+  ('a, 'b) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.clear
+)
+"ocaml_src/utils/consistbl.ml" 27 1146 1150 "ocaml_src/utils/consistbl.ml" 27 1146 1155
+type(
+  (string, 'a * string) Hashtbl.t -> string -> 'a -> string -> unit
+)
+ident(
+  def check "ocaml_src/utils/consistbl.ml" 34 1375 1375 "ocaml_src/utils/consistbl.ml" 1 0 -1
+)
+"ocaml_src/utils/consistbl.ml" 27 1146 1156 "ocaml_src/utils/consistbl.ml" 27 1146 1159
+type(
+  (string, 'a * string) Hashtbl.t
+)
+ident(
+  def tbl "ocaml_src/utils/consistbl.ml" 27 1146 1160 "ocaml_src/utils/consistbl.ml" 32 1335 1373
+)
+"ocaml_src/utils/consistbl.ml" 27 1146 1160 "ocaml_src/utils/consistbl.ml" 27 1146 1164
+type(
+  string
+)
+ident(
+  def name "ocaml_src/utils/consistbl.ml" 27 1146 1165 "ocaml_src/utils/consistbl.ml" 32 1335 1373
+)
+"ocaml_src/utils/consistbl.ml" 27 1146 1165 "ocaml_src/utils/consistbl.ml" 27 1146 1168
+type(
+  'a
+)
+ident(
+  def crc "ocaml_src/utils/consistbl.ml" 27 1146 1169 "ocaml_src/utils/consistbl.ml" 32 1335 1373
+)
+"ocaml_src/utils/consistbl.ml" 27 1146 1169 "ocaml_src/utils/consistbl.ml" 27 1146 1175
+type(
+  string
+)
+ident(
+  def source "ocaml_src/utils/consistbl.ml" 28 1178 1180 "ocaml_src/utils/consistbl.ml" 32 1335 1373
+)
+"ocaml_src/utils/consistbl.ml" 29 1184 1193 "ocaml_src/utils/consistbl.ml" 29 1184 1200
+type(
+  'a
+)
+ident(
+  def old_crc "ocaml_src/utils/consistbl.ml" 30 1241 1245 "ocaml_src/utils/consistbl.ml" 30 1241 1314
+)
+"ocaml_src/utils/consistbl.ml" 29 1184 1202 "ocaml_src/utils/consistbl.ml" 29 1184 1212
+type(
+  string
+)
+ident(
+  def old_source "ocaml_src/utils/consistbl.ml" 30 1241 1245 "ocaml_src/utils/consistbl.ml" 30 1241 1314
+)
+"ocaml_src/utils/consistbl.ml" 29 1184 1192 "ocaml_src/utils/consistbl.ml" 29 1184 1213
+type(
+  'a * string
+)
+"ocaml_src/utils/consistbl.ml" 29 1184 1216 "ocaml_src/utils/consistbl.ml" 29 1184 1228
+type(
+  (string, 'a * string) Hashtbl.t -> string -> 'a * string
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ocaml_src/utils/consistbl.ml" 29 1184 1229 "ocaml_src/utils/consistbl.ml" 29 1184 1232
+type(
+  (string, 'a * string) Hashtbl.t
+)
+ident(
+  int_ref tbl "ocaml_src/utils/consistbl.ml" 27 1146 1156 "ocaml_src/utils/consistbl.ml" 27 1146 1159
+)
+"ocaml_src/utils/consistbl.ml" 29 1184 1233 "ocaml_src/utils/consistbl.ml" 29 1184 1237
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/consistbl.ml" 27 1146 1160 "ocaml_src/utils/consistbl.ml" 27 1146 1164
+)
+"ocaml_src/utils/consistbl.ml" 29 1184 1216 "ocaml_src/utils/consistbl.ml" 29 1184 1237
+call(
+  stack
+)
+type(
+  'a * string
+)
+"ocaml_src/utils/consistbl.ml" 30 1241 1248 "ocaml_src/utils/consistbl.ml" 30 1241 1251
+type(
+  'a
+)
+ident(
+  int_ref crc "ocaml_src/utils/consistbl.ml" 27 1146 1165 "ocaml_src/utils/consistbl.ml" 27 1146 1168
+)
+"ocaml_src/utils/consistbl.ml" 30 1241 1252 "ocaml_src/utils/consistbl.ml" 30 1241 1254
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ocaml_src/utils/consistbl.ml" 30 1241 1255 "ocaml_src/utils/consistbl.ml" 30 1241 1262
+type(
+  'a
+)
+ident(
+  int_ref old_crc "ocaml_src/utils/consistbl.ml" 29 1184 1193 "ocaml_src/utils/consistbl.ml" 29 1184 1200
+)
+"ocaml_src/utils/consistbl.ml" 30 1241 1248 "ocaml_src/utils/consistbl.ml" 30 1241 1262
+type(
+  bool
+)
+"ocaml_src/utils/consistbl.ml" 30 1241 1268 "ocaml_src/utils/consistbl.ml" 30 1241 1273
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/utils/consistbl.ml" 30 1241 1288 "ocaml_src/utils/consistbl.ml" 30 1241 1292
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/consistbl.ml" 27 1146 1160 "ocaml_src/utils/consistbl.ml" 27 1146 1164
+)
+"ocaml_src/utils/consistbl.ml" 30 1241 1294 "ocaml_src/utils/consistbl.ml" 30 1241 1300
+type(
+  string
+)
+ident(
+  int_ref source "ocaml_src/utils/consistbl.ml" 27 1146 1169 "ocaml_src/utils/consistbl.ml" 27 1146 1175
+)
+"ocaml_src/utils/consistbl.ml" 30 1241 1302 "ocaml_src/utils/consistbl.ml" 30 1241 1312
+type(
+  string
+)
+ident(
+  int_ref old_source "ocaml_src/utils/consistbl.ml" 29 1184 1202 "ocaml_src/utils/consistbl.ml" 29 1184 1212
+)
+"ocaml_src/utils/consistbl.ml" 30 1241 1273 "ocaml_src/utils/consistbl.ml" 30 1241 1314
+type(
+  exn
+)
+"ocaml_src/utils/consistbl.ml" 30 1241 1268 "ocaml_src/utils/consistbl.ml" 30 1241 1314
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 30 1241 1245 "ocaml_src/utils/consistbl.ml" 30 1241 1314
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 29 1184 1188 "ocaml_src/utils/consistbl.ml" 30 1241 1314
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 31 1315 1322 "ocaml_src/utils/consistbl.ml" 31 1315 1331
+type(
+  exn
+)
+"ocaml_src/utils/consistbl.ml" 32 1335 1339 "ocaml_src/utils/consistbl.ml" 32 1335 1350
+type(
+  (string, 'a * string) Hashtbl.t -> string -> 'a * string -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"ocaml_src/utils/consistbl.ml" 32 1335 1351 "ocaml_src/utils/consistbl.ml" 32 1335 1354
+type(
+  (string, 'a * string) Hashtbl.t
+)
+ident(
+  int_ref tbl "ocaml_src/utils/consistbl.ml" 27 1146 1156 "ocaml_src/utils/consistbl.ml" 27 1146 1159
+)
+"ocaml_src/utils/consistbl.ml" 32 1335 1355 "ocaml_src/utils/consistbl.ml" 32 1335 1359
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/consistbl.ml" 27 1146 1160 "ocaml_src/utils/consistbl.ml" 27 1146 1164
+)
+"ocaml_src/utils/consistbl.ml" 32 1335 1361 "ocaml_src/utils/consistbl.ml" 32 1335 1364
+type(
+  'a
+)
+ident(
+  int_ref crc "ocaml_src/utils/consistbl.ml" 27 1146 1165 "ocaml_src/utils/consistbl.ml" 27 1146 1168
+)
+"ocaml_src/utils/consistbl.ml" 32 1335 1366 "ocaml_src/utils/consistbl.ml" 32 1335 1372
+type(
+  string
+)
+ident(
+  int_ref source "ocaml_src/utils/consistbl.ml" 27 1146 1169 "ocaml_src/utils/consistbl.ml" 27 1146 1175
+)
+"ocaml_src/utils/consistbl.ml" 32 1335 1360 "ocaml_src/utils/consistbl.ml" 32 1335 1373
+type(
+  'a * string
+)
+"ocaml_src/utils/consistbl.ml" 32 1335 1339 "ocaml_src/utils/consistbl.ml" 32 1335 1373
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 28 1178 1180 "ocaml_src/utils/consistbl.ml" 32 1335 1373
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 34 1375 1379 "ocaml_src/utils/consistbl.ml" 34 1375 1390
+type(
+  (string, 'a * string) Hashtbl.t -> string -> 'a -> string -> unit
+)
+ident(
+  def check_noadd "ocaml_src/utils/consistbl.ml" 41 1602 1602 "ocaml_src/utils/consistbl.ml" 1 0 -1
+)
+"ocaml_src/utils/consistbl.ml" 34 1375 1391 "ocaml_src/utils/consistbl.ml" 34 1375 1394
+type(
+  (string, 'a * string) Hashtbl.t
+)
+ident(
+  def tbl "ocaml_src/utils/consistbl.ml" 34 1375 1395 "ocaml_src/utils/consistbl.ml" 39 1570 1600
+)
+"ocaml_src/utils/consistbl.ml" 34 1375 1395 "ocaml_src/utils/consistbl.ml" 34 1375 1399
+type(
+  string
+)
+ident(
+  def name "ocaml_src/utils/consistbl.ml" 34 1375 1400 "ocaml_src/utils/consistbl.ml" 39 1570 1600
+)
+"ocaml_src/utils/consistbl.ml" 34 1375 1400 "ocaml_src/utils/consistbl.ml" 34 1375 1403
+type(
+  'a
+)
+ident(
+  def crc "ocaml_src/utils/consistbl.ml" 34 1375 1404 "ocaml_src/utils/consistbl.ml" 39 1570 1600
+)
+"ocaml_src/utils/consistbl.ml" 34 1375 1404 "ocaml_src/utils/consistbl.ml" 34 1375 1410
+type(
+  string
+)
+ident(
+  def source "ocaml_src/utils/consistbl.ml" 35 1413 1415 "ocaml_src/utils/consistbl.ml" 39 1570 1600
+)
+"ocaml_src/utils/consistbl.ml" 36 1419 1428 "ocaml_src/utils/consistbl.ml" 36 1419 1435
+type(
+  'a
+)
+ident(
+  def old_crc "ocaml_src/utils/consistbl.ml" 37 1476 1480 "ocaml_src/utils/consistbl.ml" 37 1476 1549
+)
+"ocaml_src/utils/consistbl.ml" 36 1419 1437 "ocaml_src/utils/consistbl.ml" 36 1419 1447
+type(
+  string
+)
+ident(
+  def old_source "ocaml_src/utils/consistbl.ml" 37 1476 1480 "ocaml_src/utils/consistbl.ml" 37 1476 1549
+)
+"ocaml_src/utils/consistbl.ml" 36 1419 1427 "ocaml_src/utils/consistbl.ml" 36 1419 1448
+type(
+  'a * string
+)
+"ocaml_src/utils/consistbl.ml" 36 1419 1451 "ocaml_src/utils/consistbl.ml" 36 1419 1463
+type(
+  (string, 'a * string) Hashtbl.t -> string -> 'a * string
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ocaml_src/utils/consistbl.ml" 36 1419 1464 "ocaml_src/utils/consistbl.ml" 36 1419 1467
+type(
+  (string, 'a * string) Hashtbl.t
+)
+ident(
+  int_ref tbl "ocaml_src/utils/consistbl.ml" 34 1375 1391 "ocaml_src/utils/consistbl.ml" 34 1375 1394
+)
+"ocaml_src/utils/consistbl.ml" 36 1419 1468 "ocaml_src/utils/consistbl.ml" 36 1419 1472
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/consistbl.ml" 34 1375 1395 "ocaml_src/utils/consistbl.ml" 34 1375 1399
+)
+"ocaml_src/utils/consistbl.ml" 36 1419 1451 "ocaml_src/utils/consistbl.ml" 36 1419 1472
+call(
+  stack
+)
+type(
+  'a * string
+)
+"ocaml_src/utils/consistbl.ml" 37 1476 1483 "ocaml_src/utils/consistbl.ml" 37 1476 1486
+type(
+  'a
+)
+ident(
+  int_ref crc "ocaml_src/utils/consistbl.ml" 34 1375 1400 "ocaml_src/utils/consistbl.ml" 34 1375 1403
+)
+"ocaml_src/utils/consistbl.ml" 37 1476 1487 "ocaml_src/utils/consistbl.ml" 37 1476 1489
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ocaml_src/utils/consistbl.ml" 37 1476 1490 "ocaml_src/utils/consistbl.ml" 37 1476 1497
+type(
+  'a
+)
+ident(
+  int_ref old_crc "ocaml_src/utils/consistbl.ml" 36 1419 1428 "ocaml_src/utils/consistbl.ml" 36 1419 1435
+)
+"ocaml_src/utils/consistbl.ml" 37 1476 1483 "ocaml_src/utils/consistbl.ml" 37 1476 1497
+type(
+  bool
+)
+"ocaml_src/utils/consistbl.ml" 37 1476 1503 "ocaml_src/utils/consistbl.ml" 37 1476 1508
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/utils/consistbl.ml" 37 1476 1523 "ocaml_src/utils/consistbl.ml" 37 1476 1527
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/consistbl.ml" 34 1375 1395 "ocaml_src/utils/consistbl.ml" 34 1375 1399
+)
+"ocaml_src/utils/consistbl.ml" 37 1476 1529 "ocaml_src/utils/consistbl.ml" 37 1476 1535
+type(
+  string
+)
+ident(
+  int_ref source "ocaml_src/utils/consistbl.ml" 34 1375 1404 "ocaml_src/utils/consistbl.ml" 34 1375 1410
+)
+"ocaml_src/utils/consistbl.ml" 37 1476 1537 "ocaml_src/utils/consistbl.ml" 37 1476 1547
+type(
+  string
+)
+ident(
+  int_ref old_source "ocaml_src/utils/consistbl.ml" 36 1419 1437 "ocaml_src/utils/consistbl.ml" 36 1419 1447
+)
+"ocaml_src/utils/consistbl.ml" 37 1476 1508 "ocaml_src/utils/consistbl.ml" 37 1476 1549
+type(
+  exn
+)
+"ocaml_src/utils/consistbl.ml" 37 1476 1503 "ocaml_src/utils/consistbl.ml" 37 1476 1549
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 37 1476 1480 "ocaml_src/utils/consistbl.ml" 37 1476 1549
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 36 1419 1423 "ocaml_src/utils/consistbl.ml" 37 1476 1549
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 38 1550 1557 "ocaml_src/utils/consistbl.ml" 38 1550 1566
+type(
+  exn
+)
+"ocaml_src/utils/consistbl.ml" 39 1570 1574 "ocaml_src/utils/consistbl.ml" 39 1570 1579
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/utils/consistbl.ml" 39 1570 1595 "ocaml_src/utils/consistbl.ml" 39 1570 1599
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/consistbl.ml" 34 1375 1395 "ocaml_src/utils/consistbl.ml" 34 1375 1399
+)
+"ocaml_src/utils/consistbl.ml" 39 1570 1580 "ocaml_src/utils/consistbl.ml" 39 1570 1600
+type(
+  exn
+)
+"ocaml_src/utils/consistbl.ml" 39 1570 1574 "ocaml_src/utils/consistbl.ml" 39 1570 1600
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 35 1413 1415 "ocaml_src/utils/consistbl.ml" 39 1570 1600
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 41 1602 1606 "ocaml_src/utils/consistbl.ml" 41 1602 1609
+type(
+  ('a, 'b * 'c) Hashtbl.t -> 'a -> 'b -> 'c -> unit
+)
+ident(
+  def set "ocaml_src/utils/consistbl.ml" 43 1668 1668 "ocaml_src/utils/consistbl.ml" 1 0 -1
+)
+"ocaml_src/utils/consistbl.ml" 41 1602 1610 "ocaml_src/utils/consistbl.ml" 41 1602 1613
+type(
+  ('a, 'b * 'c) Hashtbl.t
+)
+ident(
+  def tbl "ocaml_src/utils/consistbl.ml" 41 1602 1614 "ocaml_src/utils/consistbl.ml" 41 1602 1666
+)
+"ocaml_src/utils/consistbl.ml" 41 1602 1614 "ocaml_src/utils/consistbl.ml" 41 1602 1618
+type(
+  'a
+)
+ident(
+  def name "ocaml_src/utils/consistbl.ml" 41 1602 1619 "ocaml_src/utils/consistbl.ml" 41 1602 1666
+)
+"ocaml_src/utils/consistbl.ml" 41 1602 1619 "ocaml_src/utils/consistbl.ml" 41 1602 1622
+type(
+  'b
+)
+ident(
+  def crc "ocaml_src/utils/consistbl.ml" 41 1602 1623 "ocaml_src/utils/consistbl.ml" 41 1602 1666
+)
+"ocaml_src/utils/consistbl.ml" 41 1602 1623 "ocaml_src/utils/consistbl.ml" 41 1602 1629
+type(
+  'c
+)
+ident(
+  def source "ocaml_src/utils/consistbl.ml" 41 1602 1632 "ocaml_src/utils/consistbl.ml" 41 1602 1666
+)
+"ocaml_src/utils/consistbl.ml" 41 1602 1632 "ocaml_src/utils/consistbl.ml" 41 1602 1643
+type(
+  ('a, 'b * 'c) Hashtbl.t -> 'a -> 'b * 'c -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"ocaml_src/utils/consistbl.ml" 41 1602 1644 "ocaml_src/utils/consistbl.ml" 41 1602 1647
+type(
+  ('a, 'b * 'c) Hashtbl.t
+)
+ident(
+  int_ref tbl "ocaml_src/utils/consistbl.ml" 41 1602 1610 "ocaml_src/utils/consistbl.ml" 41 1602 1613
+)
+"ocaml_src/utils/consistbl.ml" 41 1602 1648 "ocaml_src/utils/consistbl.ml" 41 1602 1652
+type(
+  'a
+)
+ident(
+  int_ref name "ocaml_src/utils/consistbl.ml" 41 1602 1614 "ocaml_src/utils/consistbl.ml" 41 1602 1618
+)
+"ocaml_src/utils/consistbl.ml" 41 1602 1654 "ocaml_src/utils/consistbl.ml" 41 1602 1657
+type(
+  'b
+)
+ident(
+  int_ref crc "ocaml_src/utils/consistbl.ml" 41 1602 1619 "ocaml_src/utils/consistbl.ml" 41 1602 1622
+)
+"ocaml_src/utils/consistbl.ml" 41 1602 1659 "ocaml_src/utils/consistbl.ml" 41 1602 1665
+type(
+  'c
+)
+ident(
+  int_ref source "ocaml_src/utils/consistbl.ml" 41 1602 1623 "ocaml_src/utils/consistbl.ml" 41 1602 1629
+)
+"ocaml_src/utils/consistbl.ml" 41 1602 1653 "ocaml_src/utils/consistbl.ml" 41 1602 1666
+type(
+  'b * 'c
+)
+"ocaml_src/utils/consistbl.ml" 41 1602 1632 "ocaml_src/utils/consistbl.ml" 41 1602 1666
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 43 1668 1672 "ocaml_src/utils/consistbl.ml" 43 1668 1678
+type(
+  ('a, 'b * 'c) Hashtbl.t -> 'a -> 'c
+)
+ident(
+  def source "ocaml_src/utils/consistbl.ml" 45 1719 1719 "ocaml_src/utils/consistbl.ml" 1 0 -1
+)
+"ocaml_src/utils/consistbl.ml" 43 1668 1679 "ocaml_src/utils/consistbl.ml" 43 1668 1682
+type(
+  ('a, 'b * 'c) Hashtbl.t
+)
+ident(
+  def tbl "ocaml_src/utils/consistbl.ml" 43 1668 1683 "ocaml_src/utils/consistbl.ml" 43 1668 1717
+)
+"ocaml_src/utils/consistbl.ml" 43 1668 1683 "ocaml_src/utils/consistbl.ml" 43 1668 1687
+type(
+  'a
+)
+ident(
+  def name "ocaml_src/utils/consistbl.ml" 43 1668 1690 "ocaml_src/utils/consistbl.ml" 43 1668 1717
+)
+"ocaml_src/utils/consistbl.ml" 43 1668 1690 "ocaml_src/utils/consistbl.ml" 43 1668 1693
+type(
+  'b * 'c -> 'c
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"ocaml_src/utils/consistbl.ml" 43 1668 1695 "ocaml_src/utils/consistbl.ml" 43 1668 1707
+type(
+  ('a, 'b * 'c) Hashtbl.t -> 'a -> 'b * 'c
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ocaml_src/utils/consistbl.ml" 43 1668 1708 "ocaml_src/utils/consistbl.ml" 43 1668 1711
+type(
+  ('a, 'b * 'c) Hashtbl.t
+)
+ident(
+  int_ref tbl "ocaml_src/utils/consistbl.ml" 43 1668 1679 "ocaml_src/utils/consistbl.ml" 43 1668 1682
+)
+"ocaml_src/utils/consistbl.ml" 43 1668 1712 "ocaml_src/utils/consistbl.ml" 43 1668 1716
+type(
+  'a
+)
+ident(
+  int_ref name "ocaml_src/utils/consistbl.ml" 43 1668 1683 "ocaml_src/utils/consistbl.ml" 43 1668 1687
+)
+"ocaml_src/utils/consistbl.ml" 43 1668 1694 "ocaml_src/utils/consistbl.ml" 43 1668 1717
+call(
+  stack
+)
+type(
+  'b * 'c
+)
+"ocaml_src/utils/consistbl.ml" 43 1668 1690 "ocaml_src/utils/consistbl.ml" 43 1668 1717
+type(
+  'c
+)
+"ocaml_src/utils/consistbl.ml" 45 1719 1723 "ocaml_src/utils/consistbl.ml" 45 1719 1730
+type(
+  ('a, 'b * 'c) Hashtbl.t -> ('a * 'b) list
+)
+ident(
+  def extract "ocaml_src/utils/consistbl.ml" 48 1808 1808 "ocaml_src/utils/consistbl.ml" 1 0 -1
+)
+"ocaml_src/utils/consistbl.ml" 45 1719 1731 "ocaml_src/utils/consistbl.ml" 45 1719 1734
+type(
+  ('a, 'b * 'c) Hashtbl.t
+)
+ident(
+  def tbl "ocaml_src/utils/consistbl.ml" 46 1737 1739 "ocaml_src/utils/consistbl.ml" 46 1737 1806
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1739 "ocaml_src/utils/consistbl.ml" 46 1737 1751
+type(
+  ('a -> 'b * 'c -> ('a * 'b) list -> ('a * 'b) list) ->
+  ('a, 'b * 'c) Hashtbl.t -> ('a * 'b) list -> ('a * 'b) list
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1757 "ocaml_src/utils/consistbl.ml" 46 1737 1761
+type(
+  'a
+)
+ident(
+  def name "ocaml_src/utils/consistbl.ml" 46 1737 1762 "ocaml_src/utils/consistbl.ml" 46 1737 1798
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1763 "ocaml_src/utils/consistbl.ml" 46 1737 1766
+type(
+  'b
+)
+ident(
+  def crc "ocaml_src/utils/consistbl.ml" 46 1737 1771 "ocaml_src/utils/consistbl.ml" 46 1737 1798
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1768 "ocaml_src/utils/consistbl.ml" 46 1737 1769
+type(
+  'c
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1762 "ocaml_src/utils/consistbl.ml" 46 1737 1770
+type(
+  'b * 'c
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1771 "ocaml_src/utils/consistbl.ml" 46 1737 1775
+type(
+  ('a * 'b) list
+)
+ident(
+  def accu "ocaml_src/utils/consistbl.ml" 46 1737 1779 "ocaml_src/utils/consistbl.ml" 46 1737 1798
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1780 "ocaml_src/utils/consistbl.ml" 46 1737 1784
+type(
+  'a
+)
+ident(
+  int_ref name "ocaml_src/utils/consistbl.ml" 46 1737 1757 "ocaml_src/utils/consistbl.ml" 46 1737 1761
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1786 "ocaml_src/utils/consistbl.ml" 46 1737 1789
+type(
+  'b
+)
+ident(
+  int_ref crc "ocaml_src/utils/consistbl.ml" 46 1737 1763 "ocaml_src/utils/consistbl.ml" 46 1737 1766
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1779 "ocaml_src/utils/consistbl.ml" 46 1737 1790
+type(
+  'a * 'b
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1794 "ocaml_src/utils/consistbl.ml" 46 1737 1798
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref accu "ocaml_src/utils/consistbl.ml" 46 1737 1771 "ocaml_src/utils/consistbl.ml" 46 1737 1775
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1779 "ocaml_src/utils/consistbl.ml" 46 1737 1798
+type(
+  ('a * 'b) list
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1752 "ocaml_src/utils/consistbl.ml" 46 1737 1799
+type(
+  'a -> 'b * 'c -> ('a * 'b) list -> ('a * 'b) list
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1800 "ocaml_src/utils/consistbl.ml" 46 1737 1803
+type(
+  ('a, 'b * 'c) Hashtbl.t
+)
+ident(
+  int_ref tbl "ocaml_src/utils/consistbl.ml" 45 1719 1731 "ocaml_src/utils/consistbl.ml" 45 1719 1734
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1804 "ocaml_src/utils/consistbl.ml" 46 1737 1806
+type(
+  ('a * 'b) list
+)
+"ocaml_src/utils/consistbl.ml" 46 1737 1739 "ocaml_src/utils/consistbl.ml" 46 1737 1806
+call(
+  tail
+)
+type(
+  ('a * 'b) list
+)
+"ocaml_src/utils/consistbl.ml" 48 1808 1812 "ocaml_src/utils/consistbl.ml" 48 1808 1818
+type(
+  ('a -> bool) -> ('a, 'b) Hashtbl.t -> unit
+)
+ident(
+  def filter "ocaml_src/utils/consistbl.ml" 57 2054 2068 "ocaml_src/utils/consistbl.ml" 1 0 -1
+)
+"ocaml_src/utils/consistbl.ml" 48 1808 1819 "ocaml_src/utils/consistbl.ml" 48 1808 1820
+type(
+  'a -> bool
+)
+ident(
+  def p "ocaml_src/utils/consistbl.ml" 48 1808 1821 "ocaml_src/utils/consistbl.ml" 57 2054 2068
+)
+"ocaml_src/utils/consistbl.ml" 48 1808 1821 "ocaml_src/utils/consistbl.ml" 48 1808 1824
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  def tbl "ocaml_src/utils/consistbl.ml" 49 1827 1829 "ocaml_src/utils/consistbl.ml" 57 2054 2068
+)
+"ocaml_src/utils/consistbl.ml" 49 1827 1833 "ocaml_src/utils/consistbl.ml" 49 1827 1842
+type(
+  'a list ref
+)
+ident(
+  def to_remove "ocaml_src/utils/consistbl.ml" 50 1855 1857 "ocaml_src/utils/consistbl.ml" 57 2054 2068
+)
+"ocaml_src/utils/consistbl.ml" 49 1827 1845 "ocaml_src/utils/consistbl.ml" 49 1827 1848
+type(
+  'a list -> 'a list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/consistbl.ml" 49 1827 1849 "ocaml_src/utils/consistbl.ml" 49 1827 1851
+type(
+  'a list
+)
+"ocaml_src/utils/consistbl.ml" 49 1827 1845 "ocaml_src/utils/consistbl.ml" 49 1827 1851
+type(
+  'a list ref
+)
+"ocaml_src/utils/consistbl.ml" 50 1855 1857 "ocaml_src/utils/consistbl.ml" 50 1855 1869
+type(
+  ('a -> 'b -> unit) -> ('a, 'b) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"ocaml_src/utils/consistbl.ml" 51 1870 1879 "ocaml_src/utils/consistbl.ml" 51 1870 1883
+type(
+  'a
+)
+ident(
+  def name "ocaml_src/utils/consistbl.ml" 51 1870 1884 "ocaml_src/utils/consistbl.ml" 52 1889 1947
+)
+"ocaml_src/utils/consistbl.ml" 51 1870 1884 "ocaml_src/utils/consistbl.ml" 51 1870 1885
+type(
+  'b
+)
+"ocaml_src/utils/consistbl.ml" 52 1889 1898 "ocaml_src/utils/consistbl.ml" 52 1889 1901
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocaml_src/utils/consistbl.ml" 52 1889 1903 "ocaml_src/utils/consistbl.ml" 52 1889 1904
+type(
+  'a -> bool
+)
+ident(
+  int_ref p "ocaml_src/utils/consistbl.ml" 48 1808 1819 "ocaml_src/utils/consistbl.ml" 48 1808 1820
+)
+"ocaml_src/utils/consistbl.ml" 52 1889 1905 "ocaml_src/utils/consistbl.ml" 52 1889 1909
+type(
+  'a
+)
+ident(
+  int_ref name "ocaml_src/utils/consistbl.ml" 51 1870 1879 "ocaml_src/utils/consistbl.ml" 51 1870 1883
+)
+"ocaml_src/utils/consistbl.ml" 52 1889 1902 "ocaml_src/utils/consistbl.ml" 52 1889 1910
+call(
+  stack
+)
+type(
+  bool
+)
+"ocaml_src/utils/consistbl.ml" 52 1889 1898 "ocaml_src/utils/consistbl.ml" 52 1889 1910
+type(
+  bool
+)
+"ocaml_src/utils/consistbl.ml" 52 1889 1916 "ocaml_src/utils/consistbl.ml" 52 1889 1925
+type(
+  'a list ref
+)
+ident(
+  int_ref to_remove "ocaml_src/utils/consistbl.ml" 49 1827 1833 "ocaml_src/utils/consistbl.ml" 49 1827 1842
+)
+"ocaml_src/utils/consistbl.ml" 52 1889 1926 "ocaml_src/utils/consistbl.ml" 52 1889 1928
+type(
+  'a list ref -> 'a list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/utils/consistbl.ml" 52 1889 1929 "ocaml_src/utils/consistbl.ml" 52 1889 1933
+type(
+  'a
+)
+ident(
+  int_ref name "ocaml_src/utils/consistbl.ml" 51 1870 1879 "ocaml_src/utils/consistbl.ml" 51 1870 1883
+)
+"ocaml_src/utils/consistbl.ml" 52 1889 1937 "ocaml_src/utils/consistbl.ml" 52 1889 1938
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/consistbl.ml" 52 1889 1938 "ocaml_src/utils/consistbl.ml" 52 1889 1947
+type(
+  'a list ref
+)
+ident(
+  int_ref to_remove "ocaml_src/utils/consistbl.ml" 49 1827 1833 "ocaml_src/utils/consistbl.ml" 49 1827 1842
+)
+"ocaml_src/utils/consistbl.ml" 52 1889 1937 "ocaml_src/utils/consistbl.ml" 52 1889 1947
+type(
+  'a list
+)
+"ocaml_src/utils/consistbl.ml" 52 1889 1929 "ocaml_src/utils/consistbl.ml" 52 1889 1947
+type(
+  'a list
+)
+"ocaml_src/utils/consistbl.ml" 52 1889 1916 "ocaml_src/utils/consistbl.ml" 52 1889 1947
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 52 1889 1895 "ocaml_src/utils/consistbl.ml" 52 1889 1947
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 51 1870 1874 "ocaml_src/utils/consistbl.ml" 52 1889 1948
+type(
+  'a -> 'b -> unit
+)
+"ocaml_src/utils/consistbl.ml" 53 1949 1953 "ocaml_src/utils/consistbl.ml" 53 1949 1956
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref tbl "ocaml_src/utils/consistbl.ml" 48 1808 1821 "ocaml_src/utils/consistbl.ml" 48 1808 1824
+)
+"ocaml_src/utils/consistbl.ml" 50 1855 1857 "ocaml_src/utils/consistbl.ml" 53 1949 1956
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 54 1958 1960 "ocaml_src/utils/consistbl.ml" 54 1958 1969
+type(
+  ('a -> unit) -> 'a list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ocaml_src/utils/consistbl.ml" 55 1970 1979 "ocaml_src/utils/consistbl.ml" 55 1970 1983
+type(
+  'a
+)
+ident(
+  def name "ocaml_src/utils/consistbl.ml" 56 1987 1994 "ocaml_src/utils/consistbl.ml" 56 1987 2052
+)
+"ocaml_src/utils/consistbl.ml" 56 1987 2000 "ocaml_src/utils/consistbl.ml" 56 1987 2011
+type(
+  ('a, 'b) Hashtbl.t -> 'a -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"ocaml_src/utils/consistbl.ml" 56 1987 2012 "ocaml_src/utils/consistbl.ml" 56 1987 2015
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref tbl "ocaml_src/utils/consistbl.ml" 48 1808 1821 "ocaml_src/utils/consistbl.ml" 48 1808 1824
+)
+"ocaml_src/utils/consistbl.ml" 56 1987 2016 "ocaml_src/utils/consistbl.ml" 56 1987 2020
+type(
+  'a
+)
+ident(
+  int_ref name "ocaml_src/utils/consistbl.ml" 55 1970 1979 "ocaml_src/utils/consistbl.ml" 55 1970 1983
+)
+"ocaml_src/utils/consistbl.ml" 56 1987 2000 "ocaml_src/utils/consistbl.ml" 56 1987 2020
+call(
+  stack
+)
+type(
+  bool
+)
+"ocaml_src/utils/consistbl.ml" 56 1987 2024 "ocaml_src/utils/consistbl.ml" 56 1987 2038
+type(
+  ('a, 'b) Hashtbl.t -> 'a -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"ocaml_src/utils/consistbl.ml" 56 1987 2039 "ocaml_src/utils/consistbl.ml" 56 1987 2042
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref tbl "ocaml_src/utils/consistbl.ml" 48 1808 1821 "ocaml_src/utils/consistbl.ml" 48 1808 1824
+)
+"ocaml_src/utils/consistbl.ml" 56 1987 2043 "ocaml_src/utils/consistbl.ml" 56 1987 2047
+type(
+  'a
+)
+ident(
+  int_ref name "ocaml_src/utils/consistbl.ml" 55 1970 1979 "ocaml_src/utils/consistbl.ml" 55 1970 1983
+)
+"ocaml_src/utils/consistbl.ml" 56 1987 2024 "ocaml_src/utils/consistbl.ml" 56 1987 2047
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 56 1987 1994 "ocaml_src/utils/consistbl.ml" 56 1987 2052
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 55 1970 1974 "ocaml_src/utils/consistbl.ml" 56 1987 2053
+type(
+  'a -> unit
+)
+"ocaml_src/utils/consistbl.ml" 57 2054 2058 "ocaml_src/utils/consistbl.ml" 57 2054 2059
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/consistbl.ml" 57 2054 2059 "ocaml_src/utils/consistbl.ml" 57 2054 2068
+type(
+  'a list ref
+)
+ident(
+  int_ref to_remove "ocaml_src/utils/consistbl.ml" 49 1827 1833 "ocaml_src/utils/consistbl.ml" 49 1827 1842
+)
+"ocaml_src/utils/consistbl.ml" 57 2054 2058 "ocaml_src/utils/consistbl.ml" 57 2054 2068
+type(
+  'a list
+)
+"ocaml_src/utils/consistbl.ml" 54 1958 1960 "ocaml_src/utils/consistbl.ml" 57 2054 2068
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 50 1855 1857 "ocaml_src/utils/consistbl.ml" 57 2054 2068
+type(
+  unit
+)
+"ocaml_src/utils/consistbl.ml" 49 1827 1829 "ocaml_src/utils/consistbl.ml" 57 2054 2068
+type(
+  unit
+)

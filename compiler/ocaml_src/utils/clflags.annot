@@ -1,0 +1,1527 @@
+"ocaml_src/utils/clflags.ml" 17 906 910 "ocaml_src/utils/clflags.ml" 17 906 918
+type(
+  string list ref
+)
+ident(
+  def objfiles "ocaml_src/utils/clflags.ml" 21 1115 1115 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 17 906 921 "ocaml_src/utils/clflags.ml" 17 906 924
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 17 906 926 "ocaml_src/utils/clflags.ml" 17 906 928
+type(
+  string list
+)
+type(
+  string list
+)
+"ocaml_src/utils/clflags.ml" 17 906 921 "ocaml_src/utils/clflags.ml" 17 906 943
+type(
+  string list ref
+)
+"ocaml_src/utils/clflags.ml" 18 972 976 "ocaml_src/utils/clflags.ml" 18 972 982
+type(
+  string list ref
+)
+ident(
+  def ccobjs "ocaml_src/utils/clflags.ml" 21 1115 1115 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 18 972 985 "ocaml_src/utils/clflags.ml" 18 972 988
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 18 972 990 "ocaml_src/utils/clflags.ml" 18 972 992
+type(
+  string list
+)
+type(
+  string list
+)
+"ocaml_src/utils/clflags.ml" 18 972 985 "ocaml_src/utils/clflags.ml" 18 972 1007
+type(
+  string list ref
+)
+"ocaml_src/utils/clflags.ml" 19 1047 1051 "ocaml_src/utils/clflags.ml" 19 1047 1057
+type(
+  string list ref
+)
+ident(
+  def dllibs "ocaml_src/utils/clflags.ml" 21 1115 1115 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 19 1047 1060 "ocaml_src/utils/clflags.ml" 19 1047 1063
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 19 1047 1065 "ocaml_src/utils/clflags.ml" 19 1047 1067
+type(
+  string list
+)
+type(
+  string list
+)
+"ocaml_src/utils/clflags.ml" 19 1047 1060 "ocaml_src/utils/clflags.ml" 19 1047 1082
+type(
+  string list ref
+)
+"ocaml_src/utils/clflags.ml" 21 1115 1119 "ocaml_src/utils/clflags.ml" 21 1115 1131
+type(
+  bool ref
+)
+ident(
+  def compile_only "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 21 1115 1134 "ocaml_src/utils/clflags.ml" 21 1115 1137
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 21 1115 1138 "ocaml_src/utils/clflags.ml" 21 1115 1143
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 21 1115 1134 "ocaml_src/utils/clflags.ml" 21 1115 1143
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 22 1164 1168 "ocaml_src/utils/clflags.ml" 22 1164 1179
+type(
+  string option ref
+)
+ident(
+  def output_name "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 22 1164 1182 "ocaml_src/utils/clflags.ml" 22 1164 1185
+type(
+  string option -> string option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 22 1164 1187 "ocaml_src/utils/clflags.ml" 22 1164 1191
+type(
+  string option
+)
+type(
+  string option
+)
+"ocaml_src/utils/clflags.ml" 22 1164 1182 "ocaml_src/utils/clflags.ml" 22 1164 1208
+type(
+  string option ref
+)
+"ocaml_src/utils/clflags.ml" 23 1218 1222 "ocaml_src/utils/clflags.ml" 23 1218 1234
+type(
+  string list ref
+)
+ident(
+  def include_dirs "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 23 1218 1237 "ocaml_src/utils/clflags.ml" 23 1218 1240
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 23 1218 1242 "ocaml_src/utils/clflags.ml" 23 1218 1244
+type(
+  string list
+)
+type(
+  string list
+)
+"ocaml_src/utils/clflags.ml" 23 1218 1237 "ocaml_src/utils/clflags.ml" 23 1218 1259
+type(
+  string list ref
+)
+"ocaml_src/utils/clflags.ml" 24 1268 1272 "ocaml_src/utils/clflags.ml" 24 1268 1286
+type(
+  bool ref
+)
+ident(
+  def no_std_include "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 24 1268 1289 "ocaml_src/utils/clflags.ml" 24 1268 1292
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 24 1268 1293 "ocaml_src/utils/clflags.ml" 24 1268 1298
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 24 1268 1289 "ocaml_src/utils/clflags.ml" 24 1268 1298
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 25 1324 1328 "ocaml_src/utils/clflags.ml" 25 1324 1339
+type(
+  bool ref
+)
+ident(
+  def print_types "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 25 1324 1342 "ocaml_src/utils/clflags.ml" 25 1324 1345
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 25 1324 1346 "ocaml_src/utils/clflags.ml" 25 1324 1351
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 25 1324 1342 "ocaml_src/utils/clflags.ml" 25 1324 1351
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 26 1373 1377 "ocaml_src/utils/clflags.ml" 26 1373 1389
+type(
+  bool ref
+)
+ident(
+  def make_archive "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 26 1373 1392 "ocaml_src/utils/clflags.ml" 26 1373 1395
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 26 1373 1396 "ocaml_src/utils/clflags.ml" 26 1373 1401
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 26 1373 1392 "ocaml_src/utils/clflags.ml" 26 1373 1401
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 27 1422 1426 "ocaml_src/utils/clflags.ml" 27 1422 1431
+type(
+  bool ref
+)
+ident(
+  def debug "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 27 1422 1434 "ocaml_src/utils/clflags.ml" 27 1422 1437
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 27 1422 1438 "ocaml_src/utils/clflags.ml" 27 1422 1443
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 27 1422 1434 "ocaml_src/utils/clflags.ml" 27 1422 1443
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 28 1471 1475 "ocaml_src/utils/clflags.ml" 28 1471 1479
+type(
+  bool ref
+)
+ident(
+  def fast "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 28 1471 1482 "ocaml_src/utils/clflags.ml" 28 1471 1485
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 28 1471 1486 "ocaml_src/utils/clflags.ml" 28 1471 1491
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 28 1471 1482 "ocaml_src/utils/clflags.ml" 28 1471 1491
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 29 1525 1529 "ocaml_src/utils/clflags.ml" 29 1525 1544
+type(
+  bool ref
+)
+ident(
+  def link_everything "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 29 1525 1547 "ocaml_src/utils/clflags.ml" 29 1525 1550
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 29 1525 1551 "ocaml_src/utils/clflags.ml" 29 1525 1556
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 29 1525 1547 "ocaml_src/utils/clflags.ml" 29 1525 1556
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 30 1580 1584 "ocaml_src/utils/clflags.ml" 30 1580 1598
+type(
+  bool ref
+)
+ident(
+  def custom_runtime "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 30 1580 1601 "ocaml_src/utils/clflags.ml" 30 1580 1604
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 30 1580 1605 "ocaml_src/utils/clflags.ml" 30 1580 1610
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 30 1580 1601 "ocaml_src/utils/clflags.ml" 30 1580 1610
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 31 1634 1638 "ocaml_src/utils/clflags.ml" 31 1634 1653
+type(
+  bool ref
+)
+ident(
+  def output_c_object "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 31 1634 1656 "ocaml_src/utils/clflags.ml" 31 1634 1659
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 31 1634 1660 "ocaml_src/utils/clflags.ml" 31 1634 1665
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 31 1634 1656 "ocaml_src/utils/clflags.ml" 31 1634 1665
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 32 1692 1696 "ocaml_src/utils/clflags.ml" 32 1692 1702
+type(
+  string list ref
+)
+ident(
+  def ccopts "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 32 1692 1705 "ocaml_src/utils/clflags.ml" 32 1692 1708
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 32 1692 1710 "ocaml_src/utils/clflags.ml" 32 1692 1712
+type(
+  string list
+)
+type(
+  string list
+)
+"ocaml_src/utils/clflags.ml" 32 1692 1705 "ocaml_src/utils/clflags.ml" 32 1692 1727
+type(
+  string list ref
+)
+"ocaml_src/utils/clflags.ml" 33 1745 1749 "ocaml_src/utils/clflags.ml" 33 1745 1756
+type(
+  bool ref
+)
+ident(
+  def classic "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 33 1745 1759 "ocaml_src/utils/clflags.ml" 33 1745 1762
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 33 1745 1763 "ocaml_src/utils/clflags.ml" 33 1745 1768
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 33 1745 1759 "ocaml_src/utils/clflags.ml" 33 1745 1768
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 34 1801 1805 "ocaml_src/utils/clflags.ml" 34 1801 1817
+type(
+  bool ref
+)
+ident(
+  def nopervasives "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 34 1801 1820 "ocaml_src/utils/clflags.ml" 34 1801 1823
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 34 1801 1824 "ocaml_src/utils/clflags.ml" 34 1801 1829
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 34 1801 1820 "ocaml_src/utils/clflags.ml" 34 1801 1829
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 35 1861 1865 "ocaml_src/utils/clflags.ml" 35 1861 1877
+type(
+  string option ref
+)
+ident(
+  def preprocessor "ocaml_src/utils/clflags.ml" 36 1916 1916 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 35 1861 1880 "ocaml_src/utils/clflags.ml" 35 1861 1883
+type(
+  string option -> string option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 35 1861 1884 "ocaml_src/utils/clflags.ml" 35 1861 1888
+type(
+  string option
+)
+type(
+  string option
+)
+"ocaml_src/utils/clflags.ml" 35 1861 1880 "ocaml_src/utils/clflags.ml" 35 1861 1905
+type(
+  string option ref
+)
+"ocaml_src/utils/clflags.ml" 36 1916 1920 "ocaml_src/utils/clflags.ml" 36 1916 1931
+type(
+  bool ref
+)
+ident(
+  def annotations "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 36 1916 1934 "ocaml_src/utils/clflags.ml" 36 1916 1937
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 36 1916 1938 "ocaml_src/utils/clflags.ml" 36 1916 1943
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 36 1916 1934 "ocaml_src/utils/clflags.ml" 36 1916 1943
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 37 1969 1973 "ocaml_src/utils/clflags.ml" 37 1969 1984
+type(
+  bool ref
+)
+ident(
+  def use_threads "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 37 1969 1987 "ocaml_src/utils/clflags.ml" 37 1969 1990
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 37 1969 1991 "ocaml_src/utils/clflags.ml" 37 1969 1996
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 37 1969 1987 "ocaml_src/utils/clflags.ml" 37 1969 1996
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 38 2023 2027 "ocaml_src/utils/clflags.ml" 38 2023 2040
+type(
+  bool ref
+)
+ident(
+  def use_vmthreads "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 38 2023 2043 "ocaml_src/utils/clflags.ml" 38 2023 2046
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 38 2023 2047 "ocaml_src/utils/clflags.ml" 38 2023 2052
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 38 2023 2043 "ocaml_src/utils/clflags.ml" 38 2023 2052
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 39 2079 2083 "ocaml_src/utils/clflags.ml" 39 2079 2091
+type(
+  bool ref
+)
+ident(
+  def noassert "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 39 2079 2094 "ocaml_src/utils/clflags.ml" 39 2079 2097
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 39 2079 2098 "ocaml_src/utils/clflags.ml" 39 2079 2103
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 39 2079 2094 "ocaml_src/utils/clflags.ml" 39 2079 2103
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 40 2135 2139 "ocaml_src/utils/clflags.ml" 40 2135 2146
+type(
+  bool ref
+)
+ident(
+  def verbose "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 40 2135 2149 "ocaml_src/utils/clflags.ml" 40 2135 2152
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 40 2135 2153 "ocaml_src/utils/clflags.ml" 40 2135 2158
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 40 2135 2149 "ocaml_src/utils/clflags.ml" 40 2135 2158
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 41 2190 2194 "ocaml_src/utils/clflags.ml" 41 2190 2202
+type(
+  bool ref
+)
+ident(
+  def noprompt "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 41 2190 2205 "ocaml_src/utils/clflags.ml" 41 2190 2208
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 41 2190 2209 "ocaml_src/utils/clflags.ml" 41 2190 2214
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 41 2190 2205 "ocaml_src/utils/clflags.ml" 41 2190 2214
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 42 2246 2250 "ocaml_src/utils/clflags.ml" 42 2246 2259
+type(
+  string option ref
+)
+ident(
+  def init_file "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 42 2246 2262 "ocaml_src/utils/clflags.ml" 42 2246 2265
+type(
+  string option -> string option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 42 2246 2267 "ocaml_src/utils/clflags.ml" 42 2246 2271
+type(
+  string option
+)
+type(
+  string option
+)
+"ocaml_src/utils/clflags.ml" 42 2246 2262 "ocaml_src/utils/clflags.ml" 42 2246 2288
+type(
+  string option ref
+)
+"ocaml_src/utils/clflags.ml" 43 2303 2307 "ocaml_src/utils/clflags.ml" 43 2303 2316
+type(
+  string ref
+)
+ident(
+  def use_prims "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 43 2303 2319 "ocaml_src/utils/clflags.ml" 43 2303 2322
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 43 2303 2323 "ocaml_src/utils/clflags.ml" 43 2303 2325
+type(
+  string
+)
+"ocaml_src/utils/clflags.ml" 43 2303 2319 "ocaml_src/utils/clflags.ml" 43 2303 2325
+type(
+  string ref
+)
+"ocaml_src/utils/clflags.ml" 44 2364 2368 "ocaml_src/utils/clflags.ml" 44 2364 2379
+type(
+  string ref
+)
+ident(
+  def use_runtime "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 44 2364 2382 "ocaml_src/utils/clflags.ml" 44 2364 2385
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 44 2364 2386 "ocaml_src/utils/clflags.ml" 44 2364 2388
+type(
+  string
+)
+"ocaml_src/utils/clflags.ml" 44 2364 2382 "ocaml_src/utils/clflags.ml" 44 2364 2388
+type(
+  string ref
+)
+"ocaml_src/utils/clflags.ml" 45 2427 2431 "ocaml_src/utils/clflags.ml" 45 2427 2440
+type(
+  bool ref
+)
+ident(
+  def principal "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 45 2427 2443 "ocaml_src/utils/clflags.ml" 45 2427 2446
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 45 2427 2447 "ocaml_src/utils/clflags.ml" 45 2427 2452
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 45 2427 2443 "ocaml_src/utils/clflags.ml" 45 2427 2452
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 46 2484 2488 "ocaml_src/utils/clflags.ml" 46 2484 2503
+type(
+  bool ref
+)
+ident(
+  def recursive_types "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 46 2484 2506 "ocaml_src/utils/clflags.ml" 46 2484 2509
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 46 2484 2510 "ocaml_src/utils/clflags.ml" 46 2484 2515
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 46 2484 2506 "ocaml_src/utils/clflags.ml" 46 2484 2515
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 47 2540 2544 "ocaml_src/utils/clflags.ml" 47 2540 2559
+type(
+  bool ref
+)
+ident(
+  def strict_sequence "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 47 2540 2562 "ocaml_src/utils/clflags.ml" 47 2540 2565
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 47 2540 2566 "ocaml_src/utils/clflags.ml" 47 2540 2571
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 47 2540 2562 "ocaml_src/utils/clflags.ml" 47 2540 2571
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 48 2603 2607 "ocaml_src/utils/clflags.ml" 48 2603 2627
+type(
+  bool ref
+)
+ident(
+  def applicative_functors "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 48 2603 2630 "ocaml_src/utils/clflags.ml" 48 2603 2633
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 48 2603 2634 "ocaml_src/utils/clflags.ml" 48 2603 2638
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 48 2603 2630 "ocaml_src/utils/clflags.ml" 48 2603 2638
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 49 2663 2667 "ocaml_src/utils/clflags.ml" 49 2663 2679
+type(
+  bool ref
+)
+ident(
+  def make_runtime "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 49 2663 2682 "ocaml_src/utils/clflags.ml" 49 2663 2685
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 49 2663 2686 "ocaml_src/utils/clflags.ml" 49 2663 2691
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 49 2663 2682 "ocaml_src/utils/clflags.ml" 49 2663 2691
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 50 2723 2727 "ocaml_src/utils/clflags.ml" 50 2723 2735
+type(
+  bool ref
+)
+ident(
+  def gprofile "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 50 2723 2738 "ocaml_src/utils/clflags.ml" 50 2723 2741
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 50 2723 2742 "ocaml_src/utils/clflags.ml" 50 2723 2747
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 50 2723 2738 "ocaml_src/utils/clflags.ml" 50 2723 2747
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 51 2772 2776 "ocaml_src/utils/clflags.ml" 51 2772 2786
+type(
+  string option ref
+)
+ident(
+  def c_compiler "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 51 2772 2789 "ocaml_src/utils/clflags.ml" 51 2772 2792
+type(
+  string option -> string option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 51 2772 2794 "ocaml_src/utils/clflags.ml" 51 2772 2798
+type(
+  string option
+)
+type(
+  string option
+)
+"ocaml_src/utils/clflags.ml" 51 2772 2789 "ocaml_src/utils/clflags.ml" 51 2772 2814
+type(
+  string option ref
+)
+"ocaml_src/utils/clflags.ml" 52 2825 2829 "ocaml_src/utils/clflags.ml" 52 2825 2841
+type(
+  bool ref
+)
+ident(
+  def no_auto_link "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 52 2825 2844 "ocaml_src/utils/clflags.ml" 52 2825 2847
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 52 2825 2848 "ocaml_src/utils/clflags.ml" 52 2825 2853
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 52 2825 2844 "ocaml_src/utils/clflags.ml" 52 2825 2853
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 53 2883 2887 "ocaml_src/utils/clflags.ml" 53 2883 2895
+type(
+  string list ref
+)
+ident(
+  def dllpaths "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 53 2883 2898 "ocaml_src/utils/clflags.ml" 53 2883 2901
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 53 2883 2903 "ocaml_src/utils/clflags.ml" 53 2883 2905
+type(
+  string list
+)
+type(
+  string list
+)
+"ocaml_src/utils/clflags.ml" 53 2883 2898 "ocaml_src/utils/clflags.ml" 53 2883 2920
+type(
+  string list ref
+)
+"ocaml_src/utils/clflags.ml" 54 2938 2942 "ocaml_src/utils/clflags.ml" 54 2938 2954
+type(
+  bool ref
+)
+ident(
+  def make_package "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 54 2938 2957 "ocaml_src/utils/clflags.ml" 54 2938 2960
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 54 2938 2961 "ocaml_src/utils/clflags.ml" 54 2938 2966
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 54 2938 2957 "ocaml_src/utils/clflags.ml" 54 2938 2966
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 55 2990 2994 "ocaml_src/utils/clflags.ml" 55 2990 3005
+type(
+  string option ref
+)
+ident(
+  def for_package "ocaml_src/utils/clflags.ml" 56 3050 3050 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 55 2990 3008 "ocaml_src/utils/clflags.ml" 55 2990 3011
+type(
+  string option -> string option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 55 2990 3013 "ocaml_src/utils/clflags.ml" 55 2990 3017
+type(
+  string option
+)
+type(
+  string option
+)
+"ocaml_src/utils/clflags.ml" 55 2990 3008 "ocaml_src/utils/clflags.ml" 55 2990 3033
+type(
+  string option ref
+)
+"ocaml_src/utils/clflags.ml" 56 3050 3054 "ocaml_src/utils/clflags.ml" 56 3050 3068
+type(
+  bool ref
+)
+ident(
+  def dump_parsetree "ocaml_src/utils/clflags.ml" 61 3276 3276 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 56 3050 3071 "ocaml_src/utils/clflags.ml" 56 3050 3074
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 56 3050 3075 "ocaml_src/utils/clflags.ml" 56 3050 3080
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 56 3050 3071 "ocaml_src/utils/clflags.ml" 56 3050 3080
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 57 3108 3112 "ocaml_src/utils/clflags.ml" 57 3108 3126
+type(
+  bool ref
+)
+ident(
+  def dump_rawlambda "ocaml_src/utils/clflags.ml" 61 3276 3276 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 57 3108 3129 "ocaml_src/utils/clflags.ml" 57 3108 3132
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 57 3108 3133 "ocaml_src/utils/clflags.ml" 57 3108 3138
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 57 3108 3129 "ocaml_src/utils/clflags.ml" 57 3108 3138
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 58 3166 3170 "ocaml_src/utils/clflags.ml" 58 3166 3181
+type(
+  bool ref
+)
+ident(
+  def dump_lambda "ocaml_src/utils/clflags.ml" 61 3276 3276 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 58 3166 3184 "ocaml_src/utils/clflags.ml" 58 3166 3187
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 58 3166 3188 "ocaml_src/utils/clflags.ml" 58 3166 3193
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 58 3166 3184 "ocaml_src/utils/clflags.ml" 58 3166 3193
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 59 3221 3225 "ocaml_src/utils/clflags.ml" 59 3221 3235
+type(
+  bool ref
+)
+ident(
+  def dump_instr "ocaml_src/utils/clflags.ml" 61 3276 3276 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 59 3221 3238 "ocaml_src/utils/clflags.ml" 59 3221 3241
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 59 3221 3242 "ocaml_src/utils/clflags.ml" 59 3221 3247
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 59 3221 3238 "ocaml_src/utils/clflags.ml" 59 3221 3247
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 61 3276 3280 "ocaml_src/utils/clflags.ml" 61 3276 3293
+type(
+  bool ref
+)
+ident(
+  def keep_asm_file "ocaml_src/utils/clflags.ml" 62 3325 3325 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 61 3276 3296 "ocaml_src/utils/clflags.ml" 61 3276 3299
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 61 3276 3300 "ocaml_src/utils/clflags.ml" 61 3276 3305
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 61 3276 3296 "ocaml_src/utils/clflags.ml" 61 3276 3305
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 62 3325 3329 "ocaml_src/utils/clflags.ml" 62 3325 3347
+type(
+  bool ref
+)
+ident(
+  def optimize_for_speed "ocaml_src/utils/clflags.ml" 65 3433 3433 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 62 3325 3350 "ocaml_src/utils/clflags.ml" 62 3325 3353
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 62 3325 3354 "ocaml_src/utils/clflags.ml" 62 3325 3358
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 62 3325 3350 "ocaml_src/utils/clflags.ml" 62 3325 3358
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 64 3381 3385 "ocaml_src/utils/clflags.ml" 64 3381 3393
+type(
+  bool ref
+)
+ident(
+  def dump_cmm "ocaml_src/utils/clflags.ml" 65 3433 3433 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 64 3381 3396 "ocaml_src/utils/clflags.ml" 64 3381 3399
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 64 3381 3400 "ocaml_src/utils/clflags.ml" 64 3381 3405
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 64 3381 3396 "ocaml_src/utils/clflags.ml" 64 3381 3405
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 65 3433 3437 "ocaml_src/utils/clflags.ml" 65 3433 3451
+type(
+  bool ref
+)
+ident(
+  def dump_selection "ocaml_src/utils/clflags.ml" 66 3485 3485 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 65 3433 3454 "ocaml_src/utils/clflags.ml" 65 3433 3457
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 65 3433 3458 "ocaml_src/utils/clflags.ml" 65 3433 3463
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 65 3433 3454 "ocaml_src/utils/clflags.ml" 65 3433 3463
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 66 3485 3489 "ocaml_src/utils/clflags.ml" 66 3485 3498
+type(
+  bool ref
+)
+ident(
+  def dump_live "ocaml_src/utils/clflags.ml" 67 3538 3538 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 66 3485 3501 "ocaml_src/utils/clflags.ml" 66 3485 3504
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 66 3485 3505 "ocaml_src/utils/clflags.ml" 66 3485 3510
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 66 3485 3501 "ocaml_src/utils/clflags.ml" 66 3485 3510
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 67 3538 3542 "ocaml_src/utils/clflags.ml" 67 3538 3552
+type(
+  bool ref
+)
+ident(
+  def dump_spill "ocaml_src/utils/clflags.ml" 68 3592 3592 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 67 3538 3555 "ocaml_src/utils/clflags.ml" 67 3538 3558
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 67 3538 3559 "ocaml_src/utils/clflags.ml" 67 3538 3564
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 67 3538 3555 "ocaml_src/utils/clflags.ml" 67 3538 3564
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 68 3592 3596 "ocaml_src/utils/clflags.ml" 68 3592 3606
+type(
+  bool ref
+)
+ident(
+  def dump_split "ocaml_src/utils/clflags.ml" 69 3646 3646 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 68 3592 3609 "ocaml_src/utils/clflags.ml" 68 3592 3612
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 68 3592 3613 "ocaml_src/utils/clflags.ml" 68 3592 3618
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 68 3592 3609 "ocaml_src/utils/clflags.ml" 68 3592 3618
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 69 3646 3650 "ocaml_src/utils/clflags.ml" 69 3646 3661
+type(
+  bool ref
+)
+ident(
+  def dump_interf "ocaml_src/utils/clflags.ml" 70 3701 3701 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 69 3646 3664 "ocaml_src/utils/clflags.ml" 69 3646 3667
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 69 3646 3668 "ocaml_src/utils/clflags.ml" 69 3646 3673
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 69 3646 3664 "ocaml_src/utils/clflags.ml" 69 3646 3673
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 70 3701 3705 "ocaml_src/utils/clflags.ml" 70 3701 3716
+type(
+  bool ref
+)
+ident(
+  def dump_prefer "ocaml_src/utils/clflags.ml" 71 3756 3756 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 70 3701 3719 "ocaml_src/utils/clflags.ml" 70 3701 3722
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 70 3701 3723 "ocaml_src/utils/clflags.ml" 70 3701 3728
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 70 3701 3719 "ocaml_src/utils/clflags.ml" 70 3701 3728
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 71 3756 3760 "ocaml_src/utils/clflags.ml" 71 3756 3773
+type(
+  bool ref
+)
+ident(
+  def dump_regalloc "ocaml_src/utils/clflags.ml" 72 3810 3810 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 71 3756 3776 "ocaml_src/utils/clflags.ml" 71 3756 3779
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 71 3756 3780 "ocaml_src/utils/clflags.ml" 71 3756 3785
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 71 3756 3776 "ocaml_src/utils/clflags.ml" 71 3756 3785
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 72 3810 3814 "ocaml_src/utils/clflags.ml" 72 3810 3825
+type(
+  bool ref
+)
+ident(
+  def dump_reload "ocaml_src/utils/clflags.ml" 73 3865 3865 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 72 3810 3828 "ocaml_src/utils/clflags.ml" 72 3810 3831
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 72 3810 3832 "ocaml_src/utils/clflags.ml" 72 3810 3837
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 72 3810 3828 "ocaml_src/utils/clflags.ml" 72 3810 3837
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 73 3865 3869 "ocaml_src/utils/clflags.ml" 73 3865 3884
+type(
+  bool ref
+)
+ident(
+  def dump_scheduling "ocaml_src/utils/clflags.ml" 74 3924 3924 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 73 3865 3887 "ocaml_src/utils/clflags.ml" 73 3865 3890
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 73 3865 3891 "ocaml_src/utils/clflags.ml" 73 3865 3896
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 73 3865 3887 "ocaml_src/utils/clflags.ml" 73 3865 3896
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 74 3924 3928 "ocaml_src/utils/clflags.ml" 74 3924 3939
+type(
+  bool ref
+)
+ident(
+  def dump_linear "ocaml_src/utils/clflags.ml" 75 3979 3979 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 74 3924 3942 "ocaml_src/utils/clflags.ml" 74 3924 3945
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 74 3924 3946 "ocaml_src/utils/clflags.ml" 74 3924 3951
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 74 3924 3942 "ocaml_src/utils/clflags.ml" 74 3924 3951
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 75 3979 3983 "ocaml_src/utils/clflags.ml" 75 3979 4000
+type(
+  bool ref
+)
+ident(
+  def keep_startup_file "ocaml_src/utils/clflags.ml" 76 4035 4035 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 75 3979 4003 "ocaml_src/utils/clflags.ml" 75 3979 4006
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 75 3979 4007 "ocaml_src/utils/clflags.ml" 75 3979 4012
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 75 3979 4003 "ocaml_src/utils/clflags.ml" 75 3979 4012
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 76 4035 4039 "ocaml_src/utils/clflags.ml" 76 4035 4051
+type(
+  bool ref
+)
+ident(
+  def dump_combine "ocaml_src/utils/clflags.ml" 78 4092 4092 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 76 4035 4054 "ocaml_src/utils/clflags.ml" 76 4035 4057
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 76 4035 4058 "ocaml_src/utils/clflags.ml" 76 4035 4063
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 76 4035 4054 "ocaml_src/utils/clflags.ml" 76 4035 4063
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 78 4092 4096 "ocaml_src/utils/clflags.ml" 78 4092 4107
+type(
+  bool ref
+)
+ident(
+  def native_code "ocaml_src/utils/clflags.ml" 79 4165 4165 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 78 4092 4110 "ocaml_src/utils/clflags.ml" 78 4092 4113
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 78 4092 4114 "ocaml_src/utils/clflags.ml" 78 4092 4119
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 78 4092 4110 "ocaml_src/utils/clflags.ml" 78 4092 4119
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 79 4165 4169 "ocaml_src/utils/clflags.ml" 79 4165 4185
+type(
+  int ref
+)
+ident(
+  def inline_threshold "ocaml_src/utils/clflags.ml" 81 4196 4196 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 79 4165 4188 "ocaml_src/utils/clflags.ml" 79 4165 4191
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 79 4165 4192 "ocaml_src/utils/clflags.ml" 79 4165 4194
+type(
+  int
+)
+"ocaml_src/utils/clflags.ml" 79 4165 4188 "ocaml_src/utils/clflags.ml" 79 4165 4194
+type(
+  int ref
+)
+"ocaml_src/utils/clflags.ml" 81 4196 4200 "ocaml_src/utils/clflags.ml" 81 4196 4216
+type(
+  bool ref
+)
+ident(
+  def dont_write_files "ocaml_src/utils/clflags.ml" 83 4270 4270 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 81 4196 4219 "ocaml_src/utils/clflags.ml" 81 4196 4222
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 81 4196 4223 "ocaml_src/utils/clflags.ml" 81 4196 4228
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 81 4196 4219 "ocaml_src/utils/clflags.ml" 81 4196 4228
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 83 4270 4274 "ocaml_src/utils/clflags.ml" 83 4270 4290
+type(
+  string -> string
+)
+ident(
+  def std_include_flag "ocaml_src/utils/clflags.ml" 88 4392 4392 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 83 4270 4291 "ocaml_src/utils/clflags.ml" 83 4270 4297
+type(
+  string
+)
+ident(
+  def prefix "ocaml_src/utils/clflags.ml" 84 4300 4302 "ocaml_src/utils/clflags.ml" 85 4329 4387
+)
+"ocaml_src/utils/clflags.ml" 84 4300 4305 "ocaml_src/utils/clflags.ml" 84 4300 4306
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/clflags.ml" 84 4300 4306 "ocaml_src/utils/clflags.ml" 84 4300 4320
+type(
+  bool ref
+)
+ident(
+  int_ref no_std_include "ocaml_src/utils/clflags.ml" 24 1268 1272 "ocaml_src/utils/clflags.ml" 24 1268 1286
+)
+"ocaml_src/utils/clflags.ml" 84 4300 4305 "ocaml_src/utils/clflags.ml" 84 4300 4320
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 84 4300 4326 "ocaml_src/utils/clflags.ml" 84 4300 4328
+type(
+  string
+)
+"ocaml_src/utils/clflags.ml" 85 4329 4337 "ocaml_src/utils/clflags.ml" 85 4329 4343
+type(
+  string
+)
+ident(
+  int_ref prefix "ocaml_src/utils/clflags.ml" 83 4270 4291 "ocaml_src/utils/clflags.ml" 83 4270 4297
+)
+"ocaml_src/utils/clflags.ml" 85 4329 4344 "ocaml_src/utils/clflags.ml" 85 4329 4345
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/clflags.ml" 85 4329 4347 "ocaml_src/utils/clflags.ml" 85 4329 4361
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.quote
+)
+"ocaml_src/utils/clflags.ml" 85 4329 4362 "ocaml_src/utils/clflags.ml" 85 4329 4385
+type(
+  string
+)
+ident(
+  ext_ref Config.standard_library
+)
+"ocaml_src/utils/clflags.ml" 85 4329 4346 "ocaml_src/utils/clflags.ml" 85 4329 4386
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/clflags.ml" 85 4329 4336 "ocaml_src/utils/clflags.ml" 85 4329 4387
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/clflags.ml" 84 4300 4302 "ocaml_src/utils/clflags.ml" 85 4329 4387
+type(
+  string
+)
+"ocaml_src/utils/clflags.ml" 88 4392 4396 "ocaml_src/utils/clflags.ml" 88 4392 4411
+type(
+  unit -> string list
+)
+ident(
+  def std_include_dir "ocaml_src/utils/clflags.ml" 92 4481 4481 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 88 4392 4412 "ocaml_src/utils/clflags.ml" 88 4392 4414
+type(
+  unit
+)
+"ocaml_src/utils/clflags.ml" 89 4417 4422 "ocaml_src/utils/clflags.ml" 89 4417 4423
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/clflags.ml" 89 4417 4423 "ocaml_src/utils/clflags.ml" 89 4417 4437
+type(
+  bool ref
+)
+ident(
+  int_ref no_std_include "ocaml_src/utils/clflags.ml" 24 1268 1272 "ocaml_src/utils/clflags.ml" 24 1268 1286
+)
+"ocaml_src/utils/clflags.ml" 89 4417 4422 "ocaml_src/utils/clflags.ml" 89 4417 4437
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 89 4417 4443 "ocaml_src/utils/clflags.ml" 89 4417 4445
+type(
+  string list
+)
+"ocaml_src/utils/clflags.ml" 89 4417 4452 "ocaml_src/utils/clflags.ml" 89 4417 4475
+type(
+  string
+)
+ident(
+  ext_ref Config.standard_library
+)
+"ocaml_src/utils/clflags.ml" 89 4417 4451 "ocaml_src/utils/clflags.ml" 89 4417 4476
+type(
+  string list
+)
+"ocaml_src/utils/clflags.ml" 89 4417 4419 "ocaml_src/utils/clflags.ml" 89 4417 4476
+type(
+  string list
+)
+"ocaml_src/utils/clflags.ml" 92 4481 4485 "ocaml_src/utils/clflags.ml" 92 4481 4491
+type(
+  bool ref
+)
+ident(
+  def shared "ocaml_src/utils/clflags.ml" 93 4518 4518 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 92 4481 4494 "ocaml_src/utils/clflags.ml" 92 4481 4497
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 92 4481 4498 "ocaml_src/utils/clflags.ml" 92 4481 4503
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 92 4481 4494 "ocaml_src/utils/clflags.ml" 92 4481 4503
+type(
+  bool ref
+)
+"ocaml_src/utils/clflags.ml" 93 4518 4522 "ocaml_src/utils/clflags.ml" 93 4518 4528
+type(
+  bool ref
+)
+ident(
+  def dlcode "ocaml_src/utils/clflags.ml" 93 4518 4539 "ocaml_src/utils/clflags.ml" 1 0 -1
+)
+"ocaml_src/utils/clflags.ml" 93 4518 4531 "ocaml_src/utils/clflags.ml" 93 4518 4534
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/clflags.ml" 93 4518 4535 "ocaml_src/utils/clflags.ml" 93 4518 4539
+type(
+  bool
+)
+"ocaml_src/utils/clflags.ml" 93 4518 4531 "ocaml_src/utils/clflags.ml" 93 4518 4539
+type(
+  bool ref
+)

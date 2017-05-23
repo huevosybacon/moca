@@ -1,0 +1,759 @@
+"lib/debug.ml" 18 1038 1042 "lib/debug.ml" 18 1038 1051
+type(
+  unit -> bool
+)
+ident(
+  def get_debug "lib/debug.ml" 24 1146 1146 "lib/debug.ml" 1 0 -1
+)
+"lib/debug.ml" 18 1038 1053 "lib/debug.ml" 18 1038 1062
+type(
+  unit -> unit
+)
+ident(
+  def set_debug "lib/debug.ml" 24 1146 1146 "lib/debug.ml" 1 0 -1
+)
+"lib/debug.ml" 18 1038 1042 "lib/debug.ml" 18 1038 1062
+type(
+  (unit -> bool) * (unit -> unit)
+)
+"lib/debug.ml" 19 1065 1071 "lib/debug.ml" 19 1065 1076
+type(
+  bool ref
+)
+ident(
+  def debug "lib/debug.ml" 20 1092 1094 "lib/debug.ml" 21 1114 1141
+)
+"lib/debug.ml" 19 1065 1079 "lib/debug.ml" 19 1065 1082
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"lib/debug.ml" 19 1065 1083 "lib/debug.ml" 19 1065 1088
+type(
+  bool
+)
+"lib/debug.ml" 19 1065 1079 "lib/debug.ml" 19 1065 1088
+type(
+  bool ref
+)
+"lib/debug.ml" 20 1092 1099 "lib/debug.ml" 20 1092 1101
+type(
+  unit
+)
+"lib/debug.ml" 20 1092 1105 "lib/debug.ml" 20 1092 1106
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lib/debug.ml" 20 1092 1106 "lib/debug.ml" 20 1092 1111
+type(
+  bool ref
+)
+ident(
+  int_ref debug "lib/debug.ml" 19 1065 1071 "lib/debug.ml" 19 1065 1076
+)
+"lib/debug.ml" 20 1092 1105 "lib/debug.ml" 20 1092 1111
+type(
+  bool
+)
+"lib/debug.ml" 20 1092 1094 "lib/debug.ml" 20 1092 1112
+type(
+  unit -> bool
+)
+"lib/debug.ml" 21 1114 1121 "lib/debug.ml" 21 1114 1123
+type(
+  unit
+)
+"lib/debug.ml" 21 1114 1127 "lib/debug.ml" 21 1114 1132
+type(
+  bool ref
+)
+ident(
+  int_ref debug "lib/debug.ml" 19 1065 1071 "lib/debug.ml" 19 1065 1076
+)
+"lib/debug.ml" 21 1114 1133 "lib/debug.ml" 21 1114 1135
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"lib/debug.ml" 21 1114 1136 "lib/debug.ml" 21 1114 1140
+type(
+  bool
+)
+"lib/debug.ml" 21 1114 1127 "lib/debug.ml" 21 1114 1140
+type(
+  unit
+)
+"lib/debug.ml" 21 1114 1116 "lib/debug.ml" 21 1114 1141
+type(
+  unit -> unit
+)
+"lib/debug.ml" 20 1092 1094 "lib/debug.ml" 21 1114 1141
+type(
+  (unit -> bool) * (unit -> unit)
+)
+"lib/debug.ml" 19 1065 1067 "lib/debug.ml" 21 1114 1141
+type(
+  (unit -> bool) * (unit -> unit)
+)
+"lib/debug.ml" 24 1146 1150 "lib/debug.ml" 24 1146 1169
+type(
+  string -> 'a
+)
+ident(
+  def not_yet_implemented "lib/debug.ml" 28 1246 1246 "lib/debug.ml" 1 0 -1
+)
+"lib/debug.ml" 24 1146 1170 "lib/debug.ml" 24 1146 1173
+type(
+  string
+)
+ident(
+  def msg "lib/debug.ml" 25 1176 1178 "lib/debug.ml" 25 1176 1241
+)
+"lib/debug.ml" 25 1176 1178 "lib/debug.ml" 25 1176 1186
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"lib/debug.ml" 25 1176 1188 "lib/debug.ml" 25 1176 1202
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"lib/debug.ml" 25 1176 1203 "lib/debug.ml" 25 1176 1236
+type(
+  (string -> string, unit, string) format
+)
+"lib/debug.ml" 25 1176 1237 "lib/debug.ml" 25 1176 1240
+type(
+  string
+)
+ident(
+  int_ref msg "lib/debug.ml" 24 1146 1170 "lib/debug.ml" 24 1146 1173
+)
+"lib/debug.ml" 25 1176 1187 "lib/debug.ml" 25 1176 1241
+call(
+  stack
+)
+type(
+  string
+)
+"lib/debug.ml" 25 1176 1178 "lib/debug.ml" 25 1176 1241
+call(
+  tail
+)
+type(
+  'a
+)
+"lib/debug.ml" 28 1246 1250 "lib/debug.ml" 28 1246 1254
+type(
+  Useful.StrSet.t ref
+)
+ident(
+  def tset "lib/debug.ml" 30 1277 1277 "lib/debug.ml" 1 0 -1
+)
+"lib/debug.ml" 28 1246 1257 "lib/debug.ml" 28 1246 1260
+type(
+  Useful.StrSet.t -> Useful.StrSet.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"lib/debug.ml" 28 1246 1261 "lib/debug.ml" 28 1246 1273
+type(
+  Useful.StrSet.t
+)
+ident(
+  ext_ref Useful.StrSet.empty
+)
+"lib/debug.ml" 28 1246 1257 "lib/debug.ml" 28 1246 1273
+type(
+  Useful.StrSet.t ref
+)
+"lib/debug.ml" 30 1277 1281 "lib/debug.ml" 30 1277 1286
+type(
+  Useful.StrSet.elt -> unit
+)
+ident(
+  def trace "lib/debug.ml" 32 1321 1321 "lib/debug.ml" 1 0 -1
+)
+"lib/debug.ml" 30 1277 1287 "lib/debug.ml" 30 1277 1288
+type(
+  Useful.StrSet.elt
+)
+ident(
+  def s "lib/debug.ml" 30 1277 1291 "lib/debug.ml" 30 1277 1317
+)
+"lib/debug.ml" 30 1277 1291 "lib/debug.ml" 30 1277 1295
+type(
+  Useful.StrSet.t ref
+)
+ident(
+  int_ref tset "lib/debug.ml" 28 1246 1250 "lib/debug.ml" 28 1246 1254
+)
+"lib/debug.ml" 30 1277 1296 "lib/debug.ml" 30 1277 1298
+type(
+  Useful.StrSet.t ref -> Useful.StrSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"lib/debug.ml" 30 1277 1299 "lib/debug.ml" 30 1277 1309
+type(
+  Useful.StrSet.elt -> Useful.StrSet.t -> Useful.StrSet.t
+)
+ident(
+  ext_ref Useful.StrSet.add
+)
+"lib/debug.ml" 30 1277 1310 "lib/debug.ml" 30 1277 1311
+type(
+  Useful.StrSet.elt
+)
+ident(
+  int_ref s "lib/debug.ml" 30 1277 1287 "lib/debug.ml" 30 1277 1288
+)
+"lib/debug.ml" 30 1277 1312 "lib/debug.ml" 30 1277 1313
+type(
+  Useful.StrSet.t ref -> Useful.StrSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lib/debug.ml" 30 1277 1313 "lib/debug.ml" 30 1277 1317
+type(
+  Useful.StrSet.t ref
+)
+ident(
+  int_ref tset "lib/debug.ml" 28 1246 1250 "lib/debug.ml" 28 1246 1254
+)
+"lib/debug.ml" 30 1277 1312 "lib/debug.ml" 30 1277 1317
+type(
+  Useful.StrSet.t
+)
+"lib/debug.ml" 30 1277 1299 "lib/debug.ml" 30 1277 1317
+call(
+  stack
+)
+type(
+  Useful.StrSet.t
+)
+"lib/debug.ml" 30 1277 1291 "lib/debug.ml" 30 1277 1317
+type(
+  unit
+)
+"lib/debug.ml" 32 1321 1325 "lib/debug.ml" 32 1321 1332
+type(
+  Useful.StrSet.elt -> unit
+)
+ident(
+  def untrace "lib/debug.ml" 34 1370 1370 "lib/debug.ml" 1 0 -1
+)
+"lib/debug.ml" 32 1321 1333 "lib/debug.ml" 32 1321 1334
+type(
+  Useful.StrSet.elt
+)
+ident(
+  def s "lib/debug.ml" 32 1321 1337 "lib/debug.ml" 32 1321 1366
+)
+"lib/debug.ml" 32 1321 1337 "lib/debug.ml" 32 1321 1341
+type(
+  Useful.StrSet.t ref
+)
+ident(
+  int_ref tset "lib/debug.ml" 28 1246 1250 "lib/debug.ml" 28 1246 1254
+)
+"lib/debug.ml" 32 1321 1342 "lib/debug.ml" 32 1321 1344
+type(
+  Useful.StrSet.t ref -> Useful.StrSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"lib/debug.ml" 32 1321 1345 "lib/debug.ml" 32 1321 1358
+type(
+  Useful.StrSet.elt -> Useful.StrSet.t -> Useful.StrSet.t
+)
+ident(
+  ext_ref Useful.StrSet.remove
+)
+"lib/debug.ml" 32 1321 1359 "lib/debug.ml" 32 1321 1360
+type(
+  Useful.StrSet.elt
+)
+ident(
+  int_ref s "lib/debug.ml" 32 1321 1333 "lib/debug.ml" 32 1321 1334
+)
+"lib/debug.ml" 32 1321 1361 "lib/debug.ml" 32 1321 1362
+type(
+  Useful.StrSet.t ref -> Useful.StrSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lib/debug.ml" 32 1321 1362 "lib/debug.ml" 32 1321 1366
+type(
+  Useful.StrSet.t ref
+)
+ident(
+  int_ref tset "lib/debug.ml" 28 1246 1250 "lib/debug.ml" 28 1246 1254
+)
+"lib/debug.ml" 32 1321 1361 "lib/debug.ml" 32 1321 1366
+type(
+  Useful.StrSet.t
+)
+"lib/debug.ml" 32 1321 1345 "lib/debug.ml" 32 1321 1366
+call(
+  stack
+)
+type(
+  Useful.StrSet.t
+)
+"lib/debug.ml" 32 1321 1337 "lib/debug.ml" 32 1321 1366
+type(
+  unit
+)
+"lib/debug.ml" 34 1370 1374 "lib/debug.ml" 34 1370 1383
+type(
+  Useful.StrSet.elt -> bool
+)
+ident(
+  def is_traced "lib/debug.ml" 36 1426 1426 "lib/debug.ml" 1 0 -1
+)
+"lib/debug.ml" 34 1370 1384 "lib/debug.ml" 34 1370 1385
+type(
+  Useful.StrSet.elt
+)
+ident(
+  def s "lib/debug.ml" 34 1370 1388 "lib/debug.ml" 34 1370 1422
+)
+"lib/debug.ml" 34 1370 1388 "lib/debug.ml" 34 1370 1397
+type(
+  unit -> bool
+)
+ident(
+  int_ref get_debug "lib/debug.ml" 18 1038 1042 "lib/debug.ml" 18 1038 1051
+)
+"lib/debug.ml" 34 1370 1398 "lib/debug.ml" 34 1370 1400
+type(
+  unit
+)
+"lib/debug.ml" 34 1370 1388 "lib/debug.ml" 34 1370 1400
+call(
+  stack
+)
+type(
+  bool
+)
+"lib/debug.ml" 34 1370 1401 "lib/debug.ml" 34 1370 1403
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"lib/debug.ml" 34 1370 1404 "lib/debug.ml" 34 1370 1414
+type(
+  Useful.StrSet.elt -> Useful.StrSet.t -> bool
+)
+ident(
+  ext_ref Useful.StrSet.mem
+)
+"lib/debug.ml" 34 1370 1415 "lib/debug.ml" 34 1370 1416
+type(
+  Useful.StrSet.elt
+)
+ident(
+  int_ref s "lib/debug.ml" 34 1370 1384 "lib/debug.ml" 34 1370 1385
+)
+"lib/debug.ml" 34 1370 1417 "lib/debug.ml" 34 1370 1418
+type(
+  Useful.StrSet.t ref -> Useful.StrSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lib/debug.ml" 34 1370 1418 "lib/debug.ml" 34 1370 1422
+type(
+  Useful.StrSet.t ref
+)
+ident(
+  int_ref tset "lib/debug.ml" 28 1246 1250 "lib/debug.ml" 28 1246 1254
+)
+"lib/debug.ml" 34 1370 1417 "lib/debug.ml" 34 1370 1422
+type(
+  Useful.StrSet.t
+)
+"lib/debug.ml" 34 1370 1404 "lib/debug.ml" 34 1370 1422
+call(
+  tail
+)
+type(
+  bool
+)
+"lib/debug.ml" 34 1370 1388 "lib/debug.ml" 34 1370 1422
+type(
+  bool
+)
+"lib/debug.ml" 38 1441 1445 "lib/debug.ml" 38 1441 1448
+type(
+  string
+)
+ident(
+  def sep "lib/debug.ml" 40 1521 1521 "lib/debug.ml" 1 0 -1
+)
+"lib/debug.ml" 38 1441 1451 "lib/debug.ml" 38 1441 1517
+type(
+  string
+)
+"lib/debug.ml" 40 1521 1525 "lib/debug.ml" 40 1521 1530
+type(
+  ('a, out_channel, unit) format -> 'a
+)
+ident(
+  def print "lib/debug.ml" 45 1603 1603 "lib/debug.ml" 1 0 -1
+)
+"lib/debug.ml" 40 1521 1531 "lib/debug.ml" 40 1521 1534
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  def fmt "lib/debug.ml" 41 1537 1539 "lib/debug.ml" 43 1573 1599
+)
+"lib/debug.ml" 41 1537 1542 "lib/debug.ml" 41 1537 1551
+type(
+  unit -> bool
+)
+ident(
+  int_ref get_debug "lib/debug.ml" 18 1038 1042 "lib/debug.ml" 18 1038 1051
+)
+"lib/debug.ml" 41 1537 1552 "lib/debug.ml" 41 1537 1554
+type(
+  unit
+)
+"lib/debug.ml" 41 1537 1542 "lib/debug.ml" 41 1537 1554
+call(
+  stack
+)
+type(
+  bool
+)
+"lib/debug.ml" 42 1555 1562 "lib/debug.ml" 42 1555 1568
+type(
+  ('a, out_channel, unit) format -> 'a
+)
+ident(
+  ext_ref Printf.printf
+)
+"lib/debug.ml" 42 1555 1569 "lib/debug.ml" 42 1555 1572
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  int_ref fmt "lib/debug.ml" 40 1521 1531 "lib/debug.ml" 40 1521 1534
+)
+"lib/debug.ml" 42 1555 1562 "lib/debug.ml" 42 1555 1572
+call(
+  tail
+)
+type(
+  'a
+)
+"lib/debug.ml" 43 1573 1580 "lib/debug.ml" 43 1573 1588
+type(
+  out_channel -> ('a, out_channel, unit) format -> 'a
+)
+ident(
+  ext_ref Printf.ifprintf
+)
+"lib/debug.ml" 43 1573 1589 "lib/debug.ml" 43 1573 1595
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"lib/debug.ml" 43 1573 1596 "lib/debug.ml" 43 1573 1599
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  int_ref fmt "lib/debug.ml" 40 1521 1531 "lib/debug.ml" 40 1521 1534
+)
+"lib/debug.ml" 43 1573 1580 "lib/debug.ml" 43 1573 1599
+call(
+  tail
+)
+type(
+  'a
+)
+"lib/debug.ml" 41 1537 1539 "lib/debug.ml" 43 1573 1599
+type(
+  'a
+)
+"lib/debug.ml" 45 1603 1607 "lib/debug.ml" 45 1603 1613
+type(
+  Useful.StrSet.elt -> ('a, out_channel, unit) format -> 'a
+)
+ident(
+  def output "lib/debug.ml" 50 1709 1709 "lib/debug.ml" 1 0 -1
+)
+"lib/debug.ml" 45 1603 1614 "lib/debug.ml" 45 1603 1616
+type(
+  Useful.StrSet.elt
+)
+ident(
+  def fn "lib/debug.ml" 45 1603 1617 "lib/debug.ml" 48 1679 1705
+)
+"lib/debug.ml" 45 1603 1617 "lib/debug.ml" 45 1603 1620
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  def fmt "lib/debug.ml" 46 1623 1625 "lib/debug.ml" 48 1679 1705
+)
+"lib/debug.ml" 46 1623 1628 "lib/debug.ml" 46 1623 1637
+type(
+  Useful.StrSet.elt -> bool
+)
+ident(
+  int_ref is_traced "lib/debug.ml" 34 1370 1374 "lib/debug.ml" 34 1370 1383
+)
+"lib/debug.ml" 46 1623 1638 "lib/debug.ml" 46 1623 1640
+type(
+  Useful.StrSet.elt
+)
+ident(
+  int_ref fn "lib/debug.ml" 45 1603 1614 "lib/debug.ml" 45 1603 1616
+)
+"lib/debug.ml" 46 1623 1628 "lib/debug.ml" 46 1623 1640
+call(
+  stack
+)
+type(
+  bool
+)
+"lib/debug.ml" 47 1641 1649 "lib/debug.ml" 47 1641 1655
+type(
+  (Useful.StrSet.elt -> unit, out_channel, unit) format ->
+  Useful.StrSet.elt -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"lib/debug.ml" 47 1641 1656 "lib/debug.ml" 47 1641 1662
+type(
+  (Useful.StrSet.elt -> unit, out_channel, unit) format
+)
+"lib/debug.ml" 47 1641 1663 "lib/debug.ml" 47 1641 1665
+type(
+  Useful.StrSet.elt
+)
+ident(
+  int_ref fn "lib/debug.ml" 45 1603 1614 "lib/debug.ml" 45 1603 1616
+)
+"lib/debug.ml" 47 1641 1649 "lib/debug.ml" 47 1641 1665
+call(
+  stack
+)
+type(
+  unit
+)
+"lib/debug.ml" 47 1641 1667 "lib/debug.ml" 47 1641 1673
+type(
+  ('a, out_channel, unit) format -> 'a
+)
+ident(
+  ext_ref Printf.printf
+)
+"lib/debug.ml" 47 1641 1674 "lib/debug.ml" 47 1641 1677
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  int_ref fmt "lib/debug.ml" 45 1603 1617 "lib/debug.ml" 45 1603 1620
+)
+"lib/debug.ml" 47 1641 1667 "lib/debug.ml" 47 1641 1677
+call(
+  tail
+)
+type(
+  'a
+)
+"lib/debug.ml" 47 1641 1648 "lib/debug.ml" 47 1641 1678
+type(
+  'a
+)
+"lib/debug.ml" 48 1679 1686 "lib/debug.ml" 48 1679 1694
+type(
+  out_channel -> ('a, out_channel, unit) format -> 'a
+)
+ident(
+  ext_ref Printf.ifprintf
+)
+"lib/debug.ml" 48 1679 1695 "lib/debug.ml" 48 1679 1701
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"lib/debug.ml" 48 1679 1702 "lib/debug.ml" 48 1679 1705
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  int_ref fmt "lib/debug.ml" 45 1603 1617 "lib/debug.ml" 45 1603 1620
+)
+"lib/debug.ml" 48 1679 1686 "lib/debug.ml" 48 1679 1705
+call(
+  tail
+)
+type(
+  'a
+)
+"lib/debug.ml" 46 1623 1625 "lib/debug.ml" 48 1679 1705
+type(
+  'a
+)
+"lib/debug.ml" 50 1709 1713 "lib/debug.ml" 50 1709 1723
+type(
+  Useful.StrSet.elt -> ('a, out_channel, unit) format -> 'a
+)
+ident(
+  def output_sep "lib/debug.ml" 53 1795 1821 "lib/debug.ml" 1 0 -1
+)
+"lib/debug.ml" 50 1709 1724 "lib/debug.ml" 50 1709 1726
+type(
+  Useful.StrSet.elt
+)
+ident(
+  def fn "lib/debug.ml" 50 1709 1727 "lib/debug.ml" 53 1795 1821
+)
+"lib/debug.ml" 50 1709 1727 "lib/debug.ml" 50 1709 1730
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  def fmt "lib/debug.ml" 51 1733 1735 "lib/debug.ml" 53 1795 1821
+)
+"lib/debug.ml" 51 1733 1738 "lib/debug.ml" 51 1733 1747
+type(
+  Useful.StrSet.elt -> bool
+)
+ident(
+  int_ref is_traced "lib/debug.ml" 34 1370 1374 "lib/debug.ml" 34 1370 1383
+)
+"lib/debug.ml" 51 1733 1748 "lib/debug.ml" 51 1733 1750
+type(
+  Useful.StrSet.elt
+)
+ident(
+  int_ref fn "lib/debug.ml" 50 1709 1724 "lib/debug.ml" 50 1709 1726
+)
+"lib/debug.ml" 51 1733 1738 "lib/debug.ml" 51 1733 1750
+call(
+  stack
+)
+type(
+  bool
+)
+"lib/debug.ml" 52 1751 1759 "lib/debug.ml" 52 1751 1765
+type(
+  (string -> Useful.StrSet.elt -> unit, out_channel, unit) format ->
+  string -> Useful.StrSet.elt -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"lib/debug.ml" 52 1751 1766 "lib/debug.ml" 52 1751 1774
+type(
+  (string -> Useful.StrSet.elt -> unit, out_channel, unit) format
+)
+"lib/debug.ml" 52 1751 1775 "lib/debug.ml" 52 1751 1778
+type(
+  string
+)
+ident(
+  int_ref sep "lib/debug.ml" 38 1441 1445 "lib/debug.ml" 38 1441 1448
+)
+"lib/debug.ml" 52 1751 1779 "lib/debug.ml" 52 1751 1781
+type(
+  Useful.StrSet.elt
+)
+ident(
+  int_ref fn "lib/debug.ml" 50 1709 1724 "lib/debug.ml" 50 1709 1726
+)
+"lib/debug.ml" 52 1751 1759 "lib/debug.ml" 52 1751 1781
+call(
+  stack
+)
+type(
+  unit
+)
+"lib/debug.ml" 52 1751 1783 "lib/debug.ml" 52 1751 1789
+type(
+  ('a, out_channel, unit) format -> 'a
+)
+ident(
+  ext_ref Printf.printf
+)
+"lib/debug.ml" 52 1751 1790 "lib/debug.ml" 52 1751 1793
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  int_ref fmt "lib/debug.ml" 50 1709 1727 "lib/debug.ml" 50 1709 1730
+)
+"lib/debug.ml" 52 1751 1783 "lib/debug.ml" 52 1751 1793
+call(
+  tail
+)
+type(
+  'a
+)
+"lib/debug.ml" 52 1751 1758 "lib/debug.ml" 52 1751 1794
+type(
+  'a
+)
+"lib/debug.ml" 53 1795 1802 "lib/debug.ml" 53 1795 1810
+type(
+  out_channel -> ('a, out_channel, unit) format -> 'a
+)
+ident(
+  ext_ref Printf.ifprintf
+)
+"lib/debug.ml" 53 1795 1811 "lib/debug.ml" 53 1795 1817
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"lib/debug.ml" 53 1795 1818 "lib/debug.ml" 53 1795 1821
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  int_ref fmt "lib/debug.ml" 50 1709 1727 "lib/debug.ml" 50 1709 1730
+)
+"lib/debug.ml" 53 1795 1802 "lib/debug.ml" 53 1795 1821
+call(
+  tail
+)
+type(
+  'a
+)
+"lib/debug.ml" 51 1733 1735 "lib/debug.ml" 53 1795 1821
+type(
+  'a
+)

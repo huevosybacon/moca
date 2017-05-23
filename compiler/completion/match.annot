@@ -1,0 +1,513 @@
+"completion/match.ml" 24 1088 1092 "completion/match.ml" 24 1088 1105
+type(
+  Term.term -> Term.term -> Subs.subs
+)
+ident(
+  def matching_subs "completion/match.ml" 33 1354 1354 "completion/match.ml" 1 0 -1
+)
+"completion/match.ml" 25 1108 1118 "completion/match.ml" 25 1108 1121
+type(
+  Subs.subs -> Term.term -> Term.term -> Subs.subs
+)
+ident(
+  def aux "completion/match.ml" 25 1108 1110 "completion/match.ml" 31 1331 1350
+)
+"completion/match.ml" 25 1108 1122 "completion/match.ml" 25 1108 1123
+type(
+  Subs.subs
+)
+ident(
+  def s "completion/match.ml" 25 1108 1124 "completion/match.ml" 30 1282 1330
+)
+"completion/match.ml" 25 1108 1124 "completion/match.ml" 25 1108 1125
+type(
+  Term.term
+)
+ident(
+  def p "completion/match.ml" 25 1108 1126 "completion/match.ml" 30 1282 1330
+)
+"completion/match.ml" 25 1108 1126 "completion/match.ml" 25 1108 1127
+type(
+  Term.term
+)
+ident(
+  def t "completion/match.ml" 26 1130 1134 "completion/match.ml" 30 1282 1330
+)
+"completion/match.ml" 26 1130 1140 "completion/match.ml" 26 1130 1141
+type(
+  Term.term
+)
+ident(
+  int_ref p "completion/match.ml" 25 1108 1124 "completion/match.ml" 25 1108 1125
+)
+"completion/match.ml" 26 1130 1143 "completion/match.ml" 26 1130 1144
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/match.ml" 25 1108 1126 "completion/match.ml" 25 1108 1127
+)
+"completion/match.ml" 26 1130 1140 "completion/match.ml" 26 1130 1144
+type(
+  Term.term * Term.term
+)
+"completion/match.ml" 27 1150 1162 "completion/match.ml" 27 1150 1163
+type(
+  Var.var
+)
+ident(
+  def x "completion/match.ml" 27 1150 1170 "completion/match.ml" 27 1150 1185
+)
+"completion/match.ml" 27 1150 1158 "completion/match.ml" 27 1150 1163
+type(
+  Term.term
+)
+"completion/match.ml" 27 1150 1165 "completion/match.ml" 27 1150 1166
+type(
+  Term.term
+)
+ident(
+  def t "completion/match.ml" 27 1150 1170 "completion/match.ml" 27 1150 1185
+)
+"completion/match.ml" 27 1150 1158 "completion/match.ml" 27 1150 1166
+type(
+  Term.term * Term.term
+)
+"completion/match.ml" 27 1150 1170 "completion/match.ml" 27 1150 1179
+type(
+  Var.var -> Term.term -> Subs.subs -> Subs.subs
+)
+ident(
+  ext_ref Subs.check_add
+)
+"completion/match.ml" 27 1150 1180 "completion/match.ml" 27 1150 1181
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/match.ml" 27 1150 1162 "completion/match.ml" 27 1150 1163
+)
+"completion/match.ml" 27 1150 1182 "completion/match.ml" 27 1150 1183
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/match.ml" 27 1150 1165 "completion/match.ml" 27 1150 1166
+)
+"completion/match.ml" 27 1150 1184 "completion/match.ml" 27 1150 1185
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/match.ml" 25 1108 1122 "completion/match.ml" 25 1108 1123
+)
+"completion/match.ml" 27 1150 1170 "completion/match.ml" 27 1150 1185
+call(
+  tail
+)
+type(
+  Subs.subs
+)
+"completion/match.ml" 28 1186 1199 "completion/match.ml" 28 1186 1200
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/match.ml" 28 1186 1224 "completion/match.ml" 28 1186 1260
+)
+"completion/match.ml" 28 1186 1202 "completion/match.ml" 28 1186 1204
+type(
+  Term.term list
+)
+ident(
+  def ps "completion/match.ml" 28 1186 1224 "completion/match.ml" 28 1186 1260
+)
+"completion/match.ml" 28 1186 1194 "completion/match.ml" 28 1186 1205
+type(
+  Term.term
+)
+"completion/match.ml" 28 1186 1212 "completion/match.ml" 28 1186 1213
+type(
+  Symb.symbol
+)
+ident(
+  def g "completion/match.ml" 28 1186 1224 "completion/match.ml" 28 1186 1260
+)
+"completion/match.ml" 28 1186 1215 "completion/match.ml" 28 1186 1217
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/match.ml" 28 1186 1224 "completion/match.ml" 28 1186 1260
+)
+"completion/match.ml" 28 1186 1207 "completion/match.ml" 28 1186 1218
+type(
+  Term.term
+)
+"completion/match.ml" 28 1186 1194 "completion/match.ml" 28 1186 1218
+type(
+  Term.term * Term.term
+)
+"completion/match.ml" 28 1186 1224 "completion/match.ml" 28 1186 1225
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/match.ml" 28 1186 1199 "completion/match.ml" 28 1186 1200
+)
+"completion/match.ml" 28 1186 1226 "completion/match.ml" 28 1186 1227
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/match.ml" 28 1186 1228 "completion/match.ml" 28 1186 1229
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/match.ml" 28 1186 1212 "completion/match.ml" 28 1186 1213
+)
+"completion/match.ml" 28 1186 1224 "completion/match.ml" 28 1186 1229
+type(
+  bool
+)
+"completion/match.ml" 28 1186 1233 "completion/match.ml" 28 1186 1248
+type(
+  (Subs.subs -> Term.term -> Term.term -> Subs.subs) ->
+  Subs.subs -> Term.term list -> Term.term list -> Subs.subs
+)
+ident(
+  ext_ref List.fold_left2
+)
+"completion/match.ml" 28 1186 1249 "completion/match.ml" 28 1186 1252
+type(
+  Subs.subs -> Term.term -> Term.term -> Subs.subs
+)
+ident(
+  int_ref aux "completion/match.ml" 25 1108 1118 "completion/match.ml" 25 1108 1121
+)
+"completion/match.ml" 28 1186 1253 "completion/match.ml" 28 1186 1254
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/match.ml" 25 1108 1122 "completion/match.ml" 25 1108 1123
+)
+"completion/match.ml" 28 1186 1255 "completion/match.ml" 28 1186 1257
+type(
+  Term.term list
+)
+ident(
+  int_ref ps "completion/match.ml" 28 1186 1202 "completion/match.ml" 28 1186 1204
+)
+"completion/match.ml" 28 1186 1258 "completion/match.ml" 28 1186 1260
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/match.ml" 28 1186 1215 "completion/match.ml" 28 1186 1217
+)
+"completion/match.ml" 28 1186 1233 "completion/match.ml" 28 1186 1260
+call(
+  tail
+)
+type(
+  Subs.subs
+)
+"completion/match.ml" 29 1261 1273 "completion/match.ml" 29 1261 1274
+type(
+  Term.term list
+)
+type(
+  Symb.symbol
+)
+"completion/match.ml" 29 1261 1269 "completion/match.ml" 29 1261 1274
+type(
+  Term.term
+)
+"completion/match.ml" 29 1261 1280 "completion/match.ml" 29 1261 1281
+type(
+  Var.var
+)
+"completion/match.ml" 29 1261 1276 "completion/match.ml" 29 1261 1281
+type(
+  Term.term
+)
+"completion/match.ml" 29 1261 1269 "completion/match.ml" 29 1261 1281
+type(
+  Term.term * Term.term
+)
+"completion/match.ml" 30 1282 1294 "completion/match.ml" 30 1282 1295
+type(
+  Term.term list
+)
+type(
+  Symb.symbol
+)
+"completion/match.ml" 30 1282 1290 "completion/match.ml" 30 1282 1295
+type(
+  Term.term
+)
+"completion/match.ml" 30 1282 1301 "completion/match.ml" 30 1282 1302
+type(
+  Term.term list
+)
+type(
+  Symb.symbol
+)
+"completion/match.ml" 30 1282 1297 "completion/match.ml" 30 1282 1302
+type(
+  Term.term
+)
+"completion/match.ml" 30 1282 1290 "completion/match.ml" 30 1282 1302
+type(
+  Term.term * Term.term
+)
+"completion/match.ml" 29 1261 1269 "completion/match.ml" 30 1282 1302
+type(
+  Term.term * Term.term
+)
+"completion/match.ml" 30 1282 1306 "completion/match.ml" 30 1282 1314
+type(
+  string -> Subs.subs
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"completion/match.ml" 30 1282 1315 "completion/match.ml" 30 1282 1330
+type(
+  string
+)
+"completion/match.ml" 30 1282 1306 "completion/match.ml" 30 1282 1330
+call(
+  tail
+)
+type(
+  Subs.subs
+)
+"completion/match.ml" 26 1130 1134 "completion/match.ml" 30 1282 1330
+type(
+  Subs.subs
+)
+"completion/match.ml" 31 1331 1336 "completion/match.ml" 31 1331 1339
+type(
+  Subs.subs -> Term.term -> Term.term -> Subs.subs
+)
+ident(
+  int_ref aux "completion/match.ml" 25 1108 1118 "completion/match.ml" 25 1108 1121
+)
+"completion/match.ml" 31 1331 1340 "completion/match.ml" 31 1331 1350
+type(
+  Subs.subs
+)
+ident(
+  ext_ref Subs.empty
+)
+"completion/match.ml" 31 1331 1336 "completion/match.ml" 31 1331 1350
+call(
+  stack
+)
+type(
+  Term.term -> Term.term -> Subs.subs
+)
+"completion/match.ml" 25 1108 1110 "completion/match.ml" 31 1331 1350
+type(
+  Term.term -> Term.term -> Subs.subs
+)
+"completion/match.ml" 33 1354 1358 "completion/match.ml" 33 1354 1369
+type(
+  Term.term -> Term.term -> Subs.subs option
+)
+ident(
+  def matches_opt "completion/match.ml" 36 1433 1433 "completion/match.ml" 1 0 -1
+)
+"completion/match.ml" 33 1354 1370 "completion/match.ml" 33 1354 1371
+type(
+  Term.term
+)
+ident(
+  def p "completion/match.ml" 33 1354 1372 "completion/match.ml" 34 1376 1429
+)
+"completion/match.ml" 33 1354 1372 "completion/match.ml" 33 1354 1373
+type(
+  Term.term
+)
+ident(
+  def t "completion/match.ml" 34 1376 1378 "completion/match.ml" 34 1376 1429
+)
+"completion/match.ml" 34 1376 1388 "completion/match.ml" 34 1376 1401
+type(
+  Term.term -> Term.term -> Subs.subs
+)
+ident(
+  int_ref matching_subs "completion/match.ml" 24 1088 1092 "completion/match.ml" 24 1088 1105
+)
+"completion/match.ml" 34 1376 1402 "completion/match.ml" 34 1376 1403
+type(
+  Term.term
+)
+ident(
+  int_ref p "completion/match.ml" 33 1354 1370 "completion/match.ml" 33 1354 1371
+)
+"completion/match.ml" 34 1376 1404 "completion/match.ml" 34 1376 1405
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/match.ml" 33 1354 1372 "completion/match.ml" 33 1354 1373
+)
+"completion/match.ml" 34 1376 1387 "completion/match.ml" 34 1376 1406
+call(
+  stack
+)
+type(
+  Subs.subs
+)
+"completion/match.ml" 34 1376 1382 "completion/match.ml" 34 1376 1406
+type(
+  Subs.subs option
+)
+"completion/match.ml" 34 1376 1420 "completion/match.ml" 34 1376 1421
+type(
+  string
+)
+"completion/match.ml" 34 1376 1412 "completion/match.ml" 34 1376 1421
+type(
+  exn
+)
+"completion/match.ml" 34 1376 1425 "completion/match.ml" 34 1376 1429
+type(
+  Subs.subs option
+)
+"completion/match.ml" 34 1376 1378 "completion/match.ml" 34 1376 1429
+type(
+  Subs.subs option
+)
+"completion/match.ml" 36 1433 1437 "completion/match.ml" 36 1433 1444
+type(
+  Term.term -> Term.term -> bool
+)
+ident(
+  def matches "completion/match.ml" 40 1555 1555 "completion/match.ml" 1 0 -1
+)
+"completion/match.ml" 36 1433 1445 "completion/match.ml" 36 1433 1446
+type(
+  Term.term
+)
+ident(
+  def p "completion/match.ml" 36 1433 1447 "completion/match.ml" 36 1433 1487
+)
+"completion/match.ml" 36 1433 1447 "completion/match.ml" 36 1433 1448
+type(
+  Term.term
+)
+ident(
+  def t "completion/match.ml" 36 1433 1451 "completion/match.ml" 36 1433 1487
+)
+"completion/match.ml" 36 1433 1451 "completion/match.ml" 36 1433 1469
+type(
+  Subs.subs option -> bool
+)
+ident(
+  ext_ref Useful.bool_of_opt
+)
+"completion/match.ml" 36 1433 1471 "completion/match.ml" 36 1433 1482
+type(
+  Term.term -> Term.term -> Subs.subs option
+)
+ident(
+  int_ref matches_opt "completion/match.ml" 33 1354 1358 "completion/match.ml" 33 1354 1369
+)
+"completion/match.ml" 36 1433 1483 "completion/match.ml" 36 1433 1484
+type(
+  Term.term
+)
+ident(
+  int_ref p "completion/match.ml" 36 1433 1445 "completion/match.ml" 36 1433 1446
+)
+"completion/match.ml" 36 1433 1485 "completion/match.ml" 36 1433 1486
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/match.ml" 36 1433 1447 "completion/match.ml" 36 1433 1448
+)
+"completion/match.ml" 36 1433 1470 "completion/match.ml" 36 1433 1487
+call(
+  stack
+)
+type(
+  Subs.subs option
+)
+"completion/match.ml" 36 1433 1451 "completion/match.ml" 36 1433 1487
+call(
+  tail
+)
+type(
+  bool
+)
+"completion/match.ml" 40 1555 1559 "completion/match.ml" 40 1555 1568
+type(
+  Term.term -> Term.term -> bool
+)
+ident(
+  def insert_gt "completion/match.ml" 40 1555 1603 "completion/match.ml" 1 0 -1
+)
+"completion/match.ml" 40 1555 1569 "completion/match.ml" 40 1555 1570
+type(
+  Term.term
+)
+ident(
+  def t "completion/match.ml" 40 1555 1571 "completion/match.ml" 40 1555 1603
+)
+"completion/match.ml" 40 1555 1571 "completion/match.ml" 40 1555 1572
+type(
+  Term.term
+)
+ident(
+  def u "completion/match.ml" 40 1555 1575 "completion/match.ml" 40 1555 1603
+)
+"completion/match.ml" 40 1555 1575 "completion/match.ml" 40 1555 1589
+type(
+  (Term.term -> bool) -> Term.term -> bool
+)
+ident(
+  ext_ref Subterm.exists
+)
+"completion/match.ml" 40 1555 1591 "completion/match.ml" 40 1555 1598
+type(
+  Term.term -> Term.term -> bool
+)
+ident(
+  int_ref matches "completion/match.ml" 36 1433 1437 "completion/match.ml" 36 1433 1444
+)
+"completion/match.ml" 40 1555 1599 "completion/match.ml" 40 1555 1600
+type(
+  Term.term
+)
+ident(
+  int_ref u "completion/match.ml" 40 1555 1571 "completion/match.ml" 40 1555 1572
+)
+"completion/match.ml" 40 1555 1590 "completion/match.ml" 40 1555 1601
+call(
+  stack
+)
+type(
+  Term.term -> bool
+)
+"completion/match.ml" 40 1555 1602 "completion/match.ml" 40 1555 1603
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/match.ml" 40 1555 1569 "completion/match.ml" 40 1555 1570
+)
+"completion/match.ml" 40 1555 1575 "completion/match.ml" 40 1555 1603
+call(
+  tail
+)
+type(
+  bool
+)

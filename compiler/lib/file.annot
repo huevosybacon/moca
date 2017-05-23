@@ -1,0 +1,1349 @@
+"lib/file.ml" 30 1212 1216 "lib/file.ml" 30 1212 1232
+type(
+  string -> out_channel
+)
+ident(
+  def careful_open_out "lib/file.ml" 34 1294 1294 "lib/file.ml" 1 0 -1
+)
+"lib/file.ml" 30 1212 1233 "lib/file.ml" 30 1212 1238
+type(
+  string
+)
+ident(
+  def fname "lib/file.ml" 31 1241 1243 "lib/file.ml" 31 1241 1289
+)
+"lib/file.ml" 31 1241 1246 "lib/file.ml" 31 1241 1251
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 30 1212 1233 "lib/file.ml" 30 1212 1238
+)
+"lib/file.ml" 31 1241 1252 "lib/file.ml" 31 1241 1253
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"lib/file.ml" 31 1241 1254 "lib/file.ml" 31 1241 1257
+type(
+  string
+)
+"lib/file.ml" 31 1241 1246 "lib/file.ml" 31 1241 1257
+type(
+  bool
+)
+"lib/file.ml" 31 1241 1263 "lib/file.ml" 31 1241 1269
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"lib/file.ml" 31 1241 1275 "lib/file.ml" 31 1241 1283
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"lib/file.ml" 31 1241 1284 "lib/file.ml" 31 1241 1289
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 30 1212 1233 "lib/file.ml" 30 1212 1238
+)
+"lib/file.ml" 31 1241 1275 "lib/file.ml" 31 1241 1289
+call(
+  tail
+)
+type(
+  out_channel
+)
+"lib/file.ml" 31 1241 1243 "lib/file.ml" 31 1241 1289
+type(
+  out_channel
+)
+"lib/file.ml" 34 1294 1298 "lib/file.ml" 34 1294 1315
+type(
+  out_channel -> unit
+)
+ident(
+  def careful_close_out "lib/file.ml" 42 1498 1498 "lib/file.ml" 1 0 -1
+)
+"lib/file.ml" 34 1294 1316 "lib/file.ml" 34 1294 1318
+type(
+  out_channel
+)
+ident(
+  def oc "lib/file.ml" 35 1321 1323 "lib/file.ml" 35 1321 1356
+)
+"lib/file.ml" 35 1321 1326 "lib/file.ml" 35 1321 1328
+type(
+  out_channel
+)
+ident(
+  int_ref oc "lib/file.ml" 34 1294 1316 "lib/file.ml" 34 1294 1318
+)
+"lib/file.ml" 35 1321 1329 "lib/file.ml" 35 1321 1331
+type(
+  out_channel -> out_channel -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"lib/file.ml" 35 1321 1332 "lib/file.ml" 35 1321 1338
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"lib/file.ml" 35 1321 1326 "lib/file.ml" 35 1321 1338
+type(
+  bool
+)
+"lib/file.ml" 35 1321 1344 "lib/file.ml" 35 1321 1353
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"lib/file.ml" 35 1321 1354 "lib/file.ml" 35 1321 1356
+type(
+  out_channel
+)
+ident(
+  int_ref oc "lib/file.ml" 34 1294 1316 "lib/file.ml" 34 1294 1318
+)
+"lib/file.ml" 35 1321 1344 "lib/file.ml" 35 1321 1356
+call(
+  tail
+)
+type(
+  unit
+)
+"lib/file.ml" 35 1321 1323 "lib/file.ml" 35 1321 1356
+type(
+  unit
+)
+"lib/file.ml" 45 1545 1549 "lib/file.ml" 45 1545 1565
+type(
+  string -> string -> string -> string
+)
+ident(
+  def change_extension "lib/file.ml" 54 1821 1821 "lib/file.ml" 1 0 -1
+)
+"lib/file.ml" 45 1545 1566 "lib/file.ml" 45 1545 1570
+type(
+  string
+)
+ident(
+  def ext1 "lib/file.ml" 45 1545 1571 "lib/file.ml" 51 1740 1816
+)
+"lib/file.ml" 45 1545 1571 "lib/file.ml" 45 1545 1575
+type(
+  string
+)
+ident(
+  def ext2 "lib/file.ml" 45 1545 1576 "lib/file.ml" 51 1740 1816
+)
+"lib/file.ml" 45 1545 1576 "lib/file.ml" 45 1545 1581
+type(
+  string
+)
+ident(
+  def fname "lib/file.ml" 46 1584 1586 "lib/file.ml" 51 1740 1816
+)
+"lib/file.ml" 46 1584 1592 "lib/file.ml" 46 1584 1597
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 45 1545 1576 "lib/file.ml" 45 1545 1581
+)
+"lib/file.ml" 47 1603 1607 "lib/file.ml" 47 1603 1610
+type(
+  string
+)
+"lib/file.ml" 47 1603 1614 "lib/file.ml" 47 1603 1619
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 45 1545 1576 "lib/file.ml" 45 1545 1581
+)
+"lib/file.ml" 48 1620 1624 "lib/file.ml" 48 1620 1625
+type(
+  string
+)
+"lib/file.ml" 49 1629 1637 "lib/file.ml" 49 1629 1644
+type(
+  bool
+)
+ident(
+  def is_ext1 "lib/file.ml" 50 1683 1687 "lib/file.ml" 51 1740 1816
+)
+"lib/file.ml" 49 1629 1647 "lib/file.ml" 49 1629 1668
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"lib/file.ml" 49 1629 1669 "lib/file.ml" 49 1629 1674
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 45 1545 1576 "lib/file.ml" 45 1545 1581
+)
+"lib/file.ml" 49 1629 1675 "lib/file.ml" 49 1629 1679
+type(
+  string
+)
+ident(
+  int_ref ext1 "lib/file.ml" 45 1545 1566 "lib/file.ml" 45 1545 1570
+)
+"lib/file.ml" 49 1629 1647 "lib/file.ml" 49 1629 1679
+call(
+  stack
+)
+type(
+  bool
+)
+"lib/file.ml" 50 1683 1690 "lib/file.ml" 50 1683 1697
+type(
+  bool
+)
+ident(
+  int_ref is_ext1 "lib/file.ml" 49 1629 1637 "lib/file.ml" 49 1629 1644
+)
+"lib/file.ml" 50 1683 1703 "lib/file.ml" 50 1683 1726
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.chop_extension
+)
+"lib/file.ml" 50 1683 1727 "lib/file.ml" 50 1683 1732
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 45 1545 1576 "lib/file.ml" 45 1545 1581
+)
+"lib/file.ml" 50 1683 1703 "lib/file.ml" 50 1683 1732
+call(
+  stack
+)
+type(
+  string
+)
+"lib/file.ml" 50 1683 1733 "lib/file.ml" 50 1683 1734
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"lib/file.ml" 50 1683 1735 "lib/file.ml" 50 1683 1739
+type(
+  string
+)
+ident(
+  int_ref ext2 "lib/file.ml" 45 1545 1571 "lib/file.ml" 45 1545 1575
+)
+"lib/file.ml" 50 1683 1703 "lib/file.ml" 50 1683 1739
+call(
+  tail
+)
+type(
+  string
+)
+"lib/file.ml" 51 1740 1749 "lib/file.ml" 51 1740 1757
+type(
+  string -> string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"lib/file.ml" 51 1740 1759 "lib/file.ml" 51 1740 1766
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"lib/file.ml" 51 1740 1767 "lib/file.ml" 51 1740 1804
+type(
+  (string -> string -> string, unit, string) format
+)
+"lib/file.ml" 51 1740 1805 "lib/file.ml" 51 1740 1810
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 45 1545 1576 "lib/file.ml" 45 1545 1581
+)
+"lib/file.ml" 51 1740 1811 "lib/file.ml" 51 1740 1815
+type(
+  string
+)
+ident(
+  int_ref ext1 "lib/file.ml" 45 1545 1566 "lib/file.ml" 45 1545 1570
+)
+"lib/file.ml" 51 1740 1758 "lib/file.ml" 51 1740 1816
+call(
+  stack
+)
+type(
+  string
+)
+"lib/file.ml" 51 1740 1749 "lib/file.ml" 51 1740 1816
+call(
+  tail
+)
+type(
+  string
+)
+"lib/file.ml" 50 1683 1687 "lib/file.ml" 51 1740 1816
+type(
+  string
+)
+"lib/file.ml" 49 1629 1633 "lib/file.ml" 51 1740 1816
+type(
+  string
+)
+"lib/file.ml" 46 1584 1586 "lib/file.ml" 51 1740 1816
+type(
+  string
+)
+"lib/file.ml" 54 1821 1825 "lib/file.ml" 54 1821 1845
+type(
+  string -> string -> string
+)
+ident(
+  def change_mlm_extension "lib/file.ml" 64 2121 2121 "lib/file.ml" 1 0 -1
+)
+"lib/file.ml" 54 1821 1846 "lib/file.ml" 54 1821 1850
+type(
+  string
+)
+ident(
+  def ext2 "lib/file.ml" 54 1821 1851 "lib/file.ml" 59 2030 2073
+)
+"lib/file.ml" 54 1821 1851 "lib/file.ml" 54 1821 1856
+type(
+  string
+)
+ident(
+  def fname "lib/file.ml" 55 1859 1861 "lib/file.ml" 59 2030 2073
+)
+"lib/file.ml" 55 1859 1864 "lib/file.ml" 55 1859 1885
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"lib/file.ml" 55 1859 1886 "lib/file.ml" 55 1859 1891
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 54 1821 1851 "lib/file.ml" 54 1821 1856
+)
+"lib/file.ml" 55 1859 1892 "lib/file.ml" 55 1859 1898
+type(
+  string
+)
+"lib/file.ml" 55 1859 1864 "lib/file.ml" 55 1859 1898
+call(
+  stack
+)
+type(
+  bool
+)
+"lib/file.ml" 56 1899 1906 "lib/file.ml" 56 1899 1922
+type(
+  string -> string -> string -> string
+)
+ident(
+  int_ref change_extension "lib/file.ml" 45 1545 1549 "lib/file.ml" 45 1545 1565
+)
+"lib/file.ml" 56 1899 1923 "lib/file.ml" 56 1899 1929
+type(
+  string
+)
+"lib/file.ml" 56 1899 1930 "lib/file.ml" 56 1899 1934
+type(
+  string
+)
+ident(
+  int_ref ext2 "lib/file.ml" 54 1821 1846 "lib/file.ml" 54 1821 1850
+)
+"lib/file.ml" 56 1899 1935 "lib/file.ml" 56 1899 1940
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 54 1821 1851 "lib/file.ml" 54 1821 1856
+)
+"lib/file.ml" 56 1899 1906 "lib/file.ml" 56 1899 1940
+call(
+  tail
+)
+type(
+  string
+)
+"lib/file.ml" 57 1941 1951 "lib/file.ml" 57 1941 1972
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"lib/file.ml" 57 1941 1973 "lib/file.ml" 57 1941 1978
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 54 1821 1851 "lib/file.ml" 54 1821 1856
+)
+"lib/file.ml" 57 1941 1979 "lib/file.ml" 57 1941 1986
+type(
+  string
+)
+"lib/file.ml" 57 1941 1951 "lib/file.ml" 57 1941 1986
+call(
+  stack
+)
+type(
+  bool
+)
+"lib/file.ml" 58 1987 1994 "lib/file.ml" 58 1987 2010
+type(
+  string -> string -> string -> string
+)
+ident(
+  int_ref change_extension "lib/file.ml" 45 1545 1549 "lib/file.ml" 45 1545 1565
+)
+"lib/file.ml" 58 1987 2011 "lib/file.ml" 58 1987 2018
+type(
+  string
+)
+"lib/file.ml" 58 1987 2019 "lib/file.ml" 58 1987 2023
+type(
+  string
+)
+ident(
+  int_ref ext2 "lib/file.ml" 54 1821 1846 "lib/file.ml" 54 1821 1850
+)
+"lib/file.ml" 58 1987 2024 "lib/file.ml" 58 1987 2029
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 54 1821 1851 "lib/file.ml" 54 1821 1856
+)
+"lib/file.ml" 58 1987 1994 "lib/file.ml" 58 1987 2029
+call(
+  tail
+)
+type(
+  string
+)
+"lib/file.ml" 59 2030 2037 "lib/file.ml" 59 2030 2042
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lib/file.ml" 59 2030 2067 "lib/file.ml" 59 2030 2072
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 54 1821 1851 "lib/file.ml" 54 1821 1856
+)
+"lib/file.ml" 59 2030 2043 "lib/file.ml" 59 2030 2073
+type(
+  exn
+)
+"lib/file.ml" 59 2030 2037 "lib/file.ml" 59 2030 2073
+type(
+  string
+)
+"lib/file.ml" 57 1941 1948 "lib/file.ml" 59 2030 2073
+type(
+  string
+)
+"lib/file.ml" 55 1859 1861 "lib/file.ml" 59 2030 2073
+type(
+  string
+)
+"lib/file.ml" 64 2121 2125 "lib/file.ml" 64 2121 2140
+type(
+  unit -> string list
+)
+ident(
+  def get_search_path "lib/file.ml" 70 2278 2278 "lib/file.ml" 1 0 -1
+)
+"lib/file.ml" 64 2121 2142 "lib/file.ml" 64 2121 2164
+type(
+  string -> unit
+)
+ident(
+  def add_dir_to_search_path "lib/file.ml" 70 2278 2278 "lib/file.ml" 1 0 -1
+)
+"lib/file.ml" 64 2121 2125 "lib/file.ml" 64 2121 2164
+type(
+  (unit -> string list) * (string -> unit)
+)
+"lib/file.ml" 65 2167 2173 "lib/file.ml" 65 2167 2184
+type(
+  string list ref
+)
+ident(
+  def search_path "lib/file.ml" 66 2200 2202 "lib/file.ml" 67 2228 2273
+)
+"lib/file.ml" 65 2167 2187 "lib/file.ml" 65 2167 2190
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"lib/file.ml" 65 2167 2192 "lib/file.ml" 65 2167 2195
+type(
+  string
+)
+"lib/file.ml" 65 2167 2191 "lib/file.ml" 65 2167 2196
+type(
+  string list
+)
+"lib/file.ml" 65 2167 2187 "lib/file.ml" 65 2167 2196
+type(
+  string list ref
+)
+"lib/file.ml" 66 2200 2207 "lib/file.ml" 66 2200 2209
+type(
+  unit
+)
+"lib/file.ml" 66 2200 2213 "lib/file.ml" 66 2200 2214
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lib/file.ml" 66 2200 2214 "lib/file.ml" 66 2200 2225
+type(
+  string list ref
+)
+ident(
+  int_ref search_path "lib/file.ml" 65 2167 2173 "lib/file.ml" 65 2167 2184
+)
+"lib/file.ml" 66 2200 2213 "lib/file.ml" 66 2200 2225
+type(
+  string list
+)
+"lib/file.ml" 66 2200 2202 "lib/file.ml" 66 2200 2226
+type(
+  unit -> string list
+)
+"lib/file.ml" 67 2228 2235 "lib/file.ml" 67 2228 2236
+type(
+  string
+)
+ident(
+  def s "lib/file.ml" 67 2228 2240 "lib/file.ml" 67 2228 2272
+)
+"lib/file.ml" 67 2228 2240 "lib/file.ml" 67 2228 2251
+type(
+  string list ref
+)
+ident(
+  int_ref search_path "lib/file.ml" 65 2167 2173 "lib/file.ml" 65 2167 2184
+)
+"lib/file.ml" 67 2228 2252 "lib/file.ml" 67 2228 2254
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"lib/file.ml" 67 2228 2255 "lib/file.ml" 67 2228 2256
+type(
+  string
+)
+ident(
+  int_ref s "lib/file.ml" 67 2228 2235 "lib/file.ml" 67 2228 2236
+)
+"lib/file.ml" 67 2228 2260 "lib/file.ml" 67 2228 2261
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lib/file.ml" 67 2228 2261 "lib/file.ml" 67 2228 2272
+type(
+  string list ref
+)
+ident(
+  int_ref search_path "lib/file.ml" 65 2167 2173 "lib/file.ml" 65 2167 2184
+)
+"lib/file.ml" 67 2228 2260 "lib/file.ml" 67 2228 2272
+type(
+  string list
+)
+"lib/file.ml" 67 2228 2255 "lib/file.ml" 67 2228 2272
+type(
+  string list
+)
+"lib/file.ml" 67 2228 2240 "lib/file.ml" 67 2228 2272
+type(
+  unit
+)
+"lib/file.ml" 67 2228 2230 "lib/file.ml" 67 2228 2273
+type(
+  string -> unit
+)
+"lib/file.ml" 66 2200 2202 "lib/file.ml" 67 2228 2273
+type(
+  (unit -> string list) * (string -> unit)
+)
+"lib/file.ml" 65 2167 2169 "lib/file.ml" 67 2228 2273
+type(
+  (unit -> string list) * (string -> unit)
+)
+"lib/file.ml" 70 2278 2282 "lib/file.ml" 70 2278 2305
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  def create_lexbuf_from_file "lib/file.ml" 81 2521 2521 "lib/file.ml" 1 0 -1
+)
+"lib/file.ml" 70 2278 2306 "lib/file.ml" 70 2278 2311
+type(
+  string
+)
+ident(
+  def fname "lib/file.ml" 71 2314 2316 "lib/file.ml" 78 2512 2516
+)
+"lib/file.ml" 71 2314 2320 "lib/file.ml" 71 2314 2322
+type(
+  in_channel
+)
+ident(
+  def ic "lib/file.ml" 75 2389 2391 "lib/file.ml" 78 2512 2516
+)
+"lib/file.ml" 72 2325 2335 "lib/file.ml" 72 2325 2340
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 70 2278 2306 "lib/file.ml" 70 2278 2311
+)
+"lib/file.ml" 73 2346 2352 "lib/file.ml" 73 2346 2355
+type(
+  string
+)
+"lib/file.ml" 73 2346 2359 "lib/file.ml" 73 2346 2364
+type(
+  in_channel
+)
+ident(
+  ext_ref Pervasives.stdin
+)
+"lib/file.ml" 74 2365 2371 "lib/file.ml" 74 2365 2372
+type(
+  string
+)
+ident(
+  def s "lib/file.ml" 74 2365 2376 "lib/file.ml" 74 2365 2385
+)
+"lib/file.ml" 74 2365 2376 "lib/file.ml" 74 2365 2383
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"lib/file.ml" 74 2365 2384 "lib/file.ml" 74 2365 2385
+type(
+  string
+)
+ident(
+  int_ref s "lib/file.ml" 74 2365 2371 "lib/file.ml" 74 2365 2372
+)
+"lib/file.ml" 74 2365 2376 "lib/file.ml" 74 2365 2385
+call(
+  stack
+)
+type(
+  in_channel
+)
+"lib/file.ml" 72 2325 2329 "lib/file.ml" 74 2365 2385
+type(
+  in_channel
+)
+"lib/file.ml" 75 2389 2395 "lib/file.ml" 75 2389 2397
+type(
+  Lexing.lexbuf
+)
+ident(
+  def ib "lib/file.ml" 76 2426 2428 "lib/file.ml" 78 2512 2516
+)
+"lib/file.ml" 75 2389 2400 "lib/file.ml" 75 2389 2419
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"lib/file.ml" 75 2389 2420 "lib/file.ml" 75 2389 2422
+type(
+  in_channel
+)
+ident(
+  int_ref ic "lib/file.ml" 71 2314 2320 "lib/file.ml" 71 2314 2322
+)
+"lib/file.ml" 75 2389 2400 "lib/file.ml" 75 2389 2422
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"lib/file.ml" 76 2426 2428 "lib/file.ml" 76 2426 2430
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref ib "lib/file.ml" 75 2389 2395 "lib/file.ml" 75 2389 2397
+)
+"lib/file.ml" 77 2452 2458 "lib/file.ml" 77 2452 2460
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref ib "lib/file.ml" 75 2389 2395 "lib/file.ml" 75 2389 2397
+)
+"lib/file.ml" 77 2452 2458 "lib/file.ml" 77 2452 2478
+type(
+  Lexing.position
+)
+"lib/file.ml" 77 2452 2503 "lib/file.ml" 77 2452 2508
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 70 2278 2306 "lib/file.ml" 70 2278 2311
+)
+"lib/file.ml" 77 2452 2456 "lib/file.ml" 77 2452 2510
+type(
+  Lexing.position
+)
+"lib/file.ml" 76 2426 2428 "lib/file.ml" 77 2452 2510
+type(
+  unit
+)
+"lib/file.ml" 78 2512 2514 "lib/file.ml" 78 2512 2516
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref ib "lib/file.ml" 75 2389 2395 "lib/file.ml" 75 2389 2397
+)
+"lib/file.ml" 76 2426 2428 "lib/file.ml" 78 2512 2516
+type(
+  Lexing.lexbuf
+)
+"lib/file.ml" 75 2389 2391 "lib/file.ml" 78 2512 2516
+type(
+  Lexing.lexbuf
+)
+"lib/file.ml" 71 2314 2316 "lib/file.ml" 78 2512 2516
+type(
+  Lexing.lexbuf
+)
+"lib/file.ml" 81 2521 2529 "lib/file.ml" 81 2521 2540
+type(
+  string -> string list -> string
+)
+ident(
+  def search_file "lib/file.ml" 81 2521 2521 "lib/file.ml" 1 0 -1
+)
+"lib/file.ml" 81 2521 2541 "lib/file.ml" 81 2521 2546
+type(
+  string
+)
+ident(
+  def fname "lib/file.ml" 81 2521 2549 "lib/file.ml" 87 2704 2735
+)
+"lib/file.ml" 82 2558 2562 "lib/file.ml" 82 2558 2564
+type(
+  string list
+)
+"lib/file.ml" 82 2558 2568 "lib/file.ml" 82 2558 2573
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lib/file.ml" 82 2558 2574 "lib/file.ml" 82 2558 2583
+type(
+  exn
+)
+"lib/file.ml" 82 2558 2568 "lib/file.ml" 82 2558 2583
+type(
+  string
+)
+"lib/file.ml" 83 2584 2588 "lib/file.ml" 83 2584 2589
+type(
+  string
+)
+ident(
+  def d "lib/file.ml" 84 2599 2605 "lib/file.ml" 87 2704 2735
+)
+"lib/file.ml" 83 2584 2593 "lib/file.ml" 83 2584 2595
+type(
+  string list
+)
+ident(
+  def ds "lib/file.ml" 84 2599 2605 "lib/file.ml" 87 2704 2735
+)
+"lib/file.ml" 83 2584 2588 "lib/file.ml" 83 2584 2595
+type(
+  string list
+)
+"lib/file.ml" 84 2599 2609 "lib/file.ml" 84 2599 2618
+type(
+  string
+)
+ident(
+  def abs_fname "lib/file.ml" 85 2648 2654 "lib/file.ml" 87 2704 2735
+)
+"lib/file.ml" 84 2599 2621 "lib/file.ml" 84 2599 2636
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"lib/file.ml" 84 2599 2637 "lib/file.ml" 84 2599 2638
+type(
+  string
+)
+ident(
+  int_ref d "lib/file.ml" 83 2584 2588 "lib/file.ml" 83 2584 2589
+)
+"lib/file.ml" 84 2599 2639 "lib/file.ml" 84 2599 2644
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 81 2521 2541 "lib/file.ml" 81 2521 2546
+)
+"lib/file.ml" 84 2599 2621 "lib/file.ml" 84 2599 2644
+call(
+  stack
+)
+type(
+  string
+)
+"lib/file.ml" 85 2648 2657 "lib/file.ml" 85 2648 2672
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"lib/file.ml" 85 2648 2673 "lib/file.ml" 85 2648 2682
+type(
+  string
+)
+ident(
+  int_ref abs_fname "lib/file.ml" 84 2599 2609 "lib/file.ml" 84 2599 2618
+)
+"lib/file.ml" 85 2648 2657 "lib/file.ml" 85 2648 2682
+type(
+  bool
+)
+"lib/file.ml" 86 2683 2694 "lib/file.ml" 86 2683 2703
+type(
+  string
+)
+ident(
+  int_ref abs_fname "lib/file.ml" 84 2599 2609 "lib/file.ml" 84 2599 2618
+)
+"lib/file.ml" 87 2704 2715 "lib/file.ml" 87 2704 2726
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref search_file "lib/file.ml" 81 2521 2529 "lib/file.ml" 81 2521 2540
+)
+"lib/file.ml" 87 2704 2727 "lib/file.ml" 87 2704 2732
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 81 2521 2541 "lib/file.ml" 81 2521 2546
+)
+"lib/file.ml" 87 2704 2733 "lib/file.ml" 87 2704 2735
+type(
+  string list
+)
+ident(
+  int_ref ds "lib/file.ml" 83 2584 2593 "lib/file.ml" 83 2584 2595
+)
+"lib/file.ml" 87 2704 2715 "lib/file.ml" 87 2704 2735
+call(
+  tail
+)
+type(
+  string
+)
+"lib/file.ml" 85 2648 2654 "lib/file.ml" 87 2704 2735
+type(
+  string
+)
+"lib/file.ml" 84 2599 2605 "lib/file.ml" 87 2704 2735
+type(
+  string
+)
+"lib/file.ml" 81 2521 2549 "lib/file.ml" 87 2704 2735
+type(
+  string list -> string
+)
+"lib/file.ml" 90 2740 2744 "lib/file.ml" 90 2740 2770
+type(
+  string -> string
+)
+ident(
+  def search_mli_file_for_module "lib/file.ml" 95 2880 2880 "lib/file.ml" 1 0 -1
+)
+"lib/file.ml" 90 2740 2771 "lib/file.ml" 90 2740 2778
+type(
+  string
+)
+ident(
+  def modname "lib/file.ml" 91 2781 2783 "lib/file.ml" 92 2835 2875
+)
+"lib/file.ml" 91 2781 2787 "lib/file.ml" 91 2781 2792
+type(
+  string
+)
+ident(
+  def fname "lib/file.ml" 92 2835 2837 "lib/file.ml" 92 2835 2875
+)
+"lib/file.ml" 91 2781 2795 "lib/file.ml" 91 2781 2814
+type(
+  string -> string
+)
+ident(
+  ext_ref String.uncapitalize
+)
+"lib/file.ml" 91 2781 2815 "lib/file.ml" 91 2781 2822
+type(
+  string
+)
+ident(
+  int_ref modname "lib/file.ml" 90 2740 2771 "lib/file.ml" 90 2740 2778
+)
+"lib/file.ml" 91 2781 2795 "lib/file.ml" 91 2781 2822
+call(
+  stack
+)
+type(
+  string
+)
+"lib/file.ml" 91 2781 2823 "lib/file.ml" 91 2781 2824
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"lib/file.ml" 91 2781 2825 "lib/file.ml" 91 2781 2831
+type(
+  string
+)
+"lib/file.ml" 91 2781 2795 "lib/file.ml" 91 2781 2831
+call(
+  stack
+)
+type(
+  string
+)
+"lib/file.ml" 92 2835 2837 "lib/file.ml" 92 2835 2848
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref search_file "lib/file.ml" 81 2521 2529 "lib/file.ml" 81 2521 2540
+)
+"lib/file.ml" 92 2835 2849 "lib/file.ml" 92 2835 2854
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 91 2781 2787 "lib/file.ml" 91 2781 2792
+)
+"lib/file.ml" 92 2835 2856 "lib/file.ml" 92 2835 2871
+type(
+  unit -> string list
+)
+ident(
+  int_ref get_search_path "lib/file.ml" 64 2121 2125 "lib/file.ml" 64 2121 2140
+)
+"lib/file.ml" 92 2835 2872 "lib/file.ml" 92 2835 2874
+type(
+  unit
+)
+"lib/file.ml" 92 2835 2855 "lib/file.ml" 92 2835 2875
+call(
+  stack
+)
+type(
+  string list
+)
+"lib/file.ml" 92 2835 2837 "lib/file.ml" 92 2835 2875
+call(
+  tail
+)
+type(
+  string
+)
+"lib/file.ml" 91 2781 2783 "lib/file.ml" 92 2835 2875
+type(
+  string
+)
+"lib/file.ml" 95 2880 2884 "lib/file.ml" 95 2880 2909
+type(
+  string -> string
+)
+ident(
+  def search_ml_file_for_module "lib/file.ml" 100 3018 3018 "lib/file.ml" 1 0 -1
+)
+"lib/file.ml" 95 2880 2910 "lib/file.ml" 95 2880 2917
+type(
+  string
+)
+ident(
+  def modname "lib/file.ml" 96 2920 2922 "lib/file.ml" 97 2973 3013
+)
+"lib/file.ml" 96 2920 2926 "lib/file.ml" 96 2920 2931
+type(
+  string
+)
+ident(
+  def fname "lib/file.ml" 97 2973 2975 "lib/file.ml" 97 2973 3013
+)
+"lib/file.ml" 96 2920 2934 "lib/file.ml" 96 2920 2953
+type(
+  string -> string
+)
+ident(
+  ext_ref String.uncapitalize
+)
+"lib/file.ml" 96 2920 2954 "lib/file.ml" 96 2920 2961
+type(
+  string
+)
+ident(
+  int_ref modname "lib/file.ml" 95 2880 2910 "lib/file.ml" 95 2880 2917
+)
+"lib/file.ml" 96 2920 2934 "lib/file.ml" 96 2920 2961
+call(
+  stack
+)
+type(
+  string
+)
+"lib/file.ml" 96 2920 2962 "lib/file.ml" 96 2920 2963
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"lib/file.ml" 96 2920 2964 "lib/file.ml" 96 2920 2969
+type(
+  string
+)
+"lib/file.ml" 96 2920 2934 "lib/file.ml" 96 2920 2969
+call(
+  stack
+)
+type(
+  string
+)
+"lib/file.ml" 97 2973 2975 "lib/file.ml" 97 2973 2986
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref search_file "lib/file.ml" 81 2521 2529 "lib/file.ml" 81 2521 2540
+)
+"lib/file.ml" 97 2973 2987 "lib/file.ml" 97 2973 2992
+type(
+  string
+)
+ident(
+  int_ref fname "lib/file.ml" 96 2920 2926 "lib/file.ml" 96 2920 2931
+)
+"lib/file.ml" 97 2973 2994 "lib/file.ml" 97 2973 3009
+type(
+  unit -> string list
+)
+ident(
+  int_ref get_search_path "lib/file.ml" 64 2121 2125 "lib/file.ml" 64 2121 2140
+)
+"lib/file.ml" 97 2973 3010 "lib/file.ml" 97 2973 3012
+type(
+  unit
+)
+"lib/file.ml" 97 2973 2993 "lib/file.ml" 97 2973 3013
+call(
+  stack
+)
+type(
+  string list
+)
+"lib/file.ml" 97 2973 2975 "lib/file.ml" 97 2973 3013
+call(
+  tail
+)
+type(
+  string
+)
+"lib/file.ml" 96 2920 2922 "lib/file.ml" 97 2973 3013
+type(
+  string
+)
+"lib/file.ml" 100 3018 3022 "lib/file.ml" 100 3018 3040
+type(
+  string -> string
+)
+ident(
+  def module_of_mli_file "lib/file.ml" 105 3160 3160 "lib/file.ml" 1 0 -1
+)
+"lib/file.ml" 100 3018 3041 "lib/file.ml" 100 3018 3049
+type(
+  string
+)
+ident(
+  def mli_file "lib/file.ml" 101 3052 3054 "lib/file.ml" 102 3100 3155
+)
+"lib/file.ml" 101 3052 3058 "lib/file.ml" 101 3052 3067
+type(
+  string
+)
+ident(
+  def base_name "lib/file.ml" 102 3100 3102 "lib/file.ml" 102 3100 3155
+)
+"lib/file.ml" 101 3052 3070 "lib/file.ml" 101 3052 3087
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.basename
+)
+"lib/file.ml" 101 3052 3088 "lib/file.ml" 101 3052 3096
+type(
+  string
+)
+ident(
+  int_ref mli_file "lib/file.ml" 100 3018 3041 "lib/file.ml" 100 3018 3049
+)
+"lib/file.ml" 101 3052 3070 "lib/file.ml" 101 3052 3096
+call(
+  stack
+)
+type(
+  string
+)
+"lib/file.ml" 102 3100 3102 "lib/file.ml" 102 3100 3119
+type(
+  string -> string
+)
+ident(
+  ext_ref String.capitalize
+)
+"lib/file.ml" 102 3100 3121 "lib/file.ml" 102 3100 3144
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.chop_extension
+)
+"lib/file.ml" 102 3100 3145 "lib/file.ml" 102 3100 3154
+type(
+  string
+)
+ident(
+  int_ref base_name "lib/file.ml" 101 3052 3058 "lib/file.ml" 101 3052 3067
+)
+"lib/file.ml" 102 3100 3120 "lib/file.ml" 102 3100 3155
+call(
+  stack
+)
+type(
+  string
+)
+"lib/file.ml" 102 3100 3102 "lib/file.ml" 102 3100 3155
+call(
+  tail
+)
+type(
+  string
+)
+"lib/file.ml" 101 3052 3054 "lib/file.ml" 102 3100 3155
+type(
+  string
+)
+"lib/file.ml" 105 3160 3164 "lib/file.ml" 105 3160 3177
+type(
+  string -> Parsetree.structure
+)
+ident(
+  def parse_ml_file "lib/file.ml" 110 3254 3254 "lib/file.ml" 1 0 -1
+)
+"lib/file.ml" 105 3160 3178 "lib/file.ml" 105 3160 3180
+type(
+  string
+)
+ident(
+  def fn "lib/file.ml" 106 3183 3185 "lib/file.ml" 107 3224 3249
+)
+"lib/file.ml" 106 3183 3189 "lib/file.ml" 106 3183 3191
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "lib/file.ml" 107 3224 3226 "lib/file.ml" 107 3224 3249
+)
+"lib/file.ml" 106 3183 3194 "lib/file.ml" 106 3183 3217
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  int_ref create_lexbuf_from_file "lib/file.ml" 70 2278 2282 "lib/file.ml" 70 2278 2305
+)
+"lib/file.ml" 106 3183 3218 "lib/file.ml" 106 3183 3220
+type(
+  string
+)
+ident(
+  int_ref fn "lib/file.ml" 105 3160 3178 "lib/file.ml" 105 3160 3180
+)
+"lib/file.ml" 106 3183 3194 "lib/file.ml" 106 3183 3220
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"lib/file.ml" 107 3224 3226 "lib/file.ml" 107 3224 3246
+type(
+  Lexing.lexbuf -> Parsetree.structure
+)
+ident(
+  ext_ref Parse.implementation
+)
+"lib/file.ml" 107 3224 3247 "lib/file.ml" 107 3224 3249
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "lib/file.ml" 106 3183 3189 "lib/file.ml" 106 3183 3191
+)
+"lib/file.ml" 107 3224 3226 "lib/file.ml" 107 3224 3249
+call(
+  tail
+)
+type(
+  Parsetree.structure
+)
+"lib/file.ml" 106 3183 3185 "lib/file.ml" 107 3224 3249
+type(
+  Parsetree.structure
+)
+"lib/file.ml" 110 3254 3258 "lib/file.ml" 110 3254 3272
+type(
+  string -> Parsetree.signature
+)
+ident(
+  def parse_mli_file "lib/file.ml" 112 3319 3339 "lib/file.ml" 1 0 -1
+)
+"lib/file.ml" 110 3254 3273 "lib/file.ml" 110 3254 3275
+type(
+  string
+)
+ident(
+  def fn "lib/file.ml" 111 3278 3280 "lib/file.ml" 112 3319 3339
+)
+"lib/file.ml" 111 3278 3284 "lib/file.ml" 111 3278 3286
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "lib/file.ml" 112 3319 3321 "lib/file.ml" 112 3319 3339
+)
+"lib/file.ml" 111 3278 3289 "lib/file.ml" 111 3278 3312
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  int_ref create_lexbuf_from_file "lib/file.ml" 70 2278 2282 "lib/file.ml" 70 2278 2305
+)
+"lib/file.ml" 111 3278 3313 "lib/file.ml" 111 3278 3315
+type(
+  string
+)
+ident(
+  int_ref fn "lib/file.ml" 110 3254 3273 "lib/file.ml" 110 3254 3275
+)
+"lib/file.ml" 111 3278 3289 "lib/file.ml" 111 3278 3315
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"lib/file.ml" 112 3319 3321 "lib/file.ml" 112 3319 3336
+type(
+  Lexing.lexbuf -> Parsetree.signature
+)
+ident(
+  ext_ref Parse.interface
+)
+"lib/file.ml" 112 3319 3337 "lib/file.ml" 112 3319 3339
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "lib/file.ml" 111 3278 3284 "lib/file.ml" 111 3278 3286
+)
+"lib/file.ml" 112 3319 3321 "lib/file.ml" 112 3319 3339
+call(
+  tail
+)
+type(
+  Parsetree.signature
+)
+"lib/file.ml" 111 3278 3280 "lib/file.ml" 112 3319 3339
+type(
+  Parsetree.signature
+)

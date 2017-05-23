@@ -1,0 +1,575 @@
+"completion/symb.ml" 25 1131 1135 "completion/symb.ml" 25 1131 1151
+type(
+  Useful.StrMap.key -> SymbolMap.key
+)
+ident(
+  def symbol_of_string "completion/symb.ml" 43 1607 1607 "completion/symb.ml" 1 0 -1
+)
+"completion/symb.ml" 25 1131 1153 "completion/symb.ml" 25 1131 1169
+type(
+  SymbolMap.key -> Useful.StrMap.key
+)
+ident(
+  def string_of_symbol "completion/symb.ml" 43 1607 1607 "completion/symb.ml" 1 0 -1
+)
+"completion/symb.ml" 25 1131 1171 "completion/symb.ml" 25 1131 1184
+type(
+  unit -> unit
+)
+ident(
+  def clear_symbols "completion/symb.ml" 43 1607 1607 "completion/symb.ml" 1 0 -1
+)
+"completion/symb.ml" 25 1131 1135 "completion/symb.ml" 25 1131 1184
+type(
+  (Useful.StrMap.key -> SymbolMap.key) *
+  (SymbolMap.key -> Useful.StrMap.key) * (unit -> unit)
+)
+"completion/symb.ml" 26 1187 1193 "completion/symb.ml" 26 1187 1198
+type(
+  Useful.StrMap.key SymbolMap.t ref
+)
+ident(
+  def symap "completion/symb.ml" 29 1274 1278 "completion/symb.ml" 40 1588 1602
+)
+"completion/symb.ml" 26 1187 1201 "completion/symb.ml" 26 1187 1204
+type(
+  Useful.StrMap.key SymbolMap.t -> Useful.StrMap.key SymbolMap.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"completion/symb.ml" 26 1187 1205 "completion/symb.ml" 26 1187 1220
+type(
+  Useful.StrMap.key SymbolMap.t
+)
+ident(
+  ext_ref SymbolMap.empty
+)
+"completion/symb.ml" 26 1187 1201 "completion/symb.ml" 26 1187 1220
+type(
+  Useful.StrMap.key SymbolMap.t ref
+)
+"completion/symb.ml" 27 1221 1227 "completion/symb.ml" 27 1221 1232
+type(
+  SymbolMap.key Useful.StrMap.t ref
+)
+ident(
+  def stmap "completion/symb.ml" 29 1274 1278 "completion/symb.ml" 40 1588 1602
+)
+"completion/symb.ml" 27 1221 1235 "completion/symb.ml" 27 1221 1238
+type(
+  SymbolMap.key Useful.StrMap.t -> SymbolMap.key Useful.StrMap.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"completion/symb.ml" 27 1221 1239 "completion/symb.ml" 27 1221 1251
+type(
+  SymbolMap.key Useful.StrMap.t
+)
+ident(
+  ext_ref Useful.StrMap.empty
+)
+"completion/symb.ml" 27 1221 1235 "completion/symb.ml" 27 1221 1251
+type(
+  SymbolMap.key Useful.StrMap.t ref
+)
+"completion/symb.ml" 28 1252 1258 "completion/symb.ml" 28 1252 1259
+type(
+  SymbolMap.key ref
+)
+ident(
+  def n "completion/symb.ml" 29 1274 1278 "completion/symb.ml" 40 1588 1602
+)
+"completion/symb.ml" 28 1252 1262 "completion/symb.ml" 28 1252 1265
+type(
+  SymbolMap.key -> SymbolMap.key ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"completion/symb.ml" 28 1252 1266 "completion/symb.ml" 28 1252 1270
+type(
+  SymbolMap.key
+)
+"completion/symb.ml" 28 1252 1262 "completion/symb.ml" 28 1252 1270
+type(
+  SymbolMap.key ref
+)
+"completion/symb.ml" 29 1274 1283 "completion/symb.ml" 29 1274 1284
+type(
+  Useful.StrMap.key
+)
+ident(
+  def s "completion/symb.ml" 30 1288 1295 "completion/symb.ml" 35 1454 1467
+)
+"completion/symb.ml" 30 1288 1300 "completion/symb.ml" 30 1288 1311
+type(
+  Useful.StrMap.key -> SymbolMap.key Useful.StrMap.t -> SymbolMap.key
+)
+ident(
+  ext_ref Useful.StrMap.find
+)
+"completion/symb.ml" 30 1288 1312 "completion/symb.ml" 30 1288 1313
+type(
+  Useful.StrMap.key
+)
+ident(
+  int_ref s "completion/symb.ml" 29 1274 1283 "completion/symb.ml" 29 1274 1284
+)
+"completion/symb.ml" 30 1288 1314 "completion/symb.ml" 30 1288 1315
+type(
+  SymbolMap.key Useful.StrMap.t ref -> SymbolMap.key Useful.StrMap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/symb.ml" 30 1288 1315 "completion/symb.ml" 30 1288 1320
+type(
+  SymbolMap.key Useful.StrMap.t ref
+)
+ident(
+  int_ref stmap "completion/symb.ml" 27 1221 1227 "completion/symb.ml" 27 1221 1232
+)
+"completion/symb.ml" 30 1288 1314 "completion/symb.ml" 30 1288 1320
+type(
+  SymbolMap.key Useful.StrMap.t
+)
+"completion/symb.ml" 30 1288 1300 "completion/symb.ml" 30 1288 1320
+call(
+  stack
+)
+type(
+  SymbolMap.key
+)
+"completion/symb.ml" 31 1321 1334 "completion/symb.ml" 31 1321 1343
+type(
+  exn
+)
+"completion/symb.ml" 32 1347 1357 "completion/symb.ml" 32 1347 1361
+type(
+  SymbolMap.key ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"completion/symb.ml" 32 1347 1362 "completion/symb.ml" 32 1347 1363
+type(
+  SymbolMap.key ref
+)
+ident(
+  int_ref n "completion/symb.ml" 28 1252 1258 "completion/symb.ml" 28 1252 1259
+)
+"completion/symb.ml" 32 1347 1357 "completion/symb.ml" 32 1347 1363
+type(
+  unit
+)
+"completion/symb.ml" 33 1365 1375 "completion/symb.ml" 33 1365 1380
+type(
+  SymbolMap.key Useful.StrMap.t ref
+)
+ident(
+  int_ref stmap "completion/symb.ml" 27 1221 1227 "completion/symb.ml" 27 1221 1232
+)
+"completion/symb.ml" 33 1365 1381 "completion/symb.ml" 33 1365 1383
+type(
+  SymbolMap.key Useful.StrMap.t ref -> SymbolMap.key Useful.StrMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/symb.ml" 33 1365 1384 "completion/symb.ml" 33 1365 1394
+type(
+  Useful.StrMap.key ->
+  SymbolMap.key ->
+  SymbolMap.key Useful.StrMap.t -> SymbolMap.key Useful.StrMap.t
+)
+ident(
+  ext_ref Useful.StrMap.add
+)
+"completion/symb.ml" 33 1365 1395 "completion/symb.ml" 33 1365 1396
+type(
+  Useful.StrMap.key
+)
+ident(
+  int_ref s "completion/symb.ml" 29 1274 1283 "completion/symb.ml" 29 1274 1284
+)
+"completion/symb.ml" 33 1365 1397 "completion/symb.ml" 33 1365 1398
+type(
+  SymbolMap.key ref -> SymbolMap.key
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/symb.ml" 33 1365 1398 "completion/symb.ml" 33 1365 1399
+type(
+  SymbolMap.key ref
+)
+ident(
+  int_ref n "completion/symb.ml" 28 1252 1258 "completion/symb.ml" 28 1252 1259
+)
+"completion/symb.ml" 33 1365 1397 "completion/symb.ml" 33 1365 1399
+type(
+  SymbolMap.key
+)
+"completion/symb.ml" 33 1365 1400 "completion/symb.ml" 33 1365 1401
+type(
+  SymbolMap.key Useful.StrMap.t ref -> SymbolMap.key Useful.StrMap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/symb.ml" 33 1365 1401 "completion/symb.ml" 33 1365 1406
+type(
+  SymbolMap.key Useful.StrMap.t ref
+)
+ident(
+  int_ref stmap "completion/symb.ml" 27 1221 1227 "completion/symb.ml" 27 1221 1232
+)
+"completion/symb.ml" 33 1365 1400 "completion/symb.ml" 33 1365 1406
+type(
+  SymbolMap.key Useful.StrMap.t
+)
+"completion/symb.ml" 33 1365 1384 "completion/symb.ml" 33 1365 1406
+call(
+  stack
+)
+type(
+  SymbolMap.key Useful.StrMap.t
+)
+"completion/symb.ml" 33 1365 1375 "completion/symb.ml" 33 1365 1406
+type(
+  unit
+)
+"completion/symb.ml" 34 1408 1418 "completion/symb.ml" 34 1408 1423
+type(
+  Useful.StrMap.key SymbolMap.t ref
+)
+ident(
+  int_ref symap "completion/symb.ml" 26 1187 1193 "completion/symb.ml" 26 1187 1198
+)
+"completion/symb.ml" 34 1408 1424 "completion/symb.ml" 34 1408 1426
+type(
+  Useful.StrMap.key SymbolMap.t ref -> Useful.StrMap.key SymbolMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/symb.ml" 34 1408 1427 "completion/symb.ml" 34 1408 1440
+type(
+  SymbolMap.key ->
+  Useful.StrMap.key ->
+  Useful.StrMap.key SymbolMap.t -> Useful.StrMap.key SymbolMap.t
+)
+ident(
+  ext_ref SymbolMap.add
+)
+"completion/symb.ml" 34 1408 1441 "completion/symb.ml" 34 1408 1442
+type(
+  SymbolMap.key ref -> SymbolMap.key
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/symb.ml" 34 1408 1442 "completion/symb.ml" 34 1408 1443
+type(
+  SymbolMap.key ref
+)
+ident(
+  int_ref n "completion/symb.ml" 28 1252 1258 "completion/symb.ml" 28 1252 1259
+)
+"completion/symb.ml" 34 1408 1441 "completion/symb.ml" 34 1408 1443
+type(
+  SymbolMap.key
+)
+"completion/symb.ml" 34 1408 1444 "completion/symb.ml" 34 1408 1445
+type(
+  Useful.StrMap.key
+)
+ident(
+  int_ref s "completion/symb.ml" 29 1274 1283 "completion/symb.ml" 29 1274 1284
+)
+"completion/symb.ml" 34 1408 1446 "completion/symb.ml" 34 1408 1447
+type(
+  Useful.StrMap.key SymbolMap.t ref -> Useful.StrMap.key SymbolMap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/symb.ml" 34 1408 1447 "completion/symb.ml" 34 1408 1452
+type(
+  Useful.StrMap.key SymbolMap.t ref
+)
+ident(
+  int_ref symap "completion/symb.ml" 26 1187 1193 "completion/symb.ml" 26 1187 1198
+)
+"completion/symb.ml" 34 1408 1446 "completion/symb.ml" 34 1408 1452
+type(
+  Useful.StrMap.key SymbolMap.t
+)
+"completion/symb.ml" 34 1408 1427 "completion/symb.ml" 34 1408 1452
+call(
+  stack
+)
+type(
+  Useful.StrMap.key SymbolMap.t
+)
+"completion/symb.ml" 34 1408 1418 "completion/symb.ml" 34 1408 1452
+type(
+  unit
+)
+"completion/symb.ml" 35 1454 1464 "completion/symb.ml" 35 1454 1465
+type(
+  SymbolMap.key ref -> SymbolMap.key
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/symb.ml" 35 1454 1465 "completion/symb.ml" 35 1454 1466
+type(
+  SymbolMap.key ref
+)
+ident(
+  int_ref n "completion/symb.ml" 28 1252 1258 "completion/symb.ml" 28 1252 1259
+)
+"completion/symb.ml" 35 1454 1464 "completion/symb.ml" 35 1454 1466
+type(
+  SymbolMap.key
+)
+"completion/symb.ml" 34 1408 1418 "completion/symb.ml" 35 1454 1466
+type(
+  SymbolMap.key
+)
+"completion/symb.ml" 33 1365 1375 "completion/symb.ml" 35 1454 1466
+type(
+  SymbolMap.key
+)
+"completion/symb.ml" 32 1347 1357 "completion/symb.ml" 35 1454 1466
+type(
+  SymbolMap.key
+)
+"completion/symb.ml" 30 1288 1295 "completion/symb.ml" 35 1454 1467
+type(
+  SymbolMap.key
+)
+"completion/symb.ml" 29 1274 1278 "completion/symb.ml" 35 1454 1468
+type(
+  Useful.StrMap.key -> SymbolMap.key
+)
+"completion/symb.ml" 36 1470 1479 "completion/symb.ml" 36 1470 1480
+type(
+  SymbolMap.key
+)
+ident(
+  def n "completion/symb.ml" 36 1470 1484 "completion/symb.ml" 36 1470 1507
+)
+"completion/symb.ml" 36 1470 1484 "completion/symb.ml" 36 1470 1498
+type(
+  SymbolMap.key -> Useful.StrMap.key SymbolMap.t -> Useful.StrMap.key
+)
+ident(
+  ext_ref SymbolMap.find
+)
+"completion/symb.ml" 36 1470 1499 "completion/symb.ml" 36 1470 1500
+type(
+  SymbolMap.key
+)
+ident(
+  int_ref n "completion/symb.ml" 36 1470 1479 "completion/symb.ml" 36 1470 1480
+)
+"completion/symb.ml" 36 1470 1501 "completion/symb.ml" 36 1470 1502
+type(
+  Useful.StrMap.key SymbolMap.t ref -> Useful.StrMap.key SymbolMap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/symb.ml" 36 1470 1502 "completion/symb.ml" 36 1470 1507
+type(
+  Useful.StrMap.key SymbolMap.t ref
+)
+ident(
+  int_ref symap "completion/symb.ml" 26 1187 1193 "completion/symb.ml" 26 1187 1198
+)
+"completion/symb.ml" 36 1470 1501 "completion/symb.ml" 36 1470 1507
+type(
+  Useful.StrMap.key SymbolMap.t
+)
+"completion/symb.ml" 36 1470 1484 "completion/symb.ml" 36 1470 1507
+call(
+  tail
+)
+type(
+  Useful.StrMap.key
+)
+"completion/symb.ml" 36 1470 1474 "completion/symb.ml" 36 1470 1508
+type(
+  SymbolMap.key -> Useful.StrMap.key
+)
+"completion/symb.ml" 37 1510 1519 "completion/symb.ml" 37 1510 1521
+type(
+  unit
+)
+"completion/symb.ml" 38 1525 1532 "completion/symb.ml" 38 1525 1537
+type(
+  Useful.StrMap.key SymbolMap.t ref
+)
+ident(
+  int_ref symap "completion/symb.ml" 26 1187 1193 "completion/symb.ml" 26 1187 1198
+)
+"completion/symb.ml" 38 1525 1538 "completion/symb.ml" 38 1525 1540
+type(
+  Useful.StrMap.key SymbolMap.t ref -> Useful.StrMap.key SymbolMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/symb.ml" 38 1525 1541 "completion/symb.ml" 38 1525 1556
+type(
+  Useful.StrMap.key SymbolMap.t
+)
+ident(
+  ext_ref SymbolMap.empty
+)
+"completion/symb.ml" 38 1525 1532 "completion/symb.ml" 38 1525 1556
+type(
+  unit
+)
+"completion/symb.ml" 39 1558 1565 "completion/symb.ml" 39 1558 1570
+type(
+  SymbolMap.key Useful.StrMap.t ref
+)
+ident(
+  int_ref stmap "completion/symb.ml" 27 1221 1227 "completion/symb.ml" 27 1221 1232
+)
+"completion/symb.ml" 39 1558 1571 "completion/symb.ml" 39 1558 1573
+type(
+  SymbolMap.key Useful.StrMap.t ref -> SymbolMap.key Useful.StrMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/symb.ml" 39 1558 1574 "completion/symb.ml" 39 1558 1586
+type(
+  SymbolMap.key Useful.StrMap.t
+)
+ident(
+  ext_ref Useful.StrMap.empty
+)
+"completion/symb.ml" 39 1558 1565 "completion/symb.ml" 39 1558 1586
+type(
+  unit
+)
+"completion/symb.ml" 40 1588 1595 "completion/symb.ml" 40 1588 1596
+type(
+  SymbolMap.key ref
+)
+ident(
+  int_ref n "completion/symb.ml" 28 1252 1258 "completion/symb.ml" 28 1252 1259
+)
+"completion/symb.ml" 40 1588 1597 "completion/symb.ml" 40 1588 1599
+type(
+  SymbolMap.key ref -> SymbolMap.key -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/symb.ml" 40 1588 1600 "completion/symb.ml" 40 1588 1601
+type(
+  SymbolMap.key
+)
+"completion/symb.ml" 40 1588 1595 "completion/symb.ml" 40 1588 1601
+type(
+  unit
+)
+"completion/symb.ml" 39 1558 1565 "completion/symb.ml" 40 1588 1601
+type(
+  unit
+)
+"completion/symb.ml" 38 1525 1532 "completion/symb.ml" 40 1588 1601
+type(
+  unit
+)
+"completion/symb.ml" 37 1510 1514 "completion/symb.ml" 40 1588 1602
+type(
+  unit -> unit
+)
+"completion/symb.ml" 29 1274 1278 "completion/symb.ml" 40 1588 1602
+type(
+  (Useful.StrMap.key -> SymbolMap.key) *
+  (SymbolMap.key -> Useful.StrMap.key) * (unit -> unit)
+)
+"completion/symb.ml" 26 1187 1189 "completion/symb.ml" 40 1588 1602
+type(
+  (Useful.StrMap.key -> SymbolMap.key) *
+  (SymbolMap.key -> Useful.StrMap.key) * (unit -> unit)
+)
+"completion/symb.ml" 43 1607 1611 "completion/symb.ml" 43 1607 1620
+type(
+  Format.formatter -> SymbolMap.key -> unit
+)
+ident(
+  def pr_symbol "completion/symb.ml" 44 1632 1681 "completion/symb.ml" 1 0 -1
+)
+"completion/symb.ml" 43 1607 1621 "completion/symb.ml" 43 1607 1624
+type(
+  Format.formatter
+)
+ident(
+  def ppf "completion/symb.ml" 43 1607 1625 "completion/symb.ml" 44 1632 1681
+)
+"completion/symb.ml" 43 1607 1625 "completion/symb.ml" 43 1607 1629
+type(
+  SymbolMap.key
+)
+ident(
+  def symb "completion/symb.ml" 44 1632 1634 "completion/symb.ml" 44 1632 1681
+)
+"completion/symb.ml" 44 1632 1634 "completion/symb.ml" 44 1632 1648
+type(
+  Format.formatter ->
+  (Useful.StrMap.key -> unit, Format.formatter, unit) format ->
+  Useful.StrMap.key -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"completion/symb.ml" 44 1632 1649 "completion/symb.ml" 44 1632 1652
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/symb.ml" 43 1607 1621 "completion/symb.ml" 43 1607 1624
+)
+"completion/symb.ml" 44 1632 1653 "completion/symb.ml" 44 1632 1657
+type(
+  (Useful.StrMap.key -> unit, Format.formatter, unit) format
+)
+"completion/symb.ml" 44 1632 1659 "completion/symb.ml" 44 1632 1675
+type(
+  SymbolMap.key -> Useful.StrMap.key
+)
+ident(
+  int_ref string_of_symbol "completion/symb.ml" 25 1131 1153 "completion/symb.ml" 25 1131 1169
+)
+"completion/symb.ml" 44 1632 1676 "completion/symb.ml" 44 1632 1680
+type(
+  SymbolMap.key
+)
+ident(
+  int_ref symb "completion/symb.ml" 43 1607 1625 "completion/symb.ml" 43 1607 1629
+)
+"completion/symb.ml" 44 1632 1658 "completion/symb.ml" 44 1632 1681
+call(
+  stack
+)
+type(
+  Useful.StrMap.key
+)
+"completion/symb.ml" 44 1632 1634 "completion/symb.ml" 44 1632 1681
+call(
+  tail
+)
+type(
+  unit
+)

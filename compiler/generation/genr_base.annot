@@ -1,0 +1,4934 @@
+"generation/genr_base.ml" 39 1610 1614 "generation/genr_base.ml" 39 1610 1638
+type(
+  generated_function -> bool
+)
+ident(
+  def is_construction_function "generation/genr_base.ml" 48 1837 1837 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 39 1610 1639 "generation/genr_base.ml" 39 1610 1640
+type(
+  generated_function
+)
+ident(
+  def f "generation/genr_base.ml" 40 1643 1645 "generation/genr_base.ml" 44 1743 1770
+)
+"generation/genr_base.ml" 40 1643 1651 "generation/genr_base.ml" 40 1643 1652
+type(
+  generated_function
+)
+ident(
+  int_ref f "generation/genr_base.ml" 39 1610 1639 "generation/genr_base.ml" 39 1610 1640
+)
+"generation/genr_base.ml" 41 1658 1677 "generation/genr_base.ml" 41 1658 1678
+type(
+  Code.exp
+)
+type(
+  Code.pattern list
+)
+type(
+  Parsetree.generator
+)
+"generation/genr_base.ml" 41 1658 1664 "generation/genr_base.ml" 41 1658 1678
+type(
+  generated_function
+)
+"generation/genr_base.ml" 41 1658 1682 "generation/genr_base.ml" 41 1658 1686
+type(
+  bool
+)
+"generation/genr_base.ml" 42 1687 1713 "generation/genr_base.ml" 42 1687 1714
+type(
+  Code.exp
+)
+type(
+  Code.pattern list
+)
+type(
+  Code.lident
+)
+"generation/genr_base.ml" 42 1687 1693 "generation/genr_base.ml" 42 1687 1714
+type(
+  generated_function
+)
+"generation/genr_base.ml" 43 1715 1741 "generation/genr_base.ml" 43 1715 1742
+type(
+  Code.exp
+)
+type(
+  Code.pattern list
+)
+type(
+  Code.lident
+)
+"generation/genr_base.ml" 43 1715 1721 "generation/genr_base.ml" 43 1715 1742
+type(
+  generated_function
+)
+"generation/genr_base.ml" 42 1687 1693 "generation/genr_base.ml" 43 1715 1742
+type(
+  generated_function
+)
+"generation/genr_base.ml" 44 1743 1760 "generation/genr_base.ml" 44 1743 1761
+type(
+  Code.exp
+)
+type(
+  Code.pattern list
+)
+type(
+  Code.lident
+)
+"generation/genr_base.ml" 44 1743 1749 "generation/genr_base.ml" 44 1743 1761
+type(
+  generated_function
+)
+"generation/genr_base.ml" 42 1687 1693 "generation/genr_base.ml" 44 1743 1761
+type(
+  generated_function
+)
+"generation/genr_base.ml" 44 1743 1765 "generation/genr_base.ml" 44 1743 1770
+type(
+  bool
+)
+"generation/genr_base.ml" 40 1643 1645 "generation/genr_base.ml" 44 1743 1770
+type(
+  bool
+)
+"generation/genr_base.ml" 48 1837 1841 "generation/genr_base.ml" 48 1837 1859
+type(
+  unit -> bool
+)
+ident(
+  def get_user_rel_order "generation/genr_base.ml" 57 2056 2056 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 48 1837 1861 "generation/genr_base.ml" 48 1837 1879
+type(
+  unit -> unit
+)
+ident(
+  def set_user_rel_order "generation/genr_base.ml" 57 2056 2056 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 48 1837 1841 "generation/genr_base.ml" 48 1837 1879
+type(
+  (unit -> bool) * (unit -> unit)
+)
+"generation/genr_base.ml" 49 1882 1888 "generation/genr_base.ml" 49 1882 1897
+type(
+  bool ref
+)
+ident(
+  def rel_order "generation/genr_base.ml" 50 1913 1915 "generation/genr_base.ml" 54 2030 2051
+)
+"generation/genr_base.ml" 49 1882 1900 "generation/genr_base.ml" 49 1882 1903
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"generation/genr_base.ml" 49 1882 1904 "generation/genr_base.ml" 49 1882 1909
+type(
+  bool
+)
+"generation/genr_base.ml" 49 1882 1900 "generation/genr_base.ml" 49 1882 1909
+type(
+  bool ref
+)
+"generation/genr_base.ml" 50 1913 1920 "generation/genr_base.ml" 50 1913 1922
+type(
+  unit
+)
+"generation/genr_base.ml" 50 1913 1926 "generation/genr_base.ml" 50 1913 1927
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"generation/genr_base.ml" 50 1913 1927 "generation/genr_base.ml" 50 1913 1936
+type(
+  bool ref
+)
+ident(
+  int_ref rel_order "generation/genr_base.ml" 49 1882 1888 "generation/genr_base.ml" 49 1882 1897
+)
+"generation/genr_base.ml" 50 1913 1926 "generation/genr_base.ml" 50 1913 1936
+type(
+  bool
+)
+"generation/genr_base.ml" 50 1913 1915 "generation/genr_base.ml" 50 1913 1937
+type(
+  unit -> bool
+)
+"generation/genr_base.ml" 51 1939 1946 "generation/genr_base.ml" 51 1939 1948
+type(
+  unit
+)
+"generation/genr_base.ml" 52 1952 1958 "generation/genr_base.ml" 52 1952 1983
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Configuration.get_verbose
+)
+"generation/genr_base.ml" 52 1952 1984 "generation/genr_base.ml" 52 1952 1986
+type(
+  unit
+)
+"generation/genr_base.ml" 52 1952 1958 "generation/genr_base.ml" 52 1952 1986
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_base.ml" 53 1992 1997 "generation/genr_base.ml" 53 1992 2010
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"generation/genr_base.ml" 53 1992 2011 "generation/genr_base.ml" 53 1992 2028
+type(
+  (unit, Format.formatter, unit) format
+)
+"generation/genr_base.ml" 53 1992 1997 "generation/genr_base.ml" 53 1992 2028
+call(
+  stack
+)
+type(
+  unit
+)
+"generation/genr_base.ml" 52 1952 1955 "generation/genr_base.ml" 53 1992 2028
+type(
+  unit
+)
+"generation/genr_base.ml" 54 2030 2033 "generation/genr_base.ml" 54 2030 2042
+type(
+  bool ref
+)
+ident(
+  int_ref rel_order "generation/genr_base.ml" 49 1882 1888 "generation/genr_base.ml" 49 1882 1897
+)
+"generation/genr_base.ml" 54 2030 2043 "generation/genr_base.ml" 54 2030 2045
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"generation/genr_base.ml" 54 2030 2046 "generation/genr_base.ml" 54 2030 2050
+type(
+  bool
+)
+"generation/genr_base.ml" 54 2030 2033 "generation/genr_base.ml" 54 2030 2050
+type(
+  unit
+)
+"generation/genr_base.ml" 52 1952 1955 "generation/genr_base.ml" 54 2030 2050
+type(
+  unit
+)
+"generation/genr_base.ml" 51 1939 1941 "generation/genr_base.ml" 54 2030 2051
+type(
+  unit -> unit
+)
+"generation/genr_base.ml" 50 1913 1915 "generation/genr_base.ml" 54 2030 2051
+type(
+  (unit -> bool) * (unit -> unit)
+)
+"generation/genr_base.ml" 49 1882 1884 "generation/genr_base.ml" 54 2030 2051
+type(
+  (unit -> bool) * (unit -> unit)
+)
+"generation/genr_base.ml" 57 2056 2060 "generation/genr_base.ml" 57 2056 2070
+type(
+  (Parsetree.relation -> int) ->
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  def order_rels "generation/genr_base.ml" 61 2149 2149 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 57 2056 2071 "generation/genr_base.ml" 57 2056 2075
+type(
+  Parsetree.relation -> int
+)
+ident(
+  def prec "generation/genr_base.ml" 57 2056 2076 "generation/genr_base.ml" 58 2083 2144
+)
+"generation/genr_base.ml" 57 2056 2076 "generation/genr_base.ml" 57 2056 2080
+type(
+  Parsetree.relation list
+)
+ident(
+  def rels "generation/genr_base.ml" 58 2083 2085 "generation/genr_base.ml" 58 2083 2144
+)
+"generation/genr_base.ml" 58 2083 2088 "generation/genr_base.ml" 58 2083 2106
+type(
+  unit -> bool
+)
+ident(
+  int_ref get_user_rel_order "generation/genr_base.ml" 48 1837 1841 "generation/genr_base.ml" 48 1837 1859
+)
+"generation/genr_base.ml" 58 2083 2107 "generation/genr_base.ml" 58 2083 2109
+type(
+  unit
+)
+"generation/genr_base.ml" 58 2083 2088 "generation/genr_base.ml" 58 2083 2109
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_base.ml" 58 2083 2115 "generation/genr_base.ml" 58 2083 2119
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rels "generation/genr_base.ml" 57 2056 2076 "generation/genr_base.ml" 57 2056 2080
+)
+"generation/genr_base.ml" 58 2083 2125 "generation/genr_base.ml" 58 2083 2134
+type(
+  (Parsetree.relation -> int) ->
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  ext_ref Relation.sort_rels
+)
+"generation/genr_base.ml" 58 2083 2135 "generation/genr_base.ml" 58 2083 2139
+type(
+  Parsetree.relation -> int
+)
+ident(
+  int_ref prec "generation/genr_base.ml" 57 2056 2071 "generation/genr_base.ml" 57 2056 2075
+)
+"generation/genr_base.ml" 58 2083 2140 "generation/genr_base.ml" 58 2083 2144
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rels "generation/genr_base.ml" 57 2056 2076 "generation/genr_base.ml" 57 2056 2080
+)
+"generation/genr_base.ml" 58 2083 2125 "generation/genr_base.ml" 58 2083 2144
+call(
+  tail
+)
+type(
+  Parsetree.relation list
+)
+"generation/genr_base.ml" 58 2083 2085 "generation/genr_base.ml" 58 2083 2144
+type(
+  Parsetree.relation list
+)
+"generation/genr_base.ml" 61 2149 2153 "generation/genr_base.ml" 61 2149 2168
+type(
+  (Parsetree.relation -> int) -> Parsetree.relations -> Parsetree.relations
+)
+ident(
+  def order_relations "generation/genr_base.ml" 65 2267 2267 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 61 2149 2169 "generation/genr_base.ml" 61 2149 2173
+type(
+  Parsetree.relation -> int
+)
+ident(
+  def prec "generation/genr_base.ml" 61 2149 2174 "generation/genr_base.ml" 62 2186 2262
+)
+"generation/genr_base.ml" 61 2149 2174 "generation/genr_base.ml" 61 2149 2183
+type(
+  Parsetree.relations
+)
+ident(
+  def relations "generation/genr_base.ml" 62 2186 2188 "generation/genr_base.ml" 62 2186 2262
+)
+"generation/genr_base.ml" 62 2186 2191 "generation/genr_base.ml" 62 2186 2209
+type(
+  unit -> bool
+)
+ident(
+  int_ref get_user_rel_order "generation/genr_base.ml" 48 1837 1841 "generation/genr_base.ml" 48 1837 1859
+)
+"generation/genr_base.ml" 62 2186 2210 "generation/genr_base.ml" 62 2186 2212
+type(
+  unit
+)
+"generation/genr_base.ml" 62 2186 2191 "generation/genr_base.ml" 62 2186 2212
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_base.ml" 62 2186 2218 "generation/genr_base.ml" 62 2186 2227
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "generation/genr_base.ml" 61 2149 2174 "generation/genr_base.ml" 61 2149 2183
+)
+"generation/genr_base.ml" 62 2186 2233 "generation/genr_base.ml" 62 2186 2247
+type(
+  (Parsetree.relation -> int) -> Parsetree.relations -> Parsetree.relations
+)
+ident(
+  ext_ref Relation.sort_relations
+)
+"generation/genr_base.ml" 62 2186 2248 "generation/genr_base.ml" 62 2186 2252
+type(
+  Parsetree.relation -> int
+)
+ident(
+  int_ref prec "generation/genr_base.ml" 61 2149 2169 "generation/genr_base.ml" 61 2149 2173
+)
+"generation/genr_base.ml" 62 2186 2253 "generation/genr_base.ml" 62 2186 2262
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "generation/genr_base.ml" 61 2149 2174 "generation/genr_base.ml" 61 2149 2183
+)
+"generation/genr_base.ml" 62 2186 2233 "generation/genr_base.ml" 62 2186 2262
+call(
+  tail
+)
+type(
+  Parsetree.relations
+)
+"generation/genr_base.ml" 62 2186 2188 "generation/genr_base.ml" 62 2186 2262
+type(
+  Parsetree.relations
+)
+"generation/genr_base.ml" 69 2350 2354 "generation/genr_base.ml" 69 2350 2373
+type(
+  unit -> unit
+)
+ident(
+  def set_sharable_target "generation/genr_base.ml" 75 2508 2508 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 69 2350 2375 "generation/genr_base.ml" 69 2350 2394
+type(
+  unit -> bool
+)
+ident(
+  def get_sharable_target "generation/genr_base.ml" 75 2508 2508 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 69 2350 2354 "generation/genr_base.ml" 69 2350 2394
+type(
+  (unit -> unit) * (unit -> bool)
+)
+"generation/genr_base.ml" 70 2397 2403 "generation/genr_base.ml" 70 2397 2418
+type(
+  bool ref
+)
+ident(
+  def sharable_target "generation/genr_base.ml" 71 2434 2436 "generation/genr_base.ml" 72 2473 2503
+)
+"generation/genr_base.ml" 70 2397 2421 "generation/genr_base.ml" 70 2397 2424
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"generation/genr_base.ml" 70 2397 2425 "generation/genr_base.ml" 70 2397 2430
+type(
+  bool
+)
+"generation/genr_base.ml" 70 2397 2421 "generation/genr_base.ml" 70 2397 2430
+type(
+  bool ref
+)
+"generation/genr_base.ml" 71 2434 2441 "generation/genr_base.ml" 71 2434 2443
+type(
+  unit
+)
+"generation/genr_base.ml" 71 2434 2447 "generation/genr_base.ml" 71 2434 2462
+type(
+  bool ref
+)
+ident(
+  int_ref sharable_target "generation/genr_base.ml" 70 2397 2403 "generation/genr_base.ml" 70 2397 2418
+)
+"generation/genr_base.ml" 71 2434 2463 "generation/genr_base.ml" 71 2434 2465
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"generation/genr_base.ml" 71 2434 2466 "generation/genr_base.ml" 71 2434 2470
+type(
+  bool
+)
+"generation/genr_base.ml" 71 2434 2447 "generation/genr_base.ml" 71 2434 2470
+type(
+  unit
+)
+"generation/genr_base.ml" 71 2434 2436 "generation/genr_base.ml" 71 2434 2471
+type(
+  unit -> unit
+)
+"generation/genr_base.ml" 72 2473 2480 "generation/genr_base.ml" 72 2473 2482
+type(
+  unit
+)
+"generation/genr_base.ml" 72 2473 2486 "generation/genr_base.ml" 72 2473 2487
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"generation/genr_base.ml" 72 2473 2487 "generation/genr_base.ml" 72 2473 2502
+type(
+  bool ref
+)
+ident(
+  int_ref sharable_target "generation/genr_base.ml" 70 2397 2403 "generation/genr_base.ml" 70 2397 2418
+)
+"generation/genr_base.ml" 72 2473 2486 "generation/genr_base.ml" 72 2473 2502
+type(
+  bool
+)
+"generation/genr_base.ml" 72 2473 2475 "generation/genr_base.ml" 72 2473 2503
+type(
+  unit -> bool
+)
+"generation/genr_base.ml" 71 2434 2436 "generation/genr_base.ml" 72 2473 2503
+type(
+  (unit -> unit) * (unit -> bool)
+)
+"generation/genr_base.ml" 70 2397 2399 "generation/genr_base.ml" 72 2473 2503
+type(
+  (unit -> unit) * (unit -> bool)
+)
+"generation/genr_base.ml" 75 2508 2512 "generation/genr_base.ml" 75 2508 2526
+type(
+  unit -> string list
+)
+ident(
+  def get_eq_fun_def "generation/genr_base.ml" 80 2617 2617 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 75 2508 2527 "generation/genr_base.ml" 75 2508 2529
+type(
+  unit
+)
+"generation/genr_base.ml" 76 2532 2537 "generation/genr_base.ml" 76 2532 2556
+type(
+  unit -> bool
+)
+ident(
+  int_ref get_sharable_target "generation/genr_base.ml" 69 2350 2375 "generation/genr_base.ml" 69 2350 2394
+)
+"generation/genr_base.ml" 76 2532 2557 "generation/genr_base.ml" 76 2532 2559
+type(
+  unit
+)
+"generation/genr_base.ml" 76 2532 2537 "generation/genr_base.ml" 76 2532 2559
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_base.ml" 76 2532 2566 "generation/genr_base.ml" 76 2532 2571
+type(
+  string
+)
+"generation/genr_base.ml" 76 2532 2565 "generation/genr_base.ml" 76 2532 2572
+type(
+  string list
+)
+"generation/genr_base.ml" 76 2532 2579 "generation/genr_base.ml" 76 2532 2587
+type(
+  string
+)
+"generation/genr_base.ml" 76 2532 2578 "generation/genr_base.ml" 76 2532 2588
+type(
+  string list
+)
+"generation/genr_base.ml" 76 2532 2534 "generation/genr_base.ml" 76 2532 2588
+type(
+  string list
+)
+"generation/genr_base.ml" 80 2617 2621 "generation/genr_base.ml" 80 2617 2632
+type(
+  (Code.exp -> Code.exp -> Code.exp) -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  def eq_function "generation/genr_base.ml" 86 2794 2794 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 80 2617 2633 "generation/genr_base.ml" 80 2617 2635
+type(
+  Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  def eq "generation/genr_base.ml" 80 2617 2636 "generation/genr_base.ml" 82 2695 2708
+)
+"generation/genr_base.ml" 80 2617 2636 "generation/genr_base.ml" 80 2617 2637
+type(
+  Code.exp
+)
+ident(
+  def x "generation/genr_base.ml" 80 2617 2638 "generation/genr_base.ml" 82 2695 2708
+)
+"generation/genr_base.ml" 80 2617 2638 "generation/genr_base.ml" 80 2617 2639
+type(
+  Code.exp
+)
+ident(
+  def y "generation/genr_base.ml" 81 2642 2644 "generation/genr_base.ml" 82 2695 2708
+)
+"generation/genr_base.ml" 81 2642 2647 "generation/genr_base.ml" 81 2642 2666
+type(
+  unit -> bool
+)
+ident(
+  int_ref get_sharable_target "generation/genr_base.ml" 69 2350 2375 "generation/genr_base.ml" 69 2350 2394
+)
+"generation/genr_base.ml" 81 2642 2667 "generation/genr_base.ml" 81 2642 2669
+type(
+  unit
+)
+"generation/genr_base.ml" 81 2642 2647 "generation/genr_base.ml" 81 2642 2669
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_base.ml" 81 2642 2675 "generation/genr_base.ml" 81 2642 2685
+type(
+  Code.exp -> Code.iname -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.infix_name
+)
+"generation/genr_base.ml" 81 2642 2686 "generation/genr_base.ml" 81 2642 2687
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_base.ml" 80 2617 2636 "generation/genr_base.ml" 80 2617 2637
+)
+"generation/genr_base.ml" 81 2642 2688 "generation/genr_base.ml" 81 2642 2692
+type(
+  Code.iname
+)
+"generation/genr_base.ml" 81 2642 2693 "generation/genr_base.ml" 81 2642 2694
+type(
+  Code.exp
+)
+ident(
+  int_ref y "generation/genr_base.ml" 80 2617 2638 "generation/genr_base.ml" 80 2617 2639
+)
+"generation/genr_base.ml" 81 2642 2675 "generation/genr_base.ml" 81 2642 2694
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 82 2695 2702 "generation/genr_base.ml" 82 2695 2704
+type(
+  Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  int_ref eq "generation/genr_base.ml" 80 2617 2633 "generation/genr_base.ml" 80 2617 2635
+)
+"generation/genr_base.ml" 82 2695 2705 "generation/genr_base.ml" 82 2695 2706
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_base.ml" 80 2617 2636 "generation/genr_base.ml" 80 2617 2637
+)
+"generation/genr_base.ml" 82 2695 2707 "generation/genr_base.ml" 82 2695 2708
+type(
+  Code.exp
+)
+ident(
+  int_ref y "generation/genr_base.ml" 80 2617 2638 "generation/genr_base.ml" 80 2617 2639
+)
+"generation/genr_base.ml" 82 2695 2702 "generation/genr_base.ml" 82 2695 2708
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 81 2642 2644 "generation/genr_base.ml" 82 2695 2708
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 86 2794 2798 "generation/genr_base.ml" 86 2794 2805
+type(
+  string * Parsetree.type_declaration -> Code.structure_item
+)
+ident(
+  def genr_eq "generation/genr_base.ml" 94 2977 2977 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 86 2794 2807 "generation/genr_base.ml" 86 2794 2812
+type(
+  string
+)
+ident(
+  def tname "generation/genr_base.ml" 87 2823 2826 "generation/genr_base.ml" 91 2964 2972
+)
+"generation/genr_base.ml" 86 2794 2814 "generation/genr_base.ml" 86 2794 2819
+type(
+  Parsetree.type_declaration
+)
+ident(
+  def tdecl "generation/genr_base.ml" 87 2823 2826 "generation/genr_base.ml" 91 2964 2972
+)
+"generation/genr_base.ml" 86 2794 2806 "generation/genr_base.ml" 86 2794 2820
+type(
+  string * Parsetree.type_declaration
+)
+"generation/genr_base.ml" 88 2841 2847 "generation/genr_base.ml" 88 2841 2852
+type(
+  string
+)
+"generation/genr_base.ml" 88 2841 2853 "generation/genr_base.ml" 88 2841 2854
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"generation/genr_base.ml" 88 2841 2855 "generation/genr_base.ml" 88 2841 2860
+type(
+  string
+)
+ident(
+  int_ref tname "generation/genr_base.ml" 86 2794 2807 "generation/genr_base.ml" 86 2794 2812
+)
+"generation/genr_base.ml" 88 2841 2847 "generation/genr_base.ml" 88 2841 2860
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_base.ml" 89 2862 2882 "generation/genr_base.ml" 89 2862 2898
+type(
+  string -> string list -> Parsetree.core_type
+)
+ident(
+  ext_ref Otype.type_of_eq
+)
+"generation/genr_base.ml" 89 2862 2899 "generation/genr_base.ml" 89 2862 2904
+type(
+  string
+)
+ident(
+  int_ref tname "generation/genr_base.ml" 86 2794 2807 "generation/genr_base.ml" 86 2794 2812
+)
+"generation/genr_base.ml" 89 2862 2905 "generation/genr_base.ml" 89 2862 2910
+type(
+  Parsetree.type_declaration
+)
+ident(
+  int_ref tdecl "generation/genr_base.ml" 86 2794 2814 "generation/genr_base.ml" 86 2794 2819
+)
+"generation/genr_base.ml" 89 2862 2905 "generation/genr_base.ml" 89 2862 2923
+type(
+  string list
+)
+"generation/genr_base.ml" 89 2862 2882 "generation/genr_base.ml" 89 2862 2923
+call(
+  stack
+)
+type(
+  Parsetree.core_type
+)
+"generation/genr_base.ml" 90 2925 2945 "generation/genr_base.ml" 90 2925 2959
+type(
+  unit -> string list
+)
+ident(
+  int_ref get_eq_fun_def "generation/genr_base.ml" 75 2508 2512 "generation/genr_base.ml" 75 2508 2526
+)
+"generation/genr_base.ml" 90 2925 2960 "generation/genr_base.ml" 90 2925 2962
+type(
+  unit
+)
+"generation/genr_base.ml" 90 2925 2945 "generation/genr_base.ml" 90 2925 2962
+call(
+  stack
+)
+type(
+  string list
+)
+"generation/genr_base.ml" 89 2862 2868 "generation/genr_base.ml" 91 2964 2971
+type(
+  Parsetree.value_description
+)
+"generation/genr_base.ml" 87 2823 2826 "generation/genr_base.ml" 91 2964 2972
+type(
+  Code.structure_item
+)
+"generation/genr_base.ml" 94 2977 2981 "generation/genr_base.ml" 94 2977 2996
+type(
+  string * Parsetree.type_declaration ->
+  Parsetree.core_type -> Code.structure_item
+)
+ident(
+  def genr_projection "generation/genr_base.ml" 103 3244 3244 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 94 2977 2998 "generation/genr_base.ml" 94 2977 3003
+type(
+  string
+)
+ident(
+  def tname "generation/genr_base.ml" 94 2977 3012 "generation/genr_base.ml" 99 3164 3171
+)
+"generation/genr_base.ml" 94 2977 3005 "generation/genr_base.ml" 94 2977 3010
+type(
+  Parsetree.type_declaration
+)
+ident(
+  def tdecl "generation/genr_base.ml" 94 2977 3012 "generation/genr_base.ml" 99 3164 3171
+)
+"generation/genr_base.ml" 94 2977 2997 "generation/genr_base.ml" 94 2977 3011
+type(
+  string * Parsetree.type_declaration
+)
+"generation/genr_base.ml" 94 2977 3012 "generation/genr_base.ml" 94 2977 3016
+type(
+  Parsetree.core_type
+)
+ident(
+  def trep "generation/genr_base.ml" 95 3019 3021 "generation/genr_base.ml" 99 3164 3171
+)
+"generation/genr_base.ml" 96 3036 3041 "generation/genr_base.ml" 96 3036 3048
+type(
+  string
+)
+"generation/genr_base.ml" 96 3036 3049 "generation/genr_base.ml" 96 3036 3050
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"generation/genr_base.ml" 96 3036 3051 "generation/genr_base.ml" 96 3036 3056
+type(
+  string
+)
+ident(
+  int_ref tname "generation/genr_base.ml" 94 2977 2998 "generation/genr_base.ml" 94 2977 3003
+)
+"generation/genr_base.ml" 96 3036 3041 "generation/genr_base.ml" 96 3036 3056
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_base.ml" 97 3058 3077 "generation/genr_base.ml" 97 3058 3098
+type(
+  string -> string list -> Parsetree.core_type -> Parsetree.core_type
+)
+ident(
+  ext_ref Otype.projection_type
+)
+"generation/genr_base.ml" 97 3058 3099 "generation/genr_base.ml" 97 3058 3104
+type(
+  string
+)
+ident(
+  int_ref tname "generation/genr_base.ml" 94 2977 2998 "generation/genr_base.ml" 94 2977 3003
+)
+"generation/genr_base.ml" 97 3058 3105 "generation/genr_base.ml" 97 3058 3110
+type(
+  Parsetree.type_declaration
+)
+ident(
+  int_ref tdecl "generation/genr_base.ml" 94 2977 3005 "generation/genr_base.ml" 94 2977 3010
+)
+"generation/genr_base.ml" 97 3058 3105 "generation/genr_base.ml" 97 3058 3123
+type(
+  string list
+)
+"generation/genr_base.ml" 97 3058 3124 "generation/genr_base.ml" 97 3058 3128
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref trep "generation/genr_base.ml" 94 2977 3012 "generation/genr_base.ml" 94 2977 3016
+)
+"generation/genr_base.ml" 97 3058 3077 "generation/genr_base.ml" 97 3058 3128
+call(
+  stack
+)
+type(
+  Parsetree.core_type
+)
+"generation/genr_base.ml" 98 3130 3150 "generation/genr_base.ml" 98 3130 3161
+type(
+  string
+)
+"generation/genr_base.ml" 98 3130 3149 "generation/genr_base.ml" 98 3130 3162
+type(
+  string list
+)
+"generation/genr_base.ml" 97 3058 3063 "generation/genr_base.ml" 99 3164 3170
+type(
+  Parsetree.value_description
+)
+"generation/genr_base.ml" 95 3019 3021 "generation/genr_base.ml" 99 3164 3171
+type(
+  Code.structure_item
+)
+"generation/genr_base.ml" 103 3244 3248 "generation/genr_base.ml" 103 3244 3265
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  def genr_rule_pattern "generation/genr_base.ml" 110 3458 3458 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 103 3244 3266 "generation/genr_base.ml" 103 3244 3267
+type(
+  Parsetree.pattern
+)
+ident(
+  def p "generation/genr_base.ml" 104 3270 3272 "generation/genr_base.ml" 106 3355 3380
+)
+"generation/genr_base.ml" 104 3270 3275 "generation/genr_base.ml" 104 3270 3294
+type(
+  unit -> bool
+)
+ident(
+  int_ref get_sharable_target "generation/genr_base.ml" 69 2350 2375 "generation/genr_base.ml" 69 2350 2394
+)
+"generation/genr_base.ml" 104 3270 3295 "generation/genr_base.ml" 104 3270 3297
+type(
+  unit
+)
+"generation/genr_base.ml" 104 3270 3275 "generation/genr_base.ml" 104 3270 3297
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_base.ml" 105 3298 3305 "generation/genr_base.ml" 105 3298 3333
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  ext_ref Genr_pattern.add_underscores
+)
+"generation/genr_base.ml" 105 3298 3335 "generation/genr_base.ml" 105 3298 3351
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  ext_ref Genr_pattern.remove_topconstr
+)
+"generation/genr_base.ml" 105 3298 3352 "generation/genr_base.ml" 105 3298 3353
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "generation/genr_base.ml" 103 3244 3266 "generation/genr_base.ml" 103 3244 3267
+)
+"generation/genr_base.ml" 105 3298 3334 "generation/genr_base.ml" 105 3298 3354
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_base.ml" 105 3298 3305 "generation/genr_base.ml" 105 3298 3354
+call(
+  tail
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_base.ml" 106 3355 3362 "generation/genr_base.ml" 106 3355 3378
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  ext_ref Genr_pattern.remove_topconstr
+)
+"generation/genr_base.ml" 106 3355 3379 "generation/genr_base.ml" 106 3355 3380
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "generation/genr_base.ml" 103 3244 3266 "generation/genr_base.ml" 103 3244 3267
+)
+"generation/genr_base.ml" 106 3355 3362 "generation/genr_base.ml" 106 3355 3380
+call(
+  tail
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_base.ml" 104 3270 3272 "generation/genr_base.ml" 106 3355 3380
+type(
+  Parsetree.pattern
+)
+"generation/genr_base.ml" 110 3458 3462 "generation/genr_base.ml" 110 3458 3488
+type(
+  string -> string
+)
+ident(
+  def construction_function_name "generation/genr_base.ml" 113 3515 3515 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 110 3458 3491 "generation/genr_base.ml" 110 3458 3510
+type(
+  string -> string
+)
+ident(
+  ext_ref String.uncapitalize
+)
+"generation/genr_base.ml" 113 3515 3519 "generation/genr_base.ml" 113 3515 3532
+type(
+  string -> string -> string
+)
+ident(
+  def prefix_string "generation/genr_base.ml" 116 3579 3579 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 113 3515 3533 "generation/genr_base.ml" 113 3515 3537
+type(
+  string
+)
+ident(
+  def pref "generation/genr_base.ml" 113 3515 3538 "generation/genr_base.ml" 113 3515 3574
+)
+"generation/genr_base.ml" 113 3515 3538 "generation/genr_base.ml" 113 3515 3541
+type(
+  string
+)
+ident(
+  def str "generation/genr_base.ml" 113 3515 3544 "generation/genr_base.ml" 113 3515 3574
+)
+"generation/genr_base.ml" 113 3515 3544 "generation/genr_base.ml" 113 3515 3558
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"generation/genr_base.ml" 113 3515 3559 "generation/genr_base.ml" 113 3515 3565
+type(
+  (string -> string -> string, unit, string) format
+)
+"generation/genr_base.ml" 113 3515 3566 "generation/genr_base.ml" 113 3515 3570
+type(
+  string
+)
+ident(
+  int_ref pref "generation/genr_base.ml" 113 3515 3533 "generation/genr_base.ml" 113 3515 3537
+)
+"generation/genr_base.ml" 113 3515 3571 "generation/genr_base.ml" 113 3515 3574
+type(
+  string
+)
+ident(
+  int_ref str "generation/genr_base.ml" 113 3515 3538 "generation/genr_base.ml" 113 3515 3541
+)
+"generation/genr_base.ml" 113 3515 3544 "generation/genr_base.ml" 113 3515 3574
+call(
+  tail
+)
+type(
+  string
+)
+"generation/genr_base.ml" 116 3579 3583 "generation/genr_base.ml" 116 3579 3596
+type(
+  string -> string -> string
+)
+ident(
+  def suffix_string "generation/genr_base.ml" 119 3635 3635 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 116 3579 3597 "generation/genr_base.ml" 116 3579 3601
+type(
+  string
+)
+ident(
+  def suff "generation/genr_base.ml" 116 3579 3602 "generation/genr_base.ml" 116 3579 3630
+)
+"generation/genr_base.ml" 116 3579 3602 "generation/genr_base.ml" 116 3579 3605
+type(
+  string
+)
+ident(
+  def str "generation/genr_base.ml" 116 3579 3608 "generation/genr_base.ml" 116 3579 3630
+)
+"generation/genr_base.ml" 116 3579 3608 "generation/genr_base.ml" 116 3579 3621
+type(
+  string -> string -> string
+)
+ident(
+  int_ref prefix_string "generation/genr_base.ml" 113 3515 3519 "generation/genr_base.ml" 113 3515 3532
+)
+"generation/genr_base.ml" 116 3579 3622 "generation/genr_base.ml" 116 3579 3625
+type(
+  string
+)
+ident(
+  int_ref str "generation/genr_base.ml" 116 3579 3602 "generation/genr_base.ml" 116 3579 3605
+)
+"generation/genr_base.ml" 116 3579 3626 "generation/genr_base.ml" 116 3579 3630
+type(
+  string
+)
+ident(
+  int_ref suff "generation/genr_base.ml" 116 3579 3597 "generation/genr_base.ml" 116 3579 3601
+)
+"generation/genr_base.ml" 116 3579 3608 "generation/genr_base.ml" 116 3579 3630
+call(
+  tail
+)
+type(
+  string
+)
+"generation/genr_base.ml" 119 3635 3643 "generation/genr_base.ml" 119 3635 3652
+type(
+  ('a -> string -> string) -> 'a -> Longident.t -> Longident.t
+)
+ident(
+  def fix_ident "generation/genr_base.ml" 119 3635 3635 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 119 3635 3653 "generation/genr_base.ml" 119 3635 3663
+type(
+  'a -> string -> string
+)
+ident(
+  def fix_string "generation/genr_base.ml" 119 3635 3664 "generation/genr_base.ml" 122 3791 3870
+)
+"generation/genr_base.ml" 119 3635 3664 "generation/genr_base.ml" 119 3635 3667
+type(
+  'a
+)
+ident(
+  def fix "generation/genr_base.ml" 119 3635 3670 "generation/genr_base.ml" 122 3791 3870
+)
+"generation/genr_base.ml" 120 3679 3690 "generation/genr_base.ml" 120 3679 3695
+type(
+  string
+)
+ident(
+  def ident "generation/genr_base.ml" 120 3679 3699 "generation/genr_base.ml" 120 3679 3728
+)
+"generation/genr_base.ml" 120 3679 3683 "generation/genr_base.ml" 120 3679 3695
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 120 3679 3707 "generation/genr_base.ml" 120 3679 3717
+type(
+  'a -> string -> string
+)
+ident(
+  int_ref fix_string "generation/genr_base.ml" 119 3635 3653 "generation/genr_base.ml" 119 3635 3663
+)
+"generation/genr_base.ml" 120 3679 3718 "generation/genr_base.ml" 120 3679 3721
+type(
+  'a
+)
+ident(
+  int_ref fix "generation/genr_base.ml" 119 3635 3664 "generation/genr_base.ml" 119 3635 3667
+)
+"generation/genr_base.ml" 120 3679 3722 "generation/genr_base.ml" 120 3679 3727
+type(
+  string
+)
+ident(
+  int_ref ident "generation/genr_base.ml" 120 3679 3690 "generation/genr_base.ml" 120 3679 3695
+)
+"generation/genr_base.ml" 120 3679 3706 "generation/genr_base.ml" 120 3679 3728
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_base.ml" 120 3679 3699 "generation/genr_base.ml" 120 3679 3728
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 121 3729 3739 "generation/genr_base.ml" 121 3729 3744
+type(
+  Longident.t
+)
+ident(
+  def modid "generation/genr_base.ml" 121 3729 3756 "generation/genr_base.ml" 121 3729 3790
+)
+"generation/genr_base.ml" 121 3729 3746 "generation/genr_base.ml" 121 3729 3751
+type(
+  string
+)
+ident(
+  def ident "generation/genr_base.ml" 121 3729 3756 "generation/genr_base.ml" 121 3729 3790
+)
+"generation/genr_base.ml" 121 3729 3733 "generation/genr_base.ml" 121 3729 3752
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 121 3729 3762 "generation/genr_base.ml" 121 3729 3767
+type(
+  Longident.t
+)
+ident(
+  int_ref modid "generation/genr_base.ml" 121 3729 3739 "generation/genr_base.ml" 121 3729 3744
+)
+"generation/genr_base.ml" 121 3729 3769 "generation/genr_base.ml" 121 3729 3779
+type(
+  'a -> string -> string
+)
+ident(
+  int_ref fix_string "generation/genr_base.ml" 119 3635 3653 "generation/genr_base.ml" 119 3635 3663
+)
+"generation/genr_base.ml" 121 3729 3780 "generation/genr_base.ml" 121 3729 3783
+type(
+  'a
+)
+ident(
+  int_ref fix "generation/genr_base.ml" 119 3635 3664 "generation/genr_base.ml" 119 3635 3667
+)
+"generation/genr_base.ml" 121 3729 3784 "generation/genr_base.ml" 121 3729 3789
+type(
+  string
+)
+ident(
+  int_ref ident "generation/genr_base.ml" 121 3729 3746 "generation/genr_base.ml" 121 3729 3751
+)
+"generation/genr_base.ml" 121 3729 3769 "generation/genr_base.ml" 121 3729 3789
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_base.ml" 121 3729 3756 "generation/genr_base.ml" 121 3729 3790
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 122 3791 3803 "generation/genr_base.ml" 122 3791 3809
+type(
+  Longident.t
+)
+ident(
+  def modid1 "generation/genr_base.ml" 122 3791 3822 "generation/genr_base.ml" 122 3791 3870
+)
+"generation/genr_base.ml" 122 3791 3811 "generation/genr_base.ml" 122 3791 3817
+type(
+  Longident.t
+)
+ident(
+  def modid2 "generation/genr_base.ml" 122 3791 3822 "generation/genr_base.ml" 122 3791 3870
+)
+"generation/genr_base.ml" 122 3791 3795 "generation/genr_base.ml" 122 3791 3818
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 122 3791 3830 "generation/genr_base.ml" 122 3791 3836
+type(
+  Longident.t
+)
+ident(
+  int_ref modid1 "generation/genr_base.ml" 122 3791 3803 "generation/genr_base.ml" 122 3791 3809
+)
+"generation/genr_base.ml" 122 3791 3838 "generation/genr_base.ml" 122 3791 3847
+type(
+  ('a -> string -> string) -> 'a -> Longident.t -> Longident.t
+)
+ident(
+  int_ref fix_ident "generation/genr_base.ml" 119 3635 3643 "generation/genr_base.ml" 119 3635 3652
+)
+"generation/genr_base.ml" 122 3791 3848 "generation/genr_base.ml" 122 3791 3858
+type(
+  'a -> string -> string
+)
+ident(
+  int_ref fix_string "generation/genr_base.ml" 119 3635 3653 "generation/genr_base.ml" 119 3635 3663
+)
+"generation/genr_base.ml" 122 3791 3859 "generation/genr_base.ml" 122 3791 3862
+type(
+  'a
+)
+ident(
+  int_ref fix "generation/genr_base.ml" 119 3635 3664 "generation/genr_base.ml" 119 3635 3667
+)
+"generation/genr_base.ml" 122 3791 3863 "generation/genr_base.ml" 122 3791 3869
+type(
+  Longident.t
+)
+ident(
+  int_ref modid2 "generation/genr_base.ml" 122 3791 3811 "generation/genr_base.ml" 122 3791 3817
+)
+"generation/genr_base.ml" 122 3791 3838 "generation/genr_base.ml" 122 3791 3869
+call(
+  stack
+)
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 122 3791 3822 "generation/genr_base.ml" 122 3791 3870
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 119 3635 3670 "generation/genr_base.ml" 122 3791 3870
+type(
+  Longident.t -> Longident.t
+)
+"generation/genr_base.ml" 125 3875 3879 "generation/genr_base.ml" 125 3875 3891
+type(
+  string -> Longident.t -> Longident.t
+)
+ident(
+  def prefix_ident "generation/genr_base.ml" 127 3921 3921 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 125 3875 3894 "generation/genr_base.ml" 125 3875 3903
+type(
+  (string -> string -> string) -> string -> Longident.t -> Longident.t
+)
+ident(
+  int_ref fix_ident "generation/genr_base.ml" 119 3635 3643 "generation/genr_base.ml" 119 3635 3652
+)
+"generation/genr_base.ml" 125 3875 3904 "generation/genr_base.ml" 125 3875 3917
+type(
+  string -> string -> string
+)
+ident(
+  int_ref prefix_string "generation/genr_base.ml" 113 3515 3519 "generation/genr_base.ml" 113 3515 3532
+)
+"generation/genr_base.ml" 125 3875 3894 "generation/genr_base.ml" 125 3875 3917
+call(
+  stack
+)
+type(
+  string -> Longident.t -> Longident.t
+)
+"generation/genr_base.ml" 127 3921 3925 "generation/genr_base.ml" 127 3921 3956
+type(
+  ('a -> string -> string) -> 'a -> Longident.t -> Longident.t
+)
+ident(
+  def fix_construction_function_ident "generation/genr_base.ml" 132 4079 4079 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 127 3921 3957 "generation/genr_base.ml" 127 3921 3967
+type(
+  'a -> string -> string
+)
+ident(
+  def fix_string "generation/genr_base.ml" 128 3970 3972 "generation/genr_base.ml" 129 4052 4074
+)
+"generation/genr_base.ml" 128 3970 3976 "generation/genr_base.ml" 128 3970 3986
+type(
+  'a -> string -> string
+)
+ident(
+  def fix_string "generation/genr_base.ml" 129 4052 4054 "generation/genr_base.ml" 129 4052 4074
+)
+"generation/genr_base.ml" 128 3970 3987 "generation/genr_base.ml" 128 3970 3990
+type(
+  'a
+)
+ident(
+  def fix "generation/genr_base.ml" 128 3970 3991 "generation/genr_base.ml" 128 3970 4048
+)
+"generation/genr_base.ml" 128 3970 3991 "generation/genr_base.ml" 128 3970 3996
+type(
+  string
+)
+ident(
+  def gname "generation/genr_base.ml" 128 3970 3999 "generation/genr_base.ml" 128 3970 4048
+)
+"generation/genr_base.ml" 128 3970 3999 "generation/genr_base.ml" 128 3970 4009
+type(
+  'a -> string -> string
+)
+ident(
+  int_ref fix_string "generation/genr_base.ml" 127 3921 3957 "generation/genr_base.ml" 127 3921 3967
+)
+"generation/genr_base.ml" 128 3970 4010 "generation/genr_base.ml" 128 3970 4013
+type(
+  'a
+)
+ident(
+  int_ref fix "generation/genr_base.ml" 128 3970 3987 "generation/genr_base.ml" 128 3970 3990
+)
+"generation/genr_base.ml" 128 3970 4015 "generation/genr_base.ml" 128 3970 4041
+type(
+  string -> string
+)
+ident(
+  int_ref construction_function_name "generation/genr_base.ml" 110 3458 3462 "generation/genr_base.ml" 110 3458 3488
+)
+"generation/genr_base.ml" 128 3970 4042 "generation/genr_base.ml" 128 3970 4047
+type(
+  string
+)
+ident(
+  int_ref gname "generation/genr_base.ml" 128 3970 3991 "generation/genr_base.ml" 128 3970 3996
+)
+"generation/genr_base.ml" 128 3970 4014 "generation/genr_base.ml" 128 3970 4048
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_base.ml" 128 3970 3999 "generation/genr_base.ml" 128 3970 4048
+call(
+  tail
+)
+type(
+  string
+)
+"generation/genr_base.ml" 129 4052 4054 "generation/genr_base.ml" 129 4052 4063
+type(
+  ('a -> string -> string) -> 'a -> Longident.t -> Longident.t
+)
+ident(
+  int_ref fix_ident "generation/genr_base.ml" 119 3635 3643 "generation/genr_base.ml" 119 3635 3652
+)
+"generation/genr_base.ml" 129 4052 4064 "generation/genr_base.ml" 129 4052 4074
+type(
+  'a -> string -> string
+)
+ident(
+  int_ref fix_string "generation/genr_base.ml" 128 3970 3976 "generation/genr_base.ml" 128 3970 3986
+)
+"generation/genr_base.ml" 129 4052 4054 "generation/genr_base.ml" 129 4052 4074
+call(
+  tail
+)
+type(
+  'a -> Longident.t -> Longident.t
+)
+"generation/genr_base.ml" 128 3970 3972 "generation/genr_base.ml" 129 4052 4074
+type(
+  'a -> Longident.t -> Longident.t
+)
+"generation/genr_base.ml" 132 4079 4083 "generation/genr_base.ml" 132 4079 4117
+type(
+  string -> Longident.t -> Longident.t
+)
+ident(
+  def prefix_construction_function_ident "generation/genr_base.ml" 138 4261 4261 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 133 4120 4122 "generation/genr_base.ml" 133 4120 4153
+type(
+  (string -> string -> string) -> string -> Longident.t -> Longident.t
+)
+ident(
+  int_ref fix_construction_function_ident "generation/genr_base.ml" 127 3921 3925 "generation/genr_base.ml" 127 3921 3956
+)
+"generation/genr_base.ml" 133 4120 4154 "generation/genr_base.ml" 133 4120 4167
+type(
+  string -> string -> string
+)
+ident(
+  int_ref prefix_string "generation/genr_base.ml" 113 3515 3519 "generation/genr_base.ml" 113 3515 3532
+)
+"generation/genr_base.ml" 133 4120 4122 "generation/genr_base.ml" 133 4120 4167
+call(
+  stack
+)
+type(
+  string -> Longident.t -> Longident.t
+)
+"generation/genr_base.ml" 134 4168 4172 "generation/genr_base.ml" 134 4168 4206
+type(
+  string -> Longident.t -> Longident.t
+)
+ident(
+  def suffix_construction_function_ident "generation/genr_base.ml" 138 4261 4261 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 135 4209 4211 "generation/genr_base.ml" 135 4209 4242
+type(
+  (string -> string -> string) -> string -> Longident.t -> Longident.t
+)
+ident(
+  int_ref fix_construction_function_ident "generation/genr_base.ml" 127 3921 3925 "generation/genr_base.ml" 127 3921 3956
+)
+"generation/genr_base.ml" 135 4209 4243 "generation/genr_base.ml" 135 4209 4256
+type(
+  string -> string -> string
+)
+ident(
+  int_ref suffix_string "generation/genr_base.ml" 116 3579 3583 "generation/genr_base.ml" 116 3579 3596
+)
+"generation/genr_base.ml" 135 4209 4211 "generation/genr_base.ml" 135 4209 4256
+call(
+  stack
+)
+type(
+  string -> Longident.t -> Longident.t
+)
+"generation/genr_base.ml" 138 4261 4265 "generation/genr_base.ml" 138 4261 4292
+type(
+  Longident.t -> Longident.t
+)
+ident(
+  def construction_function_ident "generation/genr_base.ml" 146 4564 4564 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 139 4295 4297 "generation/genr_base.ml" 139 4295 4328
+type(
+  (string -> string -> string) -> string -> Longident.t -> Longident.t
+)
+ident(
+  int_ref fix_construction_function_ident "generation/genr_base.ml" 127 3921 3925 "generation/genr_base.ml" 127 3921 3956
+)
+"generation/genr_base.ml" 139 4295 4334 "generation/genr_base.ml" 139 4295 4338
+type(
+  string
+)
+ident(
+  def _fix "generation/genr_base.ml" 139 4295 4339 "generation/genr_base.ml" 139 4295 4345
+)
+"generation/genr_base.ml" 139 4295 4339 "generation/genr_base.ml" 139 4295 4340
+type(
+  string
+)
+ident(
+  def s "generation/genr_base.ml" 139 4295 4344 "generation/genr_base.ml" 139 4295 4345
+)
+"generation/genr_base.ml" 139 4295 4344 "generation/genr_base.ml" 139 4295 4345
+type(
+  string
+)
+ident(
+  int_ref s "generation/genr_base.ml" 139 4295 4339 "generation/genr_base.ml" 139 4295 4340
+)
+"generation/genr_base.ml" 139 4295 4329 "generation/genr_base.ml" 139 4295 4346
+type(
+  string -> string -> string
+)
+"generation/genr_base.ml" 139 4295 4347 "generation/genr_base.ml" 139 4295 4349
+type(
+  string
+)
+"generation/genr_base.ml" 139 4295 4297 "generation/genr_base.ml" 139 4295 4349
+call(
+  stack
+)
+type(
+  Longident.t -> Longident.t
+)
+"generation/genr_base.ml" 146 4564 4568 "generation/genr_base.ml" 146 4564 4596
+type(
+  string -> Parsetree.generator -> Longident.t
+)
+ident(
+  def prefix_construction_function "generation/genr_base.ml" 163 5192 5192 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 146 4564 4597 "generation/genr_base.ml" 146 4564 4603
+type(
+  string
+)
+ident(
+  def prefix "generation/genr_base.ml" 146 4564 4604 "generation/genr_base.ml" 147 4608 4673
+)
+"generation/genr_base.ml" 146 4564 4604 "generation/genr_base.ml" 146 4564 4605
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 147 4608 4610 "generation/genr_base.ml" 147 4608 4673
+)
+"generation/genr_base.ml" 147 4608 4610 "generation/genr_base.ml" 147 4608 4644
+type(
+  string -> Longident.t -> Longident.t
+)
+ident(
+  int_ref prefix_construction_function_ident "generation/genr_base.ml" 132 4079 4083 "generation/genr_base.ml" 132 4079 4117
+)
+"generation/genr_base.ml" 147 4608 4645 "generation/genr_base.ml" 147 4608 4651
+type(
+  string
+)
+ident(
+  int_ref prefix "generation/genr_base.ml" 146 4564 4597 "generation/genr_base.ml" 146 4564 4603
+)
+"generation/genr_base.ml" 147 4608 4652 "generation/genr_base.ml" 147 4608 4653
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 146 4564 4604 "generation/genr_base.ml" 146 4564 4605
+)
+"generation/genr_base.ml" 147 4608 4652 "generation/genr_base.ml" 147 4608 4673
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 147 4608 4610 "generation/genr_base.ml" 147 4608 4673
+call(
+  tail
+)
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 163 5192 5196 "generation/genr_base.ml" 163 5192 5225
+type(
+  string -> Parsetree.generator -> Parsetree.generator -> Longident.t
+)
+ident(
+  def prefix_construction_function2 "generation/genr_base.ml" 170 5361 5361 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 163 5192 5226 "generation/genr_base.ml" 163 5192 5232
+type(
+  string
+)
+ident(
+  def prefix "generation/genr_base.ml" 163 5192 5233 "generation/genr_base.ml" 167 5350 5356
+)
+"generation/genr_base.ml" 163 5192 5233 "generation/genr_base.ml" 163 5192 5235
+type(
+  Parsetree.generator
+)
+ident(
+  def g1 "generation/genr_base.ml" 163 5192 5236 "generation/genr_base.ml" 167 5350 5356
+)
+"generation/genr_base.ml" 163 5192 5236 "generation/genr_base.ml" 163 5192 5238
+type(
+  Parsetree.generator
+)
+ident(
+  def g2 "generation/genr_base.ml" 164 5241 5243 "generation/genr_base.ml" 167 5350 5356
+)
+"generation/genr_base.ml" 164 5241 5243 "generation/genr_base.ml" 164 5241 5271
+type(
+  string -> Parsetree.generator -> Longident.t
+)
+ident(
+  int_ref prefix_construction_function "generation/genr_base.ml" 146 4564 4568 "generation/genr_base.ml" 146 4564 4596
+)
+"generation/genr_base.ml" 165 5272 5277 "generation/genr_base.ml" 165 5272 5300
+type(
+  Longident.t -> string
+)
+ident(
+  ext_ref Otype.name_of_longident
+)
+"generation/genr_base.ml" 166 5301 5309 "generation/genr_base.ml" 166 5301 5337
+type(
+  string -> Parsetree.generator -> Longident.t
+)
+ident(
+  int_ref prefix_construction_function "generation/genr_base.ml" 146 4564 4568 "generation/genr_base.ml" 146 4564 4596
+)
+"generation/genr_base.ml" 166 5301 5338 "generation/genr_base.ml" 166 5301 5344
+type(
+  string
+)
+ident(
+  int_ref prefix "generation/genr_base.ml" 163 5192 5226 "generation/genr_base.ml" 163 5192 5232
+)
+"generation/genr_base.ml" 166 5301 5345 "generation/genr_base.ml" 166 5301 5347
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g1 "generation/genr_base.ml" 163 5192 5233 "generation/genr_base.ml" 163 5192 5235
+)
+"generation/genr_base.ml" 166 5301 5308 "generation/genr_base.ml" 166 5301 5348
+call(
+  stack
+)
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 165 5272 5276 "generation/genr_base.ml" 166 5301 5349
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_base.ml" 167 5350 5354 "generation/genr_base.ml" 167 5350 5356
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g2 "generation/genr_base.ml" 163 5192 5236 "generation/genr_base.ml" 163 5192 5238
+)
+"generation/genr_base.ml" 164 5241 5243 "generation/genr_base.ml" 167 5350 5356
+call(
+  tail
+)
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 170 5361 5365 "generation/genr_base.ml" 170 5361 5386
+type(
+  Parsetree.generator -> Longident.t
+)
+ident(
+  def construction_function "generation/genr_base.ml" 173 5435 5435 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 170 5361 5387 "generation/genr_base.ml" 170 5361 5388
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 170 5361 5391 "generation/genr_base.ml" 170 5361 5430
+)
+"generation/genr_base.ml" 170 5361 5391 "generation/genr_base.ml" 170 5361 5418
+type(
+  Longident.t -> Longident.t
+)
+ident(
+  int_ref construction_function_ident "generation/genr_base.ml" 138 4261 4265 "generation/genr_base.ml" 138 4261 4292
+)
+"generation/genr_base.ml" 170 5361 5419 "generation/genr_base.ml" 170 5361 5420
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 170 5361 5387 "generation/genr_base.ml" 170 5361 5388
+)
+"generation/genr_base.ml" 170 5361 5419 "generation/genr_base.ml" 170 5361 5430
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 170 5361 5391 "generation/genr_base.ml" 170 5361 5430
+call(
+  tail
+)
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 173 5435 5439 "generation/genr_base.ml" 173 5435 5455
+type(
+  Parsetree.generator -> Longident.t
+)
+ident(
+  def compare_function "generation/genr_base.ml" 179 5687 5687 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 173 5435 5456 "generation/genr_base.ml" 173 5435 5457
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 173 5435 5460 "generation/genr_base.ml" 173 5435 5501
+)
+"generation/genr_base.ml" 173 5435 5460 "generation/genr_base.ml" 173 5435 5488
+type(
+  string -> Parsetree.generator -> Longident.t
+)
+ident(
+  int_ref prefix_construction_function "generation/genr_base.ml" 146 4564 4568 "generation/genr_base.ml" 146 4564 4596
+)
+"generation/genr_base.ml" 173 5435 5489 "generation/genr_base.ml" 173 5435 5499
+type(
+  string
+)
+"generation/genr_base.ml" 173 5435 5500 "generation/genr_base.ml" 173 5435 5501
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 173 5435 5456 "generation/genr_base.ml" 173 5435 5457
+)
+"generation/genr_base.ml" 173 5435 5460 "generation/genr_base.ml" 173 5435 5501
+call(
+  tail
+)
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 179 5687 5691 "generation/genr_base.ml" 179 5687 5729
+type(
+  Parsetree.generator -> Longident.t
+)
+ident(
+  def construction_function_memo_table_ident "generation/genr_base.ml" 184 5858 5858 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 179 5687 5730 "generation/genr_base.ml" 179 5687 5731
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 180 5734 5736 "generation/genr_base.ml" 180 5734 5796
+)
+"generation/genr_base.ml" 180 5734 5736 "generation/genr_base.ml" 180 5734 5770
+type(
+  string -> Longident.t -> Longident.t
+)
+ident(
+  int_ref suffix_construction_function_ident "generation/genr_base.ml" 134 4168 4172 "generation/genr_base.ml" 134 4168 4206
+)
+"generation/genr_base.ml" 180 5734 5771 "generation/genr_base.ml" 180 5734 5784
+type(
+  string
+)
+"generation/genr_base.ml" 180 5734 5785 "generation/genr_base.ml" 180 5734 5786
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 179 5687 5730 "generation/genr_base.ml" 179 5687 5731
+)
+"generation/genr_base.ml" 180 5734 5785 "generation/genr_base.ml" 180 5734 5796
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 180 5734 5736 "generation/genr_base.ml" 180 5734 5796
+call(
+  tail
+)
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 184 5858 5862 "generation/genr_base.ml" 184 5858 5874
+type(
+  Parsetree.generator -> Code.exp list -> Code.exp
+)
+ident(
+  def construction "generation/genr_base.ml" 196 6296 6296 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 184 5858 5875 "generation/genr_base.ml" 184 5858 5876
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 185 5879 5881 "generation/genr_base.ml" 193 6260 6291
+)
+"generation/genr_base.ml" 185 5879 5885 "generation/genr_base.ml" 185 5879 5888
+type(
+  Longident.t
+)
+ident(
+  def fid "generation/genr_base.ml" 186 5934 5936 "generation/genr_base.ml" 193 6260 6291
+)
+"generation/genr_base.ml" 185 5879 5891 "generation/genr_base.ml" 185 5879 5918
+type(
+  Longident.t -> Longident.t
+)
+ident(
+  int_ref construction_function_ident "generation/genr_base.ml" 138 4261 4265 "generation/genr_base.ml" 138 4261 4292
+)
+"generation/genr_base.ml" 185 5879 5919 "generation/genr_base.ml" 185 5879 5920
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 184 5858 5875 "generation/genr_base.ml" 184 5858 5876
+)
+"generation/genr_base.ml" 185 5879 5919 "generation/genr_base.ml" 185 5879 5930
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 185 5879 5891 "generation/genr_base.ml" 185 5879 5930
+call(
+  stack
+)
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 187 5945 5949 "generation/genr_base.ml" 187 5945 5951
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 187 5945 5964 "generation/genr_base.ml" 187 5945 5967
+type(
+  Code.ident
+)
+ident(
+  int_ref fid "generation/genr_base.ml" 185 5879 5885 "generation/genr_base.ml" 185 5879 5888
+)
+"generation/genr_base.ml" 187 5945 5955 "generation/genr_base.ml" 187 5945 5967
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 188 5968 5973 "generation/genr_base.ml" 188 5968 5974
+type(
+  Code.exp
+)
+ident(
+  def x "generation/genr_base.ml" 188 5968 5979 "generation/genr_base.ml" 188 5968 5991
+)
+"generation/genr_base.ml" 188 5968 5972 "generation/genr_base.ml" 188 5968 5975
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 188 5968 5979 "generation/genr_base.ml" 188 5968 5985
+type(
+  Code.lident -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.apply1
+)
+"generation/genr_base.ml" 188 5968 5986 "generation/genr_base.ml" 188 5968 5989
+type(
+  Code.lident
+)
+ident(
+  int_ref fid "generation/genr_base.ml" 185 5879 5885 "generation/genr_base.ml" 185 5879 5888
+)
+"generation/genr_base.ml" 188 5968 5990 "generation/genr_base.ml" 188 5968 5991
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_base.ml" 188 5968 5973 "generation/genr_base.ml" 188 5968 5974
+)
+"generation/genr_base.ml" 188 5968 5979 "generation/genr_base.ml" 188 5968 5991
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 192 6195 6199 "generation/genr_base.ml" 192 6195 6201
+type(
+  Code.exp list
+)
+ident(
+  def xs "generation/genr_base.ml" 192 6195 6207 "generation/genr_base.ml" 192 6195 6259
+)
+"generation/genr_base.ml" 192 6195 6207 "generation/genr_base.ml" 192 6195 6233
+type(
+  Parsetree.generator -> bool
+)
+ident(
+  ext_ref Check.is_listary_generator
+)
+"generation/genr_base.ml" 192 6195 6234 "generation/genr_base.ml" 192 6195 6235
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 184 5858 5875 "generation/genr_base.ml" 184 5858 5876
+)
+"generation/genr_base.ml" 192 6195 6207 "generation/genr_base.ml" 192 6195 6235
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_base.ml" 192 6195 6239 "generation/genr_base.ml" 192 6195 6245
+type(
+  Code.lident -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.apply1
+)
+"generation/genr_base.ml" 192 6195 6246 "generation/genr_base.ml" 192 6195 6249
+type(
+  Code.lident
+)
+ident(
+  int_ref fid "generation/genr_base.ml" 185 5879 5885 "generation/genr_base.ml" 185 5879 5888
+)
+"generation/genr_base.ml" 192 6195 6256 "generation/genr_base.ml" 192 6195 6258
+type(
+  Code.exp list
+)
+ident(
+  int_ref xs "generation/genr_base.ml" 192 6195 6199 "generation/genr_base.ml" 192 6195 6201
+)
+"generation/genr_base.ml" 192 6195 6250 "generation/genr_base.ml" 192 6195 6259
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 192 6195 6239 "generation/genr_base.ml" 192 6195 6259
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 193 6260 6264 "generation/genr_base.ml" 193 6260 6266
+type(
+  Code.exp list
+)
+ident(
+  def xs "generation/genr_base.ml" 193 6260 6270 "generation/genr_base.ml" 193 6260 6291
+)
+"generation/genr_base.ml" 193 6260 6270 "generation/genr_base.ml" 193 6260 6276
+type(
+  Code.lident -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.apply1
+)
+"generation/genr_base.ml" 193 6260 6277 "generation/genr_base.ml" 193 6260 6280
+type(
+  Code.lident
+)
+ident(
+  int_ref fid "generation/genr_base.ml" 185 5879 5885 "generation/genr_base.ml" 185 5879 5888
+)
+"generation/genr_base.ml" 193 6260 6288 "generation/genr_base.ml" 193 6260 6290
+type(
+  Code.exp list
+)
+ident(
+  int_ref xs "generation/genr_base.ml" 193 6260 6264 "generation/genr_base.ml" 193 6260 6266
+)
+"generation/genr_base.ml" 193 6260 6281 "generation/genr_base.ml" 193 6260 6291
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 193 6260 6270 "generation/genr_base.ml" 193 6260 6291
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 186 5934 5936 "generation/genr_base.ml" 193 6260 6291
+type(
+  Code.exp list -> Code.exp
+)
+"generation/genr_base.ml" 185 5879 5881 "generation/genr_base.ml" 193 6260 6291
+type(
+  Code.exp list -> Code.exp
+)
+"generation/genr_base.ml" 196 6296 6300 "generation/genr_base.ml" 196 6296 6313
+type(
+  Parsetree.generator -> Code.exp
+)
+ident(
+  def construction0 "generation/genr_base.ml" 205 6604 6604 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 196 6296 6314 "generation/genr_base.ml" 196 6296 6315
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 196 6296 6318 "generation/genr_base.ml" 196 6296 6335
+)
+"generation/genr_base.ml" 196 6296 6318 "generation/genr_base.ml" 196 6296 6330
+type(
+  Parsetree.generator -> Code.exp list -> Code.exp
+)
+ident(
+  int_ref construction "generation/genr_base.ml" 184 5858 5862 "generation/genr_base.ml" 184 5858 5874
+)
+"generation/genr_base.ml" 196 6296 6331 "generation/genr_base.ml" 196 6296 6332
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 196 6296 6314 "generation/genr_base.ml" 196 6296 6315
+)
+"generation/genr_base.ml" 196 6296 6333 "generation/genr_base.ml" 196 6296 6335
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 196 6296 6318 "generation/genr_base.ml" 196 6296 6335
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 197 6336 6340 "generation/genr_base.ml" 197 6336 6353
+type(
+  Parsetree.generator -> Code.exp -> Code.exp
+)
+ident(
+  def construction1 "generation/genr_base.ml" 205 6604 6604 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 197 6336 6354 "generation/genr_base.ml" 197 6336 6355
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 197 6336 6356 "generation/genr_base.ml" 197 6336 6378
+)
+"generation/genr_base.ml" 197 6336 6356 "generation/genr_base.ml" 197 6336 6357
+type(
+  Code.exp
+)
+ident(
+  def x "generation/genr_base.ml" 197 6336 6360 "generation/genr_base.ml" 197 6336 6378
+)
+"generation/genr_base.ml" 197 6336 6360 "generation/genr_base.ml" 197 6336 6372
+type(
+  Parsetree.generator -> Code.exp list -> Code.exp
+)
+ident(
+  int_ref construction "generation/genr_base.ml" 184 5858 5862 "generation/genr_base.ml" 184 5858 5874
+)
+"generation/genr_base.ml" 197 6336 6373 "generation/genr_base.ml" 197 6336 6374
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 197 6336 6354 "generation/genr_base.ml" 197 6336 6355
+)
+"generation/genr_base.ml" 197 6336 6376 "generation/genr_base.ml" 197 6336 6377
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_base.ml" 197 6336 6356 "generation/genr_base.ml" 197 6336 6357
+)
+"generation/genr_base.ml" 197 6336 6375 "generation/genr_base.ml" 197 6336 6378
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 197 6336 6360 "generation/genr_base.ml" 197 6336 6378
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 198 6379 6383 "generation/genr_base.ml" 198 6379 6396
+type(
+  Parsetree.generator -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  def construction2 "generation/genr_base.ml" 205 6604 6604 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 198 6379 6397 "generation/genr_base.ml" 198 6379 6398
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 198 6379 6399 "generation/genr_base.ml" 198 6379 6426
+)
+"generation/genr_base.ml" 198 6379 6399 "generation/genr_base.ml" 198 6379 6400
+type(
+  Code.exp
+)
+ident(
+  def x "generation/genr_base.ml" 198 6379 6401 "generation/genr_base.ml" 198 6379 6426
+)
+"generation/genr_base.ml" 198 6379 6401 "generation/genr_base.ml" 198 6379 6402
+type(
+  Code.exp
+)
+ident(
+  def y "generation/genr_base.ml" 198 6379 6405 "generation/genr_base.ml" 198 6379 6426
+)
+"generation/genr_base.ml" 198 6379 6405 "generation/genr_base.ml" 198 6379 6417
+type(
+  Parsetree.generator -> Code.exp list -> Code.exp
+)
+ident(
+  int_ref construction "generation/genr_base.ml" 184 5858 5862 "generation/genr_base.ml" 184 5858 5874
+)
+"generation/genr_base.ml" 198 6379 6418 "generation/genr_base.ml" 198 6379 6419
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 198 6379 6397 "generation/genr_base.ml" 198 6379 6398
+)
+"generation/genr_base.ml" 198 6379 6421 "generation/genr_base.ml" 198 6379 6422
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_base.ml" 198 6379 6399 "generation/genr_base.ml" 198 6379 6400
+)
+"generation/genr_base.ml" 198 6379 6424 "generation/genr_base.ml" 198 6379 6425
+type(
+  Code.exp
+)
+ident(
+  int_ref y "generation/genr_base.ml" 198 6379 6401 "generation/genr_base.ml" 198 6379 6402
+)
+"generation/genr_base.ml" 198 6379 6420 "generation/genr_base.ml" 198 6379 6426
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 198 6379 6405 "generation/genr_base.ml" 198 6379 6426
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 205 6604 6608 "generation/genr_base.ml" 205 6604 6633
+type(
+  Parsetree.generator -> Longident.t
+)
+ident(
+  def mk_sharing_function_ident "generation/genr_base.ml" 213 6918 6918 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 205 6604 6634 "generation/genr_base.ml" 205 6604 6635
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 205 6604 6638 "generation/genr_base.ml" 205 6604 6668
+)
+"generation/genr_base.ml" 205 6604 6638 "generation/genr_base.ml" 205 6604 6650
+type(
+  string -> Longident.t -> Longident.t
+)
+ident(
+  int_ref prefix_ident "generation/genr_base.ml" 125 3875 3879 "generation/genr_base.ml" 125 3875 3891
+)
+"generation/genr_base.ml" 205 6604 6651 "generation/genr_base.ml" 205 6604 6656
+type(
+  string
+)
+"generation/genr_base.ml" 205 6604 6657 "generation/genr_base.ml" 205 6604 6658
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 205 6604 6634 "generation/genr_base.ml" 205 6604 6635
+)
+"generation/genr_base.ml" 205 6604 6657 "generation/genr_base.ml" 205 6604 6668
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 205 6604 6638 "generation/genr_base.ml" 205 6604 6668
+call(
+  tail
+)
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 213 6918 6922 "generation/genr_base.ml" 213 6918 6931
+type(
+  Parsetree.generator -> Code.exp list -> Code.exp
+)
+ident(
+  def generator "generation/genr_base.ml" 224 7244 7244 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 213 6918 6932 "generation/genr_base.ml" 213 6918 6933
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 213 6918 6934 "generation/genr_base.ml" 221 7203 7239
+)
+"generation/genr_base.ml" 213 6918 6934 "generation/genr_base.ml" 213 6918 6938
+type(
+  Code.exp list
+)
+ident(
+  def args "generation/genr_base.ml" 214 6941 6943 "generation/genr_base.ml" 221 7203 7239
+)
+"generation/genr_base.ml" 214 6941 6947 "generation/genr_base.ml" 214 6941 6950
+type(
+  Longident.t
+)
+ident(
+  def gid "generation/genr_base.ml" 215 6968 6970 "generation/genr_base.ml" 221 7203 7239
+)
+"generation/genr_base.ml" 214 6941 6953 "generation/genr_base.ml" 214 6941 6954
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 213 6918 6932 "generation/genr_base.ml" 213 6918 6933
+)
+"generation/genr_base.ml" 214 6941 6953 "generation/genr_base.ml" 214 6941 6964
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 215 6968 6976 "generation/genr_base.ml" 215 6968 6980
+type(
+  Code.exp list
+)
+ident(
+  int_ref args "generation/genr_base.ml" 213 6918 6934 "generation/genr_base.ml" 213 6918 6938
+)
+"generation/genr_base.ml" 216 6986 6990 "generation/genr_base.ml" 216 6986 6992
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 216 6986 7005 "generation/genr_base.ml" 216 6986 7008
+type(
+  Code.ident
+)
+ident(
+  int_ref gid "generation/genr_base.ml" 214 6941 6947 "generation/genr_base.ml" 214 6941 6950
+)
+"generation/genr_base.ml" 216 6986 6996 "generation/genr_base.ml" 216 6986 7008
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 217 7009 7013 "generation/genr_base.ml" 217 7009 7014
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 217 7009 7020 "generation/genr_base.ml" 217 7009 7039
+type(
+  unit -> bool
+)
+ident(
+  int_ref get_sharable_target "generation/genr_base.ml" 69 2350 2375 "generation/genr_base.ml" 69 2350 2394
+)
+"generation/genr_base.ml" 217 7009 7040 "generation/genr_base.ml" 217 7009 7042
+type(
+  unit
+)
+"generation/genr_base.ml" 217 7009 7020 "generation/genr_base.ml" 217 7009 7042
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_base.ml" 218 7046 7067 "generation/genr_base.ml" 218 7046 7092
+type(
+  Parsetree.generator -> Code.ident
+)
+ident(
+  int_ref mk_sharing_function_ident "generation/genr_base.ml" 205 6604 6608 "generation/genr_base.ml" 205 6604 6633
+)
+"generation/genr_base.ml" 218 7046 7093 "generation/genr_base.ml" 218 7046 7094
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 213 6918 6932 "generation/genr_base.ml" 213 6918 6933
+)
+"generation/genr_base.ml" 218 7046 7066 "generation/genr_base.ml" 218 7046 7095
+call(
+  stack
+)
+type(
+  Code.ident
+)
+"generation/genr_base.ml" 218 7046 7057 "generation/genr_base.ml" 218 7046 7095
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 218 7046 7097 "generation/genr_base.ml" 218 7046 7101
+type(
+  Code.exp list
+)
+ident(
+  int_ref args "generation/genr_base.ml" 213 6918 6934 "generation/genr_base.ml" 213 6918 6938
+)
+"generation/genr_base.ml" 218 7046 7050 "generation/genr_base.ml" 218 7046 7102
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 219 7103 7108 "generation/genr_base.ml" 219 7103 7109
+type(
+  Code.exp
+)
+ident(
+  def x "generation/genr_base.ml" 219 7103 7114 "generation/genr_base.ml" 219 7103 7132
+)
+"generation/genr_base.ml" 219 7103 7107 "generation/genr_base.ml" 219 7103 7110
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 219 7103 7125 "generation/genr_base.ml" 219 7103 7128
+type(
+  Code.uident
+)
+ident(
+  int_ref gid "generation/genr_base.ml" 214 6941 6947 "generation/genr_base.ml" 214 6941 6950
+)
+"generation/genr_base.ml" 219 7103 7130 "generation/genr_base.ml" 219 7103 7131
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_base.ml" 219 7103 7108 "generation/genr_base.ml" 219 7103 7109
+)
+"generation/genr_base.ml" 219 7103 7114 "generation/genr_base.ml" 219 7103 7132
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 220 7133 7137 "generation/genr_base.ml" 220 7133 7138
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 220 7133 7144 "generation/genr_base.ml" 220 7133 7170
+type(
+  Parsetree.generator -> bool
+)
+ident(
+  ext_ref Check.is_listary_generator
+)
+"generation/genr_base.ml" 220 7133 7171 "generation/genr_base.ml" 220 7133 7172
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 213 6918 6932 "generation/genr_base.ml" 213 6918 6933
+)
+"generation/genr_base.ml" 220 7133 7144 "generation/genr_base.ml" 220 7133 7172
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_base.ml" 220 7133 7187 "generation/genr_base.ml" 220 7133 7190
+type(
+  Code.uident
+)
+ident(
+  int_ref gid "generation/genr_base.ml" 214 6941 6947 "generation/genr_base.ml" 214 6941 6950
+)
+"generation/genr_base.ml" 220 7133 7197 "generation/genr_base.ml" 220 7133 7201
+type(
+  Code.exp list
+)
+ident(
+  int_ref args "generation/genr_base.ml" 213 6918 6934 "generation/genr_base.ml" 213 6918 6938
+)
+"generation/genr_base.ml" 220 7133 7192 "generation/genr_base.ml" 220 7133 7201
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 220 7133 7176 "generation/genr_base.ml" 220 7133 7202
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 221 7203 7207 "generation/genr_base.ml" 221 7203 7208
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 221 7203 7223 "generation/genr_base.ml" 221 7203 7226
+type(
+  Code.uident
+)
+ident(
+  int_ref gid "generation/genr_base.ml" 214 6941 6947 "generation/genr_base.ml" 214 6941 6950
+)
+"generation/genr_base.ml" 221 7203 7234 "generation/genr_base.ml" 221 7203 7238
+type(
+  Code.exp list
+)
+ident(
+  int_ref args "generation/genr_base.ml" 213 6918 6934 "generation/genr_base.ml" 213 6918 6938
+)
+"generation/genr_base.ml" 221 7203 7228 "generation/genr_base.ml" 221 7203 7238
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 221 7203 7212 "generation/genr_base.ml" 221 7203 7239
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 215 6968 6970 "generation/genr_base.ml" 221 7203 7239
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 214 6941 6943 "generation/genr_base.ml" 221 7203 7239
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 224 7244 7248 "generation/genr_base.ml" 224 7244 7258
+type(
+  Parsetree.generator -> Code.exp
+)
+ident(
+  def generator0 "generation/genr_base.ml" 231 7405 7405 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 224 7244 7259 "generation/genr_base.ml" 224 7244 7260
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 224 7244 7263 "generation/genr_base.ml" 224 7244 7277
+)
+"generation/genr_base.ml" 224 7244 7263 "generation/genr_base.ml" 224 7244 7272
+type(
+  Parsetree.generator -> Code.exp list -> Code.exp
+)
+ident(
+  int_ref generator "generation/genr_base.ml" 213 6918 6922 "generation/genr_base.ml" 213 6918 6931
+)
+"generation/genr_base.ml" 224 7244 7273 "generation/genr_base.ml" 224 7244 7274
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 224 7244 7259 "generation/genr_base.ml" 224 7244 7260
+)
+"generation/genr_base.ml" 224 7244 7275 "generation/genr_base.ml" 224 7244 7277
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 224 7244 7263 "generation/genr_base.ml" 224 7244 7277
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 225 7278 7282 "generation/genr_base.ml" 225 7278 7292
+type(
+  Parsetree.generator -> Code.exp -> Code.exp
+)
+ident(
+  def generator1 "generation/genr_base.ml" 231 7405 7405 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 225 7278 7293 "generation/genr_base.ml" 225 7278 7294
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 225 7278 7295 "generation/genr_base.ml" 225 7278 7314
+)
+"generation/genr_base.ml" 225 7278 7295 "generation/genr_base.ml" 225 7278 7296
+type(
+  Code.exp
+)
+ident(
+  def x "generation/genr_base.ml" 225 7278 7299 "generation/genr_base.ml" 225 7278 7314
+)
+"generation/genr_base.ml" 225 7278 7299 "generation/genr_base.ml" 225 7278 7308
+type(
+  Parsetree.generator -> Code.exp list -> Code.exp
+)
+ident(
+  int_ref generator "generation/genr_base.ml" 213 6918 6922 "generation/genr_base.ml" 213 6918 6931
+)
+"generation/genr_base.ml" 225 7278 7309 "generation/genr_base.ml" 225 7278 7310
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 225 7278 7293 "generation/genr_base.ml" 225 7278 7294
+)
+"generation/genr_base.ml" 225 7278 7312 "generation/genr_base.ml" 225 7278 7313
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_base.ml" 225 7278 7295 "generation/genr_base.ml" 225 7278 7296
+)
+"generation/genr_base.ml" 225 7278 7311 "generation/genr_base.ml" 225 7278 7314
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 225 7278 7299 "generation/genr_base.ml" 225 7278 7314
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 226 7315 7319 "generation/genr_base.ml" 226 7315 7329
+type(
+  Parsetree.generator -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  def generator2 "generation/genr_base.ml" 231 7405 7405 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 226 7315 7330 "generation/genr_base.ml" 226 7315 7331
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 226 7315 7332 "generation/genr_base.ml" 226 7315 7356
+)
+"generation/genr_base.ml" 226 7315 7332 "generation/genr_base.ml" 226 7315 7333
+type(
+  Code.exp
+)
+ident(
+  def x "generation/genr_base.ml" 226 7315 7334 "generation/genr_base.ml" 226 7315 7356
+)
+"generation/genr_base.ml" 226 7315 7334 "generation/genr_base.ml" 226 7315 7335
+type(
+  Code.exp
+)
+ident(
+  def y "generation/genr_base.ml" 226 7315 7338 "generation/genr_base.ml" 226 7315 7356
+)
+"generation/genr_base.ml" 226 7315 7338 "generation/genr_base.ml" 226 7315 7347
+type(
+  Parsetree.generator -> Code.exp list -> Code.exp
+)
+ident(
+  int_ref generator "generation/genr_base.ml" 213 6918 6922 "generation/genr_base.ml" 213 6918 6931
+)
+"generation/genr_base.ml" 226 7315 7348 "generation/genr_base.ml" 226 7315 7349
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 226 7315 7330 "generation/genr_base.ml" 226 7315 7331
+)
+"generation/genr_base.ml" 226 7315 7351 "generation/genr_base.ml" 226 7315 7352
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_base.ml" 226 7315 7332 "generation/genr_base.ml" 226 7315 7333
+)
+"generation/genr_base.ml" 226 7315 7354 "generation/genr_base.ml" 226 7315 7355
+type(
+  Code.exp
+)
+ident(
+  int_ref y "generation/genr_base.ml" 226 7315 7334 "generation/genr_base.ml" 226 7315 7335
+)
+"generation/genr_base.ml" 226 7315 7350 "generation/genr_base.ml" 226 7315 7356
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 226 7315 7338 "generation/genr_base.ml" 226 7315 7356
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 231 7405 7409 "generation/genr_base.ml" 231 7405 7413
+type(
+  Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  def cons "generation/genr_base.ml" 236 7529 7529 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 231 7405 7414 "generation/genr_base.ml" 231 7405 7415
+type(
+  Code.exp
+)
+ident(
+  def x "generation/genr_base.ml" 231 7405 7416 "generation/genr_base.ml" 231 7405 7449
+)
+"generation/genr_base.ml" 231 7405 7416 "generation/genr_base.ml" 231 7405 7417
+type(
+  Code.exp
+)
+ident(
+  def y "generation/genr_base.ml" 231 7405 7420 "generation/genr_base.ml" 231 7405 7449
+)
+"generation/genr_base.ml" 231 7405 7420 "generation/genr_base.ml" 231 7405 7431
+type(
+  Code.exp -> Code.iident -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.infix_apply
+)
+"generation/genr_base.ml" 231 7405 7432 "generation/genr_base.ml" 231 7405 7433
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_base.ml" 231 7405 7414 "generation/genr_base.ml" 231 7405 7415
+)
+"generation/genr_base.ml" 231 7405 7442 "generation/genr_base.ml" 231 7405 7446
+type(
+  string
+)
+"generation/genr_base.ml" 231 7405 7434 "generation/genr_base.ml" 231 7405 7447
+type(
+  Code.iident
+)
+"generation/genr_base.ml" 231 7405 7448 "generation/genr_base.ml" 231 7405 7449
+type(
+  Code.exp
+)
+ident(
+  int_ref y "generation/genr_base.ml" 231 7405 7416 "generation/genr_base.ml" 231 7405 7417
+)
+"generation/genr_base.ml" 231 7405 7420 "generation/genr_base.ml" 231 7405 7449
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 232 7450 7454 "generation/genr_base.ml" 232 7450 7460
+type(
+  Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  def append "generation/genr_base.ml" 236 7529 7529 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 232 7450 7461 "generation/genr_base.ml" 232 7450 7462
+type(
+  Code.exp
+)
+ident(
+  def x "generation/genr_base.ml" 232 7450 7463 "generation/genr_base.ml" 232 7450 7495
+)
+"generation/genr_base.ml" 232 7450 7463 "generation/genr_base.ml" 232 7450 7464
+type(
+  Code.exp
+)
+ident(
+  def y "generation/genr_base.ml" 232 7450 7467 "generation/genr_base.ml" 232 7450 7495
+)
+"generation/genr_base.ml" 232 7450 7467 "generation/genr_base.ml" 232 7450 7478
+type(
+  Code.exp -> Code.iident -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.infix_apply
+)
+"generation/genr_base.ml" 232 7450 7479 "generation/genr_base.ml" 232 7450 7480
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_base.ml" 232 7450 7461 "generation/genr_base.ml" 232 7450 7462
+)
+"generation/genr_base.ml" 232 7450 7489 "generation/genr_base.ml" 232 7450 7492
+type(
+  string
+)
+"generation/genr_base.ml" 232 7450 7481 "generation/genr_base.ml" 232 7450 7493
+type(
+  Code.iident
+)
+"generation/genr_base.ml" 232 7450 7494 "generation/genr_base.ml" 232 7450 7495
+type(
+  Code.exp
+)
+ident(
+  int_ref y "generation/genr_base.ml" 232 7450 7463 "generation/genr_base.ml" 232 7450 7464
+)
+"generation/genr_base.ml" 232 7450 7467 "generation/genr_base.ml" 232 7450 7495
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 233 7496 7500 "generation/genr_base.ml" 233 7496 7503
+type(
+  Code.exp
+)
+ident(
+  def nil "generation/genr_base.ml" 236 7529 7529 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 233 7496 7506 "generation/genr_base.ml" 233 7496 7519
+type(
+  string -> Code.exp
+)
+ident(
+  ext_ref Code.make_Constant
+)
+"generation/genr_base.ml" 233 7496 7520 "generation/genr_base.ml" 233 7496 7524
+type(
+  string
+)
+"generation/genr_base.ml" 233 7496 7506 "generation/genr_base.ml" 233 7496 7524
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 236 7529 7533 "generation/genr_base.ml" 236 7529 7542
+type(
+  Code.exp -> Code.exp
+)
+ident(
+  def singleton "generation/genr_base.ml" 240 7600 7600 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 236 7529 7543 "generation/genr_base.ml" 236 7529 7544
+type(
+  Code.exp
+)
+ident(
+  def x "generation/genr_base.ml" 236 7529 7547 "generation/genr_base.ml" 236 7529 7557
+)
+"generation/genr_base.ml" 236 7529 7547 "generation/genr_base.ml" 236 7529 7551
+type(
+  Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  int_ref cons "generation/genr_base.ml" 231 7405 7409 "generation/genr_base.ml" 231 7405 7413
+)
+"generation/genr_base.ml" 236 7529 7552 "generation/genr_base.ml" 236 7529 7553
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_base.ml" 236 7529 7543 "generation/genr_base.ml" 236 7529 7544
+)
+"generation/genr_base.ml" 236 7529 7554 "generation/genr_base.ml" 236 7529 7557
+type(
+  Code.exp
+)
+ident(
+  int_ref nil "generation/genr_base.ml" 233 7496 7500 "generation/genr_base.ml" 233 7496 7503
+)
+"generation/genr_base.ml" 236 7529 7547 "generation/genr_base.ml" 236 7529 7557
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 240 7600 7604 "generation/genr_base.ml" 240 7600 7616
+type(
+  Parsetree.generator -> Code.exp -> Code.exp list -> Code.exp
+)
+ident(
+  def pattern_info "generation/genr_base.ml" 249 7845 7845 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 240 7600 7617 "generation/genr_base.ml" 240 7600 7618
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 240 7600 7619 "generation/genr_base.ml" 246 7804 7840
+)
+"generation/genr_base.ml" 240 7600 7619 "generation/genr_base.ml" 240 7600 7623
+type(
+  Code.exp
+)
+ident(
+  def info "generation/genr_base.ml" 240 7600 7624 "generation/genr_base.ml" 246 7804 7840
+)
+"generation/genr_base.ml" 240 7600 7624 "generation/genr_base.ml" 240 7600 7628
+type(
+  Code.exp list
+)
+ident(
+  def args "generation/genr_base.ml" 241 7631 7633 "generation/genr_base.ml" 246 7804 7840
+)
+"generation/genr_base.ml" 241 7631 7637 "generation/genr_base.ml" 241 7631 7640
+type(
+  Longident.t
+)
+ident(
+  def gid "generation/genr_base.ml" 242 7658 7660 "generation/genr_base.ml" 246 7804 7840
+)
+"generation/genr_base.ml" 241 7631 7643 "generation/genr_base.ml" 241 7631 7644
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 240 7600 7617 "generation/genr_base.ml" 240 7600 7618
+)
+"generation/genr_base.ml" 241 7631 7643 "generation/genr_base.ml" 241 7631 7654
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 242 7658 7666 "generation/genr_base.ml" 242 7658 7670
+type(
+  Code.exp list
+)
+ident(
+  int_ref args "generation/genr_base.ml" 240 7600 7624 "generation/genr_base.ml" 240 7600 7628
+)
+"generation/genr_base.ml" 243 7676 7680 "generation/genr_base.ml" 243 7676 7682
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 243 7676 7695 "generation/genr_base.ml" 243 7676 7698
+type(
+  Code.ident
+)
+ident(
+  int_ref gid "generation/genr_base.ml" 241 7631 7637 "generation/genr_base.ml" 241 7631 7640
+)
+"generation/genr_base.ml" 243 7676 7686 "generation/genr_base.ml" 243 7676 7698
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 244 7699 7703 "generation/genr_base.ml" 244 7699 7704
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 244 7699 7710 "generation/genr_base.ml" 244 7699 7729
+type(
+  unit -> bool
+)
+ident(
+  int_ref get_sharable_target "generation/genr_base.ml" 69 2350 2375 "generation/genr_base.ml" 69 2350 2394
+)
+"generation/genr_base.ml" 244 7699 7730 "generation/genr_base.ml" 244 7699 7732
+type(
+  unit
+)
+"generation/genr_base.ml" 244 7699 7710 "generation/genr_base.ml" 244 7699 7732
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_base.ml" 244 7699 7747 "generation/genr_base.ml" 244 7699 7750
+type(
+  Code.uident
+)
+ident(
+  int_ref gid "generation/genr_base.ml" 241 7631 7637 "generation/genr_base.ml" 241 7631 7640
+)
+"generation/genr_base.ml" 244 7699 7759 "generation/genr_base.ml" 244 7699 7763
+type(
+  Code.exp
+)
+ident(
+  int_ref info "generation/genr_base.ml" 240 7600 7619 "generation/genr_base.ml" 240 7600 7623
+)
+"generation/genr_base.ml" 244 7699 7767 "generation/genr_base.ml" 244 7699 7771
+type(
+  Code.exp list
+)
+ident(
+  int_ref args "generation/genr_base.ml" 240 7600 7624 "generation/genr_base.ml" 240 7600 7628
+)
+"generation/genr_base.ml" 244 7699 7758 "generation/genr_base.ml" 244 7699 7772
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 244 7699 7752 "generation/genr_base.ml" 244 7699 7772
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 244 7699 7736 "generation/genr_base.ml" 244 7699 7773
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 245 7774 7779 "generation/genr_base.ml" 245 7774 7780
+type(
+  Code.exp
+)
+ident(
+  def x "generation/genr_base.ml" 245 7774 7785 "generation/genr_base.ml" 245 7774 7803
+)
+"generation/genr_base.ml" 245 7774 7778 "generation/genr_base.ml" 245 7774 7781
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 245 7774 7796 "generation/genr_base.ml" 245 7774 7799
+type(
+  Code.uident
+)
+ident(
+  int_ref gid "generation/genr_base.ml" 241 7631 7637 "generation/genr_base.ml" 241 7631 7640
+)
+"generation/genr_base.ml" 245 7774 7801 "generation/genr_base.ml" 245 7774 7802
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_base.ml" 245 7774 7779 "generation/genr_base.ml" 245 7774 7780
+)
+"generation/genr_base.ml" 245 7774 7785 "generation/genr_base.ml" 245 7774 7803
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 246 7804 7808 "generation/genr_base.ml" 246 7804 7809
+type(
+  Code.exp list
+)
+"generation/genr_base.ml" 246 7804 7824 "generation/genr_base.ml" 246 7804 7827
+type(
+  Code.uident
+)
+ident(
+  int_ref gid "generation/genr_base.ml" 241 7631 7637 "generation/genr_base.ml" 241 7631 7640
+)
+"generation/genr_base.ml" 246 7804 7835 "generation/genr_base.ml" 246 7804 7839
+type(
+  Code.exp list
+)
+ident(
+  int_ref args "generation/genr_base.ml" 240 7600 7624 "generation/genr_base.ml" 240 7600 7628
+)
+"generation/genr_base.ml" 246 7804 7829 "generation/genr_base.ml" 246 7804 7839
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 246 7804 7813 "generation/genr_base.ml" 246 7804 7840
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 242 7658 7660 "generation/genr_base.ml" 246 7804 7840
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 241 7631 7633 "generation/genr_base.ml" 246 7804 7840
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 249 7845 7849 "generation/genr_base.ml" 249 7845 7856
+type(
+  Parsetree.generator -> Code.pattern list -> Code.exp
+)
+ident(
+  def pattern "generation/genr_base.ml" 251 7890 7890 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 249 7845 7857 "generation/genr_base.ml" 249 7845 7858
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 249 7845 7861 "generation/genr_base.ml" 249 7845 7886
+)
+"generation/genr_base.ml" 249 7845 7861 "generation/genr_base.ml" 249 7845 7873
+type(
+  Parsetree.generator -> Code.pattern -> Code.pattern list -> Code.exp
+)
+ident(
+  int_ref pattern_info "generation/genr_base.ml" 240 7600 7604 "generation/genr_base.ml" 240 7600 7616
+)
+"generation/genr_base.ml" 249 7845 7874 "generation/genr_base.ml" 249 7845 7875
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 249 7845 7857 "generation/genr_base.ml" 249 7845 7858
+)
+"generation/genr_base.ml" 249 7845 7876 "generation/genr_base.ml" 249 7845 7886
+type(
+  Code.pattern
+)
+ident(
+  ext_ref Code.underscore
+)
+"generation/genr_base.ml" 249 7845 7861 "generation/genr_base.ml" 249 7845 7886
+call(
+  tail
+)
+type(
+  Code.pattern list -> Code.exp
+)
+"generation/genr_base.ml" 251 7890 7894 "generation/genr_base.ml" 251 7890 7902
+type(
+  Parsetree.generator -> Code.exp
+)
+ident(
+  def pattern0 "generation/genr_base.ml" 274 8612 8612 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 251 7890 7903 "generation/genr_base.ml" 251 7890 7904
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 251 7890 7907 "generation/genr_base.ml" 251 7890 7919
+)
+"generation/genr_base.ml" 251 7890 7907 "generation/genr_base.ml" 251 7890 7914
+type(
+  Parsetree.generator -> Code.pattern list -> Code.exp
+)
+ident(
+  int_ref pattern "generation/genr_base.ml" 249 7845 7849 "generation/genr_base.ml" 249 7845 7856
+)
+"generation/genr_base.ml" 251 7890 7915 "generation/genr_base.ml" 251 7890 7916
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 251 7890 7903 "generation/genr_base.ml" 251 7890 7904
+)
+"generation/genr_base.ml" 251 7890 7917 "generation/genr_base.ml" 251 7890 7919
+type(
+  Code.pattern list
+)
+"generation/genr_base.ml" 251 7890 7907 "generation/genr_base.ml" 251 7890 7919
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 252 7920 7924 "generation/genr_base.ml" 252 7920 7932
+type(
+  Parsetree.generator -> Code.pattern -> Code.exp
+)
+ident(
+  def pattern1 "generation/genr_base.ml" 274 8612 8612 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 252 7920 7933 "generation/genr_base.ml" 252 7920 7934
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 252 7920 7935 "generation/genr_base.ml" 252 7920 7952
+)
+"generation/genr_base.ml" 252 7920 7935 "generation/genr_base.ml" 252 7920 7936
+type(
+  Code.pattern
+)
+ident(
+  def x "generation/genr_base.ml" 252 7920 7939 "generation/genr_base.ml" 252 7920 7952
+)
+"generation/genr_base.ml" 252 7920 7939 "generation/genr_base.ml" 252 7920 7946
+type(
+  Parsetree.generator -> Code.pattern list -> Code.exp
+)
+ident(
+  int_ref pattern "generation/genr_base.ml" 249 7845 7849 "generation/genr_base.ml" 249 7845 7856
+)
+"generation/genr_base.ml" 252 7920 7947 "generation/genr_base.ml" 252 7920 7948
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 252 7920 7933 "generation/genr_base.ml" 252 7920 7934
+)
+"generation/genr_base.ml" 252 7920 7950 "generation/genr_base.ml" 252 7920 7951
+type(
+  Code.pattern
+)
+ident(
+  int_ref x "generation/genr_base.ml" 252 7920 7935 "generation/genr_base.ml" 252 7920 7936
+)
+"generation/genr_base.ml" 252 7920 7949 "generation/genr_base.ml" 252 7920 7952
+type(
+  Code.pattern list
+)
+"generation/genr_base.ml" 252 7920 7939 "generation/genr_base.ml" 252 7920 7952
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 253 7953 7957 "generation/genr_base.ml" 253 7953 7965
+type(
+  Parsetree.generator -> Code.pattern -> Code.pattern -> Code.exp
+)
+ident(
+  def pattern2 "generation/genr_base.ml" 274 8612 8612 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 253 7953 7966 "generation/genr_base.ml" 253 7953 7967
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_base.ml" 253 7953 7968 "generation/genr_base.ml" 253 7953 7990
+)
+"generation/genr_base.ml" 253 7953 7968 "generation/genr_base.ml" 253 7953 7969
+type(
+  Code.pattern
+)
+ident(
+  def x "generation/genr_base.ml" 253 7953 7970 "generation/genr_base.ml" 253 7953 7990
+)
+"generation/genr_base.ml" 253 7953 7970 "generation/genr_base.ml" 253 7953 7971
+type(
+  Code.pattern
+)
+ident(
+  def y "generation/genr_base.ml" 253 7953 7974 "generation/genr_base.ml" 253 7953 7990
+)
+"generation/genr_base.ml" 253 7953 7974 "generation/genr_base.ml" 253 7953 7981
+type(
+  Parsetree.generator -> Code.pattern list -> Code.exp
+)
+ident(
+  int_ref pattern "generation/genr_base.ml" 249 7845 7849 "generation/genr_base.ml" 249 7845 7856
+)
+"generation/genr_base.ml" 253 7953 7982 "generation/genr_base.ml" 253 7953 7983
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_base.ml" 253 7953 7966 "generation/genr_base.ml" 253 7953 7967
+)
+"generation/genr_base.ml" 253 7953 7985 "generation/genr_base.ml" 253 7953 7986
+type(
+  Code.pattern
+)
+ident(
+  int_ref x "generation/genr_base.ml" 253 7953 7968 "generation/genr_base.ml" 253 7953 7969
+)
+"generation/genr_base.ml" 253 7953 7988 "generation/genr_base.ml" 253 7953 7989
+type(
+  Code.pattern
+)
+ident(
+  int_ref y "generation/genr_base.ml" 253 7953 7970 "generation/genr_base.ml" 253 7953 7971
+)
+"generation/genr_base.ml" 253 7953 7984 "generation/genr_base.ml" 253 7953 7990
+type(
+  Code.pattern list
+)
+"generation/genr_base.ml" 253 7953 7974 "generation/genr_base.ml" 253 7953 7990
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 274 8612 8616 "generation/genr_base.ml" 274 8612 8631
+type(
+  Parsetree.relation_side -> 'a -> 'a -> 'a list -> 'a list
+)
+ident(
+  def clauses_of_side "generation/genr_base.ml" 281 8775 8775 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 274 8612 8632 "generation/genr_base.ml" 274 8612 8636
+type(
+  Parsetree.relation_side
+)
+ident(
+  def side "generation/genr_base.ml" 274 8612 8637 "generation/genr_base.ml" 278 8734 8770
+)
+"generation/genr_base.ml" 274 8612 8637 "generation/genr_base.ml" 274 8612 8641
+type(
+  'a
+)
+ident(
+  def left "generation/genr_base.ml" 274 8612 8642 "generation/genr_base.ml" 278 8734 8770
+)
+"generation/genr_base.ml" 274 8612 8642 "generation/genr_base.ml" 274 8612 8647
+type(
+  'a
+)
+ident(
+  def right "generation/genr_base.ml" 274 8612 8648 "generation/genr_base.ml" 278 8734 8770
+)
+"generation/genr_base.ml" 274 8612 8648 "generation/genr_base.ml" 274 8612 8655
+type(
+  'a list
+)
+ident(
+  def clauses "generation/genr_base.ml" 275 8658 8660 "generation/genr_base.ml" 278 8734 8770
+)
+"generation/genr_base.ml" 275 8658 8666 "generation/genr_base.ml" 275 8658 8670
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side "generation/genr_base.ml" 274 8612 8632 "generation/genr_base.ml" 274 8612 8636
+)
+"generation/genr_base.ml" 276 8676 8680 "generation/genr_base.ml" 276 8676 8684
+type(
+  Parsetree.relation_side
+)
+"generation/genr_base.ml" 276 8676 8688 "generation/genr_base.ml" 276 8676 8692
+type(
+  'a
+)
+ident(
+  int_ref left "generation/genr_base.ml" 274 8612 8637 "generation/genr_base.ml" 274 8612 8641
+)
+"generation/genr_base.ml" 276 8676 8696 "generation/genr_base.ml" 276 8676 8703
+type(
+  'a list
+)
+ident(
+  int_ref clauses "generation/genr_base.ml" 274 8612 8648 "generation/genr_base.ml" 274 8612 8655
+)
+"generation/genr_base.ml" 276 8676 8688 "generation/genr_base.ml" 276 8676 8703
+type(
+  'a list
+)
+"generation/genr_base.ml" 277 8704 8708 "generation/genr_base.ml" 277 8704 8713
+type(
+  Parsetree.relation_side
+)
+"generation/genr_base.ml" 277 8704 8717 "generation/genr_base.ml" 277 8704 8722
+type(
+  'a
+)
+ident(
+  int_ref right "generation/genr_base.ml" 274 8612 8642 "generation/genr_base.ml" 274 8612 8647
+)
+"generation/genr_base.ml" 277 8704 8726 "generation/genr_base.ml" 277 8704 8733
+type(
+  'a list
+)
+ident(
+  int_ref clauses "generation/genr_base.ml" 274 8612 8648 "generation/genr_base.ml" 274 8612 8655
+)
+"generation/genr_base.ml" 277 8704 8717 "generation/genr_base.ml" 277 8704 8733
+type(
+  'a list
+)
+"generation/genr_base.ml" 278 8734 8738 "generation/genr_base.ml" 278 8734 8742
+type(
+  Parsetree.relation_side
+)
+"generation/genr_base.ml" 278 8734 8746 "generation/genr_base.ml" 278 8734 8750
+type(
+  'a
+)
+ident(
+  int_ref left "generation/genr_base.ml" 274 8612 8637 "generation/genr_base.ml" 274 8612 8641
+)
+"generation/genr_base.ml" 278 8734 8754 "generation/genr_base.ml" 278 8734 8759
+type(
+  'a
+)
+ident(
+  int_ref right "generation/genr_base.ml" 274 8612 8642 "generation/genr_base.ml" 274 8612 8647
+)
+"generation/genr_base.ml" 278 8734 8763 "generation/genr_base.ml" 278 8734 8770
+type(
+  'a list
+)
+ident(
+  int_ref clauses "generation/genr_base.ml" 274 8612 8648 "generation/genr_base.ml" 274 8612 8655
+)
+"generation/genr_base.ml" 278 8734 8754 "generation/genr_base.ml" 278 8734 8770
+type(
+  'a list
+)
+"generation/genr_base.ml" 278 8734 8746 "generation/genr_base.ml" 278 8734 8770
+type(
+  'a list
+)
+"generation/genr_base.ml" 275 8658 8660 "generation/genr_base.ml" 278 8734 8770
+type(
+  'a list
+)
+"generation/genr_base.ml" 281 8775 8779 "generation/genr_base.ml" 281 8775 8800
+type(
+  Parsetree.relation_side -> 'a -> 'a -> 'a list -> 'a list
+)
+ident(
+  def clauses_left_or_right "generation/genr_base.ml" 288 8932 8932 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 281 8775 8801 "generation/genr_base.ml" 281 8775 8805
+type(
+  Parsetree.relation_side
+)
+ident(
+  def side "generation/genr_base.ml" 281 8775 8806 "generation/genr_base.ml" 285 8903 8927
+)
+"generation/genr_base.ml" 281 8775 8806 "generation/genr_base.ml" 281 8775 8810
+type(
+  'a
+)
+ident(
+  def left "generation/genr_base.ml" 281 8775 8811 "generation/genr_base.ml" 285 8903 8927
+)
+"generation/genr_base.ml" 281 8775 8811 "generation/genr_base.ml" 281 8775 8816
+type(
+  'a
+)
+ident(
+  def right "generation/genr_base.ml" 281 8775 8817 "generation/genr_base.ml" 285 8903 8927
+)
+"generation/genr_base.ml" 281 8775 8817 "generation/genr_base.ml" 281 8775 8824
+type(
+  'a list
+)
+ident(
+  def clauses "generation/genr_base.ml" 282 8827 8829 "generation/genr_base.ml" 285 8903 8927
+)
+"generation/genr_base.ml" 282 8827 8835 "generation/genr_base.ml" 282 8827 8839
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side "generation/genr_base.ml" 281 8775 8801 "generation/genr_base.ml" 281 8775 8805
+)
+"generation/genr_base.ml" 283 8845 8849 "generation/genr_base.ml" 283 8845 8853
+type(
+  Parsetree.relation_side
+)
+"generation/genr_base.ml" 283 8845 8857 "generation/genr_base.ml" 283 8845 8861
+type(
+  'a
+)
+ident(
+  int_ref left "generation/genr_base.ml" 281 8775 8806 "generation/genr_base.ml" 281 8775 8810
+)
+"generation/genr_base.ml" 283 8845 8865 "generation/genr_base.ml" 283 8845 8872
+type(
+  'a list
+)
+ident(
+  int_ref clauses "generation/genr_base.ml" 281 8775 8817 "generation/genr_base.ml" 281 8775 8824
+)
+"generation/genr_base.ml" 283 8845 8857 "generation/genr_base.ml" 283 8845 8872
+type(
+  'a list
+)
+"generation/genr_base.ml" 284 8873 8877 "generation/genr_base.ml" 284 8873 8882
+type(
+  Parsetree.relation_side
+)
+"generation/genr_base.ml" 284 8873 8886 "generation/genr_base.ml" 284 8873 8891
+type(
+  'a
+)
+ident(
+  int_ref right "generation/genr_base.ml" 281 8775 8811 "generation/genr_base.ml" 281 8775 8816
+)
+"generation/genr_base.ml" 284 8873 8895 "generation/genr_base.ml" 284 8873 8902
+type(
+  'a list
+)
+ident(
+  int_ref clauses "generation/genr_base.ml" 281 8775 8817 "generation/genr_base.ml" 281 8775 8824
+)
+"generation/genr_base.ml" 284 8873 8886 "generation/genr_base.ml" 284 8873 8902
+type(
+  'a list
+)
+"generation/genr_base.ml" 285 8903 8907 "generation/genr_base.ml" 285 8903 8911
+type(
+  Parsetree.relation_side
+)
+"generation/genr_base.ml" 285 8903 8922 "generation/genr_base.ml" 285 8903 8927
+type(
+  bool
+)
+"generation/genr_base.ml" 285 8903 8915 "generation/genr_base.ml" 285 8903 8927
+type(
+  'a list
+)
+"generation/genr_base.ml" 282 8827 8829 "generation/genr_base.ml" 285 8903 8927
+type(
+  'a list
+)
+"generation/genr_base.ml" 288 8932 8936 "generation/genr_base.ml" 288 8932 8956
+type(
+  Parsetree.relation_side -> 'a -> 'a -> 'a list -> 'a list
+)
+ident(
+  def clauses_both_as_left "generation/genr_base.ml" 296 9119 9119 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 288 8932 8957 "generation/genr_base.ml" 288 8932 8961
+type(
+  Parsetree.relation_side
+)
+ident(
+  def side "generation/genr_base.ml" 288 8932 8962 "generation/genr_base.ml" 292 9038 9067
+)
+"generation/genr_base.ml" 288 8932 8962 "generation/genr_base.ml" 288 8932 8966
+type(
+  'a
+)
+ident(
+  def left "generation/genr_base.ml" 288 8932 8967 "generation/genr_base.ml" 292 9038 9067
+)
+"generation/genr_base.ml" 288 8932 8967 "generation/genr_base.ml" 288 8932 8972
+type(
+  'a
+)
+ident(
+  def right "generation/genr_base.ml" 288 8932 8973 "generation/genr_base.ml" 292 9038 9067
+)
+"generation/genr_base.ml" 288 8932 8973 "generation/genr_base.ml" 288 8932 8980
+type(
+  'a list
+)
+ident(
+  def clauses "generation/genr_base.ml" 289 8983 8985 "generation/genr_base.ml" 292 9038 9067
+)
+"generation/genr_base.ml" 289 8983 8991 "generation/genr_base.ml" 289 8983 8995
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side "generation/genr_base.ml" 288 8932 8957 "generation/genr_base.ml" 288 8932 8961
+)
+"generation/genr_base.ml" 290 9001 9005 "generation/genr_base.ml" 290 9001 9009
+type(
+  Parsetree.relation_side
+)
+"generation/genr_base.ml" 291 9010 9014 "generation/genr_base.ml" 291 9010 9018
+type(
+  Parsetree.relation_side
+)
+"generation/genr_base.ml" 290 9001 9005 "generation/genr_base.ml" 291 9010 9018
+type(
+  Parsetree.relation_side
+)
+"generation/genr_base.ml" 291 9010 9022 "generation/genr_base.ml" 291 9010 9026
+type(
+  'a
+)
+ident(
+  int_ref left "generation/genr_base.ml" 288 8932 8962 "generation/genr_base.ml" 288 8932 8966
+)
+"generation/genr_base.ml" 291 9010 9030 "generation/genr_base.ml" 291 9010 9037
+type(
+  'a list
+)
+ident(
+  int_ref clauses "generation/genr_base.ml" 288 8932 8973 "generation/genr_base.ml" 288 8932 8980
+)
+"generation/genr_base.ml" 291 9010 9022 "generation/genr_base.ml" 291 9010 9037
+type(
+  'a list
+)
+"generation/genr_base.ml" 292 9038 9042 "generation/genr_base.ml" 292 9038 9047
+type(
+  Parsetree.relation_side
+)
+"generation/genr_base.ml" 292 9038 9051 "generation/genr_base.ml" 292 9038 9056
+type(
+  'a
+)
+ident(
+  int_ref right "generation/genr_base.ml" 288 8932 8967 "generation/genr_base.ml" 288 8932 8972
+)
+"generation/genr_base.ml" 292 9038 9060 "generation/genr_base.ml" 292 9038 9067
+type(
+  'a list
+)
+ident(
+  int_ref clauses "generation/genr_base.ml" 288 8932 8973 "generation/genr_base.ml" 288 8932 8980
+)
+"generation/genr_base.ml" 292 9038 9051 "generation/genr_base.ml" 292 9038 9067
+type(
+  'a list
+)
+"generation/genr_base.ml" 289 8983 8985 "generation/genr_base.ml" 292 9038 9067
+type(
+  'a list
+)
+"generation/genr_base.ml" 296 9119 9123 "generation/genr_base.ml" 296 9119 9126
+type(
+  bool -> 'a -> 'a list -> 'a list
+)
+ident(
+  def opt "generation/genr_base.ml" 300 9223 9223 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 296 9119 9127 "generation/genr_base.ml" 296 9119 9128
+type(
+  bool
+)
+ident(
+  def b "generation/genr_base.ml" 296 9119 9129 "generation/genr_base.ml" 296 9119 9164
+)
+"generation/genr_base.ml" 296 9119 9129 "generation/genr_base.ml" 296 9119 9130
+type(
+  'a
+)
+ident(
+  def c "generation/genr_base.ml" 296 9119 9131 "generation/genr_base.ml" 296 9119 9164
+)
+"generation/genr_base.ml" 296 9119 9131 "generation/genr_base.ml" 296 9119 9134
+type(
+  'a list
+)
+ident(
+  def cls "generation/genr_base.ml" 296 9119 9137 "generation/genr_base.ml" 296 9119 9164
+)
+"generation/genr_base.ml" 296 9119 9140 "generation/genr_base.ml" 296 9119 9141
+type(
+  bool
+)
+ident(
+  int_ref b "generation/genr_base.ml" 296 9119 9127 "generation/genr_base.ml" 296 9119 9128
+)
+"generation/genr_base.ml" 296 9119 9147 "generation/genr_base.ml" 296 9119 9148
+type(
+  'a
+)
+ident(
+  int_ref c "generation/genr_base.ml" 296 9119 9129 "generation/genr_base.ml" 296 9119 9130
+)
+"generation/genr_base.ml" 296 9119 9152 "generation/genr_base.ml" 296 9119 9155
+type(
+  'a list
+)
+ident(
+  int_ref cls "generation/genr_base.ml" 296 9119 9131 "generation/genr_base.ml" 296 9119 9134
+)
+"generation/genr_base.ml" 296 9119 9147 "generation/genr_base.ml" 296 9119 9155
+type(
+  'a list
+)
+"generation/genr_base.ml" 296 9119 9161 "generation/genr_base.ml" 296 9119 9164
+type(
+  'a list
+)
+ident(
+  int_ref cls "generation/genr_base.ml" 296 9119 9131 "generation/genr_base.ml" 296 9119 9134
+)
+"generation/genr_base.ml" 296 9119 9137 "generation/genr_base.ml" 296 9119 9164
+type(
+  'a list
+)
+"generation/genr_base.ml" 297 9165 9169 "generation/genr_base.ml" 297 9165 9177
+type(
+  bool -> (unit -> 'b) -> 'b list -> 'b list
+)
+ident(
+  def lazy_opt "generation/genr_base.ml" 300 9223 9223 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 297 9165 9178 "generation/genr_base.ml" 297 9165 9179
+type(
+  bool
+)
+ident(
+  def b "generation/genr_base.ml" 297 9165 9180 "generation/genr_base.ml" 297 9165 9218
+)
+"generation/genr_base.ml" 297 9165 9180 "generation/genr_base.ml" 297 9165 9181
+type(
+  unit -> 'b
+)
+ident(
+  def c "generation/genr_base.ml" 297 9165 9182 "generation/genr_base.ml" 297 9165 9218
+)
+"generation/genr_base.ml" 297 9165 9182 "generation/genr_base.ml" 297 9165 9185
+type(
+  'b list
+)
+ident(
+  def cls "generation/genr_base.ml" 297 9165 9188 "generation/genr_base.ml" 297 9165 9218
+)
+"generation/genr_base.ml" 297 9165 9191 "generation/genr_base.ml" 297 9165 9192
+type(
+  bool
+)
+ident(
+  int_ref b "generation/genr_base.ml" 297 9165 9178 "generation/genr_base.ml" 297 9165 9179
+)
+"generation/genr_base.ml" 297 9165 9198 "generation/genr_base.ml" 297 9165 9199
+type(
+  unit -> 'b
+)
+ident(
+  int_ref c "generation/genr_base.ml" 297 9165 9180 "generation/genr_base.ml" 297 9165 9181
+)
+"generation/genr_base.ml" 297 9165 9200 "generation/genr_base.ml" 297 9165 9202
+type(
+  unit
+)
+"generation/genr_base.ml" 297 9165 9198 "generation/genr_base.ml" 297 9165 9202
+call(
+  stack
+)
+type(
+  'b
+)
+"generation/genr_base.ml" 297 9165 9206 "generation/genr_base.ml" 297 9165 9209
+type(
+  'b list
+)
+ident(
+  int_ref cls "generation/genr_base.ml" 297 9165 9182 "generation/genr_base.ml" 297 9165 9185
+)
+"generation/genr_base.ml" 297 9165 9198 "generation/genr_base.ml" 297 9165 9209
+type(
+  'b list
+)
+"generation/genr_base.ml" 297 9165 9215 "generation/genr_base.ml" 297 9165 9218
+type(
+  'b list
+)
+ident(
+  int_ref cls "generation/genr_base.ml" 297 9165 9182 "generation/genr_base.ml" 297 9165 9185
+)
+"generation/genr_base.ml" 297 9165 9188 "generation/genr_base.ml" 297 9165 9218
+type(
+  'b list
+)
+"generation/genr_base.ml" 300 9223 9227 "generation/genr_base.ml" 300 9223 9231
+type(
+  bool -> 'a list -> 'a list -> 'a list
+)
+ident(
+  def opts "generation/genr_base.ml" 304 9317 9317 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 300 9223 9232 "generation/genr_base.ml" 300 9223 9236
+type(
+  bool
+)
+ident(
+  def cond "generation/genr_base.ml" 300 9223 9237 "generation/genr_base.ml" 300 9223 9283
+)
+"generation/genr_base.ml" 300 9223 9237 "generation/genr_base.ml" 300 9223 9241
+type(
+  'a list
+)
+ident(
+  def cls1 "generation/genr_base.ml" 300 9223 9242 "generation/genr_base.ml" 300 9223 9283
+)
+"generation/genr_base.ml" 300 9223 9242 "generation/genr_base.ml" 300 9223 9246
+type(
+  'a list
+)
+ident(
+  def cls2 "generation/genr_base.ml" 300 9223 9249 "generation/genr_base.ml" 300 9223 9283
+)
+"generation/genr_base.ml" 300 9223 9252 "generation/genr_base.ml" 300 9223 9256
+type(
+  bool
+)
+ident(
+  int_ref cond "generation/genr_base.ml" 300 9223 9232 "generation/genr_base.ml" 300 9223 9236
+)
+"generation/genr_base.ml" 300 9223 9262 "generation/genr_base.ml" 300 9223 9266
+type(
+  'a list
+)
+ident(
+  int_ref cls1 "generation/genr_base.ml" 300 9223 9237 "generation/genr_base.ml" 300 9223 9241
+)
+"generation/genr_base.ml" 300 9223 9267 "generation/genr_base.ml" 300 9223 9268
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"generation/genr_base.ml" 300 9223 9269 "generation/genr_base.ml" 300 9223 9273
+type(
+  'a list
+)
+ident(
+  int_ref cls2 "generation/genr_base.ml" 300 9223 9242 "generation/genr_base.ml" 300 9223 9246
+)
+"generation/genr_base.ml" 300 9223 9262 "generation/genr_base.ml" 300 9223 9273
+call(
+  tail
+)
+type(
+  'a list
+)
+"generation/genr_base.ml" 300 9223 9279 "generation/genr_base.ml" 300 9223 9283
+type(
+  'a list
+)
+ident(
+  int_ref cls2 "generation/genr_base.ml" 300 9223 9242 "generation/genr_base.ml" 300 9223 9246
+)
+"generation/genr_base.ml" 300 9223 9249 "generation/genr_base.ml" 300 9223 9283
+type(
+  'a list
+)
+"generation/genr_base.ml" 307 9389 9393 "generation/genr_base.ml" 307 9389 9406
+type(
+  Longident.t
+)
+ident(
+  def compare_ident "generation/genr_base.ml" 310 9430 9430 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 307 9389 9416 "generation/genr_base.ml" 307 9389 9425
+type(
+  string
+)
+"generation/genr_base.ml" 307 9389 9409 "generation/genr_base.ml" 307 9389 9425
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 310 9430 9434 "generation/genr_base.ml" 310 9430 9453
+type(
+  Code.ident option -> Code.exp
+)
+ident(
+  def comparison_function "generation/genr_base.ml" 319 9663 9663 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 311 9465 9469 "generation/genr_base.ml" 311 9465 9473
+type(
+  Code.ident option
+)
+"generation/genr_base.ml" 311 9465 9486 "generation/genr_base.ml" 311 9465 9499
+type(
+  Code.ident
+)
+ident(
+  int_ref compare_ident "generation/genr_base.ml" 307 9389 9393 "generation/genr_base.ml" 307 9389 9406
+)
+"generation/genr_base.ml" 311 9465 9477 "generation/genr_base.ml" 311 9465 9499
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 312 9500 9509 "generation/genr_base.ml" 312 9500 9512
+type(
+  Code.ident
+)
+ident(
+  def lid "generation/genr_base.ml" 312 9500 9516 "generation/genr_base.ml" 312 9500 9528
+)
+"generation/genr_base.ml" 312 9500 9504 "generation/genr_base.ml" 312 9500 9512
+type(
+  Code.ident option
+)
+"generation/genr_base.ml" 312 9500 9525 "generation/genr_base.ml" 312 9500 9528
+type(
+  Code.ident
+)
+ident(
+  int_ref lid "generation/genr_base.ml" 312 9500 9509 "generation/genr_base.ml" 312 9500 9512
+)
+"generation/genr_base.ml" 312 9500 9516 "generation/genr_base.ml" 312 9500 9528
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 310 9430 9456 "generation/genr_base.ml" 312 9500 9528
+type(
+  Code.ident option -> Code.exp
+)
+"generation/genr_base.ml" 319 9663 9667 "generation/genr_base.ml" 319 9663 9687
+type(
+  Code.lident ->
+  (Code.exp -> Code.exp -> Code.exp) * (Code.exp -> Code.exp -> Code.exp) *
+  (Code.exp -> Code.exp -> Code.exp)
+)
+ident(
+  def standard_comparisons "generation/genr_base.ml" 335 10066 10066 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 319 9663 9688 "generation/genr_base.ml" 319 9663 9691
+type(
+  Code.lident
+)
+ident(
+  def lid "generation/genr_base.ml" 321 9695 9697 "generation/genr_base.ml" 332 10013 10061
+)
+"generation/genr_base.ml" 321 9695 9701 "generation/genr_base.ml" 321 9695 9714
+type(
+  Code.iname -> Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  def standard_comp "generation/genr_base.ml" 324 9789 9791 "generation/genr_base.ml" 332 10013 10061
+)
+"generation/genr_base.ml" 321 9695 9715 "generation/genr_base.ml" 321 9695 9718
+type(
+  Code.iname
+)
+ident(
+  def inf "generation/genr_base.ml" 321 9695 9719 "generation/genr_base.ml" 322 9729 9784
+)
+"generation/genr_base.ml" 321 9695 9719 "generation/genr_base.ml" 321 9695 9722
+type(
+  Code.lident
+)
+ident(
+  def lid "generation/genr_base.ml" 321 9695 9723 "generation/genr_base.ml" 322 9729 9784
+)
+"generation/genr_base.ml" 321 9695 9723 "generation/genr_base.ml" 321 9695 9724
+type(
+  Code.exp
+)
+ident(
+  def x "generation/genr_base.ml" 321 9695 9725 "generation/genr_base.ml" 322 9729 9784
+)
+"generation/genr_base.ml" 321 9695 9725 "generation/genr_base.ml" 321 9695 9726
+type(
+  Code.exp
+)
+ident(
+  def y "generation/genr_base.ml" 322 9729 9733 "generation/genr_base.ml" 322 9729 9784
+)
+"generation/genr_base.ml" 322 9729 9733 "generation/genr_base.ml" 322 9729 9743
+type(
+  Code.exp -> Code.iname -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.infix_name
+)
+"generation/genr_base.ml" 322 9729 9745 "generation/genr_base.ml" 322 9729 9751
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.apply2
+)
+"generation/genr_base.ml" 322 9729 9752 "generation/genr_base.ml" 322 9729 9755
+type(
+  Code.lident
+)
+ident(
+  int_ref lid "generation/genr_base.ml" 321 9695 9719 "generation/genr_base.ml" 321 9695 9722
+)
+"generation/genr_base.ml" 322 9729 9756 "generation/genr_base.ml" 322 9729 9757
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_base.ml" 321 9695 9723 "generation/genr_base.ml" 321 9695 9724
+)
+"generation/genr_base.ml" 322 9729 9758 "generation/genr_base.ml" 322 9729 9759
+type(
+  Code.exp
+)
+ident(
+  int_ref y "generation/genr_base.ml" 321 9695 9725 "generation/genr_base.ml" 321 9695 9726
+)
+"generation/genr_base.ml" 322 9729 9744 "generation/genr_base.ml" 322 9729 9760
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 322 9729 9761 "generation/genr_base.ml" 322 9729 9764
+type(
+  Code.iname
+)
+ident(
+  int_ref inf "generation/genr_base.ml" 321 9695 9715 "generation/genr_base.ml" 321 9695 9718
+)
+"generation/genr_base.ml" 322 9729 9766 "generation/genr_base.ml" 322 9729 9779
+type(
+  string -> Code.exp
+)
+ident(
+  ext_ref Code.make_Constant
+)
+"generation/genr_base.ml" 322 9729 9780 "generation/genr_base.ml" 322 9729 9783
+type(
+  string
+)
+"generation/genr_base.ml" 322 9729 9765 "generation/genr_base.ml" 322 9729 9784
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 322 9729 9733 "generation/genr_base.ml" 322 9729 9784
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 324 9789 9795 "generation/genr_base.ml" 324 9789 9806
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  def standard_lt "generation/genr_base.ml" 328 9907 9909 "generation/genr_base.ml" 332 10013 10061
+)
+"generation/genr_base.ml" 324 9789 9809 "generation/genr_base.ml" 324 9789 9822
+type(
+  Code.iname -> Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  int_ref standard_comp "generation/genr_base.ml" 321 9695 9701 "generation/genr_base.ml" 321 9695 9714
+)
+"generation/genr_base.ml" 324 9789 9823 "generation/genr_base.ml" 324 9789 9826
+type(
+  Code.iname
+)
+"generation/genr_base.ml" 324 9789 9809 "generation/genr_base.ml" 324 9789 9826
+call(
+  stack
+)
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+"generation/genr_base.ml" 325 9827 9833 "generation/genr_base.ml" 325 9827 9844
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  def standard_eq "generation/genr_base.ml" 328 9907 9909 "generation/genr_base.ml" 332 10013 10061
+)
+"generation/genr_base.ml" 325 9827 9847 "generation/genr_base.ml" 325 9827 9860
+type(
+  Code.iname -> Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  int_ref standard_comp "generation/genr_base.ml" 321 9695 9701 "generation/genr_base.ml" 321 9695 9714
+)
+"generation/genr_base.ml" 325 9827 9861 "generation/genr_base.ml" 325 9827 9864
+type(
+  Code.iname
+)
+"generation/genr_base.ml" 325 9827 9847 "generation/genr_base.ml" 325 9827 9864
+call(
+  stack
+)
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+"generation/genr_base.ml" 326 9865 9871 "generation/genr_base.ml" 326 9865 9882
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  def standard_gt "generation/genr_base.ml" 328 9907 9909 "generation/genr_base.ml" 332 10013 10061
+)
+"generation/genr_base.ml" 326 9865 9885 "generation/genr_base.ml" 326 9865 9898
+type(
+  Code.iname -> Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  int_ref standard_comp "generation/genr_base.ml" 321 9695 9701 "generation/genr_base.ml" 321 9695 9714
+)
+"generation/genr_base.ml" 326 9865 9899 "generation/genr_base.ml" 326 9865 9902
+type(
+  Code.iname
+)
+"generation/genr_base.ml" 326 9865 9885 "generation/genr_base.ml" 326 9865 9902
+call(
+  stack
+)
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+"generation/genr_base.ml" 328 9907 9913 "generation/genr_base.ml" 328 9907 9925
+type(
+  Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  def eq_predicate "generation/genr_base.ml" 332 10013 10015 "generation/genr_base.ml" 332 10013 10061
+)
+"generation/genr_base.ml" 329 9928 9935 "generation/genr_base.ml" 329 9928 9954
+type(
+  unit -> bool
+)
+ident(
+  int_ref get_sharable_target "generation/genr_base.ml" 69 2350 2375 "generation/genr_base.ml" 69 2350 2394
+)
+"generation/genr_base.ml" 329 9928 9955 "generation/genr_base.ml" 329 9928 9957
+type(
+  unit
+)
+"generation/genr_base.ml" 329 9928 9935 "generation/genr_base.ml" 329 9928 9957
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_base.ml" 329 9928 9963 "generation/genr_base.ml" 329 9928 9969
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.apply2
+)
+"generation/genr_base.ml" 329 9928 9978 "generation/genr_base.ml" 329 9928 9982
+type(
+  string
+)
+"generation/genr_base.ml" 329 9928 9970 "generation/genr_base.ml" 329 9928 9983
+type(
+  Code.lident
+)
+"generation/genr_base.ml" 329 9928 9963 "generation/genr_base.ml" 329 9928 9983
+call(
+  stack
+)
+type(
+  Code.exp -> Code.exp -> Code.exp
+)
+"generation/genr_base.ml" 330 9989 9993 "generation/genr_base.ml" 330 9989 10004
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  int_ref standard_eq "generation/genr_base.ml" 325 9827 9833 "generation/genr_base.ml" 325 9827 9844
+)
+"generation/genr_base.ml" 330 9989 10005 "generation/genr_base.ml" 330 9989 10008
+type(
+  Code.lident
+)
+ident(
+  int_ref lid "generation/genr_base.ml" 319 9663 9688 "generation/genr_base.ml" 319 9663 9691
+)
+"generation/genr_base.ml" 330 9989 9993 "generation/genr_base.ml" 330 9989 10008
+call(
+  stack
+)
+type(
+  Code.exp -> Code.exp -> Code.exp
+)
+"generation/genr_base.ml" 329 9928 9932 "generation/genr_base.ml" 330 9989 10008
+type(
+  Code.exp -> Code.exp -> Code.exp
+)
+"generation/genr_base.ml" 332 10013 10015 "generation/genr_base.ml" 332 10013 10026
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  int_ref standard_lt "generation/genr_base.ml" 324 9789 9795 "generation/genr_base.ml" 324 9789 9806
+)
+"generation/genr_base.ml" 332 10013 10027 "generation/genr_base.ml" 332 10013 10030
+type(
+  Code.lident
+)
+ident(
+  int_ref lid "generation/genr_base.ml" 319 9663 9688 "generation/genr_base.ml" 319 9663 9691
+)
+"generation/genr_base.ml" 332 10013 10015 "generation/genr_base.ml" 332 10013 10030
+call(
+  stack
+)
+type(
+  Code.exp -> Code.exp -> Code.exp
+)
+"generation/genr_base.ml" 332 10013 10032 "generation/genr_base.ml" 332 10013 10044
+type(
+  Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  int_ref eq_predicate "generation/genr_base.ml" 328 9907 9913 "generation/genr_base.ml" 328 9907 9925
+)
+"generation/genr_base.ml" 332 10013 10046 "generation/genr_base.ml" 332 10013 10057
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  int_ref standard_gt "generation/genr_base.ml" 326 9865 9871 "generation/genr_base.ml" 326 9865 9882
+)
+"generation/genr_base.ml" 332 10013 10058 "generation/genr_base.ml" 332 10013 10061
+type(
+  Code.lident
+)
+ident(
+  int_ref lid "generation/genr_base.ml" 319 9663 9688 "generation/genr_base.ml" 319 9663 9691
+)
+"generation/genr_base.ml" 332 10013 10046 "generation/genr_base.ml" 332 10013 10061
+call(
+  stack
+)
+type(
+  Code.exp -> Code.exp -> Code.exp
+)
+"generation/genr_base.ml" 332 10013 10015 "generation/genr_base.ml" 332 10013 10061
+type(
+  (Code.exp -> Code.exp -> Code.exp) * (Code.exp -> Code.exp -> Code.exp) *
+  (Code.exp -> Code.exp -> Code.exp)
+)
+"generation/genr_base.ml" 328 9907 9909 "generation/genr_base.ml" 332 10013 10061
+type(
+  (Code.exp -> Code.exp -> Code.exp) * (Code.exp -> Code.exp -> Code.exp) *
+  (Code.exp -> Code.exp -> Code.exp)
+)
+"generation/genr_base.ml" 324 9789 9791 "generation/genr_base.ml" 332 10013 10061
+type(
+  (Code.exp -> Code.exp -> Code.exp) * (Code.exp -> Code.exp -> Code.exp) *
+  (Code.exp -> Code.exp -> Code.exp)
+)
+"generation/genr_base.ml" 321 9695 9697 "generation/genr_base.ml" 332 10013 10061
+type(
+  (Code.exp -> Code.exp -> Code.exp) * (Code.exp -> Code.exp -> Code.exp) *
+  (Code.exp -> Code.exp -> Code.exp)
+)
+"generation/genr_base.ml" 335 10066 10070 "generation/genr_base.ml" 335 10066 10094
+type(
+  Longident.t
+)
+ident(
+  def pervasives_compare_ident "generation/genr_base.ml" 337 10138 10138 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 335 10066 10110 "generation/genr_base.ml" 335 10066 10122
+type(
+  string
+)
+"generation/genr_base.ml" 335 10066 10103 "generation/genr_base.ml" 335 10066 10122
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 335 10066 10124 "generation/genr_base.ml" 335 10066 10133
+type(
+  string
+)
+"generation/genr_base.ml" 335 10066 10097 "generation/genr_base.ml" 335 10066 10134
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 337 10138 10142 "generation/genr_base.ml" 337 10138 10164
+type(
+  (Code.exp -> Code.exp -> Code.exp) * (Code.exp -> Code.exp -> Code.exp) *
+  (Code.exp -> Code.exp -> Code.exp)
+)
+ident(
+  def pervasives_comparisons "generation/genr_base.ml" 341 10306 10306 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 337 10138 10167 "generation/genr_base.ml" 337 10138 10187
+type(
+  Code.lident ->
+  (Code.exp -> Code.exp -> Code.exp) * (Code.exp -> Code.exp -> Code.exp) *
+  (Code.exp -> Code.exp -> Code.exp)
+)
+ident(
+  int_ref standard_comparisons "generation/genr_base.ml" 319 9663 9667 "generation/genr_base.ml" 319 9663 9687
+)
+"generation/genr_base.ml" 337 10138 10188 "generation/genr_base.ml" 337 10138 10212
+type(
+  Code.lident
+)
+ident(
+  int_ref pervasives_compare_ident "generation/genr_base.ml" 335 10066 10070 "generation/genr_base.ml" 335 10066 10094
+)
+"generation/genr_base.ml" 337 10138 10167 "generation/genr_base.ml" 337 10138 10212
+call(
+  stack
+)
+type(
+  (Code.exp -> Code.exp -> Code.exp) * (Code.exp -> Code.exp -> Code.exp) *
+  (Code.exp -> Code.exp -> Code.exp)
+)
+"generation/genr_base.ml" 341 10306 10310 "generation/genr_base.ml" 341 10306 10326
+type(
+  Code.lident option ->
+  (Code.exp -> Code.exp -> Code.exp) * (Code.exp -> Code.exp -> Code.exp) *
+  (Code.exp -> Code.exp -> Code.exp)
+)
+ident(
+  def genr_comparisons "generation/genr_base.ml" 351 10660 10660 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 344 10441 10445 "generation/genr_base.ml" 344 10441 10449
+type(
+  Code.lident option
+)
+"generation/genr_base.ml" 344 10441 10453 "generation/genr_base.ml" 344 10441 10473
+type(
+  Code.lident ->
+  (Code.exp -> Code.exp -> Code.exp) * (Code.exp -> Code.exp -> Code.exp) *
+  (Code.exp -> Code.exp -> Code.exp)
+)
+ident(
+  int_ref standard_comparisons "generation/genr_base.ml" 319 9663 9667 "generation/genr_base.ml" 319 9663 9687
+)
+"generation/genr_base.ml" 344 10441 10474 "generation/genr_base.ml" 344 10441 10487
+type(
+  Code.lident
+)
+ident(
+  int_ref compare_ident "generation/genr_base.ml" 307 9389 9393 "generation/genr_base.ml" 307 9389 9406
+)
+"generation/genr_base.ml" 344 10441 10453 "generation/genr_base.ml" 344 10441 10487
+call(
+  tail
+)
+type(
+  (Code.exp -> Code.exp -> Code.exp) * (Code.exp -> Code.exp -> Code.exp) *
+  (Code.exp -> Code.exp -> Code.exp)
+)
+"generation/genr_base.ml" 346 10562 10571 "generation/genr_base.ml" 346 10562 10574
+type(
+  Code.lident
+)
+ident(
+  def lid "generation/genr_base.ml" 346 10562 10578 "generation/genr_base.ml" 346 10562 10602
+)
+"generation/genr_base.ml" 346 10562 10566 "generation/genr_base.ml" 346 10562 10574
+type(
+  Code.lident option
+)
+"generation/genr_base.ml" 346 10562 10578 "generation/genr_base.ml" 346 10562 10598
+type(
+  Code.lident ->
+  (Code.exp -> Code.exp -> Code.exp) * (Code.exp -> Code.exp -> Code.exp) *
+  (Code.exp -> Code.exp -> Code.exp)
+)
+ident(
+  int_ref standard_comparisons "generation/genr_base.ml" 319 9663 9667 "generation/genr_base.ml" 319 9663 9687
+)
+"generation/genr_base.ml" 346 10562 10599 "generation/genr_base.ml" 346 10562 10602
+type(
+  Code.lident
+)
+ident(
+  int_ref lid "generation/genr_base.ml" 346 10562 10571 "generation/genr_base.ml" 346 10562 10574
+)
+"generation/genr_base.ml" 346 10562 10578 "generation/genr_base.ml" 346 10562 10602
+call(
+  tail
+)
+type(
+  (Code.exp -> Code.exp -> Code.exp) * (Code.exp -> Code.exp -> Code.exp) *
+  (Code.exp -> Code.exp -> Code.exp)
+)
+"generation/genr_base.ml" 341 10306 10329 "generation/genr_base.ml" 346 10562 10602
+type(
+  Code.lident option ->
+  (Code.exp -> Code.exp -> Code.exp) * (Code.exp -> Code.exp -> Code.exp) *
+  (Code.exp -> Code.exp -> Code.exp)
+)
+"generation/genr_base.ml" 351 10660 10664 "generation/genr_base.ml" 351 10660 10680
+type(
+  Parsetree.distributivity_direction -> ('a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  def map_of_direction "generation/genr_base.ml" 356 10757 10757 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 352 10692 10696 "generation/genr_base.ml" 352 10692 10708
+type(
+  Parsetree.distributivity_direction
+)
+"generation/genr_base.ml" 352 10692 10712 "generation/genr_base.ml" 352 10692 10724
+type(
+  ('a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  ext_ref List.rev_map
+)
+"generation/genr_base.ml" 353 10725 10729 "generation/genr_base.ml" 353 10725 10740
+type(
+  Parsetree.distributivity_direction
+)
+"generation/genr_base.ml" 353 10725 10744 "generation/genr_base.ml" 353 10725 10752
+type(
+  ('a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  ext_ref List.map
+)
+"generation/genr_base.ml" 351 10660 10683 "generation/genr_base.ml" 353 10725 10752
+type(
+  Parsetree.distributivity_direction -> ('a -> 'b) -> 'a list -> 'b list
+)
+"generation/genr_base.ml" 356 10757 10761 "generation/genr_base.ml" 356 10757 10778
+type(
+  Parsetree.distributivity_direction -> Longident.t
+)
+ident(
+  def imap_of_direction "generation/genr_base.ml" 362 10967 10967 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 357 10790 10794 "generation/genr_base.ml" 357 10790 10806
+type(
+  Parsetree.distributivity_direction
+)
+"generation/genr_base.ml" 357 10790 10833 "generation/genr_base.ml" 357 10790 10839
+type(
+  string
+)
+"generation/genr_base.ml" 357 10790 10826 "generation/genr_base.ml" 357 10790 10839
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 357 10790 10841 "generation/genr_base.ml" 357 10790 10850
+type(
+  string
+)
+"generation/genr_base.ml" 357 10790 10810 "generation/genr_base.ml" 357 10790 10851
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 358 10852 10856 "generation/genr_base.ml" 358 10852 10867
+type(
+  Parsetree.distributivity_direction
+)
+"generation/genr_base.ml" 358 10852 10894 "generation/genr_base.ml" 358 10852 10900
+type(
+  string
+)
+"generation/genr_base.ml" 358 10852 10887 "generation/genr_base.ml" 358 10852 10900
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 358 10852 10902 "generation/genr_base.ml" 358 10852 10907
+type(
+  string
+)
+"generation/genr_base.ml" 358 10852 10871 "generation/genr_base.ml" 358 10852 10908
+type(
+  Longident.t
+)
+"generation/genr_base.ml" 356 10757 10781 "generation/genr_base.ml" 358 10852 10908
+type(
+  Parsetree.distributivity_direction -> Longident.t
+)
+"generation/genr_base.ml" 364 10984 10988 "generation/genr_base.ml" 364 10984 11000
+type(
+  unit -> unit
+)
+ident(
+  def set_comments "generation/genr_base.ml" 370 11113 11113 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 364 10984 11002 "generation/genr_base.ml" 364 10984 11014
+type(
+  unit -> bool
+)
+ident(
+  def get_comments "generation/genr_base.ml" 370 11113 11113 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 364 10984 10988 "generation/genr_base.ml" 364 10984 11014
+type(
+  (unit -> unit) * (unit -> bool)
+)
+"generation/genr_base.ml" 365 11017 11023 "generation/genr_base.ml" 365 11017 11033
+type(
+  bool ref
+)
+ident(
+  def otrace_yes "generation/genr_base.ml" 366 11049 11051 "generation/genr_base.ml" 367 11083 11108
+)
+"generation/genr_base.ml" 365 11017 11036 "generation/genr_base.ml" 365 11017 11039
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"generation/genr_base.ml" 365 11017 11040 "generation/genr_base.ml" 365 11017 11045
+type(
+  bool
+)
+"generation/genr_base.ml" 365 11017 11036 "generation/genr_base.ml" 365 11017 11045
+type(
+  bool ref
+)
+"generation/genr_base.ml" 366 11049 11056 "generation/genr_base.ml" 366 11049 11058
+type(
+  unit
+)
+"generation/genr_base.ml" 366 11049 11062 "generation/genr_base.ml" 366 11049 11072
+type(
+  bool ref
+)
+ident(
+  int_ref otrace_yes "generation/genr_base.ml" 365 11017 11023 "generation/genr_base.ml" 365 11017 11033
+)
+"generation/genr_base.ml" 366 11049 11073 "generation/genr_base.ml" 366 11049 11075
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"generation/genr_base.ml" 366 11049 11076 "generation/genr_base.ml" 366 11049 11080
+type(
+  bool
+)
+"generation/genr_base.ml" 366 11049 11062 "generation/genr_base.ml" 366 11049 11080
+type(
+  unit
+)
+"generation/genr_base.ml" 366 11049 11051 "generation/genr_base.ml" 366 11049 11081
+type(
+  unit -> unit
+)
+"generation/genr_base.ml" 367 11083 11090 "generation/genr_base.ml" 367 11083 11092
+type(
+  unit
+)
+"generation/genr_base.ml" 367 11083 11096 "generation/genr_base.ml" 367 11083 11097
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"generation/genr_base.ml" 367 11083 11097 "generation/genr_base.ml" 367 11083 11107
+type(
+  bool ref
+)
+ident(
+  int_ref otrace_yes "generation/genr_base.ml" 365 11017 11023 "generation/genr_base.ml" 365 11017 11033
+)
+"generation/genr_base.ml" 367 11083 11096 "generation/genr_base.ml" 367 11083 11107
+type(
+  bool
+)
+"generation/genr_base.ml" 367 11083 11085 "generation/genr_base.ml" 367 11083 11108
+type(
+  unit -> bool
+)
+"generation/genr_base.ml" 366 11049 11051 "generation/genr_base.ml" 367 11083 11108
+type(
+  (unit -> unit) * (unit -> bool)
+)
+"generation/genr_base.ml" 365 11017 11019 "generation/genr_base.ml" 367 11083 11108
+type(
+  (unit -> unit) * (unit -> bool)
+)
+"generation/genr_base.ml" 370 11113 11117 "generation/genr_base.ml" 370 11113 11132
+type(
+  unit -> unit
+)
+ident(
+  def set_dline_trace "generation/genr_base.ml" 376 11248 11248 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 370 11113 11134 "generation/genr_base.ml" 370 11113 11149
+type(
+  unit -> bool
+)
+ident(
+  def get_dline_trace "generation/genr_base.ml" 376 11248 11248 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 370 11113 11117 "generation/genr_base.ml" 370 11113 11149
+type(
+  (unit -> unit) * (unit -> bool)
+)
+"generation/genr_base.ml" 371 11152 11158 "generation/genr_base.ml" 371 11152 11168
+type(
+  bool ref
+)
+ident(
+  def dtrace_yes "generation/genr_base.ml" 372 11184 11186 "generation/genr_base.ml" 373 11218 11243
+)
+"generation/genr_base.ml" 371 11152 11171 "generation/genr_base.ml" 371 11152 11174
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"generation/genr_base.ml" 371 11152 11175 "generation/genr_base.ml" 371 11152 11180
+type(
+  bool
+)
+"generation/genr_base.ml" 371 11152 11171 "generation/genr_base.ml" 371 11152 11180
+type(
+  bool ref
+)
+"generation/genr_base.ml" 372 11184 11191 "generation/genr_base.ml" 372 11184 11193
+type(
+  unit
+)
+"generation/genr_base.ml" 372 11184 11197 "generation/genr_base.ml" 372 11184 11207
+type(
+  bool ref
+)
+ident(
+  int_ref dtrace_yes "generation/genr_base.ml" 371 11152 11158 "generation/genr_base.ml" 371 11152 11168
+)
+"generation/genr_base.ml" 372 11184 11208 "generation/genr_base.ml" 372 11184 11210
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"generation/genr_base.ml" 372 11184 11211 "generation/genr_base.ml" 372 11184 11215
+type(
+  bool
+)
+"generation/genr_base.ml" 372 11184 11197 "generation/genr_base.ml" 372 11184 11215
+type(
+  unit
+)
+"generation/genr_base.ml" 372 11184 11186 "generation/genr_base.ml" 372 11184 11216
+type(
+  unit -> unit
+)
+"generation/genr_base.ml" 373 11218 11225 "generation/genr_base.ml" 373 11218 11227
+type(
+  unit
+)
+"generation/genr_base.ml" 373 11218 11231 "generation/genr_base.ml" 373 11218 11232
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"generation/genr_base.ml" 373 11218 11232 "generation/genr_base.ml" 373 11218 11242
+type(
+  bool ref
+)
+ident(
+  int_ref dtrace_yes "generation/genr_base.ml" 371 11152 11158 "generation/genr_base.ml" 371 11152 11168
+)
+"generation/genr_base.ml" 373 11218 11231 "generation/genr_base.ml" 373 11218 11242
+type(
+  bool
+)
+"generation/genr_base.ml" 373 11218 11220 "generation/genr_base.ml" 373 11218 11243
+type(
+  unit -> bool
+)
+"generation/genr_base.ml" 372 11184 11186 "generation/genr_base.ml" 373 11218 11243
+type(
+  (unit -> unit) * (unit -> bool)
+)
+"generation/genr_base.ml" 371 11152 11154 "generation/genr_base.ml" 373 11218 11243
+type(
+  (unit -> unit) * (unit -> bool)
+)
+"generation/genr_base.ml" 376 11248 11252 "generation/genr_base.ml" 376 11248 11262
+type(
+  Location.t -> int * string
+)
+ident(
+  def diese_line "generation/genr_base.ml" 383 11416 11416 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 376 11248 11263 "generation/genr_base.ml" 376 11248 11266
+type(
+  Location.t
+)
+ident(
+  def loc "generation/genr_base.ml" 377 11269 11271 "generation/genr_base.ml" 380 11403 11411
+)
+"generation/genr_base.ml" 377 11269 11275 "generation/genr_base.ml" 377 11269 11277
+type(
+  string
+)
+ident(
+  def f1 "generation/genr_base.ml" 379 11383 11385 "generation/genr_base.ml" 380 11403 11411
+)
+"generation/genr_base.ml" 377 11269 11279 "generation/genr_base.ml" 377 11269 11281
+type(
+  int
+)
+ident(
+  def l1 "generation/genr_base.ml" 379 11383 11385 "generation/genr_base.ml" 380 11403 11411
+)
+"generation/genr_base.ml" 377 11269 11283 "generation/genr_base.ml" 377 11269 11286
+type(
+  int
+)
+ident(
+  def _c1 "generation/genr_base.ml" 379 11383 11385 "generation/genr_base.ml" 380 11403 11411
+)
+"generation/genr_base.ml" 377 11269 11275 "generation/genr_base.ml" 377 11269 11286
+type(
+  string * int * int
+)
+"generation/genr_base.ml" 377 11269 11289 "generation/genr_base.ml" 377 11269 11310
+type(
+  Lexing.position -> string * int * int
+)
+ident(
+  ext_ref Location.get_pos_info
+)
+"generation/genr_base.ml" 377 11269 11311 "generation/genr_base.ml" 377 11269 11314
+type(
+  Location.t
+)
+ident(
+  int_ref loc "generation/genr_base.ml" 376 11248 11263 "generation/genr_base.ml" 376 11248 11266
+)
+"generation/genr_base.ml" 377 11269 11311 "generation/genr_base.ml" 377 11269 11324
+type(
+  Lexing.position
+)
+"generation/genr_base.ml" 377 11269 11289 "generation/genr_base.ml" 377 11269 11324
+call(
+  stack
+)
+type(
+  string * int * int
+)
+"generation/genr_base.ml" 378 11325 11331 "generation/genr_base.ml" 378 11325 11333
+type(
+  string
+)
+ident(
+  def f2 "generation/genr_base.ml" 379 11383 11385 "generation/genr_base.ml" 380 11403 11411
+)
+"generation/genr_base.ml" 378 11325 11335 "generation/genr_base.ml" 378 11325 11338
+type(
+  int
+)
+ident(
+  def _l2 "generation/genr_base.ml" 379 11383 11385 "generation/genr_base.ml" 380 11403 11411
+)
+"generation/genr_base.ml" 378 11325 11340 "generation/genr_base.ml" 378 11325 11343
+type(
+  int
+)
+ident(
+  def _c2 "generation/genr_base.ml" 379 11383 11385 "generation/genr_base.ml" 380 11403 11411
+)
+"generation/genr_base.ml" 378 11325 11331 "generation/genr_base.ml" 378 11325 11343
+type(
+  string * int * int
+)
+"generation/genr_base.ml" 378 11325 11346 "generation/genr_base.ml" 378 11325 11367
+type(
+  Lexing.position -> string * int * int
+)
+ident(
+  ext_ref Location.get_pos_info
+)
+"generation/genr_base.ml" 378 11325 11368 "generation/genr_base.ml" 378 11325 11371
+type(
+  Location.t
+)
+ident(
+  int_ref loc "generation/genr_base.ml" 376 11248 11263 "generation/genr_base.ml" 376 11248 11266
+)
+"generation/genr_base.ml" 378 11325 11368 "generation/genr_base.ml" 378 11325 11379
+type(
+  Lexing.position
+)
+"generation/genr_base.ml" 378 11325 11346 "generation/genr_base.ml" 378 11325 11379
+call(
+  stack
+)
+type(
+  string * int * int
+)
+"generation/genr_base.ml" 379 11383 11393 "generation/genr_base.ml" 379 11383 11395
+type(
+  string
+)
+ident(
+  int_ref f1 "generation/genr_base.ml" 377 11269 11275 "generation/genr_base.ml" 377 11269 11277
+)
+"generation/genr_base.ml" 379 11383 11396 "generation/genr_base.ml" 379 11383 11397
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"generation/genr_base.ml" 379 11383 11398 "generation/genr_base.ml" 379 11383 11400
+type(
+  string
+)
+ident(
+  int_ref f2 "generation/genr_base.ml" 378 11325 11331 "generation/genr_base.ml" 378 11325 11333
+)
+"generation/genr_base.ml" 379 11383 11392 "generation/genr_base.ml" 379 11383 11401
+type(
+  bool
+)
+"generation/genr_base.ml" 379 11383 11385 "generation/genr_base.ml" 379 11383 11401
+type(
+  unit
+)
+"generation/genr_base.ml" 380 11403 11405 "generation/genr_base.ml" 380 11403 11407
+type(
+  int
+)
+ident(
+  int_ref l1 "generation/genr_base.ml" 377 11269 11279 "generation/genr_base.ml" 377 11269 11281
+)
+"generation/genr_base.ml" 380 11403 11409 "generation/genr_base.ml" 380 11403 11411
+type(
+  string
+)
+ident(
+  int_ref f1 "generation/genr_base.ml" 377 11269 11275 "generation/genr_base.ml" 377 11269 11277
+)
+"generation/genr_base.ml" 380 11403 11405 "generation/genr_base.ml" 380 11403 11411
+type(
+  int * string
+)
+"generation/genr_base.ml" 379 11383 11385 "generation/genr_base.ml" 380 11403 11411
+type(
+  int * string
+)
+"generation/genr_base.ml" 377 11269 11271 "generation/genr_base.ml" 380 11403 11411
+type(
+  int * string
+)
+"generation/genr_base.ml" 383 11416 11420 "generation/genr_base.ml" 383 11416 11430
+type(
+  int -> Code.filename -> Code.exp -> Code.exp
+)
+ident(
+  def sline_code "generation/genr_base.ml" 389 11530 11530 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 383 11416 11431 "generation/genr_base.ml" 383 11416 11435
+type(
+  int
+)
+ident(
+  def line "generation/genr_base.ml" 383 11416 11436 "generation/genr_base.ml" 386 11514 11525
+)
+"generation/genr_base.ml" 383 11416 11436 "generation/genr_base.ml" 383 11416 11440
+type(
+  Code.filename
+)
+ident(
+  def file "generation/genr_base.ml" 383 11416 11441 "generation/genr_base.ml" 386 11514 11525
+)
+"generation/genr_base.ml" 383 11416 11441 "generation/genr_base.ml" 383 11416 11445
+type(
+  Code.exp
+)
+ident(
+  def code "generation/genr_base.ml" 384 11448 11450 "generation/genr_base.ml" 386 11514 11525
+)
+"generation/genr_base.ml" 384 11448 11453 "generation/genr_base.ml" 384 11448 11468
+type(
+  unit -> bool
+)
+ident(
+  int_ref get_dline_trace "generation/genr_base.ml" 370 11113 11134 "generation/genr_base.ml" 370 11113 11149
+)
+"generation/genr_base.ml" 384 11448 11469 "generation/genr_base.ml" 384 11448 11471
+type(
+  unit
+)
+"generation/genr_base.ml" 384 11448 11453 "generation/genr_base.ml" 384 11448 11471
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_base.ml" 385 11472 11496 "generation/genr_base.ml" 385 11472 11500
+type(
+  int
+)
+ident(
+  int_ref line "generation/genr_base.ml" 383 11416 11431 "generation/genr_base.ml" 383 11416 11435
+)
+"generation/genr_base.ml" 385 11472 11502 "generation/genr_base.ml" 385 11472 11506
+type(
+  Code.filename
+)
+ident(
+  int_ref file "generation/genr_base.ml" 383 11416 11436 "generation/genr_base.ml" 383 11416 11440
+)
+"generation/genr_base.ml" 385 11472 11508 "generation/genr_base.ml" 385 11472 11512
+type(
+  Code.exp
+)
+ident(
+  int_ref code "generation/genr_base.ml" 383 11416 11441 "generation/genr_base.ml" 383 11416 11445
+)
+"generation/genr_base.ml" 385 11472 11479 "generation/genr_base.ml" 385 11472 11513
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 386 11514 11521 "generation/genr_base.ml" 386 11514 11525
+type(
+  Code.exp
+)
+ident(
+  int_ref code "generation/genr_base.ml" 383 11416 11441 "generation/genr_base.ml" 383 11416 11445
+)
+"generation/genr_base.ml" 384 11448 11450 "generation/genr_base.ml" 386 11514 11525
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 389 11530 11534 "generation/genr_base.ml" 389 11530 11546
+type(
+  int -> Code.filename -> Code.clause -> Code.clause
+)
+ident(
+  def trace_clause "generation/genr_base.ml" 391 11624 11695 "generation/genr_base.ml" 1 0 -1
+)
+"generation/genr_base.ml" 389 11530 11547 "generation/genr_base.ml" 389 11530 11551
+type(
+  int
+)
+ident(
+  def line "generation/genr_base.ml" 389 11530 11552 "generation/genr_base.ml" 391 11624 11695
+)
+"generation/genr_base.ml" 389 11530 11552 "generation/genr_base.ml" 389 11530 11556
+type(
+  Code.filename
+)
+ident(
+  def file "generation/genr_base.ml" 389 11530 11559 "generation/genr_base.ml" 391 11624 11695
+)
+"generation/genr_base.ml" 390 11568 11580 "generation/genr_base.ml" 390 11568 11581
+type(
+  Code.pattern
+)
+ident(
+  def x "generation/genr_base.ml" 390 11568 11589 "generation/genr_base.ml" 390 11568 11623
+)
+"generation/genr_base.ml" 390 11568 11583 "generation/genr_base.ml" 390 11568 11584
+type(
+  Code.exp
+)
+ident(
+  def y "generation/genr_base.ml" 390 11568 11589 "generation/genr_base.ml" 390 11568 11623
+)
+"generation/genr_base.ml" 390 11568 11572 "generation/genr_base.ml" 390 11568 11585
+type(
+  Code.clause
+)
+"generation/genr_base.ml" 390 11568 11597 "generation/genr_base.ml" 390 11568 11598
+type(
+  Code.pattern
+)
+ident(
+  int_ref x "generation/genr_base.ml" 390 11568 11580 "generation/genr_base.ml" 390 11568 11581
+)
+"generation/genr_base.ml" 390 11568 11600 "generation/genr_base.ml" 390 11568 11610
+type(
+  int -> Code.filename -> Code.exp -> Code.exp
+)
+ident(
+  int_ref sline_code "generation/genr_base.ml" 383 11416 11420 "generation/genr_base.ml" 383 11416 11430
+)
+"generation/genr_base.ml" 390 11568 11611 "generation/genr_base.ml" 390 11568 11615
+type(
+  int
+)
+ident(
+  int_ref line "generation/genr_base.ml" 389 11530 11547 "generation/genr_base.ml" 389 11530 11551
+)
+"generation/genr_base.ml" 390 11568 11616 "generation/genr_base.ml" 390 11568 11620
+type(
+  Code.filename
+)
+ident(
+  int_ref file "generation/genr_base.ml" 389 11530 11552 "generation/genr_base.ml" 389 11530 11556
+)
+"generation/genr_base.ml" 390 11568 11621 "generation/genr_base.ml" 390 11568 11622
+type(
+  Code.exp
+)
+ident(
+  int_ref y "generation/genr_base.ml" 390 11568 11583 "generation/genr_base.ml" 390 11568 11584
+)
+"generation/genr_base.ml" 390 11568 11600 "generation/genr_base.ml" 390 11568 11622
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 390 11568 11589 "generation/genr_base.ml" 390 11568 11623
+type(
+  Code.clause
+)
+"generation/genr_base.ml" 391 11624 11641 "generation/genr_base.ml" 391 11624 11642
+type(
+  Code.pattern
+)
+ident(
+  def x "generation/genr_base.ml" 391 11624 11653 "generation/genr_base.ml" 391 11624 11695
+)
+"generation/genr_base.ml" 391 11624 11644 "generation/genr_base.ml" 391 11624 11645
+type(
+  Code.exp
+)
+ident(
+  def w "generation/genr_base.ml" 391 11624 11653 "generation/genr_base.ml" 391 11624 11695
+)
+"generation/genr_base.ml" 391 11624 11647 "generation/genr_base.ml" 391 11624 11648
+type(
+  Code.exp
+)
+ident(
+  def y "generation/genr_base.ml" 391 11624 11653 "generation/genr_base.ml" 391 11624 11695
+)
+"generation/genr_base.ml" 391 11624 11628 "generation/genr_base.ml" 391 11624 11649
+type(
+  Code.clause
+)
+"generation/genr_base.ml" 391 11624 11666 "generation/genr_base.ml" 391 11624 11667
+type(
+  Code.pattern
+)
+ident(
+  int_ref x "generation/genr_base.ml" 391 11624 11641 "generation/genr_base.ml" 391 11624 11642
+)
+"generation/genr_base.ml" 391 11624 11669 "generation/genr_base.ml" 391 11624 11670
+type(
+  Code.exp
+)
+ident(
+  int_ref w "generation/genr_base.ml" 391 11624 11644 "generation/genr_base.ml" 391 11624 11645
+)
+"generation/genr_base.ml" 391 11624 11672 "generation/genr_base.ml" 391 11624 11682
+type(
+  int -> Code.filename -> Code.exp -> Code.exp
+)
+ident(
+  int_ref sline_code "generation/genr_base.ml" 383 11416 11420 "generation/genr_base.ml" 383 11416 11430
+)
+"generation/genr_base.ml" 391 11624 11683 "generation/genr_base.ml" 391 11624 11687
+type(
+  int
+)
+ident(
+  int_ref line "generation/genr_base.ml" 389 11530 11547 "generation/genr_base.ml" 389 11530 11551
+)
+"generation/genr_base.ml" 391 11624 11688 "generation/genr_base.ml" 391 11624 11692
+type(
+  Code.filename
+)
+ident(
+  int_ref file "generation/genr_base.ml" 389 11530 11552 "generation/genr_base.ml" 389 11530 11556
+)
+"generation/genr_base.ml" 391 11624 11693 "generation/genr_base.ml" 391 11624 11694
+type(
+  Code.exp
+)
+ident(
+  int_ref y "generation/genr_base.ml" 391 11624 11647 "generation/genr_base.ml" 391 11624 11648
+)
+"generation/genr_base.ml" 391 11624 11672 "generation/genr_base.ml" 391 11624 11694
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_base.ml" 391 11624 11653 "generation/genr_base.ml" 391 11624 11695
+type(
+  Code.clause
+)
+"generation/genr_base.ml" 389 11530 11559 "generation/genr_base.ml" 391 11624 11695
+type(
+  Code.clause -> Code.clause
+)

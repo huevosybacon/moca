@@ -1,0 +1,357 @@
+"completion/clexer.ml" 6 76 80 "completion/clexer.ml" 6 76 98
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "completion/clexer.ml" 199 12367 12367 "completion/clexer.ml" 1 0 -1
+)
+"completion/clexer.ml" 8 124 127 "completion/clexer.ml" 10 264 293
+type(
+  string
+)
+"completion/clexer.ml" 12 319 322 "completion/clexer.ml" 14 459 488
+type(
+  string
+)
+"completion/clexer.ml" 16 514 517 "completion/clexer.ml" 18 654 683
+type(
+  string
+)
+"completion/clexer.ml" 20 707 710 "completion/clexer.ml" 101 6377 6422
+type(
+  string
+)
+"completion/clexer.ml" 103 6446 6449 "completion/clexer.ml" 184 12116 12161
+type(
+  string
+)
+"completion/clexer.ml" 186 12189 12192 "completion/clexer.ml" 186 12189 12194
+type(
+  string
+)
+"completion/clexer.ml" 188 12225 12228 "completion/clexer.ml" 188 12225 12230
+type(
+  string
+)
+"completion/clexer.ml" 190 12261 12264 "completion/clexer.ml" 190 12261 12266
+type(
+  string
+)
+"completion/clexer.ml" 192 12295 12298 "completion/clexer.ml" 192 12295 12300
+type(
+  string
+)
+"completion/clexer.ml" 194 12329 12332 "completion/clexer.ml" 194 12329 12334
+type(
+  string
+)
+"completion/clexer.ml" 196 12357 12360 "completion/clexer.ml" 196 12357 12362
+type(
+  string
+)
+"completion/clexer.ml" 6 76 101 "completion/clexer.ml" 197 12364 12365
+type(
+  Lexing.lex_tables
+)
+"completion/clexer.ml" 199 12367 12375 "completion/clexer.ml" 199 12367 12385
+type(
+  Lexing.lexbuf -> Cparser.token
+)
+ident(
+  def next_token "completion/clexer.ml" 199 12367 12367 "completion/clexer.ml" 1 0 -1
+)
+"completion/clexer.ml" 199 12367 12386 "completion/clexer.ml" 199 12367 12392
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "completion/clexer.ml" 200 12395 12399 "completion/clexer.ml" 200 12395 12434
+)
+"completion/clexer.ml" 200 12395 12399 "completion/clexer.ml" 200 12395 12425
+type(
+  Lexing.lexbuf -> int -> Cparser.token
+)
+ident(
+  int_ref __ocaml_lex_next_token_rec "completion/clexer.ml" 201 12435 12439 "completion/clexer.ml" 201 12435 12465
+)
+"completion/clexer.ml" 200 12395 12426 "completion/clexer.ml" 200 12395 12432
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "completion/clexer.ml" 199 12367 12386 "completion/clexer.ml" 199 12367 12392
+)
+"completion/clexer.ml" 200 12395 12433 "completion/clexer.ml" 200 12395 12434
+type(
+  int
+)
+"completion/clexer.ml" 200 12395 12399 "completion/clexer.ml" 200 12395 12434
+call(
+  tail
+)
+type(
+  Cparser.token
+)
+"completion/clexer.ml" 201 12435 12439 "completion/clexer.ml" 201 12435 12465
+type(
+  Lexing.lexbuf -> int -> Cparser.token
+)
+ident(
+  def __ocaml_lex_next_token_rec "completion/clexer.ml" 199 12367 12367 "completion/clexer.ml" 1 0 -1
+)
+"completion/clexer.ml" 201 12435 12466 "completion/clexer.ml" 201 12435 12472
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "completion/clexer.ml" 201 12435 12473 "completion/clexer.ml" 254 13552 13609
+)
+"completion/clexer.ml" 201 12435 12473 "completion/clexer.ml" 201 12435 12490
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "completion/clexer.ml" 202 12493 12495 "completion/clexer.ml" 254 13552 13609
+)
+"completion/clexer.ml" 202 12493 12501 "completion/clexer.ml" 202 12493 12514
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"completion/clexer.ml" 202 12493 12515 "completion/clexer.ml" 202 12493 12533
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "completion/clexer.ml" 6 76 80 "completion/clexer.ml" 6 76 98
+)
+"completion/clexer.ml" 202 12493 12534 "completion/clexer.ml" 202 12493 12551
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "completion/clexer.ml" 201 12435 12473 "completion/clexer.ml" 201 12435 12490
+)
+"completion/clexer.ml" 202 12493 12552 "completion/clexer.ml" 202 12493 12558
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "completion/clexer.ml" 201 12435 12466 "completion/clexer.ml" 201 12435 12472
+)
+"completion/clexer.ml" 202 12493 12501 "completion/clexer.ml" 202 12493 12558
+call(
+  stack
+)
+type(
+  int
+)
+"completion/clexer.ml" 203 12564 12572 "completion/clexer.ml" 203 12564 12573
+type(
+  int
+)
+"completion/clexer.mll" 31 12606 12614 "completion/clexer.mll" 31 12606 12621
+type(
+  Cparser.token
+)
+"completion/clexer.ml" 208 12652 12656 "completion/clexer.ml" 208 12652 12657
+type(
+  int
+)
+"completion/clexer.mll" 32 12690 12702 "completion/clexer.mll" 32 12690 12712
+type(
+  Lexing.lexbuf -> Cparser.token
+)
+ident(
+  int_ref next_token "completion/clexer.ml" 199 12367 12375 "completion/clexer.ml" 199 12367 12385
+)
+"completion/clexer.mll" 32 12690 12713 "completion/clexer.mll" 32 12690 12719
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "completion/clexer.ml" 201 12435 12466 "completion/clexer.ml" 201 12435 12472
+)
+"completion/clexer.mll" 32 12690 12700 "completion/clexer.mll" 32 12690 12721
+call(
+  tail
+)
+type(
+  Cparser.token
+)
+"completion/clexer.ml" 213 12752 12756 "completion/clexer.ml" 213 12752 12757
+type(
+  int
+)
+"completion/clexer.mll" 33 12790 12798 "completion/clexer.mll" 33 12790 12806
+type(
+  Cparser.token
+)
+"completion/clexer.ml" 218 12837 12841 "completion/clexer.ml" 218 12837 12842
+type(
+  int
+)
+"completion/clexer.mll" 34 12875 12883 "completion/clexer.mll" 34 12875 12891
+type(
+  Cparser.token
+)
+"completion/clexer.ml" 223 12922 12926 "completion/clexer.ml" 223 12922 12927
+type(
+  int
+)
+"completion/clexer.mll" 35 12960 12969 "completion/clexer.mll" 35 12960 12978
+type(
+  Cparser.token
+)
+"completion/clexer.ml" 228 13009 13013 "completion/clexer.ml" 228 13009 13014
+type(
+  int
+)
+"completion/clexer.mll" 36 13047 13055 "completion/clexer.mll" 36 13047 13069
+type(
+  Cparser.token
+)
+"completion/clexer.ml" 233 13100 13104 "completion/clexer.ml" 233 13100 13105
+type(
+  int
+)
+"completion/clexer.mll" 37 13138 13146 "completion/clexer.mll" 37 13138 13152
+type(
+  Cparser.token
+)
+"completion/clexer.ml" 238 13183 13187 "completion/clexer.ml" 238 13183 13188
+type(
+  int
+)
+"completion/clexer.mll" 38 13221 13240 "completion/clexer.mll" 38 13221 13253
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"completion/clexer.mll" 38 13221 13254 "completion/clexer.mll" 38 13221 13260
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "completion/clexer.ml" 201 12435 12466 "completion/clexer.ml" 201 12435 12472
+)
+"completion/clexer.mll" 38 13221 13239 "completion/clexer.mll" 38 13221 13261
+call(
+  stack
+)
+type(
+  string
+)
+"completion/clexer.mll" 38 13221 13231 "completion/clexer.mll" 38 13221 13263
+type(
+  Cparser.token
+)
+"completion/clexer.ml" 243 13294 13298 "completion/clexer.ml" 243 13294 13299
+type(
+  int
+)
+"completion/clexer.mll" 39 13332 13351 "completion/clexer.mll" 39 13332 13364
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"completion/clexer.mll" 39 13332 13365 "completion/clexer.mll" 39 13332 13371
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "completion/clexer.ml" 201 12435 12466 "completion/clexer.ml" 201 12435 12472
+)
+"completion/clexer.mll" 39 13332 13350 "completion/clexer.mll" 39 13332 13372
+call(
+  stack
+)
+type(
+  string
+)
+"completion/clexer.mll" 39 13332 13342 "completion/clexer.mll" 39 13332 13374
+type(
+  Cparser.token
+)
+"completion/clexer.ml" 248 13405 13409 "completion/clexer.ml" 248 13405 13410
+type(
+  int
+)
+"completion/clexer.mll" 40 13443 13449 "completion/clexer.mll" 40 13443 13461
+type(
+  Cparser.token
+)
+"completion/clexer.ml" 253 13492 13496 "completion/clexer.ml" 253 13492 13513
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "completion/clexer.ml" 253 13492 13517 "completion/clexer.ml" 254 13552 13609
+)
+"completion/clexer.ml" 253 13492 13517 "completion/clexer.ml" 253 13492 13523
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "completion/clexer.ml" 201 12435 12466 "completion/clexer.ml" 201 12435 12472
+)
+"completion/clexer.ml" 253 13492 13517 "completion/clexer.ml" 253 13492 13542
+type(
+  Lexing.lexbuf -> unit
+)
+"completion/clexer.ml" 253 13492 13543 "completion/clexer.ml" 253 13492 13549
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "completion/clexer.ml" 201 12435 12466 "completion/clexer.ml" 201 12435 12472
+)
+"completion/clexer.ml" 253 13492 13517 "completion/clexer.ml" 253 13492 13549
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/clexer.ml" 254 13552 13558 "completion/clexer.ml" 254 13552 13584
+type(
+  Lexing.lexbuf -> int -> Cparser.token
+)
+ident(
+  int_ref __ocaml_lex_next_token_rec "completion/clexer.ml" 201 12435 12439 "completion/clexer.ml" 201 12435 12465
+)
+"completion/clexer.ml" 254 13552 13585 "completion/clexer.ml" 254 13552 13591
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "completion/clexer.ml" 201 12435 12466 "completion/clexer.ml" 201 12435 12472
+)
+"completion/clexer.ml" 254 13552 13592 "completion/clexer.ml" 254 13552 13609
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "completion/clexer.ml" 253 13492 13496 "completion/clexer.ml" 253 13492 13513
+)
+"completion/clexer.ml" 254 13552 13558 "completion/clexer.ml" 254 13552 13609
+call(
+  tail
+)
+type(
+  Cparser.token
+)
+"completion/clexer.ml" 253 13492 13517 "completion/clexer.ml" 254 13552 13609
+type(
+  Cparser.token
+)
+"completion/clexer.ml" 202 12493 12495 "completion/clexer.ml" 254 13552 13609
+type(
+  Cparser.token
+)

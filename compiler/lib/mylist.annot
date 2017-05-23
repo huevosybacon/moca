@@ -1,0 +1,1437 @@
+"lib/mylist.ml" 21 1225 1229 "lib/mylist.ml" 21 1225 1234
+type(
+  'a list -> int -> 'a list * 'a * 'a list
+)
+ident(
+  def split "lib/mylist.ml" 34 1506 1506 "lib/mylist.ml" 1 0 -1
+)
+"lib/mylist.ml" 22 1237 1247 "lib/mylist.ml" 22 1237 1250
+type(
+  'b list -> int -> 'b list -> 'b list * 'b * 'b list
+)
+ident(
+  def aux "lib/mylist.ml" 22 1237 1239 "lib/mylist.ml" 29 1459 1473
+)
+"lib/mylist.ml" 22 1237 1251 "lib/mylist.ml" 22 1237 1253
+type(
+  'b list
+)
+ident(
+  def l1 "lib/mylist.ml" 22 1237 1254 "lib/mylist.ml" 26 1355 1389
+)
+"lib/mylist.ml" 22 1237 1254 "lib/mylist.ml" 22 1237 1255
+type(
+  int
+)
+ident(
+  def i "lib/mylist.ml" 22 1237 1256 "lib/mylist.ml" 26 1355 1389
+)
+"lib/mylist.ml" 22 1237 1256 "lib/mylist.ml" 22 1237 1258
+type(
+  'b list
+)
+ident(
+  def l2 "lib/mylist.ml" 23 1261 1265 "lib/mylist.ml" 26 1355 1389
+)
+"lib/mylist.ml" 23 1261 1271 "lib/mylist.ml" 23 1261 1272
+type(
+  int
+)
+ident(
+  int_ref i "lib/mylist.ml" 22 1237 1254 "lib/mylist.ml" 22 1237 1255
+)
+"lib/mylist.ml" 23 1261 1274 "lib/mylist.ml" 23 1261 1276
+type(
+  'b list
+)
+ident(
+  int_ref l2 "lib/mylist.ml" 22 1237 1256 "lib/mylist.ml" 22 1237 1258
+)
+"lib/mylist.ml" 23 1261 1271 "lib/mylist.ml" 23 1261 1276
+type(
+  int * 'b list
+)
+"lib/mylist.ml" 24 1282 1288 "lib/mylist.ml" 24 1282 1289
+type(
+  int
+)
+"lib/mylist.ml" 24 1282 1291 "lib/mylist.ml" 24 1282 1292
+type(
+  'b
+)
+ident(
+  def x "lib/mylist.ml" 24 1282 1302 "lib/mylist.ml" 24 1282 1311
+)
+"lib/mylist.ml" 24 1282 1296 "lib/mylist.ml" 24 1282 1298
+type(
+  'b list
+)
+ident(
+  def xs "lib/mylist.ml" 24 1282 1302 "lib/mylist.ml" 24 1282 1311
+)
+"lib/mylist.ml" 24 1282 1291 "lib/mylist.ml" 24 1282 1298
+type(
+  'b list
+)
+"lib/mylist.ml" 24 1282 1288 "lib/mylist.ml" 24 1282 1298
+type(
+  int * 'b list
+)
+"lib/mylist.ml" 24 1282 1302 "lib/mylist.ml" 24 1282 1304
+type(
+  'b list
+)
+ident(
+  int_ref l1 "lib/mylist.ml" 22 1237 1251 "lib/mylist.ml" 22 1237 1253
+)
+"lib/mylist.ml" 24 1282 1306 "lib/mylist.ml" 24 1282 1307
+type(
+  'b
+)
+ident(
+  int_ref x "lib/mylist.ml" 24 1282 1291 "lib/mylist.ml" 24 1282 1292
+)
+"lib/mylist.ml" 24 1282 1309 "lib/mylist.ml" 24 1282 1311
+type(
+  'b list
+)
+ident(
+  int_ref xs "lib/mylist.ml" 24 1282 1296 "lib/mylist.ml" 24 1282 1298
+)
+"lib/mylist.ml" 24 1282 1302 "lib/mylist.ml" 24 1282 1311
+type(
+  'b list * 'b * 'b list
+)
+"lib/mylist.ml" 25 1312 1318 "lib/mylist.ml" 25 1312 1319
+type(
+  int
+)
+ident(
+  def n "lib/mylist.ml" 25 1312 1332 "lib/mylist.ml" 25 1312 1354
+)
+"lib/mylist.ml" 25 1312 1321 "lib/mylist.ml" 25 1312 1322
+type(
+  'b
+)
+ident(
+  def x "lib/mylist.ml" 25 1312 1332 "lib/mylist.ml" 25 1312 1354
+)
+"lib/mylist.ml" 25 1312 1326 "lib/mylist.ml" 25 1312 1328
+type(
+  'b list
+)
+ident(
+  def xs "lib/mylist.ml" 25 1312 1332 "lib/mylist.ml" 25 1312 1354
+)
+"lib/mylist.ml" 25 1312 1321 "lib/mylist.ml" 25 1312 1328
+type(
+  'b list
+)
+"lib/mylist.ml" 25 1312 1318 "lib/mylist.ml" 25 1312 1328
+type(
+  int * 'b list
+)
+"lib/mylist.ml" 25 1312 1332 "lib/mylist.ml" 25 1312 1335
+type(
+  'b list -> int -> 'b list -> 'b list * 'b * 'b list
+)
+ident(
+  int_ref aux "lib/mylist.ml" 22 1237 1247 "lib/mylist.ml" 22 1237 1250
+)
+"lib/mylist.ml" 25 1312 1337 "lib/mylist.ml" 25 1312 1338
+type(
+  'b
+)
+ident(
+  int_ref x "lib/mylist.ml" 25 1312 1321 "lib/mylist.ml" 25 1312 1322
+)
+"lib/mylist.ml" 25 1312 1342 "lib/mylist.ml" 25 1312 1344
+type(
+  'b list
+)
+ident(
+  int_ref l1 "lib/mylist.ml" 22 1237 1251 "lib/mylist.ml" 22 1237 1253
+)
+"lib/mylist.ml" 25 1312 1336 "lib/mylist.ml" 25 1312 1345
+type(
+  'b list
+)
+"lib/mylist.ml" 25 1312 1347 "lib/mylist.ml" 25 1312 1348
+type(
+  int
+)
+ident(
+  int_ref n "lib/mylist.ml" 25 1312 1318 "lib/mylist.ml" 25 1312 1319
+)
+"lib/mylist.ml" 25 1312 1348 "lib/mylist.ml" 25 1312 1349
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"lib/mylist.ml" 25 1312 1349 "lib/mylist.ml" 25 1312 1350
+type(
+  int
+)
+"lib/mylist.ml" 25 1312 1346 "lib/mylist.ml" 25 1312 1351
+type(
+  int
+)
+"lib/mylist.ml" 25 1312 1352 "lib/mylist.ml" 25 1312 1354
+type(
+  'b list
+)
+ident(
+  int_ref xs "lib/mylist.ml" 25 1312 1326 "lib/mylist.ml" 25 1312 1328
+)
+"lib/mylist.ml" 25 1312 1332 "lib/mylist.ml" 25 1312 1354
+call(
+  tail
+)
+type(
+  'b list * 'b * 'b list
+)
+"lib/mylist.ml" 26 1355 1361 "lib/mylist.ml" 26 1355 1362
+type(
+  int * 'b list
+)
+"lib/mylist.ml" 26 1355 1366 "lib/mylist.ml" 26 1355 1377
+type(
+  string -> 'b list * 'b * 'b list
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"lib/mylist.ml" 26 1355 1378 "lib/mylist.ml" 26 1355 1389
+type(
+  string
+)
+"lib/mylist.ml" 26 1355 1366 "lib/mylist.ml" 26 1355 1389
+call(
+  tail
+)
+type(
+  'b list * 'b * 'b list
+)
+"lib/mylist.ml" 23 1261 1265 "lib/mylist.ml" 26 1355 1389
+type(
+  'b list * 'b * 'b list
+)
+"lib/mylist.ml" 27 1393 1399 "lib/mylist.ml" 27 1393 1400
+type(
+  'a list
+)
+ident(
+  def l "lib/mylist.ml" 27 1393 1401 "lib/mylist.ml" 29 1459 1473
+)
+"lib/mylist.ml" 27 1393 1401 "lib/mylist.ml" 27 1393 1402
+type(
+  int
+)
+ident(
+  def i "lib/mylist.ml" 28 1406 1410 "lib/mylist.ml" 29 1459 1473
+)
+"lib/mylist.ml" 28 1406 1413 "lib/mylist.ml" 28 1406 1414
+type(
+  int
+)
+ident(
+  int_ref i "lib/mylist.ml" 27 1393 1401 "lib/mylist.ml" 27 1393 1402
+)
+"lib/mylist.ml" 28 1406 1415 "lib/mylist.ml" 28 1406 1416
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"lib/mylist.ml" 28 1406 1417 "lib/mylist.ml" 28 1406 1418
+type(
+  int
+)
+"lib/mylist.ml" 28 1406 1413 "lib/mylist.ml" 28 1406 1418
+type(
+  bool
+)
+"lib/mylist.ml" 28 1406 1419 "lib/mylist.ml" 28 1406 1421
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( or )
+)
+"lib/mylist.ml" 28 1406 1422 "lib/mylist.ml" 28 1406 1423
+type(
+  'a list
+)
+ident(
+  int_ref l "lib/mylist.ml" 27 1393 1399 "lib/mylist.ml" 27 1393 1400
+)
+"lib/mylist.ml" 28 1406 1424 "lib/mylist.ml" 28 1406 1425
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"lib/mylist.ml" 28 1406 1426 "lib/mylist.ml" 28 1406 1428
+type(
+  'a list
+)
+"lib/mylist.ml" 28 1406 1422 "lib/mylist.ml" 28 1406 1428
+type(
+  bool
+)
+"lib/mylist.ml" 28 1406 1413 "lib/mylist.ml" 28 1406 1428
+type(
+  bool
+)
+"lib/mylist.ml" 28 1406 1434 "lib/mylist.ml" 28 1406 1445
+type(
+  string -> 'a list * 'a * 'a list
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"lib/mylist.ml" 28 1406 1446 "lib/mylist.ml" 28 1406 1453
+type(
+  string
+)
+"lib/mylist.ml" 28 1406 1434 "lib/mylist.ml" 28 1406 1453
+call(
+  tail
+)
+type(
+  'a list * 'a * 'a list
+)
+"lib/mylist.ml" 29 1459 1463 "lib/mylist.ml" 29 1459 1466
+type(
+  'a list -> int -> 'a list -> 'a list * 'a * 'a list
+)
+ident(
+  int_ref aux "lib/mylist.ml" 22 1237 1247 "lib/mylist.ml" 22 1237 1250
+)
+"lib/mylist.ml" 29 1459 1467 "lib/mylist.ml" 29 1459 1469
+type(
+  'a list
+)
+"lib/mylist.ml" 29 1459 1470 "lib/mylist.ml" 29 1459 1471
+type(
+  int
+)
+ident(
+  int_ref i "lib/mylist.ml" 27 1393 1401 "lib/mylist.ml" 27 1393 1402
+)
+"lib/mylist.ml" 29 1459 1472 "lib/mylist.ml" 29 1459 1473
+type(
+  'a list
+)
+ident(
+  int_ref l "lib/mylist.ml" 27 1393 1399 "lib/mylist.ml" 27 1393 1400
+)
+"lib/mylist.ml" 29 1459 1463 "lib/mylist.ml" 29 1459 1473
+call(
+  tail
+)
+type(
+  'a list * 'a * 'a list
+)
+"lib/mylist.ml" 28 1406 1410 "lib/mylist.ml" 29 1459 1473
+type(
+  'a list * 'a * 'a list
+)
+"lib/mylist.ml" 27 1393 1395 "lib/mylist.ml" 29 1459 1473
+type(
+  'a list -> int -> 'a list * 'a * 'a list
+)
+"lib/mylist.ml" 22 1237 1239 "lib/mylist.ml" 29 1459 1473
+type(
+  'a list -> int -> 'a list * 'a * 'a list
+)
+"lib/mylist.ml" 34 1506 1510 "lib/mylist.ml" 34 1506 1517
+type(
+  'a -> 'a list -> int -> 'a list
+)
+ident(
+  def replace "lib/mylist.ml" 47 1837 1837 "lib/mylist.ml" 1 0 -1
+)
+"lib/mylist.ml" 34 1506 1518 "lib/mylist.ml" 34 1506 1522
+type(
+  'a
+)
+ident(
+  def newx "lib/mylist.ml" 35 1525 1527 "lib/mylist.ml" 42 1780 1794
+)
+"lib/mylist.ml" 35 1525 1535 "lib/mylist.ml" 35 1525 1538
+type(
+  'a list -> int -> 'a list -> 'a list
+)
+ident(
+  def aux "lib/mylist.ml" 35 1525 1527 "lib/mylist.ml" 42 1780 1794
+)
+"lib/mylist.ml" 35 1525 1539 "lib/mylist.ml" 35 1525 1541
+type(
+  'a list
+)
+ident(
+  def l1 "lib/mylist.ml" 35 1525 1542 "lib/mylist.ml" 39 1686 1720
+)
+"lib/mylist.ml" 35 1525 1542 "lib/mylist.ml" 35 1525 1543
+type(
+  int
+)
+ident(
+  def i "lib/mylist.ml" 35 1525 1544 "lib/mylist.ml" 39 1686 1720
+)
+"lib/mylist.ml" 35 1525 1544 "lib/mylist.ml" 35 1525 1546
+type(
+  'a list
+)
+ident(
+  def l2 "lib/mylist.ml" 36 1549 1553 "lib/mylist.ml" 39 1686 1720
+)
+"lib/mylist.ml" 36 1549 1559 "lib/mylist.ml" 36 1549 1560
+type(
+  int
+)
+ident(
+  int_ref i "lib/mylist.ml" 35 1525 1542 "lib/mylist.ml" 35 1525 1543
+)
+"lib/mylist.ml" 36 1549 1562 "lib/mylist.ml" 36 1549 1564
+type(
+  'a list
+)
+ident(
+  int_ref l2 "lib/mylist.ml" 35 1525 1544 "lib/mylist.ml" 35 1525 1546
+)
+"lib/mylist.ml" 36 1549 1559 "lib/mylist.ml" 36 1549 1564
+type(
+  int * 'a list
+)
+"lib/mylist.ml" 37 1570 1576 "lib/mylist.ml" 37 1570 1577
+type(
+  int
+)
+"lib/mylist.ml" 37 1570 1579 "lib/mylist.ml" 37 1570 1580
+type(
+  'a
+)
+"lib/mylist.ml" 37 1570 1584 "lib/mylist.ml" 37 1570 1586
+type(
+  'a list
+)
+ident(
+  def xs "lib/mylist.ml" 37 1570 1590 "lib/mylist.ml" 37 1570 1640
+)
+"lib/mylist.ml" 37 1570 1579 "lib/mylist.ml" 37 1570 1586
+type(
+  'a list
+)
+"lib/mylist.ml" 37 1570 1576 "lib/mylist.ml" 37 1570 1586
+type(
+  int * 'a list
+)
+"lib/mylist.ml" 37 1570 1590 "lib/mylist.ml" 37 1570 1604
+type(
+  ('a list -> 'a -> 'a list) -> 'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref List.fold_left
+)
+"lib/mylist.ml" 37 1570 1610 "lib/mylist.ml" 37 1570 1611
+type(
+  'a list
+)
+ident(
+  def l "lib/mylist.ml" 37 1570 1612 "lib/mylist.ml" 37 1570 1623
+)
+"lib/mylist.ml" 37 1570 1612 "lib/mylist.ml" 37 1570 1613
+type(
+  'a
+)
+ident(
+  def x "lib/mylist.ml" 37 1570 1617 "lib/mylist.ml" 37 1570 1623
+)
+"lib/mylist.ml" 37 1570 1617 "lib/mylist.ml" 37 1570 1618
+type(
+  'a
+)
+ident(
+  int_ref x "lib/mylist.ml" 37 1570 1612 "lib/mylist.ml" 37 1570 1613
+)
+"lib/mylist.ml" 37 1570 1622 "lib/mylist.ml" 37 1570 1623
+type(
+  'a list
+)
+ident(
+  int_ref l "lib/mylist.ml" 37 1570 1610 "lib/mylist.ml" 37 1570 1611
+)
+"lib/mylist.ml" 37 1570 1617 "lib/mylist.ml" 37 1570 1623
+type(
+  'a list
+)
+"lib/mylist.ml" 37 1570 1605 "lib/mylist.ml" 37 1570 1624
+type(
+  'a list -> 'a -> 'a list
+)
+"lib/mylist.ml" 37 1570 1626 "lib/mylist.ml" 37 1570 1630
+type(
+  'a
+)
+ident(
+  int_ref newx "lib/mylist.ml" 34 1506 1518 "lib/mylist.ml" 34 1506 1522
+)
+"lib/mylist.ml" 37 1570 1634 "lib/mylist.ml" 37 1570 1636
+type(
+  'a list
+)
+ident(
+  int_ref xs "lib/mylist.ml" 37 1570 1584 "lib/mylist.ml" 37 1570 1586
+)
+"lib/mylist.ml" 37 1570 1625 "lib/mylist.ml" 37 1570 1637
+type(
+  'a list
+)
+"lib/mylist.ml" 37 1570 1638 "lib/mylist.ml" 37 1570 1640
+type(
+  'a list
+)
+ident(
+  int_ref l1 "lib/mylist.ml" 35 1525 1539 "lib/mylist.ml" 35 1525 1541
+)
+"lib/mylist.ml" 37 1570 1590 "lib/mylist.ml" 37 1570 1640
+call(
+  tail
+)
+type(
+  'a list
+)
+"lib/mylist.ml" 38 1641 1647 "lib/mylist.ml" 38 1641 1648
+type(
+  int
+)
+ident(
+  def n "lib/mylist.ml" 38 1641 1661 "lib/mylist.ml" 38 1641 1685
+)
+"lib/mylist.ml" 38 1641 1650 "lib/mylist.ml" 38 1641 1651
+type(
+  'a
+)
+ident(
+  def x "lib/mylist.ml" 38 1641 1661 "lib/mylist.ml" 38 1641 1685
+)
+"lib/mylist.ml" 38 1641 1655 "lib/mylist.ml" 38 1641 1657
+type(
+  'a list
+)
+ident(
+  def xs "lib/mylist.ml" 38 1641 1661 "lib/mylist.ml" 38 1641 1685
+)
+"lib/mylist.ml" 38 1641 1650 "lib/mylist.ml" 38 1641 1657
+type(
+  'a list
+)
+"lib/mylist.ml" 38 1641 1647 "lib/mylist.ml" 38 1641 1657
+type(
+  int * 'a list
+)
+"lib/mylist.ml" 38 1641 1661 "lib/mylist.ml" 38 1641 1664
+type(
+  'a list -> int -> 'a list -> 'a list
+)
+ident(
+  int_ref aux "lib/mylist.ml" 35 1525 1535 "lib/mylist.ml" 35 1525 1538
+)
+"lib/mylist.ml" 38 1641 1666 "lib/mylist.ml" 38 1641 1667
+type(
+  'a
+)
+ident(
+  int_ref x "lib/mylist.ml" 38 1641 1650 "lib/mylist.ml" 38 1641 1651
+)
+"lib/mylist.ml" 38 1641 1671 "lib/mylist.ml" 38 1641 1673
+type(
+  'a list
+)
+ident(
+  int_ref l1 "lib/mylist.ml" 35 1525 1539 "lib/mylist.ml" 35 1525 1541
+)
+"lib/mylist.ml" 38 1641 1665 "lib/mylist.ml" 38 1641 1674
+type(
+  'a list
+)
+"lib/mylist.ml" 38 1641 1676 "lib/mylist.ml" 38 1641 1677
+type(
+  int
+)
+ident(
+  int_ref n "lib/mylist.ml" 38 1641 1647 "lib/mylist.ml" 38 1641 1648
+)
+"lib/mylist.ml" 38 1641 1678 "lib/mylist.ml" 38 1641 1679
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"lib/mylist.ml" 38 1641 1680 "lib/mylist.ml" 38 1641 1681
+type(
+  int
+)
+"lib/mylist.ml" 38 1641 1675 "lib/mylist.ml" 38 1641 1682
+type(
+  int
+)
+"lib/mylist.ml" 38 1641 1683 "lib/mylist.ml" 38 1641 1685
+type(
+  'a list
+)
+ident(
+  int_ref xs "lib/mylist.ml" 38 1641 1655 "lib/mylist.ml" 38 1641 1657
+)
+"lib/mylist.ml" 38 1641 1661 "lib/mylist.ml" 38 1641 1685
+call(
+  tail
+)
+type(
+  'a list
+)
+"lib/mylist.ml" 39 1686 1692 "lib/mylist.ml" 39 1686 1693
+type(
+  int * 'a list
+)
+"lib/mylist.ml" 39 1686 1697 "lib/mylist.ml" 39 1686 1708
+type(
+  string -> 'a list
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"lib/mylist.ml" 39 1686 1709 "lib/mylist.ml" 39 1686 1720
+type(
+  string
+)
+"lib/mylist.ml" 39 1686 1697 "lib/mylist.ml" 39 1686 1720
+call(
+  tail
+)
+type(
+  'a list
+)
+"lib/mylist.ml" 36 1549 1553 "lib/mylist.ml" 39 1686 1720
+type(
+  'a list
+)
+"lib/mylist.ml" 40 1724 1730 "lib/mylist.ml" 40 1724 1731
+type(
+  'a list
+)
+ident(
+  def l "lib/mylist.ml" 40 1724 1732 "lib/mylist.ml" 42 1780 1794
+)
+"lib/mylist.ml" 40 1724 1732 "lib/mylist.ml" 40 1724 1733
+type(
+  int
+)
+ident(
+  def i "lib/mylist.ml" 41 1737 1741 "lib/mylist.ml" 42 1780 1794
+)
+"lib/mylist.ml" 41 1737 1744 "lib/mylist.ml" 41 1737 1745
+type(
+  int
+)
+ident(
+  int_ref i "lib/mylist.ml" 40 1724 1732 "lib/mylist.ml" 40 1724 1733
+)
+"lib/mylist.ml" 41 1737 1746 "lib/mylist.ml" 41 1737 1747
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"lib/mylist.ml" 41 1737 1748 "lib/mylist.ml" 41 1737 1749
+type(
+  int
+)
+"lib/mylist.ml" 41 1737 1744 "lib/mylist.ml" 41 1737 1749
+type(
+  bool
+)
+"lib/mylist.ml" 41 1737 1755 "lib/mylist.ml" 41 1737 1766
+type(
+  string -> 'a list
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"lib/mylist.ml" 41 1737 1767 "lib/mylist.ml" 41 1737 1774
+type(
+  string
+)
+"lib/mylist.ml" 41 1737 1755 "lib/mylist.ml" 41 1737 1774
+call(
+  tail
+)
+type(
+  'a list
+)
+"lib/mylist.ml" 42 1780 1784 "lib/mylist.ml" 42 1780 1787
+type(
+  'a list -> int -> 'a list -> 'a list
+)
+ident(
+  int_ref aux "lib/mylist.ml" 35 1525 1535 "lib/mylist.ml" 35 1525 1538
+)
+"lib/mylist.ml" 42 1780 1788 "lib/mylist.ml" 42 1780 1790
+type(
+  'a list
+)
+"lib/mylist.ml" 42 1780 1791 "lib/mylist.ml" 42 1780 1792
+type(
+  int
+)
+ident(
+  int_ref i "lib/mylist.ml" 40 1724 1732 "lib/mylist.ml" 40 1724 1733
+)
+"lib/mylist.ml" 42 1780 1793 "lib/mylist.ml" 42 1780 1794
+type(
+  'a list
+)
+ident(
+  int_ref l "lib/mylist.ml" 40 1724 1730 "lib/mylist.ml" 40 1724 1731
+)
+"lib/mylist.ml" 42 1780 1784 "lib/mylist.ml" 42 1780 1794
+call(
+  tail
+)
+type(
+  'a list
+)
+"lib/mylist.ml" 41 1737 1741 "lib/mylist.ml" 42 1780 1794
+type(
+  'a list
+)
+"lib/mylist.ml" 40 1724 1726 "lib/mylist.ml" 42 1780 1794
+type(
+  'a list -> int -> 'a list
+)
+"lib/mylist.ml" 35 1525 1527 "lib/mylist.ml" 42 1780 1794
+type(
+  'a list -> int -> 'a list
+)
+"lib/mylist.ml" 47 1837 1841 "lib/mylist.ml" 47 1837 1852
+type(
+  ('a -> 'a) -> 'a list -> int -> 'a list
+)
+ident(
+  def replace_map "lib/mylist.ml" 60 2160 2160 "lib/mylist.ml" 1 0 -1
+)
+"lib/mylist.ml" 47 1837 1853 "lib/mylist.ml" 47 1837 1854
+type(
+  'a -> 'a
+)
+ident(
+  def f "lib/mylist.ml" 48 1857 1859 "lib/mylist.ml" 55 2111 2125
+)
+"lib/mylist.ml" 48 1857 1867 "lib/mylist.ml" 48 1857 1870
+type(
+  'a list -> int -> 'a list -> 'a list
+)
+ident(
+  def aux "lib/mylist.ml" 48 1857 1859 "lib/mylist.ml" 55 2111 2125
+)
+"lib/mylist.ml" 48 1857 1871 "lib/mylist.ml" 48 1857 1873
+type(
+  'a list
+)
+ident(
+  def l1 "lib/mylist.ml" 48 1857 1874 "lib/mylist.ml" 52 2017 2051
+)
+"lib/mylist.ml" 48 1857 1874 "lib/mylist.ml" 48 1857 1875
+type(
+  int
+)
+ident(
+  def i "lib/mylist.ml" 48 1857 1876 "lib/mylist.ml" 52 2017 2051
+)
+"lib/mylist.ml" 48 1857 1876 "lib/mylist.ml" 48 1857 1878
+type(
+  'a list
+)
+ident(
+  def l2 "lib/mylist.ml" 49 1881 1885 "lib/mylist.ml" 52 2017 2051
+)
+"lib/mylist.ml" 49 1881 1891 "lib/mylist.ml" 49 1881 1892
+type(
+  int
+)
+ident(
+  int_ref i "lib/mylist.ml" 48 1857 1874 "lib/mylist.ml" 48 1857 1875
+)
+"lib/mylist.ml" 49 1881 1894 "lib/mylist.ml" 49 1881 1896
+type(
+  'a list
+)
+ident(
+  int_ref l2 "lib/mylist.ml" 48 1857 1876 "lib/mylist.ml" 48 1857 1878
+)
+"lib/mylist.ml" 49 1881 1891 "lib/mylist.ml" 49 1881 1896
+type(
+  int * 'a list
+)
+"lib/mylist.ml" 50 1902 1908 "lib/mylist.ml" 50 1902 1909
+type(
+  int
+)
+"lib/mylist.ml" 50 1902 1911 "lib/mylist.ml" 50 1902 1912
+type(
+  'a
+)
+ident(
+  def x "lib/mylist.ml" 50 1902 1922 "lib/mylist.ml" 50 1902 1971
+)
+"lib/mylist.ml" 50 1902 1916 "lib/mylist.ml" 50 1902 1918
+type(
+  'a list
+)
+ident(
+  def xs "lib/mylist.ml" 50 1902 1922 "lib/mylist.ml" 50 1902 1971
+)
+"lib/mylist.ml" 50 1902 1911 "lib/mylist.ml" 50 1902 1918
+type(
+  'a list
+)
+"lib/mylist.ml" 50 1902 1908 "lib/mylist.ml" 50 1902 1918
+type(
+  int * 'a list
+)
+"lib/mylist.ml" 50 1902 1922 "lib/mylist.ml" 50 1902 1936
+type(
+  ('a list -> 'a -> 'a list) -> 'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref List.fold_left
+)
+"lib/mylist.ml" 50 1902 1942 "lib/mylist.ml" 50 1902 1943
+type(
+  'a list
+)
+ident(
+  def l "lib/mylist.ml" 50 1902 1944 "lib/mylist.ml" 50 1902 1955
+)
+"lib/mylist.ml" 50 1902 1944 "lib/mylist.ml" 50 1902 1945
+type(
+  'a
+)
+ident(
+  def x "lib/mylist.ml" 50 1902 1949 "lib/mylist.ml" 50 1902 1955
+)
+"lib/mylist.ml" 50 1902 1949 "lib/mylist.ml" 50 1902 1950
+type(
+  'a
+)
+ident(
+  int_ref x "lib/mylist.ml" 50 1902 1944 "lib/mylist.ml" 50 1902 1945
+)
+"lib/mylist.ml" 50 1902 1954 "lib/mylist.ml" 50 1902 1955
+type(
+  'a list
+)
+ident(
+  int_ref l "lib/mylist.ml" 50 1902 1942 "lib/mylist.ml" 50 1902 1943
+)
+"lib/mylist.ml" 50 1902 1949 "lib/mylist.ml" 50 1902 1955
+type(
+  'a list
+)
+"lib/mylist.ml" 50 1902 1937 "lib/mylist.ml" 50 1902 1956
+type(
+  'a list -> 'a -> 'a list
+)
+"lib/mylist.ml" 50 1902 1958 "lib/mylist.ml" 50 1902 1959
+type(
+  'a -> 'a
+)
+ident(
+  int_ref f "lib/mylist.ml" 47 1837 1853 "lib/mylist.ml" 47 1837 1854
+)
+"lib/mylist.ml" 50 1902 1960 "lib/mylist.ml" 50 1902 1961
+type(
+  'a
+)
+ident(
+  int_ref x "lib/mylist.ml" 50 1902 1911 "lib/mylist.ml" 50 1902 1912
+)
+"lib/mylist.ml" 50 1902 1958 "lib/mylist.ml" 50 1902 1961
+call(
+  stack
+)
+type(
+  'a
+)
+"lib/mylist.ml" 50 1902 1965 "lib/mylist.ml" 50 1902 1967
+type(
+  'a list
+)
+ident(
+  int_ref xs "lib/mylist.ml" 50 1902 1916 "lib/mylist.ml" 50 1902 1918
+)
+"lib/mylist.ml" 50 1902 1957 "lib/mylist.ml" 50 1902 1968
+type(
+  'a list
+)
+"lib/mylist.ml" 50 1902 1969 "lib/mylist.ml" 50 1902 1971
+type(
+  'a list
+)
+ident(
+  int_ref l1 "lib/mylist.ml" 48 1857 1871 "lib/mylist.ml" 48 1857 1873
+)
+"lib/mylist.ml" 50 1902 1922 "lib/mylist.ml" 50 1902 1971
+call(
+  tail
+)
+type(
+  'a list
+)
+"lib/mylist.ml" 51 1972 1978 "lib/mylist.ml" 51 1972 1979
+type(
+  int
+)
+ident(
+  def n "lib/mylist.ml" 51 1972 1992 "lib/mylist.ml" 51 1972 2016
+)
+"lib/mylist.ml" 51 1972 1981 "lib/mylist.ml" 51 1972 1982
+type(
+  'a
+)
+ident(
+  def x "lib/mylist.ml" 51 1972 1992 "lib/mylist.ml" 51 1972 2016
+)
+"lib/mylist.ml" 51 1972 1986 "lib/mylist.ml" 51 1972 1988
+type(
+  'a list
+)
+ident(
+  def xs "lib/mylist.ml" 51 1972 1992 "lib/mylist.ml" 51 1972 2016
+)
+"lib/mylist.ml" 51 1972 1981 "lib/mylist.ml" 51 1972 1988
+type(
+  'a list
+)
+"lib/mylist.ml" 51 1972 1978 "lib/mylist.ml" 51 1972 1988
+type(
+  int * 'a list
+)
+"lib/mylist.ml" 51 1972 1992 "lib/mylist.ml" 51 1972 1995
+type(
+  'a list -> int -> 'a list -> 'a list
+)
+ident(
+  int_ref aux "lib/mylist.ml" 48 1857 1867 "lib/mylist.ml" 48 1857 1870
+)
+"lib/mylist.ml" 51 1972 1997 "lib/mylist.ml" 51 1972 1998
+type(
+  'a
+)
+ident(
+  int_ref x "lib/mylist.ml" 51 1972 1981 "lib/mylist.ml" 51 1972 1982
+)
+"lib/mylist.ml" 51 1972 2002 "lib/mylist.ml" 51 1972 2004
+type(
+  'a list
+)
+ident(
+  int_ref l1 "lib/mylist.ml" 48 1857 1871 "lib/mylist.ml" 48 1857 1873
+)
+"lib/mylist.ml" 51 1972 1996 "lib/mylist.ml" 51 1972 2005
+type(
+  'a list
+)
+"lib/mylist.ml" 51 1972 2007 "lib/mylist.ml" 51 1972 2008
+type(
+  int
+)
+ident(
+  int_ref n "lib/mylist.ml" 51 1972 1978 "lib/mylist.ml" 51 1972 1979
+)
+"lib/mylist.ml" 51 1972 2009 "lib/mylist.ml" 51 1972 2010
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"lib/mylist.ml" 51 1972 2011 "lib/mylist.ml" 51 1972 2012
+type(
+  int
+)
+"lib/mylist.ml" 51 1972 2006 "lib/mylist.ml" 51 1972 2013
+type(
+  int
+)
+"lib/mylist.ml" 51 1972 2014 "lib/mylist.ml" 51 1972 2016
+type(
+  'a list
+)
+ident(
+  int_ref xs "lib/mylist.ml" 51 1972 1986 "lib/mylist.ml" 51 1972 1988
+)
+"lib/mylist.ml" 51 1972 1992 "lib/mylist.ml" 51 1972 2016
+call(
+  tail
+)
+type(
+  'a list
+)
+"lib/mylist.ml" 52 2017 2023 "lib/mylist.ml" 52 2017 2024
+type(
+  int * 'a list
+)
+"lib/mylist.ml" 52 2017 2028 "lib/mylist.ml" 52 2017 2039
+type(
+  string -> 'a list
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"lib/mylist.ml" 52 2017 2040 "lib/mylist.ml" 52 2017 2051
+type(
+  string
+)
+"lib/mylist.ml" 52 2017 2028 "lib/mylist.ml" 52 2017 2051
+call(
+  tail
+)
+type(
+  'a list
+)
+"lib/mylist.ml" 49 1881 1885 "lib/mylist.ml" 52 2017 2051
+type(
+  'a list
+)
+"lib/mylist.ml" 53 2055 2061 "lib/mylist.ml" 53 2055 2062
+type(
+  'a list
+)
+ident(
+  def l "lib/mylist.ml" 53 2055 2063 "lib/mylist.ml" 55 2111 2125
+)
+"lib/mylist.ml" 53 2055 2063 "lib/mylist.ml" 53 2055 2064
+type(
+  int
+)
+ident(
+  def i "lib/mylist.ml" 54 2068 2072 "lib/mylist.ml" 55 2111 2125
+)
+"lib/mylist.ml" 54 2068 2075 "lib/mylist.ml" 54 2068 2076
+type(
+  int
+)
+ident(
+  int_ref i "lib/mylist.ml" 53 2055 2063 "lib/mylist.ml" 53 2055 2064
+)
+"lib/mylist.ml" 54 2068 2077 "lib/mylist.ml" 54 2068 2078
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"lib/mylist.ml" 54 2068 2079 "lib/mylist.ml" 54 2068 2080
+type(
+  int
+)
+"lib/mylist.ml" 54 2068 2075 "lib/mylist.ml" 54 2068 2080
+type(
+  bool
+)
+"lib/mylist.ml" 54 2068 2086 "lib/mylist.ml" 54 2068 2097
+type(
+  string -> 'a list
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"lib/mylist.ml" 54 2068 2098 "lib/mylist.ml" 54 2068 2105
+type(
+  string
+)
+"lib/mylist.ml" 54 2068 2086 "lib/mylist.ml" 54 2068 2105
+call(
+  tail
+)
+type(
+  'a list
+)
+"lib/mylist.ml" 55 2111 2115 "lib/mylist.ml" 55 2111 2118
+type(
+  'a list -> int -> 'a list -> 'a list
+)
+ident(
+  int_ref aux "lib/mylist.ml" 48 1857 1867 "lib/mylist.ml" 48 1857 1870
+)
+"lib/mylist.ml" 55 2111 2119 "lib/mylist.ml" 55 2111 2121
+type(
+  'a list
+)
+"lib/mylist.ml" 55 2111 2122 "lib/mylist.ml" 55 2111 2123
+type(
+  int
+)
+ident(
+  int_ref i "lib/mylist.ml" 53 2055 2063 "lib/mylist.ml" 53 2055 2064
+)
+"lib/mylist.ml" 55 2111 2124 "lib/mylist.ml" 55 2111 2125
+type(
+  'a list
+)
+ident(
+  int_ref l "lib/mylist.ml" 53 2055 2061 "lib/mylist.ml" 53 2055 2062
+)
+"lib/mylist.ml" 55 2111 2115 "lib/mylist.ml" 55 2111 2125
+call(
+  tail
+)
+type(
+  'a list
+)
+"lib/mylist.ml" 54 2068 2072 "lib/mylist.ml" 55 2111 2125
+type(
+  'a list
+)
+"lib/mylist.ml" 53 2055 2057 "lib/mylist.ml" 55 2111 2125
+type(
+  'a list -> int -> 'a list
+)
+"lib/mylist.ml" 48 1857 1859 "lib/mylist.ml" 55 2111 2125
+type(
+  'a list -> int -> 'a list
+)
+"lib/mylist.ml" 60 2160 2164 "lib/mylist.ml" 60 2160 2172
+type(
+  'a -> 'a list -> int
+)
+ident(
+  def position "lib/mylist.ml" 69 2327 2327 "lib/mylist.ml" 1 0 -1
+)
+"lib/mylist.ml" 60 2160 2173 "lib/mylist.ml" 60 2160 2174
+type(
+  'a
+)
+ident(
+  def y "lib/mylist.ml" 61 2177 2179 "lib/mylist.ml" 64 2295 2302
+)
+"lib/mylist.ml" 61 2177 2187 "lib/mylist.ml" 61 2177 2190
+type(
+  int -> 'a list -> int
+)
+ident(
+  def aux "lib/mylist.ml" 61 2177 2179 "lib/mylist.ml" 64 2295 2302
+)
+"lib/mylist.ml" 61 2177 2191 "lib/mylist.ml" 61 2177 2192
+type(
+  int
+)
+ident(
+  def i "lib/mylist.ml" 61 2177 2195 "lib/mylist.ml" 63 2239 2291
+)
+"lib/mylist.ml" 62 2204 2210 "lib/mylist.ml" 62 2204 2212
+type(
+  'a list
+)
+"lib/mylist.ml" 62 2204 2216 "lib/mylist.ml" 62 2204 2227
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"lib/mylist.ml" 62 2204 2228 "lib/mylist.ml" 62 2204 2238
+type(
+  string
+)
+"lib/mylist.ml" 62 2204 2216 "lib/mylist.ml" 62 2204 2238
+call(
+  tail
+)
+type(
+  int
+)
+"lib/mylist.ml" 63 2239 2245 "lib/mylist.ml" 63 2239 2246
+type(
+  'a
+)
+ident(
+  def x "lib/mylist.ml" 63 2239 2256 "lib/mylist.ml" 63 2239 2291
+)
+"lib/mylist.ml" 63 2239 2250 "lib/mylist.ml" 63 2239 2252
+type(
+  'a list
+)
+ident(
+  def xs "lib/mylist.ml" 63 2239 2256 "lib/mylist.ml" 63 2239 2291
+)
+"lib/mylist.ml" 63 2239 2245 "lib/mylist.ml" 63 2239 2252
+type(
+  'a list
+)
+"lib/mylist.ml" 63 2239 2259 "lib/mylist.ml" 63 2239 2260
+type(
+  'a
+)
+ident(
+  int_ref y "lib/mylist.ml" 60 2160 2173 "lib/mylist.ml" 60 2160 2174
+)
+"lib/mylist.ml" 63 2239 2261 "lib/mylist.ml" 63 2239 2262
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"lib/mylist.ml" 63 2239 2263 "lib/mylist.ml" 63 2239 2264
+type(
+  'a
+)
+ident(
+  int_ref x "lib/mylist.ml" 63 2239 2245 "lib/mylist.ml" 63 2239 2246
+)
+"lib/mylist.ml" 63 2239 2259 "lib/mylist.ml" 63 2239 2264
+type(
+  bool
+)
+"lib/mylist.ml" 63 2239 2270 "lib/mylist.ml" 63 2239 2271
+type(
+  int
+)
+ident(
+  int_ref i "lib/mylist.ml" 61 2177 2191 "lib/mylist.ml" 61 2177 2192
+)
+"lib/mylist.ml" 63 2239 2277 "lib/mylist.ml" 63 2239 2280
+type(
+  int -> 'a list -> int
+)
+ident(
+  int_ref aux "lib/mylist.ml" 61 2177 2187 "lib/mylist.ml" 61 2177 2190
+)
+"lib/mylist.ml" 63 2239 2282 "lib/mylist.ml" 63 2239 2283
+type(
+  int
+)
+ident(
+  int_ref i "lib/mylist.ml" 61 2177 2191 "lib/mylist.ml" 61 2177 2192
+)
+"lib/mylist.ml" 63 2239 2284 "lib/mylist.ml" 63 2239 2285
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lib/mylist.ml" 63 2239 2286 "lib/mylist.ml" 63 2239 2287
+type(
+  int
+)
+"lib/mylist.ml" 63 2239 2281 "lib/mylist.ml" 63 2239 2288
+type(
+  int
+)
+"lib/mylist.ml" 63 2239 2289 "lib/mylist.ml" 63 2239 2291
+type(
+  'a list
+)
+ident(
+  int_ref xs "lib/mylist.ml" 63 2239 2250 "lib/mylist.ml" 63 2239 2252
+)
+"lib/mylist.ml" 63 2239 2277 "lib/mylist.ml" 63 2239 2291
+call(
+  tail
+)
+type(
+  int
+)
+"lib/mylist.ml" 63 2239 2256 "lib/mylist.ml" 63 2239 2291
+type(
+  int
+)
+"lib/mylist.ml" 61 2177 2195 "lib/mylist.ml" 63 2239 2291
+type(
+  'a list -> int
+)
+"lib/mylist.ml" 64 2295 2297 "lib/mylist.ml" 64 2295 2300
+type(
+  int -> 'a list -> int
+)
+ident(
+  int_ref aux "lib/mylist.ml" 61 2177 2187 "lib/mylist.ml" 61 2177 2190
+)
+"lib/mylist.ml" 64 2295 2301 "lib/mylist.ml" 64 2295 2302
+type(
+  int
+)
+"lib/mylist.ml" 64 2295 2297 "lib/mylist.ml" 64 2295 2302
+call(
+  tail
+)
+type(
+  'a list -> int
+)
+"lib/mylist.ml" 61 2177 2179 "lib/mylist.ml" 64 2295 2302
+type(
+  'a list -> int
+)
+"lib/mylist.ml" 69 2327 2331 "lib/mylist.ml" 69 2327 2343
+type(
+  (Format.formatter -> 'a -> unit) -> Format.formatter -> 'a list -> unit
+)
+ident(
+  def fprintf_list "lib/mylist.ml" 73 2494 2499 "lib/mylist.ml" 1 0 -1
+)
+"lib/mylist.ml" 69 2327 2344 "lib/mylist.ml" 69 2327 2355
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def fprintf_elt "lib/mylist.ml" 70 2358 2360 "lib/mylist.ml" 73 2494 2499
+)
+"lib/mylist.ml" 70 2358 2368 "lib/mylist.ml" 70 2358 2371
+type(
+  Format.formatter -> 'a list -> unit
+)
+ident(
+  def aux "lib/mylist.ml" 70 2358 2360 "lib/mylist.ml" 73 2494 2499
+)
+"lib/mylist.ml" 70 2358 2372 "lib/mylist.ml" 70 2358 2375
+type(
+  Format.formatter
+)
+ident(
+  def ppf "lib/mylist.ml" 70 2358 2378 "lib/mylist.ml" 72 2423 2490
+)
+"lib/mylist.ml" 71 2387 2393 "lib/mylist.ml" 71 2387 2395
+type(
+  'a list
+)
+"lib/mylist.ml" 71 2387 2399 "lib/mylist.ml" 71 2387 2413
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lib/mylist.ml" 71 2387 2414 "lib/mylist.ml" 71 2387 2417
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lib/mylist.ml" 70 2358 2372 "lib/mylist.ml" 70 2358 2375
+)
+"lib/mylist.ml" 71 2387 2418 "lib/mylist.ml" 71 2387 2422
+type(
+  (unit, Format.formatter, unit) format
+)
+"lib/mylist.ml" 71 2387 2399 "lib/mylist.ml" 71 2387 2422
+call(
+  tail
+)
+type(
+  unit
+)
+"lib/mylist.ml" 72 2423 2429 "lib/mylist.ml" 72 2423 2430
+type(
+  'a
+)
+ident(
+  def x "lib/mylist.ml" 72 2423 2440 "lib/mylist.ml" 72 2423 2490
+)
+"lib/mylist.ml" 72 2423 2434 "lib/mylist.ml" 72 2423 2436
+type(
+  'a list
+)
+ident(
+  def xs "lib/mylist.ml" 72 2423 2440 "lib/mylist.ml" 72 2423 2490
+)
+"lib/mylist.ml" 72 2423 2429 "lib/mylist.ml" 72 2423 2436
+type(
+  'a list
+)
+"lib/mylist.ml" 72 2423 2440 "lib/mylist.ml" 72 2423 2454
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> 'a -> unit) ->
+  'a -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lib/mylist.ml" 72 2423 2455 "lib/mylist.ml" 72 2423 2458
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lib/mylist.ml" 70 2358 2372 "lib/mylist.ml" 70 2358 2375
+)
+"lib/mylist.ml" 72 2423 2459 "lib/mylist.ml" 72 2423 2469
+type(
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit,
+   Format.formatter, unit)
+  format
+)
+"lib/mylist.ml" 72 2423 2470 "lib/mylist.ml" 72 2423 2481
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref fprintf_elt "lib/mylist.ml" 69 2327 2344 "lib/mylist.ml" 69 2327 2355
+)
+"lib/mylist.ml" 72 2423 2482 "lib/mylist.ml" 72 2423 2483
+type(
+  'a
+)
+ident(
+  int_ref x "lib/mylist.ml" 72 2423 2429 "lib/mylist.ml" 72 2423 2430
+)
+"lib/mylist.ml" 72 2423 2484 "lib/mylist.ml" 72 2423 2487
+type(
+  Format.formatter -> 'a list -> unit
+)
+ident(
+  int_ref aux "lib/mylist.ml" 70 2358 2368 "lib/mylist.ml" 70 2358 2371
+)
+"lib/mylist.ml" 72 2423 2488 "lib/mylist.ml" 72 2423 2490
+type(
+  'a list
+)
+ident(
+  int_ref xs "lib/mylist.ml" 72 2423 2434 "lib/mylist.ml" 72 2423 2436
+)
+"lib/mylist.ml" 72 2423 2440 "lib/mylist.ml" 72 2423 2490
+call(
+  tail
+)
+type(
+  unit
+)
+"lib/mylist.ml" 70 2358 2378 "lib/mylist.ml" 72 2423 2490
+type(
+  'a list -> unit
+)
+"lib/mylist.ml" 73 2494 2496 "lib/mylist.ml" 73 2494 2499
+type(
+  Format.formatter -> 'a list -> unit
+)
+ident(
+  int_ref aux "lib/mylist.ml" 70 2358 2368 "lib/mylist.ml" 70 2358 2371
+)
+"lib/mylist.ml" 70 2358 2360 "lib/mylist.ml" 73 2494 2499
+type(
+  Format.formatter -> 'a list -> unit
+)

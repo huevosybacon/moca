@@ -1,0 +1,1071 @@
+"completion/cp.ml" 24 1117 1121 "completion/cp.ml" 24 1117 1123
+type(
+  (Term.term -> Term.term) ->
+  Rule.rule -> Rule.rule -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  def cp "completion/cp.ml" 56 2034 2034 "completion/cp.ml" 1 0 -1
+)
+"completion/cp.ml" 24 1117 1124 "completion/cp.ml" 24 1117 1128
+type(
+  Term.term -> Term.term
+)
+ident(
+  def norm "completion/cp.ml" 24 1117 1129 "completion/cp.ml" 52 1966 1990
+)
+"completion/cp.ml" 24 1117 1139 "completion/cp.ml" 24 1117 1141
+type(
+  Term.term
+)
+ident(
+  def l1 "completion/cp.ml" 24 1117 1147 "completion/cp.ml" 52 1966 1990
+)
+"completion/cp.ml" 24 1117 1142 "completion/cp.ml" 24 1117 1144
+type(
+  Term.term
+)
+ident(
+  def r1 "completion/cp.ml" 24 1117 1147 "completion/cp.ml" 52 1966 1990
+)
+"completion/cp.ml" 24 1117 1129 "completion/cp.ml" 24 1117 1146
+type(
+  Rule.rule
+)
+"completion/cp.ml" 24 1117 1157 "completion/cp.ml" 24 1117 1159
+type(
+  Term.term
+)
+ident(
+  def l2 "completion/cp.ml" 24 1117 1165 "completion/cp.ml" 52 1966 1990
+)
+"completion/cp.ml" 24 1117 1160 "completion/cp.ml" 24 1117 1162
+type(
+  Term.term
+)
+ident(
+  def r2 "completion/cp.ml" 24 1117 1165 "completion/cp.ml" 52 1966 1990
+)
+"completion/cp.ml" 24 1117 1147 "completion/cp.ml" 24 1117 1164
+type(
+  Rule.rule
+)
+"completion/cp.ml" 24 1117 1165 "completion/cp.ml" 24 1117 1168
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def acc "completion/cp.ml" 27 1228 1230 "completion/cp.ml" 52 1966 1990
+)
+"completion/cp.ml" 27 1228 1234 "completion/cp.ml" 27 1228 1237
+type(
+  Rename.renaming
+)
+ident(
+  def rho "completion/cp.ml" 28 1267 1269 "completion/cp.ml" 52 1966 1990
+)
+"completion/cp.ml" 27 1228 1240 "completion/cp.ml" 27 1228 1254
+type(
+  Term.term list -> Rename.renaming
+)
+ident(
+  ext_ref Rename.renaming_aways
+)
+"completion/cp.ml" 27 1228 1256 "completion/cp.ml" 27 1228 1258
+type(
+  Term.term
+)
+ident(
+  int_ref l1 "completion/cp.ml" 24 1117 1139 "completion/cp.ml" 24 1117 1141
+)
+"completion/cp.ml" 27 1228 1260 "completion/cp.ml" 27 1228 1262
+type(
+  Term.term
+)
+ident(
+  int_ref r1 "completion/cp.ml" 24 1117 1142 "completion/cp.ml" 24 1117 1144
+)
+"completion/cp.ml" 27 1228 1255 "completion/cp.ml" 27 1228 1263
+type(
+  Term.term list
+)
+"completion/cp.ml" 27 1228 1240 "completion/cp.ml" 27 1228 1263
+call(
+  stack
+)
+type(
+  Rename.renaming
+)
+"completion/cp.ml" 28 1267 1273 "completion/cp.ml" 28 1267 1275
+type(
+  Term.term
+)
+ident(
+  def l2 "completion/cp.ml" 31 1376 1378 "completion/cp.ml" 52 1966 1990
+)
+"completion/cp.ml" 28 1267 1278 "completion/cp.ml" 28 1267 1284
+type(
+  Rename.renaming -> Term.term -> Term.term
+)
+ident(
+  ext_ref Rename.rename
+)
+"completion/cp.ml" 28 1267 1285 "completion/cp.ml" 28 1267 1288
+type(
+  Rename.renaming
+)
+ident(
+  int_ref rho "completion/cp.ml" 27 1228 1234 "completion/cp.ml" 27 1228 1237
+)
+"completion/cp.ml" 28 1267 1289 "completion/cp.ml" 28 1267 1291
+type(
+  Term.term
+)
+ident(
+  int_ref l2 "completion/cp.ml" 24 1117 1157 "completion/cp.ml" 24 1117 1159
+)
+"completion/cp.ml" 28 1267 1278 "completion/cp.ml" 28 1267 1291
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/cp.ml" 28 1267 1296 "completion/cp.ml" 28 1267 1298
+type(
+  Term.term
+)
+ident(
+  def r2 "completion/cp.ml" 31 1376 1378 "completion/cp.ml" 52 1966 1990
+)
+"completion/cp.ml" 28 1267 1301 "completion/cp.ml" 28 1267 1307
+type(
+  Rename.renaming -> Term.term -> Term.term
+)
+ident(
+  ext_ref Rename.rename
+)
+"completion/cp.ml" 28 1267 1308 "completion/cp.ml" 28 1267 1311
+type(
+  Rename.renaming
+)
+ident(
+  int_ref rho "completion/cp.ml" 27 1228 1234 "completion/cp.ml" 27 1228 1237
+)
+"completion/cp.ml" 28 1267 1312 "completion/cp.ml" 28 1267 1314
+type(
+  Term.term
+)
+ident(
+  int_ref r2 "completion/cp.ml" 24 1117 1160 "completion/cp.ml" 24 1117 1162
+)
+"completion/cp.ml" 28 1267 1301 "completion/cp.ml" 28 1267 1314
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/cp.ml" 31 1376 1382 "completion/cp.ml" 31 1376 1383
+type(
+  Term.term -> Subterm.position -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  def f "completion/cp.ml" 40 1609 1611 "completion/cp.ml" 52 1966 1990
+)
+"completion/cp.ml" 31 1376 1384 "completion/cp.ml" 31 1376 1385
+type(
+  Term.term
+)
+ident(
+  def t "completion/cp.ml" 31 1376 1386 "completion/cp.ml" 39 1579 1605
+)
+"completion/cp.ml" 31 1376 1386 "completion/cp.ml" 31 1376 1387
+type(
+  Subterm.position
+)
+ident(
+  def p "completion/cp.ml" 31 1376 1388 "completion/cp.ml" 39 1579 1605
+)
+"completion/cp.ml" 31 1376 1388 "completion/cp.ml" 31 1376 1391
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def acc "completion/cp.ml" 32 1394 1398 "completion/cp.ml" 39 1579 1605
+)
+"completion/cp.ml" 32 1394 1404 "completion/cp.ml" 32 1394 1405
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/cp.ml" 31 1376 1384 "completion/cp.ml" 31 1376 1385
+)
+"completion/cp.ml" 33 1411 1423 "completion/cp.ml" 33 1411 1424
+type(
+  Var.var
+)
+"completion/cp.ml" 33 1411 1419 "completion/cp.ml" 33 1411 1424
+type(
+  Term.term
+)
+"completion/cp.ml" 33 1411 1428 "completion/cp.ml" 33 1411 1431
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref acc "completion/cp.ml" 31 1376 1388 "completion/cp.ml" 31 1376 1391
+)
+"completion/cp.ml" 34 1432 1444 "completion/cp.ml" 34 1432 1445
+type(
+  Term.term list
+)
+type(
+  Symb.symbol
+)
+"completion/cp.ml" 34 1432 1440 "completion/cp.ml" 34 1432 1445
+type(
+  Term.term
+)
+"completion/cp.ml" 34 1432 1449 "completion/cp.ml" 34 1432 1450
+ident(
+  def t "completion/cp.ml" 35 1454 1457 "completion/cp.ml" 39 1579 1605
+)
+"completion/cp.ml" 34 1432 1440 "completion/cp.ml" 34 1432 1450
+type(
+  Term.term
+)
+"completion/cp.ml" 36 1462 1472 "completion/cp.ml" 36 1462 1473
+type(
+  Subs.subs
+)
+ident(
+  def s "completion/cp.ml" 37 1488 1496 "completion/cp.ml" 38 1522 1578
+)
+"completion/cp.ml" 36 1462 1476 "completion/cp.ml" 36 1462 1479
+type(
+  Term.term -> Term.term -> Subs.subs
+)
+ident(
+  ext_ref Unif.mgu
+)
+"completion/cp.ml" 36 1462 1480 "completion/cp.ml" 36 1462 1482
+type(
+  Term.term
+)
+ident(
+  int_ref l2 "completion/cp.ml" 28 1267 1273 "completion/cp.ml" 28 1267 1275
+)
+"completion/cp.ml" 36 1462 1483 "completion/cp.ml" 36 1462 1484
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/cp.ml" 34 1432 1440 "completion/cp.ml" 34 1432 1450
+)
+"completion/cp.ml" 36 1462 1476 "completion/cp.ml" 36 1462 1484
+call(
+  stack
+)
+type(
+  Subs.subs
+)
+"completion/cp.ml" 37 1488 1496 "completion/cp.ml" 37 1488 1516
+type(
+  (Term.term -> Term.term) ->
+  Term.term * Term.term -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  ext_ref Equation.add_non_trivial_pair
+)
+"completion/cp.ml" 37 1488 1517 "completion/cp.ml" 37 1488 1521
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref norm "completion/cp.ml" 24 1117 1124 "completion/cp.ml" 24 1117 1128
+)
+"completion/cp.ml" 38 1522 1526 "completion/cp.ml" 38 1522 1531
+type(
+  Subs.subs -> Term.term -> Term.term
+)
+ident(
+  ext_ref Subs.apply
+)
+"completion/cp.ml" 38 1522 1532 "completion/cp.ml" 38 1522 1533
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/cp.ml" 36 1462 1472 "completion/cp.ml" 36 1462 1473
+)
+"completion/cp.ml" 38 1522 1534 "completion/cp.ml" 38 1522 1536
+type(
+  Term.term
+)
+ident(
+  int_ref r1 "completion/cp.ml" 24 1117 1142 "completion/cp.ml" 24 1117 1144
+)
+"completion/cp.ml" 38 1522 1526 "completion/cp.ml" 38 1522 1536
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/cp.ml" 38 1522 1538 "completion/cp.ml" 38 1522 1545
+type(
+  Term.term -> Subterm.position -> Term.term -> Term.term
+)
+ident(
+  ext_ref Subterm.replace
+)
+"completion/cp.ml" 38 1522 1547 "completion/cp.ml" 38 1522 1552
+type(
+  Subs.subs -> Term.term -> Term.term
+)
+ident(
+  ext_ref Subs.apply
+)
+"completion/cp.ml" 38 1522 1553 "completion/cp.ml" 38 1522 1554
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/cp.ml" 36 1462 1472 "completion/cp.ml" 36 1462 1473
+)
+"completion/cp.ml" 38 1522 1555 "completion/cp.ml" 38 1522 1557
+type(
+  Term.term
+)
+ident(
+  int_ref l1 "completion/cp.ml" 24 1117 1139 "completion/cp.ml" 24 1117 1141
+)
+"completion/cp.ml" 38 1522 1546 "completion/cp.ml" 38 1522 1558
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/cp.ml" 38 1522 1559 "completion/cp.ml" 38 1522 1560
+type(
+  Subterm.position
+)
+ident(
+  int_ref p "completion/cp.ml" 31 1376 1386 "completion/cp.ml" 31 1376 1387
+)
+"completion/cp.ml" 38 1522 1562 "completion/cp.ml" 38 1522 1567
+type(
+  Subs.subs -> Term.term -> Term.term
+)
+ident(
+  ext_ref Subs.apply
+)
+"completion/cp.ml" 38 1522 1568 "completion/cp.ml" 38 1522 1569
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/cp.ml" 36 1462 1472 "completion/cp.ml" 36 1462 1473
+)
+"completion/cp.ml" 38 1522 1570 "completion/cp.ml" 38 1522 1572
+type(
+  Term.term
+)
+ident(
+  int_ref r2 "completion/cp.ml" 28 1267 1296 "completion/cp.ml" 28 1267 1298
+)
+"completion/cp.ml" 38 1522 1561 "completion/cp.ml" 38 1522 1573
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/cp.ml" 38 1522 1538 "completion/cp.ml" 38 1522 1573
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/cp.ml" 38 1522 1525 "completion/cp.ml" 38 1522 1574
+type(
+  Term.term * Term.term
+)
+"completion/cp.ml" 38 1522 1575 "completion/cp.ml" 38 1522 1578
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref acc "completion/cp.ml" 31 1376 1388 "completion/cp.ml" 31 1376 1391
+)
+"completion/cp.ml" 37 1488 1496 "completion/cp.ml" 38 1522 1578
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 36 1462 1468 "completion/cp.ml" 38 1522 1578
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 39 1579 1596 "completion/cp.ml" 39 1579 1597
+type(
+  string
+)
+"completion/cp.ml" 39 1579 1588 "completion/cp.ml" 39 1579 1597
+type(
+  exn
+)
+"completion/cp.ml" 39 1579 1601 "completion/cp.ml" 39 1579 1604
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref acc "completion/cp.ml" 31 1376 1388 "completion/cp.ml" 31 1376 1391
+)
+"completion/cp.ml" 35 1454 1457 "completion/cp.ml" 39 1579 1605
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 32 1394 1398 "completion/cp.ml" 39 1579 1605
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 40 1609 1615 "completion/cp.ml" 40 1609 1618
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def acc "completion/cp.ml" 43 1716 1718 "completion/cp.ml" 52 1966 1990
+)
+"completion/cp.ml" 40 1609 1621 "completion/cp.ml" 40 1609 1634
+type(
+  (Term.term -> Subterm.position -> Equation.EqnSet.t -> Equation.EqnSet.t) ->
+  Term.term -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  ext_ref Subterm.foldi
+)
+"completion/cp.ml" 40 1609 1635 "completion/cp.ml" 40 1609 1636
+type(
+  Term.term -> Subterm.position -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  int_ref f "completion/cp.ml" 31 1376 1382 "completion/cp.ml" 31 1376 1383
+)
+"completion/cp.ml" 40 1609 1637 "completion/cp.ml" 40 1609 1639
+type(
+  Term.term
+)
+ident(
+  int_ref l1 "completion/cp.ml" 24 1117 1139 "completion/cp.ml" 24 1117 1141
+)
+"completion/cp.ml" 40 1609 1640 "completion/cp.ml" 40 1609 1643
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref acc "completion/cp.ml" 24 1117 1165 "completion/cp.ml" 24 1117 1168
+)
+"completion/cp.ml" 40 1609 1621 "completion/cp.ml" 40 1609 1643
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 43 1716 1722 "completion/cp.ml" 43 1716 1723
+type(
+  Term.term -> Subterm.position -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  def f "completion/cp.ml" 52 1966 1968 "completion/cp.ml" 52 1966 1990
+)
+"completion/cp.ml" 43 1716 1724 "completion/cp.ml" 43 1716 1725
+type(
+  Term.term
+)
+ident(
+  def t "completion/cp.ml" 43 1716 1726 "completion/cp.ml" 51 1936 1962
+)
+"completion/cp.ml" 43 1716 1726 "completion/cp.ml" 43 1716 1727
+type(
+  Subterm.position
+)
+ident(
+  def p "completion/cp.ml" 43 1716 1728 "completion/cp.ml" 51 1936 1962
+)
+"completion/cp.ml" 43 1716 1728 "completion/cp.ml" 43 1716 1731
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def acc "completion/cp.ml" 44 1734 1738 "completion/cp.ml" 51 1936 1962
+)
+"completion/cp.ml" 44 1734 1744 "completion/cp.ml" 44 1734 1745
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/cp.ml" 43 1716 1724 "completion/cp.ml" 43 1716 1725
+)
+"completion/cp.ml" 44 1734 1747 "completion/cp.ml" 44 1734 1748
+type(
+  Subterm.position
+)
+ident(
+  int_ref p "completion/cp.ml" 43 1716 1726 "completion/cp.ml" 43 1716 1727
+)
+"completion/cp.ml" 44 1734 1744 "completion/cp.ml" 44 1734 1748
+type(
+  Term.term * Subterm.position
+)
+"completion/cp.ml" 45 1754 1766 "completion/cp.ml" 45 1754 1767
+type(
+  Var.var
+)
+"completion/cp.ml" 45 1754 1762 "completion/cp.ml" 45 1754 1767
+type(
+  Term.term
+)
+"completion/cp.ml" 45 1754 1769 "completion/cp.ml" 45 1754 1770
+type(
+  Subterm.position
+)
+"completion/cp.ml" 45 1754 1762 "completion/cp.ml" 45 1754 1770
+type(
+  Term.term * Subterm.position
+)
+"completion/cp.ml" 45 1754 1773 "completion/cp.ml" 45 1754 1774
+type(
+  Term.term
+)
+"completion/cp.ml" 45 1754 1776 "completion/cp.ml" 45 1754 1778
+type(
+  Subterm.position
+)
+"completion/cp.ml" 45 1754 1773 "completion/cp.ml" 45 1754 1778
+type(
+  Term.term * Subterm.position
+)
+"completion/cp.ml" 45 1754 1762 "completion/cp.ml" 45 1754 1778
+type(
+  Term.term * Subterm.position
+)
+"completion/cp.ml" 45 1754 1782 "completion/cp.ml" 45 1754 1785
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref acc "completion/cp.ml" 43 1716 1728 "completion/cp.ml" 43 1716 1731
+)
+"completion/cp.ml" 46 1786 1798 "completion/cp.ml" 46 1786 1799
+type(
+  Term.term list
+)
+type(
+  Symb.symbol
+)
+"completion/cp.ml" 46 1786 1794 "completion/cp.ml" 46 1786 1799
+type(
+  Term.term
+)
+"completion/cp.ml" 46 1786 1803 "completion/cp.ml" 46 1786 1804
+ident(
+  def t "completion/cp.ml" 47 1811 1814 "completion/cp.ml" 51 1936 1962
+)
+"completion/cp.ml" 46 1786 1794 "completion/cp.ml" 46 1786 1804
+type(
+  Term.term
+)
+"completion/cp.ml" 46 1786 1806 "completion/cp.ml" 46 1786 1807
+type(
+  Subterm.position
+)
+"completion/cp.ml" 46 1786 1794 "completion/cp.ml" 46 1786 1807
+type(
+  Term.term * Subterm.position
+)
+"completion/cp.ml" 48 1819 1829 "completion/cp.ml" 48 1819 1830
+type(
+  Subs.subs
+)
+ident(
+  def s "completion/cp.ml" 49 1845 1853 "completion/cp.ml" 50 1879 1935
+)
+"completion/cp.ml" 48 1819 1833 "completion/cp.ml" 48 1819 1836
+type(
+  Term.term -> Term.term -> Subs.subs
+)
+ident(
+  ext_ref Unif.mgu
+)
+"completion/cp.ml" 48 1819 1837 "completion/cp.ml" 48 1819 1839
+type(
+  Term.term
+)
+ident(
+  int_ref l1 "completion/cp.ml" 24 1117 1139 "completion/cp.ml" 24 1117 1141
+)
+"completion/cp.ml" 48 1819 1840 "completion/cp.ml" 48 1819 1841
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/cp.ml" 46 1786 1794 "completion/cp.ml" 46 1786 1804
+)
+"completion/cp.ml" 48 1819 1833 "completion/cp.ml" 48 1819 1841
+call(
+  stack
+)
+type(
+  Subs.subs
+)
+"completion/cp.ml" 49 1845 1853 "completion/cp.ml" 49 1845 1873
+type(
+  (Term.term -> Term.term) ->
+  Term.term * Term.term -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  ext_ref Equation.add_non_trivial_pair
+)
+"completion/cp.ml" 49 1845 1874 "completion/cp.ml" 49 1845 1878
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref norm "completion/cp.ml" 24 1117 1124 "completion/cp.ml" 24 1117 1128
+)
+"completion/cp.ml" 50 1879 1883 "completion/cp.ml" 50 1879 1888
+type(
+  Subs.subs -> Term.term -> Term.term
+)
+ident(
+  ext_ref Subs.apply
+)
+"completion/cp.ml" 50 1879 1889 "completion/cp.ml" 50 1879 1890
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/cp.ml" 48 1819 1829 "completion/cp.ml" 48 1819 1830
+)
+"completion/cp.ml" 50 1879 1891 "completion/cp.ml" 50 1879 1893
+type(
+  Term.term
+)
+ident(
+  int_ref r2 "completion/cp.ml" 28 1267 1296 "completion/cp.ml" 28 1267 1298
+)
+"completion/cp.ml" 50 1879 1883 "completion/cp.ml" 50 1879 1893
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/cp.ml" 50 1879 1895 "completion/cp.ml" 50 1879 1902
+type(
+  Term.term -> Subterm.position -> Term.term -> Term.term
+)
+ident(
+  ext_ref Subterm.replace
+)
+"completion/cp.ml" 50 1879 1904 "completion/cp.ml" 50 1879 1909
+type(
+  Subs.subs -> Term.term -> Term.term
+)
+ident(
+  ext_ref Subs.apply
+)
+"completion/cp.ml" 50 1879 1910 "completion/cp.ml" 50 1879 1911
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/cp.ml" 48 1819 1829 "completion/cp.ml" 48 1819 1830
+)
+"completion/cp.ml" 50 1879 1912 "completion/cp.ml" 50 1879 1914
+type(
+  Term.term
+)
+ident(
+  int_ref l2 "completion/cp.ml" 28 1267 1273 "completion/cp.ml" 28 1267 1275
+)
+"completion/cp.ml" 50 1879 1903 "completion/cp.ml" 50 1879 1915
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/cp.ml" 50 1879 1916 "completion/cp.ml" 50 1879 1917
+type(
+  Subterm.position
+)
+ident(
+  int_ref p "completion/cp.ml" 43 1716 1726 "completion/cp.ml" 43 1716 1727
+)
+"completion/cp.ml" 50 1879 1919 "completion/cp.ml" 50 1879 1924
+type(
+  Subs.subs -> Term.term -> Term.term
+)
+ident(
+  ext_ref Subs.apply
+)
+"completion/cp.ml" 50 1879 1925 "completion/cp.ml" 50 1879 1926
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/cp.ml" 48 1819 1829 "completion/cp.ml" 48 1819 1830
+)
+"completion/cp.ml" 50 1879 1927 "completion/cp.ml" 50 1879 1929
+type(
+  Term.term
+)
+ident(
+  int_ref r1 "completion/cp.ml" 24 1117 1142 "completion/cp.ml" 24 1117 1144
+)
+"completion/cp.ml" 50 1879 1918 "completion/cp.ml" 50 1879 1930
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/cp.ml" 50 1879 1895 "completion/cp.ml" 50 1879 1930
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/cp.ml" 50 1879 1882 "completion/cp.ml" 50 1879 1931
+type(
+  Term.term * Term.term
+)
+"completion/cp.ml" 50 1879 1932 "completion/cp.ml" 50 1879 1935
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref acc "completion/cp.ml" 43 1716 1728 "completion/cp.ml" 43 1716 1731
+)
+"completion/cp.ml" 49 1845 1853 "completion/cp.ml" 50 1879 1935
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 48 1819 1825 "completion/cp.ml" 50 1879 1935
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 51 1936 1953 "completion/cp.ml" 51 1936 1954
+type(
+  string
+)
+"completion/cp.ml" 51 1936 1945 "completion/cp.ml" 51 1936 1954
+type(
+  exn
+)
+"completion/cp.ml" 51 1936 1958 "completion/cp.ml" 51 1936 1961
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref acc "completion/cp.ml" 43 1716 1728 "completion/cp.ml" 43 1716 1731
+)
+"completion/cp.ml" 47 1811 1814 "completion/cp.ml" 51 1936 1962
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 44 1734 1738 "completion/cp.ml" 51 1936 1962
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 52 1966 1968 "completion/cp.ml" 52 1966 1981
+type(
+  (Term.term -> Subterm.position -> Equation.EqnSet.t -> Equation.EqnSet.t) ->
+  Term.term -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  ext_ref Subterm.foldi
+)
+"completion/cp.ml" 52 1966 1982 "completion/cp.ml" 52 1966 1983
+type(
+  Term.term -> Subterm.position -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  int_ref f "completion/cp.ml" 43 1716 1722 "completion/cp.ml" 43 1716 1723
+)
+"completion/cp.ml" 52 1966 1984 "completion/cp.ml" 52 1966 1986
+type(
+  Term.term
+)
+ident(
+  int_ref l2 "completion/cp.ml" 28 1267 1273 "completion/cp.ml" 28 1267 1275
+)
+"completion/cp.ml" 52 1966 1987 "completion/cp.ml" 52 1966 1990
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref acc "completion/cp.ml" 40 1609 1615 "completion/cp.ml" 40 1609 1618
+)
+"completion/cp.ml" 52 1966 1968 "completion/cp.ml" 52 1966 1990
+call(
+  tail
+)
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 43 1716 1718 "completion/cp.ml" 52 1966 1990
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 40 1609 1611 "completion/cp.ml" 52 1966 1990
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 31 1376 1378 "completion/cp.ml" 52 1966 1990
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 28 1267 1269 "completion/cp.ml" 52 1966 1990
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 27 1228 1230 "completion/cp.ml" 52 1966 1990
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 56 2034 2038 "completion/cp.ml" 56 2034 2050
+type(
+  (Term.term -> Term.term) ->
+  Rule.RulSet.t -> Rule.rule -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  def add_cps_with "completion/cp.ml" 58 2103 2103 "completion/cp.ml" 1 0 -1
+)
+"completion/cp.ml" 56 2034 2051 "completion/cp.ml" 56 2034 2055
+type(
+  Term.term -> Term.term
+)
+ident(
+  def norm "completion/cp.ml" 56 2034 2056 "completion/cp.ml" 56 2034 2099
+)
+"completion/cp.ml" 56 2034 2056 "completion/cp.ml" 56 2034 2058
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/cp.ml" 56 2034 2059 "completion/cp.ml" 56 2034 2099
+)
+"completion/cp.ml" 56 2034 2059 "completion/cp.ml" 56 2034 2061
+type(
+  Rule.rule
+)
+ident(
+  def r1 "completion/cp.ml" 56 2034 2062 "completion/cp.ml" 56 2034 2099
+)
+"completion/cp.ml" 56 2034 2062 "completion/cp.ml" 56 2034 2065
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def acc "completion/cp.ml" 56 2034 2068 "completion/cp.ml" 56 2034 2099
+)
+"completion/cp.ml" 56 2034 2068 "completion/cp.ml" 56 2034 2079
+type(
+  (Rule.RulSet.elt -> Equation.EqnSet.t -> Equation.EqnSet.t) ->
+  Rule.RulSet.t -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  ext_ref Rule.RulSet.fold
+)
+"completion/cp.ml" 56 2034 2081 "completion/cp.ml" 56 2034 2083
+type(
+  (Term.term -> Term.term) ->
+  Rule.rule -> Rule.RulSet.elt -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  int_ref cp "completion/cp.ml" 24 1117 1121 "completion/cp.ml" 24 1117 1123
+)
+"completion/cp.ml" 56 2034 2084 "completion/cp.ml" 56 2034 2088
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref norm "completion/cp.ml" 56 2034 2051 "completion/cp.ml" 56 2034 2055
+)
+"completion/cp.ml" 56 2034 2089 "completion/cp.ml" 56 2034 2091
+type(
+  Rule.rule
+)
+ident(
+  int_ref r1 "completion/cp.ml" 56 2034 2059 "completion/cp.ml" 56 2034 2061
+)
+"completion/cp.ml" 56 2034 2080 "completion/cp.ml" 56 2034 2092
+call(
+  stack
+)
+type(
+  Rule.RulSet.elt -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+"completion/cp.ml" 56 2034 2093 "completion/cp.ml" 56 2034 2095
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/cp.ml" 56 2034 2056 "completion/cp.ml" 56 2034 2058
+)
+"completion/cp.ml" 56 2034 2096 "completion/cp.ml" 56 2034 2099
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref acc "completion/cp.ml" 56 2034 2062 "completion/cp.ml" 56 2034 2065
+)
+"completion/cp.ml" 56 2034 2068 "completion/cp.ml" 56 2034 2099
+call(
+  tail
+)
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 58 2103 2107 "completion/cp.ml" 58 2103 2114
+type(
+  (Term.term -> Term.term) ->
+  Equation.EqnSet.t -> Rule.RulSet.t -> Equation.EqnSet.t
+)
+ident(
+  def add_cps "completion/cp.ml" 60 2174 2174 "completion/cp.ml" 1 0 -1
+)
+"completion/cp.ml" 58 2103 2115 "completion/cp.ml" 58 2103 2119
+type(
+  Term.term -> Term.term
+)
+ident(
+  def norm "completion/cp.ml" 58 2103 2120 "completion/cp.ml" 58 2103 2170
+)
+"completion/cp.ml" 58 2103 2120 "completion/cp.ml" 58 2103 2123
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def acc "completion/cp.ml" 58 2103 2124 "completion/cp.ml" 58 2103 2170
+)
+"completion/cp.ml" 58 2103 2124 "completion/cp.ml" 58 2103 2126
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/cp.ml" 58 2103 2129 "completion/cp.ml" 58 2103 2170
+)
+"completion/cp.ml" 58 2103 2129 "completion/cp.ml" 58 2103 2140
+type(
+  (Rule.RulSet.elt -> Equation.EqnSet.t -> Equation.EqnSet.t) ->
+  Rule.RulSet.t -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  ext_ref Rule.RulSet.fold
+)
+"completion/cp.ml" 58 2103 2142 "completion/cp.ml" 58 2103 2154
+type(
+  (Term.term -> Term.term) ->
+  Rule.RulSet.t -> Rule.RulSet.elt -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  int_ref add_cps_with "completion/cp.ml" 56 2034 2038 "completion/cp.ml" 56 2034 2050
+)
+"completion/cp.ml" 58 2103 2155 "completion/cp.ml" 58 2103 2159
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref norm "completion/cp.ml" 58 2103 2115 "completion/cp.ml" 58 2103 2119
+)
+"completion/cp.ml" 58 2103 2160 "completion/cp.ml" 58 2103 2162
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/cp.ml" 58 2103 2124 "completion/cp.ml" 58 2103 2126
+)
+"completion/cp.ml" 58 2103 2141 "completion/cp.ml" 58 2103 2163
+call(
+  stack
+)
+type(
+  Rule.RulSet.elt -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+"completion/cp.ml" 58 2103 2164 "completion/cp.ml" 58 2103 2166
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/cp.ml" 58 2103 2124 "completion/cp.ml" 58 2103 2126
+)
+"completion/cp.ml" 58 2103 2167 "completion/cp.ml" 58 2103 2170
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref acc "completion/cp.ml" 58 2103 2120 "completion/cp.ml" 58 2103 2123
+)
+"completion/cp.ml" 58 2103 2129 "completion/cp.ml" 58 2103 2170
+call(
+  tail
+)
+type(
+  Equation.EqnSet.t
+)
+"completion/cp.ml" 60 2174 2178 "completion/cp.ml" 60 2174 2181
+type(
+  (Term.term -> Term.term) -> Rule.RulSet.t -> Equation.EqnSet.t
+)
+ident(
+  def cps "completion/cp.ml" 60 2174 2214 "completion/cp.ml" 1 0 -1
+)
+"completion/cp.ml" 60 2174 2182 "completion/cp.ml" 60 2174 2186
+type(
+  Term.term -> Term.term
+)
+ident(
+  def norm "completion/cp.ml" 60 2174 2189 "completion/cp.ml" 60 2174 2214
+)
+"completion/cp.ml" 60 2174 2189 "completion/cp.ml" 60 2174 2196
+type(
+  (Term.term -> Term.term) ->
+  Equation.EqnSet.t -> Rule.RulSet.t -> Equation.EqnSet.t
+)
+ident(
+  int_ref add_cps "completion/cp.ml" 58 2103 2107 "completion/cp.ml" 58 2103 2114
+)
+"completion/cp.ml" 60 2174 2197 "completion/cp.ml" 60 2174 2201
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref norm "completion/cp.ml" 60 2174 2182 "completion/cp.ml" 60 2174 2186
+)
+"completion/cp.ml" 60 2174 2202 "completion/cp.ml" 60 2174 2214
+type(
+  Equation.EqnSet.t
+)
+ident(
+  ext_ref Equation.EqnSet.empty
+)
+"completion/cp.ml" 60 2174 2189 "completion/cp.ml" 60 2174 2214
+call(
+  tail
+)
+type(
+  Rule.RulSet.t -> Equation.EqnSet.t
+)

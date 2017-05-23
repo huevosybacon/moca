@@ -1,0 +1,1570 @@
+"completion/subs.ml" 31 1274 1278 "completion/subs.ml" 31 1274 1283
+type(
+  'a Subs.t
+)
+ident(
+  def empty "completion/subs.ml" 32 1299 1299 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 31 1274 1286 "completion/subs.ml" 31 1274 1296
+type(
+  'a Subs.t
+)
+ident(
+  ext_ref Subs.empty
+)
+"completion/subs.ml" 32 1299 1303 "completion/subs.ml" 32 1299 1307
+type(
+  Subs.key -> 'a Subs.t -> 'a
+)
+ident(
+  def find "completion/subs.ml" 33 1322 1322 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 32 1299 1310 "completion/subs.ml" 32 1299 1319
+type(
+  Subs.key -> 'a Subs.t -> 'a
+)
+ident(
+  ext_ref Subs.find
+)
+"completion/subs.ml" 33 1322 1326 "completion/subs.ml" 33 1322 1329
+type(
+  Subs.key -> 'a Subs.t -> bool
+)
+ident(
+  def mem "completion/subs.ml" 35 1344 1344 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 33 1322 1332 "completion/subs.ml" 33 1322 1340
+type(
+  Subs.key -> 'a Subs.t -> bool
+)
+ident(
+  ext_ref Subs.mem
+)
+"completion/subs.ml" 35 1344 1348 "completion/subs.ml" 35 1344 1356
+type(
+  'a Subs.t -> bool
+)
+ident(
+  def is_empty "completion/subs.ml" 39 1437 1437 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 35 1344 1357 "completion/subs.ml" 35 1344 1358
+type(
+  'a Subs.t
+)
+ident(
+  def s "completion/subs.ml" 35 1344 1361 "completion/subs.ml" 35 1344 1377
+)
+"completion/subs.ml" 35 1344 1362 "completion/subs.ml" 35 1344 1363
+type(
+  'a Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 35 1344 1357 "completion/subs.ml" 35 1344 1358
+)
+"completion/subs.ml" 35 1344 1364 "completion/subs.ml" 35 1344 1365
+type(
+  'a Subs.t -> 'a Subs.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/subs.ml" 35 1344 1366 "completion/subs.ml" 35 1344 1376
+type(
+  'a Subs.t
+)
+ident(
+  ext_ref Subs.empty
+)
+"completion/subs.ml" 35 1344 1361 "completion/subs.ml" 35 1344 1377
+type(
+  bool
+)
+"completion/subs.ml" 39 1437 1441 "completion/subs.ml" 39 1437 1444
+type(
+  Var.var -> Term.term -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  def add "completion/subs.ml" 43 1507 1507 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 39 1437 1445 "completion/subs.ml" 39 1437 1446
+type(
+  Var.var
+)
+ident(
+  def x "completion/subs.ml" 39 1437 1447 "completion/subs.ml" 39 1437 1492
+)
+"completion/subs.ml" 39 1437 1447 "completion/subs.ml" 39 1437 1448
+type(
+  Term.term
+)
+ident(
+  def t "completion/subs.ml" 39 1437 1449 "completion/subs.ml" 39 1437 1492
+)
+"completion/subs.ml" 39 1437 1449 "completion/subs.ml" 39 1437 1450
+type(
+  Term.term Subs.t
+)
+ident(
+  def s "completion/subs.ml" 39 1437 1453 "completion/subs.ml" 39 1437 1492
+)
+"completion/subs.ml" 39 1437 1456 "completion/subs.ml" 39 1437 1457
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subs.ml" 39 1437 1447 "completion/subs.ml" 39 1437 1448
+)
+"completion/subs.ml" 39 1437 1458 "completion/subs.ml" 39 1437 1459
+type(
+  Term.term -> Term.term -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/subs.ml" 39 1437 1464 "completion/subs.ml" 39 1437 1465
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/subs.ml" 39 1437 1445 "completion/subs.ml" 39 1437 1446
+)
+"completion/subs.ml" 39 1437 1460 "completion/subs.ml" 39 1437 1465
+type(
+  Term.term
+)
+"completion/subs.ml" 39 1437 1456 "completion/subs.ml" 39 1437 1465
+type(
+  bool
+)
+"completion/subs.ml" 39 1437 1471 "completion/subs.ml" 39 1437 1472
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 39 1437 1449 "completion/subs.ml" 39 1437 1450
+)
+"completion/subs.ml" 39 1437 1478 "completion/subs.ml" 39 1437 1486
+type(
+  Subs.key -> Term.term -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  ext_ref Subs.add
+)
+"completion/subs.ml" 39 1437 1487 "completion/subs.ml" 39 1437 1488
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/subs.ml" 39 1437 1445 "completion/subs.ml" 39 1437 1446
+)
+"completion/subs.ml" 39 1437 1489 "completion/subs.ml" 39 1437 1490
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subs.ml" 39 1437 1447 "completion/subs.ml" 39 1437 1448
+)
+"completion/subs.ml" 39 1437 1491 "completion/subs.ml" 39 1437 1492
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 39 1437 1449 "completion/subs.ml" 39 1437 1450
+)
+"completion/subs.ml" 39 1437 1478 "completion/subs.ml" 39 1437 1492
+call(
+  tail
+)
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 39 1437 1453 "completion/subs.ml" 39 1437 1492
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 43 1507 1511 "completion/subs.ml" 43 1507 1514
+type(
+  ('a -> Term.term) -> 'a Subs.t -> Term.term Subs.t
+)
+ident(
+  def map "completion/subs.ml" 47 1611 1611 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 43 1507 1515 "completion/subs.ml" 43 1507 1516
+type(
+  'a -> Term.term
+)
+ident(
+  def f "completion/subs.ml" 43 1507 1517 "completion/subs.ml" 43 1507 1574
+)
+"completion/subs.ml" 43 1507 1517 "completion/subs.ml" 43 1507 1518
+type(
+  'a Subs.t
+)
+ident(
+  def s "completion/subs.ml" 43 1507 1521 "completion/subs.ml" 43 1507 1574
+)
+"completion/subs.ml" 43 1507 1521 "completion/subs.ml" 43 1507 1530
+type(
+  (Subs.key -> 'a -> Term.term Subs.t -> Term.term Subs.t) ->
+  'a Subs.t -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  ext_ref Subs.fold
+)
+"completion/subs.ml" 43 1507 1536 "completion/subs.ml" 43 1507 1537
+type(
+  Subs.key
+)
+ident(
+  def x "completion/subs.ml" 43 1507 1538 "completion/subs.ml" 43 1507 1560
+)
+"completion/subs.ml" 43 1507 1538 "completion/subs.ml" 43 1507 1539
+type(
+  'a
+)
+ident(
+  def t "completion/subs.ml" 43 1507 1540 "completion/subs.ml" 43 1507 1560
+)
+"completion/subs.ml" 43 1507 1540 "completion/subs.ml" 43 1507 1542
+type(
+  Term.term Subs.t
+)
+ident(
+  def s' "completion/subs.ml" 43 1507 1546 "completion/subs.ml" 43 1507 1560
+)
+"completion/subs.ml" 43 1507 1546 "completion/subs.ml" 43 1507 1549
+type(
+  Var.var -> Term.term -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  int_ref add "completion/subs.ml" 39 1437 1441 "completion/subs.ml" 39 1437 1444
+)
+"completion/subs.ml" 43 1507 1550 "completion/subs.ml" 43 1507 1551
+type(
+  Subs.key
+)
+ident(
+  int_ref x "completion/subs.ml" 43 1507 1536 "completion/subs.ml" 43 1507 1537
+)
+"completion/subs.ml" 43 1507 1553 "completion/subs.ml" 43 1507 1554
+type(
+  'a -> Term.term
+)
+ident(
+  int_ref f "completion/subs.ml" 43 1507 1515 "completion/subs.ml" 43 1507 1516
+)
+"completion/subs.ml" 43 1507 1555 "completion/subs.ml" 43 1507 1556
+type(
+  'a
+)
+ident(
+  int_ref t "completion/subs.ml" 43 1507 1538 "completion/subs.ml" 43 1507 1539
+)
+"completion/subs.ml" 43 1507 1552 "completion/subs.ml" 43 1507 1557
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/subs.ml" 43 1507 1558 "completion/subs.ml" 43 1507 1560
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s' "completion/subs.ml" 43 1507 1540 "completion/subs.ml" 43 1507 1542
+)
+"completion/subs.ml" 43 1507 1546 "completion/subs.ml" 43 1507 1560
+call(
+  tail
+)
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 43 1507 1531 "completion/subs.ml" 43 1507 1561
+type(
+  Subs.key -> 'a -> Term.term Subs.t -> Term.term Subs.t
+)
+"completion/subs.ml" 43 1507 1562 "completion/subs.ml" 43 1507 1563
+type(
+  'a Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 43 1507 1517 "completion/subs.ml" 43 1507 1518
+)
+"completion/subs.ml" 43 1507 1564 "completion/subs.ml" 43 1507 1574
+type(
+  Term.term Subs.t
+)
+ident(
+  ext_ref Subs.empty
+)
+"completion/subs.ml" 43 1507 1521 "completion/subs.ml" 43 1507 1574
+call(
+  tail
+)
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 47 1611 1615 "completion/subs.ml" 47 1611 1619
+type(
+  Var.var -> Term.term -> Term.term Subs.t
+)
+ident(
+  def subs "completion/subs.ml" 52 1747 1747 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 47 1611 1620 "completion/subs.ml" 47 1611 1621
+type(
+  Var.var
+)
+ident(
+  def x "completion/subs.ml" 47 1611 1622 "completion/subs.ml" 47 1611 1644
+)
+"completion/subs.ml" 47 1611 1622 "completion/subs.ml" 47 1611 1623
+type(
+  Term.term
+)
+ident(
+  def t "completion/subs.ml" 47 1611 1626 "completion/subs.ml" 47 1611 1644
+)
+"completion/subs.ml" 47 1611 1626 "completion/subs.ml" 47 1611 1629
+type(
+  Var.var -> Term.term -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  int_ref add "completion/subs.ml" 39 1437 1441 "completion/subs.ml" 39 1437 1444
+)
+"completion/subs.ml" 47 1611 1630 "completion/subs.ml" 47 1611 1631
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/subs.ml" 47 1611 1620 "completion/subs.ml" 47 1611 1621
+)
+"completion/subs.ml" 47 1611 1632 "completion/subs.ml" 47 1611 1633
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subs.ml" 47 1611 1622 "completion/subs.ml" 47 1611 1623
+)
+"completion/subs.ml" 47 1611 1634 "completion/subs.ml" 47 1611 1644
+type(
+  Term.term Subs.t
+)
+ident(
+  ext_ref Subs.empty
+)
+"completion/subs.ml" 47 1611 1626 "completion/subs.ml" 47 1611 1644
+call(
+  tail
+)
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 52 1747 1751 "completion/subs.ml" 52 1747 1760
+type(
+  Subs.key -> 'a -> 'a Subs.t -> 'a Subs.t
+)
+ident(
+  def check_add "completion/subs.ml" 58 1899 1899 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 52 1747 1761 "completion/subs.ml" 52 1747 1762
+type(
+  Subs.key
+)
+ident(
+  def x "completion/subs.ml" 52 1747 1763 "completion/subs.ml" 54 1824 1858
+)
+"completion/subs.ml" 52 1747 1763 "completion/subs.ml" 52 1747 1764
+type(
+  'a
+)
+ident(
+  def t "completion/subs.ml" 52 1747 1765 "completion/subs.ml" 54 1824 1858
+)
+"completion/subs.ml" 52 1747 1765 "completion/subs.ml" 52 1747 1766
+type(
+  'a Subs.t
+)
+ident(
+  def s "completion/subs.ml" 53 1769 1771 "completion/subs.ml" 54 1824 1858
+)
+"completion/subs.ml" 53 1769 1778 "completion/subs.ml" 53 1769 1779
+type(
+  'a
+)
+ident(
+  int_ref t "completion/subs.ml" 52 1747 1763 "completion/subs.ml" 52 1747 1764
+)
+"completion/subs.ml" 53 1769 1780 "completion/subs.ml" 53 1769 1781
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/subs.ml" 53 1769 1782 "completion/subs.ml" 53 1769 1786
+type(
+  Subs.key -> 'a Subs.t -> 'a
+)
+ident(
+  int_ref find "completion/subs.ml" 32 1299 1303 "completion/subs.ml" 32 1299 1307
+)
+"completion/subs.ml" 53 1769 1787 "completion/subs.ml" 53 1769 1788
+type(
+  Subs.key
+)
+ident(
+  int_ref x "completion/subs.ml" 52 1747 1761 "completion/subs.ml" 52 1747 1762
+)
+"completion/subs.ml" 53 1769 1789 "completion/subs.ml" 53 1769 1790
+type(
+  'a Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 52 1747 1765 "completion/subs.ml" 52 1747 1766
+)
+"completion/subs.ml" 53 1769 1782 "completion/subs.ml" 53 1769 1790
+call(
+  stack
+)
+type(
+  'a
+)
+"completion/subs.ml" 53 1769 1778 "completion/subs.ml" 53 1769 1790
+type(
+  bool
+)
+"completion/subs.ml" 53 1769 1796 "completion/subs.ml" 53 1769 1797
+type(
+  'a Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 52 1747 1765 "completion/subs.ml" 52 1747 1766
+)
+"completion/subs.ml" 53 1769 1803 "completion/subs.ml" 53 1769 1811
+type(
+  string -> 'a Subs.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"completion/subs.ml" 53 1769 1812 "completion/subs.ml" 53 1769 1823
+type(
+  string
+)
+"completion/subs.ml" 53 1769 1803 "completion/subs.ml" 53 1769 1823
+call(
+  stack
+)
+type(
+  'a Subs.t
+)
+"completion/subs.ml" 53 1769 1775 "completion/subs.ml" 53 1769 1823
+type(
+  'a Subs.t
+)
+"completion/subs.ml" 54 1824 1831 "completion/subs.ml" 54 1824 1840
+type(
+  exn
+)
+"completion/subs.ml" 54 1824 1844 "completion/subs.ml" 54 1824 1852
+type(
+  Subs.key -> 'a -> 'a Subs.t -> 'a Subs.t
+)
+ident(
+  ext_ref Subs.add
+)
+"completion/subs.ml" 54 1824 1853 "completion/subs.ml" 54 1824 1854
+type(
+  Subs.key
+)
+ident(
+  int_ref x "completion/subs.ml" 52 1747 1761 "completion/subs.ml" 52 1747 1762
+)
+"completion/subs.ml" 54 1824 1855 "completion/subs.ml" 54 1824 1856
+type(
+  'a
+)
+ident(
+  int_ref t "completion/subs.ml" 52 1747 1763 "completion/subs.ml" 52 1747 1764
+)
+"completion/subs.ml" 54 1824 1857 "completion/subs.ml" 54 1824 1858
+type(
+  'a Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 52 1747 1765 "completion/subs.ml" 52 1747 1766
+)
+"completion/subs.ml" 54 1824 1844 "completion/subs.ml" 54 1824 1858
+call(
+  tail
+)
+type(
+  'a Subs.t
+)
+"completion/subs.ml" 53 1769 1771 "completion/subs.ml" 54 1824 1858
+type(
+  'a Subs.t
+)
+"completion/subs.ml" 58 1899 1903 "completion/subs.ml" 58 1899 1912
+type(
+  Term.term Subs.t -> Subs.key -> Term.term
+)
+ident(
+  def apply_var "completion/subs.ml" 60 1964 1964 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 58 1899 1913 "completion/subs.ml" 58 1899 1914
+type(
+  Term.term Subs.t
+)
+ident(
+  def s "completion/subs.ml" 58 1899 1915 "completion/subs.ml" 58 1899 1960
+)
+"completion/subs.ml" 58 1899 1915 "completion/subs.ml" 58 1899 1916
+type(
+  Subs.key
+)
+ident(
+  def x "completion/subs.ml" 58 1899 1919 "completion/subs.ml" 58 1899 1960
+)
+"completion/subs.ml" 58 1899 1923 "completion/subs.ml" 58 1899 1932
+type(
+  Subs.key -> Term.term Subs.t -> Term.term
+)
+ident(
+  ext_ref Subs.find
+)
+"completion/subs.ml" 58 1899 1933 "completion/subs.ml" 58 1899 1934
+type(
+  Subs.key
+)
+ident(
+  int_ref x "completion/subs.ml" 58 1899 1915 "completion/subs.ml" 58 1899 1916
+)
+"completion/subs.ml" 58 1899 1935 "completion/subs.ml" 58 1899 1936
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 58 1899 1913 "completion/subs.ml" 58 1899 1914
+)
+"completion/subs.ml" 58 1899 1923 "completion/subs.ml" 58 1899 1936
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/subs.ml" 58 1899 1942 "completion/subs.ml" 58 1899 1951
+type(
+  exn
+)
+"completion/subs.ml" 58 1899 1959 "completion/subs.ml" 58 1899 1960
+type(
+  Subs.key
+)
+ident(
+  int_ref x "completion/subs.ml" 58 1899 1915 "completion/subs.ml" 58 1899 1916
+)
+"completion/subs.ml" 58 1899 1955 "completion/subs.ml" 58 1899 1960
+type(
+  Term.term
+)
+"completion/subs.ml" 58 1899 1919 "completion/subs.ml" 58 1899 1960
+type(
+  Term.term
+)
+"completion/subs.ml" 60 1964 1968 "completion/subs.ml" 60 1964 1973
+type(
+  Term.term Subs.t -> Term.term -> Term.term
+)
+ident(
+  def apply "completion/subs.ml" 68 2153 2153 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 60 1964 1974 "completion/subs.ml" 60 1964 1975
+type(
+  Term.term Subs.t
+)
+ident(
+  def s "completion/subs.ml" 61 1978 1980 "completion/subs.ml" 64 2109 2117
+)
+"completion/subs.ml" 61 1978 1988 "completion/subs.ml" 61 1978 1991
+type(
+  Term.term -> Term.term
+)
+ident(
+  def aux "completion/subs.ml" 61 1978 1980 "completion/subs.ml" 64 2109 2117
+)
+"completion/subs.ml" 62 2003 2013 "completion/subs.ml" 62 2003 2014
+type(
+  Var.var
+)
+ident(
+  def x "completion/subs.ml" 62 2003 2023 "completion/subs.ml" 62 2003 2062
+)
+"completion/subs.ml" 62 2003 2009 "completion/subs.ml" 62 2003 2014
+type(
+  Term.term
+)
+"completion/subs.ml" 62 2003 2018 "completion/subs.ml" 62 2003 2019
+ident(
+  def t "completion/subs.ml" 62 2003 2023 "completion/subs.ml" 62 2003 2062
+)
+"completion/subs.ml" 62 2003 2009 "completion/subs.ml" 62 2003 2019
+type(
+  Term.term
+)
+"completion/subs.ml" 62 2003 2028 "completion/subs.ml" 62 2003 2037
+type(
+  Subs.key -> Term.term Subs.t -> Term.term
+)
+ident(
+  ext_ref Subs.find
+)
+"completion/subs.ml" 62 2003 2038 "completion/subs.ml" 62 2003 2039
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/subs.ml" 62 2003 2013 "completion/subs.ml" 62 2003 2014
+)
+"completion/subs.ml" 62 2003 2040 "completion/subs.ml" 62 2003 2041
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 60 1964 1974 "completion/subs.ml" 60 1964 1975
+)
+"completion/subs.ml" 62 2003 2028 "completion/subs.ml" 62 2003 2041
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/subs.ml" 62 2003 2047 "completion/subs.ml" 62 2003 2056
+type(
+  exn
+)
+"completion/subs.ml" 62 2003 2060 "completion/subs.ml" 62 2003 2061
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subs.ml" 62 2003 2009 "completion/subs.ml" 62 2003 2019
+)
+"completion/subs.ml" 62 2003 2023 "completion/subs.ml" 62 2003 2062
+type(
+  Term.term
+)
+"completion/subs.ml" 63 2063 2074 "completion/subs.ml" 63 2063 2075
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/subs.ml" 63 2063 2084 "completion/subs.ml" 63 2063 2108
+)
+"completion/subs.ml" 63 2063 2077 "completion/subs.ml" 63 2063 2079
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/subs.ml" 63 2063 2084 "completion/subs.ml" 63 2063 2108
+)
+"completion/subs.ml" 63 2063 2069 "completion/subs.ml" 63 2063 2080
+type(
+  Term.term
+)
+"completion/subs.ml" 63 2063 2089 "completion/subs.ml" 63 2063 2090
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/subs.ml" 63 2063 2074 "completion/subs.ml" 63 2063 2075
+)
+"completion/subs.ml" 63 2063 2092 "completion/subs.ml" 63 2063 2100
+type(
+  (Term.term -> Term.term) -> Term.term list -> Term.term list
+)
+ident(
+  ext_ref List.map
+)
+"completion/subs.ml" 63 2063 2101 "completion/subs.ml" 63 2063 2104
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref aux "completion/subs.ml" 61 1978 1988 "completion/subs.ml" 61 1978 1991
+)
+"completion/subs.ml" 63 2063 2105 "completion/subs.ml" 63 2063 2107
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/subs.ml" 63 2063 2077 "completion/subs.ml" 63 2063 2079
+)
+"completion/subs.ml" 63 2063 2092 "completion/subs.ml" 63 2063 2107
+call(
+  stack
+)
+type(
+  Term.term list
+)
+"completion/subs.ml" 63 2063 2084 "completion/subs.ml" 63 2063 2108
+type(
+  Term.term
+)
+"completion/subs.ml" 61 1978 1994 "completion/subs.ml" 63 2063 2108
+type(
+  Term.term -> Term.term
+)
+"completion/subs.ml" 64 2109 2114 "completion/subs.ml" 64 2109 2117
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref aux "completion/subs.ml" 61 1978 1988 "completion/subs.ml" 61 1978 1991
+)
+"completion/subs.ml" 61 1978 1980 "completion/subs.ml" 64 2109 2117
+type(
+  Term.term -> Term.term
+)
+"completion/subs.ml" 68 2153 2157 "completion/subs.ml" 68 2153 2163
+type(
+  'a Subs.t -> Var.VarSet.t
+)
+ident(
+  def domain "completion/subs.ml" 72 2263 2263 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 68 2153 2164 "completion/subs.ml" 68 2153 2165
+type(
+  'a Subs.t
+)
+ident(
+  def s "completion/subs.ml" 68 2153 2168 "completion/subs.ml" 68 2153 2222
+)
+"completion/subs.ml" 68 2153 2168 "completion/subs.ml" 68 2153 2177
+type(
+  (Subs.key -> 'a -> Var.VarSet.t -> Var.VarSet.t) ->
+  'a Subs.t -> Var.VarSet.t -> Var.VarSet.t
+)
+ident(
+  ext_ref Subs.fold
+)
+"completion/subs.ml" 68 2153 2183 "completion/subs.ml" 68 2153 2184
+type(
+  Subs.key
+)
+ident(
+  def x "completion/subs.ml" 68 2153 2185 "completion/subs.ml" 68 2153 2206
+)
+"completion/subs.ml" 68 2153 2185 "completion/subs.ml" 68 2153 2186
+type(
+  'a
+)
+"completion/subs.ml" 68 2153 2187 "completion/subs.ml" 68 2153 2188
+type(
+  Var.VarSet.t
+)
+ident(
+  def d "completion/subs.ml" 68 2153 2192 "completion/subs.ml" 68 2153 2206
+)
+"completion/subs.ml" 68 2153 2192 "completion/subs.ml" 68 2153 2202
+type(
+  Var.VarSet.elt -> Var.VarSet.t -> Var.VarSet.t
+)
+ident(
+  ext_ref Var.VarSet.add
+)
+"completion/subs.ml" 68 2153 2203 "completion/subs.ml" 68 2153 2204
+type(
+  Subs.key
+)
+ident(
+  int_ref x "completion/subs.ml" 68 2153 2183 "completion/subs.ml" 68 2153 2184
+)
+"completion/subs.ml" 68 2153 2205 "completion/subs.ml" 68 2153 2206
+type(
+  Var.VarSet.t
+)
+ident(
+  int_ref d "completion/subs.ml" 68 2153 2187 "completion/subs.ml" 68 2153 2188
+)
+"completion/subs.ml" 68 2153 2192 "completion/subs.ml" 68 2153 2206
+call(
+  tail
+)
+type(
+  Var.VarSet.t
+)
+"completion/subs.ml" 68 2153 2178 "completion/subs.ml" 68 2153 2207
+type(
+  Subs.key -> 'a -> Var.VarSet.t -> Var.VarSet.t
+)
+"completion/subs.ml" 68 2153 2208 "completion/subs.ml" 68 2153 2209
+type(
+  'a Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 68 2153 2164 "completion/subs.ml" 68 2153 2165
+)
+"completion/subs.ml" 68 2153 2210 "completion/subs.ml" 68 2153 2222
+type(
+  Var.VarSet.t
+)
+ident(
+  ext_ref Var.VarSet.empty
+)
+"completion/subs.ml" 68 2153 2168 "completion/subs.ml" 68 2153 2222
+call(
+  tail
+)
+type(
+  Var.VarSet.t
+)
+"completion/subs.ml" 72 2263 2267 "completion/subs.ml" 72 2263 2275
+type(
+  Term.term Subs.t -> Var.VarSet.t -> Term.term Subs.t
+)
+ident(
+  def restrict "completion/subs.ml" 77 2423 2423 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 72 2263 2276 "completion/subs.ml" 72 2263 2277
+type(
+  Term.term Subs.t
+)
+ident(
+  def s "completion/subs.ml" 72 2263 2278 "completion/subs.ml" 73 2282 2352
+)
+"completion/subs.ml" 72 2263 2278 "completion/subs.ml" 72 2263 2279
+type(
+  Var.VarSet.t
+)
+ident(
+  def d "completion/subs.ml" 73 2282 2284 "completion/subs.ml" 73 2282 2352
+)
+"completion/subs.ml" 73 2282 2284 "completion/subs.ml" 73 2282 2295
+type(
+  (Var.VarSet.elt -> Term.term Subs.t -> Term.term Subs.t) ->
+  Var.VarSet.t -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  ext_ref Var.VarSet.fold
+)
+"completion/subs.ml" 73 2282 2301 "completion/subs.ml" 73 2282 2302
+type(
+  Var.VarSet.elt
+)
+ident(
+  def x "completion/subs.ml" 73 2282 2303 "completion/subs.ml" 73 2282 2338
+)
+"completion/subs.ml" 73 2282 2303 "completion/subs.ml" 73 2282 2305
+type(
+  Term.term Subs.t
+)
+ident(
+  def s' "completion/subs.ml" 73 2282 2309 "completion/subs.ml" 73 2282 2338
+)
+"completion/subs.ml" 73 2282 2309 "completion/subs.ml" 73 2282 2317
+type(
+  Subs.key -> Term.term -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  ext_ref Subs.add
+)
+"completion/subs.ml" 73 2282 2318 "completion/subs.ml" 73 2282 2319
+type(
+  Var.VarSet.elt
+)
+ident(
+  int_ref x "completion/subs.ml" 73 2282 2301 "completion/subs.ml" 73 2282 2302
+)
+"completion/subs.ml" 73 2282 2321 "completion/subs.ml" 73 2282 2330
+type(
+  Term.term Subs.t -> Subs.key -> Term.term
+)
+ident(
+  int_ref apply_var "completion/subs.ml" 58 1899 1903 "completion/subs.ml" 58 1899 1912
+)
+"completion/subs.ml" 73 2282 2331 "completion/subs.ml" 73 2282 2332
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 72 2263 2276 "completion/subs.ml" 72 2263 2277
+)
+"completion/subs.ml" 73 2282 2333 "completion/subs.ml" 73 2282 2334
+type(
+  Var.VarSet.elt
+)
+ident(
+  int_ref x "completion/subs.ml" 73 2282 2301 "completion/subs.ml" 73 2282 2302
+)
+"completion/subs.ml" 73 2282 2320 "completion/subs.ml" 73 2282 2335
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/subs.ml" 73 2282 2336 "completion/subs.ml" 73 2282 2338
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s' "completion/subs.ml" 73 2282 2303 "completion/subs.ml" 73 2282 2305
+)
+"completion/subs.ml" 73 2282 2309 "completion/subs.ml" 73 2282 2338
+call(
+  tail
+)
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 73 2282 2296 "completion/subs.ml" 73 2282 2339
+type(
+  Var.VarSet.elt -> Term.term Subs.t -> Term.term Subs.t
+)
+"completion/subs.ml" 73 2282 2340 "completion/subs.ml" 73 2282 2341
+type(
+  Var.VarSet.t
+)
+ident(
+  int_ref d "completion/subs.ml" 72 2263 2278 "completion/subs.ml" 72 2263 2279
+)
+"completion/subs.ml" 73 2282 2342 "completion/subs.ml" 73 2282 2352
+type(
+  Term.term Subs.t
+)
+ident(
+  ext_ref Subs.empty
+)
+"completion/subs.ml" 73 2282 2284 "completion/subs.ml" 73 2282 2352
+call(
+  tail
+)
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 77 2423 2427 "completion/subs.ml" 77 2423 2435
+type(
+  Term.term Subs.t -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  def comp_res "completion/subs.ml" 83 2597 2597 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 77 2423 2436 "completion/subs.ml" 77 2423 2438
+type(
+  Term.term Subs.t
+)
+ident(
+  def s1 "completion/subs.ml" 77 2423 2439 "completion/subs.ml" 78 2444 2509
+)
+"completion/subs.ml" 77 2423 2439 "completion/subs.ml" 77 2423 2441
+type(
+  Term.term Subs.t
+)
+ident(
+  def s2 "completion/subs.ml" 78 2444 2446 "completion/subs.ml" 78 2444 2509
+)
+"completion/subs.ml" 78 2444 2446 "completion/subs.ml" 78 2444 2455
+type(
+  (Subs.key -> Term.term -> Term.term Subs.t -> Term.term Subs.t) ->
+  Term.term Subs.t -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  ext_ref Subs.fold
+)
+"completion/subs.ml" 78 2444 2461 "completion/subs.ml" 78 2444 2463
+type(
+  Subs.key
+)
+ident(
+  def x2 "completion/subs.ml" 78 2444 2464 "completion/subs.ml" 78 2444 2494
+)
+"completion/subs.ml" 78 2444 2464 "completion/subs.ml" 78 2444 2466
+type(
+  Term.term
+)
+ident(
+  def t2 "completion/subs.ml" 78 2444 2467 "completion/subs.ml" 78 2444 2494
+)
+"completion/subs.ml" 78 2444 2467 "completion/subs.ml" 78 2444 2468
+type(
+  Term.term Subs.t
+)
+ident(
+  def s "completion/subs.ml" 78 2444 2472 "completion/subs.ml" 78 2444 2494
+)
+"completion/subs.ml" 78 2444 2472 "completion/subs.ml" 78 2444 2475
+type(
+  Var.var -> Term.term -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  int_ref add "completion/subs.ml" 39 1437 1441 "completion/subs.ml" 39 1437 1444
+)
+"completion/subs.ml" 78 2444 2476 "completion/subs.ml" 78 2444 2478
+type(
+  Subs.key
+)
+ident(
+  int_ref x2 "completion/subs.ml" 78 2444 2461 "completion/subs.ml" 78 2444 2463
+)
+"completion/subs.ml" 78 2444 2480 "completion/subs.ml" 78 2444 2485
+type(
+  Term.term Subs.t -> Term.term -> Term.term
+)
+ident(
+  int_ref apply "completion/subs.ml" 60 1964 1968 "completion/subs.ml" 60 1964 1973
+)
+"completion/subs.ml" 78 2444 2486 "completion/subs.ml" 78 2444 2488
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s1 "completion/subs.ml" 77 2423 2436 "completion/subs.ml" 77 2423 2438
+)
+"completion/subs.ml" 78 2444 2489 "completion/subs.ml" 78 2444 2491
+type(
+  Term.term
+)
+ident(
+  int_ref t2 "completion/subs.ml" 78 2444 2464 "completion/subs.ml" 78 2444 2466
+)
+"completion/subs.ml" 78 2444 2479 "completion/subs.ml" 78 2444 2492
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/subs.ml" 78 2444 2493 "completion/subs.ml" 78 2444 2494
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 78 2444 2467 "completion/subs.ml" 78 2444 2468
+)
+"completion/subs.ml" 78 2444 2472 "completion/subs.ml" 78 2444 2494
+call(
+  tail
+)
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 78 2444 2456 "completion/subs.ml" 78 2444 2495
+type(
+  Subs.key -> Term.term -> Term.term Subs.t -> Term.term Subs.t
+)
+"completion/subs.ml" 78 2444 2496 "completion/subs.ml" 78 2444 2498
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s2 "completion/subs.ml" 77 2423 2439 "completion/subs.ml" 77 2423 2441
+)
+"completion/subs.ml" 78 2444 2499 "completion/subs.ml" 78 2444 2509
+type(
+  Term.term Subs.t
+)
+ident(
+  ext_ref Subs.empty
+)
+"completion/subs.ml" 78 2444 2446 "completion/subs.ml" 78 2444 2509
+call(
+  tail
+)
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 83 2597 2601 "completion/subs.ml" 83 2597 2605
+type(
+  Term.term Subs.t -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  def comp "completion/subs.ml" 89 2738 2738 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 83 2597 2606 "completion/subs.ml" 83 2597 2608
+type(
+  Term.term Subs.t
+)
+ident(
+  def s1 "completion/subs.ml" 83 2597 2609 "completion/subs.ml" 85 2683 2719
+)
+"completion/subs.ml" 83 2597 2609 "completion/subs.ml" 83 2597 2611
+type(
+  Term.term Subs.t
+)
+ident(
+  def s2 "completion/subs.ml" 84 2614 2616 "completion/subs.ml" 85 2683 2719
+)
+"completion/subs.ml" 84 2614 2620 "completion/subs.ml" 84 2614 2622
+type(
+  Subs.key -> 'a -> 'a Subs.t -> 'a Subs.t
+)
+ident(
+  def f1 "completion/subs.ml" 85 2683 2687 "completion/subs.ml" 85 2683 2719
+)
+"completion/subs.ml" 84 2614 2623 "completion/subs.ml" 84 2614 2625
+type(
+  Subs.key
+)
+ident(
+  def x1 "completion/subs.ml" 84 2614 2626 "completion/subs.ml" 84 2614 2679
+)
+"completion/subs.ml" 84 2614 2626 "completion/subs.ml" 84 2614 2628
+type(
+  'a
+)
+ident(
+  def t1 "completion/subs.ml" 84 2614 2629 "completion/subs.ml" 84 2614 2679
+)
+"completion/subs.ml" 84 2614 2629 "completion/subs.ml" 84 2614 2630
+type(
+  'a Subs.t
+)
+ident(
+  def s "completion/subs.ml" 84 2614 2633 "completion/subs.ml" 84 2614 2679
+)
+"completion/subs.ml" 84 2614 2636 "completion/subs.ml" 84 2614 2644
+type(
+  Subs.key -> Term.term Subs.t -> bool
+)
+ident(
+  ext_ref Subs.mem
+)
+"completion/subs.ml" 84 2614 2645 "completion/subs.ml" 84 2614 2647
+type(
+  Subs.key
+)
+ident(
+  int_ref x1 "completion/subs.ml" 84 2614 2623 "completion/subs.ml" 84 2614 2625
+)
+"completion/subs.ml" 84 2614 2648 "completion/subs.ml" 84 2614 2650
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s2 "completion/subs.ml" 83 2597 2609 "completion/subs.ml" 83 2597 2611
+)
+"completion/subs.ml" 84 2614 2636 "completion/subs.ml" 84 2614 2650
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/subs.ml" 84 2614 2656 "completion/subs.ml" 84 2614 2657
+type(
+  'a Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 84 2614 2629 "completion/subs.ml" 84 2614 2630
+)
+"completion/subs.ml" 84 2614 2663 "completion/subs.ml" 84 2614 2671
+type(
+  Subs.key -> 'a -> 'a Subs.t -> 'a Subs.t
+)
+ident(
+  ext_ref Subs.add
+)
+"completion/subs.ml" 84 2614 2672 "completion/subs.ml" 84 2614 2674
+type(
+  Subs.key
+)
+ident(
+  int_ref x1 "completion/subs.ml" 84 2614 2623 "completion/subs.ml" 84 2614 2625
+)
+"completion/subs.ml" 84 2614 2675 "completion/subs.ml" 84 2614 2677
+type(
+  'a
+)
+ident(
+  int_ref t1 "completion/subs.ml" 84 2614 2626 "completion/subs.ml" 84 2614 2628
+)
+"completion/subs.ml" 84 2614 2678 "completion/subs.ml" 84 2614 2679
+type(
+  'a Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 84 2614 2629 "completion/subs.ml" 84 2614 2630
+)
+"completion/subs.ml" 84 2614 2663 "completion/subs.ml" 84 2614 2679
+call(
+  tail
+)
+type(
+  'a Subs.t
+)
+"completion/subs.ml" 84 2614 2633 "completion/subs.ml" 84 2614 2679
+type(
+  'a Subs.t
+)
+"completion/subs.ml" 85 2683 2687 "completion/subs.ml" 85 2683 2696
+type(
+  (Subs.key -> Term.term -> Term.term Subs.t -> Term.term Subs.t) ->
+  Term.term Subs.t -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  ext_ref Subs.fold
+)
+"completion/subs.ml" 85 2683 2697 "completion/subs.ml" 85 2683 2699
+type(
+  Subs.key -> Term.term -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  int_ref f1 "completion/subs.ml" 84 2614 2620 "completion/subs.ml" 84 2614 2622
+)
+"completion/subs.ml" 85 2683 2700 "completion/subs.ml" 85 2683 2702
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s1 "completion/subs.ml" 83 2597 2606 "completion/subs.ml" 83 2597 2608
+)
+"completion/subs.ml" 85 2683 2704 "completion/subs.ml" 85 2683 2712
+type(
+  Term.term Subs.t -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  int_ref comp_res "completion/subs.ml" 77 2423 2427 "completion/subs.ml" 77 2423 2435
+)
+"completion/subs.ml" 85 2683 2713 "completion/subs.ml" 85 2683 2715
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s1 "completion/subs.ml" 83 2597 2606 "completion/subs.ml" 83 2597 2608
+)
+"completion/subs.ml" 85 2683 2716 "completion/subs.ml" 85 2683 2718
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s2 "completion/subs.ml" 83 2597 2609 "completion/subs.ml" 83 2597 2611
+)
+"completion/subs.ml" 85 2683 2703 "completion/subs.ml" 85 2683 2719
+call(
+  stack
+)
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 85 2683 2687 "completion/subs.ml" 85 2683 2719
+call(
+  tail
+)
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 84 2614 2616 "completion/subs.ml" 85 2683 2719
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 89 2738 2742 "completion/subs.ml" 89 2738 2749
+type(
+  Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  def inverse "completion/subs.ml" 98 2944 2944 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 90 2752 2758 "completion/subs.ml" 90 2752 2759
+type(
+  Var.var -> Term.term -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  def f "completion/subs.ml" 94 2860 2865 "completion/subs.ml" 94 2860 2898
+)
+"completion/subs.ml" 90 2752 2760 "completion/subs.ml" 90 2752 2761
+type(
+  Var.var
+)
+ident(
+  def x "completion/subs.ml" 90 2752 2762 "completion/subs.ml" 93 2824 2859
+)
+"completion/subs.ml" 90 2752 2762 "completion/subs.ml" 90 2752 2763
+type(
+  Term.term
+)
+ident(
+  def t "completion/subs.ml" 90 2752 2764 "completion/subs.ml" 93 2824 2859
+)
+"completion/subs.ml" 90 2752 2764 "completion/subs.ml" 90 2752 2765
+type(
+  Term.term Subs.t
+)
+ident(
+  def s "completion/subs.ml" 91 2768 2772 "completion/subs.ml" 93 2824 2859
+)
+"completion/subs.ml" 91 2768 2778 "completion/subs.ml" 91 2768 2779
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subs.ml" 90 2752 2762 "completion/subs.ml" 90 2752 2763
+)
+"completion/subs.ml" 92 2785 2797 "completion/subs.ml" 92 2785 2798
+type(
+  Var.var
+)
+ident(
+  def y "completion/subs.ml" 92 2785 2802 "completion/subs.ml" 92 2785 2823
+)
+"completion/subs.ml" 92 2785 2793 "completion/subs.ml" 92 2785 2798
+type(
+  Term.term
+)
+"completion/subs.ml" 92 2785 2802 "completion/subs.ml" 92 2785 2811
+type(
+  Subs.key -> Term.term -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  int_ref check_add "completion/subs.ml" 52 1747 1751 "completion/subs.ml" 52 1747 1760
+)
+"completion/subs.ml" 92 2785 2812 "completion/subs.ml" 92 2785 2813
+type(
+  Var.var
+)
+ident(
+  int_ref y "completion/subs.ml" 92 2785 2797 "completion/subs.ml" 92 2785 2798
+)
+"completion/subs.ml" 92 2785 2819 "completion/subs.ml" 92 2785 2820
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/subs.ml" 90 2752 2760 "completion/subs.ml" 90 2752 2761
+)
+"completion/subs.ml" 92 2785 2814 "completion/subs.ml" 92 2785 2821
+type(
+  Term.term
+)
+"completion/subs.ml" 92 2785 2822 "completion/subs.ml" 92 2785 2823
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 90 2752 2764 "completion/subs.ml" 90 2752 2765
+)
+"completion/subs.ml" 92 2785 2802 "completion/subs.ml" 92 2785 2823
+call(
+  tail
+)
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 93 2824 2836 "completion/subs.ml" 93 2824 2837
+type(
+  Term.term list
+)
+type(
+  Symb.symbol
+)
+"completion/subs.ml" 93 2824 2832 "completion/subs.ml" 93 2824 2837
+type(
+  Term.term
+)
+"completion/subs.ml" 93 2824 2841 "completion/subs.ml" 93 2824 2849
+type(
+  string -> Term.term Subs.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"completion/subs.ml" 93 2824 2850 "completion/subs.ml" 93 2824 2859
+type(
+  string
+)
+"completion/subs.ml" 93 2824 2841 "completion/subs.ml" 93 2824 2859
+call(
+  tail
+)
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 91 2768 2772 "completion/subs.ml" 93 2824 2859
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 94 2860 2869 "completion/subs.ml" 94 2860 2870
+type(
+  Term.term Subs.t
+)
+ident(
+  def s "completion/subs.ml" 94 2860 2874 "completion/subs.ml" 94 2860 2898
+)
+"completion/subs.ml" 94 2860 2874 "completion/subs.ml" 94 2860 2883
+type(
+  (Subs.key -> Term.term -> Term.term Subs.t -> Term.term Subs.t) ->
+  Term.term Subs.t -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  ext_ref Subs.fold
+)
+"completion/subs.ml" 94 2860 2884 "completion/subs.ml" 94 2860 2885
+type(
+  Subs.key -> Term.term -> Term.term Subs.t -> Term.term Subs.t
+)
+ident(
+  int_ref f "completion/subs.ml" 90 2752 2758 "completion/subs.ml" 90 2752 2759
+)
+"completion/subs.ml" 94 2860 2886 "completion/subs.ml" 94 2860 2887
+type(
+  Term.term Subs.t
+)
+ident(
+  int_ref s "completion/subs.ml" 94 2860 2869 "completion/subs.ml" 94 2860 2870
+)
+"completion/subs.ml" 94 2860 2888 "completion/subs.ml" 94 2860 2898
+type(
+  Term.term Subs.t
+)
+ident(
+  ext_ref Subs.empty
+)
+"completion/subs.ml" 94 2860 2874 "completion/subs.ml" 94 2860 2898
+call(
+  tail
+)
+type(
+  Term.term Subs.t
+)
+"completion/subs.ml" 94 2860 2865 "completion/subs.ml" 94 2860 2898
+type(
+  Term.term Subs.t -> Term.term Subs.t
+)
+"completion/subs.ml" 90 2752 2754 "completion/subs.ml" 94 2860 2898
+type(
+  Term.term Subs.t -> Term.term Subs.t
+)
+"completion/subs.ml" 98 2944 2948 "completion/subs.ml" 98 2944 2963
+type(
+  Format.formatter -> Var.var -> Term.term -> unit
+)
+ident(
+  def fprintf_mapping "completion/subs.ml" 101 3042 3042 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 98 2944 2964 "completion/subs.ml" 98 2944 2967
+type(
+  Format.formatter
+)
+ident(
+  def ppf "completion/subs.ml" 98 2944 2968 "completion/subs.ml" 99 2972 3038
+)
+"completion/subs.ml" 98 2944 2968 "completion/subs.ml" 98 2944 2969
+type(
+  Var.var
+)
+ident(
+  def x "completion/subs.ml" 99 2972 2974 "completion/subs.ml" 99 2972 3038
+)
+"completion/subs.ml" 99 2972 2974 "completion/subs.ml" 99 2972 2988
+type(
+  Format.formatter ->
+  (string -> (Format.formatter -> Term.term -> unit) -> Term.term -> unit,
+   Format.formatter, unit)
+  format ->
+  string -> (Format.formatter -> Term.term -> unit) -> Term.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"completion/subs.ml" 99 2972 2989 "completion/subs.ml" 99 2972 2992
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/subs.ml" 98 2944 2964 "completion/subs.ml" 98 2944 2967
+)
+"completion/subs.ml" 99 2972 2993 "completion/subs.ml" 99 2972 3003
+type(
+  (string -> (Format.formatter -> Term.term -> unit) -> Term.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"completion/subs.ml" 99 2972 3005 "completion/subs.ml" 99 2972 3022
+type(
+  Var.var -> string
+)
+ident(
+  ext_ref Var.raw_string_of_var
+)
+"completion/subs.ml" 99 2972 3023 "completion/subs.ml" 99 2972 3024
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/subs.ml" 98 2944 2968 "completion/subs.ml" 98 2944 2969
+)
+"completion/subs.ml" 99 2972 3004 "completion/subs.ml" 99 2972 3025
+call(
+  stack
+)
+type(
+  string
+)
+"completion/subs.ml" 99 2972 3026 "completion/subs.ml" 99 2972 3038
+type(
+  Format.formatter -> Term.term -> unit
+)
+ident(
+  ext_ref Term.fprintf
+)
+"completion/subs.ml" 99 2972 2974 "completion/subs.ml" 99 2972 3038
+call(
+  tail
+)
+type(
+  Term.term -> unit
+)
+"completion/subs.ml" 101 3042 3046 "completion/subs.ml" 101 3042 3053
+type(
+  Format.formatter -> Term.term Subs.t -> unit
+)
+ident(
+  def fprintf "completion/subs.ml" 101 3042 3091 "completion/subs.ml" 1 0 -1
+)
+"completion/subs.ml" 101 3042 3054 "completion/subs.ml" 101 3042 3057
+type(
+  Format.formatter
+)
+ident(
+  def ppf "completion/subs.ml" 101 3042 3060 "completion/subs.ml" 101 3042 3091
+)
+"completion/subs.ml" 101 3042 3060 "completion/subs.ml" 101 3042 3069
+type(
+  (Subs.key -> Term.term -> unit) -> Term.term Subs.t -> unit
+)
+ident(
+  ext_ref Subs.iter
+)
+"completion/subs.ml" 101 3042 3071 "completion/subs.ml" 101 3042 3086
+type(
+  Format.formatter -> Subs.key -> Term.term -> unit
+)
+ident(
+  int_ref fprintf_mapping "completion/subs.ml" 98 2944 2948 "completion/subs.ml" 98 2944 2963
+)
+"completion/subs.ml" 101 3042 3087 "completion/subs.ml" 101 3042 3090
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/subs.ml" 101 3042 3054 "completion/subs.ml" 101 3042 3057
+)
+"completion/subs.ml" 101 3042 3070 "completion/subs.ml" 101 3042 3091
+call(
+  stack
+)
+type(
+  Subs.key -> Term.term -> unit
+)
+"completion/subs.ml" 101 3042 3060 "completion/subs.ml" 101 3042 3091
+call(
+  tail
+)
+type(
+  Term.term Subs.t -> unit
+)

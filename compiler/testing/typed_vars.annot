@@ -1,0 +1,2087 @@
+"testing/typed_vars.ml" 30 1348 1352 "testing/typed_vars.ml" 30 1348 1364
+type(
+  'a * Parsetree.core_type -> 'a * Parsetree.core_type -> bool
+)
+ident(
+  def eq_typed_var "testing/typed_vars.ml" 33 1414 1414 "testing/typed_vars.ml" 1 0 -1
+)
+"testing/typed_vars.ml" 30 1348 1366 "testing/typed_vars.ml" 30 1348 1368
+type(
+  'a
+)
+ident(
+  def v1 "testing/typed_vars.ml" 30 1348 1374 "testing/typed_vars.ml" 30 1348 1409
+)
+"testing/typed_vars.ml" 30 1348 1370 "testing/typed_vars.ml" 30 1348 1372
+type(
+  Parsetree.core_type
+)
+ident(
+  def t1 "testing/typed_vars.ml" 30 1348 1374 "testing/typed_vars.ml" 30 1348 1409
+)
+"testing/typed_vars.ml" 30 1348 1365 "testing/typed_vars.ml" 30 1348 1373
+type(
+  'a * Parsetree.core_type
+)
+"testing/typed_vars.ml" 30 1348 1375 "testing/typed_vars.ml" 30 1348 1377
+type(
+  'a
+)
+ident(
+  def v2 "testing/typed_vars.ml" 30 1348 1385 "testing/typed_vars.ml" 30 1348 1409
+)
+"testing/typed_vars.ml" 30 1348 1379 "testing/typed_vars.ml" 30 1348 1381
+type(
+  Parsetree.core_type
+)
+ident(
+  def t2 "testing/typed_vars.ml" 30 1348 1385 "testing/typed_vars.ml" 30 1348 1409
+)
+"testing/typed_vars.ml" 30 1348 1374 "testing/typed_vars.ml" 30 1348 1382
+type(
+  'a * Parsetree.core_type
+)
+"testing/typed_vars.ml" 30 1348 1385 "testing/typed_vars.ml" 30 1348 1387
+type(
+  'a
+)
+ident(
+  int_ref v1 "testing/typed_vars.ml" 30 1348 1366 "testing/typed_vars.ml" 30 1348 1368
+)
+"testing/typed_vars.ml" 30 1348 1388 "testing/typed_vars.ml" 30 1348 1389
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"testing/typed_vars.ml" 30 1348 1390 "testing/typed_vars.ml" 30 1348 1392
+type(
+  'a
+)
+ident(
+  int_ref v2 "testing/typed_vars.ml" 30 1348 1375 "testing/typed_vars.ml" 30 1348 1377
+)
+"testing/typed_vars.ml" 30 1348 1385 "testing/typed_vars.ml" 30 1348 1392
+type(
+  bool
+)
+"testing/typed_vars.ml" 30 1348 1393 "testing/typed_vars.ml" 30 1348 1395
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"testing/typed_vars.ml" 30 1348 1396 "testing/typed_vars.ml" 30 1348 1403
+type(
+  Parsetree.core_type -> Parsetree.core_type -> bool
+)
+ident(
+  ext_ref Otype.eq_type
+)
+"testing/typed_vars.ml" 30 1348 1404 "testing/typed_vars.ml" 30 1348 1406
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref t1 "testing/typed_vars.ml" 30 1348 1370 "testing/typed_vars.ml" 30 1348 1372
+)
+"testing/typed_vars.ml" 30 1348 1407 "testing/typed_vars.ml" 30 1348 1409
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref t2 "testing/typed_vars.ml" 30 1348 1379 "testing/typed_vars.ml" 30 1348 1381
+)
+"testing/typed_vars.ml" 30 1348 1396 "testing/typed_vars.ml" 30 1348 1409
+call(
+  tail
+)
+type(
+  bool
+)
+"testing/typed_vars.ml" 30 1348 1385 "testing/typed_vars.ml" 30 1348 1409
+type(
+  bool
+)
+"testing/typed_vars.ml" 33 1414 1418 "testing/typed_vars.ml" 33 1414 1432
+type(
+  Symb.symbol -> Check.generator_info
+)
+ident(
+  def generator_info "testing/typed_vars.ml" 39 1583 1583 "testing/typed_vars.ml" 1 0 -1
+)
+"testing/typed_vars.ml" 33 1414 1433 "testing/typed_vars.ml" 33 1414 1438
+type(
+  Symb.symbol
+)
+ident(
+  def cname "testing/typed_vars.ml" 34 1441 1443 "testing/typed_vars.ml" 36 1519 1578
+)
+"testing/typed_vars.ml" 34 1441 1447 "testing/typed_vars.ml" 34 1441 1471
+type(
+  string -> Check.generator_info
+)
+ident(
+  ext_ref Check.find_generator_name_info
+)
+"testing/typed_vars.ml" 34 1441 1473 "testing/typed_vars.ml" 34 1441 1489
+type(
+  Symb.symbol -> string
+)
+ident(
+  ext_ref Symb.string_of_symbol
+)
+"testing/typed_vars.ml" 34 1441 1490 "testing/typed_vars.ml" 34 1441 1495
+type(
+  Symb.symbol
+)
+ident(
+  int_ref cname "testing/typed_vars.ml" 33 1414 1433 "testing/typed_vars.ml" 33 1414 1438
+)
+"testing/typed_vars.ml" 34 1441 1472 "testing/typed_vars.ml" 34 1441 1496
+call(
+  stack
+)
+type(
+  string
+)
+"testing/typed_vars.ml" 34 1441 1447 "testing/typed_vars.ml" 34 1441 1496
+call(
+  stack
+)
+type(
+  Check.generator_info
+)
+"testing/typed_vars.ml" 35 1502 1506 "testing/typed_vars.ml" 35 1502 1515
+type(
+  exn
+)
+"testing/typed_vars.ml" 36 1519 1523 "testing/typed_vars.ml" 36 1519 1528
+type(
+  exn -> Check.generator_info
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"testing/typed_vars.ml" 36 1519 1554 "testing/typed_vars.ml" 36 1519 1570
+type(
+  Symb.symbol -> string
+)
+ident(
+  ext_ref Symb.string_of_symbol
+)
+"testing/typed_vars.ml" 36 1519 1571 "testing/typed_vars.ml" 36 1519 1576
+type(
+  Symb.symbol
+)
+ident(
+  int_ref cname "testing/typed_vars.ml" 33 1414 1433 "testing/typed_vars.ml" 33 1414 1438
+)
+"testing/typed_vars.ml" 36 1519 1553 "testing/typed_vars.ml" 36 1519 1577
+call(
+  stack
+)
+type(
+  string
+)
+"testing/typed_vars.ml" 36 1519 1529 "testing/typed_vars.ml" 36 1519 1578
+type(
+  exn
+)
+"testing/typed_vars.ml" 36 1519 1523 "testing/typed_vars.ml" 36 1519 1578
+type(
+  Check.generator_info
+)
+"testing/typed_vars.ml" 34 1441 1443 "testing/typed_vars.ml" 36 1519 1578
+type(
+  Check.generator_info
+)
+"testing/typed_vars.ml" 39 1583 1587 "testing/typed_vars.ml" 39 1583 1597
+type(
+  Symb.symbol -> bool
+)
+ident(
+  def is_listary "testing/typed_vars.ml" 47 1834 1834 "testing/typed_vars.ml" 1 0 -1
+)
+"testing/typed_vars.ml" 39 1583 1598 "testing/typed_vars.ml" 39 1583 1603
+type(
+  Symb.symbol
+)
+ident(
+  def cname "testing/typed_vars.ml" 40 1606 1608 "testing/typed_vars.ml" 42 1667 1714
+)
+"testing/typed_vars.ml" 40 1606 1614 "testing/typed_vars.ml" 40 1606 1630
+type(
+  Symb.symbol -> string
+)
+ident(
+  ext_ref Symb.string_of_symbol
+)
+"testing/typed_vars.ml" 40 1606 1631 "testing/typed_vars.ml" 40 1606 1636
+type(
+  Symb.symbol
+)
+ident(
+  int_ref cname "testing/typed_vars.ml" 39 1583 1598 "testing/typed_vars.ml" 39 1583 1603
+)
+"testing/typed_vars.ml" 40 1606 1614 "testing/typed_vars.ml" 40 1606 1636
+call(
+  stack
+)
+type(
+  string
+)
+"testing/typed_vars.ml" 41 1642 1646 "testing/typed_vars.ml" 41 1642 1650
+type(
+  string
+)
+"testing/typed_vars.ml" 41 1642 1653 "testing/typed_vars.ml" 41 1642 1657
+type(
+  string
+)
+"testing/typed_vars.ml" 41 1642 1646 "testing/typed_vars.ml" 41 1642 1657
+type(
+  string
+)
+"testing/typed_vars.ml" 41 1642 1661 "testing/typed_vars.ml" 41 1642 1666
+type(
+  bool
+)
+"testing/typed_vars.ml" 42 1667 1671 "testing/typed_vars.ml" 42 1667 1672
+type(
+  string
+)
+"testing/typed_vars.ml" 42 1667 1676 "testing/typed_vars.ml" 42 1667 1691
+type(
+  Check.generator_info -> bool
+)
+ident(
+  ext_ref Check.is_listary_info
+)
+"testing/typed_vars.ml" 42 1667 1693 "testing/typed_vars.ml" 42 1667 1707
+type(
+  Symb.symbol -> Check.generator_info
+)
+ident(
+  int_ref generator_info "testing/typed_vars.ml" 33 1414 1418 "testing/typed_vars.ml" 33 1414 1432
+)
+"testing/typed_vars.ml" 42 1667 1708 "testing/typed_vars.ml" 42 1667 1713
+type(
+  Symb.symbol
+)
+ident(
+  int_ref cname "testing/typed_vars.ml" 39 1583 1598 "testing/typed_vars.ml" 39 1583 1603
+)
+"testing/typed_vars.ml" 42 1667 1692 "testing/typed_vars.ml" 42 1667 1714
+call(
+  stack
+)
+type(
+  Check.generator_info
+)
+"testing/typed_vars.ml" 42 1667 1676 "testing/typed_vars.ml" 42 1667 1714
+call(
+  tail
+)
+type(
+  bool
+)
+"testing/typed_vars.ml" 40 1606 1608 "testing/typed_vars.ml" 42 1667 1714
+type(
+  bool
+)
+"testing/typed_vars.ml" 47 1834 1838 "testing/typed_vars.ml" 47 1834 1856
+type(
+  string -> string * string list * Parsetree.core_type list
+)
+ident(
+  def known_general_type "testing/typed_vars.ml" 65 2396 2396 "testing/typed_vars.ml" 1 0 -1
+)
+"testing/typed_vars.ml" 47 1834 1857 "testing/typed_vars.ml" 47 1834 1862
+type(
+  string
+)
+ident(
+  def gname "testing/typed_vars.ml" 48 1865 1867 "testing/typed_vars.ml" 60 2247 2275
+)
+"testing/typed_vars.ml" 48 1865 1871 "testing/typed_vars.ml" 48 1865 1883
+type(
+  Parsetree.core_type_desc -> Parsetree.core_type
+)
+ident(
+  def mk_core_type "testing/typed_vars.ml" 52 1954 1956 "testing/typed_vars.ml" 60 2247 2275
+)
+"testing/typed_vars.ml" 48 1865 1884 "testing/typed_vars.ml" 48 1865 1889
+type(
+  Parsetree.core_type_desc
+)
+ident(
+  def tdesc "testing/typed_vars.ml" 48 1865 1892 "testing/typed_vars.ml" 51 1947 1950
+)
+"testing/typed_vars.ml" 49 1894 1909 "testing/typed_vars.ml" 49 1894 1922
+type(
+  Location.t
+)
+ident(
+  ext_ref Location.none
+)
+"testing/typed_vars.ml" 50 1924 1940 "testing/typed_vars.ml" 50 1924 1945
+type(
+  Parsetree.core_type_desc
+)
+ident(
+  int_ref tdesc "testing/typed_vars.ml" 48 1865 1884 "testing/typed_vars.ml" 48 1865 1889
+)
+"testing/typed_vars.ml" 48 1865 1892 "testing/typed_vars.ml" 51 1947 1950
+type(
+  Parsetree.core_type
+)
+"testing/typed_vars.ml" 52 1954 1960 "testing/typed_vars.ml" 52 1954 1970
+type(
+  Longident.t
+)
+ident(
+  def list_ident "testing/typed_vars.ml" 53 2000 2002 "testing/typed_vars.ml" 60 2247 2275
+)
+"testing/typed_vars.ml" 52 1954 1990 "testing/typed_vars.ml" 52 1954 1996
+type(
+  string
+)
+"testing/typed_vars.ml" 52 1954 1973 "testing/typed_vars.ml" 52 1954 1996
+type(
+  Longident.t
+)
+"testing/typed_vars.ml" 53 2000 2006 "testing/typed_vars.ml" 53 2000 2015
+type(
+  Parsetree.core_type_desc -> Parsetree.core_type_desc
+)
+ident(
+  def list_type "testing/typed_vars.ml" 54 2070 2072 "testing/typed_vars.ml" 60 2247 2275
+)
+"testing/typed_vars.ml" 53 2000 2016 "testing/typed_vars.ml" 53 2000 2019
+type(
+  Parsetree.core_type_desc
+)
+ident(
+  def arg "testing/typed_vars.ml" 53 2000 2022 "testing/typed_vars.ml" 53 2000 2066
+)
+"testing/typed_vars.ml" 53 2000 2035 "testing/typed_vars.ml" 53 2000 2045
+type(
+  Longident.t
+)
+ident(
+  int_ref list_ident "testing/typed_vars.ml" 52 1954 1960 "testing/typed_vars.ml" 52 1954 1970
+)
+"testing/typed_vars.ml" 53 2000 2048 "testing/typed_vars.ml" 53 2000 2060
+type(
+  Parsetree.core_type_desc -> Parsetree.core_type
+)
+ident(
+  int_ref mk_core_type "testing/typed_vars.ml" 48 1865 1871 "testing/typed_vars.ml" 48 1865 1883
+)
+"testing/typed_vars.ml" 53 2000 2061 "testing/typed_vars.ml" 53 2000 2064
+type(
+  Parsetree.core_type_desc
+)
+ident(
+  int_ref arg "testing/typed_vars.ml" 53 2000 2016 "testing/typed_vars.ml" 53 2000 2019
+)
+"testing/typed_vars.ml" 53 2000 2048 "testing/typed_vars.ml" 53 2000 2064
+call(
+  stack
+)
+type(
+  Parsetree.core_type
+)
+"testing/typed_vars.ml" 53 2000 2047 "testing/typed_vars.ml" 53 2000 2065
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 53 2000 2022 "testing/typed_vars.ml" 53 2000 2066
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 54 2070 2076 "testing/typed_vars.ml" 54 2070 2082
+type(
+  Parsetree.core_type_desc
+)
+ident(
+  def tvar_a "testing/typed_vars.ml" 55 2101 2103 "testing/typed_vars.ml" 60 2247 2275
+)
+"testing/typed_vars.ml" 54 2070 2094 "testing/typed_vars.ml" 54 2070 2097
+type(
+  string
+)
+"testing/typed_vars.ml" 54 2070 2085 "testing/typed_vars.ml" 54 2070 2097
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 55 2101 2107 "testing/typed_vars.ml" 55 2101 2116
+type(
+  Parsetree.core_type list
+)
+ident(
+  def type_args "testing/typed_vars.ml" 60 2247 2249 "testing/typed_vars.ml" 60 2247 2275
+)
+"testing/typed_vars.ml" 56 2119 2129 "testing/typed_vars.ml" 56 2119 2134
+type(
+  string
+)
+ident(
+  int_ref gname "testing/typed_vars.ml" 47 1834 1857 "testing/typed_vars.ml" 47 1834 1862
+)
+"testing/typed_vars.ml" 57 2140 2146 "testing/typed_vars.ml" 57 2140 2150
+type(
+  string
+)
+"testing/typed_vars.ml" 57 2140 2154 "testing/typed_vars.ml" 57 2140 2156
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 58 2157 2163 "testing/typed_vars.ml" 58 2157 2167
+type(
+  string
+)
+"testing/typed_vars.ml" 58 2157 2171 "testing/typed_vars.ml" 58 2157 2179
+type(
+  (Parsetree.core_type_desc -> Parsetree.core_type) ->
+  Parsetree.core_type_desc list -> Parsetree.core_type list
+)
+ident(
+  ext_ref List.map
+)
+"testing/typed_vars.ml" 58 2157 2180 "testing/typed_vars.ml" 58 2157 2192
+type(
+  Parsetree.core_type_desc -> Parsetree.core_type
+)
+ident(
+  int_ref mk_core_type "testing/typed_vars.ml" 48 1865 1871 "testing/typed_vars.ml" 48 1865 1883
+)
+"testing/typed_vars.ml" 58 2157 2194 "testing/typed_vars.ml" 58 2157 2200
+type(
+  Parsetree.core_type_desc
+)
+ident(
+  int_ref tvar_a "testing/typed_vars.ml" 54 2070 2076 "testing/typed_vars.ml" 54 2070 2082
+)
+"testing/typed_vars.ml" 58 2157 2202 "testing/typed_vars.ml" 58 2157 2211
+type(
+  Parsetree.core_type_desc -> Parsetree.core_type_desc
+)
+ident(
+  int_ref list_type "testing/typed_vars.ml" 53 2000 2006 "testing/typed_vars.ml" 53 2000 2015
+)
+"testing/typed_vars.ml" 58 2157 2212 "testing/typed_vars.ml" 58 2157 2218
+type(
+  Parsetree.core_type_desc
+)
+ident(
+  int_ref tvar_a "testing/typed_vars.ml" 54 2070 2076 "testing/typed_vars.ml" 54 2070 2082
+)
+"testing/typed_vars.ml" 58 2157 2202 "testing/typed_vars.ml" 58 2157 2218
+call(
+  stack
+)
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 58 2157 2193 "testing/typed_vars.ml" 58 2157 2219
+type(
+  Parsetree.core_type_desc list
+)
+"testing/typed_vars.ml" 58 2157 2171 "testing/typed_vars.ml" 58 2157 2219
+call(
+  stack
+)
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 59 2220 2226 "testing/typed_vars.ml" 59 2220 2227
+type(
+  string
+)
+"testing/typed_vars.ml" 59 2220 2238 "testing/typed_vars.ml" 59 2220 2243
+type(
+  bool
+)
+"testing/typed_vars.ml" 59 2220 2231 "testing/typed_vars.ml" 59 2220 2243
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 56 2119 2123 "testing/typed_vars.ml" 59 2220 2243
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 60 2247 2250 "testing/typed_vars.ml" 60 2247 2256
+type(
+  string
+)
+"testing/typed_vars.ml" 60 2247 2259 "testing/typed_vars.ml" 60 2247 2262
+type(
+  string
+)
+"testing/typed_vars.ml" 60 2247 2258 "testing/typed_vars.ml" 60 2247 2263
+type(
+  string list
+)
+"testing/typed_vars.ml" 60 2247 2265 "testing/typed_vars.ml" 60 2247 2274
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref type_args "testing/typed_vars.ml" 55 2101 2107 "testing/typed_vars.ml" 55 2101 2116
+)
+"testing/typed_vars.ml" 60 2247 2249 "testing/typed_vars.ml" 60 2247 2275
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 55 2101 2103 "testing/typed_vars.ml" 60 2247 2275
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 54 2070 2072 "testing/typed_vars.ml" 60 2247 2275
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 53 2000 2002 "testing/typed_vars.ml" 60 2247 2275
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 52 1954 1956 "testing/typed_vars.ml" 60 2247 2275
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 48 1865 1867 "testing/typed_vars.ml" 60 2247 2275
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 65 2396 2400 "testing/typed_vars.ml" 65 2396 2412
+type(
+  Symb.symbol -> string * string list * Parsetree.core_type list
+)
+ident(
+  def general_type "testing/typed_vars.ml" 79 2823 2823 "testing/typed_vars.ml" 1 0 -1
+)
+"testing/typed_vars.ml" 65 2396 2413 "testing/typed_vars.ml" 65 2396 2414
+type(
+  Symb.symbol
+)
+ident(
+  def g "testing/typed_vars.ml" 66 2417 2419 "testing/typed_vars.ml" 76 2758 2818
+)
+"testing/typed_vars.ml" 66 2417 2423 "testing/typed_vars.ml" 66 2417 2428
+type(
+  string
+)
+ident(
+  def gname "testing/typed_vars.ml" 67 2453 2455 "testing/typed_vars.ml" 76 2758 2818
+)
+"testing/typed_vars.ml" 66 2417 2431 "testing/typed_vars.ml" 66 2417 2447
+type(
+  Symb.symbol -> string
+)
+ident(
+  ext_ref Symb.string_of_symbol
+)
+"testing/typed_vars.ml" 66 2417 2448 "testing/typed_vars.ml" 66 2417 2449
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "testing/typed_vars.ml" 65 2396 2413 "testing/typed_vars.ml" 65 2396 2414
+)
+"testing/typed_vars.ml" 66 2417 2431 "testing/typed_vars.ml" 66 2417 2449
+call(
+  stack
+)
+type(
+  string
+)
+"testing/typed_vars.ml" 67 2453 2461 "testing/typed_vars.ml" 67 2453 2466
+type(
+  string
+)
+ident(
+  int_ref gname "testing/typed_vars.ml" 66 2417 2423 "testing/typed_vars.ml" 66 2417 2428
+)
+"testing/typed_vars.ml" 68 2472 2476 "testing/typed_vars.ml" 68 2472 2480
+type(
+  string
+)
+"testing/typed_vars.ml" 68 2472 2483 "testing/typed_vars.ml" 68 2472 2487
+type(
+  string
+)
+"testing/typed_vars.ml" 68 2472 2476 "testing/typed_vars.ml" 68 2472 2487
+type(
+  string
+)
+"testing/typed_vars.ml" 68 2472 2491 "testing/typed_vars.ml" 68 2472 2509
+type(
+  string -> string * string list * Parsetree.core_type list
+)
+ident(
+  int_ref known_general_type "testing/typed_vars.ml" 47 1834 1838 "testing/typed_vars.ml" 47 1834 1856
+)
+"testing/typed_vars.ml" 68 2472 2510 "testing/typed_vars.ml" 68 2472 2515
+type(
+  string
+)
+ident(
+  int_ref gname "testing/typed_vars.ml" 66 2417 2423 "testing/typed_vars.ml" 66 2417 2428
+)
+"testing/typed_vars.ml" 68 2472 2491 "testing/typed_vars.ml" 68 2472 2515
+call(
+  tail
+)
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 69 2516 2520 "testing/typed_vars.ml" 69 2516 2521
+type(
+  string
+)
+"testing/typed_vars.ml" 70 2525 2533 "testing/typed_vars.ml" 70 2525 2539
+type(
+  Check.generator_info
+)
+ident(
+  def g_info "testing/typed_vars.ml" 71 2562 2566 "testing/typed_vars.ml" 76 2758 2818
+)
+"testing/typed_vars.ml" 70 2525 2542 "testing/typed_vars.ml" 70 2525 2556
+type(
+  Symb.symbol -> Check.generator_info
+)
+ident(
+  int_ref generator_info "testing/typed_vars.ml" 33 1414 1418 "testing/typed_vars.ml" 33 1414 1432
+)
+"testing/typed_vars.ml" 70 2525 2557 "testing/typed_vars.ml" 70 2525 2558
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "testing/typed_vars.ml" 65 2396 2413 "testing/typed_vars.ml" 65 2396 2414
+)
+"testing/typed_vars.ml" 70 2525 2542 "testing/typed_vars.ml" 70 2525 2558
+call(
+  stack
+)
+type(
+  Check.generator_info
+)
+"testing/typed_vars.ml" 71 2562 2570 "testing/typed_vars.ml" 71 2562 2579
+type(
+  string
+)
+ident(
+  def type_name "testing/typed_vars.ml" 72 2605 2609 "testing/typed_vars.ml" 76 2758 2818
+)
+"testing/typed_vars.ml" 71 2562 2582 "testing/typed_vars.ml" 71 2562 2588
+type(
+  Check.generator_info
+)
+ident(
+  int_ref g_info "testing/typed_vars.ml" 70 2525 2533 "testing/typed_vars.ml" 70 2525 2539
+)
+"testing/typed_vars.ml" 71 2562 2582 "testing/typed_vars.ml" 71 2562 2601
+type(
+  string
+)
+"testing/typed_vars.ml" 73 2613 2623 "testing/typed_vars.ml" 73 2613 2629
+type(
+  string list
+)
+ident(
+  def params "testing/typed_vars.ml" 74 2687 2693 "testing/typed_vars.ml" 74 2687 2733
+)
+"testing/typed_vars.ml" 73 2613 2633 "testing/typed_vars.ml" 73 2613 2659
+type(
+  string -> Parsetree.type_declaration
+)
+ident(
+  ext_ref Check.find_type_name_declaration
+)
+"testing/typed_vars.ml" 73 2613 2660 "testing/typed_vars.ml" 73 2613 2669
+type(
+  string
+)
+ident(
+  int_ref type_name "testing/typed_vars.ml" 71 2562 2570 "testing/typed_vars.ml" 71 2562 2579
+)
+"testing/typed_vars.ml" 73 2613 2632 "testing/typed_vars.ml" 73 2613 2670
+call(
+  stack
+)
+type(
+  Parsetree.type_declaration
+)
+"testing/typed_vars.ml" 73 2613 2632 "testing/typed_vars.ml" 73 2613 2683
+type(
+  string list
+)
+"testing/typed_vars.ml" 74 2687 2694 "testing/typed_vars.ml" 74 2687 2703
+type(
+  string
+)
+ident(
+  int_ref type_name "testing/typed_vars.ml" 71 2562 2570 "testing/typed_vars.ml" 71 2562 2579
+)
+"testing/typed_vars.ml" 74 2687 2705 "testing/typed_vars.ml" 74 2687 2711
+type(
+  string list
+)
+ident(
+  int_ref params "testing/typed_vars.ml" 73 2613 2623 "testing/typed_vars.ml" 73 2613 2629
+)
+"testing/typed_vars.ml" 74 2687 2713 "testing/typed_vars.ml" 74 2687 2719
+type(
+  Check.generator_info
+)
+ident(
+  int_ref g_info "testing/typed_vars.ml" 70 2525 2533 "testing/typed_vars.ml" 70 2525 2539
+)
+"testing/typed_vars.ml" 74 2687 2713 "testing/typed_vars.ml" 74 2687 2732
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 74 2687 2693 "testing/typed_vars.ml" 74 2687 2733
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 73 2613 2619 "testing/typed_vars.ml" 74 2687 2733
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 75 2739 2745 "testing/typed_vars.ml" 75 2739 2754
+type(
+  exn
+)
+"testing/typed_vars.ml" 76 2758 2764 "testing/typed_vars.ml" 76 2758 2769
+type(
+  exn -> string * string list * Parsetree.core_type list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"testing/typed_vars.ml" 76 2758 2800 "testing/typed_vars.ml" 76 2758 2805
+type(
+  string
+)
+ident(
+  int_ref gname "testing/typed_vars.ml" 66 2417 2423 "testing/typed_vars.ml" 66 2417 2428
+)
+"testing/typed_vars.ml" 76 2758 2807 "testing/typed_vars.ml" 76 2758 2816
+type(
+  string
+)
+ident(
+  int_ref type_name "testing/typed_vars.ml" 71 2562 2570 "testing/typed_vars.ml" 71 2562 2579
+)
+"testing/typed_vars.ml" 76 2758 2770 "testing/typed_vars.ml" 76 2758 2818
+type(
+  exn
+)
+"testing/typed_vars.ml" 76 2758 2764 "testing/typed_vars.ml" 76 2758 2818
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 72 2605 2609 "testing/typed_vars.ml" 76 2758 2818
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 71 2562 2566 "testing/typed_vars.ml" 76 2758 2818
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 70 2525 2529 "testing/typed_vars.ml" 76 2758 2818
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 67 2453 2455 "testing/typed_vars.ml" 76 2758 2818
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 66 2417 2419 "testing/typed_vars.ml" 76 2758 2818
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 79 2823 2831 "testing/typed_vars.ml" 79 2823 2845
+type(
+  Parsetree.core_type option ->
+  string * string list * Parsetree.core_type list -> Parsetree.core_type list
+)
+ident(
+  def unif_arg_types "testing/typed_vars.ml" 79 2823 2823 "testing/typed_vars.ml" 1 0 -1
+)
+"testing/typed_vars.ml" 79 2823 2846 "testing/typed_vars.ml" 79 2823 2850
+type(
+  Parsetree.core_type option
+)
+ident(
+  def topt "testing/typed_vars.ml" 79 2823 2851 "testing/typed_vars.ml" 92 3427 3434
+)
+"testing/typed_vars.ml" 79 2823 2852 "testing/typed_vars.ml" 79 2823 2857
+type(
+  string
+)
+ident(
+  def tname "testing/typed_vars.ml" 80 2880 2882 "testing/typed_vars.ml" 92 3427 3434
+)
+"testing/typed_vars.ml" 79 2823 2859 "testing/typed_vars.ml" 79 2823 2865
+type(
+  string list
+)
+ident(
+  def params "testing/typed_vars.ml" 80 2880 2882 "testing/typed_vars.ml" 92 3427 3434
+)
+"testing/typed_vars.ml" 79 2823 2867 "testing/typed_vars.ml" 79 2823 2876
+type(
+  Parsetree.core_type list
+)
+ident(
+  def arg_types "testing/typed_vars.ml" 80 2880 2882 "testing/typed_vars.ml" 92 3427 3434
+)
+"testing/typed_vars.ml" 79 2823 2851 "testing/typed_vars.ml" 79 2823 2877
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 80 2880 2888 "testing/typed_vars.ml" 80 2880 2892
+type(
+  Parsetree.core_type option
+)
+ident(
+  int_ref topt "testing/typed_vars.ml" 79 2823 2846 "testing/typed_vars.ml" 79 2823 2850
+)
+"testing/typed_vars.ml" 81 2898 2902 "testing/typed_vars.ml" 81 2898 2906
+type(
+  Parsetree.core_type option
+)
+"testing/typed_vars.ml" 81 2898 2910 "testing/typed_vars.ml" 81 2898 2919
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref arg_types "testing/typed_vars.ml" 79 2823 2867 "testing/typed_vars.ml" 79 2823 2876
+)
+"testing/typed_vars.ml" 82 2920 2929 "testing/typed_vars.ml" 82 2920 2938
+type(
+  Parsetree.core_type
+)
+ident(
+  def core_type "testing/typed_vars.ml" 83 2942 2946 "testing/typed_vars.ml" 92 3427 3434
+)
+"testing/typed_vars.ml" 82 2920 2924 "testing/typed_vars.ml" 82 2920 2938
+type(
+  Parsetree.core_type option
+)
+"testing/typed_vars.ml" 83 2942 2958 "testing/typed_vars.ml" 83 2942 2967
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref core_type "testing/typed_vars.ml" 82 2920 2929 "testing/typed_vars.ml" 82 2920 2938
+)
+"testing/typed_vars.ml" 83 2942 2958 "testing/typed_vars.ml" 83 2942 2977
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 84 2983 2989 "testing/typed_vars.ml" 84 2983 2997
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 84 2983 3009 "testing/typed_vars.ml" 84 2983 3010
+type(
+  string
+)
+"testing/typed_vars.ml" 84 2983 3000 "testing/typed_vars.ml" 84 2983 3010
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 84 2983 2989 "testing/typed_vars.ml" 84 2983 3010
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 84 2983 3024 "testing/typed_vars.ml" 84 2983 3025
+type(
+  Parsetree.core_type
+)
+type(
+  Parsetree.core_type
+)
+type(
+  Asttypes.label
+)
+"testing/typed_vars.ml" 84 2983 3013 "testing/typed_vars.ml" 84 2983 3025
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 84 2983 2989 "testing/typed_vars.ml" 84 2983 3025
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 84 2983 3039 "testing/typed_vars.ml" 84 2983 3040
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 84 2983 3028 "testing/typed_vars.ml" 84 2983 3040
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 84 2983 2989 "testing/typed_vars.ml" 84 2983 3040
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 85 3041 3059 "testing/typed_vars.ml" 85 3041 3060
+type(
+  Parsetree.core_field_type list
+)
+"testing/typed_vars.ml" 85 3041 3047 "testing/typed_vars.ml" 85 3041 3060
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 84 2983 2989 "testing/typed_vars.ml" 85 3041 3060
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 85 3041 3074 "testing/typed_vars.ml" 85 3041 3075
+type(
+  Asttypes.label list
+)
+type(
+  Parsetree.core_type list
+)
+type(
+  Longident.t
+)
+"testing/typed_vars.ml" 85 3041 3063 "testing/typed_vars.ml" 85 3041 3075
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 84 2983 2989 "testing/typed_vars.ml" 85 3041 3075
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 85 3041 3089 "testing/typed_vars.ml" 85 3041 3090
+type(
+  string
+)
+type(
+  Parsetree.core_type
+)
+"testing/typed_vars.ml" 85 3041 3078 "testing/typed_vars.ml" 85 3041 3090
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 84 2983 2989 "testing/typed_vars.ml" 85 3041 3090
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 86 3091 3110 "testing/typed_vars.ml" 86 3091 3111
+type(
+  Asttypes.label list option
+)
+type(
+  bool
+)
+type(
+  Parsetree.row_field list
+)
+"testing/typed_vars.ml" 86 3091 3097 "testing/typed_vars.ml" 86 3091 3111
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 84 2983 2989 "testing/typed_vars.ml" 86 3091 3111
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 86 3091 3124 "testing/typed_vars.ml" 86 3091 3125
+type(
+  Parsetree.core_type
+)
+type(
+  string list
+)
+"testing/typed_vars.ml" 86 3091 3114 "testing/typed_vars.ml" 86 3091 3125
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 84 2983 2989 "testing/typed_vars.ml" 86 3091 3125
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 86 3091 3129 "testing/typed_vars.ml" 86 3091 3138
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref arg_types "testing/typed_vars.ml" 79 2823 2867 "testing/typed_vars.ml" 79 2823 2876
+)
+"testing/typed_vars.ml" 87 3139 3158 "testing/typed_vars.ml" 87 3139 3168
+type(
+  Longident.t
+)
+ident(
+  def real_ident "testing/typed_vars.ml" 88 3184 3190 "testing/typed_vars.ml" 89 3255 3284
+)
+"testing/typed_vars.ml" 87 3139 3170 "testing/typed_vars.ml" 87 3139 3179
+type(
+  Parsetree.core_type list
+)
+ident(
+  def real_args "testing/typed_vars.ml" 88 3184 3190 "testing/typed_vars.ml" 89 3255 3284
+)
+"testing/typed_vars.ml" 87 3139 3145 "testing/typed_vars.ml" 87 3139 3180
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 88 3184 3194 "testing/typed_vars.ml" 88 3184 3201
+type(
+  (string * Parsetree.core_type) list
+)
+ident(
+  def binding "testing/typed_vars.ml" 89 3255 3261 "testing/typed_vars.ml" 89 3255 3284
+)
+"testing/typed_vars.ml" 88 3184 3204 "testing/typed_vars.ml" 88 3184 3217
+type(
+  Longident.t ->
+  Parsetree.core_type list ->
+  string -> string list -> (string * Parsetree.core_type) list
+)
+ident(
+  int_ref build_binding "testing/typed_vars.ml" 94 3436 3440 "testing/typed_vars.ml" 94 3436 3453
+)
+"testing/typed_vars.ml" 88 3184 3218 "testing/typed_vars.ml" 88 3184 3228
+type(
+  Longident.t
+)
+ident(
+  int_ref real_ident "testing/typed_vars.ml" 87 3139 3158 "testing/typed_vars.ml" 87 3139 3168
+)
+"testing/typed_vars.ml" 88 3184 3229 "testing/typed_vars.ml" 88 3184 3238
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref real_args "testing/typed_vars.ml" 87 3139 3170 "testing/typed_vars.ml" 87 3139 3179
+)
+"testing/typed_vars.ml" 88 3184 3239 "testing/typed_vars.ml" 88 3184 3244
+type(
+  string
+)
+ident(
+  int_ref tname "testing/typed_vars.ml" 79 2823 2852 "testing/typed_vars.ml" 79 2823 2857
+)
+"testing/typed_vars.ml" 88 3184 3245 "testing/typed_vars.ml" 88 3184 3251
+type(
+  string list
+)
+ident(
+  int_ref params "testing/typed_vars.ml" 79 2823 2859 "testing/typed_vars.ml" 79 2823 2865
+)
+"testing/typed_vars.ml" 88 3184 3204 "testing/typed_vars.ml" 88 3184 3251
+call(
+  stack
+)
+type(
+  (string * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 89 3255 3261 "testing/typed_vars.ml" 89 3255 3266
+type(
+  (string * Parsetree.core_type) list ->
+  Parsetree.core_type list -> Parsetree.core_type list
+)
+ident(
+  ext_ref Otype.subst
+)
+"testing/typed_vars.ml" 89 3255 3267 "testing/typed_vars.ml" 89 3255 3274
+type(
+  (string * Parsetree.core_type) list
+)
+ident(
+  int_ref binding "testing/typed_vars.ml" 88 3184 3194 "testing/typed_vars.ml" 88 3184 3201
+)
+"testing/typed_vars.ml" 89 3255 3275 "testing/typed_vars.ml" 89 3255 3284
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref arg_types "testing/typed_vars.ml" 79 2823 2867 "testing/typed_vars.ml" 79 2823 2876
+)
+"testing/typed_vars.ml" 89 3255 3261 "testing/typed_vars.ml" 89 3255 3284
+call(
+  tail
+)
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 88 3184 3190 "testing/typed_vars.ml" 89 3255 3284
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 90 3285 3303 "testing/typed_vars.ml" 90 3285 3304
+type(
+  Parsetree.core_type
+)
+ident(
+  def t "testing/typed_vars.ml" 90 3285 3308 "testing/typed_vars.ml" 90 3285 3358
+)
+"testing/typed_vars.ml" 90 3285 3291 "testing/typed_vars.ml" 90 3285 3304
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 90 3285 3308 "testing/typed_vars.ml" 90 3285 3322
+type(
+  Parsetree.core_type option ->
+  string * string list * Parsetree.core_type list -> Parsetree.core_type list
+)
+ident(
+  int_ref unif_arg_types "testing/typed_vars.ml" 79 2823 2831 "testing/typed_vars.ml" 79 2823 2845
+)
+"testing/typed_vars.ml" 90 3285 3329 "testing/typed_vars.ml" 90 3285 3330
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref t "testing/typed_vars.ml" 90 3285 3303 "testing/typed_vars.ml" 90 3285 3304
+)
+"testing/typed_vars.ml" 90 3285 3323 "testing/typed_vars.ml" 90 3285 3331
+type(
+  Parsetree.core_type option
+)
+"testing/typed_vars.ml" 90 3285 3333 "testing/typed_vars.ml" 90 3285 3338
+type(
+  string
+)
+ident(
+  int_ref tname "testing/typed_vars.ml" 79 2823 2852 "testing/typed_vars.ml" 79 2823 2857
+)
+"testing/typed_vars.ml" 90 3285 3340 "testing/typed_vars.ml" 90 3285 3346
+type(
+  string list
+)
+ident(
+  int_ref params "testing/typed_vars.ml" 79 2823 2859 "testing/typed_vars.ml" 79 2823 2865
+)
+"testing/typed_vars.ml" 90 3285 3348 "testing/typed_vars.ml" 90 3285 3357
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref arg_types "testing/typed_vars.ml" 79 2823 2867 "testing/typed_vars.ml" 79 2823 2876
+)
+"testing/typed_vars.ml" 90 3285 3332 "testing/typed_vars.ml" 90 3285 3358
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 90 3285 3308 "testing/typed_vars.ml" 90 3285 3358
+call(
+  tail
+)
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 91 3359 3378 "testing/typed_vars.ml" 91 3359 3379
+type(
+  Parsetree.package_type
+)
+"testing/typed_vars.ml" 91 3359 3365 "testing/typed_vars.ml" 91 3359 3379
+type(
+  Parsetree.core_type_desc
+)
+"testing/typed_vars.ml" 91 3359 3383 "testing/typed_vars.ml" 91 3359 3391
+type(
+  string -> Parsetree.core_type list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"testing/typed_vars.ml" 91 3359 3392 "testing/typed_vars.ml" 91 3359 3426
+type(
+  string
+)
+"testing/typed_vars.ml" 91 3359 3383 "testing/typed_vars.ml" 91 3359 3426
+call(
+  tail
+)
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 83 2942 2946 "testing/typed_vars.ml" 92 3427 3434
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 80 2880 2882 "testing/typed_vars.ml" 92 3427 3434
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 94 3436 3440 "testing/typed_vars.ml" 94 3436 3453
+type(
+  Longident.t ->
+  Parsetree.core_type list ->
+  string -> string list -> (string * Parsetree.core_type) list
+)
+ident(
+  def build_binding "testing/typed_vars.ml" 79 2823 2823 "testing/typed_vars.ml" 1 0 -1
+)
+"testing/typed_vars.ml" 94 3436 3454 "testing/typed_vars.ml" 94 3436 3464
+type(
+  Longident.t
+)
+ident(
+  def real_ident "testing/typed_vars.ml" 94 3436 3465 "testing/typed_vars.ml" 105 3919 3955
+)
+"testing/typed_vars.ml" 94 3436 3465 "testing/typed_vars.ml" 94 3436 3474
+type(
+  Parsetree.core_type list
+)
+ident(
+  def real_args "testing/typed_vars.ml" 94 3436 3475 "testing/typed_vars.ml" 105 3919 3955
+)
+"testing/typed_vars.ml" 94 3436 3475 "testing/typed_vars.ml" 94 3436 3480
+type(
+  string
+)
+ident(
+  def tname "testing/typed_vars.ml" 94 3436 3481 "testing/typed_vars.ml" 105 3919 3955
+)
+"testing/typed_vars.ml" 94 3436 3481 "testing/typed_vars.ml" 94 3436 3487
+type(
+  string list
+)
+ident(
+  def params "testing/typed_vars.ml" 95 3490 3492 "testing/typed_vars.ml" 105 3919 3955
+)
+"testing/typed_vars.ml" 95 3490 3496 "testing/typed_vars.ml" 95 3490 3503
+type(
+  int
+)
+ident(
+  def lparams "testing/typed_vars.ml" 96 3528 3530 "testing/typed_vars.ml" 105 3919 3955
+)
+"testing/typed_vars.ml" 95 3490 3506 "testing/typed_vars.ml" 95 3490 3517
+type(
+  string list -> int
+)
+ident(
+  ext_ref List.length
+)
+"testing/typed_vars.ml" 95 3490 3518 "testing/typed_vars.ml" 95 3490 3524
+type(
+  string list
+)
+ident(
+  int_ref params "testing/typed_vars.ml" 94 3436 3481 "testing/typed_vars.ml" 94 3436 3487
+)
+"testing/typed_vars.ml" 95 3490 3506 "testing/typed_vars.ml" 95 3490 3524
+call(
+  stack
+)
+type(
+  int
+)
+"testing/typed_vars.ml" 96 3528 3534 "testing/typed_vars.ml" 96 3528 3544
+type(
+  int
+)
+ident(
+  def lreal_args "testing/typed_vars.ml" 101 3742 3744 "testing/typed_vars.ml" 105 3919 3955
+)
+"testing/typed_vars.ml" 96 3528 3547 "testing/typed_vars.ml" 96 3528 3558
+type(
+  Parsetree.core_type list -> int
+)
+ident(
+  ext_ref List.length
+)
+"testing/typed_vars.ml" 96 3528 3559 "testing/typed_vars.ml" 96 3528 3568
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref real_args "testing/typed_vars.ml" 94 3436 3465 "testing/typed_vars.ml" 94 3436 3474
+)
+"testing/typed_vars.ml" 96 3528 3547 "testing/typed_vars.ml" 96 3528 3568
+call(
+  stack
+)
+type(
+  int
+)
+"testing/typed_vars.ml" 101 3742 3747 "testing/typed_vars.ml" 101 3742 3757
+type(
+  Longident.t
+)
+ident(
+  int_ref real_ident "testing/typed_vars.ml" 94 3436 3454 "testing/typed_vars.ml" 94 3436 3464
+)
+"testing/typed_vars.ml" 101 3742 3758 "testing/typed_vars.ml" 101 3742 3760
+type(
+  Longident.t -> Longident.t -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"testing/typed_vars.ml" 101 3742 3778 "testing/typed_vars.ml" 101 3742 3783
+type(
+  string
+)
+ident(
+  int_ref tname "testing/typed_vars.ml" 94 3436 3475 "testing/typed_vars.ml" 94 3436 3480
+)
+"testing/typed_vars.ml" 101 3742 3761 "testing/typed_vars.ml" 101 3742 3783
+type(
+  Longident.t
+)
+"testing/typed_vars.ml" 101 3742 3747 "testing/typed_vars.ml" 101 3742 3783
+type(
+  bool
+)
+"testing/typed_vars.ml" 102 3784 3791 "testing/typed_vars.ml" 102 3784 3796
+type(
+  exn -> (string * Parsetree.core_type) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"testing/typed_vars.ml" 102 3784 3816 "testing/typed_vars.ml" 102 3784 3821
+type(
+  string
+)
+ident(
+  int_ref tname "testing/typed_vars.ml" 94 3436 3475 "testing/typed_vars.ml" 94 3436 3480
+)
+"testing/typed_vars.ml" 102 3784 3797 "testing/typed_vars.ml" 102 3784 3822
+type(
+  exn
+)
+"testing/typed_vars.ml" 102 3784 3791 "testing/typed_vars.ml" 102 3784 3822
+type(
+  (string * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 103 3823 3833 "testing/typed_vars.ml" 103 3823 3840
+type(
+  int
+)
+ident(
+  int_ref lparams "testing/typed_vars.ml" 95 3490 3496 "testing/typed_vars.ml" 95 3490 3503
+)
+"testing/typed_vars.ml" 103 3823 3841 "testing/typed_vars.ml" 103 3823 3843
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"testing/typed_vars.ml" 103 3823 3844 "testing/typed_vars.ml" 103 3823 3854
+type(
+  int
+)
+ident(
+  int_ref lreal_args "testing/typed_vars.ml" 96 3528 3534 "testing/typed_vars.ml" 96 3528 3544
+)
+"testing/typed_vars.ml" 103 3823 3833 "testing/typed_vars.ml" 103 3823 3854
+type(
+  bool
+)
+"testing/typed_vars.ml" 104 3855 3862 "testing/typed_vars.ml" 104 3855 3867
+type(
+  exn -> (string * Parsetree.core_type) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"testing/typed_vars.ml" 104 3855 3890 "testing/typed_vars.ml" 104 3855 3895
+type(
+  string
+)
+ident(
+  int_ref tname "testing/typed_vars.ml" 94 3436 3475 "testing/typed_vars.ml" 94 3436 3480
+)
+"testing/typed_vars.ml" 104 3855 3897 "testing/typed_vars.ml" 104 3855 3904
+type(
+  int
+)
+ident(
+  int_ref lparams "testing/typed_vars.ml" 95 3490 3496 "testing/typed_vars.ml" 95 3490 3503
+)
+"testing/typed_vars.ml" 104 3855 3906 "testing/typed_vars.ml" 104 3855 3916
+type(
+  int
+)
+ident(
+  int_ref lreal_args "testing/typed_vars.ml" 96 3528 3534 "testing/typed_vars.ml" 96 3528 3544
+)
+"testing/typed_vars.ml" 104 3855 3868 "testing/typed_vars.ml" 104 3855 3918
+type(
+  exn
+)
+"testing/typed_vars.ml" 104 3855 3862 "testing/typed_vars.ml" 104 3855 3918
+type(
+  (string * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 105 3919 3926 "testing/typed_vars.ml" 105 3919 3938
+type(
+  string list ->
+  Parsetree.core_type list -> (string * Parsetree.core_type) list
+)
+ident(
+  ext_ref List.combine
+)
+"testing/typed_vars.ml" 105 3919 3939 "testing/typed_vars.ml" 105 3919 3945
+type(
+  string list
+)
+ident(
+  int_ref params "testing/typed_vars.ml" 94 3436 3481 "testing/typed_vars.ml" 94 3436 3487
+)
+"testing/typed_vars.ml" 105 3919 3946 "testing/typed_vars.ml" 105 3919 3955
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref real_args "testing/typed_vars.ml" 94 3436 3465 "testing/typed_vars.ml" 94 3436 3474
+)
+"testing/typed_vars.ml" 105 3919 3926 "testing/typed_vars.ml" 105 3919 3955
+call(
+  tail
+)
+type(
+  (string * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 103 3823 3830 "testing/typed_vars.ml" 105 3919 3955
+type(
+  (string * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 101 3742 3744 "testing/typed_vars.ml" 105 3919 3955
+type(
+  (string * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 96 3528 3530 "testing/typed_vars.ml" 105 3919 3955
+type(
+  (string * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 95 3490 3492 "testing/typed_vars.ml" 105 3919 3955
+type(
+  (string * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 108 3960 3964 "testing/typed_vars.ml" 108 3960 3977
+type(
+  Parsetree.core_type option ->
+  Symb.symbol -> 'a list -> Parsetree.core_type list
+)
+ident(
+  def checked_types "testing/typed_vars.ml" 117 4256 4256 "testing/typed_vars.ml" 1 0 -1
+)
+"testing/typed_vars.ml" 108 3960 3978 "testing/typed_vars.ml" 108 3960 3991
+type(
+  Parsetree.core_type option
+)
+ident(
+  def real_type_opt "testing/typed_vars.ml" 108 3960 3992 "testing/typed_vars.ml" 114 4235 4251
+)
+"testing/typed_vars.ml" 108 3960 3992 "testing/typed_vars.ml" 108 3960 3993
+type(
+  Symb.symbol
+)
+ident(
+  def g "testing/typed_vars.ml" 108 3960 3994 "testing/typed_vars.ml" 114 4235 4251
+)
+"testing/typed_vars.ml" 108 3960 3994 "testing/typed_vars.ml" 108 3960 3999
+type(
+  'a list
+)
+ident(
+  def terms "testing/typed_vars.ml" 109 4002 4004 "testing/typed_vars.ml" 114 4235 4251
+)
+"testing/typed_vars.ml" 109 4002 4008 "testing/typed_vars.ml" 109 4002 4014
+type(
+  string * string list * Parsetree.core_type list
+)
+ident(
+  def g_type "testing/typed_vars.ml" 110 4035 4037 "testing/typed_vars.ml" 114 4235 4251
+)
+"testing/typed_vars.ml" 109 4002 4017 "testing/typed_vars.ml" 109 4002 4029
+type(
+  Symb.symbol -> string * string list * Parsetree.core_type list
+)
+ident(
+  int_ref general_type "testing/typed_vars.ml" 65 2396 2400 "testing/typed_vars.ml" 65 2396 2412
+)
+"testing/typed_vars.ml" 109 4002 4030 "testing/typed_vars.ml" 109 4002 4031
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "testing/typed_vars.ml" 108 3960 3992 "testing/typed_vars.ml" 108 3960 3993
+)
+"testing/typed_vars.ml" 109 4002 4017 "testing/typed_vars.ml" 109 4002 4031
+call(
+  stack
+)
+type(
+  string * string list * Parsetree.core_type list
+)
+"testing/typed_vars.ml" 110 4035 4041 "testing/typed_vars.ml" 110 4035 4050
+type(
+  Parsetree.core_type list
+)
+ident(
+  def arg_types "testing/typed_vars.ml" 111 4092 4094 "testing/typed_vars.ml" 114 4235 4251
+)
+"testing/typed_vars.ml" 110 4035 4053 "testing/typed_vars.ml" 110 4035 4067
+type(
+  Parsetree.core_type option ->
+  string * string list * Parsetree.core_type list -> Parsetree.core_type list
+)
+ident(
+  int_ref unif_arg_types "testing/typed_vars.ml" 79 2823 2831 "testing/typed_vars.ml" 79 2823 2845
+)
+"testing/typed_vars.ml" 110 4035 4068 "testing/typed_vars.ml" 110 4035 4081
+type(
+  Parsetree.core_type option
+)
+ident(
+  int_ref real_type_opt "testing/typed_vars.ml" 108 3960 3978 "testing/typed_vars.ml" 108 3960 3991
+)
+"testing/typed_vars.ml" 110 4035 4082 "testing/typed_vars.ml" 110 4035 4088
+type(
+  string * string list * Parsetree.core_type list
+)
+ident(
+  int_ref g_type "testing/typed_vars.ml" 109 4002 4008 "testing/typed_vars.ml" 109 4002 4014
+)
+"testing/typed_vars.ml" 110 4035 4053 "testing/typed_vars.ml" 110 4035 4088
+call(
+  stack
+)
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 111 4092 4097 "testing/typed_vars.ml" 111 4092 4107
+type(
+  Symb.symbol -> bool
+)
+ident(
+  int_ref is_listary "testing/typed_vars.ml" 39 1583 1587 "testing/typed_vars.ml" 39 1583 1597
+)
+"testing/typed_vars.ml" 111 4092 4108 "testing/typed_vars.ml" 111 4092 4109
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "testing/typed_vars.ml" 108 3960 3992 "testing/typed_vars.ml" 108 3960 3993
+)
+"testing/typed_vars.ml" 111 4092 4097 "testing/typed_vars.ml" 111 4092 4109
+call(
+  stack
+)
+type(
+  bool
+)
+"testing/typed_vars.ml" 112 4125 4133 "testing/typed_vars.ml" 112 4125 4141
+type(
+  Parsetree.core_type
+)
+ident(
+  def arg_type "testing/typed_vars.ml" 113 4185 4189 "testing/typed_vars.ml" 113 4185 4234
+)
+"testing/typed_vars.ml" 112 4125 4144 "testing/typed_vars.ml" 112 4125 4171
+type(
+  Parsetree.core_type list -> Parsetree.core_type
+)
+ident(
+  ext_ref Otype.argument_of_type_list
+)
+"testing/typed_vars.ml" 112 4125 4172 "testing/typed_vars.ml" 112 4125 4181
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref arg_types "testing/typed_vars.ml" 110 4035 4041 "testing/typed_vars.ml" 110 4035 4050
+)
+"testing/typed_vars.ml" 112 4125 4144 "testing/typed_vars.ml" 112 4125 4181
+call(
+  stack
+)
+type(
+  Parsetree.core_type
+)
+"testing/typed_vars.ml" 113 4185 4189 "testing/typed_vars.ml" 113 4185 4205
+type(
+  int -> Parsetree.core_type -> Parsetree.core_type list
+)
+ident(
+  ext_ref Listutils.repeat
+)
+"testing/typed_vars.ml" 113 4185 4207 "testing/typed_vars.ml" 113 4185 4218
+type(
+  'a list -> int
+)
+ident(
+  ext_ref List.length
+)
+"testing/typed_vars.ml" 113 4185 4219 "testing/typed_vars.ml" 113 4185 4224
+type(
+  'a list
+)
+ident(
+  int_ref terms "testing/typed_vars.ml" 108 3960 3994 "testing/typed_vars.ml" 108 3960 3999
+)
+"testing/typed_vars.ml" 113 4185 4206 "testing/typed_vars.ml" 113 4185 4225
+call(
+  stack
+)
+type(
+  int
+)
+"testing/typed_vars.ml" 113 4185 4226 "testing/typed_vars.ml" 113 4185 4234
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref arg_type "testing/typed_vars.ml" 112 4125 4133 "testing/typed_vars.ml" 112 4125 4141
+)
+"testing/typed_vars.ml" 113 4185 4189 "testing/typed_vars.ml" 113 4185 4234
+call(
+  tail
+)
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 112 4125 4129 "testing/typed_vars.ml" 113 4185 4234
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 114 4235 4242 "testing/typed_vars.ml" 114 4235 4251
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref arg_types "testing/typed_vars.ml" 110 4035 4041 "testing/typed_vars.ml" 110 4035 4050
+)
+"testing/typed_vars.ml" 111 4092 4094 "testing/typed_vars.ml" 114 4235 4251
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 110 4035 4037 "testing/typed_vars.ml" 114 4235 4251
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 109 4002 4004 "testing/typed_vars.ml" 114 4235 4251
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 117 4256 4264 "testing/typed_vars.ml" 117 4256 4282
+type(
+  Parsetree.core_type option ->
+  Term.term -> (Var.var * Parsetree.core_type) list
+)
+ident(
+  def checked_typed_vars "testing/typed_vars.ml" 117 4256 4256 "testing/typed_vars.ml" 1 0 -1
+)
+"testing/typed_vars.ml" 117 4256 4283 "testing/typed_vars.ml" 117 4256 4287
+type(
+  Parsetree.core_type option
+)
+ident(
+  def topt "testing/typed_vars.ml" 117 4256 4290 "testing/typed_vars.ml" 125 4550 4599
+)
+"testing/typed_vars.ml" 118 4299 4307 "testing/typed_vars.ml" 118 4299 4308
+type(
+  Var.var
+)
+"testing/typed_vars.ml" 118 4299 4303 "testing/typed_vars.ml" 118 4299 4308
+type(
+  Term.term
+)
+"testing/typed_vars.ml" 118 4299 4312 "testing/typed_vars.ml" 118 4299 4314
+type(
+  (Var.var * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 119 4315 4324 "testing/typed_vars.ml" 119 4315 4325
+type(
+  Symb.symbol
+)
+ident(
+  def c "testing/typed_vars.ml" 120 4337 4341 "testing/typed_vars.ml" 125 4550 4599
+)
+"testing/typed_vars.ml" 119 4315 4327 "testing/typed_vars.ml" 119 4315 4332
+type(
+  Term.term list
+)
+ident(
+  def terms "testing/typed_vars.ml" 120 4337 4341 "testing/typed_vars.ml" 125 4550 4599
+)
+"testing/typed_vars.ml" 119 4315 4319 "testing/typed_vars.ml" 119 4315 4333
+type(
+  Term.term
+)
+"testing/typed_vars.ml" 120 4337 4345 "testing/typed_vars.ml" 120 4337 4356
+type(
+  (Term.term * Parsetree.core_type) list
+)
+ident(
+  def terms_types "testing/typed_vars.ml" 122 4416 4420 "testing/typed_vars.ml" 125 4550 4599
+)
+"testing/typed_vars.ml" 121 4359 4365 "testing/typed_vars.ml" 121 4359 4377
+type(
+  Term.term list ->
+  Parsetree.core_type list -> (Term.term * Parsetree.core_type) list
+)
+ident(
+  ext_ref List.combine
+)
+"testing/typed_vars.ml" 121 4359 4378 "testing/typed_vars.ml" 121 4359 4383
+type(
+  Term.term list
+)
+ident(
+  int_ref terms "testing/typed_vars.ml" 119 4315 4327 "testing/typed_vars.ml" 119 4315 4332
+)
+"testing/typed_vars.ml" 121 4359 4385 "testing/typed_vars.ml" 121 4359 4398
+type(
+  Parsetree.core_type option ->
+  Symb.symbol -> Term.term list -> Parsetree.core_type list
+)
+ident(
+  int_ref checked_types "testing/typed_vars.ml" 108 3960 3964 "testing/typed_vars.ml" 108 3960 3977
+)
+"testing/typed_vars.ml" 121 4359 4399 "testing/typed_vars.ml" 121 4359 4403
+type(
+  Parsetree.core_type option
+)
+ident(
+  int_ref topt "testing/typed_vars.ml" 117 4256 4283 "testing/typed_vars.ml" 117 4256 4287
+)
+"testing/typed_vars.ml" 121 4359 4404 "testing/typed_vars.ml" 121 4359 4405
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "testing/typed_vars.ml" 119 4315 4324 "testing/typed_vars.ml" 119 4315 4325
+)
+"testing/typed_vars.ml" 121 4359 4406 "testing/typed_vars.ml" 121 4359 4411
+type(
+  Term.term list
+)
+ident(
+  int_ref terms "testing/typed_vars.ml" 119 4315 4327 "testing/typed_vars.ml" 119 4315 4332
+)
+"testing/typed_vars.ml" 121 4359 4384 "testing/typed_vars.ml" 121 4359 4412
+call(
+  stack
+)
+type(
+  Parsetree.core_type list
+)
+"testing/typed_vars.ml" 121 4359 4365 "testing/typed_vars.ml" 121 4359 4412
+call(
+  stack
+)
+type(
+  (Term.term * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 122 4416 4424 "testing/typed_vars.ml" 122 4416 4438
+type(
+  Term.term * Parsetree.core_type -> (Var.var * Parsetree.core_type) list
+)
+ident(
+  def aux_typed_vars "testing/typed_vars.ml" 125 4550 4554 "testing/typed_vars.ml" 125 4550 4599
+)
+"testing/typed_vars.ml" 123 4450 4462 "testing/typed_vars.ml" 123 4450 4463
+type(
+  Var.var
+)
+ident(
+  def v "testing/typed_vars.ml" 123 4450 4470 "testing/typed_vars.ml" 123 4450 4478
+)
+"testing/typed_vars.ml" 123 4450 4458 "testing/typed_vars.ml" 123 4450 4463
+type(
+  Term.term
+)
+"testing/typed_vars.ml" 123 4450 4465 "testing/typed_vars.ml" 123 4450 4466
+type(
+  Parsetree.core_type
+)
+ident(
+  def t "testing/typed_vars.ml" 123 4450 4470 "testing/typed_vars.ml" 123 4450 4478
+)
+"testing/typed_vars.ml" 123 4450 4458 "testing/typed_vars.ml" 123 4450 4466
+type(
+  Term.term * Parsetree.core_type
+)
+"testing/typed_vars.ml" 123 4450 4472 "testing/typed_vars.ml" 123 4450 4473
+type(
+  Var.var
+)
+ident(
+  int_ref v "testing/typed_vars.ml" 123 4450 4462 "testing/typed_vars.ml" 123 4450 4463
+)
+"testing/typed_vars.ml" 123 4450 4475 "testing/typed_vars.ml" 123 4450 4476
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref t "testing/typed_vars.ml" 123 4450 4465 "testing/typed_vars.ml" 123 4450 4466
+)
+"testing/typed_vars.ml" 123 4450 4472 "testing/typed_vars.ml" 123 4450 4476
+type(
+  Var.var * Parsetree.core_type
+)
+"testing/typed_vars.ml" 123 4450 4470 "testing/typed_vars.ml" 123 4450 4478
+type(
+  (Var.var * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 124 4479 4492 "testing/typed_vars.ml" 124 4479 4493
+type(
+  Symb.symbol
+)
+ident(
+  def c "testing/typed_vars.ml" 124 4479 4505 "testing/typed_vars.ml" 124 4479 4546
+)
+"testing/typed_vars.ml" 124 4479 4495 "testing/typed_vars.ml" 124 4479 4497
+type(
+  Term.term list
+)
+ident(
+  def ts "testing/typed_vars.ml" 124 4479 4505 "testing/typed_vars.ml" 124 4479 4546
+)
+"testing/typed_vars.ml" 124 4479 4487 "testing/typed_vars.ml" 124 4479 4498
+type(
+  Term.term
+)
+"testing/typed_vars.ml" 124 4479 4500 "testing/typed_vars.ml" 124 4479 4501
+type(
+  Parsetree.core_type
+)
+ident(
+  def t "testing/typed_vars.ml" 124 4479 4505 "testing/typed_vars.ml" 124 4479 4546
+)
+"testing/typed_vars.ml" 124 4479 4487 "testing/typed_vars.ml" 124 4479 4501
+type(
+  Term.term * Parsetree.core_type
+)
+"testing/typed_vars.ml" 124 4479 4505 "testing/typed_vars.ml" 124 4479 4523
+type(
+  Parsetree.core_type option ->
+  Term.term -> (Var.var * Parsetree.core_type) list
+)
+ident(
+  int_ref checked_typed_vars "testing/typed_vars.ml" 117 4256 4264 "testing/typed_vars.ml" 117 4256 4282
+)
+"testing/typed_vars.ml" 124 4479 4530 "testing/typed_vars.ml" 124 4479 4531
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref t "testing/typed_vars.ml" 124 4479 4500 "testing/typed_vars.ml" 124 4479 4501
+)
+"testing/typed_vars.ml" 124 4479 4524 "testing/typed_vars.ml" 124 4479 4532
+type(
+  Parsetree.core_type option
+)
+"testing/typed_vars.ml" 124 4479 4539 "testing/typed_vars.ml" 124 4479 4540
+type(
+  Symb.symbol
+)
+ident(
+  int_ref c "testing/typed_vars.ml" 124 4479 4492 "testing/typed_vars.ml" 124 4479 4493
+)
+"testing/typed_vars.ml" 124 4479 4542 "testing/typed_vars.ml" 124 4479 4544
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "testing/typed_vars.ml" 124 4479 4495 "testing/typed_vars.ml" 124 4479 4497
+)
+"testing/typed_vars.ml" 124 4479 4533 "testing/typed_vars.ml" 124 4479 4546
+type(
+  Term.term
+)
+"testing/typed_vars.ml" 124 4479 4505 "testing/typed_vars.ml" 124 4479 4546
+call(
+  tail
+)
+type(
+  (Var.var * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 122 4416 4441 "testing/typed_vars.ml" 124 4479 4546
+type(
+  Term.term * Parsetree.core_type -> (Var.var * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 125 4550 4554 "testing/typed_vars.ml" 125 4550 4572
+type(
+  (Term.term * Parsetree.core_type -> (Var.var * Parsetree.core_type) list) ->
+  (Term.term * Parsetree.core_type) list ->
+  (Var.var * Parsetree.core_type) list
+)
+ident(
+  ext_ref Listutils.flat_map
+)
+"testing/typed_vars.ml" 125 4550 4573 "testing/typed_vars.ml" 125 4550 4587
+type(
+  Term.term * Parsetree.core_type -> (Var.var * Parsetree.core_type) list
+)
+ident(
+  int_ref aux_typed_vars "testing/typed_vars.ml" 122 4416 4424 "testing/typed_vars.ml" 122 4416 4438
+)
+"testing/typed_vars.ml" 125 4550 4588 "testing/typed_vars.ml" 125 4550 4599
+type(
+  (Term.term * Parsetree.core_type) list
+)
+ident(
+  int_ref terms_types "testing/typed_vars.ml" 120 4337 4345 "testing/typed_vars.ml" 120 4337 4356
+)
+"testing/typed_vars.ml" 125 4550 4554 "testing/typed_vars.ml" 125 4550 4599
+call(
+  tail
+)
+type(
+  (Var.var * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 122 4416 4420 "testing/typed_vars.ml" 125 4550 4599
+type(
+  (Var.var * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 120 4337 4341 "testing/typed_vars.ml" 125 4550 4599
+type(
+  (Var.var * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 117 4256 4290 "testing/typed_vars.ml" 125 4550 4599
+type(
+  Term.term -> (Var.var * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 128 4604 4608 "testing/typed_vars.ml" 128 4604 4618
+type(
+  Term.term -> (Var.var * Parsetree.core_type) list
+)
+ident(
+  def typed_vars "testing/typed_vars.ml" 131 4649 4649 "testing/typed_vars.ml" 1 0 -1
+)
+"testing/typed_vars.ml" 128 4604 4621 "testing/typed_vars.ml" 128 4604 4639
+type(
+  Parsetree.core_type option ->
+  Term.term -> (Var.var * Parsetree.core_type) list
+)
+ident(
+  int_ref checked_typed_vars "testing/typed_vars.ml" 117 4256 4264 "testing/typed_vars.ml" 117 4256 4282
+)
+"testing/typed_vars.ml" 128 4604 4640 "testing/typed_vars.ml" 128 4604 4644
+type(
+  Parsetree.core_type option
+)
+"testing/typed_vars.ml" 128 4604 4621 "testing/typed_vars.ml" 128 4604 4644
+call(
+  stack
+)
+type(
+  Term.term -> (Var.var * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 131 4649 4653 "testing/typed_vars.ml" 131 4649 4667
+type(
+  Term.term * Term.term -> (Var.var * Parsetree.core_type) list
+)
+ident(
+  def typed_vars_eqn "testing/typed_vars.ml" 133 4696 4742 "testing/typed_vars.ml" 1 0 -1
+)
+"testing/typed_vars.ml" 131 4649 4669 "testing/typed_vars.ml" 131 4649 4670
+type(
+  Term.term
+)
+ident(
+  def l "testing/typed_vars.ml" 132 4677 4679 "testing/typed_vars.ml" 133 4696 4742
+)
+"testing/typed_vars.ml" 131 4649 4672 "testing/typed_vars.ml" 131 4649 4673
+type(
+  Term.term
+)
+ident(
+  def r "testing/typed_vars.ml" 132 4677 4679 "testing/typed_vars.ml" 133 4696 4742
+)
+"testing/typed_vars.ml" 131 4649 4668 "testing/typed_vars.ml" 131 4649 4674
+type(
+  Term.term * Term.term
+)
+"testing/typed_vars.ml" 132 4677 4679 "testing/typed_vars.ml" 132 4677 4695
+type(
+  (Var.var * Parsetree.core_type -> Var.var * Parsetree.core_type -> bool) ->
+  (Var.var * Parsetree.core_type) list ->
+  (Var.var * Parsetree.core_type) list
+)
+ident(
+  ext_ref Listutils.unique
+)
+"testing/typed_vars.ml" 133 4696 4700 "testing/typed_vars.ml" 133 4696 4712
+type(
+  Var.var * Parsetree.core_type -> Var.var * Parsetree.core_type -> bool
+)
+ident(
+  int_ref eq_typed_var "testing/typed_vars.ml" 30 1348 1352 "testing/typed_vars.ml" 30 1348 1364
+)
+"testing/typed_vars.ml" 133 4696 4714 "testing/typed_vars.ml" 133 4696 4724
+type(
+  Term.term -> (Var.var * Parsetree.core_type) list
+)
+ident(
+  int_ref typed_vars "testing/typed_vars.ml" 128 4604 4608 "testing/typed_vars.ml" 128 4604 4618
+)
+"testing/typed_vars.ml" 133 4696 4725 "testing/typed_vars.ml" 133 4696 4726
+type(
+  Term.term
+)
+ident(
+  int_ref l "testing/typed_vars.ml" 131 4649 4669 "testing/typed_vars.ml" 131 4649 4670
+)
+"testing/typed_vars.ml" 133 4696 4714 "testing/typed_vars.ml" 133 4696 4726
+call(
+  stack
+)
+type(
+  (Var.var * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 133 4696 4727 "testing/typed_vars.ml" 133 4696 4728
+type(
+  (Var.var * Parsetree.core_type) list ->
+  (Var.var * Parsetree.core_type) list ->
+  (Var.var * Parsetree.core_type) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"testing/typed_vars.ml" 133 4696 4729 "testing/typed_vars.ml" 133 4696 4739
+type(
+  Term.term -> (Var.var * Parsetree.core_type) list
+)
+ident(
+  int_ref typed_vars "testing/typed_vars.ml" 128 4604 4608 "testing/typed_vars.ml" 128 4604 4618
+)
+"testing/typed_vars.ml" 133 4696 4740 "testing/typed_vars.ml" 133 4696 4741
+type(
+  Term.term
+)
+ident(
+  int_ref r "testing/typed_vars.ml" 131 4649 4672 "testing/typed_vars.ml" 131 4649 4673
+)
+"testing/typed_vars.ml" 133 4696 4729 "testing/typed_vars.ml" 133 4696 4741
+call(
+  stack
+)
+type(
+  (Var.var * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 133 4696 4713 "testing/typed_vars.ml" 133 4696 4742
+call(
+  stack
+)
+type(
+  (Var.var * Parsetree.core_type) list
+)
+"testing/typed_vars.ml" 132 4677 4679 "testing/typed_vars.ml" 133 4696 4742
+call(
+  tail
+)
+type(
+  (Var.var * Parsetree.core_type) list
+)

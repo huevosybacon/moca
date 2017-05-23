@@ -1,0 +1,372 @@
+"lib/configuration.ml" 20 1131 1135 "lib/configuration.ml" 20 1131 1154
+type(
+  float
+)
+ident(
+  def moca_version_number "lib/configuration.ml" 26 1268 1268 "lib/configuration.ml" 1 0 -1
+)
+"lib/configuration.ml" 20 1131 1157 "lib/configuration.ml" 20 1131 1160
+type(
+  float
+)
+"lib/configuration.ml" 21 1161 1165 "lib/configuration.ml" 21 1161 1190
+type(
+  int
+)
+ident(
+  def moca_minor_version_number "lib/configuration.ml" 26 1268 1268 "lib/configuration.ml" 1 0 -1
+)
+"lib/configuration.ml" 21 1161 1193 "lib/configuration.ml" 21 1161 1194
+type(
+  int
+)
+"lib/configuration.ml" 22 1195 1199 "lib/configuration.ml" 22 1195 1222
+type(
+  int
+)
+ident(
+  def moca_sub_version_number "lib/configuration.ml" 26 1268 1268 "lib/configuration.ml" 1 0 -1
+)
+"lib/configuration.ml" 22 1195 1225 "lib/configuration.ml" 22 1195 1226
+type(
+  int
+)
+"lib/configuration.ml" 23 1227 1231 "lib/configuration.ml" 23 1227 1248
+type(
+  string
+)
+ident(
+  def moca_version_date "lib/configuration.ml" 26 1268 1268 "lib/configuration.ml" 1 0 -1
+)
+"lib/configuration.ml" 23 1227 1251 "lib/configuration.ml" 23 1227 1263
+type(
+  string
+)
+"lib/configuration.ml" 26 1268 1272 "lib/configuration.ml" 26 1268 1289
+type(
+  string
+)
+ident(
+  def moca_full_version "lib/configuration.ml" 32 1427 1427 "lib/configuration.ml" 1 0 -1
+)
+"lib/configuration.ml" 27 1292 1294 "lib/configuration.ml" 27 1292 1308
+type(
+  (float -> int -> int -> string -> string, unit, string) format ->
+  float -> int -> int -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"lib/configuration.ml" 27 1292 1309 "lib/configuration.ml" 27 1292 1326
+type(
+  (float -> int -> int -> string -> string, unit, string) format
+)
+"lib/configuration.ml" 28 1327 1331 "lib/configuration.ml" 28 1327 1350
+type(
+  float
+)
+ident(
+  int_ref moca_version_number "lib/configuration.ml" 20 1131 1135 "lib/configuration.ml" 20 1131 1154
+)
+"lib/configuration.ml" 28 1327 1351 "lib/configuration.ml" 28 1327 1376
+type(
+  int
+)
+ident(
+  int_ref moca_minor_version_number "lib/configuration.ml" 21 1161 1165 "lib/configuration.ml" 21 1161 1190
+)
+"lib/configuration.ml" 29 1377 1381 "lib/configuration.ml" 29 1377 1404
+type(
+  int
+)
+ident(
+  int_ref moca_sub_version_number "lib/configuration.ml" 22 1195 1199 "lib/configuration.ml" 22 1195 1222
+)
+"lib/configuration.ml" 29 1377 1405 "lib/configuration.ml" 29 1377 1422
+type(
+  string
+)
+ident(
+  int_ref moca_version_date "lib/configuration.ml" 23 1227 1231 "lib/configuration.ml" 23 1227 1248
+)
+"lib/configuration.ml" 27 1292 1294 "lib/configuration.ml" 29 1377 1422
+call(
+  stack
+)
+type(
+  string
+)
+"lib/configuration.ml" 32 1427 1431 "lib/configuration.ml" 32 1427 1442
+type(
+  unit -> bool
+)
+ident(
+  def get_verbose "lib/configuration.ml" 38 1545 1545 "lib/configuration.ml" 1 0 -1
+)
+"lib/configuration.ml" 32 1427 1444 "lib/configuration.ml" 32 1427 1455
+type(
+  unit -> unit
+)
+ident(
+  def set_verbose "lib/configuration.ml" 38 1545 1545 "lib/configuration.ml" 1 0 -1
+)
+"lib/configuration.ml" 32 1427 1431 "lib/configuration.ml" 32 1427 1455
+type(
+  (unit -> bool) * (unit -> unit)
+)
+"lib/configuration.ml" 33 1458 1464 "lib/configuration.ml" 33 1458 1471
+type(
+  bool ref
+)
+ident(
+  def verbose "lib/configuration.ml" 34 1487 1489 "lib/configuration.ml" 35 1511 1540
+)
+"lib/configuration.ml" 33 1458 1474 "lib/configuration.ml" 33 1458 1477
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"lib/configuration.ml" 33 1458 1478 "lib/configuration.ml" 33 1458 1483
+type(
+  bool
+)
+"lib/configuration.ml" 33 1458 1474 "lib/configuration.ml" 33 1458 1483
+type(
+  bool ref
+)
+"lib/configuration.ml" 34 1487 1494 "lib/configuration.ml" 34 1487 1496
+type(
+  unit
+)
+"lib/configuration.ml" 34 1487 1500 "lib/configuration.ml" 34 1487 1501
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"lib/configuration.ml" 34 1487 1501 "lib/configuration.ml" 34 1487 1508
+type(
+  bool ref
+)
+ident(
+  int_ref verbose "lib/configuration.ml" 33 1458 1464 "lib/configuration.ml" 33 1458 1471
+)
+"lib/configuration.ml" 34 1487 1500 "lib/configuration.ml" 34 1487 1508
+type(
+  bool
+)
+"lib/configuration.ml" 34 1487 1489 "lib/configuration.ml" 34 1487 1509
+type(
+  unit -> bool
+)
+"lib/configuration.ml" 35 1511 1518 "lib/configuration.ml" 35 1511 1520
+type(
+  unit
+)
+"lib/configuration.ml" 35 1511 1524 "lib/configuration.ml" 35 1511 1531
+type(
+  bool ref
+)
+ident(
+  int_ref verbose "lib/configuration.ml" 33 1458 1464 "lib/configuration.ml" 33 1458 1471
+)
+"lib/configuration.ml" 35 1511 1532 "lib/configuration.ml" 35 1511 1534
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"lib/configuration.ml" 35 1511 1535 "lib/configuration.ml" 35 1511 1539
+type(
+  bool
+)
+"lib/configuration.ml" 35 1511 1524 "lib/configuration.ml" 35 1511 1539
+type(
+  unit
+)
+"lib/configuration.ml" 35 1511 1513 "lib/configuration.ml" 35 1511 1540
+type(
+  unit -> unit
+)
+"lib/configuration.ml" 34 1487 1489 "lib/configuration.ml" 35 1511 1540
+type(
+  (unit -> bool) * (unit -> unit)
+)
+"lib/configuration.ml" 33 1458 1460 "lib/configuration.ml" 35 1511 1540
+type(
+  (unit -> bool) * (unit -> unit)
+)
+"lib/configuration.ml" 38 1545 1549 "lib/configuration.ml" 38 1545 1563
+type(
+  ('a, out_channel, unit) format -> 'a
+)
+ident(
+  def verbose_printf "lib/configuration.ml" 43 1651 1651 "lib/configuration.ml" 1 0 -1
+)
+"lib/configuration.ml" 38 1545 1564 "lib/configuration.ml" 38 1545 1567
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  def fmt "lib/configuration.ml" 39 1570 1572 "lib/configuration.ml" 40 1613 1646
+)
+"lib/configuration.ml" 39 1570 1575 "lib/configuration.ml" 39 1570 1586
+type(
+  unit -> bool
+)
+ident(
+  int_ref get_verbose "lib/configuration.ml" 32 1427 1431 "lib/configuration.ml" 32 1427 1442
+)
+"lib/configuration.ml" 39 1570 1587 "lib/configuration.ml" 39 1570 1589
+type(
+  unit
+)
+"lib/configuration.ml" 39 1570 1575 "lib/configuration.ml" 39 1570 1589
+call(
+  stack
+)
+type(
+  bool
+)
+"lib/configuration.ml" 39 1570 1595 "lib/configuration.ml" 39 1570 1608
+type(
+  ('a, out_channel, unit) format -> 'a
+)
+ident(
+  ext_ref Printf.printf
+)
+"lib/configuration.ml" 39 1570 1609 "lib/configuration.ml" 39 1570 1612
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  int_ref fmt "lib/configuration.ml" 38 1545 1564 "lib/configuration.ml" 38 1545 1567
+)
+"lib/configuration.ml" 39 1570 1595 "lib/configuration.ml" 39 1570 1612
+call(
+  tail
+)
+type(
+  'a
+)
+"lib/configuration.ml" 40 1613 1620 "lib/configuration.ml" 40 1613 1635
+type(
+  out_channel -> ('a, out_channel, unit) format -> 'a
+)
+ident(
+  ext_ref Printf.ifprintf
+)
+"lib/configuration.ml" 40 1613 1636 "lib/configuration.ml" 40 1613 1642
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"lib/configuration.ml" 40 1613 1643 "lib/configuration.ml" 40 1613 1646
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  int_ref fmt "lib/configuration.ml" 38 1545 1564 "lib/configuration.ml" 38 1545 1567
+)
+"lib/configuration.ml" 40 1613 1620 "lib/configuration.ml" 40 1613 1646
+call(
+  tail
+)
+type(
+  'a
+)
+"lib/configuration.ml" 39 1570 1572 "lib/configuration.ml" 40 1613 1646
+type(
+  'a
+)
+"lib/configuration.ml" 43 1651 1655 "lib/configuration.ml" 43 1651 1668
+type(
+  ('a, Format.formatter, unit) format -> 'a
+)
+ident(
+  def verbose_print "lib/configuration.ml" 45 1718 1765 "lib/configuration.ml" 1 0 -1
+)
+"lib/configuration.ml" 43 1651 1669 "lib/configuration.ml" 43 1651 1672
+type(
+  ('a, Format.formatter, unit) format
+)
+ident(
+  def fmt "lib/configuration.ml" 44 1675 1677 "lib/configuration.ml" 45 1718 1765
+)
+"lib/configuration.ml" 44 1675 1680 "lib/configuration.ml" 44 1675 1691
+type(
+  unit -> bool
+)
+ident(
+  int_ref get_verbose "lib/configuration.ml" 32 1427 1431 "lib/configuration.ml" 32 1427 1442
+)
+"lib/configuration.ml" 44 1675 1692 "lib/configuration.ml" 44 1675 1694
+type(
+  unit
+)
+"lib/configuration.ml" 44 1675 1680 "lib/configuration.ml" 44 1675 1694
+call(
+  stack
+)
+type(
+  bool
+)
+"lib/configuration.ml" 44 1675 1700 "lib/configuration.ml" 44 1675 1713
+type(
+  ('a, Format.formatter, unit) format -> 'a
+)
+ident(
+  ext_ref Format.printf
+)
+"lib/configuration.ml" 44 1675 1714 "lib/configuration.ml" 44 1675 1717
+type(
+  ('a, Format.formatter, unit) format
+)
+ident(
+  int_ref fmt "lib/configuration.ml" 43 1651 1669 "lib/configuration.ml" 43 1651 1672
+)
+"lib/configuration.ml" 44 1675 1700 "lib/configuration.ml" 44 1675 1717
+call(
+  tail
+)
+type(
+  'a
+)
+"lib/configuration.ml" 45 1718 1725 "lib/configuration.ml" 45 1718 1740
+type(
+  Format.formatter -> ('a, Format.formatter, unit) format -> 'a
+)
+ident(
+  ext_ref Format.ifprintf
+)
+"lib/configuration.ml" 45 1718 1741 "lib/configuration.ml" 45 1718 1761
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.std_formatter
+)
+"lib/configuration.ml" 45 1718 1762 "lib/configuration.ml" 45 1718 1765
+type(
+  ('a, Format.formatter, unit) format
+)
+ident(
+  int_ref fmt "lib/configuration.ml" 43 1651 1669 "lib/configuration.ml" 43 1651 1672
+)
+"lib/configuration.ml" 45 1718 1725 "lib/configuration.ml" 45 1718 1765
+call(
+  tail
+)
+type(
+  'a
+)
+"lib/configuration.ml" 44 1675 1677 "lib/configuration.ml" 45 1718 1765
+type(
+  'a
+)

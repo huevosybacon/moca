@@ -1,0 +1,6775 @@
+"checking/check.ml" 91 3009 3013 "checking/check.ml" 91 3009 3024
+type(
+  Location.t -> error -> 'a
+)
+ident(
+  def raise_error "checking/check.ml" 94 3064 3064 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 91 3009 3025 "checking/check.ml" 91 3009 3028
+type(
+  Location.t
+)
+ident(
+  def loc "checking/check.ml" 91 3009 3029 "checking/check.ml" 91 3009 3059
+)
+"checking/check.ml" 91 3009 3029 "checking/check.ml" 91 3009 3032
+type(
+  error
+)
+ident(
+  def err "checking/check.ml" 91 3009 3035 "checking/check.ml" 91 3009 3059
+)
+"checking/check.ml" 91 3009 3035 "checking/check.ml" 91 3009 3040
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"checking/check.ml" 91 3009 3049 "checking/check.ml" 91 3009 3052
+type(
+  Location.t
+)
+ident(
+  int_ref loc "checking/check.ml" 91 3009 3025 "checking/check.ml" 91 3009 3028
+)
+"checking/check.ml" 91 3009 3054 "checking/check.ml" 91 3009 3057
+type(
+  error
+)
+ident(
+  int_ref err "checking/check.ml" 91 3009 3029 "checking/check.ml" 91 3009 3032
+)
+"checking/check.ml" 91 3009 3041 "checking/check.ml" 91 3009 3059
+type(
+  exn
+)
+"checking/check.ml" 91 3009 3035 "checking/check.ml" 91 3009 3059
+type(
+  'a
+)
+"checking/check.ml" 94 3064 3068 "checking/check.ml" 94 3064 3084
+type(
+  msg -> Location.t -> 'a
+)
+ident(
+  def unsound_ordering "checking/check.ml" 98 3140 3140 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 94 3064 3085 "checking/check.ml" 94 3064 3088
+type(
+  msg
+)
+ident(
+  def msg "checking/check.ml" 94 3064 3089 "checking/check.ml" 95 3095 3135
+)
+"checking/check.ml" 94 3064 3089 "checking/check.ml" 94 3064 3092
+type(
+  Location.t
+)
+ident(
+  def loc "checking/check.ml" 95 3095 3097 "checking/check.ml" 95 3095 3135
+)
+"checking/check.ml" 95 3095 3097 "checking/check.ml" 95 3095 3108
+type(
+  Location.t -> error -> 'a
+)
+ident(
+  int_ref raise_error "checking/check.ml" 91 3009 3013 "checking/check.ml" 91 3009 3024
+)
+"checking/check.ml" 95 3095 3109 "checking/check.ml" 95 3095 3112
+type(
+  Location.t
+)
+ident(
+  int_ref loc "checking/check.ml" 94 3064 3089 "checking/check.ml" 94 3064 3092
+)
+"checking/check.ml" 95 3095 3131 "checking/check.ml" 95 3095 3134
+type(
+  msg
+)
+ident(
+  int_ref msg "checking/check.ml" 94 3064 3085 "checking/check.ml" 94 3064 3088
+)
+"checking/check.ml" 95 3095 3113 "checking/check.ml" 95 3095 3135
+type(
+  error
+)
+"checking/check.ml" 95 3095 3097 "checking/check.ml" 95 3095 3135
+call(
+  tail
+)
+type(
+  'a
+)
+"checking/check.ml" 98 3140 3144 "checking/check.ml" 98 3140 3161
+type(
+  Parsetree.generator -> 'a
+)
+ident(
+  def unknown_generator "checking/check.ml" 102 3227 3227 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 98 3140 3162 "checking/check.ml" 98 3140 3163
+type(
+  Parsetree.generator
+)
+ident(
+  def g "checking/check.ml" 99 3166 3168 "checking/check.ml" 99 3166 3222
+)
+"checking/check.ml" 99 3166 3168 "checking/check.ml" 99 3166 3179
+type(
+  Location.t -> error -> 'a
+)
+ident(
+  int_ref raise_error "checking/check.ml" 91 3009 3013 "checking/check.ml" 91 3009 3024
+)
+"checking/check.ml" 99 3166 3180 "checking/check.ml" 99 3166 3181
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "checking/check.ml" 98 3140 3162 "checking/check.ml" 98 3140 3163
+)
+"checking/check.ml" 99 3166 3180 "checking/check.ml" 99 3166 3190
+type(
+  Location.t
+)
+"checking/check.ml" 99 3166 3210 "checking/check.ml" 99 3166 3211
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "checking/check.ml" 98 3140 3162 "checking/check.ml" 98 3140 3163
+)
+"checking/check.ml" 99 3166 3210 "checking/check.ml" 99 3166 3221
+type(
+  Longident.t
+)
+"checking/check.ml" 99 3166 3191 "checking/check.ml" 99 3166 3222
+type(
+  error
+)
+"checking/check.ml" 99 3166 3168 "checking/check.ml" 99 3166 3222
+call(
+  tail
+)
+type(
+  'a
+)
+"checking/check.ml" 102 3227 3231 "checking/check.ml" 102 3227 3256
+type(
+  Parsetree.relation -> Parsetree.relation -> 'a
+)
+ident(
+  def relation_already_declared "checking/check.ml" 106 3335 3335 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 102 3227 3257 "checking/check.ml" 102 3227 3259
+type(
+  Parsetree.relation
+)
+ident(
+  def r1 "checking/check.ml" 102 3227 3260 "checking/check.ml" 103 3265 3330
+)
+"checking/check.ml" 102 3227 3260 "checking/check.ml" 102 3227 3262
+type(
+  Parsetree.relation
+)
+ident(
+  def r2 "checking/check.ml" 103 3265 3267 "checking/check.ml" 103 3265 3330
+)
+"checking/check.ml" 103 3265 3267 "checking/check.ml" 103 3265 3278
+type(
+  Location.t -> error -> 'a
+)
+ident(
+  int_ref raise_error "checking/check.ml" 91 3009 3013 "checking/check.ml" 91 3009 3024
+)
+"checking/check.ml" 103 3265 3279 "checking/check.ml" 103 3265 3281
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r1 "checking/check.ml" 102 3227 3257 "checking/check.ml" 102 3227 3259
+)
+"checking/check.ml" 103 3265 3279 "checking/check.ml" 103 3265 3290
+type(
+  Location.t
+)
+"checking/check.ml" 103 3265 3318 "checking/check.ml" 103 3265 3320
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r2 "checking/check.ml" 102 3227 3260 "checking/check.ml" 102 3227 3262
+)
+"checking/check.ml" 103 3265 3318 "checking/check.ml" 103 3265 3329
+type(
+  Location.t
+)
+"checking/check.ml" 103 3265 3291 "checking/check.ml" 103 3265 3330
+type(
+  error
+)
+"checking/check.ml" 103 3265 3267 "checking/check.ml" 103 3265 3330
+call(
+  tail
+)
+type(
+  'a
+)
+"checking/check.ml" 106 3335 3339 "checking/check.ml" 106 3335 3363
+type(
+  Parsetree.generator -> 'a
+)
+ident(
+  def no_neutral_element_error "checking/check.ml" 110 3430 3430 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 106 3335 3364 "checking/check.ml" 106 3335 3365
+type(
+  Parsetree.generator
+)
+ident(
+  def g "checking/check.ml" 107 3368 3370 "checking/check.ml" 107 3368 3425
+)
+"checking/check.ml" 107 3368 3370 "checking/check.ml" 107 3368 3381
+type(
+  Location.t -> error -> 'a
+)
+ident(
+  int_ref raise_error "checking/check.ml" 91 3009 3013 "checking/check.ml" 91 3009 3024
+)
+"checking/check.ml" 107 3368 3382 "checking/check.ml" 107 3368 3383
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "checking/check.ml" 106 3335 3364 "checking/check.ml" 106 3335 3365
+)
+"checking/check.ml" 107 3368 3382 "checking/check.ml" 107 3368 3392
+type(
+  Location.t
+)
+"checking/check.ml" 107 3368 3413 "checking/check.ml" 107 3368 3414
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "checking/check.ml" 106 3335 3364 "checking/check.ml" 106 3335 3365
+)
+"checking/check.ml" 107 3368 3413 "checking/check.ml" 107 3368 3424
+type(
+  Longident.t
+)
+"checking/check.ml" 107 3368 3393 "checking/check.ml" 107 3368 3425
+type(
+  error
+)
+"checking/check.ml" 107 3368 3370 "checking/check.ml" 107 3368 3425
+call(
+  tail
+)
+type(
+  'a
+)
+"checking/check.ml" 110 3430 3434 "checking/check.ml" 110 3430 3456
+type(
+  Longident.t -> Location.t -> Parsetree.relation -> Parsetree.relation -> 'a
+)
+ident(
+  def incompatible_relations "checking/check.ml" 116 3564 3564 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 110 3430 3457 "checking/check.ml" 110 3430 3462
+type(
+  Longident.t
+)
+ident(
+  def gname "checking/check.ml" 110 3430 3463 "checking/check.ml" 111 3476 3535
+)
+"checking/check.ml" 110 3430 3463 "checking/check.ml" 110 3430 3467
+type(
+  Location.t
+)
+ident(
+  def gloc "checking/check.ml" 110 3430 3468 "checking/check.ml" 111 3476 3535
+)
+"checking/check.ml" 110 3430 3468 "checking/check.ml" 110 3430 3470
+type(
+  Parsetree.relation
+)
+ident(
+  def r1 "checking/check.ml" 110 3430 3471 "checking/check.ml" 111 3476 3535
+)
+"checking/check.ml" 110 3430 3471 "checking/check.ml" 110 3430 3473
+type(
+  Parsetree.relation
+)
+ident(
+  def r2 "checking/check.ml" 111 3476 3478 "checking/check.ml" 111 3476 3535
+)
+"checking/check.ml" 111 3476 3478 "checking/check.ml" 111 3476 3489
+type(
+  Location.t -> error -> 'a
+)
+ident(
+  int_ref raise_error "checking/check.ml" 91 3009 3013 "checking/check.ml" 91 3009 3024
+)
+"checking/check.ml" 111 3476 3490 "checking/check.ml" 111 3476 3494
+type(
+  Location.t
+)
+ident(
+  int_ref gloc "checking/check.ml" 110 3430 3463 "checking/check.ml" 110 3430 3467
+)
+"checking/check.ml" 111 3476 3520 "checking/check.ml" 111 3476 3525
+type(
+  Longident.t
+)
+ident(
+  int_ref gname "checking/check.ml" 110 3430 3457 "checking/check.ml" 110 3430 3462
+)
+"checking/check.ml" 111 3476 3527 "checking/check.ml" 111 3476 3529
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r1 "checking/check.ml" 110 3430 3468 "checking/check.ml" 110 3430 3470
+)
+"checking/check.ml" 111 3476 3531 "checking/check.ml" 111 3476 3533
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r2 "checking/check.ml" 110 3430 3471 "checking/check.ml" 110 3430 3473
+)
+"checking/check.ml" 111 3476 3495 "checking/check.ml" 111 3476 3535
+type(
+  error
+)
+"checking/check.ml" 111 3476 3478 "checking/check.ml" 111 3476 3535
+call(
+  tail
+)
+type(
+  'a
+)
+"checking/check.ml" 119 3580 3584 "checking/check.ml" 119 3580 3596
+type(
+  Format.formatter -> error -> unit
+)
+ident(
+  def report_error "checking/check.ml" 157 5150 5150 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 119 3580 3597 "checking/check.ml" 119 3580 3600
+type(
+  Format.formatter
+)
+ident(
+  def ppf "checking/check.ml" 119 3580 3603 "checking/check.ml" 154 5078 5145
+)
+"checking/check.ml" 120 3612 3634 "checking/check.ml" 120 3612 3636
+type(
+  Longident.t
+)
+ident(
+  def li "checking/check.ml" 121 3640 3646 "checking/check.ml" 122 3682 3729
+)
+"checking/check.ml" 120 3612 3616 "checking/check.ml" 120 3612 3636
+type(
+  error
+)
+"checking/check.ml" 121 3640 3646 "checking/check.ml" 121 3640 3653
+type(
+  Format.formatter ->
+  ((Format.formatter -> Longident.t -> unit) -> Longident.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Longident.t -> unit) -> Longident.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"checking/check.ml" 121 3640 3654 "checking/check.ml" 121 3640 3657
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "checking/check.ml" 119 3580 3597 "checking/check.ml" 119 3580 3600
+)
+"checking/check.ml" 121 3640 3658 "checking/check.ml" 121 3640 3681
+type(
+  ((Format.formatter -> Longident.t -> unit) -> Longident.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"checking/check.ml" 122 3682 3690 "checking/check.ml" 122 3682 3726
+type(
+  Format.formatter -> Longident.t -> unit
+)
+ident(
+  ext_ref Pr_ocaml.pr_ident_in_prefix_position
+)
+"checking/check.ml" 122 3682 3727 "checking/check.ml" 122 3682 3729
+type(
+  Longident.t
+)
+ident(
+  int_ref li "checking/check.ml" 120 3612 3634 "checking/check.ml" 120 3612 3636
+)
+"checking/check.ml" 121 3640 3646 "checking/check.ml" 122 3682 3729
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 123 3730 3753 "checking/check.ml" 123 3730 3755
+type(
+  Longident.t
+)
+ident(
+  def li "checking/check.ml" 124 3759 3765 "checking/check.ml" 125 3821 3868
+)
+"checking/check.ml" 123 3730 3734 "checking/check.ml" 123 3730 3755
+type(
+  error
+)
+"checking/check.ml" 124 3759 3765 "checking/check.ml" 124 3759 3772
+type(
+  Format.formatter ->
+  ((Format.formatter -> Longident.t -> unit) -> Longident.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Longident.t -> unit) -> Longident.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"checking/check.ml" 124 3759 3773 "checking/check.ml" 124 3759 3776
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "checking/check.ml" 119 3580 3597 "checking/check.ml" 119 3580 3600
+)
+"checking/check.ml" 124 3759 3777 "checking/check.ml" 124 3759 3820
+type(
+  ((Format.formatter -> Longident.t -> unit) -> Longident.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"checking/check.ml" 125 3821 3829 "checking/check.ml" 125 3821 3865
+type(
+  Format.formatter -> Longident.t -> unit
+)
+ident(
+  ext_ref Pr_ocaml.pr_ident_in_prefix_position
+)
+"checking/check.ml" 125 3821 3866 "checking/check.ml" 125 3821 3868
+type(
+  Longident.t
+)
+ident(
+  int_ref li "checking/check.ml" 123 3730 3753 "checking/check.ml" 123 3730 3755
+)
+"checking/check.ml" 124 3759 3765 "checking/check.ml" 125 3821 3868
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 126 3869 3900 "checking/check.ml" 126 3869 3901
+type(
+  string
+)
+ident(
+  def s "checking/check.ml" 127 3905 3911 "checking/check.ml" 127 3905 3962
+)
+"checking/check.ml" 126 3869 3873 "checking/check.ml" 126 3869 3901
+type(
+  error
+)
+"checking/check.ml" 127 3905 3911 "checking/check.ml" 127 3905 3918
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"checking/check.ml" 127 3905 3919 "checking/check.ml" 127 3905 3922
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "checking/check.ml" 119 3580 3597 "checking/check.ml" 119 3580 3600
+)
+"checking/check.ml" 127 3905 3923 "checking/check.ml" 127 3905 3960
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"checking/check.ml" 127 3905 3961 "checking/check.ml" 127 3905 3962
+type(
+  string
+)
+ident(
+  int_ref s "checking/check.ml" 126 3869 3900 "checking/check.ml" 126 3869 3901
+)
+"checking/check.ml" 127 3905 3911 "checking/check.ml" 127 3905 3962
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 128 3963 3986 "checking/check.ml" 128 3963 3988
+type(
+  Longident.t
+)
+ident(
+  def li "checking/check.ml" 129 3992 3998 "checking/check.ml" 130 4050 4097
+)
+"checking/check.ml" 128 3963 3967 "checking/check.ml" 128 3963 3988
+type(
+  error
+)
+"checking/check.ml" 129 3992 3998 "checking/check.ml" 129 3992 4005
+type(
+  Format.formatter ->
+  ((Format.formatter -> Longident.t -> unit) -> Longident.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Longident.t -> unit) -> Longident.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"checking/check.ml" 129 3992 4006 "checking/check.ml" 129 3992 4009
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "checking/check.ml" 119 3580 3597 "checking/check.ml" 119 3580 3600
+)
+"checking/check.ml" 129 3992 4010 "checking/check.ml" 129 3992 4049
+type(
+  ((Format.formatter -> Longident.t -> unit) -> Longident.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"checking/check.ml" 130 4050 4058 "checking/check.ml" 130 4050 4094
+type(
+  Format.formatter -> Longident.t -> unit
+)
+ident(
+  ext_ref Pr_ocaml.pr_ident_in_prefix_position
+)
+"checking/check.ml" 130 4050 4095 "checking/check.ml" 130 4050 4097
+type(
+  Longident.t
+)
+ident(
+  int_ref li "checking/check.ml" 128 3963 3986 "checking/check.ml" 128 3963 3988
+)
+"checking/check.ml" 129 3992 3998 "checking/check.ml" 130 4050 4097
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 131 4098 4116 "checking/check.ml" 131 4098 4117
+type(
+  string
+)
+ident(
+  def s "checking/check.ml" 132 4121 4127 "checking/check.ml" 132 4121 4160
+)
+"checking/check.ml" 131 4098 4102 "checking/check.ml" 131 4098 4117
+type(
+  error
+)
+"checking/check.ml" 132 4121 4127 "checking/check.ml" 132 4121 4134
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"checking/check.ml" 132 4121 4135 "checking/check.ml" 132 4121 4138
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "checking/check.ml" 119 3580 3597 "checking/check.ml" 119 3580 3600
+)
+"checking/check.ml" 132 4121 4139 "checking/check.ml" 132 4121 4158
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"checking/check.ml" 132 4121 4159 "checking/check.ml" 132 4121 4160
+type(
+  string
+)
+ident(
+  int_ref s "checking/check.ml" 131 4098 4116 "checking/check.ml" 131 4098 4117
+)
+"checking/check.ml" 132 4121 4127 "checking/check.ml" 132 4121 4160
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 133 4161 4191 "checking/check.ml" 133 4161 4194
+type(
+  Location.t
+)
+ident(
+  def loc "checking/check.ml" 134 4198 4204 "checking/check.ml" 134 4198 4269
+)
+"checking/check.ml" 133 4161 4165 "checking/check.ml" 133 4161 4194
+type(
+  error
+)
+"checking/check.ml" 134 4198 4204 "checking/check.ml" 134 4198 4211
+type(
+  Format.formatter ->
+  ((Format.formatter -> Location.t -> unit) -> Location.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Location.t -> unit) -> Location.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"checking/check.ml" 134 4198 4212 "checking/check.ml" 134 4198 4215
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "checking/check.ml" 119 3580 3597 "checking/check.ml" 119 3580 3600
+)
+"checking/check.ml" 134 4198 4216 "checking/check.ml" 134 4198 4250
+type(
+  ((Format.formatter -> Location.t -> unit) -> Location.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"checking/check.ml" 134 4198 4251 "checking/check.ml" 134 4198 4265
+type(
+  Format.formatter -> Location.t -> unit
+)
+ident(
+  ext_ref Location.print
+)
+"checking/check.ml" 134 4198 4266 "checking/check.ml" 134 4198 4269
+type(
+  Location.t
+)
+ident(
+  int_ref loc "checking/check.ml" 133 4161 4191 "checking/check.ml" 133 4161 4194
+)
+"checking/check.ml" 134 4198 4204 "checking/check.ml" 134 4198 4269
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 135 4270 4294 "checking/check.ml" 135 4270 4297
+type(
+  Longident.t
+)
+ident(
+  def li1 "checking/check.ml" 136 4307 4313 "checking/check.ml" 139 4430 4478
+)
+"checking/check.ml" 135 4270 4299 "checking/check.ml" 135 4270 4302
+type(
+  Longident.t
+)
+ident(
+  def li2 "checking/check.ml" 136 4307 4313 "checking/check.ml" 139 4430 4478
+)
+"checking/check.ml" 135 4270 4274 "checking/check.ml" 135 4270 4303
+type(
+  error
+)
+"checking/check.ml" 136 4307 4313 "checking/check.ml" 136 4307 4320
+type(
+  Format.formatter ->
+  ((Format.formatter -> Longident.t -> unit) ->
+   Longident.t ->
+   (Format.formatter -> Longident.t -> unit) -> Longident.t -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Longident.t -> unit) ->
+  Longident.t ->
+  (Format.formatter -> Longident.t -> unit) -> Longident.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"checking/check.ml" 136 4307 4321 "checking/check.ml" 136 4307 4324
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "checking/check.ml" 119 3580 3597 "checking/check.ml" 119 3580 3600
+)
+"checking/check.ml" 137 4325 4333 "checking/check.ml" 137 4325 4380
+type(
+  ((Format.formatter -> Longident.t -> unit) ->
+   Longident.t ->
+   (Format.formatter -> Longident.t -> unit) -> Longident.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"checking/check.ml" 138 4381 4389 "checking/check.ml" 138 4381 4425
+type(
+  Format.formatter -> Longident.t -> unit
+)
+ident(
+  ext_ref Pr_ocaml.pr_ident_in_prefix_position
+)
+"checking/check.ml" 138 4381 4426 "checking/check.ml" 138 4381 4429
+type(
+  Longident.t
+)
+ident(
+  int_ref li1 "checking/check.ml" 135 4270 4294 "checking/check.ml" 135 4270 4297
+)
+"checking/check.ml" 139 4430 4438 "checking/check.ml" 139 4430 4474
+type(
+  Format.formatter -> Longident.t -> unit
+)
+ident(
+  ext_ref Pr_ocaml.pr_ident_in_prefix_position
+)
+"checking/check.ml" 139 4430 4475 "checking/check.ml" 139 4430 4478
+type(
+  Longident.t
+)
+ident(
+  int_ref li2 "checking/check.ml" 135 4270 4299 "checking/check.ml" 135 4270 4302
+)
+"checking/check.ml" 136 4307 4313 "checking/check.ml" 139 4430 4478
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 140 4479 4483 "checking/check.ml" 140 4479 4498
+type(
+  error
+)
+"checking/check.ml" 141 4502 4508 "checking/check.ml" 141 4502 4515
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"checking/check.ml" 141 4502 4516 "checking/check.ml" 141 4502 4519
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "checking/check.ml" 119 3580 3597 "checking/check.ml" 119 3580 3600
+)
+"checking/check.ml" 141 4502 4520 "checking/check.ml" 141 4502 4538
+type(
+  (unit, Format.formatter, unit) format
+)
+"checking/check.ml" 141 4502 4508 "checking/check.ml" 141 4502 4538
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 142 4539 4583 "checking/check.ml" 142 4539 4585
+type(
+  Longident.t
+)
+ident(
+  def li "checking/check.ml" 143 4589 4595 "checking/check.ml" 144 4635 4682
+)
+"checking/check.ml" 142 4539 4543 "checking/check.ml" 142 4539 4585
+type(
+  error
+)
+"checking/check.ml" 143 4589 4595 "checking/check.ml" 143 4589 4602
+type(
+  Format.formatter ->
+  ((Format.formatter -> Longident.t -> unit) -> Longident.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Longident.t -> unit) -> Longident.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"checking/check.ml" 143 4589 4603 "checking/check.ml" 143 4589 4606
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "checking/check.ml" 119 3580 3597 "checking/check.ml" 119 3580 3600
+)
+"checking/check.ml" 143 4589 4607 "checking/check.ml" 143 4589 4634
+type(
+  ((Format.formatter -> Longident.t -> unit) -> Longident.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"checking/check.ml" 144 4635 4643 "checking/check.ml" 144 4635 4679
+type(
+  Format.formatter -> Longident.t -> unit
+)
+ident(
+  ext_ref Pr_ocaml.pr_ident_in_prefix_position
+)
+"checking/check.ml" 144 4635 4680 "checking/check.ml" 144 4635 4682
+type(
+  Longident.t
+)
+ident(
+  int_ref li "checking/check.ml" 142 4539 4583 "checking/check.ml" 142 4539 4585
+)
+"checking/check.ml" 143 4589 4595 "checking/check.ml" 144 4635 4682
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 145 4683 4704 "checking/check.ml" 145 4683 4706
+type(
+  Longident.t
+)
+ident(
+  def li "checking/check.ml" 146 4710 4716 "checking/check.ml" 147 4773 4820
+)
+"checking/check.ml" 145 4683 4687 "checking/check.ml" 145 4683 4706
+type(
+  error
+)
+"checking/check.ml" 146 4710 4716 "checking/check.ml" 146 4710 4723
+type(
+  Format.formatter ->
+  ((Format.formatter -> Longident.t -> unit) -> Longident.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Longident.t -> unit) -> Longident.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"checking/check.ml" 146 4710 4724 "checking/check.ml" 146 4710 4727
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "checking/check.ml" 119 3580 3597 "checking/check.ml" 119 3580 3600
+)
+"checking/check.ml" 146 4710 4728 "checking/check.ml" 146 4710 4772
+type(
+  ((Format.formatter -> Longident.t -> unit) -> Longident.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"checking/check.ml" 147 4773 4781 "checking/check.ml" 147 4773 4817
+type(
+  Format.formatter -> Longident.t -> unit
+)
+ident(
+  ext_ref Pr_ocaml.pr_ident_in_prefix_position
+)
+"checking/check.ml" 147 4773 4818 "checking/check.ml" 147 4773 4820
+type(
+  Longident.t
+)
+ident(
+  int_ref li "checking/check.ml" 145 4683 4704 "checking/check.ml" 145 4683 4706
+)
+"checking/check.ml" 146 4710 4716 "checking/check.ml" 147 4773 4820
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 148 4821 4849 "checking/check.ml" 148 4821 4851
+type(
+  Longident.t
+)
+ident(
+  def li "checking/check.ml" 149 4868 4872 "checking/check.ml" 152 5004 5049
+)
+"checking/check.ml" 148 4821 4853 "checking/check.ml" 148 4821 4857
+type(
+  Parsetree.relation
+)
+ident(
+  def rel1 "checking/check.ml" 149 4868 4872 "checking/check.ml" 152 5004 5049
+)
+"checking/check.ml" 148 4821 4859 "checking/check.ml" 148 4821 4863
+type(
+  Parsetree.relation
+)
+ident(
+  def rel2 "checking/check.ml" 149 4868 4872 "checking/check.ml" 152 5004 5049
+)
+"checking/check.ml" 148 4821 4825 "checking/check.ml" 148 4821 4864
+type(
+  error
+)
+"checking/check.ml" 149 4868 4872 "checking/check.ml" 149 4868 4879
+type(
+  Format.formatter ->
+  ((Format.formatter -> Parsetree.relation -> unit) ->
+   Parsetree.relation ->
+   (Format.formatter -> Parsetree.relation -> unit) ->
+   Parsetree.relation ->
+   (Format.formatter -> Longident.t -> unit) -> Longident.t -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Parsetree.relation -> unit) ->
+  Parsetree.relation ->
+  (Format.formatter -> Parsetree.relation -> unit) ->
+  Parsetree.relation ->
+  (Format.formatter -> Longident.t -> unit) -> Longident.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"checking/check.ml" 149 4868 4880 "checking/check.ml" 149 4868 4883
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "checking/check.ml" 119 3580 3597 "checking/check.ml" 119 3580 3600
+)
+"checking/check.ml" 149 4868 4884 "checking/check.ml" 149 4868 4939
+type(
+  ((Format.formatter -> Parsetree.relation -> unit) ->
+   Parsetree.relation ->
+   (Format.formatter -> Parsetree.relation -> unit) ->
+   Parsetree.relation ->
+   (Format.formatter -> Longident.t -> unit) -> Longident.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"checking/check.ml" 150 4940 4946 "checking/check.ml" 150 4940 4966
+type(
+  Format.formatter -> Parsetree.relation -> unit
+)
+ident(
+  ext_ref Pr_ocaml.pr_relation
+)
+"checking/check.ml" 150 4940 4967 "checking/check.ml" 150 4940 4971
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref rel1 "checking/check.ml" 148 4821 4853 "checking/check.ml" 148 4821 4857
+)
+"checking/check.ml" 151 4972 4978 "checking/check.ml" 151 4972 4998
+type(
+  Format.formatter -> Parsetree.relation -> unit
+)
+ident(
+  ext_ref Pr_ocaml.pr_relation
+)
+"checking/check.ml" 151 4972 4999 "checking/check.ml" 151 4972 5003
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref rel2 "checking/check.ml" 148 4821 4859 "checking/check.ml" 148 4821 4863
+)
+"checking/check.ml" 152 5004 5010 "checking/check.ml" 152 5004 5046
+type(
+  Format.formatter -> Longident.t -> unit
+)
+ident(
+  ext_ref Pr_ocaml.pr_ident_in_prefix_position
+)
+"checking/check.ml" 152 5004 5047 "checking/check.ml" 152 5004 5049
+type(
+  Longident.t
+)
+ident(
+  int_ref li "checking/check.ml" 148 4821 4849 "checking/check.ml" 148 4821 4851
+)
+"checking/check.ml" 149 4868 4872 "checking/check.ml" 152 5004 5049
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 153 5050 5071 "checking/check.ml" 153 5050 5074
+type(
+  msg
+)
+ident(
+  def msg "checking/check.ml" 154 5078 5082 "checking/check.ml" 154 5078 5145
+)
+"checking/check.ml" 153 5050 5054 "checking/check.ml" 153 5050 5074
+type(
+  error
+)
+"checking/check.ml" 154 5078 5082 "checking/check.ml" 154 5078 5089
+type(
+  Format.formatter ->
+  (msg -> unit, Format.formatter, unit) format -> msg -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"checking/check.ml" 154 5078 5090 "checking/check.ml" 154 5078 5093
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "checking/check.ml" 119 3580 3597 "checking/check.ml" 119 3580 3600
+)
+"checking/check.ml" 154 5078 5094 "checking/check.ml" 154 5078 5141
+type(
+  (msg -> unit, Format.formatter, unit) format
+)
+"checking/check.ml" 154 5078 5142 "checking/check.ml" 154 5078 5145
+type(
+  msg
+)
+ident(
+  int_ref msg "checking/check.ml" 153 5050 5071 "checking/check.ml" 153 5050 5074
+)
+"checking/check.ml" 154 5078 5082 "checking/check.ml" 154 5078 5145
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 119 3580 3603 "checking/check.ml" 154 5078 5145
+type(
+  error -> unit
+)
+"checking/check.ml" 157 5150 5154 "checking/check.ml" 157 5150 5167
+type(
+  generator_info -> bool
+)
+ident(
+  def is_local_info "checking/check.ml" 160 5206 5206 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 157 5150 5168 "checking/check.ml" 157 5150 5173
+type(
+  generator_info
+)
+ident(
+  def ginfo "checking/check.ml" 157 5150 5176 "checking/check.ml" 157 5150 5201
+)
+"checking/check.ml" 157 5150 5176 "checking/check.ml" 157 5150 5181
+type(
+  generator_info
+)
+ident(
+  int_ref ginfo "checking/check.ml" 157 5150 5168 "checking/check.ml" 157 5150 5173
+)
+"checking/check.ml" 157 5150 5176 "checking/check.ml" 157 5150 5193
+type(
+  locality
+)
+"checking/check.ml" 157 5150 5194 "checking/check.ml" 157 5150 5195
+type(
+  locality -> locality -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"checking/check.ml" 157 5150 5196 "checking/check.ml" 157 5150 5201
+type(
+  locality
+)
+"checking/check.ml" 157 5150 5176 "checking/check.ml" 157 5150 5201
+type(
+  bool
+)
+"checking/check.ml" 160 5206 5210 "checking/check.ml" 160 5206 5225
+type(
+  generator_info -> bool
+)
+ident(
+  def is_private_info "checking/check.ml" 164 5278 5278 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 160 5206 5226 "checking/check.ml" 160 5206 5231
+type(
+  generator_info
+)
+ident(
+  def ginfo "checking/check.ml" 161 5234 5236 "checking/check.ml" 161 5234 5273
+)
+"checking/check.ml" 161 5234 5236 "checking/check.ml" 161 5234 5241
+type(
+  generator_info
+)
+ident(
+  int_ref ginfo "checking/check.ml" 160 5206 5226 "checking/check.ml" 160 5206 5231
+)
+"checking/check.ml" 161 5234 5236 "checking/check.ml" 161 5234 5254
+type(
+  Asttypes.private_flag
+)
+"checking/check.ml" 161 5234 5255 "checking/check.ml" 161 5234 5256
+type(
+  Asttypes.private_flag -> Asttypes.private_flag -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"checking/check.ml" 161 5234 5257 "checking/check.ml" 161 5234 5273
+type(
+  Asttypes.private_flag
+)
+"checking/check.ml" 161 5234 5236 "checking/check.ml" 161 5234 5273
+type(
+  bool
+)
+"checking/check.ml" 164 5278 5282 "checking/check.ml" 164 5278 5297
+type(
+  generator_info -> bool
+)
+ident(
+  def is_listary_info "checking/check.ml" 166 5335 5335 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 164 5278 5298 "checking/check.ml" 164 5278 5302
+type(
+  generator_info
+)
+ident(
+  def info "checking/check.ml" 164 5278 5305 "checking/check.ml" 164 5278 5331
+)
+"checking/check.ml" 164 5278 5305 "checking/check.ml" 164 5278 5309
+type(
+  generator_info
+)
+ident(
+  int_ref info "checking/check.ml" 164 5278 5298 "checking/check.ml" 164 5278 5302
+)
+"checking/check.ml" 164 5278 5305 "checking/check.ml" 164 5278 5318
+type(
+  generator_arity
+)
+"checking/check.ml" 164 5278 5319 "checking/check.ml" 164 5278 5320
+type(
+  generator_arity -> generator_arity -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"checking/check.ml" 164 5278 5321 "checking/check.ml" 164 5278 5331
+type(
+  generator_arity
+)
+"checking/check.ml" 164 5278 5305 "checking/check.ml" 164 5278 5331
+type(
+  bool
+)
+"checking/check.ml" 166 5335 5339 "checking/check.ml" 166 5335 5352
+type(
+  generator_info -> int
+)
+ident(
+  def arity_of_info "checking/check.ml" 187 5914 5914 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 166 5335 5353 "checking/check.ml" 166 5335 5357
+type(
+  generator_info
+)
+ident(
+  def info "checking/check.ml" 167 5360 5362 "checking/check.ml" 172 5464 5482
+)
+"checking/check.ml" 167 5360 5368 "checking/check.ml" 167 5360 5372
+type(
+  generator_info
+)
+ident(
+  int_ref info "checking/check.ml" 166 5335 5353 "checking/check.ml" 166 5335 5357
+)
+"checking/check.ml" 167 5360 5368 "checking/check.ml" 167 5360 5381
+type(
+  generator_arity
+)
+"checking/check.ml" 168 5387 5391 "checking/check.ml" 168 5387 5401
+type(
+  generator_arity
+)
+"checking/check.ml" 168 5387 5405 "checking/check.ml" 168 5387 5406
+type(
+  int
+)
+"checking/check.ml" 169 5407 5411 "checking/check.ml" 169 5407 5419
+type(
+  generator_arity
+)
+"checking/check.ml" 169 5407 5423 "checking/check.ml" 169 5407 5424
+type(
+  int
+)
+"checking/check.ml" 170 5425 5429 "checking/check.ml" 170 5425 5438
+type(
+  generator_arity
+)
+"checking/check.ml" 170 5425 5442 "checking/check.ml" 170 5425 5443
+type(
+  int
+)
+"checking/check.ml" 171 5444 5448 "checking/check.ml" 171 5444 5458
+type(
+  generator_arity
+)
+"checking/check.ml" 171 5444 5462 "checking/check.ml" 171 5444 5463
+type(
+  int
+)
+"checking/check.ml" 172 5464 5476 "checking/check.ml" 172 5464 5477
+type(
+  int
+)
+ident(
+  def n "checking/check.ml" 172 5464 5481 "checking/check.ml" 172 5464 5482
+)
+"checking/check.ml" 172 5464 5468 "checking/check.ml" 172 5464 5477
+type(
+  generator_arity
+)
+"checking/check.ml" 172 5464 5481 "checking/check.ml" 172 5464 5482
+type(
+  int
+)
+ident(
+  int_ref n "checking/check.ml" 172 5464 5476 "checking/check.ml" 172 5464 5477
+)
+"checking/check.ml" 167 5360 5362 "checking/check.ml" 172 5464 5482
+type(
+  int
+)
+"checking/check.ml" 187 5914 5918 "checking/check.ml" 187 5914 5934
+type(
+  generator_arity -> int
+)
+ident(
+  def arity_precedence "checking/check.ml" 196 6098 6098 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 187 5914 5935 "checking/check.ml" 187 5914 5950
+type(
+  generator_arity
+)
+ident(
+  def generator_arity "checking/check.ml" 188 5953 5955 "checking/check.ml" 193 6066 6093
+)
+"checking/check.ml" 188 5953 5961 "checking/check.ml" 188 5953 5976
+type(
+  generator_arity
+)
+ident(
+  int_ref generator_arity "checking/check.ml" 187 5914 5935 "checking/check.ml" 187 5914 5950
+)
+"checking/check.ml" 189 5982 5988 "checking/check.ml" 189 5982 5998
+type(
+  generator_arity
+)
+"checking/check.ml" 189 5982 6002 "checking/check.ml" 189 5982 6003
+type(
+  int
+)
+"checking/check.ml" 190 6004 6010 "checking/check.ml" 190 6004 6018
+type(
+  generator_arity
+)
+"checking/check.ml" 190 6004 6022 "checking/check.ml" 190 6004 6023
+type(
+  int
+)
+"checking/check.ml" 191 6024 6030 "checking/check.ml" 191 6024 6039
+type(
+  generator_arity
+)
+"checking/check.ml" 191 6024 6043 "checking/check.ml" 191 6024 6044
+type(
+  int
+)
+"checking/check.ml" 192 6045 6059 "checking/check.ml" 192 6045 6060
+type(
+  int
+)
+ident(
+  def n "checking/check.ml" 192 6045 6064 "checking/check.ml" 192 6045 6065
+)
+"checking/check.ml" 192 6045 6051 "checking/check.ml" 192 6045 6060
+type(
+  generator_arity
+)
+"checking/check.ml" 192 6045 6064 "checking/check.ml" 192 6045 6065
+type(
+  int
+)
+ident(
+  int_ref n "checking/check.ml" 192 6045 6059 "checking/check.ml" 192 6045 6060
+)
+"checking/check.ml" 193 6066 6072 "checking/check.ml" 193 6066 6082
+type(
+  generator_arity
+)
+"checking/check.ml" 193 6066 6086 "checking/check.ml" 193 6066 6093
+type(
+  int
+)
+ident(
+  ext_ref Pervasives.max_int
+)
+"checking/check.ml" 188 5953 5955 "checking/check.ml" 193 6066 6093
+type(
+  int
+)
+"checking/check.ml" 196 6098 6102 "checking/check.ml" 196 6098 6121
+type(
+  generator_info -> bool
+)
+ident(
+  def is_truly_unary_info "checking/check.ml" 200 6182 6182 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 196 6098 6122 "checking/check.ml" 196 6098 6126
+type(
+  generator_info
+)
+ident(
+  def info "checking/check.ml" 196 6098 6129 "checking/check.ml" 196 6098 6153
+)
+"checking/check.ml" 196 6098 6129 "checking/check.ml" 196 6098 6133
+type(
+  generator_info
+)
+ident(
+  int_ref info "checking/check.ml" 196 6098 6122 "checking/check.ml" 196 6098 6126
+)
+"checking/check.ml" 196 6098 6129 "checking/check.ml" 196 6098 6142
+type(
+  generator_arity
+)
+"checking/check.ml" 196 6098 6143 "checking/check.ml" 196 6098 6144
+type(
+  generator_arity -> generator_arity -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"checking/check.ml" 196 6098 6145 "checking/check.ml" 196 6098 6153
+type(
+  generator_arity
+)
+"checking/check.ml" 196 6098 6129 "checking/check.ml" 196 6098 6153
+type(
+  bool
+)
+"checking/check.ml" 200 6182 6187 "checking/check.ml" 200 6182 6205
+type(
+  (Longident.t, generator_info) Hashtbl.t
+)
+ident(
+  def generator_name_tbl "checking/check.ml" 204 6275 6275 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 201 6251 6253 "checking/check.ml" 201 6251 6267
+type(
+  ?random:bool -> int -> (Longident.t, generator_info) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"checking/check.ml" 201 6251 6268 "checking/check.ml" 201 6251 6270
+type(
+  int
+)
+"checking/check.ml" 201 6251 6253 "checking/check.ml" 201 6251 6270
+call(
+  stack
+)
+type(
+  (Longident.t, generator_info) Hashtbl.t
+)
+"checking/check.ml" 204 6275 6279 "checking/check.ml" 204 6275 6297
+type(
+  Longident.t -> bool
+)
+ident(
+  def is_generator_ident "checking/check.ml" 206 6334 6334 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 204 6275 6300 "checking/check.ml" 204 6275 6311
+type(
+  (Longident.t, generator_info) Hashtbl.t -> Longident.t -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"checking/check.ml" 204 6275 6312 "checking/check.ml" 204 6275 6330
+type(
+  (Longident.t, generator_info) Hashtbl.t
+)
+ident(
+  int_ref generator_name_tbl "checking/check.ml" 200 6182 6187 "checking/check.ml" 200 6182 6205
+)
+"checking/check.ml" 204 6275 6300 "checking/check.ml" 204 6275 6330
+call(
+  stack
+)
+type(
+  Longident.t -> bool
+)
+"checking/check.ml" 206 6334 6338 "checking/check.ml" 206 6334 6363
+type(
+  Longident.t -> generator_info
+)
+ident(
+  def find_generator_ident_info "checking/check.ml" 208 6401 6401 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 206 6334 6366 "checking/check.ml" 206 6334 6378
+type(
+  (Longident.t, generator_info) Hashtbl.t -> Longident.t -> generator_info
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"checking/check.ml" 206 6334 6379 "checking/check.ml" 206 6334 6397
+type(
+  (Longident.t, generator_info) Hashtbl.t
+)
+ident(
+  int_ref generator_name_tbl "checking/check.ml" 200 6182 6187 "checking/check.ml" 200 6182 6205
+)
+"checking/check.ml" 206 6334 6366 "checking/check.ml" 206 6334 6397
+call(
+  stack
+)
+type(
+  Longident.t -> generator_info
+)
+"checking/check.ml" 208 6401 6405 "checking/check.ml" 208 6401 6429
+type(
+  string -> generator_info
+)
+ident(
+  def find_generator_name_info "checking/check.ml" 210 6474 6474 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 208 6401 6430 "checking/check.ml" 208 6401 6431
+type(
+  string
+)
+ident(
+  def s "checking/check.ml" 208 6401 6434 "checking/check.ml" 208 6401 6470
+)
+"checking/check.ml" 208 6401 6434 "checking/check.ml" 208 6401 6459
+type(
+  Longident.t -> generator_info
+)
+ident(
+  int_ref find_generator_ident_info "checking/check.ml" 206 6334 6338 "checking/check.ml" 206 6334 6363
+)
+"checking/check.ml" 208 6401 6468 "checking/check.ml" 208 6401 6469
+type(
+  string
+)
+ident(
+  int_ref s "checking/check.ml" 208 6401 6430 "checking/check.ml" 208 6401 6431
+)
+"checking/check.ml" 208 6401 6460 "checking/check.ml" 208 6401 6470
+type(
+  Longident.t
+)
+"checking/check.ml" 208 6401 6434 "checking/check.ml" 208 6401 6470
+call(
+  tail
+)
+type(
+  generator_info
+)
+"checking/check.ml" 210 6474 6478 "checking/check.ml" 210 6474 6497
+type(
+  Parsetree.generator -> generator_info
+)
+ident(
+  def find_generator_info "checking/check.ml" 216 6630 6630 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 210 6474 6498 "checking/check.ml" 210 6474 6499
+type(
+  Parsetree.generator
+)
+ident(
+  def g "checking/check.ml" 211 6502 6504 "checking/check.ml" 212 6551 6587
+)
+"checking/check.ml" 211 6502 6508 "checking/check.ml" 211 6502 6533
+type(
+  Longident.t -> generator_info
+)
+ident(
+  int_ref find_generator_ident_info "checking/check.ml" 206 6334 6338 "checking/check.ml" 206 6334 6363
+)
+"checking/check.ml" 211 6502 6534 "checking/check.ml" 211 6502 6535
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "checking/check.ml" 210 6474 6498 "checking/check.ml" 210 6474 6499
+)
+"checking/check.ml" 211 6502 6534 "checking/check.ml" 211 6502 6545
+type(
+  Longident.t
+)
+"checking/check.ml" 211 6502 6508 "checking/check.ml" 211 6502 6545
+call(
+  stack
+)
+type(
+  generator_info
+)
+"checking/check.ml" 212 6551 6555 "checking/check.ml" 212 6551 6564
+type(
+  exn
+)
+"checking/check.ml" 212 6551 6568 "checking/check.ml" 212 6551 6585
+type(
+  Parsetree.generator -> generator_info
+)
+ident(
+  int_ref unknown_generator "checking/check.ml" 98 3140 3144 "checking/check.ml" 98 3140 3161
+)
+"checking/check.ml" 212 6551 6586 "checking/check.ml" 212 6551 6587
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "checking/check.ml" 210 6474 6498 "checking/check.ml" 210 6474 6499
+)
+"checking/check.ml" 212 6551 6568 "checking/check.ml" 212 6551 6587
+call(
+  tail
+)
+type(
+  generator_info
+)
+"checking/check.ml" 211 6502 6504 "checking/check.ml" 212 6551 6587
+type(
+  generator_info
+)
+"checking/check.ml" 216 6630 6634 "checking/check.ml" 216 6630 6654
+type(
+  Parsetree.generator -> bool
+)
+ident(
+  def is_listary_generator "checking/check.ml" 220 6705 6705 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 216 6630 6655 "checking/check.ml" 216 6630 6656
+type(
+  Parsetree.generator
+)
+ident(
+  def g "checking/check.ml" 217 6659 6661 "checking/check.ml" 217 6659 6700
+)
+"checking/check.ml" 217 6659 6661 "checking/check.ml" 217 6659 6676
+type(
+  generator_info -> bool
+)
+ident(
+  int_ref is_listary_info "checking/check.ml" 164 5278 5282 "checking/check.ml" 164 5278 5297
+)
+"checking/check.ml" 217 6659 6678 "checking/check.ml" 217 6659 6697
+type(
+  Parsetree.generator -> generator_info
+)
+ident(
+  int_ref find_generator_info "checking/check.ml" 210 6474 6478 "checking/check.ml" 210 6474 6497
+)
+"checking/check.ml" 217 6659 6698 "checking/check.ml" 217 6659 6699
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "checking/check.ml" 216 6630 6655 "checking/check.ml" 216 6630 6656
+)
+"checking/check.ml" 217 6659 6677 "checking/check.ml" 217 6659 6700
+call(
+  stack
+)
+type(
+  generator_info
+)
+"checking/check.ml" 217 6659 6661 "checking/check.ml" 217 6659 6700
+call(
+  tail
+)
+type(
+  bool
+)
+"checking/check.ml" 220 6705 6709 "checking/check.ml" 220 6705 6727
+type(
+  Parsetree.generator -> bool
+)
+ident(
+  def is_local_generator "checking/check.ml" 224 6776 6776 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 220 6705 6728 "checking/check.ml" 220 6705 6729
+type(
+  Parsetree.generator
+)
+ident(
+  def g "checking/check.ml" 221 6732 6734 "checking/check.ml" 221 6732 6771
+)
+"checking/check.ml" 221 6732 6734 "checking/check.ml" 221 6732 6747
+type(
+  generator_info -> bool
+)
+ident(
+  int_ref is_local_info "checking/check.ml" 157 5150 5154 "checking/check.ml" 157 5150 5167
+)
+"checking/check.ml" 221 6732 6749 "checking/check.ml" 221 6732 6768
+type(
+  Parsetree.generator -> generator_info
+)
+ident(
+  int_ref find_generator_info "checking/check.ml" 210 6474 6478 "checking/check.ml" 210 6474 6497
+)
+"checking/check.ml" 221 6732 6769 "checking/check.ml" 221 6732 6770
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "checking/check.ml" 220 6705 6728 "checking/check.ml" 220 6705 6729
+)
+"checking/check.ml" 221 6732 6748 "checking/check.ml" 221 6732 6771
+call(
+  stack
+)
+type(
+  generator_info
+)
+"checking/check.ml" 221 6732 6734 "checking/check.ml" 221 6732 6771
+call(
+  tail
+)
+type(
+  bool
+)
+"checking/check.ml" 224 6776 6780 "checking/check.ml" 224 6776 6800
+type(
+  Parsetree.generator -> bool
+)
+ident(
+  def is_private_generator "checking/check.ml" 228 6851 6851 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 224 6776 6801 "checking/check.ml" 224 6776 6802
+type(
+  Parsetree.generator
+)
+ident(
+  def g "checking/check.ml" 225 6805 6807 "checking/check.ml" 225 6805 6846
+)
+"checking/check.ml" 225 6805 6807 "checking/check.ml" 225 6805 6822
+type(
+  generator_info -> bool
+)
+ident(
+  int_ref is_private_info "checking/check.ml" 160 5206 5210 "checking/check.ml" 160 5206 5225
+)
+"checking/check.ml" 225 6805 6824 "checking/check.ml" 225 6805 6843
+type(
+  Parsetree.generator -> generator_info
+)
+ident(
+  int_ref find_generator_info "checking/check.ml" 210 6474 6478 "checking/check.ml" 210 6474 6497
+)
+"checking/check.ml" 225 6805 6844 "checking/check.ml" 225 6805 6845
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "checking/check.ml" 224 6776 6801 "checking/check.ml" 224 6776 6802
+)
+"checking/check.ml" 225 6805 6823 "checking/check.ml" 225 6805 6846
+call(
+  stack
+)
+type(
+  generator_info
+)
+"checking/check.ml" 225 6805 6807 "checking/check.ml" 225 6805 6846
+call(
+  tail
+)
+type(
+  bool
+)
+"checking/check.ml" 228 6851 6855 "checking/check.ml" 228 6851 6873
+type(
+  Parsetree.generator -> int
+)
+ident(
+  def arity_of_generator "checking/check.ml" 233 6923 6923 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 228 6851 6874 "checking/check.ml" 228 6851 6875
+type(
+  Parsetree.generator
+)
+ident(
+  def g "checking/check.ml" 229 6878 6880 "checking/check.ml" 229 6878 6917
+)
+"checking/check.ml" 229 6878 6880 "checking/check.ml" 229 6878 6893
+type(
+  generator_info -> int
+)
+ident(
+  int_ref arity_of_info "checking/check.ml" 166 5335 5339 "checking/check.ml" 166 5335 5352
+)
+"checking/check.ml" 229 6878 6895 "checking/check.ml" 229 6878 6914
+type(
+  Parsetree.generator -> generator_info
+)
+ident(
+  int_ref find_generator_info "checking/check.ml" 210 6474 6478 "checking/check.ml" 210 6474 6497
+)
+"checking/check.ml" 229 6878 6915 "checking/check.ml" 229 6878 6916
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "checking/check.ml" 228 6851 6874 "checking/check.ml" 228 6851 6875
+)
+"checking/check.ml" 229 6878 6894 "checking/check.ml" 229 6878 6917
+call(
+  stack
+)
+type(
+  generator_info
+)
+"checking/check.ml" 229 6878 6880 "checking/check.ml" 229 6878 6917
+call(
+  tail
+)
+type(
+  int
+)
+"checking/check.ml" 233 6923 6927 "checking/check.ml" 233 6923 6949
+type(
+  Parsetree.generator -> generator_arity
+)
+ident(
+  def get_arity_of_generator "checking/check.ml" 238 7014 7014 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 233 6923 6950 "checking/check.ml" 233 6923 6951
+type(
+  Parsetree.generator
+)
+ident(
+  def g "checking/check.ml" 234 6954 6956 "checking/check.ml" 235 6994 7009
+)
+"checking/check.ml" 234 6954 6960 "checking/check.ml" 234 6954 6964
+type(
+  generator_info
+)
+ident(
+  def info "checking/check.ml" 235 6994 6996 "checking/check.ml" 235 6994 7009
+)
+"checking/check.ml" 234 6954 6968 "checking/check.ml" 234 6954 6987
+type(
+  Parsetree.generator -> generator_info
+)
+ident(
+  int_ref find_generator_info "checking/check.ml" 210 6474 6478 "checking/check.ml" 210 6474 6497
+)
+"checking/check.ml" 234 6954 6988 "checking/check.ml" 234 6954 6989
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "checking/check.ml" 233 6923 6950 "checking/check.ml" 233 6923 6951
+)
+"checking/check.ml" 234 6954 6967 "checking/check.ml" 234 6954 6990
+call(
+  stack
+)
+type(
+  generator_info
+)
+"checking/check.ml" 235 6994 6996 "checking/check.ml" 235 6994 7000
+type(
+  generator_info
+)
+ident(
+  int_ref info "checking/check.ml" 234 6954 6960 "checking/check.ml" 234 6954 6964
+)
+"checking/check.ml" 235 6994 6996 "checking/check.ml" 235 6994 7009
+type(
+  generator_arity
+)
+"checking/check.ml" 234 6954 6956 "checking/check.ml" 235 6994 7009
+type(
+  generator_arity
+)
+"checking/check.ml" 238 7014 7018 "checking/check.ml" 238 7014 7042
+type(
+  Parsetree.generator -> bool
+)
+ident(
+  def is_truly_unary_generator "checking/check.ml" 242 7097 7097 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 238 7014 7043 "checking/check.ml" 238 7014 7044
+type(
+  Parsetree.generator
+)
+ident(
+  def g "checking/check.ml" 239 7047 7049 "checking/check.ml" 239 7047 7092
+)
+"checking/check.ml" 239 7047 7049 "checking/check.ml" 239 7047 7068
+type(
+  generator_info -> bool
+)
+ident(
+  int_ref is_truly_unary_info "checking/check.ml" 196 6098 6102 "checking/check.ml" 196 6098 6121
+)
+"checking/check.ml" 239 7047 7070 "checking/check.ml" 239 7047 7089
+type(
+  Parsetree.generator -> generator_info
+)
+ident(
+  int_ref find_generator_info "checking/check.ml" 210 6474 6478 "checking/check.ml" 210 6474 6497
+)
+"checking/check.ml" 239 7047 7090 "checking/check.ml" 239 7047 7091
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "checking/check.ml" 238 7014 7043 "checking/check.ml" 238 7014 7044
+)
+"checking/check.ml" 239 7047 7069 "checking/check.ml" 239 7047 7092
+call(
+  stack
+)
+type(
+  generator_info
+)
+"checking/check.ml" 239 7047 7049 "checking/check.ml" 239 7047 7092
+call(
+  tail
+)
+type(
+  bool
+)
+"checking/check.ml" 242 7097 7101 "checking/check.ml" 242 7097 7129
+type(
+  Parsetree.generator -> Parsetree.generator
+)
+ident(
+  def neutral_element_of_generator "checking/check.ml" 250 7335 7335 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 242 7097 7130 "checking/check.ml" 242 7097 7131
+type(
+  Parsetree.generator
+)
+ident(
+  def g "checking/check.ml" 243 7134 7136 "checking/check.ml" 246 7234 7269
+)
+"checking/check.ml" 243 7134 7140 "checking/check.ml" 243 7134 7144
+type(
+  generator_info
+)
+ident(
+  def info "checking/check.ml" 244 7172 7174 "checking/check.ml" 246 7234 7269
+)
+"checking/check.ml" 243 7134 7147 "checking/check.ml" 243 7134 7166
+type(
+  Parsetree.generator -> generator_info
+)
+ident(
+  int_ref find_generator_info "checking/check.ml" 210 6474 6478 "checking/check.ml" 210 6474 6497
+)
+"checking/check.ml" 243 7134 7167 "checking/check.ml" 243 7134 7168
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "checking/check.ml" 242 7097 7130 "checking/check.ml" 242 7097 7131
+)
+"checking/check.ml" 243 7134 7147 "checking/check.ml" 243 7134 7168
+call(
+  stack
+)
+type(
+  generator_info
+)
+"checking/check.ml" 244 7172 7180 "checking/check.ml" 244 7172 7187
+type(
+  Parsetree.relations ->
+  (Parsetree.relation_side * Parsetree.generator) option
+)
+ident(
+  ext_ref Relation.neutral
+)
+"checking/check.ml" 244 7172 7188 "checking/check.ml" 244 7172 7192
+type(
+  generator_info
+)
+ident(
+  int_ref info "checking/check.ml" 243 7134 7140 "checking/check.ml" 243 7134 7144
+)
+"checking/check.ml" 244 7172 7188 "checking/check.ml" 244 7172 7205
+type(
+  Parsetree.relations
+)
+"checking/check.ml" 244 7172 7180 "checking/check.ml" 244 7172 7205
+call(
+  stack
+)
+type(
+  (Parsetree.relation_side * Parsetree.generator) option
+)
+"checking/check.ml" 245 7211 7221 "checking/check.ml" 245 7211 7224
+type(
+  Parsetree.relation_side
+)
+ident(
+  def _sd "checking/check.ml" 245 7211 7232 "checking/check.ml" 245 7211 7233
+)
+"checking/check.ml" 245 7211 7226 "checking/check.ml" 245 7211 7227
+type(
+  Parsetree.generator
+)
+ident(
+  def e "checking/check.ml" 245 7211 7232 "checking/check.ml" 245 7211 7233
+)
+"checking/check.ml" 245 7211 7220 "checking/check.ml" 245 7211 7228
+type(
+  Parsetree.relation_side * Parsetree.generator
+)
+"checking/check.ml" 245 7211 7215 "checking/check.ml" 245 7211 7228
+type(
+  (Parsetree.relation_side * Parsetree.generator) option
+)
+"checking/check.ml" 245 7211 7232 "checking/check.ml" 245 7211 7233
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "checking/check.ml" 245 7211 7226 "checking/check.ml" 245 7211 7227
+)
+"checking/check.ml" 246 7234 7238 "checking/check.ml" 246 7234 7239
+type(
+  (Parsetree.relation_side * Parsetree.generator) option
+)
+"checking/check.ml" 246 7234 7243 "checking/check.ml" 246 7234 7267
+type(
+  Parsetree.generator -> Parsetree.generator
+)
+ident(
+  int_ref no_neutral_element_error "checking/check.ml" 106 3335 3339 "checking/check.ml" 106 3335 3363
+)
+"checking/check.ml" 246 7234 7268 "checking/check.ml" 246 7234 7269
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "checking/check.ml" 242 7097 7130 "checking/check.ml" 242 7097 7131
+)
+"checking/check.ml" 246 7234 7243 "checking/check.ml" 246 7234 7269
+call(
+  tail
+)
+type(
+  Parsetree.generator
+)
+"checking/check.ml" 244 7172 7174 "checking/check.ml" 246 7234 7269
+type(
+  Parsetree.generator
+)
+"checking/check.ml" 243 7134 7136 "checking/check.ml" 246 7234 7269
+type(
+  Parsetree.generator
+)
+"checking/check.ml" 250 7335 7339 "checking/check.ml" 250 7335 7368
+type(
+  Longident.t -> unit
+)
+ident(
+  def check_relations_compatibility "checking/check.ml" 262 7823 7823 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 250 7335 7369 "checking/check.ml" 250 7335 7383
+type(
+  Longident.t
+)
+ident(
+  def generator_name "checking/check.ml" 251 7386 7388 "checking/check.ml" 257 7734 7798
+)
+"checking/check.ml" 251 7386 7392 "checking/check.ml" 251 7386 7396
+type(
+  generator_info
+)
+ident(
+  def info "checking/check.ml" 252 7443 7445 "checking/check.ml" 257 7734 7798
+)
+"checking/check.ml" 251 7386 7399 "checking/check.ml" 251 7386 7424
+type(
+  Longident.t -> generator_info
+)
+ident(
+  int_ref find_generator_ident_info "checking/check.ml" 206 6334 6338 "checking/check.ml" 206 6334 6363
+)
+"checking/check.ml" 251 7386 7425 "checking/check.ml" 251 7386 7439
+type(
+  Longident.t
+)
+ident(
+  int_ref generator_name "checking/check.ml" 250 7335 7369 "checking/check.ml" 250 7335 7383
+)
+"checking/check.ml" 251 7386 7399 "checking/check.ml" 251 7386 7439
+call(
+  stack
+)
+type(
+  generator_info
+)
+"checking/check.ml" 252 7443 7449 "checking/check.ml" 252 7443 7458
+type(
+  Parsetree.relations
+)
+ident(
+  def relations "checking/check.ml" 253 7482 7484 "checking/check.ml" 257 7734 7798
+)
+"checking/check.ml" 252 7443 7461 "checking/check.ml" 252 7443 7465
+type(
+  generator_info
+)
+ident(
+  int_ref info "checking/check.ml" 251 7386 7392 "checking/check.ml" 251 7386 7396
+)
+"checking/check.ml" 252 7443 7461 "checking/check.ml" 252 7443 7478
+type(
+  Parsetree.relations
+)
+"checking/check.ml" 253 7482 7487 "checking/check.ml" 253 7482 7524
+type(
+  Parsetree.relations -> bool
+)
+ident(
+  ext_ref Relation.has_idempotent_and_nilpotent
+)
+"checking/check.ml" 253 7482 7525 "checking/check.ml" 253 7482 7534
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "checking/check.ml" 252 7443 7449 "checking/check.ml" 252 7443 7458
+)
+"checking/check.ml" 253 7482 7487 "checking/check.ml" 253 7482 7534
+call(
+  stack
+)
+type(
+  bool
+)
+"checking/check.ml" 254 7540 7548 "checking/check.ml" 254 7540 7561
+type(
+  Parsetree.relation list
+)
+ident(
+  def relation_list "checking/check.ml" 255 7604 7608 "checking/check.ml" 257 7734 7798
+)
+"checking/check.ml" 254 7540 7564 "checking/check.ml" 254 7540 7590
+type(
+  Parsetree.relations -> Parsetree.relation list
+)
+ident(
+  ext_ref Relation.get_relation_list
+)
+"checking/check.ml" 254 7540 7591 "checking/check.ml" 254 7540 7600
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "checking/check.ml" 252 7443 7449 "checking/check.ml" 252 7443 7458
+)
+"checking/check.ml" 254 7540 7564 "checking/check.ml" 254 7540 7600
+call(
+  stack
+)
+type(
+  Parsetree.relation list
+)
+"checking/check.ml" 255 7604 7612 "checking/check.ml" 255 7604 7614
+type(
+  Parsetree.relation
+)
+ident(
+  def r1 "checking/check.ml" 257 7734 7738 "checking/check.ml" 257 7734 7798
+)
+"checking/check.ml" 255 7604 7617 "checking/check.ml" 255 7604 7639
+type(
+  (Parsetree.relation -> bool) ->
+  Parsetree.relation list -> Parsetree.relation
+)
+ident(
+  ext_ref Relation.find_relation
+)
+"checking/check.ml" 255 7604 7640 "checking/check.ml" 255 7604 7653
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  ext_ref Relation.is_idempotent
+)
+"checking/check.ml" 255 7604 7654 "checking/check.ml" 255 7604 7667
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref relation_list "checking/check.ml" 254 7540 7548 "checking/check.ml" 254 7540 7561
+)
+"checking/check.ml" 255 7604 7617 "checking/check.ml" 255 7604 7667
+call(
+  stack
+)
+type(
+  Parsetree.relation
+)
+"checking/check.ml" 256 7668 7676 "checking/check.ml" 256 7668 7678
+type(
+  Parsetree.relation
+)
+ident(
+  def r2 "checking/check.ml" 257 7734 7738 "checking/check.ml" 257 7734 7798
+)
+"checking/check.ml" 256 7668 7681 "checking/check.ml" 256 7668 7703
+type(
+  (Parsetree.relation -> bool) ->
+  Parsetree.relation list -> Parsetree.relation
+)
+ident(
+  ext_ref Relation.find_relation
+)
+"checking/check.ml" 256 7668 7704 "checking/check.ml" 256 7668 7716
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  ext_ref Relation.is_nilpotent
+)
+"checking/check.ml" 256 7668 7717 "checking/check.ml" 256 7668 7730
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref relation_list "checking/check.ml" 254 7540 7548 "checking/check.ml" 254 7540 7561
+)
+"checking/check.ml" 256 7668 7681 "checking/check.ml" 256 7668 7730
+call(
+  stack
+)
+type(
+  Parsetree.relation
+)
+"checking/check.ml" 257 7734 7738 "checking/check.ml" 257 7734 7760
+type(
+  Longident.t ->
+  Location.t -> Parsetree.relation -> Parsetree.relation -> unit
+)
+ident(
+  int_ref incompatible_relations "checking/check.ml" 110 3430 3434 "checking/check.ml" 110 3430 3456
+)
+"checking/check.ml" 257 7734 7761 "checking/check.ml" 257 7734 7775
+type(
+  Longident.t
+)
+ident(
+  int_ref generator_name "checking/check.ml" 250 7335 7369 "checking/check.ml" 250 7335 7383
+)
+"checking/check.ml" 257 7734 7776 "checking/check.ml" 257 7734 7780
+type(
+  generator_info
+)
+ident(
+  int_ref info "checking/check.ml" 251 7386 7392 "checking/check.ml" 251 7386 7396
+)
+"checking/check.ml" 257 7734 7776 "checking/check.ml" 257 7734 7792
+type(
+  Location.t
+)
+"checking/check.ml" 257 7734 7793 "checking/check.ml" 257 7734 7795
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r1 "checking/check.ml" 255 7604 7612 "checking/check.ml" 255 7604 7614
+)
+"checking/check.ml" 257 7734 7796 "checking/check.ml" 257 7734 7798
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r2 "checking/check.ml" 256 7668 7676 "checking/check.ml" 256 7668 7678
+)
+"checking/check.ml" 257 7734 7738 "checking/check.ml" 257 7734 7798
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 255 7604 7608 "checking/check.ml" 257 7734 7798
+type(
+  unit
+)
+"checking/check.ml" 254 7540 7544 "checking/check.ml" 257 7734 7798
+type(
+  unit
+)
+"checking/check.ml" 253 7482 7484 "checking/check.ml" 257 7734 7798
+type(
+  unit
+)
+"checking/check.ml" 252 7443 7445 "checking/check.ml" 257 7734 7798
+type(
+  unit
+)
+"checking/check.ml" 251 7386 7388 "checking/check.ml" 257 7734 7798
+type(
+  unit
+)
+"checking/check.ml" 262 7823 7827 "checking/check.ml" 262 7823 7840
+type(
+  (Longident.t, Parsetree.type_declaration) Hashtbl.t
+)
+ident(
+  def type_name_tbl "checking/check.ml" 264 7864 7864 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 262 7823 7843 "checking/check.ml" 262 7823 7857
+type(
+  ?random:bool -> int -> (Longident.t, Parsetree.type_declaration) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"checking/check.ml" 262 7823 7858 "checking/check.ml" 262 7823 7860
+type(
+  int
+)
+"checking/check.ml" 262 7823 7843 "checking/check.ml" 262 7823 7860
+call(
+  stack
+)
+type(
+  (Longident.t, Parsetree.type_declaration) Hashtbl.t
+)
+"checking/check.ml" 264 7864 7868 "checking/check.ml" 264 7864 7881
+type(
+  Longident.t -> bool
+)
+ident(
+  def is_type_ident "checking/check.ml" 266 7913 7913 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 264 7864 7884 "checking/check.ml" 264 7864 7895
+type(
+  (Longident.t, Parsetree.type_declaration) Hashtbl.t -> Longident.t -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"checking/check.ml" 264 7864 7896 "checking/check.ml" 264 7864 7909
+type(
+  (Longident.t, Parsetree.type_declaration) Hashtbl.t
+)
+ident(
+  int_ref type_name_tbl "checking/check.ml" 262 7823 7827 "checking/check.ml" 262 7823 7840
+)
+"checking/check.ml" 264 7864 7884 "checking/check.ml" 264 7864 7909
+call(
+  stack
+)
+type(
+  Longident.t -> bool
+)
+"checking/check.ml" 266 7913 7917 "checking/check.ml" 266 7913 7944
+type(
+  Longident.t -> Parsetree.type_declaration
+)
+ident(
+  def find_type_ident_declaration "checking/check.ml" 268 7977 7977 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 266 7913 7947 "checking/check.ml" 266 7913 7959
+type(
+  (Longident.t, Parsetree.type_declaration) Hashtbl.t ->
+  Longident.t -> Parsetree.type_declaration
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"checking/check.ml" 266 7913 7960 "checking/check.ml" 266 7913 7973
+type(
+  (Longident.t, Parsetree.type_declaration) Hashtbl.t
+)
+ident(
+  int_ref type_name_tbl "checking/check.ml" 262 7823 7827 "checking/check.ml" 262 7823 7840
+)
+"checking/check.ml" 266 7913 7947 "checking/check.ml" 266 7913 7973
+call(
+  stack
+)
+type(
+  Longident.t -> Parsetree.type_declaration
+)
+"checking/check.ml" 268 7977 7981 "checking/check.ml" 268 7977 8007
+type(
+  string -> Parsetree.type_declaration
+)
+ident(
+  def find_type_name_declaration "checking/check.ml" 278 8287 8287 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 268 7977 8008 "checking/check.ml" 268 7977 8009
+type(
+  string
+)
+ident(
+  def s "checking/check.ml" 268 7977 8012 "checking/check.ml" 268 7977 8050
+)
+"checking/check.ml" 268 7977 8012 "checking/check.ml" 268 7977 8039
+type(
+  Longident.t -> Parsetree.type_declaration
+)
+ident(
+  int_ref find_type_ident_declaration "checking/check.ml" 266 7913 7917 "checking/check.ml" 266 7913 7944
+)
+"checking/check.ml" 268 7977 8048 "checking/check.ml" 268 7977 8049
+type(
+  string
+)
+ident(
+  int_ref s "checking/check.ml" 268 7977 8008 "checking/check.ml" 268 7977 8009
+)
+"checking/check.ml" 268 7977 8040 "checking/check.ml" 268 7977 8050
+type(
+  Longident.t
+)
+"checking/check.ml" 268 7977 8012 "checking/check.ml" 268 7977 8050
+call(
+  tail
+)
+type(
+  Parsetree.type_declaration
+)
+"checking/check.ml" 278 8287 8291 "checking/check.ml" 278 8287 8317
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  def always_acceptable_relation "checking/check.ml" 297 8628 8628 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 278 8287 8318 "checking/check.ml" 278 8287 8321
+type(
+  Parsetree.relation
+)
+ident(
+  def rel "checking/check.ml" 279 8324 8326 "checking/check.ml" 294 8602 8623
+)
+"checking/check.ml" 279 8324 8332 "checking/check.ml" 279 8324 8335
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref rel "checking/check.ml" 278 8287 8318 "checking/check.ml" 278 8287 8321
+)
+"checking/check.ml" 279 8324 8332 "checking/check.ml" 279 8324 8345
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 280 8351 8377 "checking/check.ml" 280 8351 8378
+type(
+  Parsetree.generator
+)
+"checking/check.ml" 280 8351 8355 "checking/check.ml" 280 8351 8378
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 281 8379 8395 "checking/check.ml" 281 8379 8396
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 281 8379 8383 "checking/check.ml" 281 8379 8396
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 280 8351 8355 "checking/check.ml" 281 8379 8396
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 282 8397 8413 "checking/check.ml" 282 8397 8414
+type(
+  Longident.t option
+)
+"checking/check.ml" 282 8397 8401 "checking/check.ml" 282 8397 8414
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 280 8351 8355 "checking/check.ml" 282 8397 8414
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 283 8415 8427 "checking/check.ml" 283 8415 8428
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 283 8415 8419 "checking/check.ml" 283 8415 8428
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 280 8351 8355 "checking/check.ml" 283 8415 8428
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 284 8429 8443 "checking/check.ml" 284 8429 8444
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 284 8429 8433 "checking/check.ml" 284 8429 8444
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 280 8351 8355 "checking/check.ml" 284 8429 8444
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 285 8445 8459 "checking/check.ml" 285 8445 8460
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 285 8445 8449 "checking/check.ml" 285 8445 8460
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 280 8351 8355 "checking/check.ml" 285 8445 8460
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 286 8461 8473 "checking/check.ml" 286 8461 8474
+type(
+  Parsetree.generator option
+)
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 286 8461 8465 "checking/check.ml" 286 8461 8474
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 280 8351 8355 "checking/check.ml" 286 8461 8474
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 287 8475 8479 "checking/check.ml" 287 8475 8489
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 280 8351 8355 "checking/check.ml" 287 8475 8489
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 288 8490 8507 "checking/check.ml" 288 8490 8508
+type(
+  Parsetree.distributivity_direction
+)
+type(
+  Parsetree.generator option
+)
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 288 8490 8494 "checking/check.ml" 288 8490 8508
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 280 8351 8355 "checking/check.ml" 288 8490 8508
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 289 8509 8523 "checking/check.ml" 289 8509 8524
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 289 8509 8513 "checking/check.ml" 289 8509 8524
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 280 8351 8355 "checking/check.ml" 289 8509 8524
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 290 8525 8540 "checking/check.ml" 290 8525 8541
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 290 8525 8529 "checking/check.ml" 290 8525 8541
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 280 8351 8355 "checking/check.ml" 290 8525 8541
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 290 8525 8545 "checking/check.ml" 290 8525 8550
+type(
+  bool
+)
+"checking/check.ml" 291 8551 8570 "checking/check.ml" 291 8551 8571
+type(
+  Parsetree.structure_item
+)
+"checking/check.ml" 291 8551 8555 "checking/check.ml" 291 8551 8571
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 292 8572 8583 "checking/check.ml" 292 8572 8584
+type(
+  Parsetree.rpo_status
+)
+"checking/check.ml" 292 8572 8576 "checking/check.ml" 292 8572 8584
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 291 8551 8555 "checking/check.ml" 292 8572 8584
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 293 8585 8600 "checking/check.ml" 293 8585 8601
+type(
+  Parsetree.rpo_precedence
+)
+"checking/check.ml" 293 8585 8589 "checking/check.ml" 293 8585 8601
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 291 8551 8555 "checking/check.ml" 293 8585 8601
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 294 8602 8614 "checking/check.ml" 294 8602 8615
+type(
+  Parsetree.expression
+)
+type(
+  Parsetree.pattern
+)
+"checking/check.ml" 294 8602 8606 "checking/check.ml" 294 8602 8615
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 291 8551 8555 "checking/check.ml" 294 8602 8615
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 294 8602 8619 "checking/check.ml" 294 8602 8623
+type(
+  bool
+)
+"checking/check.ml" 279 8324 8326 "checking/check.ml" 294 8602 8623
+type(
+  bool
+)
+"checking/check.ml" 297 8628 8632 "checking/check.ml" 297 8628 8655
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  def is_possible_for_zeroary "checking/check.ml" 299 8688 8688 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 297 8628 8658 "checking/check.ml" 297 8628 8684
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  int_ref always_acceptable_relation "checking/check.ml" 278 8287 8291 "checking/check.ml" 278 8287 8317
+)
+"checking/check.ml" 299 8688 8692 "checking/check.ml" 299 8688 8719
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  def is_possible_for_truly_unary "checking/check.ml" 318 9030 9030 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 299 8688 8720 "checking/check.ml" 299 8688 8723
+type(
+  Parsetree.relation
+)
+ident(
+  def rel "checking/check.ml" 300 8726 8728 "checking/check.ml" 315 9004 9025
+)
+"checking/check.ml" 300 8726 8734 "checking/check.ml" 300 8726 8737
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref rel "checking/check.ml" 299 8688 8720 "checking/check.ml" 299 8688 8723
+)
+"checking/check.ml" 300 8726 8734 "checking/check.ml" 300 8726 8747
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 301 8753 8769 "checking/check.ml" 301 8753 8770
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 301 8753 8757 "checking/check.ml" 301 8753 8770
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 302 8771 8787 "checking/check.ml" 302 8771 8788
+type(
+  Longident.t option
+)
+"checking/check.ml" 302 8771 8775 "checking/check.ml" 302 8771 8788
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 301 8753 8757 "checking/check.ml" 302 8771 8788
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 303 8789 8801 "checking/check.ml" 303 8789 8802
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 303 8789 8793 "checking/check.ml" 303 8789 8802
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 301 8753 8757 "checking/check.ml" 303 8789 8802
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 304 8803 8817 "checking/check.ml" 304 8803 8818
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 304 8803 8807 "checking/check.ml" 304 8803 8818
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 301 8753 8757 "checking/check.ml" 304 8803 8818
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 305 8819 8833 "checking/check.ml" 305 8819 8834
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 305 8819 8823 "checking/check.ml" 305 8819 8834
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 301 8753 8757 "checking/check.ml" 305 8819 8834
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 306 8835 8847 "checking/check.ml" 306 8835 8848
+type(
+  Parsetree.generator option
+)
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 306 8835 8839 "checking/check.ml" 306 8835 8848
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 301 8753 8757 "checking/check.ml" 306 8835 8848
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 306 8835 8852 "checking/check.ml" 306 8835 8857
+type(
+  bool
+)
+"checking/check.ml" 307 8858 8884 "checking/check.ml" 307 8858 8885
+type(
+  Parsetree.generator
+)
+"checking/check.ml" 307 8858 8862 "checking/check.ml" 307 8858 8885
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 308 8886 8890 "checking/check.ml" 308 8886 8900
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 307 8858 8862 "checking/check.ml" 308 8886 8900
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 309 8901 8918 "checking/check.ml" 309 8901 8919
+type(
+  Parsetree.distributivity_direction
+)
+type(
+  Parsetree.generator option
+)
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 309 8901 8905 "checking/check.ml" 309 8901 8919
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 307 8858 8862 "checking/check.ml" 309 8901 8919
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 310 8920 8934 "checking/check.ml" 310 8920 8935
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 310 8920 8924 "checking/check.ml" 310 8920 8935
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 307 8858 8862 "checking/check.ml" 310 8920 8935
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 311 8936 8951 "checking/check.ml" 311 8936 8952
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 311 8936 8940 "checking/check.ml" 311 8936 8952
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 307 8858 8862 "checking/check.ml" 311 8936 8952
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 312 8953 8972 "checking/check.ml" 312 8953 8973
+type(
+  Parsetree.structure_item
+)
+"checking/check.ml" 312 8953 8957 "checking/check.ml" 312 8953 8973
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 307 8858 8862 "checking/check.ml" 312 8953 8973
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 313 8974 8985 "checking/check.ml" 313 8974 8986
+type(
+  Parsetree.rpo_status
+)
+"checking/check.ml" 313 8974 8978 "checking/check.ml" 313 8974 8986
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 307 8858 8862 "checking/check.ml" 313 8974 8986
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 314 8987 9002 "checking/check.ml" 314 8987 9003
+type(
+  Parsetree.rpo_precedence
+)
+"checking/check.ml" 314 8987 8991 "checking/check.ml" 314 8987 9003
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 307 8858 8862 "checking/check.ml" 314 8987 9003
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 315 9004 9016 "checking/check.ml" 315 9004 9017
+type(
+  Parsetree.expression
+)
+type(
+  Parsetree.pattern
+)
+"checking/check.ml" 315 9004 9008 "checking/check.ml" 315 9004 9017
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 307 8858 8862 "checking/check.ml" 315 9004 9017
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 315 9004 9021 "checking/check.ml" 315 9004 9025
+type(
+  bool
+)
+"checking/check.ml" 300 8726 8728 "checking/check.ml" 315 9004 9025
+type(
+  bool
+)
+"checking/check.ml" 318 9030 9034 "checking/check.ml" 318 9030 9056
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  def is_possible_for_binary "checking/check.ml" 337 9367 9367 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 318 9030 9057 "checking/check.ml" 318 9030 9060
+type(
+  Parsetree.relation
+)
+ident(
+  def rel "checking/check.ml" 319 9063 9065 "checking/check.ml" 334 9326 9362
+)
+"checking/check.ml" 319 9063 9071 "checking/check.ml" 319 9063 9074
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref rel "checking/check.ml" 318 9030 9057 "checking/check.ml" 318 9030 9060
+)
+"checking/check.ml" 319 9063 9071 "checking/check.ml" 319 9063 9084
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 320 9090 9106 "checking/check.ml" 320 9090 9107
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 320 9090 9094 "checking/check.ml" 320 9090 9107
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 321 9108 9124 "checking/check.ml" 321 9108 9125
+type(
+  Longident.t option
+)
+"checking/check.ml" 321 9108 9112 "checking/check.ml" 321 9108 9125
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 320 9090 9094 "checking/check.ml" 321 9108 9125
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 322 9126 9138 "checking/check.ml" 322 9126 9139
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 322 9126 9130 "checking/check.ml" 322 9126 9139
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 320 9090 9094 "checking/check.ml" 322 9126 9139
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 323 9140 9154 "checking/check.ml" 323 9140 9155
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 323 9140 9144 "checking/check.ml" 323 9140 9155
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 320 9090 9094 "checking/check.ml" 323 9140 9155
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 324 9156 9170 "checking/check.ml" 324 9156 9171
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 324 9156 9160 "checking/check.ml" 324 9156 9171
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 320 9090 9094 "checking/check.ml" 324 9156 9171
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 325 9172 9184 "checking/check.ml" 325 9172 9185
+type(
+  Parsetree.generator option
+)
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 325 9172 9176 "checking/check.ml" 325 9172 9185
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 320 9090 9094 "checking/check.ml" 325 9172 9185
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 326 9186 9203 "checking/check.ml" 326 9186 9204
+type(
+  Parsetree.distributivity_direction
+)
+type(
+  Parsetree.generator option
+)
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 326 9186 9190 "checking/check.ml" 326 9186 9204
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 320 9090 9094 "checking/check.ml" 326 9186 9204
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 327 9205 9219 "checking/check.ml" 327 9205 9220
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 327 9205 9209 "checking/check.ml" 327 9205 9220
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 320 9090 9094 "checking/check.ml" 327 9205 9220
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 328 9221 9236 "checking/check.ml" 328 9221 9237
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 328 9221 9225 "checking/check.ml" 328 9221 9237
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 320 9090 9094 "checking/check.ml" 328 9221 9237
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 329 9238 9257 "checking/check.ml" 329 9238 9258
+type(
+  Parsetree.structure_item
+)
+"checking/check.ml" 329 9238 9242 "checking/check.ml" 329 9238 9258
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 320 9090 9094 "checking/check.ml" 329 9238 9258
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 330 9259 9274 "checking/check.ml" 330 9259 9275
+type(
+  Parsetree.rpo_precedence
+)
+"checking/check.ml" 330 9259 9263 "checking/check.ml" 330 9259 9275
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 320 9090 9094 "checking/check.ml" 330 9259 9275
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 331 9276 9288 "checking/check.ml" 331 9276 9289
+type(
+  Parsetree.expression
+)
+type(
+  Parsetree.pattern
+)
+"checking/check.ml" 331 9276 9280 "checking/check.ml" 331 9276 9289
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 320 9090 9094 "checking/check.ml" 331 9276 9289
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 332 9290 9301 "checking/check.ml" 332 9290 9302
+type(
+  Parsetree.rpo_status
+)
+"checking/check.ml" 332 9290 9294 "checking/check.ml" 332 9290 9302
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 320 9090 9094 "checking/check.ml" 332 9290 9302
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 332 9290 9306 "checking/check.ml" 332 9290 9310
+type(
+  bool
+)
+"checking/check.ml" 333 9311 9315 "checking/check.ml" 333 9311 9325
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 334 9326 9352 "checking/check.ml" 334 9326 9353
+type(
+  Parsetree.generator
+)
+"checking/check.ml" 334 9326 9330 "checking/check.ml" 334 9326 9353
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 333 9311 9315 "checking/check.ml" 334 9326 9353
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 334 9326 9357 "checking/check.ml" 334 9326 9362
+type(
+  bool
+)
+"checking/check.ml" 319 9063 9065 "checking/check.ml" 334 9326 9362
+type(
+  bool
+)
+"checking/check.ml" 337 9367 9371 "checking/check.ml" 337 9367 9394
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  def is_possible_for_listary "checking/check.ml" 371 10109 10109 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 337 9367 9397 "checking/check.ml" 337 9367 9419
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  int_ref is_possible_for_binary "checking/check.ml" 318 9030 9034 "checking/check.ml" 318 9030 9056
+)
+"checking/check.ml" 371 10109 10113 "checking/check.ml" 371 10109 10133
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  def is_possible_for_mary "checking/check.ml" 373 10166 10166 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 371 10109 10136 "checking/check.ml" 371 10109 10162
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  int_ref always_acceptable_relation "checking/check.ml" 278 8287 8291 "checking/check.ml" 278 8287 8317
+)
+"checking/check.ml" 373 10166 10174 "checking/check.ml" 373 10166 10189
+type(
+  Parsetree.relation -> Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  def insert_relation "checking/check.ml" 373 10166 10166 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 373 10166 10190 "checking/check.ml" 373 10166 10192
+type(
+  Parsetree.relation
+)
+ident(
+  def r1 "checking/check.ml" 373 10166 10195 "checking/check.ml" 382 10501 10508
+)
+"checking/check.ml" 375 10275 10279 "checking/check.ml" 375 10275 10281
+type(
+  Parsetree.relation list
+)
+"checking/check.ml" 375 10275 10286 "checking/check.ml" 375 10275 10288
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r1 "checking/check.ml" 373 10166 10190 "checking/check.ml" 373 10166 10192
+)
+"checking/check.ml" 375 10275 10285 "checking/check.ml" 375 10275 10289
+type(
+  Parsetree.relation list
+)
+"checking/check.ml" 376 10290 10295 "checking/check.ml" 376 10290 10297
+type(
+  Parsetree.relation
+)
+ident(
+  def r2 "checking/check.ml" 377 10313 10317 "checking/check.ml" 382 10501 10508
+)
+"checking/check.ml" 376 10290 10301 "checking/check.ml" 376 10290 10303
+type(
+  Parsetree.relation list
+)
+ident(
+  def rs "checking/check.ml" 377 10313 10317 "checking/check.ml" 382 10501 10508
+)
+"checking/check.ml" 376 10290 10294 "checking/check.ml" 376 10290 10304
+type(
+  Parsetree.relation list
+)
+"checking/check.ml" 376 10290 10308 "checking/check.ml" 376 10290 10309
+ident(
+  def l "checking/check.ml" 377 10313 10317 "checking/check.ml" 382 10501 10508
+)
+"checking/check.ml" 376 10290 10294 "checking/check.ml" 376 10290 10309
+type(
+  Parsetree.relation list
+)
+"checking/check.ml" 378 10323 10335 "checking/check.ml" 378 10323 10360
+type(
+  (Parsetree.relation -> int) ->
+  Parsetree.relation -> Parsetree.relation -> int
+)
+ident(
+  ext_ref Relation.compare_relation
+)
+"checking/check.ml" 378 10323 10361 "checking/check.ml" 378 10323 10371
+type(
+  Parsetree.relation -> int
+)
+ident(
+  ext_ref Relation.precedence
+)
+"checking/check.ml" 378 10323 10372 "checking/check.ml" 378 10323 10374
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r1 "checking/check.ml" 373 10166 10190 "checking/check.ml" 373 10166 10192
+)
+"checking/check.ml" 378 10323 10375 "checking/check.ml" 378 10323 10377
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r2 "checking/check.ml" 376 10290 10295 "checking/check.ml" 376 10290 10297
+)
+"checking/check.ml" 378 10323 10335 "checking/check.ml" 378 10323 10377
+call(
+  stack
+)
+type(
+  int
+)
+"checking/check.ml" 379 10383 10391 "checking/check.ml" 379 10383 10392
+type(
+  int
+)
+"checking/check.ml" 379 10383 10396 "checking/check.ml" 379 10383 10421
+type(
+  Parsetree.relation -> Parsetree.relation -> Parsetree.relation list
+)
+ident(
+  int_ref relation_already_declared "checking/check.ml" 102 3227 3231 "checking/check.ml" 102 3227 3256
+)
+"checking/check.ml" 379 10383 10422 "checking/check.ml" 379 10383 10424
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r1 "checking/check.ml" 373 10166 10190 "checking/check.ml" 373 10166 10192
+)
+"checking/check.ml" 379 10383 10425 "checking/check.ml" 379 10383 10427
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r2 "checking/check.ml" 376 10290 10295 "checking/check.ml" 376 10290 10297
+)
+"checking/check.ml" 379 10383 10396 "checking/check.ml" 379 10383 10427
+call(
+  tail
+)
+type(
+  Parsetree.relation list
+)
+"checking/check.ml" 380 10428 10436 "checking/check.ml" 380 10428 10437
+type(
+  int
+)
+ident(
+  def n "checking/check.ml" 380 10428 10443 "checking/check.ml" 380 10428 10479
+)
+"checking/check.ml" 380 10428 10443 "checking/check.ml" 380 10428 10444
+type(
+  int
+)
+ident(
+  int_ref n "checking/check.ml" 380 10428 10436 "checking/check.ml" 380 10428 10437
+)
+"checking/check.ml" 380 10428 10445 "checking/check.ml" 380 10428 10446
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"checking/check.ml" 380 10428 10447 "checking/check.ml" 380 10428 10448
+type(
+  int
+)
+"checking/check.ml" 380 10428 10443 "checking/check.ml" 380 10428 10448
+type(
+  bool
+)
+"checking/check.ml" 380 10428 10452 "checking/check.ml" 380 10428 10454
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r2 "checking/check.ml" 376 10290 10295 "checking/check.ml" 376 10290 10297
+)
+"checking/check.ml" 380 10428 10458 "checking/check.ml" 380 10428 10473
+type(
+  Parsetree.relation -> Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  int_ref insert_relation "checking/check.ml" 373 10166 10174 "checking/check.ml" 373 10166 10189
+)
+"checking/check.ml" 380 10428 10474 "checking/check.ml" 380 10428 10476
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r1 "checking/check.ml" 373 10166 10190 "checking/check.ml" 373 10166 10192
+)
+"checking/check.ml" 380 10428 10477 "checking/check.ml" 380 10428 10479
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rs "checking/check.ml" 376 10290 10301 "checking/check.ml" 376 10290 10303
+)
+"checking/check.ml" 380 10428 10458 "checking/check.ml" 380 10428 10479
+call(
+  stack
+)
+type(
+  Parsetree.relation list
+)
+"checking/check.ml" 380 10428 10452 "checking/check.ml" 380 10428 10479
+type(
+  Parsetree.relation list
+)
+"checking/check.ml" 381 10480 10488 "checking/check.ml" 381 10480 10489
+type(
+  int
+)
+"checking/check.ml" 381 10480 10493 "checking/check.ml" 381 10480 10495
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r1 "checking/check.ml" 373 10166 10190 "checking/check.ml" 373 10166 10192
+)
+"checking/check.ml" 381 10480 10499 "checking/check.ml" 381 10480 10500
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref l "checking/check.ml" 376 10290 10294 "checking/check.ml" 376 10290 10309
+)
+"checking/check.ml" 381 10480 10493 "checking/check.ml" 381 10480 10500
+type(
+  Parsetree.relation list
+)
+"checking/check.ml" 377 10313 10317 "checking/check.ml" 382 10501 10508
+type(
+  Parsetree.relation list
+)
+"checking/check.ml" 373 10166 10195 "checking/check.ml" 382 10501 10508
+type(
+  Parsetree.relation list -> Parsetree.relation list
+)
+"checking/check.ml" 385 10513 10517 "checking/check.ml" 385 10513 10538
+type(
+  Parsetree.generator -> Parsetree.generator -> bool
+)
+ident(
+  def have_compatible_types "checking/check.ml" 391 10657 10657 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 385 10513 10539 "checking/check.ml" 385 10513 10540
+type(
+  Parsetree.generator
+)
+ident(
+  def d "checking/check.ml" 385 10513 10541 "checking/check.ml" 388 10607 10652
+)
+"checking/check.ml" 385 10513 10541 "checking/check.ml" 385 10513 10542
+type(
+  Parsetree.generator
+)
+ident(
+  def e "checking/check.ml" 386 10545 10547 "checking/check.ml" 388 10607 10652
+)
+"checking/check.ml" 386 10545 10547 "checking/check.ml" 386 10545 10567
+type(
+  Parsetree.generator -> bool
+)
+ident(
+  int_ref is_listary_generator "checking/check.ml" 216 6630 6634 "checking/check.ml" 216 6630 6654
+)
+"checking/check.ml" 386 10545 10568 "checking/check.ml" 386 10545 10569
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "checking/check.ml" 385 10513 10541 "checking/check.ml" 385 10513 10542
+)
+"checking/check.ml" 386 10545 10547 "checking/check.ml" 386 10545 10569
+call(
+  stack
+)
+type(
+  bool
+)
+"checking/check.ml" 386 10545 10570 "checking/check.ml" 386 10545 10572
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"checking/check.ml" 387 10573 10575 "checking/check.ml" 387 10573 10578
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"checking/check.ml" 387 10573 10580 "checking/check.ml" 387 10573 10600
+type(
+  Parsetree.generator -> bool
+)
+ident(
+  int_ref is_listary_generator "checking/check.ml" 216 6630 6634 "checking/check.ml" 216 6630 6654
+)
+"checking/check.ml" 387 10573 10601 "checking/check.ml" 387 10573 10602
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref d "checking/check.ml" 385 10513 10539 "checking/check.ml" 385 10513 10540
+)
+"checking/check.ml" 387 10573 10579 "checking/check.ml" 387 10573 10603
+call(
+  stack
+)
+type(
+  bool
+)
+"checking/check.ml" 387 10573 10575 "checking/check.ml" 387 10573 10603
+type(
+  bool
+)
+"checking/check.ml" 387 10573 10604 "checking/check.ml" 387 10573 10606
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"checking/check.ml" 388 10607 10609 "checking/check.ml" 388 10607 10627
+type(
+  Parsetree.generator -> int
+)
+ident(
+  int_ref arity_of_generator "checking/check.ml" 228 6851 6855 "checking/check.ml" 228 6851 6873
+)
+"checking/check.ml" 388 10607 10628 "checking/check.ml" 388 10607 10629
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "checking/check.ml" 385 10513 10541 "checking/check.ml" 385 10513 10542
+)
+"checking/check.ml" 388 10607 10609 "checking/check.ml" 388 10607 10629
+call(
+  stack
+)
+type(
+  int
+)
+"checking/check.ml" 388 10607 10630 "checking/check.ml" 388 10607 10631
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"checking/check.ml" 388 10607 10632 "checking/check.ml" 388 10607 10650
+type(
+  Parsetree.generator -> int
+)
+ident(
+  int_ref arity_of_generator "checking/check.ml" 228 6851 6855 "checking/check.ml" 228 6851 6873
+)
+"checking/check.ml" 388 10607 10651 "checking/check.ml" 388 10607 10652
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref d "checking/check.ml" 385 10513 10539 "checking/check.ml" 385 10513 10540
+)
+"checking/check.ml" 388 10607 10632 "checking/check.ml" 388 10607 10652
+call(
+  stack
+)
+type(
+  int
+)
+"checking/check.ml" 388 10607 10609 "checking/check.ml" 388 10607 10652
+type(
+  bool
+)
+"checking/check.ml" 387 10573 10575 "checking/check.ml" 388 10607 10652
+type(
+  bool
+)
+"checking/check.ml" 386 10545 10547 "checking/check.ml" 388 10607 10652
+type(
+  bool
+)
+"checking/check.ml" 391 10657 10661 "checking/check.ml" 391 10657 10694
+type(
+  generator_info -> Parsetree.relation -> bool
+)
+ident(
+  def generator_relation_are_compatible "checking/check.ml" 400 10948 10948 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 391 10657 10695 "checking/check.ml" 391 10657 10697
+type(
+  generator_info
+)
+ident(
+  def gi "checking/check.ml" 391 10657 10698 "checking/check.ml" 397 10903 10943
+)
+"checking/check.ml" 391 10657 10698 "checking/check.ml" 391 10657 10699
+type(
+  Parsetree.relation
+)
+ident(
+  def r "checking/check.ml" 392 10702 10704 "checking/check.ml" 397 10903 10943
+)
+"checking/check.ml" 392 10702 10710 "checking/check.ml" 392 10702 10712
+type(
+  generator_info
+)
+ident(
+  int_ref gi "checking/check.ml" 391 10657 10695 "checking/check.ml" 391 10657 10697
+)
+"checking/check.ml" 392 10702 10710 "checking/check.ml" 392 10702 10721
+type(
+  generator_arity
+)
+"checking/check.ml" 393 10727 10731 "checking/check.ml" 393 10727 10741
+type(
+  generator_arity
+)
+"checking/check.ml" 393 10727 10745 "checking/check.ml" 393 10727 10768
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  int_ref is_possible_for_zeroary "checking/check.ml" 297 8628 8632 "checking/check.ml" 297 8628 8655
+)
+"checking/check.ml" 393 10727 10769 "checking/check.ml" 393 10727 10770
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 391 10657 10698 "checking/check.ml" 391 10657 10699
+)
+"checking/check.ml" 393 10727 10745 "checking/check.ml" 393 10727 10770
+call(
+  tail
+)
+type(
+  bool
+)
+"checking/check.ml" 394 10771 10775 "checking/check.ml" 394 10771 10783
+type(
+  generator_arity
+)
+"checking/check.ml" 394 10771 10787 "checking/check.ml" 394 10771 10814
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  int_ref is_possible_for_truly_unary "checking/check.ml" 299 8688 8692 "checking/check.ml" 299 8688 8719
+)
+"checking/check.ml" 394 10771 10815 "checking/check.ml" 394 10771 10816
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 391 10657 10698 "checking/check.ml" 391 10657 10699
+)
+"checking/check.ml" 394 10771 10787 "checking/check.ml" 394 10771 10816
+call(
+  tail
+)
+type(
+  bool
+)
+"checking/check.ml" 395 10817 10821 "checking/check.ml" 395 10817 10830
+type(
+  generator_arity
+)
+"checking/check.ml" 395 10817 10834 "checking/check.ml" 395 10817 10856
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  int_ref is_possible_for_binary "checking/check.ml" 318 9030 9034 "checking/check.ml" 318 9030 9056
+)
+"checking/check.ml" 395 10817 10857 "checking/check.ml" 395 10817 10858
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 391 10657 10698 "checking/check.ml" 391 10657 10699
+)
+"checking/check.ml" 395 10817 10834 "checking/check.ml" 395 10817 10858
+call(
+  tail
+)
+type(
+  bool
+)
+"checking/check.ml" 396 10859 10863 "checking/check.ml" 396 10859 10873
+type(
+  generator_arity
+)
+"checking/check.ml" 396 10859 10877 "checking/check.ml" 396 10859 10900
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  int_ref is_possible_for_listary "checking/check.ml" 337 9367 9371 "checking/check.ml" 337 9367 9394
+)
+"checking/check.ml" 396 10859 10901 "checking/check.ml" 396 10859 10902
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 391 10657 10698 "checking/check.ml" 391 10657 10699
+)
+"checking/check.ml" 396 10859 10877 "checking/check.ml" 396 10859 10902
+call(
+  tail
+)
+type(
+  bool
+)
+"checking/check.ml" 397 10903 10915 "checking/check.ml" 397 10903 10917
+type(
+  int
+)
+ident(
+  def _n "checking/check.ml" 397 10903 10921 "checking/check.ml" 397 10903 10943
+)
+"checking/check.ml" 397 10903 10907 "checking/check.ml" 397 10903 10917
+type(
+  generator_arity
+)
+"checking/check.ml" 397 10903 10921 "checking/check.ml" 397 10903 10941
+type(
+  Parsetree.relation -> bool
+)
+ident(
+  int_ref is_possible_for_mary "checking/check.ml" 371 10109 10113 "checking/check.ml" 371 10109 10133
+)
+"checking/check.ml" 397 10903 10942 "checking/check.ml" 397 10903 10943
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 391 10657 10698 "checking/check.ml" 391 10657 10699
+)
+"checking/check.ml" 397 10903 10921 "checking/check.ml" 397 10903 10943
+call(
+  tail
+)
+type(
+  bool
+)
+"checking/check.ml" 392 10702 10704 "checking/check.ml" 397 10903 10943
+type(
+  bool
+)
+"checking/check.ml" 400 10948 10952 "checking/check.ml" 400 10948 10967
+type(
+  string -> Parsetree.relations -> unit
+)
+ident(
+  def check_relations "checking/check.ml" 444 12920 12920 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 400 10948 10968 "checking/check.ml" 400 10948 10982
+type(
+  string
+)
+ident(
+  def generator_name "checking/check.ml" 401 10985 10987 "checking/check.ml" 441 12855 12915
+)
+"checking/check.ml" 401 10985 10991 "checking/check.ml" 401 10985 10993
+type(
+  generator_info
+)
+ident(
+  def gi "checking/check.ml" 404 11074 11076 "checking/check.ml" 441 12855 12915
+)
+"checking/check.ml" 401 10985 10996 "checking/check.ml" 401 10985 11020
+type(
+  string -> generator_info
+)
+ident(
+  int_ref find_generator_name_info "checking/check.ml" 208 6401 6405 "checking/check.ml" 208 6401 6429
+)
+"checking/check.ml" 401 10985 11021 "checking/check.ml" 401 10985 11035
+type(
+  string
+)
+ident(
+  int_ref generator_name "checking/check.ml" 400 10948 10968 "checking/check.ml" 400 10948 10982
+)
+"checking/check.ml" 401 10985 10996 "checking/check.ml" 401 10985 11035
+call(
+  stack
+)
+type(
+  generator_info
+)
+"checking/check.ml" 402 11036 11042 "checking/check.ml" 402 11036 11045
+type(
+  Longident.t
+)
+ident(
+  def gid "checking/check.ml" 404 11074 11076 "checking/check.ml" 441 12855 12915
+)
+"checking/check.ml" 402 11036 11055 "checking/check.ml" 402 11036 11069
+type(
+  string
+)
+ident(
+  int_ref generator_name "checking/check.ml" 400 10948 10968 "checking/check.ml" 400 10948 10982
+)
+"checking/check.ml" 402 11036 11048 "checking/check.ml" 402 11036 11069
+type(
+  Longident.t
+)
+"checking/check.ml" 404 11074 11084 "checking/check.ml" 404 11074 11087
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list -> Parsetree.relation list -> unit
+)
+ident(
+  def aux "checking/check.ml" 404 11074 11076 "checking/check.ml" 441 12855 12915
+)
+"checking/check.ml" 404 11074 11089 "checking/check.ml" 404 11074 11093
+type(
+  Parsetree.relation option
+)
+ident(
+  def stat "checking/check.ml" 404 11074 11123 "checking/check.ml" 435 12749 12758
+)
+"checking/check.ml" 404 11074 11095 "checking/check.ml" 404 11074 11099
+type(
+  Parsetree.relation option
+)
+ident(
+  def prec "checking/check.ml" 404 11074 11123 "checking/check.ml" 435 12749 12758
+)
+"checking/check.ml" 404 11074 11101 "checking/check.ml" 404 11074 11104
+type(
+  Parsetree.relation option
+)
+ident(
+  def ass "checking/check.ml" 404 11074 11123 "checking/check.ml" 435 12749 12758
+)
+"checking/check.ml" 404 11074 11106 "checking/check.ml" 404 11074 11109
+type(
+  Parsetree.relation option
+)
+ident(
+  def com "checking/check.ml" 404 11074 11123 "checking/check.ml" 435 12749 12758
+)
+"checking/check.ml" 404 11074 11111 "checking/check.ml" 404 11074 11119
+type(
+  Parsetree.relation list
+)
+ident(
+  def builtins "checking/check.ml" 404 11074 11123 "checking/check.ml" 435 12749 12758
+)
+"checking/check.ml" 404 11074 11088 "checking/check.ml" 404 11074 11120
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list
+)
+"checking/check.ml" 405 11132 11138 "checking/check.ml" 405 11132 11140
+type(
+  Parsetree.relation list
+)
+"checking/check.ml" 405 11132 11144 "checking/check.ml" 405 11132 11146
+type(
+  unit
+)
+"checking/check.ml" 406 11147 11153 "checking/check.ml" 406 11147 11154
+type(
+  Parsetree.relation
+)
+ident(
+  def r "checking/check.ml" 407 11164 11170 "checking/check.ml" 435 12749 12758
+)
+"checking/check.ml" 406 11147 11158 "checking/check.ml" 406 11147 11160
+type(
+  Parsetree.relation list
+)
+ident(
+  def rs "checking/check.ml" 407 11164 11170 "checking/check.ml" 435 12749 12758
+)
+"checking/check.ml" 406 11147 11153 "checking/check.ml" 406 11147 11160
+type(
+  Parsetree.relation list
+)
+"checking/check.ml" 408 11176 11188 "checking/check.ml" 408 11176 11193
+type(
+  error -> 'a
+)
+ident(
+  def error "checking/check.ml" 409 11226 11234 "checking/check.ml" 434 12676 12748
+)
+"checking/check.ml" 408 11176 11194 "checking/check.ml" 408 11176 11195
+type(
+  error
+)
+ident(
+  def e "checking/check.ml" 408 11176 11198 "checking/check.ml" 408 11176 11222
+)
+"checking/check.ml" 408 11176 11198 "checking/check.ml" 408 11176 11209
+type(
+  Location.t -> error -> 'a
+)
+ident(
+  int_ref raise_error "checking/check.ml" 91 3009 3013 "checking/check.ml" 91 3009 3024
+)
+"checking/check.ml" 408 11176 11210 "checking/check.ml" 408 11176 11211
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 406 11147 11153 "checking/check.ml" 406 11147 11154
+)
+"checking/check.ml" 408 11176 11210 "checking/check.ml" 408 11176 11220
+type(
+  Location.t
+)
+"checking/check.ml" 408 11176 11221 "checking/check.ml" 408 11176 11222
+type(
+  error
+)
+ident(
+  int_ref e "checking/check.ml" 408 11176 11194 "checking/check.ml" 408 11176 11195
+)
+"checking/check.ml" 408 11176 11198 "checking/check.ml" 408 11176 11222
+call(
+  tail
+)
+type(
+  'a
+)
+"checking/check.ml" 409 11226 11237 "checking/check.ml" 409 11226 11240
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"checking/check.ml" 409 11226 11242 "checking/check.ml" 409 11226 11275
+type(
+  generator_info -> Parsetree.relation -> bool
+)
+ident(
+  int_ref generator_relation_are_compatible "checking/check.ml" 391 10657 10661 "checking/check.ml" 391 10657 10694
+)
+"checking/check.ml" 409 11226 11276 "checking/check.ml" 409 11226 11278
+type(
+  generator_info
+)
+ident(
+  int_ref gi "checking/check.ml" 401 10985 10991 "checking/check.ml" 401 10985 10993
+)
+"checking/check.ml" 409 11226 11279 "checking/check.ml" 409 11226 11280
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 406 11147 11153 "checking/check.ml" 406 11147 11154
+)
+"checking/check.ml" 409 11226 11241 "checking/check.ml" 409 11226 11281
+call(
+  stack
+)
+type(
+  bool
+)
+"checking/check.ml" 409 11226 11237 "checking/check.ml" 409 11226 11281
+type(
+  bool
+)
+"checking/check.ml" 410 11287 11297 "checking/check.ml" 410 11287 11302
+type(
+  error -> unit
+)
+ident(
+  int_ref error "checking/check.ml" 408 11176 11188 "checking/check.ml" 408 11176 11193
+)
+"checking/check.ml" 410 11287 11321 "checking/check.ml" 410 11287 11324
+type(
+  Longident.t
+)
+ident(
+  int_ref gid "checking/check.ml" 402 11036 11042 "checking/check.ml" 402 11036 11045
+)
+"checking/check.ml" 410 11287 11303 "checking/check.ml" 410 11287 11325
+type(
+  error
+)
+"checking/check.ml" 410 11287 11297 "checking/check.ml" 410 11287 11325
+call(
+  stack
+)
+type(
+  unit
+)
+"checking/check.ml" 409 11226 11234 "checking/check.ml" 410 11287 11325
+type(
+  unit
+)
+"checking/check.ml" 411 11327 11341 "checking/check.ml" 411 11327 11342
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 406 11147 11153 "checking/check.ml" 406 11147 11154
+)
+"checking/check.ml" 411 11327 11341 "checking/check.ml" 411 11327 11352
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 411 11327 11354 "checking/check.ml" 411 11327 11358
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref prec "checking/check.ml" 404 11074 11095 "checking/check.ml" 404 11074 11099
+)
+"checking/check.ml" 411 11327 11360 "checking/check.ml" 411 11327 11363
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref ass "checking/check.ml" 404 11074 11101 "checking/check.ml" 404 11074 11104
+)
+"checking/check.ml" 411 11327 11365 "checking/check.ml" 411 11327 11368
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref com "checking/check.ml" 404 11074 11106 "checking/check.ml" 404 11074 11109
+)
+"checking/check.ml" 411 11327 11341 "checking/check.ml" 411 11327 11368
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 412 11374 11395 "checking/check.ml" 412 11374 11396
+type(
+  Parsetree.rpo_precedence
+)
+"checking/check.ml" 412 11374 11384 "checking/check.ml" 412 11374 11396
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 412 11374 11398 "checking/check.ml" 412 11374 11402
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 412 11374 11404 "checking/check.ml" 412 11374 11405
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 412 11374 11407 "checking/check.ml" 412 11374 11408
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 412 11374 11384 "checking/check.ml" 412 11374 11408
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 412 11374 11412 "checking/check.ml" 412 11374 11415
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list -> Parsetree.relation list -> unit
+)
+ident(
+  int_ref aux "checking/check.ml" 404 11074 11084 "checking/check.ml" 404 11074 11087
+)
+"checking/check.ml" 412 11374 11417 "checking/check.ml" 412 11374 11421
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref stat "checking/check.ml" 404 11074 11089 "checking/check.ml" 404 11074 11093
+)
+"checking/check.ml" 412 11374 11428 "checking/check.ml" 412 11374 11429
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 406 11147 11153 "checking/check.ml" 406 11147 11154
+)
+"checking/check.ml" 412 11374 11423 "checking/check.ml" 412 11374 11429
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 412 11374 11431 "checking/check.ml" 412 11374 11434
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref ass "checking/check.ml" 404 11074 11101 "checking/check.ml" 404 11074 11104
+)
+"checking/check.ml" 412 11374 11436 "checking/check.ml" 412 11374 11439
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref com "checking/check.ml" 404 11074 11106 "checking/check.ml" 404 11074 11109
+)
+"checking/check.ml" 412 11374 11441 "checking/check.ml" 412 11374 11449
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref builtins "checking/check.ml" 404 11074 11111 "checking/check.ml" 404 11074 11119
+)
+"checking/check.ml" 412 11374 11416 "checking/check.ml" 412 11374 11450
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list
+)
+"checking/check.ml" 412 11374 11451 "checking/check.ml" 412 11374 11453
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rs "checking/check.ml" 406 11147 11158 "checking/check.ml" 406 11147 11160
+)
+"checking/check.ml" 412 11374 11412 "checking/check.ml" 412 11374 11453
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 413 11454 11475 "checking/check.ml" 413 11454 11476
+type(
+  Parsetree.rpo_precedence
+)
+"checking/check.ml" 413 11454 11464 "checking/check.ml" 413 11454 11476
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 413 11454 11483 "checking/check.ml" 413 11454 11484
+type(
+  Parsetree.relation
+)
+ident(
+  def p "checking/check.ml" 413 11454 11494 "checking/check.ml" 413 11454 11523
+)
+"checking/check.ml" 413 11454 11478 "checking/check.ml" 413 11454 11484
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 413 11454 11486 "checking/check.ml" 413 11454 11487
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 413 11454 11489 "checking/check.ml" 413 11454 11490
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 413 11454 11464 "checking/check.ml" 413 11454 11490
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 413 11454 11494 "checking/check.ml" 413 11454 11519
+type(
+  Parsetree.relation -> Parsetree.relation -> unit
+)
+ident(
+  int_ref relation_already_declared "checking/check.ml" 102 3227 3231 "checking/check.ml" 102 3227 3256
+)
+"checking/check.ml" 413 11454 11520 "checking/check.ml" 413 11454 11521
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref p "checking/check.ml" 413 11454 11483 "checking/check.ml" 413 11454 11484
+)
+"checking/check.ml" 413 11454 11522 "checking/check.ml" 413 11454 11523
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 406 11147 11153 "checking/check.ml" 406 11147 11154
+)
+"checking/check.ml" 413 11454 11494 "checking/check.ml" 413 11454 11523
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 414 11524 11541 "checking/check.ml" 414 11524 11542
+type(
+  Parsetree.rpo_status
+)
+"checking/check.ml" 414 11524 11534 "checking/check.ml" 414 11524 11542
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 414 11524 11544 "checking/check.ml" 414 11524 11548
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 414 11524 11550 "checking/check.ml" 414 11524 11551
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 414 11524 11553 "checking/check.ml" 414 11524 11554
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 414 11524 11534 "checking/check.ml" 414 11524 11554
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 414 11524 11558 "checking/check.ml" 414 11524 11561
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list -> Parsetree.relation list -> unit
+)
+ident(
+  int_ref aux "checking/check.ml" 404 11074 11084 "checking/check.ml" 404 11074 11087
+)
+"checking/check.ml" 414 11524 11568 "checking/check.ml" 414 11524 11569
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 406 11147 11153 "checking/check.ml" 406 11147 11154
+)
+"checking/check.ml" 414 11524 11563 "checking/check.ml" 414 11524 11569
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 414 11524 11571 "checking/check.ml" 414 11524 11575
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref prec "checking/check.ml" 404 11074 11095 "checking/check.ml" 404 11074 11099
+)
+"checking/check.ml" 414 11524 11577 "checking/check.ml" 414 11524 11580
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref ass "checking/check.ml" 404 11074 11101 "checking/check.ml" 404 11074 11104
+)
+"checking/check.ml" 414 11524 11582 "checking/check.ml" 414 11524 11585
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref com "checking/check.ml" 404 11074 11106 "checking/check.ml" 404 11074 11109
+)
+"checking/check.ml" 414 11524 11587 "checking/check.ml" 414 11524 11595
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref builtins "checking/check.ml" 404 11074 11111 "checking/check.ml" 404 11074 11119
+)
+"checking/check.ml" 414 11524 11562 "checking/check.ml" 414 11524 11596
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list
+)
+"checking/check.ml" 414 11524 11597 "checking/check.ml" 414 11524 11599
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rs "checking/check.ml" 406 11147 11158 "checking/check.ml" 406 11147 11160
+)
+"checking/check.ml" 414 11524 11558 "checking/check.ml" 414 11524 11599
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 415 11600 11617 "checking/check.ml" 415 11600 11618
+type(
+  Parsetree.rpo_status
+)
+"checking/check.ml" 415 11600 11610 "checking/check.ml" 415 11600 11618
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 415 11600 11625 "checking/check.ml" 415 11600 11626
+type(
+  Parsetree.relation
+)
+ident(
+  def p "checking/check.ml" 415 11600 11636 "checking/check.ml" 415 11600 11665
+)
+"checking/check.ml" 415 11600 11620 "checking/check.ml" 415 11600 11626
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 415 11600 11628 "checking/check.ml" 415 11600 11629
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 415 11600 11631 "checking/check.ml" 415 11600 11632
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 415 11600 11610 "checking/check.ml" 415 11600 11632
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 415 11600 11636 "checking/check.ml" 415 11600 11661
+type(
+  Parsetree.relation -> Parsetree.relation -> unit
+)
+ident(
+  int_ref relation_already_declared "checking/check.ml" 102 3227 3231 "checking/check.ml" 102 3227 3256
+)
+"checking/check.ml" 415 11600 11662 "checking/check.ml" 415 11600 11663
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref p "checking/check.ml" 415 11600 11625 "checking/check.ml" 415 11600 11626
+)
+"checking/check.ml" 415 11600 11664 "checking/check.ml" 415 11600 11665
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 406 11147 11153 "checking/check.ml" 406 11147 11154
+)
+"checking/check.ml" 415 11600 11636 "checking/check.ml" 415 11600 11665
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 416 11666 11688 "checking/check.ml" 416 11666 11689
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 416 11666 11676 "checking/check.ml" 416 11666 11689
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 416 11666 11691 "checking/check.ml" 416 11666 11692
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 416 11666 11694 "checking/check.ml" 416 11666 11698
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 416 11666 11700 "checking/check.ml" 416 11666 11701
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 416 11666 11676 "checking/check.ml" 416 11666 11701
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 417 11705 11717 "checking/check.ml" 417 11705 11720
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list -> Parsetree.relation list -> unit
+)
+ident(
+  int_ref aux "checking/check.ml" 404 11074 11084 "checking/check.ml" 404 11074 11087
+)
+"checking/check.ml" 417 11705 11722 "checking/check.ml" 417 11705 11726
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref stat "checking/check.ml" 404 11074 11089 "checking/check.ml" 404 11074 11093
+)
+"checking/check.ml" 417 11705 11728 "checking/check.ml" 417 11705 11732
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref prec "checking/check.ml" 404 11074 11095 "checking/check.ml" 404 11074 11099
+)
+"checking/check.ml" 417 11705 11739 "checking/check.ml" 417 11705 11740
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 406 11147 11153 "checking/check.ml" 406 11147 11154
+)
+"checking/check.ml" 417 11705 11734 "checking/check.ml" 417 11705 11740
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 417 11705 11742 "checking/check.ml" 417 11705 11745
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref com "checking/check.ml" 404 11074 11106 "checking/check.ml" 404 11074 11109
+)
+"checking/check.ml" 417 11705 11747 "checking/check.ml" 417 11705 11755
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref builtins "checking/check.ml" 404 11074 11111 "checking/check.ml" 404 11074 11119
+)
+"checking/check.ml" 417 11705 11721 "checking/check.ml" 417 11705 11756
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list
+)
+"checking/check.ml" 417 11705 11757 "checking/check.ml" 417 11705 11759
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rs "checking/check.ml" 406 11147 11158 "checking/check.ml" 406 11147 11160
+)
+"checking/check.ml" 417 11705 11717 "checking/check.ml" 417 11705 11759
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 418 11760 11782 "checking/check.ml" 418 11760 11783
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 418 11760 11770 "checking/check.ml" 418 11760 11783
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 418 11760 11785 "checking/check.ml" 418 11760 11786
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 418 11760 11793 "checking/check.ml" 418 11760 11794
+type(
+  Parsetree.relation
+)
+ident(
+  def a "checking/check.ml" 418 11760 11801 "checking/check.ml" 418 11760 11830
+)
+"checking/check.ml" 418 11760 11788 "checking/check.ml" 418 11760 11794
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 418 11760 11796 "checking/check.ml" 418 11760 11797
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 418 11760 11770 "checking/check.ml" 418 11760 11797
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 418 11760 11801 "checking/check.ml" 418 11760 11826
+type(
+  Parsetree.relation -> Parsetree.relation -> unit
+)
+ident(
+  int_ref relation_already_declared "checking/check.ml" 102 3227 3231 "checking/check.ml" 102 3227 3256
+)
+"checking/check.ml" 418 11760 11827 "checking/check.ml" 418 11760 11828
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref a "checking/check.ml" 418 11760 11793 "checking/check.ml" 418 11760 11794
+)
+"checking/check.ml" 418 11760 11829 "checking/check.ml" 418 11760 11830
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 406 11147 11153 "checking/check.ml" 406 11147 11154
+)
+"checking/check.ml" 418 11760 11801 "checking/check.ml" 418 11760 11830
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 419 11831 11853 "checking/check.ml" 419 11831 11854
+type(
+  Longident.t option
+)
+"checking/check.ml" 419 11831 11841 "checking/check.ml" 419 11831 11854
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 419 11831 11856 "checking/check.ml" 419 11831 11857
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 419 11831 11859 "checking/check.ml" 419 11831 11860
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 419 11831 11862 "checking/check.ml" 419 11831 11866
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 419 11831 11841 "checking/check.ml" 419 11831 11866
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 420 11870 11882 "checking/check.ml" 420 11870 11885
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list -> Parsetree.relation list -> unit
+)
+ident(
+  int_ref aux "checking/check.ml" 404 11074 11084 "checking/check.ml" 404 11074 11087
+)
+"checking/check.ml" 420 11870 11887 "checking/check.ml" 420 11870 11891
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref stat "checking/check.ml" 404 11074 11089 "checking/check.ml" 404 11074 11093
+)
+"checking/check.ml" 420 11870 11893 "checking/check.ml" 420 11870 11897
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref prec "checking/check.ml" 404 11074 11095 "checking/check.ml" 404 11074 11099
+)
+"checking/check.ml" 420 11870 11899 "checking/check.ml" 420 11870 11902
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref ass "checking/check.ml" 404 11074 11101 "checking/check.ml" 404 11074 11104
+)
+"checking/check.ml" 420 11870 11909 "checking/check.ml" 420 11870 11910
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 406 11147 11153 "checking/check.ml" 406 11147 11154
+)
+"checking/check.ml" 420 11870 11904 "checking/check.ml" 420 11870 11910
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 420 11870 11912 "checking/check.ml" 420 11870 11920
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref builtins "checking/check.ml" 404 11074 11111 "checking/check.ml" 404 11074 11119
+)
+"checking/check.ml" 420 11870 11886 "checking/check.ml" 420 11870 11921
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list
+)
+"checking/check.ml" 420 11870 11922 "checking/check.ml" 420 11870 11924
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rs "checking/check.ml" 406 11147 11158 "checking/check.ml" 406 11147 11160
+)
+"checking/check.ml" 420 11870 11882 "checking/check.ml" 420 11870 11924
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 421 11925 11947 "checking/check.ml" 421 11925 11948
+type(
+  Longident.t option
+)
+"checking/check.ml" 421 11925 11935 "checking/check.ml" 421 11925 11948
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 421 11925 11950 "checking/check.ml" 421 11925 11951
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 421 11925 11953 "checking/check.ml" 421 11925 11954
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 421 11925 11961 "checking/check.ml" 421 11925 11962
+type(
+  Parsetree.relation
+)
+ident(
+  def c "checking/check.ml" 421 11925 11966 "checking/check.ml" 421 11925 11995
+)
+"checking/check.ml" 421 11925 11956 "checking/check.ml" 421 11925 11962
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 421 11925 11935 "checking/check.ml" 421 11925 11962
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 421 11925 11966 "checking/check.ml" 421 11925 11991
+type(
+  Parsetree.relation -> Parsetree.relation -> unit
+)
+ident(
+  int_ref relation_already_declared "checking/check.ml" 102 3227 3231 "checking/check.ml" 102 3227 3256
+)
+"checking/check.ml" 421 11925 11992 "checking/check.ml" 421 11925 11993
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref c "checking/check.ml" 421 11925 11961 "checking/check.ml" 421 11925 11962
+)
+"checking/check.ml" 421 11925 11994 "checking/check.ml" 421 11925 11995
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 406 11147 11153 "checking/check.ml" 406 11147 11154
+)
+"checking/check.ml" 421 11925 11966 "checking/check.ml" 421 11925 11995
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 422 11996 12045 "checking/check.ml" 422 11996 12047
+type(
+  Longident.t
+)
+ident(
+  def li "checking/check.ml" 424 12105 12122 "checking/check.ml" 425 12135 12198
+)
+"checking/check.ml" 422 11996 12049 "checking/check.ml" 422 11996 12050
+type(
+  Parsetree.pattern option
+)
+"checking/check.ml" 422 11996 12052 "checking/check.ml" 422 11996 12053
+type(
+  bool
+)
+"checking/check.ml" 422 11996 12029 "checking/check.ml" 422 11996 12054
+type(
+  Parsetree.pattern_desc
+)
+"checking/check.ml" 423 12056 12088 "checking/check.ml" 423 12056 12089
+type(
+  Location.t
+)
+"checking/check.ml" 422 11996 12015 "checking/check.ml" 423 12056 12091
+type(
+  Parsetree.pattern
+)
+"checking/check.ml" 423 12056 12093 "checking/check.ml" 423 12056 12094
+type(
+  Parsetree.expression
+)
+"checking/check.ml" 422 11996 12006 "checking/check.ml" 423 12056 12095
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 423 12056 12097 "checking/check.ml" 423 12056 12098
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 423 12056 12100 "checking/check.ml" 423 12056 12101
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 423 12056 12103 "checking/check.ml" 423 12056 12104
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 422 11996 12006 "checking/check.ml" 423 12056 12104
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 424 12105 12122 "checking/check.ml" 424 12105 12125
+type(
+  Longident.t
+)
+ident(
+  int_ref gid "checking/check.ml" 402 11036 11042 "checking/check.ml" 402 11036 11045
+)
+"checking/check.ml" 424 12105 12126 "checking/check.ml" 424 12105 12128
+type(
+  Longident.t -> Longident.t -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"checking/check.ml" 424 12105 12129 "checking/check.ml" 424 12105 12131
+type(
+  Longident.t
+)
+ident(
+  int_ref li "checking/check.ml" 422 11996 12045 "checking/check.ml" 422 11996 12047
+)
+"checking/check.ml" 424 12105 12122 "checking/check.ml" 424 12105 12131
+type(
+  bool
+)
+"checking/check.ml" 425 12135 12147 "checking/check.ml" 425 12135 12152
+type(
+  error -> unit
+)
+ident(
+  int_ref error "checking/check.ml" 408 11176 11188 "checking/check.ml" 408 11176 11193
+)
+"checking/check.ml" 425 12135 12194 "checking/check.ml" 425 12135 12197
+type(
+  Longident.t
+)
+ident(
+  int_ref gid "checking/check.ml" 402 11036 11042 "checking/check.ml" 402 11036 11045
+)
+"checking/check.ml" 425 12135 12153 "checking/check.ml" 425 12135 12198
+type(
+  error
+)
+"checking/check.ml" 425 12135 12147 "checking/check.ml" 425 12135 12198
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 426 12199 12247 "checking/check.ml" 426 12199 12248
+type(
+  bool
+)
+type(
+  Parsetree.pattern option
+)
+type(
+  Longident.t
+)
+"checking/check.ml" 426 12199 12232 "checking/check.ml" 426 12199 12248
+type(
+  Parsetree.pattern_desc
+)
+"checking/check.ml" 426 12199 12261 "checking/check.ml" 426 12199 12262
+type(
+  Location.t
+)
+"checking/check.ml" 426 12199 12218 "checking/check.ml" 426 12199 12264
+type(
+  Parsetree.pattern
+)
+"checking/check.ml" 426 12199 12266 "checking/check.ml" 426 12199 12267
+type(
+  Parsetree.expression
+)
+"checking/check.ml" 426 12199 12209 "checking/check.ml" 426 12199 12268
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 426 12199 12270 "checking/check.ml" 426 12199 12271
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 426 12199 12273 "checking/check.ml" 426 12199 12274
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 426 12199 12276 "checking/check.ml" 426 12199 12277
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 426 12199 12209 "checking/check.ml" 426 12199 12277
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 427 12278 12303 "checking/check.ml" 427 12278 12304
+type(
+  Parsetree.structure_item
+)
+"checking/check.ml" 427 12278 12288 "checking/check.ml" 427 12278 12304
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 427 12278 12306 "checking/check.ml" 427 12278 12307
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 427 12278 12309 "checking/check.ml" 427 12278 12310
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 427 12278 12312 "checking/check.ml" 427 12278 12313
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 427 12278 12288 "checking/check.ml" 427 12278 12313
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 426 12199 12209 "checking/check.ml" 427 12278 12313
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 427 12278 12317 "checking/check.ml" 427 12278 12320
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list -> Parsetree.relation list -> unit
+)
+ident(
+  int_ref aux "checking/check.ml" 404 11074 11084 "checking/check.ml" 404 11074 11087
+)
+"checking/check.ml" 427 12278 12322 "checking/check.ml" 427 12278 12326
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref stat "checking/check.ml" 404 11074 11089 "checking/check.ml" 404 11074 11093
+)
+"checking/check.ml" 427 12278 12328 "checking/check.ml" 427 12278 12332
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref prec "checking/check.ml" 404 11074 11095 "checking/check.ml" 404 11074 11099
+)
+"checking/check.ml" 427 12278 12334 "checking/check.ml" 427 12278 12337
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref ass "checking/check.ml" 404 11074 11101 "checking/check.ml" 404 11074 11104
+)
+"checking/check.ml" 427 12278 12339 "checking/check.ml" 427 12278 12342
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref com "checking/check.ml" 404 11074 11106 "checking/check.ml" 404 11074 11109
+)
+"checking/check.ml" 427 12278 12344 "checking/check.ml" 427 12278 12352
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref builtins "checking/check.ml" 404 11074 11111 "checking/check.ml" 404 11074 11119
+)
+"checking/check.ml" 427 12278 12321 "checking/check.ml" 427 12278 12353
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list
+)
+"checking/check.ml" 427 12278 12354 "checking/check.ml" 427 12278 12356
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rs "checking/check.ml" 406 11147 11158 "checking/check.ml" 406 11147 11160
+)
+"checking/check.ml" 427 12278 12317 "checking/check.ml" 427 12278 12356
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 428 12357 12375 "checking/check.ml" 428 12357 12376
+type(
+  Parsetree.expression
+)
+type(
+  Parsetree.pattern
+)
+"checking/check.ml" 428 12357 12367 "checking/check.ml" 428 12357 12376
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 428 12357 12378 "checking/check.ml" 428 12357 12379
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 428 12357 12381 "checking/check.ml" 428 12357 12382
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 428 12357 12384 "checking/check.ml" 428 12357 12385
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 428 12357 12367 "checking/check.ml" 428 12357 12385
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 428 12357 12389 "checking/check.ml" 428 12357 12394
+type(
+  error -> unit
+)
+ident(
+  int_ref error "checking/check.ml" 408 11176 11188 "checking/check.ml" 408 11176 11193
+)
+"checking/check.ml" 428 12357 12395 "checking/check.ml" 428 12357 12410
+type(
+  error
+)
+"checking/check.ml" 428 12357 12389 "checking/check.ml" 428 12357 12410
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 429 12411 12435 "checking/check.ml" 429 12411 12437
+type(
+  Parsetree.relation_side
+)
+ident(
+  def _s "checking/check.ml" 430 12463 12480 "checking/check.ml" 431 12515 12580
+)
+"checking/check.ml" 429 12411 12439 "checking/check.ml" 429 12411 12440
+type(
+  Parsetree.generator
+)
+ident(
+  def d "checking/check.ml" 430 12463 12480 "checking/check.ml" 431 12515 12580
+)
+"checking/check.ml" 429 12411 12447 "checking/check.ml" 429 12411 12448
+type(
+  Parsetree.generator
+)
+ident(
+  def e "checking/check.ml" 430 12463 12480 "checking/check.ml" 431 12515 12580
+)
+"checking/check.ml" 429 12411 12442 "checking/check.ml" 429 12411 12448
+type(
+  Parsetree.generator option
+)
+"checking/check.ml" 429 12411 12450 "checking/check.ml" 429 12411 12452
+type(
+  Parsetree.distributivity_direction
+)
+ident(
+  def _b "checking/check.ml" 430 12463 12480 "checking/check.ml" 431 12515 12580
+)
+"checking/check.ml" 429 12411 12421 "checking/check.ml" 429 12411 12453
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 429 12411 12455 "checking/check.ml" 429 12411 12456
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 429 12411 12458 "checking/check.ml" 429 12411 12459
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 429 12411 12461 "checking/check.ml" 429 12411 12462
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 429 12411 12421 "checking/check.ml" 429 12411 12462
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 430 12463 12480 "checking/check.ml" 430 12463 12483
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"checking/check.ml" 430 12463 12485 "checking/check.ml" 430 12463 12506
+type(
+  Parsetree.generator -> Parsetree.generator -> bool
+)
+ident(
+  int_ref have_compatible_types "checking/check.ml" 385 10513 10517 "checking/check.ml" 385 10513 10538
+)
+"checking/check.ml" 430 12463 12507 "checking/check.ml" 430 12463 12508
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref d "checking/check.ml" 429 12411 12439 "checking/check.ml" 429 12411 12440
+)
+"checking/check.ml" 430 12463 12509 "checking/check.ml" 430 12463 12510
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "checking/check.ml" 429 12411 12447 "checking/check.ml" 429 12411 12448
+)
+"checking/check.ml" 430 12463 12484 "checking/check.ml" 430 12463 12511
+call(
+  stack
+)
+type(
+  bool
+)
+"checking/check.ml" 430 12463 12480 "checking/check.ml" 430 12463 12511
+type(
+  bool
+)
+"checking/check.ml" 431 12515 12527 "checking/check.ml" 431 12515 12532
+type(
+  error -> unit
+)
+ident(
+  int_ref error "checking/check.ml" 408 11176 11188 "checking/check.ml" 408 11176 11193
+)
+"checking/check.ml" 431 12515 12554 "checking/check.ml" 431 12515 12555
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref d "checking/check.ml" 429 12411 12439 "checking/check.ml" 429 12411 12440
+)
+"checking/check.ml" 431 12515 12554 "checking/check.ml" 431 12515 12565
+type(
+  Longident.t
+)
+"checking/check.ml" 431 12515 12567 "checking/check.ml" 431 12515 12568
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "checking/check.ml" 429 12411 12447 "checking/check.ml" 429 12411 12448
+)
+"checking/check.ml" 431 12515 12567 "checking/check.ml" 431 12515 12578
+type(
+  Longident.t
+)
+"checking/check.ml" 431 12515 12533 "checking/check.ml" 431 12515 12580
+type(
+  error
+)
+"checking/check.ml" 431 12515 12527 "checking/check.ml" 431 12515 12580
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 432 12581 12603 "checking/check.ml" 432 12581 12604
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 432 12581 12592 "checking/check.ml" 432 12581 12604
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 432 12581 12617 "checking/check.ml" 432 12581 12618
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"checking/check.ml" 432 12581 12607 "checking/check.ml" 432 12581 12618
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 432 12581 12591 "checking/check.ml" 432 12581 12619
+type(
+  Parsetree.rel_desc
+)
+"checking/check.ml" 432 12581 12621 "checking/check.ml" 432 12581 12622
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 432 12581 12624 "checking/check.ml" 432 12581 12625
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 432 12581 12627 "checking/check.ml" 432 12581 12628
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 432 12581 12591 "checking/check.ml" 432 12581 12628
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 433 12632 12642 "checking/check.ml" 433 12632 12671
+type(
+  Longident.t -> unit
+)
+ident(
+  int_ref check_relations_compatibility "checking/check.ml" 250 7335 7339 "checking/check.ml" 250 7335 7368
+)
+"checking/check.ml" 433 12632 12672 "checking/check.ml" 433 12632 12675
+type(
+  Longident.t
+)
+ident(
+  int_ref gid "checking/check.ml" 402 11036 11042 "checking/check.ml" 402 11036 11045
+)
+"checking/check.ml" 433 12632 12642 "checking/check.ml" 433 12632 12675
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 434 12676 12686 "checking/check.ml" 434 12676 12687
+type(
+  Parsetree.rel_desc * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option
+)
+"checking/check.ml" 434 12676 12691 "checking/check.ml" 434 12676 12694
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list -> Parsetree.relation list -> unit
+)
+ident(
+  int_ref aux "checking/check.ml" 404 11074 11084 "checking/check.ml" 404 11074 11087
+)
+"checking/check.ml" 434 12676 12696 "checking/check.ml" 434 12676 12700
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref stat "checking/check.ml" 404 11074 11089 "checking/check.ml" 404 11074 11093
+)
+"checking/check.ml" 434 12676 12702 "checking/check.ml" 434 12676 12706
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref prec "checking/check.ml" 404 11074 11095 "checking/check.ml" 404 11074 11099
+)
+"checking/check.ml" 434 12676 12708 "checking/check.ml" 434 12676 12711
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref ass "checking/check.ml" 404 11074 11101 "checking/check.ml" 404 11074 11104
+)
+"checking/check.ml" 434 12676 12713 "checking/check.ml" 434 12676 12716
+type(
+  Parsetree.relation option
+)
+ident(
+  int_ref com "checking/check.ml" 404 11074 11106 "checking/check.ml" 404 11074 11109
+)
+"checking/check.ml" 434 12676 12718 "checking/check.ml" 434 12676 12733
+type(
+  Parsetree.relation -> Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  int_ref insert_relation "checking/check.ml" 373 10166 10174 "checking/check.ml" 373 10166 10189
+)
+"checking/check.ml" 434 12676 12734 "checking/check.ml" 434 12676 12735
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r "checking/check.ml" 406 11147 11153 "checking/check.ml" 406 11147 11154
+)
+"checking/check.ml" 434 12676 12736 "checking/check.ml" 434 12676 12744
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref builtins "checking/check.ml" 404 11074 11111 "checking/check.ml" 404 11074 11119
+)
+"checking/check.ml" 434 12676 12718 "checking/check.ml" 434 12676 12744
+call(
+  stack
+)
+type(
+  Parsetree.relation list
+)
+"checking/check.ml" 434 12676 12695 "checking/check.ml" 434 12676 12745
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list
+)
+"checking/check.ml" 434 12676 12746 "checking/check.ml" 434 12676 12748
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rs "checking/check.ml" 406 11147 11158 "checking/check.ml" 406 11147 11160
+)
+"checking/check.ml" 434 12676 12691 "checking/check.ml" 434 12676 12748
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 411 11327 11335 "checking/check.ml" 434 12676 12748
+type(
+  unit
+)
+"checking/check.ml" 409 11226 11234 "checking/check.ml" 434 12676 12748
+type(
+  unit
+)
+"checking/check.ml" 407 11164 11170 "checking/check.ml" 435 12749 12758
+type(
+  unit
+)
+"checking/check.ml" 404 11074 11123 "checking/check.ml" 435 12749 12758
+type(
+  Parsetree.relation list -> unit
+)
+"checking/check.ml" 437 12763 12769 "checking/check.ml" 437 12763 12773
+type(
+  Parsetree.relations
+)
+ident(
+  def rels "checking/check.ml" 438 12777 12781 "checking/check.ml" 441 12855 12915
+)
+"checking/check.ml" 438 12777 12787 "checking/check.ml" 438 12777 12791
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref rels "checking/check.ml" 437 12763 12769 "checking/check.ml" 437 12763 12773
+)
+"checking/check.ml" 438 12777 12787 "checking/check.ml" 438 12777 12802
+type(
+  Parsetree.relations_desc
+)
+"checking/check.ml" 439 12808 12814 "checking/check.ml" 439 12808 12824
+type(
+  Parsetree.relations_desc
+)
+"checking/check.ml" 440 12825 12847 "checking/check.ml" 440 12825 12848
+type(
+  Parsetree.relations
+)
+"checking/check.ml" 440 12825 12831 "checking/check.ml" 440 12825 12848
+type(
+  Parsetree.relations_desc
+)
+"checking/check.ml" 439 12808 12814 "checking/check.ml" 440 12825 12848
+type(
+  Parsetree.relations_desc
+)
+"checking/check.ml" 440 12825 12852 "checking/check.ml" 440 12825 12854
+type(
+  unit
+)
+"checking/check.ml" 441 12855 12874 "checking/check.ml" 441 12855 12876
+type(
+  Parsetree.relation list
+)
+ident(
+  def rs "checking/check.ml" 441 12855 12880 "checking/check.ml" 441 12855 12915
+)
+"checking/check.ml" 441 12855 12861 "checking/check.ml" 441 12855 12876
+type(
+  Parsetree.relations_desc
+)
+"checking/check.ml" 441 12855 12880 "checking/check.ml" 441 12855 12883
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list -> Parsetree.relation list -> unit
+)
+ident(
+  int_ref aux "checking/check.ml" 404 11074 11084 "checking/check.ml" 404 11074 11087
+)
+"checking/check.ml" 441 12855 12885 "checking/check.ml" 441 12855 12889
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 441 12855 12891 "checking/check.ml" 441 12855 12895
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 441 12855 12897 "checking/check.ml" 441 12855 12901
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 441 12855 12903 "checking/check.ml" 441 12855 12907
+type(
+  Parsetree.relation option
+)
+"checking/check.ml" 441 12855 12909 "checking/check.ml" 441 12855 12911
+type(
+  Parsetree.relation list
+)
+"checking/check.ml" 441 12855 12884 "checking/check.ml" 441 12855 12912
+type(
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation option * Parsetree.relation option *
+  Parsetree.relation list
+)
+"checking/check.ml" 441 12855 12913 "checking/check.ml" 441 12855 12915
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rs "checking/check.ml" 441 12855 12874 "checking/check.ml" 441 12855 12876
+)
+"checking/check.ml" 441 12855 12880 "checking/check.ml" 441 12855 12915
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 438 12777 12781 "checking/check.ml" 441 12855 12915
+type(
+  unit
+)
+"checking/check.ml" 437 12763 12765 "checking/check.ml" 441 12855 12915
+type(
+  Parsetree.relations -> unit
+)
+"checking/check.ml" 404 11074 11076 "checking/check.ml" 441 12855 12915
+type(
+  Parsetree.relations -> unit
+)
+"checking/check.ml" 401 10985 10987 "checking/check.ml" 441 12855 12915
+type(
+  Parsetree.relations -> unit
+)
+"checking/check.ml" 444 12920 12924 "checking/check.ml" 444 12920 12943
+type(
+  string * 'a * Parsetree.relations * 'b -> unit
+)
+ident(
+  def check_generator_def "checking/check.ml" 448 13013 13013 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 444 12920 12945 "checking/check.ml" 444 12920 12954
+type(
+  string
+)
+ident(
+  def generator "checking/check.ml" 445 12976 12978 "checking/check.ml" 445 12976 13008
+)
+"checking/check.ml" 444 12920 12956 "checking/check.ml" 444 12920 12960
+type(
+  'a
+)
+ident(
+  def _cts "checking/check.ml" 445 12976 12978 "checking/check.ml" 445 12976 13008
+)
+"checking/check.ml" 444 12920 12962 "checking/check.ml" 444 12920 12966
+type(
+  Parsetree.relations
+)
+ident(
+  def rels "checking/check.ml" 445 12976 12978 "checking/check.ml" 445 12976 13008
+)
+"checking/check.ml" 444 12920 12968 "checking/check.ml" 444 12920 12972
+type(
+  'b
+)
+ident(
+  def _loc "checking/check.ml" 445 12976 12978 "checking/check.ml" 445 12976 13008
+)
+"checking/check.ml" 444 12920 12944 "checking/check.ml" 444 12920 12973
+type(
+  string * 'a * Parsetree.relations * 'b
+)
+"checking/check.ml" 445 12976 12978 "checking/check.ml" 445 12976 12993
+type(
+  string -> Parsetree.relations -> unit
+)
+ident(
+  int_ref check_relations "checking/check.ml" 400 10948 10952 "checking/check.ml" 400 10948 10967
+)
+"checking/check.ml" 445 12976 12994 "checking/check.ml" 445 12976 13003
+type(
+  string
+)
+ident(
+  int_ref generator "checking/check.ml" 444 12920 12945 "checking/check.ml" 444 12920 12954
+)
+"checking/check.ml" 445 12976 13004 "checking/check.ml" 445 12976 13008
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref rels "checking/check.ml" 444 12920 12962 "checking/check.ml" 444 12920 12966
+)
+"checking/check.ml" 445 12976 12978 "checking/check.ml" 445 12976 13008
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 448 13013 13017 "checking/check.ml" 448 13013 13040
+type(
+  Parsetree.core_type list -> generator_arity
+)
+ident(
+  def compute_generator_arity "checking/check.ml" 459 13297 13297 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 448 13013 13041 "checking/check.ml" 448 13013 13044
+type(
+  Parsetree.core_type list
+)
+ident(
+  def cts "checking/check.ml" 449 13047 13049 "checking/check.ml" 453 13174 13208
+)
+"checking/check.ml" 449 13047 13055 "checking/check.ml" 449 13047 13058
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref cts "checking/check.ml" 448 13013 13041 "checking/check.ml" 448 13013 13044
+)
+"checking/check.ml" 450 13064 13068 "checking/check.ml" 450 13064 13070
+type(
+  Parsetree.core_type list
+)
+"checking/check.ml" 450 13064 13074 "checking/check.ml" 450 13064 13084
+type(
+  generator_arity
+)
+"checking/check.ml" 451 13085 13090 "checking/check.ml" 451 13085 13091
+type(
+  Parsetree.core_type
+)
+ident(
+  def t "checking/check.ml" 451 13085 13096 "checking/check.ml" 451 13085 13149
+)
+"checking/check.ml" 451 13085 13089 "checking/check.ml" 451 13085 13092
+type(
+  Parsetree.core_type list
+)
+"checking/check.ml" 451 13085 13099 "checking/check.ml" 451 13085 13117
+type(
+  Parsetree.core_type -> bool
+)
+ident(
+  ext_ref Otype.is_type_list
+)
+"checking/check.ml" 451 13085 13118 "checking/check.ml" 451 13085 13119
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref t "checking/check.ml" 451 13085 13090 "checking/check.ml" 451 13085 13091
+)
+"checking/check.ml" 451 13085 13099 "checking/check.ml" 451 13085 13119
+call(
+  stack
+)
+type(
+  bool
+)
+"checking/check.ml" 451 13085 13125 "checking/check.ml" 451 13085 13135
+type(
+  generator_arity
+)
+"checking/check.ml" 451 13085 13141 "checking/check.ml" 451 13085 13149
+type(
+  generator_arity
+)
+"checking/check.ml" 451 13085 13096 "checking/check.ml" 451 13085 13149
+type(
+  generator_arity
+)
+"checking/check.ml" 452 13150 13155 "checking/check.ml" 452 13150 13156
+type(
+  Parsetree.core_type
+)
+"checking/check.ml" 452 13150 13158 "checking/check.ml" 452 13150 13159
+type(
+  Parsetree.core_type
+)
+"checking/check.ml" 452 13150 13154 "checking/check.ml" 452 13150 13160
+type(
+  Parsetree.core_type list
+)
+"checking/check.ml" 452 13150 13164 "checking/check.ml" 452 13150 13173
+type(
+  generator_arity
+)
+"checking/check.ml" 453 13174 13178 "checking/check.ml" 453 13174 13179
+type(
+  Parsetree.core_type list
+)
+"checking/check.ml" 453 13174 13192 "checking/check.ml" 453 13174 13203
+type(
+  Parsetree.core_type list -> int
+)
+ident(
+  ext_ref List.length
+)
+"checking/check.ml" 453 13174 13204 "checking/check.ml" 453 13174 13207
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref cts "checking/check.ml" 448 13013 13041 "checking/check.ml" 448 13013 13044
+)
+"checking/check.ml" 453 13174 13191 "checking/check.ml" 453 13174 13208
+call(
+  stack
+)
+type(
+  int
+)
+"checking/check.ml" 453 13174 13183 "checking/check.ml" 453 13174 13208
+type(
+  generator_arity
+)
+"checking/check.ml" 449 13047 13049 "checking/check.ml" 453 13174 13208
+type(
+  generator_arity
+)
+"checking/check.ml" 459 13297 13301 "checking/check.ml" 459 13297 13322
+type(
+  (string * Parsetree.core_type list * 'a * Location.t) list -> unit
+)
+ident(
+  def check_generator_order "checking/check.ml" 477 13878 13878 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 459 13297 13323 "checking/check.ml" 459 13297 13328
+type(
+  (string * Parsetree.core_type list * 'a * Location.t) list
+)
+ident(
+  def cdefs "checking/check.ml" 460 13331 13333 "checking/check.ml" 473 13853 13872
+)
+"checking/check.ml" 460 13331 13341 "checking/check.ml" 460 13331 13344
+type(
+  int ->
+  string ->
+  (string * Parsetree.core_type list * 'b * Location.t) list -> unit
+)
+ident(
+  def aux "checking/check.ml" 460 13331 13333 "checking/check.ml" 473 13853 13872
+)
+"checking/check.ml" 460 13331 13345 "checking/check.ml" 460 13331 13360
+type(
+  int
+)
+ident(
+  def last_precedence "checking/check.ml" 460 13331 13361 "checking/check.ml" 472 13815 13852
+)
+"checking/check.ml" 460 13331 13361 "checking/check.ml" 460 13331 13371
+type(
+  string
+)
+ident(
+  def last_cname "checking/check.ml" 460 13331 13372 "checking/check.ml" 472 13815 13852
+)
+"checking/check.ml" 460 13331 13372 "checking/check.ml" 460 13331 13377
+type(
+  (string * Parsetree.core_type list * 'b * Location.t) list
+)
+ident(
+  def cdefs "checking/check.ml" 461 13380 13386 "checking/check.ml" 472 13815 13852
+)
+"checking/check.ml" 461 13380 13392 "checking/check.ml" 461 13380 13397
+type(
+  (string * Parsetree.core_type list * 'b * Location.t) list
+)
+ident(
+  int_ref cdefs "checking/check.ml" 460 13331 13372 "checking/check.ml" 460 13331 13377
+)
+"checking/check.ml" 462 13403 13409 "checking/check.ml" 462 13403 13411
+type(
+  (string * Parsetree.core_type list * 'b * Location.t) list
+)
+"checking/check.ml" 462 13403 13415 "checking/check.ml" 462 13403 13417
+type(
+  unit
+)
+"checking/check.ml" 463 13418 13425 "checking/check.ml" 463 13418 13430
+type(
+  string
+)
+ident(
+  def cname "checking/check.ml" 464 13461 13467 "checking/check.ml" 472 13815 13852
+)
+"checking/check.ml" 463 13418 13432 "checking/check.ml" 463 13418 13435
+type(
+  Parsetree.core_type list
+)
+ident(
+  def cts "checking/check.ml" 464 13461 13467 "checking/check.ml" 472 13815 13852
+)
+"checking/check.ml" 463 13418 13437 "checking/check.ml" 463 13418 13442
+type(
+  'b
+)
+ident(
+  def _rels "checking/check.ml" 464 13461 13467 "checking/check.ml" 472 13815 13852
+)
+"checking/check.ml" 463 13418 13444 "checking/check.ml" 463 13418 13447
+type(
+  Location.t
+)
+ident(
+  def loc "checking/check.ml" 464 13461 13467 "checking/check.ml" 472 13815 13852
+)
+"checking/check.ml" 463 13418 13424 "checking/check.ml" 463 13418 13448
+type(
+  string * Parsetree.core_type list * 'b * Location.t
+)
+"checking/check.ml" 463 13418 13452 "checking/check.ml" 463 13418 13457
+type(
+  (string * Parsetree.core_type list * 'b * Location.t) list
+)
+ident(
+  def cdefs "checking/check.ml" 464 13461 13467 "checking/check.ml" 472 13815 13852
+)
+"checking/check.ml" 463 13418 13424 "checking/check.ml" 463 13418 13457
+type(
+  (string * Parsetree.core_type list * 'b * Location.t) list
+)
+"checking/check.ml" 464 13461 13471 "checking/check.ml" 464 13461 13481
+type(
+  int
+)
+ident(
+  def precedence "checking/check.ml" 465 13534 13540 "checking/check.ml" 472 13815 13852
+)
+"checking/check.ml" 464 13461 13484 "checking/check.ml" 464 13461 13500
+type(
+  generator_arity -> int
+)
+ident(
+  int_ref arity_precedence "checking/check.ml" 187 5914 5918 "checking/check.ml" 187 5914 5934
+)
+"checking/check.ml" 464 13461 13502 "checking/check.ml" 464 13461 13525
+type(
+  Parsetree.core_type list -> generator_arity
+)
+ident(
+  int_ref compute_generator_arity "checking/check.ml" 448 13013 13017 "checking/check.ml" 448 13013 13040
+)
+"checking/check.ml" 464 13461 13526 "checking/check.ml" 464 13461 13529
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref cts "checking/check.ml" 463 13418 13432 "checking/check.ml" 463 13418 13435
+)
+"checking/check.ml" 464 13461 13501 "checking/check.ml" 464 13461 13530
+call(
+  stack
+)
+type(
+  generator_arity
+)
+"checking/check.ml" 464 13461 13484 "checking/check.ml" 464 13461 13530
+call(
+  stack
+)
+type(
+  int
+)
+"checking/check.ml" 465 13534 13543 "checking/check.ml" 465 13534 13553
+type(
+  int
+)
+ident(
+  int_ref precedence "checking/check.ml" 464 13461 13471 "checking/check.ml" 464 13461 13481
+)
+"checking/check.ml" 465 13534 13554 "checking/check.ml" 465 13534 13555
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"checking/check.ml" 465 13534 13556 "checking/check.ml" 465 13534 13571
+type(
+  int
+)
+ident(
+  int_ref last_precedence "checking/check.ml" 460 13331 13345 "checking/check.ml" 460 13331 13360
+)
+"checking/check.ml" 465 13534 13543 "checking/check.ml" 465 13534 13571
+type(
+  bool
+)
+"checking/check.ml" 467 13583 13595 "checking/check.ml" 467 13583 13598
+type(
+  string
+)
+ident(
+  def msg "checking/check.ml" 471 13779 13790 "checking/check.ml" 471 13779 13814
+)
+"checking/check.ml" 467 13583 13601 "checking/check.ml" 467 13583 13608
+type(
+  (string -> int -> string -> int -> string, unit, string) format ->
+  string -> int -> string -> int -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"checking/check.ml" 468 13609 13619 "checking/check.ml" 469 13680 13724
+type(
+  (string -> int -> string -> int -> string, unit, string) format
+)
+"checking/check.ml" 470 13725 13735 "checking/check.ml" 470 13725 13740
+type(
+  string
+)
+ident(
+  int_ref cname "checking/check.ml" 463 13418 13425 "checking/check.ml" 463 13418 13430
+)
+"checking/check.ml" 470 13725 13741 "checking/check.ml" 470 13725 13751
+type(
+  int
+)
+ident(
+  int_ref precedence "checking/check.ml" 464 13461 13471 "checking/check.ml" 464 13461 13481
+)
+"checking/check.ml" 470 13725 13752 "checking/check.ml" 470 13725 13762
+type(
+  string
+)
+ident(
+  int_ref last_cname "checking/check.ml" 460 13331 13361 "checking/check.ml" 460 13331 13371
+)
+"checking/check.ml" 470 13725 13763 "checking/check.ml" 470 13725 13778
+type(
+  int
+)
+ident(
+  int_ref last_precedence "checking/check.ml" 460 13331 13345 "checking/check.ml" 460 13331 13360
+)
+"checking/check.ml" 467 13583 13601 "checking/check.ml" 470 13725 13778
+call(
+  stack
+)
+type(
+  string
+)
+"checking/check.ml" 471 13779 13790 "checking/check.ml" 471 13779 13806
+type(
+  msg -> Location.t -> unit
+)
+ident(
+  int_ref unsound_ordering "checking/check.ml" 94 3064 3068 "checking/check.ml" 94 3064 3084
+)
+"checking/check.ml" 471 13779 13807 "checking/check.ml" 471 13779 13810
+type(
+  msg
+)
+ident(
+  int_ref msg "checking/check.ml" 467 13583 13595 "checking/check.ml" 467 13583 13598
+)
+"checking/check.ml" 471 13779 13811 "checking/check.ml" 471 13779 13814
+type(
+  Location.t
+)
+ident(
+  int_ref loc "checking/check.ml" 463 13418 13444 "checking/check.ml" 463 13418 13447
+)
+"checking/check.ml" 471 13779 13790 "checking/check.ml" 471 13779 13814
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 467 13583 13591 "checking/check.ml" 471 13779 13814
+type(
+  unit
+)
+"checking/check.ml" 472 13815 13826 "checking/check.ml" 472 13815 13829
+type(
+  int ->
+  string ->
+  (string * Parsetree.core_type list * 'b * Location.t) list -> unit
+)
+ident(
+  int_ref aux "checking/check.ml" 460 13331 13341 "checking/check.ml" 460 13331 13344
+)
+"checking/check.ml" 472 13815 13830 "checking/check.ml" 472 13815 13840
+type(
+  int
+)
+ident(
+  int_ref precedence "checking/check.ml" 464 13461 13471 "checking/check.ml" 464 13461 13481
+)
+"checking/check.ml" 472 13815 13841 "checking/check.ml" 472 13815 13846
+type(
+  string
+)
+ident(
+  int_ref cname "checking/check.ml" 463 13418 13425 "checking/check.ml" 463 13418 13430
+)
+"checking/check.ml" 472 13815 13847 "checking/check.ml" 472 13815 13852
+type(
+  (string * Parsetree.core_type list * 'b * Location.t) list
+)
+ident(
+  int_ref cdefs "checking/check.ml" 463 13418 13452 "checking/check.ml" 463 13418 13457
+)
+"checking/check.ml" 472 13815 13826 "checking/check.ml" 472 13815 13852
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 465 13534 13540 "checking/check.ml" 472 13815 13852
+type(
+  unit
+)
+"checking/check.ml" 464 13461 13467 "checking/check.ml" 472 13815 13852
+type(
+  unit
+)
+"checking/check.ml" 461 13380 13386 "checking/check.ml" 472 13815 13852
+type(
+  unit
+)
+"checking/check.ml" 473 13853 13858 "checking/check.ml" 473 13853 13861
+type(
+  int ->
+  string ->
+  (string * Parsetree.core_type list * 'a * Location.t) list -> unit
+)
+ident(
+  int_ref aux "checking/check.ml" 460 13331 13341 "checking/check.ml" 460 13331 13344
+)
+"checking/check.ml" 473 13853 13862 "checking/check.ml" 473 13853 13863
+type(
+  int
+)
+"checking/check.ml" 473 13853 13864 "checking/check.ml" 473 13853 13866
+type(
+  string
+)
+"checking/check.ml" 473 13853 13867 "checking/check.ml" 473 13853 13872
+type(
+  (string * Parsetree.core_type list * 'a * Location.t) list
+)
+ident(
+  int_ref cdefs "checking/check.ml" 459 13297 13323 "checking/check.ml" 459 13297 13328
+)
+"checking/check.ml" 473 13853 13858 "checking/check.ml" 473 13853 13872
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 460 13331 13333 "checking/check.ml" 473 13853 13872
+type(
+  unit
+)
+"checking/check.ml" 477 13878 13882 "checking/check.ml" 477 13878 13897
+type(
+  'a * Parsetree.type_declaration -> unit
+)
+ident(
+  def check_type_decl "checking/check.ml" 486 14095 14095 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 477 13878 13899 "checking/check.ml" 477 13878 13909
+type(
+  'a
+)
+ident(
+  def _type_name "checking/check.ml" 478 13917 13919 "checking/check.ml" 483 14064 14090
+)
+"checking/check.ml" 477 13878 13911 "checking/check.ml" 477 13878 13913
+type(
+  Parsetree.type_declaration
+)
+ident(
+  def td "checking/check.ml" 478 13917 13919 "checking/check.ml" 483 14064 14090
+)
+"checking/check.ml" 477 13878 13898 "checking/check.ml" 477 13878 13914
+type(
+  'a * Parsetree.type_declaration
+)
+"checking/check.ml" 478 13917 13925 "checking/check.ml" 478 13917 13927
+type(
+  Parsetree.type_declaration
+)
+ident(
+  int_ref td "checking/check.ml" 477 13878 13911 "checking/check.ml" 477 13878 13913
+)
+"checking/check.ml" 478 13917 13925 "checking/check.ml" 478 13917 13938
+type(
+  Parsetree.type_kind
+)
+"checking/check.ml" 479 13944 13962 "checking/check.ml" 479 13944 13967
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list
+)
+ident(
+  def cdefs "checking/check.ml" 480 13971 13975 "checking/check.ml" 481 14012 14044
+)
+"checking/check.ml" 479 13944 13948 "checking/check.ml" 479 13944 13967
+type(
+  Parsetree.type_kind
+)
+"checking/check.ml" 480 13971 13975 "checking/check.ml" 480 13971 13984
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t ->
+   unit) ->
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list ->
+  unit
+)
+ident(
+  ext_ref List.iter
+)
+"checking/check.ml" 480 13971 13985 "checking/check.ml" 480 13971 14004
+type(
+  string * Parsetree.core_type list * Parsetree.relations * Location.t ->
+  unit
+)
+ident(
+  int_ref check_generator_def "checking/check.ml" 444 12920 12924 "checking/check.ml" 444 12920 12943
+)
+"checking/check.ml" 480 13971 14005 "checking/check.ml" 480 13971 14010
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list
+)
+ident(
+  int_ref cdefs "checking/check.ml" 479 13944 13962 "checking/check.ml" 479 13944 13967
+)
+"checking/check.ml" 480 13971 13975 "checking/check.ml" 480 13971 14010
+call(
+  stack
+)
+type(
+  unit
+)
+"checking/check.ml" 481 14012 14016 "checking/check.ml" 481 14012 14037
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list ->
+  unit
+)
+ident(
+  int_ref check_generator_order "checking/check.ml" 459 13297 13301 "checking/check.ml" 459 13297 13322
+)
+"checking/check.ml" 481 14012 14038 "checking/check.ml" 481 14012 14043
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list
+)
+ident(
+  int_ref cdefs "checking/check.ml" 479 13944 13962 "checking/check.ml" 479 13944 13967
+)
+"checking/check.ml" 481 14012 14016 "checking/check.ml" 481 14012 14044
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 480 13971 13975 "checking/check.ml" 481 14012 14044
+type(
+  unit
+)
+"checking/check.ml" 482 14045 14062 "checking/check.ml" 482 14045 14063
+type(
+  (string * Asttypes.mutable_flag * Parsetree.core_type *
+   Parsetree.relations * Location.t)
+  list
+)
+"checking/check.ml" 482 14045 14049 "checking/check.ml" 482 14045 14063
+type(
+  Parsetree.type_kind
+)
+"checking/check.ml" 483 14064 14083 "checking/check.ml" 483 14064 14084
+type(
+  Parsetree.relations
+)
+"checking/check.ml" 483 14064 14068 "checking/check.ml" 483 14064 14084
+type(
+  Parsetree.type_kind
+)
+"checking/check.ml" 482 14045 14049 "checking/check.ml" 483 14064 14084
+type(
+  Parsetree.type_kind
+)
+"checking/check.ml" 483 14064 14088 "checking/check.ml" 483 14064 14090
+type(
+  unit
+)
+"checking/check.ml" 478 13917 13919 "checking/check.ml" 483 14064 14090
+type(
+  unit
+)
+"checking/check.ml" 486 14095 14099 "checking/check.ml" 486 14095 14115
+type(
+  (string * Parsetree.type_declaration) list -> unit
+)
+ident(
+  def check_type_decls "checking/check.ml" 490 14192 14192 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 486 14095 14118 "checking/check.ml" 486 14095 14127
+type(
+  (string * Parsetree.type_declaration -> unit) ->
+  (string * Parsetree.type_declaration) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"checking/check.ml" 486 14095 14128 "checking/check.ml" 486 14095 14143
+type(
+  string * Parsetree.type_declaration -> unit
+)
+ident(
+  int_ref check_type_decl "checking/check.ml" 477 13878 13882 "checking/check.ml" 477 13878 13897
+)
+"checking/check.ml" 486 14095 14118 "checking/check.ml" 486 14095 14143
+call(
+  stack
+)
+type(
+  (string * Parsetree.type_declaration) list -> unit
+)
+"checking/check.ml" 490 14192 14196 "checking/check.ml" 490 14192 14199
+type(
+  (Longident.t, 'a) Hashtbl.t -> locality -> string * 'a -> unit
+)
+ident(
+  def add "checking/check.ml" 497 14394 14394 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 490 14192 14200 "checking/check.ml" 490 14192 14203
+type(
+  (Longident.t, 'a) Hashtbl.t
+)
+ident(
+  def tbl "checking/check.ml" 490 14192 14204 "checking/check.ml" 494 14322 14389
+)
+"checking/check.ml" 490 14192 14204 "checking/check.ml" 490 14192 14214
+type(
+  locality
+)
+ident(
+  def local_flag "checking/check.ml" 490 14192 14215 "checking/check.ml" 494 14322 14389
+)
+"checking/check.ml" 490 14192 14216 "checking/check.ml" 490 14192 14230
+type(
+  string
+)
+ident(
+  def generator_name "checking/check.ml" 491 14237 14239 "checking/check.ml" 494 14322 14389
+)
+"checking/check.ml" 490 14192 14232 "checking/check.ml" 490 14192 14233
+type(
+  'a
+)
+ident(
+  def x "checking/check.ml" 491 14237 14239 "checking/check.ml" 494 14322 14389
+)
+"checking/check.ml" 490 14192 14215 "checking/check.ml" 490 14192 14234
+type(
+  string * 'a
+)
+"checking/check.ml" 491 14237 14239 "checking/check.ml" 491 14237 14250
+type(
+  (Longident.t, 'a) Hashtbl.t -> Longident.t -> 'a -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"checking/check.ml" 491 14237 14251 "checking/check.ml" 491 14237 14254
+type(
+  (Longident.t, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "checking/check.ml" 490 14192 14200 "checking/check.ml" 490 14192 14203
+)
+"checking/check.ml" 491 14237 14263 "checking/check.ml" 491 14237 14277
+type(
+  string
+)
+ident(
+  int_ref generator_name "checking/check.ml" 490 14192 14216 "checking/check.ml" 490 14192 14230
+)
+"checking/check.ml" 491 14237 14255 "checking/check.ml" 491 14237 14278
+type(
+  Longident.t
+)
+"checking/check.ml" 491 14237 14279 "checking/check.ml" 491 14237 14280
+type(
+  'a
+)
+ident(
+  int_ref x "checking/check.ml" 490 14192 14232 "checking/check.ml" 490 14192 14233
+)
+"checking/check.ml" 491 14237 14239 "checking/check.ml" 491 14237 14280
+call(
+  stack
+)
+type(
+  unit
+)
+"checking/check.ml" 492 14282 14290 "checking/check.ml" 492 14282 14300
+type(
+  locality
+)
+ident(
+  int_ref local_flag "checking/check.ml" 490 14192 14204 "checking/check.ml" 490 14192 14214
+)
+"checking/check.ml" 493 14306 14310 "checking/check.ml" 493 14306 14315
+type(
+  locality
+)
+"checking/check.ml" 493 14306 14319 "checking/check.ml" 493 14306 14321
+type(
+  unit
+)
+"checking/check.ml" 494 14322 14333 "checking/check.ml" 494 14322 14334
+type(
+  string
+)
+ident(
+  def s "checking/check.ml" 494 14322 14338 "checking/check.ml" 494 14322 14389
+)
+"checking/check.ml" 494 14322 14326 "checking/check.ml" 494 14322 14334
+type(
+  locality
+)
+"checking/check.ml" 494 14322 14338 "checking/check.ml" 494 14322 14349
+type(
+  (Longident.t, 'a) Hashtbl.t -> Longident.t -> 'a -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"checking/check.ml" 494 14322 14350 "checking/check.ml" 494 14322 14353
+type(
+  (Longident.t, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "checking/check.ml" 490 14192 14200 "checking/check.ml" 490 14192 14203
+)
+"checking/check.ml" 494 14322 14368 "checking/check.ml" 494 14322 14369
+type(
+  string
+)
+ident(
+  int_ref s "checking/check.ml" 494 14322 14333 "checking/check.ml" 494 14322 14334
+)
+"checking/check.ml" 494 14322 14361 "checking/check.ml" 494 14322 14369
+type(
+  Longident.t
+)
+"checking/check.ml" 494 14322 14371 "checking/check.ml" 494 14322 14385
+type(
+  string
+)
+ident(
+  int_ref generator_name "checking/check.ml" 490 14192 14216 "checking/check.ml" 490 14192 14230
+)
+"checking/check.ml" 494 14322 14354 "checking/check.ml" 494 14322 14387
+type(
+  Longident.t
+)
+"checking/check.ml" 494 14322 14388 "checking/check.ml" 494 14322 14389
+type(
+  'a
+)
+ident(
+  int_ref x "checking/check.ml" 490 14192 14232 "checking/check.ml" 490 14192 14233
+)
+"checking/check.ml" 494 14322 14338 "checking/check.ml" 494 14322 14389
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 492 14282 14284 "checking/check.ml" 494 14322 14389
+type(
+  unit
+)
+"checking/check.ml" 491 14237 14239 "checking/check.ml" 494 14322 14389
+type(
+  unit
+)
+"checking/check.ml" 497 14394 14398 "checking/check.ml" 497 14394 14416
+type(
+  locality -> string * Parsetree.type_declaration -> unit
+)
+ident(
+  def fill_type_name_tbl "checking/check.ml" 501 14442 14442 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 497 14394 14419 "checking/check.ml" 497 14394 14422
+type(
+  (Longident.t, Parsetree.type_declaration) Hashtbl.t ->
+  locality -> string * Parsetree.type_declaration -> unit
+)
+ident(
+  int_ref add "checking/check.ml" 490 14192 14196 "checking/check.ml" 490 14192 14199
+)
+"checking/check.ml" 497 14394 14423 "checking/check.ml" 497 14394 14436
+type(
+  (Longident.t, Parsetree.type_declaration) Hashtbl.t
+)
+ident(
+  int_ref type_name_tbl "checking/check.ml" 262 7823 7827 "checking/check.ml" 262 7823 7840
+)
+"checking/check.ml" 497 14394 14419 "checking/check.ml" 497 14394 14436
+call(
+  stack
+)
+type(
+  locality -> string * Parsetree.type_declaration -> unit
+)
+"checking/check.ml" 501 14442 14446 "checking/check.ml" 501 14442 14458
+type(
+  Parsetree.core_type_desc -> Parsetree.core_type
+)
+ident(
+  def mk_core_type "checking/check.ml" 504 14519 14519 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 501 14442 14459 "checking/check.ml" 501 14442 14464
+type(
+  Parsetree.core_type_desc
+)
+ident(
+  def tdesc "checking/check.ml" 501 14442 14467 "checking/check.ml" 501 14442 14514
+)
+"checking/check.ml" 501 14442 14481 "checking/check.ml" 501 14442 14486
+type(
+  Parsetree.core_type_desc
+)
+ident(
+  int_ref tdesc "checking/check.ml" 501 14442 14459 "checking/check.ml" 501 14442 14464
+)
+"checking/check.ml" 501 14442 14499 "checking/check.ml" 501 14442 14512
+type(
+  Location.t
+)
+ident(
+  ext_ref Location.none
+)
+"checking/check.ml" 501 14442 14467 "checking/check.ml" 501 14442 14514
+type(
+  Parsetree.core_type
+)
+"checking/check.ml" 504 14519 14523 "checking/check.ml" 504 14519 14531
+type(
+  string -> Parsetree.core_type
+)
+ident(
+  def var_type "checking/check.ml" 507 14566 14566 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 504 14519 14532 "checking/check.ml" 504 14519 14533
+type(
+  string
+)
+ident(
+  def s "checking/check.ml" 504 14519 14536 "checking/check.ml" 504 14519 14561
+)
+"checking/check.ml" 504 14519 14536 "checking/check.ml" 504 14519 14548
+type(
+  Parsetree.core_type_desc -> Parsetree.core_type
+)
+ident(
+  int_ref mk_core_type "checking/check.ml" 501 14442 14446 "checking/check.ml" 501 14442 14458
+)
+"checking/check.ml" 504 14519 14559 "checking/check.ml" 504 14519 14560
+type(
+  string
+)
+ident(
+  int_ref s "checking/check.ml" 504 14519 14532 "checking/check.ml" 504 14519 14533
+)
+"checking/check.ml" 504 14519 14549 "checking/check.ml" 504 14519 14561
+type(
+  Parsetree.core_type_desc
+)
+"checking/check.ml" 504 14519 14536 "checking/check.ml" 504 14519 14561
+call(
+  tail
+)
+type(
+  Parsetree.core_type
+)
+"checking/check.ml" 507 14566 14570 "checking/check.ml" 507 14566 14581
+type(
+  string -> Parsetree.type_declaration -> Parsetree.core_type
+)
+ident(
+  def target_type "checking/check.ml" 511 14684 14684 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 507 14566 14582 "checking/check.ml" 507 14566 14591
+type(
+  string
+)
+ident(
+  def type_name "checking/check.ml" 507 14566 14592 "checking/check.ml" 508 14597 14679
+)
+"checking/check.ml" 507 14566 14592 "checking/check.ml" 507 14566 14594
+type(
+  Parsetree.type_declaration
+)
+ident(
+  def td "checking/check.ml" 508 14597 14599 "checking/check.ml" 508 14597 14679
+)
+"checking/check.ml" 508 14597 14599 "checking/check.ml" 508 14597 14611
+type(
+  Parsetree.core_type_desc -> Parsetree.core_type
+)
+ident(
+  int_ref mk_core_type "checking/check.ml" 501 14442 14446 "checking/check.ml" 501 14442 14458
+)
+"checking/check.ml" 508 14597 14633 "checking/check.ml" 508 14597 14642
+type(
+  string
+)
+ident(
+  int_ref type_name "checking/check.ml" 507 14566 14582 "checking/check.ml" 507 14566 14591
+)
+"checking/check.ml" 508 14597 14626 "checking/check.ml" 508 14597 14642
+type(
+  Longident.t
+)
+"checking/check.ml" 508 14597 14644 "checking/check.ml" 508 14597 14652
+type(
+  (string -> Parsetree.core_type) -> string list -> Parsetree.core_type list
+)
+ident(
+  ext_ref List.map
+)
+"checking/check.ml" 508 14597 14653 "checking/check.ml" 508 14597 14661
+type(
+  string -> Parsetree.core_type
+)
+ident(
+  int_ref var_type "checking/check.ml" 504 14519 14523 "checking/check.ml" 504 14519 14531
+)
+"checking/check.ml" 508 14597 14662 "checking/check.ml" 508 14597 14664
+type(
+  Parsetree.type_declaration
+)
+ident(
+  int_ref td "checking/check.ml" 507 14566 14592 "checking/check.ml" 507 14566 14594
+)
+"checking/check.ml" 508 14597 14662 "checking/check.ml" 508 14597 14677
+type(
+  string list
+)
+"checking/check.ml" 508 14597 14644 "checking/check.ml" 508 14597 14677
+call(
+  stack
+)
+type(
+  Parsetree.core_type list
+)
+"checking/check.ml" 508 14597 14612 "checking/check.ml" 508 14597 14679
+type(
+  Parsetree.core_type_desc
+)
+"checking/check.ml" 508 14597 14599 "checking/check.ml" 508 14597 14679
+call(
+  tail
+)
+type(
+  Parsetree.core_type
+)
+"checking/check.ml" 511 14684 14688 "checking/check.ml" 511 14684 14711
+type(
+  locality -> string * Parsetree.type_declaration -> unit
+)
+ident(
+  def fill_generator_name_tbl "checking/check.ml" 538 15580 15580 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 511 14684 14712 "checking/check.ml" 511 14684 14722
+type(
+  locality
+)
+ident(
+  def local_flag "checking/check.ml" 511 14684 14723 "checking/check.ml" 531 15416 15442
+)
+"checking/check.ml" 511 14684 14724 "checking/check.ml" 511 14684 14733
+type(
+  string
+)
+ident(
+  def type_name "checking/check.ml" 512 14741 14743 "checking/check.ml" 531 15416 15442
+)
+"checking/check.ml" 511 14684 14735 "checking/check.ml" 511 14684 14737
+type(
+  Parsetree.type_declaration
+)
+ident(
+  def td "checking/check.ml" 512 14741 14743 "checking/check.ml" 531 15416 15442
+)
+"checking/check.ml" 511 14684 14723 "checking/check.ml" 511 14684 14738
+type(
+  string * Parsetree.type_declaration
+)
+"checking/check.ml" 512 14741 14749 "checking/check.ml" 512 14741 14751
+type(
+  Parsetree.type_declaration
+)
+ident(
+  int_ref td "checking/check.ml" 511 14684 14735 "checking/check.ml" 511 14684 14737
+)
+"checking/check.ml" 512 14741 14749 "checking/check.ml" 512 14741 14762
+type(
+  Parsetree.type_kind
+)
+"checking/check.ml" 513 14768 14786 "checking/check.ml" 513 14768 14791
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list
+)
+ident(
+  def cdefs "checking/check.ml" 514 14795 14799 "checking/check.ml" 529 15368 15396
+)
+"checking/check.ml" 513 14768 14772 "checking/check.ml" 513 14768 14791
+type(
+  Parsetree.type_kind
+)
+"checking/check.ml" 514 14795 14803 "checking/check.ml" 514 14795 14811
+type(
+  string * Parsetree.core_type list * Parsetree.relations * Location.t ->
+  unit
+)
+ident(
+  def add_cdef "checking/check.ml" 529 15368 15372 "checking/check.ml" 529 15368 15396
+)
+"checking/check.ml" 514 14795 14813 "checking/check.ml" 514 14795 14827
+type(
+  string
+)
+ident(
+  def generator_name "checking/check.ml" 515 14847 14853 "checking/check.ml" 528 15302 15364
+)
+"checking/check.ml" 514 14795 14829 "checking/check.ml" 514 14795 14832
+type(
+  Parsetree.core_type list
+)
+ident(
+  def cts "checking/check.ml" 515 14847 14853 "checking/check.ml" 528 15302 15364
+)
+"checking/check.ml" 514 14795 14834 "checking/check.ml" 514 14795 14838
+type(
+  Parsetree.relations
+)
+ident(
+  def rels "checking/check.ml" 515 14847 14853 "checking/check.ml" 528 15302 15364
+)
+"checking/check.ml" 514 14795 14840 "checking/check.ml" 514 14795 14843
+type(
+  Location.t
+)
+ident(
+  def loc "checking/check.ml" 515 14847 14853 "checking/check.ml" 528 15302 15364
+)
+"checking/check.ml" 514 14795 14812 "checking/check.ml" 514 14795 14844
+type(
+  string * Parsetree.core_type list * Parsetree.relations * Location.t
+)
+"checking/check.ml" 515 14847 14857 "checking/check.ml" 515 14847 14872
+type(
+  generator_arity
+)
+ident(
+  def generator_arity "checking/check.ml" 516 14906 14912 "checking/check.ml" 528 15302 15364
+)
+"checking/check.ml" 515 14847 14875 "checking/check.ml" 515 14847 14898
+type(
+  Parsetree.core_type list -> generator_arity
+)
+ident(
+  int_ref compute_generator_arity "checking/check.ml" 448 13013 13017 "checking/check.ml" 448 13013 13040
+)
+"checking/check.ml" 515 14847 14899 "checking/check.ml" 515 14847 14902
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref cts "checking/check.ml" 514 14795 14829 "checking/check.ml" 514 14795 14832
+)
+"checking/check.ml" 515 14847 14875 "checking/check.ml" 515 14847 14902
+call(
+  stack
+)
+type(
+  generator_arity
+)
+"checking/check.ml" 516 14906 14916 "checking/check.ml" 516 14906 14920
+type(
+  generator_info
+)
+ident(
+  def info "checking/check.ml" 528 15302 15308 "checking/check.ml" 528 15302 15364
+)
+"checking/check.ml" 517 14925 14948 "checking/check.ml" 517 14925 14957
+type(
+  string
+)
+ident(
+  int_ref type_name "checking/check.ml" 511 14684 14724 "checking/check.ml" 511 14684 14733
+)
+"checking/check.ml" 518 14959 14984 "checking/check.ml" 518 14959 14986
+type(
+  Parsetree.type_declaration
+)
+ident(
+  int_ref td "checking/check.ml" 511 14684 14735 "checking/check.ml" 511 14684 14737
+)
+"checking/check.ml" 518 14959 14984 "checking/check.ml" 518 14959 14999
+type(
+  string list
+)
+"checking/check.ml" 519 15001 15026 "checking/check.ml" 519 15001 15037
+type(
+  string -> Parsetree.type_declaration -> Parsetree.core_type
+)
+ident(
+  int_ref target_type "checking/check.ml" 507 14566 14570 "checking/check.ml" 507 14566 14581
+)
+"checking/check.ml" 519 15001 15038 "checking/check.ml" 519 15001 15047
+type(
+  string
+)
+ident(
+  int_ref type_name "checking/check.ml" 511 14684 14724 "checking/check.ml" 511 14684 14733
+)
+"checking/check.ml" 519 15001 15048 "checking/check.ml" 519 15001 15050
+type(
+  Parsetree.type_declaration
+)
+ident(
+  int_ref td "checking/check.ml" 511 14684 14735 "checking/check.ml" 511 14684 14737
+)
+"checking/check.ml" 519 15001 15026 "checking/check.ml" 519 15001 15050
+call(
+  stack
+)
+type(
+  Parsetree.core_type
+)
+"checking/check.ml" 520 15052 15080 "checking/check.ml" 520 15052 15094
+type(
+  string
+)
+ident(
+  int_ref generator_name "checking/check.ml" 514 14795 14813 "checking/check.ml" 514 14795 14827
+)
+"checking/check.ml" 521 15096 15115 "checking/check.ml" 521 15096 15130
+type(
+  generator_arity
+)
+ident(
+  int_ref generator_arity "checking/check.ml" 515 14847 14857 "checking/check.ml" 515 14847 14872
+)
+"checking/check.ml" 522 15132 15154 "checking/check.ml" 522 15132 15164
+type(
+  locality
+)
+ident(
+  int_ref local_flag "checking/check.ml" 511 14684 14712 "checking/check.ml" 511 14684 14722
+)
+"checking/check.ml" 523 15166 15189 "checking/check.ml" 523 15166 15192
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref cts "checking/check.ml" 514 14795 14829 "checking/check.ml" 514 14795 14832
+)
+"checking/check.ml" 524 15194 15217 "checking/check.ml" 524 15194 15221
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref rels "checking/check.ml" 514 14795 14834 "checking/check.ml" 514 14795 14838
+)
+"checking/check.ml" 525 15223 15245 "checking/check.ml" 525 15223 15248
+type(
+  Location.t
+)
+ident(
+  int_ref loc "checking/check.ml" 514 14795 14840 "checking/check.ml" 514 14795 14843
+)
+"checking/check.ml" 526 15250 15273 "checking/check.ml" 526 15250 15275
+type(
+  Parsetree.type_declaration
+)
+ident(
+  int_ref td "checking/check.ml" 511 14684 14735 "checking/check.ml" 511 14684 14737
+)
+"checking/check.ml" 526 15250 15273 "checking/check.ml" 526 15250 15289
+type(
+  Asttypes.private_flag
+)
+"checking/check.ml" 516 14906 14923 "checking/check.ml" 527 15291 15298
+type(
+  generator_info
+)
+"checking/check.ml" 528 15302 15308 "checking/check.ml" 528 15302 15311
+type(
+  (Longident.t, generator_info) Hashtbl.t ->
+  locality -> string * generator_info -> unit
+)
+ident(
+  int_ref add "checking/check.ml" 490 14192 14196 "checking/check.ml" 490 14192 14199
+)
+"checking/check.ml" 528 15302 15312 "checking/check.ml" 528 15302 15330
+type(
+  (Longident.t, generator_info) Hashtbl.t
+)
+ident(
+  int_ref generator_name_tbl "checking/check.ml" 200 6182 6187 "checking/check.ml" 200 6182 6205
+)
+"checking/check.ml" 528 15302 15331 "checking/check.ml" 528 15302 15341
+type(
+  locality
+)
+ident(
+  int_ref local_flag "checking/check.ml" 511 14684 14712 "checking/check.ml" 511 14684 14722
+)
+"checking/check.ml" 528 15302 15343 "checking/check.ml" 528 15302 15357
+type(
+  string
+)
+ident(
+  int_ref generator_name "checking/check.ml" 514 14795 14813 "checking/check.ml" 514 14795 14827
+)
+"checking/check.ml" 528 15302 15359 "checking/check.ml" 528 15302 15363
+type(
+  generator_info
+)
+ident(
+  int_ref info "checking/check.ml" 516 14906 14916 "checking/check.ml" 516 14906 14920
+)
+"checking/check.ml" 528 15302 15342 "checking/check.ml" 528 15302 15364
+type(
+  string * generator_info
+)
+"checking/check.ml" 528 15302 15308 "checking/check.ml" 528 15302 15364
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 516 14906 14912 "checking/check.ml" 528 15302 15364
+type(
+  unit
+)
+"checking/check.ml" 515 14847 14853 "checking/check.ml" 528 15302 15364
+type(
+  unit
+)
+"checking/check.ml" 529 15368 15372 "checking/check.ml" 529 15368 15381
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t ->
+   unit) ->
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list ->
+  unit
+)
+ident(
+  ext_ref List.iter
+)
+"checking/check.ml" 529 15368 15382 "checking/check.ml" 529 15368 15390
+type(
+  string * Parsetree.core_type list * Parsetree.relations * Location.t ->
+  unit
+)
+ident(
+  int_ref add_cdef "checking/check.ml" 514 14795 14803 "checking/check.ml" 514 14795 14811
+)
+"checking/check.ml" 529 15368 15391 "checking/check.ml" 529 15368 15396
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list
+)
+ident(
+  int_ref cdefs "checking/check.ml" 513 14768 14786 "checking/check.ml" 513 14768 14791
+)
+"checking/check.ml" 529 15368 15372 "checking/check.ml" 529 15368 15396
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 514 14795 14799 "checking/check.ml" 529 15368 15396
+type(
+  unit
+)
+"checking/check.ml" 530 15397 15414 "checking/check.ml" 530 15397 15415
+type(
+  (string * Asttypes.mutable_flag * Parsetree.core_type *
+   Parsetree.relations * Location.t)
+  list
+)
+"checking/check.ml" 530 15397 15401 "checking/check.ml" 530 15397 15415
+type(
+  Parsetree.type_kind
+)
+"checking/check.ml" 531 15416 15435 "checking/check.ml" 531 15416 15436
+type(
+  Parsetree.relations
+)
+"checking/check.ml" 531 15416 15420 "checking/check.ml" 531 15416 15436
+type(
+  Parsetree.type_kind
+)
+"checking/check.ml" 530 15397 15401 "checking/check.ml" 531 15416 15436
+type(
+  Parsetree.type_kind
+)
+"checking/check.ml" 531 15416 15440 "checking/check.ml" 531 15416 15442
+type(
+  unit
+)
+"checking/check.ml" 512 14741 14743 "checking/check.ml" 531 15416 15442
+type(
+  unit
+)
+"checking/check.ml" 538 15580 15584 "checking/check.ml" 538 15580 15598
+type(
+  locality -> (string * Parsetree.type_declaration) list -> unit
+)
+ident(
+  def add_type_decls "checking/check.ml" 544 15744 15767 "checking/check.ml" 1 0 -1
+)
+"checking/check.ml" 538 15580 15599 "checking/check.ml" 538 15580 15609
+type(
+  locality
+)
+ident(
+  def local_flag "checking/check.ml" 538 15580 15610 "checking/check.ml" 544 15744 15767
+)
+"checking/check.ml" 538 15580 15610 "checking/check.ml" 538 15580 15614
+type(
+  (string * Parsetree.type_declaration) list
+)
+ident(
+  def ntds "checking/check.ml" 539 15617 15619 "checking/check.ml" 544 15744 15767
+)
+"checking/check.ml" 539 15617 15619 "checking/check.ml" 539 15617 15628
+type(
+  (string * Parsetree.type_declaration -> unit) ->
+  (string * Parsetree.type_declaration) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"checking/check.ml" 540 15629 15638 "checking/check.ml" 540 15629 15641
+type(
+  string * Parsetree.type_declaration
+)
+ident(
+  def ntd "checking/check.ml" 541 15645 15652 "checking/check.ml" 542 15687 15732
+)
+"checking/check.ml" 541 15645 15652 "checking/check.ml" 541 15645 15670
+type(
+  locality -> string * Parsetree.type_declaration -> unit
+)
+ident(
+  int_ref fill_type_name_tbl "checking/check.ml" 497 14394 14398 "checking/check.ml" 497 14394 14416
+)
+"checking/check.ml" 541 15645 15671 "checking/check.ml" 541 15645 15681
+type(
+  locality
+)
+ident(
+  int_ref local_flag "checking/check.ml" 538 15580 15599 "checking/check.ml" 538 15580 15609
+)
+"checking/check.ml" 541 15645 15682 "checking/check.ml" 541 15645 15685
+type(
+  string * Parsetree.type_declaration
+)
+ident(
+  int_ref ntd "checking/check.ml" 540 15629 15638 "checking/check.ml" 540 15629 15641
+)
+"checking/check.ml" 541 15645 15652 "checking/check.ml" 541 15645 15685
+call(
+  stack
+)
+type(
+  unit
+)
+"checking/check.ml" 542 15687 15694 "checking/check.ml" 542 15687 15717
+type(
+  locality -> string * Parsetree.type_declaration -> unit
+)
+ident(
+  int_ref fill_generator_name_tbl "checking/check.ml" 511 14684 14688 "checking/check.ml" 511 14684 14711
+)
+"checking/check.ml" 542 15687 15718 "checking/check.ml" 542 15687 15728
+type(
+  locality
+)
+ident(
+  int_ref local_flag "checking/check.ml" 538 15580 15599 "checking/check.ml" 538 15580 15609
+)
+"checking/check.ml" 542 15687 15729 "checking/check.ml" 542 15687 15732
+type(
+  string * Parsetree.type_declaration
+)
+ident(
+  int_ref ntd "checking/check.ml" 540 15629 15638 "checking/check.ml" 540 15629 15641
+)
+"checking/check.ml" 542 15687 15694 "checking/check.ml" 542 15687 15732
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 541 15645 15652 "checking/check.ml" 542 15687 15732
+type(
+  unit
+)
+"checking/check.ml" 540 15629 15633 "checking/check.ml" 542 15687 15733
+type(
+  string * Parsetree.type_declaration -> unit
+)
+"checking/check.ml" 543 15734 15738 "checking/check.ml" 543 15734 15742
+type(
+  (string * Parsetree.type_declaration) list
+)
+ident(
+  int_ref ntds "checking/check.ml" 538 15580 15610 "checking/check.ml" 538 15580 15614
+)
+"checking/check.ml" 539 15617 15619 "checking/check.ml" 543 15734 15742
+call(
+  stack
+)
+type(
+  unit
+)
+"checking/check.ml" 544 15744 15746 "checking/check.ml" 544 15744 15762
+type(
+  (string * Parsetree.type_declaration) list -> unit
+)
+ident(
+  int_ref check_type_decls "checking/check.ml" 486 14095 14099 "checking/check.ml" 486 14095 14115
+)
+"checking/check.ml" 544 15744 15763 "checking/check.ml" 544 15744 15767
+type(
+  (string * Parsetree.type_declaration) list
+)
+ident(
+  int_ref ntds "checking/check.ml" 538 15580 15610 "checking/check.ml" 538 15580 15614
+)
+"checking/check.ml" 544 15744 15746 "checking/check.ml" 544 15744 15767
+call(
+  tail
+)
+type(
+  unit
+)
+"checking/check.ml" 539 15617 15619 "checking/check.ml" 544 15744 15767
+type(
+  unit
+)

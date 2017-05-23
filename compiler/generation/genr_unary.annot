@@ -1,0 +1,1540 @@
+"generation/genr_unary.ml" 37 1699 1703 "generation/genr_unary.ml" 37 1699 1734
+type(
+  Parsetree.generator -> Parsetree.relation -> Code.clause list
+)
+ident(
+  def genr_function_non_listary_by_ap "generation/genr_unary.ml" 96 3560 3560 "generation/genr_unary.ml" 1 0 -1
+)
+"generation/genr_unary.ml" 37 1699 1735 "generation/genr_unary.ml" 37 1699 1736
+type(
+  Parsetree.generator
+)
+ident(
+  def c "generation/genr_unary.ml" 39 1740 1742 "generation/genr_unary.ml" 93 3519 3555
+)
+"generation/genr_unary.ml" 39 1740 1750 "generation/genr_unary.ml" 39 1740 1754
+type(
+  Parsetree.rel_desc -> Code.clause list
+)
+ident(
+  def genr "generation/genr_unary.ml" 39 1740 1742 "generation/genr_unary.ml" 93 3519 3555
+)
+"generation/genr_unary.ml" 40 1766 1787 "generation/genr_unary.ml" 40 1766 1788
+type(
+  Parsetree.structure_item
+)
+"generation/genr_unary.ml" 40 1766 1772 "generation/genr_unary.ml" 40 1766 1788
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 41 1789 1802 "generation/genr_unary.ml" 41 1789 1803
+type(
+  Parsetree.rpo_status
+)
+"generation/genr_unary.ml" 41 1789 1795 "generation/genr_unary.ml" 41 1789 1803
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 40 1766 1772 "generation/genr_unary.ml" 41 1789 1803
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 42 1804 1821 "generation/genr_unary.ml" 42 1804 1822
+type(
+  Parsetree.rpo_precedence
+)
+"generation/genr_unary.ml" 42 1804 1810 "generation/genr_unary.ml" 42 1804 1822
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 40 1766 1772 "generation/genr_unary.ml" 42 1804 1822
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 42 1804 1826 "generation/genr_unary.ml" 42 1804 1828
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 43 1829 1846 "generation/genr_unary.ml" 43 1829 1849
+type(
+  Parsetree.relation_side
+)
+ident(
+  def _sd "generation/genr_unary.ml" 44 1853 1859 "generation/genr_unary.ml" 45 1911 1945
+)
+"generation/genr_unary.ml" 43 1829 1835 "generation/genr_unary.ml" 43 1829 1849
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 44 1853 1868 "generation/genr_unary.ml" 44 1853 1878
+type(
+  Code.pattern -> Code.iname -> Code.exp -> Code.pattern
+)
+ident(
+  ext_ref Code.infix_name
+)
+"generation/genr_unary.ml" 44 1853 1880 "generation/genr_unary.ml" 44 1853 1888
+type(
+  Parsetree.generator -> Code.pattern -> Code.pattern
+)
+ident(
+  ext_ref Genr_base.pattern1
+)
+"generation/genr_unary.ml" 44 1853 1889 "generation/genr_unary.ml" 44 1853 1890
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref c "generation/genr_unary.ml" 37 1699 1735 "generation/genr_unary.ml" 37 1699 1736
+)
+"generation/genr_unary.ml" 44 1853 1891 "generation/genr_unary.ml" 44 1853 1901
+type(
+  Code.pattern
+)
+ident(
+  ext_ref Code.underscore
+)
+"generation/genr_unary.ml" 44 1853 1879 "generation/genr_unary.ml" 44 1853 1902
+call(
+  stack
+)
+type(
+  Code.pattern
+)
+"generation/genr_unary.ml" 44 1853 1903 "generation/genr_unary.ml" 44 1853 1907
+type(
+  Code.iname
+)
+"generation/genr_unary.ml" 44 1853 1908 "generation/genr_unary.ml" 44 1853 1909
+type(
+  Code.exp
+)
+ident(
+  ext_ref Code.x
+)
+"generation/genr_unary.ml" 44 1853 1868 "generation/genr_unary.ml" 44 1853 1909
+call(
+  stack
+)
+type(
+  Code.pattern
+)
+"generation/genr_unary.ml" 45 1911 1926 "generation/genr_unary.ml" 45 1911 1939
+type(
+  Parsetree.generator -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Genr_base.construction1
+)
+"generation/genr_unary.ml" 45 1911 1940 "generation/genr_unary.ml" 45 1911 1941
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref c "generation/genr_unary.ml" 37 1699 1735 "generation/genr_unary.ml" 37 1699 1736
+)
+"generation/genr_unary.ml" 45 1911 1942 "generation/genr_unary.ml" 45 1911 1943
+type(
+  Code.exp
+)
+ident(
+  ext_ref Code.x
+)
+"generation/genr_unary.ml" 45 1911 1926 "generation/genr_unary.ml" 45 1911 1943
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 44 1853 1860 "generation/genr_unary.ml" 45 1911 1944
+type(
+  Code.clause
+)
+"generation/genr_unary.ml" 44 1853 1859 "generation/genr_unary.ml" 45 1911 1945
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 46 1946 1952 "generation/genr_unary.ml" 46 1946 1962
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 46 1946 1975 "generation/genr_unary.ml" 46 1946 1983
+type(
+  Parsetree.generator -> Code.pattern -> Code.pattern
+)
+ident(
+  ext_ref Genr_base.pattern1
+)
+"generation/genr_unary.ml" 46 1946 1984 "generation/genr_unary.ml" 46 1946 1985
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref c "generation/genr_unary.ml" 37 1699 1735 "generation/genr_unary.ml" 37 1699 1736
+)
+"generation/genr_unary.ml" 46 1946 1986 "generation/genr_unary.ml" 46 1946 1987
+type(
+  Code.pattern
+)
+ident(
+  ext_ref Code.x
+)
+"generation/genr_unary.ml" 46 1946 1975 "generation/genr_unary.ml" 46 1946 1987
+call(
+  stack
+)
+type(
+  Code.pattern
+)
+"generation/genr_unary.ml" 46 1946 1989 "generation/genr_unary.ml" 46 1946 1990
+type(
+  Code.exp
+)
+ident(
+  ext_ref Code.x
+)
+"generation/genr_unary.ml" 46 1946 1967 "generation/genr_unary.ml" 46 1946 1991
+type(
+  Code.clause
+)
+"generation/genr_unary.ml" 46 1946 1966 "generation/genr_unary.ml" 46 1946 1992
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 47 1993 2010 "generation/genr_unary.ml" 47 1993 2012
+type(
+  Parsetree.relation_side
+)
+ident(
+  def _s "generation/genr_unary.ml" 47 1993 2020 "generation/genr_unary.ml" 47 1993 2069
+)
+"generation/genr_unary.ml" 47 1993 2014 "generation/genr_unary.ml" 47 1993 2015
+type(
+  Parsetree.generator
+)
+ident(
+  def a "generation/genr_unary.ml" 47 1993 2020 "generation/genr_unary.ml" 47 1993 2069
+)
+"generation/genr_unary.ml" 47 1993 1999 "generation/genr_unary.ml" 47 1993 2016
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 47 1993 2029 "generation/genr_unary.ml" 47 1993 2037
+type(
+  Parsetree.generator -> Code.pattern -> Code.pattern
+)
+ident(
+  ext_ref Genr_base.pattern1
+)
+"generation/genr_unary.ml" 47 1993 2038 "generation/genr_unary.ml" 47 1993 2039
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref c "generation/genr_unary.ml" 37 1699 1735 "generation/genr_unary.ml" 37 1699 1736
+)
+"generation/genr_unary.ml" 47 1993 2040 "generation/genr_unary.ml" 47 1993 2050
+type(
+  Code.pattern
+)
+ident(
+  ext_ref Code.underscore
+)
+"generation/genr_unary.ml" 47 1993 2029 "generation/genr_unary.ml" 47 1993 2050
+call(
+  stack
+)
+type(
+  Code.pattern
+)
+"generation/genr_unary.ml" 47 1993 2052 "generation/genr_unary.ml" 47 1993 2065
+type(
+  Parsetree.generator -> Code.exp
+)
+ident(
+  ext_ref Genr_base.construction0
+)
+"generation/genr_unary.ml" 47 1993 2066 "generation/genr_unary.ml" 47 1993 2067
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref a "generation/genr_unary.ml" 47 1993 2014 "generation/genr_unary.ml" 47 1993 2015
+)
+"generation/genr_unary.ml" 47 1993 2052 "generation/genr_unary.ml" 47 1993 2067
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 47 1993 2021 "generation/genr_unary.ml" 47 1993 2068
+type(
+  Code.clause
+)
+"generation/genr_unary.ml" 47 1993 2020 "generation/genr_unary.ml" 47 1993 2069
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 48 2070 2085 "generation/genr_unary.ml" 48 2070 2086
+type(
+  Parsetree.pattern
+)
+ident(
+  def p "generation/genr_unary.ml" 48 2070 2094 "generation/genr_unary.ml" 48 2070 2125
+)
+"generation/genr_unary.ml" 48 2070 2088 "generation/genr_unary.ml" 48 2070 2089
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_unary.ml" 48 2070 2094 "generation/genr_unary.ml" 48 2070 2125
+)
+"generation/genr_unary.ml" 48 2070 2076 "generation/genr_unary.ml" 48 2070 2090
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 48 2070 2095 "generation/genr_unary.ml" 48 2070 2120
+type(
+  Parsetree.pattern -> Parsetree.expression -> Code.clause
+)
+ident(
+  ext_ref Genr_expression.genr_rule
+)
+"generation/genr_unary.ml" 48 2070 2121 "generation/genr_unary.ml" 48 2070 2122
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "generation/genr_unary.ml" 48 2070 2085 "generation/genr_unary.ml" 48 2070 2086
+)
+"generation/genr_unary.ml" 48 2070 2123 "generation/genr_unary.ml" 48 2070 2124
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_unary.ml" 48 2070 2088 "generation/genr_unary.ml" 48 2070 2089
+)
+"generation/genr_unary.ml" 48 2070 2095 "generation/genr_unary.ml" 48 2070 2124
+call(
+  stack
+)
+type(
+  Code.clause
+)
+"generation/genr_unary.ml" 48 2070 2094 "generation/genr_unary.ml" 48 2070 2125
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 50 2127 2147 "generation/genr_unary.ml" 50 2127 2149
+type(
+  Parsetree.relation_side
+)
+ident(
+  def _s "generation/genr_unary.ml" 51 2170 2176 "generation/genr_unary.ml" 81 3259 3270
+)
+"generation/genr_unary.ml" 50 2127 2151 "generation/genr_unary.ml" 50 2127 2152
+type(
+  Parsetree.generator
+)
+ident(
+  def d "generation/genr_unary.ml" 51 2170 2176 "generation/genr_unary.ml" 81 3259 3270
+)
+"generation/genr_unary.ml" 50 2127 2154 "generation/genr_unary.ml" 50 2127 2158
+type(
+  Parsetree.generator option
+)
+ident(
+  def gopt "generation/genr_unary.ml" 51 2170 2176 "generation/genr_unary.ml" 81 3259 3270
+)
+"generation/genr_unary.ml" 50 2127 2160 "generation/genr_unary.ml" 50 2127 2165
+type(
+  Parsetree.distributivity_direction
+)
+ident(
+  def dflag "generation/genr_unary.ml" 51 2170 2176 "generation/genr_unary.ml" 81 3259 3270
+)
+"generation/genr_unary.ml" 50 2127 2133 "generation/genr_unary.ml" 50 2127 2166
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 51 2170 2180 "generation/genr_unary.ml" 51 2170 2181
+type(
+  Parsetree.generator
+)
+ident(
+  def e "generation/genr_unary.ml" 59 2404 2410 "generation/genr_unary.ml" 81 3259 3270
+)
+"generation/genr_unary.ml" 52 2184 2198 "generation/genr_unary.ml" 52 2184 2202
+type(
+  Parsetree.generator option
+)
+ident(
+  int_ref gopt "generation/genr_unary.ml" 50 2127 2154 "generation/genr_unary.ml" 50 2127 2158
+)
+"generation/genr_unary.ml" 53 2208 2223 "generation/genr_unary.ml" 53 2208 2224
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_unary.ml" 53 2208 2228 "generation/genr_unary.ml" 53 2208 2229
+)
+"generation/genr_unary.ml" 53 2208 2218 "generation/genr_unary.ml" 53 2208 2224
+type(
+  Parsetree.generator option
+)
+"generation/genr_unary.ml" 53 2208 2228 "generation/genr_unary.ml" 53 2208 2229
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_unary.ml" 53 2208 2223 "generation/genr_unary.ml" 53 2208 2224
+)
+"generation/genr_unary.ml" 54 2230 2240 "generation/genr_unary.ml" 54 2230 2244
+type(
+  Parsetree.generator option
+)
+"generation/genr_unary.ml" 54 2230 2248 "generation/genr_unary.ml" 54 2230 2249
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref d "generation/genr_unary.ml" 50 2127 2151 "generation/genr_unary.ml" 50 2127 2152
+)
+"generation/genr_unary.ml" 52 2184 2192 "generation/genr_unary.ml" 54 2230 2249
+type(
+  Parsetree.generator
+)
+"generation/genr_unary.ml" 59 2404 2413 "generation/genr_unary.ml" 59 2404 2439
+type(
+  Parsetree.generator -> bool
+)
+ident(
+  ext_ref Check.is_listary_generator
+)
+"generation/genr_unary.ml" 59 2404 2440 "generation/genr_unary.ml" 59 2404 2441
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref d "generation/genr_unary.ml" 50 2127 2151 "generation/genr_unary.ml" 50 2127 2152
+)
+"generation/genr_unary.ml" 59 2404 2413 "generation/genr_unary.ml" 59 2404 2441
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_unary.ml" 60 2475 2487 "generation/genr_unary.ml" 60 2475 2492
+type(
+  Longident.t
+)
+ident(
+  def idist "generation/genr_unary.ml" 61 2512 2520 "generation/genr_unary.ml" 66 2702 2712
+)
+"generation/genr_unary.ml" 60 2475 2502 "generation/genr_unary.ml" 60 2475 2508
+type(
+  string
+)
+"generation/genr_unary.ml" 60 2475 2495 "generation/genr_unary.ml" 60 2475 2508
+type(
+  Longident.t
+)
+"generation/genr_unary.ml" 62 2528 2540 "generation/genr_unary.ml" 62 2528 2548
+type(
+  Parsetree.generator -> Code.pattern -> Code.pattern
+)
+ident(
+  ext_ref Genr_base.pattern1
+)
+"generation/genr_unary.ml" 62 2528 2549 "generation/genr_unary.ml" 62 2528 2550
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref d "generation/genr_unary.ml" 50 2127 2151 "generation/genr_unary.ml" 50 2127 2152
+)
+"generation/genr_unary.ml" 62 2528 2551 "generation/genr_unary.ml" 62 2528 2552
+type(
+  Code.pattern
+)
+ident(
+  ext_ref Code.x
+)
+"generation/genr_unary.ml" 62 2528 2540 "generation/genr_unary.ml" 62 2528 2552
+call(
+  stack
+)
+type(
+  Code.pattern
+)
+"generation/genr_unary.ml" 63 2554 2566 "generation/genr_unary.ml" 63 2554 2570
+type(
+  Code.lident -> Code.pattern -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.let1
+)
+"generation/genr_unary.ml" 63 2554 2571 "generation/genr_unary.ml" 63 2554 2576
+type(
+  Code.lident
+)
+ident(
+  int_ref idist "generation/genr_unary.ml" 60 2475 2487 "generation/genr_unary.ml" 60 2475 2492
+)
+"generation/genr_unary.ml" 63 2554 2577 "generation/genr_unary.ml" 63 2554 2578
+type(
+  Code.pattern
+)
+ident(
+  ext_ref Code.y
+)
+"generation/genr_unary.ml" 63 2554 2580 "generation/genr_unary.ml" 63 2554 2593
+type(
+  Parsetree.generator -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Genr_base.construction1
+)
+"generation/genr_unary.ml" 63 2554 2594 "generation/genr_unary.ml" 63 2554 2595
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref c "generation/genr_unary.ml" 37 1699 1735 "generation/genr_unary.ml" 37 1699 1736
+)
+"generation/genr_unary.ml" 63 2554 2596 "generation/genr_unary.ml" 63 2554 2597
+type(
+  Code.exp
+)
+ident(
+  ext_ref Code.y
+)
+"generation/genr_unary.ml" 63 2554 2579 "generation/genr_unary.ml" 63 2554 2598
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 64 2599 2614 "generation/genr_unary.ml" 64 2599 2627
+type(
+  Parsetree.generator -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Genr_base.construction1
+)
+"generation/genr_unary.ml" 64 2599 2628 "generation/genr_unary.ml" 64 2599 2629
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "generation/genr_unary.ml" 51 2170 2180 "generation/genr_unary.ml" 51 2170 2181
+)
+"generation/genr_unary.ml" 65 2630 2648 "generation/genr_unary.ml" 65 2630 2654
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.apply2
+)
+"generation/genr_unary.ml" 65 2630 2656 "generation/genr_unary.ml" 65 2630 2673
+type(
+  Parsetree.distributivity_direction -> Code.lident
+)
+ident(
+  ext_ref Genr_base.imap_of_direction
+)
+"generation/genr_unary.ml" 65 2630 2674 "generation/genr_unary.ml" 65 2630 2679
+type(
+  Parsetree.distributivity_direction
+)
+ident(
+  int_ref dflag "generation/genr_unary.ml" 50 2127 2160 "generation/genr_unary.ml" 50 2127 2165
+)
+"generation/genr_unary.ml" 65 2630 2655 "generation/genr_unary.ml" 65 2630 2680
+call(
+  stack
+)
+type(
+  Code.lident
+)
+"generation/genr_unary.ml" 65 2630 2691 "generation/genr_unary.ml" 65 2630 2696
+type(
+  Code.ident
+)
+ident(
+  int_ref idist "generation/genr_unary.ml" 60 2475 2487 "generation/genr_unary.ml" 60 2475 2492
+)
+"generation/genr_unary.ml" 65 2630 2681 "generation/genr_unary.ml" 65 2630 2697
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 65 2630 2698 "generation/genr_unary.ml" 65 2630 2699
+type(
+  Code.exp
+)
+ident(
+  ext_ref Code.x
+)
+"generation/genr_unary.ml" 65 2630 2647 "generation/genr_unary.ml" 65 2630 2700
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 64 2599 2613 "generation/genr_unary.ml" 65 2630 2701
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 63 2554 2566 "generation/genr_unary.ml" 65 2630 2701
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 61 2512 2521 "generation/genr_unary.ml" 66 2702 2711
+type(
+  Code.clause
+)
+"generation/genr_unary.ml" 61 2512 2520 "generation/genr_unary.ml" 66 2702 2712
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 60 2475 2483 "generation/genr_unary.ml" 66 2702 2712
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 72 2917 2937 "generation/genr_unary.ml" 72 2917 2961
+type(
+  Parsetree.generator -> int
+)
+ident(
+  ext_ref Check.arity_of_generator
+)
+"generation/genr_unary.ml" 72 2917 2962 "generation/genr_unary.ml" 72 2917 2963
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref d "generation/genr_unary.ml" 50 2127 2151 "generation/genr_unary.ml" 50 2127 2152
+)
+"generation/genr_unary.ml" 72 2917 2937 "generation/genr_unary.ml" 72 2917 2963
+call(
+  stack
+)
+type(
+  int
+)
+"generation/genr_unary.ml" 73 2969 2979 "generation/genr_unary.ml" 73 2969 2980
+type(
+  int
+)
+"generation/genr_unary.ml" 73 2969 2993 "generation/genr_unary.ml" 73 2969 3000
+type(
+  Parsetree.generator -> Code.pattern list -> Code.pattern
+)
+ident(
+  ext_ref Genr_base.pattern
+)
+"generation/genr_unary.ml" 73 2969 3001 "generation/genr_unary.ml" 73 2969 3002
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref d "generation/genr_unary.ml" 50 2127 2151 "generation/genr_unary.ml" 50 2127 2152
+)
+"generation/genr_unary.ml" 73 2969 3003 "generation/genr_unary.ml" 73 2969 3005
+type(
+  Code.pattern list
+)
+"generation/genr_unary.ml" 73 2969 2993 "generation/genr_unary.ml" 73 2969 3005
+call(
+  stack
+)
+type(
+  Code.pattern
+)
+"generation/genr_unary.ml" 73 2969 3007 "generation/genr_unary.ml" 73 2969 3020
+type(
+  Parsetree.generator -> Code.exp
+)
+ident(
+  ext_ref Genr_base.construction0
+)
+"generation/genr_unary.ml" 73 2969 3021 "generation/genr_unary.ml" 73 2969 3022
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "generation/genr_unary.ml" 51 2170 2180 "generation/genr_unary.ml" 51 2170 2181
+)
+"generation/genr_unary.ml" 73 2969 3007 "generation/genr_unary.ml" 73 2969 3022
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 73 2969 2985 "generation/genr_unary.ml" 73 2969 3023
+type(
+  Code.clause
+)
+"generation/genr_unary.ml" 73 2969 2984 "generation/genr_unary.ml" 73 2969 3024
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 74 3025 3035 "generation/genr_unary.ml" 74 3025 3036
+type(
+  int
+)
+ident(
+  def n "generation/genr_unary.ml" 75 3040 3050 "generation/genr_unary.ml" 80 3229 3258
+)
+"generation/genr_unary.ml" 75 3040 3054 "generation/genr_unary.ml" 75 3040 3056
+type(
+  Code.pattern list
+)
+ident(
+  def xs "generation/genr_unary.ml" 76 3078 3088 "generation/genr_unary.ml" 80 3229 3258
+)
+"generation/genr_unary.ml" 75 3040 3059 "generation/genr_unary.ml" 75 3040 3068
+type(
+  string -> int -> Code.pattern list
+)
+ident(
+  ext_ref Code.genr_args
+)
+"generation/genr_unary.ml" 75 3040 3069 "generation/genr_unary.ml" 75 3040 3072
+type(
+  string
+)
+"generation/genr_unary.ml" 75 3040 3073 "generation/genr_unary.ml" 75 3040 3074
+type(
+  int
+)
+ident(
+  int_ref n "generation/genr_unary.ml" 74 3025 3035 "generation/genr_unary.ml" 74 3025 3036
+)
+"generation/genr_unary.ml" 75 3040 3059 "generation/genr_unary.ml" 75 3040 3074
+call(
+  stack
+)
+type(
+  Code.pattern list
+)
+"generation/genr_unary.ml" 76 3078 3092 "generation/genr_unary.ml" 76 3078 3095
+type(
+  Code.pattern
+)
+ident(
+  def lhs "generation/genr_unary.ml" 80 3229 3239 "generation/genr_unary.ml" 80 3229 3258
+)
+"generation/genr_unary.ml" 76 3078 3098 "generation/genr_unary.ml" 76 3078 3105
+type(
+  Parsetree.generator -> Code.pattern list -> Code.pattern
+)
+ident(
+  ext_ref Genr_base.pattern
+)
+"generation/genr_unary.ml" 76 3078 3106 "generation/genr_unary.ml" 76 3078 3107
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref d "generation/genr_unary.ml" 50 2127 2151 "generation/genr_unary.ml" 50 2127 2152
+)
+"generation/genr_unary.ml" 76 3078 3108 "generation/genr_unary.ml" 76 3078 3110
+type(
+  Code.pattern list
+)
+ident(
+  int_ref xs "generation/genr_unary.ml" 75 3040 3054 "generation/genr_unary.ml" 75 3040 3056
+)
+"generation/genr_unary.ml" 76 3078 3098 "generation/genr_unary.ml" 76 3078 3110
+call(
+  stack
+)
+type(
+  Code.pattern
+)
+"generation/genr_unary.ml" 77 3111 3125 "generation/genr_unary.ml" 77 3111 3128
+type(
+  Code.exp
+)
+ident(
+  def rhs "generation/genr_unary.ml" 80 3229 3239 "generation/genr_unary.ml" 80 3229 3258
+)
+"generation/genr_unary.ml" 78 3131 3147 "generation/genr_unary.ml" 78 3131 3159
+type(
+  Parsetree.generator -> Code.exp list -> Code.exp
+)
+ident(
+  ext_ref Genr_base.construction
+)
+"generation/genr_unary.ml" 78 3131 3160 "generation/genr_unary.ml" 78 3131 3161
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "generation/genr_unary.ml" 51 2170 2180 "generation/genr_unary.ml" 51 2170 2181
+)
+"generation/genr_unary.ml" 79 3162 3181 "generation/genr_unary.ml" 79 3162 3197
+type(
+  Parsetree.distributivity_direction ->
+  (Code.pattern -> Code.exp) -> Code.pattern list -> Code.exp list
+)
+ident(
+  ext_ref Genr_base.map_of_direction
+)
+"generation/genr_unary.ml" 79 3162 3198 "generation/genr_unary.ml" 79 3162 3203
+type(
+  Parsetree.distributivity_direction
+)
+ident(
+  int_ref dflag "generation/genr_unary.ml" 50 2127 2160 "generation/genr_unary.ml" 50 2127 2165
+)
+"generation/genr_unary.ml" 79 3162 3205 "generation/genr_unary.ml" 79 3162 3218
+type(
+  Parsetree.generator -> Code.pattern -> Code.exp
+)
+ident(
+  ext_ref Genr_base.construction1
+)
+"generation/genr_unary.ml" 79 3162 3219 "generation/genr_unary.ml" 79 3162 3220
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref c "generation/genr_unary.ml" 37 1699 1735 "generation/genr_unary.ml" 37 1699 1736
+)
+"generation/genr_unary.ml" 79 3162 3204 "generation/genr_unary.ml" 79 3162 3221
+call(
+  stack
+)
+type(
+  Code.pattern -> Code.exp
+)
+"generation/genr_unary.ml" 79 3162 3222 "generation/genr_unary.ml" 79 3162 3224
+type(
+  Code.pattern list
+)
+ident(
+  int_ref xs "generation/genr_unary.ml" 75 3040 3054 "generation/genr_unary.ml" 75 3040 3056
+)
+"generation/genr_unary.ml" 79 3162 3180 "generation/genr_unary.ml" 79 3162 3225
+call(
+  stack
+)
+type(
+  Code.exp list
+)
+"generation/genr_unary.ml" 78 3131 3147 "generation/genr_unary.ml" 79 3162 3225
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 80 3229 3248 "generation/genr_unary.ml" 80 3229 3251
+type(
+  Code.pattern
+)
+ident(
+  int_ref lhs "generation/genr_unary.ml" 76 3078 3092 "generation/genr_unary.ml" 76 3078 3095
+)
+"generation/genr_unary.ml" 80 3229 3253 "generation/genr_unary.ml" 80 3229 3256
+type(
+  Code.exp
+)
+ident(
+  int_ref rhs "generation/genr_unary.ml" 77 3111 3125 "generation/genr_unary.ml" 77 3111 3128
+)
+"generation/genr_unary.ml" 80 3229 3240 "generation/genr_unary.ml" 80 3229 3257
+type(
+  Code.clause
+)
+"generation/genr_unary.ml" 80 3229 3239 "generation/genr_unary.ml" 80 3229 3258
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 76 3078 3088 "generation/genr_unary.ml" 80 3229 3258
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 75 3040 3050 "generation/genr_unary.ml" 80 3229 3258
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 72 2917 2925 "generation/genr_unary.ml" 81 3259 3270
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 59 2404 2410 "generation/genr_unary.ml" 81 3259 3270
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 51 2170 2176 "generation/genr_unary.ml" 81 3259 3270
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 83 3272 3300 "generation/genr_unary.ml" 83 3272 3301
+type(
+  Parsetree.generator
+)
+ident(
+  def a "generation/genr_unary.ml" 84 3305 3311 "generation/genr_unary.ml" 88 3398 3405
+)
+"generation/genr_unary.ml" 83 3272 3278 "generation/genr_unary.ml" 83 3272 3301
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 86 3328 3338 "generation/genr_unary.ml" 86 3328 3346
+type(
+  Parsetree.generator -> Code.pattern
+)
+ident(
+  ext_ref Genr_base.pattern0
+)
+"generation/genr_unary.ml" 86 3328 3347 "generation/genr_unary.ml" 86 3328 3348
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref a "generation/genr_unary.ml" 83 3272 3300 "generation/genr_unary.ml" 83 3272 3301
+)
+"generation/genr_unary.ml" 86 3328 3338 "generation/genr_unary.ml" 86 3328 3348
+call(
+  stack
+)
+type(
+  Code.pattern
+)
+"generation/genr_unary.ml" 87 3350 3360 "generation/genr_unary.ml" 87 3350 3395
+type(
+  Code.exp
+)
+ident(
+  ext_ref Code.failwith_division_by_absorbent
+)
+"generation/genr_unary.ml" 85 3313 3321 "generation/genr_unary.ml" 87 3350 3396
+type(
+  Code.clause
+)
+"generation/genr_unary.ml" 84 3305 3311 "generation/genr_unary.ml" 88 3398 3405
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 90 3407 3421 "generation/genr_unary.ml" 90 3407 3422
+type(
+  Parsetree.generator option
+)
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/genr_unary.ml" 90 3407 3413 "generation/genr_unary.ml" 90 3407 3422
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 90 3407 3433 "generation/genr_unary.ml" 90 3407 3434
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/genr_unary.ml" 90 3407 3425 "generation/genr_unary.ml" 90 3407 3434
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 90 3407 3413 "generation/genr_unary.ml" 90 3407 3434
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 90 3407 3447 "generation/genr_unary.ml" 90 3407 3448
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/genr_unary.ml" 90 3407 3437 "generation/genr_unary.ml" 90 3407 3448
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 90 3407 3413 "generation/genr_unary.ml" 90 3407 3448
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 90 3407 3461 "generation/genr_unary.ml" 90 3407 3462
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/genr_unary.ml" 90 3407 3451 "generation/genr_unary.ml" 90 3407 3462
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 90 3407 3413 "generation/genr_unary.ml" 90 3407 3462
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 91 3463 3481 "generation/genr_unary.ml" 91 3463 3482
+type(
+  Parsetree.relation_side
+)
+"generation/genr_unary.ml" 91 3463 3469 "generation/genr_unary.ml" 91 3463 3482
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 90 3407 3413 "generation/genr_unary.ml" 91 3463 3482
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 91 3463 3497 "generation/genr_unary.ml" 91 3463 3498
+type(
+  Longident.t option
+)
+"generation/genr_unary.ml" 91 3463 3485 "generation/genr_unary.ml" 91 3463 3498
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 90 3407 3413 "generation/genr_unary.ml" 91 3463 3498
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 91 3463 3509 "generation/genr_unary.ml" 91 3463 3514
+type(
+  bool
+)
+"generation/genr_unary.ml" 91 3463 3502 "generation/genr_unary.ml" 91 3463 3514
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 39 1740 1757 "generation/genr_unary.ml" 91 3463 3514
+type(
+  Parsetree.rel_desc -> Code.clause list
+)
+"generation/genr_unary.ml" 93 3519 3530 "generation/genr_unary.ml" 93 3519 3533
+type(
+  Parsetree.relation
+)
+ident(
+  def rel "generation/genr_unary.ml" 93 3519 3537 "generation/genr_unary.ml" 93 3519 3555
+)
+"generation/genr_unary.ml" 93 3519 3537 "generation/genr_unary.ml" 93 3519 3541
+type(
+  Parsetree.rel_desc -> Code.clause list
+)
+ident(
+  int_ref genr "generation/genr_unary.ml" 39 1740 1750 "generation/genr_unary.ml" 39 1740 1754
+)
+"generation/genr_unary.ml" 93 3519 3542 "generation/genr_unary.ml" 93 3519 3545
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref rel "generation/genr_unary.ml" 93 3519 3530 "generation/genr_unary.ml" 93 3519 3533
+)
+"generation/genr_unary.ml" 93 3519 3542 "generation/genr_unary.ml" 93 3519 3555
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_unary.ml" 93 3519 3537 "generation/genr_unary.ml" 93 3519 3555
+call(
+  tail
+)
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 93 3519 3521 "generation/genr_unary.ml" 93 3519 3555
+type(
+  Parsetree.relation -> Code.clause list
+)
+"generation/genr_unary.ml" 39 1740 1742 "generation/genr_unary.ml" 93 3519 3555
+type(
+  Parsetree.relation -> Code.clause list
+)
+"generation/genr_unary.ml" 96 3560 3564 "generation/genr_unary.ml" 96 3560 3589
+type(
+  Otype.constructor_definition -> Code.exp -> Code.exp
+)
+ident(
+  def genr_function_non_listary "generation/genr_unary.ml" 113 4033 4033 "generation/genr_unary.ml" 1 0 -1
+)
+"generation/genr_unary.ml" 96 3560 3590 "generation/genr_unary.ml" 96 3560 3594
+type(
+  Otype.constructor_definition
+)
+ident(
+  def cdef "generation/genr_unary.ml" 96 3560 3595 "generation/genr_unary.ml" 110 4006 4028
+)
+"generation/genr_unary.ml" 96 3560 3595 "generation/genr_unary.ml" 96 3560 3598
+type(
+  Code.exp
+)
+ident(
+  def arg "generation/genr_unary.ml" 98 3602 3604 "generation/genr_unary.ml" 110 4006 4028
+)
+"generation/genr_unary.ml" 98 3602 3608 "generation/genr_unary.ml" 98 3602 3609
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_unary.ml" 99 3638 3640 "generation/genr_unary.ml" 110 4006 4028
+)
+"generation/genr_unary.ml" 98 3602 3612 "generation/genr_unary.ml" 98 3602 3629
+type(
+  Otype.constructor_definition -> Parsetree.generator
+)
+ident(
+  ext_ref Otype.generator_of_cdef
+)
+"generation/genr_unary.ml" 98 3602 3630 "generation/genr_unary.ml" 98 3602 3634
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/genr_unary.ml" 96 3560 3590 "generation/genr_unary.ml" 96 3560 3594
+)
+"generation/genr_unary.ml" 98 3602 3612 "generation/genr_unary.ml" 98 3602 3634
+call(
+  stack
+)
+type(
+  Parsetree.generator
+)
+"generation/genr_unary.ml" 99 3638 3644 "generation/genr_unary.ml" 99 3638 3653
+type(
+  Parsetree.relations
+)
+ident(
+  def relations "generation/genr_unary.ml" 101 3683 3685 "generation/genr_unary.ml" 110 4006 4028
+)
+"generation/genr_unary.ml" 99 3638 3656 "generation/genr_unary.ml" 99 3638 3673
+type(
+  Otype.constructor_definition -> Parsetree.relations
+)
+ident(
+  ext_ref Otype.relations_of_cdef
+)
+"generation/genr_unary.ml" 99 3638 3674 "generation/genr_unary.ml" 99 3638 3678
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/genr_unary.ml" 96 3560 3590 "generation/genr_unary.ml" 96 3560 3594
+)
+"generation/genr_unary.ml" 99 3638 3656 "generation/genr_unary.ml" 99 3638 3678
+call(
+  stack
+)
+type(
+  Parsetree.relations
+)
+"generation/genr_unary.ml" 101 3683 3689 "generation/genr_unary.ml" 101 3683 3696
+type(
+  Code.exp
+)
+ident(
+  def default "generation/genr_unary.ml" 102 3719 3721 "generation/genr_unary.ml" 110 4006 4028
+)
+"generation/genr_unary.ml" 101 3683 3699 "generation/genr_unary.ml" 101 3683 3709
+type(
+  Parsetree.generator -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Genr_base.generator1
+)
+"generation/genr_unary.ml" 101 3683 3710 "generation/genr_unary.ml" 101 3683 3711
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_unary.ml" 98 3602 3608 "generation/genr_unary.ml" 98 3602 3609
+)
+"generation/genr_unary.ml" 101 3683 3712 "generation/genr_unary.ml" 101 3683 3715
+type(
+  Code.exp
+)
+ident(
+  int_ref arg "generation/genr_unary.ml" 96 3560 3595 "generation/genr_unary.ml" 96 3560 3598
+)
+"generation/genr_unary.ml" 101 3683 3699 "generation/genr_unary.ml" 101 3683 3715
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 102 3719 3727 "generation/genr_unary.ml" 102 3719 3736
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "generation/genr_unary.ml" 99 3638 3644 "generation/genr_unary.ml" 99 3638 3653
+)
+"generation/genr_unary.ml" 102 3719 3727 "generation/genr_unary.ml" 102 3719 3747
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_unary.ml" 103 3753 3757 "generation/genr_unary.ml" 103 3753 3767
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_unary.ml" 103 3753 3786 "generation/genr_unary.ml" 103 3753 3787
+type(
+  Parsetree.relations
+)
+"generation/genr_unary.ml" 103 3753 3770 "generation/genr_unary.ml" 103 3753 3787
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_unary.ml" 103 3753 3757 "generation/genr_unary.ml" 103 3753 3787
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_unary.ml" 103 3753 3791 "generation/genr_unary.ml" 103 3753 3798
+type(
+  Code.exp
+)
+ident(
+  int_ref default "generation/genr_unary.ml" 101 3683 3689 "generation/genr_unary.ml" 101 3683 3696
+)
+"generation/genr_unary.ml" 104 3799 3816 "generation/genr_unary.ml" 104 3799 3819
+type(
+  Parsetree.relation list
+)
+ident(
+  def rls "generation/genr_unary.ml" 105 3823 3827 "generation/genr_unary.ml" 110 4006 4028
+)
+"generation/genr_unary.ml" 104 3799 3803 "generation/genr_unary.ml" 104 3799 3819
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_unary.ml" 105 3823 3831 "generation/genr_unary.ml" 105 3823 3834
+type(
+  Parsetree.relation list
+)
+ident(
+  def rls "generation/genr_unary.ml" 106 3866 3870 "generation/genr_unary.ml" 110 4006 4028
+)
+"generation/genr_unary.ml" 105 3823 3837 "generation/genr_unary.ml" 105 3823 3847
+type(
+  (Parsetree.relation -> int) ->
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  ext_ref Genr_base.order_rels
+)
+"generation/genr_unary.ml" 105 3823 3848 "generation/genr_unary.ml" 105 3823 3858
+type(
+  Parsetree.relation -> int
+)
+ident(
+  ext_ref Relation.precedence
+)
+"generation/genr_unary.ml" 105 3823 3859 "generation/genr_unary.ml" 105 3823 3862
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rls "generation/genr_unary.ml" 104 3799 3816 "generation/genr_unary.ml" 104 3799 3819
+)
+"generation/genr_unary.ml" 105 3823 3837 "generation/genr_unary.ml" 105 3823 3862
+call(
+  stack
+)
+type(
+  Parsetree.relation list
+)
+"generation/genr_unary.ml" 106 3866 3874 "generation/genr_unary.ml" 106 3866 3881
+type(
+  Code.clause list
+)
+ident(
+  def clauses "generation/genr_unary.ml" 110 4006 4010 "generation/genr_unary.ml" 110 4006 4028
+)
+"generation/genr_unary.ml" 107 3884 3890 "generation/genr_unary.ml" 107 3884 3902
+type(
+  Code.clause list list -> Code.clause list
+)
+ident(
+  ext_ref List.flatten
+)
+"generation/genr_unary.ml" 108 3903 3912 "generation/genr_unary.ml" 108 3903 3920
+type(
+  (Parsetree.relation -> Code.clause list) ->
+  Parsetree.relation list -> Code.clause list list
+)
+ident(
+  ext_ref List.map
+)
+"generation/genr_unary.ml" 108 3903 3922 "generation/genr_unary.ml" 108 3903 3953
+type(
+  Parsetree.generator -> Parsetree.relation -> Code.clause list
+)
+ident(
+  int_ref genr_function_non_listary_by_ap "generation/genr_unary.ml" 37 1699 1703 "generation/genr_unary.ml" 37 1699 1734
+)
+"generation/genr_unary.ml" 108 3903 3954 "generation/genr_unary.ml" 108 3903 3955
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_unary.ml" 98 3602 3608 "generation/genr_unary.ml" 98 3602 3609
+)
+"generation/genr_unary.ml" 108 3903 3921 "generation/genr_unary.ml" 108 3903 3956
+call(
+  stack
+)
+type(
+  Parsetree.relation -> Code.clause list
+)
+"generation/genr_unary.ml" 108 3903 3957 "generation/genr_unary.ml" 108 3903 3960
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rls "generation/genr_unary.ml" 105 3823 3831 "generation/genr_unary.ml" 105 3823 3834
+)
+"generation/genr_unary.ml" 108 3903 3911 "generation/genr_unary.ml" 108 3903 3961
+call(
+  stack
+)
+type(
+  Code.clause list list
+)
+"generation/genr_unary.ml" 107 3884 3890 "generation/genr_unary.ml" 108 3903 3961
+call(
+  stack
+)
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 108 3903 3962 "generation/genr_unary.ml" 108 3903 3963
+type(
+  Code.clause list -> Code.clause list -> Code.clause list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"generation/genr_unary.ml" 109 3964 3980 "generation/genr_unary.ml" 109 3964 3990
+type(
+  Code.pattern
+)
+ident(
+  ext_ref Code.underscore
+)
+"generation/genr_unary.ml" 109 3964 3992 "generation/genr_unary.ml" 109 3964 3999
+type(
+  Code.exp
+)
+ident(
+  int_ref default "generation/genr_unary.ml" 101 3683 3689 "generation/genr_unary.ml" 101 3683 3696
+)
+"generation/genr_unary.ml" 109 3964 3972 "generation/genr_unary.ml" 109 3964 4000
+type(
+  Code.clause
+)
+"generation/genr_unary.ml" 109 3964 3970 "generation/genr_unary.ml" 109 3964 4002
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 107 3884 3890 "generation/genr_unary.ml" 109 3964 4002
+call(
+  stack
+)
+type(
+  Code.clause list
+)
+"generation/genr_unary.ml" 110 4006 4017 "generation/genr_unary.ml" 110 4006 4018
+type(
+  Code.exp
+)
+ident(
+  ext_ref Code.x
+)
+"generation/genr_unary.ml" 110 4006 4020 "generation/genr_unary.ml" 110 4006 4027
+type(
+  Code.clauses
+)
+ident(
+  int_ref clauses "generation/genr_unary.ml" 106 3866 3874 "generation/genr_unary.ml" 106 3866 3881
+)
+"generation/genr_unary.ml" 110 4006 4010 "generation/genr_unary.ml" 110 4006 4028
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 106 3866 3870 "generation/genr_unary.ml" 110 4006 4028
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 105 3823 3827 "generation/genr_unary.ml" 110 4006 4028
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 102 3719 3721 "generation/genr_unary.ml" 110 4006 4028
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 101 3683 3685 "generation/genr_unary.ml" 110 4006 4028
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 99 3638 3640 "generation/genr_unary.ml" 110 4006 4028
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 98 3602 3604 "generation/genr_unary.ml" 110 4006 4028
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 113 4033 4037 "generation/genr_unary.ml" 113 4033 4050
+type(
+  Otype.constructor_definition -> Genr_base.generated_function list
+)
+ident(
+  def genr_function "generation/genr_unary.ml" 117 4163 4194 "generation/genr_unary.ml" 1 0 -1
+)
+"generation/genr_unary.ml" 113 4033 4051 "generation/genr_unary.ml" 113 4033 4055
+type(
+  Otype.constructor_definition
+)
+ident(
+  def cdef "generation/genr_unary.ml" 114 4058 4060 "generation/genr_unary.ml" 117 4163 4194
+)
+"generation/genr_unary.ml" 114 4058 4064 "generation/genr_unary.ml" 114 4058 4065
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_unary.ml" 115 4094 4096 "generation/genr_unary.ml" 117 4163 4194
+)
+"generation/genr_unary.ml" 114 4058 4068 "generation/genr_unary.ml" 114 4058 4085
+type(
+  Otype.constructor_definition -> Parsetree.generator
+)
+ident(
+  ext_ref Otype.generator_of_cdef
+)
+"generation/genr_unary.ml" 114 4058 4086 "generation/genr_unary.ml" 114 4058 4090
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/genr_unary.ml" 113 4033 4051 "generation/genr_unary.ml" 113 4033 4055
+)
+"generation/genr_unary.ml" 114 4058 4068 "generation/genr_unary.ml" 114 4058 4090
+call(
+  stack
+)
+type(
+  Parsetree.generator
+)
+"generation/genr_unary.ml" 115 4094 4100 "generation/genr_unary.ml" 115 4094 4101
+type(
+  Code.exp
+)
+ident(
+  def x "generation/genr_unary.ml" 116 4114 4116 "generation/genr_unary.ml" 117 4163 4194
+)
+"generation/genr_unary.ml" 115 4094 4104 "generation/genr_unary.ml" 115 4094 4110
+type(
+  Code.exp
+)
+ident(
+  ext_ref Code.x
+)
+"generation/genr_unary.ml" 116 4114 4120 "generation/genr_unary.ml" 116 4114 4124
+type(
+  Code.exp
+)
+ident(
+  def body "generation/genr_unary.ml" 117 4163 4165 "generation/genr_unary.ml" 117 4163 4194
+)
+"generation/genr_unary.ml" 116 4114 4127 "generation/genr_unary.ml" 116 4114 4152
+type(
+  Otype.constructor_definition -> Code.exp -> Code.exp
+)
+ident(
+  int_ref genr_function_non_listary "generation/genr_unary.ml" 96 3560 3564 "generation/genr_unary.ml" 96 3560 3589
+)
+"generation/genr_unary.ml" 116 4114 4153 "generation/genr_unary.ml" 116 4114 4157
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/genr_unary.ml" 113 4033 4051 "generation/genr_unary.ml" 113 4033 4055
+)
+"generation/genr_unary.ml" 116 4114 4158 "generation/genr_unary.ml" 116 4114 4159
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_unary.ml" 115 4094 4100 "generation/genr_unary.ml" 115 4094 4101
+)
+"generation/genr_unary.ml" 116 4114 4127 "generation/genr_unary.ml" 116 4114 4159
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_unary.ml" 117 4163 4180 "generation/genr_unary.ml" 117 4163 4181
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_unary.ml" 114 4058 4064 "generation/genr_unary.ml" 114 4058 4065
+)
+"generation/genr_unary.ml" 117 4163 4184 "generation/genr_unary.ml" 117 4163 4185
+type(
+  Code.pattern
+)
+ident(
+  int_ref x "generation/genr_unary.ml" 115 4094 4100 "generation/genr_unary.ml" 115 4094 4101
+)
+"generation/genr_unary.ml" 117 4163 4183 "generation/genr_unary.ml" 117 4163 4186
+type(
+  Code.pattern list
+)
+"generation/genr_unary.ml" 117 4163 4188 "generation/genr_unary.ml" 117 4163 4192
+type(
+  Code.exp
+)
+ident(
+  int_ref body "generation/genr_unary.ml" 116 4114 4120 "generation/genr_unary.ml" 116 4114 4124
+)
+"generation/genr_unary.ml" 117 4163 4166 "generation/genr_unary.ml" 117 4163 4193
+type(
+  Genr_base.generated_function
+)
+"generation/genr_unary.ml" 117 4163 4165 "generation/genr_unary.ml" 117 4163 4194
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_unary.ml" 116 4114 4116 "generation/genr_unary.ml" 117 4163 4194
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_unary.ml" 115 4094 4096 "generation/genr_unary.ml" 117 4163 4194
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_unary.ml" 114 4058 4060 "generation/genr_unary.ml" 117 4163 4194
+type(
+  Genr_base.generated_function list
+)

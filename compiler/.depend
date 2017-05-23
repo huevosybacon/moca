@@ -1,0 +1,507 @@
+ocaml_src/parsing/parsetree.cmi : ocaml_src/parsing/longident.cmi \
+    ocaml_src/parsing/location.cmi ocaml_src/parsing/asttypes.cmi
+ocaml_src/parsing/asttypes.cmi :
+ocaml_src/utils/misc.cmi :
+ocaml_src/utils/tbl.cmi :
+ocaml_src/utils/config.cmi :
+ocaml_src/utils/clflags.cmi :
+ocaml_src/utils/terminfo.cmi :
+ocaml_src/utils/ccomp.cmi :
+ocaml_src/utils/warnings.cmi :
+ocaml_src/utils/consistbl.cmi :
+ocaml_src/parsing/linenum.cmi :
+ocaml_src/parsing/location.cmi : ocaml_src/utils/warnings.cmi
+ocaml_src/parsing/longident.cmi :
+ocaml_src/parsing/syntaxerr.cmi : ocaml_src/parsing/location.cmi
+ocaml_src/parsing/parser.cmi : ocaml_src/parsing/parsetree.cmi
+ocaml_src/parsing/lexer.cmi : ocaml_src/parsing/parser.cmi \
+    ocaml_src/parsing/location.cmi
+ocaml_src/parsing/parse.cmi : ocaml_src/parsing/parsetree.cmi
+ocaml_src/parsing/printast.cmi : ocaml_src/parsing/parsetree.cmi
+lib/configuration.cmi :
+lib/file.cmi : ocaml_src/parsing/parsetree.cmi
+lib/useful.cmi :
+lib/debug.cmi :
+lib/mylist.cmi : lib/useful.cmi
+lib/myset.cmi : lib/useful.cmi
+lib/relation.cmi : ocaml_src/parsing/parsetree.cmi lib/myset.cmi \
+    ocaml_src/parsing/longident.cmi
+lib/otype.cmi : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmi ocaml_src/parsing/location.cmi
+lib/pr_ocaml.cmi : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmi ocaml_src/parsing/asttypes.cmi
+lib/code.cmi : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmi ocaml_src/parsing/asttypes.cmi
+lib/pr_code.cmi : lib/code.cmi
+checking/check.cmi : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmi ocaml_src/parsing/location.cmi \
+    ocaml_src/parsing/asttypes.cmi
+completion/var.cmi :
+completion/symb.cmi :
+completion/term.cmi : completion/var.cmi completion/symb.cmi
+completion/term_utils.cmi : completion/term.cmi \
+    ocaml_src/parsing/parsetree.cmi ocaml_src/parsing/longident.cmi
+completion/subterm.cmi : completion/term.cmi
+completion/order.cmi : completion/term.cmi completion/symb.cmi \
+    ocaml_src/parsing/parsetree.cmi
+completion/prec.cmi : completion/symb.cmi completion/order.cmi
+completion/subs.cmi : completion/var.cmi completion/term.cmi
+completion/match.cmi : completion/term.cmi completion/subs.cmi
+completion/rename.cmi : completion/term.cmi completion/subs.cmi
+completion/unif.cmi : completion/term.cmi completion/subs.cmi
+completion/rule.cmi : lib/useful.cmi completion/term.cmi completion/symb.cmi \
+    lib/myset.cmi
+completion/equation.cmi : lib/useful.cmi completion/term.cmi \
+    completion/order.cmi lib/myset.cmi
+completion/cparser.cmi : completion/term.cmi completion/rule.cmi \
+    completion/equation.cmi
+completion/clexer.cmi : completion/cparser.cmi
+completion/cp.cmi : completion/term.cmi completion/rule.cmi \
+    completion/equation.cmi
+completion/norm.cmi : completion/term.cmi completion/rule.cmi
+completion/norm_ml.cmi : completion/term.cmi completion/rule.cmi
+completion/comp.cmi : lib/useful.cmi completion/term.cmi completion/rule.cmi \
+    completion/order.cmi completion/equation.cmi
+completion/axiom.cmi : completion/symb.cmi completion/equation.cmi
+generation/genr_pattern.cmi : ocaml_src/parsing/parsetree.cmi
+generation/genr_base.cmi : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmi ocaml_src/parsing/location.cmi \
+    lib/code.cmi
+generation/genr_memo.cmi : ocaml_src/parsing/parsetree.cmi lib/otype.cmi \
+    generation/genr_base.cmi
+generation/genr_sharing.cmi : ocaml_src/parsing/parsetree.cmi
+generation/genr_expression.cmi : ocaml_src/parsing/parsetree.cmi \
+    lib/code.cmi
+generation/eqnrel.cmi : completion/term.cmi ocaml_src/parsing/parsetree.cmi \
+    completion/equation.cmi
+generation/complete.cmi : ocaml_src/parsing/parsetree.cmi
+generation/genr_nary.cmi : lib/otype.cmi generation/genr_base.cmi
+generation/genr_listary.cmi : lib/otype.cmi generation/genr_base.cmi
+generation/genr_binary.cmi : lib/otype.cmi generation/genr_base.cmi
+generation/genr_unary.cmi : lib/otype.cmi generation/genr_base.cmi
+generation/genr_nullary.cmi : lib/otype.cmi generation/genr_base.cmi
+generation/genr.cmi : ocaml_src/parsing/parsetree.cmi lib/code.cmi
+generation/genr_mli.cmi : ocaml_src/parsing/parsetree.cmi
+testing/listutils.cmi :
+testing/randomutils.cmi :
+testing/tgenr_base.cmi : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/location.cmi lib/code.cmi
+testing/genr_values.cmi : testing/tgenr_base.cmi \
+    ocaml_src/parsing/parsetree.cmi lib/code.cmi
+testing/typed_vars.cmi : completion/var.cmi completion/term.cmi \
+    ocaml_src/parsing/parsetree.cmi
+testing/genr_listary_equations.cmi : completion/term.cmi \
+    ocaml_src/parsing/parsetree.cmi
+testing/genr_substitutions.cmi : completion/var.cmi \
+    ocaml_src/parsing/parsetree.cmi lib/code.cmi
+testing/genr_equalities.cmi : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/location.cmi lib/code.cmi
+testing/genr_testing.cmi : testing/tgenr_base.cmi \
+    ocaml_src/parsing/parsetree.cmi lib/code.cmi
+driver/main.cmi : ocaml_src/parsing/parsetree.cmi lib/file.cmi lib/code.cmi
+ocaml_src/utils/misc.cmo : ocaml_src/utils/misc.cmi
+ocaml_src/utils/misc.cmx : ocaml_src/utils/misc.cmi
+ocaml_src/utils/tbl.cmo : ocaml_src/utils/tbl.cmi
+ocaml_src/utils/tbl.cmx : ocaml_src/utils/tbl.cmi
+ocaml_src/utils/config.cmo : ocaml_src/utils/config.cmi
+ocaml_src/utils/config.cmx : ocaml_src/utils/config.cmi
+ocaml_src/utils/clflags.cmo : ocaml_src/utils/config.cmi \
+    ocaml_src/utils/clflags.cmi
+ocaml_src/utils/clflags.cmx : ocaml_src/utils/config.cmx \
+    ocaml_src/utils/clflags.cmi
+ocaml_src/utils/terminfo.cmo : ocaml_src/utils/terminfo.cmi
+ocaml_src/utils/terminfo.cmx : ocaml_src/utils/terminfo.cmi
+ocaml_src/utils/ccomp.cmo : ocaml_src/utils/misc.cmi \
+    ocaml_src/utils/config.cmi ocaml_src/utils/clflags.cmi \
+    ocaml_src/utils/ccomp.cmi
+ocaml_src/utils/ccomp.cmx : ocaml_src/utils/misc.cmx \
+    ocaml_src/utils/config.cmx ocaml_src/utils/clflags.cmx \
+    ocaml_src/utils/ccomp.cmi
+ocaml_src/utils/warnings.cmo : ocaml_src/utils/warnings.cmi
+ocaml_src/utils/warnings.cmx : ocaml_src/utils/warnings.cmi
+ocaml_src/utils/consistbl.cmo : ocaml_src/utils/consistbl.cmi
+ocaml_src/utils/consistbl.cmx : ocaml_src/utils/consistbl.cmi
+ocaml_src/parsing/linenum.cmo : ocaml_src/utils/misc.cmi \
+    ocaml_src/parsing/linenum.cmi
+ocaml_src/parsing/linenum.cmx : ocaml_src/utils/misc.cmx \
+    ocaml_src/parsing/linenum.cmi
+ocaml_src/parsing/location.cmo : ocaml_src/utils/warnings.cmi \
+    ocaml_src/utils/terminfo.cmi ocaml_src/parsing/location.cmi
+ocaml_src/parsing/location.cmx : ocaml_src/utils/warnings.cmx \
+    ocaml_src/utils/terminfo.cmx ocaml_src/parsing/location.cmi
+ocaml_src/parsing/longident.cmo : ocaml_src/utils/misc.cmi \
+    ocaml_src/parsing/longident.cmi
+ocaml_src/parsing/longident.cmx : ocaml_src/utils/misc.cmx \
+    ocaml_src/parsing/longident.cmi
+ocaml_src/parsing/syntaxerr.cmo : ocaml_src/parsing/location.cmi \
+    ocaml_src/parsing/syntaxerr.cmi
+ocaml_src/parsing/syntaxerr.cmx : ocaml_src/parsing/location.cmx \
+    ocaml_src/parsing/syntaxerr.cmi
+ocaml_src/parsing/parser.cmo : ocaml_src/parsing/syntaxerr.cmi \
+    ocaml_src/parsing/parsetree.cmi ocaml_src/parsing/longident.cmi \
+    ocaml_src/parsing/location.cmi ocaml_src/utils/clflags.cmi \
+    ocaml_src/parsing/asttypes.cmi ocaml_src/parsing/parser.cmi
+ocaml_src/parsing/parser.cmx : ocaml_src/parsing/syntaxerr.cmx \
+    ocaml_src/parsing/parsetree.cmi ocaml_src/parsing/longident.cmx \
+    ocaml_src/parsing/location.cmx ocaml_src/utils/clflags.cmx \
+    ocaml_src/parsing/asttypes.cmi ocaml_src/parsing/parser.cmi
+ocaml_src/parsing/lexer.cmo : ocaml_src/utils/warnings.cmi \
+    ocaml_src/parsing/parser.cmi ocaml_src/utils/misc.cmi \
+    ocaml_src/parsing/location.cmi ocaml_src/parsing/lexer.cmi
+ocaml_src/parsing/lexer.cmx : ocaml_src/utils/warnings.cmx \
+    ocaml_src/parsing/parser.cmx ocaml_src/utils/misc.cmx \
+    ocaml_src/parsing/location.cmx ocaml_src/parsing/lexer.cmi
+ocaml_src/parsing/parse.cmo : ocaml_src/parsing/syntaxerr.cmi \
+    ocaml_src/parsing/parser.cmi ocaml_src/parsing/location.cmi \
+    ocaml_src/parsing/lexer.cmi ocaml_src/parsing/parse.cmi
+ocaml_src/parsing/parse.cmx : ocaml_src/parsing/syntaxerr.cmx \
+    ocaml_src/parsing/parser.cmx ocaml_src/parsing/location.cmx \
+    ocaml_src/parsing/lexer.cmx ocaml_src/parsing/parse.cmi
+ocaml_src/parsing/printast.cmo : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmi ocaml_src/parsing/location.cmi \
+    ocaml_src/parsing/asttypes.cmi ocaml_src/parsing/printast.cmi
+ocaml_src/parsing/printast.cmx : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmx ocaml_src/parsing/location.cmx \
+    ocaml_src/parsing/asttypes.cmi ocaml_src/parsing/printast.cmi
+lib/configuration.cmo : lib/configuration.cmi
+lib/configuration.cmx : lib/configuration.cmi
+lib/file.cmo : ocaml_src/parsing/parse.cmi lib/file.cmi
+lib/file.cmx : ocaml_src/parsing/parse.cmx lib/file.cmi
+lib/useful.cmo : lib/useful.cmi
+lib/useful.cmx : lib/useful.cmi
+lib/debug.cmo : lib/useful.cmi lib/debug.cmi
+lib/debug.cmx : lib/useful.cmx lib/debug.cmi
+lib/mylist.cmo : lib/mylist.cmi
+lib/mylist.cmx : lib/mylist.cmi
+lib/myset.cmo : lib/useful.cmi lib/myset.cmi
+lib/myset.cmx : lib/useful.cmx lib/myset.cmi
+lib/relation.cmo : ocaml_src/parsing/parsetree.cmi lib/myset.cmi \
+    lib/relation.cmi
+lib/relation.cmx : ocaml_src/parsing/parsetree.cmi lib/myset.cmx \
+    lib/relation.cmi
+lib/otype.cmo : lib/relation.cmi ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmi ocaml_src/parsing/location.cmi \
+    ocaml_src/parsing/asttypes.cmi lib/otype.cmi
+lib/otype.cmx : lib/relation.cmx ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmx ocaml_src/parsing/location.cmx \
+    ocaml_src/parsing/asttypes.cmi lib/otype.cmi
+lib/pr_ocaml.cmo : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmi ocaml_src/parsing/location.cmi \
+    lib/debug.cmi ocaml_src/parsing/asttypes.cmi lib/pr_ocaml.cmi
+lib/pr_ocaml.cmx : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmx ocaml_src/parsing/location.cmx \
+    lib/debug.cmx ocaml_src/parsing/asttypes.cmi lib/pr_ocaml.cmi
+lib/code.cmo : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmi ocaml_src/parsing/asttypes.cmi \
+    lib/code.cmi
+lib/code.cmx : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmx ocaml_src/parsing/asttypes.cmi \
+    lib/code.cmi
+lib/pr_code.cmo : lib/pr_ocaml.cmi ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmi lib/code.cmi \
+    ocaml_src/parsing/asttypes.cmi lib/pr_code.cmi
+lib/pr_code.cmx : lib/pr_ocaml.cmx ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmx lib/code.cmx \
+    ocaml_src/parsing/asttypes.cmi lib/pr_code.cmi
+checking/check.cmo : lib/relation.cmi lib/pr_ocaml.cmi \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmi \
+    ocaml_src/parsing/longident.cmi ocaml_src/parsing/location.cmi \
+    ocaml_src/parsing/asttypes.cmi checking/check.cmi
+checking/check.cmx : lib/relation.cmx lib/pr_ocaml.cmx \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmx \
+    ocaml_src/parsing/longident.cmx ocaml_src/parsing/location.cmx \
+    ocaml_src/parsing/asttypes.cmi checking/check.cmi
+completion/var.cmo : lib/useful.cmi completion/var.cmi
+completion/var.cmx : lib/useful.cmx completion/var.cmi
+completion/symb.cmo : lib/useful.cmi completion/symb.cmi
+completion/symb.cmx : lib/useful.cmx completion/symb.cmi
+completion/term.cmo : completion/var.cmi completion/symb.cmi lib/mylist.cmi \
+    completion/term.cmi
+completion/term.cmx : completion/var.cmx completion/symb.cmx lib/mylist.cmx \
+    completion/term.cmi
+completion/term_utils.cmo : completion/term.cmi completion/symb.cmi \
+    lib/otype.cmi completion/term_utils.cmi
+completion/term_utils.cmx : completion/term.cmx completion/symb.cmx \
+    lib/otype.cmx completion/term_utils.cmi
+completion/subterm.cmo : completion/term.cmi lib/mylist.cmi \
+    completion/subterm.cmi
+completion/subterm.cmx : completion/term.cmx lib/mylist.cmx \
+    completion/subterm.cmi
+completion/order.cmo : completion/term.cmi completion/symb.cmi \
+    ocaml_src/parsing/parsetree.cmi completion/order.cmi
+completion/order.cmx : completion/term.cmx completion/symb.cmx \
+    ocaml_src/parsing/parsetree.cmi completion/order.cmi
+completion/prec.cmo : completion/term.cmi completion/symb.cmi \
+    completion/order.cmi completion/prec.cmi
+completion/prec.cmx : completion/term.cmx completion/symb.cmx \
+    completion/order.cmx completion/prec.cmi
+completion/subs.cmo : completion/var.cmi completion/term.cmi \
+    completion/subs.cmi
+completion/subs.cmx : completion/var.cmx completion/term.cmx \
+    completion/subs.cmi
+completion/match.cmo : lib/useful.cmi completion/term.cmi \
+    completion/subterm.cmi completion/subs.cmi completion/match.cmi
+completion/match.cmx : lib/useful.cmx completion/term.cmx \
+    completion/subterm.cmx completion/subs.cmx completion/match.cmi
+completion/rename.cmo : completion/term.cmi completion/match.cmi \
+    completion/rename.cmi
+completion/rename.cmx : completion/term.cmx completion/match.cmx \
+    completion/rename.cmi
+completion/unif.cmo : completion/term.cmi completion/subs.cmi \
+    completion/unif.cmi
+completion/unif.cmx : completion/term.cmx completion/subs.cmx \
+    completion/unif.cmi
+completion/rule.cmo : completion/term.cmi completion/symb.cmi \
+    completion/subs.cmi completion/rename.cmi lib/myset.cmi lib/mylist.cmi \
+    completion/rule.cmi
+completion/rule.cmx : completion/term.cmx completion/symb.cmx \
+    completion/subs.cmx completion/rename.cmx lib/myset.cmx lib/mylist.cmx \
+    completion/rule.cmi
+completion/equation.cmo : completion/term.cmi completion/order.cmi \
+    lib/myset.cmi lib/mylist.cmi completion/equation.cmi
+completion/equation.cmx : completion/term.cmx completion/order.cmx \
+    lib/myset.cmx lib/mylist.cmx completion/equation.cmi
+completion/cparser.cmo : completion/var.cmi completion/term.cmi \
+    completion/symb.cmi completion/rule.cmi completion/equation.cmi \
+    completion/cparser.cmi
+completion/cparser.cmx : completion/var.cmx completion/term.cmx \
+    completion/symb.cmx completion/rule.cmx completion/equation.cmx \
+    completion/cparser.cmi
+completion/clexer.cmo : completion/cparser.cmi completion/clexer.cmi
+completion/clexer.cmx : completion/cparser.cmx completion/clexer.cmi
+completion/cp.cmo : completion/unif.cmi completion/term.cmi \
+    completion/subterm.cmi completion/subs.cmi completion/rule.cmi \
+    completion/rename.cmi completion/equation.cmi completion/cp.cmi
+completion/cp.cmx : completion/unif.cmx completion/term.cmx \
+    completion/subterm.cmx completion/subs.cmx completion/rule.cmx \
+    completion/rename.cmx completion/equation.cmx completion/cp.cmi
+completion/norm.cmo : lib/useful.cmi completion/subterm.cmi \
+    completion/subs.cmi completion/rule.cmi completion/match.cmi \
+    completion/norm.cmi
+completion/norm.cmx : lib/useful.cmx completion/subterm.cmx \
+    completion/subs.cmx completion/rule.cmx completion/match.cmx \
+    completion/norm.cmi
+completion/norm_ml.cmo : completion/var.cmi completion/term.cmi \
+    completion/symb.cmi completion/rule.cmi completion/cparser.cmi \
+    lib/configuration.cmi completion/clexer.cmi checking/check.cmi \
+    completion/norm_ml.cmi
+completion/norm_ml.cmx : completion/var.cmx completion/term.cmx \
+    completion/symb.cmx completion/rule.cmx completion/cparser.cmx \
+    lib/configuration.cmx completion/clexer.cmx checking/check.cmx \
+    completion/norm_ml.cmi
+completion/comp.cmo : completion/subs.cmi completion/rule.cmi \
+    completion/rename.cmi completion/order.cmi completion/norm_ml.cmi \
+    completion/norm.cmi completion/match.cmi completion/equation.cmi \
+    lib/debug.cmi completion/cp.cmi lib/configuration.cmi completion/comp.cmi
+completion/comp.cmx : completion/subs.cmx completion/rule.cmx \
+    completion/rename.cmx completion/order.cmx completion/norm_ml.cmx \
+    completion/norm.cmx completion/match.cmx completion/equation.cmx \
+    lib/debug.cmx completion/cp.cmx lib/configuration.cmx completion/comp.cmi
+completion/axiom.cmo : completion/term.cmi completion/symb.cmi \
+    completion/equation.cmi completion/axiom.cmi
+completion/axiom.cmx : completion/term.cmx completion/symb.cmx \
+    completion/equation.cmx completion/axiom.cmi
+generation/genr_pattern.cmo : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/location.cmi checking/check.cmi \
+    generation/genr_pattern.cmi
+generation/genr_pattern.cmx : ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/location.cmx checking/check.cmx \
+    generation/genr_pattern.cmi
+generation/genr_base.cmo : lib/relation.cmi ocaml_src/parsing/parsetree.cmi \
+    lib/otype.cmi ocaml_src/parsing/longident.cmi \
+    ocaml_src/parsing/location.cmi generation/genr_pattern.cmi \
+    lib/configuration.cmi lib/code.cmi checking/check.cmi \
+    generation/genr_base.cmi
+generation/genr_base.cmx : lib/relation.cmx ocaml_src/parsing/parsetree.cmi \
+    lib/otype.cmx ocaml_src/parsing/longident.cmx \
+    ocaml_src/parsing/location.cmx generation/genr_pattern.cmx \
+    lib/configuration.cmx lib/code.cmx checking/check.cmx \
+    generation/genr_base.cmi
+generation/genr_memo.cmo : lib/otype.cmi ocaml_src/parsing/longident.cmi \
+    generation/genr_base.cmi lib/code.cmi generation/genr_memo.cmi
+generation/genr_memo.cmx : lib/otype.cmx ocaml_src/parsing/longident.cmx \
+    generation/genr_base.cmx lib/code.cmx generation/genr_memo.cmi
+generation/genr_sharing.cmo : lib/pr_ocaml.cmi lib/pr_code.cmi \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmi \
+    ocaml_src/parsing/longident.cmi generation/genr_base.cmi lib/code.cmi \
+    checking/check.cmi ocaml_src/parsing/asttypes.cmi \
+    generation/genr_sharing.cmi
+generation/genr_sharing.cmx : lib/pr_ocaml.cmx lib/pr_code.cmx \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmx \
+    ocaml_src/parsing/longident.cmx generation/genr_base.cmx lib/code.cmx \
+    checking/check.cmx ocaml_src/parsing/asttypes.cmi \
+    generation/genr_sharing.cmi
+generation/genr_expression.cmo : ocaml_src/parsing/parsetree.cmi \
+    generation/genr_base.cmi lib/code.cmi checking/check.cmi \
+    generation/genr_expression.cmi
+generation/genr_expression.cmx : ocaml_src/parsing/parsetree.cmi \
+    generation/genr_base.cmx lib/code.cmx checking/check.cmx \
+    generation/genr_expression.cmi
+generation/eqnrel.cmo : completion/var.cmi lib/useful.cmi \
+    completion/term_utils.cmi completion/term.cmi completion/symb.cmi \
+    completion/rule.cmi completion/prec.cmi lib/pr_ocaml.cmi \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmi completion/order.cmi \
+    ocaml_src/parsing/longident.cmi ocaml_src/parsing/location.cmi \
+    generation/genr_base.cmi completion/equation.cmi lib/debug.cmi \
+    lib/configuration.cmi completion/comp.cmi lib/code.cmi checking/check.cmi \
+    ocaml_src/parsing/asttypes.cmi generation/eqnrel.cmi
+generation/eqnrel.cmx : completion/var.cmx lib/useful.cmx \
+    completion/term_utils.cmx completion/term.cmx completion/symb.cmx \
+    completion/rule.cmx completion/prec.cmx lib/pr_ocaml.cmx \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmx completion/order.cmx \
+    ocaml_src/parsing/longident.cmx ocaml_src/parsing/location.cmx \
+    generation/genr_base.cmx completion/equation.cmx lib/debug.cmx \
+    lib/configuration.cmx completion/comp.cmx lib/code.cmx checking/check.cmx \
+    ocaml_src/parsing/asttypes.cmi generation/eqnrel.cmi
+generation/complete.cmo : lib/relation.cmi lib/pr_ocaml.cmi \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmi \
+    ocaml_src/parsing/location.cmi generation/genr_base.cmi \
+    lib/configuration.cmi checking/check.cmi generation/complete.cmi
+generation/complete.cmx : lib/relation.cmx lib/pr_ocaml.cmx \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmx \
+    ocaml_src/parsing/location.cmx generation/genr_base.cmx \
+    lib/configuration.cmx checking/check.cmx generation/complete.cmi
+generation/genr_nary.cmo : lib/relation.cmi ocaml_src/parsing/parsetree.cmi \
+    lib/otype.cmi generation/genr_expression.cmi generation/genr_base.cmi \
+    lib/code.cmi checking/check.cmi generation/genr_nary.cmi
+generation/genr_nary.cmx : lib/relation.cmx ocaml_src/parsing/parsetree.cmi \
+    lib/otype.cmx generation/genr_expression.cmx generation/genr_base.cmx \
+    lib/code.cmx checking/check.cmx generation/genr_nary.cmi
+generation/genr_listary.cmo : lib/relation.cmi \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmi \
+    ocaml_src/parsing/longident.cmi generation/genr_expression.cmi \
+    generation/genr_base.cmi lib/debug.cmi lib/code.cmi checking/check.cmi \
+    generation/genr_listary.cmi
+generation/genr_listary.cmx : lib/relation.cmx \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmx \
+    ocaml_src/parsing/longident.cmx generation/genr_expression.cmx \
+    generation/genr_base.cmx lib/debug.cmx lib/code.cmx checking/check.cmx \
+    generation/genr_listary.cmi
+generation/genr_binary.cmo : lib/relation.cmi \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmi \
+    ocaml_src/parsing/longident.cmi generation/genr_expression.cmi \
+    generation/genr_base.cmi lib/debug.cmi lib/code.cmi checking/check.cmi \
+    generation/genr_binary.cmi
+generation/genr_binary.cmx : lib/relation.cmx \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmx \
+    ocaml_src/parsing/longident.cmx generation/genr_expression.cmx \
+    generation/genr_base.cmx lib/debug.cmx lib/code.cmx checking/check.cmx \
+    generation/genr_binary.cmi
+generation/genr_unary.cmo : lib/relation.cmi ocaml_src/parsing/parsetree.cmi \
+    lib/otype.cmi ocaml_src/parsing/longident.cmi \
+    generation/genr_expression.cmi generation/genr_base.cmi lib/code.cmi \
+    checking/check.cmi generation/genr_unary.cmi
+generation/genr_unary.cmx : lib/relation.cmx ocaml_src/parsing/parsetree.cmi \
+    lib/otype.cmx ocaml_src/parsing/longident.cmx \
+    generation/genr_expression.cmx generation/genr_base.cmx lib/code.cmx \
+    checking/check.cmx generation/genr_unary.cmi
+generation/genr_nullary.cmo : lib/relation.cmi \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmi generation/genr_base.cmi \
+    lib/code.cmi generation/genr_nullary.cmi
+generation/genr_nullary.cmx : lib/relation.cmx \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmx generation/genr_base.cmx \
+    lib/code.cmx generation/genr_nullary.cmi
+generation/genr.cmo : lib/relation.cmi lib/pr_ocaml.cmi \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmi \
+    ocaml_src/parsing/longident.cmi generation/genr_unary.cmi \
+    generation/genr_nullary.cmi generation/genr_nary.cmi \
+    generation/genr_memo.cmi generation/genr_listary.cmi \
+    generation/genr_binary.cmi generation/genr_base.cmi \
+    completion/equation.cmi generation/eqnrel.cmi lib/configuration.cmi \
+    generation/complete.cmi lib/code.cmi checking/check.cmi \
+    ocaml_src/parsing/asttypes.cmi generation/genr.cmi
+generation/genr.cmx : lib/relation.cmx lib/pr_ocaml.cmx \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmx \
+    ocaml_src/parsing/longident.cmx generation/genr_unary.cmx \
+    generation/genr_nullary.cmx generation/genr_nary.cmx \
+    generation/genr_memo.cmx generation/genr_listary.cmx \
+    generation/genr_binary.cmx generation/genr_base.cmx \
+    completion/equation.cmx generation/eqnrel.cmx lib/configuration.cmx \
+    generation/complete.cmx lib/code.cmx checking/check.cmx \
+    ocaml_src/parsing/asttypes.cmi generation/genr.cmi
+generation/genr_mli.cmo : lib/pr_ocaml.cmi ocaml_src/parsing/parsetree.cmi \
+    lib/otype.cmi generation/genr_sharing.cmi generation/genr_base.cmi \
+    ocaml_src/parsing/asttypes.cmi generation/genr_mli.cmi
+generation/genr_mli.cmx : lib/pr_ocaml.cmx ocaml_src/parsing/parsetree.cmi \
+    lib/otype.cmx generation/genr_sharing.cmx generation/genr_base.cmx \
+    ocaml_src/parsing/asttypes.cmi generation/genr_mli.cmi
+testing/listutils.cmo : testing/listutils.cmi
+testing/listutils.cmx : testing/listutils.cmi
+testing/randomutils.cmo : testing/listutils.cmi testing/randomutils.cmi
+testing/randomutils.cmx : testing/listutils.cmx testing/randomutils.cmi
+testing/tgenr_base.cmo : testing/randomutils.cmi \
+    ocaml_src/parsing/parsetree.cmi ocaml_src/parsing/longident.cmi \
+    ocaml_src/parsing/location.cmi testing/listutils.cmi \
+    generation/genr_base.cmi lib/code.cmi checking/check.cmi \
+    ocaml_src/parsing/asttypes.cmi testing/tgenr_base.cmi
+testing/tgenr_base.cmx : testing/randomutils.cmx \
+    ocaml_src/parsing/parsetree.cmi ocaml_src/parsing/longident.cmx \
+    ocaml_src/parsing/location.cmx testing/listutils.cmx \
+    generation/genr_base.cmx lib/code.cmx checking/check.cmx \
+    ocaml_src/parsing/asttypes.cmi testing/tgenr_base.cmi
+testing/genr_values.cmo : testing/tgenr_base.cmi testing/randomutils.cmi \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmi \
+    ocaml_src/parsing/longident.cmi testing/listutils.cmi checking/check.cmi \
+    testing/genr_values.cmi
+testing/genr_values.cmx : testing/tgenr_base.cmx testing/randomutils.cmx \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmx \
+    ocaml_src/parsing/longident.cmx testing/listutils.cmx checking/check.cmx \
+    testing/genr_values.cmi
+testing/typed_vars.cmo : completion/term.cmi completion/symb.cmi \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmi \
+    ocaml_src/parsing/longident.cmi ocaml_src/parsing/location.cmi \
+    testing/listutils.cmi checking/check.cmi testing/typed_vars.cmi
+testing/typed_vars.cmx : completion/term.cmx completion/symb.cmx \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmx \
+    ocaml_src/parsing/longident.cmx ocaml_src/parsing/location.cmx \
+    testing/listutils.cmx checking/check.cmx testing/typed_vars.cmi
+testing/genr_listary_equations.cmo : completion/term_utils.cmi \
+    completion/term.cmi completion/symb.cmi ocaml_src/parsing/parsetree.cmi \
+    lib/otype.cmi testing/listutils.cmi generation/eqnrel.cmi \
+    checking/check.cmi testing/genr_listary_equations.cmi
+testing/genr_listary_equations.cmx : completion/term_utils.cmx \
+    completion/term.cmx completion/symb.cmx ocaml_src/parsing/parsetree.cmi \
+    lib/otype.cmx testing/listutils.cmx generation/eqnrel.cmx \
+    checking/check.cmx testing/genr_listary_equations.cmi
+testing/genr_substitutions.cmo : lib/otype.cmi testing/listutils.cmi \
+    testing/genr_substitutions.cmi
+testing/genr_substitutions.cmx : lib/otype.cmx testing/listutils.cmx \
+    testing/genr_substitutions.cmi
+testing/genr_equalities.cmo : completion/var.cmi testing/typed_vars.cmi \
+    testing/tgenr_base.cmi completion/term.cmi completion/symb.cmi \
+    lib/pr_ocaml.cmi lib/pr_code.cmi ocaml_src/parsing/longident.cmi \
+    testing/listutils.cmi testing/genr_substitutions.cmi \
+    testing/genr_listary_equations.cmi completion/equation.cmi \
+    generation/eqnrel.cmi lib/code.cmi checking/check.cmi \
+    testing/genr_equalities.cmi
+testing/genr_equalities.cmx : completion/var.cmx testing/typed_vars.cmx \
+    testing/tgenr_base.cmx completion/term.cmx completion/symb.cmx \
+    lib/pr_ocaml.cmx lib/pr_code.cmx ocaml_src/parsing/longident.cmx \
+    testing/listutils.cmx testing/genr_substitutions.cmx \
+    testing/genr_listary_equations.cmx completion/equation.cmx \
+    generation/eqnrel.cmx lib/code.cmx checking/check.cmx \
+    testing/genr_equalities.cmi
+testing/genr_testing.cmo : testing/tgenr_base.cmi lib/relation.cmi \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmi \
+    ocaml_src/parsing/longident.cmi testing/listutils.cmi \
+    testing/genr_values.cmi testing/genr_equalities.cmi lib/code.cmi \
+    ocaml_src/parsing/asttypes.cmi testing/genr_testing.cmi
+testing/genr_testing.cmx : testing/tgenr_base.cmx lib/relation.cmx \
+    ocaml_src/parsing/parsetree.cmi lib/otype.cmx \
+    ocaml_src/parsing/longident.cmx testing/listutils.cmx \
+    testing/genr_values.cmx testing/genr_equalities.cmx lib/code.cmx \
+    ocaml_src/parsing/asttypes.cmi testing/genr_testing.cmi
+driver/main.cmo : ocaml_src/parsing/syntaxerr.cmi lib/pr_ocaml.cmi \
+    lib/pr_code.cmi ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmi ocaml_src/parsing/location.cmi \
+    testing/genr_testing.cmi generation/genr_sharing.cmi \
+    generation/genr_mli.cmi generation/genr_memo.cmi generation/genr_base.cmi \
+    generation/genr.cmi lib/file.cmi generation/eqnrel.cmi lib/debug.cmi \
+    lib/configuration.cmi lib/code.cmi checking/check.cmi driver/main.cmi
+driver/main.cmx : ocaml_src/parsing/syntaxerr.cmx lib/pr_ocaml.cmx \
+    lib/pr_code.cmx ocaml_src/parsing/parsetree.cmi \
+    ocaml_src/parsing/longident.cmx ocaml_src/parsing/location.cmx \
+    testing/genr_testing.cmx generation/genr_sharing.cmx \
+    generation/genr_mli.cmx generation/genr_memo.cmx generation/genr_base.cmx \
+    generation/genr.cmx lib/file.cmx generation/eqnrel.cmx lib/debug.cmx \
+    lib/configuration.cmx lib/code.cmx checking/check.cmx driver/main.cmi

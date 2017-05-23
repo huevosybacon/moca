@@ -1,0 +1,1086 @@
+"lib/myset.ml" 34 1490 1503 "lib/myset.ml" 34 1490 1515
+call(
+  stack
+)
+"lib/myset.ml" 40 1553 1557 "lib/myset.ml" 40 1553 1560
+type(
+  (M.elt -> M.elt) -> M.t -> M.t
+)
+ident(
+  def map "lib/myset.ml" 45 1704 1704 "lib/myset.ml" 95 3015 3018
+)
+"lib/myset.ml" 40 1553 1561 "lib/myset.ml" 40 1553 1562
+type(
+  M.elt -> M.elt
+)
+ident(
+  def f "lib/myset.ml" 40 1553 1563 "lib/myset.ml" 40 1553 1614
+)
+"lib/myset.ml" 40 1553 1563 "lib/myset.ml" 40 1553 1565
+type(
+  M.t
+)
+ident(
+  def xs "lib/myset.ml" 40 1553 1568 "lib/myset.ml" 40 1553 1614
+)
+"lib/myset.ml" 40 1553 1568 "lib/myset.ml" 40 1553 1574
+type(
+  (M.elt -> M.t -> M.t) -> M.t -> M.t -> M.t
+)
+ident(
+  ext_ref M.fold
+)
+"lib/myset.ml" 40 1553 1580 "lib/myset.ml" 40 1553 1581
+type(
+  M.elt
+)
+ident(
+  def x "lib/myset.ml" 40 1553 1582 "lib/myset.ml" 40 1553 1602
+)
+"lib/myset.ml" 40 1553 1582 "lib/myset.ml" 40 1553 1584
+type(
+  M.t
+)
+ident(
+  def xs "lib/myset.ml" 40 1553 1588 "lib/myset.ml" 40 1553 1602
+)
+"lib/myset.ml" 40 1553 1588 "lib/myset.ml" 40 1553 1593
+type(
+  M.elt -> M.t -> M.t
+)
+ident(
+  ext_ref M.add
+)
+"lib/myset.ml" 40 1553 1595 "lib/myset.ml" 40 1553 1596
+type(
+  M.elt -> M.elt
+)
+ident(
+  int_ref f "lib/myset.ml" 40 1553 1561 "lib/myset.ml" 40 1553 1562
+)
+"lib/myset.ml" 40 1553 1597 "lib/myset.ml" 40 1553 1598
+type(
+  M.elt
+)
+ident(
+  int_ref x "lib/myset.ml" 40 1553 1580 "lib/myset.ml" 40 1553 1581
+)
+"lib/myset.ml" 40 1553 1594 "lib/myset.ml" 40 1553 1599
+call(
+  stack
+)
+type(
+  M.elt
+)
+"lib/myset.ml" 40 1553 1600 "lib/myset.ml" 40 1553 1602
+type(
+  M.t
+)
+ident(
+  int_ref xs "lib/myset.ml" 40 1553 1582 "lib/myset.ml" 40 1553 1584
+)
+"lib/myset.ml" 40 1553 1588 "lib/myset.ml" 40 1553 1602
+call(
+  tail
+)
+type(
+  M.t
+)
+"lib/myset.ml" 40 1553 1575 "lib/myset.ml" 40 1553 1603
+type(
+  M.elt -> M.t -> M.t
+)
+"lib/myset.ml" 40 1553 1604 "lib/myset.ml" 40 1553 1606
+type(
+  M.t
+)
+ident(
+  int_ref xs "lib/myset.ml" 40 1553 1563 "lib/myset.ml" 40 1553 1565
+)
+"lib/myset.ml" 40 1553 1607 "lib/myset.ml" 40 1553 1614
+type(
+  M.t
+)
+ident(
+  ext_ref M.empty
+)
+"lib/myset.ml" 40 1553 1568 "lib/myset.ml" 40 1553 1614
+call(
+  tail
+)
+type(
+  M.t
+)
+"lib/myset.ml" 45 1704 1708 "lib/myset.ml" 45 1704 1718
+type(
+  (M.elt -> M.elt option) -> M.t -> M.t
+)
+ident(
+  def map_filter "lib/myset.ml" 56 1966 1966 "lib/myset.ml" 95 3015 3018
+)
+"lib/myset.ml" 45 1704 1719 "lib/myset.ml" 45 1704 1720
+type(
+  M.elt -> M.elt option
+)
+ident(
+  def f "lib/myset.ml" 45 1704 1721 "lib/myset.ml" 52 1887 1913
+)
+"lib/myset.ml" 45 1704 1721 "lib/myset.ml" 45 1704 1723
+type(
+  M.t
+)
+ident(
+  def xs "lib/myset.ml" 46 1726 1728 "lib/myset.ml" 52 1887 1913
+)
+"lib/myset.ml" 46 1726 1732 "lib/myset.ml" 46 1726 1733
+type(
+  M.elt -> bool * M.t -> bool * M.t
+)
+ident(
+  def g "lib/myset.ml" 50 1821 1826 "lib/myset.ml" 52 1887 1913
+)
+"lib/myset.ml" 46 1726 1734 "lib/myset.ml" 46 1726 1735
+type(
+  M.elt
+)
+ident(
+  def x "lib/myset.ml" 46 1726 1736 "lib/myset.ml" 49 1799 1820
+)
+"lib/myset.ml" 46 1726 1737 "lib/myset.ml" 46 1726 1738
+type(
+  bool
+)
+ident(
+  def b "lib/myset.ml" 47 1745 1749 "lib/myset.ml" 49 1799 1820
+)
+"lib/myset.ml" 46 1726 1739 "lib/myset.ml" 46 1726 1741
+type(
+  M.t
+)
+ident(
+  def xs "lib/myset.ml" 47 1745 1749 "lib/myset.ml" 49 1799 1820
+)
+"lib/myset.ml" 46 1726 1736 "lib/myset.ml" 46 1726 1742
+type(
+  bool * M.t
+)
+"lib/myset.ml" 47 1745 1755 "lib/myset.ml" 47 1745 1756
+type(
+  M.elt -> M.elt option
+)
+ident(
+  int_ref f "lib/myset.ml" 45 1704 1719 "lib/myset.ml" 45 1704 1720
+)
+"lib/myset.ml" 47 1745 1757 "lib/myset.ml" 47 1745 1758
+type(
+  M.elt
+)
+ident(
+  int_ref x "lib/myset.ml" 46 1726 1734 "lib/myset.ml" 46 1726 1735
+)
+"lib/myset.ml" 47 1745 1755 "lib/myset.ml" 47 1745 1758
+call(
+  stack
+)
+type(
+  M.elt option
+)
+"lib/myset.ml" 48 1764 1777 "lib/myset.ml" 48 1764 1778
+type(
+  M.elt
+)
+ident(
+  def y "lib/myset.ml" 48 1764 1782 "lib/myset.ml" 48 1764 1798
+)
+"lib/myset.ml" 48 1764 1772 "lib/myset.ml" 48 1764 1778
+type(
+  M.elt option
+)
+"lib/myset.ml" 48 1764 1782 "lib/myset.ml" 48 1764 1786
+type(
+  bool
+)
+"lib/myset.ml" 48 1764 1788 "lib/myset.ml" 48 1764 1793
+type(
+  M.elt -> M.t -> M.t
+)
+ident(
+  ext_ref M.add
+)
+"lib/myset.ml" 48 1764 1794 "lib/myset.ml" 48 1764 1795
+type(
+  M.elt
+)
+ident(
+  int_ref y "lib/myset.ml" 48 1764 1777 "lib/myset.ml" 48 1764 1778
+)
+"lib/myset.ml" 48 1764 1796 "lib/myset.ml" 48 1764 1798
+type(
+  M.t
+)
+ident(
+  int_ref xs "lib/myset.ml" 46 1726 1739 "lib/myset.ml" 46 1726 1741
+)
+"lib/myset.ml" 48 1764 1788 "lib/myset.ml" 48 1764 1798
+call(
+  stack
+)
+type(
+  M.t
+)
+"lib/myset.ml" 48 1764 1782 "lib/myset.ml" 48 1764 1798
+type(
+  bool * M.t
+)
+"lib/myset.ml" 49 1799 1807 "lib/myset.ml" 49 1799 1811
+type(
+  M.elt option
+)
+"lib/myset.ml" 49 1799 1815 "lib/myset.ml" 49 1799 1816
+type(
+  bool
+)
+ident(
+  int_ref b "lib/myset.ml" 46 1726 1737 "lib/myset.ml" 46 1726 1738
+)
+"lib/myset.ml" 49 1799 1818 "lib/myset.ml" 49 1799 1820
+type(
+  M.t
+)
+ident(
+  int_ref xs "lib/myset.ml" 46 1726 1739 "lib/myset.ml" 46 1726 1741
+)
+"lib/myset.ml" 49 1799 1815 "lib/myset.ml" 49 1799 1820
+type(
+  bool * M.t
+)
+"lib/myset.ml" 47 1745 1749 "lib/myset.ml" 49 1799 1820
+type(
+  bool * M.t
+)
+"lib/myset.ml" 50 1821 1832 "lib/myset.ml" 50 1821 1838
+type(
+  (M.elt -> bool * M.t -> bool * M.t) -> M.t -> bool * M.t -> bool * M.t
+)
+ident(
+  ext_ref M.fold
+)
+"lib/myset.ml" 50 1821 1839 "lib/myset.ml" 50 1821 1840
+type(
+  M.elt -> bool * M.t -> bool * M.t
+)
+ident(
+  int_ref g "lib/myset.ml" 46 1726 1732 "lib/myset.ml" 46 1726 1733
+)
+"lib/myset.ml" 50 1821 1841 "lib/myset.ml" 50 1821 1843
+type(
+  M.t
+)
+ident(
+  int_ref xs "lib/myset.ml" 45 1704 1721 "lib/myset.ml" 45 1704 1723
+)
+"lib/myset.ml" 50 1821 1845 "lib/myset.ml" 50 1821 1850
+type(
+  bool
+)
+"lib/myset.ml" 50 1821 1852 "lib/myset.ml" 50 1821 1859
+type(
+  M.t
+)
+ident(
+  ext_ref M.empty
+)
+"lib/myset.ml" 50 1821 1844 "lib/myset.ml" 50 1821 1860
+type(
+  bool * M.t
+)
+"lib/myset.ml" 50 1821 1832 "lib/myset.ml" 50 1821 1860
+call(
+  stack
+)
+type(
+  bool * M.t
+)
+"lib/myset.ml" 51 1866 1872 "lib/myset.ml" 51 1866 1876
+type(
+  bool
+)
+"lib/myset.ml" 51 1866 1878 "lib/myset.ml" 51 1866 1880
+type(
+  M.t
+)
+ident(
+  def xs "lib/myset.ml" 51 1866 1884 "lib/myset.ml" 51 1866 1886
+)
+"lib/myset.ml" 51 1866 1872 "lib/myset.ml" 51 1866 1880
+type(
+  bool * M.t
+)
+"lib/myset.ml" 51 1866 1884 "lib/myset.ml" 51 1866 1886
+type(
+  M.t
+)
+ident(
+  int_ref xs "lib/myset.ml" 51 1866 1878 "lib/myset.ml" 51 1866 1880
+)
+"lib/myset.ml" 52 1887 1893 "lib/myset.ml" 52 1887 1894
+type(
+  bool * M.t
+)
+"lib/myset.ml" 52 1887 1898 "lib/myset.ml" 52 1887 1903
+type(
+  exn -> M.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lib/myset.ml" 52 1887 1904 "lib/myset.ml" 52 1887 1913
+type(
+  exn
+)
+"lib/myset.ml" 52 1887 1898 "lib/myset.ml" 52 1887 1913
+type(
+  M.t
+)
+"lib/myset.ml" 50 1821 1826 "lib/myset.ml" 52 1887 1913
+type(
+  M.t
+)
+"lib/myset.ml" 46 1726 1728 "lib/myset.ml" 52 1887 1913
+type(
+  M.t
+)
+"lib/myset.ml" 56 1966 1970 "lib/myset.ml" 56 1966 1978
+type(
+  (M.elt -> 'a option) -> M.t -> 'a option
+)
+ident(
+  def find_opt "lib/myset.ml" 62 2128 2128 "lib/myset.ml" 95 3015 3018
+)
+"lib/myset.ml" 56 1966 1979 "lib/myset.ml" 56 1966 1980
+type(
+  M.elt -> 'a option
+)
+ident(
+  def p "lib/myset.ml" 57 1983 1985 "lib/myset.ml" 58 2028 2058
+)
+"lib/myset.ml" 57 1983 1989 "lib/myset.ml" 57 1983 1990
+type(
+  M.elt -> 'a option -> 'a option
+)
+ident(
+  def f "lib/myset.ml" 58 2028 2032 "lib/myset.ml" 58 2028 2058
+)
+"lib/myset.ml" 57 1983 1991 "lib/myset.ml" 57 1983 1992
+type(
+  M.elt
+)
+ident(
+  def x "lib/myset.ml" 57 1983 1995 "lib/myset.ml" 57 1983 2024
+)
+"lib/myset.ml" 57 1983 2004 "lib/myset.ml" 57 1983 2008
+type(
+  'a option
+)
+"lib/myset.ml" 57 1983 2012 "lib/myset.ml" 57 1983 2013
+type(
+  M.elt -> 'a option
+)
+ident(
+  int_ref p "lib/myset.ml" 56 1966 1979 "lib/myset.ml" 56 1966 1980
+)
+"lib/myset.ml" 57 1983 2014 "lib/myset.ml" 57 1983 2015
+type(
+  M.elt
+)
+ident(
+  int_ref x "lib/myset.ml" 57 1983 1991 "lib/myset.ml" 57 1983 1992
+)
+"lib/myset.ml" 57 1983 2012 "lib/myset.ml" 57 1983 2015
+call(
+  tail
+)
+type(
+  'a option
+)
+"lib/myset.ml" 57 1983 2018 "lib/myset.ml" 57 1983 2019
+type(
+  'a option
+)
+ident(
+  def o "lib/myset.ml" 57 1983 2023 "lib/myset.ml" 57 1983 2024
+)
+"lib/myset.ml" 57 1983 2023 "lib/myset.ml" 57 1983 2024
+type(
+  'a option
+)
+ident(
+  int_ref o "lib/myset.ml" 57 1983 2018 "lib/myset.ml" 57 1983 2019
+)
+"lib/myset.ml" 57 1983 1995 "lib/myset.ml" 57 1983 2024
+type(
+  'a option -> 'a option
+)
+"lib/myset.ml" 58 2028 2036 "lib/myset.ml" 58 2028 2038
+type(
+  M.t
+)
+ident(
+  def xs "lib/myset.ml" 58 2028 2042 "lib/myset.ml" 58 2028 2058
+)
+"lib/myset.ml" 58 2028 2042 "lib/myset.ml" 58 2028 2048
+type(
+  (M.elt -> 'a option -> 'a option) -> M.t -> 'a option -> 'a option
+)
+ident(
+  ext_ref M.fold
+)
+"lib/myset.ml" 58 2028 2049 "lib/myset.ml" 58 2028 2050
+type(
+  M.elt -> 'a option -> 'a option
+)
+ident(
+  int_ref f "lib/myset.ml" 57 1983 1989 "lib/myset.ml" 57 1983 1990
+)
+"lib/myset.ml" 58 2028 2051 "lib/myset.ml" 58 2028 2053
+type(
+  M.t
+)
+ident(
+  int_ref xs "lib/myset.ml" 58 2028 2036 "lib/myset.ml" 58 2028 2038
+)
+"lib/myset.ml" 58 2028 2054 "lib/myset.ml" 58 2028 2058
+type(
+  'a option
+)
+"lib/myset.ml" 58 2028 2042 "lib/myset.ml" 58 2028 2058
+call(
+  tail
+)
+type(
+  'a option
+)
+"lib/myset.ml" 58 2028 2032 "lib/myset.ml" 58 2028 2058
+type(
+  M.t -> 'a option
+)
+"lib/myset.ml" 57 1983 1985 "lib/myset.ml" 58 2028 2058
+type(
+  M.t -> 'a option
+)
+"lib/myset.ml" 62 2128 2132 "lib/myset.ml" 62 2128 2136
+type(
+  (M.elt -> bool) -> M.t -> M.elt
+)
+ident(
+  def find "lib/myset.ml" 78 2499 2499 "lib/myset.ml" 95 3015 3018
+)
+"lib/myset.ml" 62 2128 2137 "lib/myset.ml" 62 2128 2138
+type(
+  M.elt -> bool
+)
+ident(
+  def p "lib/myset.ml" 63 2141 2143 "lib/myset.ml" 66 2244 2272
+)
+"lib/myset.ml" 63 2141 2147 "lib/myset.ml" 63 2141 2148
+type(
+  M.elt -> M.elt option
+)
+ident(
+  def q "lib/myset.ml" 64 2185 2189 "lib/myset.ml" 66 2244 2272
+)
+"lib/myset.ml" 63 2141 2149 "lib/myset.ml" 63 2141 2150
+type(
+  M.elt
+)
+ident(
+  def x "lib/myset.ml" 63 2141 2153 "lib/myset.ml" 63 2141 2181
+)
+"lib/myset.ml" 63 2141 2156 "lib/myset.ml" 63 2141 2157
+type(
+  M.elt -> bool
+)
+ident(
+  int_ref p "lib/myset.ml" 62 2128 2137 "lib/myset.ml" 62 2128 2138
+)
+"lib/myset.ml" 63 2141 2158 "lib/myset.ml" 63 2141 2159
+type(
+  M.elt
+)
+ident(
+  int_ref x "lib/myset.ml" 63 2141 2149 "lib/myset.ml" 63 2141 2150
+)
+"lib/myset.ml" 63 2141 2156 "lib/myset.ml" 63 2141 2159
+call(
+  stack
+)
+type(
+  bool
+)
+"lib/myset.ml" 63 2141 2170 "lib/myset.ml" 63 2141 2171
+type(
+  M.elt
+)
+ident(
+  int_ref x "lib/myset.ml" 63 2141 2149 "lib/myset.ml" 63 2141 2150
+)
+"lib/myset.ml" 63 2141 2165 "lib/myset.ml" 63 2141 2171
+type(
+  M.elt option
+)
+"lib/myset.ml" 63 2141 2177 "lib/myset.ml" 63 2141 2181
+type(
+  M.elt option
+)
+"lib/myset.ml" 63 2141 2153 "lib/myset.ml" 63 2141 2181
+type(
+  M.elt option
+)
+"lib/myset.ml" 64 2185 2193 "lib/myset.ml" 64 2185 2195
+type(
+  M.t
+)
+ident(
+  def xs "lib/myset.ml" 64 2185 2199 "lib/myset.ml" 66 2244 2272
+)
+"lib/myset.ml" 64 2185 2205 "lib/myset.ml" 64 2185 2213
+type(
+  (M.elt -> M.elt option) -> M.t -> M.elt option
+)
+ident(
+  int_ref find_opt "lib/myset.ml" 56 1966 1970 "lib/myset.ml" 56 1966 1978
+)
+"lib/myset.ml" 64 2185 2214 "lib/myset.ml" 64 2185 2215
+type(
+  M.elt -> M.elt option
+)
+ident(
+  int_ref q "lib/myset.ml" 63 2141 2147 "lib/myset.ml" 63 2141 2148
+)
+"lib/myset.ml" 64 2185 2216 "lib/myset.ml" 64 2185 2218
+type(
+  M.t
+)
+ident(
+  int_ref xs "lib/myset.ml" 64 2185 2193 "lib/myset.ml" 64 2185 2195
+)
+"lib/myset.ml" 64 2185 2205 "lib/myset.ml" 64 2185 2218
+call(
+  stack
+)
+type(
+  M.elt option
+)
+"lib/myset.ml" 65 2224 2237 "lib/myset.ml" 65 2224 2238
+type(
+  M.elt
+)
+ident(
+  def x "lib/myset.ml" 65 2224 2242 "lib/myset.ml" 65 2224 2243
+)
+"lib/myset.ml" 65 2224 2232 "lib/myset.ml" 65 2224 2238
+type(
+  M.elt option
+)
+"lib/myset.ml" 65 2224 2242 "lib/myset.ml" 65 2224 2243
+type(
+  M.elt
+)
+ident(
+  int_ref x "lib/myset.ml" 65 2224 2237 "lib/myset.ml" 65 2224 2238
+)
+"lib/myset.ml" 66 2244 2252 "lib/myset.ml" 66 2244 2253
+type(
+  M.elt option
+)
+"lib/myset.ml" 66 2244 2257 "lib/myset.ml" 66 2244 2262
+type(
+  exn -> M.elt
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lib/myset.ml" 66 2244 2263 "lib/myset.ml" 66 2244 2272
+type(
+  exn
+)
+"lib/myset.ml" 66 2244 2257 "lib/myset.ml" 66 2244 2272
+type(
+  M.elt
+)
+"lib/myset.ml" 64 2185 2199 "lib/myset.ml" 66 2244 2272
+type(
+  M.elt
+)
+"lib/myset.ml" 64 2185 2189 "lib/myset.ml" 66 2244 2272
+type(
+  M.t -> M.elt
+)
+"lib/myset.ml" 63 2141 2143 "lib/myset.ml" 66 2244 2272
+type(
+  M.t -> M.elt
+)
+"lib/myset.ml" 78 2499 2503 "lib/myset.ml" 78 2499 2510
+type(
+  M.elt list -> M.t
+)
+ident(
+  def of_list "lib/myset.ml" 79 2563 2563 "lib/myset.ml" 95 3015 3018
+)
+"lib/myset.ml" 78 2499 2513 "lib/myset.ml" 78 2499 2527
+type(
+  (M.t -> M.elt -> M.t) -> M.t -> M.elt list -> M.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"lib/myset.ml" 78 2499 2533 "lib/myset.ml" 78 2499 2535
+type(
+  M.t
+)
+ident(
+  def xs "lib/myset.ml" 78 2499 2536 "lib/myset.ml" 78 2499 2551
+)
+"lib/myset.ml" 78 2499 2536 "lib/myset.ml" 78 2499 2537
+type(
+  M.elt
+)
+ident(
+  def x "lib/myset.ml" 78 2499 2541 "lib/myset.ml" 78 2499 2551
+)
+"lib/myset.ml" 78 2499 2541 "lib/myset.ml" 78 2499 2546
+type(
+  M.elt -> M.t -> M.t
+)
+ident(
+  ext_ref M.add
+)
+"lib/myset.ml" 78 2499 2547 "lib/myset.ml" 78 2499 2548
+type(
+  M.elt
+)
+ident(
+  int_ref x "lib/myset.ml" 78 2499 2536 "lib/myset.ml" 78 2499 2537
+)
+"lib/myset.ml" 78 2499 2549 "lib/myset.ml" 78 2499 2551
+type(
+  M.t
+)
+ident(
+  int_ref xs "lib/myset.ml" 78 2499 2533 "lib/myset.ml" 78 2499 2535
+)
+"lib/myset.ml" 78 2499 2541 "lib/myset.ml" 78 2499 2551
+call(
+  tail
+)
+type(
+  M.t
+)
+"lib/myset.ml" 78 2499 2528 "lib/myset.ml" 78 2499 2552
+type(
+  M.t -> M.elt -> M.t
+)
+"lib/myset.ml" 78 2499 2553 "lib/myset.ml" 78 2499 2560
+type(
+  M.t
+)
+ident(
+  ext_ref M.empty
+)
+"lib/myset.ml" 78 2499 2513 "lib/myset.ml" 78 2499 2560
+call(
+  stack
+)
+type(
+  M.elt list -> M.t
+)
+"lib/myset.ml" 79 2563 2567 "lib/myset.ml" 79 2563 2578
+type(
+  ('b -> M.elt) -> 'b list -> M.t
+)
+ident(
+  def of_list_map "lib/myset.ml" 83 2671 2671 "lib/myset.ml" 95 3015 3018
+)
+"lib/myset.ml" 79 2563 2579 "lib/myset.ml" 79 2563 2580
+type(
+  'b -> M.elt
+)
+ident(
+  def f "lib/myset.ml" 79 2563 2583 "lib/myset.ml" 79 2563 2634
+)
+"lib/myset.ml" 79 2563 2583 "lib/myset.ml" 79 2563 2597
+type(
+  (M.t -> 'b -> M.t) -> M.t -> 'b list -> M.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"lib/myset.ml" 79 2563 2603 "lib/myset.ml" 79 2563 2605
+type(
+  M.t
+)
+ident(
+  def xs "lib/myset.ml" 79 2563 2606 "lib/myset.ml" 79 2563 2625
+)
+"lib/myset.ml" 79 2563 2606 "lib/myset.ml" 79 2563 2607
+type(
+  'b
+)
+ident(
+  def x "lib/myset.ml" 79 2563 2611 "lib/myset.ml" 79 2563 2625
+)
+"lib/myset.ml" 79 2563 2611 "lib/myset.ml" 79 2563 2616
+type(
+  M.elt -> M.t -> M.t
+)
+ident(
+  ext_ref M.add
+)
+"lib/myset.ml" 79 2563 2618 "lib/myset.ml" 79 2563 2619
+type(
+  'b -> M.elt
+)
+ident(
+  int_ref f "lib/myset.ml" 79 2563 2579 "lib/myset.ml" 79 2563 2580
+)
+"lib/myset.ml" 79 2563 2620 "lib/myset.ml" 79 2563 2621
+type(
+  'b
+)
+ident(
+  int_ref x "lib/myset.ml" 79 2563 2606 "lib/myset.ml" 79 2563 2607
+)
+"lib/myset.ml" 79 2563 2617 "lib/myset.ml" 79 2563 2622
+call(
+  stack
+)
+type(
+  M.elt
+)
+"lib/myset.ml" 79 2563 2623 "lib/myset.ml" 79 2563 2625
+type(
+  M.t
+)
+ident(
+  int_ref xs "lib/myset.ml" 79 2563 2603 "lib/myset.ml" 79 2563 2605
+)
+"lib/myset.ml" 79 2563 2611 "lib/myset.ml" 79 2563 2625
+call(
+  tail
+)
+type(
+  M.t
+)
+"lib/myset.ml" 79 2563 2598 "lib/myset.ml" 79 2563 2626
+type(
+  M.t -> 'b -> M.t
+)
+"lib/myset.ml" 79 2563 2627 "lib/myset.ml" 79 2563 2634
+type(
+  M.t
+)
+ident(
+  ext_ref M.empty
+)
+"lib/myset.ml" 79 2563 2583 "lib/myset.ml" 79 2563 2634
+call(
+  tail
+)
+type(
+  'b list -> M.t
+)
+"lib/myset.ml" 83 2671 2675 "lib/myset.ml" 83 2671 2686
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  def fprintf_elt "lib/myset.ml" 84 2728 2728 "lib/myset.ml" 95 3015 3018
+)
+"lib/myset.ml" 83 2671 2687 "lib/myset.ml" 83 2671 2688
+type(
+  Format.formatter
+)
+ident(
+  def b "lib/myset.ml" 83 2671 2691 "lib/myset.ml" 83 2671 2725
+)
+"lib/myset.ml" 83 2671 2691 "lib/myset.ml" 83 2671 2705
+type(
+  Format.formatter ->
+  (X.t Useful.fprintf -> X.t -> unit, Format.formatter, unit) format ->
+  X.t Useful.fprintf -> X.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lib/myset.ml" 83 2671 2706 "lib/myset.ml" 83 2671 2707
+type(
+  Format.formatter
+)
+ident(
+  int_ref b "lib/myset.ml" 83 2671 2687 "lib/myset.ml" 83 2671 2688
+)
+"lib/myset.ml" 83 2671 2708 "lib/myset.ml" 83 2671 2715
+type(
+  (X.t Useful.fprintf -> X.t -> unit, Format.formatter, unit) format
+)
+"lib/myset.ml" 83 2671 2716 "lib/myset.ml" 83 2671 2725
+type(
+  X.t Useful.fprintf
+)
+ident(
+  ext_ref X.fprintf
+)
+"lib/myset.ml" 83 2671 2691 "lib/myset.ml" 83 2671 2725
+call(
+  tail
+)
+type(
+  X.t -> unit
+)
+"lib/myset.ml" 84 2728 2732 "lib/myset.ml" 84 2728 2743
+type(
+  Format.formatter -> M.t -> unit
+)
+ident(
+  def fprintf_set "lib/myset.ml" 85 2773 2773 "lib/myset.ml" 95 3015 3018
+)
+"lib/myset.ml" 84 2728 2744 "lib/myset.ml" 84 2728 2745
+type(
+  Format.formatter
+)
+ident(
+  def b "lib/myset.ml" 84 2728 2748 "lib/myset.ml" 84 2728 2770
+)
+"lib/myset.ml" 84 2728 2748 "lib/myset.ml" 84 2728 2754
+type(
+  (M.elt -> unit) -> M.t -> unit
+)
+ident(
+  ext_ref M.iter
+)
+"lib/myset.ml" 84 2728 2756 "lib/myset.ml" 84 2728 2767
+type(
+  Format.formatter -> M.elt -> unit
+)
+ident(
+  int_ref fprintf_elt "lib/myset.ml" 83 2671 2675 "lib/myset.ml" 83 2671 2686
+)
+"lib/myset.ml" 84 2728 2768 "lib/myset.ml" 84 2728 2769
+type(
+  Format.formatter
+)
+ident(
+  int_ref b "lib/myset.ml" 84 2728 2744 "lib/myset.ml" 84 2728 2745
+)
+"lib/myset.ml" 84 2728 2755 "lib/myset.ml" 84 2728 2770
+call(
+  stack
+)
+type(
+  M.elt -> unit
+)
+"lib/myset.ml" 84 2728 2748 "lib/myset.ml" 84 2728 2770
+call(
+  tail
+)
+type(
+  M.t -> unit
+)
+"lib/myset.ml" 85 2773 2777 "lib/myset.ml" 85 2773 2784
+type(
+  Format.formatter -> M.t -> unit
+)
+ident(
+  def fprintf "lib/myset.ml" 89 2888 2888 "lib/myset.ml" 95 3015 3018
+)
+"lib/myset.ml" 85 2773 2785 "lib/myset.ml" 85 2773 2786
+type(
+  Format.formatter
+)
+ident(
+  def b "lib/myset.ml" 85 2773 2789 "lib/myset.ml" 85 2773 2824
+)
+"lib/myset.ml" 85 2773 2789 "lib/myset.ml" 85 2773 2803
+type(
+  Format.formatter ->
+  ((Format.formatter -> M.t -> unit) -> M.t -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> M.t -> unit) -> M.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lib/myset.ml" 85 2773 2804 "lib/myset.ml" 85 2773 2805
+type(
+  Format.formatter
+)
+ident(
+  int_ref b "lib/myset.ml" 85 2773 2785 "lib/myset.ml" 85 2773 2786
+)
+"lib/myset.ml" 85 2773 2806 "lib/myset.ml" 85 2773 2812
+type(
+  ((Format.formatter -> M.t -> unit) -> M.t -> unit, Format.formatter, unit)
+  format
+)
+"lib/myset.ml" 85 2773 2813 "lib/myset.ml" 85 2773 2824
+type(
+  Format.formatter -> M.t -> unit
+)
+ident(
+  int_ref fprintf_set "lib/myset.ml" 84 2728 2732 "lib/myset.ml" 84 2728 2743
+)
+"lib/myset.ml" 85 2773 2789 "lib/myset.ml" 85 2773 2824
+call(
+  tail
+)
+type(
+  M.t -> unit
+)
+"lib/myset.ml" 89 2888 2892 "lib/myset.ml" 89 2888 2901
+type(
+  ('c -> M.t) -> 'c list -> M.t
+)
+ident(
+  def union_map "lib/myset.ml" 93 2995 3011 "lib/myset.ml" 95 3015 3018
+)
+"lib/myset.ml" 89 2888 2902 "lib/myset.ml" 89 2888 2903
+type(
+  'c -> M.t
+)
+ident(
+  def f "lib/myset.ml" 90 2906 2908 "lib/myset.ml" 93 2995 3011
+)
+"lib/myset.ml" 90 2906 2916 "lib/myset.ml" 90 2906 2919
+type(
+  M.t -> 'c list -> M.t
+)
+ident(
+  def aux "lib/myset.ml" 90 2906 2908 "lib/myset.ml" 93 2995 3011
+)
+"lib/myset.ml" 90 2906 2920 "lib/myset.ml" 90 2906 2923
+type(
+  M.t
+)
+ident(
+  def acc "lib/myset.ml" 90 2906 2926 "lib/myset.ml" 92 2951 2994
+)
+"lib/myset.ml" 91 2935 2941 "lib/myset.ml" 91 2935 2943
+type(
+  'c list
+)
+"lib/myset.ml" 91 2935 2947 "lib/myset.ml" 91 2935 2950
+type(
+  M.t
+)
+ident(
+  int_ref acc "lib/myset.ml" 90 2906 2920 "lib/myset.ml" 90 2906 2923
+)
+"lib/myset.ml" 92 2951 2957 "lib/myset.ml" 92 2951 2958
+type(
+  'c
+)
+ident(
+  def x "lib/myset.ml" 92 2951 2968 "lib/myset.ml" 92 2951 2994
+)
+"lib/myset.ml" 92 2951 2962 "lib/myset.ml" 92 2951 2964
+type(
+  'c list
+)
+ident(
+  def xs "lib/myset.ml" 92 2951 2968 "lib/myset.ml" 92 2951 2994
+)
+"lib/myset.ml" 92 2951 2957 "lib/myset.ml" 92 2951 2964
+type(
+  'c list
+)
+"lib/myset.ml" 92 2951 2968 "lib/myset.ml" 92 2951 2971
+type(
+  M.t -> 'c list -> M.t
+)
+ident(
+  int_ref aux "lib/myset.ml" 90 2906 2916 "lib/myset.ml" 90 2906 2919
+)
+"lib/myset.ml" 92 2951 2973 "lib/myset.ml" 92 2951 2980
+type(
+  M.t -> M.t -> M.t
+)
+ident(
+  ext_ref M.union
+)
+"lib/myset.ml" 92 2951 2982 "lib/myset.ml" 92 2951 2983
+type(
+  'c -> M.t
+)
+ident(
+  int_ref f "lib/myset.ml" 89 2888 2902 "lib/myset.ml" 89 2888 2903
+)
+"lib/myset.ml" 92 2951 2984 "lib/myset.ml" 92 2951 2985
+type(
+  'c
+)
+ident(
+  int_ref x "lib/myset.ml" 92 2951 2957 "lib/myset.ml" 92 2951 2958
+)
+"lib/myset.ml" 92 2951 2981 "lib/myset.ml" 92 2951 2986
+call(
+  stack
+)
+type(
+  M.t
+)
+"lib/myset.ml" 92 2951 2987 "lib/myset.ml" 92 2951 2990
+type(
+  M.t
+)
+ident(
+  int_ref acc "lib/myset.ml" 90 2906 2920 "lib/myset.ml" 90 2906 2923
+)
+"lib/myset.ml" 92 2951 2972 "lib/myset.ml" 92 2951 2991
+call(
+  stack
+)
+type(
+  M.t
+)
+"lib/myset.ml" 92 2951 2992 "lib/myset.ml" 92 2951 2994
+type(
+  'c list
+)
+ident(
+  int_ref xs "lib/myset.ml" 92 2951 2962 "lib/myset.ml" 92 2951 2964
+)
+"lib/myset.ml" 92 2951 2968 "lib/myset.ml" 92 2951 2994
+call(
+  tail
+)
+type(
+  M.t
+)
+"lib/myset.ml" 90 2906 2926 "lib/myset.ml" 92 2951 2994
+type(
+  'c list -> M.t
+)
+"lib/myset.ml" 93 2995 3000 "lib/myset.ml" 93 2995 3003
+type(
+  M.t -> 'c list -> M.t
+)
+ident(
+  int_ref aux "lib/myset.ml" 90 2906 2916 "lib/myset.ml" 90 2906 2919
+)
+"lib/myset.ml" 93 2995 3004 "lib/myset.ml" 93 2995 3011
+type(
+  M.t
+)
+ident(
+  ext_ref M.empty
+)
+"lib/myset.ml" 93 2995 3000 "lib/myset.ml" 93 2995 3011
+call(
+  tail
+)
+type(
+  'c list -> M.t
+)
+"lib/myset.ml" 90 2906 2908 "lib/myset.ml" 93 2995 3011
+type(
+  'c list -> M.t
+)

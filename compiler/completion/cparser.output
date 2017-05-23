@@ -1,0 +1,392 @@
+   0  $accept : %entry% $end
+
+   1  equations :
+   2            | equation
+   3            | equation SEMI_COLON equations
+
+   4  equation : top_term EQ top_term
+
+   5  rules :
+   6        | rule
+   7        | rule SEMI_COLON rules
+
+   8  rule : top_term ARROW top_term
+
+   9  top_term : term
+  10           | FNAME terms
+
+  11  term : name
+  12       | LPAR FNAME terms RPAR
+
+  13  name : VNAME
+  14       | FNAME
+
+  15  terms : term
+  16        | term terms
+
+  17  %entry% : '\001' term
+  18          | '\002' top_term
+  19          | '\003' rule
+  20          | '\004' rules
+  21          | '\005' equation
+  22          | '\006' equations
+
+state 0
+	$accept : . %entry% $end  (0)
+
+	'\001'  shift 1
+	'\002'  shift 2
+	'\003'  shift 3
+	'\004'  shift 4
+	'\005'  shift 5
+	'\006'  shift 6
+	.  error
+
+	%entry%  goto 7
+
+
+state 1
+	%entry% : '\001' . term  (17)
+
+	LPAR  shift 8
+	VNAME  shift 9
+	FNAME  shift 10
+	.  error
+
+	term  goto 11
+	name  goto 12
+
+
+state 2
+	%entry% : '\002' . top_term  (18)
+
+	LPAR  shift 8
+	VNAME  shift 9
+	FNAME  shift 13
+	.  error
+
+	term  goto 14
+	top_term  goto 15
+	name  goto 12
+
+
+state 3
+	%entry% : '\003' . rule  (19)
+
+	LPAR  shift 8
+	VNAME  shift 9
+	FNAME  shift 13
+	.  error
+
+	term  goto 14
+	top_term  goto 16
+	rule  goto 17
+	name  goto 12
+
+
+state 4
+	%entry% : '\004' . rules  (20)
+	rules : .  (5)
+
+	LPAR  shift 8
+	VNAME  shift 9
+	FNAME  shift 13
+	$end  reduce 5
+
+	term  goto 14
+	top_term  goto 16
+	rule  goto 18
+	rules  goto 19
+	name  goto 12
+
+
+state 5
+	%entry% : '\005' . equation  (21)
+
+	LPAR  shift 8
+	VNAME  shift 9
+	FNAME  shift 13
+	.  error
+
+	term  goto 14
+	top_term  goto 20
+	equation  goto 21
+	name  goto 12
+
+
+state 6
+	%entry% : '\006' . equations  (22)
+	equations : .  (1)
+
+	LPAR  shift 8
+	VNAME  shift 9
+	FNAME  shift 13
+	$end  reduce 1
+
+	term  goto 14
+	top_term  goto 20
+	equation  goto 22
+	equations  goto 23
+	name  goto 12
+
+
+state 7
+	$accept : %entry% . $end  (0)
+
+	$end  accept
+
+
+state 8
+	term : LPAR . FNAME terms RPAR  (12)
+
+	FNAME  shift 24
+	.  error
+
+
+state 9
+	name : VNAME .  (13)
+
+	.  reduce 13
+
+
+state 10
+	name : FNAME .  (14)
+
+	.  reduce 14
+
+
+state 11
+	%entry% : '\001' term .  (17)
+
+	.  reduce 17
+
+
+state 12
+	term : name .  (11)
+
+	.  reduce 11
+
+
+state 13
+	top_term : FNAME . terms  (10)
+	name : FNAME .  (14)
+
+	LPAR  shift 8
+	VNAME  shift 9
+	FNAME  shift 10
+	$end  reduce 14
+	ARROW  reduce 14
+	EQ  reduce 14
+	SEMI_COLON  reduce 14
+
+	term  goto 25
+	terms  goto 26
+	name  goto 12
+
+
+state 14
+	top_term : term .  (9)
+
+	.  reduce 9
+
+
+state 15
+	%entry% : '\002' top_term .  (18)
+
+	.  reduce 18
+
+
+state 16
+	rule : top_term . ARROW top_term  (8)
+
+	ARROW  shift 27
+	.  error
+
+
+state 17
+	%entry% : '\003' rule .  (19)
+
+	.  reduce 19
+
+
+state 18
+	rules : rule .  (6)
+	rules : rule . SEMI_COLON rules  (7)
+
+	SEMI_COLON  shift 28
+	$end  reduce 6
+
+
+state 19
+	%entry% : '\004' rules .  (20)
+
+	.  reduce 20
+
+
+state 20
+	equation : top_term . EQ top_term  (4)
+
+	EQ  shift 29
+	.  error
+
+
+state 21
+	%entry% : '\005' equation .  (21)
+
+	.  reduce 21
+
+
+state 22
+	equations : equation .  (2)
+	equations : equation . SEMI_COLON equations  (3)
+
+	SEMI_COLON  shift 30
+	$end  reduce 2
+
+
+state 23
+	%entry% : '\006' equations .  (22)
+
+	.  reduce 22
+
+
+state 24
+	term : LPAR FNAME . terms RPAR  (12)
+
+	LPAR  shift 8
+	VNAME  shift 9
+	FNAME  shift 10
+	.  error
+
+	term  goto 25
+	terms  goto 31
+	name  goto 12
+
+
+state 25
+	terms : term .  (15)
+	terms : term . terms  (16)
+
+	LPAR  shift 8
+	VNAME  shift 9
+	FNAME  shift 10
+	$end  reduce 15
+	RPAR  reduce 15
+	ARROW  reduce 15
+	EQ  reduce 15
+	SEMI_COLON  reduce 15
+
+	term  goto 25
+	terms  goto 32
+	name  goto 12
+
+
+state 26
+	top_term : FNAME terms .  (10)
+
+	.  reduce 10
+
+
+state 27
+	rule : top_term ARROW . top_term  (8)
+
+	LPAR  shift 8
+	VNAME  shift 9
+	FNAME  shift 13
+	.  error
+
+	term  goto 14
+	top_term  goto 33
+	name  goto 12
+
+
+state 28
+	rules : rule SEMI_COLON . rules  (7)
+	rules : .  (5)
+
+	LPAR  shift 8
+	VNAME  shift 9
+	FNAME  shift 13
+	$end  reduce 5
+
+	term  goto 14
+	top_term  goto 16
+	rule  goto 18
+	rules  goto 34
+	name  goto 12
+
+
+state 29
+	equation : top_term EQ . top_term  (4)
+
+	LPAR  shift 8
+	VNAME  shift 9
+	FNAME  shift 13
+	.  error
+
+	term  goto 14
+	top_term  goto 35
+	name  goto 12
+
+
+state 30
+	equations : equation SEMI_COLON . equations  (3)
+	equations : .  (1)
+
+	LPAR  shift 8
+	VNAME  shift 9
+	FNAME  shift 13
+	$end  reduce 1
+
+	term  goto 14
+	top_term  goto 20
+	equation  goto 22
+	equations  goto 36
+	name  goto 12
+
+
+state 31
+	term : LPAR FNAME terms . RPAR  (12)
+
+	RPAR  shift 37
+	.  error
+
+
+state 32
+	terms : term terms .  (16)
+
+	.  reduce 16
+
+
+state 33
+	rule : top_term ARROW top_term .  (8)
+
+	.  reduce 8
+
+
+state 34
+	rules : rule SEMI_COLON rules .  (7)
+
+	.  reduce 7
+
+
+state 35
+	equation : top_term EQ top_term .  (4)
+
+	.  reduce 4
+
+
+state 36
+	equations : equation SEMI_COLON equations .  (3)
+
+	.  reduce 3
+
+
+state 37
+	term : LPAR FNAME terms RPAR .  (12)
+
+	.  reduce 12
+
+
+17 terminals, 10 nonterminals
+23 grammar rules, 38 states

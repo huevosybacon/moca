@@ -1,0 +1,3003 @@
+"lib/code.ml" 99 3070 3074 "lib/code.ml" 99 3070 3083
+type(
+  (lident * exp list * exp) list -> structure_item
+)
+ident(
+  def topletrec "lib/code.ml" 103 3157 3157 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 99 3070 3084 "lib/code.ml" 99 3070 3087
+type(
+  (lident * exp list * exp) list
+)
+ident(
+  def def "lib/code.ml" 99 3070 3090 "lib/code.ml" 99 3070 3117
+)
+"lib/code.ml" 99 3070 3102 "lib/code.ml" 99 3070 3111
+type(
+  Asttypes.rec_flag
+)
+"lib/code.ml" 99 3070 3113 "lib/code.ml" 99 3070 3116
+type(
+  (lident * exp list * exp) list
+)
+ident(
+  int_ref def "lib/code.ml" 99 3070 3084 "lib/code.ml" 99 3070 3087
+)
+"lib/code.ml" 99 3070 3090 "lib/code.ml" 99 3070 3117
+type(
+  structure_item
+)
+"lib/code.ml" 103 3157 3165 "lib/code.ml" 103 3157 3181
+type(
+  string -> Longident.t -> Longident.t
+)
+ident(
+  def prefix_longident "lib/code.ml" 103 3157 3157 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 103 3157 3182 "lib/code.ml" 103 3157 3183
+type(
+  string
+)
+ident(
+  def s "lib/code.ml" 103 3157 3186 "lib/code.ml" 106 3273 3346
+)
+"lib/code.ml" 104 3195 3206 "lib/code.ml" 104 3195 3208
+type(
+  string
+)
+ident(
+  def id "lib/code.ml" 104 3195 3212 "lib/code.ml" 104 3195 3227
+)
+"lib/code.ml" 104 3195 3199 "lib/code.ml" 104 3195 3208
+type(
+  Longident.t
+)
+"lib/code.ml" 104 3195 3220 "lib/code.ml" 104 3195 3221
+type(
+  string
+)
+ident(
+  int_ref s "lib/code.ml" 103 3157 3182 "lib/code.ml" 103 3157 3183
+)
+"lib/code.ml" 104 3195 3222 "lib/code.ml" 104 3195 3223
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"lib/code.ml" 104 3195 3224 "lib/code.ml" 104 3195 3226
+type(
+  string
+)
+ident(
+  int_ref id "lib/code.ml" 104 3195 3206 "lib/code.ml" 104 3195 3208
+)
+"lib/code.ml" 104 3195 3219 "lib/code.ml" 104 3195 3227
+call(
+  stack
+)
+type(
+  string
+)
+"lib/code.ml" 104 3195 3212 "lib/code.ml" 104 3195 3227
+type(
+  Longident.t
+)
+"lib/code.ml" 105 3228 3238 "lib/code.ml" 105 3228 3243
+type(
+  Longident.t
+)
+ident(
+  def modid "lib/code.ml" 105 3228 3252 "lib/code.ml" 105 3228 3272
+)
+"lib/code.ml" 105 3228 3245 "lib/code.ml" 105 3228 3247
+type(
+  string
+)
+ident(
+  def id "lib/code.ml" 105 3228 3252 "lib/code.ml" 105 3228 3272
+)
+"lib/code.ml" 105 3228 3232 "lib/code.ml" 105 3228 3248
+type(
+  Longident.t
+)
+"lib/code.ml" 105 3228 3258 "lib/code.ml" 105 3228 3263
+type(
+  Longident.t
+)
+ident(
+  int_ref modid "lib/code.ml" 105 3228 3238 "lib/code.ml" 105 3228 3243
+)
+"lib/code.ml" 105 3228 3265 "lib/code.ml" 105 3228 3266
+type(
+  string
+)
+ident(
+  int_ref s "lib/code.ml" 103 3157 3182 "lib/code.ml" 103 3157 3183
+)
+"lib/code.ml" 105 3228 3267 "lib/code.ml" 105 3228 3268
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"lib/code.ml" 105 3228 3269 "lib/code.ml" 105 3228 3271
+type(
+  string
+)
+ident(
+  int_ref id "lib/code.ml" 105 3228 3245 "lib/code.ml" 105 3228 3247
+)
+"lib/code.ml" 105 3228 3265 "lib/code.ml" 105 3228 3271
+call(
+  stack
+)
+type(
+  string
+)
+"lib/code.ml" 105 3228 3252 "lib/code.ml" 105 3228 3272
+type(
+  Longident.t
+)
+"lib/code.ml" 106 3273 3285 "lib/code.ml" 106 3273 3291
+type(
+  Longident.t
+)
+ident(
+  def modid1 "lib/code.ml" 106 3273 3304 "lib/code.ml" 106 3273 3346
+)
+"lib/code.ml" 106 3273 3293 "lib/code.ml" 106 3273 3299
+type(
+  Longident.t
+)
+ident(
+  def modid2 "lib/code.ml" 106 3273 3304 "lib/code.ml" 106 3273 3346
+)
+"lib/code.ml" 106 3273 3277 "lib/code.ml" 106 3273 3300
+type(
+  Longident.t
+)
+"lib/code.ml" 106 3273 3312 "lib/code.ml" 106 3273 3318
+type(
+  Longident.t
+)
+ident(
+  int_ref modid1 "lib/code.ml" 106 3273 3285 "lib/code.ml" 106 3273 3291
+)
+"lib/code.ml" 106 3273 3320 "lib/code.ml" 106 3273 3336
+type(
+  string -> Longident.t -> Longident.t
+)
+ident(
+  int_ref prefix_longident "lib/code.ml" 103 3157 3165 "lib/code.ml" 103 3157 3181
+)
+"lib/code.ml" 106 3273 3337 "lib/code.ml" 106 3273 3338
+type(
+  string
+)
+ident(
+  int_ref s "lib/code.ml" 103 3157 3182 "lib/code.ml" 103 3157 3183
+)
+"lib/code.ml" 106 3273 3339 "lib/code.ml" 106 3273 3345
+type(
+  Longident.t
+)
+ident(
+  int_ref modid2 "lib/code.ml" 106 3273 3293 "lib/code.ml" 106 3273 3299
+)
+"lib/code.ml" 106 3273 3320 "lib/code.ml" 106 3273 3345
+call(
+  stack
+)
+type(
+  Longident.t
+)
+"lib/code.ml" 106 3273 3304 "lib/code.ml" 106 3273 3346
+type(
+  Longident.t
+)
+"lib/code.ml" 103 3157 3186 "lib/code.ml" 106 3273 3346
+type(
+  Longident.t -> Longident.t
+)
+"lib/code.ml" 111 3391 3395 "lib/code.ml" 111 3391 3408
+type(
+  string -> exp
+)
+ident(
+  def make_Constant "lib/code.ml" 114 3437 3437 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 111 3391 3409 "lib/code.ml" 111 3391 3410
+type(
+  string
+)
+ident(
+  def s "lib/code.ml" 111 3391 3413 "lib/code.ml" 111 3391 3432
+)
+"lib/code.ml" 111 3391 3430 "lib/code.ml" 111 3391 3431
+type(
+  string
+)
+ident(
+  int_ref s "lib/code.ml" 111 3391 3409 "lib/code.ml" 111 3391 3410
+)
+"lib/code.ml" 111 3391 3422 "lib/code.ml" 111 3391 3432
+type(
+  ident
+)
+"lib/code.ml" 111 3391 3413 "lib/code.ml" 111 3391 3432
+type(
+  exp
+)
+"lib/code.ml" 114 3437 3441 "lib/code.ml" 114 3437 3451
+type(
+  exp
+)
+ident(
+  def underscore "lib/code.ml" 117 3475 3475 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 114 3437 3466 "lib/code.ml" 114 3437 3469
+type(
+  string
+)
+"lib/code.ml" 114 3437 3458 "lib/code.ml" 114 3437 3470
+type(
+  lident
+)
+"lib/code.ml" 114 3437 3454 "lib/code.ml" 114 3437 3470
+type(
+  exp
+)
+"lib/code.ml" 117 3475 3479 "lib/code.ml" 117 3475 3487
+type(
+  string -> exp
+)
+ident(
+  def make_Var "lib/code.ml" 120 3523 3523 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 117 3475 3488 "lib/code.ml" 117 3475 3489
+type(
+  string
+)
+ident(
+  def s "lib/code.ml" 117 3475 3492 "lib/code.ml" 117 3475 3518
+)
+"lib/code.ml" 117 3475 3505 "lib/code.ml" 117 3475 3512
+type(
+  string
+)
+"lib/code.ml" 117 3475 3513 "lib/code.ml" 117 3475 3514
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"lib/code.ml" 117 3475 3515 "lib/code.ml" 117 3475 3516
+type(
+  string
+)
+ident(
+  int_ref s "lib/code.ml" 117 3475 3488 "lib/code.ml" 117 3475 3489
+)
+"lib/code.ml" 117 3475 3504 "lib/code.ml" 117 3475 3517
+call(
+  stack
+)
+type(
+  string
+)
+"lib/code.ml" 117 3475 3496 "lib/code.ml" 117 3475 3518
+type(
+  lident
+)
+"lib/code.ml" 117 3475 3492 "lib/code.ml" 117 3475 3518
+type(
+  exp
+)
+"lib/code.ml" 120 3523 3527 "lib/code.ml" 120 3523 3528
+type(
+  exp
+)
+ident(
+  def x "lib/code.ml" 127 3632 3632 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 120 3523 3531 "lib/code.ml" 120 3523 3539
+type(
+  string -> exp
+)
+ident(
+  int_ref make_Var "lib/code.ml" 117 3475 3479 "lib/code.ml" 117 3475 3487
+)
+"lib/code.ml" 120 3523 3540 "lib/code.ml" 120 3523 3543
+type(
+  string
+)
+"lib/code.ml" 120 3523 3531 "lib/code.ml" 120 3523 3543
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 121 3544 3548 "lib/code.ml" 121 3544 3549
+type(
+  exp
+)
+ident(
+  def y "lib/code.ml" 127 3632 3632 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 121 3544 3552 "lib/code.ml" 121 3544 3560
+type(
+  string -> exp
+)
+ident(
+  int_ref make_Var "lib/code.ml" 117 3475 3479 "lib/code.ml" 117 3475 3487
+)
+"lib/code.ml" 121 3544 3561 "lib/code.ml" 121 3544 3564
+type(
+  string
+)
+"lib/code.ml" 121 3544 3552 "lib/code.ml" 121 3544 3564
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 122 3565 3569 "lib/code.ml" 122 3565 3570
+type(
+  exp
+)
+ident(
+  def z "lib/code.ml" 127 3632 3632 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 122 3565 3573 "lib/code.ml" 122 3565 3581
+type(
+  string -> exp
+)
+ident(
+  int_ref make_Var "lib/code.ml" 117 3475 3479 "lib/code.ml" 117 3475 3487
+)
+"lib/code.ml" 122 3565 3582 "lib/code.ml" 122 3565 3585
+type(
+  string
+)
+"lib/code.ml" 122 3565 3573 "lib/code.ml" 122 3565 3585
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 123 3586 3590 "lib/code.ml" 123 3586 3591
+type(
+  exp
+)
+ident(
+  def t "lib/code.ml" 127 3632 3632 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 123 3586 3594 "lib/code.ml" 123 3586 3602
+type(
+  string -> exp
+)
+ident(
+  int_ref make_Var "lib/code.ml" 117 3475 3479 "lib/code.ml" 117 3475 3487
+)
+"lib/code.ml" 123 3586 3603 "lib/code.ml" 123 3586 3606
+type(
+  string
+)
+"lib/code.ml" 123 3586 3594 "lib/code.ml" 123 3586 3606
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 124 3607 3611 "lib/code.ml" 124 3607 3612
+type(
+  exp
+)
+ident(
+  def u "lib/code.ml" 127 3632 3632 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 124 3607 3615 "lib/code.ml" 124 3607 3623
+type(
+  string -> exp
+)
+ident(
+  int_ref make_Var "lib/code.ml" 117 3475 3479 "lib/code.ml" 117 3475 3487
+)
+"lib/code.ml" 124 3607 3624 "lib/code.ml" 124 3607 3627
+type(
+  string
+)
+"lib/code.ml" 124 3607 3615 "lib/code.ml" 124 3607 3627
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 127 3632 3636 "lib/code.ml" 127 3632 3638
+type(
+  exp
+)
+ident(
+  def xs "lib/code.ml" 132 3721 3721 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 127 3632 3641 "lib/code.ml" 127 3632 3649
+type(
+  string -> exp
+)
+ident(
+  int_ref make_Var "lib/code.ml" 117 3475 3479 "lib/code.ml" 117 3475 3487
+)
+"lib/code.ml" 127 3632 3650 "lib/code.ml" 127 3632 3654
+type(
+  string
+)
+"lib/code.ml" 127 3632 3641 "lib/code.ml" 127 3632 3654
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 132 3721 3729 "lib/code.ml" 132 3721 3754
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  def underscored_ocaml_pattern "lib/code.ml" 132 3721 3721 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 132 3721 3755 "lib/code.ml" 132 3721 3756
+type(
+  Parsetree.pattern
+)
+ident(
+  def p "lib/code.ml" 133 3759 3761 "lib/code.ml" 133 3759 3821
+)
+"lib/code.ml" 133 3759 3763 "lib/code.ml" 133 3759 3764
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "lib/code.ml" 132 3721 3755 "lib/code.ml" 132 3721 3756
+)
+"lib/code.ml" 133 3759 3782 "lib/code.ml" 133 3759 3807
+type(
+  Parsetree.pattern_desc -> Parsetree.pattern_desc
+)
+ident(
+  int_ref underscored_ocaml_patdesc "lib/code.ml" 139 3935 3939 "lib/code.ml" 139 3935 3964
+)
+"lib/code.ml" 133 3759 3808 "lib/code.ml" 133 3759 3809
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "lib/code.ml" 132 3721 3755 "lib/code.ml" 132 3721 3756
+)
+"lib/code.ml" 133 3759 3808 "lib/code.ml" 133 3759 3819
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 133 3759 3782 "lib/code.ml" 133 3759 3819
+call(
+  stack
+)
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 133 3759 3761 "lib/code.ml" 133 3759 3821
+type(
+  Parsetree.pattern
+)
+"lib/code.ml" 135 3823 3827 "lib/code.ml" 135 3823 3856
+type(
+  Parsetree.pattern option -> Parsetree.pattern option
+)
+ident(
+  def underscored_ocaml_pattern_opt "lib/code.ml" 132 3721 3721 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 136 3868 3872 "lib/code.ml" 136 3868 3876
+type(
+  Parsetree.pattern option
+)
+"lib/code.ml" 136 3868 3880 "lib/code.ml" 136 3868 3884
+type(
+  Parsetree.pattern option
+)
+"lib/code.ml" 137 3885 3894 "lib/code.ml" 137 3885 3895
+type(
+  Parsetree.pattern
+)
+ident(
+  def p "lib/code.ml" 137 3885 3899 "lib/code.ml" 137 3885 3933
+)
+"lib/code.ml" 137 3885 3889 "lib/code.ml" 137 3885 3895
+type(
+  Parsetree.pattern option
+)
+"lib/code.ml" 137 3885 3905 "lib/code.ml" 137 3885 3930
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref underscored_ocaml_pattern "lib/code.ml" 132 3721 3729 "lib/code.ml" 132 3721 3754
+)
+"lib/code.ml" 137 3885 3931 "lib/code.ml" 137 3885 3932
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "lib/code.ml" 137 3885 3894 "lib/code.ml" 137 3885 3895
+)
+"lib/code.ml" 137 3885 3904 "lib/code.ml" 137 3885 3933
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"lib/code.ml" 137 3885 3899 "lib/code.ml" 137 3885 3933
+type(
+  Parsetree.pattern option
+)
+"lib/code.ml" 135 3823 3859 "lib/code.ml" 137 3885 3933
+type(
+  Parsetree.pattern option -> Parsetree.pattern option
+)
+"lib/code.ml" 139 3935 3939 "lib/code.ml" 139 3935 3964
+type(
+  Parsetree.pattern_desc -> Parsetree.pattern_desc
+)
+ident(
+  def underscored_ocaml_patdesc "lib/code.ml" 132 3721 3721 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 140 3976 3989 "lib/code.ml" 140 3976 3990
+type(
+  string
+)
+"lib/code.ml" 140 3976 3980 "lib/code.ml" 140 3976 3990
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 140 3976 3994 "lib/code.ml" 140 3976 4002
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 141 4003 4019 "lib/code.ml" 141 4003 4020
+type(
+  Parsetree.pattern
+)
+ident(
+  def p "lib/code.ml" 142 4028 4034 "lib/code.ml" 142 4028 4075
+)
+"lib/code.ml" 141 4003 4022 "lib/code.ml" 141 4003 4023
+type(
+  string
+)
+"lib/code.ml" 141 4003 4007 "lib/code.ml" 141 4003 4024
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 142 4028 4047 "lib/code.ml" 142 4028 4072
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref underscored_ocaml_pattern "lib/code.ml" 132 3721 3729 "lib/code.ml" 132 3721 3754
+)
+"lib/code.ml" 142 4028 4073 "lib/code.ml" 142 4028 4074
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "lib/code.ml" 141 4003 4019 "lib/code.ml" 141 4003 4020
+)
+"lib/code.ml" 142 4028 4046 "lib/code.ml" 142 4028 4075
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"lib/code.ml" 142 4028 4034 "lib/code.ml" 142 4028 4075
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 143 4076 4091 "lib/code.ml" 143 4076 4092
+type(
+  Parsetree.pattern list
+)
+ident(
+  def l "lib/code.ml" 144 4096 4102 "lib/code.ml" 144 4096 4151
+)
+"lib/code.ml" 143 4076 4080 "lib/code.ml" 143 4076 4092
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 144 4096 4114 "lib/code.ml" 144 4096 4122
+type(
+  (Parsetree.pattern -> Parsetree.pattern) ->
+  Parsetree.pattern list -> Parsetree.pattern list
+)
+ident(
+  ext_ref List.map
+)
+"lib/code.ml" 144 4096 4123 "lib/code.ml" 144 4096 4148
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref underscored_ocaml_pattern "lib/code.ml" 132 3721 3729 "lib/code.ml" 132 3721 3754
+)
+"lib/code.ml" 144 4096 4149 "lib/code.ml" 144 4096 4150
+type(
+  Parsetree.pattern list
+)
+ident(
+  int_ref l "lib/code.ml" 143 4076 4091 "lib/code.ml" 143 4076 4092
+)
+"lib/code.ml" 144 4096 4113 "lib/code.ml" 144 4096 4151
+call(
+  stack
+)
+type(
+  Parsetree.pattern list
+)
+"lib/code.ml" 144 4096 4102 "lib/code.ml" 144 4096 4151
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 145 4152 4172 "lib/code.ml" 145 4152 4175
+type(
+  Longident.t
+)
+ident(
+  def lid "lib/code.ml" 146 4189 4195 "lib/code.ml" 146 4189 4254
+)
+"lib/code.ml" 145 4152 4177 "lib/code.ml" 145 4152 4181
+type(
+  Parsetree.pattern option
+)
+ident(
+  def popt "lib/code.ml" 146 4189 4195 "lib/code.ml" 146 4189 4254
+)
+"lib/code.ml" 145 4152 4183 "lib/code.ml" 145 4152 4184
+type(
+  bool
+)
+ident(
+  def b "lib/code.ml" 146 4189 4195 "lib/code.ml" 146 4189 4254
+)
+"lib/code.ml" 145 4152 4156 "lib/code.ml" 145 4152 4185
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 146 4189 4211 "lib/code.ml" 146 4189 4214
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "lib/code.ml" 145 4152 4172 "lib/code.ml" 145 4152 4175
+)
+"lib/code.ml" 146 4189 4216 "lib/code.ml" 146 4189 4245
+type(
+  Parsetree.pattern option -> Parsetree.pattern option
+)
+ident(
+  int_ref underscored_ocaml_pattern_opt "lib/code.ml" 135 3823 3827 "lib/code.ml" 135 3823 3856
+)
+"lib/code.ml" 146 4189 4246 "lib/code.ml" 146 4189 4250
+type(
+  Parsetree.pattern option
+)
+ident(
+  int_ref popt "lib/code.ml" 145 4152 4177 "lib/code.ml" 145 4152 4181
+)
+"lib/code.ml" 146 4189 4216 "lib/code.ml" 146 4189 4250
+call(
+  stack
+)
+type(
+  Parsetree.pattern option
+)
+"lib/code.ml" 146 4189 4252 "lib/code.ml" 146 4189 4253
+type(
+  bool
+)
+ident(
+  int_ref b "lib/code.ml" 145 4152 4183 "lib/code.ml" 145 4152 4184
+)
+"lib/code.ml" 146 4189 4195 "lib/code.ml" 146 4189 4254
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 147 4255 4273 "lib/code.ml" 147 4255 4275
+type(
+  Asttypes.label
+)
+ident(
+  def lb "lib/code.ml" 148 4286 4292 "lib/code.ml" 148 4286 4345
+)
+"lib/code.ml" 147 4255 4277 "lib/code.ml" 147 4255 4281
+type(
+  Parsetree.pattern option
+)
+ident(
+  def popt "lib/code.ml" 148 4286 4292 "lib/code.ml" 148 4286 4345
+)
+"lib/code.ml" 147 4255 4259 "lib/code.ml" 147 4255 4282
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 148 4286 4306 "lib/code.ml" 148 4286 4308
+type(
+  Asttypes.label
+)
+ident(
+  int_ref lb "lib/code.ml" 147 4255 4273 "lib/code.ml" 147 4255 4275
+)
+"lib/code.ml" 148 4286 4310 "lib/code.ml" 148 4286 4339
+type(
+  Parsetree.pattern option -> Parsetree.pattern option
+)
+ident(
+  int_ref underscored_ocaml_pattern_opt "lib/code.ml" 135 3823 3827 "lib/code.ml" 135 3823 3856
+)
+"lib/code.ml" 148 4286 4340 "lib/code.ml" 148 4286 4344
+type(
+  Parsetree.pattern option
+)
+ident(
+  int_ref popt "lib/code.ml" 147 4255 4277 "lib/code.ml" 147 4255 4281
+)
+"lib/code.ml" 148 4286 4310 "lib/code.ml" 148 4286 4344
+call(
+  stack
+)
+type(
+  Parsetree.pattern option
+)
+"lib/code.ml" 148 4286 4292 "lib/code.ml" 148 4286 4345
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 149 4346 4363 "lib/code.ml" 149 4346 4364
+type(
+  (Longident.t * Parsetree.pattern) list
+)
+ident(
+  def l "lib/code.ml" 150 4376 4382 "lib/code.ml" 151 4394 4474
+)
+"lib/code.ml" 149 4346 4366 "lib/code.ml" 149 4346 4371
+type(
+  Asttypes.closed_flag
+)
+ident(
+  def cflag "lib/code.ml" 150 4376 4382 "lib/code.ml" 151 4394 4474
+)
+"lib/code.ml" 149 4346 4350 "lib/code.ml" 149 4346 4372
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 151 4394 4403 "lib/code.ml" 151 4394 4411
+type(
+  (Longident.t * Parsetree.pattern -> Longident.t * Parsetree.pattern) ->
+  (Longident.t * Parsetree.pattern) list ->
+  (Longident.t * Parsetree.pattern) list
+)
+ident(
+  ext_ref List.map
+)
+"lib/code.ml" 151 4394 4418 "lib/code.ml" 151 4394 4421
+type(
+  Longident.t
+)
+ident(
+  def lid "lib/code.ml" 151 4394 4429 "lib/code.ml" 151 4394 4463
+)
+"lib/code.ml" 151 4394 4423 "lib/code.ml" 151 4394 4424
+type(
+  Parsetree.pattern
+)
+ident(
+  def p "lib/code.ml" 151 4394 4429 "lib/code.ml" 151 4394 4463
+)
+"lib/code.ml" 151 4394 4417 "lib/code.ml" 151 4394 4425
+type(
+  Longident.t * Parsetree.pattern
+)
+"lib/code.ml" 151 4394 4430 "lib/code.ml" 151 4394 4433
+type(
+  Longident.t
+)
+ident(
+  int_ref lid "lib/code.ml" 151 4394 4418 "lib/code.ml" 151 4394 4421
+)
+"lib/code.ml" 151 4394 4435 "lib/code.ml" 151 4394 4460
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref underscored_ocaml_pattern "lib/code.ml" 132 3721 3729 "lib/code.ml" 132 3721 3754
+)
+"lib/code.ml" 151 4394 4461 "lib/code.ml" 151 4394 4462
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "lib/code.ml" 151 4394 4423 "lib/code.ml" 151 4394 4424
+)
+"lib/code.ml" 151 4394 4435 "lib/code.ml" 151 4394 4462
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"lib/code.ml" 151 4394 4429 "lib/code.ml" 151 4394 4463
+type(
+  Longident.t * Parsetree.pattern
+)
+"lib/code.ml" 151 4394 4412 "lib/code.ml" 151 4394 4464
+type(
+  Longident.t * Parsetree.pattern -> Longident.t * Parsetree.pattern
+)
+"lib/code.ml" 151 4394 4465 "lib/code.ml" 151 4394 4466
+type(
+  (Longident.t * Parsetree.pattern) list
+)
+ident(
+  int_ref l "lib/code.ml" 149 4346 4363 "lib/code.ml" 149 4346 4364
+)
+"lib/code.ml" 151 4394 4403 "lib/code.ml" 151 4394 4466
+call(
+  stack
+)
+type(
+  (Longident.t * Parsetree.pattern) list
+)
+"lib/code.ml" 151 4394 4468 "lib/code.ml" 151 4394 4473
+type(
+  Asttypes.closed_flag
+)
+ident(
+  int_ref cflag "lib/code.ml" 149 4346 4366 "lib/code.ml" 149 4346 4371
+)
+"lib/code.ml" 150 4376 4382 "lib/code.ml" 151 4394 4474
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 152 4475 4490 "lib/code.ml" 152 4475 4491
+type(
+  Parsetree.pattern list
+)
+ident(
+  def l "lib/code.ml" 153 4495 4501 "lib/code.ml" 153 4495 4550
+)
+"lib/code.ml" 152 4475 4479 "lib/code.ml" 152 4475 4491
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 153 4495 4513 "lib/code.ml" 153 4495 4521
+type(
+  (Parsetree.pattern -> Parsetree.pattern) ->
+  Parsetree.pattern list -> Parsetree.pattern list
+)
+ident(
+  ext_ref List.map
+)
+"lib/code.ml" 153 4495 4522 "lib/code.ml" 153 4495 4547
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref underscored_ocaml_pattern "lib/code.ml" 132 3721 3729 "lib/code.ml" 132 3721 3754
+)
+"lib/code.ml" 153 4495 4548 "lib/code.ml" 153 4495 4549
+type(
+  Parsetree.pattern list
+)
+ident(
+  int_ref l "lib/code.ml" 152 4475 4490 "lib/code.ml" 152 4475 4491
+)
+"lib/code.ml" 153 4495 4512 "lib/code.ml" 153 4495 4550
+call(
+  stack
+)
+type(
+  Parsetree.pattern list
+)
+"lib/code.ml" 153 4495 4501 "lib/code.ml" 153 4495 4550
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 154 4551 4564 "lib/code.ml" 154 4551 4566
+type(
+  Parsetree.pattern
+)
+ident(
+  def p1 "lib/code.ml" 155 4576 4582 "lib/code.ml" 155 4576 4650
+)
+"lib/code.ml" 154 4551 4568 "lib/code.ml" 154 4551 4570
+type(
+  Parsetree.pattern
+)
+ident(
+  def p2 "lib/code.ml" 155 4576 4582 "lib/code.ml" 155 4576 4650
+)
+"lib/code.ml" 154 4551 4555 "lib/code.ml" 154 4551 4572
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 155 4576 4591 "lib/code.ml" 155 4576 4616
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref underscored_ocaml_pattern "lib/code.ml" 132 3721 3729 "lib/code.ml" 132 3721 3754
+)
+"lib/code.ml" 155 4576 4617 "lib/code.ml" 155 4576 4619
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p1 "lib/code.ml" 154 4551 4564 "lib/code.ml" 154 4551 4566
+)
+"lib/code.ml" 155 4576 4591 "lib/code.ml" 155 4576 4619
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"lib/code.ml" 155 4576 4621 "lib/code.ml" 155 4576 4646
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref underscored_ocaml_pattern "lib/code.ml" 132 3721 3729 "lib/code.ml" 132 3721 3754
+)
+"lib/code.ml" 155 4576 4647 "lib/code.ml" 155 4576 4649
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p2 "lib/code.ml" 154 4551 4568 "lib/code.ml" 154 4551 4570
+)
+"lib/code.ml" 155 4576 4621 "lib/code.ml" 155 4576 4649
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"lib/code.ml" 155 4576 4582 "lib/code.ml" 155 4576 4650
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 156 4651 4672 "lib/code.ml" 156 4651 4673
+type(
+  Parsetree.pattern
+)
+ident(
+  def p "lib/code.ml" 157 4682 4688 "lib/code.ml" 157 4682 4737
+)
+"lib/code.ml" 156 4651 4675 "lib/code.ml" 156 4651 4677
+type(
+  Parsetree.core_type
+)
+ident(
+  def ct "lib/code.ml" 157 4682 4688 "lib/code.ml" 157 4682 4737
+)
+"lib/code.ml" 156 4651 4655 "lib/code.ml" 156 4651 4678
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 157 4682 4705 "lib/code.ml" 157 4682 4730
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref underscored_ocaml_pattern "lib/code.ml" 132 3721 3729 "lib/code.ml" 132 3721 3754
+)
+"lib/code.ml" 157 4682 4731 "lib/code.ml" 157 4682 4732
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "lib/code.ml" 156 4651 4672 "lib/code.ml" 156 4651 4673
+)
+"lib/code.ml" 157 4682 4705 "lib/code.ml" 157 4682 4732
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"lib/code.ml" 157 4682 4734 "lib/code.ml" 157 4682 4736
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref ct "lib/code.ml" 156 4651 4675 "lib/code.ml" 156 4651 4677
+)
+"lib/code.ml" 157 4682 4688 "lib/code.ml" 157 4682 4737
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 158 4738 4754 "lib/code.ml" 158 4738 4755
+type(
+  Parsetree.pattern
+)
+ident(
+  def p "lib/code.ml" 159 4759 4765 "lib/code.ml" 159 4759 4806
+)
+"lib/code.ml" 158 4738 4742 "lib/code.ml" 158 4738 4755
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 159 4759 4778 "lib/code.ml" 159 4759 4803
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref underscored_ocaml_pattern "lib/code.ml" 132 3721 3729 "lib/code.ml" 132 3721 3754
+)
+"lib/code.ml" 159 4759 4804 "lib/code.ml" 159 4759 4805
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "lib/code.ml" 158 4738 4754 "lib/code.ml" 158 4738 4755
+)
+"lib/code.ml" 159 4759 4777 "lib/code.ml" 159 4759 4806
+type(
+  Parsetree.pattern
+)
+"lib/code.ml" 159 4759 4765 "lib/code.ml" 159 4759 4806
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 160 4807 4821 "lib/code.ml" 160 4807 4822
+type(
+  Parsetree.pattern
+)
+ident(
+  def p "lib/code.ml" 161 4826 4832 "lib/code.ml" 161 4826 4871
+)
+"lib/code.ml" 160 4807 4811 "lib/code.ml" 160 4807 4822
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 161 4826 4843 "lib/code.ml" 161 4826 4868
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref underscored_ocaml_pattern "lib/code.ml" 132 3721 3729 "lib/code.ml" 132 3721 3754
+)
+"lib/code.ml" 161 4826 4869 "lib/code.ml" 161 4826 4870
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "lib/code.ml" 160 4807 4821 "lib/code.ml" 160 4807 4822
+)
+"lib/code.ml" 161 4826 4842 "lib/code.ml" 161 4826 4871
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"lib/code.ml" 161 4826 4832 "lib/code.ml" 161 4826 4871
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 162 4872 4887 "lib/code.ml" 162 4872 4888
+type(
+  Longident.t
+)
+"lib/code.ml" 162 4872 4877 "lib/code.ml" 162 4872 4888
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 163 4889 4893 "lib/code.ml" 163 4889 4901
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 162 4872 4877 "lib/code.ml" 163 4889 4901
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 164 4902 4920 "lib/code.ml" 164 4902 4921
+type(
+  Asttypes.constant
+)
+"lib/code.ml" 164 4902 4906 "lib/code.ml" 164 4902 4921
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 162 4872 4876 "lib/code.ml" 164 4902 4922
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 164 4902 4926 "lib/code.ml" 164 4902 4927
+ident(
+  def p "lib/code.ml" 164 4902 4931 "lib/code.ml" 164 4902 4932
+)
+"lib/code.ml" 162 4872 4876 "lib/code.ml" 164 4902 4927
+type(
+  Parsetree.pattern_desc
+)
+"lib/code.ml" 164 4902 4931 "lib/code.ml" 164 4902 4932
+type(
+  Parsetree.pattern_desc
+)
+ident(
+  int_ref p "lib/code.ml" 162 4872 4876 "lib/code.ml" 164 4902 4927
+)
+"lib/code.ml" 139 3935 3967 "lib/code.ml" 164 4902 4932
+type(
+  Parsetree.pattern_desc -> Parsetree.pattern_desc
+)
+"lib/code.ml" 167 4937 4945 "lib/code.ml" 167 4937 4964
+type(
+  exp -> exp
+)
+ident(
+  def underscored_pattern "lib/code.ml" 167 4937 4937 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 168 4976 4984 "lib/code.ml" 168 4976 4985
+type(
+  lident
+)
+"lib/code.ml" 168 4976 4980 "lib/code.ml" 168 4976 4985
+type(
+  exp
+)
+"lib/code.ml" 168 4976 4989 "lib/code.ml" 168 4976 4999
+type(
+  exp
+)
+ident(
+  int_ref underscore "lib/code.ml" 114 3437 3441 "lib/code.ml" 114 3437 3451
+)
+"lib/code.ml" 169 5000 5010 "lib/code.ml" 169 5000 5011
+type(
+  exp list
+)
+ident(
+  def l "lib/code.ml" 169 5000 5015 "lib/code.ml" 169 5000 5053
+)
+"lib/code.ml" 169 5000 5004 "lib/code.ml" 169 5000 5011
+type(
+  exp
+)
+"lib/code.ml" 169 5000 5022 "lib/code.ml" 169 5000 5030
+type(
+  (exp -> exp) -> exp list -> exp list
+)
+ident(
+  ext_ref List.map
+)
+"lib/code.ml" 169 5000 5031 "lib/code.ml" 169 5000 5050
+type(
+  exp -> exp
+)
+ident(
+  int_ref underscored_pattern "lib/code.ml" 167 4937 4945 "lib/code.ml" 167 4937 4964
+)
+"lib/code.ml" 169 5000 5051 "lib/code.ml" 169 5000 5052
+type(
+  exp list
+)
+ident(
+  int_ref l "lib/code.ml" 169 5000 5010 "lib/code.ml" 169 5000 5011
+)
+"lib/code.ml" 169 5000 5021 "lib/code.ml" 169 5000 5053
+call(
+  stack
+)
+type(
+  exp list
+)
+"lib/code.ml" 169 5000 5015 "lib/code.ml" 169 5000 5053
+type(
+  exp
+)
+"lib/code.ml" 170 5054 5069 "lib/code.ml" 170 5054 5072
+type(
+  uident
+)
+ident(
+  def uid "lib/code.ml" 170 5054 5082 "lib/code.ml" 170 5054 5122
+)
+"lib/code.ml" 170 5054 5074 "lib/code.ml" 170 5054 5077
+type(
+  exp
+)
+ident(
+  def exp "lib/code.ml" 170 5054 5082 "lib/code.ml" 170 5054 5122
+)
+"lib/code.ml" 170 5054 5058 "lib/code.ml" 170 5054 5078
+type(
+  exp
+)
+"lib/code.ml" 170 5054 5093 "lib/code.ml" 170 5054 5096
+type(
+  uident
+)
+ident(
+  int_ref uid "lib/code.ml" 170 5054 5069 "lib/code.ml" 170 5054 5072
+)
+"lib/code.ml" 170 5054 5098 "lib/code.ml" 170 5054 5117
+type(
+  exp -> exp
+)
+ident(
+  int_ref underscored_pattern "lib/code.ml" 167 4937 4945 "lib/code.ml" 167 4937 4964
+)
+"lib/code.ml" 170 5054 5118 "lib/code.ml" 170 5054 5121
+type(
+  exp
+)
+ident(
+  int_ref exp "lib/code.ml" 170 5054 5074 "lib/code.ml" 170 5054 5077
+)
+"lib/code.ml" 170 5054 5098 "lib/code.ml" 170 5054 5121
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 170 5054 5082 "lib/code.ml" 170 5054 5122
+type(
+  exp
+)
+"lib/code.ml" 171 5123 5141 "lib/code.ml" 171 5123 5142
+type(
+  Parsetree.pattern
+)
+ident(
+  def p "lib/code.ml" 171 5123 5146 "lib/code.ml" 171 5123 5189
+)
+"lib/code.ml" 171 5123 5127 "lib/code.ml" 171 5123 5142
+type(
+  exp
+)
+"lib/code.ml" 171 5123 5161 "lib/code.ml" 171 5123 5186
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  int_ref underscored_ocaml_pattern "lib/code.ml" 132 3721 3729 "lib/code.ml" 132 3721 3754
+)
+"lib/code.ml" 171 5123 5187 "lib/code.ml" 171 5123 5188
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "lib/code.ml" 171 5123 5141 "lib/code.ml" 171 5123 5142
+)
+"lib/code.ml" 171 5123 5160 "lib/code.ml" 171 5123 5189
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"lib/code.ml" 171 5123 5146 "lib/code.ml" 171 5123 5189
+type(
+  exp
+)
+"lib/code.ml" 172 5190 5201 "lib/code.ml" 172 5190 5202
+type(
+  (lident * exp) list
+)
+ident(
+  def l "lib/code.ml" 173 5206 5212 "lib/code.ml" 173 5206 5278
+)
+"lib/code.ml" 172 5190 5194 "lib/code.ml" 172 5190 5202
+type(
+  exp
+)
+"lib/code.ml" 173 5206 5220 "lib/code.ml" 173 5206 5228
+type(
+  (lident * exp -> lident * exp) ->
+  (lident * exp) list -> (lident * exp) list
+)
+ident(
+  ext_ref List.map
+)
+"lib/code.ml" 173 5206 5235 "lib/code.ml" 173 5206 5238
+type(
+  lident
+)
+ident(
+  def lid "lib/code.ml" 173 5206 5246 "lib/code.ml" 173 5206 5274
+)
+"lib/code.ml" 173 5206 5240 "lib/code.ml" 173 5206 5241
+type(
+  exp
+)
+ident(
+  def e "lib/code.ml" 173 5206 5246 "lib/code.ml" 173 5206 5274
+)
+"lib/code.ml" 173 5206 5234 "lib/code.ml" 173 5206 5242
+type(
+  lident * exp
+)
+"lib/code.ml" 173 5206 5247 "lib/code.ml" 173 5206 5250
+type(
+  lident
+)
+ident(
+  int_ref lid "lib/code.ml" 173 5206 5235 "lib/code.ml" 173 5206 5238
+)
+"lib/code.ml" 173 5206 5252 "lib/code.ml" 173 5206 5271
+type(
+  exp -> exp
+)
+ident(
+  int_ref underscored_pattern "lib/code.ml" 167 4937 4945 "lib/code.ml" 167 4937 4964
+)
+"lib/code.ml" 173 5206 5272 "lib/code.ml" 173 5206 5273
+type(
+  exp
+)
+ident(
+  int_ref e "lib/code.ml" 173 5206 5240 "lib/code.ml" 173 5206 5241
+)
+"lib/code.ml" 173 5206 5252 "lib/code.ml" 173 5206 5273
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 173 5206 5246 "lib/code.ml" 173 5206 5274
+type(
+  lident * exp
+)
+"lib/code.ml" 173 5206 5229 "lib/code.ml" 173 5206 5275
+type(
+  lident * exp -> lident * exp
+)
+"lib/code.ml" 173 5206 5276 "lib/code.ml" 173 5206 5277
+type(
+  (lident * exp) list
+)
+ident(
+  int_ref l "lib/code.ml" 172 5190 5201 "lib/code.ml" 172 5190 5202
+)
+"lib/code.ml" 173 5206 5219 "lib/code.ml" 173 5206 5278
+call(
+  stack
+)
+type(
+  (lident * exp) list
+)
+"lib/code.ml" 173 5206 5212 "lib/code.ml" 173 5206 5278
+type(
+  exp
+)
+"lib/code.ml" 174 5279 5292 "lib/code.ml" 174 5279 5293
+type(
+  string
+)
+ident(
+  def s "lib/code.ml" 174 5279 5301 "lib/code.ml" 174 5279 5335
+)
+"lib/code.ml" 174 5279 5295 "lib/code.ml" 174 5279 5296
+type(
+  exp
+)
+ident(
+  def p "lib/code.ml" 174 5279 5301 "lib/code.ml" 174 5279 5335
+)
+"lib/code.ml" 174 5279 5283 "lib/code.ml" 174 5279 5297
+type(
+  exp
+)
+"lib/code.ml" 174 5279 5310 "lib/code.ml" 174 5279 5311
+type(
+  string
+)
+ident(
+  int_ref s "lib/code.ml" 174 5279 5292 "lib/code.ml" 174 5279 5293
+)
+"lib/code.ml" 174 5279 5313 "lib/code.ml" 174 5279 5332
+type(
+  exp -> exp
+)
+ident(
+  int_ref underscored_pattern "lib/code.ml" 167 4937 4945 "lib/code.ml" 167 4937 4964
+)
+"lib/code.ml" 174 5279 5333 "lib/code.ml" 174 5279 5334
+type(
+  exp
+)
+ident(
+  int_ref p "lib/code.ml" 174 5279 5295 "lib/code.ml" 174 5279 5296
+)
+"lib/code.ml" 174 5279 5313 "lib/code.ml" 174 5279 5334
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 174 5279 5301 "lib/code.ml" 174 5279 5335
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5396 "lib/code.ml" 176 5374 5397
+type(
+  Parsetree.expression
+)
+"lib/code.ml" 176 5374 5379 "lib/code.ml" 176 5374 5397
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5406 "lib/code.ml" 176 5374 5407
+type(
+  clauses
+)
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5400 "lib/code.ml" 176 5374 5407
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5379 "lib/code.ml" 176 5374 5407
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5414 "lib/code.ml" 176 5374 5415
+type(
+  clauses
+)
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5410 "lib/code.ml" 176 5374 5415
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5379 "lib/code.ml" 176 5374 5415
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5424 "lib/code.ml" 176 5374 5425
+type(
+  exp list
+)
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5418 "lib/code.ml" 176 5374 5425
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5379 "lib/code.ml" 176 5374 5425
+type(
+  exp
+)
+"lib/code.ml" 177 5426 5436 "lib/code.ml" 177 5426 5437
+type(
+  exp
+)
+type(
+  iident
+)
+type(
+  exp
+)
+"lib/code.ml" 177 5426 5430 "lib/code.ml" 177 5426 5437
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5379 "lib/code.ml" 177 5426 5437
+type(
+  exp
+)
+"lib/code.ml" 177 5426 5443 "lib/code.ml" 177 5426 5444
+type(
+  exp
+)
+type(
+  exp
+)
+type(
+  exp
+)
+"lib/code.ml" 177 5426 5440 "lib/code.ml" 177 5426 5444
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5379 "lib/code.ml" 177 5426 5444
+type(
+  exp
+)
+"lib/code.ml" 177 5426 5451 "lib/code.ml" 177 5426 5452
+type(
+  exp
+)
+type(
+  exp
+)
+type(
+  pattern list
+)
+type(
+  lident
+)
+"lib/code.ml" 177 5426 5447 "lib/code.ml" 177 5426 5452
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5379 "lib/code.ml" 177 5426 5452
+type(
+  exp
+)
+"lib/code.ml" 177 5426 5462 "lib/code.ml" 177 5426 5463
+type(
+  exp
+)
+type(
+  exp
+)
+type(
+  pattern list
+)
+type(
+  lident
+)
+"lib/code.ml" 177 5426 5455 "lib/code.ml" 177 5426 5463
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5379 "lib/code.ml" 177 5426 5463
+type(
+  exp
+)
+"lib/code.ml" 177 5426 5475 "lib/code.ml" 177 5426 5476
+type(
+  exp list
+)
+type(
+  exp
+)
+type(
+  exp
+)
+"lib/code.ml" 177 5426 5466 "lib/code.ml" 177 5426 5476
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5379 "lib/code.ml" 177 5426 5476
+type(
+  exp
+)
+"lib/code.ml" 178 5477 5490 "lib/code.ml" 178 5477 5491
+type(
+  clauses
+)
+"lib/code.ml" 178 5477 5481 "lib/code.ml" 178 5477 5491
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5379 "lib/code.ml" 178 5477 5491
+type(
+  exp
+)
+"lib/code.ml" 178 5477 5503 "lib/code.ml" 178 5477 5504
+type(
+  ident
+)
+"lib/code.ml" 178 5477 5494 "lib/code.ml" 178 5477 5504
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5379 "lib/code.ml" 178 5477 5504
+type(
+  exp
+)
+"lib/code.ml" 178 5477 5512 "lib/code.ml" 178 5477 5513
+type(
+  exp list
+)
+"lib/code.ml" 178 5477 5507 "lib/code.ml" 178 5477 5513
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5379 "lib/code.ml" 178 5477 5513
+type(
+  exp
+)
+"lib/code.ml" 178 5477 5532 "lib/code.ml" 178 5477 5533
+type(
+  exp
+)
+type(
+  filename
+)
+type(
+  int
+)
+"lib/code.ml" 178 5477 5516 "lib/code.ml" 178 5477 5533
+type(
+  exp
+)
+"lib/code.ml" 176 5374 5378 "lib/code.ml" 178 5477 5534
+type(
+  exp
+)
+"lib/code.ml" 178 5477 5538 "lib/code.ml" 178 5477 5539
+ident(
+  def x "lib/code.ml" 178 5477 5543 "lib/code.ml" 178 5477 5544
+)
+"lib/code.ml" 176 5374 5378 "lib/code.ml" 178 5477 5539
+type(
+  exp
+)
+"lib/code.ml" 178 5477 5543 "lib/code.ml" 178 5477 5544
+type(
+  exp
+)
+ident(
+  int_ref x "lib/code.ml" 176 5374 5378 "lib/code.ml" 178 5477 5539
+)
+"lib/code.ml" 167 4937 4967 "lib/code.ml" 178 5477 5544
+type(
+  exp -> exp
+)
+"lib/code.ml" 182 5625 5629 "lib/code.ml" 182 5625 5647
+type(
+  clause -> clause
+)
+ident(
+  def underscored_clause "lib/code.ml" 199 6413 6413 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 183 5659 5671 "lib/code.ml" 183 5659 5672
+type(
+  pattern
+)
+ident(
+  def l "lib/code.ml" 183 5659 5680 "lib/code.ml" 183 5659 5713
+)
+"lib/code.ml" 183 5659 5674 "lib/code.ml" 183 5659 5675
+type(
+  exp
+)
+ident(
+  def r "lib/code.ml" 183 5659 5680 "lib/code.ml" 183 5659 5713
+)
+"lib/code.ml" 183 5659 5663 "lib/code.ml" 183 5659 5676
+type(
+  clause
+)
+"lib/code.ml" 183 5659 5688 "lib/code.ml" 183 5659 5707
+type(
+  pattern -> pattern
+)
+ident(
+  int_ref underscored_pattern "lib/code.ml" 167 4937 4945 "lib/code.ml" 167 4937 4964
+)
+"lib/code.ml" 183 5659 5708 "lib/code.ml" 183 5659 5709
+type(
+  pattern
+)
+ident(
+  int_ref l "lib/code.ml" 183 5659 5671 "lib/code.ml" 183 5659 5672
+)
+"lib/code.ml" 183 5659 5688 "lib/code.ml" 183 5659 5709
+call(
+  stack
+)
+type(
+  pattern
+)
+"lib/code.ml" 183 5659 5711 "lib/code.ml" 183 5659 5712
+type(
+  exp
+)
+ident(
+  int_ref r "lib/code.ml" 183 5659 5674 "lib/code.ml" 183 5659 5675
+)
+"lib/code.ml" 183 5659 5680 "lib/code.ml" 183 5659 5713
+type(
+  clause
+)
+"lib/code.ml" 184 5714 5730 "lib/code.ml" 184 5714 5731
+type(
+  exp
+)
+type(
+  exp
+)
+type(
+  pattern
+)
+"lib/code.ml" 184 5714 5718 "lib/code.ml" 184 5714 5731
+type(
+  clause
+)
+"lib/code.ml" 184 5714 5735 "lib/code.ml" 184 5714 5736
+ident(
+  def x "lib/code.ml" 184 5714 5740 "lib/code.ml" 184 5714 5741
+)
+"lib/code.ml" 184 5714 5718 "lib/code.ml" 184 5714 5736
+type(
+  clause
+)
+"lib/code.ml" 184 5714 5740 "lib/code.ml" 184 5714 5741
+type(
+  clause
+)
+ident(
+  int_ref x "lib/code.ml" 184 5714 5718 "lib/code.ml" 184 5714 5736
+)
+"lib/code.ml" 182 5625 5650 "lib/code.ml" 184 5714 5741
+type(
+  clause -> clause
+)
+"lib/code.ml" 199 6413 6417 "lib/code.ml" 199 6413 6426
+type(
+  string -> int -> exp list
+)
+ident(
+  def genr_args "lib/code.ml" 212 6746 6746 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 199 6413 6427 "lib/code.ml" 199 6413 6431
+type(
+  string
+)
+ident(
+  def root "lib/code.ml" 200 6434 6436 "lib/code.ml" 205 6577 6586
+)
+"lib/code.ml" 200 6434 6444 "lib/code.ml" 200 6434 6448
+type(
+  exp list -> int -> exp list
+)
+ident(
+  def loop "lib/code.ml" 200 6434 6436 "lib/code.ml" 205 6577 6586
+)
+"lib/code.ml" 200 6434 6449 "lib/code.ml" 200 6434 6453
+type(
+  exp list
+)
+ident(
+  def accu "lib/code.ml" 200 6434 6456 "lib/code.ml" 204 6543 6573
+)
+"lib/code.ml" 201 6465 6471 "lib/code.ml" 201 6465 6472
+type(
+  int
+)
+"lib/code.ml" 201 6465 6476 "lib/code.ml" 201 6465 6480
+type(
+  exp list
+)
+ident(
+  int_ref accu "lib/code.ml" 200 6434 6449 "lib/code.ml" 200 6434 6453
+)
+"lib/code.ml" 202 6481 6487 "lib/code.ml" 202 6481 6488
+type(
+  int
+)
+ident(
+  def n "lib/code.ml" 203 6492 6498 "lib/code.ml" 204 6543 6573
+)
+"lib/code.ml" 203 6492 6502 "lib/code.ml" 203 6492 6503
+type(
+  exp
+)
+ident(
+  def e "lib/code.ml" 204 6543 6549 "lib/code.ml" 204 6543 6573
+)
+"lib/code.ml" 203 6492 6506 "lib/code.ml" 203 6492 6514
+type(
+  string -> exp
+)
+ident(
+  int_ref make_Var "lib/code.ml" 117 3475 3479 "lib/code.ml" 117 3475 3487
+)
+"lib/code.ml" 203 6492 6516 "lib/code.ml" 203 6492 6520
+type(
+  string
+)
+ident(
+  int_ref root "lib/code.ml" 199 6413 6427 "lib/code.ml" 199 6413 6431
+)
+"lib/code.ml" 203 6492 6521 "lib/code.ml" 203 6492 6522
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"lib/code.ml" 203 6492 6523 "lib/code.ml" 203 6492 6536
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"lib/code.ml" 203 6492 6537 "lib/code.ml" 203 6492 6538
+type(
+  int
+)
+ident(
+  int_ref n "lib/code.ml" 202 6481 6487 "lib/code.ml" 202 6481 6488
+)
+"lib/code.ml" 203 6492 6523 "lib/code.ml" 203 6492 6538
+call(
+  stack
+)
+type(
+  string
+)
+"lib/code.ml" 203 6492 6515 "lib/code.ml" 203 6492 6539
+call(
+  stack
+)
+type(
+  string
+)
+"lib/code.ml" 203 6492 6506 "lib/code.ml" 203 6492 6539
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 204 6543 6549 "lib/code.ml" 204 6543 6553
+type(
+  exp list -> int -> exp list
+)
+ident(
+  int_ref loop "lib/code.ml" 200 6434 6444 "lib/code.ml" 200 6434 6448
+)
+"lib/code.ml" 204 6543 6555 "lib/code.ml" 204 6543 6556
+type(
+  exp
+)
+ident(
+  int_ref e "lib/code.ml" 203 6492 6502 "lib/code.ml" 203 6492 6503
+)
+"lib/code.ml" 204 6543 6560 "lib/code.ml" 204 6543 6564
+type(
+  exp list
+)
+ident(
+  int_ref accu "lib/code.ml" 200 6434 6449 "lib/code.ml" 200 6434 6453
+)
+"lib/code.ml" 204 6543 6554 "lib/code.ml" 204 6543 6565
+type(
+  exp list
+)
+"lib/code.ml" 204 6543 6567 "lib/code.ml" 204 6543 6568
+type(
+  int
+)
+ident(
+  int_ref n "lib/code.ml" 202 6481 6487 "lib/code.ml" 202 6481 6488
+)
+"lib/code.ml" 204 6543 6569 "lib/code.ml" 204 6543 6570
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"lib/code.ml" 204 6543 6571 "lib/code.ml" 204 6543 6572
+type(
+  int
+)
+"lib/code.ml" 204 6543 6566 "lib/code.ml" 204 6543 6573
+type(
+  int
+)
+"lib/code.ml" 204 6543 6549 "lib/code.ml" 204 6543 6573
+call(
+  tail
+)
+type(
+  exp list
+)
+"lib/code.ml" 203 6492 6498 "lib/code.ml" 204 6543 6573
+type(
+  exp list
+)
+"lib/code.ml" 200 6434 6456 "lib/code.ml" 204 6543 6573
+type(
+  int -> exp list
+)
+"lib/code.ml" 205 6577 6579 "lib/code.ml" 205 6577 6583
+type(
+  exp list -> int -> exp list
+)
+ident(
+  int_ref loop "lib/code.ml" 200 6434 6444 "lib/code.ml" 200 6434 6448
+)
+"lib/code.ml" 205 6577 6584 "lib/code.ml" 205 6577 6586
+type(
+  exp list
+)
+"lib/code.ml" 205 6577 6579 "lib/code.ml" 205 6577 6586
+call(
+  tail
+)
+type(
+  int -> exp list
+)
+"lib/code.ml" 200 6434 6436 "lib/code.ml" 205 6577 6586
+type(
+  int -> exp list
+)
+"lib/code.ml" 212 6746 6750 "lib/code.ml" 212 6746 6768
+type(
+  string -> int -> (int * exp) list
+)
+ident(
+  def genr_numbered_args "lib/code.ml" 222 7014 7014 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 212 6746 6769 "lib/code.ml" 212 6746 6773
+type(
+  string
+)
+ident(
+  def root "lib/code.ml" 212 6746 6774 "lib/code.ml" 218 6926 6937
+)
+"lib/code.ml" 212 6746 6774 "lib/code.ml" 212 6746 6775
+type(
+  int
+)
+ident(
+  def n "lib/code.ml" 213 6778 6780 "lib/code.ml" 218 6926 6937
+)
+"lib/code.ml" 213 6778 6788 "lib/code.ml" 213 6778 6792
+type(
+  (int * exp) list -> int -> (int * exp) list
+)
+ident(
+  def loop "lib/code.ml" 213 6778 6780 "lib/code.ml" 218 6926 6937
+)
+"lib/code.ml" 213 6778 6793 "lib/code.ml" 213 6778 6797
+type(
+  (int * exp) list
+)
+ident(
+  def accu "lib/code.ml" 213 6778 6800 "lib/code.ml" 217 6887 6922
+)
+"lib/code.ml" 214 6809 6815 "lib/code.ml" 214 6809 6816
+type(
+  int
+)
+"lib/code.ml" 214 6809 6820 "lib/code.ml" 214 6809 6824
+type(
+  (int * exp) list
+)
+ident(
+  int_ref accu "lib/code.ml" 213 6778 6793 "lib/code.ml" 213 6778 6797
+)
+"lib/code.ml" 215 6825 6831 "lib/code.ml" 215 6825 6832
+type(
+  int
+)
+ident(
+  def n "lib/code.ml" 216 6836 6842 "lib/code.ml" 217 6887 6922
+)
+"lib/code.ml" 216 6836 6846 "lib/code.ml" 216 6836 6847
+type(
+  exp
+)
+ident(
+  def e "lib/code.ml" 217 6887 6893 "lib/code.ml" 217 6887 6922
+)
+"lib/code.ml" 216 6836 6850 "lib/code.ml" 216 6836 6858
+type(
+  string -> exp
+)
+ident(
+  int_ref make_Var "lib/code.ml" 117 3475 3479 "lib/code.ml" 117 3475 3487
+)
+"lib/code.ml" 216 6836 6860 "lib/code.ml" 216 6836 6864
+type(
+  string
+)
+ident(
+  int_ref root "lib/code.ml" 212 6746 6769 "lib/code.ml" 212 6746 6773
+)
+"lib/code.ml" 216 6836 6865 "lib/code.ml" 216 6836 6866
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"lib/code.ml" 216 6836 6867 "lib/code.ml" 216 6836 6880
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"lib/code.ml" 216 6836 6881 "lib/code.ml" 216 6836 6882
+type(
+  int
+)
+ident(
+  int_ref n "lib/code.ml" 215 6825 6831 "lib/code.ml" 215 6825 6832
+)
+"lib/code.ml" 216 6836 6867 "lib/code.ml" 216 6836 6882
+call(
+  stack
+)
+type(
+  string
+)
+"lib/code.ml" 216 6836 6859 "lib/code.ml" 216 6836 6883
+call(
+  stack
+)
+type(
+  string
+)
+"lib/code.ml" 216 6836 6850 "lib/code.ml" 216 6836 6883
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 217 6887 6893 "lib/code.ml" 217 6887 6897
+type(
+  (int * exp) list -> int -> (int * exp) list
+)
+ident(
+  int_ref loop "lib/code.ml" 213 6778 6788 "lib/code.ml" 213 6778 6792
+)
+"lib/code.ml" 217 6887 6900 "lib/code.ml" 217 6887 6901
+type(
+  int
+)
+ident(
+  int_ref n "lib/code.ml" 215 6825 6831 "lib/code.ml" 215 6825 6832
+)
+"lib/code.ml" 217 6887 6903 "lib/code.ml" 217 6887 6904
+type(
+  exp
+)
+ident(
+  int_ref e "lib/code.ml" 216 6836 6846 "lib/code.ml" 216 6836 6847
+)
+"lib/code.ml" 217 6887 6899 "lib/code.ml" 217 6887 6905
+type(
+  int * exp
+)
+"lib/code.ml" 217 6887 6909 "lib/code.ml" 217 6887 6913
+type(
+  (int * exp) list
+)
+ident(
+  int_ref accu "lib/code.ml" 213 6778 6793 "lib/code.ml" 213 6778 6797
+)
+"lib/code.ml" 217 6887 6898 "lib/code.ml" 217 6887 6914
+type(
+  (int * exp) list
+)
+"lib/code.ml" 217 6887 6916 "lib/code.ml" 217 6887 6917
+type(
+  int
+)
+ident(
+  int_ref n "lib/code.ml" 215 6825 6831 "lib/code.ml" 215 6825 6832
+)
+"lib/code.ml" 217 6887 6918 "lib/code.ml" 217 6887 6919
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"lib/code.ml" 217 6887 6920 "lib/code.ml" 217 6887 6921
+type(
+  int
+)
+"lib/code.ml" 217 6887 6915 "lib/code.ml" 217 6887 6922
+type(
+  int
+)
+"lib/code.ml" 217 6887 6893 "lib/code.ml" 217 6887 6922
+call(
+  tail
+)
+type(
+  (int * exp) list
+)
+"lib/code.ml" 216 6836 6842 "lib/code.ml" 217 6887 6922
+type(
+  (int * exp) list
+)
+"lib/code.ml" 213 6778 6800 "lib/code.ml" 217 6887 6922
+type(
+  int -> (int * exp) list
+)
+"lib/code.ml" 218 6926 6928 "lib/code.ml" 218 6926 6932
+type(
+  (int * exp) list -> int -> (int * exp) list
+)
+ident(
+  int_ref loop "lib/code.ml" 213 6778 6788 "lib/code.ml" 213 6778 6792
+)
+"lib/code.ml" 218 6926 6933 "lib/code.ml" 218 6926 6935
+type(
+  (int * exp) list
+)
+"lib/code.ml" 218 6926 6936 "lib/code.ml" 218 6926 6937
+type(
+  int
+)
+ident(
+  int_ref n "lib/code.ml" 212 6746 6774 "lib/code.ml" 212 6746 6775
+)
+"lib/code.ml" 218 6926 6928 "lib/code.ml" 218 6926 6937
+call(
+  tail
+)
+type(
+  (int * exp) list
+)
+"lib/code.ml" 213 6778 6780 "lib/code.ml" 218 6926 6937
+type(
+  (int * exp) list
+)
+"lib/code.ml" 222 7014 7018 "lib/code.ml" 222 7014 7034
+type(
+  int -> exp list
+)
+ident(
+  def genr_underscores "lib/code.ml" 233 7184 7184 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 222 7014 7035 "lib/code.ml" 222 7014 7036
+type(
+  int
+)
+ident(
+  def n "lib/code.ml" 223 7039 7041 "lib/code.ml" 227 7140 7151
+)
+"lib/code.ml" 223 7039 7049 "lib/code.ml" 223 7039 7053
+type(
+  exp list -> int -> exp list
+)
+ident(
+  def loop "lib/code.ml" 223 7039 7041 "lib/code.ml" 227 7140 7151
+)
+"lib/code.ml" 223 7039 7054 "lib/code.ml" 223 7039 7058
+type(
+  exp list
+)
+ident(
+  def accu "lib/code.ml" 223 7039 7061 "lib/code.ml" 226 7097 7136
+)
+"lib/code.ml" 224 7070 7076 "lib/code.ml" 224 7070 7077
+type(
+  int
+)
+"lib/code.ml" 224 7070 7081 "lib/code.ml" 224 7070 7085
+type(
+  exp list
+)
+ident(
+  int_ref accu "lib/code.ml" 223 7039 7054 "lib/code.ml" 223 7039 7058
+)
+"lib/code.ml" 225 7086 7092 "lib/code.ml" 225 7086 7093
+type(
+  int
+)
+ident(
+  def n "lib/code.ml" 226 7097 7103 "lib/code.ml" 226 7097 7136
+)
+"lib/code.ml" 226 7097 7103 "lib/code.ml" 226 7097 7107
+type(
+  exp list -> int -> exp list
+)
+ident(
+  int_ref loop "lib/code.ml" 223 7039 7049 "lib/code.ml" 223 7039 7053
+)
+"lib/code.ml" 226 7097 7109 "lib/code.ml" 226 7097 7119
+type(
+  exp
+)
+ident(
+  int_ref underscore "lib/code.ml" 114 3437 3441 "lib/code.ml" 114 3437 3451
+)
+"lib/code.ml" 226 7097 7123 "lib/code.ml" 226 7097 7127
+type(
+  exp list
+)
+ident(
+  int_ref accu "lib/code.ml" 223 7039 7054 "lib/code.ml" 223 7039 7058
+)
+"lib/code.ml" 226 7097 7108 "lib/code.ml" 226 7097 7128
+type(
+  exp list
+)
+"lib/code.ml" 226 7097 7130 "lib/code.ml" 226 7097 7131
+type(
+  int
+)
+ident(
+  int_ref n "lib/code.ml" 225 7086 7092 "lib/code.ml" 225 7086 7093
+)
+"lib/code.ml" 226 7097 7132 "lib/code.ml" 226 7097 7133
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"lib/code.ml" 226 7097 7134 "lib/code.ml" 226 7097 7135
+type(
+  int
+)
+"lib/code.ml" 226 7097 7129 "lib/code.ml" 226 7097 7136
+type(
+  int
+)
+"lib/code.ml" 226 7097 7103 "lib/code.ml" 226 7097 7136
+call(
+  tail
+)
+type(
+  exp list
+)
+"lib/code.ml" 223 7039 7061 "lib/code.ml" 226 7097 7136
+type(
+  int -> exp list
+)
+"lib/code.ml" 227 7140 7142 "lib/code.ml" 227 7140 7146
+type(
+  exp list -> int -> exp list
+)
+ident(
+  int_ref loop "lib/code.ml" 223 7039 7049 "lib/code.ml" 223 7039 7053
+)
+"lib/code.ml" 227 7140 7147 "lib/code.ml" 227 7140 7149
+type(
+  exp list
+)
+"lib/code.ml" 227 7140 7150 "lib/code.ml" 227 7140 7151
+type(
+  int
+)
+ident(
+  int_ref n "lib/code.ml" 222 7014 7035 "lib/code.ml" 222 7014 7036
+)
+"lib/code.ml" 227 7140 7142 "lib/code.ml" 227 7140 7151
+call(
+  tail
+)
+type(
+  exp list
+)
+"lib/code.ml" 223 7039 7041 "lib/code.ml" 227 7140 7151
+type(
+  exp list
+)
+"lib/code.ml" 233 7184 7188 "lib/code.ml" 233 7184 7193
+type(
+  ident -> exp list -> exp
+)
+ident(
+  def apply "lib/code.ml" 236 7228 7228 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 233 7184 7194 "lib/code.ml" 233 7184 7195
+type(
+  ident
+)
+ident(
+  def f "lib/code.ml" 233 7184 7196 "lib/code.ml" 233 7184 7223
+)
+"lib/code.ml" 233 7184 7196 "lib/code.ml" 233 7184 7198
+type(
+  exp list
+)
+ident(
+  def xs "lib/code.ml" 233 7184 7201 "lib/code.ml" 233 7184 7223
+)
+"lib/code.ml" 233 7184 7217 "lib/code.ml" 233 7184 7218
+type(
+  ident
+)
+ident(
+  int_ref f "lib/code.ml" 233 7184 7194 "lib/code.ml" 233 7184 7195
+)
+"lib/code.ml" 233 7184 7208 "lib/code.ml" 233 7184 7218
+type(
+  exp
+)
+"lib/code.ml" 233 7184 7220 "lib/code.ml" 233 7184 7222
+type(
+  exp list
+)
+ident(
+  int_ref xs "lib/code.ml" 233 7184 7196 "lib/code.ml" 233 7184 7198
+)
+"lib/code.ml" 233 7184 7201 "lib/code.ml" 233 7184 7223
+type(
+  exp
+)
+"lib/code.ml" 236 7228 7232 "lib/code.ml" 236 7228 7238
+type(
+  ident -> exp -> exp
+)
+ident(
+  def apply1 "lib/code.ml" 241 7370 7370 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 236 7228 7239 "lib/code.ml" 236 7228 7240
+type(
+  ident
+)
+ident(
+  def f "lib/code.ml" 236 7228 7241 "lib/code.ml" 236 7228 7268
+)
+"lib/code.ml" 236 7228 7241 "lib/code.ml" 236 7228 7242
+type(
+  exp
+)
+ident(
+  def x "lib/code.ml" 236 7228 7245 "lib/code.ml" 236 7228 7268
+)
+"lib/code.ml" 236 7228 7261 "lib/code.ml" 236 7228 7262
+type(
+  ident
+)
+ident(
+  int_ref f "lib/code.ml" 236 7228 7239 "lib/code.ml" 236 7228 7240
+)
+"lib/code.ml" 236 7228 7252 "lib/code.ml" 236 7228 7262
+type(
+  exp
+)
+"lib/code.ml" 236 7228 7265 "lib/code.ml" 236 7228 7266
+type(
+  exp
+)
+ident(
+  int_ref x "lib/code.ml" 236 7228 7241 "lib/code.ml" 236 7228 7242
+)
+"lib/code.ml" 236 7228 7264 "lib/code.ml" 236 7228 7267
+type(
+  exp list
+)
+"lib/code.ml" 236 7228 7245 "lib/code.ml" 236 7228 7268
+type(
+  exp
+)
+"lib/code.ml" 237 7269 7273 "lib/code.ml" 237 7269 7279
+type(
+  ident -> exp -> exp -> exp
+)
+ident(
+  def apply2 "lib/code.ml" 241 7370 7370 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 237 7269 7280 "lib/code.ml" 237 7269 7281
+type(
+  ident
+)
+ident(
+  def f "lib/code.ml" 237 7269 7282 "lib/code.ml" 237 7269 7314
+)
+"lib/code.ml" 237 7269 7282 "lib/code.ml" 237 7269 7283
+type(
+  exp
+)
+ident(
+  def x "lib/code.ml" 237 7269 7284 "lib/code.ml" 237 7269 7314
+)
+"lib/code.ml" 237 7269 7284 "lib/code.ml" 237 7269 7285
+type(
+  exp
+)
+ident(
+  def y "lib/code.ml" 237 7269 7288 "lib/code.ml" 237 7269 7314
+)
+"lib/code.ml" 237 7269 7304 "lib/code.ml" 237 7269 7305
+type(
+  ident
+)
+ident(
+  int_ref f "lib/code.ml" 237 7269 7280 "lib/code.ml" 237 7269 7281
+)
+"lib/code.ml" 237 7269 7295 "lib/code.ml" 237 7269 7305
+type(
+  exp
+)
+"lib/code.ml" 237 7269 7308 "lib/code.ml" 237 7269 7309
+type(
+  exp
+)
+ident(
+  int_ref x "lib/code.ml" 237 7269 7282 "lib/code.ml" 237 7269 7283
+)
+"lib/code.ml" 237 7269 7311 "lib/code.ml" 237 7269 7312
+type(
+  exp
+)
+ident(
+  int_ref y "lib/code.ml" 237 7269 7284 "lib/code.ml" 237 7269 7285
+)
+"lib/code.ml" 237 7269 7307 "lib/code.ml" 237 7269 7313
+type(
+  exp list
+)
+"lib/code.ml" 237 7269 7288 "lib/code.ml" 237 7269 7314
+type(
+  exp
+)
+"lib/code.ml" 238 7315 7319 "lib/code.ml" 238 7315 7325
+type(
+  ident -> exp -> exp -> exp -> exp
+)
+ident(
+  def apply3 "lib/code.ml" 241 7370 7370 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 238 7315 7326 "lib/code.ml" 238 7315 7327
+type(
+  ident
+)
+ident(
+  def f "lib/code.ml" 238 7315 7328 "lib/code.ml" 238 7315 7365
+)
+"lib/code.ml" 238 7315 7328 "lib/code.ml" 238 7315 7329
+type(
+  exp
+)
+ident(
+  def x "lib/code.ml" 238 7315 7330 "lib/code.ml" 238 7315 7365
+)
+"lib/code.ml" 238 7315 7330 "lib/code.ml" 238 7315 7331
+type(
+  exp
+)
+ident(
+  def y "lib/code.ml" 238 7315 7332 "lib/code.ml" 238 7315 7365
+)
+"lib/code.ml" 238 7315 7332 "lib/code.ml" 238 7315 7333
+type(
+  exp
+)
+ident(
+  def z "lib/code.ml" 238 7315 7336 "lib/code.ml" 238 7315 7365
+)
+"lib/code.ml" 238 7315 7352 "lib/code.ml" 238 7315 7353
+type(
+  ident
+)
+ident(
+  int_ref f "lib/code.ml" 238 7315 7326 "lib/code.ml" 238 7315 7327
+)
+"lib/code.ml" 238 7315 7343 "lib/code.ml" 238 7315 7353
+type(
+  exp
+)
+"lib/code.ml" 238 7315 7356 "lib/code.ml" 238 7315 7357
+type(
+  exp
+)
+ident(
+  int_ref x "lib/code.ml" 238 7315 7328 "lib/code.ml" 238 7315 7329
+)
+"lib/code.ml" 238 7315 7359 "lib/code.ml" 238 7315 7360
+type(
+  exp
+)
+ident(
+  int_ref y "lib/code.ml" 238 7315 7330 "lib/code.ml" 238 7315 7331
+)
+"lib/code.ml" 238 7315 7362 "lib/code.ml" 238 7315 7363
+type(
+  exp
+)
+ident(
+  int_ref z "lib/code.ml" 238 7315 7332 "lib/code.ml" 238 7315 7333
+)
+"lib/code.ml" 238 7315 7355 "lib/code.ml" 238 7315 7364
+type(
+  exp list
+)
+"lib/code.ml" 238 7315 7336 "lib/code.ml" 238 7315 7365
+type(
+  exp
+)
+"lib/code.ml" 241 7370 7374 "lib/code.ml" 241 7370 7385
+type(
+  exp -> iident -> exp -> exp
+)
+ident(
+  def infix_apply "lib/code.ml" 247 7493 7493 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 241 7370 7386 "lib/code.ml" 241 7370 7387
+type(
+  exp
+)
+ident(
+  def x "lib/code.ml" 241 7370 7388 "lib/code.ml" 241 7370 7409
+)
+"lib/code.ml" 241 7370 7388 "lib/code.ml" 241 7370 7389
+type(
+  iident
+)
+ident(
+  def f "lib/code.ml" 241 7370 7390 "lib/code.ml" 241 7370 7409
+)
+"lib/code.ml" 241 7370 7390 "lib/code.ml" 241 7370 7391
+type(
+  exp
+)
+ident(
+  def y "lib/code.ml" 241 7370 7394 "lib/code.ml" 241 7370 7409
+)
+"lib/code.ml" 241 7370 7401 "lib/code.ml" 241 7370 7402
+type(
+  exp
+)
+ident(
+  int_ref x "lib/code.ml" 241 7370 7386 "lib/code.ml" 241 7370 7387
+)
+"lib/code.ml" 241 7370 7404 "lib/code.ml" 241 7370 7405
+type(
+  iident
+)
+ident(
+  int_ref f "lib/code.ml" 241 7370 7388 "lib/code.ml" 241 7370 7389
+)
+"lib/code.ml" 241 7370 7407 "lib/code.ml" 241 7370 7408
+type(
+  exp
+)
+ident(
+  int_ref y "lib/code.ml" 241 7370 7390 "lib/code.ml" 241 7370 7391
+)
+"lib/code.ml" 241 7370 7394 "lib/code.ml" 241 7370 7409
+type(
+  exp
+)
+"lib/code.ml" 242 7410 7414 "lib/code.ml" 242 7410 7424
+type(
+  exp -> string -> exp -> exp
+)
+ident(
+  def infix_name "lib/code.ml" 247 7493 7493 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 242 7410 7425 "lib/code.ml" 242 7410 7426
+type(
+  exp
+)
+ident(
+  def x "lib/code.ml" 242 7410 7427 "lib/code.ml" 242 7410 7455
+)
+"lib/code.ml" 242 7410 7427 "lib/code.ml" 242 7410 7428
+type(
+  string
+)
+ident(
+  def f "lib/code.ml" 242 7410 7429 "lib/code.ml" 242 7410 7455
+)
+"lib/code.ml" 242 7410 7429 "lib/code.ml" 242 7410 7430
+type(
+  exp
+)
+ident(
+  def y "lib/code.ml" 242 7410 7433 "lib/code.ml" 242 7410 7455
+)
+"lib/code.ml" 242 7410 7440 "lib/code.ml" 242 7410 7441
+type(
+  exp
+)
+ident(
+  int_ref x "lib/code.ml" 242 7410 7425 "lib/code.ml" 242 7410 7426
+)
+"lib/code.ml" 242 7410 7450 "lib/code.ml" 242 7410 7451
+type(
+  string
+)
+ident(
+  int_ref f "lib/code.ml" 242 7410 7427 "lib/code.ml" 242 7410 7428
+)
+"lib/code.ml" 242 7410 7443 "lib/code.ml" 242 7410 7451
+type(
+  iident
+)
+"lib/code.ml" 242 7410 7453 "lib/code.ml" 242 7410 7454
+type(
+  exp
+)
+ident(
+  int_ref y "lib/code.ml" 242 7410 7429 "lib/code.ml" 242 7410 7430
+)
+"lib/code.ml" 242 7410 7433 "lib/code.ml" 242 7410 7455
+type(
+  exp
+)
+"lib/code.ml" 247 7493 7497 "lib/code.ml" 247 7493 7501
+type(
+  lident -> exp -> exp -> exp
+)
+ident(
+  def let0 "lib/code.ml" 253 7660 7660 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 247 7493 7502 "lib/code.ml" 247 7493 7503
+type(
+  lident
+)
+ident(
+  def x "lib/code.ml" 247 7493 7504 "lib/code.ml" 247 7493 7527
+)
+"lib/code.ml" 247 7493 7504 "lib/code.ml" 247 7493 7505
+type(
+  exp
+)
+ident(
+  def v "lib/code.ml" 247 7493 7506 "lib/code.ml" 247 7493 7527
+)
+"lib/code.ml" 247 7493 7506 "lib/code.ml" 247 7493 7507
+type(
+  exp
+)
+ident(
+  def b "lib/code.ml" 247 7493 7510 "lib/code.ml" 247 7493 7527
+)
+"lib/code.ml" 247 7493 7515 "lib/code.ml" 247 7493 7516
+type(
+  lident
+)
+ident(
+  int_ref x "lib/code.ml" 247 7493 7502 "lib/code.ml" 247 7493 7503
+)
+"lib/code.ml" 247 7493 7518 "lib/code.ml" 247 7493 7520
+type(
+  pattern list
+)
+"lib/code.ml" 247 7493 7522 "lib/code.ml" 247 7493 7523
+type(
+  exp
+)
+ident(
+  int_ref v "lib/code.ml" 247 7493 7504 "lib/code.ml" 247 7493 7505
+)
+"lib/code.ml" 247 7493 7525 "lib/code.ml" 247 7493 7526
+type(
+  exp
+)
+ident(
+  int_ref b "lib/code.ml" 247 7493 7506 "lib/code.ml" 247 7493 7507
+)
+"lib/code.ml" 247 7493 7510 "lib/code.ml" 247 7493 7527
+type(
+  exp
+)
+"lib/code.ml" 248 7528 7532 "lib/code.ml" 248 7528 7536
+type(
+  lident -> pattern -> exp -> exp -> exp
+)
+ident(
+  def let1 "lib/code.ml" 253 7660 7660 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 248 7528 7537 "lib/code.ml" 248 7528 7538
+type(
+  lident
+)
+ident(
+  def f "lib/code.ml" 248 7528 7539 "lib/code.ml" 248 7528 7565
+)
+"lib/code.ml" 248 7528 7539 "lib/code.ml" 248 7528 7540
+type(
+  pattern
+)
+ident(
+  def x "lib/code.ml" 248 7528 7541 "lib/code.ml" 248 7528 7565
+)
+"lib/code.ml" 248 7528 7541 "lib/code.ml" 248 7528 7542
+type(
+  exp
+)
+ident(
+  def v "lib/code.ml" 248 7528 7543 "lib/code.ml" 248 7528 7565
+)
+"lib/code.ml" 248 7528 7543 "lib/code.ml" 248 7528 7544
+type(
+  exp
+)
+ident(
+  def b "lib/code.ml" 248 7528 7547 "lib/code.ml" 248 7528 7565
+)
+"lib/code.ml" 248 7528 7552 "lib/code.ml" 248 7528 7553
+type(
+  lident
+)
+ident(
+  int_ref f "lib/code.ml" 248 7528 7537 "lib/code.ml" 248 7528 7538
+)
+"lib/code.ml" 248 7528 7556 "lib/code.ml" 248 7528 7557
+type(
+  pattern
+)
+ident(
+  int_ref x "lib/code.ml" 248 7528 7539 "lib/code.ml" 248 7528 7540
+)
+"lib/code.ml" 248 7528 7555 "lib/code.ml" 248 7528 7558
+type(
+  pattern list
+)
+"lib/code.ml" 248 7528 7560 "lib/code.ml" 248 7528 7561
+type(
+  exp
+)
+ident(
+  int_ref v "lib/code.ml" 248 7528 7541 "lib/code.ml" 248 7528 7542
+)
+"lib/code.ml" 248 7528 7563 "lib/code.ml" 248 7528 7564
+type(
+  exp
+)
+ident(
+  int_ref b "lib/code.ml" 248 7528 7543 "lib/code.ml" 248 7528 7544
+)
+"lib/code.ml" 248 7528 7547 "lib/code.ml" 248 7528 7565
+type(
+  exp
+)
+"lib/code.ml" 249 7566 7570 "lib/code.ml" 249 7566 7574
+type(
+  exp -> exp -> exp
+)
+ident(
+  def pair "lib/code.ml" 253 7660 7660 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 249 7566 7575 "lib/code.ml" 249 7566 7576
+type(
+  exp
+)
+ident(
+  def x "lib/code.ml" 249 7566 7577 "lib/code.ml" 249 7566 7593
+)
+"lib/code.ml" 249 7566 7577 "lib/code.ml" 249 7566 7578
+type(
+  exp
+)
+ident(
+  def y "lib/code.ml" 249 7566 7581 "lib/code.ml" 249 7566 7593
+)
+"lib/code.ml" 249 7566 7588 "lib/code.ml" 249 7566 7589
+type(
+  exp
+)
+ident(
+  int_ref x "lib/code.ml" 249 7566 7575 "lib/code.ml" 249 7566 7576
+)
+"lib/code.ml" 249 7566 7591 "lib/code.ml" 249 7566 7592
+type(
+  exp
+)
+ident(
+  int_ref y "lib/code.ml" 249 7566 7577 "lib/code.ml" 249 7566 7578
+)
+"lib/code.ml" 249 7566 7587 "lib/code.ml" 249 7566 7593
+type(
+  exp list
+)
+"lib/code.ml" 249 7566 7581 "lib/code.ml" 249 7566 7593
+type(
+  exp
+)
+"lib/code.ml" 250 7594 7598 "lib/code.ml" 250 7594 7609
+type(
+  string -> exp
+)
+ident(
+  def raise_error "lib/code.ml" 253 7660 7660 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 250 7594 7610 "lib/code.ml" 250 7594 7611
+type(
+  string
+)
+ident(
+  def s "lib/code.ml" 250 7594 7614 "lib/code.ml" 250 7594 7655
+)
+"lib/code.ml" 250 7594 7614 "lib/code.ml" 250 7594 7620
+type(
+  ident -> exp -> exp
+)
+ident(
+  int_ref apply1 "lib/code.ml" 236 7228 7232 "lib/code.ml" 236 7228 7238
+)
+"lib/code.ml" 250 7594 7629 "lib/code.ml" 250 7594 7636
+type(
+  string
+)
+"lib/code.ml" 250 7594 7621 "lib/code.ml" 250 7594 7637
+type(
+  ident
+)
+"lib/code.ml" 250 7594 7639 "lib/code.ml" 250 7594 7652
+type(
+  string -> exp
+)
+ident(
+  int_ref make_Constant "lib/code.ml" 111 3391 3395 "lib/code.ml" 111 3391 3408
+)
+"lib/code.ml" 250 7594 7653 "lib/code.ml" 250 7594 7654
+type(
+  string
+)
+ident(
+  int_ref s "lib/code.ml" 250 7594 7610 "lib/code.ml" 250 7594 7611
+)
+"lib/code.ml" 250 7594 7638 "lib/code.ml" 250 7594 7655
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 250 7594 7614 "lib/code.ml" 250 7594 7655
+call(
+  tail
+)
+type(
+  exp
+)
+"lib/code.ml" 253 7660 7664 "lib/code.ml" 253 7660 7685
+type(
+  exp
+)
+ident(
+  def division_by_absorbent "lib/code.ml" 257 7736 7736 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 254 7688 7690 "lib/code.ml" 254 7688 7703
+type(
+  string -> exp
+)
+ident(
+  int_ref make_Constant "lib/code.ml" 111 3391 3395 "lib/code.ml" 111 3391 3408
+)
+"lib/code.ml" 254 7688 7704 "lib/code.ml" 254 7688 7731
+type(
+  string
+)
+"lib/code.ml" 254 7688 7690 "lib/code.ml" 254 7688 7731
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 257 7736 7740 "lib/code.ml" 257 7736 7769
+type(
+  exp
+)
+ident(
+  def failure_division_by_absorbent "lib/code.ml" 261 7826 7826 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 258 7772 7774 "lib/code.ml" 258 7772 7780
+type(
+  ident -> exp -> exp
+)
+ident(
+  int_ref apply1 "lib/code.ml" 236 7228 7232 "lib/code.ml" 236 7228 7238
+)
+"lib/code.ml" 258 7772 7789 "lib/code.ml" 258 7772 7798
+type(
+  string
+)
+"lib/code.ml" 258 7772 7781 "lib/code.ml" 258 7772 7799
+type(
+  ident
+)
+"lib/code.ml" 258 7772 7800 "lib/code.ml" 258 7772 7821
+type(
+  exp
+)
+ident(
+  int_ref division_by_absorbent "lib/code.ml" 253 7660 7664 "lib/code.ml" 253 7660 7685
+)
+"lib/code.ml" 258 7772 7774 "lib/code.ml" 258 7772 7821
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 261 7826 7830 "lib/code.ml" 261 7826 7860
+type(
+  exp
+)
+ident(
+  def failwith_division_by_absorbent "lib/code.ml" 265 7923 7923 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 262 7863 7865 "lib/code.ml" 262 7863 7871
+type(
+  ident -> exp -> exp
+)
+ident(
+  int_ref apply1 "lib/code.ml" 236 7228 7232 "lib/code.ml" 236 7228 7238
+)
+"lib/code.ml" 262 7863 7880 "lib/code.ml" 262 7863 7887
+type(
+  string
+)
+"lib/code.ml" 262 7863 7872 "lib/code.ml" 262 7863 7888
+type(
+  ident
+)
+"lib/code.ml" 262 7863 7889 "lib/code.ml" 262 7863 7918
+type(
+  exp
+)
+ident(
+  int_ref failure_division_by_absorbent "lib/code.ml" 257 7736 7740 "lib/code.ml" 257 7736 7769
+)
+"lib/code.ml" 262 7863 7865 "lib/code.ml" 262 7863 7918
+call(
+  stack
+)
+type(
+  exp
+)
+"lib/code.ml" 265 7923 7927 "lib/code.ml" 265 7923 7935
+type(
+  exp -> exp -> exp
+)
+ident(
+  def sequence "lib/code.ml" 265 7923 7965 "lib/code.ml" 1 0 -1
+)
+"lib/code.ml" 265 7923 7936 "lib/code.ml" 265 7923 7938
+type(
+  exp
+)
+ident(
+  def e1 "lib/code.ml" 265 7923 7939 "lib/code.ml" 265 7923 7965
+)
+"lib/code.ml" 265 7923 7939 "lib/code.ml" 265 7923 7941
+type(
+  exp
+)
+ident(
+  def e2 "lib/code.ml" 265 7923 7944 "lib/code.ml" 265 7923 7965
+)
+"lib/code.ml" 265 7923 7954 "lib/code.ml" 265 7923 7956
+type(
+  exp
+)
+ident(
+  int_ref e1 "lib/code.ml" 265 7923 7936 "lib/code.ml" 265 7923 7938
+)
+"lib/code.ml" 265 7923 7958 "lib/code.ml" 265 7923 7960
+type(
+  exp
+)
+ident(
+  int_ref e2 "lib/code.ml" 265 7923 7939 "lib/code.ml" 265 7923 7941
+)
+"lib/code.ml" 265 7923 7962 "lib/code.ml" 265 7923 7964
+type(
+  exp list
+)
+"lib/code.ml" 265 7923 7944 "lib/code.ml" 265 7923 7965
+type(
+  exp
+)

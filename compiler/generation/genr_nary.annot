@@ -1,0 +1,937 @@
+"generation/genr_nary.ml" 27 1226 1230 "generation/genr_nary.ml" 27 1226 1248
+type(
+  'a -> Parsetree.relation -> Code.clause list
+)
+ident(
+  def genr_clauses_by_ap "generation/genr_nary.ml" 59 2070 2070 "generation/genr_nary.ml" 1 0 -1
+)
+"generation/genr_nary.ml" 27 1226 1249 "generation/genr_nary.ml" 27 1226 1254
+type(
+  'a
+)
+ident(
+  def _cdef "generation/genr_nary.ml" 33 1438 1440 "generation/genr_nary.ml" 56 1988 2065
+)
+"generation/genr_nary.ml" 33 1438 1449 "generation/genr_nary.ml" 33 1438 1457
+type(
+  Parsetree.relation
+)
+ident(
+  def relation "generation/genr_nary.ml" 35 1462 1464 "generation/genr_nary.ml" 56 1988 2065
+)
+"generation/genr_nary.ml" 35 1462 1470 "generation/genr_nary.ml" 35 1462 1478
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref relation "generation/genr_nary.ml" 33 1438 1449 "generation/genr_nary.ml" 33 1438 1457
+)
+"generation/genr_nary.ml" 35 1462 1470 "generation/genr_nary.ml" 35 1462 1488
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 37 1495 1508 "generation/genr_nary.ml" 37 1495 1511
+type(
+  Parsetree.pattern
+)
+ident(
+  def pat "generation/genr_nary.ml" 37 1495 1522 "generation/genr_nary.ml" 37 1495 1558
+)
+"generation/genr_nary.ml" 37 1495 1513 "generation/genr_nary.ml" 37 1495 1517
+type(
+  Parsetree.expression
+)
+ident(
+  def expr "generation/genr_nary.ml" 37 1495 1522 "generation/genr_nary.ml" 37 1495 1558
+)
+"generation/genr_nary.ml" 37 1495 1499 "generation/genr_nary.ml" 37 1495 1518
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 37 1495 1523 "generation/genr_nary.ml" 37 1495 1548
+type(
+  Parsetree.pattern -> Parsetree.expression -> Code.clause
+)
+ident(
+  ext_ref Genr_expression.genr_rule
+)
+"generation/genr_nary.ml" 37 1495 1549 "generation/genr_nary.ml" 37 1495 1552
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_nary.ml" 37 1495 1508 "generation/genr_nary.ml" 37 1495 1511
+)
+"generation/genr_nary.ml" 37 1495 1553 "generation/genr_nary.ml" 37 1495 1557
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref expr "generation/genr_nary.ml" 37 1495 1513 "generation/genr_nary.ml" 37 1495 1517
+)
+"generation/genr_nary.ml" 37 1495 1523 "generation/genr_nary.ml" 37 1495 1557
+call(
+  stack
+)
+type(
+  Code.clause
+)
+"generation/genr_nary.ml" 37 1495 1522 "generation/genr_nary.ml" 37 1495 1558
+type(
+  Code.clause list
+)
+"generation/genr_nary.ml" 39 1560 1579 "generation/genr_nary.ml" 39 1560 1580
+type(
+  Parsetree.structure_item
+)
+"generation/genr_nary.ml" 39 1560 1564 "generation/genr_nary.ml" 39 1560 1580
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 39 1560 1584 "generation/genr_nary.ml" 39 1560 1586
+type(
+  Code.clause list
+)
+"generation/genr_nary.ml" 42 1710 1725 "generation/genr_nary.ml" 42 1710 1726
+type(
+  Parsetree.rpo_precedence
+)
+"generation/genr_nary.ml" 42 1710 1714 "generation/genr_nary.ml" 42 1710 1726
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 42 1710 1730 "generation/genr_nary.ml" 42 1710 1732
+type(
+  Code.clause list
+)
+"generation/genr_nary.ml" 43 1733 1744 "generation/genr_nary.ml" 43 1733 1745
+type(
+  Parsetree.rpo_status
+)
+"generation/genr_nary.ml" 43 1733 1737 "generation/genr_nary.ml" 43 1733 1745
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 43 1733 1749 "generation/genr_nary.ml" 43 1733 1751
+type(
+  Code.clause list
+)
+"generation/genr_nary.ml" 44 1752 1768 "generation/genr_nary.ml" 44 1752 1769
+type(
+  Longident.t option
+)
+"generation/genr_nary.ml" 44 1752 1756 "generation/genr_nary.ml" 44 1752 1769
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 45 1770 1785 "generation/genr_nary.ml" 45 1770 1786
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nary.ml" 45 1770 1774 "generation/genr_nary.ml" 45 1770 1786
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 44 1752 1756 "generation/genr_nary.ml" 45 1770 1786
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 46 1787 1801 "generation/genr_nary.ml" 46 1787 1802
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nary.ml" 46 1787 1791 "generation/genr_nary.ml" 46 1787 1802
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 44 1752 1756 "generation/genr_nary.ml" 46 1787 1802
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 47 1803 1819 "generation/genr_nary.ml" 47 1803 1820
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nary.ml" 47 1803 1807 "generation/genr_nary.ml" 47 1803 1820
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 44 1752 1756 "generation/genr_nary.ml" 47 1803 1820
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 48 1821 1833 "generation/genr_nary.ml" 48 1821 1834
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nary.ml" 48 1821 1825 "generation/genr_nary.ml" 48 1821 1834
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 44 1752 1756 "generation/genr_nary.ml" 48 1821 1834
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 49 1835 1847 "generation/genr_nary.ml" 49 1835 1848
+type(
+  Parsetree.generator option
+)
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nary.ml" 49 1835 1839 "generation/genr_nary.ml" 49 1835 1848
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 44 1752 1756 "generation/genr_nary.ml" 49 1835 1848
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 50 1849 1866 "generation/genr_nary.ml" 50 1849 1867
+type(
+  Parsetree.distributivity_direction
+)
+type(
+  Parsetree.generator option
+)
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nary.ml" 50 1849 1853 "generation/genr_nary.ml" 50 1849 1867
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 44 1752 1756 "generation/genr_nary.ml" 50 1849 1867
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 51 1868 1882 "generation/genr_nary.ml" 51 1868 1883
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nary.ml" 51 1868 1872 "generation/genr_nary.ml" 51 1868 1883
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 44 1752 1756 "generation/genr_nary.ml" 51 1868 1883
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 52 1884 1898 "generation/genr_nary.ml" 52 1884 1899
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nary.ml" 52 1884 1888 "generation/genr_nary.ml" 52 1884 1899
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 44 1752 1756 "generation/genr_nary.ml" 52 1884 1899
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 53 1900 1926 "generation/genr_nary.ml" 53 1900 1927
+type(
+  Parsetree.generator
+)
+"generation/genr_nary.ml" 53 1900 1904 "generation/genr_nary.ml" 53 1900 1927
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 44 1752 1756 "generation/genr_nary.ml" 53 1900 1927
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 54 1928 1932 "generation/genr_nary.ml" 54 1928 1942
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 44 1752 1756 "generation/genr_nary.ml" 54 1928 1942
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nary.ml" 55 1946 1952 "generation/genr_nary.ml" 55 1946 1969
+type(
+  Location.t -> Check.error -> Code.clause list
+)
+ident(
+  ext_ref Check.raise_error
+)
+"generation/genr_nary.ml" 55 1946 1970 "generation/genr_nary.ml" 55 1946 1978
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref relation "generation/genr_nary.ml" 33 1438 1449 "generation/genr_nary.ml" 33 1438 1457
+)
+"generation/genr_nary.ml" 55 1946 1970 "generation/genr_nary.ml" 55 1946 1987
+type(
+  Location.t
+)
+"generation/genr_nary.ml" 56 1988 2017 "generation/genr_nary.ml" 56 1988 2064
+type(
+  string
+)
+"generation/genr_nary.ml" 56 1988 1996 "generation/genr_nary.ml" 56 1988 2065
+type(
+  Check.error
+)
+"generation/genr_nary.ml" 55 1946 1952 "generation/genr_nary.ml" 56 1988 2065
+call(
+  tail
+)
+type(
+  Code.clause list
+)
+"generation/genr_nary.ml" 35 1462 1464 "generation/genr_nary.ml" 56 1988 2065
+type(
+  Code.clause list
+)
+"generation/genr_nary.ml" 33 1438 1440 "generation/genr_nary.ml" 56 1988 2065
+type(
+  Parsetree.relation -> Code.clause list
+)
+"generation/genr_nary.ml" 59 2070 2074 "generation/genr_nary.ml" 59 2070 2086
+type(
+  ('a -> 'b list) -> 'a list -> 'b list -> 'b list
+)
+ident(
+  def flat_map_end "generation/genr_nary.ml" 69 2230 2230 "generation/genr_nary.ml" 1 0 -1
+)
+"generation/genr_nary.ml" 59 2070 2087 "generation/genr_nary.ml" 59 2070 2088
+type(
+  'a -> 'b list
+)
+ident(
+  def f "generation/genr_nary.ml" 59 2070 2089 "generation/genr_nary.ml" 66 2222 2225
+)
+"generation/genr_nary.ml" 59 2070 2089 "generation/genr_nary.ml" 59 2070 2090
+type(
+  'a list
+)
+ident(
+  def l "generation/genr_nary.ml" 59 2070 2091 "generation/genr_nary.ml" 66 2222 2225
+)
+"generation/genr_nary.ml" 59 2070 2091 "generation/genr_nary.ml" 59 2070 2095
+type(
+  'b list
+)
+ident(
+  def accu "generation/genr_nary.ml" 60 2098 2100 "generation/genr_nary.ml" 66 2222 2225
+)
+"generation/genr_nary.ml" 60 2098 2100 "generation/genr_nary.ml" 60 2098 2108
+type(
+  'b list -> 'b list
+)
+ident(
+  ext_ref List.rev
+)
+"generation/genr_nary.ml" 61 2111 2114 "generation/genr_nary.ml" 61 2111 2129
+type(
+  'b list -> 'b list -> 'b list
+)
+ident(
+  ext_ref List.rev_append
+)
+"generation/genr_nary.ml" 61 2111 2130 "generation/genr_nary.ml" 61 2111 2134
+type(
+  'b list
+)
+ident(
+  int_ref accu "generation/genr_nary.ml" 59 2070 2091 "generation/genr_nary.ml" 59 2070 2095
+)
+"generation/genr_nary.ml" 62 2135 2141 "generation/genr_nary.ml" 62 2135 2155
+type(
+  ('b list -> 'a -> 'b list) -> 'b list -> 'a list -> 'b list
+)
+ident(
+  ext_ref List.fold_left
+)
+"generation/genr_nary.ml" 63 2156 2168 "generation/genr_nary.ml" 63 2156 2170
+type(
+  'b list
+)
+ident(
+  def ll "generation/genr_nary.ml" 63 2156 2171 "generation/genr_nary.ml" 63 2156 2200
+)
+"generation/genr_nary.ml" 63 2156 2171 "generation/genr_nary.ml" 63 2156 2172
+type(
+  'a
+)
+ident(
+  def l "generation/genr_nary.ml" 63 2156 2176 "generation/genr_nary.ml" 63 2156 2200
+)
+"generation/genr_nary.ml" 63 2156 2176 "generation/genr_nary.ml" 63 2156 2191
+type(
+  'b list -> 'b list -> 'b list
+)
+ident(
+  ext_ref List.rev_append
+)
+"generation/genr_nary.ml" 63 2156 2193 "generation/genr_nary.ml" 63 2156 2194
+type(
+  'a -> 'b list
+)
+ident(
+  int_ref f "generation/genr_nary.ml" 59 2070 2087 "generation/genr_nary.ml" 59 2070 2088
+)
+"generation/genr_nary.ml" 63 2156 2195 "generation/genr_nary.ml" 63 2156 2196
+type(
+  'a
+)
+ident(
+  int_ref l "generation/genr_nary.ml" 63 2156 2171 "generation/genr_nary.ml" 63 2156 2172
+)
+"generation/genr_nary.ml" 63 2156 2192 "generation/genr_nary.ml" 63 2156 2197
+call(
+  stack
+)
+type(
+  'b list
+)
+"generation/genr_nary.ml" 63 2156 2198 "generation/genr_nary.ml" 63 2156 2200
+type(
+  'b list
+)
+ident(
+  int_ref ll "generation/genr_nary.ml" 63 2156 2168 "generation/genr_nary.ml" 63 2156 2170
+)
+"generation/genr_nary.ml" 63 2156 2176 "generation/genr_nary.ml" 63 2156 2200
+call(
+  tail
+)
+type(
+  'b list
+)
+"generation/genr_nary.ml" 63 2156 2163 "generation/genr_nary.ml" 63 2156 2201
+type(
+  'b list -> 'a -> 'b list
+)
+"generation/genr_nary.ml" 64 2202 2209 "generation/genr_nary.ml" 64 2202 2211
+type(
+  'b list
+)
+"generation/genr_nary.ml" 65 2212 2219 "generation/genr_nary.ml" 65 2212 2220
+type(
+  'a list
+)
+ident(
+  int_ref l "generation/genr_nary.ml" 59 2070 2089 "generation/genr_nary.ml" 59 2070 2090
+)
+"generation/genr_nary.ml" 62 2135 2140 "generation/genr_nary.ml" 65 2212 2221
+call(
+  stack
+)
+type(
+  'b list
+)
+"generation/genr_nary.ml" 60 2098 2109 "generation/genr_nary.ml" 66 2222 2225
+call(
+  stack
+)
+type(
+  'b list
+)
+"generation/genr_nary.ml" 60 2098 2100 "generation/genr_nary.ml" 66 2222 2225
+call(
+  tail
+)
+type(
+  'b list
+)
+"generation/genr_nary.ml" 69 2230 2234 "generation/genr_nary.ml" 69 2230 2254
+type(
+  Otype.constructor_definition -> Code.clause list -> Code.clause list
+)
+ident(
+  def clauses_of_generator "generation/genr_nary.ml" 78 2548 2548 "generation/genr_nary.ml" 1 0 -1
+)
+"generation/genr_nary.ml" 69 2230 2255 "generation/genr_nary.ml" 69 2230 2259
+type(
+  Otype.constructor_definition
+)
+ident(
+  def cdef "generation/genr_nary.ml" 69 2230 2260 "generation/genr_nary.ml" 75 2480 2543
+)
+"generation/genr_nary.ml" 69 2230 2260 "generation/genr_nary.ml" 69 2230 2275
+type(
+  Code.clause list
+)
+ident(
+  def default_clauses "generation/genr_nary.ml" 70 2278 2280 "generation/genr_nary.ml" 75 2480 2543
+)
+"generation/genr_nary.ml" 70 2278 2284 "generation/genr_nary.ml" 70 2278 2293
+type(
+  Parsetree.relations
+)
+ident(
+  def relations "generation/genr_nary.ml" 71 2322 2324 "generation/genr_nary.ml" 75 2480 2543
+)
+"generation/genr_nary.ml" 70 2278 2296 "generation/genr_nary.ml" 70 2278 2313
+type(
+  Otype.constructor_definition -> Parsetree.relations
+)
+ident(
+  ext_ref Otype.relations_of_cdef
+)
+"generation/genr_nary.ml" 70 2278 2314 "generation/genr_nary.ml" 70 2278 2318
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/genr_nary.ml" 69 2230 2255 "generation/genr_nary.ml" 69 2230 2259
+)
+"generation/genr_nary.ml" 70 2278 2296 "generation/genr_nary.ml" 70 2278 2318
+call(
+  stack
+)
+type(
+  Parsetree.relations
+)
+"generation/genr_nary.ml" 71 2322 2330 "generation/genr_nary.ml" 71 2322 2339
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "generation/genr_nary.ml" 70 2278 2284 "generation/genr_nary.ml" 70 2278 2293
+)
+"generation/genr_nary.ml" 71 2322 2330 "generation/genr_nary.ml" 71 2322 2350
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_nary.ml" 72 2356 2360 "generation/genr_nary.ml" 72 2356 2370
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_nary.ml" 72 2356 2389 "generation/genr_nary.ml" 72 2356 2390
+type(
+  Parsetree.relations
+)
+"generation/genr_nary.ml" 72 2356 2373 "generation/genr_nary.ml" 72 2356 2390
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_nary.ml" 72 2356 2360 "generation/genr_nary.ml" 72 2356 2390
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_nary.ml" 72 2356 2394 "generation/genr_nary.ml" 72 2356 2409
+type(
+  Code.clause list
+)
+ident(
+  int_ref default_clauses "generation/genr_nary.ml" 69 2230 2260 "generation/genr_nary.ml" 69 2230 2275
+)
+"generation/genr_nary.ml" 73 2410 2427 "generation/genr_nary.ml" 73 2410 2431
+type(
+  Parsetree.relation list
+)
+ident(
+  def rels "generation/genr_nary.ml" 74 2435 2439 "generation/genr_nary.ml" 75 2480 2543
+)
+"generation/genr_nary.ml" 73 2410 2414 "generation/genr_nary.ml" 73 2410 2431
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_nary.ml" 74 2435 2443 "generation/genr_nary.ml" 74 2435 2447
+type(
+  Parsetree.relation list
+)
+ident(
+  def rels "generation/genr_nary.ml" 75 2480 2484 "generation/genr_nary.ml" 75 2480 2543
+)
+"generation/genr_nary.ml" 74 2435 2450 "generation/genr_nary.ml" 74 2435 2460
+type(
+  (Parsetree.relation -> int) ->
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  ext_ref Genr_base.order_rels
+)
+"generation/genr_nary.ml" 74 2435 2461 "generation/genr_nary.ml" 74 2435 2471
+type(
+  Parsetree.relation -> int
+)
+ident(
+  ext_ref Relation.precedence
+)
+"generation/genr_nary.ml" 74 2435 2472 "generation/genr_nary.ml" 74 2435 2476
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rels "generation/genr_nary.ml" 73 2410 2427 "generation/genr_nary.ml" 73 2410 2431
+)
+"generation/genr_nary.ml" 74 2435 2450 "generation/genr_nary.ml" 74 2435 2476
+call(
+  stack
+)
+type(
+  Parsetree.relation list
+)
+"generation/genr_nary.ml" 75 2480 2484 "generation/genr_nary.ml" 75 2480 2496
+type(
+  (Parsetree.relation -> Code.clause list) ->
+  Parsetree.relation list -> Code.clause list -> Code.clause list
+)
+ident(
+  int_ref flat_map_end "generation/genr_nary.ml" 59 2070 2074 "generation/genr_nary.ml" 59 2070 2086
+)
+"generation/genr_nary.ml" 75 2480 2498 "generation/genr_nary.ml" 75 2480 2516
+type(
+  Otype.constructor_definition -> Parsetree.relation -> Code.clause list
+)
+ident(
+  int_ref genr_clauses_by_ap "generation/genr_nary.ml" 27 1226 1230 "generation/genr_nary.ml" 27 1226 1248
+)
+"generation/genr_nary.ml" 75 2480 2517 "generation/genr_nary.ml" 75 2480 2521
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/genr_nary.ml" 69 2230 2255 "generation/genr_nary.ml" 69 2230 2259
+)
+"generation/genr_nary.ml" 75 2480 2497 "generation/genr_nary.ml" 75 2480 2522
+call(
+  stack
+)
+type(
+  Parsetree.relation -> Code.clause list
+)
+"generation/genr_nary.ml" 75 2480 2523 "generation/genr_nary.ml" 75 2480 2527
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rels "generation/genr_nary.ml" 74 2435 2443 "generation/genr_nary.ml" 74 2435 2447
+)
+"generation/genr_nary.ml" 75 2480 2528 "generation/genr_nary.ml" 75 2480 2543
+type(
+  Code.clause list
+)
+ident(
+  int_ref default_clauses "generation/genr_nary.ml" 69 2230 2260 "generation/genr_nary.ml" 69 2230 2275
+)
+"generation/genr_nary.ml" 75 2480 2484 "generation/genr_nary.ml" 75 2480 2543
+call(
+  tail
+)
+type(
+  Code.clause list
+)
+"generation/genr_nary.ml" 74 2435 2439 "generation/genr_nary.ml" 75 2480 2543
+type(
+  Code.clause list
+)
+"generation/genr_nary.ml" 71 2322 2324 "generation/genr_nary.ml" 75 2480 2543
+type(
+  Code.clause list
+)
+"generation/genr_nary.ml" 70 2278 2280 "generation/genr_nary.ml" 75 2480 2543
+type(
+  Code.clause list
+)
+"generation/genr_nary.ml" 78 2548 2552 "generation/genr_nary.ml" 78 2548 2578
+type(
+  Otype.constructor_definition -> Genr_base.generated_function list
+)
+ident(
+  def genr_construction_function "generation/genr_nary.ml" 91 2961 2961 "generation/genr_nary.ml" 1 0 -1
+)
+"generation/genr_nary.ml" 78 2548 2579 "generation/genr_nary.ml" 78 2548 2583
+type(
+  Otype.constructor_definition
+)
+ident(
+  def cdef "generation/genr_nary.ml" 79 2586 2588 "generation/genr_nary.ml" 88 2910 2956
+)
+"generation/genr_nary.ml" 79 2586 2592 "generation/genr_nary.ml" 79 2586 2593
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_nary.ml" 80 2622 2624 "generation/genr_nary.ml" 88 2910 2956
+)
+"generation/genr_nary.ml" 79 2586 2596 "generation/genr_nary.ml" 79 2586 2613
+type(
+  Otype.constructor_definition -> Parsetree.generator
+)
+ident(
+  ext_ref Otype.generator_of_cdef
+)
+"generation/genr_nary.ml" 79 2586 2614 "generation/genr_nary.ml" 79 2586 2618
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/genr_nary.ml" 78 2548 2579 "generation/genr_nary.ml" 78 2548 2583
+)
+"generation/genr_nary.ml" 79 2586 2596 "generation/genr_nary.ml" 79 2586 2618
+call(
+  stack
+)
+type(
+  Parsetree.generator
+)
+"generation/genr_nary.ml" 80 2622 2628 "generation/genr_nary.ml" 80 2622 2632
+type(
+  Code.exp list
+)
+ident(
+  def args "generation/genr_nary.ml" 81 2642 2644 "generation/genr_nary.ml" 88 2910 2956
+)
+"generation/genr_nary.ml" 80 2622 2636 "generation/genr_nary.ml" 80 2622 2637
+type(
+  Code.exp
+)
+ident(
+  ext_ref Code.z
+)
+"generation/genr_nary.ml" 80 2622 2635 "generation/genr_nary.ml" 80 2622 2638
+type(
+  Code.exp list
+)
+"generation/genr_nary.ml" 81 2642 2648 "generation/genr_nary.ml" 81 2642 2652
+type(
+  Code.pattern list
+)
+ident(
+  def elts "generation/genr_nary.ml" 82 2698 2700 "generation/genr_nary.ml" 88 2910 2956
+)
+"generation/genr_nary.ml" 81 2642 2655 "generation/genr_nary.ml" 81 2642 2669
+type(
+  string -> int -> Code.pattern list
+)
+ident(
+  ext_ref Code.genr_args
+)
+"generation/genr_nary.ml" 81 2642 2670 "generation/genr_nary.ml" 81 2642 2673
+type(
+  string
+)
+"generation/genr_nary.ml" 81 2642 2675 "generation/genr_nary.ml" 81 2642 2688
+type(
+  Otype.constructor_definition -> int
+)
+ident(
+  ext_ref Otype.arity_of_cdef
+)
+"generation/genr_nary.ml" 81 2642 2689 "generation/genr_nary.ml" 81 2642 2693
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/genr_nary.ml" 78 2548 2579 "generation/genr_nary.ml" 78 2548 2583
+)
+"generation/genr_nary.ml" 81 2642 2674 "generation/genr_nary.ml" 81 2642 2694
+call(
+  stack
+)
+type(
+  int
+)
+"generation/genr_nary.ml" 81 2642 2655 "generation/genr_nary.ml" 81 2642 2694
+call(
+  stack
+)
+type(
+  Code.pattern list
+)
+"generation/genr_nary.ml" 82 2698 2704 "generation/genr_nary.ml" 82 2698 2719
+type(
+  Code.exp
+)
+ident(
+  def default_pattern "generation/genr_nary.ml" 84 2737 2739 "generation/genr_nary.ml" 88 2910 2956
+)
+"generation/genr_nary.ml" 82 2698 2728 "generation/genr_nary.ml" 82 2698 2732
+type(
+  Code.pattern list
+)
+ident(
+  int_ref elts "generation/genr_nary.ml" 81 2642 2648 "generation/genr_nary.ml" 81 2642 2652
+)
+"generation/genr_nary.ml" 82 2698 2722 "generation/genr_nary.ml" 82 2698 2732
+type(
+  Code.exp
+)
+"generation/genr_nary.ml" 84 2737 2743 "generation/genr_nary.ml" 84 2737 2757
+type(
+  Code.clause
+)
+ident(
+  def default_clause "generation/genr_nary.ml" 86 2847 2849 "generation/genr_nary.ml" 88 2910 2956
+)
+"generation/genr_nary.ml" 84 2737 2768 "generation/genr_nary.ml" 84 2737 2783
+type(
+  Code.pattern
+)
+ident(
+  int_ref default_pattern "generation/genr_nary.ml" 82 2698 2704 "generation/genr_nary.ml" 82 2698 2719
+)
+"generation/genr_nary.ml" 85 2785 2816 "generation/genr_nary.ml" 85 2785 2835
+type(
+  Parsetree.generator -> Code.pattern list -> Code.exp
+)
+ident(
+  ext_ref Genr_base.generator
+)
+"generation/genr_nary.ml" 85 2785 2836 "generation/genr_nary.ml" 85 2785 2837
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_nary.ml" 79 2586 2592 "generation/genr_nary.ml" 79 2586 2593
+)
+"generation/genr_nary.ml" 85 2785 2838 "generation/genr_nary.ml" 85 2785 2842
+type(
+  Code.pattern list
+)
+ident(
+  int_ref elts "generation/genr_nary.ml" 81 2642 2648 "generation/genr_nary.ml" 81 2642 2652
+)
+"generation/genr_nary.ml" 85 2785 2816 "generation/genr_nary.ml" 85 2785 2842
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_nary.ml" 84 2737 2760 "generation/genr_nary.ml" 85 2785 2843
+type(
+  Code.clause
+)
+"generation/genr_nary.ml" 86 2847 2853 "generation/genr_nary.ml" 86 2847 2860
+type(
+  Code.clause list
+)
+ident(
+  def clauses "generation/genr_nary.ml" 88 2910 2912 "generation/genr_nary.ml" 88 2910 2956
+)
+"generation/genr_nary.ml" 86 2847 2863 "generation/genr_nary.ml" 86 2847 2883
+type(
+  Otype.constructor_definition -> Code.clause list -> Code.clause list
+)
+ident(
+  int_ref clauses_of_generator "generation/genr_nary.ml" 69 2230 2234 "generation/genr_nary.ml" 69 2230 2254
+)
+"generation/genr_nary.ml" 86 2847 2884 "generation/genr_nary.ml" 86 2847 2888
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/genr_nary.ml" 78 2548 2579 "generation/genr_nary.ml" 78 2548 2583
+)
+"generation/genr_nary.ml" 86 2847 2890 "generation/genr_nary.ml" 86 2847 2904
+type(
+  Code.clause
+)
+ident(
+  int_ref default_clause "generation/genr_nary.ml" 84 2737 2743 "generation/genr_nary.ml" 84 2737 2757
+)
+"generation/genr_nary.ml" 86 2847 2889 "generation/genr_nary.ml" 86 2847 2905
+type(
+  Code.clause list
+)
+"generation/genr_nary.ml" 86 2847 2863 "generation/genr_nary.ml" 86 2847 2905
+call(
+  stack
+)
+type(
+  Code.clause list
+)
+"generation/genr_nary.ml" 88 2910 2927 "generation/genr_nary.ml" 88 2910 2928
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_nary.ml" 79 2586 2592 "generation/genr_nary.ml" 79 2586 2593
+)
+"generation/genr_nary.ml" 88 2910 2930 "generation/genr_nary.ml" 88 2910 2934
+type(
+  Code.pattern list
+)
+ident(
+  int_ref args "generation/genr_nary.ml" 80 2622 2628 "generation/genr_nary.ml" 80 2622 2632
+)
+"generation/genr_nary.ml" 88 2910 2943 "generation/genr_nary.ml" 88 2910 2944
+type(
+  Code.exp
+)
+ident(
+  ext_ref Code.z
+)
+"generation/genr_nary.ml" 88 2910 2946 "generation/genr_nary.ml" 88 2910 2953
+type(
+  Code.clauses
+)
+ident(
+  int_ref clauses "generation/genr_nary.ml" 86 2847 2853 "generation/genr_nary.ml" 86 2847 2860
+)
+"generation/genr_nary.ml" 88 2910 2936 "generation/genr_nary.ml" 88 2910 2954
+type(
+  Code.exp
+)
+"generation/genr_nary.ml" 88 2910 2913 "generation/genr_nary.ml" 88 2910 2955
+type(
+  Genr_base.generated_function
+)
+"generation/genr_nary.ml" 88 2910 2912 "generation/genr_nary.ml" 88 2910 2956
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_nary.ml" 86 2847 2849 "generation/genr_nary.ml" 88 2910 2956
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_nary.ml" 84 2737 2739 "generation/genr_nary.ml" 88 2910 2956
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_nary.ml" 82 2698 2700 "generation/genr_nary.ml" 88 2910 2956
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_nary.ml" 81 2642 2644 "generation/genr_nary.ml" 88 2910 2956
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_nary.ml" 80 2622 2624 "generation/genr_nary.ml" 88 2910 2956
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_nary.ml" 79 2586 2588 "generation/genr_nary.ml" 88 2910 2956
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_nary.ml" 91 2961 2965 "generation/genr_nary.ml" 91 2961 2978
+type(
+  Otype.constructor_definition -> Genr_base.generated_function list
+)
+ident(
+  def genr_function "generation/genr_nary.ml" 91 2961 3007 "generation/genr_nary.ml" 1 0 -1
+)
+"generation/genr_nary.ml" 91 2961 2981 "generation/genr_nary.ml" 91 2961 3007
+type(
+  Otype.constructor_definition -> Genr_base.generated_function list
+)
+ident(
+  int_ref genr_construction_function "generation/genr_nary.ml" 78 2548 2552 "generation/genr_nary.ml" 78 2548 2578
+)

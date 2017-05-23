@@ -1,0 +1,3960 @@
+"completion/norm_ml.ml" 28 1182 1186 "completion/norm_ml.ml" 28 1182 1209
+type(
+  string
+)
+ident(
+  def moca_normalization_file "completion/norm_ml.ml" 38 1438 1438 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 28 1182 1212 "completion/norm_ml.ml" 28 1182 1226
+type(
+  string
+)
+"completion/norm_ml.ml" 29 1227 1231 "completion/norm_ml.ml" 29 1227 1250
+type(
+  string
+)
+ident(
+  def moca_init_test_file "completion/norm_ml.ml" 38 1438 1438 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 29 1227 1253 "completion/norm_ml.ml" 29 1227 1267
+type(
+  string
+)
+"completion/norm_ml.ml" 30 1268 1272 "completion/norm_ml.ml" 30 1268 1284
+type(
+  string
+)
+ident(
+  def moca_outfile "completion/norm_ml.ml" 38 1438 1438 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 30 1268 1287 "completion/norm_ml.ml" 30 1268 1307
+type(
+  string
+)
+"completion/norm_ml.ml" 31 1308 1312 "completion/norm_ml.ml" 31 1308 1328
+type(
+  string
+)
+ident(
+  def moca_binary_exec "completion/norm_ml.ml" 38 1438 1438 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 31 1308 1331 "completion/norm_ml.ml" 31 1308 1342
+type(
+  string
+)
+"completion/norm_ml.ml" 38 1438 1442 "completion/norm_ml.ml" 38 1438 1458
+type(
+  Buffer.t -> Symb.symbol -> unit
+)
+ident(
+  def bprint_type_cons "completion/norm_ml.ml" 51 1780 1780 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 38 1438 1459 "completion/norm_ml.ml" 38 1438 1461
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 38 1438 1462 "completion/norm_ml.ml" 48 1765 1775
+)
+"completion/norm_ml.ml" 38 1438 1462 "completion/norm_ml.ml" 38 1438 1463
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/norm_ml.ml" 39 1466 1468 "completion/norm_ml.ml" 48 1765 1775
+)
+"completion/norm_ml.ml" 39 1466 1472 "completion/norm_ml.ml" 39 1466 1473
+type(
+  string
+)
+ident(
+  def s "completion/norm_ml.ml" 40 1498 1500 "completion/norm_ml.ml" 48 1765 1775
+)
+"completion/norm_ml.ml" 39 1466 1476 "completion/norm_ml.ml" 39 1466 1492
+type(
+  Symb.symbol -> string
+)
+ident(
+  ext_ref Symb.string_of_symbol
+)
+"completion/norm_ml.ml" 39 1466 1493 "completion/norm_ml.ml" 39 1466 1494
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/norm_ml.ml" 38 1438 1462 "completion/norm_ml.ml" 38 1438 1463
+)
+"completion/norm_ml.ml" 39 1466 1476 "completion/norm_ml.ml" 39 1466 1494
+call(
+  stack
+)
+type(
+  string
+)
+"completion/norm_ml.ml" 40 1498 1504 "completion/norm_ml.ml" 40 1498 1516
+type(
+  int
+)
+ident(
+  def symbol_arity "completion/norm_ml.ml" 41 1565 1567 "completion/norm_ml.ml" 48 1765 1775
+)
+"completion/norm_ml.ml" 40 1498 1519 "completion/norm_ml.ml" 40 1498 1532
+type(
+  Check.generator_info -> int
+)
+ident(
+  ext_ref Check.arity_of_info
+)
+"completion/norm_ml.ml" 40 1498 1534 "completion/norm_ml.ml" 40 1498 1558
+type(
+  string -> Check.generator_info
+)
+ident(
+  ext_ref Check.find_generator_name_info
+)
+"completion/norm_ml.ml" 40 1498 1559 "completion/norm_ml.ml" 40 1498 1560
+type(
+  string
+)
+ident(
+  int_ref s "completion/norm_ml.ml" 39 1466 1472 "completion/norm_ml.ml" 39 1466 1473
+)
+"completion/norm_ml.ml" 40 1498 1533 "completion/norm_ml.ml" 40 1498 1561
+call(
+  stack
+)
+type(
+  Check.generator_info
+)
+"completion/norm_ml.ml" 40 1498 1519 "completion/norm_ml.ml" 40 1498 1561
+call(
+  stack
+)
+type(
+  int
+)
+"completion/norm_ml.ml" 41 1565 1573 "completion/norm_ml.ml" 41 1565 1585
+type(
+  int
+)
+ident(
+  int_ref symbol_arity "completion/norm_ml.ml" 40 1498 1504 "completion/norm_ml.ml" 40 1498 1516
+)
+"completion/norm_ml.ml" 42 1592 1598 "completion/norm_ml.ml" 42 1592 1599
+type(
+  int
+)
+"completion/norm_ml.ml" 42 1592 1603 "completion/norm_ml.ml" 42 1592 1610
+type(
+  Buffer.t -> (string -> unit, Buffer.t, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 42 1592 1611 "completion/norm_ml.ml" 42 1592 1613
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 38 1438 1459 "completion/norm_ml.ml" 38 1438 1461
+)
+"completion/norm_ml.ml" 42 1592 1614 "completion/norm_ml.ml" 42 1592 1621
+type(
+  (string -> unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 42 1592 1622 "completion/norm_ml.ml" 42 1592 1623
+type(
+  string
+)
+ident(
+  int_ref s "completion/norm_ml.ml" 39 1466 1472 "completion/norm_ml.ml" 39 1466 1473
+)
+"completion/norm_ml.ml" 42 1592 1603 "completion/norm_ml.ml" 42 1592 1623
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 43 1624 1630 "completion/norm_ml.ml" 43 1624 1631
+type(
+  int
+)
+"completion/norm_ml.ml" 43 1624 1635 "completion/norm_ml.ml" 43 1624 1642
+type(
+  Buffer.t -> (string -> unit, Buffer.t, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 43 1624 1643 "completion/norm_ml.ml" 43 1624 1645
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 38 1438 1459 "completion/norm_ml.ml" 38 1438 1461
+)
+"completion/norm_ml.ml" 43 1624 1646 "completion/norm_ml.ml" 43 1624 1657
+type(
+  (string -> unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 43 1624 1658 "completion/norm_ml.ml" 43 1624 1659
+type(
+  string
+)
+ident(
+  int_ref s "completion/norm_ml.ml" 39 1466 1472 "completion/norm_ml.ml" 39 1466 1473
+)
+"completion/norm_ml.ml" 43 1624 1635 "completion/norm_ml.ml" 43 1624 1659
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 44 1660 1666 "completion/norm_ml.ml" 44 1660 1667
+type(
+  int
+)
+"completion/norm_ml.ml" 45 1671 1677 "completion/norm_ml.ml" 45 1671 1684
+type(
+  Buffer.t -> (string -> unit, Buffer.t, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 45 1671 1685 "completion/norm_ml.ml" 45 1671 1687
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 38 1438 1459 "completion/norm_ml.ml" 38 1438 1461
+)
+"completion/norm_ml.ml" 45 1671 1688 "completion/norm_ml.ml" 45 1671 1699
+type(
+  (string -> unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 45 1671 1700 "completion/norm_ml.ml" 45 1671 1701
+type(
+  string
+)
+ident(
+  int_ref s "completion/norm_ml.ml" 39 1466 1472 "completion/norm_ml.ml" 39 1466 1473
+)
+"completion/norm_ml.ml" 45 1671 1677 "completion/norm_ml.ml" 45 1671 1701
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 46 1703 1718 "completion/norm_ml.ml" 46 1703 1719
+type(
+  int
+)
+"completion/norm_ml.ml" 46 1703 1723 "completion/norm_ml.ml" 46 1703 1735
+type(
+  int
+)
+ident(
+  int_ref symbol_arity "completion/norm_ml.ml" 40 1498 1504 "completion/norm_ml.ml" 40 1498 1516
+)
+"completion/norm_ml.ml" 47 1739 1747 "completion/norm_ml.ml" 47 1739 1754
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 47 1739 1755 "completion/norm_ml.ml" 47 1739 1757
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 38 1438 1459 "completion/norm_ml.ml" 38 1438 1461
+)
+"completion/norm_ml.ml" 47 1739 1758 "completion/norm_ml.ml" 47 1739 1764
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 47 1739 1747 "completion/norm_ml.ml" 47 1739 1764
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 46 1703 1709 "completion/norm_ml.ml" 48 1765 1775
+type(
+  unit
+)
+"completion/norm_ml.ml" 45 1671 1677 "completion/norm_ml.ml" 48 1765 1775
+type(
+  unit
+)
+"completion/norm_ml.ml" 41 1565 1567 "completion/norm_ml.ml" 48 1765 1775
+type(
+  unit
+)
+"completion/norm_ml.ml" 40 1498 1500 "completion/norm_ml.ml" 48 1765 1775
+type(
+  unit
+)
+"completion/norm_ml.ml" 39 1466 1468 "completion/norm_ml.ml" 48 1765 1775
+type(
+  unit
+)
+"completion/norm_ml.ml" 51 1780 1784 "completion/norm_ml.ml" 51 1780 1795
+type(
+  Buffer.t -> Symb.SymbolSet.t -> unit
+)
+ident(
+  def bprint_type "completion/norm_ml.ml" 60 2024 2024 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 51 1780 1796 "completion/norm_ml.ml" 51 1780 1798
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 51 1780 1799 "completion/norm_ml.ml" 54 1892 1909
+)
+"completion/norm_ml.ml" 51 1780 1799 "completion/norm_ml.ml" 51 1780 1804
+type(
+  Symb.SymbolSet.t
+)
+ident(
+  def symbs "completion/norm_ml.ml" 52 1807 1809 "completion/norm_ml.ml" 54 1892 1909
+)
+"completion/norm_ml.ml" 52 1807 1809 "completion/norm_ml.ml" 52 1807 1816
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 52 1807 1817 "completion/norm_ml.ml" 52 1807 1819
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 51 1780 1796 "completion/norm_ml.ml" 51 1780 1798
+)
+"completion/norm_ml.ml" 52 1807 1820 "completion/norm_ml.ml" 52 1807 1844
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 52 1807 1809 "completion/norm_ml.ml" 52 1807 1844
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 53 1846 1848 "completion/norm_ml.ml" 53 1846 1862
+type(
+  (Symb.SymbolSet.elt -> unit) -> Symb.SymbolSet.t -> unit
+)
+ident(
+  ext_ref Symb.SymbolSet.iter
+)
+"completion/norm_ml.ml" 53 1846 1864 "completion/norm_ml.ml" 53 1846 1880
+type(
+  Buffer.t -> Symb.SymbolSet.elt -> unit
+)
+ident(
+  int_ref bprint_type_cons "completion/norm_ml.ml" 38 1438 1442 "completion/norm_ml.ml" 38 1438 1458
+)
+"completion/norm_ml.ml" 53 1846 1881 "completion/norm_ml.ml" 53 1846 1883
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 51 1780 1796 "completion/norm_ml.ml" 51 1780 1798
+)
+"completion/norm_ml.ml" 53 1846 1863 "completion/norm_ml.ml" 53 1846 1884
+call(
+  stack
+)
+type(
+  Symb.SymbolSet.elt -> unit
+)
+"completion/norm_ml.ml" 53 1846 1885 "completion/norm_ml.ml" 53 1846 1890
+type(
+  Symb.SymbolSet.t
+)
+ident(
+  int_ref symbs "completion/norm_ml.ml" 51 1780 1799 "completion/norm_ml.ml" 51 1780 1804
+)
+"completion/norm_ml.ml" 53 1846 1848 "completion/norm_ml.ml" 53 1846 1890
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 54 1892 1894 "completion/norm_ml.ml" 54 1892 1901
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 54 1892 1902 "completion/norm_ml.ml" 54 1892 1904
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 51 1780 1796 "completion/norm_ml.ml" 51 1780 1798
+)
+"completion/norm_ml.ml" 54 1892 1905 "completion/norm_ml.ml" 54 1892 1909
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 54 1892 1894 "completion/norm_ml.ml" 54 1892 1909
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 53 1846 1848 "completion/norm_ml.ml" 54 1892 1909
+type(
+  unit
+)
+"completion/norm_ml.ml" 52 1807 1809 "completion/norm_ml.ml" 54 1892 1909
+type(
+  unit
+)
+"completion/norm_ml.ml" 60 2024 2032 "completion/norm_ml.ml" 60 2024 2046
+type(
+  Buffer.t -> Term.term -> unit
+)
+ident(
+  def bprint_pattern "completion/norm_ml.ml" 60 2024 2024 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 60 2024 2047 "completion/norm_ml.ml" 60 2024 2049
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 60 2024 2052 "completion/norm_ml.ml" 63 2112 2173
+)
+"completion/norm_ml.ml" 61 2061 2069 "completion/norm_ml.ml" 61 2061 2070
+type(
+  Var.var
+)
+ident(
+  def i "completion/norm_ml.ml" 61 2061 2074 "completion/norm_ml.ml" 61 2061 2092
+)
+"completion/norm_ml.ml" 61 2061 2065 "completion/norm_ml.ml" 61 2061 2070
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 61 2061 2074 "completion/norm_ml.ml" 61 2061 2081
+type(
+  Buffer.t -> (Var.var -> unit, Buffer.t, unit) format -> Var.var -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 61 2061 2082 "completion/norm_ml.ml" 61 2061 2084
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 60 2024 2047 "completion/norm_ml.ml" 60 2024 2049
+)
+"completion/norm_ml.ml" 61 2061 2085 "completion/norm_ml.ml" 61 2061 2090
+type(
+  (Var.var -> unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 61 2061 2091 "completion/norm_ml.ml" 61 2061 2092
+type(
+  Var.var
+)
+ident(
+  int_ref i "completion/norm_ml.ml" 61 2061 2069 "completion/norm_ml.ml" 61 2061 2070
+)
+"completion/norm_ml.ml" 61 2061 2074 "completion/norm_ml.ml" 61 2061 2092
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 62 2093 2102 "completion/norm_ml.ml" 62 2093 2103
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/norm_ml.ml" 63 2112 2116 "completion/norm_ml.ml" 63 2112 2173
+)
+"completion/norm_ml.ml" 62 2093 2105 "completion/norm_ml.ml" 62 2093 2107
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/norm_ml.ml" 63 2112 2116 "completion/norm_ml.ml" 63 2112 2173
+)
+"completion/norm_ml.ml" 62 2093 2097 "completion/norm_ml.ml" 62 2093 2108
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 63 2112 2116 "completion/norm_ml.ml" 63 2112 2123
+type(
+  Buffer.t ->
+  (string -> (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit,
+   Buffer.t, unit)
+  format ->
+  string -> (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 63 2112 2124 "completion/norm_ml.ml" 63 2112 2126
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 60 2024 2047 "completion/norm_ml.ml" 60 2024 2049
+)
+"completion/norm_ml.ml" 63 2112 2127 "completion/norm_ml.ml" 63 2112 2133
+type(
+  (string -> (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit,
+   Buffer.t, unit)
+  format
+)
+"completion/norm_ml.ml" 63 2112 2135 "completion/norm_ml.ml" 63 2112 2151
+type(
+  Symb.symbol -> string
+)
+ident(
+  ext_ref Symb.string_of_symbol
+)
+"completion/norm_ml.ml" 63 2112 2152 "completion/norm_ml.ml" 63 2112 2153
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/norm_ml.ml" 62 2093 2102 "completion/norm_ml.ml" 62 2093 2103
+)
+"completion/norm_ml.ml" 63 2112 2134 "completion/norm_ml.ml" 63 2112 2154
+call(
+  stack
+)
+type(
+  string
+)
+"completion/norm_ml.ml" 63 2112 2155 "completion/norm_ml.ml" 63 2112 2170
+type(
+  Buffer.t -> Term.term list -> unit
+)
+ident(
+  int_ref bprint_patterns "completion/norm_ml.ml" 65 2175 2179 "completion/norm_ml.ml" 65 2175 2194
+)
+"completion/norm_ml.ml" 63 2112 2171 "completion/norm_ml.ml" 63 2112 2173
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/norm_ml.ml" 62 2093 2105 "completion/norm_ml.ml" 62 2093 2107
+)
+"completion/norm_ml.ml" 63 2112 2116 "completion/norm_ml.ml" 63 2112 2173
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 60 2024 2052 "completion/norm_ml.ml" 63 2112 2173
+type(
+  Term.term -> unit
+)
+"completion/norm_ml.ml" 65 2175 2179 "completion/norm_ml.ml" 65 2175 2194
+type(
+  Buffer.t -> Term.term list -> unit
+)
+ident(
+  def bprint_patterns "completion/norm_ml.ml" 60 2024 2024 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 65 2175 2195 "completion/norm_ml.ml" 65 2175 2197
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 65 2175 2200 "completion/norm_ml.ml" 69 2282 2347
+)
+"completion/norm_ml.ml" 66 2209 2213 "completion/norm_ml.ml" 66 2209 2215
+type(
+  Term.term list
+)
+"completion/norm_ml.ml" 66 2209 2219 "completion/norm_ml.ml" 66 2209 2221
+type(
+  unit
+)
+"completion/norm_ml.ml" 67 2222 2227 "completion/norm_ml.ml" 67 2222 2228
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm_ml.ml" 67 2222 2233 "completion/norm_ml.ml" 67 2222 2266
+)
+"completion/norm_ml.ml" 67 2222 2226 "completion/norm_ml.ml" 67 2222 2229
+type(
+  Term.term list
+)
+"completion/norm_ml.ml" 67 2222 2233 "completion/norm_ml.ml" 67 2222 2240
+type(
+  Buffer.t ->
+  ((Buffer.t -> Term.term -> unit) -> Term.term -> unit, Buffer.t, unit)
+  format -> (Buffer.t -> Term.term -> unit) -> Term.term -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 67 2222 2241 "completion/norm_ml.ml" 67 2222 2243
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 65 2175 2195 "completion/norm_ml.ml" 65 2175 2197
+)
+"completion/norm_ml.ml" 67 2222 2244 "completion/norm_ml.ml" 67 2222 2249
+type(
+  ((Buffer.t -> Term.term -> unit) -> Term.term -> unit, Buffer.t, unit)
+  format
+)
+"completion/norm_ml.ml" 67 2222 2250 "completion/norm_ml.ml" 67 2222 2264
+type(
+  Buffer.t -> Term.term -> unit
+)
+ident(
+  int_ref bprint_pattern "completion/norm_ml.ml" 60 2024 2032 "completion/norm_ml.ml" 60 2024 2046
+)
+"completion/norm_ml.ml" 67 2222 2265 "completion/norm_ml.ml" 67 2222 2266
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm_ml.ml" 67 2222 2227 "completion/norm_ml.ml" 67 2222 2228
+)
+"completion/norm_ml.ml" 67 2222 2233 "completion/norm_ml.ml" 67 2222 2266
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 68 2267 2271 "completion/norm_ml.ml" 68 2267 2272
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm_ml.ml" 69 2282 2286 "completion/norm_ml.ml" 69 2282 2347
+)
+"completion/norm_ml.ml" 68 2267 2276 "completion/norm_ml.ml" 68 2267 2278
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/norm_ml.ml" 69 2282 2286 "completion/norm_ml.ml" 69 2282 2347
+)
+"completion/norm_ml.ml" 68 2267 2271 "completion/norm_ml.ml" 68 2267 2278
+type(
+  Term.term list
+)
+"completion/norm_ml.ml" 69 2282 2286 "completion/norm_ml.ml" 69 2282 2293
+type(
+  Buffer.t ->
+  ((Buffer.t -> Term.term -> unit) ->
+   Term.term ->
+   (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit, Buffer.t,
+   unit)
+  format ->
+  (Buffer.t -> Term.term -> unit) ->
+  Term.term -> (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 69 2282 2294 "completion/norm_ml.ml" 69 2282 2296
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 65 2175 2195 "completion/norm_ml.ml" 65 2175 2197
+)
+"completion/norm_ml.ml" 69 2282 2297 "completion/norm_ml.ml" 69 2282 2305
+type(
+  ((Buffer.t -> Term.term -> unit) ->
+   Term.term ->
+   (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit, Buffer.t,
+   unit)
+  format
+)
+"completion/norm_ml.ml" 69 2282 2306 "completion/norm_ml.ml" 69 2282 2320
+type(
+  Buffer.t -> Term.term -> unit
+)
+ident(
+  int_ref bprint_pattern "completion/norm_ml.ml" 60 2024 2032 "completion/norm_ml.ml" 60 2024 2046
+)
+"completion/norm_ml.ml" 69 2282 2321 "completion/norm_ml.ml" 69 2282 2322
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm_ml.ml" 68 2267 2271 "completion/norm_ml.ml" 68 2267 2272
+)
+"completion/norm_ml.ml" 69 2282 2323 "completion/norm_ml.ml" 69 2282 2344
+type(
+  Buffer.t -> Term.term list -> unit
+)
+ident(
+  int_ref bprint_patterns_comma "completion/norm_ml.ml" 71 2349 2353 "completion/norm_ml.ml" 71 2349 2374
+)
+"completion/norm_ml.ml" 69 2282 2345 "completion/norm_ml.ml" 69 2282 2347
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/norm_ml.ml" 68 2267 2276 "completion/norm_ml.ml" 68 2267 2278
+)
+"completion/norm_ml.ml" 69 2282 2286 "completion/norm_ml.ml" 69 2282 2347
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 65 2175 2200 "completion/norm_ml.ml" 69 2282 2347
+type(
+  Term.term list -> unit
+)
+"completion/norm_ml.ml" 71 2349 2353 "completion/norm_ml.ml" 71 2349 2374
+type(
+  Buffer.t -> Term.term list -> unit
+)
+ident(
+  def bprint_patterns_comma "completion/norm_ml.ml" 60 2024 2024 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 71 2349 2375 "completion/norm_ml.ml" 71 2349 2377
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 71 2349 2380 "completion/norm_ml.ml" 74 2417 2481
+)
+"completion/norm_ml.ml" 72 2389 2393 "completion/norm_ml.ml" 72 2389 2395
+type(
+  Term.term list
+)
+"completion/norm_ml.ml" 72 2389 2399 "completion/norm_ml.ml" 72 2389 2401
+type(
+  unit
+)
+"completion/norm_ml.ml" 73 2402 2406 "completion/norm_ml.ml" 73 2402 2407
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm_ml.ml" 74 2417 2421 "completion/norm_ml.ml" 74 2417 2481
+)
+"completion/norm_ml.ml" 73 2402 2411 "completion/norm_ml.ml" 73 2402 2413
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/norm_ml.ml" 74 2417 2421 "completion/norm_ml.ml" 74 2417 2481
+)
+"completion/norm_ml.ml" 73 2402 2406 "completion/norm_ml.ml" 73 2402 2413
+type(
+  Term.term list
+)
+"completion/norm_ml.ml" 74 2417 2421 "completion/norm_ml.ml" 74 2417 2428
+type(
+  Buffer.t ->
+  ((Buffer.t -> Term.term -> unit) ->
+   Term.term ->
+   (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit, Buffer.t,
+   unit)
+  format ->
+  (Buffer.t -> Term.term -> unit) ->
+  Term.term -> (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 74 2417 2429 "completion/norm_ml.ml" 74 2417 2431
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 71 2349 2375 "completion/norm_ml.ml" 71 2349 2377
+)
+"completion/norm_ml.ml" 74 2417 2432 "completion/norm_ml.ml" 74 2417 2439
+type(
+  ((Buffer.t -> Term.term -> unit) ->
+   Term.term ->
+   (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit, Buffer.t,
+   unit)
+  format
+)
+"completion/norm_ml.ml" 74 2417 2440 "completion/norm_ml.ml" 74 2417 2454
+type(
+  Buffer.t -> Term.term -> unit
+)
+ident(
+  int_ref bprint_pattern "completion/norm_ml.ml" 60 2024 2032 "completion/norm_ml.ml" 60 2024 2046
+)
+"completion/norm_ml.ml" 74 2417 2455 "completion/norm_ml.ml" 74 2417 2456
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm_ml.ml" 73 2402 2406 "completion/norm_ml.ml" 73 2402 2407
+)
+"completion/norm_ml.ml" 74 2417 2457 "completion/norm_ml.ml" 74 2417 2478
+type(
+  Buffer.t -> Term.term list -> unit
+)
+ident(
+  int_ref bprint_patterns_comma "completion/norm_ml.ml" 71 2349 2353 "completion/norm_ml.ml" 71 2349 2374
+)
+"completion/norm_ml.ml" 74 2417 2479 "completion/norm_ml.ml" 74 2417 2481
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/norm_ml.ml" 73 2402 2411 "completion/norm_ml.ml" 73 2402 2413
+)
+"completion/norm_ml.ml" 74 2417 2421 "completion/norm_ml.ml" 74 2417 2481
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 71 2349 2380 "completion/norm_ml.ml" 74 2417 2481
+type(
+  Term.term list -> unit
+)
+"completion/norm_ml.ml" 77 2486 2494 "completion/norm_ml.ml" 77 2486 2511
+type(
+  Buffer.t -> (int * int) list -> unit
+)
+ident(
+  def bprint_conditions "completion/norm_ml.ml" 77 2486 2486 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 77 2486 2512 "completion/norm_ml.ml" 77 2486 2514
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 77 2486 2517 "completion/norm_ml.ml" 80 2559 2622
+)
+"completion/norm_ml.ml" 78 2526 2530 "completion/norm_ml.ml" 78 2526 2532
+type(
+  (int * int) list
+)
+"completion/norm_ml.ml" 78 2526 2536 "completion/norm_ml.ml" 78 2526 2538
+type(
+  unit
+)
+"completion/norm_ml.ml" 79 2539 2544 "completion/norm_ml.ml" 79 2539 2545
+type(
+  int
+)
+ident(
+  def x "completion/norm_ml.ml" 80 2559 2563 "completion/norm_ml.ml" 80 2559 2622
+)
+"completion/norm_ml.ml" 79 2539 2547 "completion/norm_ml.ml" 79 2539 2548
+type(
+  int
+)
+ident(
+  def y "completion/norm_ml.ml" 80 2559 2563 "completion/norm_ml.ml" 80 2559 2622
+)
+"completion/norm_ml.ml" 79 2539 2543 "completion/norm_ml.ml" 79 2539 2549
+type(
+  int * int
+)
+"completion/norm_ml.ml" 79 2539 2553 "completion/norm_ml.ml" 79 2539 2555
+type(
+  (int * int) list
+)
+ident(
+  def cs "completion/norm_ml.ml" 80 2559 2563 "completion/norm_ml.ml" 80 2559 2622
+)
+"completion/norm_ml.ml" 79 2539 2543 "completion/norm_ml.ml" 79 2539 2555
+type(
+  (int * int) list
+)
+"completion/norm_ml.ml" 80 2559 2563 "completion/norm_ml.ml" 80 2559 2570
+type(
+  Buffer.t ->
+  (int ->
+   int -> (Buffer.t -> (int * int) list -> unit) -> (int * int) list -> unit,
+   Buffer.t, unit)
+  format ->
+  int ->
+  int -> (Buffer.t -> (int * int) list -> unit) -> (int * int) list -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 80 2559 2571 "completion/norm_ml.ml" 80 2559 2573
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 77 2486 2512 "completion/norm_ml.ml" 77 2486 2514
+)
+"completion/norm_ml.ml" 80 2559 2574 "completion/norm_ml.ml" 80 2559 2593
+type(
+  (int ->
+   int -> (Buffer.t -> (int * int) list -> unit) -> (int * int) list -> unit,
+   Buffer.t, unit)
+  format
+)
+"completion/norm_ml.ml" 80 2559 2594 "completion/norm_ml.ml" 80 2559 2595
+type(
+  int
+)
+ident(
+  int_ref x "completion/norm_ml.ml" 79 2539 2544 "completion/norm_ml.ml" 79 2539 2545
+)
+"completion/norm_ml.ml" 80 2559 2596 "completion/norm_ml.ml" 80 2559 2597
+type(
+  int
+)
+ident(
+  int_ref y "completion/norm_ml.ml" 79 2539 2547 "completion/norm_ml.ml" 79 2539 2548
+)
+"completion/norm_ml.ml" 80 2559 2598 "completion/norm_ml.ml" 80 2559 2619
+type(
+  Buffer.t -> (int * int) list -> unit
+)
+ident(
+  int_ref bprint_conditions_and "completion/norm_ml.ml" 82 2624 2628 "completion/norm_ml.ml" 82 2624 2649
+)
+"completion/norm_ml.ml" 80 2559 2620 "completion/norm_ml.ml" 80 2559 2622
+type(
+  (int * int) list
+)
+ident(
+  int_ref cs "completion/norm_ml.ml" 79 2539 2553 "completion/norm_ml.ml" 79 2539 2555
+)
+"completion/norm_ml.ml" 80 2559 2563 "completion/norm_ml.ml" 80 2559 2622
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 77 2486 2517 "completion/norm_ml.ml" 80 2559 2622
+type(
+  (int * int) list -> unit
+)
+"completion/norm_ml.ml" 82 2624 2628 "completion/norm_ml.ml" 82 2624 2649
+type(
+  Buffer.t -> (int * int) list -> unit
+)
+ident(
+  def bprint_conditions_and "completion/norm_ml.ml" 77 2486 2486 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 82 2624 2650 "completion/norm_ml.ml" 82 2624 2652
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 82 2624 2655 "completion/norm_ml.ml" 85 2697 2758
+)
+"completion/norm_ml.ml" 83 2664 2668 "completion/norm_ml.ml" 83 2664 2670
+type(
+  (int * int) list
+)
+"completion/norm_ml.ml" 83 2664 2674 "completion/norm_ml.ml" 83 2664 2676
+type(
+  unit
+)
+"completion/norm_ml.ml" 84 2677 2682 "completion/norm_ml.ml" 84 2677 2683
+type(
+  int
+)
+ident(
+  def x "completion/norm_ml.ml" 85 2697 2701 "completion/norm_ml.ml" 85 2697 2758
+)
+"completion/norm_ml.ml" 84 2677 2685 "completion/norm_ml.ml" 84 2677 2686
+type(
+  int
+)
+ident(
+  def y "completion/norm_ml.ml" 85 2697 2701 "completion/norm_ml.ml" 85 2697 2758
+)
+"completion/norm_ml.ml" 84 2677 2681 "completion/norm_ml.ml" 84 2677 2687
+type(
+  int * int
+)
+"completion/norm_ml.ml" 84 2677 2691 "completion/norm_ml.ml" 84 2677 2693
+type(
+  (int * int) list
+)
+ident(
+  def cs "completion/norm_ml.ml" 85 2697 2701 "completion/norm_ml.ml" 85 2697 2758
+)
+"completion/norm_ml.ml" 84 2677 2681 "completion/norm_ml.ml" 84 2677 2693
+type(
+  (int * int) list
+)
+"completion/norm_ml.ml" 85 2697 2701 "completion/norm_ml.ml" 85 2697 2708
+type(
+  Buffer.t ->
+  (int ->
+   int -> (Buffer.t -> (int * int) list -> unit) -> (int * int) list -> unit,
+   Buffer.t, unit)
+  format ->
+  int ->
+  int -> (Buffer.t -> (int * int) list -> unit) -> (int * int) list -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 85 2697 2709 "completion/norm_ml.ml" 85 2697 2711
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 82 2624 2650 "completion/norm_ml.ml" 82 2624 2652
+)
+"completion/norm_ml.ml" 85 2697 2712 "completion/norm_ml.ml" 85 2697 2729
+type(
+  (int ->
+   int -> (Buffer.t -> (int * int) list -> unit) -> (int * int) list -> unit,
+   Buffer.t, unit)
+  format
+)
+"completion/norm_ml.ml" 85 2697 2730 "completion/norm_ml.ml" 85 2697 2731
+type(
+  int
+)
+ident(
+  int_ref x "completion/norm_ml.ml" 84 2677 2682 "completion/norm_ml.ml" 84 2677 2683
+)
+"completion/norm_ml.ml" 85 2697 2732 "completion/norm_ml.ml" 85 2697 2733
+type(
+  int
+)
+ident(
+  int_ref y "completion/norm_ml.ml" 84 2677 2685 "completion/norm_ml.ml" 84 2677 2686
+)
+"completion/norm_ml.ml" 85 2697 2734 "completion/norm_ml.ml" 85 2697 2755
+type(
+  Buffer.t -> (int * int) list -> unit
+)
+ident(
+  int_ref bprint_conditions_and "completion/norm_ml.ml" 82 2624 2628 "completion/norm_ml.ml" 82 2624 2649
+)
+"completion/norm_ml.ml" 85 2697 2756 "completion/norm_ml.ml" 85 2697 2758
+type(
+  (int * int) list
+)
+ident(
+  int_ref cs "completion/norm_ml.ml" 84 2677 2691 "completion/norm_ml.ml" 84 2677 2693
+)
+"completion/norm_ml.ml" 85 2697 2701 "completion/norm_ml.ml" 85 2697 2758
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 82 2624 2655 "completion/norm_ml.ml" 85 2697 2758
+type(
+  (int * int) list -> unit
+)
+"completion/norm_ml.ml" 88 2763 2767 "completion/norm_ml.ml" 88 2763 2778
+type(
+  Buffer.t -> Rule.rule -> unit
+)
+ident(
+  def bprint_rule "completion/norm_ml.ml" 95 2988 2988 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 88 2763 2779 "completion/norm_ml.ml" 88 2763 2781
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 88 2763 2782 "completion/norm_ml.ml" 92 2923 2983
+)
+"completion/norm_ml.ml" 88 2763 2792 "completion/norm_ml.ml" 88 2763 2793
+type(
+  Term.term
+)
+ident(
+  def l "completion/norm_ml.ml" 89 2800 2802 "completion/norm_ml.ml" 92 2923 2983
+)
+"completion/norm_ml.ml" 88 2763 2794 "completion/norm_ml.ml" 88 2763 2795
+type(
+  Term.term
+)
+ident(
+  def r "completion/norm_ml.ml" 89 2800 2802 "completion/norm_ml.ml" 92 2923 2983
+)
+"completion/norm_ml.ml" 88 2763 2782 "completion/norm_ml.ml" 88 2763 2797
+type(
+  Rule.rule
+)
+"completion/norm_ml.ml" 89 2800 2806 "completion/norm_ml.ml" 89 2800 2807
+type(
+  Term.term
+)
+ident(
+  def l "completion/norm_ml.ml" 90 2831 2833 "completion/norm_ml.ml" 92 2923 2983
+)
+"completion/norm_ml.ml" 89 2800 2809 "completion/norm_ml.ml" 89 2800 2813
+type(
+  Var.var Var.VarMap.t
+)
+ident(
+  def vmap "completion/norm_ml.ml" 90 2831 2833 "completion/norm_ml.ml" 92 2923 2983
+)
+"completion/norm_ml.ml" 89 2800 2806 "completion/norm_ml.ml" 89 2800 2813
+type(
+  Term.term * Var.var Var.VarMap.t
+)
+"completion/norm_ml.ml" 89 2800 2816 "completion/norm_ml.ml" 89 2800 2825
+type(
+  Term.term -> Term.term * Var.var Var.VarMap.t
+)
+ident(
+  ext_ref Term.linearize
+)
+"completion/norm_ml.ml" 89 2800 2826 "completion/norm_ml.ml" 89 2800 2827
+type(
+  Term.term
+)
+ident(
+  int_ref l "completion/norm_ml.ml" 88 2763 2792 "completion/norm_ml.ml" 88 2763 2793
+)
+"completion/norm_ml.ml" 89 2800 2816 "completion/norm_ml.ml" 89 2800 2827
+call(
+  stack
+)
+type(
+  Term.term * Var.var Var.VarMap.t
+)
+"completion/norm_ml.ml" 90 2831 2837 "completion/norm_ml.ml" 90 2831 2839
+type(
+  (Var.VarMap.key * Var.var) list
+)
+ident(
+  def cs "completion/norm_ml.ml" 91 2891 2895 "completion/norm_ml.ml" 92 2923 2983
+)
+"completion/norm_ml.ml" 90 2831 2842 "completion/norm_ml.ml" 90 2831 2853
+type(
+  (Var.VarMap.key ->
+   Var.var ->
+   (Var.VarMap.key * Var.var) list -> (Var.VarMap.key * Var.var) list) ->
+  Var.var Var.VarMap.t ->
+  (Var.VarMap.key * Var.var) list -> (Var.VarMap.key * Var.var) list
+)
+ident(
+  ext_ref Var.VarMap.fold
+)
+"completion/norm_ml.ml" 90 2831 2859 "completion/norm_ml.ml" 90 2831 2860
+type(
+  Var.VarMap.key
+)
+ident(
+  def x "completion/norm_ml.ml" 90 2831 2861 "completion/norm_ml.ml" 90 2831 2878
+)
+"completion/norm_ml.ml" 90 2831 2861 "completion/norm_ml.ml" 90 2831 2862
+type(
+  Var.var
+)
+ident(
+  def y "completion/norm_ml.ml" 90 2831 2863 "completion/norm_ml.ml" 90 2831 2878
+)
+"completion/norm_ml.ml" 90 2831 2863 "completion/norm_ml.ml" 90 2831 2864
+type(
+  (Var.VarMap.key * Var.var) list
+)
+ident(
+  def l "completion/norm_ml.ml" 90 2831 2868 "completion/norm_ml.ml" 90 2831 2878
+)
+"completion/norm_ml.ml" 90 2831 2869 "completion/norm_ml.ml" 90 2831 2870
+type(
+  Var.VarMap.key
+)
+ident(
+  int_ref x "completion/norm_ml.ml" 90 2831 2859 "completion/norm_ml.ml" 90 2831 2860
+)
+"completion/norm_ml.ml" 90 2831 2871 "completion/norm_ml.ml" 90 2831 2872
+type(
+  Var.var
+)
+ident(
+  int_ref y "completion/norm_ml.ml" 90 2831 2861 "completion/norm_ml.ml" 90 2831 2862
+)
+"completion/norm_ml.ml" 90 2831 2868 "completion/norm_ml.ml" 90 2831 2873
+type(
+  Var.VarMap.key * Var.var
+)
+"completion/norm_ml.ml" 90 2831 2877 "completion/norm_ml.ml" 90 2831 2878
+type(
+  (Var.VarMap.key * Var.var) list
+)
+ident(
+  int_ref l "completion/norm_ml.ml" 90 2831 2863 "completion/norm_ml.ml" 90 2831 2864
+)
+"completion/norm_ml.ml" 90 2831 2868 "completion/norm_ml.ml" 90 2831 2878
+type(
+  (Var.VarMap.key * Var.var) list
+)
+"completion/norm_ml.ml" 90 2831 2854 "completion/norm_ml.ml" 90 2831 2879
+type(
+  Var.VarMap.key ->
+  Var.var ->
+  (Var.VarMap.key * Var.var) list -> (Var.VarMap.key * Var.var) list
+)
+"completion/norm_ml.ml" 90 2831 2880 "completion/norm_ml.ml" 90 2831 2884
+type(
+  Var.var Var.VarMap.t
+)
+ident(
+  int_ref vmap "completion/norm_ml.ml" 89 2800 2809 "completion/norm_ml.ml" 89 2800 2813
+)
+"completion/norm_ml.ml" 90 2831 2885 "completion/norm_ml.ml" 90 2831 2887
+type(
+  (Var.VarMap.key * Var.var) list
+)
+"completion/norm_ml.ml" 90 2831 2842 "completion/norm_ml.ml" 90 2831 2887
+call(
+  stack
+)
+type(
+  (Var.VarMap.key * Var.var) list
+)
+"completion/norm_ml.ml" 91 2891 2895 "completion/norm_ml.ml" 91 2891 2902
+type(
+  Buffer.t ->
+  ((Buffer.t -> Term.term -> unit) ->
+   Term.term ->
+   (Buffer.t -> (Var.VarMap.key * Var.var) list -> unit) ->
+   (Var.VarMap.key * Var.var) list ->
+   (Buffer.t -> Term.term -> unit) -> Term.term -> unit, Buffer.t, unit)
+  format ->
+  (Buffer.t -> Term.term -> unit) ->
+  Term.term ->
+  (Buffer.t -> (Var.VarMap.key * Var.var) list -> unit) ->
+  (Var.VarMap.key * Var.var) list ->
+  (Buffer.t -> Term.term -> unit) -> Term.term -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 91 2891 2903 "completion/norm_ml.ml" 91 2891 2905
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 88 2763 2779 "completion/norm_ml.ml" 88 2763 2781
+)
+"completion/norm_ml.ml" 91 2891 2906 "completion/norm_ml.ml" 91 2891 2922
+type(
+  ((Buffer.t -> Term.term -> unit) ->
+   Term.term ->
+   (Buffer.t -> (Var.VarMap.key * Var.var) list -> unit) ->
+   (Var.VarMap.key * Var.var) list ->
+   (Buffer.t -> Term.term -> unit) -> Term.term -> unit, Buffer.t, unit)
+  format
+)
+"completion/norm_ml.ml" 92 2923 2929 "completion/norm_ml.ml" 92 2923 2943
+type(
+  Buffer.t -> Term.term -> unit
+)
+ident(
+  int_ref bprint_pattern "completion/norm_ml.ml" 60 2024 2032 "completion/norm_ml.ml" 60 2024 2046
+)
+"completion/norm_ml.ml" 92 2923 2944 "completion/norm_ml.ml" 92 2923 2945
+type(
+  Term.term
+)
+ident(
+  int_ref l "completion/norm_ml.ml" 89 2800 2806 "completion/norm_ml.ml" 89 2800 2807
+)
+"completion/norm_ml.ml" 92 2923 2946 "completion/norm_ml.ml" 92 2923 2963
+type(
+  Buffer.t -> (Var.VarMap.key * Var.var) list -> unit
+)
+ident(
+  int_ref bprint_conditions "completion/norm_ml.ml" 77 2486 2494 "completion/norm_ml.ml" 77 2486 2511
+)
+"completion/norm_ml.ml" 92 2923 2964 "completion/norm_ml.ml" 92 2923 2966
+type(
+  (Var.VarMap.key * Var.var) list
+)
+ident(
+  int_ref cs "completion/norm_ml.ml" 90 2831 2837 "completion/norm_ml.ml" 90 2831 2839
+)
+"completion/norm_ml.ml" 92 2923 2967 "completion/norm_ml.ml" 92 2923 2981
+type(
+  Buffer.t -> Term.term -> unit
+)
+ident(
+  int_ref bprint_pattern "completion/norm_ml.ml" 60 2024 2032 "completion/norm_ml.ml" 60 2024 2046
+)
+"completion/norm_ml.ml" 92 2923 2982 "completion/norm_ml.ml" 92 2923 2983
+type(
+  Term.term
+)
+ident(
+  int_ref r "completion/norm_ml.ml" 88 2763 2794 "completion/norm_ml.ml" 88 2763 2795
+)
+"completion/norm_ml.ml" 91 2891 2895 "completion/norm_ml.ml" 92 2923 2983
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 90 2831 2833 "completion/norm_ml.ml" 92 2923 2983
+type(
+  unit
+)
+"completion/norm_ml.ml" 89 2800 2802 "completion/norm_ml.ml" 92 2923 2983
+type(
+  unit
+)
+"completion/norm_ml.ml" 95 2988 2992 "completion/norm_ml.ml" 95 2988 3003
+type(
+  Buffer.t -> Rule.RulSet.t -> unit
+)
+ident(
+  def bprint_norm "completion/norm_ml.ml" 103 3189 3189 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 95 2988 3004 "completion/norm_ml.ml" 95 2988 3006
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 95 2988 3007 "completion/norm_ml.ml" 98 3089 3116
+)
+"completion/norm_ml.ml" 95 2988 3007 "completion/norm_ml.ml" 95 2988 3009
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/norm_ml.ml" 96 3012 3014 "completion/norm_ml.ml" 98 3089 3116
+)
+"completion/norm_ml.ml" 96 3012 3014 "completion/norm_ml.ml" 96 3012 3021
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 96 3012 3022 "completion/norm_ml.ml" 96 3012 3024
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 95 2988 3004 "completion/norm_ml.ml" 95 2988 3006
+)
+"completion/norm_ml.ml" 96 3012 3025 "completion/norm_ml.ml" 96 3012 3052
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 96 3012 3014 "completion/norm_ml.ml" 96 3012 3052
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 97 3054 3056 "completion/norm_ml.ml" 97 3054 3067
+type(
+  (Rule.RulSet.elt -> unit) -> Rule.RulSet.t -> unit
+)
+ident(
+  ext_ref Rule.RulSet.iter
+)
+"completion/norm_ml.ml" 97 3054 3069 "completion/norm_ml.ml" 97 3054 3080
+type(
+  Buffer.t -> Rule.RulSet.elt -> unit
+)
+ident(
+  int_ref bprint_rule "completion/norm_ml.ml" 88 2763 2767 "completion/norm_ml.ml" 88 2763 2778
+)
+"completion/norm_ml.ml" 97 3054 3081 "completion/norm_ml.ml" 97 3054 3083
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 95 2988 3004 "completion/norm_ml.ml" 95 2988 3006
+)
+"completion/norm_ml.ml" 97 3054 3068 "completion/norm_ml.ml" 97 3054 3084
+call(
+  stack
+)
+type(
+  Rule.RulSet.elt -> unit
+)
+"completion/norm_ml.ml" 97 3054 3085 "completion/norm_ml.ml" 97 3054 3087
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/norm_ml.ml" 95 2988 3007 "completion/norm_ml.ml" 95 2988 3009
+)
+"completion/norm_ml.ml" 97 3054 3056 "completion/norm_ml.ml" 97 3054 3087
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 98 3089 3091 "completion/norm_ml.ml" 98 3089 3098
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 98 3089 3099 "completion/norm_ml.ml" 98 3089 3101
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 95 2988 3004 "completion/norm_ml.ml" 95 2988 3006
+)
+"completion/norm_ml.ml" 98 3089 3102 "completion/norm_ml.ml" 98 3089 3116
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 98 3089 3091 "completion/norm_ml.ml" 98 3089 3116
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 97 3054 3056 "completion/norm_ml.ml" 98 3089 3116
+type(
+  unit
+)
+"completion/norm_ml.ml" 96 3012 3014 "completion/norm_ml.ml" 98 3089 3116
+type(
+  unit
+)
+"completion/norm_ml.ml" 103 3189 3193 "completion/norm_ml.ml" 103 3189 3208
+type(
+  Buffer.t -> int -> unit
+)
+ident(
+  def bprint_cons_pat "completion/norm_ml.ml" 114 3408 3408 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 103 3189 3209 "completion/norm_ml.ml" 103 3189 3211
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 103 3189 3214 "completion/norm_ml.ml" 111 3392 3403
+)
+"completion/norm_ml.ml" 104 3223 3227 "completion/norm_ml.ml" 104 3223 3228
+type(
+  int
+)
+"completion/norm_ml.ml" 104 3223 3232 "completion/norm_ml.ml" 104 3223 3239
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 104 3223 3240 "completion/norm_ml.ml" 104 3223 3242
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 103 3189 3209 "completion/norm_ml.ml" 103 3189 3211
+)
+"completion/norm_ml.ml" 104 3223 3243 "completion/norm_ml.ml" 104 3223 3248
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 104 3223 3232 "completion/norm_ml.ml" 104 3223 3248
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 105 3249 3253 "completion/norm_ml.ml" 105 3249 3254
+type(
+  int
+)
+ident(
+  def n "completion/norm_ml.ml" 105 3249 3260 "completion/norm_ml.ml" 110 3382 3391
+)
+"completion/norm_ml.ml" 105 3249 3260 "completion/norm_ml.ml" 105 3249 3261
+type(
+  int
+)
+ident(
+  int_ref n "completion/norm_ml.ml" 105 3249 3253 "completion/norm_ml.ml" 105 3249 3254
+)
+"completion/norm_ml.ml" 105 3249 3262 "completion/norm_ml.ml" 105 3249 3263
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"completion/norm_ml.ml" 105 3249 3264 "completion/norm_ml.ml" 105 3249 3265
+type(
+  int
+)
+"completion/norm_ml.ml" 105 3249 3260 "completion/norm_ml.ml" 105 3249 3265
+type(
+  bool
+)
+"completion/norm_ml.ml" 107 3281 3289 "completion/norm_ml.ml" 107 3281 3296
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 107 3281 3297 "completion/norm_ml.ml" 107 3281 3299
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 103 3189 3209 "completion/norm_ml.ml" 103 3189 3211
+)
+"completion/norm_ml.ml" 107 3281 3300 "completion/norm_ml.ml" 107 3281 3305
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 107 3281 3289 "completion/norm_ml.ml" 107 3281 3305
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 108 3307 3323 "completion/norm_ml.ml" 108 3307 3324
+type(
+  int
+)
+"completion/norm_ml.ml" 108 3307 3328 "completion/norm_ml.ml" 108 3307 3329
+type(
+  int
+)
+ident(
+  int_ref n "completion/norm_ml.ml" 105 3249 3253 "completion/norm_ml.ml" 105 3249 3254
+)
+"completion/norm_ml.ml" 108 3307 3333 "completion/norm_ml.ml" 108 3307 3340
+type(
+  Buffer.t -> (int -> unit, Buffer.t, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 108 3307 3341 "completion/norm_ml.ml" 108 3307 3343
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 103 3189 3209 "completion/norm_ml.ml" 103 3189 3211
+)
+"completion/norm_ml.ml" 108 3307 3344 "completion/norm_ml.ml" 108 3307 3350
+type(
+  (int -> unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 108 3307 3351 "completion/norm_ml.ml" 108 3307 3352
+type(
+  int
+)
+ident(
+  int_ref i "completion/norm_ml.ml" 108 3307 3315 "completion/norm_ml.ml" 108 3307 3357
+)
+"completion/norm_ml.ml" 108 3307 3333 "completion/norm_ml.ml" 108 3307 3352
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 108 3307 3315 "completion/norm_ml.ml" 108 3307 3357
+type(
+  unit
+)
+"completion/norm_ml.ml" 109 3359 3367 "completion/norm_ml.ml" 109 3359 3374
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 109 3359 3375 "completion/norm_ml.ml" 109 3359 3377
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 103 3189 3209 "completion/norm_ml.ml" 103 3189 3211
+)
+"completion/norm_ml.ml" 109 3359 3378 "completion/norm_ml.ml" 109 3359 3381
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 109 3359 3367 "completion/norm_ml.ml" 109 3359 3381
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 108 3307 3315 "completion/norm_ml.ml" 109 3359 3381
+type(
+  unit
+)
+"completion/norm_ml.ml" 106 3269 3275 "completion/norm_ml.ml" 110 3382 3391
+type(
+  unit
+)
+"completion/norm_ml.ml" 111 3392 3396 "completion/norm_ml.ml" 111 3392 3397
+type(
+  int
+)
+"completion/norm_ml.ml" 111 3392 3401 "completion/norm_ml.ml" 111 3392 3403
+type(
+  unit
+)
+"completion/norm_ml.ml" 103 3189 3214 "completion/norm_ml.ml" 111 3392 3403
+type(
+  int -> unit
+)
+"completion/norm_ml.ml" 114 3408 3412 "completion/norm_ml.ml" 114 3408 3427
+type(
+  Buffer.t -> int -> unit
+)
+ident(
+  def bprint_cons_fmt "completion/norm_ml.ml" 123 3594 3594 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 114 3408 3428 "completion/norm_ml.ml" 114 3408 3430
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 114 3408 3433 "completion/norm_ml.ml" 120 3578 3589
+)
+"completion/norm_ml.ml" 115 3442 3446 "completion/norm_ml.ml" 115 3442 3447
+type(
+  int
+)
+"completion/norm_ml.ml" 115 3442 3451 "completion/norm_ml.ml" 115 3442 3458
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 115 3442 3459 "completion/norm_ml.ml" 115 3442 3461
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 114 3408 3428 "completion/norm_ml.ml" 114 3408 3430
+)
+"completion/norm_ml.ml" 115 3442 3462 "completion/norm_ml.ml" 115 3442 3468
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 115 3442 3451 "completion/norm_ml.ml" 115 3442 3468
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 116 3469 3473 "completion/norm_ml.ml" 116 3469 3474
+type(
+  int
+)
+ident(
+  def n "completion/norm_ml.ml" 116 3469 3480 "completion/norm_ml.ml" 119 3559 3577
+)
+"completion/norm_ml.ml" 116 3469 3480 "completion/norm_ml.ml" 116 3469 3481
+type(
+  int
+)
+ident(
+  int_ref n "completion/norm_ml.ml" 116 3469 3473 "completion/norm_ml.ml" 116 3469 3474
+)
+"completion/norm_ml.ml" 116 3469 3482 "completion/norm_ml.ml" 116 3469 3483
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"completion/norm_ml.ml" 116 3469 3484 "completion/norm_ml.ml" 116 3469 3485
+type(
+  int
+)
+"completion/norm_ml.ml" 116 3469 3480 "completion/norm_ml.ml" 116 3469 3485
+type(
+  bool
+)
+"completion/norm_ml.ml" 117 3489 3493 "completion/norm_ml.ml" 117 3489 3500
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 117 3489 3501 "completion/norm_ml.ml" 117 3489 3503
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 114 3408 3428 "completion/norm_ml.ml" 114 3408 3430
+)
+"completion/norm_ml.ml" 117 3489 3504 "completion/norm_ml.ml" 117 3489 3510
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 117 3489 3493 "completion/norm_ml.ml" 117 3489 3510
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 118 3512 3525 "completion/norm_ml.ml" 118 3512 3526
+type(
+  int
+)
+"completion/norm_ml.ml" 118 3512 3530 "completion/norm_ml.ml" 118 3512 3531
+type(
+  int
+)
+ident(
+  int_ref n "completion/norm_ml.ml" 116 3469 3473 "completion/norm_ml.ml" 116 3469 3474
+)
+"completion/norm_ml.ml" 118 3512 3535 "completion/norm_ml.ml" 118 3512 3542
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 118 3512 3543 "completion/norm_ml.ml" 118 3512 3545
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 114 3408 3428 "completion/norm_ml.ml" 114 3408 3430
+)
+"completion/norm_ml.ml" 118 3512 3546 "completion/norm_ml.ml" 118 3512 3552
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 118 3512 3535 "completion/norm_ml.ml" 118 3512 3552
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 118 3512 3516 "completion/norm_ml.ml" 118 3512 3557
+type(
+  unit
+)
+"completion/norm_ml.ml" 119 3559 3563 "completion/norm_ml.ml" 119 3559 3570
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 119 3559 3571 "completion/norm_ml.ml" 119 3559 3573
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 114 3408 3428 "completion/norm_ml.ml" 114 3408 3430
+)
+"completion/norm_ml.ml" 119 3559 3574 "completion/norm_ml.ml" 119 3559 3577
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 119 3559 3563 "completion/norm_ml.ml" 119 3559 3577
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 118 3512 3516 "completion/norm_ml.ml" 119 3559 3577
+type(
+  unit
+)
+"completion/norm_ml.ml" 117 3489 3493 "completion/norm_ml.ml" 119 3559 3577
+type(
+  unit
+)
+"completion/norm_ml.ml" 120 3578 3582 "completion/norm_ml.ml" 120 3578 3583
+type(
+  int
+)
+"completion/norm_ml.ml" 120 3578 3587 "completion/norm_ml.ml" 120 3578 3589
+type(
+  unit
+)
+"completion/norm_ml.ml" 114 3408 3433 "completion/norm_ml.ml" 120 3578 3589
+type(
+  int -> unit
+)
+"completion/norm_ml.ml" 123 3594 3598 "completion/norm_ml.ml" 123 3594 3609
+type(
+  Buffer.t -> Symb.symbol -> unit
+)
+ident(
+  def bprint_cons "completion/norm_ml.ml" 131 3860 3860 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 123 3594 3610 "completion/norm_ml.ml" 123 3594 3612
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 123 3594 3613 "completion/norm_ml.ml" 128 3804 3855
+)
+"completion/norm_ml.ml" 123 3594 3613 "completion/norm_ml.ml" 123 3594 3614
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/norm_ml.ml" 124 3617 3619 "completion/norm_ml.ml" 128 3804 3855
+)
+"completion/norm_ml.ml" 124 3617 3623 "completion/norm_ml.ml" 124 3617 3624
+type(
+  string
+)
+ident(
+  def s "completion/norm_ml.ml" 125 3649 3651 "completion/norm_ml.ml" 128 3804 3855
+)
+"completion/norm_ml.ml" 124 3617 3627 "completion/norm_ml.ml" 124 3617 3643
+type(
+  Symb.symbol -> string
+)
+ident(
+  ext_ref Symb.string_of_symbol
+)
+"completion/norm_ml.ml" 124 3617 3644 "completion/norm_ml.ml" 124 3617 3645
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/norm_ml.ml" 123 3594 3613 "completion/norm_ml.ml" 123 3594 3614
+)
+"completion/norm_ml.ml" 124 3617 3627 "completion/norm_ml.ml" 124 3617 3645
+call(
+  stack
+)
+type(
+  string
+)
+"completion/norm_ml.ml" 125 3649 3655 "completion/norm_ml.ml" 125 3649 3656
+type(
+  int
+)
+ident(
+  def n "completion/norm_ml.ml" 126 3705 3707 "completion/norm_ml.ml" 128 3804 3855
+)
+"completion/norm_ml.ml" 125 3649 3659 "completion/norm_ml.ml" 125 3649 3672
+type(
+  Check.generator_info -> int
+)
+ident(
+  ext_ref Check.arity_of_info
+)
+"completion/norm_ml.ml" 125 3649 3674 "completion/norm_ml.ml" 125 3649 3698
+type(
+  string -> Check.generator_info
+)
+ident(
+  ext_ref Check.find_generator_name_info
+)
+"completion/norm_ml.ml" 125 3649 3699 "completion/norm_ml.ml" 125 3649 3700
+type(
+  string
+)
+ident(
+  int_ref s "completion/norm_ml.ml" 124 3617 3623 "completion/norm_ml.ml" 124 3617 3624
+)
+"completion/norm_ml.ml" 125 3649 3673 "completion/norm_ml.ml" 125 3649 3701
+call(
+  stack
+)
+type(
+  Check.generator_info
+)
+"completion/norm_ml.ml" 125 3649 3659 "completion/norm_ml.ml" 125 3649 3701
+call(
+  stack
+)
+type(
+  int
+)
+"completion/norm_ml.ml" 126 3705 3707 "completion/norm_ml.ml" 126 3705 3714
+type(
+  Buffer.t ->
+  (string ->
+   (Buffer.t -> int -> unit) ->
+   int -> string -> (Buffer.t -> int -> unit) -> int -> unit, Buffer.t, 
+   unit)
+  format ->
+  string ->
+  (Buffer.t -> int -> unit) ->
+  int -> string -> (Buffer.t -> int -> unit) -> int -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 126 3705 3715 "completion/norm_ml.ml" 126 3705 3717
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 123 3594 3610 "completion/norm_ml.ml" 123 3594 3612
+)
+"completion/norm_ml.ml" 126 3705 3718 "completion/norm_ml.ml" 126 3705 3758
+type(
+  (string ->
+   (Buffer.t -> int -> unit) ->
+   int -> string -> (Buffer.t -> int -> unit) -> int -> unit, Buffer.t, 
+   unit)
+  format
+)
+"completion/norm_ml.ml" 127 3759 3763 "completion/norm_ml.ml" 127 3759 3764
+type(
+  string
+)
+ident(
+  int_ref s "completion/norm_ml.ml" 124 3617 3623 "completion/norm_ml.ml" 124 3617 3624
+)
+"completion/norm_ml.ml" 127 3759 3765 "completion/norm_ml.ml" 127 3759 3780
+type(
+  Buffer.t -> int -> unit
+)
+ident(
+  int_ref bprint_cons_pat "completion/norm_ml.ml" 103 3189 3193 "completion/norm_ml.ml" 103 3189 3208
+)
+"completion/norm_ml.ml" 127 3759 3781 "completion/norm_ml.ml" 127 3759 3782
+type(
+  int
+)
+ident(
+  int_ref n "completion/norm_ml.ml" 125 3649 3655 "completion/norm_ml.ml" 125 3649 3656
+)
+"completion/norm_ml.ml" 127 3759 3783 "completion/norm_ml.ml" 127 3759 3784
+type(
+  string
+)
+ident(
+  int_ref s "completion/norm_ml.ml" 124 3617 3623 "completion/norm_ml.ml" 124 3617 3624
+)
+"completion/norm_ml.ml" 127 3759 3785 "completion/norm_ml.ml" 127 3759 3800
+type(
+  Buffer.t -> int -> unit
+)
+ident(
+  int_ref bprint_cons_fmt "completion/norm_ml.ml" 114 3408 3412 "completion/norm_ml.ml" 114 3408 3427
+)
+"completion/norm_ml.ml" 127 3759 3801 "completion/norm_ml.ml" 127 3759 3802
+type(
+  int
+)
+ident(
+  int_ref n "completion/norm_ml.ml" 125 3649 3655 "completion/norm_ml.ml" 125 3649 3656
+)
+"completion/norm_ml.ml" 126 3705 3707 "completion/norm_ml.ml" 127 3759 3802
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 128 3804 3814 "completion/norm_ml.ml" 128 3804 3815
+type(
+  int
+)
+"completion/norm_ml.ml" 128 3804 3819 "completion/norm_ml.ml" 128 3804 3820
+type(
+  int
+)
+ident(
+  int_ref n "completion/norm_ml.ml" 125 3649 3655 "completion/norm_ml.ml" 125 3649 3656
+)
+"completion/norm_ml.ml" 128 3804 3824 "completion/norm_ml.ml" 128 3804 3831
+type(
+  Buffer.t -> (int -> unit, Buffer.t, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 128 3804 3832 "completion/norm_ml.ml" 128 3804 3834
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 123 3594 3610 "completion/norm_ml.ml" 123 3594 3612
+)
+"completion/norm_ml.ml" 128 3804 3835 "completion/norm_ml.ml" 128 3804 3848
+type(
+  (int -> unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 128 3804 3849 "completion/norm_ml.ml" 128 3804 3850
+type(
+  int
+)
+ident(
+  int_ref i "completion/norm_ml.ml" 128 3804 3806 "completion/norm_ml.ml" 128 3804 3855
+)
+"completion/norm_ml.ml" 128 3804 3824 "completion/norm_ml.ml" 128 3804 3850
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 128 3804 3806 "completion/norm_ml.ml" 128 3804 3855
+type(
+  unit
+)
+"completion/norm_ml.ml" 126 3705 3707 "completion/norm_ml.ml" 128 3804 3855
+type(
+  unit
+)
+"completion/norm_ml.ml" 125 3649 3651 "completion/norm_ml.ml" 128 3804 3855
+type(
+  unit
+)
+"completion/norm_ml.ml" 124 3617 3619 "completion/norm_ml.ml" 128 3804 3855
+type(
+  unit
+)
+"completion/norm_ml.ml" 131 3860 3864 "completion/norm_ml.ml" 131 3860 3876
+type(
+  Buffer.t -> Symb.SymbolSet.t -> unit
+)
+ident(
+  def bprint_print "completion/norm_ml.ml" 139 4059 4059 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 131 3860 3877 "completion/norm_ml.ml" 131 3860 3879
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 131 3860 3880 "completion/norm_ml.ml" 134 3976 4004
+)
+"completion/norm_ml.ml" 131 3860 3880 "completion/norm_ml.ml" 131 3860 3885
+type(
+  Symb.SymbolSet.t
+)
+ident(
+  def symbs "completion/norm_ml.ml" 132 3888 3890 "completion/norm_ml.ml" 134 3976 4004
+)
+"completion/norm_ml.ml" 132 3888 3890 "completion/norm_ml.ml" 132 3888 3897
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 132 3888 3898 "completion/norm_ml.ml" 132 3888 3900
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 131 3860 3877 "completion/norm_ml.ml" 131 3860 3879
+)
+"completion/norm_ml.ml" 132 3888 3901 "completion/norm_ml.ml" 132 3888 3933
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 132 3888 3890 "completion/norm_ml.ml" 132 3888 3933
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 133 3935 3937 "completion/norm_ml.ml" 133 3935 3951
+type(
+  (Symb.SymbolSet.elt -> unit) -> Symb.SymbolSet.t -> unit
+)
+ident(
+  ext_ref Symb.SymbolSet.iter
+)
+"completion/norm_ml.ml" 133 3935 3953 "completion/norm_ml.ml" 133 3935 3964
+type(
+  Buffer.t -> Symb.SymbolSet.elt -> unit
+)
+ident(
+  int_ref bprint_cons "completion/norm_ml.ml" 123 3594 3598 "completion/norm_ml.ml" 123 3594 3609
+)
+"completion/norm_ml.ml" 133 3935 3965 "completion/norm_ml.ml" 133 3935 3967
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 131 3860 3877 "completion/norm_ml.ml" 131 3860 3879
+)
+"completion/norm_ml.ml" 133 3935 3952 "completion/norm_ml.ml" 133 3935 3968
+call(
+  stack
+)
+type(
+  Symb.SymbolSet.elt -> unit
+)
+"completion/norm_ml.ml" 133 3935 3969 "completion/norm_ml.ml" 133 3935 3974
+type(
+  Symb.SymbolSet.t
+)
+ident(
+  int_ref symbs "completion/norm_ml.ml" 131 3860 3880 "completion/norm_ml.ml" 131 3860 3885
+)
+"completion/norm_ml.ml" 133 3935 3937 "completion/norm_ml.ml" 133 3935 3974
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 134 3976 3978 "completion/norm_ml.ml" 134 3976 3985
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 134 3976 3986 "completion/norm_ml.ml" 134 3976 3988
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 131 3860 3877 "completion/norm_ml.ml" 131 3860 3879
+)
+"completion/norm_ml.ml" 134 3976 3989 "completion/norm_ml.ml" 134 3976 4004
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 134 3976 3978 "completion/norm_ml.ml" 134 3976 4004
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 133 3935 3937 "completion/norm_ml.ml" 134 3976 4004
+type(
+  unit
+)
+"completion/norm_ml.ml" 132 3888 3890 "completion/norm_ml.ml" 134 3976 4004
+type(
+  unit
+)
+"completion/norm_ml.ml" 139 4059 4063 "completion/norm_ml.ml" 139 4059 4076
+type(
+  Buffer.t -> unit
+)
+ident(
+  def bprint_buffer "completion/norm_ml.ml" 144 4143 4143 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 139 4059 4077 "completion/norm_ml.ml" 139 4059 4079
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 139 4059 4082 "completion/norm_ml.ml" 139 4059 4124
+)
+"completion/norm_ml.ml" 139 4059 4082 "completion/norm_ml.ml" 139 4059 4089
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 139 4059 4090 "completion/norm_ml.ml" 139 4059 4092
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 139 4059 4077 "completion/norm_ml.ml" 139 4059 4079
+)
+"completion/norm_ml.ml" 139 4059 4093 "completion/norm_ml.ml" 139 4059 4124
+type(
+  (unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 139 4059 4082 "completion/norm_ml.ml" 139 4059 4124
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 144 4143 4147 "completion/norm_ml.ml" 144 4143 4149
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 149 4232 4232 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 144 4143 4152 "completion/norm_ml.ml" 144 4143 4165
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"completion/norm_ml.ml" 144 4143 4166 "completion/norm_ml.ml" 144 4143 4170
+type(
+  int
+)
+"completion/norm_ml.ml" 144 4143 4152 "completion/norm_ml.ml" 144 4143 4170
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"completion/norm_ml.ml" 149 4232 4236 "completion/norm_ml.ml" 149 4232 4251
+type(
+  out_channel -> unit
+)
+ident(
+  def write_and_close "completion/norm_ml.ml" 157 4361 4361 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 149 4232 4252 "completion/norm_ml.ml" 149 4232 4254
+type(
+  out_channel
+)
+ident(
+  def oc "completion/norm_ml.ml" 150 4257 4259 "completion/norm_ml.ml" 152 4306 4320
+)
+"completion/norm_ml.ml" 150 4257 4259 "completion/norm_ml.ml" 150 4257 4279
+type(
+  out_channel -> Buffer.t -> unit
+)
+ident(
+  ext_ref Buffer.output_buffer
+)
+"completion/norm_ml.ml" 150 4257 4280 "completion/norm_ml.ml" 150 4257 4282
+type(
+  out_channel
+)
+ident(
+  int_ref oc "completion/norm_ml.ml" 149 4232 4252 "completion/norm_ml.ml" 149 4232 4254
+)
+"completion/norm_ml.ml" 150 4257 4283 "completion/norm_ml.ml" 150 4257 4285
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 144 4143 4147 "completion/norm_ml.ml" 144 4143 4149
+)
+"completion/norm_ml.ml" 150 4257 4259 "completion/norm_ml.ml" 150 4257 4285
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 151 4287 4289 "completion/norm_ml.ml" 151 4287 4301
+type(
+  Buffer.t -> unit
+)
+ident(
+  ext_ref Buffer.clear
+)
+"completion/norm_ml.ml" 151 4287 4302 "completion/norm_ml.ml" 151 4287 4304
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 144 4143 4147 "completion/norm_ml.ml" 144 4143 4149
+)
+"completion/norm_ml.ml" 151 4287 4289 "completion/norm_ml.ml" 151 4287 4304
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 152 4306 4308 "completion/norm_ml.ml" 152 4306 4317
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"completion/norm_ml.ml" 152 4306 4318 "completion/norm_ml.ml" 152 4306 4320
+type(
+  out_channel
+)
+ident(
+  int_ref oc "completion/norm_ml.ml" 149 4232 4252 "completion/norm_ml.ml" 149 4232 4254
+)
+"completion/norm_ml.ml" 152 4306 4308 "completion/norm_ml.ml" 152 4306 4320
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 151 4287 4289 "completion/norm_ml.ml" 152 4306 4320
+type(
+  unit
+)
+"completion/norm_ml.ml" 150 4257 4259 "completion/norm_ml.ml" 152 4306 4320
+type(
+  unit
+)
+"completion/norm_ml.ml" 157 4361 4365 "completion/norm_ml.ml" 157 4361 4380
+type(
+  Rule.RulSet.t -> unit
+)
+ident(
+  def write_norm_file "completion/norm_ml.ml" 171 4721 4721 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 158 4383 4389 "completion/norm_ml.ml" 158 4383 4390
+type(
+  int ref
+)
+ident(
+  def n "completion/norm_ml.ml" 158 4383 4402 "completion/norm_ml.ml" 166 4660 4680
+)
+"completion/norm_ml.ml" 158 4383 4393 "completion/norm_ml.ml" 158 4383 4396
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"completion/norm_ml.ml" 158 4383 4397 "completion/norm_ml.ml" 158 4383 4398
+type(
+  int
+)
+"completion/norm_ml.ml" 158 4383 4393 "completion/norm_ml.ml" 158 4383 4398
+type(
+  int ref
+)
+"completion/norm_ml.ml" 158 4383 4406 "completion/norm_ml.ml" 158 4383 4408
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/norm_ml.ml" 158 4383 4412 "completion/norm_ml.ml" 166 4660 4680
+)
+"completion/norm_ml.ml" 158 4383 4412 "completion/norm_ml.ml" 158 4383 4416
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"completion/norm_ml.ml" 158 4383 4417 "completion/norm_ml.ml" 158 4383 4418
+type(
+  int ref
+)
+ident(
+  int_ref n "completion/norm_ml.ml" 158 4383 4389 "completion/norm_ml.ml" 158 4383 4390
+)
+"completion/norm_ml.ml" 158 4383 4412 "completion/norm_ml.ml" 158 4383 4418
+type(
+  unit
+)
+"completion/norm_ml.ml" 159 4420 4424 "completion/norm_ml.ml" 159 4420 4437
+type(
+  (string -> int -> unit, Format.formatter, unit) format ->
+  string -> int -> unit
+)
+ident(
+  ext_ref Configuration.verbose_print
+)
+"completion/norm_ml.ml" 159 4420 4438 "completion/norm_ml.ml" 159 4420 4460
+type(
+  (string -> int -> unit, Format.formatter, unit) format
+)
+"completion/norm_ml.ml" 159 4420 4461 "completion/norm_ml.ml" 159 4420 4484
+type(
+  string
+)
+ident(
+  int_ref moca_normalization_file "completion/norm_ml.ml" 28 1182 1186 "completion/norm_ml.ml" 28 1182 1209
+)
+"completion/norm_ml.ml" 159 4420 4485 "completion/norm_ml.ml" 159 4420 4486
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/norm_ml.ml" 159 4420 4486 "completion/norm_ml.ml" 159 4420 4487
+type(
+  int ref
+)
+ident(
+  int_ref n "completion/norm_ml.ml" 158 4383 4389 "completion/norm_ml.ml" 158 4383 4390
+)
+"completion/norm_ml.ml" 159 4420 4485 "completion/norm_ml.ml" 159 4420 4487
+type(
+  int
+)
+"completion/norm_ml.ml" 159 4420 4424 "completion/norm_ml.ml" 159 4420 4487
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 160 4489 4495 "completion/norm_ml.ml" 160 4489 4500
+type(
+  Symb.SymbolSet.t
+)
+ident(
+  def symbs "completion/norm_ml.ml" 162 4570 4572 "completion/norm_ml.ml" 166 4660 4680
+)
+"completion/norm_ml.ml" 160 4489 4503 "completion/norm_ml.ml" 160 4489 4519
+type(
+  Rule.RulSet.t -> Symb.SymbolSet.t
+)
+ident(
+  ext_ref Rule.symbols_of_rules
+)
+"completion/norm_ml.ml" 160 4489 4520 "completion/norm_ml.ml" 160 4489 4522
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/norm_ml.ml" 158 4383 4406 "completion/norm_ml.ml" 158 4383 4408
+)
+"completion/norm_ml.ml" 160 4489 4503 "completion/norm_ml.ml" 160 4489 4522
+call(
+  stack
+)
+type(
+  Symb.SymbolSet.t
+)
+"completion/norm_ml.ml" 161 4523 4529 "completion/norm_ml.ml" 161 4523 4531
+type(
+  out_channel
+)
+ident(
+  def oc "completion/norm_ml.ml" 162 4570 4572 "completion/norm_ml.ml" 166 4660 4680
+)
+"completion/norm_ml.ml" 161 4523 4534 "completion/norm_ml.ml" 161 4523 4542
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"completion/norm_ml.ml" 161 4523 4543 "completion/norm_ml.ml" 161 4523 4566
+type(
+  string
+)
+ident(
+  int_ref moca_normalization_file "completion/norm_ml.ml" 28 1182 1186 "completion/norm_ml.ml" 28 1182 1209
+)
+"completion/norm_ml.ml" 161 4523 4534 "completion/norm_ml.ml" 161 4523 4566
+call(
+  stack
+)
+type(
+  out_channel
+)
+"completion/norm_ml.ml" 162 4570 4572 "completion/norm_ml.ml" 162 4570 4583
+type(
+  Buffer.t -> Symb.SymbolSet.t -> unit
+)
+ident(
+  int_ref bprint_type "completion/norm_ml.ml" 51 1780 1784 "completion/norm_ml.ml" 51 1780 1795
+)
+"completion/norm_ml.ml" 162 4570 4584 "completion/norm_ml.ml" 162 4570 4586
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 144 4143 4147 "completion/norm_ml.ml" 144 4143 4149
+)
+"completion/norm_ml.ml" 162 4570 4587 "completion/norm_ml.ml" 162 4570 4592
+type(
+  Symb.SymbolSet.t
+)
+ident(
+  int_ref symbs "completion/norm_ml.ml" 160 4489 4495 "completion/norm_ml.ml" 160 4489 4500
+)
+"completion/norm_ml.ml" 162 4570 4572 "completion/norm_ml.ml" 162 4570 4592
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 163 4594 4596 "completion/norm_ml.ml" 163 4594 4607
+type(
+  Buffer.t -> Rule.RulSet.t -> unit
+)
+ident(
+  int_ref bprint_norm "completion/norm_ml.ml" 95 2988 2992 "completion/norm_ml.ml" 95 2988 3003
+)
+"completion/norm_ml.ml" 163 4594 4608 "completion/norm_ml.ml" 163 4594 4610
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 144 4143 4147 "completion/norm_ml.ml" 144 4143 4149
+)
+"completion/norm_ml.ml" 163 4594 4611 "completion/norm_ml.ml" 163 4594 4613
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/norm_ml.ml" 158 4383 4406 "completion/norm_ml.ml" 158 4383 4408
+)
+"completion/norm_ml.ml" 163 4594 4596 "completion/norm_ml.ml" 163 4594 4613
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 164 4615 4617 "completion/norm_ml.ml" 164 4615 4629
+type(
+  Buffer.t -> Symb.SymbolSet.t -> unit
+)
+ident(
+  int_ref bprint_print "completion/norm_ml.ml" 131 3860 3864 "completion/norm_ml.ml" 131 3860 3876
+)
+"completion/norm_ml.ml" 164 4615 4630 "completion/norm_ml.ml" 164 4615 4632
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 144 4143 4147 "completion/norm_ml.ml" 144 4143 4149
+)
+"completion/norm_ml.ml" 164 4615 4633 "completion/norm_ml.ml" 164 4615 4638
+type(
+  Symb.SymbolSet.t
+)
+ident(
+  int_ref symbs "completion/norm_ml.ml" 160 4489 4495 "completion/norm_ml.ml" 160 4489 4500
+)
+"completion/norm_ml.ml" 164 4615 4617 "completion/norm_ml.ml" 164 4615 4638
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 165 4640 4642 "completion/norm_ml.ml" 165 4640 4655
+type(
+  Buffer.t -> unit
+)
+ident(
+  int_ref bprint_buffer "completion/norm_ml.ml" 139 4059 4063 "completion/norm_ml.ml" 139 4059 4076
+)
+"completion/norm_ml.ml" 165 4640 4656 "completion/norm_ml.ml" 165 4640 4658
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 144 4143 4147 "completion/norm_ml.ml" 144 4143 4149
+)
+"completion/norm_ml.ml" 165 4640 4642 "completion/norm_ml.ml" 165 4640 4658
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 166 4660 4662 "completion/norm_ml.ml" 166 4660 4677
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref write_and_close "completion/norm_ml.ml" 149 4232 4236 "completion/norm_ml.ml" 149 4232 4251
+)
+"completion/norm_ml.ml" 166 4660 4678 "completion/norm_ml.ml" 166 4660 4680
+type(
+  out_channel
+)
+ident(
+  int_ref oc "completion/norm_ml.ml" 161 4523 4529 "completion/norm_ml.ml" 161 4523 4531
+)
+"completion/norm_ml.ml" 166 4660 4662 "completion/norm_ml.ml" 166 4660 4680
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 165 4640 4642 "completion/norm_ml.ml" 166 4660 4680
+type(
+  unit
+)
+"completion/norm_ml.ml" 164 4615 4617 "completion/norm_ml.ml" 166 4660 4680
+type(
+  unit
+)
+"completion/norm_ml.ml" 163 4594 4596 "completion/norm_ml.ml" 166 4660 4680
+type(
+  unit
+)
+"completion/norm_ml.ml" 162 4570 4572 "completion/norm_ml.ml" 166 4660 4680
+type(
+  unit
+)
+"completion/norm_ml.ml" 160 4489 4491 "completion/norm_ml.ml" 166 4660 4680
+type(
+  unit
+)
+"completion/norm_ml.ml" 159 4420 4424 "completion/norm_ml.ml" 166 4660 4680
+type(
+  unit
+)
+"completion/norm_ml.ml" 158 4383 4412 "completion/norm_ml.ml" 166 4660 4680
+type(
+  unit
+)
+"completion/norm_ml.ml" 158 4383 4402 "completion/norm_ml.ml" 166 4660 4680
+type(
+  Rule.RulSet.t -> unit
+)
+"completion/norm_ml.ml" 158 4383 4385 "completion/norm_ml.ml" 166 4660 4680
+type(
+  Rule.RulSet.t -> unit
+)
+"completion/norm_ml.ml" 171 4721 4729 "completion/norm_ml.ml" 171 4721 4740
+type(
+  Buffer.t -> Term.term -> unit
+)
+ident(
+  def bprint_term "completion/norm_ml.ml" 171 4721 4721 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 171 4721 4741 "completion/norm_ml.ml" 171 4721 4743
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 171 4721 4746 "completion/norm_ml.ml" 173 4791 4864
+)
+"completion/norm_ml.ml" 172 4755 4763 "completion/norm_ml.ml" 172 4755 4764
+type(
+  Var.var
+)
+ident(
+  def i "completion/norm_ml.ml" 172 4755 4768 "completion/norm_ml.ml" 172 4755 4790
+)
+"completion/norm_ml.ml" 172 4755 4759 "completion/norm_ml.ml" 172 4755 4764
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 172 4755 4768 "completion/norm_ml.ml" 172 4755 4775
+type(
+  Buffer.t -> (Var.var -> unit, Buffer.t, unit) format -> Var.var -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 172 4755 4776 "completion/norm_ml.ml" 172 4755 4778
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 171 4721 4741 "completion/norm_ml.ml" 171 4721 4743
+)
+"completion/norm_ml.ml" 172 4755 4779 "completion/norm_ml.ml" 172 4755 4788
+type(
+  (Var.var -> unit, Buffer.t, unit) format
+)
+"completion/norm_ml.ml" 172 4755 4789 "completion/norm_ml.ml" 172 4755 4790
+type(
+  Var.var
+)
+ident(
+  int_ref i "completion/norm_ml.ml" 172 4755 4763 "completion/norm_ml.ml" 172 4755 4764
+)
+"completion/norm_ml.ml" 172 4755 4768 "completion/norm_ml.ml" 172 4755 4790
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 173 4791 4800 "completion/norm_ml.ml" 173 4791 4801
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/norm_ml.ml" 173 4791 4810 "completion/norm_ml.ml" 173 4791 4864
+)
+"completion/norm_ml.ml" 173 4791 4803 "completion/norm_ml.ml" 173 4791 4805
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/norm_ml.ml" 173 4791 4810 "completion/norm_ml.ml" 173 4791 4864
+)
+"completion/norm_ml.ml" 173 4791 4795 "completion/norm_ml.ml" 173 4791 4806
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 173 4791 4810 "completion/norm_ml.ml" 173 4791 4817
+type(
+  Buffer.t ->
+  (string -> (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit,
+   Buffer.t, unit)
+  format ->
+  string -> (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 173 4791 4818 "completion/norm_ml.ml" 173 4791 4820
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 171 4721 4741 "completion/norm_ml.ml" 171 4721 4743
+)
+"completion/norm_ml.ml" 173 4791 4821 "completion/norm_ml.ml" 173 4791 4827
+type(
+  (string -> (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit,
+   Buffer.t, unit)
+  format
+)
+"completion/norm_ml.ml" 173 4791 4829 "completion/norm_ml.ml" 173 4791 4845
+type(
+  Symb.symbol -> string
+)
+ident(
+  ext_ref Symb.string_of_symbol
+)
+"completion/norm_ml.ml" 173 4791 4846 "completion/norm_ml.ml" 173 4791 4847
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/norm_ml.ml" 173 4791 4800 "completion/norm_ml.ml" 173 4791 4801
+)
+"completion/norm_ml.ml" 173 4791 4828 "completion/norm_ml.ml" 173 4791 4848
+call(
+  stack
+)
+type(
+  string
+)
+"completion/norm_ml.ml" 173 4791 4849 "completion/norm_ml.ml" 173 4791 4861
+type(
+  Buffer.t -> Term.term list -> unit
+)
+ident(
+  int_ref bprint_terms "completion/norm_ml.ml" 175 4866 4870 "completion/norm_ml.ml" 175 4866 4882
+)
+"completion/norm_ml.ml" 173 4791 4862 "completion/norm_ml.ml" 173 4791 4864
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/norm_ml.ml" 173 4791 4803 "completion/norm_ml.ml" 173 4791 4805
+)
+"completion/norm_ml.ml" 173 4791 4810 "completion/norm_ml.ml" 173 4791 4864
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 171 4721 4746 "completion/norm_ml.ml" 173 4791 4864
+type(
+  Term.term -> unit
+)
+"completion/norm_ml.ml" 175 4866 4870 "completion/norm_ml.ml" 175 4866 4882
+type(
+  Buffer.t -> Term.term list -> unit
+)
+ident(
+  def bprint_terms "completion/norm_ml.ml" 171 4721 4721 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 175 4866 4883 "completion/norm_ml.ml" 175 4866 4885
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 175 4866 4888 "completion/norm_ml.ml" 178 4952 5022
+)
+"completion/norm_ml.ml" 176 4897 4901 "completion/norm_ml.ml" 176 4897 4903
+type(
+  Term.term list
+)
+"completion/norm_ml.ml" 176 4897 4907 "completion/norm_ml.ml" 176 4897 4909
+type(
+  unit
+)
+"completion/norm_ml.ml" 177 4910 4915 "completion/norm_ml.ml" 177 4910 4916
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm_ml.ml" 177 4910 4921 "completion/norm_ml.ml" 177 4910 4951
+)
+"completion/norm_ml.ml" 177 4910 4914 "completion/norm_ml.ml" 177 4910 4917
+type(
+  Term.term list
+)
+"completion/norm_ml.ml" 177 4910 4921 "completion/norm_ml.ml" 177 4910 4928
+type(
+  Buffer.t ->
+  ((Buffer.t -> Term.term -> unit) -> Term.term -> unit, Buffer.t, unit)
+  format -> (Buffer.t -> Term.term -> unit) -> Term.term -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 177 4910 4929 "completion/norm_ml.ml" 177 4910 4931
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 175 4866 4883 "completion/norm_ml.ml" 175 4866 4885
+)
+"completion/norm_ml.ml" 177 4910 4932 "completion/norm_ml.ml" 177 4910 4937
+type(
+  ((Buffer.t -> Term.term -> unit) -> Term.term -> unit, Buffer.t, unit)
+  format
+)
+"completion/norm_ml.ml" 177 4910 4938 "completion/norm_ml.ml" 177 4910 4949
+type(
+  Buffer.t -> Term.term -> unit
+)
+ident(
+  int_ref bprint_term "completion/norm_ml.ml" 171 4721 4729 "completion/norm_ml.ml" 171 4721 4740
+)
+"completion/norm_ml.ml" 177 4910 4950 "completion/norm_ml.ml" 177 4910 4951
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm_ml.ml" 177 4910 4915 "completion/norm_ml.ml" 177 4910 4916
+)
+"completion/norm_ml.ml" 177 4910 4921 "completion/norm_ml.ml" 177 4910 4951
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 178 4952 4956 "completion/norm_ml.ml" 178 4952 4957
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm_ml.ml" 178 4952 4967 "completion/norm_ml.ml" 178 4952 5022
+)
+"completion/norm_ml.ml" 178 4952 4961 "completion/norm_ml.ml" 178 4952 4963
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/norm_ml.ml" 178 4952 4967 "completion/norm_ml.ml" 178 4952 5022
+)
+"completion/norm_ml.ml" 178 4952 4956 "completion/norm_ml.ml" 178 4952 4963
+type(
+  Term.term list
+)
+"completion/norm_ml.ml" 178 4952 4967 "completion/norm_ml.ml" 178 4952 4974
+type(
+  Buffer.t ->
+  ((Buffer.t -> Term.term -> unit) ->
+   Term.term ->
+   (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit, Buffer.t,
+   unit)
+  format ->
+  (Buffer.t -> Term.term -> unit) ->
+  Term.term -> (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 178 4952 4975 "completion/norm_ml.ml" 178 4952 4977
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 175 4866 4883 "completion/norm_ml.ml" 175 4866 4885
+)
+"completion/norm_ml.ml" 178 4952 4978 "completion/norm_ml.ml" 178 4952 4986
+type(
+  ((Buffer.t -> Term.term -> unit) ->
+   Term.term ->
+   (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit, Buffer.t,
+   unit)
+  format
+)
+"completion/norm_ml.ml" 178 4952 4987 "completion/norm_ml.ml" 178 4952 4998
+type(
+  Buffer.t -> Term.term -> unit
+)
+ident(
+  int_ref bprint_term "completion/norm_ml.ml" 171 4721 4729 "completion/norm_ml.ml" 171 4721 4740
+)
+"completion/norm_ml.ml" 178 4952 4999 "completion/norm_ml.ml" 178 4952 5000
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm_ml.ml" 178 4952 4956 "completion/norm_ml.ml" 178 4952 4957
+)
+"completion/norm_ml.ml" 178 4952 5001 "completion/norm_ml.ml" 178 4952 5019
+type(
+  Buffer.t -> Term.term list -> unit
+)
+ident(
+  int_ref bprint_terms_comma "completion/norm_ml.ml" 180 5024 5028 "completion/norm_ml.ml" 180 5024 5046
+)
+"completion/norm_ml.ml" 178 4952 5020 "completion/norm_ml.ml" 178 4952 5022
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/norm_ml.ml" 178 4952 4961 "completion/norm_ml.ml" 178 4952 4963
+)
+"completion/norm_ml.ml" 178 4952 4967 "completion/norm_ml.ml" 178 4952 5022
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 175 4866 4888 "completion/norm_ml.ml" 178 4952 5022
+type(
+  Term.term list -> unit
+)
+"completion/norm_ml.ml" 180 5024 5028 "completion/norm_ml.ml" 180 5024 5046
+type(
+  Buffer.t -> Term.term list -> unit
+)
+ident(
+  def bprint_terms_comma "completion/norm_ml.ml" 171 4721 4721 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 180 5024 5047 "completion/norm_ml.ml" 180 5024 5049
+type(
+  Buffer.t
+)
+ident(
+  def ob "completion/norm_ml.ml" 180 5024 5052 "completion/norm_ml.ml" 182 5074 5143
+)
+"completion/norm_ml.ml" 181 5061 5065 "completion/norm_ml.ml" 181 5061 5067
+type(
+  Term.term list
+)
+"completion/norm_ml.ml" 181 5061 5071 "completion/norm_ml.ml" 181 5061 5073
+type(
+  unit
+)
+"completion/norm_ml.ml" 182 5074 5078 "completion/norm_ml.ml" 182 5074 5079
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm_ml.ml" 182 5074 5089 "completion/norm_ml.ml" 182 5074 5143
+)
+"completion/norm_ml.ml" 182 5074 5083 "completion/norm_ml.ml" 182 5074 5085
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/norm_ml.ml" 182 5074 5089 "completion/norm_ml.ml" 182 5074 5143
+)
+"completion/norm_ml.ml" 182 5074 5078 "completion/norm_ml.ml" 182 5074 5085
+type(
+  Term.term list
+)
+"completion/norm_ml.ml" 182 5074 5089 "completion/norm_ml.ml" 182 5074 5096
+type(
+  Buffer.t ->
+  ((Buffer.t -> Term.term -> unit) ->
+   Term.term ->
+   (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit, Buffer.t,
+   unit)
+  format ->
+  (Buffer.t -> Term.term -> unit) ->
+  Term.term -> (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 182 5074 5097 "completion/norm_ml.ml" 182 5074 5099
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 180 5024 5047 "completion/norm_ml.ml" 180 5024 5049
+)
+"completion/norm_ml.ml" 182 5074 5100 "completion/norm_ml.ml" 182 5074 5107
+type(
+  ((Buffer.t -> Term.term -> unit) ->
+   Term.term ->
+   (Buffer.t -> Term.term list -> unit) -> Term.term list -> unit, Buffer.t,
+   unit)
+  format
+)
+"completion/norm_ml.ml" 182 5074 5108 "completion/norm_ml.ml" 182 5074 5119
+type(
+  Buffer.t -> Term.term -> unit
+)
+ident(
+  int_ref bprint_term "completion/norm_ml.ml" 171 4721 4729 "completion/norm_ml.ml" 171 4721 4740
+)
+"completion/norm_ml.ml" 182 5074 5120 "completion/norm_ml.ml" 182 5074 5121
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm_ml.ml" 182 5074 5078 "completion/norm_ml.ml" 182 5074 5079
+)
+"completion/norm_ml.ml" 182 5074 5122 "completion/norm_ml.ml" 182 5074 5140
+type(
+  Buffer.t -> Term.term list -> unit
+)
+ident(
+  int_ref bprint_terms_comma "completion/norm_ml.ml" 180 5024 5028 "completion/norm_ml.ml" 180 5024 5046
+)
+"completion/norm_ml.ml" 182 5074 5141 "completion/norm_ml.ml" 182 5074 5143
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/norm_ml.ml" 182 5074 5083 "completion/norm_ml.ml" 182 5074 5085
+)
+"completion/norm_ml.ml" 182 5074 5089 "completion/norm_ml.ml" 182 5074 5143
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 180 5024 5052 "completion/norm_ml.ml" 182 5074 5143
+type(
+  Term.term list -> unit
+)
+"completion/norm_ml.ml" 185 5148 5152 "completion/norm_ml.ml" 185 5148 5167
+type(
+  Term.term -> unit
+)
+ident(
+  def write_term_file "completion/norm_ml.ml" 203 5581 5581 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 185 5148 5168 "completion/norm_ml.ml" 185 5148 5169
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm_ml.ml" 186 5172 5174 "completion/norm_ml.ml" 198 5509 5529
+)
+"completion/norm_ml.ml" 186 5172 5174 "completion/norm_ml.ml" 186 5172 5187
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Configuration.verbose_print
+)
+"completion/norm_ml.ml" 186 5172 5188 "completion/norm_ml.ml" 186 5172 5205
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"completion/norm_ml.ml" 186 5172 5206 "completion/norm_ml.ml" 186 5172 5225
+type(
+  string
+)
+ident(
+  int_ref moca_init_test_file "completion/norm_ml.ml" 29 1227 1231 "completion/norm_ml.ml" 29 1227 1250
+)
+"completion/norm_ml.ml" 186 5172 5174 "completion/norm_ml.ml" 186 5172 5225
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 187 5228 5234 "completion/norm_ml.ml" 187 5228 5236
+type(
+  out_channel
+)
+ident(
+  def oc "completion/norm_ml.ml" 188 5271 5273 "completion/norm_ml.ml" 198 5509 5529
+)
+"completion/norm_ml.ml" 187 5228 5239 "completion/norm_ml.ml" 187 5228 5247
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"completion/norm_ml.ml" 187 5228 5248 "completion/norm_ml.ml" 187 5228 5267
+type(
+  string
+)
+ident(
+  int_ref moca_init_test_file "completion/norm_ml.ml" 29 1227 1231 "completion/norm_ml.ml" 29 1227 1250
+)
+"completion/norm_ml.ml" 187 5228 5239 "completion/norm_ml.ml" 187 5228 5267
+call(
+  stack
+)
+type(
+  out_channel
+)
+"completion/norm_ml.ml" 188 5271 5273 "completion/norm_ml.ml" 188 5271 5280
+type(
+  Buffer.t ->
+  ((Buffer.t -> Term.term -> unit) -> Term.term -> string -> unit, Buffer.t,
+   unit)
+  format -> (Buffer.t -> Term.term -> unit) -> Term.term -> string -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"completion/norm_ml.ml" 188 5271 5281 "completion/norm_ml.ml" 188 5271 5283
+type(
+  Buffer.t
+)
+ident(
+  int_ref ob "completion/norm_ml.ml" 144 4143 4147 "completion/norm_ml.ml" 144 4143 4149
+)
+"completion/norm_ml.ml" 189 5284 5288 "completion/norm_ml.ml" 197 5475 5480
+type(
+  ((Buffer.t -> Term.term -> unit) -> Term.term -> string -> unit, Buffer.t,
+   unit)
+  format
+)
+"completion/norm_ml.ml" 197 5475 5481 "completion/norm_ml.ml" 197 5475 5492
+type(
+  Buffer.t -> Term.term -> unit
+)
+ident(
+  int_ref bprint_term "completion/norm_ml.ml" 171 4721 4729 "completion/norm_ml.ml" 171 4721 4740
+)
+"completion/norm_ml.ml" 197 5475 5493 "completion/norm_ml.ml" 197 5475 5494
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm_ml.ml" 185 5148 5168 "completion/norm_ml.ml" 185 5148 5169
+)
+"completion/norm_ml.ml" 197 5475 5495 "completion/norm_ml.ml" 197 5475 5507
+type(
+  string
+)
+ident(
+  int_ref moca_outfile "completion/norm_ml.ml" 30 1268 1272 "completion/norm_ml.ml" 30 1268 1284
+)
+"completion/norm_ml.ml" 188 5271 5273 "completion/norm_ml.ml" 197 5475 5507
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 198 5509 5511 "completion/norm_ml.ml" 198 5509 5526
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref write_and_close "completion/norm_ml.ml" 149 4232 4236 "completion/norm_ml.ml" 149 4232 4251
+)
+"completion/norm_ml.ml" 198 5509 5527 "completion/norm_ml.ml" 198 5509 5529
+type(
+  out_channel
+)
+ident(
+  int_ref oc "completion/norm_ml.ml" 187 5228 5234 "completion/norm_ml.ml" 187 5228 5236
+)
+"completion/norm_ml.ml" 198 5509 5511 "completion/norm_ml.ml" 198 5509 5529
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 188 5271 5273 "completion/norm_ml.ml" 198 5509 5529
+type(
+  unit
+)
+"completion/norm_ml.ml" 187 5228 5230 "completion/norm_ml.ml" 198 5509 5529
+type(
+  unit
+)
+"completion/norm_ml.ml" 186 5172 5174 "completion/norm_ml.ml" 198 5509 5529
+type(
+  unit
+)
+"completion/norm_ml.ml" 203 5581 5585 "completion/norm_ml.ml" 203 5581 5599
+type(
+  unit -> Term.term
+)
+ident(
+  def read_term_file "completion/norm_ml.ml" 213 5825 5825 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 203 5581 5600 "completion/norm_ml.ml" 203 5581 5602
+type(
+  unit
+)
+"completion/norm_ml.ml" 204 5605 5607 "completion/norm_ml.ml" 204 5605 5620
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Configuration.verbose_print
+)
+"completion/norm_ml.ml" 204 5605 5621 "completion/norm_ml.ml" 204 5605 5636
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"completion/norm_ml.ml" 204 5605 5637 "completion/norm_ml.ml" 204 5605 5649
+type(
+  string
+)
+ident(
+  int_ref moca_outfile "completion/norm_ml.ml" 30 1268 1272 "completion/norm_ml.ml" 30 1268 1284
+)
+"completion/norm_ml.ml" 204 5605 5607 "completion/norm_ml.ml" 204 5605 5649
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 205 5651 5657 "completion/norm_ml.ml" 205 5651 5659
+type(
+  in_channel
+)
+ident(
+  def ic "completion/norm_ml.ml" 206 5687 5689 "completion/norm_ml.ml" 209 5790 5793
+)
+"completion/norm_ml.ml" 205 5651 5662 "completion/norm_ml.ml" 205 5651 5669
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"completion/norm_ml.ml" 205 5651 5670 "completion/norm_ml.ml" 205 5651 5682
+type(
+  string
+)
+ident(
+  int_ref moca_outfile "completion/norm_ml.ml" 30 1268 1272 "completion/norm_ml.ml" 30 1268 1284
+)
+"completion/norm_ml.ml" 205 5651 5662 "completion/norm_ml.ml" 205 5651 5682
+call(
+  stack
+)
+type(
+  in_channel
+)
+"completion/norm_ml.ml" 206 5687 5693 "completion/norm_ml.ml" 206 5687 5695
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "completion/norm_ml.ml" 207 5724 5726 "completion/norm_ml.ml" 209 5790 5793
+)
+"completion/norm_ml.ml" 206 5687 5698 "completion/norm_ml.ml" 206 5687 5717
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"completion/norm_ml.ml" 206 5687 5718 "completion/norm_ml.ml" 206 5687 5720
+type(
+  in_channel
+)
+ident(
+  int_ref ic "completion/norm_ml.ml" 205 5651 5657 "completion/norm_ml.ml" 205 5651 5659
+)
+"completion/norm_ml.ml" 206 5687 5698 "completion/norm_ml.ml" 206 5687 5720
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"completion/norm_ml.ml" 207 5724 5730 "completion/norm_ml.ml" 207 5724 5731
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm_ml.ml" 208 5775 5777 "completion/norm_ml.ml" 209 5790 5793
+)
+"completion/norm_ml.ml" 207 5724 5734 "completion/norm_ml.ml" 207 5724 5750
+type(
+  (Lexing.lexbuf -> Cparser.token) -> Lexing.lexbuf -> Term.term
+)
+ident(
+  ext_ref Cparser.top_term
+)
+"completion/norm_ml.ml" 207 5724 5751 "completion/norm_ml.ml" 207 5724 5768
+type(
+  Lexing.lexbuf -> Cparser.token
+)
+ident(
+  ext_ref Clexer.next_token
+)
+"completion/norm_ml.ml" 207 5724 5769 "completion/norm_ml.ml" 207 5724 5771
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "completion/norm_ml.ml" 206 5687 5693 "completion/norm_ml.ml" 206 5687 5695
+)
+"completion/norm_ml.ml" 207 5724 5734 "completion/norm_ml.ml" 207 5724 5771
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 208 5775 5777 "completion/norm_ml.ml" 208 5775 5785
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"completion/norm_ml.ml" 208 5775 5786 "completion/norm_ml.ml" 208 5775 5788
+type(
+  in_channel
+)
+ident(
+  int_ref ic "completion/norm_ml.ml" 205 5651 5657 "completion/norm_ml.ml" 205 5651 5659
+)
+"completion/norm_ml.ml" 208 5775 5777 "completion/norm_ml.ml" 208 5775 5788
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 209 5790 5792 "completion/norm_ml.ml" 209 5790 5793
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm_ml.ml" 207 5724 5730 "completion/norm_ml.ml" 207 5724 5731
+)
+"completion/norm_ml.ml" 208 5775 5777 "completion/norm_ml.ml" 209 5790 5793
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 207 5724 5726 "completion/norm_ml.ml" 209 5790 5793
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 206 5687 5689 "completion/norm_ml.ml" 209 5790 5793
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 205 5651 5653 "completion/norm_ml.ml" 209 5790 5793
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 204 5605 5607 "completion/norm_ml.ml" 209 5790 5793
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 213 5825 5829 "completion/norm_ml.ml" 213 5825 5836
+type(
+  string -> unit
+)
+ident(
+  def run_cmd "completion/norm_ml.ml" 220 5948 5948 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 213 5825 5837 "completion/norm_ml.ml" 213 5825 5838
+type(
+  string
+)
+ident(
+  def s "completion/norm_ml.ml" 214 5841 5843 "completion/norm_ml.ml" 215 5889 5913
+)
+"completion/norm_ml.ml" 214 5841 5843 "completion/norm_ml.ml" 214 5841 5856
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"completion/norm_ml.ml" 214 5841 5857 "completion/norm_ml.ml" 214 5841 5885
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"completion/norm_ml.ml" 214 5841 5886 "completion/norm_ml.ml" 214 5841 5887
+type(
+  string
+)
+ident(
+  int_ref s "completion/norm_ml.ml" 213 5825 5837 "completion/norm_ml.ml" 213 5825 5838
+)
+"completion/norm_ml.ml" 214 5841 5843 "completion/norm_ml.ml" 214 5841 5887
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 215 5889 5891 "completion/norm_ml.ml" 215 5889 5897
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"completion/norm_ml.ml" 215 5889 5899 "completion/norm_ml.ml" 215 5889 5910
+type(
+  string -> int
+)
+ident(
+  ext_ref Sys.command
+)
+"completion/norm_ml.ml" 215 5889 5911 "completion/norm_ml.ml" 215 5889 5912
+type(
+  string
+)
+ident(
+  int_ref s "completion/norm_ml.ml" 213 5825 5837 "completion/norm_ml.ml" 213 5825 5838
+)
+"completion/norm_ml.ml" 215 5889 5898 "completion/norm_ml.ml" 215 5889 5913
+type(
+  int
+)
+"completion/norm_ml.ml" 215 5889 5891 "completion/norm_ml.ml" 215 5889 5913
+type(
+  unit
+)
+"completion/norm_ml.ml" 214 5841 5843 "completion/norm_ml.ml" 215 5889 5913
+type(
+  unit
+)
+"completion/norm_ml.ml" 220 5948 5952 "completion/norm_ml.ml" 220 5948 5956
+type(
+  Rule.RulSet.t -> Term.term -> Term.term
+)
+ident(
+  def norm "completion/norm_ml.ml" 241 6686 6709 "completion/norm_ml.ml" 1 0 -1
+)
+"completion/norm_ml.ml" 221 5959 5965 "completion/norm_ml.ml" 221 5959 5971
+type(
+  Rule.RulSet.t ref
+)
+ident(
+  def rs_ref "completion/norm_ml.ml" 222 5994 5996 "completion/norm_ml.ml" 241 6686 6709
+)
+"completion/norm_ml.ml" 221 5959 5974 "completion/norm_ml.ml" 221 5959 5977
+type(
+  Rule.RulSet.t -> Rule.RulSet.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"completion/norm_ml.ml" 221 5959 5978 "completion/norm_ml.ml" 221 5959 5990
+type(
+  Rule.RulSet.t
+)
+ident(
+  ext_ref Rule.RulSet.empty
+)
+"completion/norm_ml.ml" 221 5959 5974 "completion/norm_ml.ml" 221 5959 5990
+type(
+  Rule.RulSet.t ref
+)
+"completion/norm_ml.ml" 222 5994 6000 "completion/norm_ml.ml" 222 5994 6002
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/norm_ml.ml" 223 6006 6010 "completion/norm_ml.ml" 241 6686 6709
+)
+"completion/norm_ml.ml" 223 6006 6013 "completion/norm_ml.ml" 223 6006 6015
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/norm_ml.ml" 222 5994 6000 "completion/norm_ml.ml" 222 5994 6002
+)
+"completion/norm_ml.ml" 223 6006 6016 "completion/norm_ml.ml" 223 6006 6018
+type(
+  Rule.RulSet.t -> Rule.RulSet.t -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"completion/norm_ml.ml" 223 6006 6019 "completion/norm_ml.ml" 223 6006 6020
+type(
+  Rule.RulSet.t ref -> Rule.RulSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/norm_ml.ml" 223 6006 6020 "completion/norm_ml.ml" 223 6006 6026
+type(
+  Rule.RulSet.t ref
+)
+ident(
+  int_ref rs_ref "completion/norm_ml.ml" 221 5959 5965 "completion/norm_ml.ml" 221 5959 5971
+)
+"completion/norm_ml.ml" 223 6006 6019 "completion/norm_ml.ml" 223 6006 6026
+type(
+  Rule.RulSet.t
+)
+"completion/norm_ml.ml" 223 6006 6013 "completion/norm_ml.ml" 223 6006 6026
+type(
+  bool
+)
+"completion/norm_ml.ml" 225 6044 6052 "completion/norm_ml.ml" 225 6044 6067
+type(
+  Rule.RulSet.t -> unit
+)
+ident(
+  int_ref write_norm_file "completion/norm_ml.ml" 157 4361 4365 "completion/norm_ml.ml" 157 4361 4380
+)
+"completion/norm_ml.ml" 225 6044 6068 "completion/norm_ml.ml" 225 6044 6070
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/norm_ml.ml" 222 5994 6000 "completion/norm_ml.ml" 222 5994 6002
+)
+"completion/norm_ml.ml" 225 6044 6052 "completion/norm_ml.ml" 225 6044 6070
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 226 6072 6080 "completion/norm_ml.ml" 226 6072 6093
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Configuration.verbose_print
+)
+"completion/norm_ml.ml" 226 6072 6094 "completion/norm_ml.ml" 226 6072 6112
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"completion/norm_ml.ml" 226 6072 6113 "completion/norm_ml.ml" 226 6072 6136
+type(
+  string
+)
+ident(
+  int_ref moca_normalization_file "completion/norm_ml.ml" 28 1182 1186 "completion/norm_ml.ml" 28 1182 1209
+)
+"completion/norm_ml.ml" 226 6072 6080 "completion/norm_ml.ml" 226 6072 6136
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 227 6138 6150 "completion/norm_ml.ml" 227 6138 6153
+type(
+  string
+)
+ident(
+  def cmd "completion/norm_ml.ml" 228 6210 6218 "completion/norm_ml.ml" 229 6231 6251
+)
+"completion/norm_ml.ml" 227 6138 6156 "completion/norm_ml.ml" 227 6138 6170
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"completion/norm_ml.ml" 227 6138 6171 "completion/norm_ml.ml" 227 6138 6182
+type(
+  (string -> string, unit, string) format
+)
+"completion/norm_ml.ml" 227 6138 6183 "completion/norm_ml.ml" 227 6138 6206
+type(
+  string
+)
+ident(
+  int_ref moca_normalization_file "completion/norm_ml.ml" 28 1182 1186 "completion/norm_ml.ml" 28 1182 1209
+)
+"completion/norm_ml.ml" 227 6138 6156 "completion/norm_ml.ml" 227 6138 6206
+call(
+  stack
+)
+type(
+  string
+)
+"completion/norm_ml.ml" 228 6210 6218 "completion/norm_ml.ml" 228 6210 6225
+type(
+  string -> unit
+)
+ident(
+  int_ref run_cmd "completion/norm_ml.ml" 213 5825 5829 "completion/norm_ml.ml" 213 5825 5836
+)
+"completion/norm_ml.ml" 228 6210 6226 "completion/norm_ml.ml" 228 6210 6229
+type(
+  string
+)
+ident(
+  int_ref cmd "completion/norm_ml.ml" 227 6138 6150 "completion/norm_ml.ml" 227 6138 6153
+)
+"completion/norm_ml.ml" 228 6210 6218 "completion/norm_ml.ml" 228 6210 6229
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 229 6231 6239 "completion/norm_ml.ml" 229 6231 6245
+type(
+  Rule.RulSet.t ref
+)
+ident(
+  int_ref rs_ref "completion/norm_ml.ml" 221 5959 5965 "completion/norm_ml.ml" 221 5959 5971
+)
+"completion/norm_ml.ml" 229 6231 6246 "completion/norm_ml.ml" 229 6231 6248
+type(
+  Rule.RulSet.t ref -> Rule.RulSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/norm_ml.ml" 229 6231 6249 "completion/norm_ml.ml" 229 6231 6251
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/norm_ml.ml" 222 5994 6000 "completion/norm_ml.ml" 222 5994 6002
+)
+"completion/norm_ml.ml" 229 6231 6239 "completion/norm_ml.ml" 229 6231 6251
+type(
+  unit
+)
+"completion/norm_ml.ml" 228 6210 6218 "completion/norm_ml.ml" 229 6231 6251
+type(
+  unit
+)
+"completion/norm_ml.ml" 227 6138 6146 "completion/norm_ml.ml" 229 6231 6251
+type(
+  unit
+)
+"completion/norm_ml.ml" 226 6072 6080 "completion/norm_ml.ml" 229 6231 6251
+type(
+  unit
+)
+"completion/norm_ml.ml" 224 6032 6038 "completion/norm_ml.ml" 230 6252 6261
+type(
+  unit
+)
+"completion/norm_ml.ml" 223 6006 6010 "completion/norm_ml.ml" 230 6252 6261
+type(
+  unit
+)
+"completion/norm_ml.ml" 231 6263 6271 "completion/norm_ml.ml" 231 6263 6272
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm_ml.ml" 232 6276 6282 "completion/norm_ml.ml" 241 6686 6709
+)
+"completion/norm_ml.ml" 232 6276 6282 "completion/norm_ml.ml" 232 6276 6297
+type(
+  Term.term -> unit
+)
+ident(
+  int_ref write_term_file "completion/norm_ml.ml" 185 5148 5152 "completion/norm_ml.ml" 185 5148 5167
+)
+"completion/norm_ml.ml" 232 6276 6298 "completion/norm_ml.ml" 232 6276 6299
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm_ml.ml" 231 6263 6271 "completion/norm_ml.ml" 231 6263 6272
+)
+"completion/norm_ml.ml" 232 6276 6282 "completion/norm_ml.ml" 232 6276 6299
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 233 6301 6307 "completion/norm_ml.ml" 233 6301 6320
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Configuration.verbose_print
+)
+"completion/norm_ml.ml" 233 6301 6321 "completion/norm_ml.ml" 233 6301 6339
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"completion/norm_ml.ml" 233 6301 6340 "completion/norm_ml.ml" 233 6301 6359
+type(
+  string
+)
+ident(
+  int_ref moca_init_test_file "completion/norm_ml.ml" 29 1227 1231 "completion/norm_ml.ml" 29 1227 1250
+)
+"completion/norm_ml.ml" 233 6301 6307 "completion/norm_ml.ml" 233 6301 6359
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 234 6361 6371 "completion/norm_ml.ml" 234 6361 6392
+type(
+  string
+)
+ident(
+  def normalization_cmofile "completion/norm_ml.ml" 236 6468 6474 "completion/norm_ml.ml" 241 6686 6709
+)
+"completion/norm_ml.ml" 235 6395 6404 "completion/norm_ml.ml" 235 6395 6424
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.chop_suffix
+)
+"completion/norm_ml.ml" 235 6395 6425 "completion/norm_ml.ml" 235 6395 6448
+type(
+  string
+)
+ident(
+  int_ref moca_normalization_file "completion/norm_ml.ml" 28 1182 1186 "completion/norm_ml.ml" 28 1182 1209
+)
+"completion/norm_ml.ml" 235 6395 6449 "completion/norm_ml.ml" 235 6395 6454
+type(
+  string
+)
+"completion/norm_ml.ml" 235 6395 6403 "completion/norm_ml.ml" 235 6395 6455
+call(
+  stack
+)
+type(
+  string
+)
+"completion/norm_ml.ml" 235 6395 6456 "completion/norm_ml.ml" 235 6395 6457
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"completion/norm_ml.ml" 235 6395 6458 "completion/norm_ml.ml" 235 6395 6464
+type(
+  string
+)
+"completion/norm_ml.ml" 235 6395 6403 "completion/norm_ml.ml" 235 6395 6464
+call(
+  stack
+)
+type(
+  string
+)
+"completion/norm_ml.ml" 236 6468 6478 "completion/norm_ml.ml" 236 6468 6481
+type(
+  string
+)
+ident(
+  def cmd "completion/norm_ml.ml" 238 6590 6596 "completion/norm_ml.ml" 241 6686 6709
+)
+"completion/norm_ml.ml" 236 6468 6484 "completion/norm_ml.ml" 236 6468 6498
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"completion/norm_ml.ml" 236 6468 6499 "completion/norm_ml.ml" 236 6468 6519
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"completion/norm_ml.ml" 237 6520 6528 "completion/norm_ml.ml" 237 6520 6544
+type(
+  string
+)
+ident(
+  int_ref moca_binary_exec "completion/norm_ml.ml" 31 1308 1312 "completion/norm_ml.ml" 31 1308 1328
+)
+"completion/norm_ml.ml" 237 6520 6545 "completion/norm_ml.ml" 237 6520 6566
+type(
+  string
+)
+ident(
+  int_ref normalization_cmofile "completion/norm_ml.ml" 234 6361 6371 "completion/norm_ml.ml" 234 6361 6392
+)
+"completion/norm_ml.ml" 237 6520 6567 "completion/norm_ml.ml" 237 6520 6586
+type(
+  string
+)
+ident(
+  int_ref moca_init_test_file "completion/norm_ml.ml" 29 1227 1231 "completion/norm_ml.ml" 29 1227 1250
+)
+"completion/norm_ml.ml" 236 6468 6484 "completion/norm_ml.ml" 237 6520 6586
+call(
+  stack
+)
+type(
+  string
+)
+"completion/norm_ml.ml" 238 6590 6596 "completion/norm_ml.ml" 238 6590 6603
+type(
+  string -> unit
+)
+ident(
+  int_ref run_cmd "completion/norm_ml.ml" 213 5825 5829 "completion/norm_ml.ml" 213 5825 5836
+)
+"completion/norm_ml.ml" 238 6590 6604 "completion/norm_ml.ml" 238 6590 6607
+type(
+  string
+)
+ident(
+  int_ref cmd "completion/norm_ml.ml" 236 6468 6478 "completion/norm_ml.ml" 236 6468 6481
+)
+"completion/norm_ml.ml" 238 6590 6596 "completion/norm_ml.ml" 238 6590 6607
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 239 6609 6619 "completion/norm_ml.ml" 239 6609 6622
+type(
+  string
+)
+ident(
+  def cmd "completion/norm_ml.ml" 240 6667 6673 "completion/norm_ml.ml" 241 6686 6709
+)
+"completion/norm_ml.ml" 239 6609 6625 "completion/norm_ml.ml" 239 6609 6639
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"completion/norm_ml.ml" 239 6609 6640 "completion/norm_ml.ml" 239 6609 6646
+type(
+  (string -> string, unit, string) format
+)
+"completion/norm_ml.ml" 239 6609 6647 "completion/norm_ml.ml" 239 6609 6663
+type(
+  string
+)
+ident(
+  int_ref moca_binary_exec "completion/norm_ml.ml" 31 1308 1312 "completion/norm_ml.ml" 31 1308 1328
+)
+"completion/norm_ml.ml" 239 6609 6625 "completion/norm_ml.ml" 239 6609 6663
+call(
+  stack
+)
+type(
+  string
+)
+"completion/norm_ml.ml" 240 6667 6673 "completion/norm_ml.ml" 240 6667 6680
+type(
+  string -> unit
+)
+ident(
+  int_ref run_cmd "completion/norm_ml.ml" 213 5825 5829 "completion/norm_ml.ml" 213 5825 5836
+)
+"completion/norm_ml.ml" 240 6667 6681 "completion/norm_ml.ml" 240 6667 6684
+type(
+  string
+)
+ident(
+  int_ref cmd "completion/norm_ml.ml" 239 6609 6619 "completion/norm_ml.ml" 239 6609 6622
+)
+"completion/norm_ml.ml" 240 6667 6673 "completion/norm_ml.ml" 240 6667 6684
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/norm_ml.ml" 241 6686 6692 "completion/norm_ml.ml" 241 6686 6706
+type(
+  unit -> Term.term
+)
+ident(
+  int_ref read_term_file "completion/norm_ml.ml" 203 5581 5585 "completion/norm_ml.ml" 203 5581 5599
+)
+"completion/norm_ml.ml" 241 6686 6707 "completion/norm_ml.ml" 241 6686 6709
+type(
+  unit
+)
+"completion/norm_ml.ml" 241 6686 6692 "completion/norm_ml.ml" 241 6686 6709
+call(
+  tail
+)
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 240 6667 6673 "completion/norm_ml.ml" 241 6686 6709
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 239 6609 6615 "completion/norm_ml.ml" 241 6686 6709
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 238 6590 6596 "completion/norm_ml.ml" 241 6686 6709
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 236 6468 6474 "completion/norm_ml.ml" 241 6686 6709
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 234 6361 6367 "completion/norm_ml.ml" 241 6686 6709
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 233 6301 6307 "completion/norm_ml.ml" 241 6686 6709
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 232 6276 6282 "completion/norm_ml.ml" 241 6686 6709
+type(
+  Term.term
+)
+"completion/norm_ml.ml" 231 6263 6267 "completion/norm_ml.ml" 241 6686 6709
+type(
+  Term.term -> Term.term
+)
+"completion/norm_ml.ml" 223 6006 6010 "completion/norm_ml.ml" 241 6686 6709
+type(
+  Term.term -> Term.term
+)
+"completion/norm_ml.ml" 222 5994 5996 "completion/norm_ml.ml" 241 6686 6709
+type(
+  Rule.RulSet.t -> Term.term -> Term.term
+)
+"completion/norm_ml.ml" 221 5959 5961 "completion/norm_ml.ml" 241 6686 6709
+type(
+  Rule.RulSet.t -> Term.term -> Term.term
+)

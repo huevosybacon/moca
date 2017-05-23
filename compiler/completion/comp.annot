@@ -1,0 +1,2611 @@
+"completion/comp.ml" 29 1225 1229 "completion/comp.ml" 29 1225 1233
+type(
+  Rule.RulSet.t -> Term.term -> Term.term
+)
+ident(
+  def norm "completion/comp.ml" 33 1301 1301 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 29 1225 1236 "completion/comp.ml" 29 1225 1248
+type(
+  Rule.RulSet.t -> Term.term -> Term.term
+)
+ident(
+  ext_ref Norm_ml.norm
+)
+"completion/comp.ml" 33 1301 1305 "completion/comp.ml" 33 1301 1312
+type(
+  Format.formatter -> Equation.EqnSet.t * Rule.RulSet.t -> unit
+)
+ident(
+  def fprintf "completion/comp.ml" 39 1497 1497 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 33 1301 1313 "completion/comp.ml" 33 1301 1316
+type(
+  Format.formatter
+)
+ident(
+  def ppf "completion/comp.ml" 33 1301 1317 "completion/comp.ml" 36 1447 1492
+)
+"completion/comp.ml" 33 1301 1318 "completion/comp.ml" 33 1301 1320
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def es "completion/comp.ml" 34 1327 1329 "completion/comp.ml" 36 1447 1492
+)
+"completion/comp.ml" 33 1301 1321 "completion/comp.ml" 33 1301 1323
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/comp.ml" 34 1327 1329 "completion/comp.ml" 36 1447 1492
+)
+"completion/comp.ml" 33 1301 1317 "completion/comp.ml" 33 1301 1324
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 34 1327 1329 "completion/comp.ml" 34 1327 1343
+type(
+  Format.formatter ->
+  (Equation.EqnSet.t Useful.fprintf ->
+   Equation.EqnSet.t ->
+   Rule.RulSet.t Useful.fprintf -> Rule.RulSet.t -> int -> int -> unit,
+   Format.formatter, unit)
+  format ->
+  Equation.EqnSet.t Useful.fprintf ->
+  Equation.EqnSet.t ->
+  Rule.RulSet.t Useful.fprintf -> Rule.RulSet.t -> int -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"completion/comp.ml" 34 1327 1344 "completion/comp.ml" 34 1327 1347
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/comp.ml" 33 1301 1313 "completion/comp.ml" 33 1301 1316
+)
+"completion/comp.ml" 34 1327 1348 "completion/comp.ml" 34 1327 1406
+type(
+  (Equation.EqnSet.t Useful.fprintf ->
+   Equation.EqnSet.t ->
+   Rule.RulSet.t Useful.fprintf -> Rule.RulSet.t -> int -> int -> unit,
+   Format.formatter, unit)
+  format
+)
+"completion/comp.ml" 35 1407 1411 "completion/comp.ml" 35 1407 1425
+type(
+  Equation.EqnSet.t Useful.fprintf
+)
+ident(
+  ext_ref Equation.EqnSet.fprintf
+)
+"completion/comp.ml" 35 1407 1426 "completion/comp.ml" 35 1407 1428
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref es "completion/comp.ml" 33 1301 1318 "completion/comp.ml" 33 1301 1320
+)
+"completion/comp.ml" 35 1407 1429 "completion/comp.ml" 35 1407 1443
+type(
+  Rule.RulSet.t Useful.fprintf
+)
+ident(
+  ext_ref Rule.RulSet.fprintf
+)
+"completion/comp.ml" 35 1407 1444 "completion/comp.ml" 35 1407 1446
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/comp.ml" 33 1301 1321 "completion/comp.ml" 33 1301 1323
+)
+"completion/comp.ml" 36 1447 1452 "completion/comp.ml" 36 1447 1467
+type(
+  Equation.EqnSet.t -> int
+)
+ident(
+  ext_ref Equation.EqnSet.cardinal
+)
+"completion/comp.ml" 36 1447 1468 "completion/comp.ml" 36 1447 1470
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref es "completion/comp.ml" 33 1301 1318 "completion/comp.ml" 33 1301 1320
+)
+"completion/comp.ml" 36 1447 1451 "completion/comp.ml" 36 1447 1471
+call(
+  stack
+)
+type(
+  int
+)
+"completion/comp.ml" 36 1447 1473 "completion/comp.ml" 36 1447 1488
+type(
+  Rule.RulSet.t -> int
+)
+ident(
+  ext_ref Rule.RulSet.cardinal
+)
+"completion/comp.ml" 36 1447 1489 "completion/comp.ml" 36 1447 1491
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/comp.ml" 33 1301 1321 "completion/comp.ml" 33 1301 1323
+)
+"completion/comp.ml" 36 1447 1472 "completion/comp.ml" 36 1447 1492
+call(
+  stack
+)
+type(
+  int
+)
+"completion/comp.ml" 34 1327 1329 "completion/comp.ml" 36 1447 1492
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/comp.ml" 39 1497 1501 "completion/comp.ml" 39 1497 1506
+type(
+  string ->
+  ('a -> Equation.EqnSet.t * Rule.RulSet.t) ->
+  'a -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def apply "completion/comp.ml" 46 1623 1623 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 39 1497 1507 "completion/comp.ml" 39 1497 1508
+type(
+  string
+)
+ident(
+  def s "completion/comp.ml" 39 1497 1509 "completion/comp.ml" 43 1615 1618
+)
+"completion/comp.ml" 39 1497 1509 "completion/comp.ml" 39 1497 1513
+type(
+  'a -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def rule "completion/comp.ml" 39 1497 1514 "completion/comp.ml" 43 1615 1618
+)
+"completion/comp.ml" 39 1497 1514 "completion/comp.ml" 39 1497 1515
+type(
+  'a
+)
+ident(
+  def x "completion/comp.ml" 40 1518 1520 "completion/comp.ml" 43 1615 1618
+)
+"completion/comp.ml" 40 1518 1520 "completion/comp.ml" 40 1518 1534
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Configuration.verbose_printf
+)
+"completion/comp.ml" 40 1518 1535 "completion/comp.ml" 40 1518 1547
+type(
+  (string -> unit, out_channel, unit) format
+)
+"completion/comp.ml" 40 1518 1548 "completion/comp.ml" 40 1518 1549
+type(
+  string
+)
+ident(
+  int_ref s "completion/comp.ml" 39 1497 1507 "completion/comp.ml" 39 1497 1508
+)
+"completion/comp.ml" 40 1518 1520 "completion/comp.ml" 40 1518 1549
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/comp.ml" 41 1551 1557 "completion/comp.ml" 41 1551 1558
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def y "completion/comp.ml" 42 1571 1573 "completion/comp.ml" 43 1615 1618
+)
+"completion/comp.ml" 41 1551 1561 "completion/comp.ml" 41 1551 1565
+type(
+  'a -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref rule "completion/comp.ml" 39 1497 1509 "completion/comp.ml" 39 1497 1513
+)
+"completion/comp.ml" 41 1551 1566 "completion/comp.ml" 41 1551 1567
+type(
+  'a
+)
+ident(
+  int_ref x "completion/comp.ml" 39 1497 1514 "completion/comp.ml" 39 1497 1515
+)
+"completion/comp.ml" 41 1551 1561 "completion/comp.ml" 41 1551 1567
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 42 1571 1573 "completion/comp.ml" 42 1571 1586
+type(
+  (string ->
+   (Format.formatter -> Equation.EqnSet.t * Rule.RulSet.t -> unit) ->
+   Equation.EqnSet.t * Rule.RulSet.t -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Equation.EqnSet.t * Rule.RulSet.t -> unit) ->
+  Equation.EqnSet.t * Rule.RulSet.t -> unit
+)
+ident(
+  ext_ref Configuration.verbose_print
+)
+"completion/comp.ml" 42 1571 1587 "completion/comp.ml" 42 1571 1601
+type(
+  (string ->
+   (Format.formatter -> Equation.EqnSet.t * Rule.RulSet.t -> unit) ->
+   Equation.EqnSet.t * Rule.RulSet.t -> unit, Format.formatter, unit)
+  format
+)
+"completion/comp.ml" 42 1571 1602 "completion/comp.ml" 42 1571 1603
+type(
+  string
+)
+ident(
+  int_ref s "completion/comp.ml" 39 1497 1507 "completion/comp.ml" 39 1497 1508
+)
+"completion/comp.ml" 42 1571 1604 "completion/comp.ml" 42 1571 1611
+type(
+  Format.formatter -> Equation.EqnSet.t * Rule.RulSet.t -> unit
+)
+ident(
+  int_ref fprintf "completion/comp.ml" 33 1301 1305 "completion/comp.ml" 33 1301 1312
+)
+"completion/comp.ml" 42 1571 1612 "completion/comp.ml" 42 1571 1613
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref y "completion/comp.ml" 41 1551 1557 "completion/comp.ml" 41 1551 1558
+)
+"completion/comp.ml" 42 1571 1573 "completion/comp.ml" 42 1571 1613
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/comp.ml" 43 1615 1617 "completion/comp.ml" 43 1615 1618
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref y "completion/comp.ml" 41 1551 1557 "completion/comp.ml" 41 1551 1558
+)
+"completion/comp.ml" 42 1571 1573 "completion/comp.ml" 43 1615 1618
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 41 1551 1553 "completion/comp.ml" 43 1615 1618
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 40 1518 1520 "completion/comp.ml" 43 1615 1618
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 46 1623 1627 "completion/comp.ml" 46 1623 1633
+type(
+  ('a -> 'a option) -> 'a -> 'a
+)
+ident(
+  def repeat "completion/comp.ml" 54 1739 1739 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 46 1623 1634 "completion/comp.ml" 46 1623 1638
+type(
+  'a -> 'a option
+)
+ident(
+  def rule "completion/comp.ml" 47 1641 1643 "completion/comp.ml" 51 1729 1734
+)
+"completion/comp.ml" 47 1641 1651 "completion/comp.ml" 47 1641 1654
+type(
+  'a -> 'a
+)
+ident(
+  def aux "completion/comp.ml" 47 1641 1643 "completion/comp.ml" 51 1729 1734
+)
+"completion/comp.ml" 47 1641 1655 "completion/comp.ml" 47 1641 1658
+type(
+  'a
+)
+ident(
+  def ers "completion/comp.ml" 48 1661 1665 "completion/comp.ml" 50 1711 1725
+)
+"completion/comp.ml" 48 1661 1671 "completion/comp.ml" 48 1661 1675
+type(
+  'a -> 'a option
+)
+ident(
+  int_ref rule "completion/comp.ml" 46 1623 1634 "completion/comp.ml" 46 1623 1638
+)
+"completion/comp.ml" 48 1661 1676 "completion/comp.ml" 48 1661 1679
+type(
+  'a
+)
+ident(
+  int_ref ers "completion/comp.ml" 47 1641 1655 "completion/comp.ml" 47 1641 1658
+)
+"completion/comp.ml" 48 1661 1671 "completion/comp.ml" 48 1661 1679
+call(
+  stack
+)
+type(
+  'a option
+)
+"completion/comp.ml" 49 1685 1696 "completion/comp.ml" 49 1685 1699
+type(
+  'a
+)
+ident(
+  def ers "completion/comp.ml" 49 1685 1703 "completion/comp.ml" 49 1685 1710
+)
+"completion/comp.ml" 49 1685 1691 "completion/comp.ml" 49 1685 1699
+type(
+  'a option
+)
+"completion/comp.ml" 49 1685 1703 "completion/comp.ml" 49 1685 1706
+type(
+  'a -> 'a
+)
+ident(
+  int_ref aux "completion/comp.ml" 47 1641 1651 "completion/comp.ml" 47 1641 1654
+)
+"completion/comp.ml" 49 1685 1707 "completion/comp.ml" 49 1685 1710
+type(
+  'a
+)
+ident(
+  int_ref ers "completion/comp.ml" 49 1685 1696 "completion/comp.ml" 49 1685 1699
+)
+"completion/comp.ml" 49 1685 1703 "completion/comp.ml" 49 1685 1710
+call(
+  tail
+)
+type(
+  'a
+)
+"completion/comp.ml" 50 1711 1717 "completion/comp.ml" 50 1711 1718
+type(
+  'a option
+)
+"completion/comp.ml" 50 1711 1722 "completion/comp.ml" 50 1711 1725
+type(
+  'a
+)
+ident(
+  int_ref ers "completion/comp.ml" 47 1641 1655 "completion/comp.ml" 47 1641 1658
+)
+"completion/comp.ml" 48 1661 1665 "completion/comp.ml" 50 1711 1725
+type(
+  'a
+)
+"completion/comp.ml" 51 1729 1731 "completion/comp.ml" 51 1729 1734
+type(
+  'a -> 'a
+)
+ident(
+  int_ref aux "completion/comp.ml" 47 1641 1651 "completion/comp.ml" 47 1641 1654
+)
+"completion/comp.ml" 47 1641 1643 "completion/comp.ml" 51 1729 1734
+type(
+  'a -> 'a
+)
+"completion/comp.ml" 54 1739 1743 "completion/comp.ml" 54 1739 1749
+type(
+  string ->
+  (Equation.EqnSet.t * Rule.RulSet.t ->
+   (Equation.EqnSet.t * Rule.RulSet.t) option) ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def repeat "completion/comp.ml" 83 2355 2355 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 54 1739 1750 "completion/comp.ml" 54 1739 1751
+type(
+  string
+)
+ident(
+  def s "completion/comp.ml" 54 1739 1752 "completion/comp.ml" 58 1871 1876
+)
+"completion/comp.ml" 54 1739 1752 "completion/comp.ml" 54 1739 1756
+type(
+  Equation.EqnSet.t * Rule.RulSet.t ->
+  (Equation.EqnSet.t * Rule.RulSet.t) option
+)
+ident(
+  def rule "completion/comp.ml" 54 1739 1757 "completion/comp.ml" 58 1871 1876
+)
+"completion/comp.ml" 54 1739 1757 "completion/comp.ml" 54 1739 1760
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def ers "completion/comp.ml" 55 1763 1765 "completion/comp.ml" 58 1871 1876
+)
+"completion/comp.ml" 55 1763 1765 "completion/comp.ml" 55 1763 1779
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Configuration.verbose_printf
+)
+"completion/comp.ml" 55 1763 1780 "completion/comp.ml" 55 1763 1792
+type(
+  (string -> unit, out_channel, unit) format
+)
+"completion/comp.ml" 55 1763 1793 "completion/comp.ml" 55 1763 1794
+type(
+  string
+)
+ident(
+  int_ref s "completion/comp.ml" 54 1739 1750 "completion/comp.ml" 54 1739 1751
+)
+"completion/comp.ml" 55 1763 1765 "completion/comp.ml" 55 1763 1794
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/comp.ml" 56 1796 1802 "completion/comp.ml" 56 1796 1805
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def ers "completion/comp.ml" 57 1827 1829 "completion/comp.ml" 58 1871 1876
+)
+"completion/comp.ml" 56 1796 1808 "completion/comp.ml" 56 1796 1814
+type(
+  (Equation.EqnSet.t * Rule.RulSet.t ->
+   (Equation.EqnSet.t * Rule.RulSet.t) option) ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref repeat "completion/comp.ml" 46 1623 1627 "completion/comp.ml" 46 1623 1633
+)
+"completion/comp.ml" 56 1796 1815 "completion/comp.ml" 56 1796 1819
+type(
+  Equation.EqnSet.t * Rule.RulSet.t ->
+  (Equation.EqnSet.t * Rule.RulSet.t) option
+)
+ident(
+  int_ref rule "completion/comp.ml" 54 1739 1752 "completion/comp.ml" 54 1739 1756
+)
+"completion/comp.ml" 56 1796 1820 "completion/comp.ml" 56 1796 1823
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref ers "completion/comp.ml" 54 1739 1757 "completion/comp.ml" 54 1739 1760
+)
+"completion/comp.ml" 56 1796 1808 "completion/comp.ml" 56 1796 1823
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 57 1827 1829 "completion/comp.ml" 57 1827 1842
+type(
+  (string ->
+   (Format.formatter -> Equation.EqnSet.t * Rule.RulSet.t -> unit) ->
+   Equation.EqnSet.t * Rule.RulSet.t -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Equation.EqnSet.t * Rule.RulSet.t -> unit) ->
+  Equation.EqnSet.t * Rule.RulSet.t -> unit
+)
+ident(
+  ext_ref Configuration.verbose_print
+)
+"completion/comp.ml" 57 1827 1843 "completion/comp.ml" 57 1827 1855
+type(
+  (string ->
+   (Format.formatter -> Equation.EqnSet.t * Rule.RulSet.t -> unit) ->
+   Equation.EqnSet.t * Rule.RulSet.t -> unit, Format.formatter, unit)
+  format
+)
+"completion/comp.ml" 57 1827 1856 "completion/comp.ml" 57 1827 1857
+type(
+  string
+)
+ident(
+  int_ref s "completion/comp.ml" 54 1739 1750 "completion/comp.ml" 54 1739 1751
+)
+"completion/comp.ml" 57 1827 1858 "completion/comp.ml" 57 1827 1865
+type(
+  Format.formatter -> Equation.EqnSet.t * Rule.RulSet.t -> unit
+)
+ident(
+  int_ref fprintf "completion/comp.ml" 33 1301 1305 "completion/comp.ml" 33 1301 1312
+)
+"completion/comp.ml" 57 1827 1866 "completion/comp.ml" 57 1827 1869
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref ers "completion/comp.ml" 56 1796 1802 "completion/comp.ml" 56 1796 1805
+)
+"completion/comp.ml" 57 1827 1829 "completion/comp.ml" 57 1827 1869
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/comp.ml" 58 1871 1873 "completion/comp.ml" 58 1871 1876
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref ers "completion/comp.ml" 56 1796 1802 "completion/comp.ml" 56 1796 1805
+)
+"completion/comp.ml" 57 1827 1829 "completion/comp.ml" 58 1871 1876
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 56 1796 1798 "completion/comp.ml" 58 1871 1876
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 55 1763 1765 "completion/comp.ml" 58 1871 1876
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 83 2355 2359 "completion/comp.ml" 83 2355 2367
+type(
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def del_simp "completion/comp.ml" 85 2413 2413 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 83 2355 2369 "completion/comp.ml" 83 2355 2371
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def es "completion/comp.ml" 83 2355 2378 "completion/comp.ml" 83 2355 2409
+)
+"completion/comp.ml" 83 2355 2372 "completion/comp.ml" 83 2355 2374
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/comp.ml" 83 2355 2378 "completion/comp.ml" 83 2355 2409
+)
+"completion/comp.ml" 83 2355 2368 "completion/comp.ml" 83 2355 2375
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 83 2355 2378 "completion/comp.ml" 83 2355 2392
+type(
+  (Term.term -> Term.term) -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  ext_ref Equation.remove_trivial
+)
+"completion/comp.ml" 83 2355 2394 "completion/comp.ml" 83 2355 2398
+type(
+  Rule.RulSet.t -> Term.term -> Term.term
+)
+ident(
+  int_ref norm "completion/comp.ml" 29 1225 1229 "completion/comp.ml" 29 1225 1233
+)
+"completion/comp.ml" 83 2355 2399 "completion/comp.ml" 83 2355 2401
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/comp.ml" 83 2355 2372 "completion/comp.ml" 83 2355 2374
+)
+"completion/comp.ml" 83 2355 2393 "completion/comp.ml" 83 2355 2402
+call(
+  stack
+)
+type(
+  Term.term -> Term.term
+)
+"completion/comp.ml" 83 2355 2403 "completion/comp.ml" 83 2355 2405
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref es "completion/comp.ml" 83 2355 2369 "completion/comp.ml" 83 2355 2371
+)
+"completion/comp.ml" 83 2355 2378 "completion/comp.ml" 83 2355 2405
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t
+)
+"completion/comp.ml" 83 2355 2407 "completion/comp.ml" 83 2355 2409
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/comp.ml" 83 2355 2372 "completion/comp.ml" 83 2355 2374
+)
+"completion/comp.ml" 83 2355 2378 "completion/comp.ml" 83 2355 2409
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 85 2413 2417 "completion/comp.ml" 85 2413 2425
+type(
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def del_simp "completion/comp.ml" 90 2567 2567 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 85 2413 2428 "completion/comp.ml" 85 2413 2433
+type(
+  string ->
+  (Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t) ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref apply "completion/comp.ml" 39 1497 1501 "completion/comp.ml" 39 1497 1506
+)
+"completion/comp.ml" 85 2413 2434 "completion/comp.ml" 85 2413 2444
+type(
+  string
+)
+"completion/comp.ml" 85 2413 2445 "completion/comp.ml" 85 2413 2453
+type(
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref del_simp "completion/comp.ml" 83 2355 2359 "completion/comp.ml" 83 2355 2367
+)
+"completion/comp.ml" 85 2413 2428 "completion/comp.ml" 85 2413 2453
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 92 2605 2609 "completion/comp.ml" 92 2605 2612
+type(
+  Equation.eqn -> Rule.RulSet.t -> Rule.RulSet.t
+)
+ident(
+  def add "completion/comp.ml" 93 2664 2664 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 92 2605 2627 "completion/comp.ml" 92 2605 2628
+type(
+  Term.term
+)
+ident(
+  def l "completion/comp.ml" 92 2605 2635 "completion/comp.ml" 92 2605 2661
+)
+"completion/comp.ml" 92 2605 2629 "completion/comp.ml" 92 2605 2630
+type(
+  Term.term
+)
+ident(
+  def r "completion/comp.ml" 92 2605 2635 "completion/comp.ml" 92 2605 2661
+)
+"completion/comp.ml" 92 2605 2613 "completion/comp.ml" 92 2605 2632
+type(
+  Equation.eqn
+)
+"completion/comp.ml" 92 2605 2635 "completion/comp.ml" 92 2605 2645
+type(
+  Rule.RulSet.elt -> Rule.RulSet.t -> Rule.RulSet.t
+)
+ident(
+  ext_ref Rule.RulSet.add
+)
+"completion/comp.ml" 92 2605 2647 "completion/comp.ml" 92 2605 2654
+type(
+  Term.term * Term.term -> Rule.RulSet.elt
+)
+ident(
+  ext_ref Rule.mk
+)
+"completion/comp.ml" 92 2605 2656 "completion/comp.ml" 92 2605 2657
+type(
+  Term.term
+)
+ident(
+  int_ref l "completion/comp.ml" 92 2605 2627 "completion/comp.ml" 92 2605 2628
+)
+"completion/comp.ml" 92 2605 2658 "completion/comp.ml" 92 2605 2659
+type(
+  Term.term
+)
+ident(
+  int_ref r "completion/comp.ml" 92 2605 2629 "completion/comp.ml" 92 2605 2630
+)
+"completion/comp.ml" 92 2605 2655 "completion/comp.ml" 92 2605 2660
+type(
+  Term.term * Term.term
+)
+"completion/comp.ml" 92 2605 2646 "completion/comp.ml" 92 2605 2661
+call(
+  stack
+)
+type(
+  Rule.RulSet.elt
+)
+"completion/comp.ml" 92 2605 2635 "completion/comp.ml" 92 2605 2661
+call(
+  tail
+)
+type(
+  Rule.RulSet.t -> Rule.RulSet.t
+)
+"completion/comp.ml" 93 2664 2668 "completion/comp.ml" 93 2664 2675
+type(
+  Equation.eqn -> Rule.RulSet.t -> Rule.RulSet.t
+)
+ident(
+  def add_rev "completion/comp.ml" 95 2728 2728 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 93 2664 2690 "completion/comp.ml" 93 2664 2691
+type(
+  Term.term
+)
+ident(
+  def l "completion/comp.ml" 93 2664 2698 "completion/comp.ml" 93 2664 2724
+)
+"completion/comp.ml" 93 2664 2692 "completion/comp.ml" 93 2664 2693
+type(
+  Term.term
+)
+ident(
+  def r "completion/comp.ml" 93 2664 2698 "completion/comp.ml" 93 2664 2724
+)
+"completion/comp.ml" 93 2664 2676 "completion/comp.ml" 93 2664 2695
+type(
+  Equation.eqn
+)
+"completion/comp.ml" 93 2664 2698 "completion/comp.ml" 93 2664 2708
+type(
+  Rule.RulSet.elt -> Rule.RulSet.t -> Rule.RulSet.t
+)
+ident(
+  ext_ref Rule.RulSet.add
+)
+"completion/comp.ml" 93 2664 2710 "completion/comp.ml" 93 2664 2717
+type(
+  Term.term * Term.term -> Rule.RulSet.elt
+)
+ident(
+  ext_ref Rule.mk
+)
+"completion/comp.ml" 93 2664 2719 "completion/comp.ml" 93 2664 2720
+type(
+  Term.term
+)
+ident(
+  int_ref r "completion/comp.ml" 93 2664 2692 "completion/comp.ml" 93 2664 2693
+)
+"completion/comp.ml" 93 2664 2721 "completion/comp.ml" 93 2664 2722
+type(
+  Term.term
+)
+ident(
+  int_ref l "completion/comp.ml" 93 2664 2690 "completion/comp.ml" 93 2664 2691
+)
+"completion/comp.ml" 93 2664 2718 "completion/comp.ml" 93 2664 2723
+type(
+  Term.term * Term.term
+)
+"completion/comp.ml" 93 2664 2709 "completion/comp.ml" 93 2664 2724
+call(
+  stack
+)
+type(
+  Rule.RulSet.elt
+)
+"completion/comp.ml" 93 2664 2698 "completion/comp.ml" 93 2664 2724
+call(
+  tail
+)
+type(
+  Rule.RulSet.t -> Rule.RulSet.t
+)
+"completion/comp.ml" 95 2728 2732 "completion/comp.ml" 95 2728 2738
+type(
+  Term.term Order.cmp ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def orient "completion/comp.ml" 102 2962 2962 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 95 2728 2739 "completion/comp.ml" 95 2728 2742
+type(
+  Term.term Order.cmp
+)
+ident(
+  def cmp "completion/comp.ml" 95 2728 2743 "completion/comp.ml" 99 2891 2957
+)
+"completion/comp.ml" 95 2728 2744 "completion/comp.ml" 95 2728 2746
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def es "completion/comp.ml" 96 2753 2755 "completion/comp.ml" 99 2891 2957
+)
+"completion/comp.ml" 95 2728 2747 "completion/comp.ml" 95 2728 2749
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/comp.ml" 96 2753 2755 "completion/comp.ml" 99 2891 2957
+)
+"completion/comp.ml" 95 2728 2743 "completion/comp.ml" 95 2728 2750
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 96 2753 2759 "completion/comp.ml" 96 2753 2763
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def esgt "completion/comp.ml" 97 2806 2810 "completion/comp.ml" 99 2891 2957
+)
+"completion/comp.ml" 96 2753 2765 "completion/comp.ml" 96 2753 2769
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def eslt "completion/comp.ml" 97 2806 2810 "completion/comp.ml" 99 2891 2957
+)
+"completion/comp.ml" 96 2753 2771 "completion/comp.ml" 96 2753 2774
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def es2 "completion/comp.ml" 97 2806 2810 "completion/comp.ml" 99 2891 2957
+)
+"completion/comp.ml" 96 2753 2759 "completion/comp.ml" 96 2753 2774
+type(
+  Equation.EqnSet.t * Equation.EqnSet.t * Equation.EqnSet.t
+)
+"completion/comp.ml" 96 2753 2777 "completion/comp.ml" 96 2753 2795
+type(
+  Term.term Order.cmp ->
+  Equation.EqnSet.t ->
+  Equation.EqnSet.t * Equation.EqnSet.t * Equation.EqnSet.t
+)
+ident(
+  ext_ref Equation.partition
+)
+"completion/comp.ml" 96 2753 2796 "completion/comp.ml" 96 2753 2799
+type(
+  Term.term Order.cmp
+)
+ident(
+  int_ref cmp "completion/comp.ml" 95 2728 2739 "completion/comp.ml" 95 2728 2742
+)
+"completion/comp.ml" 96 2753 2800 "completion/comp.ml" 96 2753 2802
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref es "completion/comp.ml" 95 2728 2744 "completion/comp.ml" 95 2728 2746
+)
+"completion/comp.ml" 96 2753 2777 "completion/comp.ml" 96 2753 2802
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t * Equation.EqnSet.t * Equation.EqnSet.t
+)
+"completion/comp.ml" 97 2806 2813 "completion/comp.ml" 97 2806 2828
+type(
+  Equation.EqnSet.t -> bool
+)
+ident(
+  ext_ref Equation.EqnSet.is_empty
+)
+"completion/comp.ml" 97 2806 2829 "completion/comp.ml" 97 2806 2833
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref esgt "completion/comp.ml" 96 2753 2759 "completion/comp.ml" 96 2753 2763
+)
+"completion/comp.ml" 97 2806 2813 "completion/comp.ml" 97 2806 2833
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/comp.ml" 97 2806 2834 "completion/comp.ml" 97 2806 2836
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"completion/comp.ml" 97 2806 2837 "completion/comp.ml" 97 2806 2852
+type(
+  Equation.EqnSet.t -> bool
+)
+ident(
+  ext_ref Equation.EqnSet.is_empty
+)
+"completion/comp.ml" 97 2806 2853 "completion/comp.ml" 97 2806 2857
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref eslt "completion/comp.ml" 96 2753 2765 "completion/comp.ml" 96 2753 2769
+)
+"completion/comp.ml" 97 2806 2837 "completion/comp.ml" 97 2806 2857
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/comp.ml" 97 2806 2813 "completion/comp.ml" 97 2806 2857
+type(
+  bool
+)
+"completion/comp.ml" 98 2858 2867 "completion/comp.ml" 98 2858 2872
+type(
+  exn -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"completion/comp.ml" 98 2858 2887 "completion/comp.ml" 98 2858 2889
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref es "completion/comp.ml" 95 2728 2744 "completion/comp.ml" 95 2728 2746
+)
+"completion/comp.ml" 98 2858 2873 "completion/comp.ml" 98 2858 2890
+type(
+  exn
+)
+"completion/comp.ml" 98 2858 2867 "completion/comp.ml" 98 2858 2890
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 99 2891 2901 "completion/comp.ml" 99 2891 2904
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref es2 "completion/comp.ml" 96 2753 2771 "completion/comp.ml" 96 2753 2774
+)
+"completion/comp.ml" 99 2891 2906 "completion/comp.ml" 99 2891 2917
+type(
+  (Equation.EqnSet.elt -> Rule.RulSet.t -> Rule.RulSet.t) ->
+  Equation.EqnSet.t -> Rule.RulSet.t -> Rule.RulSet.t
+)
+ident(
+  ext_ref Equation.EqnSet.fold
+)
+"completion/comp.ml" 99 2891 2918 "completion/comp.ml" 99 2891 2921
+type(
+  Equation.EqnSet.elt -> Rule.RulSet.t -> Rule.RulSet.t
+)
+ident(
+  int_ref add "completion/comp.ml" 92 2605 2609 "completion/comp.ml" 92 2605 2612
+)
+"completion/comp.ml" 99 2891 2922 "completion/comp.ml" 99 2891 2926
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref esgt "completion/comp.ml" 96 2753 2759 "completion/comp.ml" 96 2753 2763
+)
+"completion/comp.ml" 99 2891 2928 "completion/comp.ml" 99 2891 2939
+type(
+  (Equation.EqnSet.elt -> Rule.RulSet.t -> Rule.RulSet.t) ->
+  Equation.EqnSet.t -> Rule.RulSet.t -> Rule.RulSet.t
+)
+ident(
+  ext_ref Equation.EqnSet.fold
+)
+"completion/comp.ml" 99 2891 2940 "completion/comp.ml" 99 2891 2947
+type(
+  Equation.EqnSet.elt -> Rule.RulSet.t -> Rule.RulSet.t
+)
+ident(
+  int_ref add_rev "completion/comp.ml" 93 2664 2668 "completion/comp.ml" 93 2664 2675
+)
+"completion/comp.ml" 99 2891 2948 "completion/comp.ml" 99 2891 2952
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref eslt "completion/comp.ml" 96 2753 2765 "completion/comp.ml" 96 2753 2769
+)
+"completion/comp.ml" 99 2891 2953 "completion/comp.ml" 99 2891 2955
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/comp.ml" 95 2728 2747 "completion/comp.ml" 95 2728 2749
+)
+"completion/comp.ml" 99 2891 2927 "completion/comp.ml" 99 2891 2956
+call(
+  stack
+)
+type(
+  Rule.RulSet.t
+)
+"completion/comp.ml" 99 2891 2906 "completion/comp.ml" 99 2891 2956
+call(
+  stack
+)
+type(
+  Rule.RulSet.t
+)
+"completion/comp.ml" 99 2891 2900 "completion/comp.ml" 99 2891 2957
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 97 2806 2810 "completion/comp.ml" 99 2891 2957
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 96 2753 2755 "completion/comp.ml" 99 2891 2957
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 102 2962 2966 "completion/comp.ml" 102 2962 2972
+type(
+  Term.term Order.cmp ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def orient "completion/comp.ml" 106 3051 3051 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 102 2962 2973 "completion/comp.ml" 102 2962 2976
+type(
+  Term.term Order.cmp
+)
+ident(
+  def cmp "completion/comp.ml" 102 2962 2979 "completion/comp.ml" 102 2962 3006
+)
+"completion/comp.ml" 102 2962 2979 "completion/comp.ml" 102 2962 2984
+type(
+  string ->
+  (Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t) ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref apply "completion/comp.ml" 39 1497 1501 "completion/comp.ml" 39 1497 1506
+)
+"completion/comp.ml" 102 2962 2985 "completion/comp.ml" 102 2962 2993
+type(
+  string
+)
+"completion/comp.ml" 102 2962 2995 "completion/comp.ml" 102 2962 3001
+type(
+  Term.term Order.cmp ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref orient "completion/comp.ml" 95 2728 2732 "completion/comp.ml" 95 2728 2738
+)
+"completion/comp.ml" 102 2962 3002 "completion/comp.ml" 102 2962 3005
+type(
+  Term.term Order.cmp
+)
+ident(
+  int_ref cmp "completion/comp.ml" 102 2962 2973 "completion/comp.ml" 102 2962 2976
+)
+"completion/comp.ml" 102 2962 2994 "completion/comp.ml" 102 2962 3006
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 102 2962 2979 "completion/comp.ml" 102 2962 3006
+call(
+  tail
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 106 3051 3055 "completion/comp.ml" 106 3051 3062
+type(
+  'a * Rule.RulSet.t -> 'a * Rule.RulSet.t
+)
+ident(
+  def compose "completion/comp.ml" 111 3141 3141 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 106 3051 3064 "completion/comp.ml" 106 3051 3066
+type(
+  'a
+)
+ident(
+  def es "completion/comp.ml" 107 3073 3075 "completion/comp.ml" 108 3115 3136
+)
+"completion/comp.ml" 106 3051 3067 "completion/comp.ml" 106 3051 3069
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/comp.ml" 107 3073 3075 "completion/comp.ml" 108 3115 3136
+)
+"completion/comp.ml" 106 3051 3063 "completion/comp.ml" 106 3051 3070
+type(
+  'a * Rule.RulSet.t
+)
+"completion/comp.ml" 107 3073 3079 "completion/comp.ml" 107 3073 3080
+type(
+  Rule.rule -> Rule.rule
+)
+ident(
+  def f "completion/comp.ml" 108 3115 3117 "completion/comp.ml" 108 3115 3136
+)
+"completion/comp.ml" 107 3073 3086 "completion/comp.ml" 107 3073 3087
+type(
+  Term.term
+)
+ident(
+  def l "completion/comp.ml" 107 3073 3094 "completion/comp.ml" 107 3073 3111
+)
+"completion/comp.ml" 107 3073 3088 "completion/comp.ml" 107 3073 3089
+type(
+  Term.term
+)
+ident(
+  def r "completion/comp.ml" 107 3073 3094 "completion/comp.ml" 107 3073 3111
+)
+"completion/comp.ml" 107 3073 3081 "completion/comp.ml" 107 3073 3091
+type(
+  Rule.rule
+)
+"completion/comp.ml" 107 3073 3094 "completion/comp.ml" 107 3073 3096
+type(
+  Term.term * Term.term -> Rule.rule
+)
+ident(
+  ext_ref Rule.mk
+)
+"completion/comp.ml" 107 3073 3098 "completion/comp.ml" 107 3073 3099
+type(
+  Term.term
+)
+ident(
+  int_ref l "completion/comp.ml" 107 3073 3086 "completion/comp.ml" 107 3073 3087
+)
+"completion/comp.ml" 107 3073 3101 "completion/comp.ml" 107 3073 3105
+type(
+  Rule.RulSet.t -> Term.term -> Term.term
+)
+ident(
+  int_ref norm "completion/comp.ml" 29 1225 1229 "completion/comp.ml" 29 1225 1233
+)
+"completion/comp.ml" 107 3073 3106 "completion/comp.ml" 107 3073 3108
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/comp.ml" 106 3051 3067 "completion/comp.ml" 106 3051 3069
+)
+"completion/comp.ml" 107 3073 3109 "completion/comp.ml" 107 3073 3110
+type(
+  Term.term
+)
+ident(
+  int_ref r "completion/comp.ml" 107 3073 3088 "completion/comp.ml" 107 3073 3089
+)
+"completion/comp.ml" 107 3073 3101 "completion/comp.ml" 107 3073 3110
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/comp.ml" 107 3073 3097 "completion/comp.ml" 107 3073 3111
+type(
+  Term.term * Term.term
+)
+"completion/comp.ml" 107 3073 3094 "completion/comp.ml" 107 3073 3111
+call(
+  tail
+)
+type(
+  Rule.rule
+)
+"completion/comp.ml" 108 3115 3117 "completion/comp.ml" 108 3115 3119
+type(
+  'a
+)
+ident(
+  int_ref es "completion/comp.ml" 106 3051 3064 "completion/comp.ml" 106 3051 3066
+)
+"completion/comp.ml" 108 3115 3121 "completion/comp.ml" 108 3115 3131
+type(
+  (Rule.RulSet.elt -> Rule.RulSet.elt) -> Rule.RulSet.t -> Rule.RulSet.t
+)
+ident(
+  ext_ref Rule.RulSet.map
+)
+"completion/comp.ml" 108 3115 3132 "completion/comp.ml" 108 3115 3133
+type(
+  Rule.RulSet.elt -> Rule.RulSet.elt
+)
+ident(
+  int_ref f "completion/comp.ml" 107 3073 3079 "completion/comp.ml" 107 3073 3080
+)
+"completion/comp.ml" 108 3115 3134 "completion/comp.ml" 108 3115 3136
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/comp.ml" 106 3051 3067 "completion/comp.ml" 106 3051 3069
+)
+"completion/comp.ml" 108 3115 3121 "completion/comp.ml" 108 3115 3136
+call(
+  stack
+)
+type(
+  Rule.RulSet.t
+)
+"completion/comp.ml" 108 3115 3117 "completion/comp.ml" 108 3115 3136
+type(
+  'a * Rule.RulSet.t
+)
+"completion/comp.ml" 107 3073 3075 "completion/comp.ml" 108 3115 3136
+type(
+  'a * Rule.RulSet.t
+)
+"completion/comp.ml" 111 3141 3145 "completion/comp.ml" 111 3141 3152
+type(
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def compose "completion/comp.ml" 115 3247 3247 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 111 3141 3155 "completion/comp.ml" 111 3141 3160
+type(
+  string ->
+  (Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t) ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref apply "completion/comp.ml" 39 1497 1501 "completion/comp.ml" 39 1497 1506
+)
+"completion/comp.ml" 111 3141 3161 "completion/comp.ml" 111 3141 3170
+type(
+  string
+)
+"completion/comp.ml" 111 3141 3171 "completion/comp.ml" 111 3141 3178
+type(
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref compose "completion/comp.ml" 106 3051 3055 "completion/comp.ml" 106 3051 3062
+)
+"completion/comp.ml" 111 3141 3155 "completion/comp.ml" 111 3141 3178
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 115 3247 3251 "completion/comp.ml" 115 3247 3258
+type(
+  (Term.term -> Term.term -> Order.ord) -> Rule.rule -> Rule.rule -> bool
+)
+ident(
+  def rule_gt "completion/comp.ml" 123 3444 3444 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 115 3247 3259 "completion/comp.ml" 115 3247 3262
+type(
+  Term.term -> Term.term -> Order.ord
+)
+ident(
+  def cmp "completion/comp.ml" 115 3247 3263 "completion/comp.ml" 118 3373 3397
+)
+"completion/comp.ml" 115 3247 3268 "completion/comp.ml" 115 3247 3270
+type(
+  Term.term
+)
+ident(
+  def l1 "completion/comp.ml" 115 3247 3276 "completion/comp.ml" 118 3373 3397
+)
+"completion/comp.ml" 115 3247 3271 "completion/comp.ml" 115 3247 3273
+type(
+  Term.term
+)
+ident(
+  def r1 "completion/comp.ml" 115 3247 3276 "completion/comp.ml" 118 3373 3397
+)
+"completion/comp.ml" 115 3247 3263 "completion/comp.ml" 115 3247 3275
+type(
+  Rule.rule
+)
+"completion/comp.ml" 115 3247 3281 "completion/comp.ml" 115 3247 3283
+type(
+  Term.term
+)
+ident(
+  def l2 "completion/comp.ml" 116 3291 3293 "completion/comp.ml" 118 3373 3397
+)
+"completion/comp.ml" 115 3247 3284 "completion/comp.ml" 115 3247 3286
+type(
+  Term.term
+)
+ident(
+  def r2 "completion/comp.ml" 116 3291 3293 "completion/comp.ml" 118 3373 3397
+)
+"completion/comp.ml" 115 3247 3276 "completion/comp.ml" 115 3247 3288
+type(
+  Rule.rule
+)
+"completion/comp.ml" 116 3291 3299 "completion/comp.ml" 116 3291 3312
+type(
+  Term.term -> Term.term -> Subs.subs option
+)
+ident(
+  ext_ref Rename.eq_opt
+)
+"completion/comp.ml" 116 3291 3313 "completion/comp.ml" 116 3291 3315
+type(
+  Term.term
+)
+ident(
+  int_ref l1 "completion/comp.ml" 115 3247 3268 "completion/comp.ml" 115 3247 3270
+)
+"completion/comp.ml" 116 3291 3316 "completion/comp.ml" 116 3291 3318
+type(
+  Term.term
+)
+ident(
+  int_ref l2 "completion/comp.ml" 115 3247 3281 "completion/comp.ml" 115 3247 3283
+)
+"completion/comp.ml" 116 3291 3299 "completion/comp.ml" 116 3291 3318
+call(
+  stack
+)
+type(
+  Subs.subs option
+)
+"completion/comp.ml" 117 3324 3333 "completion/comp.ml" 117 3324 3334
+type(
+  Subs.subs
+)
+ident(
+  def s "completion/comp.ml" 117 3324 3338 "completion/comp.ml" 117 3324 3372
+)
+"completion/comp.ml" 117 3324 3328 "completion/comp.ml" 117 3324 3334
+type(
+  Subs.subs option
+)
+"completion/comp.ml" 117 3324 3338 "completion/comp.ml" 117 3324 3341
+type(
+  Term.term -> Term.term -> Order.ord
+)
+ident(
+  int_ref cmp "completion/comp.ml" 115 3247 3259 "completion/comp.ml" 115 3247 3262
+)
+"completion/comp.ml" 117 3324 3343 "completion/comp.ml" 117 3324 3353
+type(
+  Subs.subs -> Term.term -> Term.term
+)
+ident(
+  ext_ref Subs.apply
+)
+"completion/comp.ml" 117 3324 3354 "completion/comp.ml" 117 3324 3355
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/comp.ml" 117 3324 3333 "completion/comp.ml" 117 3324 3334
+)
+"completion/comp.ml" 117 3324 3356 "completion/comp.ml" 117 3324 3358
+type(
+  Term.term
+)
+ident(
+  int_ref r1 "completion/comp.ml" 115 3247 3271 "completion/comp.ml" 115 3247 3273
+)
+"completion/comp.ml" 117 3324 3342 "completion/comp.ml" 117 3324 3359
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/comp.ml" 117 3324 3360 "completion/comp.ml" 117 3324 3362
+type(
+  Term.term
+)
+ident(
+  int_ref r2 "completion/comp.ml" 115 3247 3284 "completion/comp.ml" 115 3247 3286
+)
+"completion/comp.ml" 117 3324 3338 "completion/comp.ml" 117 3324 3362
+call(
+  stack
+)
+type(
+  Order.ord
+)
+"completion/comp.ml" 117 3324 3363 "completion/comp.ml" 117 3324 3364
+type(
+  Order.ord -> Order.ord -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/comp.ml" 117 3324 3365 "completion/comp.ml" 117 3324 3372
+type(
+  Order.ord
+)
+"completion/comp.ml" 117 3324 3338 "completion/comp.ml" 117 3324 3372
+type(
+  bool
+)
+"completion/comp.ml" 118 3373 3377 "completion/comp.ml" 118 3373 3378
+type(
+  Subs.subs option
+)
+"completion/comp.ml" 118 3373 3382 "completion/comp.ml" 118 3373 3391
+type(
+  Term.term -> Term.term -> bool
+)
+ident(
+  ext_ref Match.insert_gt
+)
+"completion/comp.ml" 118 3373 3392 "completion/comp.ml" 118 3373 3394
+type(
+  Term.term
+)
+ident(
+  int_ref l1 "completion/comp.ml" 115 3247 3268 "completion/comp.ml" 115 3247 3270
+)
+"completion/comp.ml" 118 3373 3395 "completion/comp.ml" 118 3373 3397
+type(
+  Term.term
+)
+ident(
+  int_ref l2 "completion/comp.ml" 115 3247 3281 "completion/comp.ml" 115 3247 3283
+)
+"completion/comp.ml" 118 3373 3382 "completion/comp.ml" 118 3373 3397
+call(
+  tail
+)
+type(
+  bool
+)
+"completion/comp.ml" 116 3291 3293 "completion/comp.ml" 118 3373 3397
+type(
+  bool
+)
+"completion/comp.ml" 123 3444 3448 "completion/comp.ml" 123 3444 3460
+type(
+  (Term.term -> Term.term -> Order.ord) ->
+  Equation.EqnSet.t * Rule.RulSet.t ->
+  (Equation.EqnSet.t * Rule.RulSet.t) option
+)
+ident(
+  def collapse_one "completion/comp.ml" 133 3716 3716 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 123 3444 3461 "completion/comp.ml" 123 3444 3464
+type(
+  Term.term -> Term.term -> Order.ord
+)
+ident(
+  def cmp "completion/comp.ml" 123 3444 3465 "completion/comp.ml" 130 3689 3711
+)
+"completion/comp.ml" 123 3444 3466 "completion/comp.ml" 123 3444 3468
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def es "completion/comp.ml" 124 3475 3477 "completion/comp.ml" 130 3689 3711
+)
+"completion/comp.ml" 123 3444 3469 "completion/comp.ml" 123 3444 3471
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/comp.ml" 124 3475 3477 "completion/comp.ml" 130 3689 3711
+)
+"completion/comp.ml" 123 3444 3465 "completion/comp.ml" 123 3444 3472
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 124 3475 3481 "completion/comp.ml" 124 3475 3482
+type(
+  Rule.RulSet.elt -> (Equation.EqnSet.t * Rule.RulSet.t) option
+)
+ident(
+  def p "completion/comp.ml" 130 3689 3691 "completion/comp.ml" 130 3689 3711
+)
+"completion/comp.ml" 124 3475 3489 "completion/comp.ml" 124 3475 3490
+type(
+  Term.term
+)
+ident(
+  def l "completion/comp.ml" 125 3504 3508 "completion/comp.ml" 129 3670 3685
+)
+"completion/comp.ml" 124 3475 3491 "completion/comp.ml" 124 3475 3492
+type(
+  Term.term
+)
+ident(
+  def r "completion/comp.ml" 125 3504 3508 "completion/comp.ml" 129 3670 3685
+)
+"completion/comp.ml" 124 3475 3484 "completion/comp.ml" 124 3475 3494
+type(
+  Rule.RulSet.elt
+)
+"completion/comp.ml" 124 3475 3498 "completion/comp.ml" 124 3475 3500
+ident(
+  def lr "completion/comp.ml" 125 3504 3508 "completion/comp.ml" 129 3670 3685
+)
+"completion/comp.ml" 124 3475 3483 "completion/comp.ml" 124 3475 3501
+type(
+  Rule.RulSet.elt
+)
+"completion/comp.ml" 125 3504 3512 "completion/comp.ml" 125 3504 3515
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs2 "completion/comp.ml" 126 3555 3559 "completion/comp.ml" 129 3670 3685
+)
+"completion/comp.ml" 125 3504 3518 "completion/comp.ml" 125 3504 3531
+type(
+  (Rule.RulSet.elt -> bool) -> Rule.RulSet.t -> Rule.RulSet.t
+)
+ident(
+  ext_ref Rule.RulSet.filter
+)
+"completion/comp.ml" 125 3504 3533 "completion/comp.ml" 125 3504 3540
+type(
+  (Term.term -> Term.term -> Order.ord) ->
+  Rule.RulSet.elt -> Rule.RulSet.elt -> bool
+)
+ident(
+  int_ref rule_gt "completion/comp.ml" 115 3247 3251 "completion/comp.ml" 115 3247 3258
+)
+"completion/comp.ml" 125 3504 3541 "completion/comp.ml" 125 3504 3544
+type(
+  Term.term -> Term.term -> Order.ord
+)
+ident(
+  int_ref cmp "completion/comp.ml" 123 3444 3461 "completion/comp.ml" 123 3444 3464
+)
+"completion/comp.ml" 125 3504 3545 "completion/comp.ml" 125 3504 3547
+type(
+  Rule.RulSet.elt
+)
+ident(
+  int_ref lr "completion/comp.ml" 124 3475 3483 "completion/comp.ml" 124 3475 3501
+)
+"completion/comp.ml" 125 3504 3532 "completion/comp.ml" 125 3504 3548
+call(
+  stack
+)
+type(
+  Rule.RulSet.elt -> bool
+)
+"completion/comp.ml" 125 3504 3549 "completion/comp.ml" 125 3504 3551
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/comp.ml" 123 3444 3469 "completion/comp.ml" 123 3444 3471
+)
+"completion/comp.ml" 125 3504 3518 "completion/comp.ml" 125 3504 3551
+call(
+  stack
+)
+type(
+  Rule.RulSet.t
+)
+"completion/comp.ml" 126 3555 3565 "completion/comp.ml" 126 3555 3572
+type(
+  Rule.RulSet.t -> Term.term -> Term.term option
+)
+ident(
+  ext_ref Norm.red_opt
+)
+"completion/comp.ml" 126 3555 3573 "completion/comp.ml" 126 3555 3576
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs2 "completion/comp.ml" 125 3504 3512 "completion/comp.ml" 125 3504 3515
+)
+"completion/comp.ml" 126 3555 3577 "completion/comp.ml" 126 3555 3578
+type(
+  Term.term
+)
+ident(
+  int_ref l "completion/comp.ml" 124 3475 3489 "completion/comp.ml" 124 3475 3490
+)
+"completion/comp.ml" 126 3555 3565 "completion/comp.ml" 126 3555 3578
+call(
+  stack
+)
+type(
+  Term.term option
+)
+"completion/comp.ml" 127 3584 3595 "completion/comp.ml" 127 3584 3597
+type(
+  Term.term
+)
+ident(
+  def l2 "completion/comp.ml" 128 3601 3607 "completion/comp.ml" 128 3601 3669
+)
+"completion/comp.ml" 127 3584 3590 "completion/comp.ml" 127 3584 3597
+type(
+  Term.term option
+)
+"completion/comp.ml" 128 3601 3613 "completion/comp.ml" 128 3601 3623
+type(
+  Equation.EqnSet.elt -> Equation.EqnSet.t -> Equation.EqnSet.t
+)
+ident(
+  ext_ref Equation.EqnSet.add
+)
+"completion/comp.ml" 128 3601 3625 "completion/comp.ml" 128 3601 3636
+type(
+  Term.term * Term.term -> Equation.EqnSet.elt
+)
+ident(
+  ext_ref Equation.mk
+)
+"completion/comp.ml" 128 3601 3638 "completion/comp.ml" 128 3601 3640
+type(
+  Term.term
+)
+ident(
+  int_ref l2 "completion/comp.ml" 127 3584 3595 "completion/comp.ml" 127 3584 3597
+)
+"completion/comp.ml" 128 3601 3641 "completion/comp.ml" 128 3601 3642
+type(
+  Term.term
+)
+ident(
+  int_ref r "completion/comp.ml" 124 3475 3491 "completion/comp.ml" 124 3475 3492
+)
+"completion/comp.ml" 128 3601 3637 "completion/comp.ml" 128 3601 3643
+type(
+  Term.term * Term.term
+)
+"completion/comp.ml" 128 3601 3624 "completion/comp.ml" 128 3601 3644
+call(
+  stack
+)
+type(
+  Equation.EqnSet.elt
+)
+"completion/comp.ml" 128 3601 3645 "completion/comp.ml" 128 3601 3647
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref es "completion/comp.ml" 123 3444 3466 "completion/comp.ml" 123 3444 3468
+)
+"completion/comp.ml" 128 3601 3613 "completion/comp.ml" 128 3601 3647
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t
+)
+"completion/comp.ml" 128 3601 3649 "completion/comp.ml" 128 3601 3662
+type(
+  Rule.RulSet.elt -> Rule.RulSet.t -> Rule.RulSet.t
+)
+ident(
+  ext_ref Rule.RulSet.remove
+)
+"completion/comp.ml" 128 3601 3663 "completion/comp.ml" 128 3601 3665
+type(
+  Rule.RulSet.elt
+)
+ident(
+  int_ref lr "completion/comp.ml" 124 3475 3483 "completion/comp.ml" 124 3475 3501
+)
+"completion/comp.ml" 128 3601 3666 "completion/comp.ml" 128 3601 3668
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/comp.ml" 123 3444 3469 "completion/comp.ml" 123 3444 3471
+)
+"completion/comp.ml" 128 3601 3649 "completion/comp.ml" 128 3601 3668
+call(
+  stack
+)
+type(
+  Rule.RulSet.t
+)
+"completion/comp.ml" 128 3601 3612 "completion/comp.ml" 128 3601 3669
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 128 3601 3607 "completion/comp.ml" 128 3601 3669
+type(
+  (Equation.EqnSet.t * Rule.RulSet.t) option
+)
+"completion/comp.ml" 129 3670 3676 "completion/comp.ml" 129 3670 3677
+type(
+  Term.term option
+)
+"completion/comp.ml" 129 3670 3681 "completion/comp.ml" 129 3670 3685
+type(
+  (Equation.EqnSet.t * Rule.RulSet.t) option
+)
+"completion/comp.ml" 126 3555 3559 "completion/comp.ml" 129 3670 3685
+type(
+  (Equation.EqnSet.t * Rule.RulSet.t) option
+)
+"completion/comp.ml" 125 3504 3508 "completion/comp.ml" 129 3670 3685
+type(
+  (Equation.EqnSet.t * Rule.RulSet.t) option
+)
+"completion/comp.ml" 130 3689 3691 "completion/comp.ml" 130 3689 3706
+type(
+  (Rule.RulSet.elt -> (Equation.EqnSet.t * Rule.RulSet.t) option) ->
+  Rule.RulSet.t -> (Equation.EqnSet.t * Rule.RulSet.t) option
+)
+ident(
+  ext_ref Rule.RulSet.find_opt
+)
+"completion/comp.ml" 130 3689 3707 "completion/comp.ml" 130 3689 3708
+type(
+  Rule.RulSet.elt -> (Equation.EqnSet.t * Rule.RulSet.t) option
+)
+ident(
+  int_ref p "completion/comp.ml" 124 3475 3481 "completion/comp.ml" 124 3475 3482
+)
+"completion/comp.ml" 130 3689 3709 "completion/comp.ml" 130 3689 3711
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/comp.ml" 123 3444 3469 "completion/comp.ml" 123 3444 3471
+)
+"completion/comp.ml" 130 3689 3691 "completion/comp.ml" 130 3689 3711
+call(
+  tail
+)
+type(
+  (Equation.EqnSet.t * Rule.RulSet.t) option
+)
+"completion/comp.ml" 124 3475 3477 "completion/comp.ml" 130 3689 3711
+type(
+  (Equation.EqnSet.t * Rule.RulSet.t) option
+)
+"completion/comp.ml" 133 3716 3720 "completion/comp.ml" 133 3716 3728
+type(
+  (Term.term -> Term.term -> Order.ord) ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def collapse "completion/comp.ml" 139 3869 3869 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 133 3716 3729 "completion/comp.ml" 133 3716 3732
+type(
+  Term.term -> Term.term -> Order.ord
+)
+ident(
+  def cmp "completion/comp.ml" 133 3716 3735 "completion/comp.ml" 133 3716 3771
+)
+"completion/comp.ml" 133 3716 3735 "completion/comp.ml" 133 3716 3741
+type(
+  string ->
+  (Equation.EqnSet.t * Rule.RulSet.t ->
+   (Equation.EqnSet.t * Rule.RulSet.t) option) ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref repeat "completion/comp.ml" 54 1739 1743 "completion/comp.ml" 54 1739 1749
+)
+"completion/comp.ml" 133 3716 3742 "completion/comp.ml" 133 3716 3752
+type(
+  string
+)
+"completion/comp.ml" 133 3716 3754 "completion/comp.ml" 133 3716 3766
+type(
+  (Term.term -> Term.term -> Order.ord) ->
+  Equation.EqnSet.t * Rule.RulSet.t ->
+  (Equation.EqnSet.t * Rule.RulSet.t) option
+)
+ident(
+  int_ref collapse_one "completion/comp.ml" 123 3444 3448 "completion/comp.ml" 123 3444 3460
+)
+"completion/comp.ml" 133 3716 3767 "completion/comp.ml" 133 3716 3770
+type(
+  Term.term -> Term.term -> Order.ord
+)
+ident(
+  int_ref cmp "completion/comp.ml" 133 3716 3729 "completion/comp.ml" 133 3716 3732
+)
+"completion/comp.ml" 133 3716 3753 "completion/comp.ml" 133 3716 3771
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t ->
+  (Equation.EqnSet.t * Rule.RulSet.t) option
+)
+"completion/comp.ml" 133 3716 3735 "completion/comp.ml" 133 3716 3771
+call(
+  tail
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 139 3869 3873 "completion/comp.ml" 139 3869 3879
+type(
+  Rule.RulSet.t ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def deduce "completion/comp.ml" 141 3944 3944 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 139 3869 3880 "completion/comp.ml" 139 3869 3883
+type(
+  Rule.RulSet.t
+)
+ident(
+  def acs "completion/comp.ml" 139 3869 3884 "completion/comp.ml" 139 3869 3940
+)
+"completion/comp.ml" 139 3869 3885 "completion/comp.ml" 139 3869 3887
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def es "completion/comp.ml" 139 3869 3894 "completion/comp.ml" 139 3869 3940
+)
+"completion/comp.ml" 139 3869 3888 "completion/comp.ml" 139 3869 3890
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/comp.ml" 139 3869 3894 "completion/comp.ml" 139 3869 3940
+)
+"completion/comp.ml" 139 3869 3884 "completion/comp.ml" 139 3869 3891
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 139 3869 3894 "completion/comp.ml" 139 3869 3901
+type(
+  (Term.term -> Term.term) ->
+  Equation.EqnSet.t -> Rule.RulSet.t -> Equation.EqnSet.t
+)
+ident(
+  ext_ref Cp.add_cps
+)
+"completion/comp.ml" 139 3869 3903 "completion/comp.ml" 139 3869 3907
+type(
+  Rule.RulSet.t -> Term.term -> Term.term
+)
+ident(
+  int_ref norm "completion/comp.ml" 29 1225 1229 "completion/comp.ml" 29 1225 1233
+)
+"completion/comp.ml" 139 3869 3908 "completion/comp.ml" 139 3869 3910
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/comp.ml" 139 3869 3888 "completion/comp.ml" 139 3869 3890
+)
+"completion/comp.ml" 139 3869 3902 "completion/comp.ml" 139 3869 3911
+call(
+  stack
+)
+type(
+  Term.term -> Term.term
+)
+"completion/comp.ml" 139 3869 3912 "completion/comp.ml" 139 3869 3914
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref es "completion/comp.ml" 139 3869 3885 "completion/comp.ml" 139 3869 3887
+)
+"completion/comp.ml" 139 3869 3916 "completion/comp.ml" 139 3869 3928
+type(
+  Rule.RulSet.t -> Rule.RulSet.t -> Rule.RulSet.t
+)
+ident(
+  ext_ref Rule.RulSet.union
+)
+"completion/comp.ml" 139 3869 3929 "completion/comp.ml" 139 3869 3932
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref acs "completion/comp.ml" 139 3869 3880 "completion/comp.ml" 139 3869 3883
+)
+"completion/comp.ml" 139 3869 3933 "completion/comp.ml" 139 3869 3935
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/comp.ml" 139 3869 3888 "completion/comp.ml" 139 3869 3890
+)
+"completion/comp.ml" 139 3869 3915 "completion/comp.ml" 139 3869 3936
+call(
+  stack
+)
+type(
+  Rule.RulSet.t
+)
+"completion/comp.ml" 139 3869 3894 "completion/comp.ml" 139 3869 3936
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t
+)
+"completion/comp.ml" 139 3869 3938 "completion/comp.ml" 139 3869 3940
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/comp.ml" 139 3869 3888 "completion/comp.ml" 139 3869 3890
+)
+"completion/comp.ml" 139 3869 3894 "completion/comp.ml" 139 3869 3940
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 141 3944 3948 "completion/comp.ml" 141 3944 3954
+type(
+  Rule.RulSet.t ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def deduce "completion/comp.ml" 145 4020 4020 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 141 3944 3955 "completion/comp.ml" 141 3944 3958
+type(
+  Rule.RulSet.t
+)
+ident(
+  def acs "completion/comp.ml" 141 3944 3961 "completion/comp.ml" 141 3944 3988
+)
+"completion/comp.ml" 141 3944 3961 "completion/comp.ml" 141 3944 3966
+type(
+  string ->
+  (Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t) ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref apply "completion/comp.ml" 39 1497 1501 "completion/comp.ml" 39 1497 1506
+)
+"completion/comp.ml" 141 3944 3967 "completion/comp.ml" 141 3944 3975
+type(
+  string
+)
+"completion/comp.ml" 141 3944 3977 "completion/comp.ml" 141 3944 3983
+type(
+  Rule.RulSet.t ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref deduce "completion/comp.ml" 139 3869 3873 "completion/comp.ml" 139 3869 3879
+)
+"completion/comp.ml" 141 3944 3984 "completion/comp.ml" 141 3944 3987
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref acs "completion/comp.ml" 141 3944 3955 "completion/comp.ml" 141 3944 3958
+)
+"completion/comp.ml" 141 3944 3976 "completion/comp.ml" 141 3944 3988
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 141 3944 3961 "completion/comp.ml" 141 3944 3988
+call(
+  tail
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 145 4020 4024 "completion/comp.ml" 145 4020 4028
+type(
+  Rule.RulSet.t ->
+  Term.term Order.cmp ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def step "completion/comp.ml" 149 4113 4113 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 145 4020 4029 "completion/comp.ml" 145 4020 4032
+type(
+  Rule.RulSet.t
+)
+ident(
+  def acs "completion/comp.ml" 145 4020 4033 "completion/comp.ml" 146 4043 4108
+)
+"completion/comp.ml" 145 4020 4033 "completion/comp.ml" 145 4020 4036
+type(
+  Term.term Order.cmp
+)
+ident(
+  def cmp "completion/comp.ml" 145 4020 4037 "completion/comp.ml" 146 4043 4108
+)
+"completion/comp.ml" 145 4020 4037 "completion/comp.ml" 145 4020 4040
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def ers "completion/comp.ml" 146 4043 4045 "completion/comp.ml" 146 4043 4108
+)
+"completion/comp.ml" 146 4043 4045 "completion/comp.ml" 146 4043 4051
+type(
+  Rule.RulSet.t ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref deduce "completion/comp.ml" 141 3944 3948 "completion/comp.ml" 141 3944 3954
+)
+"completion/comp.ml" 146 4043 4052 "completion/comp.ml" 146 4043 4055
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref acs "completion/comp.ml" 145 4020 4029 "completion/comp.ml" 145 4020 4032
+)
+"completion/comp.ml" 146 4043 4057 "completion/comp.ml" 146 4043 4065
+type(
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref del_simp "completion/comp.ml" 85 2413 2417 "completion/comp.ml" 85 2413 2425
+)
+"completion/comp.ml" 146 4043 4067 "completion/comp.ml" 146 4043 4075
+type(
+  Term.term Order.cmp ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref collapse "completion/comp.ml" 133 3716 3720 "completion/comp.ml" 133 3716 3728
+)
+"completion/comp.ml" 146 4043 4076 "completion/comp.ml" 146 4043 4079
+type(
+  Term.term Order.cmp
+)
+ident(
+  int_ref cmp "completion/comp.ml" 145 4020 4033 "completion/comp.ml" 145 4020 4036
+)
+"completion/comp.ml" 146 4043 4081 "completion/comp.ml" 146 4043 4088
+type(
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref compose "completion/comp.ml" 111 3141 3145 "completion/comp.ml" 111 3141 3152
+)
+"completion/comp.ml" 146 4043 4090 "completion/comp.ml" 146 4043 4096
+type(
+  Term.term Order.cmp ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref orient "completion/comp.ml" 102 2962 2966 "completion/comp.ml" 102 2962 2972
+)
+"completion/comp.ml" 146 4043 4097 "completion/comp.ml" 146 4043 4100
+type(
+  Term.term Order.cmp
+)
+ident(
+  int_ref cmp "completion/comp.ml" 145 4020 4033 "completion/comp.ml" 145 4020 4036
+)
+"completion/comp.ml" 146 4043 4101 "completion/comp.ml" 146 4043 4104
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref ers "completion/comp.ml" 145 4020 4037 "completion/comp.ml" 145 4020 4040
+)
+"completion/comp.ml" 146 4043 4089 "completion/comp.ml" 146 4043 4105
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 146 4043 4080 "completion/comp.ml" 146 4043 4106
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 146 4043 4066 "completion/comp.ml" 146 4043 4107
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 146 4043 4056 "completion/comp.ml" 146 4043 4108
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 146 4043 4045 "completion/comp.ml" 146 4043 4108
+call(
+  tail
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 149 4113 4117 "completion/comp.ml" 149 4113 4127
+type(
+  Rule.RulSet.t ->
+  Term.term Order.cmp ->
+  int ->
+  Equation.EqnSet.t * Rule.RulSet.t ->
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)
+ident(
+  def complete_n "completion/comp.ml" 161 4436 4436 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 149 4113 4128 "completion/comp.ml" 149 4113 4131
+type(
+  Rule.RulSet.t
+)
+ident(
+  def acs "completion/comp.ml" 149 4113 4132 "completion/comp.ml" 158 4424 4431
+)
+"completion/comp.ml" 149 4113 4132 "completion/comp.ml" 149 4113 4135
+type(
+  Term.term Order.cmp
+)
+ident(
+  def cmp "completion/comp.ml" 149 4113 4136 "completion/comp.ml" 158 4424 4431
+)
+"completion/comp.ml" 149 4113 4136 "completion/comp.ml" 149 4113 4137
+type(
+  int
+)
+ident(
+  def n "completion/comp.ml" 150 4140 4142 "completion/comp.ml" 158 4424 4431
+)
+"completion/comp.ml" 150 4140 4150 "completion/comp.ml" 150 4140 4153
+type(
+  int ->
+  Equation.EqnSet.t * Rule.RulSet.t ->
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)
+ident(
+  def aux "completion/comp.ml" 150 4140 4142 "completion/comp.ml" 158 4424 4431
+)
+"completion/comp.ml" 150 4140 4154 "completion/comp.ml" 150 4140 4155
+type(
+  int
+)
+ident(
+  def i "completion/comp.ml" 150 4140 4156 "completion/comp.ml" 157 4413 4420
+)
+"completion/comp.ml" 150 4140 4158 "completion/comp.ml" 150 4140 4160
+type(
+  Equation.EqnSet.t
+)
+ident(
+  def es "completion/comp.ml" 151 4174 4178 "completion/comp.ml" 157 4413 4420
+)
+"completion/comp.ml" 150 4140 4161 "completion/comp.ml" 150 4140 4162
+type(
+  Rule.RulSet.t
+)
+"completion/comp.ml" 150 4140 4157 "completion/comp.ml" 150 4140 4163
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 150 4140 4167 "completion/comp.ml" 150 4140 4170
+ident(
+  def ers "completion/comp.ml" 151 4174 4178 "completion/comp.ml" 157 4413 4420
+)
+"completion/comp.ml" 150 4140 4156 "completion/comp.ml" 150 4140 4171
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 151 4174 4181 "completion/comp.ml" 151 4174 4196
+type(
+  Equation.EqnSet.t -> bool
+)
+ident(
+  ext_ref Equation.EqnSet.is_empty
+)
+"completion/comp.ml" 151 4174 4197 "completion/comp.ml" 151 4174 4199
+type(
+  Equation.EqnSet.t
+)
+ident(
+  int_ref es "completion/comp.ml" 150 4140 4158 "completion/comp.ml" 150 4140 4160
+)
+"completion/comp.ml" 151 4174 4181 "completion/comp.ml" 151 4174 4199
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/comp.ml" 151 4174 4200 "completion/comp.ml" 151 4174 4202
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"completion/comp.ml" 151 4174 4203 "completion/comp.ml" 151 4174 4204
+type(
+  int
+)
+ident(
+  int_ref i "completion/comp.ml" 150 4140 4154 "completion/comp.ml" 150 4140 4155
+)
+"completion/comp.ml" 151 4174 4205 "completion/comp.ml" 151 4174 4206
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/comp.ml" 151 4174 4207 "completion/comp.ml" 151 4174 4208
+type(
+  int
+)
+ident(
+  int_ref n "completion/comp.ml" 149 4113 4136 "completion/comp.ml" 149 4113 4137
+)
+"completion/comp.ml" 151 4174 4203 "completion/comp.ml" 151 4174 4208
+type(
+  bool
+)
+"completion/comp.ml" 151 4174 4181 "completion/comp.ml" 151 4174 4208
+type(
+  bool
+)
+"completion/comp.ml" 151 4174 4214 "completion/comp.ml" 151 4174 4217
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref ers "completion/comp.ml" 150 4140 4156 "completion/comp.ml" 150 4140 4171
+)
+"completion/comp.ml" 151 4174 4219 "completion/comp.ml" 151 4174 4220
+type(
+  int
+)
+ident(
+  int_ref i "completion/comp.ml" 150 4140 4154 "completion/comp.ml" 150 4140 4155
+)
+"completion/comp.ml" 151 4174 4214 "completion/comp.ml" 151 4174 4220
+type(
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)
+"completion/comp.ml" 153 4236 4242 "completion/comp.ml" 153 4236 4256
+type(
+  (string -> int -> unit, out_channel, unit) format -> string -> int -> unit
+)
+ident(
+  ext_ref Configuration.verbose_printf
+)
+"completion/comp.ml" 153 4236 4257 "completion/comp.ml" 153 4236 4276
+type(
+  (string -> int -> unit, out_channel, unit) format
+)
+"completion/comp.ml" 153 4236 4277 "completion/comp.ml" 153 4236 4286
+type(
+  string
+)
+ident(
+  ext_ref Debug.sep
+)
+"completion/comp.ml" 153 4236 4288 "completion/comp.ml" 153 4236 4289
+type(
+  int
+)
+ident(
+  int_ref i "completion/comp.ml" 150 4140 4154 "completion/comp.ml" 150 4140 4155
+)
+"completion/comp.ml" 153 4236 4290 "completion/comp.ml" 153 4236 4291
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"completion/comp.ml" 153 4236 4292 "completion/comp.ml" 153 4236 4293
+type(
+  int
+)
+"completion/comp.ml" 153 4236 4287 "completion/comp.ml" 153 4236 4294
+type(
+  int
+)
+"completion/comp.ml" 153 4236 4242 "completion/comp.ml" 153 4236 4294
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/comp.ml" 154 4296 4306 "completion/comp.ml" 154 4296 4309
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  def ers "completion/comp.ml" 155 4332 4338 "completion/comp.ml" 156 4391 4412
+)
+"completion/comp.ml" 154 4296 4312 "completion/comp.ml" 154 4296 4316
+type(
+  Rule.RulSet.t ->
+  Term.term Order.cmp ->
+  Equation.EqnSet.t * Rule.RulSet.t -> Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref step "completion/comp.ml" 145 4020 4024 "completion/comp.ml" 145 4020 4028
+)
+"completion/comp.ml" 154 4296 4317 "completion/comp.ml" 154 4296 4320
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref acs "completion/comp.ml" 149 4113 4128 "completion/comp.ml" 149 4113 4131
+)
+"completion/comp.ml" 154 4296 4321 "completion/comp.ml" 154 4296 4324
+type(
+  Term.term Order.cmp
+)
+ident(
+  int_ref cmp "completion/comp.ml" 149 4113 4132 "completion/comp.ml" 149 4113 4135
+)
+"completion/comp.ml" 154 4296 4325 "completion/comp.ml" 154 4296 4328
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref ers "completion/comp.ml" 150 4140 4156 "completion/comp.ml" 150 4140 4171
+)
+"completion/comp.ml" 154 4296 4312 "completion/comp.ml" 154 4296 4328
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+"completion/comp.ml" 155 4332 4338 "completion/comp.ml" 155 4332 4351
+type(
+  (int ->
+   (Format.formatter -> Equation.EqnSet.t * Rule.RulSet.t -> unit) ->
+   Equation.EqnSet.t * Rule.RulSet.t -> unit, Format.formatter, unit)
+  format ->
+  int ->
+  (Format.formatter -> Equation.EqnSet.t * Rule.RulSet.t -> unit) ->
+  Equation.EqnSet.t * Rule.RulSet.t -> unit
+)
+ident(
+  ext_ref Configuration.verbose_print
+)
+"completion/comp.ml" 155 4332 4352 "completion/comp.ml" 155 4332 4369
+type(
+  (int ->
+   (Format.formatter -> Equation.EqnSet.t * Rule.RulSet.t -> unit) ->
+   Equation.EqnSet.t * Rule.RulSet.t -> unit, Format.formatter, unit)
+  format
+)
+"completion/comp.ml" 155 4332 4371 "completion/comp.ml" 155 4332 4372
+type(
+  int
+)
+ident(
+  int_ref i "completion/comp.ml" 150 4140 4154 "completion/comp.ml" 150 4140 4155
+)
+"completion/comp.ml" 155 4332 4373 "completion/comp.ml" 155 4332 4374
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"completion/comp.ml" 155 4332 4375 "completion/comp.ml" 155 4332 4376
+type(
+  int
+)
+"completion/comp.ml" 155 4332 4370 "completion/comp.ml" 155 4332 4377
+type(
+  int
+)
+"completion/comp.ml" 155 4332 4378 "completion/comp.ml" 155 4332 4385
+type(
+  Format.formatter -> Equation.EqnSet.t * Rule.RulSet.t -> unit
+)
+ident(
+  int_ref fprintf "completion/comp.ml" 33 1301 1305 "completion/comp.ml" 33 1301 1312
+)
+"completion/comp.ml" 155 4332 4386 "completion/comp.ml" 155 4332 4389
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref ers "completion/comp.ml" 154 4296 4306 "completion/comp.ml" 154 4296 4309
+)
+"completion/comp.ml" 155 4332 4338 "completion/comp.ml" 155 4332 4389
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/comp.ml" 156 4391 4397 "completion/comp.ml" 156 4391 4400
+type(
+  int ->
+  Equation.EqnSet.t * Rule.RulSet.t ->
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)
+ident(
+  int_ref aux "completion/comp.ml" 150 4140 4150 "completion/comp.ml" 150 4140 4153
+)
+"completion/comp.ml" 156 4391 4402 "completion/comp.ml" 156 4391 4403
+type(
+  int
+)
+ident(
+  int_ref i "completion/comp.ml" 150 4140 4154 "completion/comp.ml" 150 4140 4155
+)
+"completion/comp.ml" 156 4391 4404 "completion/comp.ml" 156 4391 4405
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"completion/comp.ml" 156 4391 4406 "completion/comp.ml" 156 4391 4407
+type(
+  int
+)
+"completion/comp.ml" 156 4391 4401 "completion/comp.ml" 156 4391 4408
+type(
+  int
+)
+"completion/comp.ml" 156 4391 4409 "completion/comp.ml" 156 4391 4412
+type(
+  Equation.EqnSet.t * Rule.RulSet.t
+)
+ident(
+  int_ref ers "completion/comp.ml" 154 4296 4306 "completion/comp.ml" 154 4296 4309
+)
+"completion/comp.ml" 156 4391 4397 "completion/comp.ml" 156 4391 4412
+call(
+  tail
+)
+type(
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)
+"completion/comp.ml" 155 4332 4338 "completion/comp.ml" 156 4391 4412
+type(
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)
+"completion/comp.ml" 154 4296 4302 "completion/comp.ml" 156 4391 4412
+type(
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)
+"completion/comp.ml" 152 4226 4230 "completion/comp.ml" 157 4413 4420
+type(
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)
+"completion/comp.ml" 151 4174 4178 "completion/comp.ml" 157 4413 4420
+type(
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)
+"completion/comp.ml" 158 4424 4426 "completion/comp.ml" 158 4424 4429
+type(
+  int ->
+  Equation.EqnSet.t * Rule.RulSet.t ->
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)
+ident(
+  int_ref aux "completion/comp.ml" 150 4140 4150 "completion/comp.ml" 150 4140 4153
+)
+"completion/comp.ml" 158 4424 4430 "completion/comp.ml" 158 4424 4431
+type(
+  int
+)
+"completion/comp.ml" 158 4424 4426 "completion/comp.ml" 158 4424 4431
+call(
+  tail
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t ->
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)
+"completion/comp.ml" 150 4140 4142 "completion/comp.ml" 158 4424 4431
+type(
+  Equation.EqnSet.t * Rule.RulSet.t ->
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)
+"completion/comp.ml" 161 4436 4440 "completion/comp.ml" 161 4436 4448
+type(
+  Rule.RulSet.t ->
+  Term.term Order.cmp ->
+  Equation.EqnSet.t * Rule.RulSet.t ->
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)
+ident(
+  def complete "completion/comp.ml" 161 4436 4479 "completion/comp.ml" 1 0 -1
+)
+"completion/comp.ml" 161 4436 4449 "completion/comp.ml" 161 4436 4452
+type(
+  Rule.RulSet.t
+)
+ident(
+  def acs "completion/comp.ml" 161 4436 4453 "completion/comp.ml" 161 4436 4479
+)
+"completion/comp.ml" 161 4436 4453 "completion/comp.ml" 161 4436 4456
+type(
+  Term.term Order.cmp
+)
+ident(
+  def cmp "completion/comp.ml" 161 4436 4459 "completion/comp.ml" 161 4436 4479
+)
+"completion/comp.ml" 161 4436 4459 "completion/comp.ml" 161 4436 4469
+type(
+  Rule.RulSet.t ->
+  Term.term Order.cmp ->
+  int ->
+  Equation.EqnSet.t * Rule.RulSet.t ->
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)
+ident(
+  int_ref complete_n "completion/comp.ml" 149 4113 4117 "completion/comp.ml" 149 4113 4127
+)
+"completion/comp.ml" 161 4436 4470 "completion/comp.ml" 161 4436 4473
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref acs "completion/comp.ml" 161 4436 4449 "completion/comp.ml" 161 4436 4452
+)
+"completion/comp.ml" 161 4436 4474 "completion/comp.ml" 161 4436 4477
+type(
+  Term.term Order.cmp
+)
+ident(
+  int_ref cmp "completion/comp.ml" 161 4436 4453 "completion/comp.ml" 161 4436 4456
+)
+"completion/comp.ml" 161 4436 4478 "completion/comp.ml" 161 4436 4479
+type(
+  int
+)
+"completion/comp.ml" 161 4436 4459 "completion/comp.ml" 161 4436 4479
+call(
+  tail
+)
+type(
+  Equation.EqnSet.t * Rule.RulSet.t ->
+  (Equation.EqnSet.t * Rule.RulSet.t) * int
+)

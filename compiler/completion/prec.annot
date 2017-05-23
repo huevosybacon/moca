@@ -1,0 +1,2172 @@
+"completion/prec.ml" 22 1115 1121 "completion/prec.ml" 22 1115 1128
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "completion/prec.ml" 22 1115 1149 "completion/prec.ml" 23 1150 1153
+)
+"completion/prec.ml" 22 1115 1131 "completion/prec.ml" 22 1115 1149
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"completion/prec.ml" 26 1158 1172 "completion/prec.ml" 26 1158 1193
+call(
+  stack
+)
+"completion/prec.ml" 30 1223 1227 "completion/prec.ml" 30 1223 1234
+type(
+  Order.ord Prec.t -> Symb.symbol -> Symb.symbol -> Order.ord
+)
+ident(
+  def compare "completion/prec.ml" 38 1404 1404 "completion/prec.ml" 1 0 -1
+)
+"completion/prec.ml" 30 1223 1235 "completion/prec.ml" 30 1223 1239
+type(
+  Order.ord Prec.t
+)
+ident(
+  def prec "completion/prec.ml" 30 1223 1240 "completion/prec.ml" 35 1363 1399
+)
+"completion/prec.ml" 30 1223 1240 "completion/prec.ml" 30 1223 1241
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/prec.ml" 30 1223 1242 "completion/prec.ml" 35 1363 1399
+)
+"completion/prec.ml" 30 1223 1242 "completion/prec.ml" 30 1223 1243
+type(
+  Symb.symbol
+)
+ident(
+  def g "completion/prec.ml" 31 1246 1248 "completion/prec.ml" 35 1363 1399
+)
+"completion/prec.ml" 31 1246 1251 "completion/prec.ml" 31 1246 1252
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 30 1223 1240 "completion/prec.ml" 30 1223 1241
+)
+"completion/prec.ml" 31 1246 1253 "completion/prec.ml" 31 1246 1254
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 31 1246 1255 "completion/prec.ml" 31 1246 1256
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 30 1223 1242 "completion/prec.ml" 30 1223 1243
+)
+"completion/prec.ml" 31 1246 1251 "completion/prec.ml" 31 1246 1256
+type(
+  bool
+)
+"completion/prec.ml" 31 1246 1262 "completion/prec.ml" 31 1246 1267
+type(
+  Order.ord
+)
+"completion/prec.ml" 32 1273 1281 "completion/prec.ml" 32 1273 1290
+type(
+  Prec.key -> Order.ord Prec.t -> Order.ord
+)
+ident(
+  ext_ref Prec.find
+)
+"completion/prec.ml" 32 1273 1292 "completion/prec.ml" 32 1273 1293
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 30 1223 1240 "completion/prec.ml" 30 1223 1241
+)
+"completion/prec.ml" 32 1273 1295 "completion/prec.ml" 32 1273 1296
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 30 1223 1242 "completion/prec.ml" 30 1223 1243
+)
+"completion/prec.ml" 32 1273 1291 "completion/prec.ml" 32 1273 1297
+type(
+  Prec.key
+)
+"completion/prec.ml" 32 1273 1298 "completion/prec.ml" 32 1273 1302
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref prec "completion/prec.ml" 30 1223 1235 "completion/prec.ml" 30 1223 1239
+)
+"completion/prec.ml" 32 1273 1281 "completion/prec.ml" 32 1273 1302
+call(
+  stack
+)
+type(
+  Order.ord
+)
+"completion/prec.ml" 33 1303 1312 "completion/prec.ml" 33 1303 1321
+type(
+  exn
+)
+"completion/prec.ml" 34 1325 1335 "completion/prec.ml" 34 1325 1338
+type(
+  Order.ord -> Order.ord
+)
+ident(
+  ext_ref Order.opp
+)
+"completion/prec.ml" 34 1325 1340 "completion/prec.ml" 34 1325 1349
+type(
+  Prec.key -> Order.ord Prec.t -> Order.ord
+)
+ident(
+  ext_ref Prec.find
+)
+"completion/prec.ml" 34 1325 1351 "completion/prec.ml" 34 1325 1352
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 30 1223 1242 "completion/prec.ml" 30 1223 1243
+)
+"completion/prec.ml" 34 1325 1354 "completion/prec.ml" 34 1325 1355
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 30 1223 1240 "completion/prec.ml" 30 1223 1241
+)
+"completion/prec.ml" 34 1325 1350 "completion/prec.ml" 34 1325 1356
+type(
+  Prec.key
+)
+"completion/prec.ml" 34 1325 1357 "completion/prec.ml" 34 1325 1361
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref prec "completion/prec.ml" 30 1223 1235 "completion/prec.ml" 30 1223 1239
+)
+"completion/prec.ml" 34 1325 1339 "completion/prec.ml" 34 1325 1362
+call(
+  stack
+)
+type(
+  Order.ord
+)
+"completion/prec.ml" 34 1325 1335 "completion/prec.ml" 34 1325 1362
+call(
+  stack
+)
+type(
+  Order.ord
+)
+"completion/prec.ml" 35 1363 1374 "completion/prec.ml" 35 1363 1383
+type(
+  exn
+)
+"completion/prec.ml" 35 1363 1387 "completion/prec.ml" 35 1363 1399
+type(
+  Order.ord
+)
+"completion/prec.ml" 34 1325 1331 "completion/prec.ml" 35 1363 1399
+type(
+  Order.ord
+)
+"completion/prec.ml" 32 1273 1277 "completion/prec.ml" 35 1363 1399
+type(
+  Order.ord
+)
+"completion/prec.ml" 31 1246 1248 "completion/prec.ml" 35 1363 1399
+type(
+  Order.ord
+)
+"completion/prec.ml" 38 1404 1408 "completion/prec.ml" 38 1404 1413
+type(
+  'a Prec.t
+)
+ident(
+  def empty "completion/prec.ml" 40 1430 1430 "completion/prec.ml" 1 0 -1
+)
+"completion/prec.ml" 38 1404 1416 "completion/prec.ml" 38 1404 1426
+type(
+  'a Prec.t
+)
+ident(
+  ext_ref Prec.empty
+)
+"completion/prec.ml" 40 1430 1434 "completion/prec.ml" 40 1430 1443
+type(
+  bool -> Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  def add_lt_if "completion/prec.ml" 42 1503 1503 "completion/prec.ml" 1 0 -1
+)
+"completion/prec.ml" 40 1430 1444 "completion/prec.ml" 40 1430 1445
+type(
+  bool
+)
+ident(
+  def b "completion/prec.ml" 40 1430 1446 "completion/prec.ml" 40 1430 1499
+)
+"completion/prec.ml" 40 1430 1447 "completion/prec.ml" 40 1430 1448
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/prec.ml" 40 1430 1453 "completion/prec.ml" 40 1430 1499
+)
+"completion/prec.ml" 40 1430 1450 "completion/prec.ml" 40 1430 1451
+type(
+  Symb.symbol
+)
+ident(
+  def g "completion/prec.ml" 40 1430 1453 "completion/prec.ml" 40 1430 1499
+)
+"completion/prec.ml" 40 1430 1446 "completion/prec.ml" 40 1430 1452
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 40 1430 1453 "completion/prec.ml" 40 1430 1454
+type(
+  Order.ord Prec.t
+)
+ident(
+  def m "completion/prec.ml" 40 1430 1457 "completion/prec.ml" 40 1430 1499
+)
+"completion/prec.ml" 40 1430 1460 "completion/prec.ml" 40 1430 1461
+type(
+  bool
+)
+ident(
+  int_ref b "completion/prec.ml" 40 1430 1444 "completion/prec.ml" 40 1430 1445
+)
+"completion/prec.ml" 40 1430 1467 "completion/prec.ml" 40 1430 1475
+type(
+  Prec.key -> Order.ord -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  ext_ref Prec.add
+)
+"completion/prec.ml" 40 1430 1477 "completion/prec.ml" 40 1430 1478
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 40 1430 1447 "completion/prec.ml" 40 1430 1448
+)
+"completion/prec.ml" 40 1430 1480 "completion/prec.ml" 40 1430 1481
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 40 1430 1450 "completion/prec.ml" 40 1430 1451
+)
+"completion/prec.ml" 40 1430 1476 "completion/prec.ml" 40 1430 1482
+type(
+  Prec.key
+)
+"completion/prec.ml" 40 1430 1483 "completion/prec.ml" 40 1430 1490
+type(
+  Order.ord
+)
+"completion/prec.ml" 40 1430 1491 "completion/prec.ml" 40 1430 1492
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 40 1430 1453 "completion/prec.ml" 40 1430 1454
+)
+"completion/prec.ml" 40 1430 1467 "completion/prec.ml" 40 1430 1492
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 40 1430 1498 "completion/prec.ml" 40 1430 1499
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 40 1430 1453 "completion/prec.ml" 40 1430 1454
+)
+"completion/prec.ml" 40 1430 1457 "completion/prec.ml" 40 1430 1499
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 42 1503 1507 "completion/prec.ml" 42 1503 1513
+type(
+  Order.ord Prec.t -> Symb.symbol -> Symb.symbol -> Order.ord Prec.t
+)
+ident(
+  def add_lt "completion/prec.ml" 64 2103 2103 "completion/prec.ml" 1 0 -1
+)
+"completion/prec.ml" 42 1503 1514 "completion/prec.ml" 42 1503 1518
+type(
+  Order.ord Prec.t
+)
+ident(
+  def prec "completion/prec.ml" 42 1503 1519 "completion/prec.ml" 61 2068 2098
+)
+"completion/prec.ml" 42 1503 1519 "completion/prec.ml" 42 1503 1520
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/prec.ml" 42 1503 1521 "completion/prec.ml" 61 2068 2098
+)
+"completion/prec.ml" 42 1503 1521 "completion/prec.ml" 42 1503 1522
+type(
+  Symb.symbol
+)
+ident(
+  def g "completion/prec.ml" 43 1525 1527 "completion/prec.ml" 61 2068 2098
+)
+"completion/prec.ml" 43 1525 1533 "completion/prec.ml" 43 1525 1540
+type(
+  Order.ord Prec.t -> Symb.symbol -> Symb.symbol -> Order.ord
+)
+ident(
+  int_ref compare "completion/prec.ml" 30 1223 1227 "completion/prec.ml" 30 1223 1234
+)
+"completion/prec.ml" 43 1525 1541 "completion/prec.ml" 43 1525 1545
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref prec "completion/prec.ml" 42 1503 1514 "completion/prec.ml" 42 1503 1518
+)
+"completion/prec.ml" 43 1525 1546 "completion/prec.ml" 43 1525 1547
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 42 1503 1519 "completion/prec.ml" 42 1503 1520
+)
+"completion/prec.ml" 43 1525 1548 "completion/prec.ml" 43 1525 1549
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 42 1503 1521 "completion/prec.ml" 42 1503 1522
+)
+"completion/prec.ml" 43 1525 1533 "completion/prec.ml" 43 1525 1549
+call(
+  stack
+)
+type(
+  Order.ord
+)
+"completion/prec.ml" 44 1555 1559 "completion/prec.ml" 44 1555 1566
+type(
+  Order.ord
+)
+"completion/prec.ml" 44 1555 1570 "completion/prec.ml" 44 1555 1574
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref prec "completion/prec.ml" 42 1503 1514 "completion/prec.ml" 42 1503 1518
+)
+"completion/prec.ml" 45 1575 1579 "completion/prec.ml" 45 1575 1591
+type(
+  Order.ord
+)
+"completion/prec.ml" 46 1595 1603 "completion/prec.ml" 46 1595 1607
+type(
+  Symb.symbol * Symb.symbol ->
+  Order.ord -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  def func "completion/prec.ml" 59 1998 2005 "completion/prec.ml" 59 1998 2055
+)
+"completion/prec.ml" 46 1595 1609 "completion/prec.ml" 46 1595 1610
+type(
+  Symb.symbol
+)
+ident(
+  def x "completion/prec.ml" 46 1595 1615 "completion/prec.ml" 58 1961 1997
+)
+"completion/prec.ml" 46 1595 1612 "completion/prec.ml" 46 1595 1613
+type(
+  Symb.symbol
+)
+ident(
+  def y "completion/prec.ml" 46 1595 1615 "completion/prec.ml" 58 1961 1997
+)
+"completion/prec.ml" 46 1595 1608 "completion/prec.ml" 46 1595 1614
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 46 1595 1615 "completion/prec.ml" 46 1595 1616
+type(
+  Order.ord
+)
+ident(
+  def o "completion/prec.ml" 46 1595 1617 "completion/prec.ml" 58 1961 1997
+)
+"completion/prec.ml" 46 1595 1617 "completion/prec.ml" 46 1595 1618
+type(
+  Order.ord Prec.t
+)
+ident(
+  def m "completion/prec.ml" 47 1621 1627 "completion/prec.ml" 58 1961 1997
+)
+"completion/prec.ml" 47 1621 1633 "completion/prec.ml" 47 1621 1634
+type(
+  Order.ord
+)
+ident(
+  int_ref o "completion/prec.ml" 46 1595 1615 "completion/prec.ml" 46 1595 1616
+)
+"completion/prec.ml" 48 1640 1648 "completion/prec.ml" 48 1640 1655
+type(
+  Order.ord
+)
+"completion/prec.ml" 49 1659 1667 "completion/prec.ml" 49 1659 1676
+type(
+  bool -> Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  int_ref add_lt_if "completion/prec.ml" 40 1430 1434 "completion/prec.ml" 40 1430 1443
+)
+"completion/prec.ml" 49 1659 1678 "completion/prec.ml" 49 1659 1679
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 46 1595 1609 "completion/prec.ml" 46 1595 1610
+)
+"completion/prec.ml" 49 1659 1680 "completion/prec.ml" 49 1659 1681
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 49 1659 1682 "completion/prec.ml" 49 1659 1683
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 42 1503 1521 "completion/prec.ml" 42 1503 1522
+)
+"completion/prec.ml" 49 1659 1677 "completion/prec.ml" 49 1659 1684
+type(
+  bool
+)
+"completion/prec.ml" 49 1659 1686 "completion/prec.ml" 49 1659 1687
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 42 1503 1519 "completion/prec.ml" 42 1503 1520
+)
+"completion/prec.ml" 49 1659 1689 "completion/prec.ml" 49 1659 1690
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 46 1595 1612 "completion/prec.ml" 46 1595 1613
+)
+"completion/prec.ml" 49 1659 1685 "completion/prec.ml" 49 1659 1691
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 49 1659 1693 "completion/prec.ml" 49 1659 1702
+type(
+  bool -> Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  int_ref add_lt_if "completion/prec.ml" 40 1430 1434 "completion/prec.ml" 40 1430 1443
+)
+"completion/prec.ml" 49 1659 1704 "completion/prec.ml" 49 1659 1705
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 46 1595 1612 "completion/prec.ml" 46 1595 1613
+)
+"completion/prec.ml" 49 1659 1706 "completion/prec.ml" 49 1659 1707
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 49 1659 1708 "completion/prec.ml" 49 1659 1709
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 42 1503 1519 "completion/prec.ml" 42 1503 1520
+)
+"completion/prec.ml" 49 1659 1703 "completion/prec.ml" 49 1659 1710
+type(
+  bool
+)
+"completion/prec.ml" 49 1659 1712 "completion/prec.ml" 49 1659 1713
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 46 1595 1609 "completion/prec.ml" 46 1595 1610
+)
+"completion/prec.ml" 49 1659 1715 "completion/prec.ml" 49 1659 1716
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 42 1503 1521 "completion/prec.ml" 42 1503 1522
+)
+"completion/prec.ml" 49 1659 1711 "completion/prec.ml" 49 1659 1717
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 49 1659 1718 "completion/prec.ml" 49 1659 1719
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 46 1595 1617 "completion/prec.ml" 46 1595 1618
+)
+"completion/prec.ml" 49 1659 1692 "completion/prec.ml" 49 1659 1720
+call(
+  stack
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 49 1659 1667 "completion/prec.ml" 49 1659 1720
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 50 1721 1729 "completion/prec.ml" 50 1721 1734
+type(
+  Order.ord
+)
+"completion/prec.ml" 51 1738 1750 "completion/prec.ml" 51 1738 1751
+type(
+  Order.ord Prec.t
+)
+ident(
+  def m "completion/prec.ml" 55 1857 1865 "completion/prec.ml" 56 1905 1944
+)
+"completion/prec.ml" 52 1754 1767 "completion/prec.ml" 52 1754 1768
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 46 1595 1609 "completion/prec.ml" 46 1595 1610
+)
+"completion/prec.ml" 52 1754 1769 "completion/prec.ml" 52 1754 1770
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 52 1754 1771 "completion/prec.ml" 52 1754 1772
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 42 1503 1519 "completion/prec.ml" 42 1503 1520
+)
+"completion/prec.ml" 52 1754 1767 "completion/prec.ml" 52 1754 1772
+type(
+  bool
+)
+"completion/prec.ml" 52 1754 1778 "completion/prec.ml" 52 1754 1786
+type(
+  Prec.key -> Order.ord -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  ext_ref Prec.add
+)
+"completion/prec.ml" 52 1754 1788 "completion/prec.ml" 52 1754 1789
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 46 1595 1612 "completion/prec.ml" 46 1595 1613
+)
+"completion/prec.ml" 52 1754 1791 "completion/prec.ml" 52 1754 1792
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 42 1503 1521 "completion/prec.ml" 42 1503 1522
+)
+"completion/prec.ml" 52 1754 1787 "completion/prec.ml" 52 1754 1793
+type(
+  Prec.key
+)
+"completion/prec.ml" 52 1754 1794 "completion/prec.ml" 52 1754 1801
+type(
+  Order.ord
+)
+"completion/prec.ml" 52 1754 1802 "completion/prec.ml" 52 1754 1803
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 46 1595 1617 "completion/prec.ml" 46 1595 1618
+)
+"completion/prec.ml" 52 1754 1778 "completion/prec.ml" 52 1754 1803
+call(
+  stack
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 53 1804 1819 "completion/prec.ml" 53 1804 1828
+type(
+  bool -> Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  int_ref add_lt_if "completion/prec.ml" 40 1430 1434 "completion/prec.ml" 40 1430 1443
+)
+"completion/prec.ml" 53 1804 1830 "completion/prec.ml" 53 1804 1831
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 46 1595 1609 "completion/prec.ml" 46 1595 1610
+)
+"completion/prec.ml" 53 1804 1832 "completion/prec.ml" 53 1804 1833
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 53 1804 1834 "completion/prec.ml" 53 1804 1835
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 42 1503 1521 "completion/prec.ml" 42 1503 1522
+)
+"completion/prec.ml" 53 1804 1829 "completion/prec.ml" 53 1804 1836
+type(
+  bool
+)
+"completion/prec.ml" 53 1804 1838 "completion/prec.ml" 53 1804 1839
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 42 1503 1519 "completion/prec.ml" 42 1503 1520
+)
+"completion/prec.ml" 53 1804 1841 "completion/prec.ml" 53 1804 1842
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 46 1595 1612 "completion/prec.ml" 46 1595 1613
+)
+"completion/prec.ml" 53 1804 1837 "completion/prec.ml" 53 1804 1843
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 53 1804 1844 "completion/prec.ml" 53 1804 1845
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 46 1595 1617 "completion/prec.ml" 46 1595 1618
+)
+"completion/prec.ml" 53 1804 1819 "completion/prec.ml" 53 1804 1845
+call(
+  stack
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 52 1754 1764 "completion/prec.ml" 53 1804 1845
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 55 1857 1868 "completion/prec.ml" 55 1857 1869
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 46 1595 1612 "completion/prec.ml" 46 1595 1613
+)
+"completion/prec.ml" 55 1857 1870 "completion/prec.ml" 55 1857 1871
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 55 1857 1872 "completion/prec.ml" 55 1857 1873
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 42 1503 1519 "completion/prec.ml" 42 1503 1520
+)
+"completion/prec.ml" 55 1857 1868 "completion/prec.ml" 55 1857 1873
+type(
+  bool
+)
+"completion/prec.ml" 55 1857 1879 "completion/prec.ml" 55 1857 1887
+type(
+  Prec.key -> Order.ord -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  ext_ref Prec.add
+)
+"completion/prec.ml" 55 1857 1889 "completion/prec.ml" 55 1857 1890
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 46 1595 1609 "completion/prec.ml" 46 1595 1610
+)
+"completion/prec.ml" 55 1857 1892 "completion/prec.ml" 55 1857 1893
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 42 1503 1521 "completion/prec.ml" 42 1503 1522
+)
+"completion/prec.ml" 55 1857 1888 "completion/prec.ml" 55 1857 1894
+type(
+  Prec.key
+)
+"completion/prec.ml" 55 1857 1895 "completion/prec.ml" 55 1857 1902
+type(
+  Order.ord
+)
+"completion/prec.ml" 55 1857 1903 "completion/prec.ml" 55 1857 1904
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 51 1738 1750 "completion/prec.ml" 51 1738 1751
+)
+"completion/prec.ml" 55 1857 1879 "completion/prec.ml" 55 1857 1904
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 56 1905 1918 "completion/prec.ml" 56 1905 1927
+type(
+  bool -> Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  int_ref add_lt_if "completion/prec.ml" 40 1430 1434 "completion/prec.ml" 40 1430 1443
+)
+"completion/prec.ml" 56 1905 1929 "completion/prec.ml" 56 1905 1930
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 46 1595 1612 "completion/prec.ml" 46 1595 1613
+)
+"completion/prec.ml" 56 1905 1931 "completion/prec.ml" 56 1905 1932
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 56 1905 1933 "completion/prec.ml" 56 1905 1934
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 42 1503 1521 "completion/prec.ml" 42 1503 1522
+)
+"completion/prec.ml" 56 1905 1928 "completion/prec.ml" 56 1905 1935
+type(
+  bool
+)
+"completion/prec.ml" 56 1905 1937 "completion/prec.ml" 56 1905 1938
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 42 1503 1519 "completion/prec.ml" 42 1503 1520
+)
+"completion/prec.ml" 56 1905 1940 "completion/prec.ml" 56 1905 1941
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 46 1595 1609 "completion/prec.ml" 46 1595 1610
+)
+"completion/prec.ml" 56 1905 1936 "completion/prec.ml" 56 1905 1942
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 56 1905 1943 "completion/prec.ml" 56 1905 1944
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 51 1738 1750 "completion/prec.ml" 51 1738 1751
+)
+"completion/prec.ml" 56 1905 1918 "completion/prec.ml" 56 1905 1944
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 55 1857 1865 "completion/prec.ml" 56 1905 1944
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 51 1738 1746 "completion/prec.ml" 56 1905 1944
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 57 1945 1953 "completion/prec.ml" 57 1945 1960
+type(
+  Order.ord
+)
+"completion/prec.ml" 58 1961 1969 "completion/prec.ml" 58 1961 1981
+type(
+  Order.ord
+)
+"completion/prec.ml" 57 1945 1953 "completion/prec.ml" 58 1961 1981
+type(
+  Order.ord
+)
+"completion/prec.ml" 58 1961 1992 "completion/prec.ml" 58 1961 1997
+type(
+  bool
+)
+"completion/prec.ml" 58 1961 1985 "completion/prec.ml" 58 1961 1997
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 47 1621 1627 "completion/prec.ml" 58 1961 1997
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 59 1998 2005 "completion/prec.ml" 59 1998 2014
+type(
+  (Prec.key -> Order.ord -> Order.ord Prec.t -> Order.ord Prec.t) ->
+  Order.ord Prec.t -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  ext_ref Prec.fold
+)
+"completion/prec.ml" 59 1998 2015 "completion/prec.ml" 59 1998 2019
+type(
+  Prec.key -> Order.ord -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  int_ref func "completion/prec.ml" 46 1595 1603 "completion/prec.ml" 46 1595 1607
+)
+"completion/prec.ml" 59 1998 2020 "completion/prec.ml" 59 1998 2024
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref prec "completion/prec.ml" 42 1503 1514 "completion/prec.ml" 42 1503 1518
+)
+"completion/prec.ml" 59 1998 2026 "completion/prec.ml" 59 1998 2034
+type(
+  Prec.key -> Order.ord -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  ext_ref Prec.add
+)
+"completion/prec.ml" 59 1998 2036 "completion/prec.ml" 59 1998 2037
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 42 1503 1519 "completion/prec.ml" 42 1503 1520
+)
+"completion/prec.ml" 59 1998 2039 "completion/prec.ml" 59 1998 2040
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 42 1503 1521 "completion/prec.ml" 42 1503 1522
+)
+"completion/prec.ml" 59 1998 2035 "completion/prec.ml" 59 1998 2041
+type(
+  Prec.key
+)
+"completion/prec.ml" 59 1998 2042 "completion/prec.ml" 59 1998 2049
+type(
+  Order.ord
+)
+"completion/prec.ml" 59 1998 2050 "completion/prec.ml" 59 1998 2054
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref prec "completion/prec.ml" 42 1503 1514 "completion/prec.ml" 42 1503 1518
+)
+"completion/prec.ml" 59 1998 2025 "completion/prec.ml" 59 1998 2055
+call(
+  stack
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 59 1998 2005 "completion/prec.ml" 59 1998 2055
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 46 1595 1599 "completion/prec.ml" 59 1998 2055
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 60 2056 2060 "completion/prec.ml" 60 2056 2067
+type(
+  Order.ord
+)
+"completion/prec.ml" 61 2068 2072 "completion/prec.ml" 61 2068 2077
+type(
+  Order.ord
+)
+"completion/prec.ml" 60 2056 2060 "completion/prec.ml" 61 2068 2077
+type(
+  Order.ord
+)
+"completion/prec.ml" 61 2068 2081 "completion/prec.ml" 61 2068 2089
+type(
+  string -> Order.ord Prec.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"completion/prec.ml" 61 2068 2090 "completion/prec.ml" 61 2068 2098
+type(
+  string
+)
+"completion/prec.ml" 61 2068 2081 "completion/prec.ml" 61 2068 2098
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 43 1525 1527 "completion/prec.ml" 61 2068 2098
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 64 2103 2107 "completion/prec.ml" 64 2103 2114
+type(
+  Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  def add_sym "completion/prec.ml" 68 2186 2186 "completion/prec.ml" 1 0 -1
+)
+"completion/prec.ml" 64 2103 2116 "completion/prec.ml" 64 2103 2117
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/prec.ml" 64 2103 2122 "completion/prec.ml" 65 2129 2181
+)
+"completion/prec.ml" 64 2103 2119 "completion/prec.ml" 64 2103 2120
+type(
+  Symb.symbol
+)
+ident(
+  def g "completion/prec.ml" 64 2103 2122 "completion/prec.ml" 65 2129 2181
+)
+"completion/prec.ml" 64 2103 2115 "completion/prec.ml" 64 2103 2121
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 64 2103 2122 "completion/prec.ml" 64 2103 2126
+type(
+  Order.ord Prec.t
+)
+ident(
+  def prec "completion/prec.ml" 65 2129 2131 "completion/prec.ml" 65 2129 2181
+)
+"completion/prec.ml" 65 2129 2131 "completion/prec.ml" 65 2129 2139
+type(
+  Prec.key -> Order.ord -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  ext_ref Prec.add
+)
+"completion/prec.ml" 65 2129 2141 "completion/prec.ml" 65 2129 2142
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 64 2103 2116 "completion/prec.ml" 64 2103 2117
+)
+"completion/prec.ml" 65 2129 2144 "completion/prec.ml" 65 2129 2145
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 64 2103 2119 "completion/prec.ml" 64 2103 2120
+)
+"completion/prec.ml" 65 2129 2140 "completion/prec.ml" 65 2129 2146
+type(
+  Prec.key
+)
+"completion/prec.ml" 65 2129 2147 "completion/prec.ml" 65 2129 2152
+type(
+  Order.ord
+)
+"completion/prec.ml" 65 2129 2154 "completion/prec.ml" 65 2129 2162
+type(
+  Prec.key -> Order.ord -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  ext_ref Prec.add
+)
+"completion/prec.ml" 65 2129 2164 "completion/prec.ml" 65 2129 2165
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 64 2103 2119 "completion/prec.ml" 64 2103 2120
+)
+"completion/prec.ml" 65 2129 2167 "completion/prec.ml" 65 2129 2168
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 64 2103 2116 "completion/prec.ml" 64 2103 2117
+)
+"completion/prec.ml" 65 2129 2163 "completion/prec.ml" 65 2129 2169
+type(
+  Prec.key
+)
+"completion/prec.ml" 65 2129 2170 "completion/prec.ml" 65 2129 2175
+type(
+  Order.ord
+)
+"completion/prec.ml" 65 2129 2176 "completion/prec.ml" 65 2129 2180
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref prec "completion/prec.ml" 64 2103 2122 "completion/prec.ml" 64 2103 2126
+)
+"completion/prec.ml" 65 2129 2153 "completion/prec.ml" 65 2129 2181
+call(
+  stack
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 65 2129 2131 "completion/prec.ml" 65 2129 2181
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 68 2186 2190 "completion/prec.ml" 68 2186 2200
+type(
+  bool -> Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  def add_sym_if "completion/prec.ml" 70 2251 2251 "completion/prec.ml" 1 0 -1
+)
+"completion/prec.ml" 68 2186 2201 "completion/prec.ml" 68 2186 2202
+type(
+  bool
+)
+ident(
+  def b "completion/prec.ml" 68 2186 2203 "completion/prec.ml" 68 2186 2247
+)
+"completion/prec.ml" 68 2186 2204 "completion/prec.ml" 68 2186 2205
+type(
+  Symb.symbol
+)
+ident(
+  def x "completion/prec.ml" 68 2186 2210 "completion/prec.ml" 68 2186 2247
+)
+"completion/prec.ml" 68 2186 2207 "completion/prec.ml" 68 2186 2208
+type(
+  Symb.symbol
+)
+ident(
+  def y "completion/prec.ml" 68 2186 2210 "completion/prec.ml" 68 2186 2247
+)
+"completion/prec.ml" 68 2186 2203 "completion/prec.ml" 68 2186 2209
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 68 2186 2210 "completion/prec.ml" 68 2186 2211
+type(
+  Order.ord Prec.t
+)
+ident(
+  def m "completion/prec.ml" 68 2186 2214 "completion/prec.ml" 68 2186 2247
+)
+"completion/prec.ml" 68 2186 2217 "completion/prec.ml" 68 2186 2218
+type(
+  bool
+)
+ident(
+  int_ref b "completion/prec.ml" 68 2186 2201 "completion/prec.ml" 68 2186 2202
+)
+"completion/prec.ml" 68 2186 2224 "completion/prec.ml" 68 2186 2231
+type(
+  Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  int_ref add_sym "completion/prec.ml" 64 2103 2107 "completion/prec.ml" 64 2103 2114
+)
+"completion/prec.ml" 68 2186 2233 "completion/prec.ml" 68 2186 2234
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 68 2186 2204 "completion/prec.ml" 68 2186 2205
+)
+"completion/prec.ml" 68 2186 2236 "completion/prec.ml" 68 2186 2237
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 68 2186 2207 "completion/prec.ml" 68 2186 2208
+)
+"completion/prec.ml" 68 2186 2232 "completion/prec.ml" 68 2186 2238
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 68 2186 2239 "completion/prec.ml" 68 2186 2240
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 68 2186 2210 "completion/prec.ml" 68 2186 2211
+)
+"completion/prec.ml" 68 2186 2224 "completion/prec.ml" 68 2186 2240
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 68 2186 2246 "completion/prec.ml" 68 2186 2247
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 68 2186 2210 "completion/prec.ml" 68 2186 2211
+)
+"completion/prec.ml" 68 2186 2214 "completion/prec.ml" 68 2186 2247
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 70 2251 2255 "completion/prec.ml" 70 2251 2261
+type(
+  Order.ord Prec.t -> Symb.symbol -> Symb.symbol -> Order.ord Prec.t
+)
+ident(
+  def add_eq "completion/prec.ml" 97 3005 3005 "completion/prec.ml" 1 0 -1
+)
+"completion/prec.ml" 70 2251 2262 "completion/prec.ml" 70 2251 2266
+type(
+  Order.ord Prec.t
+)
+ident(
+  def prec "completion/prec.ml" 70 2251 2267 "completion/prec.ml" 94 2968 3000
+)
+"completion/prec.ml" 70 2251 2267 "completion/prec.ml" 70 2251 2268
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/prec.ml" 70 2251 2269 "completion/prec.ml" 94 2968 3000
+)
+"completion/prec.ml" 70 2251 2269 "completion/prec.ml" 70 2251 2270
+type(
+  Symb.symbol
+)
+ident(
+  def g "completion/prec.ml" 71 2273 2275 "completion/prec.ml" 94 2968 3000
+)
+"completion/prec.ml" 71 2273 2281 "completion/prec.ml" 71 2273 2288
+type(
+  Order.ord Prec.t -> Symb.symbol -> Symb.symbol -> Order.ord
+)
+ident(
+  int_ref compare "completion/prec.ml" 30 1223 1227 "completion/prec.ml" 30 1223 1234
+)
+"completion/prec.ml" 71 2273 2289 "completion/prec.ml" 71 2273 2293
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref prec "completion/prec.ml" 70 2251 2262 "completion/prec.ml" 70 2251 2266
+)
+"completion/prec.ml" 71 2273 2294 "completion/prec.ml" 71 2273 2295
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 70 2251 2267 "completion/prec.ml" 70 2251 2268
+)
+"completion/prec.ml" 71 2273 2296 "completion/prec.ml" 71 2273 2297
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 70 2251 2269 "completion/prec.ml" 70 2251 2270
+)
+"completion/prec.ml" 71 2273 2281 "completion/prec.ml" 71 2273 2297
+call(
+  stack
+)
+type(
+  Order.ord
+)
+"completion/prec.ml" 72 2303 2307 "completion/prec.ml" 72 2303 2312
+type(
+  Order.ord
+)
+"completion/prec.ml" 72 2303 2316 "completion/prec.ml" 72 2303 2320
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref prec "completion/prec.ml" 70 2251 2262 "completion/prec.ml" 70 2251 2266
+)
+"completion/prec.ml" 73 2321 2325 "completion/prec.ml" 73 2321 2337
+type(
+  Order.ord
+)
+"completion/prec.ml" 74 2341 2351 "completion/prec.ml" 74 2341 2355
+type(
+  Symb.symbol * Symb.symbol ->
+  Order.ord -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  def func "completion/prec.ml" 92 2905 2914 "completion/prec.ml" 92 2905 2955
+)
+"completion/prec.ml" 74 2341 2357 "completion/prec.ml" 74 2341 2358
+type(
+  Symb.symbol
+)
+ident(
+  def x "completion/prec.ml" 74 2341 2363 "completion/prec.ml" 91 2867 2904
+)
+"completion/prec.ml" 74 2341 2360 "completion/prec.ml" 74 2341 2361
+type(
+  Symb.symbol
+)
+ident(
+  def y "completion/prec.ml" 74 2341 2363 "completion/prec.ml" 91 2867 2904
+)
+"completion/prec.ml" 74 2341 2356 "completion/prec.ml" 74 2341 2362
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 74 2341 2363 "completion/prec.ml" 74 2341 2364
+type(
+  Order.ord
+)
+ident(
+  def o "completion/prec.ml" 74 2341 2365 "completion/prec.ml" 91 2867 2904
+)
+"completion/prec.ml" 74 2341 2365 "completion/prec.ml" 74 2341 2366
+type(
+  Order.ord Prec.t
+)
+ident(
+  def m "completion/prec.ml" 75 2369 2377 "completion/prec.ml" 91 2867 2904
+)
+"completion/prec.ml" 75 2369 2383 "completion/prec.ml" 75 2369 2384
+type(
+  Order.ord
+)
+ident(
+  int_ref o "completion/prec.ml" 74 2341 2363 "completion/prec.ml" 74 2341 2364
+)
+"completion/prec.ml" 76 2390 2400 "completion/prec.ml" 76 2390 2407
+type(
+  Order.ord
+)
+"completion/prec.ml" 77 2411 2425 "completion/prec.ml" 77 2411 2426
+type(
+  Order.ord Prec.t
+)
+ident(
+  def m "completion/prec.ml" 81 2538 2548 "completion/prec.ml" 82 2588 2629
+)
+"completion/prec.ml" 78 2429 2444 "completion/prec.ml" 78 2429 2445
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 74 2341 2357 "completion/prec.ml" 74 2341 2358
+)
+"completion/prec.ml" 78 2429 2446 "completion/prec.ml" 78 2429 2447
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 78 2429 2448 "completion/prec.ml" 78 2429 2449
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 70 2251 2267 "completion/prec.ml" 70 2251 2268
+)
+"completion/prec.ml" 78 2429 2444 "completion/prec.ml" 78 2429 2449
+type(
+  bool
+)
+"completion/prec.ml" 78 2429 2455 "completion/prec.ml" 78 2429 2463
+type(
+  Prec.key -> Order.ord -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  ext_ref Prec.add
+)
+"completion/prec.ml" 78 2429 2465 "completion/prec.ml" 78 2429 2466
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 70 2251 2269 "completion/prec.ml" 70 2251 2270
+)
+"completion/prec.ml" 78 2429 2468 "completion/prec.ml" 78 2429 2469
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 74 2341 2360 "completion/prec.ml" 74 2341 2361
+)
+"completion/prec.ml" 78 2429 2464 "completion/prec.ml" 78 2429 2470
+type(
+  Prec.key
+)
+"completion/prec.ml" 78 2429 2471 "completion/prec.ml" 78 2429 2478
+type(
+  Order.ord
+)
+"completion/prec.ml" 78 2429 2479 "completion/prec.ml" 78 2429 2480
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 74 2341 2365 "completion/prec.ml" 74 2341 2366
+)
+"completion/prec.ml" 78 2429 2455 "completion/prec.ml" 78 2429 2480
+call(
+  stack
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 79 2481 2498 "completion/prec.ml" 79 2481 2507
+type(
+  bool -> Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  int_ref add_lt_if "completion/prec.ml" 40 1430 1434 "completion/prec.ml" 40 1430 1443
+)
+"completion/prec.ml" 79 2481 2509 "completion/prec.ml" 79 2481 2510
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 74 2341 2357 "completion/prec.ml" 74 2341 2358
+)
+"completion/prec.ml" 79 2481 2511 "completion/prec.ml" 79 2481 2512
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 79 2481 2513 "completion/prec.ml" 79 2481 2514
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 70 2251 2269 "completion/prec.ml" 70 2251 2270
+)
+"completion/prec.ml" 79 2481 2508 "completion/prec.ml" 79 2481 2515
+type(
+  bool
+)
+"completion/prec.ml" 79 2481 2517 "completion/prec.ml" 79 2481 2518
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 70 2251 2267 "completion/prec.ml" 70 2251 2268
+)
+"completion/prec.ml" 79 2481 2520 "completion/prec.ml" 79 2481 2521
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 74 2341 2360 "completion/prec.ml" 74 2341 2361
+)
+"completion/prec.ml" 79 2481 2516 "completion/prec.ml" 79 2481 2522
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 79 2481 2523 "completion/prec.ml" 79 2481 2524
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 74 2341 2365 "completion/prec.ml" 74 2341 2366
+)
+"completion/prec.ml" 79 2481 2498 "completion/prec.ml" 79 2481 2524
+call(
+  stack
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 78 2429 2441 "completion/prec.ml" 79 2481 2524
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 81 2538 2551 "completion/prec.ml" 81 2538 2552
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 74 2341 2360 "completion/prec.ml" 74 2341 2361
+)
+"completion/prec.ml" 81 2538 2553 "completion/prec.ml" 81 2538 2554
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 81 2538 2555 "completion/prec.ml" 81 2538 2556
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 70 2251 2267 "completion/prec.ml" 70 2251 2268
+)
+"completion/prec.ml" 81 2538 2551 "completion/prec.ml" 81 2538 2556
+type(
+  bool
+)
+"completion/prec.ml" 81 2538 2562 "completion/prec.ml" 81 2538 2570
+type(
+  Prec.key -> Order.ord -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  ext_ref Prec.add
+)
+"completion/prec.ml" 81 2538 2572 "completion/prec.ml" 81 2538 2573
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 74 2341 2357 "completion/prec.ml" 74 2341 2358
+)
+"completion/prec.ml" 81 2538 2575 "completion/prec.ml" 81 2538 2576
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 70 2251 2269 "completion/prec.ml" 70 2251 2270
+)
+"completion/prec.ml" 81 2538 2571 "completion/prec.ml" 81 2538 2577
+type(
+  Prec.key
+)
+"completion/prec.ml" 81 2538 2578 "completion/prec.ml" 81 2538 2585
+type(
+  Order.ord
+)
+"completion/prec.ml" 81 2538 2586 "completion/prec.ml" 81 2538 2587
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 77 2411 2425 "completion/prec.ml" 77 2411 2426
+)
+"completion/prec.ml" 81 2538 2562 "completion/prec.ml" 81 2538 2587
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 82 2588 2603 "completion/prec.ml" 82 2588 2612
+type(
+  bool -> Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  int_ref add_lt_if "completion/prec.ml" 40 1430 1434 "completion/prec.ml" 40 1430 1443
+)
+"completion/prec.ml" 82 2588 2614 "completion/prec.ml" 82 2588 2615
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 74 2341 2360 "completion/prec.ml" 74 2341 2361
+)
+"completion/prec.ml" 82 2588 2616 "completion/prec.ml" 82 2588 2617
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 82 2588 2618 "completion/prec.ml" 82 2588 2619
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 70 2251 2269 "completion/prec.ml" 70 2251 2270
+)
+"completion/prec.ml" 82 2588 2613 "completion/prec.ml" 82 2588 2620
+type(
+  bool
+)
+"completion/prec.ml" 82 2588 2622 "completion/prec.ml" 82 2588 2623
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 74 2341 2357 "completion/prec.ml" 74 2341 2358
+)
+"completion/prec.ml" 82 2588 2625 "completion/prec.ml" 82 2588 2626
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 70 2251 2267 "completion/prec.ml" 70 2251 2268
+)
+"completion/prec.ml" 82 2588 2621 "completion/prec.ml" 82 2588 2627
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 82 2588 2628 "completion/prec.ml" 82 2588 2629
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 77 2411 2425 "completion/prec.ml" 77 2411 2426
+)
+"completion/prec.ml" 82 2588 2603 "completion/prec.ml" 82 2588 2629
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 81 2538 2548 "completion/prec.ml" 82 2588 2629
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 77 2411 2421 "completion/prec.ml" 82 2588 2629
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 83 2630 2640 "completion/prec.ml" 83 2630 2645
+type(
+  Order.ord
+)
+"completion/prec.ml" 84 2649 2663 "completion/prec.ml" 84 2649 2664
+type(
+  Order.ord Prec.t
+)
+ident(
+  def m "completion/prec.ml" 88 2768 2778 "completion/prec.ml" 89 2807 2849
+)
+"completion/prec.ml" 85 2667 2682 "completion/prec.ml" 85 2667 2683
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 74 2341 2357 "completion/prec.ml" 74 2341 2358
+)
+"completion/prec.ml" 85 2667 2684 "completion/prec.ml" 85 2667 2685
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 85 2667 2686 "completion/prec.ml" 85 2667 2687
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 70 2251 2267 "completion/prec.ml" 70 2251 2268
+)
+"completion/prec.ml" 85 2667 2682 "completion/prec.ml" 85 2667 2687
+type(
+  bool
+)
+"completion/prec.ml" 85 2667 2693 "completion/prec.ml" 85 2667 2700
+type(
+  Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  int_ref add_sym "completion/prec.ml" 64 2103 2107 "completion/prec.ml" 64 2103 2114
+)
+"completion/prec.ml" 85 2667 2702 "completion/prec.ml" 85 2667 2703
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 74 2341 2360 "completion/prec.ml" 74 2341 2361
+)
+"completion/prec.ml" 85 2667 2705 "completion/prec.ml" 85 2667 2706
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 70 2251 2269 "completion/prec.ml" 70 2251 2270
+)
+"completion/prec.ml" 85 2667 2701 "completion/prec.ml" 85 2667 2707
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 85 2667 2708 "completion/prec.ml" 85 2667 2709
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 74 2341 2365 "completion/prec.ml" 74 2341 2366
+)
+"completion/prec.ml" 85 2667 2693 "completion/prec.ml" 85 2667 2709
+call(
+  stack
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 86 2710 2727 "completion/prec.ml" 86 2710 2737
+type(
+  bool -> Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  int_ref add_sym_if "completion/prec.ml" 68 2186 2190 "completion/prec.ml" 68 2186 2200
+)
+"completion/prec.ml" 86 2710 2739 "completion/prec.ml" 86 2710 2740
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 74 2341 2357 "completion/prec.ml" 74 2341 2358
+)
+"completion/prec.ml" 86 2710 2741 "completion/prec.ml" 86 2710 2742
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 86 2710 2743 "completion/prec.ml" 86 2710 2744
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 70 2251 2269 "completion/prec.ml" 70 2251 2270
+)
+"completion/prec.ml" 86 2710 2738 "completion/prec.ml" 86 2710 2745
+type(
+  bool
+)
+"completion/prec.ml" 86 2710 2747 "completion/prec.ml" 86 2710 2748
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 70 2251 2267 "completion/prec.ml" 70 2251 2268
+)
+"completion/prec.ml" 86 2710 2750 "completion/prec.ml" 86 2710 2751
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 74 2341 2360 "completion/prec.ml" 74 2341 2361
+)
+"completion/prec.ml" 86 2710 2746 "completion/prec.ml" 86 2710 2752
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 86 2710 2753 "completion/prec.ml" 86 2710 2754
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 74 2341 2365 "completion/prec.ml" 74 2341 2366
+)
+"completion/prec.ml" 86 2710 2727 "completion/prec.ml" 86 2710 2754
+call(
+  stack
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 85 2667 2679 "completion/prec.ml" 86 2710 2754
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 88 2768 2781 "completion/prec.ml" 88 2768 2782
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 74 2341 2360 "completion/prec.ml" 74 2341 2361
+)
+"completion/prec.ml" 88 2768 2782 "completion/prec.ml" 88 2768 2783
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 88 2768 2783 "completion/prec.ml" 88 2768 2784
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 70 2251 2267 "completion/prec.ml" 70 2251 2268
+)
+"completion/prec.ml" 88 2768 2781 "completion/prec.ml" 88 2768 2784
+type(
+  bool
+)
+"completion/prec.ml" 88 2768 2790 "completion/prec.ml" 88 2768 2797
+type(
+  Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  int_ref add_sym "completion/prec.ml" 64 2103 2107 "completion/prec.ml" 64 2103 2114
+)
+"completion/prec.ml" 88 2768 2799 "completion/prec.ml" 88 2768 2800
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 74 2341 2357 "completion/prec.ml" 74 2341 2358
+)
+"completion/prec.ml" 88 2768 2802 "completion/prec.ml" 88 2768 2803
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 70 2251 2269 "completion/prec.ml" 70 2251 2270
+)
+"completion/prec.ml" 88 2768 2798 "completion/prec.ml" 88 2768 2804
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 88 2768 2805 "completion/prec.ml" 88 2768 2806
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 84 2649 2663 "completion/prec.ml" 84 2649 2664
+)
+"completion/prec.ml" 88 2768 2790 "completion/prec.ml" 88 2768 2806
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 89 2807 2822 "completion/prec.ml" 89 2807 2832
+type(
+  bool -> Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  int_ref add_sym_if "completion/prec.ml" 68 2186 2190 "completion/prec.ml" 68 2186 2200
+)
+"completion/prec.ml" 89 2807 2834 "completion/prec.ml" 89 2807 2835
+type(
+  Symb.symbol
+)
+ident(
+  int_ref y "completion/prec.ml" 74 2341 2360 "completion/prec.ml" 74 2341 2361
+)
+"completion/prec.ml" 89 2807 2836 "completion/prec.ml" 89 2807 2837
+type(
+  Symb.symbol -> Symb.symbol -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/prec.ml" 89 2807 2838 "completion/prec.ml" 89 2807 2839
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 70 2251 2269 "completion/prec.ml" 70 2251 2270
+)
+"completion/prec.ml" 89 2807 2833 "completion/prec.ml" 89 2807 2840
+type(
+  bool
+)
+"completion/prec.ml" 89 2807 2842 "completion/prec.ml" 89 2807 2843
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 70 2251 2267 "completion/prec.ml" 70 2251 2268
+)
+"completion/prec.ml" 89 2807 2845 "completion/prec.ml" 89 2807 2846
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "completion/prec.ml" 74 2341 2357 "completion/prec.ml" 74 2341 2358
+)
+"completion/prec.ml" 89 2807 2841 "completion/prec.ml" 89 2807 2847
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 89 2807 2848 "completion/prec.ml" 89 2807 2849
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref m "completion/prec.ml" 84 2649 2663 "completion/prec.ml" 84 2649 2664
+)
+"completion/prec.ml" 89 2807 2822 "completion/prec.ml" 89 2807 2849
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 88 2768 2778 "completion/prec.ml" 89 2807 2849
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 84 2649 2659 "completion/prec.ml" 89 2807 2849
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 90 2850 2859 "completion/prec.ml" 90 2850 2866
+type(
+  Order.ord
+)
+"completion/prec.ml" 91 2867 2876 "completion/prec.ml" 91 2867 2888
+type(
+  Order.ord
+)
+"completion/prec.ml" 90 2850 2859 "completion/prec.ml" 91 2867 2888
+type(
+  Order.ord
+)
+"completion/prec.ml" 91 2867 2899 "completion/prec.ml" 91 2867 2904
+type(
+  bool
+)
+"completion/prec.ml" 91 2867 2892 "completion/prec.ml" 91 2867 2904
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 75 2369 2377 "completion/prec.ml" 91 2867 2904
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 92 2905 2914 "completion/prec.ml" 92 2905 2923
+type(
+  (Prec.key -> Order.ord -> Order.ord Prec.t -> Order.ord Prec.t) ->
+  Order.ord Prec.t -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  ext_ref Prec.fold
+)
+"completion/prec.ml" 92 2905 2924 "completion/prec.ml" 92 2905 2928
+type(
+  Prec.key -> Order.ord -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  int_ref func "completion/prec.ml" 74 2341 2351 "completion/prec.ml" 74 2341 2355
+)
+"completion/prec.ml" 92 2905 2929 "completion/prec.ml" 92 2905 2933
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref prec "completion/prec.ml" 70 2251 2262 "completion/prec.ml" 70 2251 2266
+)
+"completion/prec.ml" 92 2905 2935 "completion/prec.ml" 92 2905 2942
+type(
+  Symb.symbol * Symb.symbol -> Order.ord Prec.t -> Order.ord Prec.t
+)
+ident(
+  int_ref add_sym "completion/prec.ml" 64 2103 2107 "completion/prec.ml" 64 2103 2114
+)
+"completion/prec.ml" 92 2905 2944 "completion/prec.ml" 92 2905 2945
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 70 2251 2267 "completion/prec.ml" 70 2251 2268
+)
+"completion/prec.ml" 92 2905 2947 "completion/prec.ml" 92 2905 2948
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 70 2251 2269 "completion/prec.ml" 70 2251 2270
+)
+"completion/prec.ml" 92 2905 2943 "completion/prec.ml" 92 2905 2949
+type(
+  Symb.symbol * Symb.symbol
+)
+"completion/prec.ml" 92 2905 2950 "completion/prec.ml" 92 2905 2954
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref prec "completion/prec.ml" 70 2251 2262 "completion/prec.ml" 70 2251 2266
+)
+"completion/prec.ml" 92 2905 2934 "completion/prec.ml" 92 2905 2955
+call(
+  stack
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 92 2905 2914 "completion/prec.ml" 92 2905 2955
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 74 2341 2347 "completion/prec.ml" 92 2905 2955
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 93 2956 2960 "completion/prec.ml" 93 2956 2967
+type(
+  Order.ord
+)
+"completion/prec.ml" 94 2968 2972 "completion/prec.ml" 94 2968 2979
+type(
+  Order.ord
+)
+"completion/prec.ml" 93 2956 2960 "completion/prec.ml" 94 2968 2979
+type(
+  Order.ord
+)
+"completion/prec.ml" 94 2968 2983 "completion/prec.ml" 94 2968 2991
+type(
+  string -> Order.ord Prec.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"completion/prec.ml" 94 2968 2992 "completion/prec.ml" 94 2968 3000
+type(
+  string
+)
+"completion/prec.ml" 94 2968 2983 "completion/prec.ml" 94 2968 3000
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 71 2273 2275 "completion/prec.ml" 94 2968 3000
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 97 3005 3009 "completion/prec.ml" 97 3005 3015
+type(
+  Order.ord Prec.t -> Symb.symbol -> Symb.symbol -> Order.ord Prec.t
+)
+ident(
+  def add_gt "completion/prec.ml" 101 3085 3085 "completion/prec.ml" 1 0 -1
+)
+"completion/prec.ml" 97 3005 3016 "completion/prec.ml" 97 3005 3020
+type(
+  Order.ord Prec.t
+)
+ident(
+  def prec "completion/prec.ml" 97 3005 3021 "completion/prec.ml" 97 3005 3042
+)
+"completion/prec.ml" 97 3005 3021 "completion/prec.ml" 97 3005 3022
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/prec.ml" 97 3005 3023 "completion/prec.ml" 97 3005 3042
+)
+"completion/prec.ml" 97 3005 3023 "completion/prec.ml" 97 3005 3024
+type(
+  Symb.symbol
+)
+ident(
+  def g "completion/prec.ml" 97 3005 3027 "completion/prec.ml" 97 3005 3042
+)
+"completion/prec.ml" 97 3005 3027 "completion/prec.ml" 97 3005 3033
+type(
+  Order.ord Prec.t -> Symb.symbol -> Symb.symbol -> Order.ord Prec.t
+)
+ident(
+  int_ref add_lt "completion/prec.ml" 42 1503 1507 "completion/prec.ml" 42 1503 1513
+)
+"completion/prec.ml" 97 3005 3034 "completion/prec.ml" 97 3005 3038
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref prec "completion/prec.ml" 97 3005 3016 "completion/prec.ml" 97 3005 3020
+)
+"completion/prec.ml" 97 3005 3039 "completion/prec.ml" 97 3005 3040
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 97 3005 3023 "completion/prec.ml" 97 3005 3024
+)
+"completion/prec.ml" 97 3005 3041 "completion/prec.ml" 97 3005 3042
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 97 3005 3021 "completion/prec.ml" 97 3005 3022
+)
+"completion/prec.ml" 97 3005 3027 "completion/prec.ml" 97 3005 3042
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 101 3085 3093 "completion/prec.ml" 101 3085 3105
+type(
+  Symb.symbol list -> Order.ord Prec.t
+)
+ident(
+  def prec_of_list "completion/prec.ml" 101 3085 3085 "completion/prec.ml" 1 0 -1
+)
+"completion/prec.ml" 102 3117 3121 "completion/prec.ml" 102 3117 3122
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/prec.ml" 102 3117 3146 "completion/prec.ml" 102 3117 3174
+)
+"completion/prec.ml" 102 3117 3128 "completion/prec.ml" 102 3117 3129
+type(
+  Symb.symbol
+)
+ident(
+  def g "completion/prec.ml" 102 3117 3146 "completion/prec.ml" 102 3117 3174
+)
+"completion/prec.ml" 102 3117 3133 "completion/prec.ml" 102 3117 3134
+type(
+  Symb.symbol list
+)
+"completion/prec.ml" 102 3117 3127 "completion/prec.ml" 102 3117 3135
+type(
+  Symb.symbol list
+)
+"completion/prec.ml" 102 3117 3139 "completion/prec.ml" 102 3117 3141
+ident(
+  def fs "completion/prec.ml" 102 3117 3146 "completion/prec.ml" 102 3117 3174
+)
+"completion/prec.ml" 102 3117 3126 "completion/prec.ml" 102 3117 3142
+type(
+  Symb.symbol list
+)
+"completion/prec.ml" 102 3117 3121 "completion/prec.ml" 102 3117 3142
+type(
+  Symb.symbol list
+)
+"completion/prec.ml" 102 3117 3146 "completion/prec.ml" 102 3117 3152
+type(
+  Order.ord Prec.t -> Symb.symbol -> Symb.symbol -> Order.ord Prec.t
+)
+ident(
+  int_ref add_lt "completion/prec.ml" 42 1503 1507 "completion/prec.ml" 42 1503 1513
+)
+"completion/prec.ml" 102 3117 3154 "completion/prec.ml" 102 3117 3166
+type(
+  Symb.symbol list -> Order.ord Prec.t
+)
+ident(
+  int_ref prec_of_list "completion/prec.ml" 101 3085 3093 "completion/prec.ml" 101 3085 3105
+)
+"completion/prec.ml" 102 3117 3167 "completion/prec.ml" 102 3117 3169
+type(
+  Symb.symbol list
+)
+ident(
+  int_ref fs "completion/prec.ml" 102 3117 3126 "completion/prec.ml" 102 3117 3142
+)
+"completion/prec.ml" 102 3117 3153 "completion/prec.ml" 102 3117 3170
+call(
+  stack
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 102 3117 3171 "completion/prec.ml" 102 3117 3172
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/prec.ml" 102 3117 3121 "completion/prec.ml" 102 3117 3122
+)
+"completion/prec.ml" 102 3117 3173 "completion/prec.ml" 102 3117 3174
+type(
+  Symb.symbol
+)
+ident(
+  int_ref g "completion/prec.ml" 102 3117 3128 "completion/prec.ml" 102 3117 3129
+)
+"completion/prec.ml" 102 3117 3146 "completion/prec.ml" 102 3117 3174
+call(
+  tail
+)
+type(
+  Order.ord Prec.t
+)
+"completion/prec.ml" 103 3175 3179 "completion/prec.ml" 103 3175 3180
+type(
+  Symb.symbol list
+)
+"completion/prec.ml" 103 3175 3184 "completion/prec.ml" 103 3175 3189
+type(
+  Order.ord Prec.t
+)
+ident(
+  int_ref empty "completion/prec.ml" 38 1404 1408 "completion/prec.ml" 38 1404 1413
+)
+"completion/prec.ml" 101 3085 3108 "completion/prec.ml" 103 3175 3189
+type(
+  Symb.symbol list -> Order.ord Prec.t
+)

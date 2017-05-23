@@ -1,0 +1,3364 @@
+"ocaml_src/utils/tbl.ml" 19 952 956 "ocaml_src/utils/tbl.ml" 19 952 961
+type(
+  ('a, 'b) t
+)
+ident(
+  def empty "ocaml_src/utils/tbl.ml" 21 971 971 "ocaml_src/utils/tbl.ml" 1 0 -1
+)
+"ocaml_src/utils/tbl.ml" 19 952 964 "ocaml_src/utils/tbl.ml" 19 952 969
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 21 971 975 "ocaml_src/utils/tbl.ml" 21 971 981
+type(
+  ('a, 'b) t -> int
+)
+ident(
+  def height "ocaml_src/utils/tbl.ml" 25 1038 1038 "ocaml_src/utils/tbl.ml" 1 0 -1
+)
+"ocaml_src/utils/tbl.ml" 22 993 997 "ocaml_src/utils/tbl.ml" 22 993 1002
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 22 993 1006 "ocaml_src/utils/tbl.ml" 22 993 1007
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 23 1008 1017 "ocaml_src/utils/tbl.ml" 23 1008 1018
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 23 1008 1020 "ocaml_src/utils/tbl.ml" 23 1008 1021
+type(
+  'a
+)
+"ocaml_src/utils/tbl.ml" 23 1008 1023 "ocaml_src/utils/tbl.ml" 23 1008 1024
+type(
+  'b
+)
+"ocaml_src/utils/tbl.ml" 23 1008 1026 "ocaml_src/utils/tbl.ml" 23 1008 1027
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 23 1008 1029 "ocaml_src/utils/tbl.ml" 23 1008 1030
+type(
+  int
+)
+ident(
+  def h "ocaml_src/utils/tbl.ml" 23 1008 1035 "ocaml_src/utils/tbl.ml" 23 1008 1036
+)
+"ocaml_src/utils/tbl.ml" 23 1008 1012 "ocaml_src/utils/tbl.ml" 23 1008 1031
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 23 1008 1035 "ocaml_src/utils/tbl.ml" 23 1008 1036
+type(
+  int
+)
+ident(
+  int_ref h "ocaml_src/utils/tbl.ml" 23 1008 1029 "ocaml_src/utils/tbl.ml" 23 1008 1030
+)
+"ocaml_src/utils/tbl.ml" 21 971 984 "ocaml_src/utils/tbl.ml" 23 1008 1036
+type(
+  ('a, 'b) t -> int
+)
+"ocaml_src/utils/tbl.ml" 25 1038 1042 "ocaml_src/utils/tbl.ml" 25 1038 1048
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  def create "ocaml_src/utils/tbl.ml" 29 1159 1159 "ocaml_src/utils/tbl.ml" 1 0 -1
+)
+"ocaml_src/utils/tbl.ml" 25 1038 1049 "ocaml_src/utils/tbl.ml" 25 1038 1050
+type(
+  ('a, 'b) t
+)
+ident(
+  def l "ocaml_src/utils/tbl.ml" 25 1038 1051 "ocaml_src/utils/tbl.ml" 27 1100 1157
+)
+"ocaml_src/utils/tbl.ml" 25 1038 1051 "ocaml_src/utils/tbl.ml" 25 1038 1052
+type(
+  'a
+)
+ident(
+  def x "ocaml_src/utils/tbl.ml" 25 1038 1053 "ocaml_src/utils/tbl.ml" 27 1100 1157
+)
+"ocaml_src/utils/tbl.ml" 25 1038 1053 "ocaml_src/utils/tbl.ml" 25 1038 1054
+type(
+  'b
+)
+ident(
+  def d "ocaml_src/utils/tbl.ml" 25 1038 1055 "ocaml_src/utils/tbl.ml" 27 1100 1157
+)
+"ocaml_src/utils/tbl.ml" 25 1038 1055 "ocaml_src/utils/tbl.ml" 25 1038 1056
+type(
+  ('a, 'b) t
+)
+ident(
+  def r "ocaml_src/utils/tbl.ml" 26 1059 1061 "ocaml_src/utils/tbl.ml" 27 1100 1157
+)
+"ocaml_src/utils/tbl.ml" 26 1059 1065 "ocaml_src/utils/tbl.ml" 26 1059 1067
+type(
+  int
+)
+ident(
+  def hl "ocaml_src/utils/tbl.ml" 27 1100 1102 "ocaml_src/utils/tbl.ml" 27 1100 1157
+)
+"ocaml_src/utils/tbl.ml" 26 1059 1070 "ocaml_src/utils/tbl.ml" 26 1059 1076
+type(
+  ('a, 'b) t -> int
+)
+ident(
+  int_ref height "ocaml_src/utils/tbl.ml" 21 971 975 "ocaml_src/utils/tbl.ml" 21 971 981
+)
+"ocaml_src/utils/tbl.ml" 26 1059 1077 "ocaml_src/utils/tbl.ml" 26 1059 1078
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 25 1038 1049 "ocaml_src/utils/tbl.ml" 25 1038 1050
+)
+"ocaml_src/utils/tbl.ml" 26 1059 1070 "ocaml_src/utils/tbl.ml" 26 1059 1078
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 26 1059 1083 "ocaml_src/utils/tbl.ml" 26 1059 1085
+type(
+  int
+)
+ident(
+  def hr "ocaml_src/utils/tbl.ml" 27 1100 1102 "ocaml_src/utils/tbl.ml" 27 1100 1157
+)
+"ocaml_src/utils/tbl.ml" 26 1059 1088 "ocaml_src/utils/tbl.ml" 26 1059 1094
+type(
+  ('a, 'b) t -> int
+)
+ident(
+  int_ref height "ocaml_src/utils/tbl.ml" 21 971 975 "ocaml_src/utils/tbl.ml" 21 971 981
+)
+"ocaml_src/utils/tbl.ml" 26 1059 1095 "ocaml_src/utils/tbl.ml" 26 1059 1096
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 25 1038 1055 "ocaml_src/utils/tbl.ml" 25 1038 1056
+)
+"ocaml_src/utils/tbl.ml" 26 1059 1088 "ocaml_src/utils/tbl.ml" 26 1059 1096
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1107 "ocaml_src/utils/tbl.ml" 27 1100 1108
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 25 1038 1049 "ocaml_src/utils/tbl.ml" 25 1038 1050
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1110 "ocaml_src/utils/tbl.ml" 27 1100 1111
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 25 1038 1051 "ocaml_src/utils/tbl.ml" 25 1038 1052
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1113 "ocaml_src/utils/tbl.ml" 27 1100 1114
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 25 1038 1053 "ocaml_src/utils/tbl.ml" 25 1038 1054
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1116 "ocaml_src/utils/tbl.ml" 27 1100 1117
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 25 1038 1055 "ocaml_src/utils/tbl.ml" 25 1038 1056
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1123 "ocaml_src/utils/tbl.ml" 27 1100 1125
+type(
+  int
+)
+ident(
+  int_ref hl "ocaml_src/utils/tbl.ml" 26 1059 1065 "ocaml_src/utils/tbl.ml" 26 1059 1067
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1126 "ocaml_src/utils/tbl.ml" 27 1100 1128
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1129 "ocaml_src/utils/tbl.ml" 27 1100 1131
+type(
+  int
+)
+ident(
+  int_ref hr "ocaml_src/utils/tbl.ml" 26 1059 1083 "ocaml_src/utils/tbl.ml" 26 1059 1085
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1123 "ocaml_src/utils/tbl.ml" 27 1100 1131
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1137 "ocaml_src/utils/tbl.ml" 27 1100 1139
+type(
+  int
+)
+ident(
+  int_ref hl "ocaml_src/utils/tbl.ml" 26 1059 1065 "ocaml_src/utils/tbl.ml" 26 1059 1067
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1140 "ocaml_src/utils/tbl.ml" 27 1100 1141
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1142 "ocaml_src/utils/tbl.ml" 27 1100 1143
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1137 "ocaml_src/utils/tbl.ml" 27 1100 1143
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1149 "ocaml_src/utils/tbl.ml" 27 1100 1151
+type(
+  int
+)
+ident(
+  int_ref hr "ocaml_src/utils/tbl.ml" 26 1059 1083 "ocaml_src/utils/tbl.ml" 26 1059 1085
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1152 "ocaml_src/utils/tbl.ml" 27 1100 1153
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1154 "ocaml_src/utils/tbl.ml" 27 1100 1155
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1149 "ocaml_src/utils/tbl.ml" 27 1100 1155
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1119 "ocaml_src/utils/tbl.ml" 27 1100 1156
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 27 1100 1102 "ocaml_src/utils/tbl.ml" 27 1100 1157
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 26 1059 1061 "ocaml_src/utils/tbl.ml" 27 1100 1157
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 29 1159 1163 "ocaml_src/utils/tbl.ml" 29 1159 1166
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  def bal "ocaml_src/utils/tbl.ml" 48 1893 1893 "ocaml_src/utils/tbl.ml" 1 0 -1
+)
+"ocaml_src/utils/tbl.ml" 29 1159 1167 "ocaml_src/utils/tbl.ml" 29 1159 1168
+type(
+  ('a, 'b) t
+)
+ident(
+  def l "ocaml_src/utils/tbl.ml" 29 1159 1169 "ocaml_src/utils/tbl.ml" 46 1873 1891
+)
+"ocaml_src/utils/tbl.ml" 29 1159 1169 "ocaml_src/utils/tbl.ml" 29 1159 1170
+type(
+  'a
+)
+ident(
+  def x "ocaml_src/utils/tbl.ml" 29 1159 1171 "ocaml_src/utils/tbl.ml" 46 1873 1891
+)
+"ocaml_src/utils/tbl.ml" 29 1159 1171 "ocaml_src/utils/tbl.ml" 29 1159 1172
+type(
+  'b
+)
+ident(
+  def d "ocaml_src/utils/tbl.ml" 29 1159 1173 "ocaml_src/utils/tbl.ml" 46 1873 1891
+)
+"ocaml_src/utils/tbl.ml" 29 1159 1173 "ocaml_src/utils/tbl.ml" 29 1159 1174
+type(
+  ('a, 'b) t
+)
+ident(
+  def r "ocaml_src/utils/tbl.ml" 30 1177 1179 "ocaml_src/utils/tbl.ml" 46 1873 1891
+)
+"ocaml_src/utils/tbl.ml" 30 1177 1183 "ocaml_src/utils/tbl.ml" 30 1177 1185
+type(
+  int
+)
+ident(
+  def hl "ocaml_src/utils/tbl.ml" 31 1218 1220 "ocaml_src/utils/tbl.ml" 46 1873 1891
+)
+"ocaml_src/utils/tbl.ml" 30 1177 1188 "ocaml_src/utils/tbl.ml" 30 1177 1194
+type(
+  ('a, 'b) t -> int
+)
+ident(
+  int_ref height "ocaml_src/utils/tbl.ml" 21 971 975 "ocaml_src/utils/tbl.ml" 21 971 981
+)
+"ocaml_src/utils/tbl.ml" 30 1177 1195 "ocaml_src/utils/tbl.ml" 30 1177 1196
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 29 1159 1167 "ocaml_src/utils/tbl.ml" 29 1159 1168
+)
+"ocaml_src/utils/tbl.ml" 30 1177 1188 "ocaml_src/utils/tbl.ml" 30 1177 1196
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 30 1177 1201 "ocaml_src/utils/tbl.ml" 30 1177 1203
+type(
+  int
+)
+ident(
+  def hr "ocaml_src/utils/tbl.ml" 31 1218 1220 "ocaml_src/utils/tbl.ml" 46 1873 1891
+)
+"ocaml_src/utils/tbl.ml" 30 1177 1206 "ocaml_src/utils/tbl.ml" 30 1177 1212
+type(
+  ('a, 'b) t -> int
+)
+ident(
+  int_ref height "ocaml_src/utils/tbl.ml" 21 971 975 "ocaml_src/utils/tbl.ml" 21 971 981
+)
+"ocaml_src/utils/tbl.ml" 30 1177 1213 "ocaml_src/utils/tbl.ml" 30 1177 1214
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 29 1159 1173 "ocaml_src/utils/tbl.ml" 29 1159 1174
+)
+"ocaml_src/utils/tbl.ml" 30 1177 1206 "ocaml_src/utils/tbl.ml" 30 1177 1214
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 31 1218 1223 "ocaml_src/utils/tbl.ml" 31 1218 1225
+type(
+  int
+)
+ident(
+  int_ref hl "ocaml_src/utils/tbl.ml" 30 1177 1183 "ocaml_src/utils/tbl.ml" 30 1177 1185
+)
+"ocaml_src/utils/tbl.ml" 31 1218 1226 "ocaml_src/utils/tbl.ml" 31 1218 1227
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ocaml_src/utils/tbl.ml" 31 1218 1228 "ocaml_src/utils/tbl.ml" 31 1218 1230
+type(
+  int
+)
+ident(
+  int_ref hr "ocaml_src/utils/tbl.ml" 30 1177 1201 "ocaml_src/utils/tbl.ml" 30 1177 1203
+)
+"ocaml_src/utils/tbl.ml" 31 1218 1231 "ocaml_src/utils/tbl.ml" 31 1218 1232
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/tbl.ml" 31 1218 1233 "ocaml_src/utils/tbl.ml" 31 1218 1234
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 31 1218 1228 "ocaml_src/utils/tbl.ml" 31 1218 1234
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 31 1218 1223 "ocaml_src/utils/tbl.ml" 31 1218 1234
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 32 1240 1250 "ocaml_src/utils/tbl.ml" 32 1240 1251
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 29 1159 1167 "ocaml_src/utils/tbl.ml" 29 1159 1168
+)
+"ocaml_src/utils/tbl.ml" 33 1257 1269 "ocaml_src/utils/tbl.ml" 33 1257 1271
+type(
+  ('a, 'b) t
+)
+ident(
+  def ll "ocaml_src/utils/tbl.ml" 33 1257 1293 "ocaml_src/utils/tbl.ml" 34 1319 1360
+)
+"ocaml_src/utils/tbl.ml" 33 1257 1273 "ocaml_src/utils/tbl.ml" 33 1257 1275
+type(
+  'a
+)
+ident(
+  def lv "ocaml_src/utils/tbl.ml" 33 1257 1293 "ocaml_src/utils/tbl.ml" 34 1319 1360
+)
+"ocaml_src/utils/tbl.ml" 33 1257 1277 "ocaml_src/utils/tbl.ml" 33 1257 1279
+type(
+  'b
+)
+ident(
+  def ld "ocaml_src/utils/tbl.ml" 33 1257 1293 "ocaml_src/utils/tbl.ml" 34 1319 1360
+)
+"ocaml_src/utils/tbl.ml" 33 1257 1281 "ocaml_src/utils/tbl.ml" 33 1257 1283
+type(
+  ('a, 'b) t
+)
+ident(
+  def lr "ocaml_src/utils/tbl.ml" 33 1257 1293 "ocaml_src/utils/tbl.ml" 34 1319 1360
+)
+"ocaml_src/utils/tbl.ml" 33 1257 1285 "ocaml_src/utils/tbl.ml" 33 1257 1286
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 33 1257 1263 "ocaml_src/utils/tbl.ml" 33 1257 1287
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 33 1257 1293 "ocaml_src/utils/tbl.ml" 33 1257 1299
+type(
+  ('a, 'b) t -> int
+)
+ident(
+  int_ref height "ocaml_src/utils/tbl.ml" 21 971 975 "ocaml_src/utils/tbl.ml" 21 971 981
+)
+"ocaml_src/utils/tbl.ml" 33 1257 1300 "ocaml_src/utils/tbl.ml" 33 1257 1302
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref ll "ocaml_src/utils/tbl.ml" 33 1257 1269 "ocaml_src/utils/tbl.ml" 33 1257 1271
+)
+"ocaml_src/utils/tbl.ml" 33 1257 1293 "ocaml_src/utils/tbl.ml" 33 1257 1302
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 33 1257 1303 "ocaml_src/utils/tbl.ml" 33 1257 1305
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/utils/tbl.ml" 33 1257 1306 "ocaml_src/utils/tbl.ml" 33 1257 1312
+type(
+  ('a, 'b) t -> int
+)
+ident(
+  int_ref height "ocaml_src/utils/tbl.ml" 21 971 975 "ocaml_src/utils/tbl.ml" 21 971 981
+)
+"ocaml_src/utils/tbl.ml" 33 1257 1313 "ocaml_src/utils/tbl.ml" 33 1257 1315
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref lr "ocaml_src/utils/tbl.ml" 33 1257 1281 "ocaml_src/utils/tbl.ml" 33 1257 1283
+)
+"ocaml_src/utils/tbl.ml" 33 1257 1306 "ocaml_src/utils/tbl.ml" 33 1257 1315
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 33 1257 1293 "ocaml_src/utils/tbl.ml" 33 1257 1315
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 34 1319 1327 "ocaml_src/utils/tbl.ml" 34 1319 1333
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref create "ocaml_src/utils/tbl.ml" 25 1038 1042 "ocaml_src/utils/tbl.ml" 25 1038 1048
+)
+"ocaml_src/utils/tbl.ml" 34 1319 1334 "ocaml_src/utils/tbl.ml" 34 1319 1336
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref ll "ocaml_src/utils/tbl.ml" 33 1257 1269 "ocaml_src/utils/tbl.ml" 33 1257 1271
+)
+"ocaml_src/utils/tbl.ml" 34 1319 1337 "ocaml_src/utils/tbl.ml" 34 1319 1339
+type(
+  'a
+)
+ident(
+  int_ref lv "ocaml_src/utils/tbl.ml" 33 1257 1273 "ocaml_src/utils/tbl.ml" 33 1257 1275
+)
+"ocaml_src/utils/tbl.ml" 34 1319 1340 "ocaml_src/utils/tbl.ml" 34 1319 1342
+type(
+  'b
+)
+ident(
+  int_ref ld "ocaml_src/utils/tbl.ml" 33 1257 1277 "ocaml_src/utils/tbl.ml" 33 1257 1279
+)
+"ocaml_src/utils/tbl.ml" 34 1319 1344 "ocaml_src/utils/tbl.ml" 34 1319 1350
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref create "ocaml_src/utils/tbl.ml" 25 1038 1042 "ocaml_src/utils/tbl.ml" 25 1038 1048
+)
+"ocaml_src/utils/tbl.ml" 34 1319 1351 "ocaml_src/utils/tbl.ml" 34 1319 1353
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref lr "ocaml_src/utils/tbl.ml" 33 1257 1281 "ocaml_src/utils/tbl.ml" 33 1257 1283
+)
+"ocaml_src/utils/tbl.ml" 34 1319 1354 "ocaml_src/utils/tbl.ml" 34 1319 1355
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 29 1159 1169 "ocaml_src/utils/tbl.ml" 29 1159 1170
+)
+"ocaml_src/utils/tbl.ml" 34 1319 1356 "ocaml_src/utils/tbl.ml" 34 1319 1357
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 29 1159 1171 "ocaml_src/utils/tbl.ml" 29 1159 1172
+)
+"ocaml_src/utils/tbl.ml" 34 1319 1358 "ocaml_src/utils/tbl.ml" 34 1319 1359
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 29 1159 1173 "ocaml_src/utils/tbl.ml" 29 1159 1174
+)
+"ocaml_src/utils/tbl.ml" 34 1319 1343 "ocaml_src/utils/tbl.ml" 34 1319 1360
+call(
+  stack
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 34 1319 1327 "ocaml_src/utils/tbl.ml" 34 1319 1360
+call(
+  tail
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 35 1361 1373 "ocaml_src/utils/tbl.ml" 35 1361 1375
+type(
+  ('a, 'b) t
+)
+ident(
+  def ll "ocaml_src/utils/tbl.ml" 36 1421 1429 "ocaml_src/utils/tbl.ml" 36 1421 1484
+)
+"ocaml_src/utils/tbl.ml" 35 1361 1377 "ocaml_src/utils/tbl.ml" 35 1361 1379
+type(
+  'a
+)
+ident(
+  def lv "ocaml_src/utils/tbl.ml" 36 1421 1429 "ocaml_src/utils/tbl.ml" 36 1421 1484
+)
+"ocaml_src/utils/tbl.ml" 35 1361 1381 "ocaml_src/utils/tbl.ml" 35 1361 1383
+type(
+  'b
+)
+ident(
+  def ld "ocaml_src/utils/tbl.ml" 36 1421 1429 "ocaml_src/utils/tbl.ml" 36 1421 1484
+)
+"ocaml_src/utils/tbl.ml" 35 1361 1391 "ocaml_src/utils/tbl.ml" 35 1361 1394
+type(
+  ('a, 'b) t
+)
+ident(
+  def lrl "ocaml_src/utils/tbl.ml" 36 1421 1429 "ocaml_src/utils/tbl.ml" 36 1421 1484
+)
+"ocaml_src/utils/tbl.ml" 35 1361 1396 "ocaml_src/utils/tbl.ml" 35 1361 1399
+type(
+  'a
+)
+ident(
+  def lrv "ocaml_src/utils/tbl.ml" 36 1421 1429 "ocaml_src/utils/tbl.ml" 36 1421 1484
+)
+"ocaml_src/utils/tbl.ml" 35 1361 1401 "ocaml_src/utils/tbl.ml" 35 1361 1404
+type(
+  'b
+)
+ident(
+  def lrd "ocaml_src/utils/tbl.ml" 36 1421 1429 "ocaml_src/utils/tbl.ml" 36 1421 1484
+)
+"ocaml_src/utils/tbl.ml" 35 1361 1406 "ocaml_src/utils/tbl.ml" 35 1361 1409
+type(
+  ('a, 'b) t
+)
+ident(
+  def lrr "ocaml_src/utils/tbl.ml" 36 1421 1429 "ocaml_src/utils/tbl.ml" 36 1421 1484
+)
+"ocaml_src/utils/tbl.ml" 35 1361 1411 "ocaml_src/utils/tbl.ml" 35 1361 1412
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 35 1361 1385 "ocaml_src/utils/tbl.ml" 35 1361 1413
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 35 1361 1415 "ocaml_src/utils/tbl.ml" 35 1361 1416
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 35 1361 1367 "ocaml_src/utils/tbl.ml" 35 1361 1417
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1429 "ocaml_src/utils/tbl.ml" 36 1421 1435
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref create "ocaml_src/utils/tbl.ml" 25 1038 1042 "ocaml_src/utils/tbl.ml" 25 1038 1048
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1437 "ocaml_src/utils/tbl.ml" 36 1421 1443
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref create "ocaml_src/utils/tbl.ml" 25 1038 1042 "ocaml_src/utils/tbl.ml" 25 1038 1048
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1444 "ocaml_src/utils/tbl.ml" 36 1421 1446
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref ll "ocaml_src/utils/tbl.ml" 35 1361 1373 "ocaml_src/utils/tbl.ml" 35 1361 1375
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1447 "ocaml_src/utils/tbl.ml" 36 1421 1449
+type(
+  'a
+)
+ident(
+  int_ref lv "ocaml_src/utils/tbl.ml" 35 1361 1377 "ocaml_src/utils/tbl.ml" 35 1361 1379
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1450 "ocaml_src/utils/tbl.ml" 36 1421 1452
+type(
+  'b
+)
+ident(
+  int_ref ld "ocaml_src/utils/tbl.ml" 35 1361 1381 "ocaml_src/utils/tbl.ml" 35 1361 1383
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1453 "ocaml_src/utils/tbl.ml" 36 1421 1456
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref lrl "ocaml_src/utils/tbl.ml" 35 1361 1391 "ocaml_src/utils/tbl.ml" 35 1361 1394
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1436 "ocaml_src/utils/tbl.ml" 36 1421 1457
+call(
+  stack
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1458 "ocaml_src/utils/tbl.ml" 36 1421 1461
+type(
+  'a
+)
+ident(
+  int_ref lrv "ocaml_src/utils/tbl.ml" 35 1361 1396 "ocaml_src/utils/tbl.ml" 35 1361 1399
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1462 "ocaml_src/utils/tbl.ml" 36 1421 1465
+type(
+  'b
+)
+ident(
+  int_ref lrd "ocaml_src/utils/tbl.ml" 35 1361 1401 "ocaml_src/utils/tbl.ml" 35 1361 1404
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1467 "ocaml_src/utils/tbl.ml" 36 1421 1473
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref create "ocaml_src/utils/tbl.ml" 25 1038 1042 "ocaml_src/utils/tbl.ml" 25 1038 1048
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1474 "ocaml_src/utils/tbl.ml" 36 1421 1477
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref lrr "ocaml_src/utils/tbl.ml" 35 1361 1406 "ocaml_src/utils/tbl.ml" 35 1361 1409
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1478 "ocaml_src/utils/tbl.ml" 36 1421 1479
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 29 1159 1169 "ocaml_src/utils/tbl.ml" 29 1159 1170
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1480 "ocaml_src/utils/tbl.ml" 36 1421 1481
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 29 1159 1171 "ocaml_src/utils/tbl.ml" 29 1159 1172
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1482 "ocaml_src/utils/tbl.ml" 36 1421 1483
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 29 1159 1173 "ocaml_src/utils/tbl.ml" 29 1159 1174
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1466 "ocaml_src/utils/tbl.ml" 36 1421 1484
+call(
+  stack
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 36 1421 1429 "ocaml_src/utils/tbl.ml" 36 1421 1484
+call(
+  tail
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 37 1485 1497 "ocaml_src/utils/tbl.ml" 37 1485 1498
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 37 1485 1500 "ocaml_src/utils/tbl.ml" 37 1485 1501
+type(
+  'a
+)
+"ocaml_src/utils/tbl.ml" 37 1485 1503 "ocaml_src/utils/tbl.ml" 37 1485 1504
+type(
+  'b
+)
+"ocaml_src/utils/tbl.ml" 37 1485 1506 "ocaml_src/utils/tbl.ml" 37 1485 1511
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 37 1485 1512 "ocaml_src/utils/tbl.ml" 37 1485 1513
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 37 1485 1491 "ocaml_src/utils/tbl.ml" 37 1485 1514
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 37 1485 1517 "ocaml_src/utils/tbl.ml" 37 1485 1522
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 37 1485 1491 "ocaml_src/utils/tbl.ml" 37 1485 1522
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 37 1485 1533 "ocaml_src/utils/tbl.ml" 37 1485 1538
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 37 1485 1526 "ocaml_src/utils/tbl.ml" 37 1485 1538
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 32 1240 1244 "ocaml_src/utils/tbl.ml" 37 1485 1538
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 38 1539 1549 "ocaml_src/utils/tbl.ml" 38 1539 1551
+type(
+  int
+)
+ident(
+  int_ref hr "ocaml_src/utils/tbl.ml" 30 1177 1201 "ocaml_src/utils/tbl.ml" 30 1177 1203
+)
+"ocaml_src/utils/tbl.ml" 38 1539 1552 "ocaml_src/utils/tbl.ml" 38 1539 1553
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ocaml_src/utils/tbl.ml" 38 1539 1554 "ocaml_src/utils/tbl.ml" 38 1539 1556
+type(
+  int
+)
+ident(
+  int_ref hl "ocaml_src/utils/tbl.ml" 30 1177 1183 "ocaml_src/utils/tbl.ml" 30 1177 1185
+)
+"ocaml_src/utils/tbl.ml" 38 1539 1557 "ocaml_src/utils/tbl.ml" 38 1539 1558
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/tbl.ml" 38 1539 1559 "ocaml_src/utils/tbl.ml" 38 1539 1560
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 38 1539 1554 "ocaml_src/utils/tbl.ml" 38 1539 1560
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 38 1539 1549 "ocaml_src/utils/tbl.ml" 38 1539 1560
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 39 1566 1576 "ocaml_src/utils/tbl.ml" 39 1566 1577
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 29 1159 1173 "ocaml_src/utils/tbl.ml" 29 1159 1174
+)
+"ocaml_src/utils/tbl.ml" 40 1583 1595 "ocaml_src/utils/tbl.ml" 40 1583 1597
+type(
+  ('a, 'b) t
+)
+ident(
+  def rl "ocaml_src/utils/tbl.ml" 40 1583 1619 "ocaml_src/utils/tbl.ml" 41 1645 1686
+)
+"ocaml_src/utils/tbl.ml" 40 1583 1599 "ocaml_src/utils/tbl.ml" 40 1583 1601
+type(
+  'a
+)
+ident(
+  def rv "ocaml_src/utils/tbl.ml" 40 1583 1619 "ocaml_src/utils/tbl.ml" 41 1645 1686
+)
+"ocaml_src/utils/tbl.ml" 40 1583 1603 "ocaml_src/utils/tbl.ml" 40 1583 1605
+type(
+  'b
+)
+ident(
+  def rd "ocaml_src/utils/tbl.ml" 40 1583 1619 "ocaml_src/utils/tbl.ml" 41 1645 1686
+)
+"ocaml_src/utils/tbl.ml" 40 1583 1607 "ocaml_src/utils/tbl.ml" 40 1583 1609
+type(
+  ('a, 'b) t
+)
+ident(
+  def rr "ocaml_src/utils/tbl.ml" 40 1583 1619 "ocaml_src/utils/tbl.ml" 41 1645 1686
+)
+"ocaml_src/utils/tbl.ml" 40 1583 1611 "ocaml_src/utils/tbl.ml" 40 1583 1612
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 40 1583 1589 "ocaml_src/utils/tbl.ml" 40 1583 1613
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 40 1583 1619 "ocaml_src/utils/tbl.ml" 40 1583 1625
+type(
+  ('a, 'b) t -> int
+)
+ident(
+  int_ref height "ocaml_src/utils/tbl.ml" 21 971 975 "ocaml_src/utils/tbl.ml" 21 971 981
+)
+"ocaml_src/utils/tbl.ml" 40 1583 1626 "ocaml_src/utils/tbl.ml" 40 1583 1628
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref rr "ocaml_src/utils/tbl.ml" 40 1583 1607 "ocaml_src/utils/tbl.ml" 40 1583 1609
+)
+"ocaml_src/utils/tbl.ml" 40 1583 1619 "ocaml_src/utils/tbl.ml" 40 1583 1628
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 40 1583 1629 "ocaml_src/utils/tbl.ml" 40 1583 1631
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/utils/tbl.ml" 40 1583 1632 "ocaml_src/utils/tbl.ml" 40 1583 1638
+type(
+  ('a, 'b) t -> int
+)
+ident(
+  int_ref height "ocaml_src/utils/tbl.ml" 21 971 975 "ocaml_src/utils/tbl.ml" 21 971 981
+)
+"ocaml_src/utils/tbl.ml" 40 1583 1639 "ocaml_src/utils/tbl.ml" 40 1583 1641
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref rl "ocaml_src/utils/tbl.ml" 40 1583 1595 "ocaml_src/utils/tbl.ml" 40 1583 1597
+)
+"ocaml_src/utils/tbl.ml" 40 1583 1632 "ocaml_src/utils/tbl.ml" 40 1583 1641
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 40 1583 1619 "ocaml_src/utils/tbl.ml" 40 1583 1641
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 41 1645 1653 "ocaml_src/utils/tbl.ml" 41 1645 1659
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref create "ocaml_src/utils/tbl.ml" 25 1038 1042 "ocaml_src/utils/tbl.ml" 25 1038 1048
+)
+"ocaml_src/utils/tbl.ml" 41 1645 1661 "ocaml_src/utils/tbl.ml" 41 1645 1667
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref create "ocaml_src/utils/tbl.ml" 25 1038 1042 "ocaml_src/utils/tbl.ml" 25 1038 1048
+)
+"ocaml_src/utils/tbl.ml" 41 1645 1668 "ocaml_src/utils/tbl.ml" 41 1645 1669
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 29 1159 1167 "ocaml_src/utils/tbl.ml" 29 1159 1168
+)
+"ocaml_src/utils/tbl.ml" 41 1645 1670 "ocaml_src/utils/tbl.ml" 41 1645 1671
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 29 1159 1169 "ocaml_src/utils/tbl.ml" 29 1159 1170
+)
+"ocaml_src/utils/tbl.ml" 41 1645 1672 "ocaml_src/utils/tbl.ml" 41 1645 1673
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 29 1159 1171 "ocaml_src/utils/tbl.ml" 29 1159 1172
+)
+"ocaml_src/utils/tbl.ml" 41 1645 1674 "ocaml_src/utils/tbl.ml" 41 1645 1676
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref rl "ocaml_src/utils/tbl.ml" 40 1583 1595 "ocaml_src/utils/tbl.ml" 40 1583 1597
+)
+"ocaml_src/utils/tbl.ml" 41 1645 1660 "ocaml_src/utils/tbl.ml" 41 1645 1677
+call(
+  stack
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 41 1645 1678 "ocaml_src/utils/tbl.ml" 41 1645 1680
+type(
+  'a
+)
+ident(
+  int_ref rv "ocaml_src/utils/tbl.ml" 40 1583 1599 "ocaml_src/utils/tbl.ml" 40 1583 1601
+)
+"ocaml_src/utils/tbl.ml" 41 1645 1681 "ocaml_src/utils/tbl.ml" 41 1645 1683
+type(
+  'b
+)
+ident(
+  int_ref rd "ocaml_src/utils/tbl.ml" 40 1583 1603 "ocaml_src/utils/tbl.ml" 40 1583 1605
+)
+"ocaml_src/utils/tbl.ml" 41 1645 1684 "ocaml_src/utils/tbl.ml" 41 1645 1686
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref rr "ocaml_src/utils/tbl.ml" 40 1583 1607 "ocaml_src/utils/tbl.ml" 40 1583 1609
+)
+"ocaml_src/utils/tbl.ml" 41 1645 1653 "ocaml_src/utils/tbl.ml" 41 1645 1686
+call(
+  tail
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 42 1687 1705 "ocaml_src/utils/tbl.ml" 42 1687 1708
+type(
+  ('a, 'b) t
+)
+ident(
+  def rll "ocaml_src/utils/tbl.ml" 43 1747 1755 "ocaml_src/utils/tbl.ml" 43 1747 1810
+)
+"ocaml_src/utils/tbl.ml" 42 1687 1710 "ocaml_src/utils/tbl.ml" 42 1687 1713
+type(
+  'a
+)
+ident(
+  def rlv "ocaml_src/utils/tbl.ml" 43 1747 1755 "ocaml_src/utils/tbl.ml" 43 1747 1810
+)
+"ocaml_src/utils/tbl.ml" 42 1687 1715 "ocaml_src/utils/tbl.ml" 42 1687 1718
+type(
+  'b
+)
+ident(
+  def rld "ocaml_src/utils/tbl.ml" 43 1747 1755 "ocaml_src/utils/tbl.ml" 43 1747 1810
+)
+"ocaml_src/utils/tbl.ml" 42 1687 1720 "ocaml_src/utils/tbl.ml" 42 1687 1723
+type(
+  ('a, 'b) t
+)
+ident(
+  def rlr "ocaml_src/utils/tbl.ml" 43 1747 1755 "ocaml_src/utils/tbl.ml" 43 1747 1810
+)
+"ocaml_src/utils/tbl.ml" 42 1687 1725 "ocaml_src/utils/tbl.ml" 42 1687 1726
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 42 1687 1699 "ocaml_src/utils/tbl.ml" 42 1687 1727
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 42 1687 1729 "ocaml_src/utils/tbl.ml" 42 1687 1731
+type(
+  'a
+)
+ident(
+  def rv "ocaml_src/utils/tbl.ml" 43 1747 1755 "ocaml_src/utils/tbl.ml" 43 1747 1810
+)
+"ocaml_src/utils/tbl.ml" 42 1687 1733 "ocaml_src/utils/tbl.ml" 42 1687 1735
+type(
+  'b
+)
+ident(
+  def rd "ocaml_src/utils/tbl.ml" 43 1747 1755 "ocaml_src/utils/tbl.ml" 43 1747 1810
+)
+"ocaml_src/utils/tbl.ml" 42 1687 1737 "ocaml_src/utils/tbl.ml" 42 1687 1739
+type(
+  ('a, 'b) t
+)
+ident(
+  def rr "ocaml_src/utils/tbl.ml" 43 1747 1755 "ocaml_src/utils/tbl.ml" 43 1747 1810
+)
+"ocaml_src/utils/tbl.ml" 42 1687 1741 "ocaml_src/utils/tbl.ml" 42 1687 1742
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 42 1687 1693 "ocaml_src/utils/tbl.ml" 42 1687 1743
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1755 "ocaml_src/utils/tbl.ml" 43 1747 1761
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref create "ocaml_src/utils/tbl.ml" 25 1038 1042 "ocaml_src/utils/tbl.ml" 25 1038 1048
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1763 "ocaml_src/utils/tbl.ml" 43 1747 1769
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref create "ocaml_src/utils/tbl.ml" 25 1038 1042 "ocaml_src/utils/tbl.ml" 25 1038 1048
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1770 "ocaml_src/utils/tbl.ml" 43 1747 1771
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 29 1159 1167 "ocaml_src/utils/tbl.ml" 29 1159 1168
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1772 "ocaml_src/utils/tbl.ml" 43 1747 1773
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 29 1159 1169 "ocaml_src/utils/tbl.ml" 29 1159 1170
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1774 "ocaml_src/utils/tbl.ml" 43 1747 1775
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 29 1159 1171 "ocaml_src/utils/tbl.ml" 29 1159 1172
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1776 "ocaml_src/utils/tbl.ml" 43 1747 1779
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref rll "ocaml_src/utils/tbl.ml" 42 1687 1705 "ocaml_src/utils/tbl.ml" 42 1687 1708
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1762 "ocaml_src/utils/tbl.ml" 43 1747 1780
+call(
+  stack
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1781 "ocaml_src/utils/tbl.ml" 43 1747 1784
+type(
+  'a
+)
+ident(
+  int_ref rlv "ocaml_src/utils/tbl.ml" 42 1687 1710 "ocaml_src/utils/tbl.ml" 42 1687 1713
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1785 "ocaml_src/utils/tbl.ml" 43 1747 1788
+type(
+  'b
+)
+ident(
+  int_ref rld "ocaml_src/utils/tbl.ml" 42 1687 1715 "ocaml_src/utils/tbl.ml" 42 1687 1718
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1790 "ocaml_src/utils/tbl.ml" 43 1747 1796
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref create "ocaml_src/utils/tbl.ml" 25 1038 1042 "ocaml_src/utils/tbl.ml" 25 1038 1048
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1797 "ocaml_src/utils/tbl.ml" 43 1747 1800
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref rlr "ocaml_src/utils/tbl.ml" 42 1687 1720 "ocaml_src/utils/tbl.ml" 42 1687 1723
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1801 "ocaml_src/utils/tbl.ml" 43 1747 1803
+type(
+  'a
+)
+ident(
+  int_ref rv "ocaml_src/utils/tbl.ml" 42 1687 1729 "ocaml_src/utils/tbl.ml" 42 1687 1731
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1804 "ocaml_src/utils/tbl.ml" 43 1747 1806
+type(
+  'b
+)
+ident(
+  int_ref rd "ocaml_src/utils/tbl.ml" 42 1687 1733 "ocaml_src/utils/tbl.ml" 42 1687 1735
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1807 "ocaml_src/utils/tbl.ml" 43 1747 1809
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref rr "ocaml_src/utils/tbl.ml" 42 1687 1737 "ocaml_src/utils/tbl.ml" 42 1687 1739
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1789 "ocaml_src/utils/tbl.ml" 43 1747 1810
+call(
+  stack
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 43 1747 1755 "ocaml_src/utils/tbl.ml" 43 1747 1810
+call(
+  tail
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 44 1811 1823 "ocaml_src/utils/tbl.ml" 44 1811 1828
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 44 1811 1830 "ocaml_src/utils/tbl.ml" 44 1811 1831
+type(
+  'a
+)
+"ocaml_src/utils/tbl.ml" 44 1811 1833 "ocaml_src/utils/tbl.ml" 44 1811 1834
+type(
+  'b
+)
+"ocaml_src/utils/tbl.ml" 44 1811 1836 "ocaml_src/utils/tbl.ml" 44 1811 1837
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 44 1811 1839 "ocaml_src/utils/tbl.ml" 44 1811 1840
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 44 1811 1817 "ocaml_src/utils/tbl.ml" 44 1811 1841
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 44 1811 1844 "ocaml_src/utils/tbl.ml" 44 1811 1849
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 44 1811 1817 "ocaml_src/utils/tbl.ml" 44 1811 1849
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 44 1811 1860 "ocaml_src/utils/tbl.ml" 44 1811 1865
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 44 1811 1853 "ocaml_src/utils/tbl.ml" 44 1811 1865
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 39 1566 1570 "ocaml_src/utils/tbl.ml" 44 1811 1865
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 46 1873 1877 "ocaml_src/utils/tbl.ml" 46 1873 1883
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref create "ocaml_src/utils/tbl.ml" 25 1038 1042 "ocaml_src/utils/tbl.ml" 25 1038 1048
+)
+"ocaml_src/utils/tbl.ml" 46 1873 1884 "ocaml_src/utils/tbl.ml" 46 1873 1885
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 29 1159 1167 "ocaml_src/utils/tbl.ml" 29 1159 1168
+)
+"ocaml_src/utils/tbl.ml" 46 1873 1886 "ocaml_src/utils/tbl.ml" 46 1873 1887
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 29 1159 1169 "ocaml_src/utils/tbl.ml" 29 1159 1170
+)
+"ocaml_src/utils/tbl.ml" 46 1873 1888 "ocaml_src/utils/tbl.ml" 46 1873 1889
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 29 1159 1171 "ocaml_src/utils/tbl.ml" 29 1159 1172
+)
+"ocaml_src/utils/tbl.ml" 46 1873 1890 "ocaml_src/utils/tbl.ml" 46 1873 1891
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 29 1159 1173 "ocaml_src/utils/tbl.ml" 29 1159 1174
+)
+"ocaml_src/utils/tbl.ml" 46 1873 1877 "ocaml_src/utils/tbl.ml" 46 1873 1891
+call(
+  tail
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 38 1539 1546 "ocaml_src/utils/tbl.ml" 46 1873 1891
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 31 1218 1220 "ocaml_src/utils/tbl.ml" 46 1873 1891
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 30 1177 1179 "ocaml_src/utils/tbl.ml" 46 1873 1891
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 48 1893 1901 "ocaml_src/utils/tbl.ml" 48 1893 1904
+type(
+  'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  def add "ocaml_src/utils/tbl.ml" 48 1893 1893 "ocaml_src/utils/tbl.ml" 1 0 -1
+)
+"ocaml_src/utils/tbl.ml" 48 1893 1905 "ocaml_src/utils/tbl.ml" 48 1893 1906
+type(
+  'a
+)
+ident(
+  def x "ocaml_src/utils/tbl.ml" 48 1893 1907 "ocaml_src/utils/tbl.ml" 58 2149 2181
+)
+"ocaml_src/utils/tbl.ml" 48 1893 1907 "ocaml_src/utils/tbl.ml" 48 1893 1911
+type(
+  'b
+)
+ident(
+  def data "ocaml_src/utils/tbl.ml" 48 1893 1914 "ocaml_src/utils/tbl.ml" 58 2149 2181
+)
+"ocaml_src/utils/tbl.ml" 49 1923 1927 "ocaml_src/utils/tbl.ml" 49 1923 1932
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 50 1936 1947 "ocaml_src/utils/tbl.ml" 50 1936 1952
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 50 1936 1954 "ocaml_src/utils/tbl.ml" 50 1936 1955
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 48 1893 1905 "ocaml_src/utils/tbl.ml" 48 1893 1906
+)
+"ocaml_src/utils/tbl.ml" 50 1936 1957 "ocaml_src/utils/tbl.ml" 50 1936 1961
+type(
+  'b
+)
+ident(
+  int_ref data "ocaml_src/utils/tbl.ml" 48 1893 1907 "ocaml_src/utils/tbl.ml" 48 1893 1911
+)
+"ocaml_src/utils/tbl.ml" 50 1936 1963 "ocaml_src/utils/tbl.ml" 50 1936 1968
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 50 1936 1970 "ocaml_src/utils/tbl.ml" 50 1936 1971
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 50 1936 1942 "ocaml_src/utils/tbl.ml" 50 1936 1972
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 51 1973 1982 "ocaml_src/utils/tbl.ml" 51 1973 1983
+type(
+  ('a, 'b) t
+)
+ident(
+  def l "ocaml_src/utils/tbl.ml" 52 2000 2006 "ocaml_src/utils/tbl.ml" 58 2149 2181
+)
+"ocaml_src/utils/tbl.ml" 51 1973 1985 "ocaml_src/utils/tbl.ml" 51 1973 1986
+type(
+  'a
+)
+ident(
+  def v "ocaml_src/utils/tbl.ml" 52 2000 2006 "ocaml_src/utils/tbl.ml" 58 2149 2181
+)
+"ocaml_src/utils/tbl.ml" 51 1973 1988 "ocaml_src/utils/tbl.ml" 51 1973 1989
+type(
+  'b
+)
+ident(
+  def d "ocaml_src/utils/tbl.ml" 52 2000 2006 "ocaml_src/utils/tbl.ml" 58 2149 2181
+)
+"ocaml_src/utils/tbl.ml" 51 1973 1991 "ocaml_src/utils/tbl.ml" 51 1973 1992
+type(
+  ('a, 'b) t
+)
+ident(
+  def r "ocaml_src/utils/tbl.ml" 52 2000 2006 "ocaml_src/utils/tbl.ml" 58 2149 2181
+)
+"ocaml_src/utils/tbl.ml" 51 1973 1994 "ocaml_src/utils/tbl.ml" 51 1973 1995
+type(
+  int
+)
+ident(
+  def h "ocaml_src/utils/tbl.ml" 52 2000 2006 "ocaml_src/utils/tbl.ml" 58 2149 2181
+)
+"ocaml_src/utils/tbl.ml" 51 1973 1977 "ocaml_src/utils/tbl.ml" 51 1973 1996
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 52 2000 2010 "ocaml_src/utils/tbl.ml" 52 2000 2011
+type(
+  int
+)
+ident(
+  def c "ocaml_src/utils/tbl.ml" 53 2029 2035 "ocaml_src/utils/tbl.ml" 58 2149 2181
+)
+"ocaml_src/utils/tbl.ml" 52 2000 2014 "ocaml_src/utils/tbl.ml" 52 2000 2021
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"ocaml_src/utils/tbl.ml" 52 2000 2022 "ocaml_src/utils/tbl.ml" 52 2000 2023
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 48 1893 1905 "ocaml_src/utils/tbl.ml" 48 1893 1906
+)
+"ocaml_src/utils/tbl.ml" 52 2000 2024 "ocaml_src/utils/tbl.ml" 52 2000 2025
+type(
+  'a
+)
+ident(
+  int_ref v "ocaml_src/utils/tbl.ml" 51 1973 1985 "ocaml_src/utils/tbl.ml" 51 1973 1986
+)
+"ocaml_src/utils/tbl.ml" 52 2000 2014 "ocaml_src/utils/tbl.ml" 52 2000 2025
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 53 2029 2038 "ocaml_src/utils/tbl.ml" 53 2029 2039
+type(
+  int
+)
+ident(
+  int_ref c "ocaml_src/utils/tbl.ml" 52 2000 2010 "ocaml_src/utils/tbl.ml" 52 2000 2011
+)
+"ocaml_src/utils/tbl.ml" 53 2029 2040 "ocaml_src/utils/tbl.ml" 53 2029 2041
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/tbl.ml" 53 2029 2042 "ocaml_src/utils/tbl.ml" 53 2029 2043
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 53 2029 2038 "ocaml_src/utils/tbl.ml" 53 2029 2043
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 54 2049 2062 "ocaml_src/utils/tbl.ml" 54 2049 2063
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 51 1973 1982 "ocaml_src/utils/tbl.ml" 51 1973 1983
+)
+"ocaml_src/utils/tbl.ml" 54 2049 2065 "ocaml_src/utils/tbl.ml" 54 2049 2066
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 48 1893 1905 "ocaml_src/utils/tbl.ml" 48 1893 1906
+)
+"ocaml_src/utils/tbl.ml" 54 2049 2068 "ocaml_src/utils/tbl.ml" 54 2049 2072
+type(
+  'b
+)
+ident(
+  int_ref data "ocaml_src/utils/tbl.ml" 48 1893 1907 "ocaml_src/utils/tbl.ml" 48 1893 1911
+)
+"ocaml_src/utils/tbl.ml" 54 2049 2074 "ocaml_src/utils/tbl.ml" 54 2049 2075
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 51 1973 1991 "ocaml_src/utils/tbl.ml" 51 1973 1992
+)
+"ocaml_src/utils/tbl.ml" 54 2049 2077 "ocaml_src/utils/tbl.ml" 54 2049 2078
+type(
+  int
+)
+ident(
+  int_ref h "ocaml_src/utils/tbl.ml" 51 1973 1994 "ocaml_src/utils/tbl.ml" 51 1973 1995
+)
+"ocaml_src/utils/tbl.ml" 54 2049 2057 "ocaml_src/utils/tbl.ml" 54 2049 2079
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 55 2080 2094 "ocaml_src/utils/tbl.ml" 55 2080 2095
+type(
+  int
+)
+ident(
+  int_ref c "ocaml_src/utils/tbl.ml" 52 2000 2010 "ocaml_src/utils/tbl.ml" 52 2000 2011
+)
+"ocaml_src/utils/tbl.ml" 55 2080 2096 "ocaml_src/utils/tbl.ml" 55 2080 2097
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/utils/tbl.ml" 55 2080 2098 "ocaml_src/utils/tbl.ml" 55 2080 2099
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 55 2080 2094 "ocaml_src/utils/tbl.ml" 55 2080 2099
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 56 2105 2113 "ocaml_src/utils/tbl.ml" 56 2105 2116
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref bal "ocaml_src/utils/tbl.ml" 29 1159 1163 "ocaml_src/utils/tbl.ml" 29 1159 1166
+)
+"ocaml_src/utils/tbl.ml" 56 2105 2118 "ocaml_src/utils/tbl.ml" 56 2105 2121
+type(
+  'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref add "ocaml_src/utils/tbl.ml" 48 1893 1901 "ocaml_src/utils/tbl.ml" 48 1893 1904
+)
+"ocaml_src/utils/tbl.ml" 56 2105 2122 "ocaml_src/utils/tbl.ml" 56 2105 2123
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 48 1893 1905 "ocaml_src/utils/tbl.ml" 48 1893 1906
+)
+"ocaml_src/utils/tbl.ml" 56 2105 2124 "ocaml_src/utils/tbl.ml" 56 2105 2128
+type(
+  'b
+)
+ident(
+  int_ref data "ocaml_src/utils/tbl.ml" 48 1893 1907 "ocaml_src/utils/tbl.ml" 48 1893 1911
+)
+"ocaml_src/utils/tbl.ml" 56 2105 2129 "ocaml_src/utils/tbl.ml" 56 2105 2130
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 51 1973 1982 "ocaml_src/utils/tbl.ml" 51 1973 1983
+)
+"ocaml_src/utils/tbl.ml" 56 2105 2117 "ocaml_src/utils/tbl.ml" 56 2105 2131
+call(
+  stack
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 56 2105 2132 "ocaml_src/utils/tbl.ml" 56 2105 2133
+type(
+  'a
+)
+ident(
+  int_ref v "ocaml_src/utils/tbl.ml" 51 1973 1985 "ocaml_src/utils/tbl.ml" 51 1973 1986
+)
+"ocaml_src/utils/tbl.ml" 56 2105 2134 "ocaml_src/utils/tbl.ml" 56 2105 2135
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 51 1973 1988 "ocaml_src/utils/tbl.ml" 51 1973 1989
+)
+"ocaml_src/utils/tbl.ml" 56 2105 2136 "ocaml_src/utils/tbl.ml" 56 2105 2137
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 51 1973 1991 "ocaml_src/utils/tbl.ml" 51 1973 1992
+)
+"ocaml_src/utils/tbl.ml" 56 2105 2113 "ocaml_src/utils/tbl.ml" 56 2105 2137
+call(
+  tail
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 58 2149 2157 "ocaml_src/utils/tbl.ml" 58 2149 2160
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref bal "ocaml_src/utils/tbl.ml" 29 1159 1163 "ocaml_src/utils/tbl.ml" 29 1159 1166
+)
+"ocaml_src/utils/tbl.ml" 58 2149 2161 "ocaml_src/utils/tbl.ml" 58 2149 2162
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 51 1973 1982 "ocaml_src/utils/tbl.ml" 51 1973 1983
+)
+"ocaml_src/utils/tbl.ml" 58 2149 2163 "ocaml_src/utils/tbl.ml" 58 2149 2164
+type(
+  'a
+)
+ident(
+  int_ref v "ocaml_src/utils/tbl.ml" 51 1973 1985 "ocaml_src/utils/tbl.ml" 51 1973 1986
+)
+"ocaml_src/utils/tbl.ml" 58 2149 2165 "ocaml_src/utils/tbl.ml" 58 2149 2166
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 51 1973 1988 "ocaml_src/utils/tbl.ml" 51 1973 1989
+)
+"ocaml_src/utils/tbl.ml" 58 2149 2168 "ocaml_src/utils/tbl.ml" 58 2149 2171
+type(
+  'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref add "ocaml_src/utils/tbl.ml" 48 1893 1901 "ocaml_src/utils/tbl.ml" 48 1893 1904
+)
+"ocaml_src/utils/tbl.ml" 58 2149 2172 "ocaml_src/utils/tbl.ml" 58 2149 2173
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 48 1893 1905 "ocaml_src/utils/tbl.ml" 48 1893 1906
+)
+"ocaml_src/utils/tbl.ml" 58 2149 2174 "ocaml_src/utils/tbl.ml" 58 2149 2178
+type(
+  'b
+)
+ident(
+  int_ref data "ocaml_src/utils/tbl.ml" 48 1893 1907 "ocaml_src/utils/tbl.ml" 48 1893 1911
+)
+"ocaml_src/utils/tbl.ml" 58 2149 2179 "ocaml_src/utils/tbl.ml" 58 2149 2180
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 51 1973 1991 "ocaml_src/utils/tbl.ml" 51 1973 1992
+)
+"ocaml_src/utils/tbl.ml" 58 2149 2167 "ocaml_src/utils/tbl.ml" 58 2149 2181
+call(
+  stack
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 58 2149 2157 "ocaml_src/utils/tbl.ml" 58 2149 2181
+call(
+  tail
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 55 2080 2091 "ocaml_src/utils/tbl.ml" 58 2149 2181
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 53 2029 2035 "ocaml_src/utils/tbl.ml" 58 2149 2181
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 52 2000 2006 "ocaml_src/utils/tbl.ml" 58 2149 2181
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 48 1893 1914 "ocaml_src/utils/tbl.ml" 58 2149 2181
+type(
+  ('a, 'b) t -> ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 60 2183 2191 "ocaml_src/utils/tbl.ml" 60 2183 2195
+type(
+  'a -> ('a, 'b) t -> 'b
+)
+ident(
+  def find "ocaml_src/utils/tbl.ml" 60 2183 2183 "ocaml_src/utils/tbl.ml" 1 0 -1
+)
+"ocaml_src/utils/tbl.ml" 60 2183 2196 "ocaml_src/utils/tbl.ml" 60 2183 2197
+type(
+  'a
+)
+ident(
+  def x "ocaml_src/utils/tbl.ml" 60 2183 2200 "ocaml_src/utils/tbl.ml" 66 2322 2364
+)
+"ocaml_src/utils/tbl.ml" 61 2209 2213 "ocaml_src/utils/tbl.ml" 61 2209 2218
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 62 2222 2228 "ocaml_src/utils/tbl.ml" 62 2222 2233
+type(
+  exn -> 'b
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/utils/tbl.ml" 62 2222 2234 "ocaml_src/utils/tbl.ml" 62 2222 2243
+type(
+  exn
+)
+"ocaml_src/utils/tbl.ml" 62 2222 2228 "ocaml_src/utils/tbl.ml" 62 2222 2243
+type(
+  'b
+)
+"ocaml_src/utils/tbl.ml" 63 2244 2253 "ocaml_src/utils/tbl.ml" 63 2244 2254
+type(
+  ('a, 'b) t
+)
+ident(
+  def l "ocaml_src/utils/tbl.ml" 64 2271 2277 "ocaml_src/utils/tbl.ml" 66 2322 2364
+)
+"ocaml_src/utils/tbl.ml" 63 2244 2256 "ocaml_src/utils/tbl.ml" 63 2244 2257
+type(
+  'a
+)
+ident(
+  def v "ocaml_src/utils/tbl.ml" 64 2271 2277 "ocaml_src/utils/tbl.ml" 66 2322 2364
+)
+"ocaml_src/utils/tbl.ml" 63 2244 2259 "ocaml_src/utils/tbl.ml" 63 2244 2260
+type(
+  'b
+)
+ident(
+  def d "ocaml_src/utils/tbl.ml" 64 2271 2277 "ocaml_src/utils/tbl.ml" 66 2322 2364
+)
+"ocaml_src/utils/tbl.ml" 63 2244 2262 "ocaml_src/utils/tbl.ml" 63 2244 2263
+type(
+  ('a, 'b) t
+)
+ident(
+  def r "ocaml_src/utils/tbl.ml" 64 2271 2277 "ocaml_src/utils/tbl.ml" 66 2322 2364
+)
+"ocaml_src/utils/tbl.ml" 63 2244 2265 "ocaml_src/utils/tbl.ml" 63 2244 2266
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 63 2244 2248 "ocaml_src/utils/tbl.ml" 63 2244 2267
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 64 2271 2281 "ocaml_src/utils/tbl.ml" 64 2271 2282
+type(
+  int
+)
+ident(
+  def c "ocaml_src/utils/tbl.ml" 65 2300 2306 "ocaml_src/utils/tbl.ml" 66 2322 2364
+)
+"ocaml_src/utils/tbl.ml" 64 2271 2285 "ocaml_src/utils/tbl.ml" 64 2271 2292
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"ocaml_src/utils/tbl.ml" 64 2271 2293 "ocaml_src/utils/tbl.ml" 64 2271 2294
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 60 2183 2196 "ocaml_src/utils/tbl.ml" 60 2183 2197
+)
+"ocaml_src/utils/tbl.ml" 64 2271 2295 "ocaml_src/utils/tbl.ml" 64 2271 2296
+type(
+  'a
+)
+ident(
+  int_ref v "ocaml_src/utils/tbl.ml" 63 2244 2256 "ocaml_src/utils/tbl.ml" 63 2244 2257
+)
+"ocaml_src/utils/tbl.ml" 64 2271 2285 "ocaml_src/utils/tbl.ml" 64 2271 2296
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 65 2300 2309 "ocaml_src/utils/tbl.ml" 65 2300 2310
+type(
+  int
+)
+ident(
+  int_ref c "ocaml_src/utils/tbl.ml" 64 2271 2281 "ocaml_src/utils/tbl.ml" 64 2271 2282
+)
+"ocaml_src/utils/tbl.ml" 65 2300 2311 "ocaml_src/utils/tbl.ml" 65 2300 2312
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/tbl.ml" 65 2300 2313 "ocaml_src/utils/tbl.ml" 65 2300 2314
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 65 2300 2309 "ocaml_src/utils/tbl.ml" 65 2300 2314
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 65 2300 2320 "ocaml_src/utils/tbl.ml" 65 2300 2321
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 63 2244 2259 "ocaml_src/utils/tbl.ml" 63 2244 2260
+)
+"ocaml_src/utils/tbl.ml" 66 2322 2333 "ocaml_src/utils/tbl.ml" 66 2322 2337
+type(
+  'a -> ('a, 'b) t -> 'b
+)
+ident(
+  int_ref find "ocaml_src/utils/tbl.ml" 60 2183 2191 "ocaml_src/utils/tbl.ml" 60 2183 2195
+)
+"ocaml_src/utils/tbl.ml" 66 2322 2338 "ocaml_src/utils/tbl.ml" 66 2322 2339
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 60 2183 2196 "ocaml_src/utils/tbl.ml" 60 2183 2197
+)
+"ocaml_src/utils/tbl.ml" 66 2322 2344 "ocaml_src/utils/tbl.ml" 66 2322 2345
+type(
+  int
+)
+ident(
+  int_ref c "ocaml_src/utils/tbl.ml" 64 2271 2281 "ocaml_src/utils/tbl.ml" 64 2271 2282
+)
+"ocaml_src/utils/tbl.ml" 66 2322 2346 "ocaml_src/utils/tbl.ml" 66 2322 2347
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/utils/tbl.ml" 66 2322 2348 "ocaml_src/utils/tbl.ml" 66 2322 2349
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 66 2322 2344 "ocaml_src/utils/tbl.ml" 66 2322 2349
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 66 2322 2355 "ocaml_src/utils/tbl.ml" 66 2322 2356
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 63 2244 2253 "ocaml_src/utils/tbl.ml" 63 2244 2254
+)
+"ocaml_src/utils/tbl.ml" 66 2322 2362 "ocaml_src/utils/tbl.ml" 66 2322 2363
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 63 2244 2262 "ocaml_src/utils/tbl.ml" 63 2244 2263
+)
+"ocaml_src/utils/tbl.ml" 66 2322 2340 "ocaml_src/utils/tbl.ml" 66 2322 2364
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 66 2322 2333 "ocaml_src/utils/tbl.ml" 66 2322 2364
+call(
+  tail
+)
+type(
+  'b
+)
+"ocaml_src/utils/tbl.ml" 65 2300 2306 "ocaml_src/utils/tbl.ml" 66 2322 2364
+type(
+  'b
+)
+"ocaml_src/utils/tbl.ml" 64 2271 2277 "ocaml_src/utils/tbl.ml" 66 2322 2364
+type(
+  'b
+)
+"ocaml_src/utils/tbl.ml" 60 2183 2200 "ocaml_src/utils/tbl.ml" 66 2322 2364
+type(
+  ('a, 'b) t -> 'b
+)
+"ocaml_src/utils/tbl.ml" 68 2366 2374 "ocaml_src/utils/tbl.ml" 68 2366 2377
+type(
+  'a -> ('a, 'b) t -> bool
+)
+ident(
+  def mem "ocaml_src/utils/tbl.ml" 68 2366 2366 "ocaml_src/utils/tbl.ml" 1 0 -1
+)
+"ocaml_src/utils/tbl.ml" 68 2366 2378 "ocaml_src/utils/tbl.ml" 68 2366 2379
+type(
+  'a
+)
+ident(
+  def x "ocaml_src/utils/tbl.ml" 68 2366 2382 "ocaml_src/utils/tbl.ml" 72 2467 2512
+)
+"ocaml_src/utils/tbl.ml" 69 2391 2395 "ocaml_src/utils/tbl.ml" 69 2391 2400
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 69 2391 2404 "ocaml_src/utils/tbl.ml" 69 2391 2409
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 70 2410 2419 "ocaml_src/utils/tbl.ml" 70 2410 2420
+type(
+  ('a, 'b) t
+)
+ident(
+  def l "ocaml_src/utils/tbl.ml" 71 2438 2444 "ocaml_src/utils/tbl.ml" 72 2467 2512
+)
+"ocaml_src/utils/tbl.ml" 70 2410 2422 "ocaml_src/utils/tbl.ml" 70 2410 2423
+type(
+  'a
+)
+ident(
+  def v "ocaml_src/utils/tbl.ml" 71 2438 2444 "ocaml_src/utils/tbl.ml" 72 2467 2512
+)
+"ocaml_src/utils/tbl.ml" 70 2410 2425 "ocaml_src/utils/tbl.ml" 70 2410 2427
+type(
+  'b
+)
+ident(
+  def _d "ocaml_src/utils/tbl.ml" 71 2438 2444 "ocaml_src/utils/tbl.ml" 72 2467 2512
+)
+"ocaml_src/utils/tbl.ml" 70 2410 2429 "ocaml_src/utils/tbl.ml" 70 2410 2430
+type(
+  ('a, 'b) t
+)
+ident(
+  def r "ocaml_src/utils/tbl.ml" 71 2438 2444 "ocaml_src/utils/tbl.ml" 72 2467 2512
+)
+"ocaml_src/utils/tbl.ml" 70 2410 2432 "ocaml_src/utils/tbl.ml" 70 2410 2433
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 70 2410 2414 "ocaml_src/utils/tbl.ml" 70 2410 2434
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 71 2438 2448 "ocaml_src/utils/tbl.ml" 71 2438 2449
+type(
+  int
+)
+ident(
+  def c "ocaml_src/utils/tbl.ml" 72 2467 2473 "ocaml_src/utils/tbl.ml" 72 2467 2512
+)
+"ocaml_src/utils/tbl.ml" 71 2438 2452 "ocaml_src/utils/tbl.ml" 71 2438 2459
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"ocaml_src/utils/tbl.ml" 71 2438 2460 "ocaml_src/utils/tbl.ml" 71 2438 2461
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 68 2366 2378 "ocaml_src/utils/tbl.ml" 68 2366 2379
+)
+"ocaml_src/utils/tbl.ml" 71 2438 2462 "ocaml_src/utils/tbl.ml" 71 2438 2463
+type(
+  'a
+)
+ident(
+  int_ref v "ocaml_src/utils/tbl.ml" 70 2410 2422 "ocaml_src/utils/tbl.ml" 70 2410 2423
+)
+"ocaml_src/utils/tbl.ml" 71 2438 2452 "ocaml_src/utils/tbl.ml" 71 2438 2463
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2473 "ocaml_src/utils/tbl.ml" 72 2467 2474
+type(
+  int
+)
+ident(
+  int_ref c "ocaml_src/utils/tbl.ml" 71 2438 2448 "ocaml_src/utils/tbl.ml" 71 2438 2449
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2475 "ocaml_src/utils/tbl.ml" 72 2467 2476
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2477 "ocaml_src/utils/tbl.ml" 72 2467 2478
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2473 "ocaml_src/utils/tbl.ml" 72 2467 2478
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2479 "ocaml_src/utils/tbl.ml" 72 2467 2481
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2482 "ocaml_src/utils/tbl.ml" 72 2467 2485
+type(
+  'a -> ('a, 'b) t -> bool
+)
+ident(
+  int_ref mem "ocaml_src/utils/tbl.ml" 68 2366 2374 "ocaml_src/utils/tbl.ml" 68 2366 2377
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2486 "ocaml_src/utils/tbl.ml" 72 2467 2487
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 68 2366 2378 "ocaml_src/utils/tbl.ml" 68 2366 2379
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2492 "ocaml_src/utils/tbl.ml" 72 2467 2493
+type(
+  int
+)
+ident(
+  int_ref c "ocaml_src/utils/tbl.ml" 71 2438 2448 "ocaml_src/utils/tbl.ml" 71 2438 2449
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2494 "ocaml_src/utils/tbl.ml" 72 2467 2495
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2496 "ocaml_src/utils/tbl.ml" 72 2467 2497
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2492 "ocaml_src/utils/tbl.ml" 72 2467 2497
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2503 "ocaml_src/utils/tbl.ml" 72 2467 2504
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 70 2410 2419 "ocaml_src/utils/tbl.ml" 70 2410 2420
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2510 "ocaml_src/utils/tbl.ml" 72 2467 2511
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 70 2410 2429 "ocaml_src/utils/tbl.ml" 70 2410 2430
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2488 "ocaml_src/utils/tbl.ml" 72 2467 2512
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2482 "ocaml_src/utils/tbl.ml" 72 2467 2512
+call(
+  tail
+)
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 72 2467 2473 "ocaml_src/utils/tbl.ml" 72 2467 2512
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 71 2438 2444 "ocaml_src/utils/tbl.ml" 72 2467 2512
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 68 2366 2382 "ocaml_src/utils/tbl.ml" 72 2467 2512
+type(
+  ('a, 'b) t -> bool
+)
+"ocaml_src/utils/tbl.ml" 74 2514 2522 "ocaml_src/utils/tbl.ml" 74 2514 2527
+type(
+  ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  def merge "ocaml_src/utils/tbl.ml" 74 2514 2514 "ocaml_src/utils/tbl.ml" 1 0 -1
+)
+"ocaml_src/utils/tbl.ml" 74 2514 2528 "ocaml_src/utils/tbl.ml" 74 2514 2530
+type(
+  ('a, 'b) t
+)
+ident(
+  def t1 "ocaml_src/utils/tbl.ml" 74 2514 2531 "ocaml_src/utils/tbl.ml" 80 2708 2755
+)
+"ocaml_src/utils/tbl.ml" 74 2514 2531 "ocaml_src/utils/tbl.ml" 74 2514 2533
+type(
+  ('a, 'b) t
+)
+ident(
+  def t2 "ocaml_src/utils/tbl.ml" 75 2536 2538 "ocaml_src/utils/tbl.ml" 80 2708 2755
+)
+"ocaml_src/utils/tbl.ml" 75 2536 2545 "ocaml_src/utils/tbl.ml" 75 2536 2547
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref t1 "ocaml_src/utils/tbl.ml" 74 2514 2528 "ocaml_src/utils/tbl.ml" 74 2514 2530
+)
+"ocaml_src/utils/tbl.ml" 75 2536 2549 "ocaml_src/utils/tbl.ml" 75 2536 2551
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref t2 "ocaml_src/utils/tbl.ml" 74 2514 2531 "ocaml_src/utils/tbl.ml" 74 2514 2533
+)
+"ocaml_src/utils/tbl.ml" 75 2536 2544 "ocaml_src/utils/tbl.ml" 75 2536 2552
+type(
+  ('a, 'b) t * ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 76 2558 2563 "ocaml_src/utils/tbl.ml" 76 2558 2568
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 76 2558 2570 "ocaml_src/utils/tbl.ml" 76 2558 2575
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 76 2558 2562 "ocaml_src/utils/tbl.ml" 76 2558 2576
+type(
+  ('a, 'b) t * ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 76 2558 2580 "ocaml_src/utils/tbl.ml" 76 2558 2585
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 77 2586 2591 "ocaml_src/utils/tbl.ml" 77 2586 2596
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 77 2586 2604 "ocaml_src/utils/tbl.ml" 77 2586 2605
+type(
+  int
+)
+type(
+  ('a, 'b) t
+)
+type(
+  'b
+)
+type(
+  'a
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 77 2586 2599 "ocaml_src/utils/tbl.ml" 77 2586 2605
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 77 2586 2609 "ocaml_src/utils/tbl.ml" 77 2586 2610
+ident(
+  def t "ocaml_src/utils/tbl.ml" 77 2586 2616 "ocaml_src/utils/tbl.ml" 77 2586 2617
+)
+"ocaml_src/utils/tbl.ml" 77 2586 2598 "ocaml_src/utils/tbl.ml" 77 2586 2611
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 77 2586 2590 "ocaml_src/utils/tbl.ml" 77 2586 2612
+type(
+  ('a, 'b) t * ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 77 2586 2616 "ocaml_src/utils/tbl.ml" 77 2586 2617
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref t "ocaml_src/utils/tbl.ml" 77 2586 2598 "ocaml_src/utils/tbl.ml" 77 2586 2611
+)
+"ocaml_src/utils/tbl.ml" 78 2618 2629 "ocaml_src/utils/tbl.ml" 78 2618 2630
+type(
+  int
+)
+type(
+  ('a, 'b) t
+)
+type(
+  'b
+)
+type(
+  'a
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 78 2618 2624 "ocaml_src/utils/tbl.ml" 78 2618 2630
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 78 2618 2634 "ocaml_src/utils/tbl.ml" 78 2618 2635
+ident(
+  def t "ocaml_src/utils/tbl.ml" 78 2618 2648 "ocaml_src/utils/tbl.ml" 78 2618 2649
+)
+"ocaml_src/utils/tbl.ml" 78 2618 2623 "ocaml_src/utils/tbl.ml" 78 2618 2636
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 78 2618 2638 "ocaml_src/utils/tbl.ml" 78 2618 2643
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 78 2618 2622 "ocaml_src/utils/tbl.ml" 78 2618 2644
+type(
+  ('a, 'b) t * ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 78 2618 2648 "ocaml_src/utils/tbl.ml" 78 2618 2649
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref t "ocaml_src/utils/tbl.ml" 78 2618 2623 "ocaml_src/utils/tbl.ml" 78 2618 2636
+)
+"ocaml_src/utils/tbl.ml" 79 2650 2660 "ocaml_src/utils/tbl.ml" 79 2650 2662
+type(
+  ('a, 'b) t
+)
+ident(
+  def l1 "ocaml_src/utils/tbl.ml" 80 2708 2714 "ocaml_src/utils/tbl.ml" 80 2708 2755
+)
+"ocaml_src/utils/tbl.ml" 79 2650 2664 "ocaml_src/utils/tbl.ml" 79 2650 2666
+type(
+  'a
+)
+ident(
+  def v1 "ocaml_src/utils/tbl.ml" 80 2708 2714 "ocaml_src/utils/tbl.ml" 80 2708 2755
+)
+"ocaml_src/utils/tbl.ml" 79 2650 2668 "ocaml_src/utils/tbl.ml" 79 2650 2670
+type(
+  'b
+)
+ident(
+  def d1 "ocaml_src/utils/tbl.ml" 80 2708 2714 "ocaml_src/utils/tbl.ml" 80 2708 2755
+)
+"ocaml_src/utils/tbl.ml" 79 2650 2672 "ocaml_src/utils/tbl.ml" 79 2650 2674
+type(
+  ('a, 'b) t
+)
+ident(
+  def r1 "ocaml_src/utils/tbl.ml" 80 2708 2714 "ocaml_src/utils/tbl.ml" 80 2708 2755
+)
+"ocaml_src/utils/tbl.ml" 79 2650 2676 "ocaml_src/utils/tbl.ml" 79 2650 2677
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 79 2650 2655 "ocaml_src/utils/tbl.ml" 79 2650 2678
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 79 2650 2685 "ocaml_src/utils/tbl.ml" 79 2650 2687
+type(
+  ('a, 'b) t
+)
+ident(
+  def l2 "ocaml_src/utils/tbl.ml" 80 2708 2714 "ocaml_src/utils/tbl.ml" 80 2708 2755
+)
+"ocaml_src/utils/tbl.ml" 79 2650 2689 "ocaml_src/utils/tbl.ml" 79 2650 2691
+type(
+  'a
+)
+ident(
+  def v2 "ocaml_src/utils/tbl.ml" 80 2708 2714 "ocaml_src/utils/tbl.ml" 80 2708 2755
+)
+"ocaml_src/utils/tbl.ml" 79 2650 2693 "ocaml_src/utils/tbl.ml" 79 2650 2695
+type(
+  'b
+)
+ident(
+  def d2 "ocaml_src/utils/tbl.ml" 80 2708 2714 "ocaml_src/utils/tbl.ml" 80 2708 2755
+)
+"ocaml_src/utils/tbl.ml" 79 2650 2697 "ocaml_src/utils/tbl.ml" 79 2650 2699
+type(
+  ('a, 'b) t
+)
+ident(
+  def r2 "ocaml_src/utils/tbl.ml" 80 2708 2714 "ocaml_src/utils/tbl.ml" 80 2708 2755
+)
+"ocaml_src/utils/tbl.ml" 79 2650 2701 "ocaml_src/utils/tbl.ml" 79 2650 2702
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 79 2650 2680 "ocaml_src/utils/tbl.ml" 79 2650 2703
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 79 2650 2654 "ocaml_src/utils/tbl.ml" 79 2650 2704
+type(
+  ('a, 'b) t * ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 80 2708 2714 "ocaml_src/utils/tbl.ml" 80 2708 2717
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref bal "ocaml_src/utils/tbl.ml" 29 1159 1163 "ocaml_src/utils/tbl.ml" 29 1159 1166
+)
+"ocaml_src/utils/tbl.ml" 80 2708 2718 "ocaml_src/utils/tbl.ml" 80 2708 2720
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l1 "ocaml_src/utils/tbl.ml" 79 2650 2660 "ocaml_src/utils/tbl.ml" 79 2650 2662
+)
+"ocaml_src/utils/tbl.ml" 80 2708 2721 "ocaml_src/utils/tbl.ml" 80 2708 2723
+type(
+  'a
+)
+ident(
+  int_ref v1 "ocaml_src/utils/tbl.ml" 79 2650 2664 "ocaml_src/utils/tbl.ml" 79 2650 2666
+)
+"ocaml_src/utils/tbl.ml" 80 2708 2724 "ocaml_src/utils/tbl.ml" 80 2708 2726
+type(
+  'b
+)
+ident(
+  int_ref d1 "ocaml_src/utils/tbl.ml" 79 2650 2668 "ocaml_src/utils/tbl.ml" 79 2650 2670
+)
+"ocaml_src/utils/tbl.ml" 80 2708 2728 "ocaml_src/utils/tbl.ml" 80 2708 2731
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref bal "ocaml_src/utils/tbl.ml" 29 1159 1163 "ocaml_src/utils/tbl.ml" 29 1159 1166
+)
+"ocaml_src/utils/tbl.ml" 80 2708 2733 "ocaml_src/utils/tbl.ml" 80 2708 2738
+type(
+  ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref merge "ocaml_src/utils/tbl.ml" 74 2514 2522 "ocaml_src/utils/tbl.ml" 74 2514 2527
+)
+"ocaml_src/utils/tbl.ml" 80 2708 2739 "ocaml_src/utils/tbl.ml" 80 2708 2741
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r1 "ocaml_src/utils/tbl.ml" 79 2650 2672 "ocaml_src/utils/tbl.ml" 79 2650 2674
+)
+"ocaml_src/utils/tbl.ml" 80 2708 2742 "ocaml_src/utils/tbl.ml" 80 2708 2744
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l2 "ocaml_src/utils/tbl.ml" 79 2650 2685 "ocaml_src/utils/tbl.ml" 79 2650 2687
+)
+"ocaml_src/utils/tbl.ml" 80 2708 2732 "ocaml_src/utils/tbl.ml" 80 2708 2745
+call(
+  stack
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 80 2708 2746 "ocaml_src/utils/tbl.ml" 80 2708 2748
+type(
+  'a
+)
+ident(
+  int_ref v2 "ocaml_src/utils/tbl.ml" 79 2650 2689 "ocaml_src/utils/tbl.ml" 79 2650 2691
+)
+"ocaml_src/utils/tbl.ml" 80 2708 2749 "ocaml_src/utils/tbl.ml" 80 2708 2751
+type(
+  'b
+)
+ident(
+  int_ref d2 "ocaml_src/utils/tbl.ml" 79 2650 2693 "ocaml_src/utils/tbl.ml" 79 2650 2695
+)
+"ocaml_src/utils/tbl.ml" 80 2708 2752 "ocaml_src/utils/tbl.ml" 80 2708 2754
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r2 "ocaml_src/utils/tbl.ml" 79 2650 2697 "ocaml_src/utils/tbl.ml" 79 2650 2699
+)
+"ocaml_src/utils/tbl.ml" 80 2708 2727 "ocaml_src/utils/tbl.ml" 80 2708 2755
+call(
+  stack
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 80 2708 2714 "ocaml_src/utils/tbl.ml" 80 2708 2755
+call(
+  tail
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 75 2536 2538 "ocaml_src/utils/tbl.ml" 80 2708 2755
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 82 2757 2765 "ocaml_src/utils/tbl.ml" 82 2757 2771
+type(
+  'a -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  def remove "ocaml_src/utils/tbl.ml" 82 2757 2757 "ocaml_src/utils/tbl.ml" 1 0 -1
+)
+"ocaml_src/utils/tbl.ml" 82 2757 2772 "ocaml_src/utils/tbl.ml" 82 2757 2773
+type(
+  'a
+)
+ident(
+  def x "ocaml_src/utils/tbl.ml" 82 2757 2776 "ocaml_src/utils/tbl.ml" 92 2971 3001
+)
+"ocaml_src/utils/tbl.ml" 83 2785 2789 "ocaml_src/utils/tbl.ml" 83 2785 2794
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 84 2798 2804 "ocaml_src/utils/tbl.ml" 84 2798 2809
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 85 2810 2819 "ocaml_src/utils/tbl.ml" 85 2810 2820
+type(
+  ('a, 'b) t
+)
+ident(
+  def l "ocaml_src/utils/tbl.ml" 86 2837 2843 "ocaml_src/utils/tbl.ml" 92 2971 3001
+)
+"ocaml_src/utils/tbl.ml" 85 2810 2822 "ocaml_src/utils/tbl.ml" 85 2810 2823
+type(
+  'a
+)
+ident(
+  def v "ocaml_src/utils/tbl.ml" 86 2837 2843 "ocaml_src/utils/tbl.ml" 92 2971 3001
+)
+"ocaml_src/utils/tbl.ml" 85 2810 2825 "ocaml_src/utils/tbl.ml" 85 2810 2826
+type(
+  'b
+)
+ident(
+  def d "ocaml_src/utils/tbl.ml" 86 2837 2843 "ocaml_src/utils/tbl.ml" 92 2971 3001
+)
+"ocaml_src/utils/tbl.ml" 85 2810 2828 "ocaml_src/utils/tbl.ml" 85 2810 2829
+type(
+  ('a, 'b) t
+)
+ident(
+  def r "ocaml_src/utils/tbl.ml" 86 2837 2843 "ocaml_src/utils/tbl.ml" 92 2971 3001
+)
+"ocaml_src/utils/tbl.ml" 85 2810 2831 "ocaml_src/utils/tbl.ml" 85 2810 2832
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 85 2810 2814 "ocaml_src/utils/tbl.ml" 85 2810 2833
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 86 2837 2847 "ocaml_src/utils/tbl.ml" 86 2837 2848
+type(
+  int
+)
+ident(
+  def c "ocaml_src/utils/tbl.ml" 87 2866 2872 "ocaml_src/utils/tbl.ml" 92 2971 3001
+)
+"ocaml_src/utils/tbl.ml" 86 2837 2851 "ocaml_src/utils/tbl.ml" 86 2837 2858
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"ocaml_src/utils/tbl.ml" 86 2837 2859 "ocaml_src/utils/tbl.ml" 86 2837 2860
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 82 2757 2772 "ocaml_src/utils/tbl.ml" 82 2757 2773
+)
+"ocaml_src/utils/tbl.ml" 86 2837 2861 "ocaml_src/utils/tbl.ml" 86 2837 2862
+type(
+  'a
+)
+ident(
+  int_ref v "ocaml_src/utils/tbl.ml" 85 2810 2822 "ocaml_src/utils/tbl.ml" 85 2810 2823
+)
+"ocaml_src/utils/tbl.ml" 86 2837 2851 "ocaml_src/utils/tbl.ml" 86 2837 2862
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 87 2866 2875 "ocaml_src/utils/tbl.ml" 87 2866 2876
+type(
+  int
+)
+ident(
+  int_ref c "ocaml_src/utils/tbl.ml" 86 2837 2847 "ocaml_src/utils/tbl.ml" 86 2837 2848
+)
+"ocaml_src/utils/tbl.ml" 87 2866 2877 "ocaml_src/utils/tbl.ml" 87 2866 2878
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/tbl.ml" 87 2866 2879 "ocaml_src/utils/tbl.ml" 87 2866 2880
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 87 2866 2875 "ocaml_src/utils/tbl.ml" 87 2866 2880
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 88 2886 2894 "ocaml_src/utils/tbl.ml" 88 2886 2899
+type(
+  ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref merge "ocaml_src/utils/tbl.ml" 74 2514 2522 "ocaml_src/utils/tbl.ml" 74 2514 2527
+)
+"ocaml_src/utils/tbl.ml" 88 2886 2900 "ocaml_src/utils/tbl.ml" 88 2886 2901
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 85 2810 2819 "ocaml_src/utils/tbl.ml" 85 2810 2820
+)
+"ocaml_src/utils/tbl.ml" 88 2886 2902 "ocaml_src/utils/tbl.ml" 88 2886 2903
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 85 2810 2828 "ocaml_src/utils/tbl.ml" 85 2810 2829
+)
+"ocaml_src/utils/tbl.ml" 88 2886 2894 "ocaml_src/utils/tbl.ml" 88 2886 2903
+call(
+  tail
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 89 2904 2918 "ocaml_src/utils/tbl.ml" 89 2904 2919
+type(
+  int
+)
+ident(
+  int_ref c "ocaml_src/utils/tbl.ml" 86 2837 2847 "ocaml_src/utils/tbl.ml" 86 2837 2848
+)
+"ocaml_src/utils/tbl.ml" 89 2904 2920 "ocaml_src/utils/tbl.ml" 89 2904 2921
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/utils/tbl.ml" 89 2904 2922 "ocaml_src/utils/tbl.ml" 89 2904 2923
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 89 2904 2918 "ocaml_src/utils/tbl.ml" 89 2904 2923
+type(
+  bool
+)
+"ocaml_src/utils/tbl.ml" 90 2929 2937 "ocaml_src/utils/tbl.ml" 90 2929 2940
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref bal "ocaml_src/utils/tbl.ml" 29 1159 1163 "ocaml_src/utils/tbl.ml" 29 1159 1166
+)
+"ocaml_src/utils/tbl.ml" 90 2929 2942 "ocaml_src/utils/tbl.ml" 90 2929 2948
+type(
+  'a -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref remove "ocaml_src/utils/tbl.ml" 82 2757 2765 "ocaml_src/utils/tbl.ml" 82 2757 2771
+)
+"ocaml_src/utils/tbl.ml" 90 2929 2949 "ocaml_src/utils/tbl.ml" 90 2929 2950
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 82 2757 2772 "ocaml_src/utils/tbl.ml" 82 2757 2773
+)
+"ocaml_src/utils/tbl.ml" 90 2929 2951 "ocaml_src/utils/tbl.ml" 90 2929 2952
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 85 2810 2819 "ocaml_src/utils/tbl.ml" 85 2810 2820
+)
+"ocaml_src/utils/tbl.ml" 90 2929 2941 "ocaml_src/utils/tbl.ml" 90 2929 2953
+call(
+  stack
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 90 2929 2954 "ocaml_src/utils/tbl.ml" 90 2929 2955
+type(
+  'a
+)
+ident(
+  int_ref v "ocaml_src/utils/tbl.ml" 85 2810 2822 "ocaml_src/utils/tbl.ml" 85 2810 2823
+)
+"ocaml_src/utils/tbl.ml" 90 2929 2956 "ocaml_src/utils/tbl.ml" 90 2929 2957
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 85 2810 2825 "ocaml_src/utils/tbl.ml" 85 2810 2826
+)
+"ocaml_src/utils/tbl.ml" 90 2929 2958 "ocaml_src/utils/tbl.ml" 90 2929 2959
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 85 2810 2828 "ocaml_src/utils/tbl.ml" 85 2810 2829
+)
+"ocaml_src/utils/tbl.ml" 90 2929 2937 "ocaml_src/utils/tbl.ml" 90 2929 2959
+call(
+  tail
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 92 2971 2979 "ocaml_src/utils/tbl.ml" 92 2971 2982
+type(
+  ('a, 'b) t -> 'a -> 'b -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref bal "ocaml_src/utils/tbl.ml" 29 1159 1163 "ocaml_src/utils/tbl.ml" 29 1159 1166
+)
+"ocaml_src/utils/tbl.ml" 92 2971 2983 "ocaml_src/utils/tbl.ml" 92 2971 2984
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 85 2810 2819 "ocaml_src/utils/tbl.ml" 85 2810 2820
+)
+"ocaml_src/utils/tbl.ml" 92 2971 2985 "ocaml_src/utils/tbl.ml" 92 2971 2986
+type(
+  'a
+)
+ident(
+  int_ref v "ocaml_src/utils/tbl.ml" 85 2810 2822 "ocaml_src/utils/tbl.ml" 85 2810 2823
+)
+"ocaml_src/utils/tbl.ml" 92 2971 2987 "ocaml_src/utils/tbl.ml" 92 2971 2988
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 85 2810 2825 "ocaml_src/utils/tbl.ml" 85 2810 2826
+)
+"ocaml_src/utils/tbl.ml" 92 2971 2990 "ocaml_src/utils/tbl.ml" 92 2971 2996
+type(
+  'a -> ('a, 'b) t -> ('a, 'b) t
+)
+ident(
+  int_ref remove "ocaml_src/utils/tbl.ml" 82 2757 2765 "ocaml_src/utils/tbl.ml" 82 2757 2771
+)
+"ocaml_src/utils/tbl.ml" 92 2971 2997 "ocaml_src/utils/tbl.ml" 92 2971 2998
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_src/utils/tbl.ml" 82 2757 2772 "ocaml_src/utils/tbl.ml" 82 2757 2773
+)
+"ocaml_src/utils/tbl.ml" 92 2971 2999 "ocaml_src/utils/tbl.ml" 92 2971 3000
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 85 2810 2828 "ocaml_src/utils/tbl.ml" 85 2810 2829
+)
+"ocaml_src/utils/tbl.ml" 92 2971 2989 "ocaml_src/utils/tbl.ml" 92 2971 3001
+call(
+  stack
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 92 2971 2979 "ocaml_src/utils/tbl.ml" 92 2971 3001
+call(
+  tail
+)
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 89 2904 2915 "ocaml_src/utils/tbl.ml" 92 2971 3001
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 87 2866 2872 "ocaml_src/utils/tbl.ml" 92 2971 3001
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 86 2837 2843 "ocaml_src/utils/tbl.ml" 92 2971 3001
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 82 2757 2776 "ocaml_src/utils/tbl.ml" 92 2971 3001
+type(
+  ('a, 'b) t -> ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 94 3003 3011 "ocaml_src/utils/tbl.ml" 94 3003 3015
+type(
+  ('a -> 'b -> 'c) -> ('a, 'b) t -> unit
+)
+ident(
+  def iter "ocaml_src/utils/tbl.ml" 94 3003 3003 "ocaml_src/utils/tbl.ml" 1 0 -1
+)
+"ocaml_src/utils/tbl.ml" 94 3003 3016 "ocaml_src/utils/tbl.ml" 94 3003 3017
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def f "ocaml_src/utils/tbl.ml" 94 3003 3020 "ocaml_src/utils/tbl.ml" 97 3072 3103
+)
+"ocaml_src/utils/tbl.ml" 95 3029 3033 "ocaml_src/utils/tbl.ml" 95 3029 3038
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 95 3029 3042 "ocaml_src/utils/tbl.ml" 95 3029 3044
+type(
+  unit
+)
+"ocaml_src/utils/tbl.ml" 96 3045 3054 "ocaml_src/utils/tbl.ml" 96 3045 3055
+type(
+  ('a, 'b) t
+)
+ident(
+  def l "ocaml_src/utils/tbl.ml" 97 3072 3078 "ocaml_src/utils/tbl.ml" 97 3072 3103
+)
+"ocaml_src/utils/tbl.ml" 96 3045 3057 "ocaml_src/utils/tbl.ml" 96 3045 3058
+type(
+  'a
+)
+ident(
+  def v "ocaml_src/utils/tbl.ml" 97 3072 3078 "ocaml_src/utils/tbl.ml" 97 3072 3103
+)
+"ocaml_src/utils/tbl.ml" 96 3045 3060 "ocaml_src/utils/tbl.ml" 96 3045 3061
+type(
+  'b
+)
+ident(
+  def d "ocaml_src/utils/tbl.ml" 97 3072 3078 "ocaml_src/utils/tbl.ml" 97 3072 3103
+)
+"ocaml_src/utils/tbl.ml" 96 3045 3063 "ocaml_src/utils/tbl.ml" 96 3045 3064
+type(
+  ('a, 'b) t
+)
+ident(
+  def r "ocaml_src/utils/tbl.ml" 97 3072 3078 "ocaml_src/utils/tbl.ml" 97 3072 3103
+)
+"ocaml_src/utils/tbl.ml" 96 3045 3066 "ocaml_src/utils/tbl.ml" 96 3045 3067
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 96 3045 3049 "ocaml_src/utils/tbl.ml" 96 3045 3068
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 97 3072 3078 "ocaml_src/utils/tbl.ml" 97 3072 3082
+type(
+  ('a -> 'b -> 'c) -> ('a, 'b) t -> unit
+)
+ident(
+  int_ref iter "ocaml_src/utils/tbl.ml" 94 3003 3011 "ocaml_src/utils/tbl.ml" 94 3003 3015
+)
+"ocaml_src/utils/tbl.ml" 97 3072 3083 "ocaml_src/utils/tbl.ml" 97 3072 3084
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref f "ocaml_src/utils/tbl.ml" 94 3003 3016 "ocaml_src/utils/tbl.ml" 94 3003 3017
+)
+"ocaml_src/utils/tbl.ml" 97 3072 3085 "ocaml_src/utils/tbl.ml" 97 3072 3086
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 96 3045 3054 "ocaml_src/utils/tbl.ml" 96 3045 3055
+)
+"ocaml_src/utils/tbl.ml" 97 3072 3078 "ocaml_src/utils/tbl.ml" 97 3072 3086
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/tbl.ml" 97 3072 3088 "ocaml_src/utils/tbl.ml" 97 3072 3089
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref f "ocaml_src/utils/tbl.ml" 94 3003 3016 "ocaml_src/utils/tbl.ml" 94 3003 3017
+)
+"ocaml_src/utils/tbl.ml" 97 3072 3090 "ocaml_src/utils/tbl.ml" 97 3072 3091
+type(
+  'a
+)
+ident(
+  int_ref v "ocaml_src/utils/tbl.ml" 96 3045 3057 "ocaml_src/utils/tbl.ml" 96 3045 3058
+)
+"ocaml_src/utils/tbl.ml" 97 3072 3092 "ocaml_src/utils/tbl.ml" 97 3072 3093
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 96 3045 3060 "ocaml_src/utils/tbl.ml" 96 3045 3061
+)
+"ocaml_src/utils/tbl.ml" 97 3072 3088 "ocaml_src/utils/tbl.ml" 97 3072 3093
+call(
+  stack
+)
+type(
+  'c
+)
+"ocaml_src/utils/tbl.ml" 97 3072 3095 "ocaml_src/utils/tbl.ml" 97 3072 3099
+type(
+  ('a -> 'b -> 'c) -> ('a, 'b) t -> unit
+)
+ident(
+  int_ref iter "ocaml_src/utils/tbl.ml" 94 3003 3011 "ocaml_src/utils/tbl.ml" 94 3003 3015
+)
+"ocaml_src/utils/tbl.ml" 97 3072 3100 "ocaml_src/utils/tbl.ml" 97 3072 3101
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref f "ocaml_src/utils/tbl.ml" 94 3003 3016 "ocaml_src/utils/tbl.ml" 94 3003 3017
+)
+"ocaml_src/utils/tbl.ml" 97 3072 3102 "ocaml_src/utils/tbl.ml" 97 3072 3103
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 96 3045 3063 "ocaml_src/utils/tbl.ml" 96 3045 3064
+)
+"ocaml_src/utils/tbl.ml" 97 3072 3095 "ocaml_src/utils/tbl.ml" 97 3072 3103
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/tbl.ml" 97 3072 3088 "ocaml_src/utils/tbl.ml" 97 3072 3103
+type(
+  unit
+)
+"ocaml_src/utils/tbl.ml" 97 3072 3078 "ocaml_src/utils/tbl.ml" 97 3072 3103
+type(
+  unit
+)
+"ocaml_src/utils/tbl.ml" 94 3003 3020 "ocaml_src/utils/tbl.ml" 97 3072 3103
+type(
+  ('a, 'b) t -> unit
+)
+"ocaml_src/utils/tbl.ml" 99 3105 3113 "ocaml_src/utils/tbl.ml" 99 3105 3116
+type(
+  ('a -> 'b -> 'c) -> ('a, 'b) t -> ('a, 'c) t
+)
+ident(
+  def map "ocaml_src/utils/tbl.ml" 99 3105 3105 "ocaml_src/utils/tbl.ml" 1 0 -1
+)
+"ocaml_src/utils/tbl.ml" 99 3105 3117 "ocaml_src/utils/tbl.ml" 99 3105 3118
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def f "ocaml_src/utils/tbl.ml" 99 3105 3121 "ocaml_src/utils/tbl.ml" 101 3149 3211
+)
+"ocaml_src/utils/tbl.ml" 100 3130 3134 "ocaml_src/utils/tbl.ml" 100 3130 3139
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 100 3130 3143 "ocaml_src/utils/tbl.ml" 100 3130 3148
+type(
+  ('a, 'c) t
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3158 "ocaml_src/utils/tbl.ml" 101 3149 3159
+type(
+  ('a, 'b) t
+)
+ident(
+  def l "ocaml_src/utils/tbl.ml" 101 3149 3176 "ocaml_src/utils/tbl.ml" 101 3149 3211
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3161 "ocaml_src/utils/tbl.ml" 101 3149 3162
+type(
+  'a
+)
+ident(
+  def v "ocaml_src/utils/tbl.ml" 101 3149 3176 "ocaml_src/utils/tbl.ml" 101 3149 3211
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3164 "ocaml_src/utils/tbl.ml" 101 3149 3165
+type(
+  'b
+)
+ident(
+  def d "ocaml_src/utils/tbl.ml" 101 3149 3176 "ocaml_src/utils/tbl.ml" 101 3149 3211
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3167 "ocaml_src/utils/tbl.ml" 101 3149 3168
+type(
+  ('a, 'b) t
+)
+ident(
+  def r "ocaml_src/utils/tbl.ml" 101 3149 3176 "ocaml_src/utils/tbl.ml" 101 3149 3211
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3170 "ocaml_src/utils/tbl.ml" 101 3149 3171
+type(
+  int
+)
+ident(
+  def h "ocaml_src/utils/tbl.ml" 101 3149 3176 "ocaml_src/utils/tbl.ml" 101 3149 3211
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3153 "ocaml_src/utils/tbl.ml" 101 3149 3172
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3181 "ocaml_src/utils/tbl.ml" 101 3149 3184
+type(
+  ('a -> 'b -> 'c) -> ('a, 'b) t -> ('a, 'c) t
+)
+ident(
+  int_ref map "ocaml_src/utils/tbl.ml" 99 3105 3113 "ocaml_src/utils/tbl.ml" 99 3105 3116
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3185 "ocaml_src/utils/tbl.ml" 101 3149 3186
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref f "ocaml_src/utils/tbl.ml" 99 3105 3117 "ocaml_src/utils/tbl.ml" 99 3105 3118
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3187 "ocaml_src/utils/tbl.ml" 101 3149 3188
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 101 3149 3158 "ocaml_src/utils/tbl.ml" 101 3149 3159
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3181 "ocaml_src/utils/tbl.ml" 101 3149 3188
+call(
+  stack
+)
+type(
+  ('a, 'c) t
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3190 "ocaml_src/utils/tbl.ml" 101 3149 3191
+type(
+  'a
+)
+ident(
+  int_ref v "ocaml_src/utils/tbl.ml" 101 3149 3161 "ocaml_src/utils/tbl.ml" 101 3149 3162
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3193 "ocaml_src/utils/tbl.ml" 101 3149 3194
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref f "ocaml_src/utils/tbl.ml" 99 3105 3117 "ocaml_src/utils/tbl.ml" 99 3105 3118
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3195 "ocaml_src/utils/tbl.ml" 101 3149 3196
+type(
+  'a
+)
+ident(
+  int_ref v "ocaml_src/utils/tbl.ml" 101 3149 3161 "ocaml_src/utils/tbl.ml" 101 3149 3162
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3197 "ocaml_src/utils/tbl.ml" 101 3149 3198
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 101 3149 3164 "ocaml_src/utils/tbl.ml" 101 3149 3165
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3193 "ocaml_src/utils/tbl.ml" 101 3149 3198
+call(
+  stack
+)
+type(
+  'c
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3200 "ocaml_src/utils/tbl.ml" 101 3149 3203
+type(
+  ('a -> 'b -> 'c) -> ('a, 'b) t -> ('a, 'c) t
+)
+ident(
+  int_ref map "ocaml_src/utils/tbl.ml" 99 3105 3113 "ocaml_src/utils/tbl.ml" 99 3105 3116
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3204 "ocaml_src/utils/tbl.ml" 101 3149 3205
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref f "ocaml_src/utils/tbl.ml" 99 3105 3117 "ocaml_src/utils/tbl.ml" 99 3105 3118
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3206 "ocaml_src/utils/tbl.ml" 101 3149 3207
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 101 3149 3167 "ocaml_src/utils/tbl.ml" 101 3149 3168
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3200 "ocaml_src/utils/tbl.ml" 101 3149 3207
+call(
+  stack
+)
+type(
+  ('a, 'c) t
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3209 "ocaml_src/utils/tbl.ml" 101 3149 3210
+type(
+  int
+)
+ident(
+  int_ref h "ocaml_src/utils/tbl.ml" 101 3149 3170 "ocaml_src/utils/tbl.ml" 101 3149 3171
+)
+"ocaml_src/utils/tbl.ml" 101 3149 3176 "ocaml_src/utils/tbl.ml" 101 3149 3211
+type(
+  ('a, 'c) t
+)
+"ocaml_src/utils/tbl.ml" 99 3105 3121 "ocaml_src/utils/tbl.ml" 101 3149 3211
+type(
+  ('a, 'b) t -> ('a, 'c) t
+)
+"ocaml_src/utils/tbl.ml" 103 3213 3221 "ocaml_src/utils/tbl.ml" 103 3213 3225
+type(
+  ('a -> 'b -> 'c -> 'c) -> ('a, 'b) t -> 'c -> 'c
+)
+ident(
+  def fold "ocaml_src/utils/tbl.ml" 103 3213 3213 "ocaml_src/utils/tbl.ml" 1 0 -1
+)
+"ocaml_src/utils/tbl.ml" 103 3213 3226 "ocaml_src/utils/tbl.ml" 103 3213 3227
+type(
+  'a -> 'b -> 'c -> 'c
+)
+ident(
+  def f "ocaml_src/utils/tbl.ml" 103 3213 3228 "ocaml_src/utils/tbl.ml" 107 3297 3335
+)
+"ocaml_src/utils/tbl.ml" 103 3213 3228 "ocaml_src/utils/tbl.ml" 103 3213 3229
+type(
+  ('a, 'b) t
+)
+ident(
+  def m "ocaml_src/utils/tbl.ml" 103 3213 3230 "ocaml_src/utils/tbl.ml" 107 3297 3335
+)
+"ocaml_src/utils/tbl.ml" 103 3213 3230 "ocaml_src/utils/tbl.ml" 103 3213 3234
+type(
+  'c
+)
+ident(
+  def accu "ocaml_src/utils/tbl.ml" 104 3237 3239 "ocaml_src/utils/tbl.ml" 107 3297 3335
+)
+"ocaml_src/utils/tbl.ml" 104 3237 3245 "ocaml_src/utils/tbl.ml" 104 3237 3246
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref m "ocaml_src/utils/tbl.ml" 103 3213 3228 "ocaml_src/utils/tbl.ml" 103 3213 3229
+)
+"ocaml_src/utils/tbl.ml" 105 3252 3256 "ocaml_src/utils/tbl.ml" 105 3252 3261
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 105 3252 3265 "ocaml_src/utils/tbl.ml" 105 3252 3269
+type(
+  'c
+)
+ident(
+  int_ref accu "ocaml_src/utils/tbl.ml" 103 3213 3230 "ocaml_src/utils/tbl.ml" 103 3213 3234
+)
+"ocaml_src/utils/tbl.ml" 106 3270 3279 "ocaml_src/utils/tbl.ml" 106 3270 3280
+type(
+  ('a, 'b) t
+)
+ident(
+  def l "ocaml_src/utils/tbl.ml" 107 3297 3303 "ocaml_src/utils/tbl.ml" 107 3297 3335
+)
+"ocaml_src/utils/tbl.ml" 106 3270 3282 "ocaml_src/utils/tbl.ml" 106 3270 3283
+type(
+  'a
+)
+ident(
+  def v "ocaml_src/utils/tbl.ml" 107 3297 3303 "ocaml_src/utils/tbl.ml" 107 3297 3335
+)
+"ocaml_src/utils/tbl.ml" 106 3270 3285 "ocaml_src/utils/tbl.ml" 106 3270 3286
+type(
+  'b
+)
+ident(
+  def d "ocaml_src/utils/tbl.ml" 107 3297 3303 "ocaml_src/utils/tbl.ml" 107 3297 3335
+)
+"ocaml_src/utils/tbl.ml" 106 3270 3288 "ocaml_src/utils/tbl.ml" 106 3270 3289
+type(
+  ('a, 'b) t
+)
+ident(
+  def r "ocaml_src/utils/tbl.ml" 107 3297 3303 "ocaml_src/utils/tbl.ml" 107 3297 3335
+)
+"ocaml_src/utils/tbl.ml" 106 3270 3291 "ocaml_src/utils/tbl.ml" 106 3270 3292
+type(
+  int
+)
+"ocaml_src/utils/tbl.ml" 106 3270 3274 "ocaml_src/utils/tbl.ml" 106 3270 3293
+type(
+  ('a, 'b) t
+)
+"ocaml_src/utils/tbl.ml" 107 3297 3303 "ocaml_src/utils/tbl.ml" 107 3297 3307
+type(
+  ('a -> 'b -> 'c -> 'c) -> ('a, 'b) t -> 'c -> 'c
+)
+ident(
+  int_ref fold "ocaml_src/utils/tbl.ml" 103 3213 3221 "ocaml_src/utils/tbl.ml" 103 3213 3225
+)
+"ocaml_src/utils/tbl.ml" 107 3297 3308 "ocaml_src/utils/tbl.ml" 107 3297 3309
+type(
+  'a -> 'b -> 'c -> 'c
+)
+ident(
+  int_ref f "ocaml_src/utils/tbl.ml" 103 3213 3226 "ocaml_src/utils/tbl.ml" 103 3213 3227
+)
+"ocaml_src/utils/tbl.ml" 107 3297 3310 "ocaml_src/utils/tbl.ml" 107 3297 3311
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref r "ocaml_src/utils/tbl.ml" 106 3270 3288 "ocaml_src/utils/tbl.ml" 106 3270 3289
+)
+"ocaml_src/utils/tbl.ml" 107 3297 3313 "ocaml_src/utils/tbl.ml" 107 3297 3314
+type(
+  'a -> 'b -> 'c -> 'c
+)
+ident(
+  int_ref f "ocaml_src/utils/tbl.ml" 103 3213 3226 "ocaml_src/utils/tbl.ml" 103 3213 3227
+)
+"ocaml_src/utils/tbl.ml" 107 3297 3315 "ocaml_src/utils/tbl.ml" 107 3297 3316
+type(
+  'a
+)
+ident(
+  int_ref v "ocaml_src/utils/tbl.ml" 106 3270 3282 "ocaml_src/utils/tbl.ml" 106 3270 3283
+)
+"ocaml_src/utils/tbl.ml" 107 3297 3317 "ocaml_src/utils/tbl.ml" 107 3297 3318
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 106 3270 3285 "ocaml_src/utils/tbl.ml" 106 3270 3286
+)
+"ocaml_src/utils/tbl.ml" 107 3297 3320 "ocaml_src/utils/tbl.ml" 107 3297 3324
+type(
+  ('a -> 'b -> 'c -> 'c) -> ('a, 'b) t -> 'c -> 'c
+)
+ident(
+  int_ref fold "ocaml_src/utils/tbl.ml" 103 3213 3221 "ocaml_src/utils/tbl.ml" 103 3213 3225
+)
+"ocaml_src/utils/tbl.ml" 107 3297 3325 "ocaml_src/utils/tbl.ml" 107 3297 3326
+type(
+  'a -> 'b -> 'c -> 'c
+)
+ident(
+  int_ref f "ocaml_src/utils/tbl.ml" 103 3213 3226 "ocaml_src/utils/tbl.ml" 103 3213 3227
+)
+"ocaml_src/utils/tbl.ml" 107 3297 3327 "ocaml_src/utils/tbl.ml" 107 3297 3328
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref l "ocaml_src/utils/tbl.ml" 106 3270 3279 "ocaml_src/utils/tbl.ml" 106 3270 3280
+)
+"ocaml_src/utils/tbl.ml" 107 3297 3329 "ocaml_src/utils/tbl.ml" 107 3297 3333
+type(
+  'c
+)
+ident(
+  int_ref accu "ocaml_src/utils/tbl.ml" 103 3213 3230 "ocaml_src/utils/tbl.ml" 103 3213 3234
+)
+"ocaml_src/utils/tbl.ml" 107 3297 3319 "ocaml_src/utils/tbl.ml" 107 3297 3334
+call(
+  stack
+)
+type(
+  'c
+)
+"ocaml_src/utils/tbl.ml" 107 3297 3312 "ocaml_src/utils/tbl.ml" 107 3297 3335
+call(
+  stack
+)
+type(
+  'c
+)
+"ocaml_src/utils/tbl.ml" 107 3297 3303 "ocaml_src/utils/tbl.ml" 107 3297 3335
+call(
+  tail
+)
+type(
+  'c
+)
+"ocaml_src/utils/tbl.ml" 104 3237 3239 "ocaml_src/utils/tbl.ml" 107 3297 3335
+type(
+  'c
+)
+"ocaml_src/utils/tbl.ml" 111 3350 3354 "ocaml_src/utils/tbl.ml" 111 3350 3359
+type(
+  (Format.formatter -> 'a -> unit) ->
+  (Format.formatter -> 'b -> unit) -> Format.formatter -> ('a, 'b) t -> unit
+)
+ident(
+  def print "ocaml_src/utils/tbl.ml" 115 3511 3557 "ocaml_src/utils/tbl.ml" 1 0 -1
+)
+"ocaml_src/utils/tbl.ml" 111 3350 3360 "ocaml_src/utils/tbl.ml" 111 3350 3369
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def print_key "ocaml_src/utils/tbl.ml" 111 3350 3370 "ocaml_src/utils/tbl.ml" 115 3511 3557
+)
+"ocaml_src/utils/tbl.ml" 111 3350 3370 "ocaml_src/utils/tbl.ml" 111 3350 3380
+type(
+  Format.formatter -> 'b -> unit
+)
+ident(
+  def print_data "ocaml_src/utils/tbl.ml" 111 3350 3381 "ocaml_src/utils/tbl.ml" 115 3511 3557
+)
+"ocaml_src/utils/tbl.ml" 111 3350 3381 "ocaml_src/utils/tbl.ml" 111 3350 3384
+type(
+  Format.formatter
+)
+ident(
+  def ppf "ocaml_src/utils/tbl.ml" 111 3350 3385 "ocaml_src/utils/tbl.ml" 115 3511 3557
+)
+"ocaml_src/utils/tbl.ml" 111 3350 3385 "ocaml_src/utils/tbl.ml" 111 3350 3388
+type(
+  ('a, 'b) t
+)
+ident(
+  def tbl "ocaml_src/utils/tbl.ml" 112 3391 3393 "ocaml_src/utils/tbl.ml" 115 3511 3557
+)
+"ocaml_src/utils/tbl.ml" 112 3391 3397 "ocaml_src/utils/tbl.ml" 112 3391 3406
+type(
+  Format.formatter -> ('a, 'b) t -> unit
+)
+ident(
+  def print_tbl "ocaml_src/utils/tbl.ml" 115 3511 3513 "ocaml_src/utils/tbl.ml" 115 3511 3557
+)
+"ocaml_src/utils/tbl.ml" 112 3391 3407 "ocaml_src/utils/tbl.ml" 112 3391 3410
+type(
+  Format.formatter
+)
+ident(
+  def ppf "ocaml_src/utils/tbl.ml" 112 3391 3411 "ocaml_src/utils/tbl.ml" 114 3498 3507
+)
+"ocaml_src/utils/tbl.ml" 112 3391 3411 "ocaml_src/utils/tbl.ml" 112 3391 3414
+type(
+  ('a, 'b) t
+)
+ident(
+  def tbl "ocaml_src/utils/tbl.ml" 113 3417 3421 "ocaml_src/utils/tbl.ml" 114 3498 3507
+)
+"ocaml_src/utils/tbl.ml" 113 3417 3421 "ocaml_src/utils/tbl.ml" 113 3417 3425
+type(
+  ('a -> 'b -> unit) -> ('a, 'b) t -> unit
+)
+ident(
+  int_ref iter "ocaml_src/utils/tbl.ml" 94 3003 3011 "ocaml_src/utils/tbl.ml" 94 3003 3015
+)
+"ocaml_src/utils/tbl.ml" 113 3417 3431 "ocaml_src/utils/tbl.ml" 113 3417 3432
+type(
+  'a
+)
+ident(
+  def k "ocaml_src/utils/tbl.ml" 113 3417 3433 "ocaml_src/utils/tbl.ml" 113 3417 3496
+)
+"ocaml_src/utils/tbl.ml" 113 3417 3433 "ocaml_src/utils/tbl.ml" 113 3417 3434
+type(
+  'b
+)
+ident(
+  def d "ocaml_src/utils/tbl.ml" 113 3417 3438 "ocaml_src/utils/tbl.ml" 113 3417 3496
+)
+"ocaml_src/utils/tbl.ml" 113 3417 3438 "ocaml_src/utils/tbl.ml" 113 3417 3445
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> (Format.formatter -> 'b -> unit) -> 'b -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> 'a -> unit) ->
+  'a -> (Format.formatter -> 'b -> unit) -> 'b -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/utils/tbl.ml" 113 3417 3446 "ocaml_src/utils/tbl.ml" 113 3417 3449
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/utils/tbl.ml" 112 3391 3407 "ocaml_src/utils/tbl.ml" 112 3391 3410
+)
+"ocaml_src/utils/tbl.ml" 113 3417 3450 "ocaml_src/utils/tbl.ml" 113 3417 3471
+type(
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> (Format.formatter -> 'b -> unit) -> 'b -> unit, Format.formatter,
+   unit)
+  format
+)
+"ocaml_src/utils/tbl.ml" 113 3417 3472 "ocaml_src/utils/tbl.ml" 113 3417 3481
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref print_key "ocaml_src/utils/tbl.ml" 111 3350 3360 "ocaml_src/utils/tbl.ml" 111 3350 3369
+)
+"ocaml_src/utils/tbl.ml" 113 3417 3482 "ocaml_src/utils/tbl.ml" 113 3417 3483
+type(
+  'a
+)
+ident(
+  int_ref k "ocaml_src/utils/tbl.ml" 113 3417 3431 "ocaml_src/utils/tbl.ml" 113 3417 3432
+)
+"ocaml_src/utils/tbl.ml" 113 3417 3484 "ocaml_src/utils/tbl.ml" 113 3417 3494
+type(
+  Format.formatter -> 'b -> unit
+)
+ident(
+  int_ref print_data "ocaml_src/utils/tbl.ml" 111 3350 3370 "ocaml_src/utils/tbl.ml" 111 3350 3380
+)
+"ocaml_src/utils/tbl.ml" 113 3417 3495 "ocaml_src/utils/tbl.ml" 113 3417 3496
+type(
+  'b
+)
+ident(
+  int_ref d "ocaml_src/utils/tbl.ml" 113 3417 3433 "ocaml_src/utils/tbl.ml" 113 3417 3434
+)
+"ocaml_src/utils/tbl.ml" 113 3417 3438 "ocaml_src/utils/tbl.ml" 113 3417 3496
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/tbl.ml" 113 3417 3426 "ocaml_src/utils/tbl.ml" 113 3417 3497
+type(
+  'a -> 'b -> unit
+)
+"ocaml_src/utils/tbl.ml" 114 3498 3504 "ocaml_src/utils/tbl.ml" 114 3498 3507
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref tbl "ocaml_src/utils/tbl.ml" 112 3391 3411 "ocaml_src/utils/tbl.ml" 112 3391 3414
+)
+"ocaml_src/utils/tbl.ml" 113 3417 3421 "ocaml_src/utils/tbl.ml" 114 3498 3507
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/tbl.ml" 115 3511 3513 "ocaml_src/utils/tbl.ml" 115 3511 3520
+type(
+  Format.formatter ->
+  ((Format.formatter -> ('a, 'b) t -> unit) -> ('a, 'b) t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> ('a, 'b) t -> unit) -> ('a, 'b) t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/utils/tbl.ml" 115 3511 3521 "ocaml_src/utils/tbl.ml" 115 3511 3524
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/utils/tbl.ml" 111 3350 3381 "ocaml_src/utils/tbl.ml" 111 3350 3384
+)
+"ocaml_src/utils/tbl.ml" 115 3511 3525 "ocaml_src/utils/tbl.ml" 115 3511 3543
+type(
+  ((Format.formatter -> ('a, 'b) t -> unit) -> ('a, 'b) t -> unit,
+   Format.formatter, unit)
+  format
+)
+"ocaml_src/utils/tbl.ml" 115 3511 3544 "ocaml_src/utils/tbl.ml" 115 3511 3553
+type(
+  Format.formatter -> ('a, 'b) t -> unit
+)
+ident(
+  int_ref print_tbl "ocaml_src/utils/tbl.ml" 112 3391 3397 "ocaml_src/utils/tbl.ml" 112 3391 3406
+)
+"ocaml_src/utils/tbl.ml" 115 3511 3554 "ocaml_src/utils/tbl.ml" 115 3511 3557
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref tbl "ocaml_src/utils/tbl.ml" 111 3350 3385 "ocaml_src/utils/tbl.ml" 111 3350 3388
+)
+"ocaml_src/utils/tbl.ml" 115 3511 3513 "ocaml_src/utils/tbl.ml" 115 3511 3557
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/tbl.ml" 112 3391 3393 "ocaml_src/utils/tbl.ml" 115 3511 3557
+type(
+  unit
+)

@@ -1,0 +1,638 @@
+"ocaml_src/parsing/longident.ml" 20 951 959 "ocaml_src/parsing/longident.ml" 20 951 963
+type(
+  string list -> t -> string list
+)
+ident(
+  def flat "ocaml_src/parsing/longident.ml" 20 951 951 "ocaml_src/parsing/longident.ml" 1 0 -1
+)
+"ocaml_src/parsing/longident.ml" 20 951 964 "ocaml_src/parsing/longident.ml" 20 951 968
+type(
+  string list
+)
+ident(
+  def accu "ocaml_src/parsing/longident.ml" 20 951 971 "ocaml_src/parsing/longident.ml" 23 1047 1100
+)
+"ocaml_src/parsing/longident.ml" 21 980 991 "ocaml_src/parsing/longident.ml" 21 980 992
+type(
+  string
+)
+ident(
+  def s "ocaml_src/parsing/longident.ml" 21 980 996 "ocaml_src/parsing/longident.ml" 21 980 1005
+)
+"ocaml_src/parsing/longident.ml" 21 980 984 "ocaml_src/parsing/longident.ml" 21 980 992
+type(
+  t
+)
+"ocaml_src/parsing/longident.ml" 21 980 996 "ocaml_src/parsing/longident.ml" 21 980 997
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/longident.ml" 21 980 991 "ocaml_src/parsing/longident.ml" 21 980 992
+)
+"ocaml_src/parsing/longident.ml" 21 980 1001 "ocaml_src/parsing/longident.ml" 21 980 1005
+type(
+  string list
+)
+ident(
+  int_ref accu "ocaml_src/parsing/longident.ml" 20 951 964 "ocaml_src/parsing/longident.ml" 20 951 968
+)
+"ocaml_src/parsing/longident.ml" 21 980 996 "ocaml_src/parsing/longident.ml" 21 980 1005
+type(
+  string list
+)
+"ocaml_src/parsing/longident.ml" 22 1006 1015 "ocaml_src/parsing/longident.ml" 22 1006 1018
+type(
+  t
+)
+ident(
+  def lid "ocaml_src/parsing/longident.ml" 22 1006 1026 "ocaml_src/parsing/longident.ml" 22 1006 1046
+)
+"ocaml_src/parsing/longident.ml" 22 1006 1020 "ocaml_src/parsing/longident.ml" 22 1006 1021
+type(
+  string
+)
+ident(
+  def s "ocaml_src/parsing/longident.ml" 22 1006 1026 "ocaml_src/parsing/longident.ml" 22 1006 1046
+)
+"ocaml_src/parsing/longident.ml" 22 1006 1010 "ocaml_src/parsing/longident.ml" 22 1006 1022
+type(
+  t
+)
+"ocaml_src/parsing/longident.ml" 22 1006 1026 "ocaml_src/parsing/longident.ml" 22 1006 1030
+type(
+  string list -> t -> string list
+)
+ident(
+  int_ref flat "ocaml_src/parsing/longident.ml" 20 951 959 "ocaml_src/parsing/longident.ml" 20 951 963
+)
+"ocaml_src/parsing/longident.ml" 22 1006 1032 "ocaml_src/parsing/longident.ml" 22 1006 1033
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/longident.ml" 22 1006 1020 "ocaml_src/parsing/longident.ml" 22 1006 1021
+)
+"ocaml_src/parsing/longident.ml" 22 1006 1037 "ocaml_src/parsing/longident.ml" 22 1006 1041
+type(
+  string list
+)
+ident(
+  int_ref accu "ocaml_src/parsing/longident.ml" 20 951 964 "ocaml_src/parsing/longident.ml" 20 951 968
+)
+"ocaml_src/parsing/longident.ml" 22 1006 1031 "ocaml_src/parsing/longident.ml" 22 1006 1042
+type(
+  string list
+)
+"ocaml_src/parsing/longident.ml" 22 1006 1043 "ocaml_src/parsing/longident.ml" 22 1006 1046
+type(
+  t
+)
+ident(
+  int_ref lid "ocaml_src/parsing/longident.ml" 22 1006 1015 "ocaml_src/parsing/longident.ml" 22 1006 1018
+)
+"ocaml_src/parsing/longident.ml" 22 1006 1026 "ocaml_src/parsing/longident.ml" 22 1006 1046
+call(
+  tail
+)
+type(
+  string list
+)
+"ocaml_src/parsing/longident.ml" 23 1047 1058 "ocaml_src/parsing/longident.ml" 23 1047 1059
+type(
+  t
+)
+"ocaml_src/parsing/longident.ml" 23 1047 1061 "ocaml_src/parsing/longident.ml" 23 1047 1062
+type(
+  t
+)
+"ocaml_src/parsing/longident.ml" 23 1047 1051 "ocaml_src/parsing/longident.ml" 23 1047 1063
+type(
+  t
+)
+"ocaml_src/parsing/longident.ml" 23 1047 1067 "ocaml_src/parsing/longident.ml" 23 1047 1083
+type(
+  string -> string list
+)
+ident(
+  ext_ref Misc.fatal_error
+)
+"ocaml_src/parsing/longident.ml" 23 1047 1084 "ocaml_src/parsing/longident.ml" 23 1047 1100
+type(
+  string
+)
+"ocaml_src/parsing/longident.ml" 23 1047 1067 "ocaml_src/parsing/longident.ml" 23 1047 1100
+call(
+  tail
+)
+type(
+  string list
+)
+"ocaml_src/parsing/longident.ml" 20 951 971 "ocaml_src/parsing/longident.ml" 23 1047 1100
+type(
+  t -> string list
+)
+"ocaml_src/parsing/longident.ml" 25 1102 1106 "ocaml_src/parsing/longident.ml" 25 1102 1113
+type(
+  t -> string list
+)
+ident(
+  def flatten "ocaml_src/parsing/longident.ml" 27 1133 1133 "ocaml_src/parsing/longident.ml" 1 0 -1
+)
+"ocaml_src/parsing/longident.ml" 25 1102 1114 "ocaml_src/parsing/longident.ml" 25 1102 1117
+type(
+  t
+)
+ident(
+  def lid "ocaml_src/parsing/longident.ml" 25 1102 1120 "ocaml_src/parsing/longident.ml" 25 1102 1131
+)
+"ocaml_src/parsing/longident.ml" 25 1102 1120 "ocaml_src/parsing/longident.ml" 25 1102 1124
+type(
+  string list -> t -> string list
+)
+ident(
+  int_ref flat "ocaml_src/parsing/longident.ml" 20 951 959 "ocaml_src/parsing/longident.ml" 20 951 963
+)
+"ocaml_src/parsing/longident.ml" 25 1102 1125 "ocaml_src/parsing/longident.ml" 25 1102 1127
+type(
+  string list
+)
+"ocaml_src/parsing/longident.ml" 25 1102 1128 "ocaml_src/parsing/longident.ml" 25 1102 1131
+type(
+  t
+)
+ident(
+  int_ref lid "ocaml_src/parsing/longident.ml" 25 1102 1114 "ocaml_src/parsing/longident.ml" 25 1102 1117
+)
+"ocaml_src/parsing/longident.ml" 25 1102 1120 "ocaml_src/parsing/longident.ml" 25 1102 1131
+call(
+  tail
+)
+type(
+  string list
+)
+"ocaml_src/parsing/longident.ml" 27 1133 1137 "ocaml_src/parsing/longident.ml" 27 1133 1141
+type(
+  t -> string
+)
+ident(
+  def last "ocaml_src/parsing/longident.ml" 32 1249 1249 "ocaml_src/parsing/longident.ml" 1 0 -1
+)
+"ocaml_src/parsing/longident.ml" 28 1153 1164 "ocaml_src/parsing/longident.ml" 28 1153 1165
+type(
+  string
+)
+ident(
+  def s "ocaml_src/parsing/longident.ml" 28 1153 1169 "ocaml_src/parsing/longident.ml" 28 1153 1170
+)
+"ocaml_src/parsing/longident.ml" 28 1153 1157 "ocaml_src/parsing/longident.ml" 28 1153 1165
+type(
+  t
+)
+"ocaml_src/parsing/longident.ml" 28 1153 1169 "ocaml_src/parsing/longident.ml" 28 1153 1170
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/longident.ml" 28 1153 1164 "ocaml_src/parsing/longident.ml" 28 1153 1165
+)
+"ocaml_src/parsing/longident.ml" 29 1171 1180 "ocaml_src/parsing/longident.ml" 29 1171 1184
+type(
+  t
+)
+ident(
+  def _lid "ocaml_src/parsing/longident.ml" 29 1171 1192 "ocaml_src/parsing/longident.ml" 29 1171 1193
+)
+"ocaml_src/parsing/longident.ml" 29 1171 1186 "ocaml_src/parsing/longident.ml" 29 1171 1187
+type(
+  string
+)
+ident(
+  def s "ocaml_src/parsing/longident.ml" 29 1171 1192 "ocaml_src/parsing/longident.ml" 29 1171 1193
+)
+"ocaml_src/parsing/longident.ml" 29 1171 1175 "ocaml_src/parsing/longident.ml" 29 1171 1188
+type(
+  t
+)
+"ocaml_src/parsing/longident.ml" 29 1171 1192 "ocaml_src/parsing/longident.ml" 29 1171 1193
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/longident.ml" 29 1171 1186 "ocaml_src/parsing/longident.ml" 29 1171 1187
+)
+"ocaml_src/parsing/longident.ml" 30 1194 1205 "ocaml_src/parsing/longident.ml" 30 1194 1206
+type(
+  t
+)
+"ocaml_src/parsing/longident.ml" 30 1194 1208 "ocaml_src/parsing/longident.ml" 30 1194 1209
+type(
+  t
+)
+"ocaml_src/parsing/longident.ml" 30 1194 1198 "ocaml_src/parsing/longident.ml" 30 1194 1210
+type(
+  t
+)
+"ocaml_src/parsing/longident.ml" 30 1194 1214 "ocaml_src/parsing/longident.ml" 30 1194 1230
+type(
+  string -> string
+)
+ident(
+  ext_ref Misc.fatal_error
+)
+"ocaml_src/parsing/longident.ml" 30 1194 1231 "ocaml_src/parsing/longident.ml" 30 1194 1247
+type(
+  string
+)
+"ocaml_src/parsing/longident.ml" 30 1194 1214 "ocaml_src/parsing/longident.ml" 30 1194 1247
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/parsing/longident.ml" 27 1133 1144 "ocaml_src/parsing/longident.ml" 30 1194 1247
+type(
+  t -> string
+)
+"ocaml_src/parsing/longident.ml" 32 1249 1257 "ocaml_src/parsing/longident.ml" 32 1249 1270
+type(
+  string -> int -> string list
+)
+ident(
+  def split_at_dots "ocaml_src/parsing/longident.ml" 32 1249 1249 "ocaml_src/parsing/longident.ml" 1 0 -1
+)
+"ocaml_src/parsing/longident.ml" 32 1249 1271 "ocaml_src/parsing/longident.ml" 32 1249 1272
+type(
+  string
+)
+ident(
+  def s "ocaml_src/parsing/longident.ml" 32 1249 1273 "ocaml_src/parsing/longident.ml" 37 1412 1458
+)
+"ocaml_src/parsing/longident.ml" 32 1249 1273 "ocaml_src/parsing/longident.ml" 32 1249 1276
+type(
+  int
+)
+ident(
+  def pos "ocaml_src/parsing/longident.ml" 33 1279 1281 "ocaml_src/parsing/longident.ml" 37 1412 1458
+)
+"ocaml_src/parsing/longident.ml" 34 1285 1293 "ocaml_src/parsing/longident.ml" 34 1285 1296
+type(
+  int
+)
+ident(
+  def dot "ocaml_src/parsing/longident.ml" 35 1330 1334 "ocaml_src/parsing/longident.ml" 35 1330 1391
+)
+"ocaml_src/parsing/longident.ml" 34 1285 1299 "ocaml_src/parsing/longident.ml" 34 1285 1316
+type(
+  string -> int -> char -> int
+)
+ident(
+  ext_ref String.index_from
+)
+"ocaml_src/parsing/longident.ml" 34 1285 1317 "ocaml_src/parsing/longident.ml" 34 1285 1318
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/longident.ml" 32 1249 1271 "ocaml_src/parsing/longident.ml" 32 1249 1272
+)
+"ocaml_src/parsing/longident.ml" 34 1285 1319 "ocaml_src/parsing/longident.ml" 34 1285 1322
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/longident.ml" 32 1249 1273 "ocaml_src/parsing/longident.ml" 32 1249 1276
+)
+"ocaml_src/parsing/longident.ml" 34 1285 1323 "ocaml_src/parsing/longident.ml" 34 1285 1326
+type(
+  char
+)
+"ocaml_src/parsing/longident.ml" 34 1285 1299 "ocaml_src/parsing/longident.ml" 34 1285 1326
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1334 "ocaml_src/parsing/longident.ml" 35 1330 1344
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1345 "ocaml_src/parsing/longident.ml" 35 1330 1346
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/longident.ml" 32 1249 1271 "ocaml_src/parsing/longident.ml" 32 1249 1272
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1347 "ocaml_src/parsing/longident.ml" 35 1330 1350
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/longident.ml" 32 1249 1273 "ocaml_src/parsing/longident.ml" 32 1249 1276
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1352 "ocaml_src/parsing/longident.ml" 35 1330 1355
+type(
+  int
+)
+ident(
+  int_ref dot "ocaml_src/parsing/longident.ml" 34 1285 1293 "ocaml_src/parsing/longident.ml" 34 1285 1296
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1356 "ocaml_src/parsing/longident.ml" 35 1330 1357
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1358 "ocaml_src/parsing/longident.ml" 35 1330 1361
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/longident.ml" 32 1249 1273 "ocaml_src/parsing/longident.ml" 32 1249 1276
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1351 "ocaml_src/parsing/longident.ml" 35 1330 1362
+type(
+  int
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1334 "ocaml_src/parsing/longident.ml" 35 1330 1362
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1366 "ocaml_src/parsing/longident.ml" 35 1330 1379
+type(
+  string -> int -> string list
+)
+ident(
+  int_ref split_at_dots "ocaml_src/parsing/longident.ml" 32 1249 1257 "ocaml_src/parsing/longident.ml" 32 1249 1270
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1380 "ocaml_src/parsing/longident.ml" 35 1330 1381
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/longident.ml" 32 1249 1271 "ocaml_src/parsing/longident.ml" 32 1249 1272
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1383 "ocaml_src/parsing/longident.ml" 35 1330 1386
+type(
+  int
+)
+ident(
+  int_ref dot "ocaml_src/parsing/longident.ml" 34 1285 1293 "ocaml_src/parsing/longident.ml" 34 1285 1296
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1387 "ocaml_src/parsing/longident.ml" 35 1330 1388
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1389 "ocaml_src/parsing/longident.ml" 35 1330 1390
+type(
+  int
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1382 "ocaml_src/parsing/longident.ml" 35 1330 1391
+type(
+  int
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1366 "ocaml_src/parsing/longident.ml" 35 1330 1391
+call(
+  stack
+)
+type(
+  string list
+)
+"ocaml_src/parsing/longident.ml" 35 1330 1334 "ocaml_src/parsing/longident.ml" 35 1330 1391
+type(
+  string list
+)
+"ocaml_src/parsing/longident.ml" 34 1285 1289 "ocaml_src/parsing/longident.ml" 35 1330 1391
+type(
+  string list
+)
+"ocaml_src/parsing/longident.ml" 36 1392 1399 "ocaml_src/parsing/longident.ml" 36 1392 1408
+type(
+  exn
+)
+"ocaml_src/parsing/longident.ml" 37 1412 1417 "ocaml_src/parsing/longident.ml" 37 1412 1427
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"ocaml_src/parsing/longident.ml" 37 1412 1428 "ocaml_src/parsing/longident.ml" 37 1412 1429
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/longident.ml" 32 1249 1271 "ocaml_src/parsing/longident.ml" 32 1249 1272
+)
+"ocaml_src/parsing/longident.ml" 37 1412 1430 "ocaml_src/parsing/longident.ml" 37 1412 1433
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/longident.ml" 32 1249 1273 "ocaml_src/parsing/longident.ml" 32 1249 1276
+)
+"ocaml_src/parsing/longident.ml" 37 1412 1435 "ocaml_src/parsing/longident.ml" 37 1412 1448
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/parsing/longident.ml" 37 1412 1449 "ocaml_src/parsing/longident.ml" 37 1412 1450
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/longident.ml" 32 1249 1271 "ocaml_src/parsing/longident.ml" 32 1249 1272
+)
+"ocaml_src/parsing/longident.ml" 37 1412 1435 "ocaml_src/parsing/longident.ml" 37 1412 1450
+type(
+  int
+)
+"ocaml_src/parsing/longident.ml" 37 1412 1451 "ocaml_src/parsing/longident.ml" 37 1412 1452
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/longident.ml" 37 1412 1453 "ocaml_src/parsing/longident.ml" 37 1412 1456
+type(
+  int
+)
+ident(
+  int_ref pos "ocaml_src/parsing/longident.ml" 32 1249 1273 "ocaml_src/parsing/longident.ml" 32 1249 1276
+)
+"ocaml_src/parsing/longident.ml" 37 1412 1434 "ocaml_src/parsing/longident.ml" 37 1412 1457
+type(
+  int
+)
+"ocaml_src/parsing/longident.ml" 37 1412 1417 "ocaml_src/parsing/longident.ml" 37 1412 1457
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/parsing/longident.ml" 37 1412 1416 "ocaml_src/parsing/longident.ml" 37 1412 1458
+type(
+  string list
+)
+"ocaml_src/parsing/longident.ml" 33 1279 1281 "ocaml_src/parsing/longident.ml" 37 1412 1458
+type(
+  string list
+)
+"ocaml_src/parsing/longident.ml" 39 1460 1464 "ocaml_src/parsing/longident.ml" 39 1460 1469
+type(
+  string -> t
+)
+ident(
+  def parse "ocaml_src/parsing/longident.ml" 43 1652 1721 "ocaml_src/parsing/longident.ml" 1 0 -1
+)
+"ocaml_src/parsing/longident.ml" 39 1460 1470 "ocaml_src/parsing/longident.ml" 39 1460 1471
+type(
+  string
+)
+ident(
+  def s "ocaml_src/parsing/longident.ml" 40 1474 1476 "ocaml_src/parsing/longident.ml" 43 1652 1721
+)
+"ocaml_src/parsing/longident.ml" 40 1474 1482 "ocaml_src/parsing/longident.ml" 40 1474 1495
+type(
+  string -> int -> string list
+)
+ident(
+  int_ref split_at_dots "ocaml_src/parsing/longident.ml" 32 1249 1257 "ocaml_src/parsing/longident.ml" 32 1249 1270
+)
+"ocaml_src/parsing/longident.ml" 40 1474 1496 "ocaml_src/parsing/longident.ml" 40 1474 1497
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/longident.ml" 39 1460 1470 "ocaml_src/parsing/longident.ml" 39 1460 1471
+)
+"ocaml_src/parsing/longident.ml" 40 1474 1498 "ocaml_src/parsing/longident.ml" 40 1474 1499
+type(
+  int
+)
+"ocaml_src/parsing/longident.ml" 40 1474 1482 "ocaml_src/parsing/longident.ml" 40 1474 1499
+call(
+  stack
+)
+type(
+  string list
+)
+"ocaml_src/parsing/longident.ml" 41 1505 1509 "ocaml_src/parsing/longident.ml" 41 1505 1511
+type(
+  string list
+)
+"ocaml_src/parsing/longident.ml" 41 1505 1522 "ocaml_src/parsing/longident.ml" 41 1505 1524
+type(
+  string
+)
+"ocaml_src/parsing/longident.ml" 41 1505 1515 "ocaml_src/parsing/longident.ml" 41 1505 1524
+type(
+  t
+)
+"ocaml_src/parsing/longident.ml" 43 1652 1656 "ocaml_src/parsing/longident.ml" 43 1652 1658
+type(
+  string
+)
+ident(
+  def hd "ocaml_src/parsing/longident.ml" 43 1652 1668 "ocaml_src/parsing/longident.ml" 43 1652 1721
+)
+"ocaml_src/parsing/longident.ml" 43 1652 1662 "ocaml_src/parsing/longident.ml" 43 1652 1664
+type(
+  string list
+)
+ident(
+  def tl "ocaml_src/parsing/longident.ml" 43 1652 1668 "ocaml_src/parsing/longident.ml" 43 1652 1721
+)
+"ocaml_src/parsing/longident.ml" 43 1652 1656 "ocaml_src/parsing/longident.ml" 43 1652 1664
+type(
+  string list
+)
+"ocaml_src/parsing/longident.ml" 43 1652 1668 "ocaml_src/parsing/longident.ml" 43 1652 1682
+type(
+  (t -> string -> t) -> t -> string list -> t
+)
+ident(
+  ext_ref List.fold_left
+)
+"ocaml_src/parsing/longident.ml" 43 1652 1688 "ocaml_src/parsing/longident.ml" 43 1652 1689
+type(
+  t
+)
+ident(
+  def p "ocaml_src/parsing/longident.ml" 43 1652 1690 "ocaml_src/parsing/longident.ml" 43 1652 1705
+)
+"ocaml_src/parsing/longident.ml" 43 1652 1690 "ocaml_src/parsing/longident.ml" 43 1652 1691
+type(
+  string
+)
+ident(
+  def s "ocaml_src/parsing/longident.ml" 43 1652 1695 "ocaml_src/parsing/longident.ml" 43 1652 1705
+)
+"ocaml_src/parsing/longident.ml" 43 1652 1700 "ocaml_src/parsing/longident.ml" 43 1652 1701
+type(
+  t
+)
+ident(
+  int_ref p "ocaml_src/parsing/longident.ml" 43 1652 1688 "ocaml_src/parsing/longident.ml" 43 1652 1689
+)
+"ocaml_src/parsing/longident.ml" 43 1652 1703 "ocaml_src/parsing/longident.ml" 43 1652 1704
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/longident.ml" 43 1652 1690 "ocaml_src/parsing/longident.ml" 43 1652 1691
+)
+"ocaml_src/parsing/longident.ml" 43 1652 1695 "ocaml_src/parsing/longident.ml" 43 1652 1705
+type(
+  t
+)
+"ocaml_src/parsing/longident.ml" 43 1652 1683 "ocaml_src/parsing/longident.ml" 43 1652 1706
+type(
+  t -> string -> t
+)
+"ocaml_src/parsing/longident.ml" 43 1652 1715 "ocaml_src/parsing/longident.ml" 43 1652 1717
+type(
+  string
+)
+ident(
+  int_ref hd "ocaml_src/parsing/longident.ml" 43 1652 1656 "ocaml_src/parsing/longident.ml" 43 1652 1658
+)
+"ocaml_src/parsing/longident.ml" 43 1652 1707 "ocaml_src/parsing/longident.ml" 43 1652 1718
+type(
+  t
+)
+"ocaml_src/parsing/longident.ml" 43 1652 1719 "ocaml_src/parsing/longident.ml" 43 1652 1721
+type(
+  string list
+)
+ident(
+  int_ref tl "ocaml_src/parsing/longident.ml" 43 1652 1662 "ocaml_src/parsing/longident.ml" 43 1652 1664
+)
+"ocaml_src/parsing/longident.ml" 43 1652 1668 "ocaml_src/parsing/longident.ml" 43 1652 1721
+call(
+  tail
+)
+type(
+  t
+)
+"ocaml_src/parsing/longident.ml" 40 1474 1476 "ocaml_src/parsing/longident.ml" 43 1652 1721
+type(
+  t
+)

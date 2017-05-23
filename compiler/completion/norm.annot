@@ -1,0 +1,596 @@
+"completion/norm.ml" 25 1173 1177 "completion/norm.ml" 25 1173 1191
+type(
+  Rule.rule -> Term.term -> Term.term option
+)
+ident(
+  def hd_one_red_opt "completion/norm.ml" 31 1328 1328 "completion/norm.ml" 1 0 -1
+)
+"completion/norm.ml" 25 1173 1197 "completion/norm.ml" 25 1173 1198
+type(
+  Term.term
+)
+ident(
+  def l "completion/norm.ml" 25 1173 1203 "completion/norm.ml" 27 1259 1283
+)
+"completion/norm.ml" 25 1173 1199 "completion/norm.ml" 25 1173 1200
+type(
+  Term.term
+)
+ident(
+  def r "completion/norm.ml" 25 1173 1203 "completion/norm.ml" 27 1259 1283
+)
+"completion/norm.ml" 25 1173 1192 "completion/norm.ml" 25 1173 1202
+type(
+  Rule.rule
+)
+"completion/norm.ml" 25 1173 1203 "completion/norm.ml" 25 1173 1204
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm.ml" 26 1207 1209 "completion/norm.ml" 27 1259 1283
+)
+"completion/norm.ml" 26 1207 1217 "completion/norm.ml" 26 1207 1218
+type(
+  Subs.subs
+)
+ident(
+  def s "completion/norm.ml" 26 1207 1242 "completion/norm.ml" 26 1207 1258
+)
+"completion/norm.ml" 26 1207 1221 "completion/norm.ml" 26 1207 1234
+type(
+  Match.pattern -> Term.term -> Subs.subs
+)
+ident(
+  ext_ref Match.matching_subs
+)
+"completion/norm.ml" 26 1207 1235 "completion/norm.ml" 26 1207 1236
+type(
+  Match.pattern
+)
+ident(
+  int_ref l "completion/norm.ml" 25 1173 1197 "completion/norm.ml" 25 1173 1198
+)
+"completion/norm.ml" 26 1207 1237 "completion/norm.ml" 26 1207 1238
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm.ml" 25 1173 1203 "completion/norm.ml" 25 1173 1204
+)
+"completion/norm.ml" 26 1207 1221 "completion/norm.ml" 26 1207 1238
+call(
+  stack
+)
+type(
+  Subs.subs
+)
+"completion/norm.ml" 26 1207 1248 "completion/norm.ml" 26 1207 1253
+type(
+  Subs.subs -> Term.term -> Term.term
+)
+ident(
+  ext_ref Subs.apply
+)
+"completion/norm.ml" 26 1207 1254 "completion/norm.ml" 26 1207 1255
+type(
+  Subs.subs
+)
+ident(
+  int_ref s "completion/norm.ml" 26 1207 1217 "completion/norm.ml" 26 1207 1218
+)
+"completion/norm.ml" 26 1207 1256 "completion/norm.ml" 26 1207 1257
+type(
+  Term.term
+)
+ident(
+  int_ref r "completion/norm.ml" 25 1173 1199 "completion/norm.ml" 25 1173 1200
+)
+"completion/norm.ml" 26 1207 1247 "completion/norm.ml" 26 1207 1258
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/norm.ml" 26 1207 1242 "completion/norm.ml" 26 1207 1258
+type(
+  Term.term option
+)
+"completion/norm.ml" 26 1207 1213 "completion/norm.ml" 26 1207 1258
+type(
+  Term.term option
+)
+"completion/norm.ml" 27 1259 1274 "completion/norm.ml" 27 1259 1275
+type(
+  string
+)
+"completion/norm.ml" 27 1259 1266 "completion/norm.ml" 27 1259 1275
+type(
+  exn
+)
+"completion/norm.ml" 27 1259 1279 "completion/norm.ml" 27 1259 1283
+type(
+  Term.term option
+)
+"completion/norm.ml" 26 1207 1209 "completion/norm.ml" 27 1259 1283
+type(
+  Term.term option
+)
+"completion/norm.ml" 31 1328 1332 "completion/norm.ml" 31 1328 1342
+type(
+  Rule.RulSet.t -> Term.term -> Term.term option
+)
+ident(
+  def hd_red_opt "completion/norm.ml" 35 1437 1437 "completion/norm.ml" 1 0 -1
+)
+"completion/norm.ml" 31 1328 1343 "completion/norm.ml" 31 1328 1345
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/norm.ml" 31 1328 1346 "completion/norm.ml" 31 1328 1398
+)
+"completion/norm.ml" 31 1328 1346 "completion/norm.ml" 31 1328 1347
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm.ml" 31 1328 1350 "completion/norm.ml" 31 1328 1398
+)
+"completion/norm.ml" 31 1328 1350 "completion/norm.ml" 31 1328 1365
+type(
+  (Rule.RulSet.elt -> Term.term option) -> Rule.RulSet.t -> Term.term option
+)
+ident(
+  ext_ref Rule.RulSet.find_opt
+)
+"completion/norm.ml" 31 1328 1371 "completion/norm.ml" 31 1328 1372
+type(
+  Rule.RulSet.elt
+)
+ident(
+  def e "completion/norm.ml" 31 1328 1376 "completion/norm.ml" 31 1328 1394
+)
+"completion/norm.ml" 31 1328 1376 "completion/norm.ml" 31 1328 1390
+type(
+  Rule.RulSet.elt -> Term.term -> Term.term option
+)
+ident(
+  int_ref hd_one_red_opt "completion/norm.ml" 25 1173 1177 "completion/norm.ml" 25 1173 1191
+)
+"completion/norm.ml" 31 1328 1391 "completion/norm.ml" 31 1328 1392
+type(
+  Rule.RulSet.elt
+)
+ident(
+  int_ref e "completion/norm.ml" 31 1328 1371 "completion/norm.ml" 31 1328 1372
+)
+"completion/norm.ml" 31 1328 1393 "completion/norm.ml" 31 1328 1394
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm.ml" 31 1328 1346 "completion/norm.ml" 31 1328 1347
+)
+"completion/norm.ml" 31 1328 1376 "completion/norm.ml" 31 1328 1394
+call(
+  tail
+)
+type(
+  Term.term option
+)
+"completion/norm.ml" 31 1328 1366 "completion/norm.ml" 31 1328 1395
+type(
+  Rule.RulSet.elt -> Term.term option
+)
+"completion/norm.ml" 31 1328 1396 "completion/norm.ml" 31 1328 1398
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/norm.ml" 31 1328 1343 "completion/norm.ml" 31 1328 1345
+)
+"completion/norm.ml" 31 1328 1350 "completion/norm.ml" 31 1328 1398
+call(
+  tail
+)
+type(
+  Term.term option
+)
+"completion/norm.ml" 35 1437 1441 "completion/norm.ml" 35 1437 1448
+type(
+  Rule.RulSet.t -> Term.term -> Term.term option
+)
+ident(
+  def red_opt "completion/norm.ml" 42 1619 1619 "completion/norm.ml" 1 0 -1
+)
+"completion/norm.ml" 35 1437 1449 "completion/norm.ml" 35 1437 1451
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/norm.ml" 35 1437 1452 "completion/norm.ml" 38 1560 1575
+)
+"completion/norm.ml" 35 1437 1452 "completion/norm.ml" 35 1437 1453
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm.ml" 36 1456 1458 "completion/norm.ml" 38 1560 1575
+)
+"completion/norm.ml" 36 1456 1464 "completion/norm.ml" 36 1456 1481
+type(
+  (Term.term -> Subterm.position -> Term.term option) ->
+  Term.term -> (Term.term * Subterm.position) option
+)
+ident(
+  ext_ref Subterm.find_opti
+)
+"completion/norm.ml" 36 1456 1487 "completion/norm.ml" 36 1456 1488
+type(
+  Term.term
+)
+ident(
+  def u "completion/norm.ml" 36 1456 1489 "completion/norm.ml" 36 1456 1509
+)
+"completion/norm.ml" 36 1456 1489 "completion/norm.ml" 36 1456 1490
+type(
+  Subterm.position
+)
+"completion/norm.ml" 36 1456 1494 "completion/norm.ml" 36 1456 1504
+type(
+  Rule.RulSet.t -> Term.term -> Term.term option
+)
+ident(
+  int_ref hd_red_opt "completion/norm.ml" 31 1328 1332 "completion/norm.ml" 31 1328 1342
+)
+"completion/norm.ml" 36 1456 1505 "completion/norm.ml" 36 1456 1507
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/norm.ml" 35 1437 1449 "completion/norm.ml" 35 1437 1451
+)
+"completion/norm.ml" 36 1456 1508 "completion/norm.ml" 36 1456 1509
+type(
+  Term.term
+)
+ident(
+  int_ref u "completion/norm.ml" 36 1456 1487 "completion/norm.ml" 36 1456 1488
+)
+"completion/norm.ml" 36 1456 1494 "completion/norm.ml" 36 1456 1509
+call(
+  tail
+)
+type(
+  Term.term option
+)
+"completion/norm.ml" 36 1456 1482 "completion/norm.ml" 36 1456 1510
+type(
+  Term.term -> Subterm.position -> Term.term option
+)
+"completion/norm.ml" 36 1456 1511 "completion/norm.ml" 36 1456 1512
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm.ml" 35 1437 1452 "completion/norm.ml" 35 1437 1453
+)
+"completion/norm.ml" 36 1456 1464 "completion/norm.ml" 36 1456 1512
+call(
+  stack
+)
+type(
+  (Term.term * Subterm.position) option
+)
+"completion/norm.ml" 37 1518 1530 "completion/norm.ml" 37 1518 1531
+type(
+  Term.term
+)
+ident(
+  def u "completion/norm.ml" 37 1518 1539 "completion/norm.ml" 37 1518 1559
+)
+"completion/norm.ml" 37 1518 1533 "completion/norm.ml" 37 1518 1534
+type(
+  Subterm.position
+)
+ident(
+  def p "completion/norm.ml" 37 1518 1539 "completion/norm.ml" 37 1518 1559
+)
+"completion/norm.ml" 37 1518 1529 "completion/norm.ml" 37 1518 1535
+type(
+  Term.term * Subterm.position
+)
+"completion/norm.ml" 37 1518 1524 "completion/norm.ml" 37 1518 1535
+type(
+  (Term.term * Subterm.position) option
+)
+"completion/norm.ml" 37 1518 1545 "completion/norm.ml" 37 1518 1552
+type(
+  Term.term -> Subterm.position -> Term.term -> Term.term
+)
+ident(
+  ext_ref Subterm.replace
+)
+"completion/norm.ml" 37 1518 1553 "completion/norm.ml" 37 1518 1554
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm.ml" 35 1437 1452 "completion/norm.ml" 35 1437 1453
+)
+"completion/norm.ml" 37 1518 1555 "completion/norm.ml" 37 1518 1556
+type(
+  Subterm.position
+)
+ident(
+  int_ref p "completion/norm.ml" 37 1518 1533 "completion/norm.ml" 37 1518 1534
+)
+"completion/norm.ml" 37 1518 1557 "completion/norm.ml" 37 1518 1558
+type(
+  Term.term
+)
+ident(
+  int_ref u "completion/norm.ml" 37 1518 1530 "completion/norm.ml" 37 1518 1531
+)
+"completion/norm.ml" 37 1518 1544 "completion/norm.ml" 37 1518 1559
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/norm.ml" 37 1518 1539 "completion/norm.ml" 37 1518 1559
+type(
+  Term.term option
+)
+"completion/norm.ml" 38 1560 1566 "completion/norm.ml" 38 1560 1567
+type(
+  (Term.term * Subterm.position) option
+)
+"completion/norm.ml" 38 1560 1571 "completion/norm.ml" 38 1560 1575
+type(
+  Term.term option
+)
+"completion/norm.ml" 36 1456 1458 "completion/norm.ml" 38 1560 1575
+type(
+  Term.term option
+)
+"completion/norm.ml" 42 1619 1623 "completion/norm.ml" 42 1619 1629
+type(
+  Rule.RulSet.t -> Term.term -> bool
+)
+ident(
+  def is_red "completion/norm.ml" 44 1667 1667 "completion/norm.ml" 1 0 -1
+)
+"completion/norm.ml" 42 1619 1630 "completion/norm.ml" 42 1619 1632
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/norm.ml" 42 1619 1633 "completion/norm.ml" 42 1619 1663
+)
+"completion/norm.ml" 42 1619 1633 "completion/norm.ml" 42 1619 1634
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm.ml" 42 1619 1637 "completion/norm.ml" 42 1619 1663
+)
+"completion/norm.ml" 42 1619 1637 "completion/norm.ml" 42 1619 1648
+type(
+  Term.term option -> bool
+)
+ident(
+  ext_ref Useful.bool_of_opt
+)
+"completion/norm.ml" 42 1619 1650 "completion/norm.ml" 42 1619 1657
+type(
+  Rule.RulSet.t -> Term.term -> Term.term option
+)
+ident(
+  int_ref red_opt "completion/norm.ml" 35 1437 1441 "completion/norm.ml" 35 1437 1448
+)
+"completion/norm.ml" 42 1619 1658 "completion/norm.ml" 42 1619 1660
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/norm.ml" 42 1619 1630 "completion/norm.ml" 42 1619 1632
+)
+"completion/norm.ml" 42 1619 1661 "completion/norm.ml" 42 1619 1662
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm.ml" 42 1619 1633 "completion/norm.ml" 42 1619 1634
+)
+"completion/norm.ml" 42 1619 1649 "completion/norm.ml" 42 1619 1663
+call(
+  stack
+)
+type(
+  Term.term option
+)
+"completion/norm.ml" 42 1619 1637 "completion/norm.ml" 42 1619 1663
+call(
+  tail
+)
+type(
+  bool
+)
+"completion/norm.ml" 44 1667 1671 "completion/norm.ml" 44 1667 1678
+type(
+  Rule.RulSet.t -> Term.term -> bool
+)
+ident(
+  def is_norm "completion/norm.ml" 48 1734 1734 "completion/norm.ml" 1 0 -1
+)
+"completion/norm.ml" 44 1667 1679 "completion/norm.ml" 44 1667 1681
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/norm.ml" 44 1667 1682 "completion/norm.ml" 44 1667 1703
+)
+"completion/norm.ml" 44 1667 1682 "completion/norm.ml" 44 1667 1683
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm.ml" 44 1667 1686 "completion/norm.ml" 44 1667 1703
+)
+"completion/norm.ml" 44 1667 1686 "completion/norm.ml" 44 1667 1689
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"completion/norm.ml" 44 1667 1691 "completion/norm.ml" 44 1667 1697
+type(
+  Rule.RulSet.t -> Term.term -> bool
+)
+ident(
+  int_ref is_red "completion/norm.ml" 42 1619 1623 "completion/norm.ml" 42 1619 1629
+)
+"completion/norm.ml" 44 1667 1698 "completion/norm.ml" 44 1667 1700
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/norm.ml" 44 1667 1679 "completion/norm.ml" 44 1667 1681
+)
+"completion/norm.ml" 44 1667 1701 "completion/norm.ml" 44 1667 1702
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm.ml" 44 1667 1682 "completion/norm.ml" 44 1667 1683
+)
+"completion/norm.ml" 44 1667 1690 "completion/norm.ml" 44 1667 1703
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/norm.ml" 44 1667 1686 "completion/norm.ml" 44 1667 1703
+type(
+  bool
+)
+"completion/norm.ml" 48 1734 1738 "completion/norm.ml" 48 1734 1742
+type(
+  Rule.RulSet.t -> Term.term -> Term.term
+)
+ident(
+  def norm "completion/norm.ml" 53 1836 1844 "completion/norm.ml" 1 0 -1
+)
+"completion/norm.ml" 48 1734 1743 "completion/norm.ml" 48 1734 1745
+type(
+  Rule.RulSet.t
+)
+ident(
+  def rs "completion/norm.ml" 49 1748 1750 "completion/norm.ml" 53 1836 1844
+)
+"completion/norm.ml" 49 1748 1758 "completion/norm.ml" 49 1748 1761
+type(
+  Term.term -> Term.term
+)
+ident(
+  def aux "completion/norm.ml" 49 1748 1750 "completion/norm.ml" 53 1836 1844
+)
+"completion/norm.ml" 49 1748 1762 "completion/norm.ml" 49 1748 1763
+type(
+  Term.term
+)
+ident(
+  def t "completion/norm.ml" 50 1766 1770 "completion/norm.ml" 52 1818 1835
+)
+"completion/norm.ml" 50 1766 1776 "completion/norm.ml" 50 1766 1783
+type(
+  Rule.RulSet.t -> Term.term -> Term.term option
+)
+ident(
+  int_ref red_opt "completion/norm.ml" 35 1437 1441 "completion/norm.ml" 35 1437 1448
+)
+"completion/norm.ml" 50 1766 1784 "completion/norm.ml" 50 1766 1786
+type(
+  Rule.RulSet.t
+)
+ident(
+  int_ref rs "completion/norm.ml" 48 1734 1743 "completion/norm.ml" 48 1734 1745
+)
+"completion/norm.ml" 50 1766 1787 "completion/norm.ml" 50 1766 1788
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm.ml" 49 1748 1762 "completion/norm.ml" 49 1748 1763
+)
+"completion/norm.ml" 50 1766 1776 "completion/norm.ml" 50 1766 1788
+call(
+  stack
+)
+type(
+  Term.term option
+)
+"completion/norm.ml" 51 1794 1807 "completion/norm.ml" 51 1794 1808
+type(
+  Term.term
+)
+ident(
+  def u "completion/norm.ml" 51 1794 1812 "completion/norm.ml" 51 1794 1817
+)
+"completion/norm.ml" 51 1794 1802 "completion/norm.ml" 51 1794 1808
+type(
+  Term.term option
+)
+"completion/norm.ml" 51 1794 1812 "completion/norm.ml" 51 1794 1815
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref aux "completion/norm.ml" 49 1748 1758 "completion/norm.ml" 49 1748 1761
+)
+"completion/norm.ml" 51 1794 1816 "completion/norm.ml" 51 1794 1817
+type(
+  Term.term
+)
+ident(
+  int_ref u "completion/norm.ml" 51 1794 1807 "completion/norm.ml" 51 1794 1808
+)
+"completion/norm.ml" 51 1794 1812 "completion/norm.ml" 51 1794 1817
+call(
+  tail
+)
+type(
+  Term.term
+)
+"completion/norm.ml" 52 1818 1826 "completion/norm.ml" 52 1818 1830
+type(
+  Term.term option
+)
+"completion/norm.ml" 52 1818 1834 "completion/norm.ml" 52 1818 1835
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/norm.ml" 49 1748 1762 "completion/norm.ml" 49 1748 1763
+)
+"completion/norm.ml" 50 1766 1770 "completion/norm.ml" 52 1818 1835
+type(
+  Term.term
+)
+"completion/norm.ml" 53 1836 1841 "completion/norm.ml" 53 1836 1844
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref aux "completion/norm.ml" 49 1748 1758 "completion/norm.ml" 49 1748 1761
+)
+"completion/norm.ml" 49 1748 1750 "completion/norm.ml" 53 1836 1844
+type(
+  Term.term -> Term.term
+)

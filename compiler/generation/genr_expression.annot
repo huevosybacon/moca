@@ -1,0 +1,2563 @@
+"generation/genr_expression.ml" 21 1111 1115 "generation/genr_expression.ml" 21 1111 1131
+type(
+  Code.uident -> Code.lident
+)
+ident(
+  def lower_long_ident "generation/genr_expression.ml" 31 1418 1418 "generation/genr_expression.ml" 1 0 -1
+)
+"generation/genr_expression.ml" 21 1111 1132 "generation/genr_expression.ml" 21 1111 1134
+type(
+  Code.uident
+)
+ident(
+  def id "generation/genr_expression.ml" 22 1137 1139 "generation/genr_expression.ml" 27 1313 1335
+)
+"generation/genr_expression.ml" 23 1143 1151 "generation/genr_expression.ml" 23 1143 1153
+type(
+  Check.generator_info
+)
+ident(
+  def gi "generation/genr_expression.ml" 24 1194 1198 "generation/genr_expression.ml" 26 1301 1312
+)
+"generation/genr_expression.ml" 23 1143 1156 "generation/genr_expression.ml" 23 1143 1187
+type(
+  Code.uident -> Check.generator_info
+)
+ident(
+  ext_ref Check.find_generator_ident_info
+)
+"generation/genr_expression.ml" 23 1143 1188 "generation/genr_expression.ml" 23 1143 1190
+type(
+  Code.uident
+)
+ident(
+  int_ref id "generation/genr_expression.ml" 21 1111 1132 "generation/genr_expression.ml" 21 1111 1134
+)
+"generation/genr_expression.ml" 23 1143 1156 "generation/genr_expression.ml" 23 1143 1190
+call(
+  stack
+)
+type(
+  Check.generator_info
+)
+"generation/genr_expression.ml" 24 1194 1201 "generation/genr_expression.ml" 24 1194 1220
+type(
+  Check.generator_info -> bool
+)
+ident(
+  ext_ref Check.is_local_info
+)
+"generation/genr_expression.ml" 24 1194 1221 "generation/genr_expression.ml" 24 1194 1223
+type(
+  Check.generator_info
+)
+ident(
+  int_ref gi "generation/genr_expression.ml" 23 1143 1151 "generation/genr_expression.ml" 23 1143 1153
+)
+"generation/genr_expression.ml" 24 1194 1201 "generation/genr_expression.ml" 24 1194 1223
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_expression.ml" 24 1194 1224 "generation/genr_expression.ml" 24 1194 1225
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( & )
+)
+"generation/genr_expression.ml" 24 1194 1226 "generation/genr_expression.ml" 24 1194 1247
+type(
+  Check.generator_info -> bool
+)
+ident(
+  ext_ref Check.is_private_info
+)
+"generation/genr_expression.ml" 24 1194 1248 "generation/genr_expression.ml" 24 1194 1250
+type(
+  Check.generator_info
+)
+ident(
+  int_ref gi "generation/genr_expression.ml" 23 1143 1151 "generation/genr_expression.ml" 23 1143 1153
+)
+"generation/genr_expression.ml" 24 1194 1226 "generation/genr_expression.ml" 24 1194 1250
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_expression.ml" 24 1194 1201 "generation/genr_expression.ml" 24 1194 1250
+type(
+  bool
+)
+"generation/genr_expression.ml" 25 1251 1260 "generation/genr_expression.ml" 25 1251 1297
+type(
+  Code.uident -> Code.lident
+)
+ident(
+  ext_ref Genr_base.construction_function_ident
+)
+"generation/genr_expression.ml" 25 1251 1298 "generation/genr_expression.ml" 25 1251 1300
+type(
+  Code.uident
+)
+ident(
+  int_ref id "generation/genr_expression.ml" 21 1111 1132 "generation/genr_expression.ml" 21 1111 1134
+)
+"generation/genr_expression.ml" 25 1251 1260 "generation/genr_expression.ml" 25 1251 1300
+call(
+  stack
+)
+type(
+  Code.lident
+)
+"generation/genr_expression.ml" 26 1301 1310 "generation/genr_expression.ml" 26 1301 1312
+type(
+  Code.uident
+)
+ident(
+  int_ref id "generation/genr_expression.ml" 21 1111 1132 "generation/genr_expression.ml" 21 1111 1134
+)
+"generation/genr_expression.ml" 24 1194 1198 "generation/genr_expression.ml" 26 1301 1312
+type(
+  Code.lident
+)
+"generation/genr_expression.ml" 23 1143 1147 "generation/genr_expression.ml" 26 1301 1312
+type(
+  Code.lident
+)
+"generation/genr_expression.ml" 27 1313 1320 "generation/genr_expression.ml" 27 1313 1329
+type(
+  exn
+)
+"generation/genr_expression.ml" 27 1313 1333 "generation/genr_expression.ml" 27 1313 1335
+type(
+  Code.uident
+)
+ident(
+  int_ref id "generation/genr_expression.ml" 21 1111 1132 "generation/genr_expression.ml" 21 1111 1134
+)
+"generation/genr_expression.ml" 22 1137 1139 "generation/genr_expression.ml" 27 1313 1335
+type(
+  Code.lident
+)
+"generation/genr_expression.ml" 31 1418 1422 "generation/genr_expression.ml" 31 1418 1431
+type(
+  ('a -> 'b) -> ('c * 'a) list -> ('c * 'b) list
+)
+ident(
+  def lower_map "generation/genr_expression.ml" 34 1489 1489 "generation/genr_expression.ml" 1 0 -1
+)
+"generation/genr_expression.ml" 31 1418 1432 "generation/genr_expression.ml" 31 1418 1441
+type(
+  'a -> 'b
+)
+ident(
+  def lower_fun "generation/genr_expression.ml" 31 1418 1444 "generation/genr_expression.ml" 31 1418 1484
+)
+"generation/genr_expression.ml" 31 1418 1444 "generation/genr_expression.ml" 31 1418 1452
+type(
+  ('c * 'a -> 'c * 'b) -> ('c * 'a) list -> ('c * 'b) list
+)
+ident(
+  ext_ref List.map
+)
+"generation/genr_expression.ml" 31 1418 1459 "generation/genr_expression.ml" 31 1418 1460
+type(
+  'c
+)
+ident(
+  def x "generation/genr_expression.ml" 31 1418 1467 "generation/genr_expression.ml" 31 1418 1483
+)
+"generation/genr_expression.ml" 31 1418 1461 "generation/genr_expression.ml" 31 1418 1462
+type(
+  'a
+)
+ident(
+  def e "generation/genr_expression.ml" 31 1418 1467 "generation/genr_expression.ml" 31 1418 1483
+)
+"generation/genr_expression.ml" 31 1418 1458 "generation/genr_expression.ml" 31 1418 1463
+type(
+  'c * 'a
+)
+"generation/genr_expression.ml" 31 1418 1468 "generation/genr_expression.ml" 31 1418 1469
+type(
+  'c
+)
+ident(
+  int_ref x "generation/genr_expression.ml" 31 1418 1459 "generation/genr_expression.ml" 31 1418 1460
+)
+"generation/genr_expression.ml" 31 1418 1471 "generation/genr_expression.ml" 31 1418 1480
+type(
+  'a -> 'b
+)
+ident(
+  int_ref lower_fun "generation/genr_expression.ml" 31 1418 1432 "generation/genr_expression.ml" 31 1418 1441
+)
+"generation/genr_expression.ml" 31 1418 1481 "generation/genr_expression.ml" 31 1418 1482
+type(
+  'a
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 31 1418 1461 "generation/genr_expression.ml" 31 1418 1462
+)
+"generation/genr_expression.ml" 31 1418 1471 "generation/genr_expression.ml" 31 1418 1482
+call(
+  stack
+)
+type(
+  'b
+)
+"generation/genr_expression.ml" 31 1418 1467 "generation/genr_expression.ml" 31 1418 1483
+type(
+  'c * 'b
+)
+"generation/genr_expression.ml" 31 1418 1453 "generation/genr_expression.ml" 31 1418 1484
+type(
+  'c * 'a -> 'c * 'b
+)
+"generation/genr_expression.ml" 31 1418 1444 "generation/genr_expression.ml" 31 1418 1484
+call(
+  tail
+)
+type(
+  ('c * 'a) list -> ('c * 'b) list
+)
+"generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  def lower_case "generation/genr_expression.ml" 34 1489 1489 "generation/genr_expression.ml" 1 0 -1
+)
+"generation/genr_expression.ml" 34 1489 1508 "generation/genr_expression.ml" 34 1489 1509
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 34 1489 1512 "generation/genr_expression.ml" 34 1489 1552
+)
+"generation/genr_expression.ml" 34 1489 1514 "generation/genr_expression.ml" 34 1489 1515
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 34 1489 1508 "generation/genr_expression.ml" 34 1489 1509
+)
+"generation/genr_expression.ml" 34 1489 1533 "generation/genr_expression.ml" 34 1489 1538
+type(
+  Parsetree.expression_desc -> Parsetree.expression_desc
+)
+ident(
+  int_ref lower "generation/genr_expression.ml" 40 1631 1635 "generation/genr_expression.ml" 40 1631 1640
+)
+"generation/genr_expression.ml" 34 1489 1539 "generation/genr_expression.ml" 34 1489 1540
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 34 1489 1508 "generation/genr_expression.ml" 34 1489 1509
+)
+"generation/genr_expression.ml" 34 1489 1539 "generation/genr_expression.ml" 34 1489 1550
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 34 1489 1533 "generation/genr_expression.ml" 34 1489 1550
+call(
+  stack
+)
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 34 1489 1512 "generation/genr_expression.ml" 34 1489 1552
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 36 1554 1558 "generation/genr_expression.ml" 36 1554 1567
+type(
+  Parsetree.expression option -> Parsetree.expression option
+)
+ident(
+  def lower_opt "generation/genr_expression.ml" 34 1489 1489 "generation/genr_expression.ml" 1 0 -1
+)
+"generation/genr_expression.ml" 37 1579 1588 "generation/genr_expression.ml" 37 1579 1589
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 37 1579 1593 "generation/genr_expression.ml" 37 1579 1612
+)
+"generation/genr_expression.ml" 37 1579 1583 "generation/genr_expression.ml" 37 1579 1589
+type(
+  Parsetree.expression option
+)
+"generation/genr_expression.ml" 37 1579 1599 "generation/genr_expression.ml" 37 1579 1609
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 37 1579 1610 "generation/genr_expression.ml" 37 1579 1611
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 37 1579 1588 "generation/genr_expression.ml" 37 1579 1589
+)
+"generation/genr_expression.ml" 37 1579 1598 "generation/genr_expression.ml" 37 1579 1612
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 37 1579 1593 "generation/genr_expression.ml" 37 1579 1612
+type(
+  Parsetree.expression option
+)
+"generation/genr_expression.ml" 38 1613 1617 "generation/genr_expression.ml" 38 1613 1621
+type(
+  Parsetree.expression option
+)
+"generation/genr_expression.ml" 38 1613 1625 "generation/genr_expression.ml" 38 1613 1629
+type(
+  Parsetree.expression option
+)
+"generation/genr_expression.ml" 36 1554 1570 "generation/genr_expression.ml" 38 1613 1629
+type(
+  Parsetree.expression option -> Parsetree.expression option
+)
+"generation/genr_expression.ml" 40 1631 1635 "generation/genr_expression.ml" 40 1631 1640
+type(
+  Parsetree.expression_desc -> Parsetree.expression_desc
+)
+ident(
+  def lower "generation/genr_expression.ml" 34 1489 1489 "generation/genr_expression.ml" 1 0 -1
+)
+"generation/genr_expression.ml" 41 1652 1668 "generation/genr_expression.ml" 41 1652 1669
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 41 1652 1673 "generation/genr_expression.ml" 41 1652 1699
+)
+"generation/genr_expression.ml" 41 1652 1656 "generation/genr_expression.ml" 41 1652 1669
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 41 1652 1686 "generation/genr_expression.ml" 41 1652 1696
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 41 1652 1697 "generation/genr_expression.ml" 41 1652 1698
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 41 1652 1668 "generation/genr_expression.ml" 41 1652 1669
+)
+"generation/genr_expression.ml" 41 1652 1685 "generation/genr_expression.ml" 41 1652 1699
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 41 1652 1673 "generation/genr_expression.ml" 41 1652 1699
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 42 1700 1716 "generation/genr_expression.ml" 42 1700 1717
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 42 1700 1721 "generation/genr_expression.ml" 42 1700 1747
+)
+"generation/genr_expression.ml" 42 1700 1704 "generation/genr_expression.ml" 42 1700 1717
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 42 1700 1734 "generation/genr_expression.ml" 42 1700 1744
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 42 1700 1745 "generation/genr_expression.ml" 42 1700 1746
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 42 1700 1716 "generation/genr_expression.ml" 42 1700 1717
+)
+"generation/genr_expression.ml" 42 1700 1733 "generation/genr_expression.ml" 42 1700 1747
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 42 1700 1721 "generation/genr_expression.ml" 42 1700 1747
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 43 1748 1763 "generation/genr_expression.ml" 43 1748 1766
+type(
+  Longident.t
+)
+ident(
+  def lid "generation/genr_expression.ml" 43 1748 1770 "generation/genr_expression.ml" 43 1748 1803
+)
+"generation/genr_expression.ml" 43 1748 1752 "generation/genr_expression.ml" 43 1748 1766
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 43 1748 1782 "generation/genr_expression.ml" 43 1748 1798
+type(
+  Code.uident -> Code.lident
+)
+ident(
+  int_ref lower_long_ident "generation/genr_expression.ml" 21 1111 1115 "generation/genr_expression.ml" 21 1111 1131
+)
+"generation/genr_expression.ml" 43 1748 1799 "generation/genr_expression.ml" 43 1748 1802
+type(
+  Code.uident
+)
+ident(
+  int_ref lid "generation/genr_expression.ml" 43 1748 1763 "generation/genr_expression.ml" 43 1748 1766
+)
+"generation/genr_expression.ml" 43 1748 1781 "generation/genr_expression.ml" 43 1748 1803
+call(
+  stack
+)
+type(
+  Code.lident
+)
+"generation/genr_expression.ml" 43 1748 1770 "generation/genr_expression.ml" 43 1748 1803
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 44 1804 1822 "generation/genr_expression.ml" 44 1804 1823
+type(
+  Asttypes.constant
+)
+"generation/genr_expression.ml" 44 1804 1808 "generation/genr_expression.ml" 44 1804 1823
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 44 1804 1827 "generation/genr_expression.ml" 44 1804 1828
+ident(
+  def e "generation/genr_expression.ml" 44 1804 1832 "generation/genr_expression.ml" 44 1804 1833
+)
+"generation/genr_expression.ml" 44 1804 1808 "generation/genr_expression.ml" 44 1804 1828
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 44 1804 1832 "generation/genr_expression.ml" 44 1804 1833
+type(
+  Parsetree.expression_desc
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 44 1804 1808 "generation/genr_expression.ml" 44 1804 1828
+)
+"generation/genr_expression.ml" 45 1834 1848 "generation/genr_expression.ml" 45 1834 1856
+type(
+  Asttypes.rec_flag
+)
+ident(
+  def rec_flag "generation/genr_expression.ml" 46 1867 1871 "generation/genr_expression.ml" 46 1867 1928
+)
+"generation/genr_expression.ml" 45 1834 1858 "generation/genr_expression.ml" 45 1834 1859
+type(
+  (Parsetree.pattern * Parsetree.expression) list
+)
+ident(
+  def l "generation/genr_expression.ml" 46 1867 1871 "generation/genr_expression.ml" 46 1867 1928
+)
+"generation/genr_expression.ml" 45 1834 1861 "generation/genr_expression.ml" 45 1834 1862
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 46 1867 1871 "generation/genr_expression.ml" 46 1867 1928
+)
+"generation/genr_expression.ml" 45 1834 1838 "generation/genr_expression.ml" 45 1834 1863
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 46 1867 1881 "generation/genr_expression.ml" 46 1867 1889
+type(
+  Asttypes.rec_flag
+)
+ident(
+  int_ref rec_flag "generation/genr_expression.ml" 45 1834 1848 "generation/genr_expression.ml" 45 1834 1856
+)
+"generation/genr_expression.ml" 46 1867 1891 "generation/genr_expression.ml" 46 1867 1900
+type(
+  (Parsetree.expression -> Parsetree.expression) ->
+  (Parsetree.pattern * Parsetree.expression) list ->
+  (Parsetree.pattern * Parsetree.expression) list
+)
+ident(
+  int_ref lower_map "generation/genr_expression.ml" 31 1418 1422 "generation/genr_expression.ml" 31 1418 1431
+)
+"generation/genr_expression.ml" 46 1867 1901 "generation/genr_expression.ml" 46 1867 1911
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 46 1867 1912 "generation/genr_expression.ml" 46 1867 1913
+type(
+  (Parsetree.pattern * Parsetree.expression) list
+)
+ident(
+  int_ref l "generation/genr_expression.ml" 45 1834 1858 "generation/genr_expression.ml" 45 1834 1859
+)
+"generation/genr_expression.ml" 46 1867 1891 "generation/genr_expression.ml" 46 1867 1913
+call(
+  stack
+)
+type(
+  (Parsetree.pattern * Parsetree.expression) list
+)
+"generation/genr_expression.ml" 46 1867 1915 "generation/genr_expression.ml" 46 1867 1925
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 46 1867 1926 "generation/genr_expression.ml" 46 1867 1927
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 45 1834 1861 "generation/genr_expression.ml" 45 1834 1862
+)
+"generation/genr_expression.ml" 46 1867 1915 "generation/genr_expression.ml" 46 1867 1927
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 46 1867 1871 "generation/genr_expression.ml" 46 1867 1928
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 47 1929 1948 "generation/genr_expression.ml" 47 1929 1953
+type(
+  Asttypes.label
+)
+ident(
+  def label "generation/genr_expression.ml" 48 1967 1971 "generation/genr_expression.ml" 48 1967 2032
+)
+"generation/genr_expression.ml" 47 1929 1955 "generation/genr_expression.ml" 47 1929 1959
+type(
+  Parsetree.expression option
+)
+ident(
+  def eopt "generation/genr_expression.ml" 48 1967 1971 "generation/genr_expression.ml" 48 1967 2032
+)
+"generation/genr_expression.ml" 47 1929 1961 "generation/genr_expression.ml" 47 1929 1962
+type(
+  (Parsetree.pattern * Parsetree.expression) list
+)
+ident(
+  def l "generation/genr_expression.ml" 48 1967 1971 "generation/genr_expression.ml" 48 1967 2032
+)
+"generation/genr_expression.ml" 47 1929 1933 "generation/genr_expression.ml" 47 1929 1963
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 48 1967 1986 "generation/genr_expression.ml" 48 1967 1991
+type(
+  Asttypes.label
+)
+ident(
+  int_ref label "generation/genr_expression.ml" 47 1929 1948 "generation/genr_expression.ml" 47 1929 1953
+)
+"generation/genr_expression.ml" 48 1967 1993 "generation/genr_expression.ml" 48 1967 2002
+type(
+  Parsetree.expression option -> Parsetree.expression option
+)
+ident(
+  int_ref lower_opt "generation/genr_expression.ml" 36 1554 1558 "generation/genr_expression.ml" 36 1554 1567
+)
+"generation/genr_expression.ml" 48 1967 2003 "generation/genr_expression.ml" 48 1967 2007
+type(
+  Parsetree.expression option
+)
+ident(
+  int_ref eopt "generation/genr_expression.ml" 47 1929 1955 "generation/genr_expression.ml" 47 1929 1959
+)
+"generation/genr_expression.ml" 48 1967 1993 "generation/genr_expression.ml" 48 1967 2007
+call(
+  stack
+)
+type(
+  Parsetree.expression option
+)
+"generation/genr_expression.ml" 48 1967 2009 "generation/genr_expression.ml" 48 1967 2018
+type(
+  (Parsetree.expression -> Parsetree.expression) ->
+  (Parsetree.pattern * Parsetree.expression) list ->
+  (Parsetree.pattern * Parsetree.expression) list
+)
+ident(
+  int_ref lower_map "generation/genr_expression.ml" 31 1418 1422 "generation/genr_expression.ml" 31 1418 1431
+)
+"generation/genr_expression.ml" 48 1967 2019 "generation/genr_expression.ml" 48 1967 2029
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 48 1967 2030 "generation/genr_expression.ml" 48 1967 2031
+type(
+  (Parsetree.pattern * Parsetree.expression) list
+)
+ident(
+  int_ref l "generation/genr_expression.ml" 47 1929 1961 "generation/genr_expression.ml" 47 1929 1962
+)
+"generation/genr_expression.ml" 48 1967 2009 "generation/genr_expression.ml" 48 1967 2031
+call(
+  stack
+)
+type(
+  (Parsetree.pattern * Parsetree.expression) list
+)
+"generation/genr_expression.ml" 48 1967 1971 "generation/genr_expression.ml" 48 1967 2032
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 49 2033 2049 "generation/genr_expression.ml" 49 2033 2050
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 49 2033 2058 "generation/genr_expression.ml" 49 2033 2107
+)
+"generation/genr_expression.ml" 49 2033 2052 "generation/genr_expression.ml" 49 2033 2053
+type(
+  (Asttypes.label * Parsetree.expression) list
+)
+ident(
+  def l "generation/genr_expression.ml" 49 2033 2058 "generation/genr_expression.ml" 49 2033 2107
+)
+"generation/genr_expression.ml" 49 2033 2037 "generation/genr_expression.ml" 49 2033 2054
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 49 2033 2070 "generation/genr_expression.ml" 49 2033 2080
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 49 2033 2081 "generation/genr_expression.ml" 49 2033 2082
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 49 2033 2049 "generation/genr_expression.ml" 49 2033 2050
+)
+"generation/genr_expression.ml" 49 2033 2070 "generation/genr_expression.ml" 49 2033 2082
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 49 2033 2084 "generation/genr_expression.ml" 49 2033 2093
+type(
+  (Parsetree.expression -> Parsetree.expression) ->
+  (Asttypes.label * Parsetree.expression) list ->
+  (Asttypes.label * Parsetree.expression) list
+)
+ident(
+  int_ref lower_map "generation/genr_expression.ml" 31 1418 1422 "generation/genr_expression.ml" 31 1418 1431
+)
+"generation/genr_expression.ml" 49 2033 2094 "generation/genr_expression.ml" 49 2033 2104
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 49 2033 2105 "generation/genr_expression.ml" 49 2033 2106
+type(
+  (Asttypes.label * Parsetree.expression) list
+)
+ident(
+  int_ref l "generation/genr_expression.ml" 49 2033 2052 "generation/genr_expression.ml" 49 2033 2053
+)
+"generation/genr_expression.ml" 49 2033 2084 "generation/genr_expression.ml" 49 2033 2106
+call(
+  stack
+)
+type(
+  (Asttypes.label * Parsetree.expression) list
+)
+"generation/genr_expression.ml" 49 2033 2058 "generation/genr_expression.ml" 49 2033 2107
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 50 2108 2124 "generation/genr_expression.ml" 50 2108 2125
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 50 2108 2133 "generation/genr_expression.ml" 50 2108 2182
+)
+"generation/genr_expression.ml" 50 2108 2127 "generation/genr_expression.ml" 50 2108 2128
+type(
+  (Parsetree.pattern * Parsetree.expression) list
+)
+ident(
+  def l "generation/genr_expression.ml" 50 2108 2133 "generation/genr_expression.ml" 50 2108 2182
+)
+"generation/genr_expression.ml" 50 2108 2112 "generation/genr_expression.ml" 50 2108 2129
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 50 2108 2145 "generation/genr_expression.ml" 50 2108 2155
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 50 2108 2156 "generation/genr_expression.ml" 50 2108 2157
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 50 2108 2124 "generation/genr_expression.ml" 50 2108 2125
+)
+"generation/genr_expression.ml" 50 2108 2145 "generation/genr_expression.ml" 50 2108 2157
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 50 2108 2159 "generation/genr_expression.ml" 50 2108 2168
+type(
+  (Parsetree.expression -> Parsetree.expression) ->
+  (Parsetree.pattern * Parsetree.expression) list ->
+  (Parsetree.pattern * Parsetree.expression) list
+)
+ident(
+  int_ref lower_map "generation/genr_expression.ml" 31 1418 1422 "generation/genr_expression.ml" 31 1418 1431
+)
+"generation/genr_expression.ml" 50 2108 2169 "generation/genr_expression.ml" 50 2108 2179
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 50 2108 2180 "generation/genr_expression.ml" 50 2108 2181
+type(
+  (Parsetree.pattern * Parsetree.expression) list
+)
+ident(
+  int_ref l "generation/genr_expression.ml" 50 2108 2127 "generation/genr_expression.ml" 50 2108 2128
+)
+"generation/genr_expression.ml" 50 2108 2159 "generation/genr_expression.ml" 50 2108 2181
+call(
+  stack
+)
+type(
+  (Parsetree.pattern * Parsetree.expression) list
+)
+"generation/genr_expression.ml" 50 2108 2133 "generation/genr_expression.ml" 50 2108 2182
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 51 2183 2197 "generation/genr_expression.ml" 51 2183 2198
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 51 2183 2206 "generation/genr_expression.ml" 51 2183 2253
+)
+"generation/genr_expression.ml" 51 2183 2200 "generation/genr_expression.ml" 51 2183 2201
+type(
+  (Parsetree.pattern * Parsetree.expression) list
+)
+ident(
+  def l "generation/genr_expression.ml" 51 2183 2206 "generation/genr_expression.ml" 51 2183 2253
+)
+"generation/genr_expression.ml" 51 2183 2187 "generation/genr_expression.ml" 51 2183 2202
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 51 2183 2216 "generation/genr_expression.ml" 51 2183 2226
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 51 2183 2227 "generation/genr_expression.ml" 51 2183 2228
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 51 2183 2197 "generation/genr_expression.ml" 51 2183 2198
+)
+"generation/genr_expression.ml" 51 2183 2216 "generation/genr_expression.ml" 51 2183 2228
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 51 2183 2230 "generation/genr_expression.ml" 51 2183 2239
+type(
+  (Parsetree.expression -> Parsetree.expression) ->
+  (Parsetree.pattern * Parsetree.expression) list ->
+  (Parsetree.pattern * Parsetree.expression) list
+)
+ident(
+  int_ref lower_map "generation/genr_expression.ml" 31 1418 1422 "generation/genr_expression.ml" 31 1418 1431
+)
+"generation/genr_expression.ml" 51 2183 2240 "generation/genr_expression.ml" 51 2183 2250
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 51 2183 2251 "generation/genr_expression.ml" 51 2183 2252
+type(
+  (Parsetree.pattern * Parsetree.expression) list
+)
+ident(
+  int_ref l "generation/genr_expression.ml" 51 2183 2200 "generation/genr_expression.ml" 51 2183 2201
+)
+"generation/genr_expression.ml" 51 2183 2230 "generation/genr_expression.ml" 51 2183 2252
+call(
+  stack
+)
+type(
+  (Parsetree.pattern * Parsetree.expression) list
+)
+"generation/genr_expression.ml" 51 2183 2206 "generation/genr_expression.ml" 51 2183 2253
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 52 2254 2269 "generation/genr_expression.ml" 52 2254 2270
+type(
+  Parsetree.expression list
+)
+ident(
+  def l "generation/genr_expression.ml" 52 2254 2274 "generation/genr_expression.ml" 52 2254 2308
+)
+"generation/genr_expression.ml" 52 2254 2258 "generation/genr_expression.ml" 52 2254 2270
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 52 2254 2286 "generation/genr_expression.ml" 52 2254 2294
+type(
+  (Parsetree.expression -> Parsetree.expression) ->
+  Parsetree.expression list -> Parsetree.expression list
+)
+ident(
+  ext_ref List.map
+)
+"generation/genr_expression.ml" 52 2254 2295 "generation/genr_expression.ml" 52 2254 2305
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 52 2254 2306 "generation/genr_expression.ml" 52 2254 2307
+type(
+  Parsetree.expression list
+)
+ident(
+  int_ref l "generation/genr_expression.ml" 52 2254 2269 "generation/genr_expression.ml" 52 2254 2270
+)
+"generation/genr_expression.ml" 52 2254 2285 "generation/genr_expression.ml" 52 2254 2308
+call(
+  stack
+)
+type(
+  Parsetree.expression list
+)
+"generation/genr_expression.ml" 52 2254 2274 "generation/genr_expression.ml" 52 2254 2308
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 53 2309 2329 "generation/genr_expression.ml" 53 2309 2332
+type(
+  Longident.t
+)
+ident(
+  def lid "generation/genr_expression.ml" 54 2346 2350 "generation/genr_expression.ml" 54 2346 2406
+)
+"generation/genr_expression.ml" 53 2309 2334 "generation/genr_expression.ml" 53 2309 2338
+type(
+  Parsetree.expression option
+)
+ident(
+  def eopt "generation/genr_expression.ml" 54 2346 2350 "generation/genr_expression.ml" 54 2346 2406
+)
+"generation/genr_expression.ml" 53 2309 2340 "generation/genr_expression.ml" 53 2309 2341
+type(
+  bool
+)
+ident(
+  def b "generation/genr_expression.ml" 54 2346 2350 "generation/genr_expression.ml" 54 2346 2406
+)
+"generation/genr_expression.ml" 53 2309 2313 "generation/genr_expression.ml" 53 2309 2342
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 54 2346 2366 "generation/genr_expression.ml" 54 2346 2382
+type(
+  Code.uident -> Code.lident
+)
+ident(
+  int_ref lower_long_ident "generation/genr_expression.ml" 21 1111 1115 "generation/genr_expression.ml" 21 1111 1131
+)
+"generation/genr_expression.ml" 54 2346 2383 "generation/genr_expression.ml" 54 2346 2386
+type(
+  Code.uident
+)
+ident(
+  int_ref lid "generation/genr_expression.ml" 53 2309 2329 "generation/genr_expression.ml" 53 2309 2332
+)
+"generation/genr_expression.ml" 54 2346 2366 "generation/genr_expression.ml" 54 2346 2386
+call(
+  stack
+)
+type(
+  Code.lident
+)
+"generation/genr_expression.ml" 54 2346 2388 "generation/genr_expression.ml" 54 2346 2397
+type(
+  Parsetree.expression option -> Parsetree.expression option
+)
+ident(
+  int_ref lower_opt "generation/genr_expression.ml" 36 1554 1558 "generation/genr_expression.ml" 36 1554 1567
+)
+"generation/genr_expression.ml" 54 2346 2398 "generation/genr_expression.ml" 54 2346 2402
+type(
+  Parsetree.expression option
+)
+ident(
+  int_ref eopt "generation/genr_expression.ml" 53 2309 2334 "generation/genr_expression.ml" 53 2309 2338
+)
+"generation/genr_expression.ml" 54 2346 2388 "generation/genr_expression.ml" 54 2346 2402
+call(
+  stack
+)
+type(
+  Parsetree.expression option
+)
+"generation/genr_expression.ml" 54 2346 2404 "generation/genr_expression.ml" 54 2346 2405
+type(
+  bool
+)
+ident(
+  int_ref b "generation/genr_expression.ml" 53 2309 2340 "generation/genr_expression.ml" 53 2309 2341
+)
+"generation/genr_expression.ml" 54 2346 2350 "generation/genr_expression.ml" 54 2346 2406
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 55 2407 2425 "generation/genr_expression.ml" 55 2407 2426
+type(
+  Asttypes.label
+)
+ident(
+  def l "generation/genr_expression.ml" 55 2407 2437 "generation/genr_expression.ml" 55 2407 2469
+)
+"generation/genr_expression.ml" 55 2407 2428 "generation/genr_expression.ml" 55 2407 2432
+type(
+  Parsetree.expression option
+)
+ident(
+  def eopt "generation/genr_expression.ml" 55 2407 2437 "generation/genr_expression.ml" 55 2407 2469
+)
+"generation/genr_expression.ml" 55 2407 2411 "generation/genr_expression.ml" 55 2407 2433
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 55 2407 2451 "generation/genr_expression.ml" 55 2407 2452
+type(
+  Asttypes.label
+)
+ident(
+  int_ref l "generation/genr_expression.ml" 55 2407 2425 "generation/genr_expression.ml" 55 2407 2426
+)
+"generation/genr_expression.ml" 55 2407 2454 "generation/genr_expression.ml" 55 2407 2463
+type(
+  Parsetree.expression option -> Parsetree.expression option
+)
+ident(
+  int_ref lower_opt "generation/genr_expression.ml" 36 1554 1558 "generation/genr_expression.ml" 36 1554 1567
+)
+"generation/genr_expression.ml" 55 2407 2464 "generation/genr_expression.ml" 55 2407 2468
+type(
+  Parsetree.expression option
+)
+ident(
+  int_ref eopt "generation/genr_expression.ml" 55 2407 2428 "generation/genr_expression.ml" 55 2407 2432
+)
+"generation/genr_expression.ml" 55 2407 2454 "generation/genr_expression.ml" 55 2407 2468
+call(
+  stack
+)
+type(
+  Parsetree.expression option
+)
+"generation/genr_expression.ml" 55 2407 2437 "generation/genr_expression.ml" 55 2407 2469
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 56 2470 2487 "generation/genr_expression.ml" 56 2470 2488
+type(
+  (Longident.t * Parsetree.expression) list
+)
+ident(
+  def l "generation/genr_expression.ml" 57 2499 2503 "generation/genr_expression.ml" 57 2499 2555
+)
+"generation/genr_expression.ml" 56 2470 2490 "generation/genr_expression.ml" 56 2470 2494
+type(
+  Parsetree.expression option
+)
+ident(
+  def eopt "generation/genr_expression.ml" 57 2499 2503 "generation/genr_expression.ml" 57 2499 2555
+)
+"generation/genr_expression.ml" 56 2470 2474 "generation/genr_expression.ml" 56 2470 2495
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 57 2499 2516 "generation/genr_expression.ml" 57 2499 2525
+type(
+  (Parsetree.expression -> Parsetree.expression) ->
+  (Longident.t * Parsetree.expression) list ->
+  (Longident.t * Parsetree.expression) list
+)
+ident(
+  int_ref lower_map "generation/genr_expression.ml" 31 1418 1422 "generation/genr_expression.ml" 31 1418 1431
+)
+"generation/genr_expression.ml" 57 2499 2526 "generation/genr_expression.ml" 57 2499 2536
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 57 2499 2537 "generation/genr_expression.ml" 57 2499 2538
+type(
+  (Longident.t * Parsetree.expression) list
+)
+ident(
+  int_ref l "generation/genr_expression.ml" 56 2470 2487 "generation/genr_expression.ml" 56 2470 2488
+)
+"generation/genr_expression.ml" 57 2499 2516 "generation/genr_expression.ml" 57 2499 2538
+call(
+  stack
+)
+type(
+  (Longident.t * Parsetree.expression) list
+)
+"generation/genr_expression.ml" 57 2499 2540 "generation/genr_expression.ml" 57 2499 2549
+type(
+  Parsetree.expression option -> Parsetree.expression option
+)
+ident(
+  int_ref lower_opt "generation/genr_expression.ml" 36 1554 1558 "generation/genr_expression.ml" 36 1554 1567
+)
+"generation/genr_expression.ml" 57 2499 2550 "generation/genr_expression.ml" 57 2499 2554
+type(
+  Parsetree.expression option
+)
+ident(
+  int_ref eopt "generation/genr_expression.ml" 56 2470 2490 "generation/genr_expression.ml" 56 2470 2494
+)
+"generation/genr_expression.ml" 57 2499 2540 "generation/genr_expression.ml" 57 2499 2554
+call(
+  stack
+)
+type(
+  Parsetree.expression option
+)
+"generation/genr_expression.ml" 57 2499 2503 "generation/genr_expression.ml" 57 2499 2555
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 58 2556 2572 "generation/genr_expression.ml" 58 2556 2573
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 58 2556 2583 "generation/genr_expression.ml" 58 2556 2630
+)
+"generation/genr_expression.ml" 58 2556 2575 "generation/genr_expression.ml" 58 2556 2578
+type(
+  Longident.t
+)
+ident(
+  def lid "generation/genr_expression.ml" 58 2556 2583 "generation/genr_expression.ml" 58 2556 2630
+)
+"generation/genr_expression.ml" 58 2556 2560 "generation/genr_expression.ml" 58 2556 2579
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 58 2556 2595 "generation/genr_expression.ml" 58 2556 2605
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 58 2556 2606 "generation/genr_expression.ml" 58 2556 2607
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 58 2556 2572 "generation/genr_expression.ml" 58 2556 2573
+)
+"generation/genr_expression.ml" 58 2556 2595 "generation/genr_expression.ml" 58 2556 2607
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 58 2556 2609 "generation/genr_expression.ml" 58 2556 2625
+type(
+  Code.uident -> Code.lident
+)
+ident(
+  int_ref lower_long_ident "generation/genr_expression.ml" 21 1111 1115 "generation/genr_expression.ml" 21 1111 1131
+)
+"generation/genr_expression.ml" 58 2556 2626 "generation/genr_expression.ml" 58 2556 2629
+type(
+  Code.uident
+)
+ident(
+  int_ref lid "generation/genr_expression.ml" 58 2556 2575 "generation/genr_expression.ml" 58 2556 2578
+)
+"generation/genr_expression.ml" 58 2556 2609 "generation/genr_expression.ml" 58 2556 2629
+call(
+  stack
+)
+type(
+  Code.lident
+)
+"generation/genr_expression.ml" 58 2556 2583 "generation/genr_expression.ml" 58 2556 2630
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 59 2631 2650 "generation/genr_expression.ml" 59 2631 2652
+type(
+  Parsetree.expression
+)
+ident(
+  def e1 "generation/genr_expression.ml" 60 2666 2670 "generation/genr_expression.ml" 60 2666 2736
+)
+"generation/genr_expression.ml" 59 2631 2654 "generation/genr_expression.ml" 59 2631 2657
+type(
+  Longident.t
+)
+ident(
+  def lid "generation/genr_expression.ml" 60 2666 2670 "generation/genr_expression.ml" 60 2666 2736
+)
+"generation/genr_expression.ml" 59 2631 2659 "generation/genr_expression.ml" 59 2631 2661
+type(
+  Parsetree.expression
+)
+ident(
+  def e2 "generation/genr_expression.ml" 60 2666 2670 "generation/genr_expression.ml" 60 2666 2736
+)
+"generation/genr_expression.ml" 59 2631 2635 "generation/genr_expression.ml" 59 2631 2662
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 60 2666 2685 "generation/genr_expression.ml" 60 2666 2695
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 60 2666 2696 "generation/genr_expression.ml" 60 2666 2698
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e1 "generation/genr_expression.ml" 59 2631 2650 "generation/genr_expression.ml" 59 2631 2652
+)
+"generation/genr_expression.ml" 60 2666 2685 "generation/genr_expression.ml" 60 2666 2698
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 60 2666 2700 "generation/genr_expression.ml" 60 2666 2716
+type(
+  Code.uident -> Code.lident
+)
+ident(
+  int_ref lower_long_ident "generation/genr_expression.ml" 21 1111 1115 "generation/genr_expression.ml" 21 1111 1131
+)
+"generation/genr_expression.ml" 60 2666 2717 "generation/genr_expression.ml" 60 2666 2720
+type(
+  Code.uident
+)
+ident(
+  int_ref lid "generation/genr_expression.ml" 59 2631 2654 "generation/genr_expression.ml" 59 2631 2657
+)
+"generation/genr_expression.ml" 60 2666 2700 "generation/genr_expression.ml" 60 2666 2720
+call(
+  stack
+)
+type(
+  Code.lident
+)
+"generation/genr_expression.ml" 60 2666 2722 "generation/genr_expression.ml" 60 2666 2732
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 60 2666 2733 "generation/genr_expression.ml" 60 2666 2735
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e2 "generation/genr_expression.ml" 59 2631 2659 "generation/genr_expression.ml" 59 2631 2661
+)
+"generation/genr_expression.ml" 60 2666 2722 "generation/genr_expression.ml" 60 2666 2735
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 60 2666 2670 "generation/genr_expression.ml" 60 2666 2736
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 61 2737 2752 "generation/genr_expression.ml" 61 2737 2753
+type(
+  Parsetree.expression list
+)
+ident(
+  def l "generation/genr_expression.ml" 61 2737 2757 "generation/genr_expression.ml" 61 2737 2791
+)
+"generation/genr_expression.ml" 61 2737 2741 "generation/genr_expression.ml" 61 2737 2753
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 61 2737 2769 "generation/genr_expression.ml" 61 2737 2777
+type(
+  (Parsetree.expression -> Parsetree.expression) ->
+  Parsetree.expression list -> Parsetree.expression list
+)
+ident(
+  ext_ref List.map
+)
+"generation/genr_expression.ml" 61 2737 2778 "generation/genr_expression.ml" 61 2737 2788
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 61 2737 2789 "generation/genr_expression.ml" 61 2737 2790
+type(
+  Parsetree.expression list
+)
+ident(
+  int_ref l "generation/genr_expression.ml" 61 2737 2752 "generation/genr_expression.ml" 61 2737 2753
+)
+"generation/genr_expression.ml" 61 2737 2768 "generation/genr_expression.ml" 61 2737 2791
+call(
+  stack
+)
+type(
+  Parsetree.expression list
+)
+"generation/genr_expression.ml" 61 2737 2757 "generation/genr_expression.ml" 61 2737 2791
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 62 2792 2813 "generation/genr_expression.ml" 62 2792 2815
+type(
+  Parsetree.expression
+)
+ident(
+  def e1 "generation/genr_expression.ml" 63 2830 2834 "generation/genr_expression.ml" 63 2830 2896
+)
+"generation/genr_expression.ml" 62 2792 2817 "generation/genr_expression.ml" 62 2792 2819
+type(
+  Parsetree.expression
+)
+ident(
+  def e2 "generation/genr_expression.ml" 63 2830 2834 "generation/genr_expression.ml" 63 2830 2896
+)
+"generation/genr_expression.ml" 62 2792 2821 "generation/genr_expression.ml" 62 2792 2825
+type(
+  Parsetree.expression option
+)
+ident(
+  def eopt "generation/genr_expression.ml" 63 2830 2834 "generation/genr_expression.ml" 63 2830 2896
+)
+"generation/genr_expression.ml" 62 2792 2796 "generation/genr_expression.ml" 62 2792 2826
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 63 2830 2851 "generation/genr_expression.ml" 63 2830 2861
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 63 2830 2862 "generation/genr_expression.ml" 63 2830 2864
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e1 "generation/genr_expression.ml" 62 2792 2813 "generation/genr_expression.ml" 62 2792 2815
+)
+"generation/genr_expression.ml" 63 2830 2851 "generation/genr_expression.ml" 63 2830 2864
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 63 2830 2866 "generation/genr_expression.ml" 63 2830 2876
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 63 2830 2877 "generation/genr_expression.ml" 63 2830 2879
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e2 "generation/genr_expression.ml" 62 2792 2817 "generation/genr_expression.ml" 62 2792 2819
+)
+"generation/genr_expression.ml" 63 2830 2866 "generation/genr_expression.ml" 63 2830 2879
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 63 2830 2881 "generation/genr_expression.ml" 63 2830 2890
+type(
+  Parsetree.expression option -> Parsetree.expression option
+)
+ident(
+  int_ref lower_opt "generation/genr_expression.ml" 36 1554 1558 "generation/genr_expression.ml" 36 1554 1567
+)
+"generation/genr_expression.ml" 63 2830 2891 "generation/genr_expression.ml" 63 2830 2895
+type(
+  Parsetree.expression option
+)
+ident(
+  int_ref eopt "generation/genr_expression.ml" 62 2792 2821 "generation/genr_expression.ml" 62 2792 2825
+)
+"generation/genr_expression.ml" 63 2830 2881 "generation/genr_expression.ml" 63 2830 2895
+call(
+  stack
+)
+type(
+  Parsetree.expression option
+)
+"generation/genr_expression.ml" 63 2830 2834 "generation/genr_expression.ml" 63 2830 2896
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 64 2897 2916 "generation/genr_expression.ml" 64 2897 2918
+type(
+  Parsetree.expression
+)
+ident(
+  def e1 "generation/genr_expression.ml" 64 2897 2927 "generation/genr_expression.ml" 64 2897 2971
+)
+"generation/genr_expression.ml" 64 2897 2920 "generation/genr_expression.ml" 64 2897 2922
+type(
+  Parsetree.expression
+)
+ident(
+  def e2 "generation/genr_expression.ml" 64 2897 2927 "generation/genr_expression.ml" 64 2897 2971
+)
+"generation/genr_expression.ml" 64 2897 2901 "generation/genr_expression.ml" 64 2897 2923
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 64 2897 2942 "generation/genr_expression.ml" 64 2897 2952
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 64 2897 2953 "generation/genr_expression.ml" 64 2897 2955
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e1 "generation/genr_expression.ml" 64 2897 2916 "generation/genr_expression.ml" 64 2897 2918
+)
+"generation/genr_expression.ml" 64 2897 2942 "generation/genr_expression.ml" 64 2897 2955
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 64 2897 2957 "generation/genr_expression.ml" 64 2897 2967
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 64 2897 2968 "generation/genr_expression.ml" 64 2897 2970
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e2 "generation/genr_expression.ml" 64 2897 2920 "generation/genr_expression.ml" 64 2897 2922
+)
+"generation/genr_expression.ml" 64 2897 2957 "generation/genr_expression.ml" 64 2897 2970
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 64 2897 2927 "generation/genr_expression.ml" 64 2897 2971
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 65 2972 2988 "generation/genr_expression.ml" 65 2972 2990
+type(
+  Parsetree.expression
+)
+ident(
+  def e1 "generation/genr_expression.ml" 65 2972 2999 "generation/genr_expression.ml" 65 2972 3040
+)
+"generation/genr_expression.ml" 65 2972 2992 "generation/genr_expression.ml" 65 2972 2994
+type(
+  Parsetree.expression
+)
+ident(
+  def e2 "generation/genr_expression.ml" 65 2972 2999 "generation/genr_expression.ml" 65 2972 3040
+)
+"generation/genr_expression.ml" 65 2972 2976 "generation/genr_expression.ml" 65 2972 2995
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 65 2972 3011 "generation/genr_expression.ml" 65 2972 3021
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 65 2972 3022 "generation/genr_expression.ml" 65 2972 3024
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e1 "generation/genr_expression.ml" 65 2972 2988 "generation/genr_expression.ml" 65 2972 2990
+)
+"generation/genr_expression.ml" 65 2972 3011 "generation/genr_expression.ml" 65 2972 3024
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 65 2972 3026 "generation/genr_expression.ml" 65 2972 3036
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 65 2972 3037 "generation/genr_expression.ml" 65 2972 3039
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e2 "generation/genr_expression.ml" 65 2972 2992 "generation/genr_expression.ml" 65 2972 2994
+)
+"generation/genr_expression.ml" 65 2972 3026 "generation/genr_expression.ml" 65 2972 3039
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 65 2972 2999 "generation/genr_expression.ml" 65 2972 3040
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 66 3041 3055 "generation/genr_expression.ml" 66 3041 3056
+type(
+  string
+)
+ident(
+  def s "generation/genr_expression.ml" 67 3077 3081 "generation/genr_expression.ml" 67 3077 3142
+)
+"generation/genr_expression.ml" 66 3041 3058 "generation/genr_expression.ml" 66 3041 3060
+type(
+  Parsetree.expression
+)
+ident(
+  def e1 "generation/genr_expression.ml" 67 3077 3081 "generation/genr_expression.ml" 67 3077 3142
+)
+"generation/genr_expression.ml" 66 3041 3062 "generation/genr_expression.ml" 66 3041 3064
+type(
+  Parsetree.expression
+)
+ident(
+  def e2 "generation/genr_expression.ml" 67 3077 3081 "generation/genr_expression.ml" 67 3077 3142
+)
+"generation/genr_expression.ml" 66 3041 3066 "generation/genr_expression.ml" 66 3041 3068
+type(
+  Asttypes.direction_flag
+)
+ident(
+  def df "generation/genr_expression.ml" 67 3077 3081 "generation/genr_expression.ml" 67 3077 3142
+)
+"generation/genr_expression.ml" 66 3041 3070 "generation/genr_expression.ml" 66 3041 3072
+type(
+  Parsetree.expression
+)
+ident(
+  def e3 "generation/genr_expression.ml" 67 3077 3081 "generation/genr_expression.ml" 67 3077 3142
+)
+"generation/genr_expression.ml" 66 3041 3045 "generation/genr_expression.ml" 66 3041 3073
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 67 3077 3091 "generation/genr_expression.ml" 67 3077 3092
+type(
+  string
+)
+ident(
+  int_ref s "generation/genr_expression.ml" 66 3041 3055 "generation/genr_expression.ml" 66 3041 3056
+)
+"generation/genr_expression.ml" 67 3077 3094 "generation/genr_expression.ml" 67 3077 3104
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 67 3077 3105 "generation/genr_expression.ml" 67 3077 3107
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e1 "generation/genr_expression.ml" 66 3041 3058 "generation/genr_expression.ml" 66 3041 3060
+)
+"generation/genr_expression.ml" 67 3077 3094 "generation/genr_expression.ml" 67 3077 3107
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 67 3077 3109 "generation/genr_expression.ml" 67 3077 3119
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 67 3077 3120 "generation/genr_expression.ml" 67 3077 3122
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e2 "generation/genr_expression.ml" 66 3041 3062 "generation/genr_expression.ml" 66 3041 3064
+)
+"generation/genr_expression.ml" 67 3077 3109 "generation/genr_expression.ml" 67 3077 3122
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 67 3077 3124 "generation/genr_expression.ml" 67 3077 3126
+type(
+  Asttypes.direction_flag
+)
+ident(
+  int_ref df "generation/genr_expression.ml" 66 3041 3066 "generation/genr_expression.ml" 66 3041 3068
+)
+"generation/genr_expression.ml" 67 3077 3128 "generation/genr_expression.ml" 67 3077 3138
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 67 3077 3139 "generation/genr_expression.ml" 67 3077 3141
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e3 "generation/genr_expression.ml" 66 3041 3070 "generation/genr_expression.ml" 66 3041 3072
+)
+"generation/genr_expression.ml" 67 3077 3128 "generation/genr_expression.ml" 67 3077 3141
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 67 3077 3081 "generation/genr_expression.ml" 67 3077 3142
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 68 3143 3164 "generation/genr_expression.ml" 68 3143 3165
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 68 3143 3180 "generation/genr_expression.ml" 68 3143 3220
+)
+"generation/genr_expression.ml" 68 3143 3167 "generation/genr_expression.ml" 68 3143 3170
+type(
+  Parsetree.core_type option
+)
+ident(
+  def ct1 "generation/genr_expression.ml" 68 3143 3180 "generation/genr_expression.ml" 68 3143 3220
+)
+"generation/genr_expression.ml" 68 3143 3172 "generation/genr_expression.ml" 68 3143 3175
+type(
+  Parsetree.core_type option
+)
+ident(
+  def ct2 "generation/genr_expression.ml" 68 3143 3180 "generation/genr_expression.ml" 68 3143 3220
+)
+"generation/genr_expression.ml" 68 3143 3147 "generation/genr_expression.ml" 68 3143 3176
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 68 3143 3197 "generation/genr_expression.ml" 68 3143 3207
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 68 3143 3208 "generation/genr_expression.ml" 68 3143 3209
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 68 3143 3164 "generation/genr_expression.ml" 68 3143 3165
+)
+"generation/genr_expression.ml" 68 3143 3197 "generation/genr_expression.ml" 68 3143 3209
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 68 3143 3211 "generation/genr_expression.ml" 68 3143 3214
+type(
+  Parsetree.core_type option
+)
+ident(
+  int_ref ct1 "generation/genr_expression.ml" 68 3143 3167 "generation/genr_expression.ml" 68 3143 3170
+)
+"generation/genr_expression.ml" 68 3143 3216 "generation/genr_expression.ml" 68 3143 3219
+type(
+  Parsetree.core_type option
+)
+ident(
+  int_ref ct2 "generation/genr_expression.ml" 68 3143 3172 "generation/genr_expression.ml" 68 3143 3175
+)
+"generation/genr_expression.ml" 68 3143 3180 "generation/genr_expression.ml" 68 3143 3220
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 69 3221 3236 "generation/genr_expression.ml" 69 3221 3238
+type(
+  Parsetree.expression
+)
+ident(
+  def e1 "generation/genr_expression.ml" 69 3221 3247 "generation/genr_expression.ml" 69 3221 3287
+)
+"generation/genr_expression.ml" 69 3221 3240 "generation/genr_expression.ml" 69 3221 3242
+type(
+  Parsetree.expression
+)
+ident(
+  def e2 "generation/genr_expression.ml" 69 3221 3247 "generation/genr_expression.ml" 69 3221 3287
+)
+"generation/genr_expression.ml" 69 3221 3225 "generation/genr_expression.ml" 69 3221 3243
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 69 3221 3258 "generation/genr_expression.ml" 69 3221 3268
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 69 3221 3269 "generation/genr_expression.ml" 69 3221 3271
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e1 "generation/genr_expression.ml" 69 3221 3236 "generation/genr_expression.ml" 69 3221 3238
+)
+"generation/genr_expression.ml" 69 3221 3258 "generation/genr_expression.ml" 69 3221 3271
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 69 3221 3273 "generation/genr_expression.ml" 69 3221 3283
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 69 3221 3284 "generation/genr_expression.ml" 69 3221 3286
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e2 "generation/genr_expression.ml" 69 3221 3240 "generation/genr_expression.ml" 69 3221 3242
+)
+"generation/genr_expression.ml" 69 3221 3273 "generation/genr_expression.ml" 69 3221 3286
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 69 3221 3247 "generation/genr_expression.ml" 69 3221 3287
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 70 3288 3303 "generation/genr_expression.ml" 70 3288 3304
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 70 3288 3312 "generation/genr_expression.ml" 70 3288 3339
+)
+"generation/genr_expression.ml" 70 3288 3306 "generation/genr_expression.ml" 70 3288 3307
+type(
+  string
+)
+ident(
+  def s "generation/genr_expression.ml" 70 3288 3312 "generation/genr_expression.ml" 70 3288 3339
+)
+"generation/genr_expression.ml" 70 3288 3292 "generation/genr_expression.ml" 70 3288 3308
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 70 3288 3323 "generation/genr_expression.ml" 70 3288 3333
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 70 3288 3334 "generation/genr_expression.ml" 70 3288 3335
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 70 3288 3303 "generation/genr_expression.ml" 70 3288 3304
+)
+"generation/genr_expression.ml" 70 3288 3323 "generation/genr_expression.ml" 70 3288 3335
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 70 3288 3337 "generation/genr_expression.ml" 70 3288 3338
+type(
+  string
+)
+ident(
+  int_ref s "generation/genr_expression.ml" 70 3288 3306 "generation/genr_expression.ml" 70 3288 3307
+)
+"generation/genr_expression.ml" 70 3288 3312 "generation/genr_expression.ml" 70 3288 3339
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 71 3340 3353 "generation/genr_expression.ml" 71 3340 3356
+type(
+  Longident.t
+)
+ident(
+  def lid "generation/genr_expression.ml" 71 3340 3360 "generation/genr_expression.ml" 71 3340 3391
+)
+"generation/genr_expression.ml" 71 3340 3344 "generation/genr_expression.ml" 71 3340 3356
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 71 3340 3370 "generation/genr_expression.ml" 71 3340 3386
+type(
+  Code.uident -> Code.lident
+)
+ident(
+  int_ref lower_long_ident "generation/genr_expression.ml" 21 1111 1115 "generation/genr_expression.ml" 21 1111 1131
+)
+"generation/genr_expression.ml" 71 3340 3387 "generation/genr_expression.ml" 71 3340 3390
+type(
+  Code.uident
+)
+ident(
+  int_ref lid "generation/genr_expression.ml" 71 3340 3353 "generation/genr_expression.ml" 71 3340 3356
+)
+"generation/genr_expression.ml" 71 3340 3369 "generation/genr_expression.ml" 71 3340 3391
+call(
+  stack
+)
+type(
+  Code.lident
+)
+"generation/genr_expression.ml" 71 3340 3360 "generation/genr_expression.ml" 71 3340 3391
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 72 3392 3413 "generation/genr_expression.ml" 72 3392 3414
+type(
+  string
+)
+ident(
+  def s "generation/genr_expression.ml" 72 3392 3422 "generation/genr_expression.ml" 72 3392 3455
+)
+"generation/genr_expression.ml" 72 3392 3416 "generation/genr_expression.ml" 72 3392 3417
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 72 3392 3422 "generation/genr_expression.ml" 72 3392 3455
+)
+"generation/genr_expression.ml" 72 3392 3396 "generation/genr_expression.ml" 72 3392 3418
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 72 3392 3439 "generation/genr_expression.ml" 72 3392 3440
+type(
+  string
+)
+ident(
+  int_ref s "generation/genr_expression.ml" 72 3392 3413 "generation/genr_expression.ml" 72 3392 3414
+)
+"generation/genr_expression.ml" 72 3392 3442 "generation/genr_expression.ml" 72 3392 3452
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 72 3392 3453 "generation/genr_expression.ml" 72 3392 3454
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 72 3392 3416 "generation/genr_expression.ml" 72 3392 3417
+)
+"generation/genr_expression.ml" 72 3392 3442 "generation/genr_expression.ml" 72 3392 3454
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 72 3392 3422 "generation/genr_expression.ml" 72 3392 3455
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 73 3456 3474 "generation/genr_expression.ml" 73 3456 3475
+type(
+  (string * Parsetree.expression) list
+)
+ident(
+  def l "generation/genr_expression.ml" 73 3456 3479 "generation/genr_expression.ml" 73 3456 3517
+)
+"generation/genr_expression.ml" 73 3456 3460 "generation/genr_expression.ml" 73 3456 3475
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 73 3456 3494 "generation/genr_expression.ml" 73 3456 3503
+type(
+  (Parsetree.expression -> Parsetree.expression) ->
+  (string * Parsetree.expression) list ->
+  (string * Parsetree.expression) list
+)
+ident(
+  int_ref lower_map "generation/genr_expression.ml" 31 1418 1422 "generation/genr_expression.ml" 31 1418 1431
+)
+"generation/genr_expression.ml" 73 3456 3504 "generation/genr_expression.ml" 73 3456 3514
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 73 3456 3515 "generation/genr_expression.ml" 73 3456 3516
+type(
+  (string * Parsetree.expression) list
+)
+ident(
+  int_ref l "generation/genr_expression.ml" 73 3456 3474 "generation/genr_expression.ml" 73 3456 3475
+)
+"generation/genr_expression.ml" 73 3456 3493 "generation/genr_expression.ml" 73 3456 3517
+call(
+  stack
+)
+type(
+  (string * Parsetree.expression) list
+)
+"generation/genr_expression.ml" 73 3456 3479 "generation/genr_expression.ml" 73 3456 3517
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 74 3518 3538 "generation/genr_expression.ml" 74 3518 3539
+type(
+  string
+)
+ident(
+  def s "generation/genr_expression.ml" 74 3518 3550 "generation/genr_expression.ml" 74 3518 3585
+)
+"generation/genr_expression.ml" 74 3518 3541 "generation/genr_expression.ml" 74 3518 3542
+type(
+  Parsetree.module_expr
+)
+ident(
+  def m "generation/genr_expression.ml" 74 3518 3550 "generation/genr_expression.ml" 74 3518 3585
+)
+"generation/genr_expression.ml" 74 3518 3544 "generation/genr_expression.ml" 74 3518 3545
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 74 3518 3550 "generation/genr_expression.ml" 74 3518 3585
+)
+"generation/genr_expression.ml" 74 3518 3522 "generation/genr_expression.ml" 74 3518 3546
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 74 3518 3566 "generation/genr_expression.ml" 74 3518 3567
+type(
+  string
+)
+ident(
+  int_ref s "generation/genr_expression.ml" 74 3518 3538 "generation/genr_expression.ml" 74 3518 3539
+)
+"generation/genr_expression.ml" 74 3518 3569 "generation/genr_expression.ml" 74 3518 3570
+type(
+  Parsetree.module_expr
+)
+ident(
+  int_ref m "generation/genr_expression.ml" 74 3518 3541 "generation/genr_expression.ml" 74 3518 3542
+)
+"generation/genr_expression.ml" 74 3518 3572 "generation/genr_expression.ml" 74 3518 3582
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 74 3518 3583 "generation/genr_expression.ml" 74 3518 3584
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 74 3518 3544 "generation/genr_expression.ml" 74 3518 3545
+)
+"generation/genr_expression.ml" 74 3518 3572 "generation/genr_expression.ml" 74 3518 3584
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 74 3518 3550 "generation/genr_expression.ml" 74 3518 3585
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 75 3586 3602 "generation/genr_expression.ml" 75 3586 3603
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 75 3586 3607 "generation/genr_expression.ml" 75 3586 3633
+)
+"generation/genr_expression.ml" 75 3586 3590 "generation/genr_expression.ml" 75 3586 3603
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 75 3586 3620 "generation/genr_expression.ml" 75 3586 3630
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 75 3586 3631 "generation/genr_expression.ml" 75 3586 3632
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 75 3586 3602 "generation/genr_expression.ml" 75 3586 3603
+)
+"generation/genr_expression.ml" 75 3586 3619 "generation/genr_expression.ml" 75 3586 3633
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 75 3586 3607 "generation/genr_expression.ml" 75 3586 3633
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 76 3634 3638 "generation/genr_expression.ml" 76 3634 3654
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 76 3634 3658 "generation/genr_expression.ml" 76 3634 3674
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 77 3675 3689 "generation/genr_expression.ml" 77 3675 3690
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 77 3675 3694 "generation/genr_expression.ml" 77 3675 3718
+)
+"generation/genr_expression.ml" 77 3675 3679 "generation/genr_expression.ml" 77 3675 3690
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 77 3675 3705 "generation/genr_expression.ml" 77 3675 3715
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 77 3675 3716 "generation/genr_expression.ml" 77 3675 3717
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 77 3675 3689 "generation/genr_expression.ml" 77 3675 3690
+)
+"generation/genr_expression.ml" 77 3675 3704 "generation/genr_expression.ml" 77 3675 3718
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 77 3675 3694 "generation/genr_expression.ml" 77 3675 3718
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 78 3719 3734 "generation/genr_expression.ml" 78 3719 3735
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 78 3719 3744 "generation/genr_expression.ml" 78 3719 3772
+)
+"generation/genr_expression.ml" 78 3719 3737 "generation/genr_expression.ml" 78 3719 3739
+type(
+  Parsetree.core_type option
+)
+ident(
+  def ct "generation/genr_expression.ml" 78 3719 3744 "generation/genr_expression.ml" 78 3719 3772
+)
+"generation/genr_expression.ml" 78 3719 3723 "generation/genr_expression.ml" 78 3719 3740
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 78 3719 3755 "generation/genr_expression.ml" 78 3719 3765
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 78 3719 3766 "generation/genr_expression.ml" 78 3719 3767
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 78 3719 3734 "generation/genr_expression.ml" 78 3719 3735
+)
+"generation/genr_expression.ml" 78 3719 3755 "generation/genr_expression.ml" 78 3719 3767
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 78 3719 3769 "generation/genr_expression.ml" 78 3719 3771
+type(
+  Parsetree.core_type option
+)
+ident(
+  int_ref ct "generation/genr_expression.ml" 78 3719 3737 "generation/genr_expression.ml" 78 3719 3739
+)
+"generation/genr_expression.ml" 78 3719 3744 "generation/genr_expression.ml" 78 3719 3772
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 80 3825 3841 "generation/genr_expression.ml" 80 3825 3842
+type(
+  Parsetree.class_structure
+)
+"generation/genr_expression.ml" 80 3825 3829 "generation/genr_expression.ml" 80 3825 3842
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 80 3825 3847 "generation/genr_expression.ml" 80 3825 3855
+type(
+  string -> Parsetree.expression_desc
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"generation/genr_expression.ml" 80 3825 3856 "generation/genr_expression.ml" 80 3825 3877
+type(
+  string
+)
+"generation/genr_expression.ml" 80 3825 3847 "generation/genr_expression.ml" 80 3825 3877
+call(
+  tail
+)
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 81 3878 3893 "generation/genr_expression.ml" 81 3878 3905
+type(
+  Longident.t
+)
+ident(
+  def module_ident "generation/genr_expression.ml" 81 3878 3913 "generation/genr_expression.ml" 81 3878 3951
+)
+"generation/genr_expression.ml" 81 3878 3907 "generation/genr_expression.ml" 81 3878 3908
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 81 3878 3913 "generation/genr_expression.ml" 81 3878 3951
+)
+"generation/genr_expression.ml" 81 3878 3882 "generation/genr_expression.ml" 81 3878 3909
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 81 3878 3924 "generation/genr_expression.ml" 81 3878 3936
+type(
+  Longident.t
+)
+ident(
+  int_ref module_ident "generation/genr_expression.ml" 81 3878 3893 "generation/genr_expression.ml" 81 3878 3905
+)
+"generation/genr_expression.ml" 81 3878 3938 "generation/genr_expression.ml" 81 3878 3948
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 81 3878 3949 "generation/genr_expression.ml" 81 3878 3950
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 81 3878 3907 "generation/genr_expression.ml" 81 3878 3908
+)
+"generation/genr_expression.ml" 81 3878 3938 "generation/genr_expression.ml" 81 3878 3950
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 81 3878 3913 "generation/genr_expression.ml" 81 3878 3951
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 83 4007 4022 "generation/genr_expression.ml" 83 4007 4031
+type(
+  Parsetree.module_expr
+)
+ident(
+  def _mod_expr "generation/genr_expression.ml" 83 4007 4048 "generation/genr_expression.ml" 83 4007 4078
+)
+"generation/genr_expression.ml" 83 4007 4033 "generation/genr_expression.ml" 83 4007 4043
+type(
+  Parsetree.package_type
+)
+ident(
+  def _pack_type "generation/genr_expression.ml" 83 4007 4048 "generation/genr_expression.ml" 83 4007 4078
+)
+"generation/genr_expression.ml" 83 4007 4011 "generation/genr_expression.ml" 83 4007 4044
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 83 4007 4048 "generation/genr_expression.ml" 83 4007 4056
+type(
+  string -> Parsetree.expression_desc
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"generation/genr_expression.ml" 83 4007 4057 "generation/genr_expression.ml" 83 4007 4078
+type(
+  string
+)
+"generation/genr_expression.ml" 83 4007 4048 "generation/genr_expression.ml" 83 4007 4078
+call(
+  tail
+)
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 84 4079 4097 "generation/genr_expression.ml" 84 4079 4098
+type(
+  string
+)
+ident(
+  def t "generation/genr_expression.ml" 84 4079 4106 "generation/genr_expression.ml" 84 4079 4136
+)
+"generation/genr_expression.ml" 84 4079 4100 "generation/genr_expression.ml" 84 4079 4101
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 84 4079 4106 "generation/genr_expression.ml" 84 4079 4136
+)
+"generation/genr_expression.ml" 84 4079 4083 "generation/genr_expression.ml" 84 4079 4102
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 84 4079 4120 "generation/genr_expression.ml" 84 4079 4121
+type(
+  string
+)
+ident(
+  int_ref t "generation/genr_expression.ml" 84 4079 4097 "generation/genr_expression.ml" 84 4079 4098
+)
+"generation/genr_expression.ml" 84 4079 4123 "generation/genr_expression.ml" 84 4079 4133
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 84 4079 4134 "generation/genr_expression.ml" 84 4079 4135
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 84 4079 4100 "generation/genr_expression.ml" 84 4079 4101
+)
+"generation/genr_expression.ml" 84 4079 4123 "generation/genr_expression.ml" 84 4079 4135
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 84 4079 4106 "generation/genr_expression.ml" 84 4079 4136
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 40 1631 1643 "generation/genr_expression.ml" 84 4079 4136
+type(
+  Parsetree.expression_desc -> Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 89 4234 4238 "generation/genr_expression.ml" 89 4234 4247
+type(
+  Parsetree.pattern -> Parsetree.expression -> Code.clause
+)
+ident(
+  def genr_rule "generation/genr_expression.ml" 99 4547 4610 "generation/genr_expression.ml" 1 0 -1
+)
+"generation/genr_expression.ml" 89 4234 4248 "generation/genr_expression.ml" 89 4234 4249
+type(
+  Parsetree.pattern
+)
+ident(
+  def p "generation/genr_expression.ml" 89 4234 4250 "generation/genr_expression.ml" 99 4547 4610
+)
+"generation/genr_expression.ml" 89 4234 4250 "generation/genr_expression.ml" 89 4234 4251
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 90 4254 4256 "generation/genr_expression.ml" 99 4547 4610
+)
+"generation/genr_expression.ml" 90 4254 4260 "generation/genr_expression.ml" 90 4254 4261
+type(
+  Parsetree.pattern
+)
+ident(
+  def p "generation/genr_expression.ml" 91 4297 4299 "generation/genr_expression.ml" 99 4547 4610
+)
+"generation/genr_expression.ml" 90 4254 4264 "generation/genr_expression.ml" 90 4254 4291
+type(
+  Parsetree.pattern -> Parsetree.pattern
+)
+ident(
+  ext_ref Genr_base.genr_rule_pattern
+)
+"generation/genr_expression.ml" 90 4254 4292 "generation/genr_expression.ml" 90 4254 4293
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "generation/genr_expression.ml" 89 4234 4248 "generation/genr_expression.ml" 89 4234 4249
+)
+"generation/genr_expression.ml" 90 4254 4264 "generation/genr_expression.ml" 90 4254 4293
+call(
+  stack
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_expression.ml" 91 4297 4305 "generation/genr_expression.ml" 91 4297 4306
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 89 4234 4250 "generation/genr_expression.ml" 89 4234 4251
+)
+"generation/genr_expression.ml" 91 4297 4305 "generation/genr_expression.ml" 91 4297 4316
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 92 4322 4337 "generation/genr_expression.ml" 92 4322 4339
+type(
+  Parsetree.expression
+)
+ident(
+  def e1 "generation/genr_expression.ml" 93 4348 4352 "generation/genr_expression.ml" 96 4477 4509
+)
+"generation/genr_expression.ml" 92 4322 4341 "generation/genr_expression.ml" 92 4322 4343
+type(
+  Parsetree.expression
+)
+ident(
+  def e2 "generation/genr_expression.ml" 93 4348 4352 "generation/genr_expression.ml" 96 4477 4509
+)
+"generation/genr_expression.ml" 92 4322 4326 "generation/genr_expression.ml" 92 4322 4344
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 93 4348 4356 "generation/genr_expression.ml" 93 4348 4358
+type(
+  Parsetree.expression
+)
+ident(
+  def e1 "generation/genr_expression.ml" 94 4401 4405 "generation/genr_expression.ml" 96 4477 4509
+)
+"generation/genr_expression.ml" 93 4348 4361 "generation/genr_expression.ml" 93 4348 4371
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 93 4348 4372 "generation/genr_expression.ml" 93 4348 4374
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e1 "generation/genr_expression.ml" 92 4322 4337 "generation/genr_expression.ml" 92 4322 4339
+)
+"generation/genr_expression.ml" 93 4348 4361 "generation/genr_expression.ml" 93 4348 4374
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 93 4348 4379 "generation/genr_expression.ml" 93 4348 4381
+type(
+  Parsetree.expression
+)
+ident(
+  def e2 "generation/genr_expression.ml" 94 4401 4405 "generation/genr_expression.ml" 96 4477 4509
+)
+"generation/genr_expression.ml" 93 4348 4384 "generation/genr_expression.ml" 93 4348 4394
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 93 4348 4395 "generation/genr_expression.ml" 93 4348 4397
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e2 "generation/genr_expression.ml" 92 4322 4341 "generation/genr_expression.ml" 92 4322 4343
+)
+"generation/genr_expression.ml" 93 4348 4384 "generation/genr_expression.ml" 93 4348 4397
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 95 4422 4448 "generation/genr_expression.ml" 95 4422 4449
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "generation/genr_expression.ml" 90 4254 4260 "generation/genr_expression.ml" 90 4254 4261
+)
+"generation/genr_expression.ml" 95 4422 4429 "generation/genr_expression.ml" 95 4422 4449
+type(
+  Code.pattern
+)
+"generation/genr_expression.ml" 95 4422 4473 "generation/genr_expression.ml" 95 4422 4475
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e1 "generation/genr_expression.ml" 93 4348 4356 "generation/genr_expression.ml" 93 4348 4358
+)
+"generation/genr_expression.ml" 95 4422 4451 "generation/genr_expression.ml" 95 4422 4475
+type(
+  Code.exp
+)
+"generation/genr_expression.ml" 96 4477 4506 "generation/genr_expression.ml" 96 4477 4508
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e2 "generation/genr_expression.ml" 93 4348 4379 "generation/genr_expression.ml" 93 4348 4381
+)
+"generation/genr_expression.ml" 96 4477 4484 "generation/genr_expression.ml" 96 4477 4508
+type(
+  Code.exp
+)
+"generation/genr_expression.ml" 94 4401 4405 "generation/genr_expression.ml" 96 4477 4509
+type(
+  Code.clause
+)
+"generation/genr_expression.ml" 93 4348 4352 "generation/genr_expression.ml" 96 4477 4509
+type(
+  Code.clause
+)
+"generation/genr_expression.ml" 97 4510 4514 "generation/genr_expression.ml" 97 4510 4515
+type(
+  Parsetree.expression_desc
+)
+"generation/genr_expression.ml" 98 4519 4527 "generation/genr_expression.ml" 98 4519 4528
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_expression.ml" 99 4547 4551 "generation/genr_expression.ml" 99 4547 4610
+)
+"generation/genr_expression.ml" 98 4519 4531 "generation/genr_expression.ml" 98 4519 4541
+type(
+  Parsetree.expression -> Parsetree.expression
+)
+ident(
+  int_ref lower_case "generation/genr_expression.ml" 34 1489 1497 "generation/genr_expression.ml" 34 1489 1507
+)
+"generation/genr_expression.ml" 98 4519 4542 "generation/genr_expression.ml" 98 4519 4543
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 89 4234 4250 "generation/genr_expression.ml" 89 4234 4251
+)
+"generation/genr_expression.ml" 98 4519 4531 "generation/genr_expression.ml" 98 4519 4543
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_expression.ml" 99 4547 4583 "generation/genr_expression.ml" 99 4547 4584
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref p "generation/genr_expression.ml" 90 4254 4260 "generation/genr_expression.ml" 90 4254 4261
+)
+"generation/genr_expression.ml" 99 4547 4564 "generation/genr_expression.ml" 99 4547 4584
+type(
+  Code.pattern
+)
+"generation/genr_expression.ml" 99 4547 4608 "generation/genr_expression.ml" 99 4547 4609
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_expression.ml" 98 4519 4527 "generation/genr_expression.ml" 98 4519 4528
+)
+"generation/genr_expression.ml" 99 4547 4586 "generation/genr_expression.ml" 99 4547 4609
+type(
+  Code.exp
+)
+"generation/genr_expression.ml" 99 4547 4551 "generation/genr_expression.ml" 99 4547 4610
+type(
+  Code.clause
+)
+"generation/genr_expression.ml" 98 4519 4523 "generation/genr_expression.ml" 99 4547 4610
+type(
+  Code.clause
+)
+"generation/genr_expression.ml" 91 4297 4299 "generation/genr_expression.ml" 99 4547 4610
+type(
+  Code.clause
+)
+"generation/genr_expression.ml" 90 4254 4256 "generation/genr_expression.ml" 99 4547 4610
+type(
+  Code.clause
+)

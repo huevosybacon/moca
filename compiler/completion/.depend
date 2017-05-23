@@ -1,0 +1,58 @@
+var.cmi :
+symb.cmi :
+term.cmi : var.cmi symb.cmi
+subterm.cmi : term.cmi
+order.cmi : term.cmi symb.cmi
+prec.cmi : symb.cmi order.cmi
+subs.cmi : var.cmi term.cmi
+match.cmi : term.cmi subs.cmi
+rename.cmi : term.cmi subs.cmi
+unif.cmi : term.cmi subs.cmi
+rule.cmi : term.cmi symb.cmi
+equation.cmi : term.cmi order.cmi
+cparser.cmi : term.cmi rule.cmi equation.cmi
+clexer.cmi : cparser.cmi
+cp.cmi : term.cmi rule.cmi equation.cmi
+norm.cmi : term.cmi rule.cmi
+comp.cmi : term.cmi rule.cmi order.cmi equation.cmi
+axiom.cmi : symb.cmi equation.cmi
+var.cmo : var.cmi
+var.cmx : var.cmi
+symb.cmo : symb.cmi
+symb.cmx : symb.cmi
+term.cmo : var.cmi symb.cmi term.cmi
+term.cmx : var.cmx symb.cmx term.cmi
+subterm.cmo : term.cmi subterm.cmi
+subterm.cmx : term.cmx subterm.cmi
+order.cmo : term.cmi symb.cmi order.cmi
+order.cmx : term.cmx symb.cmx order.cmi
+prec.cmo : term.cmi symb.cmi order.cmi prec.cmi
+prec.cmx : term.cmx symb.cmx order.cmx prec.cmi
+subs.cmo : var.cmi term.cmi subs.cmi
+subs.cmx : var.cmx term.cmx subs.cmi
+match.cmo : term.cmi subterm.cmi subs.cmi match.cmi
+match.cmx : term.cmx subterm.cmx subs.cmx match.cmi
+rename.cmo : term.cmi match.cmi rename.cmi
+rename.cmx : term.cmx match.cmx rename.cmi
+unif.cmo : term.cmi subs.cmi unif.cmi
+unif.cmx : term.cmx subs.cmx unif.cmi
+rule.cmo : term.cmi symb.cmi subs.cmi rename.cmi rule.cmi
+rule.cmx : term.cmx symb.cmx subs.cmx rename.cmx rule.cmi
+equation.cmo : term.cmi order.cmi equation.cmi
+equation.cmx : term.cmx order.cmx equation.cmi
+cparser.cmo : var.cmi term.cmi symb.cmi rule.cmi equation.cmi cparser.cmi
+cparser.cmx : var.cmx term.cmx symb.cmx rule.cmx equation.cmx cparser.cmi
+clexer.cmo : cparser.cmi clexer.cmi
+clexer.cmx : cparser.cmx clexer.cmi
+cp.cmo : unif.cmi term.cmi subterm.cmi subs.cmi rule.cmi rename.cmi \
+    equation.cmi cp.cmi
+cp.cmx : unif.cmx term.cmx subterm.cmx subs.cmx rule.cmx rename.cmx \
+    equation.cmx cp.cmi
+norm.cmo : subterm.cmi subs.cmi rule.cmi match.cmi norm.cmi
+norm.cmx : subterm.cmx subs.cmx rule.cmx match.cmx norm.cmi
+comp.cmo : subs.cmi rule.cmi rename.cmi order.cmi norm_ml.cmi norm.cmi \
+    match.cmi equation.cmi cp.cmi comp.cmi
+comp.cmx : subs.cmx rule.cmx rename.cmx order.cmx norm_ml.cmx norm.cmx \
+    match.cmx equation.cmx cp.cmx comp.cmi
+axiom.cmo : term.cmi symb.cmi equation.cmi axiom.cmi
+axiom.cmx : term.cmx symb.cmx equation.cmx axiom.cmi

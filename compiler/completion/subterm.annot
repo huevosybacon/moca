@@ -1,0 +1,2307 @@
+"completion/subterm.ml" 22 1100 1104 "completion/subterm.ml" 22 1100 1108
+type(
+  (Term.term -> 'a -> 'a) -> Term.term -> 'a -> 'a
+)
+ident(
+  def fold "completion/subterm.ml" 31 1366 1366 "completion/subterm.ml" 1 0 -1
+)
+"completion/subterm.ml" 22 1100 1109 "completion/subterm.ml" 22 1100 1112
+type(
+  Term.term -> 'a -> 'a
+)
+ident(
+  def add "completion/subterm.ml" 23 1115 1117 "completion/subterm.ml" 27 1262 1287
+)
+"completion/subterm.ml" 23 1115 1125 "completion/subterm.ml" 23 1115 1128
+type(
+  'a -> Term.term list -> 'a
+)
+ident(
+  def aux "completion/subterm.ml" 23 1115 1117 "completion/subterm.ml" 27 1262 1287
+)
+"completion/subterm.ml" 23 1115 1129 "completion/subterm.ml" 23 1115 1132
+type(
+  'a
+)
+ident(
+  def acc "completion/subterm.ml" 23 1115 1135 "completion/subterm.ml" 26 1217 1261
+)
+"completion/subterm.ml" 24 1144 1150 "completion/subterm.ml" 24 1144 1152
+type(
+  Term.term list
+)
+"completion/subterm.ml" 24 1144 1156 "completion/subterm.ml" 24 1144 1159
+type(
+  'a
+)
+ident(
+  int_ref acc "completion/subterm.ml" 23 1115 1129 "completion/subterm.ml" 23 1115 1132
+)
+"completion/subterm.ml" 25 1160 1171 "completion/subterm.ml" 25 1160 1172
+type(
+  Symb.symbol
+)
+"completion/subterm.ml" 25 1160 1173 "completion/subterm.ml" 25 1160 1175
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/subterm.ml" 25 1160 1191 "completion/subterm.ml" 25 1160 1216
+)
+"completion/subterm.ml" 25 1160 1166 "completion/subterm.ml" 25 1160 1176
+type(
+  Term.term
+)
+"completion/subterm.ml" 25 1160 1180 "completion/subterm.ml" 25 1160 1181
+ident(
+  def t "completion/subterm.ml" 25 1160 1191 "completion/subterm.ml" 25 1160 1216
+)
+"completion/subterm.ml" 25 1160 1166 "completion/subterm.ml" 25 1160 1181
+type(
+  Term.term
+)
+"completion/subterm.ml" 25 1160 1185 "completion/subterm.ml" 25 1160 1187
+type(
+  Term.term list
+)
+ident(
+  def us "completion/subterm.ml" 25 1160 1191 "completion/subterm.ml" 25 1160 1216
+)
+"completion/subterm.ml" 25 1160 1166 "completion/subterm.ml" 25 1160 1187
+type(
+  Term.term list
+)
+"completion/subterm.ml" 25 1160 1191 "completion/subterm.ml" 25 1160 1194
+type(
+  'a -> Term.term list -> 'a
+)
+ident(
+  int_ref aux "completion/subterm.ml" 23 1115 1125 "completion/subterm.ml" 23 1115 1128
+)
+"completion/subterm.ml" 25 1160 1196 "completion/subterm.ml" 25 1160 1199
+type(
+  Term.term -> 'a -> 'a
+)
+ident(
+  int_ref add "completion/subterm.ml" 22 1100 1109 "completion/subterm.ml" 22 1100 1112
+)
+"completion/subterm.ml" 25 1160 1200 "completion/subterm.ml" 25 1160 1201
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 25 1160 1166 "completion/subterm.ml" 25 1160 1181
+)
+"completion/subterm.ml" 25 1160 1202 "completion/subterm.ml" 25 1160 1205
+type(
+  'a
+)
+ident(
+  int_ref acc "completion/subterm.ml" 23 1115 1129 "completion/subterm.ml" 23 1115 1132
+)
+"completion/subterm.ml" 25 1160 1195 "completion/subterm.ml" 25 1160 1206
+call(
+  stack
+)
+type(
+  'a
+)
+"completion/subterm.ml" 25 1160 1208 "completion/subterm.ml" 25 1160 1210
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/subterm.ml" 25 1160 1173 "completion/subterm.ml" 25 1160 1175
+)
+"completion/subterm.ml" 25 1160 1211 "completion/subterm.ml" 25 1160 1212
+type(
+  Term.term list -> Term.term list -> Term.term list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"completion/subterm.ml" 25 1160 1213 "completion/subterm.ml" 25 1160 1215
+type(
+  Term.term list
+)
+ident(
+  int_ref us "completion/subterm.ml" 25 1160 1185 "completion/subterm.ml" 25 1160 1187
+)
+"completion/subterm.ml" 25 1160 1207 "completion/subterm.ml" 25 1160 1216
+call(
+  stack
+)
+type(
+  Term.term list
+)
+"completion/subterm.ml" 25 1160 1191 "completion/subterm.ml" 25 1160 1216
+call(
+  tail
+)
+type(
+  'a
+)
+"completion/subterm.ml" 26 1217 1227 "completion/subterm.ml" 26 1217 1228
+type(
+  Var.var
+)
+"completion/subterm.ml" 26 1217 1223 "completion/subterm.ml" 26 1217 1228
+type(
+  Term.term
+)
+"completion/subterm.ml" 26 1217 1232 "completion/subterm.ml" 26 1217 1233
+ident(
+  def t "completion/subterm.ml" 26 1217 1243 "completion/subterm.ml" 26 1217 1261
+)
+"completion/subterm.ml" 26 1217 1223 "completion/subterm.ml" 26 1217 1233
+type(
+  Term.term
+)
+"completion/subterm.ml" 26 1217 1237 "completion/subterm.ml" 26 1217 1239
+type(
+  Term.term list
+)
+ident(
+  def us "completion/subterm.ml" 26 1217 1243 "completion/subterm.ml" 26 1217 1261
+)
+"completion/subterm.ml" 26 1217 1223 "completion/subterm.ml" 26 1217 1239
+type(
+  Term.term list
+)
+"completion/subterm.ml" 26 1217 1243 "completion/subterm.ml" 26 1217 1246
+type(
+  'a -> Term.term list -> 'a
+)
+ident(
+  int_ref aux "completion/subterm.ml" 23 1115 1125 "completion/subterm.ml" 23 1115 1128
+)
+"completion/subterm.ml" 26 1217 1248 "completion/subterm.ml" 26 1217 1251
+type(
+  Term.term -> 'a -> 'a
+)
+ident(
+  int_ref add "completion/subterm.ml" 22 1100 1109 "completion/subterm.ml" 22 1100 1112
+)
+"completion/subterm.ml" 26 1217 1252 "completion/subterm.ml" 26 1217 1253
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 26 1217 1223 "completion/subterm.ml" 26 1217 1233
+)
+"completion/subterm.ml" 26 1217 1254 "completion/subterm.ml" 26 1217 1257
+type(
+  'a
+)
+ident(
+  int_ref acc "completion/subterm.ml" 23 1115 1129 "completion/subterm.ml" 23 1115 1132
+)
+"completion/subterm.ml" 26 1217 1247 "completion/subterm.ml" 26 1217 1258
+call(
+  stack
+)
+type(
+  'a
+)
+"completion/subterm.ml" 26 1217 1259 "completion/subterm.ml" 26 1217 1261
+type(
+  Term.term list
+)
+ident(
+  int_ref us "completion/subterm.ml" 26 1217 1237 "completion/subterm.ml" 26 1217 1239
+)
+"completion/subterm.ml" 26 1217 1243 "completion/subterm.ml" 26 1217 1261
+call(
+  tail
+)
+type(
+  'a
+)
+"completion/subterm.ml" 23 1115 1135 "completion/subterm.ml" 26 1217 1261
+type(
+  Term.term list -> 'a
+)
+"completion/subterm.ml" 27 1262 1271 "completion/subterm.ml" 27 1262 1272
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 27 1262 1273 "completion/subterm.ml" 27 1262 1287
+)
+"completion/subterm.ml" 27 1262 1273 "completion/subterm.ml" 27 1262 1274
+type(
+  'a
+)
+ident(
+  def a "completion/subterm.ml" 27 1262 1278 "completion/subterm.ml" 27 1262 1287
+)
+"completion/subterm.ml" 27 1262 1278 "completion/subterm.ml" 27 1262 1281
+type(
+  'a -> Term.term list -> 'a
+)
+ident(
+  int_ref aux "completion/subterm.ml" 23 1115 1125 "completion/subterm.ml" 23 1115 1128
+)
+"completion/subterm.ml" 27 1262 1282 "completion/subterm.ml" 27 1262 1283
+type(
+  'a
+)
+ident(
+  int_ref a "completion/subterm.ml" 27 1262 1273 "completion/subterm.ml" 27 1262 1274
+)
+"completion/subterm.ml" 27 1262 1285 "completion/subterm.ml" 27 1262 1286
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 27 1262 1271 "completion/subterm.ml" 27 1262 1272
+)
+"completion/subterm.ml" 27 1262 1284 "completion/subterm.ml" 27 1262 1287
+type(
+  Term.term list
+)
+"completion/subterm.ml" 27 1262 1278 "completion/subterm.ml" 27 1262 1287
+call(
+  tail
+)
+type(
+  'a
+)
+"completion/subterm.ml" 27 1262 1267 "completion/subterm.ml" 27 1262 1287
+type(
+  Term.term -> 'a -> 'a
+)
+"completion/subterm.ml" 23 1115 1117 "completion/subterm.ml" 27 1262 1287
+type(
+  Term.term -> 'a -> 'a
+)
+"completion/subterm.ml" 31 1366 1370 "completion/subterm.ml" 31 1366 1374
+type(
+  (Term.term -> bool) -> Term.term -> Term.term
+)
+ident(
+  def find "completion/subterm.ml" 46 1723 1723 "completion/subterm.ml" 1 0 -1
+)
+"completion/subterm.ml" 31 1366 1375 "completion/subterm.ml" 31 1366 1379
+type(
+  Term.term -> bool
+)
+ident(
+  def pred "completion/subterm.ml" 32 1382 1384 "completion/subterm.ml" 42 1632 1660
+)
+"completion/subterm.ml" 32 1382 1392 "completion/subterm.ml" 32 1382 1395
+type(
+  Term.term list -> Term.term option
+)
+ident(
+  def aux "completion/subterm.ml" 32 1382 1384 "completion/subterm.ml" 42 1632 1660
+)
+"completion/subterm.ml" 33 1407 1413 "completion/subterm.ml" 33 1407 1415
+type(
+  Term.term list
+)
+"completion/subterm.ml" 33 1407 1419 "completion/subterm.ml" 33 1407 1423
+type(
+  Term.term option
+)
+"completion/subterm.ml" 34 1424 1430 "completion/subterm.ml" 34 1424 1431
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 35 1441 1449 "completion/subterm.ml" 38 1543 1574
+)
+"completion/subterm.ml" 34 1424 1435 "completion/subterm.ml" 34 1424 1437
+type(
+  Term.term list
+)
+ident(
+  def us "completion/subterm.ml" 35 1441 1449 "completion/subterm.ml" 38 1543 1574
+)
+"completion/subterm.ml" 34 1424 1430 "completion/subterm.ml" 34 1424 1437
+type(
+  Term.term list
+)
+"completion/subterm.ml" 35 1441 1452 "completion/subterm.ml" 35 1441 1456
+type(
+  Term.term -> bool
+)
+ident(
+  int_ref pred "completion/subterm.ml" 31 1366 1375 "completion/subterm.ml" 31 1366 1379
+)
+"completion/subterm.ml" 35 1441 1457 "completion/subterm.ml" 35 1441 1458
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 34 1424 1430 "completion/subterm.ml" 34 1424 1431
+)
+"completion/subterm.ml" 35 1441 1452 "completion/subterm.ml" 35 1441 1458
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/subterm.ml" 35 1441 1469 "completion/subterm.ml" 35 1441 1470
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 34 1424 1430 "completion/subterm.ml" 34 1424 1431
+)
+"completion/subterm.ml" 35 1441 1464 "completion/subterm.ml" 35 1441 1470
+type(
+  Term.term option
+)
+"completion/subterm.ml" 36 1476 1493 "completion/subterm.ml" 36 1476 1494
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 34 1424 1430 "completion/subterm.ml" 34 1424 1431
+)
+"completion/subterm.ml" 37 1500 1520 "completion/subterm.ml" 37 1500 1521
+type(
+  Symb.symbol
+)
+"completion/subterm.ml" 37 1500 1522 "completion/subterm.ml" 37 1500 1524
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/subterm.ml" 37 1500 1529 "completion/subterm.ml" 37 1500 1542
+)
+"completion/subterm.ml" 37 1500 1515 "completion/subterm.ml" 37 1500 1525
+type(
+  Term.term
+)
+"completion/subterm.ml" 37 1500 1529 "completion/subterm.ml" 37 1500 1532
+type(
+  Term.term list -> Term.term option
+)
+ident(
+  int_ref aux "completion/subterm.ml" 32 1382 1392 "completion/subterm.ml" 32 1382 1395
+)
+"completion/subterm.ml" 37 1500 1534 "completion/subterm.ml" 37 1500 1536
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/subterm.ml" 37 1500 1522 "completion/subterm.ml" 37 1500 1524
+)
+"completion/subterm.ml" 37 1500 1537 "completion/subterm.ml" 37 1500 1538
+type(
+  Term.term list -> Term.term list -> Term.term list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"completion/subterm.ml" 37 1500 1539 "completion/subterm.ml" 37 1500 1541
+type(
+  Term.term list
+)
+ident(
+  int_ref us "completion/subterm.ml" 34 1424 1435 "completion/subterm.ml" 34 1424 1437
+)
+"completion/subterm.ml" 37 1500 1533 "completion/subterm.ml" 37 1500 1542
+call(
+  stack
+)
+type(
+  Term.term list
+)
+"completion/subterm.ml" 37 1500 1529 "completion/subterm.ml" 37 1500 1542
+call(
+  tail
+)
+type(
+  Term.term option
+)
+"completion/subterm.ml" 38 1543 1562 "completion/subterm.ml" 38 1543 1563
+type(
+  Var.var
+)
+"completion/subterm.ml" 38 1543 1558 "completion/subterm.ml" 38 1543 1563
+type(
+  Term.term
+)
+"completion/subterm.ml" 38 1543 1567 "completion/subterm.ml" 38 1543 1570
+type(
+  Term.term list -> Term.term option
+)
+ident(
+  int_ref aux "completion/subterm.ml" 32 1382 1392 "completion/subterm.ml" 32 1382 1395
+)
+"completion/subterm.ml" 38 1543 1571 "completion/subterm.ml" 38 1543 1573
+type(
+  Term.term list
+)
+ident(
+  int_ref us "completion/subterm.ml" 34 1424 1435 "completion/subterm.ml" 34 1424 1437
+)
+"completion/subterm.ml" 38 1543 1567 "completion/subterm.ml" 38 1543 1573
+call(
+  tail
+)
+type(
+  Term.term option
+)
+"completion/subterm.ml" 36 1476 1486 "completion/subterm.ml" 38 1543 1574
+type(
+  Term.term option
+)
+"completion/subterm.ml" 35 1441 1449 "completion/subterm.ml" 38 1543 1574
+type(
+  Term.term option
+)
+"completion/subterm.ml" 32 1382 1398 "completion/subterm.ml" 38 1543 1574
+type(
+  Term.term list -> Term.term option
+)
+"completion/subterm.ml" 39 1575 1584 "completion/subterm.ml" 39 1575 1585
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 40 1589 1593 "completion/subterm.ml" 42 1632 1660
+)
+"completion/subterm.ml" 40 1589 1599 "completion/subterm.ml" 40 1589 1602
+type(
+  Term.term list -> Term.term option
+)
+ident(
+  int_ref aux "completion/subterm.ml" 32 1382 1392 "completion/subterm.ml" 32 1382 1395
+)
+"completion/subterm.ml" 40 1589 1604 "completion/subterm.ml" 40 1589 1605
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 39 1575 1584 "completion/subterm.ml" 39 1575 1585
+)
+"completion/subterm.ml" 40 1589 1603 "completion/subterm.ml" 40 1589 1606
+type(
+  Term.term list
+)
+"completion/subterm.ml" 40 1589 1599 "completion/subterm.ml" 40 1589 1606
+call(
+  stack
+)
+type(
+  Term.term option
+)
+"completion/subterm.ml" 41 1612 1625 "completion/subterm.ml" 41 1612 1626
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 41 1612 1630 "completion/subterm.ml" 41 1612 1631
+)
+"completion/subterm.ml" 41 1612 1620 "completion/subterm.ml" 41 1612 1626
+type(
+  Term.term option
+)
+"completion/subterm.ml" 41 1612 1630 "completion/subterm.ml" 41 1612 1631
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 41 1612 1625 "completion/subterm.ml" 41 1612 1626
+)
+"completion/subterm.ml" 42 1632 1640 "completion/subterm.ml" 42 1632 1641
+type(
+  Term.term option
+)
+"completion/subterm.ml" 42 1632 1645 "completion/subterm.ml" 42 1632 1650
+type(
+  exn -> Term.term
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"completion/subterm.ml" 42 1632 1651 "completion/subterm.ml" 42 1632 1660
+type(
+  exn
+)
+"completion/subterm.ml" 42 1632 1645 "completion/subterm.ml" 42 1632 1660
+type(
+  Term.term
+)
+"completion/subterm.ml" 40 1589 1593 "completion/subterm.ml" 42 1632 1660
+type(
+  Term.term
+)
+"completion/subterm.ml" 39 1575 1580 "completion/subterm.ml" 42 1632 1660
+type(
+  Term.term -> Term.term
+)
+"completion/subterm.ml" 32 1382 1384 "completion/subterm.ml" 42 1632 1660
+type(
+  Term.term -> Term.term
+)
+"completion/subterm.ml" 46 1723 1727 "completion/subterm.ml" 46 1723 1735
+type(
+  (Term.term -> 'a option) -> Term.term -> 'a option
+)
+ident(
+  def find_opt "completion/subterm.ml" 54 1901 1901 "completion/subterm.ml" 1 0 -1
+)
+"completion/subterm.ml" 46 1723 1736 "completion/subterm.ml" 46 1723 1740
+type(
+  Term.term -> 'a option
+)
+ident(
+  def pred "completion/subterm.ml" 47 1743 1745 "completion/subterm.ml" 50 1800 1829
+)
+"completion/subterm.ml" 47 1743 1749 "completion/subterm.ml" 47 1743 1752
+type(
+  Term.term -> 'a option -> 'a option
+)
+ident(
+  def add "completion/subterm.ml" 50 1800 1805 "completion/subterm.ml" 50 1800 1829
+)
+"completion/subterm.ml" 47 1743 1753 "completion/subterm.ml" 47 1743 1754
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 47 1743 1757 "completion/subterm.ml" 49 1787 1799
+)
+"completion/subterm.ml" 48 1766 1772 "completion/subterm.ml" 48 1766 1776
+type(
+  'a option
+)
+"completion/subterm.ml" 48 1766 1780 "completion/subterm.ml" 48 1766 1784
+type(
+  Term.term -> 'a option
+)
+ident(
+  int_ref pred "completion/subterm.ml" 46 1723 1736 "completion/subterm.ml" 46 1723 1740
+)
+"completion/subterm.ml" 48 1766 1785 "completion/subterm.ml" 48 1766 1786
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 47 1743 1753 "completion/subterm.ml" 47 1743 1754
+)
+"completion/subterm.ml" 48 1766 1780 "completion/subterm.ml" 48 1766 1786
+call(
+  tail
+)
+type(
+  'a option
+)
+"completion/subterm.ml" 49 1787 1793 "completion/subterm.ml" 49 1787 1794
+type(
+  'a option
+)
+ident(
+  def o "completion/subterm.ml" 49 1787 1798 "completion/subterm.ml" 49 1787 1799
+)
+"completion/subterm.ml" 49 1787 1798 "completion/subterm.ml" 49 1787 1799
+type(
+  'a option
+)
+ident(
+  int_ref o "completion/subterm.ml" 49 1787 1793 "completion/subterm.ml" 49 1787 1794
+)
+"completion/subterm.ml" 47 1743 1757 "completion/subterm.ml" 49 1787 1799
+type(
+  'a option -> 'a option
+)
+"completion/subterm.ml" 50 1800 1809 "completion/subterm.ml" 50 1800 1810
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 50 1800 1814 "completion/subterm.ml" 50 1800 1829
+)
+"completion/subterm.ml" 50 1800 1814 "completion/subterm.ml" 50 1800 1818
+type(
+  (Term.term -> 'a option -> 'a option) ->
+  Term.term -> 'a option -> 'a option
+)
+ident(
+  int_ref fold "completion/subterm.ml" 22 1100 1104 "completion/subterm.ml" 22 1100 1108
+)
+"completion/subterm.ml" 50 1800 1819 "completion/subterm.ml" 50 1800 1822
+type(
+  Term.term -> 'a option -> 'a option
+)
+ident(
+  int_ref add "completion/subterm.ml" 47 1743 1749 "completion/subterm.ml" 47 1743 1752
+)
+"completion/subterm.ml" 50 1800 1823 "completion/subterm.ml" 50 1800 1824
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 50 1800 1809 "completion/subterm.ml" 50 1800 1810
+)
+"completion/subterm.ml" 50 1800 1825 "completion/subterm.ml" 50 1800 1829
+type(
+  'a option
+)
+"completion/subterm.ml" 50 1800 1814 "completion/subterm.ml" 50 1800 1829
+call(
+  tail
+)
+type(
+  'a option
+)
+"completion/subterm.ml" 50 1800 1805 "completion/subterm.ml" 50 1800 1829
+type(
+  Term.term -> 'a option
+)
+"completion/subterm.ml" 47 1743 1745 "completion/subterm.ml" 50 1800 1829
+type(
+  Term.term -> 'a option
+)
+"completion/subterm.ml" 54 1901 1905 "completion/subterm.ml" 54 1901 1911
+type(
+  (Term.term -> bool) -> Term.term -> bool
+)
+ident(
+  def exists "completion/subterm.ml" 59 2009 2009 "completion/subterm.ml" 1 0 -1
+)
+"completion/subterm.ml" 54 1901 1912 "completion/subterm.ml" 54 1901 1916
+type(
+  Term.term -> bool
+)
+ident(
+  def pred "completion/subterm.ml" 54 1901 1917 "completion/subterm.ml" 55 1921 1978
+)
+"completion/subterm.ml" 54 1901 1917 "completion/subterm.ml" 54 1901 1918
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 55 1921 1923 "completion/subterm.ml" 55 1921 1978
+)
+"completion/subterm.ml" 55 1921 1931 "completion/subterm.ml" 55 1921 1932
+type(
+  Term.term
+)
+"completion/subterm.ml" 55 1921 1935 "completion/subterm.ml" 55 1921 1939
+type(
+  (Term.term -> bool) -> Term.term -> Term.term
+)
+ident(
+  int_ref find "completion/subterm.ml" 31 1366 1370 "completion/subterm.ml" 31 1366 1374
+)
+"completion/subterm.ml" 55 1921 1940 "completion/subterm.ml" 55 1921 1944
+type(
+  Term.term -> bool
+)
+ident(
+  int_ref pred "completion/subterm.ml" 54 1901 1912 "completion/subterm.ml" 54 1901 1916
+)
+"completion/subterm.ml" 55 1921 1945 "completion/subterm.ml" 55 1921 1946
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 54 1901 1917 "completion/subterm.ml" 54 1901 1918
+)
+"completion/subterm.ml" 55 1921 1935 "completion/subterm.ml" 55 1921 1946
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/subterm.ml" 55 1921 1950 "completion/subterm.ml" 55 1921 1954
+type(
+  bool
+)
+"completion/subterm.ml" 55 1921 1927 "completion/subterm.ml" 55 1921 1954
+type(
+  bool
+)
+"completion/subterm.ml" 55 1921 1960 "completion/subterm.ml" 55 1921 1969
+type(
+  exn
+)
+"completion/subterm.ml" 55 1921 1973 "completion/subterm.ml" 55 1921 1978
+type(
+  bool
+)
+"completion/subterm.ml" 55 1921 1923 "completion/subterm.ml" 55 1921 1978
+type(
+  bool
+)
+"completion/subterm.ml" 63 2066 2074 "completion/subterm.ml" 63 2066 2085
+type(
+  Term.term -> int list -> Term.term
+)
+ident(
+  def subterm_pos "completion/subterm.ml" 63 2066 2066 "completion/subterm.ml" 1 0 -1
+)
+"completion/subterm.ml" 63 2066 2086 "completion/subterm.ml" 63 2066 2087
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 63 2066 2088 "completion/subterm.ml" 67 2185 2241
+)
+"completion/subterm.ml" 63 2066 2088 "completion/subterm.ml" 63 2066 2089
+type(
+  int list
+)
+ident(
+  def p "completion/subterm.ml" 64 2092 2094 "completion/subterm.ml" 67 2185 2241
+)
+"completion/subterm.ml" 64 2092 2100 "completion/subterm.ml" 64 2092 2101
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 63 2066 2086 "completion/subterm.ml" 63 2066 2087
+)
+"completion/subterm.ml" 64 2092 2103 "completion/subterm.ml" 64 2092 2104
+type(
+  int list
+)
+ident(
+  int_ref p "completion/subterm.ml" 63 2066 2088 "completion/subterm.ml" 63 2066 2089
+)
+"completion/subterm.ml" 64 2092 2100 "completion/subterm.ml" 64 2092 2104
+type(
+  Term.term * int list
+)
+"completion/subterm.ml" 65 2110 2116 "completion/subterm.ml" 65 2110 2117
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 65 2110 2125 "completion/subterm.ml" 65 2110 2126
+)
+"completion/subterm.ml" 65 2110 2119 "completion/subterm.ml" 65 2110 2121
+type(
+  int list
+)
+"completion/subterm.ml" 65 2110 2116 "completion/subterm.ml" 65 2110 2121
+type(
+  Term.term * int list
+)
+"completion/subterm.ml" 65 2110 2125 "completion/subterm.ml" 65 2110 2126
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 65 2110 2116 "completion/subterm.ml" 65 2110 2117
+)
+"completion/subterm.ml" 66 2127 2138 "completion/subterm.ml" 66 2127 2139
+type(
+  Symb.symbol
+)
+"completion/subterm.ml" 66 2127 2140 "completion/subterm.ml" 66 2127 2142
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/subterm.ml" 66 2127 2155 "completion/subterm.ml" 66 2127 2184
+)
+"completion/subterm.ml" 66 2127 2133 "completion/subterm.ml" 66 2127 2143
+type(
+  Term.term
+)
+"completion/subterm.ml" 66 2127 2145 "completion/subterm.ml" 66 2127 2146
+type(
+  int
+)
+ident(
+  def i "completion/subterm.ml" 66 2127 2155 "completion/subterm.ml" 66 2127 2184
+)
+"completion/subterm.ml" 66 2127 2150 "completion/subterm.ml" 66 2127 2151
+type(
+  int list
+)
+ident(
+  def q "completion/subterm.ml" 66 2127 2155 "completion/subterm.ml" 66 2127 2184
+)
+"completion/subterm.ml" 66 2127 2145 "completion/subterm.ml" 66 2127 2151
+type(
+  int list
+)
+"completion/subterm.ml" 66 2127 2133 "completion/subterm.ml" 66 2127 2151
+type(
+  Term.term * int list
+)
+"completion/subterm.ml" 66 2127 2155 "completion/subterm.ml" 66 2127 2166
+type(
+  Term.term -> int list -> Term.term
+)
+ident(
+  int_ref subterm_pos "completion/subterm.ml" 63 2066 2074 "completion/subterm.ml" 63 2066 2085
+)
+"completion/subterm.ml" 66 2127 2168 "completion/subterm.ml" 66 2127 2176
+type(
+  Term.term list -> int -> Term.term
+)
+ident(
+  ext_ref List.nth
+)
+"completion/subterm.ml" 66 2127 2177 "completion/subterm.ml" 66 2127 2179
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/subterm.ml" 66 2127 2140 "completion/subterm.ml" 66 2127 2142
+)
+"completion/subterm.ml" 66 2127 2180 "completion/subterm.ml" 66 2127 2181
+type(
+  int
+)
+ident(
+  int_ref i "completion/subterm.ml" 66 2127 2145 "completion/subterm.ml" 66 2127 2146
+)
+"completion/subterm.ml" 66 2127 2167 "completion/subterm.ml" 66 2127 2182
+call(
+  stack
+)
+type(
+  Term.term
+)
+"completion/subterm.ml" 66 2127 2183 "completion/subterm.ml" 66 2127 2184
+type(
+  int list
+)
+ident(
+  int_ref q "completion/subterm.ml" 66 2127 2150 "completion/subterm.ml" 66 2127 2151
+)
+"completion/subterm.ml" 66 2127 2155 "completion/subterm.ml" 66 2127 2184
+call(
+  tail
+)
+type(
+  Term.term
+)
+"completion/subterm.ml" 67 2185 2195 "completion/subterm.ml" 67 2185 2196
+type(
+  Var.var
+)
+"completion/subterm.ml" 67 2185 2191 "completion/subterm.ml" 67 2185 2196
+type(
+  Term.term
+)
+"completion/subterm.ml" 67 2185 2198 "completion/subterm.ml" 67 2185 2199
+type(
+  int list
+)
+"completion/subterm.ml" 67 2185 2191 "completion/subterm.ml" 67 2185 2199
+type(
+  Term.term * int list
+)
+"completion/subterm.ml" 67 2185 2203 "completion/subterm.ml" 67 2185 2208
+type(
+  exn -> Term.term
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"completion/subterm.ml" 67 2185 2227 "completion/subterm.ml" 67 2185 2240
+type(
+  string
+)
+"completion/subterm.ml" 67 2185 2209 "completion/subterm.ml" 67 2185 2241
+type(
+  exn
+)
+"completion/subterm.ml" 67 2185 2203 "completion/subterm.ml" 67 2185 2241
+type(
+  Term.term
+)
+"completion/subterm.ml" 64 2092 2094 "completion/subterm.ml" 67 2185 2241
+type(
+  Term.term
+)
+"completion/subterm.ml" 71 2296 2300 "completion/subterm.ml" 71 2296 2307
+type(
+  Term.term -> int list -> Term.term -> Term.term
+)
+ident(
+  def replace "completion/subterm.ml" 81 2568 2568 "completion/subterm.ml" 1 0 -1
+)
+"completion/subterm.ml" 71 2296 2308 "completion/subterm.ml" 71 2296 2309
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 71 2296 2310 "completion/subterm.ml" 77 2502 2514
+)
+"completion/subterm.ml" 71 2296 2310 "completion/subterm.ml" 71 2296 2311
+type(
+  int list
+)
+ident(
+  def p "completion/subterm.ml" 71 2296 2312 "completion/subterm.ml" 77 2502 2514
+)
+"completion/subterm.ml" 71 2296 2312 "completion/subterm.ml" 71 2296 2313
+type(
+  Term.term
+)
+ident(
+  def u "completion/subterm.ml" 72 2316 2318 "completion/subterm.ml" 77 2502 2514
+)
+"completion/subterm.ml" 72 2316 2326 "completion/subterm.ml" 72 2316 2329
+type(
+  int list -> Term.term -> Term.term
+)
+ident(
+  def aux "completion/subterm.ml" 72 2316 2318 "completion/subterm.ml" 77 2502 2514
+)
+"completion/subterm.ml" 72 2316 2330 "completion/subterm.ml" 72 2316 2331
+type(
+  int list
+)
+ident(
+  def p "completion/subterm.ml" 72 2316 2332 "completion/subterm.ml" 76 2447 2501
+)
+"completion/subterm.ml" 72 2316 2332 "completion/subterm.ml" 72 2316 2333
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 73 2336 2340 "completion/subterm.ml" 76 2447 2501
+)
+"completion/subterm.ml" 73 2336 2346 "completion/subterm.ml" 73 2336 2347
+type(
+  int list
+)
+ident(
+  int_ref p "completion/subterm.ml" 72 2316 2330 "completion/subterm.ml" 72 2316 2331
+)
+"completion/subterm.ml" 73 2336 2349 "completion/subterm.ml" 73 2336 2350
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 72 2316 2332 "completion/subterm.ml" 72 2316 2333
+)
+"completion/subterm.ml" 73 2336 2346 "completion/subterm.ml" 73 2336 2350
+type(
+  int list * Term.term
+)
+"completion/subterm.ml" 74 2356 2364 "completion/subterm.ml" 74 2356 2366
+type(
+  int list
+)
+"completion/subterm.ml" 74 2356 2368 "completion/subterm.ml" 74 2356 2369
+type(
+  Term.term
+)
+"completion/subterm.ml" 74 2356 2364 "completion/subterm.ml" 74 2356 2369
+type(
+  int list * Term.term
+)
+"completion/subterm.ml" 74 2356 2373 "completion/subterm.ml" 74 2356 2374
+type(
+  Term.term
+)
+ident(
+  int_ref u "completion/subterm.ml" 71 2296 2312 "completion/subterm.ml" 71 2296 2313
+)
+"completion/subterm.ml" 75 2375 2383 "completion/subterm.ml" 75 2375 2384
+type(
+  int
+)
+ident(
+  def i "completion/subterm.ml" 75 2375 2406 "completion/subterm.ml" 75 2375 2446
+)
+"completion/subterm.ml" 75 2375 2388 "completion/subterm.ml" 75 2375 2389
+type(
+  int list
+)
+ident(
+  def q "completion/subterm.ml" 75 2375 2406 "completion/subterm.ml" 75 2375 2446
+)
+"completion/subterm.ml" 75 2375 2383 "completion/subterm.ml" 75 2375 2389
+type(
+  int list
+)
+"completion/subterm.ml" 75 2375 2396 "completion/subterm.ml" 75 2375 2397
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/subterm.ml" 75 2375 2406 "completion/subterm.ml" 75 2375 2446
+)
+"completion/subterm.ml" 75 2375 2399 "completion/subterm.ml" 75 2375 2401
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/subterm.ml" 75 2375 2406 "completion/subterm.ml" 75 2375 2446
+)
+"completion/subterm.ml" 75 2375 2391 "completion/subterm.ml" 75 2375 2402
+type(
+  Term.term
+)
+"completion/subterm.ml" 75 2375 2383 "completion/subterm.ml" 75 2375 2402
+type(
+  int list * Term.term
+)
+"completion/subterm.ml" 75 2375 2411 "completion/subterm.ml" 75 2375 2412
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/subterm.ml" 75 2375 2396 "completion/subterm.ml" 75 2375 2397
+)
+"completion/subterm.ml" 75 2375 2414 "completion/subterm.ml" 75 2375 2432
+type(
+  (Term.term -> Term.term) -> Term.term list -> int -> Term.term list
+)
+ident(
+  ext_ref Mylist.replace_map
+)
+"completion/subterm.ml" 75 2375 2434 "completion/subterm.ml" 75 2375 2437
+type(
+  int list -> Term.term -> Term.term
+)
+ident(
+  int_ref aux "completion/subterm.ml" 72 2316 2326 "completion/subterm.ml" 72 2316 2329
+)
+"completion/subterm.ml" 75 2375 2438 "completion/subterm.ml" 75 2375 2439
+type(
+  int list
+)
+ident(
+  int_ref q "completion/subterm.ml" 75 2375 2388 "completion/subterm.ml" 75 2375 2389
+)
+"completion/subterm.ml" 75 2375 2433 "completion/subterm.ml" 75 2375 2440
+call(
+  stack
+)
+type(
+  Term.term -> Term.term
+)
+"completion/subterm.ml" 75 2375 2441 "completion/subterm.ml" 75 2375 2443
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/subterm.ml" 75 2375 2399 "completion/subterm.ml" 75 2375 2401
+)
+"completion/subterm.ml" 75 2375 2444 "completion/subterm.ml" 75 2375 2445
+type(
+  int
+)
+ident(
+  int_ref i "completion/subterm.ml" 75 2375 2383 "completion/subterm.ml" 75 2375 2384
+)
+"completion/subterm.ml" 75 2375 2414 "completion/subterm.ml" 75 2375 2445
+call(
+  stack
+)
+type(
+  Term.term list
+)
+"completion/subterm.ml" 75 2375 2406 "completion/subterm.ml" 75 2375 2446
+type(
+  Term.term
+)
+"completion/subterm.ml" 76 2447 2455 "completion/subterm.ml" 76 2447 2456
+type(
+  int list
+)
+"completion/subterm.ml" 76 2447 2462 "completion/subterm.ml" 76 2447 2463
+type(
+  Var.var
+)
+"completion/subterm.ml" 76 2447 2458 "completion/subterm.ml" 76 2447 2463
+type(
+  Term.term
+)
+"completion/subterm.ml" 76 2447 2455 "completion/subterm.ml" 76 2447 2463
+type(
+  int list * Term.term
+)
+"completion/subterm.ml" 76 2447 2467 "completion/subterm.ml" 76 2447 2472
+type(
+  exn -> Term.term
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"completion/subterm.ml" 76 2447 2491 "completion/subterm.ml" 76 2447 2500
+type(
+  string
+)
+"completion/subterm.ml" 76 2447 2473 "completion/subterm.ml" 76 2447 2501
+type(
+  exn
+)
+"completion/subterm.ml" 76 2447 2467 "completion/subterm.ml" 76 2447 2501
+type(
+  Term.term
+)
+"completion/subterm.ml" 73 2336 2340 "completion/subterm.ml" 76 2447 2501
+type(
+  Term.term
+)
+"completion/subterm.ml" 77 2502 2507 "completion/subterm.ml" 77 2502 2510
+type(
+  int list -> Term.term -> Term.term
+)
+ident(
+  int_ref aux "completion/subterm.ml" 72 2316 2326 "completion/subterm.ml" 72 2316 2329
+)
+"completion/subterm.ml" 77 2502 2511 "completion/subterm.ml" 77 2502 2512
+type(
+  int list
+)
+ident(
+  int_ref p "completion/subterm.ml" 71 2296 2310 "completion/subterm.ml" 71 2296 2311
+)
+"completion/subterm.ml" 77 2502 2513 "completion/subterm.ml" 77 2502 2514
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 71 2296 2308 "completion/subterm.ml" 71 2296 2309
+)
+"completion/subterm.ml" 77 2502 2507 "completion/subterm.ml" 77 2502 2514
+call(
+  tail
+)
+type(
+  Term.term
+)
+"completion/subterm.ml" 72 2316 2318 "completion/subterm.ml" 77 2502 2514
+type(
+  Term.term
+)
+"completion/subterm.ml" 81 2568 2572 "completion/subterm.ml" 81 2568 2584
+type(
+  int list -> 'a list -> ('a * int list) list -> ('a * int list) list
+)
+ident(
+  def add_subterms "completion/subterm.ml" 86 2695 2695 "completion/subterm.ml" 1 0 -1
+)
+"completion/subterm.ml" 81 2568 2585 "completion/subterm.ml" 81 2568 2586
+type(
+  int list
+)
+ident(
+  def p "completion/subterm.ml" 81 2568 2587 "completion/subterm.ml" 82 2595 2664
+)
+"completion/subterm.ml" 81 2568 2587 "completion/subterm.ml" 81 2568 2589
+type(
+  'a list
+)
+ident(
+  def ts "completion/subterm.ml" 81 2568 2590 "completion/subterm.ml" 82 2595 2664
+)
+"completion/subterm.ml" 81 2568 2590 "completion/subterm.ml" 81 2568 2592
+type(
+  ('a * int list) list
+)
+ident(
+  def us "completion/subterm.ml" 82 2595 2597 "completion/subterm.ml" 82 2595 2664
+)
+"completion/subterm.ml" 82 2595 2597 "completion/subterm.ml" 82 2595 2600
+type(
+  ('a * int list) list * int -> ('a * int list) list
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"completion/subterm.ml" 82 2595 2602 "completion/subterm.ml" 82 2595 2616
+type(
+  (('a * int list) list * int -> 'a -> ('a * int list) list * int) ->
+  ('a * int list) list * int -> 'a list -> ('a * int list) list * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"completion/subterm.ml" 82 2595 2623 "completion/subterm.ml" 82 2595 2625
+type(
+  ('a * int list) list
+)
+ident(
+  def us "completion/subterm.ml" 82 2595 2629 "completion/subterm.ml" 82 2595 2652
+)
+"completion/subterm.ml" 82 2595 2626 "completion/subterm.ml" 82 2595 2627
+type(
+  int
+)
+ident(
+  def i "completion/subterm.ml" 82 2595 2629 "completion/subterm.ml" 82 2595 2652
+)
+"completion/subterm.ml" 82 2595 2622 "completion/subterm.ml" 82 2595 2628
+type(
+  ('a * int list) list * int
+)
+"completion/subterm.ml" 82 2595 2629 "completion/subterm.ml" 82 2595 2631
+type(
+  'a
+)
+ident(
+  def ti "completion/subterm.ml" 82 2595 2635 "completion/subterm.ml" 82 2595 2652
+)
+"completion/subterm.ml" 82 2595 2636 "completion/subterm.ml" 82 2595 2638
+type(
+  'a
+)
+ident(
+  int_ref ti "completion/subterm.ml" 82 2595 2629 "completion/subterm.ml" 82 2595 2631
+)
+"completion/subterm.ml" 82 2595 2639 "completion/subterm.ml" 82 2595 2640
+type(
+  int
+)
+ident(
+  int_ref i "completion/subterm.ml" 82 2595 2626 "completion/subterm.ml" 82 2595 2627
+)
+"completion/subterm.ml" 82 2595 2642 "completion/subterm.ml" 82 2595 2643
+type(
+  int list
+)
+ident(
+  int_ref p "completion/subterm.ml" 81 2568 2585 "completion/subterm.ml" 81 2568 2586
+)
+"completion/subterm.ml" 82 2595 2639 "completion/subterm.ml" 82 2595 2643
+type(
+  int list
+)
+"completion/subterm.ml" 82 2595 2635 "completion/subterm.ml" 82 2595 2644
+type(
+  'a * int list
+)
+"completion/subterm.ml" 82 2595 2646 "completion/subterm.ml" 82 2595 2648
+type(
+  ('a * int list) list
+)
+ident(
+  int_ref us "completion/subterm.ml" 82 2595 2623 "completion/subterm.ml" 82 2595 2625
+)
+"completion/subterm.ml" 82 2595 2635 "completion/subterm.ml" 82 2595 2648
+type(
+  ('a * int list) list
+)
+"completion/subterm.ml" 82 2595 2649 "completion/subterm.ml" 82 2595 2650
+type(
+  int
+)
+ident(
+  int_ref i "completion/subterm.ml" 82 2595 2626 "completion/subterm.ml" 82 2595 2627
+)
+"completion/subterm.ml" 82 2595 2650 "completion/subterm.ml" 82 2595 2651
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"completion/subterm.ml" 82 2595 2651 "completion/subterm.ml" 82 2595 2652
+type(
+  int
+)
+"completion/subterm.ml" 82 2595 2649 "completion/subterm.ml" 82 2595 2652
+type(
+  int
+)
+"completion/subterm.ml" 82 2595 2635 "completion/subterm.ml" 82 2595 2652
+type(
+  ('a * int list) list * int
+)
+"completion/subterm.ml" 82 2595 2617 "completion/subterm.ml" 82 2595 2653
+type(
+  ('a * int list) list * int -> 'a -> ('a * int list) list * int
+)
+"completion/subterm.ml" 82 2595 2655 "completion/subterm.ml" 82 2595 2657
+type(
+  ('a * int list) list
+)
+ident(
+  int_ref us "completion/subterm.ml" 81 2568 2590 "completion/subterm.ml" 81 2568 2592
+)
+"completion/subterm.ml" 82 2595 2658 "completion/subterm.ml" 82 2595 2659
+type(
+  int
+)
+"completion/subterm.ml" 82 2595 2654 "completion/subterm.ml" 82 2595 2660
+type(
+  ('a * int list) list * int
+)
+"completion/subterm.ml" 82 2595 2661 "completion/subterm.ml" 82 2595 2663
+type(
+  'a list
+)
+ident(
+  int_ref ts "completion/subterm.ml" 81 2568 2587 "completion/subterm.ml" 81 2568 2589
+)
+"completion/subterm.ml" 82 2595 2601 "completion/subterm.ml" 82 2595 2664
+call(
+  stack
+)
+type(
+  ('a * int list) list * int
+)
+"completion/subterm.ml" 82 2595 2597 "completion/subterm.ml" 82 2595 2664
+type(
+  ('a * int list) list
+)
+"completion/subterm.ml" 86 2695 2699 "completion/subterm.ml" 86 2695 2704
+type(
+  (Term.term -> int list -> 'a -> 'a) -> Term.term -> 'a -> 'a
+)
+ident(
+  def foldi "completion/subterm.ml" 96 3031 3031 "completion/subterm.ml" 1 0 -1
+)
+"completion/subterm.ml" 86 2695 2705 "completion/subterm.ml" 86 2695 2708
+type(
+  Term.term -> int list -> 'a -> 'a
+)
+ident(
+  def add "completion/subterm.ml" 87 2711 2713 "completion/subterm.ml" 92 2924 2952
+)
+"completion/subterm.ml" 87 2711 2717 "completion/subterm.ml" 87 2711 2720
+type(
+  Term.term -> int list -> 'a -> 'a
+)
+ident(
+  def add "completion/subterm.ml" 88 2749 2751 "completion/subterm.ml" 92 2924 2952
+)
+"completion/subterm.ml" 87 2711 2721 "completion/subterm.ml" 87 2711 2722
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 87 2711 2723 "completion/subterm.ml" 87 2711 2745
+)
+"completion/subterm.ml" 87 2711 2723 "completion/subterm.ml" 87 2711 2724
+type(
+  int list
+)
+ident(
+  def p "completion/subterm.ml" 87 2711 2727 "completion/subterm.ml" 87 2711 2745
+)
+"completion/subterm.ml" 87 2711 2727 "completion/subterm.ml" 87 2711 2730
+type(
+  Term.term -> int list -> 'a -> 'a
+)
+ident(
+  int_ref add "completion/subterm.ml" 86 2695 2705 "completion/subterm.ml" 86 2695 2708
+)
+"completion/subterm.ml" 87 2711 2731 "completion/subterm.ml" 87 2711 2732
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 87 2711 2721 "completion/subterm.ml" 87 2711 2722
+)
+"completion/subterm.ml" 87 2711 2734 "completion/subterm.ml" 87 2711 2742
+type(
+  int list -> int list
+)
+ident(
+  ext_ref List.rev
+)
+"completion/subterm.ml" 87 2711 2743 "completion/subterm.ml" 87 2711 2744
+type(
+  int list
+)
+ident(
+  int_ref p "completion/subterm.ml" 87 2711 2723 "completion/subterm.ml" 87 2711 2724
+)
+"completion/subterm.ml" 87 2711 2733 "completion/subterm.ml" 87 2711 2745
+call(
+  stack
+)
+type(
+  int list
+)
+"completion/subterm.ml" 87 2711 2727 "completion/subterm.ml" 87 2711 2745
+call(
+  tail
+)
+type(
+  'a -> 'a
+)
+"completion/subterm.ml" 88 2749 2759 "completion/subterm.ml" 88 2749 2762
+type(
+  'a -> (Term.term * int list) list -> 'a
+)
+ident(
+  def aux "completion/subterm.ml" 88 2749 2751 "completion/subterm.ml" 92 2924 2952
+)
+"completion/subterm.ml" 88 2749 2763 "completion/subterm.ml" 88 2749 2766
+type(
+  'a
+)
+ident(
+  def acc "completion/subterm.ml" 88 2749 2769 "completion/subterm.ml" 91 2872 2923
+)
+"completion/subterm.ml" 89 2778 2784 "completion/subterm.ml" 89 2778 2786
+type(
+  (Term.term * int list) list
+)
+"completion/subterm.ml" 89 2778 2790 "completion/subterm.ml" 89 2778 2793
+type(
+  'a
+)
+ident(
+  int_ref acc "completion/subterm.ml" 88 2749 2763 "completion/subterm.ml" 88 2749 2766
+)
+"completion/subterm.ml" 90 2794 2806 "completion/subterm.ml" 90 2794 2807
+type(
+  Symb.symbol
+)
+"completion/subterm.ml" 90 2794 2809 "completion/subterm.ml" 90 2794 2811
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/subterm.ml" 90 2794 2831 "completion/subterm.ml" 90 2794 2871
+)
+"completion/subterm.ml" 90 2794 2801 "completion/subterm.ml" 90 2794 2812
+type(
+  Term.term
+)
+"completion/subterm.ml" 90 2794 2816 "completion/subterm.ml" 90 2794 2817
+ident(
+  def t "completion/subterm.ml" 90 2794 2831 "completion/subterm.ml" 90 2794 2871
+)
+"completion/subterm.ml" 90 2794 2801 "completion/subterm.ml" 90 2794 2817
+type(
+  Term.term
+)
+"completion/subterm.ml" 90 2794 2819 "completion/subterm.ml" 90 2794 2820
+type(
+  int list
+)
+ident(
+  def p "completion/subterm.ml" 90 2794 2831 "completion/subterm.ml" 90 2794 2871
+)
+"completion/subterm.ml" 90 2794 2800 "completion/subterm.ml" 90 2794 2821
+type(
+  Term.term * int list
+)
+"completion/subterm.ml" 90 2794 2825 "completion/subterm.ml" 90 2794 2827
+type(
+  (Term.term * int list) list
+)
+ident(
+  def us "completion/subterm.ml" 90 2794 2831 "completion/subterm.ml" 90 2794 2871
+)
+"completion/subterm.ml" 90 2794 2800 "completion/subterm.ml" 90 2794 2827
+type(
+  (Term.term * int list) list
+)
+"completion/subterm.ml" 90 2794 2831 "completion/subterm.ml" 90 2794 2834
+type(
+  'a -> (Term.term * int list) list -> 'a
+)
+ident(
+  int_ref aux "completion/subterm.ml" 88 2749 2759 "completion/subterm.ml" 88 2749 2762
+)
+"completion/subterm.ml" 90 2794 2836 "completion/subterm.ml" 90 2794 2839
+type(
+  Term.term -> int list -> 'a -> 'a
+)
+ident(
+  int_ref add "completion/subterm.ml" 87 2711 2717 "completion/subterm.ml" 87 2711 2720
+)
+"completion/subterm.ml" 90 2794 2840 "completion/subterm.ml" 90 2794 2841
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 90 2794 2801 "completion/subterm.ml" 90 2794 2817
+)
+"completion/subterm.ml" 90 2794 2842 "completion/subterm.ml" 90 2794 2843
+type(
+  int list
+)
+ident(
+  int_ref p "completion/subterm.ml" 90 2794 2819 "completion/subterm.ml" 90 2794 2820
+)
+"completion/subterm.ml" 90 2794 2844 "completion/subterm.ml" 90 2794 2847
+type(
+  'a
+)
+ident(
+  int_ref acc "completion/subterm.ml" 88 2749 2763 "completion/subterm.ml" 88 2749 2766
+)
+"completion/subterm.ml" 90 2794 2835 "completion/subterm.ml" 90 2794 2848
+call(
+  stack
+)
+type(
+  'a
+)
+"completion/subterm.ml" 90 2794 2850 "completion/subterm.ml" 90 2794 2862
+type(
+  int list ->
+  Term.term list ->
+  (Term.term * int list) list -> (Term.term * int list) list
+)
+ident(
+  int_ref add_subterms "completion/subterm.ml" 81 2568 2572 "completion/subterm.ml" 81 2568 2584
+)
+"completion/subterm.ml" 90 2794 2863 "completion/subterm.ml" 90 2794 2864
+type(
+  int list
+)
+ident(
+  int_ref p "completion/subterm.ml" 90 2794 2819 "completion/subterm.ml" 90 2794 2820
+)
+"completion/subterm.ml" 90 2794 2865 "completion/subterm.ml" 90 2794 2867
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/subterm.ml" 90 2794 2809 "completion/subterm.ml" 90 2794 2811
+)
+"completion/subterm.ml" 90 2794 2868 "completion/subterm.ml" 90 2794 2870
+type(
+  (Term.term * int list) list
+)
+ident(
+  int_ref us "completion/subterm.ml" 90 2794 2825 "completion/subterm.ml" 90 2794 2827
+)
+"completion/subterm.ml" 90 2794 2849 "completion/subterm.ml" 90 2794 2871
+call(
+  stack
+)
+type(
+  (Term.term * int list) list
+)
+"completion/subterm.ml" 90 2794 2831 "completion/subterm.ml" 90 2794 2871
+call(
+  tail
+)
+type(
+  'a
+)
+"completion/subterm.ml" 91 2872 2883 "completion/subterm.ml" 91 2872 2884
+type(
+  Var.var
+)
+"completion/subterm.ml" 91 2872 2879 "completion/subterm.ml" 91 2872 2884
+type(
+  Term.term
+)
+"completion/subterm.ml" 91 2872 2888 "completion/subterm.ml" 91 2872 2889
+ident(
+  def t "completion/subterm.ml" 91 2872 2903 "completion/subterm.ml" 91 2872 2923
+)
+"completion/subterm.ml" 91 2872 2879 "completion/subterm.ml" 91 2872 2889
+type(
+  Term.term
+)
+"completion/subterm.ml" 91 2872 2891 "completion/subterm.ml" 91 2872 2892
+type(
+  int list
+)
+ident(
+  def p "completion/subterm.ml" 91 2872 2903 "completion/subterm.ml" 91 2872 2923
+)
+"completion/subterm.ml" 91 2872 2878 "completion/subterm.ml" 91 2872 2893
+type(
+  Term.term * int list
+)
+"completion/subterm.ml" 91 2872 2897 "completion/subterm.ml" 91 2872 2899
+type(
+  (Term.term * int list) list
+)
+ident(
+  def us "completion/subterm.ml" 91 2872 2903 "completion/subterm.ml" 91 2872 2923
+)
+"completion/subterm.ml" 91 2872 2878 "completion/subterm.ml" 91 2872 2899
+type(
+  (Term.term * int list) list
+)
+"completion/subterm.ml" 91 2872 2903 "completion/subterm.ml" 91 2872 2906
+type(
+  'a -> (Term.term * int list) list -> 'a
+)
+ident(
+  int_ref aux "completion/subterm.ml" 88 2749 2759 "completion/subterm.ml" 88 2749 2762
+)
+"completion/subterm.ml" 91 2872 2908 "completion/subterm.ml" 91 2872 2911
+type(
+  Term.term -> int list -> 'a -> 'a
+)
+ident(
+  int_ref add "completion/subterm.ml" 87 2711 2717 "completion/subterm.ml" 87 2711 2720
+)
+"completion/subterm.ml" 91 2872 2912 "completion/subterm.ml" 91 2872 2913
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 91 2872 2879 "completion/subterm.ml" 91 2872 2889
+)
+"completion/subterm.ml" 91 2872 2914 "completion/subterm.ml" 91 2872 2915
+type(
+  int list
+)
+ident(
+  int_ref p "completion/subterm.ml" 91 2872 2891 "completion/subterm.ml" 91 2872 2892
+)
+"completion/subterm.ml" 91 2872 2916 "completion/subterm.ml" 91 2872 2919
+type(
+  'a
+)
+ident(
+  int_ref acc "completion/subterm.ml" 88 2749 2763 "completion/subterm.ml" 88 2749 2766
+)
+"completion/subterm.ml" 91 2872 2907 "completion/subterm.ml" 91 2872 2920
+call(
+  stack
+)
+type(
+  'a
+)
+"completion/subterm.ml" 91 2872 2921 "completion/subterm.ml" 91 2872 2923
+type(
+  (Term.term * int list) list
+)
+ident(
+  int_ref us "completion/subterm.ml" 91 2872 2897 "completion/subterm.ml" 91 2872 2899
+)
+"completion/subterm.ml" 91 2872 2903 "completion/subterm.ml" 91 2872 2923
+call(
+  tail
+)
+type(
+  'a
+)
+"completion/subterm.ml" 88 2749 2769 "completion/subterm.ml" 91 2872 2923
+type(
+  (Term.term * int list) list -> 'a
+)
+"completion/subterm.ml" 92 2924 2933 "completion/subterm.ml" 92 2924 2934
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 92 2924 2935 "completion/subterm.ml" 92 2924 2952
+)
+"completion/subterm.ml" 92 2924 2935 "completion/subterm.ml" 92 2924 2936
+type(
+  'a
+)
+ident(
+  def a "completion/subterm.ml" 92 2924 2940 "completion/subterm.ml" 92 2924 2952
+)
+"completion/subterm.ml" 92 2924 2940 "completion/subterm.ml" 92 2924 2943
+type(
+  'a -> (Term.term * int list) list -> 'a
+)
+ident(
+  int_ref aux "completion/subterm.ml" 88 2749 2759 "completion/subterm.ml" 88 2749 2762
+)
+"completion/subterm.ml" 92 2924 2944 "completion/subterm.ml" 92 2924 2945
+type(
+  'a
+)
+ident(
+  int_ref a "completion/subterm.ml" 92 2924 2935 "completion/subterm.ml" 92 2924 2936
+)
+"completion/subterm.ml" 92 2924 2947 "completion/subterm.ml" 92 2924 2948
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 92 2924 2933 "completion/subterm.ml" 92 2924 2934
+)
+"completion/subterm.ml" 92 2924 2949 "completion/subterm.ml" 92 2924 2951
+type(
+  int list
+)
+"completion/subterm.ml" 92 2924 2947 "completion/subterm.ml" 92 2924 2951
+type(
+  Term.term * int list
+)
+"completion/subterm.ml" 92 2924 2946 "completion/subterm.ml" 92 2924 2952
+type(
+  (Term.term * int list) list
+)
+"completion/subterm.ml" 92 2924 2940 "completion/subterm.ml" 92 2924 2952
+call(
+  tail
+)
+type(
+  'a
+)
+"completion/subterm.ml" 92 2924 2929 "completion/subterm.ml" 92 2924 2952
+type(
+  Term.term -> 'a -> 'a
+)
+"completion/subterm.ml" 88 2749 2751 "completion/subterm.ml" 92 2924 2952
+type(
+  Term.term -> 'a -> 'a
+)
+"completion/subterm.ml" 87 2711 2713 "completion/subterm.ml" 92 2924 2952
+type(
+  Term.term -> 'a -> 'a
+)
+"completion/subterm.ml" 96 3031 3035 "completion/subterm.ml" 96 3031 3040
+type(
+  (Term.term -> int list -> bool) -> Term.term -> Term.term * int list
+)
+ident(
+  def findi "completion/subterm.ml" 111 3415 3415 "completion/subterm.ml" 1 0 -1
+)
+"completion/subterm.ml" 96 3031 3041 "completion/subterm.ml" 96 3031 3045
+type(
+  Term.term -> int list -> bool
+)
+ident(
+  def pred "completion/subterm.ml" 97 3048 3050 "completion/subterm.ml" 107 3324 3352
+)
+"completion/subterm.ml" 97 3048 3058 "completion/subterm.ml" 97 3048 3061
+type(
+  (Term.term * int list) list -> (Term.term * int list) option
+)
+ident(
+  def aux "completion/subterm.ml" 97 3048 3050 "completion/subterm.ml" 107 3324 3352
+)
+"completion/subterm.ml" 98 3073 3079 "completion/subterm.ml" 98 3073 3081
+type(
+  (Term.term * int list) list
+)
+"completion/subterm.ml" 98 3073 3085 "completion/subterm.ml" 98 3073 3089
+type(
+  (Term.term * int list) option
+)
+"completion/subterm.ml" 99 3090 3097 "completion/subterm.ml" 99 3090 3098
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 100 3111 3119 "completion/subterm.ml" 103 3232 3263
+)
+"completion/subterm.ml" 99 3090 3099 "completion/subterm.ml" 99 3090 3100
+type(
+  int list
+)
+ident(
+  def p "completion/subterm.ml" 100 3111 3119 "completion/subterm.ml" 103 3232 3263
+)
+"completion/subterm.ml" 99 3090 3096 "completion/subterm.ml" 99 3090 3101
+type(
+  Term.term * int list
+)
+"completion/subterm.ml" 99 3090 3105 "completion/subterm.ml" 99 3090 3107
+type(
+  (Term.term * int list) list
+)
+ident(
+  def us "completion/subterm.ml" 100 3111 3119 "completion/subterm.ml" 103 3232 3263
+)
+"completion/subterm.ml" 99 3090 3096 "completion/subterm.ml" 99 3090 3107
+type(
+  (Term.term * int list) list
+)
+"completion/subterm.ml" 100 3111 3122 "completion/subterm.ml" 100 3111 3126
+type(
+  Term.term -> int list -> bool
+)
+ident(
+  int_ref pred "completion/subterm.ml" 96 3031 3041 "completion/subterm.ml" 96 3031 3045
+)
+"completion/subterm.ml" 100 3111 3127 "completion/subterm.ml" 100 3111 3128
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 99 3090 3097 "completion/subterm.ml" 99 3090 3098
+)
+"completion/subterm.ml" 100 3111 3129 "completion/subterm.ml" 100 3111 3130
+type(
+  int list
+)
+ident(
+  int_ref p "completion/subterm.ml" 99 3090 3099 "completion/subterm.ml" 99 3090 3100
+)
+"completion/subterm.ml" 100 3111 3122 "completion/subterm.ml" 100 3111 3130
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/subterm.ml" 100 3111 3142 "completion/subterm.ml" 100 3111 3143
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 99 3090 3097 "completion/subterm.ml" 99 3090 3098
+)
+"completion/subterm.ml" 100 3111 3144 "completion/subterm.ml" 100 3111 3145
+type(
+  int list
+)
+ident(
+  int_ref p "completion/subterm.ml" 99 3090 3099 "completion/subterm.ml" 99 3090 3100
+)
+"completion/subterm.ml" 100 3111 3141 "completion/subterm.ml" 100 3111 3146
+type(
+  Term.term * int list
+)
+"completion/subterm.ml" 100 3111 3136 "completion/subterm.ml" 100 3111 3146
+type(
+  (Term.term * int list) option
+)
+"completion/subterm.ml" 101 3152 3169 "completion/subterm.ml" 101 3152 3170
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 99 3090 3097 "completion/subterm.ml" 99 3090 3098
+)
+"completion/subterm.ml" 102 3176 3196 "completion/subterm.ml" 102 3176 3197
+type(
+  Symb.symbol
+)
+"completion/subterm.ml" 102 3176 3198 "completion/subterm.ml" 102 3176 3200
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/subterm.ml" 102 3176 3205 "completion/subterm.ml" 102 3176 3231
+)
+"completion/subterm.ml" 102 3176 3191 "completion/subterm.ml" 102 3176 3201
+type(
+  Term.term
+)
+"completion/subterm.ml" 102 3176 3205 "completion/subterm.ml" 102 3176 3208
+type(
+  (Term.term * int list) list -> (Term.term * int list) option
+)
+ident(
+  int_ref aux "completion/subterm.ml" 97 3048 3058 "completion/subterm.ml" 97 3048 3061
+)
+"completion/subterm.ml" 102 3176 3210 "completion/subterm.ml" 102 3176 3222
+type(
+  int list ->
+  Term.term list ->
+  (Term.term * int list) list -> (Term.term * int list) list
+)
+ident(
+  int_ref add_subterms "completion/subterm.ml" 81 2568 2572 "completion/subterm.ml" 81 2568 2584
+)
+"completion/subterm.ml" 102 3176 3223 "completion/subterm.ml" 102 3176 3224
+type(
+  int list
+)
+ident(
+  int_ref p "completion/subterm.ml" 99 3090 3099 "completion/subterm.ml" 99 3090 3100
+)
+"completion/subterm.ml" 102 3176 3225 "completion/subterm.ml" 102 3176 3227
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/subterm.ml" 102 3176 3198 "completion/subterm.ml" 102 3176 3200
+)
+"completion/subterm.ml" 102 3176 3228 "completion/subterm.ml" 102 3176 3230
+type(
+  (Term.term * int list) list
+)
+ident(
+  int_ref us "completion/subterm.ml" 99 3090 3105 "completion/subterm.ml" 99 3090 3107
+)
+"completion/subterm.ml" 102 3176 3209 "completion/subterm.ml" 102 3176 3231
+call(
+  stack
+)
+type(
+  (Term.term * int list) list
+)
+"completion/subterm.ml" 102 3176 3205 "completion/subterm.ml" 102 3176 3231
+call(
+  tail
+)
+type(
+  (Term.term * int list) option
+)
+"completion/subterm.ml" 103 3232 3251 "completion/subterm.ml" 103 3232 3252
+type(
+  Var.var
+)
+"completion/subterm.ml" 103 3232 3247 "completion/subterm.ml" 103 3232 3252
+type(
+  Term.term
+)
+"completion/subterm.ml" 103 3232 3256 "completion/subterm.ml" 103 3232 3259
+type(
+  (Term.term * int list) list -> (Term.term * int list) option
+)
+ident(
+  int_ref aux "completion/subterm.ml" 97 3048 3058 "completion/subterm.ml" 97 3048 3061
+)
+"completion/subterm.ml" 103 3232 3260 "completion/subterm.ml" 103 3232 3262
+type(
+  (Term.term * int list) list
+)
+ident(
+  int_ref us "completion/subterm.ml" 99 3090 3105 "completion/subterm.ml" 99 3090 3107
+)
+"completion/subterm.ml" 103 3232 3256 "completion/subterm.ml" 103 3232 3262
+call(
+  tail
+)
+type(
+  (Term.term * int list) option
+)
+"completion/subterm.ml" 101 3152 3162 "completion/subterm.ml" 103 3232 3263
+type(
+  (Term.term * int list) option
+)
+"completion/subterm.ml" 100 3111 3119 "completion/subterm.ml" 103 3232 3263
+type(
+  (Term.term * int list) option
+)
+"completion/subterm.ml" 97 3048 3064 "completion/subterm.ml" 103 3232 3263
+type(
+  (Term.term * int list) list -> (Term.term * int list) option
+)
+"completion/subterm.ml" 104 3264 3273 "completion/subterm.ml" 104 3264 3274
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 105 3278 3282 "completion/subterm.ml" 107 3324 3352
+)
+"completion/subterm.ml" 105 3278 3288 "completion/subterm.ml" 105 3278 3291
+type(
+  (Term.term * int list) list -> (Term.term * int list) option
+)
+ident(
+  int_ref aux "completion/subterm.ml" 97 3048 3058 "completion/subterm.ml" 97 3048 3061
+)
+"completion/subterm.ml" 105 3278 3293 "completion/subterm.ml" 105 3278 3294
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 104 3264 3273 "completion/subterm.ml" 104 3264 3274
+)
+"completion/subterm.ml" 105 3278 3295 "completion/subterm.ml" 105 3278 3297
+type(
+  int list
+)
+"completion/subterm.ml" 105 3278 3293 "completion/subterm.ml" 105 3278 3297
+type(
+  Term.term * int list
+)
+"completion/subterm.ml" 105 3278 3292 "completion/subterm.ml" 105 3278 3298
+type(
+  (Term.term * int list) list
+)
+"completion/subterm.ml" 105 3278 3288 "completion/subterm.ml" 105 3278 3298
+call(
+  stack
+)
+type(
+  (Term.term * int list) option
+)
+"completion/subterm.ml" 106 3304 3317 "completion/subterm.ml" 106 3304 3318
+type(
+  Term.term * int list
+)
+ident(
+  def x "completion/subterm.ml" 106 3304 3322 "completion/subterm.ml" 106 3304 3323
+)
+"completion/subterm.ml" 106 3304 3312 "completion/subterm.ml" 106 3304 3318
+type(
+  (Term.term * int list) option
+)
+"completion/subterm.ml" 106 3304 3322 "completion/subterm.ml" 106 3304 3323
+type(
+  Term.term * int list
+)
+ident(
+  int_ref x "completion/subterm.ml" 106 3304 3317 "completion/subterm.ml" 106 3304 3318
+)
+"completion/subterm.ml" 107 3324 3332 "completion/subterm.ml" 107 3324 3333
+type(
+  (Term.term * int list) option
+)
+"completion/subterm.ml" 107 3324 3337 "completion/subterm.ml" 107 3324 3342
+type(
+  exn -> Term.term * int list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"completion/subterm.ml" 107 3324 3343 "completion/subterm.ml" 107 3324 3352
+type(
+  exn
+)
+"completion/subterm.ml" 107 3324 3337 "completion/subterm.ml" 107 3324 3352
+type(
+  Term.term * int list
+)
+"completion/subterm.ml" 105 3278 3282 "completion/subterm.ml" 107 3324 3352
+type(
+  Term.term * int list
+)
+"completion/subterm.ml" 104 3264 3269 "completion/subterm.ml" 107 3324 3352
+type(
+  Term.term -> Term.term * int list
+)
+"completion/subterm.ml" 97 3048 3050 "completion/subterm.ml" 107 3324 3352
+type(
+  Term.term -> Term.term * int list
+)
+"completion/subterm.ml" 111 3415 3419 "completion/subterm.ml" 111 3415 3428
+type(
+  (Term.term -> int list -> 'a option) -> Term.term -> ('a * int list) option
+)
+ident(
+  def find_opti "completion/subterm.ml" 122 3677 3677 "completion/subterm.ml" 1 0 -1
+)
+"completion/subterm.ml" 111 3415 3429 "completion/subterm.ml" 111 3415 3433
+type(
+  Term.term -> int list -> 'a option
+)
+ident(
+  def pred "completion/subterm.ml" 112 3436 3438 "completion/subterm.ml" 118 3575 3605
+)
+"completion/subterm.ml" 112 3436 3442 "completion/subterm.ml" 112 3436 3445
+type(
+  Term.term -> int list -> ('a * int list) option -> ('a * int list) option
+)
+ident(
+  def add "completion/subterm.ml" 118 3575 3580 "completion/subterm.ml" 118 3575 3605
+)
+"completion/subterm.ml" 112 3436 3446 "completion/subterm.ml" 112 3436 3447
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 112 3436 3448 "completion/subterm.ml" 117 3562 3574
+)
+"completion/subterm.ml" 112 3436 3448 "completion/subterm.ml" 112 3436 3449
+type(
+  int list
+)
+ident(
+  def p "completion/subterm.ml" 112 3436 3452 "completion/subterm.ml" 117 3562 3574
+)
+"completion/subterm.ml" 113 3461 3467 "completion/subterm.ml" 113 3461 3471
+type(
+  ('a * int list) option
+)
+"completion/subterm.ml" 114 3475 3490 "completion/subterm.ml" 114 3475 3494
+type(
+  Term.term -> int list -> 'a option
+)
+ident(
+  int_ref pred "completion/subterm.ml" 111 3415 3429 "completion/subterm.ml" 111 3415 3433
+)
+"completion/subterm.ml" 114 3475 3495 "completion/subterm.ml" 114 3475 3496
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 112 3436 3446 "completion/subterm.ml" 112 3436 3447
+)
+"completion/subterm.ml" 114 3475 3497 "completion/subterm.ml" 114 3475 3498
+type(
+  int list
+)
+ident(
+  int_ref p "completion/subterm.ml" 112 3436 3448 "completion/subterm.ml" 112 3436 3449
+)
+"completion/subterm.ml" 114 3475 3490 "completion/subterm.ml" 114 3475 3498
+call(
+  stack
+)
+type(
+  'a option
+)
+"completion/subterm.ml" 115 3504 3522 "completion/subterm.ml" 115 3504 3523
+type(
+  'a
+)
+ident(
+  def x "completion/subterm.ml" 115 3504 3527 "completion/subterm.ml" 115 3504 3537
+)
+"completion/subterm.ml" 115 3504 3517 "completion/subterm.ml" 115 3504 3523
+type(
+  'a option
+)
+"completion/subterm.ml" 115 3504 3533 "completion/subterm.ml" 115 3504 3534
+type(
+  'a
+)
+ident(
+  int_ref x "completion/subterm.ml" 115 3504 3522 "completion/subterm.ml" 115 3504 3523
+)
+"completion/subterm.ml" 115 3504 3535 "completion/subterm.ml" 115 3504 3536
+type(
+  int list
+)
+ident(
+  int_ref p "completion/subterm.ml" 112 3436 3448 "completion/subterm.ml" 112 3436 3449
+)
+"completion/subterm.ml" 115 3504 3532 "completion/subterm.ml" 115 3504 3537
+type(
+  'a * int list
+)
+"completion/subterm.ml" 115 3504 3527 "completion/subterm.ml" 115 3504 3537
+type(
+  ('a * int list) option
+)
+"completion/subterm.ml" 116 3538 3551 "completion/subterm.ml" 116 3538 3552
+type(
+  'a option
+)
+"completion/subterm.ml" 116 3538 3556 "completion/subterm.ml" 116 3538 3560
+type(
+  ('a * int list) option
+)
+"completion/subterm.ml" 114 3475 3483 "completion/subterm.ml" 116 3538 3561
+type(
+  ('a * int list) option
+)
+"completion/subterm.ml" 117 3562 3568 "completion/subterm.ml" 117 3562 3569
+type(
+  ('a * int list) option
+)
+ident(
+  def o "completion/subterm.ml" 117 3562 3573 "completion/subterm.ml" 117 3562 3574
+)
+"completion/subterm.ml" 117 3562 3573 "completion/subterm.ml" 117 3562 3574
+type(
+  ('a * int list) option
+)
+ident(
+  int_ref o "completion/subterm.ml" 117 3562 3568 "completion/subterm.ml" 117 3562 3569
+)
+"completion/subterm.ml" 112 3436 3452 "completion/subterm.ml" 117 3562 3574
+type(
+  ('a * int list) option -> ('a * int list) option
+)
+"completion/subterm.ml" 118 3575 3584 "completion/subterm.ml" 118 3575 3585
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 118 3575 3589 "completion/subterm.ml" 118 3575 3605
+)
+"completion/subterm.ml" 118 3575 3589 "completion/subterm.ml" 118 3575 3594
+type(
+  (Term.term -> int list -> ('a * int list) option -> ('a * int list) option) ->
+  Term.term -> ('a * int list) option -> ('a * int list) option
+)
+ident(
+  int_ref foldi "completion/subterm.ml" 86 2695 2699 "completion/subterm.ml" 86 2695 2704
+)
+"completion/subterm.ml" 118 3575 3595 "completion/subterm.ml" 118 3575 3598
+type(
+  Term.term -> int list -> ('a * int list) option -> ('a * int list) option
+)
+ident(
+  int_ref add "completion/subterm.ml" 112 3436 3442 "completion/subterm.ml" 112 3436 3445
+)
+"completion/subterm.ml" 118 3575 3599 "completion/subterm.ml" 118 3575 3600
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 118 3575 3584 "completion/subterm.ml" 118 3575 3585
+)
+"completion/subterm.ml" 118 3575 3601 "completion/subterm.ml" 118 3575 3605
+type(
+  ('a * int list) option
+)
+"completion/subterm.ml" 118 3575 3589 "completion/subterm.ml" 118 3575 3605
+call(
+  tail
+)
+type(
+  ('a * int list) option
+)
+"completion/subterm.ml" 118 3575 3580 "completion/subterm.ml" 118 3575 3605
+type(
+  Term.term -> ('a * int list) option
+)
+"completion/subterm.ml" 112 3436 3438 "completion/subterm.ml" 118 3575 3605
+type(
+  Term.term -> ('a * int list) option
+)
+"completion/subterm.ml" 122 3677 3681 "completion/subterm.ml" 122 3677 3688
+type(
+  (Term.term -> int list -> bool) -> Term.term -> bool
+)
+ident(
+  def existsi "completion/subterm.ml" 123 3698 3756 "completion/subterm.ml" 1 0 -1
+)
+"completion/subterm.ml" 122 3677 3689 "completion/subterm.ml" 122 3677 3693
+type(
+  Term.term -> int list -> bool
+)
+ident(
+  def pred "completion/subterm.ml" 122 3677 3694 "completion/subterm.ml" 123 3698 3756
+)
+"completion/subterm.ml" 122 3677 3694 "completion/subterm.ml" 122 3677 3695
+type(
+  Term.term
+)
+ident(
+  def t "completion/subterm.ml" 123 3698 3700 "completion/subterm.ml" 123 3698 3756
+)
+"completion/subterm.ml" 123 3698 3708 "completion/subterm.ml" 123 3698 3709
+type(
+  Term.term * int list
+)
+"completion/subterm.ml" 123 3698 3712 "completion/subterm.ml" 123 3698 3717
+type(
+  (Term.term -> int list -> bool) -> Term.term -> Term.term * int list
+)
+ident(
+  int_ref findi "completion/subterm.ml" 96 3031 3035 "completion/subterm.ml" 96 3031 3040
+)
+"completion/subterm.ml" 123 3698 3718 "completion/subterm.ml" 123 3698 3722
+type(
+  Term.term -> int list -> bool
+)
+ident(
+  int_ref pred "completion/subterm.ml" 122 3677 3689 "completion/subterm.ml" 122 3677 3693
+)
+"completion/subterm.ml" 123 3698 3723 "completion/subterm.ml" 123 3698 3724
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/subterm.ml" 122 3677 3694 "completion/subterm.ml" 122 3677 3695
+)
+"completion/subterm.ml" 123 3698 3712 "completion/subterm.ml" 123 3698 3724
+call(
+  stack
+)
+type(
+  Term.term * int list
+)
+"completion/subterm.ml" 123 3698 3728 "completion/subterm.ml" 123 3698 3732
+type(
+  bool
+)
+"completion/subterm.ml" 123 3698 3704 "completion/subterm.ml" 123 3698 3732
+type(
+  bool
+)
+"completion/subterm.ml" 123 3698 3738 "completion/subterm.ml" 123 3698 3747
+type(
+  exn
+)
+"completion/subterm.ml" 123 3698 3751 "completion/subterm.ml" 123 3698 3756
+type(
+  bool
+)
+"completion/subterm.ml" 123 3698 3700 "completion/subterm.ml" 123 3698 3756
+type(
+  bool
+)

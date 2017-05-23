@@ -1,0 +1,392 @@
+"ocaml_src/parsing/syntaxerr.ml" 27 1120 1124 "ocaml_src/parsing/syntaxerr.ml" 27 1120 1136
+type(
+  Format.formatter -> error -> unit
+)
+ident(
+  def report_error "ocaml_src/parsing/syntaxerr.ml" 45 1924 1983 "ocaml_src/parsing/syntaxerr.ml" 1 0 -1
+)
+"ocaml_src/parsing/syntaxerr.ml" 27 1120 1137 "ocaml_src/parsing/syntaxerr.ml" 27 1120 1140
+type(
+  Format.formatter
+)
+ident(
+  def ppf "ocaml_src/parsing/syntaxerr.ml" 27 1120 1143 "ocaml_src/parsing/syntaxerr.ml" 45 1924 1983
+)
+"ocaml_src/parsing/syntaxerr.ml" 28 1152 1165 "ocaml_src/parsing/syntaxerr.ml" 28 1152 1176
+type(
+  Location.t
+)
+ident(
+  def opening_loc "ocaml_src/parsing/syntaxerr.ml" 29 1212 1218 "ocaml_src/parsing/syntaxerr.ml" 38 1686 1695
+)
+"ocaml_src/parsing/syntaxerr.ml" 28 1152 1178 "ocaml_src/parsing/syntaxerr.ml" 28 1152 1185
+type(
+  string
+)
+ident(
+  def opening "ocaml_src/parsing/syntaxerr.ml" 29 1212 1218 "ocaml_src/parsing/syntaxerr.ml" 38 1686 1695
+)
+"ocaml_src/parsing/syntaxerr.ml" 28 1152 1187 "ocaml_src/parsing/syntaxerr.ml" 28 1152 1198
+type(
+  Location.t
+)
+ident(
+  def closing_loc "ocaml_src/parsing/syntaxerr.ml" 29 1212 1218 "ocaml_src/parsing/syntaxerr.ml" 38 1686 1695
+)
+"ocaml_src/parsing/syntaxerr.ml" 28 1152 1200 "ocaml_src/parsing/syntaxerr.ml" 28 1152 1207
+type(
+  string
+)
+ident(
+  def closing "ocaml_src/parsing/syntaxerr.ml" 29 1212 1218 "ocaml_src/parsing/syntaxerr.ml" 38 1686 1695
+)
+"ocaml_src/parsing/syntaxerr.ml" 28 1152 1156 "ocaml_src/parsing/syntaxerr.ml" 28 1152 1208
+type(
+  error
+)
+"ocaml_src/parsing/syntaxerr.ml" 29 1212 1221 "ocaml_src/parsing/syntaxerr.ml" 29 1212 1222
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/syntaxerr.ml" 29 1212 1222 "ocaml_src/parsing/syntaxerr.ml" 29 1212 1241
+type(
+  string ref
+)
+ident(
+  ext_ref Location.input_name
+)
+"ocaml_src/parsing/syntaxerr.ml" 29 1212 1221 "ocaml_src/parsing/syntaxerr.ml" 29 1212 1241
+type(
+  string
+)
+"ocaml_src/parsing/syntaxerr.ml" 29 1212 1242 "ocaml_src/parsing/syntaxerr.ml" 29 1212 1243
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/syntaxerr.ml" 29 1212 1244 "ocaml_src/parsing/syntaxerr.ml" 29 1212 1258
+type(
+  string
+)
+"ocaml_src/parsing/syntaxerr.ml" 29 1212 1221 "ocaml_src/parsing/syntaxerr.ml" 29 1212 1258
+type(
+  bool
+)
+"ocaml_src/parsing/syntaxerr.ml" 30 1259 1268 "ocaml_src/parsing/syntaxerr.ml" 30 1259 1270
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/parsing/syntaxerr.ml" 30 1259 1271 "ocaml_src/parsing/syntaxerr.ml" 30 1259 1299
+type(
+  Format.formatter -> Location.t -> Location.t -> bool
+)
+ident(
+  ext_ref Location.highlight_locations
+)
+"ocaml_src/parsing/syntaxerr.ml" 30 1259 1300 "ocaml_src/parsing/syntaxerr.ml" 30 1259 1303
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/syntaxerr.ml" 27 1120 1137 "ocaml_src/parsing/syntaxerr.ml" 27 1120 1140
+)
+"ocaml_src/parsing/syntaxerr.ml" 30 1259 1304 "ocaml_src/parsing/syntaxerr.ml" 30 1259 1315
+type(
+  Location.t
+)
+ident(
+  int_ref opening_loc "ocaml_src/parsing/syntaxerr.ml" 28 1152 1165 "ocaml_src/parsing/syntaxerr.ml" 28 1152 1176
+)
+"ocaml_src/parsing/syntaxerr.ml" 30 1259 1316 "ocaml_src/parsing/syntaxerr.ml" 30 1259 1327
+type(
+  Location.t
+)
+ident(
+  int_ref closing_loc "ocaml_src/parsing/syntaxerr.ml" 28 1152 1187 "ocaml_src/parsing/syntaxerr.ml" 28 1152 1198
+)
+"ocaml_src/parsing/syntaxerr.ml" 30 1259 1271 "ocaml_src/parsing/syntaxerr.ml" 30 1259 1327
+call(
+  stack
+)
+type(
+  bool
+)
+"ocaml_src/parsing/syntaxerr.ml" 29 1212 1221 "ocaml_src/parsing/syntaxerr.ml" 30 1259 1327
+type(
+  bool
+)
+"ocaml_src/parsing/syntaxerr.ml" 31 1328 1339 "ocaml_src/parsing/syntaxerr.ml" 31 1328 1346
+type(
+  Format.formatter ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/syntaxerr.ml" 31 1328 1347 "ocaml_src/parsing/syntaxerr.ml" 31 1328 1350
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/syntaxerr.ml" 27 1120 1137 "ocaml_src/parsing/syntaxerr.ml" 27 1120 1140
+)
+"ocaml_src/parsing/syntaxerr.ml" 31 1328 1351 "ocaml_src/parsing/syntaxerr.ml" 32 1383 1442
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"ocaml_src/parsing/syntaxerr.ml" 32 1383 1443 "ocaml_src/parsing/syntaxerr.ml" 32 1383 1450
+type(
+  string
+)
+ident(
+  int_ref closing "ocaml_src/parsing/syntaxerr.ml" 28 1152 1200 "ocaml_src/parsing/syntaxerr.ml" 28 1152 1207
+)
+"ocaml_src/parsing/syntaxerr.ml" 32 1383 1451 "ocaml_src/parsing/syntaxerr.ml" 32 1383 1458
+type(
+  string
+)
+ident(
+  int_ref opening "ocaml_src/parsing/syntaxerr.ml" 28 1152 1178 "ocaml_src/parsing/syntaxerr.ml" 28 1152 1185
+)
+"ocaml_src/parsing/syntaxerr.ml" 31 1328 1339 "ocaml_src/parsing/syntaxerr.ml" 32 1383 1458
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/parsing/syntaxerr.ml" 34 1476 1484 "ocaml_src/parsing/syntaxerr.ml" 34 1476 1491
+type(
+  Format.formatter ->
+  ((Format.formatter -> Location.t -> unit) -> Location.t -> string -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.t -> unit) -> Location.t -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/syntaxerr.ml" 34 1476 1492 "ocaml_src/parsing/syntaxerr.ml" 34 1476 1495
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/syntaxerr.ml" 27 1120 1137 "ocaml_src/parsing/syntaxerr.ml" 27 1120 1140
+)
+"ocaml_src/parsing/syntaxerr.ml" 34 1476 1496 "ocaml_src/parsing/syntaxerr.ml" 34 1476 1529
+type(
+  ((Format.formatter -> Location.t -> unit) -> Location.t -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"ocaml_src/parsing/syntaxerr.ml" 35 1530 1540 "ocaml_src/parsing/syntaxerr.ml" 35 1530 1560
+type(
+  Format.formatter -> Location.t -> unit
+)
+ident(
+  ext_ref Location.print_error
+)
+"ocaml_src/parsing/syntaxerr.ml" 35 1530 1561 "ocaml_src/parsing/syntaxerr.ml" 35 1530 1572
+type(
+  Location.t
+)
+ident(
+  int_ref closing_loc "ocaml_src/parsing/syntaxerr.ml" 28 1152 1187 "ocaml_src/parsing/syntaxerr.ml" 28 1152 1198
+)
+"ocaml_src/parsing/syntaxerr.ml" 35 1530 1573 "ocaml_src/parsing/syntaxerr.ml" 35 1530 1580
+type(
+  string
+)
+ident(
+  int_ref closing "ocaml_src/parsing/syntaxerr.ml" 28 1152 1200 "ocaml_src/parsing/syntaxerr.ml" 28 1152 1207
+)
+"ocaml_src/parsing/syntaxerr.ml" 34 1476 1484 "ocaml_src/parsing/syntaxerr.ml" 35 1530 1580
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/syntaxerr.ml" 36 1582 1590 "ocaml_src/parsing/syntaxerr.ml" 36 1582 1597
+type(
+  Format.formatter ->
+  ((Format.formatter -> Location.t -> unit) -> Location.t -> string -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Location.t -> unit) -> Location.t -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/syntaxerr.ml" 36 1582 1598 "ocaml_src/parsing/syntaxerr.ml" 36 1582 1601
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/syntaxerr.ml" 27 1120 1137 "ocaml_src/parsing/syntaxerr.ml" 27 1120 1140
+)
+"ocaml_src/parsing/syntaxerr.ml" 36 1582 1602 "ocaml_src/parsing/syntaxerr.ml" 36 1582 1634
+type(
+  ((Format.formatter -> Location.t -> unit) -> Location.t -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"ocaml_src/parsing/syntaxerr.ml" 37 1635 1645 "ocaml_src/parsing/syntaxerr.ml" 37 1635 1665
+type(
+  Format.formatter -> Location.t -> unit
+)
+ident(
+  ext_ref Location.print_error
+)
+"ocaml_src/parsing/syntaxerr.ml" 37 1635 1666 "ocaml_src/parsing/syntaxerr.ml" 37 1635 1677
+type(
+  Location.t
+)
+ident(
+  int_ref opening_loc "ocaml_src/parsing/syntaxerr.ml" 28 1152 1165 "ocaml_src/parsing/syntaxerr.ml" 28 1152 1176
+)
+"ocaml_src/parsing/syntaxerr.ml" 37 1635 1678 "ocaml_src/parsing/syntaxerr.ml" 37 1635 1685
+type(
+  string
+)
+ident(
+  int_ref opening "ocaml_src/parsing/syntaxerr.ml" 28 1152 1178 "ocaml_src/parsing/syntaxerr.ml" 28 1152 1185
+)
+"ocaml_src/parsing/syntaxerr.ml" 36 1582 1590 "ocaml_src/parsing/syntaxerr.ml" 37 1635 1685
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/parsing/syntaxerr.ml" 33 1459 1470 "ocaml_src/parsing/syntaxerr.ml" 38 1686 1695
+type(
+  unit
+)
+"ocaml_src/parsing/syntaxerr.ml" 29 1212 1218 "ocaml_src/parsing/syntaxerr.ml" 38 1686 1695
+type(
+  unit
+)
+"ocaml_src/parsing/syntaxerr.ml" 39 1696 1717 "ocaml_src/parsing/syntaxerr.ml" 39 1696 1720
+type(
+  Location.t
+)
+ident(
+  def loc "ocaml_src/parsing/syntaxerr.ml" 40 1724 1730 "ocaml_src/parsing/syntaxerr.ml" 43 1874 1906
+)
+"ocaml_src/parsing/syntaxerr.ml" 39 1696 1700 "ocaml_src/parsing/syntaxerr.ml" 39 1696 1720
+type(
+  error
+)
+"ocaml_src/parsing/syntaxerr.ml" 40 1724 1730 "ocaml_src/parsing/syntaxerr.ml" 40 1724 1737
+type(
+  Format.formatter ->
+  ((Format.formatter -> Location.t -> unit) -> Location.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Location.t -> unit) -> Location.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/syntaxerr.ml" 40 1724 1738 "ocaml_src/parsing/syntaxerr.ml" 40 1724 1741
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/syntaxerr.ml" 27 1120 1137 "ocaml_src/parsing/syntaxerr.ml" 27 1120 1140
+)
+"ocaml_src/parsing/syntaxerr.ml" 40 1724 1742 "ocaml_src/parsing/syntaxerr.ml" 42 1828 1873
+type(
+  ((Format.formatter -> Location.t -> unit) -> Location.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"ocaml_src/parsing/syntaxerr.ml" 43 1874 1882 "ocaml_src/parsing/syntaxerr.ml" 43 1874 1902
+type(
+  Format.formatter -> Location.t -> unit
+)
+ident(
+  ext_ref Location.print_error
+)
+"ocaml_src/parsing/syntaxerr.ml" 43 1874 1903 "ocaml_src/parsing/syntaxerr.ml" 43 1874 1906
+type(
+  Location.t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/syntaxerr.ml" 39 1696 1717 "ocaml_src/parsing/syntaxerr.ml" 39 1696 1720
+)
+"ocaml_src/parsing/syntaxerr.ml" 40 1724 1730 "ocaml_src/parsing/syntaxerr.ml" 43 1874 1906
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/parsing/syntaxerr.ml" 44 1907 1917 "ocaml_src/parsing/syntaxerr.ml" 44 1907 1920
+type(
+  Location.t
+)
+ident(
+  def loc "ocaml_src/parsing/syntaxerr.ml" 45 1924 1930 "ocaml_src/parsing/syntaxerr.ml" 45 1924 1983
+)
+"ocaml_src/parsing/syntaxerr.ml" 44 1907 1911 "ocaml_src/parsing/syntaxerr.ml" 44 1907 1920
+type(
+  error
+)
+"ocaml_src/parsing/syntaxerr.ml" 45 1924 1930 "ocaml_src/parsing/syntaxerr.ml" 45 1924 1937
+type(
+  Format.formatter ->
+  ((Format.formatter -> Location.t -> unit) -> Location.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Location.t -> unit) -> Location.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/parsing/syntaxerr.ml" 45 1924 1938 "ocaml_src/parsing/syntaxerr.ml" 45 1924 1941
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/parsing/syntaxerr.ml" 27 1120 1137 "ocaml_src/parsing/syntaxerr.ml" 27 1120 1140
+)
+"ocaml_src/parsing/syntaxerr.ml" 45 1924 1942 "ocaml_src/parsing/syntaxerr.ml" 45 1924 1958
+type(
+  ((Format.formatter -> Location.t -> unit) -> Location.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"ocaml_src/parsing/syntaxerr.ml" 45 1924 1959 "ocaml_src/parsing/syntaxerr.ml" 45 1924 1979
+type(
+  Format.formatter -> Location.t -> unit
+)
+ident(
+  ext_ref Location.print_error
+)
+"ocaml_src/parsing/syntaxerr.ml" 45 1924 1980 "ocaml_src/parsing/syntaxerr.ml" 45 1924 1983
+type(
+  Location.t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/syntaxerr.ml" 44 1907 1917 "ocaml_src/parsing/syntaxerr.ml" 44 1907 1920
+)
+"ocaml_src/parsing/syntaxerr.ml" 45 1924 1930 "ocaml_src/parsing/syntaxerr.ml" 45 1924 1983
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/parsing/syntaxerr.ml" 27 1120 1143 "ocaml_src/parsing/syntaxerr.ml" 45 1924 1983
+type(
+  error -> unit
+)

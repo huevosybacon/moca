@@ -1,0 +1,5135 @@
+"ocaml_src/utils/warnings.ml" 61 2934 2938 "ocaml_src/utils/warnings.ml" 61 2934 2944
+type(
+  t -> int
+)
+ident(
+  def number "ocaml_src/utils/warnings.ml" 94 3822 3822 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 62 2956 2960 "ocaml_src/utils/warnings.ml" 62 2956 2973
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 62 2956 2977 "ocaml_src/utils/warnings.ml" 62 2956 2978
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 63 2979 2983 "ocaml_src/utils/warnings.ml" 63 2979 2998
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 63 2979 3002 "ocaml_src/utils/warnings.ml" 63 2979 3003
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 64 3004 3008 "ocaml_src/utils/warnings.ml" 64 3004 3018
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 64 3004 3022 "ocaml_src/utils/warnings.ml" 64 3004 3023
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 65 3024 3042 "ocaml_src/utils/warnings.ml" 65 3024 3043
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 65 3024 3028 "ocaml_src/utils/warnings.ml" 65 3024 3043
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 65 3024 3047 "ocaml_src/utils/warnings.ml" 65 3024 3048
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 66 3049 3053 "ocaml_src/utils/warnings.ml" 66 3049 3072
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 66 3049 3076 "ocaml_src/utils/warnings.ml" 66 3049 3077
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 67 3078 3082 "ocaml_src/utils/warnings.ml" 67 3078 3096
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 67 3078 3100 "ocaml_src/utils/warnings.ml" 67 3078 3101
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 68 3102 3122 "ocaml_src/utils/warnings.ml" 68 3102 3123
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 68 3102 3106 "ocaml_src/utils/warnings.ml" 68 3102 3123
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 68 3102 3127 "ocaml_src/utils/warnings.ml" 68 3102 3128
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 69 3129 3147 "ocaml_src/utils/warnings.ml" 69 3129 3148
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 69 3129 3133 "ocaml_src/utils/warnings.ml" 69 3129 3148
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 69 3129 3152 "ocaml_src/utils/warnings.ml" 69 3129 3153
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 70 3154 3184 "ocaml_src/utils/warnings.ml" 70 3154 3185
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 70 3154 3158 "ocaml_src/utils/warnings.ml" 70 3154 3185
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 70 3154 3189 "ocaml_src/utils/warnings.ml" 70 3154 3190
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 71 3191 3195 "ocaml_src/utils/warnings.ml" 71 3191 3209
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 71 3191 3213 "ocaml_src/utils/warnings.ml" 71 3191 3215
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 72 3216 3220 "ocaml_src/utils/warnings.ml" 72 3216 3232
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 72 3216 3236 "ocaml_src/utils/warnings.ml" 72 3216 3238
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 73 3239 3243 "ocaml_src/utils/warnings.ml" 73 3239 3253
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 73 3239 3257 "ocaml_src/utils/warnings.ml" 73 3239 3259
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 74 3260 3291 "ocaml_src/utils/warnings.ml" 74 3260 3292
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 74 3260 3264 "ocaml_src/utils/warnings.ml" 74 3260 3292
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 74 3260 3296 "ocaml_src/utils/warnings.ml" 74 3260 3298
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 75 3299 3303 "ocaml_src/utils/warnings.ml" 75 3299 3320
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 75 3299 3324 "ocaml_src/utils/warnings.ml" 75 3299 3326
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 76 3327 3355 "ocaml_src/utils/warnings.ml" 76 3327 3356
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 76 3327 3331 "ocaml_src/utils/warnings.ml" 76 3327 3356
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 76 3327 3360 "ocaml_src/utils/warnings.ml" 76 3327 3362
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 77 3363 3367 "ocaml_src/utils/warnings.ml" 77 3363 3395
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 77 3363 3399 "ocaml_src/utils/warnings.ml" 77 3363 3401
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 78 3402 3432 "ocaml_src/utils/warnings.ml" 78 3402 3433
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 78 3402 3406 "ocaml_src/utils/warnings.ml" 78 3402 3433
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 78 3402 3437 "ocaml_src/utils/warnings.ml" 78 3402 3439
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 79 3440 3458 "ocaml_src/utils/warnings.ml" 79 3440 3459
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 79 3440 3444 "ocaml_src/utils/warnings.ml" 79 3440 3459
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 79 3440 3463 "ocaml_src/utils/warnings.ml" 79 3440 3465
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 80 3466 3491 "ocaml_src/utils/warnings.ml" 80 3466 3492
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 80 3466 3470 "ocaml_src/utils/warnings.ml" 80 3466 3492
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 80 3466 3496 "ocaml_src/utils/warnings.ml" 80 3466 3498
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 81 3499 3503 "ocaml_src/utils/warnings.ml" 81 3499 3518
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 81 3499 3522 "ocaml_src/utils/warnings.ml" 81 3499 3524
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 82 3525 3529 "ocaml_src/utils/warnings.ml" 82 3525 3551
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 82 3525 3555 "ocaml_src/utils/warnings.ml" 82 3525 3557
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 83 3558 3569 "ocaml_src/utils/warnings.ml" 83 3558 3570
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 83 3558 3562 "ocaml_src/utils/warnings.ml" 83 3558 3570
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 83 3558 3574 "ocaml_src/utils/warnings.ml" 83 3558 3576
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 84 3577 3581 "ocaml_src/utils/warnings.ml" 84 3577 3600
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 84 3577 3604 "ocaml_src/utils/warnings.ml" 84 3577 3606
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 85 3607 3627 "ocaml_src/utils/warnings.ml" 85 3607 3628
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 85 3607 3611 "ocaml_src/utils/warnings.ml" 85 3607 3628
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 85 3607 3632 "ocaml_src/utils/warnings.ml" 85 3607 3634
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 86 3635 3639 "ocaml_src/utils/warnings.ml" 86 3635 3658
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 86 3635 3662 "ocaml_src/utils/warnings.ml" 86 3635 3664
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 87 3665 3680 "ocaml_src/utils/warnings.ml" 87 3665 3681
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 87 3665 3669 "ocaml_src/utils/warnings.ml" 87 3665 3681
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 87 3665 3685 "ocaml_src/utils/warnings.ml" 87 3665 3687
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 88 3688 3710 "ocaml_src/utils/warnings.ml" 88 3688 3711
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 88 3688 3692 "ocaml_src/utils/warnings.ml" 88 3688 3711
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 88 3688 3715 "ocaml_src/utils/warnings.ml" 88 3688 3717
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 89 3718 3722 "ocaml_src/utils/warnings.ml" 89 3718 3753
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 89 3718 3757 "ocaml_src/utils/warnings.ml" 89 3718 3759
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 90 3760 3764 "ocaml_src/utils/warnings.ml" 90 3760 3777
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 90 3760 3781 "ocaml_src/utils/warnings.ml" 90 3760 3783
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 91 3784 3810 "ocaml_src/utils/warnings.ml" 91 3784 3811
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 91 3784 3788 "ocaml_src/utils/warnings.ml" 91 3784 3811
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 91 3784 3815 "ocaml_src/utils/warnings.ml" 91 3784 3817
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 61 2934 2947 "ocaml_src/utils/warnings.ml" 91 3784 3817
+type(
+  t -> int
+)
+"ocaml_src/utils/warnings.ml" 94 3822 3826 "ocaml_src/utils/warnings.ml" 94 3822 3845
+type(
+  int
+)
+ident(
+  def last_warning_number "ocaml_src/utils/warnings.ml" 97 3918 3918 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 94 3822 3848 "ocaml_src/utils/warnings.ml" 94 3822 3850
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 97 3918 3922 "ocaml_src/utils/warnings.ml" 97 3918 3928
+type(
+  char -> int list
+)
+ident(
+  def letter "ocaml_src/utils/warnings.ml" 129 4497 4497 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 98 3940 3944 "ocaml_src/utils/warnings.ml" 98 3940 3947
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 99 3951 3964 "ocaml_src/utils/warnings.ml" 99 3951 3968
+type(
+  int -> int list
+)
+ident(
+  def loop "ocaml_src/utils/warnings.ml" 99 3951 3956 "ocaml_src/utils/warnings.ml" 100 4016 4045
+)
+"ocaml_src/utils/warnings.ml" 99 3951 3969 "ocaml_src/utils/warnings.ml" 99 3951 3970
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/warnings.ml" 99 3951 3973 "ocaml_src/utils/warnings.ml" 99 3951 4012
+)
+"ocaml_src/utils/warnings.ml" 99 3951 3976 "ocaml_src/utils/warnings.ml" 99 3951 3977
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 99 3951 3969 "ocaml_src/utils/warnings.ml" 99 3951 3970
+)
+"ocaml_src/utils/warnings.ml" 99 3951 3978 "ocaml_src/utils/warnings.ml" 99 3951 3979
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/warnings.ml" 99 3951 3980 "ocaml_src/utils/warnings.ml" 99 3951 3981
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 99 3951 3976 "ocaml_src/utils/warnings.ml" 99 3951 3981
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 99 3951 3987 "ocaml_src/utils/warnings.ml" 99 3951 3989
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 99 3951 3995 "ocaml_src/utils/warnings.ml" 99 3951 3996
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 99 3951 3969 "ocaml_src/utils/warnings.ml" 99 3951 3970
+)
+"ocaml_src/utils/warnings.ml" 99 3951 4000 "ocaml_src/utils/warnings.ml" 99 3951 4004
+type(
+  int -> int list
+)
+ident(
+  int_ref loop "ocaml_src/utils/warnings.ml" 99 3951 3964 "ocaml_src/utils/warnings.ml" 99 3951 3968
+)
+"ocaml_src/utils/warnings.ml" 99 3951 4006 "ocaml_src/utils/warnings.ml" 99 3951 4007
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 99 3951 3969 "ocaml_src/utils/warnings.ml" 99 3951 3970
+)
+"ocaml_src/utils/warnings.ml" 99 3951 4008 "ocaml_src/utils/warnings.ml" 99 3951 4009
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/utils/warnings.ml" 99 3951 4010 "ocaml_src/utils/warnings.ml" 99 3951 4011
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 99 3951 4005 "ocaml_src/utils/warnings.ml" 99 3951 4012
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 99 3951 4000 "ocaml_src/utils/warnings.ml" 99 3951 4012
+call(
+  stack
+)
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 99 3951 3995 "ocaml_src/utils/warnings.ml" 99 3951 4012
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 99 3951 3973 "ocaml_src/utils/warnings.ml" 99 3951 4012
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 100 4016 4021 "ocaml_src/utils/warnings.ml" 100 4016 4025
+type(
+  int -> int list
+)
+ident(
+  int_ref loop "ocaml_src/utils/warnings.ml" 99 3951 3964 "ocaml_src/utils/warnings.ml" 99 3951 3968
+)
+"ocaml_src/utils/warnings.ml" 100 4016 4026 "ocaml_src/utils/warnings.ml" 100 4016 4045
+type(
+  int
+)
+ident(
+  int_ref last_warning_number "ocaml_src/utils/warnings.ml" 94 3822 3826 "ocaml_src/utils/warnings.ml" 94 3822 3845
+)
+"ocaml_src/utils/warnings.ml" 100 4016 4021 "ocaml_src/utils/warnings.ml" 100 4016 4045
+call(
+  tail
+)
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 99 3951 3956 "ocaml_src/utils/warnings.ml" 100 4016 4045
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 101 4046 4050 "ocaml_src/utils/warnings.ml" 101 4046 4053
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 101 4046 4057 "ocaml_src/utils/warnings.ml" 101 4046 4059
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 102 4060 4064 "ocaml_src/utils/warnings.ml" 102 4060 4067
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 102 4060 4072 "ocaml_src/utils/warnings.ml" 102 4060 4073
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 102 4060 4075 "ocaml_src/utils/warnings.ml" 102 4060 4076
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 102 4060 4071 "ocaml_src/utils/warnings.ml" 102 4060 4077
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 103 4078 4082 "ocaml_src/utils/warnings.ml" 103 4078 4085
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 103 4078 4090 "ocaml_src/utils/warnings.ml" 103 4078 4091
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 103 4078 4089 "ocaml_src/utils/warnings.ml" 103 4078 4092
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 104 4093 4097 "ocaml_src/utils/warnings.ml" 104 4093 4100
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 104 4093 4105 "ocaml_src/utils/warnings.ml" 104 4093 4106
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 104 4093 4104 "ocaml_src/utils/warnings.ml" 104 4093 4107
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 105 4108 4112 "ocaml_src/utils/warnings.ml" 105 4108 4115
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 105 4108 4120 "ocaml_src/utils/warnings.ml" 105 4108 4121
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 105 4108 4119 "ocaml_src/utils/warnings.ml" 105 4108 4122
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 106 4123 4127 "ocaml_src/utils/warnings.ml" 106 4123 4130
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 106 4123 4134 "ocaml_src/utils/warnings.ml" 106 4123 4136
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 107 4137 4141 "ocaml_src/utils/warnings.ml" 107 4137 4144
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 107 4137 4148 "ocaml_src/utils/warnings.ml" 107 4137 4150
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 108 4151 4155 "ocaml_src/utils/warnings.ml" 108 4151 4158
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 108 4151 4162 "ocaml_src/utils/warnings.ml" 108 4151 4164
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 109 4165 4169 "ocaml_src/utils/warnings.ml" 109 4165 4172
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 109 4165 4176 "ocaml_src/utils/warnings.ml" 109 4165 4178
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 110 4179 4183 "ocaml_src/utils/warnings.ml" 110 4179 4186
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 110 4179 4190 "ocaml_src/utils/warnings.ml" 110 4179 4192
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 111 4193 4197 "ocaml_src/utils/warnings.ml" 111 4193 4200
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 111 4193 4205 "ocaml_src/utils/warnings.ml" 111 4193 4206
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 111 4193 4204 "ocaml_src/utils/warnings.ml" 111 4193 4207
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 112 4208 4212 "ocaml_src/utils/warnings.ml" 112 4208 4215
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 112 4208 4220 "ocaml_src/utils/warnings.ml" 112 4208 4221
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 112 4208 4219 "ocaml_src/utils/warnings.ml" 112 4208 4222
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 113 4223 4227 "ocaml_src/utils/warnings.ml" 113 4223 4230
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 113 4223 4234 "ocaml_src/utils/warnings.ml" 113 4223 4236
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 114 4237 4241 "ocaml_src/utils/warnings.ml" 114 4237 4244
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 114 4237 4248 "ocaml_src/utils/warnings.ml" 114 4237 4250
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 115 4251 4255 "ocaml_src/utils/warnings.ml" 115 4251 4258
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 115 4251 4263 "ocaml_src/utils/warnings.ml" 115 4251 4264
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 115 4251 4262 "ocaml_src/utils/warnings.ml" 115 4251 4265
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 116 4266 4270 "ocaml_src/utils/warnings.ml" 116 4266 4273
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 116 4266 4277 "ocaml_src/utils/warnings.ml" 116 4266 4279
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 117 4280 4284 "ocaml_src/utils/warnings.ml" 117 4280 4287
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 117 4280 4292 "ocaml_src/utils/warnings.ml" 117 4280 4293
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 117 4280 4291 "ocaml_src/utils/warnings.ml" 117 4280 4294
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 118 4295 4299 "ocaml_src/utils/warnings.ml" 118 4295 4302
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 118 4295 4307 "ocaml_src/utils/warnings.ml" 118 4295 4309
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 118 4295 4306 "ocaml_src/utils/warnings.ml" 118 4295 4310
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 119 4311 4315 "ocaml_src/utils/warnings.ml" 119 4311 4318
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 119 4311 4322 "ocaml_src/utils/warnings.ml" 119 4311 4324
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 120 4325 4329 "ocaml_src/utils/warnings.ml" 120 4325 4332
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 120 4325 4337 "ocaml_src/utils/warnings.ml" 120 4325 4339
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 120 4325 4341 "ocaml_src/utils/warnings.ml" 120 4325 4343
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 120 4325 4336 "ocaml_src/utils/warnings.ml" 120 4325 4344
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 121 4345 4349 "ocaml_src/utils/warnings.ml" 121 4345 4352
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 121 4345 4357 "ocaml_src/utils/warnings.ml" 121 4345 4359
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 121 4345 4356 "ocaml_src/utils/warnings.ml" 121 4345 4360
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 122 4361 4365 "ocaml_src/utils/warnings.ml" 122 4361 4368
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 122 4361 4372 "ocaml_src/utils/warnings.ml" 122 4361 4374
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4379 "ocaml_src/utils/warnings.ml" 123 4375 4382
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4387 "ocaml_src/utils/warnings.ml" 123 4375 4389
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4391 "ocaml_src/utils/warnings.ml" 123 4375 4393
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4395 "ocaml_src/utils/warnings.ml" 123 4375 4397
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4399 "ocaml_src/utils/warnings.ml" 123 4375 4401
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4403 "ocaml_src/utils/warnings.ml" 123 4375 4405
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4407 "ocaml_src/utils/warnings.ml" 123 4375 4409
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4411 "ocaml_src/utils/warnings.ml" 123 4375 4413
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4415 "ocaml_src/utils/warnings.ml" 123 4375 4417
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4419 "ocaml_src/utils/warnings.ml" 123 4375 4421
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4423 "ocaml_src/utils/warnings.ml" 123 4375 4425
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4427 "ocaml_src/utils/warnings.ml" 123 4375 4429
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4431 "ocaml_src/utils/warnings.ml" 123 4375 4433
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4435 "ocaml_src/utils/warnings.ml" 123 4375 4437
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 123 4375 4386 "ocaml_src/utils/warnings.ml" 123 4375 4438
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 124 4439 4443 "ocaml_src/utils/warnings.ml" 124 4439 4446
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 124 4439 4451 "ocaml_src/utils/warnings.ml" 124 4439 4453
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 124 4439 4450 "ocaml_src/utils/warnings.ml" 124 4439 4454
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 125 4455 4459 "ocaml_src/utils/warnings.ml" 125 4455 4462
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 125 4455 4467 "ocaml_src/utils/warnings.ml" 125 4455 4469
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 125 4455 4466 "ocaml_src/utils/warnings.ml" 125 4455 4470
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 126 4471 4475 "ocaml_src/utils/warnings.ml" 126 4471 4476
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 126 4471 4487 "ocaml_src/utils/warnings.ml" 126 4471 4492
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 126 4471 4480 "ocaml_src/utils/warnings.ml" 126 4471 4492
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 97 3918 3931 "ocaml_src/utils/warnings.ml" 126 4471 4492
+type(
+  char -> int list
+)
+"ocaml_src/utils/warnings.ml" 129 4497 4501 "ocaml_src/utils/warnings.ml" 129 4497 4507
+type(
+  bool array
+)
+ident(
+  def active "ocaml_src/utils/warnings.ml" 130 4556 4556 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 129 4497 4510 "ocaml_src/utils/warnings.ml" 129 4497 4522
+type(
+  int -> bool -> bool array
+)
+ident(
+  ext_ref Array.create
+)
+"ocaml_src/utils/warnings.ml" 129 4497 4524 "ocaml_src/utils/warnings.ml" 129 4497 4543
+type(
+  int
+)
+ident(
+  int_ref last_warning_number "ocaml_src/utils/warnings.ml" 94 3822 3826 "ocaml_src/utils/warnings.ml" 94 3822 3845
+)
+"ocaml_src/utils/warnings.ml" 129 4497 4544 "ocaml_src/utils/warnings.ml" 129 4497 4545
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/warnings.ml" 129 4497 4546 "ocaml_src/utils/warnings.ml" 129 4497 4547
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 129 4497 4523 "ocaml_src/utils/warnings.ml" 129 4497 4548
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 129 4497 4549 "ocaml_src/utils/warnings.ml" 129 4497 4553
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 129 4497 4510 "ocaml_src/utils/warnings.ml" 129 4497 4553
+type(
+  bool array
+)
+"ocaml_src/utils/warnings.ml" 130 4556 4560 "ocaml_src/utils/warnings.ml" 130 4556 4565
+type(
+  bool array
+)
+ident(
+  def error "ocaml_src/utils/warnings.ml" 132 4616 4616 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 130 4556 4568 "ocaml_src/utils/warnings.ml" 130 4556 4580
+type(
+  int -> bool -> bool array
+)
+ident(
+  ext_ref Array.create
+)
+"ocaml_src/utils/warnings.ml" 130 4556 4582 "ocaml_src/utils/warnings.ml" 130 4556 4601
+type(
+  int
+)
+ident(
+  int_ref last_warning_number "ocaml_src/utils/warnings.ml" 94 3822 3826 "ocaml_src/utils/warnings.ml" 94 3822 3845
+)
+"ocaml_src/utils/warnings.ml" 130 4556 4602 "ocaml_src/utils/warnings.ml" 130 4556 4603
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/warnings.ml" 130 4556 4604 "ocaml_src/utils/warnings.ml" 130 4556 4605
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 130 4556 4581 "ocaml_src/utils/warnings.ml" 130 4556 4606
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 130 4556 4607 "ocaml_src/utils/warnings.ml" 130 4556 4612
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 130 4556 4568 "ocaml_src/utils/warnings.ml" 130 4556 4612
+type(
+  bool array
+)
+"ocaml_src/utils/warnings.ml" 132 4616 4620 "ocaml_src/utils/warnings.ml" 132 4616 4629
+type(
+  t -> bool
+)
+ident(
+  def is_active "ocaml_src/utils/warnings.ml" 133 4654 4654 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 132 4616 4630 "ocaml_src/utils/warnings.ml" 132 4616 4631
+type(
+  t
+)
+ident(
+  def x "ocaml_src/utils/warnings.ml" 132 4616 4634 "ocaml_src/utils/warnings.ml" 132 4616 4651
+)
+"ocaml_src/utils/warnings.ml" 132 4616 4634 "ocaml_src/utils/warnings.ml" 132 4616 4640
+type(
+  bool array
+)
+ident(
+  int_ref active "ocaml_src/utils/warnings.ml" 129 4497 4501 "ocaml_src/utils/warnings.ml" 129 4497 4507
+)
+"ocaml_src/utils/warnings.ml" 132 4616 4642 "ocaml_src/utils/warnings.ml" 132 4616 4648
+type(
+  t -> int
+)
+ident(
+  int_ref number "ocaml_src/utils/warnings.ml" 61 2934 2938 "ocaml_src/utils/warnings.ml" 61 2934 2944
+)
+"ocaml_src/utils/warnings.ml" 132 4616 4649 "ocaml_src/utils/warnings.ml" 132 4616 4650
+type(
+  t
+)
+ident(
+  int_ref x "ocaml_src/utils/warnings.ml" 132 4616 4630 "ocaml_src/utils/warnings.ml" 132 4616 4631
+)
+"ocaml_src/utils/warnings.ml" 132 4616 4642 "ocaml_src/utils/warnings.ml" 132 4616 4650
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 132 4616 4634 "ocaml_src/utils/warnings.ml" 132 4616 4651
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 133 4654 4658 "ocaml_src/utils/warnings.ml" 133 4654 4666
+type(
+  t -> bool
+)
+ident(
+  def is_error "ocaml_src/utils/warnings.ml" 135 4691 4691 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 133 4654 4667 "ocaml_src/utils/warnings.ml" 133 4654 4668
+type(
+  t
+)
+ident(
+  def x "ocaml_src/utils/warnings.ml" 133 4654 4671 "ocaml_src/utils/warnings.ml" 133 4654 4687
+)
+"ocaml_src/utils/warnings.ml" 133 4654 4671 "ocaml_src/utils/warnings.ml" 133 4654 4676
+type(
+  bool array
+)
+ident(
+  int_ref error "ocaml_src/utils/warnings.ml" 130 4556 4560 "ocaml_src/utils/warnings.ml" 130 4556 4565
+)
+"ocaml_src/utils/warnings.ml" 133 4654 4678 "ocaml_src/utils/warnings.ml" 133 4654 4684
+type(
+  t -> int
+)
+ident(
+  int_ref number "ocaml_src/utils/warnings.ml" 61 2934 2938 "ocaml_src/utils/warnings.ml" 61 2934 2944
+)
+"ocaml_src/utils/warnings.ml" 133 4654 4685 "ocaml_src/utils/warnings.ml" 133 4654 4686
+type(
+  t
+)
+ident(
+  int_ref x "ocaml_src/utils/warnings.ml" 133 4654 4667 "ocaml_src/utils/warnings.ml" 133 4654 4668
+)
+"ocaml_src/utils/warnings.ml" 133 4654 4678 "ocaml_src/utils/warnings.ml" 133 4654 4686
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 133 4654 4671 "ocaml_src/utils/warnings.ml" 133 4654 4687
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 135 4691 4695 "ocaml_src/utils/warnings.ml" 135 4691 4704
+type(
+  bool array -> string -> unit
+)
+ident(
+  def parse_opt "ocaml_src/utils/warnings.ml" 186 6179 6179 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 135 4691 4705 "ocaml_src/utils/warnings.ml" 135 4691 4710
+type(
+  bool array
+)
+ident(
+  def flags "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 183 6166 6174
+)
+"ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+type(
+  string
+)
+ident(
+  def s "ocaml_src/utils/warnings.ml" 136 4715 4717 "ocaml_src/utils/warnings.ml" 183 6166 6174
+)
+"ocaml_src/utils/warnings.ml" 136 4715 4721 "ocaml_src/utils/warnings.ml" 136 4715 4724
+type(
+  int -> unit
+)
+ident(
+  def set "ocaml_src/utils/warnings.ml" 137 4750 4752 "ocaml_src/utils/warnings.ml" 183 6166 6174
+)
+"ocaml_src/utils/warnings.ml" 136 4715 4725 "ocaml_src/utils/warnings.ml" 136 4715 4726
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/warnings.ml" 136 4715 4729 "ocaml_src/utils/warnings.ml" 136 4715 4746
+)
+"ocaml_src/utils/warnings.ml" 136 4715 4729 "ocaml_src/utils/warnings.ml" 136 4715 4734
+type(
+  bool array
+)
+ident(
+  int_ref flags "ocaml_src/utils/warnings.ml" 135 4691 4705 "ocaml_src/utils/warnings.ml" 135 4691 4710
+)
+"ocaml_src/utils/warnings.ml" 136 4715 4736 "ocaml_src/utils/warnings.ml" 136 4715 4737
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 136 4715 4725 "ocaml_src/utils/warnings.ml" 136 4715 4726
+)
+"ocaml_src/utils/warnings.ml" 136 4715 4742 "ocaml_src/utils/warnings.ml" 136 4715 4746
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 136 4715 4729 "ocaml_src/utils/warnings.ml" 136 4715 4746
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 137 4750 4756 "ocaml_src/utils/warnings.ml" 137 4750 4761
+type(
+  int -> unit
+)
+ident(
+  def clear "ocaml_src/utils/warnings.ml" 138 4788 4790 "ocaml_src/utils/warnings.ml" 183 6166 6174
+)
+"ocaml_src/utils/warnings.ml" 137 4750 4762 "ocaml_src/utils/warnings.ml" 137 4750 4763
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/warnings.ml" 137 4750 4766 "ocaml_src/utils/warnings.ml" 137 4750 4784
+)
+"ocaml_src/utils/warnings.ml" 137 4750 4766 "ocaml_src/utils/warnings.ml" 137 4750 4771
+type(
+  bool array
+)
+ident(
+  int_ref flags "ocaml_src/utils/warnings.ml" 135 4691 4705 "ocaml_src/utils/warnings.ml" 135 4691 4710
+)
+"ocaml_src/utils/warnings.ml" 137 4750 4773 "ocaml_src/utils/warnings.ml" 137 4750 4774
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 137 4750 4762 "ocaml_src/utils/warnings.ml" 137 4750 4763
+)
+"ocaml_src/utils/warnings.ml" 137 4750 4779 "ocaml_src/utils/warnings.ml" 137 4750 4784
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 137 4750 4766 "ocaml_src/utils/warnings.ml" 137 4750 4784
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 138 4788 4794 "ocaml_src/utils/warnings.ml" 138 4788 4801
+type(
+  int -> unit
+)
+ident(
+  def set_all "ocaml_src/utils/warnings.ml" 139 4847 4849 "ocaml_src/utils/warnings.ml" 183 6166 6174
+)
+"ocaml_src/utils/warnings.ml" 138 4788 4802 "ocaml_src/utils/warnings.ml" 138 4788 4803
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/warnings.ml" 138 4788 4806 "ocaml_src/utils/warnings.ml" 138 4788 4843
+)
+"ocaml_src/utils/warnings.ml" 138 4788 4806 "ocaml_src/utils/warnings.ml" 138 4788 4812
+type(
+  bool array
+)
+ident(
+  int_ref active "ocaml_src/utils/warnings.ml" 129 4497 4501 "ocaml_src/utils/warnings.ml" 129 4497 4507
+)
+"ocaml_src/utils/warnings.ml" 138 4788 4814 "ocaml_src/utils/warnings.ml" 138 4788 4815
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 138 4788 4802 "ocaml_src/utils/warnings.ml" 138 4788 4803
+)
+"ocaml_src/utils/warnings.ml" 138 4788 4820 "ocaml_src/utils/warnings.ml" 138 4788 4824
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 138 4788 4806 "ocaml_src/utils/warnings.ml" 138 4788 4824
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 138 4788 4826 "ocaml_src/utils/warnings.ml" 138 4788 4831
+type(
+  bool array
+)
+ident(
+  int_ref error "ocaml_src/utils/warnings.ml" 130 4556 4560 "ocaml_src/utils/warnings.ml" 130 4556 4565
+)
+"ocaml_src/utils/warnings.ml" 138 4788 4833 "ocaml_src/utils/warnings.ml" 138 4788 4834
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 138 4788 4802 "ocaml_src/utils/warnings.ml" 138 4788 4803
+)
+"ocaml_src/utils/warnings.ml" 138 4788 4839 "ocaml_src/utils/warnings.ml" 138 4788 4843
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 138 4788 4826 "ocaml_src/utils/warnings.ml" 138 4788 4843
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 138 4788 4806 "ocaml_src/utils/warnings.ml" 138 4788 4843
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 139 4847 4853 "ocaml_src/utils/warnings.ml" 139 4847 4858
+type(
+  unit -> 'a
+)
+ident(
+  def error "ocaml_src/utils/warnings.ml" 140 4913 4915 "ocaml_src/utils/warnings.ml" 183 6166 6174
+)
+"ocaml_src/utils/warnings.ml" 139 4847 4859 "ocaml_src/utils/warnings.ml" 139 4847 4861
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 139 4847 4864 "ocaml_src/utils/warnings.ml" 139 4847 4869
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/utils/warnings.ml" 139 4847 4879 "ocaml_src/utils/warnings.ml" 139 4847 4908
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 139 4847 4870 "ocaml_src/utils/warnings.ml" 139 4847 4909
+type(
+  exn
+)
+"ocaml_src/utils/warnings.ml" 139 4847 4864 "ocaml_src/utils/warnings.ml" 139 4847 4909
+type(
+  'a
+)
+"ocaml_src/utils/warnings.ml" 140 4913 4923 "ocaml_src/utils/warnings.ml" 140 4913 4930
+type(
+  int -> int -> int * int
+)
+ident(
+  def get_num "ocaml_src/utils/warnings.ml" 140 4913 4915 "ocaml_src/utils/warnings.ml" 183 6166 6174
+)
+"ocaml_src/utils/warnings.ml" 140 4913 4931 "ocaml_src/utils/warnings.ml" 140 4913 4932
+type(
+  int
+)
+ident(
+  def n "ocaml_src/utils/warnings.ml" 140 4913 4933 "ocaml_src/utils/warnings.ml" 144 5078 5093
+)
+"ocaml_src/utils/warnings.ml" 140 4913 4933 "ocaml_src/utils/warnings.ml" 140 4913 4934
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/warnings.ml" 141 4937 4941 "ocaml_src/utils/warnings.ml" 144 5078 5093
+)
+"ocaml_src/utils/warnings.ml" 141 4937 4944 "ocaml_src/utils/warnings.ml" 141 4937 4945
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 140 4913 4933 "ocaml_src/utils/warnings.ml" 140 4913 4934
+)
+"ocaml_src/utils/warnings.ml" 141 4937 4946 "ocaml_src/utils/warnings.ml" 141 4937 4948
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/utils/warnings.ml" 141 4937 4949 "ocaml_src/utils/warnings.ml" 141 4937 4962
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/warnings.ml" 141 4937 4963 "ocaml_src/utils/warnings.ml" 141 4937 4964
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+)
+"ocaml_src/utils/warnings.ml" 141 4937 4949 "ocaml_src/utils/warnings.ml" 141 4937 4964
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 141 4937 4944 "ocaml_src/utils/warnings.ml" 141 4937 4964
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 141 4937 4970 "ocaml_src/utils/warnings.ml" 141 4937 4971
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 140 4913 4933 "ocaml_src/utils/warnings.ml" 140 4913 4934
+)
+"ocaml_src/utils/warnings.ml" 141 4937 4973 "ocaml_src/utils/warnings.ml" 141 4937 4974
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/warnings.ml" 140 4913 4931 "ocaml_src/utils/warnings.ml" 140 4913 4932
+)
+"ocaml_src/utils/warnings.ml" 141 4937 4970 "ocaml_src/utils/warnings.ml" 141 4937 4974
+type(
+  int * int
+)
+"ocaml_src/utils/warnings.ml" 142 4975 4990 "ocaml_src/utils/warnings.ml" 142 4975 4991
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+)
+"ocaml_src/utils/warnings.ml" 142 4975 4993 "ocaml_src/utils/warnings.ml" 142 4975 4994
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 140 4913 4933 "ocaml_src/utils/warnings.ml" 140 4913 4934
+)
+"ocaml_src/utils/warnings.ml" 142 4975 4990 "ocaml_src/utils/warnings.ml" 142 4975 4995
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5007 "ocaml_src/utils/warnings.ml" 143 5001 5015
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5019 "ocaml_src/utils/warnings.ml" 143 5001 5026
+type(
+  int -> int -> int * int
+)
+ident(
+  int_ref get_num "ocaml_src/utils/warnings.ml" 140 4913 4923 "ocaml_src/utils/warnings.ml" 140 4913 4930
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5028 "ocaml_src/utils/warnings.ml" 143 5001 5030
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5031 "ocaml_src/utils/warnings.ml" 143 5001 5032
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5033 "ocaml_src/utils/warnings.ml" 143 5001 5034
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/warnings.ml" 140 4913 4931 "ocaml_src/utils/warnings.ml" 140 4913 4932
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5028 "ocaml_src/utils/warnings.ml" 143 5001 5034
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5035 "ocaml_src/utils/warnings.ml" 143 5001 5036
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5037 "ocaml_src/utils/warnings.ml" 143 5001 5046
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5047 "ocaml_src/utils/warnings.ml" 143 5001 5048
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5050 "ocaml_src/utils/warnings.ml" 143 5001 5051
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 140 4913 4933 "ocaml_src/utils/warnings.ml" 140 4913 4934
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5047 "ocaml_src/utils/warnings.ml" 143 5001 5052
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5037 "ocaml_src/utils/warnings.ml" 143 5001 5052
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5028 "ocaml_src/utils/warnings.ml" 143 5001 5052
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5053 "ocaml_src/utils/warnings.ml" 143 5001 5054
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5055 "ocaml_src/utils/warnings.ml" 143 5001 5064
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5065 "ocaml_src/utils/warnings.ml" 143 5001 5068
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5055 "ocaml_src/utils/warnings.ml" 143 5001 5068
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5027 "ocaml_src/utils/warnings.ml" 143 5001 5069
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5071 "ocaml_src/utils/warnings.ml" 143 5001 5072
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 140 4913 4933 "ocaml_src/utils/warnings.ml" 140 4913 4934
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5073 "ocaml_src/utils/warnings.ml" 143 5001 5074
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5075 "ocaml_src/utils/warnings.ml" 143 5001 5076
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5070 "ocaml_src/utils/warnings.ml" 143 5001 5077
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 143 5001 5019 "ocaml_src/utils/warnings.ml" 143 5001 5077
+call(
+  tail
+)
+type(
+  int * int
+)
+"ocaml_src/utils/warnings.ml" 144 5078 5084 "ocaml_src/utils/warnings.ml" 144 5078 5085
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 144 5078 5089 "ocaml_src/utils/warnings.ml" 144 5078 5090
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 140 4913 4933 "ocaml_src/utils/warnings.ml" 140 4913 4934
+)
+"ocaml_src/utils/warnings.ml" 144 5078 5092 "ocaml_src/utils/warnings.ml" 144 5078 5093
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/warnings.ml" 140 4913 4931 "ocaml_src/utils/warnings.ml" 140 4913 4932
+)
+"ocaml_src/utils/warnings.ml" 144 5078 5089 "ocaml_src/utils/warnings.ml" 144 5078 5093
+type(
+  int * int
+)
+"ocaml_src/utils/warnings.ml" 142 4975 4984 "ocaml_src/utils/warnings.ml" 144 5078 5093
+type(
+  int * int
+)
+"ocaml_src/utils/warnings.ml" 141 4937 4941 "ocaml_src/utils/warnings.ml" 144 5078 5093
+type(
+  int * int
+)
+"ocaml_src/utils/warnings.ml" 146 5099 5105 "ocaml_src/utils/warnings.ml" 146 5099 5114
+type(
+  int -> int * int * int
+)
+ident(
+  def get_range "ocaml_src/utils/warnings.ml" 155 5337 5339 "ocaml_src/utils/warnings.ml" 183 6166 6174
+)
+"ocaml_src/utils/warnings.ml" 146 5099 5115 "ocaml_src/utils/warnings.ml" 146 5099 5116
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/warnings.ml" 147 5119 5123 "ocaml_src/utils/warnings.ml" 153 5316 5331
+)
+"ocaml_src/utils/warnings.ml" 147 5119 5127 "ocaml_src/utils/warnings.ml" 147 5119 5128
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/warnings.ml" 148 5150 5154 "ocaml_src/utils/warnings.ml" 153 5316 5331
+)
+"ocaml_src/utils/warnings.ml" 147 5119 5130 "ocaml_src/utils/warnings.ml" 147 5119 5132
+type(
+  int
+)
+ident(
+  def n1 "ocaml_src/utils/warnings.ml" 148 5150 5154 "ocaml_src/utils/warnings.ml" 153 5316 5331
+)
+"ocaml_src/utils/warnings.ml" 147 5119 5127 "ocaml_src/utils/warnings.ml" 147 5119 5132
+type(
+  int * int
+)
+"ocaml_src/utils/warnings.ml" 147 5119 5135 "ocaml_src/utils/warnings.ml" 147 5119 5142
+type(
+  int -> int -> int * int
+)
+ident(
+  int_ref get_num "ocaml_src/utils/warnings.ml" 140 4913 4923 "ocaml_src/utils/warnings.ml" 140 4913 4930
+)
+"ocaml_src/utils/warnings.ml" 147 5119 5143 "ocaml_src/utils/warnings.ml" 147 5119 5144
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 147 5119 5145 "ocaml_src/utils/warnings.ml" 147 5119 5146
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 146 5099 5115 "ocaml_src/utils/warnings.ml" 146 5099 5116
+)
+"ocaml_src/utils/warnings.ml" 147 5119 5135 "ocaml_src/utils/warnings.ml" 147 5119 5146
+call(
+  stack
+)
+type(
+  int * int
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5157 "ocaml_src/utils/warnings.ml" 148 5150 5158
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 147 5119 5127 "ocaml_src/utils/warnings.ml" 147 5119 5128
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5159 "ocaml_src/utils/warnings.ml" 148 5150 5160
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5161 "ocaml_src/utils/warnings.ml" 148 5150 5162
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5157 "ocaml_src/utils/warnings.ml" 148 5150 5162
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5163 "ocaml_src/utils/warnings.ml" 148 5150 5164
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5165 "ocaml_src/utils/warnings.ml" 148 5150 5178
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5179 "ocaml_src/utils/warnings.ml" 148 5150 5180
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5165 "ocaml_src/utils/warnings.ml" 148 5150 5180
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5157 "ocaml_src/utils/warnings.ml" 148 5150 5180
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5181 "ocaml_src/utils/warnings.ml" 148 5150 5183
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5184 "ocaml_src/utils/warnings.ml" 148 5150 5185
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5187 "ocaml_src/utils/warnings.ml" 148 5150 5188
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 147 5119 5127 "ocaml_src/utils/warnings.ml" 147 5119 5128
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5184 "ocaml_src/utils/warnings.ml" 148 5150 5189
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5190 "ocaml_src/utils/warnings.ml" 148 5150 5191
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5192 "ocaml_src/utils/warnings.ml" 148 5150 5195
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5184 "ocaml_src/utils/warnings.ml" 148 5150 5195
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5196 "ocaml_src/utils/warnings.ml" 148 5150 5198
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5199 "ocaml_src/utils/warnings.ml" 148 5150 5200
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5202 "ocaml_src/utils/warnings.ml" 148 5150 5203
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 147 5119 5127 "ocaml_src/utils/warnings.ml" 147 5119 5128
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5204 "ocaml_src/utils/warnings.ml" 148 5150 5205
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5206 "ocaml_src/utils/warnings.ml" 148 5150 5207
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5202 "ocaml_src/utils/warnings.ml" 148 5150 5207
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5199 "ocaml_src/utils/warnings.ml" 148 5150 5208
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5209 "ocaml_src/utils/warnings.ml" 148 5150 5210
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5211 "ocaml_src/utils/warnings.ml" 148 5150 5214
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5199 "ocaml_src/utils/warnings.ml" 148 5150 5214
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5184 "ocaml_src/utils/warnings.ml" 148 5150 5214
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5157 "ocaml_src/utils/warnings.ml" 148 5150 5214
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 149 5220 5230 "ocaml_src/utils/warnings.ml" 149 5220 5231
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/warnings.ml" 150 5259 5265 "ocaml_src/utils/warnings.ml" 151 5291 5306
+)
+"ocaml_src/utils/warnings.ml" 149 5220 5233 "ocaml_src/utils/warnings.ml" 149 5220 5235
+type(
+  int
+)
+ident(
+  def n2 "ocaml_src/utils/warnings.ml" 150 5259 5265 "ocaml_src/utils/warnings.ml" 151 5291 5306
+)
+"ocaml_src/utils/warnings.ml" 149 5220 5230 "ocaml_src/utils/warnings.ml" 149 5220 5235
+type(
+  int * int
+)
+"ocaml_src/utils/warnings.ml" 149 5220 5238 "ocaml_src/utils/warnings.ml" 149 5220 5245
+type(
+  int -> int -> int * int
+)
+ident(
+  int_ref get_num "ocaml_src/utils/warnings.ml" 140 4913 4923 "ocaml_src/utils/warnings.ml" 140 4913 4930
+)
+"ocaml_src/utils/warnings.ml" 149 5220 5246 "ocaml_src/utils/warnings.ml" 149 5220 5247
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 149 5220 5249 "ocaml_src/utils/warnings.ml" 149 5220 5250
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 147 5119 5127 "ocaml_src/utils/warnings.ml" 147 5119 5128
+)
+"ocaml_src/utils/warnings.ml" 149 5220 5251 "ocaml_src/utils/warnings.ml" 149 5220 5252
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/warnings.ml" 149 5220 5253 "ocaml_src/utils/warnings.ml" 149 5220 5254
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 149 5220 5248 "ocaml_src/utils/warnings.ml" 149 5220 5255
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 149 5220 5238 "ocaml_src/utils/warnings.ml" 149 5220 5255
+call(
+  stack
+)
+type(
+  int * int
+)
+"ocaml_src/utils/warnings.ml" 150 5259 5268 "ocaml_src/utils/warnings.ml" 150 5259 5270
+type(
+  int
+)
+ident(
+  int_ref n2 "ocaml_src/utils/warnings.ml" 149 5220 5233 "ocaml_src/utils/warnings.ml" 149 5220 5235
+)
+"ocaml_src/utils/warnings.ml" 150 5259 5271 "ocaml_src/utils/warnings.ml" 150 5259 5272
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/utils/warnings.ml" 150 5259 5273 "ocaml_src/utils/warnings.ml" 150 5259 5275
+type(
+  int
+)
+ident(
+  int_ref n1 "ocaml_src/utils/warnings.ml" 147 5119 5130 "ocaml_src/utils/warnings.ml" 147 5119 5132
+)
+"ocaml_src/utils/warnings.ml" 150 5259 5268 "ocaml_src/utils/warnings.ml" 150 5259 5275
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 150 5259 5281 "ocaml_src/utils/warnings.ml" 150 5259 5286
+type(
+  unit -> unit
+)
+ident(
+  int_ref error "ocaml_src/utils/warnings.ml" 139 4847 4853 "ocaml_src/utils/warnings.ml" 139 4847 4858
+)
+"ocaml_src/utils/warnings.ml" 150 5259 5287 "ocaml_src/utils/warnings.ml" 150 5259 5289
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 150 5259 5281 "ocaml_src/utils/warnings.ml" 150 5259 5289
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 150 5259 5265 "ocaml_src/utils/warnings.ml" 150 5259 5289
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 151 5291 5297 "ocaml_src/utils/warnings.ml" 151 5291 5298
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 149 5220 5230 "ocaml_src/utils/warnings.ml" 149 5220 5231
+)
+"ocaml_src/utils/warnings.ml" 151 5291 5300 "ocaml_src/utils/warnings.ml" 151 5291 5302
+type(
+  int
+)
+ident(
+  int_ref n1 "ocaml_src/utils/warnings.ml" 147 5119 5130 "ocaml_src/utils/warnings.ml" 147 5119 5132
+)
+"ocaml_src/utils/warnings.ml" 151 5291 5304 "ocaml_src/utils/warnings.ml" 151 5291 5306
+type(
+  int
+)
+ident(
+  int_ref n2 "ocaml_src/utils/warnings.ml" 149 5220 5233 "ocaml_src/utils/warnings.ml" 149 5220 5235
+)
+"ocaml_src/utils/warnings.ml" 151 5291 5297 "ocaml_src/utils/warnings.ml" 151 5291 5306
+type(
+  int * int * int
+)
+"ocaml_src/utils/warnings.ml" 150 5259 5265 "ocaml_src/utils/warnings.ml" 151 5291 5306
+type(
+  int * int * int
+)
+"ocaml_src/utils/warnings.ml" 149 5220 5226 "ocaml_src/utils/warnings.ml" 151 5291 5306
+type(
+  int * int * int
+)
+"ocaml_src/utils/warnings.ml" 153 5316 5322 "ocaml_src/utils/warnings.ml" 153 5316 5323
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 147 5119 5127 "ocaml_src/utils/warnings.ml" 147 5119 5128
+)
+"ocaml_src/utils/warnings.ml" 153 5316 5325 "ocaml_src/utils/warnings.ml" 153 5316 5327
+type(
+  int
+)
+ident(
+  int_ref n1 "ocaml_src/utils/warnings.ml" 147 5119 5130 "ocaml_src/utils/warnings.ml" 147 5119 5132
+)
+"ocaml_src/utils/warnings.ml" 153 5316 5329 "ocaml_src/utils/warnings.ml" 153 5316 5331
+type(
+  int
+)
+ident(
+  int_ref n1 "ocaml_src/utils/warnings.ml" 147 5119 5130 "ocaml_src/utils/warnings.ml" 147 5119 5132
+)
+"ocaml_src/utils/warnings.ml" 153 5316 5322 "ocaml_src/utils/warnings.ml" 153 5316 5331
+type(
+  int * int * int
+)
+"ocaml_src/utils/warnings.ml" 148 5150 5154 "ocaml_src/utils/warnings.ml" 153 5316 5331
+type(
+  int * int * int
+)
+"ocaml_src/utils/warnings.ml" 147 5119 5123 "ocaml_src/utils/warnings.ml" 153 5316 5331
+type(
+  int * int * int
+)
+"ocaml_src/utils/warnings.ml" 155 5337 5347 "ocaml_src/utils/warnings.ml" 155 5337 5351
+type(
+  int -> unit
+)
+ident(
+  def loop "ocaml_src/utils/warnings.ml" 155 5337 5339 "ocaml_src/utils/warnings.ml" 183 6166 6174
+)
+"ocaml_src/utils/warnings.ml" 155 5337 5352 "ocaml_src/utils/warnings.ml" 155 5337 5353
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/warnings.ml" 156 5356 5360 "ocaml_src/utils/warnings.ml" 167 5710 5729
+)
+"ocaml_src/utils/warnings.ml" 156 5356 5363 "ocaml_src/utils/warnings.ml" 156 5356 5364
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 155 5337 5352 "ocaml_src/utils/warnings.ml" 155 5337 5353
+)
+"ocaml_src/utils/warnings.ml" 156 5356 5365 "ocaml_src/utils/warnings.ml" 156 5356 5367
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/utils/warnings.ml" 156 5356 5368 "ocaml_src/utils/warnings.ml" 156 5356 5381
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/warnings.ml" 156 5356 5382 "ocaml_src/utils/warnings.ml" 156 5356 5383
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+)
+"ocaml_src/utils/warnings.ml" 156 5356 5368 "ocaml_src/utils/warnings.ml" 156 5356 5383
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 156 5356 5363 "ocaml_src/utils/warnings.ml" 156 5356 5383
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 156 5356 5389 "ocaml_src/utils/warnings.ml" 156 5356 5391
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 157 5397 5407 "ocaml_src/utils/warnings.ml" 157 5397 5408
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+)
+"ocaml_src/utils/warnings.ml" 157 5397 5410 "ocaml_src/utils/warnings.ml" 157 5397 5411
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 155 5337 5352 "ocaml_src/utils/warnings.ml" 155 5337 5353
+)
+"ocaml_src/utils/warnings.ml" 157 5397 5407 "ocaml_src/utils/warnings.ml" 157 5397 5412
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 158 5418 5424 "ocaml_src/utils/warnings.ml" 158 5418 5434
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 159 5438 5445 "ocaml_src/utils/warnings.ml" 159 5438 5454
+type(
+  (int -> unit) -> int list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ocaml_src/utils/warnings.ml" 159 5438 5455 "ocaml_src/utils/warnings.ml" 159 5438 5458
+type(
+  int -> unit
+)
+ident(
+  int_ref set "ocaml_src/utils/warnings.ml" 136 4715 4721 "ocaml_src/utils/warnings.ml" 136 4715 4724
+)
+"ocaml_src/utils/warnings.ml" 159 5438 5460 "ocaml_src/utils/warnings.ml" 159 5438 5466
+type(
+  char -> int list
+)
+ident(
+  int_ref letter "ocaml_src/utils/warnings.ml" 97 3918 3922 "ocaml_src/utils/warnings.ml" 97 3918 3928
+)
+"ocaml_src/utils/warnings.ml" 159 5438 5468 "ocaml_src/utils/warnings.ml" 159 5438 5482
+type(
+  char -> char
+)
+ident(
+  ext_ref Char.lowercase
+)
+"ocaml_src/utils/warnings.ml" 159 5438 5483 "ocaml_src/utils/warnings.ml" 159 5438 5484
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+)
+"ocaml_src/utils/warnings.ml" 159 5438 5486 "ocaml_src/utils/warnings.ml" 159 5438 5487
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 155 5337 5352 "ocaml_src/utils/warnings.ml" 155 5337 5353
+)
+"ocaml_src/utils/warnings.ml" 159 5438 5483 "ocaml_src/utils/warnings.ml" 159 5438 5488
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 159 5438 5467 "ocaml_src/utils/warnings.ml" 159 5438 5489
+call(
+  stack
+)
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 159 5438 5459 "ocaml_src/utils/warnings.ml" 159 5438 5490
+call(
+  stack
+)
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 159 5438 5445 "ocaml_src/utils/warnings.ml" 159 5438 5490
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 160 5492 5499 "ocaml_src/utils/warnings.ml" 160 5492 5503
+type(
+  int -> unit
+)
+ident(
+  int_ref loop "ocaml_src/utils/warnings.ml" 155 5337 5347 "ocaml_src/utils/warnings.ml" 155 5337 5351
+)
+"ocaml_src/utils/warnings.ml" 160 5492 5505 "ocaml_src/utils/warnings.ml" 160 5492 5506
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 155 5337 5352 "ocaml_src/utils/warnings.ml" 155 5337 5353
+)
+"ocaml_src/utils/warnings.ml" 160 5492 5506 "ocaml_src/utils/warnings.ml" 160 5492 5507
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/warnings.ml" 160 5492 5507 "ocaml_src/utils/warnings.ml" 160 5492 5508
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 160 5492 5504 "ocaml_src/utils/warnings.ml" 160 5492 5509
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 160 5492 5499 "ocaml_src/utils/warnings.ml" 160 5492 5509
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 159 5438 5445 "ocaml_src/utils/warnings.ml" 160 5492 5509
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 161 5510 5516 "ocaml_src/utils/warnings.ml" 161 5510 5526
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 162 5530 5537 "ocaml_src/utils/warnings.ml" 162 5530 5546
+type(
+  (int -> unit) -> int list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ocaml_src/utils/warnings.ml" 162 5530 5547 "ocaml_src/utils/warnings.ml" 162 5530 5552
+type(
+  int -> unit
+)
+ident(
+  int_ref clear "ocaml_src/utils/warnings.ml" 137 4750 4756 "ocaml_src/utils/warnings.ml" 137 4750 4761
+)
+"ocaml_src/utils/warnings.ml" 162 5530 5554 "ocaml_src/utils/warnings.ml" 162 5530 5560
+type(
+  char -> int list
+)
+ident(
+  int_ref letter "ocaml_src/utils/warnings.ml" 97 3918 3922 "ocaml_src/utils/warnings.ml" 97 3918 3928
+)
+"ocaml_src/utils/warnings.ml" 162 5530 5561 "ocaml_src/utils/warnings.ml" 162 5530 5562
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+)
+"ocaml_src/utils/warnings.ml" 162 5530 5564 "ocaml_src/utils/warnings.ml" 162 5530 5565
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 155 5337 5352 "ocaml_src/utils/warnings.ml" 155 5337 5353
+)
+"ocaml_src/utils/warnings.ml" 162 5530 5561 "ocaml_src/utils/warnings.ml" 162 5530 5566
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 162 5530 5553 "ocaml_src/utils/warnings.ml" 162 5530 5567
+call(
+  stack
+)
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 162 5530 5537 "ocaml_src/utils/warnings.ml" 162 5530 5567
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 163 5569 5576 "ocaml_src/utils/warnings.ml" 163 5569 5580
+type(
+  int -> unit
+)
+ident(
+  int_ref loop "ocaml_src/utils/warnings.ml" 155 5337 5347 "ocaml_src/utils/warnings.ml" 155 5337 5351
+)
+"ocaml_src/utils/warnings.ml" 163 5569 5582 "ocaml_src/utils/warnings.ml" 163 5569 5583
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 155 5337 5352 "ocaml_src/utils/warnings.ml" 155 5337 5353
+)
+"ocaml_src/utils/warnings.ml" 163 5569 5583 "ocaml_src/utils/warnings.ml" 163 5569 5584
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/warnings.ml" 163 5569 5584 "ocaml_src/utils/warnings.ml" 163 5569 5585
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 163 5569 5581 "ocaml_src/utils/warnings.ml" 163 5569 5586
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 163 5569 5576 "ocaml_src/utils/warnings.ml" 163 5569 5586
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 162 5530 5537 "ocaml_src/utils/warnings.ml" 163 5569 5586
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 164 5587 5593 "ocaml_src/utils/warnings.ml" 164 5587 5596
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 164 5587 5600 "ocaml_src/utils/warnings.ml" 164 5587 5615
+type(
+  (int -> unit) -> int -> unit
+)
+ident(
+  int_ref loop_letter_num "ocaml_src/utils/warnings.ml" 168 5730 5736 "ocaml_src/utils/warnings.ml" 168 5730 5751
+)
+"ocaml_src/utils/warnings.ml" 164 5587 5616 "ocaml_src/utils/warnings.ml" 164 5587 5619
+type(
+  int -> unit
+)
+ident(
+  int_ref set "ocaml_src/utils/warnings.ml" 136 4715 4721 "ocaml_src/utils/warnings.ml" 136 4715 4724
+)
+"ocaml_src/utils/warnings.ml" 164 5587 5621 "ocaml_src/utils/warnings.ml" 164 5587 5622
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 155 5337 5352 "ocaml_src/utils/warnings.ml" 155 5337 5353
+)
+"ocaml_src/utils/warnings.ml" 164 5587 5622 "ocaml_src/utils/warnings.ml" 164 5587 5623
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/warnings.ml" 164 5587 5623 "ocaml_src/utils/warnings.ml" 164 5587 5624
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 164 5587 5620 "ocaml_src/utils/warnings.ml" 164 5587 5625
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 164 5587 5600 "ocaml_src/utils/warnings.ml" 164 5587 5625
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 165 5626 5632 "ocaml_src/utils/warnings.ml" 165 5626 5635
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 165 5626 5639 "ocaml_src/utils/warnings.ml" 165 5626 5654
+type(
+  (int -> unit) -> int -> unit
+)
+ident(
+  int_ref loop_letter_num "ocaml_src/utils/warnings.ml" 168 5730 5736 "ocaml_src/utils/warnings.ml" 168 5730 5751
+)
+"ocaml_src/utils/warnings.ml" 165 5626 5655 "ocaml_src/utils/warnings.ml" 165 5626 5660
+type(
+  int -> unit
+)
+ident(
+  int_ref clear "ocaml_src/utils/warnings.ml" 137 4750 4756 "ocaml_src/utils/warnings.ml" 137 4750 4761
+)
+"ocaml_src/utils/warnings.ml" 165 5626 5662 "ocaml_src/utils/warnings.ml" 165 5626 5663
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 155 5337 5352 "ocaml_src/utils/warnings.ml" 155 5337 5353
+)
+"ocaml_src/utils/warnings.ml" 165 5626 5663 "ocaml_src/utils/warnings.ml" 165 5626 5664
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/warnings.ml" 165 5626 5664 "ocaml_src/utils/warnings.ml" 165 5626 5665
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 165 5626 5661 "ocaml_src/utils/warnings.ml" 165 5626 5666
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 165 5626 5639 "ocaml_src/utils/warnings.ml" 165 5626 5666
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 166 5667 5673 "ocaml_src/utils/warnings.ml" 166 5667 5676
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 166 5667 5680 "ocaml_src/utils/warnings.ml" 166 5667 5695
+type(
+  (int -> unit) -> int -> unit
+)
+ident(
+  int_ref loop_letter_num "ocaml_src/utils/warnings.ml" 168 5730 5736 "ocaml_src/utils/warnings.ml" 168 5730 5751
+)
+"ocaml_src/utils/warnings.ml" 166 5667 5696 "ocaml_src/utils/warnings.ml" 166 5667 5703
+type(
+  int -> unit
+)
+ident(
+  int_ref set_all "ocaml_src/utils/warnings.ml" 138 4788 4794 "ocaml_src/utils/warnings.ml" 138 4788 4801
+)
+"ocaml_src/utils/warnings.ml" 166 5667 5705 "ocaml_src/utils/warnings.ml" 166 5667 5706
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 155 5337 5352 "ocaml_src/utils/warnings.ml" 155 5337 5353
+)
+"ocaml_src/utils/warnings.ml" 166 5667 5706 "ocaml_src/utils/warnings.ml" 166 5667 5707
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/warnings.ml" 166 5667 5707 "ocaml_src/utils/warnings.ml" 166 5667 5708
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 166 5667 5704 "ocaml_src/utils/warnings.ml" 166 5667 5709
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 166 5667 5680 "ocaml_src/utils/warnings.ml" 166 5667 5709
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 167 5710 5716 "ocaml_src/utils/warnings.ml" 167 5710 5717
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 167 5710 5721 "ocaml_src/utils/warnings.ml" 167 5710 5726
+type(
+  unit -> unit
+)
+ident(
+  int_ref error "ocaml_src/utils/warnings.ml" 139 4847 4853 "ocaml_src/utils/warnings.ml" 139 4847 4858
+)
+"ocaml_src/utils/warnings.ml" 167 5710 5727 "ocaml_src/utils/warnings.ml" 167 5710 5729
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 167 5710 5721 "ocaml_src/utils/warnings.ml" 167 5710 5729
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 157 5397 5401 "ocaml_src/utils/warnings.ml" 167 5710 5729
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 156 5356 5360 "ocaml_src/utils/warnings.ml" 167 5710 5729
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 168 5730 5736 "ocaml_src/utils/warnings.ml" 168 5730 5751
+type(
+  (int -> unit) -> int -> unit
+)
+ident(
+  def loop_letter_num "ocaml_src/utils/warnings.ml" 155 5337 5339 "ocaml_src/utils/warnings.ml" 183 6166 6174
+)
+"ocaml_src/utils/warnings.ml" 168 5730 5752 "ocaml_src/utils/warnings.ml" 168 5730 5757
+type(
+  int -> unit
+)
+ident(
+  def myset "ocaml_src/utils/warnings.ml" 168 5730 5758 "ocaml_src/utils/warnings.ml" 181 6141 6160
+)
+"ocaml_src/utils/warnings.ml" 168 5730 5758 "ocaml_src/utils/warnings.ml" 168 5730 5759
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/warnings.ml" 169 5762 5766 "ocaml_src/utils/warnings.ml" 181 6141 6160
+)
+"ocaml_src/utils/warnings.ml" 169 5762 5769 "ocaml_src/utils/warnings.ml" 169 5762 5770
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 168 5730 5758 "ocaml_src/utils/warnings.ml" 168 5730 5759
+)
+"ocaml_src/utils/warnings.ml" 169 5762 5771 "ocaml_src/utils/warnings.ml" 169 5762 5773
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/utils/warnings.ml" 169 5762 5774 "ocaml_src/utils/warnings.ml" 169 5762 5787
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/warnings.ml" 169 5762 5788 "ocaml_src/utils/warnings.ml" 169 5762 5789
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+)
+"ocaml_src/utils/warnings.ml" 169 5762 5774 "ocaml_src/utils/warnings.ml" 169 5762 5789
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 169 5762 5769 "ocaml_src/utils/warnings.ml" 169 5762 5789
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 169 5762 5795 "ocaml_src/utils/warnings.ml" 169 5762 5800
+type(
+  unit -> unit
+)
+ident(
+  int_ref error "ocaml_src/utils/warnings.ml" 139 4847 4853 "ocaml_src/utils/warnings.ml" 139 4847 4858
+)
+"ocaml_src/utils/warnings.ml" 169 5762 5801 "ocaml_src/utils/warnings.ml" 169 5762 5803
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 169 5762 5795 "ocaml_src/utils/warnings.ml" 169 5762 5803
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 170 5809 5819 "ocaml_src/utils/warnings.ml" 170 5809 5820
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+)
+"ocaml_src/utils/warnings.ml" 170 5809 5822 "ocaml_src/utils/warnings.ml" 170 5809 5823
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 168 5730 5758 "ocaml_src/utils/warnings.ml" 168 5730 5759
+)
+"ocaml_src/utils/warnings.ml" 170 5809 5819 "ocaml_src/utils/warnings.ml" 170 5809 5824
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 171 5830 5836 "ocaml_src/utils/warnings.ml" 171 5830 5846
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 172 5850 5862 "ocaml_src/utils/warnings.ml" 172 5850 5863
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/warnings.ml" 173 5889 5897 "ocaml_src/utils/warnings.ml" 174 5955 5969
+)
+"ocaml_src/utils/warnings.ml" 172 5850 5865 "ocaml_src/utils/warnings.ml" 172 5850 5867
+type(
+  int
+)
+ident(
+  def n1 "ocaml_src/utils/warnings.ml" 173 5889 5897 "ocaml_src/utils/warnings.ml" 174 5955 5969
+)
+"ocaml_src/utils/warnings.ml" 172 5850 5869 "ocaml_src/utils/warnings.ml" 172 5850 5871
+type(
+  int
+)
+ident(
+  def n2 "ocaml_src/utils/warnings.ml" 173 5889 5897 "ocaml_src/utils/warnings.ml" 174 5955 5969
+)
+"ocaml_src/utils/warnings.ml" 172 5850 5862 "ocaml_src/utils/warnings.ml" 172 5850 5871
+type(
+  int * int * int
+)
+"ocaml_src/utils/warnings.ml" 172 5850 5874 "ocaml_src/utils/warnings.ml" 172 5850 5883
+type(
+  int -> int * int * int
+)
+ident(
+  int_ref get_range "ocaml_src/utils/warnings.ml" 146 5099 5105 "ocaml_src/utils/warnings.ml" 146 5099 5114
+)
+"ocaml_src/utils/warnings.ml" 172 5850 5884 "ocaml_src/utils/warnings.ml" 172 5850 5885
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 168 5730 5758 "ocaml_src/utils/warnings.ml" 168 5730 5759
+)
+"ocaml_src/utils/warnings.ml" 172 5850 5874 "ocaml_src/utils/warnings.ml" 172 5850 5885
+call(
+  stack
+)
+type(
+  int * int * int
+)
+"ocaml_src/utils/warnings.ml" 173 5889 5905 "ocaml_src/utils/warnings.ml" 173 5889 5907
+type(
+  int
+)
+ident(
+  int_ref n1 "ocaml_src/utils/warnings.ml" 172 5850 5865 "ocaml_src/utils/warnings.ml" 172 5850 5867
+)
+"ocaml_src/utils/warnings.ml" 173 5889 5911 "ocaml_src/utils/warnings.ml" 173 5889 5914
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"ocaml_src/utils/warnings.ml" 173 5889 5915 "ocaml_src/utils/warnings.ml" 173 5889 5917
+type(
+  int
+)
+ident(
+  int_ref n2 "ocaml_src/utils/warnings.ml" 172 5850 5869 "ocaml_src/utils/warnings.ml" 172 5850 5871
+)
+"ocaml_src/utils/warnings.ml" 173 5889 5918 "ocaml_src/utils/warnings.ml" 173 5889 5937
+type(
+  int
+)
+ident(
+  int_ref last_warning_number "ocaml_src/utils/warnings.ml" 94 3822 3826 "ocaml_src/utils/warnings.ml" 94 3822 3845
+)
+"ocaml_src/utils/warnings.ml" 173 5889 5911 "ocaml_src/utils/warnings.ml" 173 5889 5937
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 173 5889 5941 "ocaml_src/utils/warnings.ml" 173 5889 5946
+type(
+  int -> unit
+)
+ident(
+  int_ref myset "ocaml_src/utils/warnings.ml" 168 5730 5752 "ocaml_src/utils/warnings.ml" 168 5730 5757
+)
+"ocaml_src/utils/warnings.ml" 173 5889 5947 "ocaml_src/utils/warnings.ml" 173 5889 5948
+type(
+  int
+)
+ident(
+  int_ref n "ocaml_src/utils/warnings.ml" 173 5889 5897 "ocaml_src/utils/warnings.ml" 173 5889 5953
+)
+"ocaml_src/utils/warnings.ml" 173 5889 5941 "ocaml_src/utils/warnings.ml" 173 5889 5948
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 173 5889 5897 "ocaml_src/utils/warnings.ml" 173 5889 5953
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 174 5955 5963 "ocaml_src/utils/warnings.ml" 174 5955 5967
+type(
+  int -> unit
+)
+ident(
+  int_ref loop "ocaml_src/utils/warnings.ml" 155 5337 5347 "ocaml_src/utils/warnings.ml" 155 5337 5351
+)
+"ocaml_src/utils/warnings.ml" 174 5955 5968 "ocaml_src/utils/warnings.ml" 174 5955 5969
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 172 5850 5862 "ocaml_src/utils/warnings.ml" 172 5850 5863
+)
+"ocaml_src/utils/warnings.ml" 174 5955 5963 "ocaml_src/utils/warnings.ml" 174 5955 5969
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 173 5889 5897 "ocaml_src/utils/warnings.ml" 174 5955 5969
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 172 5850 5858 "ocaml_src/utils/warnings.ml" 174 5955 5969
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 175 5970 5976 "ocaml_src/utils/warnings.ml" 175 5970 5986
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 176 5990 5997 "ocaml_src/utils/warnings.ml" 176 5990 6006
+type(
+  (int -> unit) -> int list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ocaml_src/utils/warnings.ml" 176 5990 6007 "ocaml_src/utils/warnings.ml" 176 5990 6012
+type(
+  int -> unit
+)
+ident(
+  int_ref myset "ocaml_src/utils/warnings.ml" 168 5730 5752 "ocaml_src/utils/warnings.ml" 168 5730 5757
+)
+"ocaml_src/utils/warnings.ml" 176 5990 6014 "ocaml_src/utils/warnings.ml" 176 5990 6020
+type(
+  char -> int list
+)
+ident(
+  int_ref letter "ocaml_src/utils/warnings.ml" 97 3918 3922 "ocaml_src/utils/warnings.ml" 97 3918 3928
+)
+"ocaml_src/utils/warnings.ml" 176 5990 6022 "ocaml_src/utils/warnings.ml" 176 5990 6036
+type(
+  char -> char
+)
+ident(
+  ext_ref Char.lowercase
+)
+"ocaml_src/utils/warnings.ml" 176 5990 6037 "ocaml_src/utils/warnings.ml" 176 5990 6038
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+)
+"ocaml_src/utils/warnings.ml" 176 5990 6040 "ocaml_src/utils/warnings.ml" 176 5990 6041
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 168 5730 5758 "ocaml_src/utils/warnings.ml" 168 5730 5759
+)
+"ocaml_src/utils/warnings.ml" 176 5990 6037 "ocaml_src/utils/warnings.ml" 176 5990 6042
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 176 5990 6021 "ocaml_src/utils/warnings.ml" 176 5990 6043
+call(
+  stack
+)
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 176 5990 6013 "ocaml_src/utils/warnings.ml" 176 5990 6044
+call(
+  stack
+)
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 176 5990 5997 "ocaml_src/utils/warnings.ml" 176 5990 6044
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 177 6046 6053 "ocaml_src/utils/warnings.ml" 177 6046 6057
+type(
+  int -> unit
+)
+ident(
+  int_ref loop "ocaml_src/utils/warnings.ml" 155 5337 5347 "ocaml_src/utils/warnings.ml" 155 5337 5351
+)
+"ocaml_src/utils/warnings.ml" 177 6046 6059 "ocaml_src/utils/warnings.ml" 177 6046 6060
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 168 5730 5758 "ocaml_src/utils/warnings.ml" 168 5730 5759
+)
+"ocaml_src/utils/warnings.ml" 177 6046 6060 "ocaml_src/utils/warnings.ml" 177 6046 6061
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/warnings.ml" 177 6046 6061 "ocaml_src/utils/warnings.ml" 177 6046 6062
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 177 6046 6058 "ocaml_src/utils/warnings.ml" 177 6046 6063
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 177 6046 6053 "ocaml_src/utils/warnings.ml" 177 6046 6063
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 176 5990 5997 "ocaml_src/utils/warnings.ml" 177 6046 6063
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 178 6064 6070 "ocaml_src/utils/warnings.ml" 178 6064 6080
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 179 6084 6091 "ocaml_src/utils/warnings.ml" 179 6084 6100
+type(
+  (int -> unit) -> int list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ocaml_src/utils/warnings.ml" 179 6084 6101 "ocaml_src/utils/warnings.ml" 179 6084 6106
+type(
+  int -> unit
+)
+ident(
+  int_ref myset "ocaml_src/utils/warnings.ml" 168 5730 5752 "ocaml_src/utils/warnings.ml" 168 5730 5757
+)
+"ocaml_src/utils/warnings.ml" 179 6084 6108 "ocaml_src/utils/warnings.ml" 179 6084 6114
+type(
+  char -> int list
+)
+ident(
+  int_ref letter "ocaml_src/utils/warnings.ml" 97 3918 3922 "ocaml_src/utils/warnings.ml" 97 3918 3928
+)
+"ocaml_src/utils/warnings.ml" 179 6084 6115 "ocaml_src/utils/warnings.ml" 179 6084 6116
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 135 4691 4711 "ocaml_src/utils/warnings.ml" 135 4691 4712
+)
+"ocaml_src/utils/warnings.ml" 179 6084 6118 "ocaml_src/utils/warnings.ml" 179 6084 6119
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 168 5730 5758 "ocaml_src/utils/warnings.ml" 168 5730 5759
+)
+"ocaml_src/utils/warnings.ml" 179 6084 6115 "ocaml_src/utils/warnings.ml" 179 6084 6120
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 179 6084 6107 "ocaml_src/utils/warnings.ml" 179 6084 6121
+call(
+  stack
+)
+type(
+  int list
+)
+"ocaml_src/utils/warnings.ml" 179 6084 6091 "ocaml_src/utils/warnings.ml" 179 6084 6121
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 180 6123 6130 "ocaml_src/utils/warnings.ml" 180 6123 6134
+type(
+  int -> unit
+)
+ident(
+  int_ref loop "ocaml_src/utils/warnings.ml" 155 5337 5347 "ocaml_src/utils/warnings.ml" 155 5337 5351
+)
+"ocaml_src/utils/warnings.ml" 180 6123 6136 "ocaml_src/utils/warnings.ml" 180 6123 6137
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 168 5730 5758 "ocaml_src/utils/warnings.ml" 168 5730 5759
+)
+"ocaml_src/utils/warnings.ml" 180 6123 6137 "ocaml_src/utils/warnings.ml" 180 6123 6138
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/utils/warnings.ml" 180 6123 6138 "ocaml_src/utils/warnings.ml" 180 6123 6139
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 180 6123 6135 "ocaml_src/utils/warnings.ml" 180 6123 6140
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 180 6123 6130 "ocaml_src/utils/warnings.ml" 180 6123 6140
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 179 6084 6091 "ocaml_src/utils/warnings.ml" 180 6123 6140
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 181 6141 6147 "ocaml_src/utils/warnings.ml" 181 6141 6148
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 181 6141 6152 "ocaml_src/utils/warnings.ml" 181 6141 6157
+type(
+  unit -> unit
+)
+ident(
+  int_ref error "ocaml_src/utils/warnings.ml" 139 4847 4853 "ocaml_src/utils/warnings.ml" 139 4847 4858
+)
+"ocaml_src/utils/warnings.ml" 181 6141 6158 "ocaml_src/utils/warnings.ml" 181 6141 6160
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 181 6141 6152 "ocaml_src/utils/warnings.ml" 181 6141 6160
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 170 5809 5813 "ocaml_src/utils/warnings.ml" 181 6141 6160
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 169 5762 5766 "ocaml_src/utils/warnings.ml" 181 6141 6160
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 183 6166 6168 "ocaml_src/utils/warnings.ml" 183 6166 6172
+type(
+  int -> unit
+)
+ident(
+  int_ref loop "ocaml_src/utils/warnings.ml" 155 5337 5347 "ocaml_src/utils/warnings.ml" 155 5337 5351
+)
+"ocaml_src/utils/warnings.ml" 183 6166 6173 "ocaml_src/utils/warnings.ml" 183 6166 6174
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 183 6166 6168 "ocaml_src/utils/warnings.ml" 183 6166 6174
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 155 5337 5339 "ocaml_src/utils/warnings.ml" 183 6166 6174
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 146 5099 5101 "ocaml_src/utils/warnings.ml" 183 6166 6174
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 140 4913 4915 "ocaml_src/utils/warnings.ml" 183 6166 6174
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 139 4847 4849 "ocaml_src/utils/warnings.ml" 183 6166 6174
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 138 4788 4790 "ocaml_src/utils/warnings.ml" 183 6166 6174
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 137 4750 4752 "ocaml_src/utils/warnings.ml" 183 6166 6174
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 136 4715 4717 "ocaml_src/utils/warnings.ml" 183 6166 6174
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 186 6179 6183 "ocaml_src/utils/warnings.ml" 186 6179 6196
+type(
+  bool -> string -> unit
+)
+ident(
+  def parse_options "ocaml_src/utils/warnings.ml" 189 6331 6331 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 186 6179 6197 "ocaml_src/utils/warnings.ml" 186 6179 6204
+type(
+  bool
+)
+ident(
+  def errflag "ocaml_src/utils/warnings.ml" 186 6179 6205 "ocaml_src/utils/warnings.ml" 186 6179 6256
+)
+"ocaml_src/utils/warnings.ml" 186 6179 6205 "ocaml_src/utils/warnings.ml" 186 6179 6206
+type(
+  string
+)
+ident(
+  def s "ocaml_src/utils/warnings.ml" 186 6179 6209 "ocaml_src/utils/warnings.ml" 186 6179 6256
+)
+"ocaml_src/utils/warnings.ml" 186 6179 6209 "ocaml_src/utils/warnings.ml" 186 6179 6218
+type(
+  bool array -> string -> unit
+)
+ident(
+  int_ref parse_opt "ocaml_src/utils/warnings.ml" 135 4691 4695 "ocaml_src/utils/warnings.ml" 135 4691 4704
+)
+"ocaml_src/utils/warnings.ml" 186 6179 6223 "ocaml_src/utils/warnings.ml" 186 6179 6230
+type(
+  bool
+)
+ident(
+  int_ref errflag "ocaml_src/utils/warnings.ml" 186 6179 6197 "ocaml_src/utils/warnings.ml" 186 6179 6204
+)
+"ocaml_src/utils/warnings.ml" 186 6179 6236 "ocaml_src/utils/warnings.ml" 186 6179 6241
+type(
+  bool array
+)
+ident(
+  int_ref error "ocaml_src/utils/warnings.ml" 130 4556 4560 "ocaml_src/utils/warnings.ml" 130 4556 4565
+)
+"ocaml_src/utils/warnings.ml" 186 6179 6247 "ocaml_src/utils/warnings.ml" 186 6179 6253
+type(
+  bool array
+)
+ident(
+  int_ref active "ocaml_src/utils/warnings.ml" 129 4497 4501 "ocaml_src/utils/warnings.ml" 129 4497 4507
+)
+"ocaml_src/utils/warnings.ml" 186 6179 6219 "ocaml_src/utils/warnings.ml" 186 6179 6254
+type(
+  bool array
+)
+"ocaml_src/utils/warnings.ml" 186 6179 6255 "ocaml_src/utils/warnings.ml" 186 6179 6256
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 186 6179 6205 "ocaml_src/utils/warnings.ml" 186 6179 6206
+)
+"ocaml_src/utils/warnings.ml" 186 6179 6209 "ocaml_src/utils/warnings.ml" 186 6179 6256
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 189 6331 6335 "ocaml_src/utils/warnings.ml" 189 6331 6345
+type(
+  string
+)
+ident(
+  def defaults_w "ocaml_src/utils/warnings.ml" 190 6370 6370 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 189 6331 6348 "ocaml_src/utils/warnings.ml" 189 6331 6367
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 190 6370 6374 "ocaml_src/utils/warnings.ml" 190 6370 6393
+type(
+  string
+)
+ident(
+  def defaults_warn_error "ocaml_src/utils/warnings.ml" 192 6404 6404 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 190 6370 6396 "ocaml_src/utils/warnings.ml" 190 6370 6400
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 192 6404 6408 "ocaml_src/utils/warnings.ml" 192 6404 6410
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 192 6404 6413 "ocaml_src/utils/warnings.ml" 192 6404 6426
+type(
+  bool -> string -> unit
+)
+ident(
+  int_ref parse_options "ocaml_src/utils/warnings.ml" 186 6179 6183 "ocaml_src/utils/warnings.ml" 186 6179 6196
+)
+"ocaml_src/utils/warnings.ml" 192 6404 6427 "ocaml_src/utils/warnings.ml" 192 6404 6432
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 192 6404 6433 "ocaml_src/utils/warnings.ml" 192 6404 6443
+type(
+  string
+)
+ident(
+  int_ref defaults_w "ocaml_src/utils/warnings.ml" 189 6331 6335 "ocaml_src/utils/warnings.ml" 189 6331 6345
+)
+"ocaml_src/utils/warnings.ml" 192 6404 6413 "ocaml_src/utils/warnings.ml" 192 6404 6443
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 193 6446 6450 "ocaml_src/utils/warnings.ml" 193 6446 6452
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 193 6446 6455 "ocaml_src/utils/warnings.ml" 193 6446 6468
+type(
+  bool -> string -> unit
+)
+ident(
+  int_ref parse_options "ocaml_src/utils/warnings.ml" 186 6179 6183 "ocaml_src/utils/warnings.ml" 186 6179 6196
+)
+"ocaml_src/utils/warnings.ml" 193 6446 6469 "ocaml_src/utils/warnings.ml" 193 6446 6473
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 193 6446 6474 "ocaml_src/utils/warnings.ml" 193 6446 6493
+type(
+  string
+)
+ident(
+  int_ref defaults_warn_error "ocaml_src/utils/warnings.ml" 190 6370 6374 "ocaml_src/utils/warnings.ml" 190 6370 6393
+)
+"ocaml_src/utils/warnings.ml" 193 6446 6455 "ocaml_src/utils/warnings.ml" 193 6446 6493
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 195 6497 6501 "ocaml_src/utils/warnings.ml" 195 6497 6508
+type(
+  t -> string
+)
+ident(
+  def message "ocaml_src/utils/warnings.ml" 265 9843 9843 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 196 6520 6524 "ocaml_src/utils/warnings.ml" 196 6520 6537
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 196 6520 6541 "ocaml_src/utils/warnings.ml" 196 6520 6574
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 197 6575 6579 "ocaml_src/utils/warnings.ml" 197 6575 6594
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 197 6575 6598 "ocaml_src/utils/warnings.ml" 197 6575 6633
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 198 6634 6638 "ocaml_src/utils/warnings.ml" 198 6634 6648
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 198 6634 6652 "ocaml_src/utils/warnings.ml" 198 6634 6680
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 199 6681 6699 "ocaml_src/utils/warnings.ml" 199 6681 6701
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 199 6681 6685 "ocaml_src/utils/warnings.ml" 199 6681 6701
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 200 6705 6711 "ocaml_src/utils/warnings.ml" 200 6705 6746
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 201 6747 6765 "ocaml_src/utils/warnings.ml" 201 6747 6766
+type(
+  string
+)
+ident(
+  def s "ocaml_src/utils/warnings.ml" 202 6770 6776 "ocaml_src/utils/warnings.ml" 203 6814 6894
+)
+"ocaml_src/utils/warnings.ml" 201 6747 6751 "ocaml_src/utils/warnings.ml" 201 6747 6766
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 202 6770 6776 "ocaml_src/utils/warnings.ml" 203 6814 6884
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 203 6814 6885 "ocaml_src/utils/warnings.ml" 203 6814 6886
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 203 6814 6887 "ocaml_src/utils/warnings.ml" 203 6814 6888
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 201 6747 6765 "ocaml_src/utils/warnings.ml" 201 6747 6766
+)
+"ocaml_src/utils/warnings.ml" 203 6814 6889 "ocaml_src/utils/warnings.ml" 203 6814 6890
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 203 6814 6891 "ocaml_src/utils/warnings.ml" 203 6814 6894
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 203 6814 6887 "ocaml_src/utils/warnings.ml" 203 6814 6894
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 202 6770 6776 "ocaml_src/utils/warnings.ml" 203 6814 6894
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 204 6895 6899 "ocaml_src/utils/warnings.ml" 204 6895 6918
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 205 6922 6928 "ocaml_src/utils/warnings.ml" 206 6970 7011
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 207 7012 7016 "ocaml_src/utils/warnings.ml" 207 7012 7030
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 208 7034 7040 "ocaml_src/utils/warnings.ml" 208 7034 7098
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 209 7099 7120 "ocaml_src/utils/warnings.ml" 209 7099 7123
+type(
+  string
+)
+ident(
+  def lab "ocaml_src/utils/warnings.ml" 210 7128 7134 "ocaml_src/utils/warnings.ml" 210 7128 7173
+)
+"ocaml_src/utils/warnings.ml" 209 7099 7119 "ocaml_src/utils/warnings.ml" 209 7099 7124
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 209 7099 7103 "ocaml_src/utils/warnings.ml" 209 7099 7124
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 210 7128 7134 "ocaml_src/utils/warnings.ml" 210 7128 7147
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 210 7128 7148 "ocaml_src/utils/warnings.ml" 210 7128 7149
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 210 7128 7150 "ocaml_src/utils/warnings.ml" 210 7128 7153
+type(
+  string
+)
+ident(
+  int_ref lab "ocaml_src/utils/warnings.ml" 209 7099 7120 "ocaml_src/utils/warnings.ml" 209 7099 7123
+)
+"ocaml_src/utils/warnings.ml" 210 7128 7154 "ocaml_src/utils/warnings.ml" 210 7128 7155
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 210 7128 7156 "ocaml_src/utils/warnings.ml" 210 7128 7173
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 210 7128 7150 "ocaml_src/utils/warnings.ml" 210 7128 7173
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 210 7128 7134 "ocaml_src/utils/warnings.ml" 210 7128 7173
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 211 7174 7195 "ocaml_src/utils/warnings.ml" 211 7174 7200
+type(
+  string
+)
+ident(
+  def cname "ocaml_src/utils/warnings.ml" 212 7214 7220 "ocaml_src/utils/warnings.ml" 214 7299 7337
+)
+"ocaml_src/utils/warnings.ml" 211 7174 7204 "ocaml_src/utils/warnings.ml" 211 7174 7209
+type(
+  string list
+)
+ident(
+  def slist "ocaml_src/utils/warnings.ml" 212 7214 7220 "ocaml_src/utils/warnings.ml" 214 7299 7337
+)
+"ocaml_src/utils/warnings.ml" 211 7174 7194 "ocaml_src/utils/warnings.ml" 211 7174 7210
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 211 7174 7178 "ocaml_src/utils/warnings.ml" 211 7174 7210
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 212 7214 7220 "ocaml_src/utils/warnings.ml" 212 7214 7233
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"ocaml_src/utils/warnings.ml" 212 7214 7234 "ocaml_src/utils/warnings.ml" 212 7214 7237
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 213 7238 7247 "ocaml_src/utils/warnings.ml" 213 7238 7298
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 214 7299 7311 "ocaml_src/utils/warnings.ml" 214 7299 7316
+type(
+  string
+)
+ident(
+  int_ref cname "ocaml_src/utils/warnings.ml" 211 7174 7195 "ocaml_src/utils/warnings.ml" 211 7174 7200
+)
+"ocaml_src/utils/warnings.ml" 214 7299 7321 "ocaml_src/utils/warnings.ml" 214 7299 7327
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 214 7299 7331 "ocaml_src/utils/warnings.ml" 214 7299 7336
+type(
+  string list
+)
+ident(
+  int_ref slist "ocaml_src/utils/warnings.ml" 211 7174 7204 "ocaml_src/utils/warnings.ml" 211 7174 7209
+)
+"ocaml_src/utils/warnings.ml" 214 7299 7321 "ocaml_src/utils/warnings.ml" 214 7299 7336
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 214 7299 7311 "ocaml_src/utils/warnings.ml" 214 7299 7336
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 213 7238 7246 "ocaml_src/utils/warnings.ml" 214 7299 7337
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 212 7214 7220 "ocaml_src/utils/warnings.ml" 214 7299 7337
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 215 7338 7358 "ocaml_src/utils/warnings.ml" 215 7338 7360
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 215 7338 7342 "ocaml_src/utils/warnings.ml" 215 7338 7360
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 215 7338 7371 "ocaml_src/utils/warnings.ml" 215 7338 7376
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 215 7338 7364 "ocaml_src/utils/warnings.ml" 215 7338 7376
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 216 7377 7395 "ocaml_src/utils/warnings.ml" 216 7377 7397
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 216 7377 7381 "ocaml_src/utils/warnings.ml" 216 7377 7397
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 216 7377 7401 "ocaml_src/utils/warnings.ml" 216 7377 7443
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 217 7444 7462 "ocaml_src/utils/warnings.ml" 217 7444 7463
+type(
+  string
+)
+ident(
+  def s "ocaml_src/utils/warnings.ml" 218 7467 7473 "ocaml_src/utils/warnings.ml" 219 7518 7582
+)
+"ocaml_src/utils/warnings.ml" 217 7444 7448 "ocaml_src/utils/warnings.ml" 217 7444 7463
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 218 7467 7473 "ocaml_src/utils/warnings.ml" 219 7518 7578
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 219 7518 7579 "ocaml_src/utils/warnings.ml" 219 7518 7580
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 219 7518 7581 "ocaml_src/utils/warnings.ml" 219 7518 7582
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 217 7444 7462 "ocaml_src/utils/warnings.ml" 217 7444 7463
+)
+"ocaml_src/utils/warnings.ml" 218 7467 7473 "ocaml_src/utils/warnings.ml" 219 7518 7582
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 220 7583 7613 "ocaml_src/utils/warnings.ml" 220 7583 7614
+type(
+  string
+)
+ident(
+  def s "ocaml_src/utils/warnings.ml" 221 7618 7624 "ocaml_src/utils/warnings.ml" 222 7693 7767
+)
+"ocaml_src/utils/warnings.ml" 220 7583 7587 "ocaml_src/utils/warnings.ml" 220 7583 7614
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 221 7618 7624 "ocaml_src/utils/warnings.ml" 221 7618 7686
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 221 7618 7687 "ocaml_src/utils/warnings.ml" 221 7618 7688
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 221 7618 7689 "ocaml_src/utils/warnings.ml" 221 7618 7690
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 220 7583 7613 "ocaml_src/utils/warnings.ml" 220 7583 7614
+)
+"ocaml_src/utils/warnings.ml" 221 7618 7691 "ocaml_src/utils/warnings.ml" 221 7618 7692
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 222 7693 7699 "ocaml_src/utils/warnings.ml" 222 7693 7767
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 221 7618 7689 "ocaml_src/utils/warnings.ml" 222 7693 7767
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 221 7618 7624 "ocaml_src/utils/warnings.ml" 222 7693 7767
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 223 7768 7772 "ocaml_src/utils/warnings.ml" 223 7768 7786
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 224 7790 7796 "ocaml_src/utils/warnings.ml" 224 7790 7836
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 225 7837 7841 "ocaml_src/utils/warnings.ml" 225 7837 7853
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 225 7837 7857 "ocaml_src/utils/warnings.ml" 225 7837 7885
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 226 7886 7890 "ocaml_src/utils/warnings.ml" 226 7886 7900
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 226 7886 7906 "ocaml_src/utils/warnings.ml" 226 7886 7935
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 227 7936 7968 "ocaml_src/utils/warnings.ml" 227 7936 7971
+type(
+  string
+)
+ident(
+  def lab "ocaml_src/utils/warnings.ml" 228 7976 7982 "ocaml_src/utils/warnings.ml" 229 8037 8113
+)
+"ocaml_src/utils/warnings.ml" 227 7936 7967 "ocaml_src/utils/warnings.ml" 227 7936 7972
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 227 7936 7940 "ocaml_src/utils/warnings.ml" 227 7936 7972
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 228 7976 7982 "ocaml_src/utils/warnings.ml" 228 7976 8006
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 228 7976 8007 "ocaml_src/utils/warnings.ml" 228 7976 8008
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 228 7976 8009 "ocaml_src/utils/warnings.ml" 228 7976 8012
+type(
+  string
+)
+ident(
+  int_ref lab "ocaml_src/utils/warnings.ml" 227 7936 7968 "ocaml_src/utils/warnings.ml" 227 7936 7971
+)
+"ocaml_src/utils/warnings.ml" 228 7976 8013 "ocaml_src/utils/warnings.ml" 228 7976 8014
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 228 7976 8015 "ocaml_src/utils/warnings.ml" 228 7976 8034
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 228 7976 8035 "ocaml_src/utils/warnings.ml" 228 7976 8036
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 229 8037 8043 "ocaml_src/utils/warnings.ml" 229 8037 8113
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 228 7976 8015 "ocaml_src/utils/warnings.ml" 229 8037 8113
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 228 7976 8009 "ocaml_src/utils/warnings.ml" 229 8037 8113
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 228 7976 7982 "ocaml_src/utils/warnings.ml" 229 8037 8113
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 230 8114 8146 "ocaml_src/utils/warnings.ml" 230 8114 8151
+type(
+  string
+)
+ident(
+  def cname "ocaml_src/utils/warnings.ml" 231 8165 8171 "ocaml_src/utils/warnings.ml" 234 8302 8380
+)
+"ocaml_src/utils/warnings.ml" 230 8114 8155 "ocaml_src/utils/warnings.ml" 230 8114 8160
+type(
+  string list
+)
+ident(
+  def slist "ocaml_src/utils/warnings.ml" 231 8165 8171 "ocaml_src/utils/warnings.ml" 234 8302 8380
+)
+"ocaml_src/utils/warnings.ml" 230 8114 8145 "ocaml_src/utils/warnings.ml" 230 8114 8161
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 230 8114 8118 "ocaml_src/utils/warnings.ml" 230 8114 8161
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 231 8165 8171 "ocaml_src/utils/warnings.ml" 231 8165 8184
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"ocaml_src/utils/warnings.ml" 231 8165 8185 "ocaml_src/utils/warnings.ml" 231 8165 8188
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 232 8189 8198 "ocaml_src/utils/warnings.ml" 232 8189 8260
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 233 8261 8273 "ocaml_src/utils/warnings.ml" 233 8261 8278
+type(
+  string
+)
+ident(
+  int_ref cname "ocaml_src/utils/warnings.ml" 230 8114 8146 "ocaml_src/utils/warnings.ml" 230 8114 8151
+)
+"ocaml_src/utils/warnings.ml" 233 8261 8283 "ocaml_src/utils/warnings.ml" 233 8261 8289
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 233 8261 8293 "ocaml_src/utils/warnings.ml" 233 8261 8298
+type(
+  string list
+)
+ident(
+  int_ref slist "ocaml_src/utils/warnings.ml" 230 8114 8155 "ocaml_src/utils/warnings.ml" 230 8114 8160
+)
+"ocaml_src/utils/warnings.ml" 233 8261 8283 "ocaml_src/utils/warnings.ml" 233 8261 8298
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 233 8261 8273 "ocaml_src/utils/warnings.ml" 233 8261 8298
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 232 8189 8197 "ocaml_src/utils/warnings.ml" 233 8261 8299
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 231 8165 8171 "ocaml_src/utils/warnings.ml" 233 8261 8299
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 233 8261 8300 "ocaml_src/utils/warnings.ml" 233 8261 8301
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 234 8302 8308 "ocaml_src/utils/warnings.ml" 234 8302 8380
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 231 8165 8171 "ocaml_src/utils/warnings.ml" 234 8302 8380
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 235 8381 8412 "ocaml_src/utils/warnings.ml" 235 8381 8414
+type(
+  string list
+)
+"ocaml_src/utils/warnings.ml" 235 8381 8385 "ocaml_src/utils/warnings.ml" 235 8381 8414
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 235 8381 8425 "ocaml_src/utils/warnings.ml" 235 8381 8430
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 235 8381 8418 "ocaml_src/utils/warnings.ml" 235 8381 8430
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 236 8431 8435 "ocaml_src/utils/warnings.ml" 236 8431 8452
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 236 8431 8456 "ocaml_src/utils/warnings.ml" 236 8431 8493
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 237 8494 8522 "ocaml_src/utils/warnings.ml" 237 8494 8523
+type(
+  string list
+)
+ident(
+  def l "ocaml_src/utils/warnings.ml" 238 8527 8533 "ocaml_src/utils/warnings.ml" 239 8597 8630
+)
+"ocaml_src/utils/warnings.ml" 237 8494 8498 "ocaml_src/utils/warnings.ml" 237 8494 8523
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 238 8527 8533 "ocaml_src/utils/warnings.ml" 238 8527 8596
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 239 8597 8603 "ocaml_src/utils/warnings.ml" 239 8597 8604
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 239 8597 8605 "ocaml_src/utils/warnings.ml" 239 8597 8618
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"ocaml_src/utils/warnings.ml" 239 8597 8619 "ocaml_src/utils/warnings.ml" 239 8597 8622
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 239 8597 8623 "ocaml_src/utils/warnings.ml" 239 8597 8624
+type(
+  string list
+)
+ident(
+  int_ref l "ocaml_src/utils/warnings.ml" 237 8494 8522 "ocaml_src/utils/warnings.ml" 237 8494 8523
+)
+"ocaml_src/utils/warnings.ml" 239 8597 8605 "ocaml_src/utils/warnings.ml" 239 8597 8624
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 239 8597 8625 "ocaml_src/utils/warnings.ml" 239 8597 8626
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 239 8597 8627 "ocaml_src/utils/warnings.ml" 239 8597 8630
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 239 8597 8605 "ocaml_src/utils/warnings.ml" 239 8597 8630
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 238 8527 8533 "ocaml_src/utils/warnings.ml" 239 8597 8630
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 240 8631 8635 "ocaml_src/utils/warnings.ml" 240 8631 8663
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 240 8631 8667 "ocaml_src/utils/warnings.ml" 240 8631 8709
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 241 8710 8740 "ocaml_src/utils/warnings.ml" 241 8710 8741
+type(
+  string
+)
+ident(
+  def m "ocaml_src/utils/warnings.ml" 241 8710 8745 "ocaml_src/utils/warnings.ml" 241 8710 8788
+)
+"ocaml_src/utils/warnings.ml" 241 8710 8714 "ocaml_src/utils/warnings.ml" 241 8710 8741
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 241 8710 8745 "ocaml_src/utils/warnings.ml" 241 8710 8766
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 241 8710 8766 "ocaml_src/utils/warnings.ml" 241 8710 8767
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 241 8710 8767 "ocaml_src/utils/warnings.ml" 241 8710 8768
+type(
+  string
+)
+ident(
+  int_ref m "ocaml_src/utils/warnings.ml" 241 8710 8740 "ocaml_src/utils/warnings.ml" 241 8710 8741
+)
+"ocaml_src/utils/warnings.ml" 241 8710 8768 "ocaml_src/utils/warnings.ml" 241 8710 8769
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 241 8710 8769 "ocaml_src/utils/warnings.ml" 241 8710 8788
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 241 8710 8767 "ocaml_src/utils/warnings.ml" 241 8710 8788
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 241 8710 8745 "ocaml_src/utils/warnings.ml" 241 8710 8788
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 242 8789 8807 "ocaml_src/utils/warnings.ml" 242 8789 8808
+type(
+  string
+)
+ident(
+  def s "ocaml_src/utils/warnings.ml" 242 8789 8812 "ocaml_src/utils/warnings.ml" 242 8789 8834
+)
+"ocaml_src/utils/warnings.ml" 242 8789 8793 "ocaml_src/utils/warnings.ml" 242 8789 8808
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 242 8789 8812 "ocaml_src/utils/warnings.ml" 242 8789 8813
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 242 8789 8807 "ocaml_src/utils/warnings.ml" 242 8789 8808
+)
+"ocaml_src/utils/warnings.ml" 242 8789 8813 "ocaml_src/utils/warnings.ml" 242 8789 8814
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 242 8789 8814 "ocaml_src/utils/warnings.ml" 242 8789 8834
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 242 8789 8812 "ocaml_src/utils/warnings.ml" 242 8789 8834
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 243 8835 8860 "ocaml_src/utils/warnings.ml" 243 8835 8861
+type(
+  string
+)
+ident(
+  def s "ocaml_src/utils/warnings.ml" 243 8835 8865 "ocaml_src/utils/warnings.ml" 243 8835 8891
+)
+"ocaml_src/utils/warnings.ml" 243 8835 8839 "ocaml_src/utils/warnings.ml" 243 8835 8861
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 243 8835 8865 "ocaml_src/utils/warnings.ml" 243 8835 8866
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 243 8835 8860 "ocaml_src/utils/warnings.ml" 243 8835 8861
+)
+"ocaml_src/utils/warnings.ml" 243 8835 8866 "ocaml_src/utils/warnings.ml" 243 8835 8867
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 243 8835 8867 "ocaml_src/utils/warnings.ml" 243 8835 8891
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 243 8835 8865 "ocaml_src/utils/warnings.ml" 243 8835 8891
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 244 8892 8896 "ocaml_src/utils/warnings.ml" 244 8892 8911
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 244 8892 8915 "ocaml_src/utils/warnings.ml" 244 8892 8964
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 245 8965 8969 "ocaml_src/utils/warnings.ml" 245 8965 8991
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 246 8995 9001 "ocaml_src/utils/warnings.ml" 246 8995 9057
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 247 9058 9069 "ocaml_src/utils/warnings.ml" 247 9058 9070
+type(
+  string
+)
+ident(
+  def s "ocaml_src/utils/warnings.ml" 247 9058 9074 "ocaml_src/utils/warnings.ml" 247 9058 9075
+)
+"ocaml_src/utils/warnings.ml" 247 9058 9062 "ocaml_src/utils/warnings.ml" 247 9058 9070
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 247 9058 9074 "ocaml_src/utils/warnings.ml" 247 9058 9075
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 247 9058 9069 "ocaml_src/utils/warnings.ml" 247 9058 9070
+)
+"ocaml_src/utils/warnings.ml" 248 9076 9080 "ocaml_src/utils/warnings.ml" 248 9076 9099
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 249 9103 9109 "ocaml_src/utils/warnings.ml" 250 9160 9213
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 251 9214 9235 "ocaml_src/utils/warnings.ml" 251 9214 9242
+ident(
+  def modname "ocaml_src/utils/warnings.ml" 252 9247 9253 "ocaml_src/utils/warnings.ml" 252 9247 9324
+)
+"ocaml_src/utils/warnings.ml" 251 9214 9234 "ocaml_src/utils/warnings.ml" 251 9214 9243
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 251 9214 9218 "ocaml_src/utils/warnings.ml" 251 9214 9243
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 252 9247 9253 "ocaml_src/utils/warnings.ml" 252 9247 9279
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 252 9247 9280 "ocaml_src/utils/warnings.ml" 252 9247 9281
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 252 9247 9282 "ocaml_src/utils/warnings.ml" 252 9247 9289
+type(
+  string
+)
+ident(
+  int_ref modname "ocaml_src/utils/warnings.ml" 251 9214 9234 "ocaml_src/utils/warnings.ml" 251 9214 9243
+)
+"ocaml_src/utils/warnings.ml" 252 9247 9290 "ocaml_src/utils/warnings.ml" 252 9247 9291
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 252 9247 9292 "ocaml_src/utils/warnings.ml" 252 9247 9324
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 252 9247 9282 "ocaml_src/utils/warnings.ml" 252 9247 9324
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 252 9247 9253 "ocaml_src/utils/warnings.ml" 252 9247 9324
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 253 9325 9329 "ocaml_src/utils/warnings.ml" 253 9325 9348
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 254 9352 9358 "ocaml_src/utils/warnings.ml" 254 9352 9420
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 255 9421 9436 "ocaml_src/utils/warnings.ml" 255 9421 9437
+type(
+  string
+)
+ident(
+  def v "ocaml_src/utils/warnings.ml" 255 9421 9463 "ocaml_src/utils/warnings.ml" 255 9421 9491
+)
+"ocaml_src/utils/warnings.ml" 255 9421 9425 "ocaml_src/utils/warnings.ml" 255 9421 9437
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 255 9421 9458 "ocaml_src/utils/warnings.ml" 255 9421 9459
+type(
+  string
+)
+ident(
+  def v "ocaml_src/utils/warnings.ml" 255 9421 9463 "ocaml_src/utils/warnings.ml" 255 9421 9491
+)
+"ocaml_src/utils/warnings.ml" 255 9421 9440 "ocaml_src/utils/warnings.ml" 255 9421 9459
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 255 9421 9425 "ocaml_src/utils/warnings.ml" 255 9421 9459
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 255 9421 9463 "ocaml_src/utils/warnings.ml" 255 9421 9481
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 255 9421 9482 "ocaml_src/utils/warnings.ml" 255 9421 9483
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 255 9421 9484 "ocaml_src/utils/warnings.ml" 255 9421 9485
+type(
+  string
+)
+ident(
+  int_ref v "ocaml_src/utils/warnings.ml" 255 9421 9436 "ocaml_src/utils/warnings.ml" 255 9421 9437
+)
+"ocaml_src/utils/warnings.ml" 255 9421 9486 "ocaml_src/utils/warnings.ml" 255 9421 9487
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/warnings.ml" 255 9421 9488 "ocaml_src/utils/warnings.ml" 255 9421 9491
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 255 9421 9484 "ocaml_src/utils/warnings.ml" 255 9421 9491
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 255 9421 9463 "ocaml_src/utils/warnings.ml" 255 9421 9491
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 256 9492 9496 "ocaml_src/utils/warnings.ml" 256 9492 9527
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 257 9531 9536 "ocaml_src/utils/warnings.ml" 257 9531 9598
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 258 9599 9603 "ocaml_src/utils/warnings.ml" 258 9599 9616
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 259 9620 9625 "ocaml_src/utils/warnings.ml" 259 9620 9689
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 260 9690 9717 "ocaml_src/utils/warnings.ml" 260 9690 9721
+type(
+  string
+)
+ident(
+  def kind "ocaml_src/utils/warnings.ml" 261 9743 9749 "ocaml_src/utils/warnings.ml" 262 9812 9838
+)
+"ocaml_src/utils/warnings.ml" 260 9690 9723 "ocaml_src/utils/warnings.ml" 260 9690 9728
+type(
+  string
+)
+ident(
+  def cname "ocaml_src/utils/warnings.ml" 261 9743 9749 "ocaml_src/utils/warnings.ml" 262 9812 9838
+)
+"ocaml_src/utils/warnings.ml" 260 9690 9730 "ocaml_src/utils/warnings.ml" 260 9690 9733
+type(
+  string
+)
+ident(
+  def tc1 "ocaml_src/utils/warnings.ml" 261 9743 9749 "ocaml_src/utils/warnings.ml" 262 9812 9838
+)
+"ocaml_src/utils/warnings.ml" 260 9690 9735 "ocaml_src/utils/warnings.ml" 260 9690 9738
+type(
+  string
+)
+ident(
+  def tc2 "ocaml_src/utils/warnings.ml" 261 9743 9749 "ocaml_src/utils/warnings.ml" 262 9812 9838
+)
+"ocaml_src/utils/warnings.ml" 260 9690 9694 "ocaml_src/utils/warnings.ml" 260 9690 9739
+type(
+  t
+)
+"ocaml_src/utils/warnings.ml" 261 9743 9749 "ocaml_src/utils/warnings.ml" 261 9743 9763
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocaml_src/utils/warnings.ml" 261 9743 9764 "ocaml_src/utils/warnings.ml" 261 9743 9811
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"ocaml_src/utils/warnings.ml" 262 9812 9820 "ocaml_src/utils/warnings.ml" 262 9812 9824
+type(
+  string
+)
+ident(
+  int_ref kind "ocaml_src/utils/warnings.ml" 260 9690 9717 "ocaml_src/utils/warnings.ml" 260 9690 9721
+)
+"ocaml_src/utils/warnings.ml" 262 9812 9825 "ocaml_src/utils/warnings.ml" 262 9812 9830
+type(
+  string
+)
+ident(
+  int_ref cname "ocaml_src/utils/warnings.ml" 260 9690 9723 "ocaml_src/utils/warnings.ml" 260 9690 9728
+)
+"ocaml_src/utils/warnings.ml" 262 9812 9831 "ocaml_src/utils/warnings.ml" 262 9812 9834
+type(
+  string
+)
+ident(
+  int_ref tc1 "ocaml_src/utils/warnings.ml" 260 9690 9730 "ocaml_src/utils/warnings.ml" 260 9690 9733
+)
+"ocaml_src/utils/warnings.ml" 262 9812 9835 "ocaml_src/utils/warnings.ml" 262 9812 9838
+type(
+  string
+)
+ident(
+  int_ref tc2 "ocaml_src/utils/warnings.ml" 260 9690 9735 "ocaml_src/utils/warnings.ml" 260 9690 9738
+)
+"ocaml_src/utils/warnings.ml" 261 9743 9749 "ocaml_src/utils/warnings.ml" 262 9812 9838
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 195 6497 6511 "ocaml_src/utils/warnings.ml" 262 9812 9838
+type(
+  t -> string
+)
+"ocaml_src/utils/warnings.ml" 265 9843 9847 "ocaml_src/utils/warnings.ml" 265 9843 9854
+type(
+  int ref
+)
+ident(
+  def nerrors "ocaml_src/utils/warnings.ml" 267 9866 9866 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 265 9843 9857 "ocaml_src/utils/warnings.ml" 265 9843 9860
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/warnings.ml" 265 9843 9861 "ocaml_src/utils/warnings.ml" 265 9843 9862
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 265 9843 9857 "ocaml_src/utils/warnings.ml" 265 9843 9862
+type(
+  int ref
+)
+"ocaml_src/utils/warnings.ml" 267 9866 9870 "ocaml_src/utils/warnings.ml" 267 9866 9875
+type(
+  Format.formatter -> t -> int
+)
+ident(
+  def print "ocaml_src/utils/warnings.ml" 287 10517 10517 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 267 9866 9876 "ocaml_src/utils/warnings.ml" 267 9866 9879
+type(
+  Format.formatter
+)
+ident(
+  def ppf "ocaml_src/utils/warnings.ml" 267 9866 9880 "ocaml_src/utils/warnings.ml" 284 10501 10512
+)
+"ocaml_src/utils/warnings.ml" 267 9866 9880 "ocaml_src/utils/warnings.ml" 267 9866 9881
+type(
+  t
+)
+ident(
+  def w "ocaml_src/utils/warnings.ml" 268 9884 9886 "ocaml_src/utils/warnings.ml" 284 10501 10512
+)
+"ocaml_src/utils/warnings.ml" 268 9884 9890 "ocaml_src/utils/warnings.ml" 268 9884 9893
+type(
+  string
+)
+ident(
+  def msg "ocaml_src/utils/warnings.ml" 269 9909 9911 "ocaml_src/utils/warnings.ml" 284 10501 10512
+)
+"ocaml_src/utils/warnings.ml" 268 9884 9896 "ocaml_src/utils/warnings.ml" 268 9884 9903
+type(
+  t -> string
+)
+ident(
+  int_ref message "ocaml_src/utils/warnings.ml" 195 6497 6501 "ocaml_src/utils/warnings.ml" 195 6497 6508
+)
+"ocaml_src/utils/warnings.ml" 268 9884 9904 "ocaml_src/utils/warnings.ml" 268 9884 9905
+type(
+  t
+)
+ident(
+  int_ref w "ocaml_src/utils/warnings.ml" 267 9866 9880 "ocaml_src/utils/warnings.ml" 267 9866 9881
+)
+"ocaml_src/utils/warnings.ml" 268 9884 9896 "ocaml_src/utils/warnings.ml" 268 9884 9905
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 269 9909 9915 "ocaml_src/utils/warnings.ml" 269 9909 9918
+type(
+  int
+)
+ident(
+  def num "ocaml_src/utils/warnings.ml" 270 9933 9935 "ocaml_src/utils/warnings.ml" 284 10501 10512
+)
+"ocaml_src/utils/warnings.ml" 269 9909 9921 "ocaml_src/utils/warnings.ml" 269 9909 9927
+type(
+  t -> int
+)
+ident(
+  int_ref number "ocaml_src/utils/warnings.ml" 61 2934 2938 "ocaml_src/utils/warnings.ml" 61 2934 2944
+)
+"ocaml_src/utils/warnings.ml" 269 9909 9928 "ocaml_src/utils/warnings.ml" 269 9909 9929
+type(
+  t
+)
+ident(
+  int_ref w "ocaml_src/utils/warnings.ml" 267 9866 9880 "ocaml_src/utils/warnings.ml" 267 9866 9881
+)
+"ocaml_src/utils/warnings.ml" 269 9909 9921 "ocaml_src/utils/warnings.ml" 269 9909 9929
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 270 9933 9939 "ocaml_src/utils/warnings.ml" 270 9933 9947
+type(
+  int ref
+)
+ident(
+  def newlines "ocaml_src/utils/warnings.ml" 271 9959 9961 "ocaml_src/utils/warnings.ml" 284 10501 10512
+)
+"ocaml_src/utils/warnings.ml" 270 9933 9950 "ocaml_src/utils/warnings.ml" 270 9933 9953
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/utils/warnings.ml" 270 9933 9954 "ocaml_src/utils/warnings.ml" 270 9933 9955
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 270 9933 9950 "ocaml_src/utils/warnings.ml" 270 9933 9955
+type(
+  int ref
+)
+"ocaml_src/utils/warnings.ml" 271 9959 9969 "ocaml_src/utils/warnings.ml" 271 9959 9970
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 271 9959 9974 "ocaml_src/utils/warnings.ml" 271 9959 9987
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/warnings.ml" 271 9959 9988 "ocaml_src/utils/warnings.ml" 271 9959 9991
+type(
+  string
+)
+ident(
+  int_ref msg "ocaml_src/utils/warnings.ml" 268 9884 9890 "ocaml_src/utils/warnings.ml" 268 9884 9893
+)
+"ocaml_src/utils/warnings.ml" 271 9959 9974 "ocaml_src/utils/warnings.ml" 271 9959 9991
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 271 9959 9992 "ocaml_src/utils/warnings.ml" 271 9959 9993
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/utils/warnings.ml" 271 9959 9994 "ocaml_src/utils/warnings.ml" 271 9959 9995
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 271 9959 9974 "ocaml_src/utils/warnings.ml" 271 9959 9995
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 272 9999 10006 "ocaml_src/utils/warnings.ml" 272 9999 10009
+type(
+  string
+)
+ident(
+  int_ref msg "ocaml_src/utils/warnings.ml" 268 9884 9890 "ocaml_src/utils/warnings.ml" 268 9884 9893
+)
+"ocaml_src/utils/warnings.ml" 272 9999 10011 "ocaml_src/utils/warnings.ml" 272 9999 10012
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 271 9959 9961 "ocaml_src/utils/warnings.ml" 273 10041 10047
+)
+"ocaml_src/utils/warnings.ml" 272 9999 10006 "ocaml_src/utils/warnings.ml" 272 9999 10013
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 272 9999 10014 "ocaml_src/utils/warnings.ml" 272 9999 10015
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/warnings.ml" 272 9999 10016 "ocaml_src/utils/warnings.ml" 272 9999 10020
+type(
+  char
+)
+"ocaml_src/utils/warnings.ml" 272 9999 10006 "ocaml_src/utils/warnings.ml" 272 9999 10020
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 272 9999 10026 "ocaml_src/utils/warnings.ml" 272 9999 10030
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/utils/warnings.ml" 272 9999 10031 "ocaml_src/utils/warnings.ml" 272 9999 10039
+type(
+  int ref
+)
+ident(
+  int_ref newlines "ocaml_src/utils/warnings.ml" 270 9933 9939 "ocaml_src/utils/warnings.ml" 270 9933 9947
+)
+"ocaml_src/utils/warnings.ml" 272 9999 10026 "ocaml_src/utils/warnings.ml" 272 9999 10039
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 272 9999 10003 "ocaml_src/utils/warnings.ml" 272 9999 10040
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 271 9959 9961 "ocaml_src/utils/warnings.ml" 273 10041 10047
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 274 10049 10056 "ocaml_src/utils/warnings.ml" 274 10049 10059
+type(
+  string -> int -> int -> unit
+)
+ident(
+  def out "ocaml_src/utils/warnings.ml" 277 10148 10150 "ocaml_src/utils/warnings.ml" 284 10501 10512
+)
+"ocaml_src/utils/warnings.ml" 274 10049 10061 "ocaml_src/utils/warnings.ml" 274 10049 10066
+type(
+  unit -> unit
+)
+ident(
+  def flush "ocaml_src/utils/warnings.ml" 277 10148 10150 "ocaml_src/utils/warnings.ml" 284 10501 10512
+)
+"ocaml_src/utils/warnings.ml" 274 10049 10068 "ocaml_src/utils/warnings.ml" 274 10049 10075
+type(
+  unit -> unit
+)
+ident(
+  def newline "ocaml_src/utils/warnings.ml" 277 10148 10150 "ocaml_src/utils/warnings.ml" 284 10501 10512
+)
+"ocaml_src/utils/warnings.ml" 274 10049 10077 "ocaml_src/utils/warnings.ml" 274 10049 10083
+type(
+  int -> unit
+)
+ident(
+  def spaces "ocaml_src/utils/warnings.ml" 277 10148 10150 "ocaml_src/utils/warnings.ml" 284 10501 10512
+)
+"ocaml_src/utils/warnings.ml" 274 10049 10055 "ocaml_src/utils/warnings.ml" 274 10049 10084
+type(
+  (string -> int -> int -> unit) * (unit -> unit) * (unit -> unit) *
+  (int -> unit)
+)
+"ocaml_src/utils/warnings.ml" 275 10087 10091 "ocaml_src/utils/warnings.ml" 275 10087 10135
+type(
+  Format.formatter ->
+  unit ->
+  (string -> int -> int -> unit) * (unit -> unit) * (unit -> unit) *
+  (int -> unit)
+)
+ident(
+  ext_ref Format.pp_get_all_formatter_output_functions
+)
+"ocaml_src/utils/warnings.ml" 275 10087 10136 "ocaml_src/utils/warnings.ml" 275 10087 10139
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/utils/warnings.ml" 267 9866 9876 "ocaml_src/utils/warnings.ml" 267 9866 9879
+)
+"ocaml_src/utils/warnings.ml" 275 10087 10140 "ocaml_src/utils/warnings.ml" 275 10087 10142
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 275 10087 10091 "ocaml_src/utils/warnings.ml" 275 10087 10142
+call(
+  stack
+)
+type(
+  (string -> int -> int -> unit) * (unit -> unit) * (unit -> unit) *
+  (int -> unit)
+)
+"ocaml_src/utils/warnings.ml" 277 10148 10154 "ocaml_src/utils/warnings.ml" 277 10148 10166
+type(
+  unit -> unit
+)
+ident(
+  def countnewline "ocaml_src/utils/warnings.ml" 278 10199 10201 "ocaml_src/utils/warnings.ml" 284 10501 10512
+)
+"ocaml_src/utils/warnings.ml" 277 10148 10167 "ocaml_src/utils/warnings.ml" 277 10148 10168
+type(
+  unit
+)
+ident(
+  def x "ocaml_src/utils/warnings.ml" 277 10148 10171 "ocaml_src/utils/warnings.ml" 277 10148 10195
+)
+"ocaml_src/utils/warnings.ml" 277 10148 10171 "ocaml_src/utils/warnings.ml" 277 10148 10175
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/utils/warnings.ml" 277 10148 10176 "ocaml_src/utils/warnings.ml" 277 10148 10184
+type(
+  int ref
+)
+ident(
+  int_ref newlines "ocaml_src/utils/warnings.ml" 270 9933 9939 "ocaml_src/utils/warnings.ml" 270 9933 9947
+)
+"ocaml_src/utils/warnings.ml" 277 10148 10171 "ocaml_src/utils/warnings.ml" 277 10148 10184
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 277 10148 10186 "ocaml_src/utils/warnings.ml" 277 10148 10193
+type(
+  unit -> unit
+)
+ident(
+  int_ref newline "ocaml_src/utils/warnings.ml" 274 10049 10068 "ocaml_src/utils/warnings.ml" 274 10049 10075
+)
+"ocaml_src/utils/warnings.ml" 277 10148 10194 "ocaml_src/utils/warnings.ml" 277 10148 10195
+type(
+  unit
+)
+ident(
+  int_ref x "ocaml_src/utils/warnings.ml" 277 10148 10167 "ocaml_src/utils/warnings.ml" 277 10148 10168
+)
+"ocaml_src/utils/warnings.ml" 277 10148 10186 "ocaml_src/utils/warnings.ml" 277 10148 10195
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 277 10148 10171 "ocaml_src/utils/warnings.ml" 277 10148 10195
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 278 10199 10201 "ocaml_src/utils/warnings.ml" 278 10199 10245
+type(
+  Format.formatter ->
+  out:(string -> int -> int -> unit) ->
+  flush:(unit -> unit) ->
+  newline:(unit -> unit) -> spaces:(int -> unit) -> unit
+)
+ident(
+  ext_ref Format.pp_set_all_formatter_output_functions
+)
+"ocaml_src/utils/warnings.ml" 278 10199 10246 "ocaml_src/utils/warnings.ml" 278 10199 10249
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/utils/warnings.ml" 267 9866 9876 "ocaml_src/utils/warnings.ml" 267 9866 9879
+)
+"ocaml_src/utils/warnings.ml" 279 10250 10259 "ocaml_src/utils/warnings.ml" 279 10250 10262
+type(
+  string -> int -> int -> unit
+)
+ident(
+  int_ref out "ocaml_src/utils/warnings.ml" 274 10049 10056 "ocaml_src/utils/warnings.ml" 274 10049 10059
+)
+"ocaml_src/utils/warnings.ml" 279 10250 10270 "ocaml_src/utils/warnings.ml" 279 10250 10275
+type(
+  unit -> unit
+)
+ident(
+  int_ref flush "ocaml_src/utils/warnings.ml" 274 10049 10061 "ocaml_src/utils/warnings.ml" 274 10049 10066
+)
+"ocaml_src/utils/warnings.ml" 279 10250 10285 "ocaml_src/utils/warnings.ml" 279 10250 10297
+type(
+  unit -> unit
+)
+ident(
+  int_ref countnewline "ocaml_src/utils/warnings.ml" 277 10148 10154 "ocaml_src/utils/warnings.ml" 277 10148 10166
+)
+"ocaml_src/utils/warnings.ml" 279 10250 10306 "ocaml_src/utils/warnings.ml" 279 10250 10312
+type(
+  int -> unit
+)
+ident(
+  int_ref spaces "ocaml_src/utils/warnings.ml" 274 10049 10077 "ocaml_src/utils/warnings.ml" 274 10049 10083
+)
+"ocaml_src/utils/warnings.ml" 278 10199 10201 "ocaml_src/utils/warnings.ml" 279 10250 10312
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 280 10314 10316 "ocaml_src/utils/warnings.ml" 280 10314 10330
+type(
+  Format.formatter ->
+  (int -> string -> unit, Format.formatter, unit) format ->
+  int -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocaml_src/utils/warnings.ml" 280 10314 10331 "ocaml_src/utils/warnings.ml" 280 10314 10334
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/utils/warnings.ml" 267 9866 9876 "ocaml_src/utils/warnings.ml" 267 9866 9879
+)
+"ocaml_src/utils/warnings.ml" 280 10314 10335 "ocaml_src/utils/warnings.ml" 280 10314 10345
+type(
+  (int -> string -> unit, Format.formatter, unit) format
+)
+"ocaml_src/utils/warnings.ml" 280 10314 10346 "ocaml_src/utils/warnings.ml" 280 10314 10349
+type(
+  int
+)
+ident(
+  int_ref num "ocaml_src/utils/warnings.ml" 269 9909 9915 "ocaml_src/utils/warnings.ml" 269 9909 9918
+)
+"ocaml_src/utils/warnings.ml" 280 10314 10350 "ocaml_src/utils/warnings.ml" 280 10314 10353
+type(
+  string
+)
+ident(
+  int_ref msg "ocaml_src/utils/warnings.ml" 268 9884 9890 "ocaml_src/utils/warnings.ml" 268 9884 9893
+)
+"ocaml_src/utils/warnings.ml" 280 10314 10316 "ocaml_src/utils/warnings.ml" 280 10314 10353
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 281 10355 10357 "ocaml_src/utils/warnings.ml" 281 10355 10401
+type(
+  Format.formatter ->
+  out:(string -> int -> int -> unit) ->
+  flush:(unit -> unit) ->
+  newline:(unit -> unit) -> spaces:(int -> unit) -> unit
+)
+ident(
+  ext_ref Format.pp_set_all_formatter_output_functions
+)
+"ocaml_src/utils/warnings.ml" 281 10355 10402 "ocaml_src/utils/warnings.ml" 281 10355 10405
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocaml_src/utils/warnings.ml" 267 9866 9876 "ocaml_src/utils/warnings.ml" 267 9866 9879
+)
+"ocaml_src/utils/warnings.ml" 282 10406 10415 "ocaml_src/utils/warnings.ml" 282 10406 10418
+type(
+  string -> int -> int -> unit
+)
+ident(
+  int_ref out "ocaml_src/utils/warnings.ml" 274 10049 10056 "ocaml_src/utils/warnings.ml" 274 10049 10059
+)
+"ocaml_src/utils/warnings.ml" 282 10406 10426 "ocaml_src/utils/warnings.ml" 282 10406 10431
+type(
+  unit -> unit
+)
+ident(
+  int_ref flush "ocaml_src/utils/warnings.ml" 274 10049 10061 "ocaml_src/utils/warnings.ml" 274 10049 10066
+)
+"ocaml_src/utils/warnings.ml" 282 10406 10441 "ocaml_src/utils/warnings.ml" 282 10406 10448
+type(
+  unit -> unit
+)
+ident(
+  int_ref newline "ocaml_src/utils/warnings.ml" 274 10049 10068 "ocaml_src/utils/warnings.ml" 274 10049 10075
+)
+"ocaml_src/utils/warnings.ml" 282 10406 10457 "ocaml_src/utils/warnings.ml" 282 10406 10463
+type(
+  int -> unit
+)
+ident(
+  int_ref spaces "ocaml_src/utils/warnings.ml" 274 10049 10077 "ocaml_src/utils/warnings.ml" 274 10049 10083
+)
+"ocaml_src/utils/warnings.ml" 281 10355 10357 "ocaml_src/utils/warnings.ml" 282 10406 10463
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 283 10465 10470 "ocaml_src/utils/warnings.ml" 283 10465 10475
+type(
+  bool array
+)
+ident(
+  int_ref error "ocaml_src/utils/warnings.ml" 130 4556 4560 "ocaml_src/utils/warnings.ml" 130 4556 4565
+)
+"ocaml_src/utils/warnings.ml" 283 10465 10477 "ocaml_src/utils/warnings.ml" 283 10465 10480
+type(
+  int
+)
+ident(
+  int_ref num "ocaml_src/utils/warnings.ml" 269 9909 9915 "ocaml_src/utils/warnings.ml" 269 9909 9918
+)
+"ocaml_src/utils/warnings.ml" 283 10465 10470 "ocaml_src/utils/warnings.ml" 283 10465 10481
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 283 10465 10487 "ocaml_src/utils/warnings.ml" 283 10465 10491
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/utils/warnings.ml" 283 10465 10492 "ocaml_src/utils/warnings.ml" 283 10465 10499
+type(
+  int ref
+)
+ident(
+  int_ref nerrors "ocaml_src/utils/warnings.ml" 265 9843 9847 "ocaml_src/utils/warnings.ml" 265 9843 9854
+)
+"ocaml_src/utils/warnings.ml" 283 10465 10487 "ocaml_src/utils/warnings.ml" 283 10465 10499
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 283 10465 10467 "ocaml_src/utils/warnings.ml" 283 10465 10499
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 284 10501 10503 "ocaml_src/utils/warnings.ml" 284 10501 10504
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/warnings.ml" 284 10501 10504 "ocaml_src/utils/warnings.ml" 284 10501 10512
+type(
+  int ref
+)
+ident(
+  int_ref newlines "ocaml_src/utils/warnings.ml" 270 9933 9939 "ocaml_src/utils/warnings.ml" 270 9933 9947
+)
+"ocaml_src/utils/warnings.ml" 284 10501 10503 "ocaml_src/utils/warnings.ml" 284 10501 10512
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 283 10465 10467 "ocaml_src/utils/warnings.ml" 284 10501 10512
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 281 10355 10357 "ocaml_src/utils/warnings.ml" 284 10501 10512
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 280 10314 10316 "ocaml_src/utils/warnings.ml" 284 10501 10512
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 278 10199 10201 "ocaml_src/utils/warnings.ml" 284 10501 10512
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 277 10148 10150 "ocaml_src/utils/warnings.ml" 284 10501 10512
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 274 10049 10051 "ocaml_src/utils/warnings.ml" 284 10501 10512
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 271 9959 9961 "ocaml_src/utils/warnings.ml" 284 10501 10512
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 270 9933 9935 "ocaml_src/utils/warnings.ml" 284 10501 10512
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 269 9909 9911 "ocaml_src/utils/warnings.ml" 284 10501 10512
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 268 9884 9886 "ocaml_src/utils/warnings.ml" 284 10501 10512
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 289 10544 10548 "ocaml_src/utils/warnings.ml" 289 10544 10559
+type(
+  unit -> unit
+)
+ident(
+  def check_fatal "ocaml_src/utils/warnings.ml" 298 10668 10668 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 289 10544 10560 "ocaml_src/utils/warnings.ml" 289 10544 10562
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 290 10565 10570 "ocaml_src/utils/warnings.ml" 290 10565 10571
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/warnings.ml" 290 10565 10571 "ocaml_src/utils/warnings.ml" 290 10565 10578
+type(
+  int ref
+)
+ident(
+  int_ref nerrors "ocaml_src/utils/warnings.ml" 265 9843 9847 "ocaml_src/utils/warnings.ml" 265 9843 9854
+)
+"ocaml_src/utils/warnings.ml" 290 10565 10570 "ocaml_src/utils/warnings.ml" 290 10565 10578
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 290 10565 10579 "ocaml_src/utils/warnings.ml" 290 10565 10580
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ocaml_src/utils/warnings.ml" 290 10565 10581 "ocaml_src/utils/warnings.ml" 290 10565 10582
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 290 10565 10570 "ocaml_src/utils/warnings.ml" 290 10565 10582
+type(
+  bool
+)
+"ocaml_src/utils/warnings.ml" 291 10594 10602 "ocaml_src/utils/warnings.ml" 291 10594 10603
+type(
+  exn
+)
+ident(
+  def e "ocaml_src/utils/warnings.ml" 292 10625 10629 "ocaml_src/utils/warnings.ml" 293 10643 10655
+)
+"ocaml_src/utils/warnings.ml" 291 10594 10613 "ocaml_src/utils/warnings.ml" 291 10594 10614
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/warnings.ml" 291 10594 10614 "ocaml_src/utils/warnings.ml" 291 10594 10621
+type(
+  int ref
+)
+ident(
+  int_ref nerrors "ocaml_src/utils/warnings.ml" 265 9843 9847 "ocaml_src/utils/warnings.ml" 265 9843 9854
+)
+"ocaml_src/utils/warnings.ml" 291 10594 10613 "ocaml_src/utils/warnings.ml" 291 10594 10621
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 291 10594 10606 "ocaml_src/utils/warnings.ml" 291 10594 10621
+type(
+  exn
+)
+"ocaml_src/utils/warnings.ml" 292 10625 10629 "ocaml_src/utils/warnings.ml" 292 10625 10636
+type(
+  int ref
+)
+ident(
+  int_ref nerrors "ocaml_src/utils/warnings.ml" 265 9843 9847 "ocaml_src/utils/warnings.ml" 265 9843 9854
+)
+"ocaml_src/utils/warnings.ml" 292 10625 10637 "ocaml_src/utils/warnings.ml" 292 10625 10639
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/utils/warnings.ml" 292 10625 10640 "ocaml_src/utils/warnings.ml" 292 10625 10641
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 292 10625 10629 "ocaml_src/utils/warnings.ml" 292 10625 10641
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 293 10643 10647 "ocaml_src/utils/warnings.ml" 293 10643 10652
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/utils/warnings.ml" 293 10643 10653 "ocaml_src/utils/warnings.ml" 293 10643 10654
+type(
+  exn
+)
+ident(
+  int_ref e "ocaml_src/utils/warnings.ml" 291 10594 10602 "ocaml_src/utils/warnings.ml" 291 10594 10603
+)
+"ocaml_src/utils/warnings.ml" 293 10643 10647 "ocaml_src/utils/warnings.ml" 293 10643 10655
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 292 10625 10629 "ocaml_src/utils/warnings.ml" 293 10643 10655
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 290 10565 10588 "ocaml_src/utils/warnings.ml" 294 10656 10661
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 290 10565 10567 "ocaml_src/utils/warnings.ml" 294 10656 10662
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 298 10668 10672 "ocaml_src/utils/warnings.ml" 298 10668 10684
+type(
+  (int * string) list
+)
+ident(
+  def descriptions "ocaml_src/utils/warnings.ml" 341 12813 12813 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 300 10691 10695 "ocaml_src/utils/warnings.ml" 300 10691 10696
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 300 10691 10698 "ocaml_src/utils/warnings.ml" 300 10691 10741
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 300 10691 10695 "ocaml_src/utils/warnings.ml" 300 10691 10741
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 301 10743 10747 "ocaml_src/utils/warnings.ml" 301 10743 10748
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 301 10743 10750 "ocaml_src/utils/warnings.ml" 301 10743 10791
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 301 10743 10747 "ocaml_src/utils/warnings.ml" 301 10743 10791
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 302 10793 10797 "ocaml_src/utils/warnings.ml" 302 10793 10798
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 302 10793 10800 "ocaml_src/utils/warnings.ml" 302 10793 10820
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 302 10793 10797 "ocaml_src/utils/warnings.ml" 302 10793 10820
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 303 10822 10826 "ocaml_src/utils/warnings.ml" 303 10822 10827
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 303 10822 10829 "ocaml_src/utils/warnings.ml" 305 10975 10992
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 303 10822 10826 "ocaml_src/utils/warnings.ml" 305 10975 10992
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 306 10994 10998 "ocaml_src/utils/warnings.ml" 306 10994 10999
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 306 10994 11001 "ocaml_src/utils/warnings.ml" 307 11070 11099
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 306 10994 10998 "ocaml_src/utils/warnings.ml" 307 11070 11099
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 308 11101 11105 "ocaml_src/utils/warnings.ml" 308 11101 11106
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 308 11101 11108 "ocaml_src/utils/warnings.ml" 308 11101 11148
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 308 11101 11105 "ocaml_src/utils/warnings.ml" 308 11101 11148
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 309 11150 11154 "ocaml_src/utils/warnings.ml" 309 11150 11155
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 309 11150 11157 "ocaml_src/utils/warnings.ml" 309 11150 11223
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 309 11150 11154 "ocaml_src/utils/warnings.ml" 309 11150 11223
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 310 11225 11229 "ocaml_src/utils/warnings.ml" 310 11225 11230
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 310 11225 11232 "ocaml_src/utils/warnings.ml" 310 11225 11283
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 310 11225 11229 "ocaml_src/utils/warnings.ml" 310 11225 11283
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 311 11285 11289 "ocaml_src/utils/warnings.ml" 311 11285 11290
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 311 11285 11292 "ocaml_src/utils/warnings.ml" 311 11285 11329
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 311 11285 11289 "ocaml_src/utils/warnings.ml" 311 11285 11329
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 312 11331 11334 "ocaml_src/utils/warnings.ml" 312 11331 11336
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 312 11331 11338 "ocaml_src/utils/warnings.ml" 313 11412 11481
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 312 11331 11334 "ocaml_src/utils/warnings.ml" 313 11412 11481
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 314 11483 11486 "ocaml_src/utils/warnings.ml" 314 11483 11488
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 314 11483 11490 "ocaml_src/utils/warnings.ml" 314 11483 11549
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 314 11483 11486 "ocaml_src/utils/warnings.ml" 314 11483 11549
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 315 11551 11554 "ocaml_src/utils/warnings.ml" 315 11551 11556
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 315 11551 11558 "ocaml_src/utils/warnings.ml" 315 11551 11604
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 315 11551 11554 "ocaml_src/utils/warnings.ml" 315 11551 11604
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 316 11606 11609 "ocaml_src/utils/warnings.ml" 316 11606 11611
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 316 11606 11613 "ocaml_src/utils/warnings.ml" 316 11606 11648
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 316 11606 11609 "ocaml_src/utils/warnings.ml" 316 11606 11648
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 317 11650 11653 "ocaml_src/utils/warnings.ml" 317 11650 11655
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 317 11650 11657 "ocaml_src/utils/warnings.ml" 317 11650 11705
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 317 11650 11653 "ocaml_src/utils/warnings.ml" 317 11650 11705
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 318 11707 11710 "ocaml_src/utils/warnings.ml" 318 11707 11712
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 318 11707 11714 "ocaml_src/utils/warnings.ml" 318 11707 11754
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 318 11707 11710 "ocaml_src/utils/warnings.ml" 318 11707 11754
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 319 11756 11759 "ocaml_src/utils/warnings.ml" 319 11756 11761
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 319 11756 11763 "ocaml_src/utils/warnings.ml" 319 11756 11794
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 319 11756 11759 "ocaml_src/utils/warnings.ml" 319 11756 11794
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 320 11796 11799 "ocaml_src/utils/warnings.ml" 320 11796 11801
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 320 11796 11803 "ocaml_src/utils/warnings.ml" 320 11796 11831
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 320 11796 11799 "ocaml_src/utils/warnings.ml" 320 11796 11831
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 321 11833 11836 "ocaml_src/utils/warnings.ml" 321 11833 11838
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 321 11833 11840 "ocaml_src/utils/warnings.ml" 321 11833 11861
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 321 11833 11836 "ocaml_src/utils/warnings.ml" 321 11833 11861
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 322 11863 11866 "ocaml_src/utils/warnings.ml" 322 11863 11868
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 322 11863 11870 "ocaml_src/utils/warnings.ml" 322 11863 11898
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 322 11863 11866 "ocaml_src/utils/warnings.ml" 322 11863 11898
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 323 11900 11903 "ocaml_src/utils/warnings.ml" 323 11900 11905
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 323 11900 11907 "ocaml_src/utils/warnings.ml" 323 11900 11934
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 323 11900 11903 "ocaml_src/utils/warnings.ml" 323 11900 11934
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 324 11936 11939 "ocaml_src/utils/warnings.ml" 324 11936 11941
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 324 11936 11943 "ocaml_src/utils/warnings.ml" 324 11936 11969
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 324 11936 11939 "ocaml_src/utils/warnings.ml" 324 11936 11969
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 325 11971 11974 "ocaml_src/utils/warnings.ml" 325 11971 11976
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 325 11971 11978 "ocaml_src/utils/warnings.ml" 325 11971 11995
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 325 11971 11974 "ocaml_src/utils/warnings.ml" 325 11971 11995
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 326 11997 12000 "ocaml_src/utils/warnings.ml" 326 11997 12002
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 326 11997 12004 "ocaml_src/utils/warnings.ml" 326 11997 12037
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 326 11997 12000 "ocaml_src/utils/warnings.ml" 326 11997 12037
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 327 12039 12042 "ocaml_src/utils/warnings.ml" 327 12039 12044
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 327 12039 12046 "ocaml_src/utils/warnings.ml" 327 12039 12119
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 327 12039 12042 "ocaml_src/utils/warnings.ml" 327 12039 12119
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 328 12121 12124 "ocaml_src/utils/warnings.ml" 328 12121 12126
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 328 12121 12128 "ocaml_src/utils/warnings.ml" 329 12201 12217
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 328 12121 12124 "ocaml_src/utils/warnings.ml" 329 12201 12217
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 330 12219 12222 "ocaml_src/utils/warnings.ml" 330 12219 12224
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 330 12219 12226 "ocaml_src/utils/warnings.ml" 331 12301 12376
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 330 12219 12222 "ocaml_src/utils/warnings.ml" 331 12301 12376
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 332 12378 12381 "ocaml_src/utils/warnings.ml" 332 12378 12383
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 332 12378 12385 "ocaml_src/utils/warnings.ml" 334 12531 12550
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 332 12378 12381 "ocaml_src/utils/warnings.ml" 334 12531 12550
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 335 12552 12555 "ocaml_src/utils/warnings.ml" 335 12552 12557
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 335 12552 12559 "ocaml_src/utils/warnings.ml" 335 12552 12622
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 335 12552 12555 "ocaml_src/utils/warnings.ml" 335 12552 12622
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 336 12624 12627 "ocaml_src/utils/warnings.ml" 336 12624 12629
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 336 12624 12631 "ocaml_src/utils/warnings.ml" 336 12624 12696
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 336 12624 12627 "ocaml_src/utils/warnings.ml" 336 12624 12696
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 337 12698 12701 "ocaml_src/utils/warnings.ml" 337 12698 12703
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 337 12698 12705 "ocaml_src/utils/warnings.ml" 338 12772 12806
+type(
+  string
+)
+"ocaml_src/utils/warnings.ml" 337 12698 12701 "ocaml_src/utils/warnings.ml" 338 12772 12806
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 299 10687 10689 "ocaml_src/utils/warnings.ml" 339 12808 12811
+type(
+  (int * string) list
+)
+"ocaml_src/utils/warnings.ml" 341 12813 12817 "ocaml_src/utils/warnings.ml" 341 12813 12830
+type(
+  unit -> 'a
+)
+ident(
+  def help_warnings "ocaml_src/utils/warnings.ml" 343 12907 12915 "ocaml_src/utils/warnings.ml" 1 0 -1
+)
+"ocaml_src/utils/warnings.ml" 341 12813 12831 "ocaml_src/utils/warnings.ml" 341 12813 12833
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 342 12836 12838 "ocaml_src/utils/warnings.ml" 342 12836 12847
+type(
+  (int * string -> unit) -> (int * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ocaml_src/utils/warnings.ml" 342 12836 12854 "ocaml_src/utils/warnings.ml" 342 12836 12855
+type(
+  int
+)
+ident(
+  def i "ocaml_src/utils/warnings.ml" 342 12836 12863 "ocaml_src/utils/warnings.ml" 342 12836 12891
+)
+"ocaml_src/utils/warnings.ml" 342 12836 12857 "ocaml_src/utils/warnings.ml" 342 12836 12858
+type(
+  string
+)
+ident(
+  def s "ocaml_src/utils/warnings.ml" 342 12836 12863 "ocaml_src/utils/warnings.ml" 342 12836 12891
+)
+"ocaml_src/utils/warnings.ml" 342 12836 12853 "ocaml_src/utils/warnings.ml" 342 12836 12859
+type(
+  int * string
+)
+"ocaml_src/utils/warnings.ml" 342 12836 12863 "ocaml_src/utils/warnings.ml" 342 12836 12876
+type(
+  (int -> string -> unit, out_channel, unit) format -> int -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"ocaml_src/utils/warnings.ml" 342 12836 12877 "ocaml_src/utils/warnings.ml" 342 12836 12887
+type(
+  (int -> string -> unit, out_channel, unit) format
+)
+"ocaml_src/utils/warnings.ml" 342 12836 12888 "ocaml_src/utils/warnings.ml" 342 12836 12889
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_src/utils/warnings.ml" 342 12836 12854 "ocaml_src/utils/warnings.ml" 342 12836 12855
+)
+"ocaml_src/utils/warnings.ml" 342 12836 12890 "ocaml_src/utils/warnings.ml" 342 12836 12891
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/warnings.ml" 342 12836 12857 "ocaml_src/utils/warnings.ml" 342 12836 12858
+)
+"ocaml_src/utils/warnings.ml" 342 12836 12863 "ocaml_src/utils/warnings.ml" 342 12836 12891
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 342 12836 12848 "ocaml_src/utils/warnings.ml" 342 12836 12892
+type(
+  int * string -> unit
+)
+"ocaml_src/utils/warnings.ml" 342 12836 12893 "ocaml_src/utils/warnings.ml" 342 12836 12905
+type(
+  (int * string) list
+)
+ident(
+  int_ref descriptions "ocaml_src/utils/warnings.ml" 298 10668 10672 "ocaml_src/utils/warnings.ml" 298 10668 10684
+)
+"ocaml_src/utils/warnings.ml" 342 12836 12838 "ocaml_src/utils/warnings.ml" 342 12836 12905
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/warnings.ml" 343 12907 12909 "ocaml_src/utils/warnings.ml" 343 12907 12913
+type(
+  int -> 'a
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"ocaml_src/utils/warnings.ml" 343 12907 12914 "ocaml_src/utils/warnings.ml" 343 12907 12915
+type(
+  int
+)
+"ocaml_src/utils/warnings.ml" 343 12907 12909 "ocaml_src/utils/warnings.ml" 343 12907 12915
+call(
+  tail
+)
+type(
+  'a
+)
+"ocaml_src/utils/warnings.ml" 342 12836 12838 "ocaml_src/utils/warnings.ml" 343 12907 12915
+type(
+  'a
+)

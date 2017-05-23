@@ -1,0 +1,2900 @@
+"completion/term.ml" 26 1135 1143 "completion/term.ml" 26 1135 1150
+type(
+  Format.formatter -> term -> unit
+)
+ident(
+  def pr_term "completion/term.ml" 26 1135 1135 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 26 1135 1151 "completion/term.ml" 26 1135 1154
+type(
+  Format.formatter
+)
+ident(
+  def ppf "completion/term.ml" 26 1135 1155 "completion/term.ml" 33 1377 1428
+)
+"completion/term.ml" 26 1135 1155 "completion/term.ml" 26 1135 1159
+type(
+  term
+)
+ident(
+  def term "completion/term.ml" 27 1162 1164 "completion/term.ml" 33 1377 1428
+)
+"completion/term.ml" 27 1162 1170 "completion/term.ml" 27 1162 1174
+type(
+  term
+)
+ident(
+  int_ref term "completion/term.ml" 26 1135 1155 "completion/term.ml" 26 1135 1159
+)
+"completion/term.ml" 28 1180 1190 "completion/term.ml" 28 1180 1191
+type(
+  Var.var
+)
+ident(
+  def v "completion/term.ml" 28 1180 1195 "completion/term.ml" 28 1180 1231
+)
+"completion/term.ml" 28 1180 1186 "completion/term.ml" 28 1180 1191
+type(
+  term
+)
+"completion/term.ml" 28 1180 1195 "completion/term.ml" 28 1180 1209
+type(
+  Format.formatter ->
+  ((Format.formatter -> Var.var -> unit) -> Var.var -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Var.var -> unit) -> Var.var -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"completion/term.ml" 28 1180 1210 "completion/term.ml" 28 1180 1213
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/term.ml" 26 1135 1151 "completion/term.ml" 26 1135 1154
+)
+"completion/term.ml" 28 1180 1214 "completion/term.ml" 28 1180 1218
+type(
+  ((Format.formatter -> Var.var -> unit) -> Var.var -> unit,
+   Format.formatter, unit)
+  format
+)
+"completion/term.ml" 28 1180 1219 "completion/term.ml" 28 1180 1229
+type(
+  Format.formatter -> Var.var -> unit
+)
+ident(
+  ext_ref Var.pr_var
+)
+"completion/term.ml" 28 1180 1230 "completion/term.ml" 28 1180 1231
+type(
+  Var.var
+)
+ident(
+  int_ref v "completion/term.ml" 28 1180 1190 "completion/term.ml" 28 1180 1191
+)
+"completion/term.ml" 28 1180 1195 "completion/term.ml" 28 1180 1231
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/term.ml" 29 1232 1243 "completion/term.ml" 29 1232 1244
+type(
+  Symb.symbol
+)
+ident(
+  def s "completion/term.ml" 30 1256 1262 "completion/term.ml" 33 1377 1428
+)
+"completion/term.ml" 29 1232 1246 "completion/term.ml" 29 1232 1251
+type(
+  term list
+)
+ident(
+  def tlist "completion/term.ml" 30 1256 1262 "completion/term.ml" 33 1377 1428
+)
+"completion/term.ml" 29 1232 1238 "completion/term.ml" 29 1232 1252
+type(
+  term
+)
+"completion/term.ml" 30 1256 1265 "completion/term.ml" 30 1256 1270
+type(
+  term list
+)
+ident(
+  int_ref tlist "completion/term.ml" 29 1232 1246 "completion/term.ml" 29 1232 1251
+)
+"completion/term.ml" 30 1256 1271 "completion/term.ml" 30 1256 1273
+type(
+  term list -> term list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"completion/term.ml" 30 1256 1274 "completion/term.ml" 30 1256 1276
+type(
+  term list
+)
+"completion/term.ml" 30 1256 1265 "completion/term.ml" 30 1256 1276
+type(
+  bool
+)
+"completion/term.ml" 31 1282 1290 "completion/term.ml" 31 1282 1304
+type(
+  Format.formatter ->
+  ((Format.formatter -> Symb.symbol -> unit) ->
+   Symb.symbol ->
+   (Format.formatter -> term list -> unit) -> term list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Symb.symbol -> unit) ->
+  Symb.symbol -> (Format.formatter -> term list -> unit) -> term list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"completion/term.ml" 31 1282 1305 "completion/term.ml" 31 1282 1308
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/term.ml" 26 1135 1151 "completion/term.ml" 26 1135 1154
+)
+"completion/term.ml" 31 1282 1309 "completion/term.ml" 31 1282 1330
+type(
+  ((Format.formatter -> Symb.symbol -> unit) ->
+   Symb.symbol ->
+   (Format.formatter -> term list -> unit) -> term list -> unit,
+   Format.formatter, unit)
+  format
+)
+"completion/term.ml" 32 1331 1341 "completion/term.ml" 32 1331 1355
+type(
+  Format.formatter -> Symb.symbol -> unit
+)
+ident(
+  ext_ref Symb.pr_symbol
+)
+"completion/term.ml" 32 1331 1356 "completion/term.ml" 32 1331 1357
+type(
+  Symb.symbol
+)
+ident(
+  int_ref s "completion/term.ml" 29 1232 1243 "completion/term.ml" 29 1232 1244
+)
+"completion/term.ml" 32 1331 1358 "completion/term.ml" 32 1331 1370
+type(
+  Format.formatter -> term list -> unit
+)
+ident(
+  int_ref pr_term_list "completion/term.ml" 35 1430 1434 "completion/term.ml" 35 1430 1446
+)
+"completion/term.ml" 32 1331 1371 "completion/term.ml" 32 1331 1376
+type(
+  term list
+)
+ident(
+  int_ref tlist "completion/term.ml" 29 1232 1246 "completion/term.ml" 29 1232 1251
+)
+"completion/term.ml" 31 1282 1290 "completion/term.ml" 32 1331 1376
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/term.ml" 33 1377 1388 "completion/term.ml" 33 1377 1402
+type(
+  Format.formatter ->
+  ((Format.formatter -> Symb.symbol -> unit) -> Symb.symbol -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Symb.symbol -> unit) -> Symb.symbol -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"completion/term.ml" 33 1377 1403 "completion/term.ml" 33 1377 1406
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/term.ml" 26 1135 1151 "completion/term.ml" 26 1135 1154
+)
+"completion/term.ml" 33 1377 1407 "completion/term.ml" 33 1377 1411
+type(
+  ((Format.formatter -> Symb.symbol -> unit) -> Symb.symbol -> unit,
+   Format.formatter, unit)
+  format
+)
+"completion/term.ml" 33 1377 1412 "completion/term.ml" 33 1377 1426
+type(
+  Format.formatter -> Symb.symbol -> unit
+)
+ident(
+  ext_ref Symb.pr_symbol
+)
+"completion/term.ml" 33 1377 1427 "completion/term.ml" 33 1377 1428
+type(
+  Symb.symbol
+)
+ident(
+  int_ref s "completion/term.ml" 29 1232 1243 "completion/term.ml" 29 1232 1244
+)
+"completion/term.ml" 33 1377 1388 "completion/term.ml" 33 1377 1428
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/term.ml" 30 1256 1262 "completion/term.ml" 33 1377 1428
+type(
+  unit
+)
+"completion/term.ml" 27 1162 1164 "completion/term.ml" 33 1377 1428
+type(
+  unit
+)
+"completion/term.ml" 35 1430 1434 "completion/term.ml" 35 1430 1446
+type(
+  Format.formatter -> term list -> unit
+)
+ident(
+  def pr_term_list "completion/term.ml" 26 1135 1135 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 35 1430 1447 "completion/term.ml" 35 1430 1450
+type(
+  Format.formatter
+)
+ident(
+  def ppf "completion/term.ml" 35 1430 1451 "completion/term.ml" 41 1637 1661
+)
+"completion/term.ml" 35 1430 1451 "completion/term.ml" 35 1430 1459
+type(
+  term list
+)
+ident(
+  def termlist "completion/term.ml" 36 1462 1464 "completion/term.ml" 41 1637 1661
+)
+"completion/term.ml" 36 1462 1470 "completion/term.ml" 36 1462 1478
+type(
+  term list
+)
+ident(
+  int_ref termlist "completion/term.ml" 35 1430 1451 "completion/term.ml" 35 1430 1459
+)
+"completion/term.ml" 37 1484 1490 "completion/term.ml" 37 1484 1494
+type(
+  term
+)
+ident(
+  def term "completion/term.ml" 38 1504 1510 "completion/term.ml" 38 1504 1546
+)
+"completion/term.ml" 37 1484 1498 "completion/term.ml" 37 1484 1500
+type(
+  term list
+)
+"completion/term.ml" 37 1484 1490 "completion/term.ml" 37 1484 1500
+type(
+  term list
+)
+"completion/term.ml" 38 1504 1510 "completion/term.ml" 38 1504 1524
+type(
+  Format.formatter ->
+  ((Format.formatter -> term -> unit) -> term -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> term -> unit) -> term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"completion/term.ml" 38 1504 1525 "completion/term.ml" 38 1504 1528
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/term.ml" 35 1430 1447 "completion/term.ml" 35 1430 1450
+)
+"completion/term.ml" 38 1504 1529 "completion/term.ml" 38 1504 1533
+type(
+  ((Format.formatter -> term -> unit) -> term -> unit, Format.formatter,
+   unit)
+  format
+)
+"completion/term.ml" 38 1504 1534 "completion/term.ml" 38 1504 1541
+type(
+  Format.formatter -> term -> unit
+)
+ident(
+  int_ref pr_term "completion/term.ml" 26 1135 1143 "completion/term.ml" 26 1135 1150
+)
+"completion/term.ml" 38 1504 1542 "completion/term.ml" 38 1504 1546
+type(
+  term
+)
+ident(
+  int_ref term "completion/term.ml" 37 1484 1490 "completion/term.ml" 37 1484 1494
+)
+"completion/term.ml" 38 1504 1510 "completion/term.ml" 38 1504 1546
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/term.ml" 39 1547 1553 "completion/term.ml" 39 1547 1557
+type(
+  term
+)
+ident(
+  def term "completion/term.ml" 40 1570 1576 "completion/term.ml" 40 1570 1636
+)
+"completion/term.ml" 39 1547 1561 "completion/term.ml" 39 1547 1566
+type(
+  term list
+)
+ident(
+  def terms "completion/term.ml" 40 1570 1576 "completion/term.ml" 40 1570 1636
+)
+"completion/term.ml" 39 1547 1553 "completion/term.ml" 39 1547 1566
+type(
+  term list
+)
+"completion/term.ml" 40 1570 1576 "completion/term.ml" 40 1570 1590
+type(
+  Format.formatter ->
+  ((Format.formatter -> term -> unit) ->
+   term -> (Format.formatter -> term list -> unit) -> term list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> term -> unit) ->
+  term -> (Format.formatter -> term list -> unit) -> term list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"completion/term.ml" 40 1570 1591 "completion/term.ml" 40 1570 1594
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/term.ml" 35 1430 1447 "completion/term.ml" 35 1430 1450
+)
+"completion/term.ml" 40 1570 1595 "completion/term.ml" 40 1570 1604
+type(
+  ((Format.formatter -> term -> unit) ->
+   term -> (Format.formatter -> term list -> unit) -> term list -> unit,
+   Format.formatter, unit)
+  format
+)
+"completion/term.ml" 40 1570 1605 "completion/term.ml" 40 1570 1612
+type(
+  Format.formatter -> term -> unit
+)
+ident(
+  int_ref pr_term "completion/term.ml" 26 1135 1143 "completion/term.ml" 26 1135 1150
+)
+"completion/term.ml" 40 1570 1613 "completion/term.ml" 40 1570 1617
+type(
+  term
+)
+ident(
+  int_ref term "completion/term.ml" 39 1547 1553 "completion/term.ml" 39 1547 1557
+)
+"completion/term.ml" 40 1570 1618 "completion/term.ml" 40 1570 1630
+type(
+  Format.formatter -> term list -> unit
+)
+ident(
+  int_ref pr_term_list "completion/term.ml" 35 1430 1434 "completion/term.ml" 35 1430 1446
+)
+"completion/term.ml" 40 1570 1631 "completion/term.ml" 40 1570 1636
+type(
+  term list
+)
+ident(
+  int_ref terms "completion/term.ml" 39 1547 1561 "completion/term.ml" 39 1547 1566
+)
+"completion/term.ml" 40 1570 1576 "completion/term.ml" 40 1570 1636
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/term.ml" 41 1637 1643 "completion/term.ml" 41 1637 1645
+type(
+  term list
+)
+"completion/term.ml" 41 1637 1656 "completion/term.ml" 41 1637 1661
+type(
+  bool
+)
+"completion/term.ml" 41 1637 1649 "completion/term.ml" 41 1637 1661
+type(
+  unit
+)
+"completion/term.ml" 36 1462 1464 "completion/term.ml" 41 1637 1661
+type(
+  unit
+)
+"completion/term.ml" 44 1666 1674 "completion/term.ml" 44 1666 1678
+type(
+  term -> Var.VarSet.t
+)
+ident(
+  def vars "completion/term.ml" 44 1666 1666 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 45 1690 1698 "completion/term.ml" 45 1690 1699
+type(
+  Var.var
+)
+ident(
+  def x "completion/term.ml" 45 1690 1703 "completion/term.ml" 45 1690 1721
+)
+"completion/term.ml" 45 1690 1694 "completion/term.ml" 45 1690 1699
+type(
+  term
+)
+"completion/term.ml" 45 1690 1703 "completion/term.ml" 45 1690 1719
+type(
+  Var.VarSet.elt -> Var.VarSet.t
+)
+ident(
+  ext_ref Var.VarSet.singleton
+)
+"completion/term.ml" 45 1690 1720 "completion/term.ml" 45 1690 1721
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/term.ml" 45 1690 1698 "completion/term.ml" 45 1690 1699
+)
+"completion/term.ml" 45 1690 1703 "completion/term.ml" 45 1690 1721
+call(
+  tail
+)
+type(
+  Var.VarSet.t
+)
+"completion/term.ml" 46 1722 1731 "completion/term.ml" 46 1722 1732
+type(
+  Symb.symbol
+)
+"completion/term.ml" 46 1722 1734 "completion/term.ml" 46 1722 1736
+type(
+  term list
+)
+ident(
+  def ts "completion/term.ml" 46 1722 1741 "completion/term.ml" 46 1722 1757
+)
+"completion/term.ml" 46 1722 1726 "completion/term.ml" 46 1722 1737
+type(
+  term
+)
+"completion/term.ml" 46 1722 1741 "completion/term.ml" 46 1722 1754
+type(
+  term list -> Var.VarSet.t
+)
+ident(
+  int_ref vars_of_terms "completion/term.ml" 48 1759 1763 "completion/term.ml" 48 1759 1776
+)
+"completion/term.ml" 46 1722 1755 "completion/term.ml" 46 1722 1757
+type(
+  term list
+)
+ident(
+  int_ref ts "completion/term.ml" 46 1722 1734 "completion/term.ml" 46 1722 1736
+)
+"completion/term.ml" 46 1722 1741 "completion/term.ml" 46 1722 1757
+call(
+  tail
+)
+type(
+  Var.VarSet.t
+)
+"completion/term.ml" 44 1666 1681 "completion/term.ml" 46 1722 1757
+type(
+  term -> Var.VarSet.t
+)
+"completion/term.ml" 48 1759 1763 "completion/term.ml" 48 1759 1776
+type(
+  term list -> Var.VarSet.t
+)
+ident(
+  def vars_of_terms "completion/term.ml" 44 1666 1666 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 49 1788 1792 "completion/term.ml" 49 1788 1794
+type(
+  term list
+)
+"completion/term.ml" 49 1788 1798 "completion/term.ml" 49 1788 1810
+type(
+  Var.VarSet.t
+)
+ident(
+  ext_ref Var.VarSet.empty
+)
+"completion/term.ml" 50 1811 1815 "completion/term.ml" 50 1811 1816
+type(
+  term
+)
+ident(
+  def t "completion/term.ml" 50 1811 1826 "completion/term.ml" 50 1811 1866
+)
+"completion/term.ml" 50 1811 1820 "completion/term.ml" 50 1811 1822
+type(
+  term list
+)
+ident(
+  def ts "completion/term.ml" 50 1811 1826 "completion/term.ml" 50 1811 1866
+)
+"completion/term.ml" 50 1811 1815 "completion/term.ml" 50 1811 1822
+type(
+  term list
+)
+"completion/term.ml" 50 1811 1826 "completion/term.ml" 50 1811 1838
+type(
+  Var.VarSet.t -> Var.VarSet.t -> Var.VarSet.t
+)
+ident(
+  ext_ref Var.VarSet.union
+)
+"completion/term.ml" 50 1811 1840 "completion/term.ml" 50 1811 1844
+type(
+  term -> Var.VarSet.t
+)
+ident(
+  int_ref vars "completion/term.ml" 44 1666 1674 "completion/term.ml" 44 1666 1678
+)
+"completion/term.ml" 50 1811 1845 "completion/term.ml" 50 1811 1846
+type(
+  term
+)
+ident(
+  int_ref t "completion/term.ml" 50 1811 1815 "completion/term.ml" 50 1811 1816
+)
+"completion/term.ml" 50 1811 1839 "completion/term.ml" 50 1811 1847
+call(
+  stack
+)
+type(
+  Var.VarSet.t
+)
+"completion/term.ml" 50 1811 1849 "completion/term.ml" 50 1811 1862
+type(
+  term list -> Var.VarSet.t
+)
+ident(
+  int_ref vars_of_terms "completion/term.ml" 48 1759 1763 "completion/term.ml" 48 1759 1776
+)
+"completion/term.ml" 50 1811 1863 "completion/term.ml" 50 1811 1865
+type(
+  term list
+)
+ident(
+  int_ref ts "completion/term.ml" 50 1811 1820 "completion/term.ml" 50 1811 1822
+)
+"completion/term.ml" 50 1811 1848 "completion/term.ml" 50 1811 1866
+call(
+  stack
+)
+type(
+  Var.VarSet.t
+)
+"completion/term.ml" 50 1811 1826 "completion/term.ml" 50 1811 1866
+call(
+  tail
+)
+type(
+  Var.VarSet.t
+)
+"completion/term.ml" 48 1759 1779 "completion/term.ml" 50 1811 1866
+type(
+  term list -> Var.VarSet.t
+)
+"completion/term.ml" 53 1871 1875 "completion/term.ml" 53 1871 1884
+type(
+  term -> bool
+)
+ident(
+  def is_linear "completion/term.ml" 69 2226 2226 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 54 1887 1893 "completion/term.ml" 54 1887 1897
+type(
+  Var.VarSet.t ref
+)
+ident(
+  def vset "completion/term.ml" 55 1920 1922 "completion/term.ml" 66 2192 2221
+)
+"completion/term.ml" 54 1887 1900 "completion/term.ml" 54 1887 1903
+type(
+  Var.VarSet.t -> Var.VarSet.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"completion/term.ml" 54 1887 1904 "completion/term.ml" 54 1887 1916
+type(
+  Var.VarSet.t
+)
+ident(
+  ext_ref Var.VarSet.empty
+)
+"completion/term.ml" 54 1887 1900 "completion/term.ml" 54 1887 1916
+type(
+  Var.VarSet.t ref
+)
+"completion/term.ml" 55 1920 1930 "completion/term.ml" 55 1920 1933
+type(
+  term -> bool
+)
+ident(
+  def aux "completion/term.ml" 55 1920 1922 "completion/term.ml" 66 2192 2221
+)
+"completion/term.ml" 56 1945 1955 "completion/term.ml" 56 1945 1956
+type(
+  Var.var
+)
+ident(
+  def x "completion/term.ml" 57 1960 1968 "completion/term.ml" 61 2098 2109
+)
+"completion/term.ml" 56 1945 1951 "completion/term.ml" 56 1945 1956
+type(
+  term
+)
+"completion/term.ml" 58 1974 1990 "completion/term.ml" 58 1974 2000
+type(
+  Var.VarSet.elt -> Var.VarSet.t -> bool
+)
+ident(
+  ext_ref Var.VarSet.mem
+)
+"completion/term.ml" 58 1974 2001 "completion/term.ml" 58 1974 2002
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/term.ml" 56 1945 1955 "completion/term.ml" 56 1945 1956
+)
+"completion/term.ml" 58 1974 2003 "completion/term.ml" 58 1974 2004
+type(
+  Var.VarSet.t ref -> Var.VarSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/term.ml" 58 1974 2004 "completion/term.ml" 58 1974 2008
+type(
+  Var.VarSet.t ref
+)
+ident(
+  int_ref vset "completion/term.ml" 54 1887 1893 "completion/term.ml" 54 1887 1897
+)
+"completion/term.ml" 58 1974 2003 "completion/term.ml" 58 1974 2008
+type(
+  Var.VarSet.t
+)
+"completion/term.ml" 58 1974 1990 "completion/term.ml" 58 1974 2008
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/term.ml" 59 2014 2028 "completion/term.ml" 59 2014 2032
+type(
+  bool
+)
+"completion/term.ml" 59 2014 2036 "completion/term.ml" 59 2014 2041
+type(
+  bool
+)
+"completion/term.ml" 60 2042 2056 "completion/term.ml" 60 2042 2061
+type(
+  bool
+)
+"completion/term.ml" 60 2042 2065 "completion/term.ml" 60 2042 2069
+type(
+  Var.VarSet.t ref
+)
+ident(
+  int_ref vset "completion/term.ml" 54 1887 1893 "completion/term.ml" 54 1887 1897
+)
+"completion/term.ml" 60 2042 2070 "completion/term.ml" 60 2042 2072
+type(
+  Var.VarSet.t ref -> Var.VarSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/term.ml" 60 2042 2073 "completion/term.ml" 60 2042 2083
+type(
+  Var.VarSet.elt -> Var.VarSet.t -> Var.VarSet.t
+)
+ident(
+  ext_ref Var.VarSet.add
+)
+"completion/term.ml" 60 2042 2084 "completion/term.ml" 60 2042 2085
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/term.ml" 56 1945 1955 "completion/term.ml" 56 1945 1956
+)
+"completion/term.ml" 60 2042 2086 "completion/term.ml" 60 2042 2087
+type(
+  Var.VarSet.t ref -> Var.VarSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/term.ml" 60 2042 2087 "completion/term.ml" 60 2042 2091
+type(
+  Var.VarSet.t ref
+)
+ident(
+  int_ref vset "completion/term.ml" 54 1887 1893 "completion/term.ml" 54 1887 1897
+)
+"completion/term.ml" 60 2042 2086 "completion/term.ml" 60 2042 2091
+type(
+  Var.VarSet.t
+)
+"completion/term.ml" 60 2042 2073 "completion/term.ml" 60 2042 2091
+call(
+  stack
+)
+type(
+  Var.VarSet.t
+)
+"completion/term.ml" 60 2042 2065 "completion/term.ml" 60 2042 2091
+type(
+  unit
+)
+"completion/term.ml" 60 2042 2093 "completion/term.ml" 60 2042 2097
+type(
+  bool
+)
+"completion/term.ml" 60 2042 2065 "completion/term.ml" 60 2042 2097
+type(
+  bool
+)
+"completion/term.ml" 57 1960 1968 "completion/term.ml" 61 2098 2109
+type(
+  bool
+)
+"completion/term.ml" 62 2110 2121 "completion/term.ml" 62 2110 2122
+type(
+  Symb.symbol
+)
+"completion/term.ml" 62 2110 2124 "completion/term.ml" 62 2110 2126
+type(
+  term list
+)
+ident(
+  def ts "completion/term.ml" 62 2110 2131 "completion/term.ml" 62 2110 2150
+)
+"completion/term.ml" 62 2110 2116 "completion/term.ml" 62 2110 2127
+type(
+  term
+)
+"completion/term.ml" 62 2110 2131 "completion/term.ml" 62 2110 2143
+type(
+  (term -> bool) -> term list -> bool
+)
+ident(
+  ext_ref List.for_all
+)
+"completion/term.ml" 62 2110 2144 "completion/term.ml" 62 2110 2147
+type(
+  term -> bool
+)
+ident(
+  int_ref aux "completion/term.ml" 55 1920 1930 "completion/term.ml" 55 1920 1933
+)
+"completion/term.ml" 62 2110 2148 "completion/term.ml" 62 2110 2150
+type(
+  term list
+)
+ident(
+  int_ref ts "completion/term.ml" 62 2110 2124 "completion/term.ml" 62 2110 2126
+)
+"completion/term.ml" 62 2110 2131 "completion/term.ml" 62 2110 2150
+call(
+  tail
+)
+type(
+  bool
+)
+"completion/term.ml" 55 1920 1936 "completion/term.ml" 62 2110 2150
+type(
+  term -> bool
+)
+"completion/term.ml" 64 2156 2164 "completion/term.ml" 64 2156 2165
+type(
+  term
+)
+ident(
+  def t "completion/term.ml" 65 2169 2175 "completion/term.ml" 66 2192 2221
+)
+"completion/term.ml" 65 2169 2179 "completion/term.ml" 65 2169 2180
+type(
+  bool
+)
+ident(
+  def b "completion/term.ml" 66 2192 2198 "completion/term.ml" 66 2192 2221
+)
+"completion/term.ml" 65 2169 2183 "completion/term.ml" 65 2169 2186
+type(
+  term -> bool
+)
+ident(
+  int_ref aux "completion/term.ml" 55 1920 1930 "completion/term.ml" 55 1920 1933
+)
+"completion/term.ml" 65 2169 2187 "completion/term.ml" 65 2169 2188
+type(
+  term
+)
+ident(
+  int_ref t "completion/term.ml" 64 2156 2164 "completion/term.ml" 64 2156 2165
+)
+"completion/term.ml" 65 2169 2183 "completion/term.ml" 65 2169 2188
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/term.ml" 66 2192 2198 "completion/term.ml" 66 2192 2202
+type(
+  Var.VarSet.t ref
+)
+ident(
+  int_ref vset "completion/term.ml" 54 1887 1893 "completion/term.ml" 54 1887 1897
+)
+"completion/term.ml" 66 2192 2203 "completion/term.ml" 66 2192 2205
+type(
+  Var.VarSet.t ref -> Var.VarSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/term.ml" 66 2192 2206 "completion/term.ml" 66 2192 2218
+type(
+  Var.VarSet.t
+)
+ident(
+  ext_ref Var.VarSet.empty
+)
+"completion/term.ml" 66 2192 2198 "completion/term.ml" 66 2192 2218
+type(
+  unit
+)
+"completion/term.ml" 66 2192 2220 "completion/term.ml" 66 2192 2221
+type(
+  bool
+)
+ident(
+  int_ref b "completion/term.ml" 65 2169 2179 "completion/term.ml" 65 2169 2180
+)
+"completion/term.ml" 66 2192 2198 "completion/term.ml" 66 2192 2221
+type(
+  bool
+)
+"completion/term.ml" 65 2169 2175 "completion/term.ml" 66 2192 2221
+type(
+  bool
+)
+"completion/term.ml" 64 2156 2160 "completion/term.ml" 66 2192 2221
+type(
+  term -> bool
+)
+"completion/term.ml" 55 1920 1922 "completion/term.ml" 66 2192 2221
+type(
+  term -> bool
+)
+"completion/term.ml" 54 1887 1889 "completion/term.ml" 66 2192 2221
+type(
+  term -> bool
+)
+"completion/term.ml" 69 2226 2234 "completion/term.ml" 69 2226 2241
+type(
+  term -> Symb.SymbolSet.t
+)
+ident(
+  def symbols "completion/term.ml" 69 2226 2226 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 70 2253 2261 "completion/term.ml" 70 2253 2262
+type(
+  Var.var
+)
+"completion/term.ml" 70 2253 2257 "completion/term.ml" 70 2253 2262
+type(
+  term
+)
+"completion/term.ml" 70 2253 2266 "completion/term.ml" 70 2253 2281
+type(
+  Symb.SymbolSet.t
+)
+ident(
+  ext_ref Symb.SymbolSet.empty
+)
+"completion/term.ml" 71 2282 2291 "completion/term.ml" 71 2282 2292
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/term.ml" 71 2282 2301 "completion/term.ml" 71 2282 2338
+)
+"completion/term.ml" 71 2282 2294 "completion/term.ml" 71 2282 2296
+type(
+  term list
+)
+ident(
+  def ts "completion/term.ml" 71 2282 2301 "completion/term.ml" 71 2282 2338
+)
+"completion/term.ml" 71 2282 2286 "completion/term.ml" 71 2282 2297
+type(
+  term
+)
+"completion/term.ml" 71 2282 2301 "completion/term.ml" 71 2282 2314
+type(
+  Symb.SymbolSet.elt -> Symb.SymbolSet.t -> Symb.SymbolSet.t
+)
+ident(
+  ext_ref Symb.SymbolSet.add
+)
+"completion/term.ml" 71 2282 2315 "completion/term.ml" 71 2282 2316
+type(
+  Symb.SymbolSet.elt
+)
+ident(
+  int_ref f "completion/term.ml" 71 2282 2291 "completion/term.ml" 71 2282 2292
+)
+"completion/term.ml" 71 2282 2318 "completion/term.ml" 71 2282 2334
+type(
+  term list -> Symb.SymbolSet.t
+)
+ident(
+  int_ref symbols_of_terms "completion/term.ml" 73 2340 2344 "completion/term.ml" 73 2340 2360
+)
+"completion/term.ml" 71 2282 2335 "completion/term.ml" 71 2282 2337
+type(
+  term list
+)
+ident(
+  int_ref ts "completion/term.ml" 71 2282 2294 "completion/term.ml" 71 2282 2296
+)
+"completion/term.ml" 71 2282 2317 "completion/term.ml" 71 2282 2338
+call(
+  stack
+)
+type(
+  Symb.SymbolSet.t
+)
+"completion/term.ml" 71 2282 2301 "completion/term.ml" 71 2282 2338
+call(
+  tail
+)
+type(
+  Symb.SymbolSet.t
+)
+"completion/term.ml" 69 2226 2244 "completion/term.ml" 71 2282 2338
+type(
+  term -> Symb.SymbolSet.t
+)
+"completion/term.ml" 73 2340 2344 "completion/term.ml" 73 2340 2360
+type(
+  term list -> Symb.SymbolSet.t
+)
+ident(
+  def symbols_of_terms "completion/term.ml" 69 2226 2226 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 74 2372 2376 "completion/term.ml" 74 2372 2378
+type(
+  term list
+)
+"completion/term.ml" 74 2372 2382 "completion/term.ml" 74 2372 2397
+type(
+  Symb.SymbolSet.t
+)
+ident(
+  ext_ref Symb.SymbolSet.empty
+)
+"completion/term.ml" 75 2398 2402 "completion/term.ml" 75 2398 2403
+type(
+  term
+)
+ident(
+  def t "completion/term.ml" 75 2398 2413 "completion/term.ml" 75 2398 2462
+)
+"completion/term.ml" 75 2398 2407 "completion/term.ml" 75 2398 2409
+type(
+  term list
+)
+ident(
+  def ts "completion/term.ml" 75 2398 2413 "completion/term.ml" 75 2398 2462
+)
+"completion/term.ml" 75 2398 2402 "completion/term.ml" 75 2398 2409
+type(
+  term list
+)
+"completion/term.ml" 75 2398 2413 "completion/term.ml" 75 2398 2428
+type(
+  Symb.SymbolSet.t -> Symb.SymbolSet.t -> Symb.SymbolSet.t
+)
+ident(
+  ext_ref Symb.SymbolSet.union
+)
+"completion/term.ml" 75 2398 2430 "completion/term.ml" 75 2398 2437
+type(
+  term -> Symb.SymbolSet.t
+)
+ident(
+  int_ref symbols "completion/term.ml" 69 2226 2234 "completion/term.ml" 69 2226 2241
+)
+"completion/term.ml" 75 2398 2438 "completion/term.ml" 75 2398 2439
+type(
+  term
+)
+ident(
+  int_ref t "completion/term.ml" 75 2398 2402 "completion/term.ml" 75 2398 2403
+)
+"completion/term.ml" 75 2398 2429 "completion/term.ml" 75 2398 2440
+call(
+  stack
+)
+type(
+  Symb.SymbolSet.t
+)
+"completion/term.ml" 75 2398 2442 "completion/term.ml" 75 2398 2458
+type(
+  term list -> Symb.SymbolSet.t
+)
+ident(
+  int_ref symbols_of_terms "completion/term.ml" 73 2340 2344 "completion/term.ml" 73 2340 2360
+)
+"completion/term.ml" 75 2398 2459 "completion/term.ml" 75 2398 2461
+type(
+  term list
+)
+ident(
+  int_ref ts "completion/term.ml" 75 2398 2407 "completion/term.ml" 75 2398 2409
+)
+"completion/term.ml" 75 2398 2441 "completion/term.ml" 75 2398 2462
+call(
+  stack
+)
+type(
+  Symb.SymbolSet.t
+)
+"completion/term.ml" 75 2398 2413 "completion/term.ml" 75 2398 2462
+call(
+  tail
+)
+type(
+  Symb.SymbolSet.t
+)
+"completion/term.ml" 73 2340 2363 "completion/term.ml" 75 2398 2462
+type(
+  term list -> Symb.SymbolSet.t
+)
+"completion/term.ml" 78 2467 2471 "completion/term.ml" 78 2467 2477
+type(
+  Var.var -> term -> bool
+)
+ident(
+  def occurs "completion/term.ml" 85 2581 2581 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 78 2467 2478 "completion/term.ml" 78 2467 2479
+type(
+  Var.var
+)
+ident(
+  def x "completion/term.ml" 79 2482 2484 "completion/term.ml" 82 2568 2576
+)
+"completion/term.ml" 79 2482 2492 "completion/term.ml" 79 2482 2495
+type(
+  term -> bool
+)
+ident(
+  def aux "completion/term.ml" 79 2482 2484 "completion/term.ml" 82 2568 2576
+)
+"completion/term.ml" 80 2507 2517 "completion/term.ml" 80 2507 2518
+type(
+  Var.var
+)
+ident(
+  def y "completion/term.ml" 80 2507 2522 "completion/term.ml" 80 2507 2527
+)
+"completion/term.ml" 80 2507 2513 "completion/term.ml" 80 2507 2518
+type(
+  term
+)
+"completion/term.ml" 80 2507 2522 "completion/term.ml" 80 2507 2523
+type(
+  Var.var
+)
+ident(
+  int_ref y "completion/term.ml" 80 2507 2517 "completion/term.ml" 80 2507 2518
+)
+"completion/term.ml" 80 2507 2524 "completion/term.ml" 80 2507 2525
+type(
+  Var.var -> Var.var -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/term.ml" 80 2507 2526 "completion/term.ml" 80 2507 2527
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/term.ml" 78 2467 2478 "completion/term.ml" 78 2467 2479
+)
+"completion/term.ml" 80 2507 2522 "completion/term.ml" 80 2507 2527
+type(
+  bool
+)
+"completion/term.ml" 81 2528 2539 "completion/term.ml" 81 2528 2540
+type(
+  Symb.symbol
+)
+"completion/term.ml" 81 2528 2542 "completion/term.ml" 81 2528 2544
+type(
+  term list
+)
+ident(
+  def ts "completion/term.ml" 81 2528 2549 "completion/term.ml" 81 2528 2567
+)
+"completion/term.ml" 81 2528 2534 "completion/term.ml" 81 2528 2545
+type(
+  term
+)
+"completion/term.ml" 81 2528 2549 "completion/term.ml" 81 2528 2560
+type(
+  (term -> bool) -> term list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"completion/term.ml" 81 2528 2561 "completion/term.ml" 81 2528 2564
+type(
+  term -> bool
+)
+ident(
+  int_ref aux "completion/term.ml" 79 2482 2492 "completion/term.ml" 79 2482 2495
+)
+"completion/term.ml" 81 2528 2565 "completion/term.ml" 81 2528 2567
+type(
+  term list
+)
+ident(
+  int_ref ts "completion/term.ml" 81 2528 2542 "completion/term.ml" 81 2528 2544
+)
+"completion/term.ml" 81 2528 2549 "completion/term.ml" 81 2528 2567
+call(
+  tail
+)
+type(
+  bool
+)
+"completion/term.ml" 79 2482 2498 "completion/term.ml" 81 2528 2567
+type(
+  term -> bool
+)
+"completion/term.ml" 82 2568 2573 "completion/term.ml" 82 2568 2576
+type(
+  term -> bool
+)
+ident(
+  int_ref aux "completion/term.ml" 79 2482 2492 "completion/term.ml" 79 2482 2495
+)
+"completion/term.ml" 79 2482 2484 "completion/term.ml" 82 2568 2576
+type(
+  term -> bool
+)
+"completion/term.ml" 85 2581 2589 "completion/term.ml" 85 2581 2596
+type(
+  Format.formatter -> term -> unit
+)
+ident(
+  def fprintf "completion/term.ml" 85 2581 2581 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 85 2581 2597 "completion/term.ml" 85 2581 2600
+type(
+  Format.formatter
+)
+ident(
+  def ppf "completion/term.ml" 85 2581 2603 "completion/term.ml" 88 2735 2819
+)
+"completion/term.ml" 86 2612 2620 "completion/term.ml" 86 2612 2621
+type(
+  Var.var
+)
+ident(
+  def x "completion/term.ml" 86 2612 2625 "completion/term.ml" 86 2612 2670
+)
+"completion/term.ml" 86 2612 2616 "completion/term.ml" 86 2612 2621
+type(
+  term
+)
+"completion/term.ml" 86 2612 2625 "completion/term.ml" 86 2612 2639
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"completion/term.ml" 86 2612 2640 "completion/term.ml" 86 2612 2643
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/term.ml" 85 2581 2597 "completion/term.ml" 85 2581 2600
+)
+"completion/term.ml" 86 2612 2644 "completion/term.ml" 86 2612 2648
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"completion/term.ml" 86 2612 2650 "completion/term.ml" 86 2612 2667
+type(
+  Var.var -> string
+)
+ident(
+  ext_ref Var.raw_string_of_var
+)
+"completion/term.ml" 86 2612 2668 "completion/term.ml" 86 2612 2669
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/term.ml" 86 2612 2620 "completion/term.ml" 86 2612 2621
+)
+"completion/term.ml" 86 2612 2649 "completion/term.ml" 86 2612 2670
+call(
+  stack
+)
+type(
+  string
+)
+"completion/term.ml" 86 2612 2625 "completion/term.ml" 86 2612 2670
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/term.ml" 87 2671 2680 "completion/term.ml" 87 2671 2681
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/term.ml" 87 2671 2690 "completion/term.ml" 87 2671 2734
+)
+"completion/term.ml" 87 2671 2683 "completion/term.ml" 87 2671 2685
+type(
+  term list
+)
+"completion/term.ml" 87 2671 2675 "completion/term.ml" 87 2671 2686
+type(
+  term
+)
+"completion/term.ml" 87 2671 2690 "completion/term.ml" 87 2671 2704
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"completion/term.ml" 87 2671 2705 "completion/term.ml" 87 2671 2708
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/term.ml" 85 2581 2597 "completion/term.ml" 85 2581 2600
+)
+"completion/term.ml" 87 2671 2709 "completion/term.ml" 87 2671 2713
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"completion/term.ml" 87 2671 2715 "completion/term.ml" 87 2671 2731
+type(
+  Symb.symbol -> string
+)
+ident(
+  ext_ref Symb.string_of_symbol
+)
+"completion/term.ml" 87 2671 2732 "completion/term.ml" 87 2671 2733
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/term.ml" 87 2671 2680 "completion/term.ml" 87 2671 2681
+)
+"completion/term.ml" 87 2671 2714 "completion/term.ml" 87 2671 2734
+call(
+  stack
+)
+type(
+  string
+)
+"completion/term.ml" 87 2671 2690 "completion/term.ml" 87 2671 2734
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/term.ml" 88 2735 2744 "completion/term.ml" 88 2735 2745
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/term.ml" 88 2735 2754 "completion/term.ml" 88 2735 2819
+)
+"completion/term.ml" 88 2735 2747 "completion/term.ml" 88 2735 2749
+type(
+  term list
+)
+ident(
+  def ts "completion/term.ml" 88 2735 2754 "completion/term.ml" 88 2735 2819
+)
+"completion/term.ml" 88 2735 2739 "completion/term.ml" 88 2735 2750
+type(
+  term
+)
+"completion/term.ml" 88 2735 2754 "completion/term.ml" 88 2735 2768
+type(
+  Format.formatter ->
+  (string -> (Format.formatter -> term list -> unit) -> term list -> unit,
+   Format.formatter, unit)
+  format ->
+  string -> (Format.formatter -> term list -> unit) -> term list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"completion/term.ml" 88 2735 2769 "completion/term.ml" 88 2735 2772
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/term.ml" 85 2581 2597 "completion/term.ml" 85 2581 2600
+)
+"completion/term.ml" 88 2735 2773 "completion/term.ml" 88 2735 2781
+type(
+  (string -> (Format.formatter -> term list -> unit) -> term list -> unit,
+   Format.formatter, unit)
+  format
+)
+"completion/term.ml" 88 2735 2783 "completion/term.ml" 88 2735 2799
+type(
+  Symb.symbol -> string
+)
+ident(
+  ext_ref Symb.string_of_symbol
+)
+"completion/term.ml" 88 2735 2800 "completion/term.ml" 88 2735 2801
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/term.ml" 88 2735 2744 "completion/term.ml" 88 2735 2745
+)
+"completion/term.ml" 88 2735 2782 "completion/term.ml" 88 2735 2802
+call(
+  stack
+)
+type(
+  string
+)
+"completion/term.ml" 88 2735 2803 "completion/term.ml" 88 2735 2816
+type(
+  Format.formatter -> term list -> unit
+)
+ident(
+  int_ref fprintf_terms "completion/term.ml" 90 2821 2825 "completion/term.ml" 90 2821 2838
+)
+"completion/term.ml" 88 2735 2817 "completion/term.ml" 88 2735 2819
+type(
+  term list
+)
+ident(
+  int_ref ts "completion/term.ml" 88 2735 2747 "completion/term.ml" 88 2735 2749
+)
+"completion/term.ml" 88 2735 2754 "completion/term.ml" 88 2735 2819
+call(
+  tail
+)
+type(
+  unit
+)
+"completion/term.ml" 85 2581 2603 "completion/term.ml" 88 2735 2819
+type(
+  term -> unit
+)
+"completion/term.ml" 90 2821 2825 "completion/term.ml" 90 2821 2838
+type(
+  Format.formatter -> term list -> unit
+)
+ident(
+  def fprintf_terms "completion/term.ml" 85 2581 2581 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 90 2821 2839 "completion/term.ml" 90 2821 2842
+type(
+  Format.formatter
+)
+ident(
+  def ppf "completion/term.ml" 90 2821 2845 "completion/term.ml" 90 2821 2889
+)
+"completion/term.ml" 90 2821 2845 "completion/term.ml" 90 2821 2854
+type(
+  (term -> unit) -> term list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"completion/term.ml" 90 2821 2856 "completion/term.ml" 90 2821 2870
+type(
+  Format.formatter ->
+  ((Format.formatter -> term -> unit) -> term -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> term -> unit) -> term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"completion/term.ml" 90 2821 2871 "completion/term.ml" 90 2821 2874
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "completion/term.ml" 90 2821 2839 "completion/term.ml" 90 2821 2842
+)
+"completion/term.ml" 90 2821 2875 "completion/term.ml" 90 2821 2880
+type(
+  ((Format.formatter -> term -> unit) -> term -> unit, Format.formatter,
+   unit)
+  format
+)
+"completion/term.ml" 90 2821 2881 "completion/term.ml" 90 2821 2888
+type(
+  Format.formatter -> term -> unit
+)
+ident(
+  int_ref fprintf "completion/term.ml" 85 2581 2589 "completion/term.ml" 85 2581 2596
+)
+"completion/term.ml" 90 2821 2855 "completion/term.ml" 90 2821 2889
+call(
+  stack
+)
+type(
+  term -> unit
+)
+"completion/term.ml" 90 2821 2845 "completion/term.ml" 90 2821 2889
+call(
+  tail
+)
+type(
+  term list -> unit
+)
+"completion/term.ml" 93 2894 2898 "completion/term.ml" 93 2894 2904
+type(
+  Var.var Var.VarMap.t -> term -> term
+)
+ident(
+  def rename "completion/term.ml" 102 3109 3109 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 93 2894 2905 "completion/term.ml" 93 2894 2909
+type(
+  Var.var Var.VarMap.t
+)
+ident(
+  def imap "completion/term.ml" 94 2912 2914 "completion/term.ml" 97 3057 3062
+)
+"completion/term.ml" 94 2912 2922 "completion/term.ml" 94 2912 2925
+type(
+  term -> term
+)
+ident(
+  def aux "completion/term.ml" 94 2912 2914 "completion/term.ml" 97 3057 3062
+)
+"completion/term.ml" 95 2937 2947 "completion/term.ml" 95 2937 2948
+type(
+  Var.var
+)
+ident(
+  def x "completion/term.ml" 95 2937 2957 "completion/term.ml" 95 2937 3007
+)
+"completion/term.ml" 95 2937 2943 "completion/term.ml" 95 2937 2948
+type(
+  term
+)
+"completion/term.ml" 95 2937 2952 "completion/term.ml" 95 2937 2953
+ident(
+  def t "completion/term.ml" 95 2937 2957 "completion/term.ml" 95 2937 3007
+)
+"completion/term.ml" 95 2937 2943 "completion/term.ml" 95 2937 2953
+type(
+  term
+)
+"completion/term.ml" 95 2937 2967 "completion/term.ml" 95 2937 2978
+type(
+  Var.VarMap.key -> Var.var Var.VarMap.t -> Var.var
+)
+ident(
+  ext_ref Var.VarMap.find
+)
+"completion/term.ml" 95 2937 2979 "completion/term.ml" 95 2937 2980
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/term.ml" 95 2937 2947 "completion/term.ml" 95 2937 2948
+)
+"completion/term.ml" 95 2937 2981 "completion/term.ml" 95 2937 2985
+type(
+  Var.var Var.VarMap.t
+)
+ident(
+  int_ref imap "completion/term.ml" 93 2894 2905 "completion/term.ml" 93 2894 2909
+)
+"completion/term.ml" 95 2937 2966 "completion/term.ml" 95 2937 2986
+call(
+  stack
+)
+type(
+  Var.var
+)
+"completion/term.ml" 95 2937 2962 "completion/term.ml" 95 2937 2986
+type(
+  term
+)
+"completion/term.ml" 95 2937 2992 "completion/term.ml" 95 2937 3001
+type(
+  exn
+)
+"completion/term.ml" 95 2937 3005 "completion/term.ml" 95 2937 3006
+type(
+  term
+)
+ident(
+  int_ref t "completion/term.ml" 95 2937 2943 "completion/term.ml" 95 2937 2953
+)
+"completion/term.ml" 95 2937 2957 "completion/term.ml" 95 2937 3007
+type(
+  term
+)
+"completion/term.ml" 96 3008 3019 "completion/term.ml" 96 3008 3020
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/term.ml" 96 3008 3029 "completion/term.ml" 96 3008 3053
+)
+"completion/term.ml" 96 3008 3022 "completion/term.ml" 96 3008 3024
+type(
+  term list
+)
+ident(
+  def ts "completion/term.ml" 96 3008 3029 "completion/term.ml" 96 3008 3053
+)
+"completion/term.ml" 96 3008 3014 "completion/term.ml" 96 3008 3025
+type(
+  term
+)
+"completion/term.ml" 96 3008 3034 "completion/term.ml" 96 3008 3035
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/term.ml" 96 3008 3019 "completion/term.ml" 96 3008 3020
+)
+"completion/term.ml" 96 3008 3037 "completion/term.ml" 96 3008 3045
+type(
+  (term -> term) -> term list -> term list
+)
+ident(
+  ext_ref List.map
+)
+"completion/term.ml" 96 3008 3046 "completion/term.ml" 96 3008 3049
+type(
+  term -> term
+)
+ident(
+  int_ref aux "completion/term.ml" 94 2912 2922 "completion/term.ml" 94 2912 2925
+)
+"completion/term.ml" 96 3008 3050 "completion/term.ml" 96 3008 3052
+type(
+  term list
+)
+ident(
+  int_ref ts "completion/term.ml" 96 3008 3022 "completion/term.ml" 96 3008 3024
+)
+"completion/term.ml" 96 3008 3037 "completion/term.ml" 96 3008 3052
+call(
+  stack
+)
+type(
+  term list
+)
+"completion/term.ml" 96 3008 3029 "completion/term.ml" 96 3008 3053
+type(
+  term
+)
+"completion/term.ml" 94 2912 2928 "completion/term.ml" 96 3008 3053
+type(
+  term -> term
+)
+"completion/term.ml" 97 3057 3059 "completion/term.ml" 97 3057 3062
+type(
+  term -> term
+)
+ident(
+  int_ref aux "completion/term.ml" 94 2912 2922 "completion/term.ml" 94 2912 2925
+)
+"completion/term.ml" 94 2912 2914 "completion/term.ml" 97 3057 3062
+type(
+  term -> term
+)
+"completion/term.ml" 102 3109 3117 "completion/term.ml" 102 3109 3126
+type(
+  Var.var list -> term -> Var.var list
+)
+ident(
+  def list_vars "completion/term.ml" 102 3109 3109 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 102 3109 3127 "completion/term.ml" 102 3109 3130
+type(
+  Var.var list
+)
+ident(
+  def acc "completion/term.ml" 102 3109 3133 "completion/term.ml" 104 3164 3208
+)
+"completion/term.ml" 103 3142 3150 "completion/term.ml" 103 3142 3151
+type(
+  Var.var
+)
+ident(
+  def x "completion/term.ml" 103 3142 3155 "completion/term.ml" 103 3142 3163
+)
+"completion/term.ml" 103 3142 3146 "completion/term.ml" 103 3142 3151
+type(
+  term
+)
+"completion/term.ml" 103 3142 3155 "completion/term.ml" 103 3142 3156
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/term.ml" 103 3142 3150 "completion/term.ml" 103 3142 3151
+)
+"completion/term.ml" 103 3142 3160 "completion/term.ml" 103 3142 3163
+type(
+  Var.var list
+)
+ident(
+  int_ref acc "completion/term.ml" 102 3109 3127 "completion/term.ml" 102 3109 3130
+)
+"completion/term.ml" 103 3142 3155 "completion/term.ml" 103 3142 3163
+type(
+  Var.var list
+)
+"completion/term.ml" 104 3164 3173 "completion/term.ml" 104 3164 3174
+type(
+  Symb.symbol
+)
+"completion/term.ml" 104 3164 3176 "completion/term.ml" 104 3164 3178
+type(
+  term list
+)
+ident(
+  def ts "completion/term.ml" 104 3164 3183 "completion/term.ml" 104 3164 3208
+)
+"completion/term.ml" 104 3164 3168 "completion/term.ml" 104 3164 3179
+type(
+  term
+)
+"completion/term.ml" 104 3164 3183 "completion/term.ml" 104 3164 3201
+type(
+  Var.var list -> term list -> Var.var list
+)
+ident(
+  int_ref list_vars_of_terms "completion/term.ml" 106 3210 3214 "completion/term.ml" 106 3210 3232
+)
+"completion/term.ml" 104 3164 3202 "completion/term.ml" 104 3164 3205
+type(
+  Var.var list
+)
+ident(
+  int_ref acc "completion/term.ml" 102 3109 3127 "completion/term.ml" 102 3109 3130
+)
+"completion/term.ml" 104 3164 3206 "completion/term.ml" 104 3164 3208
+type(
+  term list
+)
+ident(
+  int_ref ts "completion/term.ml" 104 3164 3176 "completion/term.ml" 104 3164 3178
+)
+"completion/term.ml" 104 3164 3183 "completion/term.ml" 104 3164 3208
+call(
+  tail
+)
+type(
+  Var.var list
+)
+"completion/term.ml" 102 3109 3133 "completion/term.ml" 104 3164 3208
+type(
+  term -> Var.var list
+)
+"completion/term.ml" 106 3210 3214 "completion/term.ml" 106 3210 3232
+type(
+  Var.var list -> term list -> Var.var list
+)
+ident(
+  def list_vars_of_terms "completion/term.ml" 102 3109 3109 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 106 3210 3233 "completion/term.ml" 106 3210 3236
+type(
+  Var.var list
+)
+ident(
+  def acc "completion/term.ml" 106 3210 3239 "completion/term.ml" 108 3262 3316
+)
+"completion/term.ml" 107 3248 3252 "completion/term.ml" 107 3248 3254
+type(
+  term list
+)
+"completion/term.ml" 107 3248 3258 "completion/term.ml" 107 3248 3261
+type(
+  Var.var list
+)
+ident(
+  int_ref acc "completion/term.ml" 106 3210 3233 "completion/term.ml" 106 3210 3236
+)
+"completion/term.ml" 108 3262 3266 "completion/term.ml" 108 3262 3267
+type(
+  term
+)
+ident(
+  def t "completion/term.ml" 108 3262 3277 "completion/term.ml" 108 3262 3316
+)
+"completion/term.ml" 108 3262 3271 "completion/term.ml" 108 3262 3273
+type(
+  term list
+)
+ident(
+  def ts "completion/term.ml" 108 3262 3277 "completion/term.ml" 108 3262 3316
+)
+"completion/term.ml" 108 3262 3266 "completion/term.ml" 108 3262 3273
+type(
+  term list
+)
+"completion/term.ml" 108 3262 3277 "completion/term.ml" 108 3262 3295
+type(
+  Var.var list -> term list -> Var.var list
+)
+ident(
+  int_ref list_vars_of_terms "completion/term.ml" 106 3210 3214 "completion/term.ml" 106 3210 3232
+)
+"completion/term.ml" 108 3262 3297 "completion/term.ml" 108 3262 3306
+type(
+  Var.var list -> term -> Var.var list
+)
+ident(
+  int_ref list_vars "completion/term.ml" 102 3109 3117 "completion/term.ml" 102 3109 3126
+)
+"completion/term.ml" 108 3262 3307 "completion/term.ml" 108 3262 3310
+type(
+  Var.var list
+)
+ident(
+  int_ref acc "completion/term.ml" 106 3210 3233 "completion/term.ml" 106 3210 3236
+)
+"completion/term.ml" 108 3262 3311 "completion/term.ml" 108 3262 3312
+type(
+  term
+)
+ident(
+  int_ref t "completion/term.ml" 108 3262 3266 "completion/term.ml" 108 3262 3267
+)
+"completion/term.ml" 108 3262 3296 "completion/term.ml" 108 3262 3313
+call(
+  stack
+)
+type(
+  Var.var list
+)
+"completion/term.ml" 108 3262 3314 "completion/term.ml" 108 3262 3316
+type(
+  term list
+)
+ident(
+  int_ref ts "completion/term.ml" 108 3262 3271 "completion/term.ml" 108 3262 3273
+)
+"completion/term.ml" 108 3262 3277 "completion/term.ml" 108 3262 3316
+call(
+  tail
+)
+type(
+  Var.var list
+)
+"completion/term.ml" 106 3210 3239 "completion/term.ml" 108 3262 3316
+type(
+  term list -> Var.var list
+)
+"completion/term.ml" 111 3321 3325 "completion/term.ml" 111 3321 3334
+type(
+  term -> Var.var list
+)
+ident(
+  def list_vars "completion/term.ml" 112 3352 3352 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 111 3321 3337 "completion/term.ml" 111 3321 3346
+type(
+  Var.var list -> term -> Var.var list
+)
+ident(
+  int_ref list_vars "completion/term.ml" 102 3109 3117 "completion/term.ml" 102 3109 3126
+)
+"completion/term.ml" 111 3321 3347 "completion/term.ml" 111 3321 3349
+type(
+  Var.var list
+)
+"completion/term.ml" 111 3321 3337 "completion/term.ml" 111 3321 3349
+call(
+  stack
+)
+type(
+  term -> Var.var list
+)
+"completion/term.ml" 112 3352 3356 "completion/term.ml" 112 3352 3374
+type(
+  term list -> Var.var list
+)
+ident(
+  def list_vars_of_terms "completion/term.ml" 114 3402 3402 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 112 3352 3377 "completion/term.ml" 112 3352 3395
+type(
+  Var.var list -> term list -> Var.var list
+)
+ident(
+  int_ref list_vars_of_terms "completion/term.ml" 106 3210 3214 "completion/term.ml" 106 3210 3232
+)
+"completion/term.ml" 112 3352 3396 "completion/term.ml" 112 3352 3398
+type(
+  Var.var list
+)
+"completion/term.ml" 112 3352 3377 "completion/term.ml" 112 3352 3398
+call(
+  stack
+)
+type(
+  term list -> Var.var list
+)
+"completion/term.ml" 114 3402 3406 "completion/term.ml" 114 3402 3415
+type(
+  term -> term
+)
+ident(
+  def canonical "completion/term.ml" 122 3574 3574 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 114 3402 3416 "completion/term.ml" 114 3402 3417
+type(
+  term
+)
+ident(
+  def t "completion/term.ml" 115 3420 3422 "completion/term.ml" 119 3559 3569
+)
+"completion/term.ml" 115 3420 3426 "completion/term.ml" 115 3420 3428
+type(
+  Var.var list
+)
+ident(
+  def xs "completion/term.ml" 116 3446 3448 "completion/term.ml" 119 3559 3569
+)
+"completion/term.ml" 115 3420 3431 "completion/term.ml" 115 3420 3440
+type(
+  term -> Var.var list
+)
+ident(
+  int_ref list_vars "completion/term.ml" 111 3321 3325 "completion/term.ml" 111 3321 3334
+)
+"completion/term.ml" 115 3420 3441 "completion/term.ml" 115 3420 3442
+type(
+  term
+)
+ident(
+  int_ref t "completion/term.ml" 114 3402 3416 "completion/term.ml" 114 3402 3417
+)
+"completion/term.ml" 115 3420 3431 "completion/term.ml" 115 3420 3442
+call(
+  stack
+)
+type(
+  Var.var list
+)
+"completion/term.ml" 116 3446 3456 "completion/term.ml" 116 3446 3459
+type(
+  term -> term
+)
+ident(
+  def aux "completion/term.ml" 116 3446 3448 "completion/term.ml" 119 3559 3569
+)
+"completion/term.ml" 117 3471 3481 "completion/term.ml" 117 3471 3482
+type(
+  Var.var
+)
+ident(
+  def x "completion/term.ml" 117 3471 3486 "completion/term.ml" 117 3471 3512
+)
+"completion/term.ml" 117 3471 3477 "completion/term.ml" 117 3471 3482
+type(
+  term
+)
+"completion/term.ml" 117 3471 3491 "completion/term.ml" 117 3471 3506
+type(
+  Var.var -> Var.var list -> Var.var
+)
+ident(
+  ext_ref Mylist.position
+)
+"completion/term.ml" 117 3471 3507 "completion/term.ml" 117 3471 3508
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/term.ml" 117 3471 3481 "completion/term.ml" 117 3471 3482
+)
+"completion/term.ml" 117 3471 3509 "completion/term.ml" 117 3471 3511
+type(
+  Var.var list
+)
+ident(
+  int_ref xs "completion/term.ml" 115 3420 3426 "completion/term.ml" 115 3420 3428
+)
+"completion/term.ml" 117 3471 3490 "completion/term.ml" 117 3471 3512
+call(
+  stack
+)
+type(
+  Var.var
+)
+"completion/term.ml" 117 3471 3486 "completion/term.ml" 117 3471 3512
+type(
+  term
+)
+"completion/term.ml" 118 3513 3524 "completion/term.ml" 118 3513 3525
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/term.ml" 118 3513 3534 "completion/term.ml" 118 3513 3558
+)
+"completion/term.ml" 118 3513 3527 "completion/term.ml" 118 3513 3529
+type(
+  term list
+)
+ident(
+  def ts "completion/term.ml" 118 3513 3534 "completion/term.ml" 118 3513 3558
+)
+"completion/term.ml" 118 3513 3519 "completion/term.ml" 118 3513 3530
+type(
+  term
+)
+"completion/term.ml" 118 3513 3539 "completion/term.ml" 118 3513 3540
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/term.ml" 118 3513 3524 "completion/term.ml" 118 3513 3525
+)
+"completion/term.ml" 118 3513 3542 "completion/term.ml" 118 3513 3550
+type(
+  (term -> term) -> term list -> term list
+)
+ident(
+  ext_ref List.map
+)
+"completion/term.ml" 118 3513 3551 "completion/term.ml" 118 3513 3554
+type(
+  term -> term
+)
+ident(
+  int_ref aux "completion/term.ml" 116 3446 3456 "completion/term.ml" 116 3446 3459
+)
+"completion/term.ml" 118 3513 3555 "completion/term.ml" 118 3513 3557
+type(
+  term list
+)
+ident(
+  int_ref ts "completion/term.ml" 118 3513 3527 "completion/term.ml" 118 3513 3529
+)
+"completion/term.ml" 118 3513 3542 "completion/term.ml" 118 3513 3557
+call(
+  stack
+)
+type(
+  term list
+)
+"completion/term.ml" 118 3513 3534 "completion/term.ml" 118 3513 3558
+type(
+  term
+)
+"completion/term.ml" 116 3446 3462 "completion/term.ml" 118 3513 3558
+type(
+  term -> term
+)
+"completion/term.ml" 119 3559 3564 "completion/term.ml" 119 3559 3567
+type(
+  term -> term
+)
+ident(
+  int_ref aux "completion/term.ml" 116 3446 3456 "completion/term.ml" 116 3446 3459
+)
+"completion/term.ml" 119 3559 3568 "completion/term.ml" 119 3559 3569
+type(
+  term
+)
+ident(
+  int_ref t "completion/term.ml" 114 3402 3416 "completion/term.ml" 114 3402 3417
+)
+"completion/term.ml" 119 3559 3564 "completion/term.ml" 119 3559 3569
+call(
+  tail
+)
+type(
+  term
+)
+"completion/term.ml" 116 3446 3448 "completion/term.ml" 119 3559 3569
+type(
+  term
+)
+"completion/term.ml" 115 3420 3422 "completion/term.ml" 119 3559 3569
+type(
+  term
+)
+"completion/term.ml" 122 3574 3578 "completion/term.ml" 122 3574 3585
+type(
+  term -> term -> int
+)
+ident(
+  def compare "completion/term.ml" 124 3642 3642 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 122 3574 3586 "completion/term.ml" 122 3574 3587
+type(
+  term
+)
+ident(
+  def t "completion/term.ml" 122 3574 3588 "completion/term.ml" 122 3574 3638
+)
+"completion/term.ml" 122 3574 3588 "completion/term.ml" 122 3574 3589
+type(
+  term
+)
+ident(
+  def u "completion/term.ml" 122 3574 3592 "completion/term.ml" 122 3574 3638
+)
+"completion/term.ml" 122 3574 3592 "completion/term.ml" 122 3574 3610
+type(
+  term -> term -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"completion/term.ml" 122 3574 3612 "completion/term.ml" 122 3574 3621
+type(
+  term -> term
+)
+ident(
+  int_ref canonical "completion/term.ml" 114 3402 3406 "completion/term.ml" 114 3402 3415
+)
+"completion/term.ml" 122 3574 3622 "completion/term.ml" 122 3574 3623
+type(
+  term
+)
+ident(
+  int_ref t "completion/term.ml" 122 3574 3586 "completion/term.ml" 122 3574 3587
+)
+"completion/term.ml" 122 3574 3611 "completion/term.ml" 122 3574 3624
+call(
+  stack
+)
+type(
+  term
+)
+"completion/term.ml" 122 3574 3626 "completion/term.ml" 122 3574 3635
+type(
+  term -> term
+)
+ident(
+  int_ref canonical "completion/term.ml" 114 3402 3406 "completion/term.ml" 114 3402 3415
+)
+"completion/term.ml" 122 3574 3636 "completion/term.ml" 122 3574 3637
+type(
+  term
+)
+ident(
+  int_ref u "completion/term.ml" 122 3574 3588 "completion/term.ml" 122 3574 3589
+)
+"completion/term.ml" 122 3574 3625 "completion/term.ml" 122 3574 3638
+call(
+  stack
+)
+type(
+  term
+)
+"completion/term.ml" 122 3574 3592 "completion/term.ml" 122 3574 3638
+type(
+  int
+)
+"completion/term.ml" 124 3642 3646 "completion/term.ml" 124 3642 3648
+type(
+  term -> term -> bool
+)
+ident(
+  def eq "completion/term.ml" 128 3698 3698 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 124 3642 3649 "completion/term.ml" 124 3642 3650
+type(
+  term
+)
+ident(
+  def t "completion/term.ml" 124 3642 3651 "completion/term.ml" 124 3642 3670
+)
+"completion/term.ml" 124 3642 3651 "completion/term.ml" 124 3642 3652
+type(
+  term
+)
+ident(
+  def u "completion/term.ml" 124 3642 3655 "completion/term.ml" 124 3642 3670
+)
+"completion/term.ml" 124 3642 3655 "completion/term.ml" 124 3642 3662
+type(
+  term -> term -> int
+)
+ident(
+  int_ref compare "completion/term.ml" 122 3574 3578 "completion/term.ml" 122 3574 3585
+)
+"completion/term.ml" 124 3642 3663 "completion/term.ml" 124 3642 3664
+type(
+  term
+)
+ident(
+  int_ref t "completion/term.ml" 124 3642 3649 "completion/term.ml" 124 3642 3650
+)
+"completion/term.ml" 124 3642 3665 "completion/term.ml" 124 3642 3666
+type(
+  term
+)
+ident(
+  int_ref u "completion/term.ml" 124 3642 3651 "completion/term.ml" 124 3642 3652
+)
+"completion/term.ml" 124 3642 3655 "completion/term.ml" 124 3642 3666
+call(
+  stack
+)
+type(
+  int
+)
+"completion/term.ml" 124 3642 3667 "completion/term.ml" 124 3642 3668
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/term.ml" 124 3642 3669 "completion/term.ml" 124 3642 3670
+type(
+  int
+)
+"completion/term.ml" 124 3642 3655 "completion/term.ml" 124 3642 3670
+type(
+  bool
+)
+"completion/term.ml" 128 3698 3702 "completion/term.ml" 128 3698 3711
+type(
+  term -> term * Var.VarSet.elt Var.VarMap.t
+)
+ident(
+  def linearize "completion/term.ml" 147 4239 4250 "completion/term.ml" 1 0 -1
+)
+"completion/term.ml" 130 3715 3721 "completion/term.ml" 130 3715 3725
+type(
+  unit -> unit
+)
+ident(
+  def init "completion/term.ml" 139 4066 4068 "completion/term.ml" 147 4239 4250
+)
+"completion/term.ml" 130 3715 3727 "completion/term.ml" 130 3715 3735
+type(
+  unit -> Var.VarSet.elt Var.VarMap.t
+)
+ident(
+  def get_imap "completion/term.ml" 139 4066 4068 "completion/term.ml" 147 4239 4250
+)
+"completion/term.ml" 130 3715 3737 "completion/term.ml" 130 3715 3742
+type(
+  Var.VarSet.elt -> term
+)
+ident(
+  def fresh "completion/term.ml" 139 4066 4068 "completion/term.ml" 147 4239 4250
+)
+"completion/term.ml" 130 3715 3721 "completion/term.ml" 130 3715 3742
+type(
+  (unit -> unit) * (unit -> Var.VarSet.elt Var.VarMap.t) *
+  (Var.VarSet.elt -> term)
+)
+"completion/term.ml" 131 3745 3753 "completion/term.ml" 131 3745 3754
+type(
+  Var.VarMap.key ref
+)
+ident(
+  def v "completion/term.ml" 132 3822 3826 "completion/term.ml" 137 4014 4061
+)
+"completion/term.ml" 131 3745 3757 "completion/term.ml" 131 3745 3760
+type(
+  Var.VarMap.key -> Var.VarMap.key ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"completion/term.ml" 131 3745 3761 "completion/term.ml" 131 3745 3762
+type(
+  Var.VarMap.key
+)
+"completion/term.ml" 131 3745 3757 "completion/term.ml" 131 3745 3762
+type(
+  Var.VarMap.key ref
+)
+"completion/term.ml" 131 3745 3767 "completion/term.ml" 131 3745 3771
+type(
+  Var.VarSet.t ref
+)
+ident(
+  def vset "completion/term.ml" 132 3822 3826 "completion/term.ml" 137 4014 4061
+)
+"completion/term.ml" 131 3745 3774 "completion/term.ml" 131 3745 3777
+type(
+  Var.VarSet.t -> Var.VarSet.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"completion/term.ml" 131 3745 3778 "completion/term.ml" 131 3745 3790
+type(
+  Var.VarSet.t
+)
+ident(
+  ext_ref Var.VarSet.empty
+)
+"completion/term.ml" 131 3745 3774 "completion/term.ml" 131 3745 3790
+type(
+  Var.VarSet.t ref
+)
+"completion/term.ml" 131 3745 3795 "completion/term.ml" 131 3745 3799
+type(
+  Var.VarSet.elt Var.VarMap.t ref
+)
+ident(
+  def imap "completion/term.ml" 132 3822 3826 "completion/term.ml" 137 4014 4061
+)
+"completion/term.ml" 131 3745 3802 "completion/term.ml" 131 3745 3805
+type(
+  Var.VarSet.elt Var.VarMap.t -> Var.VarSet.elt Var.VarMap.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"completion/term.ml" 131 3745 3806 "completion/term.ml" 131 3745 3818
+type(
+  Var.VarSet.elt Var.VarMap.t
+)
+ident(
+  ext_ref Var.VarMap.empty
+)
+"completion/term.ml" 131 3745 3802 "completion/term.ml" 131 3745 3818
+type(
+  Var.VarSet.elt Var.VarMap.t ref
+)
+"completion/term.ml" 132 3822 3831 "completion/term.ml" 132 3822 3833
+type(
+  unit
+)
+"completion/term.ml" 132 3822 3837 "completion/term.ml" 132 3822 3838
+type(
+  Var.VarMap.key ref
+)
+ident(
+  int_ref v "completion/term.ml" 131 3745 3753 "completion/term.ml" 131 3745 3754
+)
+"completion/term.ml" 132 3822 3839 "completion/term.ml" 132 3822 3841
+type(
+  Var.VarMap.key ref -> Var.VarMap.key -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/term.ml" 132 3822 3842 "completion/term.ml" 132 3822 3843
+type(
+  Var.VarMap.key
+)
+"completion/term.ml" 132 3822 3837 "completion/term.ml" 132 3822 3843
+type(
+  unit
+)
+"completion/term.ml" 132 3822 3845 "completion/term.ml" 132 3822 3849
+type(
+  Var.VarSet.t ref
+)
+ident(
+  int_ref vset "completion/term.ml" 131 3745 3767 "completion/term.ml" 131 3745 3771
+)
+"completion/term.ml" 132 3822 3850 "completion/term.ml" 132 3822 3852
+type(
+  Var.VarSet.t ref -> Var.VarSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/term.ml" 132 3822 3853 "completion/term.ml" 132 3822 3865
+type(
+  Var.VarSet.t
+)
+ident(
+  ext_ref Var.VarSet.empty
+)
+"completion/term.ml" 132 3822 3845 "completion/term.ml" 132 3822 3865
+type(
+  unit
+)
+"completion/term.ml" 132 3822 3867 "completion/term.ml" 132 3822 3871
+type(
+  Var.VarSet.elt Var.VarMap.t ref
+)
+ident(
+  int_ref imap "completion/term.ml" 131 3745 3795 "completion/term.ml" 131 3745 3799
+)
+"completion/term.ml" 132 3822 3872 "completion/term.ml" 132 3822 3874
+type(
+  Var.VarSet.elt Var.VarMap.t ref -> Var.VarSet.elt Var.VarMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/term.ml" 132 3822 3875 "completion/term.ml" 132 3822 3887
+type(
+  Var.VarSet.elt Var.VarMap.t
+)
+ident(
+  ext_ref Var.VarMap.empty
+)
+"completion/term.ml" 132 3822 3867 "completion/term.ml" 132 3822 3887
+type(
+  unit
+)
+"completion/term.ml" 132 3822 3845 "completion/term.ml" 132 3822 3887
+type(
+  unit
+)
+"completion/term.ml" 132 3822 3837 "completion/term.ml" 132 3822 3887
+type(
+  unit
+)
+"completion/term.ml" 132 3822 3826 "completion/term.ml" 132 3822 3888
+type(
+  unit -> unit
+)
+"completion/term.ml" 133 3890 3899 "completion/term.ml" 133 3890 3901
+type(
+  unit
+)
+"completion/term.ml" 133 3890 3905 "completion/term.ml" 133 3890 3906
+type(
+  Var.VarSet.elt Var.VarMap.t ref -> Var.VarSet.elt Var.VarMap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/term.ml" 133 3890 3906 "completion/term.ml" 133 3890 3910
+type(
+  Var.VarSet.elt Var.VarMap.t ref
+)
+ident(
+  int_ref imap "completion/term.ml" 131 3745 3795 "completion/term.ml" 131 3745 3799
+)
+"completion/term.ml" 133 3890 3905 "completion/term.ml" 133 3890 3910
+type(
+  Var.VarSet.elt Var.VarMap.t
+)
+"completion/term.ml" 133 3890 3894 "completion/term.ml" 133 3890 3911
+type(
+  unit -> Var.VarSet.elt Var.VarMap.t
+)
+"completion/term.ml" 134 3913 3922 "completion/term.ml" 134 3913 3923
+type(
+  Var.VarSet.elt
+)
+ident(
+  def x "completion/term.ml" 135 3927 3933 "completion/term.ml" 137 4014 4060
+)
+"completion/term.ml" 135 3927 3936 "completion/term.ml" 135 3927 3946
+type(
+  Var.VarSet.elt -> Var.VarSet.t -> bool
+)
+ident(
+  ext_ref Var.VarSet.mem
+)
+"completion/term.ml" 135 3927 3947 "completion/term.ml" 135 3927 3948
+type(
+  Var.VarSet.elt
+)
+ident(
+  int_ref x "completion/term.ml" 134 3913 3922 "completion/term.ml" 134 3913 3923
+)
+"completion/term.ml" 135 3927 3949 "completion/term.ml" 135 3927 3950
+type(
+  Var.VarSet.t ref -> Var.VarSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/term.ml" 135 3927 3950 "completion/term.ml" 135 3927 3954
+type(
+  Var.VarSet.t ref
+)
+ident(
+  int_ref vset "completion/term.ml" 131 3745 3767 "completion/term.ml" 131 3745 3771
+)
+"completion/term.ml" 135 3927 3949 "completion/term.ml" 135 3927 3954
+type(
+  Var.VarSet.t
+)
+"completion/term.ml" 135 3927 3936 "completion/term.ml" 135 3927 3954
+call(
+  stack
+)
+type(
+  bool
+)
+"completion/term.ml" 136 3955 3967 "completion/term.ml" 136 3955 3971
+type(
+  Var.VarMap.key ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"completion/term.ml" 136 3955 3972 "completion/term.ml" 136 3955 3973
+type(
+  Var.VarMap.key ref
+)
+ident(
+  int_ref v "completion/term.ml" 131 3745 3753 "completion/term.ml" 131 3745 3754
+)
+"completion/term.ml" 136 3955 3967 "completion/term.ml" 136 3955 3973
+type(
+  unit
+)
+"completion/term.ml" 136 3955 3975 "completion/term.ml" 136 3955 3979
+type(
+  Var.VarSet.elt Var.VarMap.t ref
+)
+ident(
+  int_ref imap "completion/term.ml" 131 3745 3795 "completion/term.ml" 131 3745 3799
+)
+"completion/term.ml" 136 3955 3980 "completion/term.ml" 136 3955 3982
+type(
+  Var.VarSet.elt Var.VarMap.t ref -> Var.VarSet.elt Var.VarMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/term.ml" 136 3955 3983 "completion/term.ml" 136 3955 3993
+type(
+  Var.VarMap.key ->
+  Var.VarSet.elt ->
+  Var.VarSet.elt Var.VarMap.t -> Var.VarSet.elt Var.VarMap.t
+)
+ident(
+  ext_ref Var.VarMap.add
+)
+"completion/term.ml" 136 3955 3994 "completion/term.ml" 136 3955 3995
+type(
+  Var.VarMap.key ref -> Var.VarMap.key
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/term.ml" 136 3955 3995 "completion/term.ml" 136 3955 3996
+type(
+  Var.VarMap.key ref
+)
+ident(
+  int_ref v "completion/term.ml" 131 3745 3753 "completion/term.ml" 131 3745 3754
+)
+"completion/term.ml" 136 3955 3994 "completion/term.ml" 136 3955 3996
+type(
+  Var.VarMap.key
+)
+"completion/term.ml" 136 3955 3997 "completion/term.ml" 136 3955 3998
+type(
+  Var.VarSet.elt
+)
+ident(
+  int_ref x "completion/term.ml" 134 3913 3922 "completion/term.ml" 134 3913 3923
+)
+"completion/term.ml" 136 3955 3999 "completion/term.ml" 136 3955 4000
+type(
+  Var.VarSet.elt Var.VarMap.t ref -> Var.VarSet.elt Var.VarMap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/term.ml" 136 3955 4000 "completion/term.ml" 136 3955 4004
+type(
+  Var.VarSet.elt Var.VarMap.t ref
+)
+ident(
+  int_ref imap "completion/term.ml" 131 3745 3795 "completion/term.ml" 131 3745 3799
+)
+"completion/term.ml" 136 3955 3999 "completion/term.ml" 136 3955 4004
+type(
+  Var.VarSet.elt Var.VarMap.t
+)
+"completion/term.ml" 136 3955 3983 "completion/term.ml" 136 3955 4004
+call(
+  stack
+)
+type(
+  Var.VarSet.elt Var.VarMap.t
+)
+"completion/term.ml" 136 3955 3975 "completion/term.ml" 136 3955 4004
+type(
+  unit
+)
+"completion/term.ml" 136 3955 4010 "completion/term.ml" 136 3955 4011
+type(
+  Var.VarMap.key ref -> Var.VarMap.key
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/term.ml" 136 3955 4011 "completion/term.ml" 136 3955 4012
+type(
+  Var.VarMap.key ref
+)
+ident(
+  int_ref v "completion/term.ml" 131 3745 3753 "completion/term.ml" 131 3745 3754
+)
+"completion/term.ml" 136 3955 4010 "completion/term.ml" 136 3955 4012
+type(
+  Var.VarMap.key
+)
+"completion/term.ml" 136 3955 4006 "completion/term.ml" 136 3955 4012
+type(
+  term
+)
+"completion/term.ml" 136 3955 3975 "completion/term.ml" 136 3955 4012
+type(
+  term
+)
+"completion/term.ml" 136 3955 3966 "completion/term.ml" 136 3955 4013
+type(
+  term
+)
+"completion/term.ml" 137 4014 4026 "completion/term.ml" 137 4014 4030
+type(
+  Var.VarSet.t ref
+)
+ident(
+  int_ref vset "completion/term.ml" 131 3745 3767 "completion/term.ml" 131 3745 3771
+)
+"completion/term.ml" 137 4014 4031 "completion/term.ml" 137 4014 4033
+type(
+  Var.VarSet.t ref -> Var.VarSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"completion/term.ml" 137 4014 4034 "completion/term.ml" 137 4014 4044
+type(
+  Var.VarSet.elt -> Var.VarSet.t -> Var.VarSet.t
+)
+ident(
+  ext_ref Var.VarSet.add
+)
+"completion/term.ml" 137 4014 4045 "completion/term.ml" 137 4014 4046
+type(
+  Var.VarSet.elt
+)
+ident(
+  int_ref x "completion/term.ml" 134 3913 3922 "completion/term.ml" 134 3913 3923
+)
+"completion/term.ml" 137 4014 4047 "completion/term.ml" 137 4014 4048
+type(
+  Var.VarSet.t ref -> Var.VarSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"completion/term.ml" 137 4014 4048 "completion/term.ml" 137 4014 4052
+type(
+  Var.VarSet.t ref
+)
+ident(
+  int_ref vset "completion/term.ml" 131 3745 3767 "completion/term.ml" 131 3745 3771
+)
+"completion/term.ml" 137 4014 4047 "completion/term.ml" 137 4014 4052
+type(
+  Var.VarSet.t
+)
+"completion/term.ml" 137 4014 4034 "completion/term.ml" 137 4014 4052
+call(
+  stack
+)
+type(
+  Var.VarSet.t
+)
+"completion/term.ml" 137 4014 4026 "completion/term.ml" 137 4014 4052
+type(
+  unit
+)
+"completion/term.ml" 137 4014 4058 "completion/term.ml" 137 4014 4059
+type(
+  Var.VarSet.elt
+)
+ident(
+  int_ref x "completion/term.ml" 134 3913 3922 "completion/term.ml" 134 3913 3923
+)
+"completion/term.ml" 137 4014 4054 "completion/term.ml" 137 4014 4059
+type(
+  term
+)
+"completion/term.ml" 137 4014 4025 "completion/term.ml" 137 4014 4060
+type(
+  term
+)
+"completion/term.ml" 135 3927 3933 "completion/term.ml" 137 4014 4060
+type(
+  term
+)
+"completion/term.ml" 134 3913 3917 "completion/term.ml" 137 4014 4061
+type(
+  Var.VarSet.elt -> term
+)
+"completion/term.ml" 132 3822 3826 "completion/term.ml" 137 4014 4061
+type(
+  (unit -> unit) * (unit -> Var.VarSet.elt Var.VarMap.t) *
+  (Var.VarSet.elt -> term)
+)
+"completion/term.ml" 131 3745 3749 "completion/term.ml" 137 4014 4061
+type(
+  (unit -> unit) * (unit -> Var.VarSet.elt Var.VarMap.t) *
+  (Var.VarSet.elt -> term)
+)
+"completion/term.ml" 139 4066 4076 "completion/term.ml" 139 4066 4079
+type(
+  term -> term
+)
+ident(
+  def aux "completion/term.ml" 139 4066 4068 "completion/term.ml" 147 4239 4250
+)
+"completion/term.ml" 140 4091 4101 "completion/term.ml" 140 4091 4102
+type(
+  Var.var
+)
+ident(
+  def x "completion/term.ml" 140 4091 4106 "completion/term.ml" 140 4091 4113
+)
+"completion/term.ml" 140 4091 4097 "completion/term.ml" 140 4091 4102
+type(
+  term
+)
+"completion/term.ml" 140 4091 4106 "completion/term.ml" 140 4091 4111
+type(
+  Var.VarSet.elt -> term
+)
+ident(
+  int_ref fresh "completion/term.ml" 130 3715 3737 "completion/term.ml" 130 3715 3742
+)
+"completion/term.ml" 140 4091 4112 "completion/term.ml" 140 4091 4113
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/term.ml" 140 4091 4101 "completion/term.ml" 140 4091 4102
+)
+"completion/term.ml" 140 4091 4106 "completion/term.ml" 140 4091 4113
+call(
+  tail
+)
+type(
+  term
+)
+"completion/term.ml" 141 4114 4125 "completion/term.ml" 141 4114 4126
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/term.ml" 141 4114 4135 "completion/term.ml" 141 4114 4159
+)
+"completion/term.ml" 141 4114 4128 "completion/term.ml" 141 4114 4130
+type(
+  term list
+)
+ident(
+  def ts "completion/term.ml" 141 4114 4135 "completion/term.ml" 141 4114 4159
+)
+"completion/term.ml" 141 4114 4120 "completion/term.ml" 141 4114 4131
+type(
+  term
+)
+"completion/term.ml" 141 4114 4140 "completion/term.ml" 141 4114 4141
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/term.ml" 141 4114 4125 "completion/term.ml" 141 4114 4126
+)
+"completion/term.ml" 141 4114 4143 "completion/term.ml" 141 4114 4151
+type(
+  (term -> term) -> term list -> term list
+)
+ident(
+  ext_ref List.map
+)
+"completion/term.ml" 141 4114 4152 "completion/term.ml" 141 4114 4155
+type(
+  term -> term
+)
+ident(
+  int_ref aux "completion/term.ml" 139 4066 4076 "completion/term.ml" 139 4066 4079
+)
+"completion/term.ml" 141 4114 4156 "completion/term.ml" 141 4114 4158
+type(
+  term list
+)
+ident(
+  int_ref ts "completion/term.ml" 141 4114 4128 "completion/term.ml" 141 4114 4130
+)
+"completion/term.ml" 141 4114 4143 "completion/term.ml" 141 4114 4158
+call(
+  stack
+)
+type(
+  term list
+)
+"completion/term.ml" 141 4114 4135 "completion/term.ml" 141 4114 4159
+type(
+  term
+)
+"completion/term.ml" 139 4066 4082 "completion/term.ml" 141 4114 4159
+type(
+  term -> term
+)
+"completion/term.ml" 143 4164 4170 "completion/term.ml" 143 4164 4171
+type(
+  term
+)
+ident(
+  def t "completion/term.ml" 144 4175 4179 "completion/term.ml" 147 4239 4250
+)
+"completion/term.ml" 144 4175 4183 "completion/term.ml" 144 4175 4184
+type(
+  term
+)
+ident(
+  def t "completion/term.ml" 145 4196 4200 "completion/term.ml" 147 4239 4250
+)
+"completion/term.ml" 144 4175 4187 "completion/term.ml" 144 4175 4190
+type(
+  term -> term
+)
+ident(
+  int_ref aux "completion/term.ml" 139 4066 4076 "completion/term.ml" 139 4066 4079
+)
+"completion/term.ml" 144 4175 4191 "completion/term.ml" 144 4175 4192
+type(
+  term
+)
+ident(
+  int_ref t "completion/term.ml" 143 4164 4170 "completion/term.ml" 143 4164 4171
+)
+"completion/term.ml" 144 4175 4187 "completion/term.ml" 144 4175 4192
+call(
+  stack
+)
+type(
+  term
+)
+"completion/term.ml" 145 4196 4204 "completion/term.ml" 145 4196 4208
+type(
+  Var.VarSet.elt Var.VarMap.t
+)
+ident(
+  def imap "completion/term.ml" 146 4226 4230 "completion/term.ml" 147 4239 4250
+)
+"completion/term.ml" 145 4196 4211 "completion/term.ml" 145 4196 4219
+type(
+  unit -> Var.VarSet.elt Var.VarMap.t
+)
+ident(
+  int_ref get_imap "completion/term.ml" 130 3715 3727 "completion/term.ml" 130 3715 3735
+)
+"completion/term.ml" 145 4196 4220 "completion/term.ml" 145 4196 4222
+type(
+  unit
+)
+"completion/term.ml" 145 4196 4211 "completion/term.ml" 145 4196 4222
+call(
+  stack
+)
+type(
+  Var.VarSet.elt Var.VarMap.t
+)
+"completion/term.ml" 146 4226 4230 "completion/term.ml" 146 4226 4234
+type(
+  unit -> unit
+)
+ident(
+  int_ref init "completion/term.ml" 130 3715 3721 "completion/term.ml" 130 3715 3725
+)
+"completion/term.ml" 146 4226 4235 "completion/term.ml" 146 4226 4237
+type(
+  unit
+)
+"completion/term.ml" 146 4226 4230 "completion/term.ml" 146 4226 4237
+call(
+  stack
+)
+type(
+  unit
+)
+"completion/term.ml" 147 4239 4243 "completion/term.ml" 147 4239 4244
+type(
+  term
+)
+ident(
+  int_ref t "completion/term.ml" 144 4175 4183 "completion/term.ml" 144 4175 4184
+)
+"completion/term.ml" 147 4239 4246 "completion/term.ml" 147 4239 4250
+type(
+  Var.VarSet.elt Var.VarMap.t
+)
+ident(
+  int_ref imap "completion/term.ml" 145 4196 4204 "completion/term.ml" 145 4196 4208
+)
+"completion/term.ml" 147 4239 4243 "completion/term.ml" 147 4239 4250
+type(
+  term * Var.VarSet.elt Var.VarMap.t
+)
+"completion/term.ml" 146 4226 4230 "completion/term.ml" 147 4239 4250
+type(
+  term * Var.VarSet.elt Var.VarMap.t
+)
+"completion/term.ml" 145 4196 4200 "completion/term.ml" 147 4239 4250
+type(
+  term * Var.VarSet.elt Var.VarMap.t
+)
+"completion/term.ml" 144 4175 4179 "completion/term.ml" 147 4239 4250
+type(
+  term * Var.VarSet.elt Var.VarMap.t
+)
+"completion/term.ml" 143 4164 4166 "completion/term.ml" 147 4239 4250
+type(
+  term -> term * Var.VarSet.elt Var.VarMap.t
+)
+"completion/term.ml" 139 4066 4068 "completion/term.ml" 147 4239 4250
+type(
+  term -> term * Var.VarSet.elt Var.VarMap.t
+)
+"completion/term.ml" 130 3715 3717 "completion/term.ml" 147 4239 4250
+type(
+  term -> term * Var.VarSet.elt Var.VarMap.t
+)

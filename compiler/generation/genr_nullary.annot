@@ -1,0 +1,923 @@
+"generation/genr_nullary.ml" 24 1187 1191 "generation/genr_nullary.ml" 24 1187 1205
+type(
+  Parsetree.generator -> Parsetree.relation -> Code.exp list
+)
+ident(
+  def genr_fun_by_ap "generation/genr_nullary.ml" 56 2182 2182 "generation/genr_nullary.ml" 1 0 -1
+)
+"generation/genr_nullary.ml" 24 1187 1206 "generation/genr_nullary.ml" 24 1187 1207
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_nullary.ml" 25 1210 1212 "generation/genr_nullary.ml" 53 2141 2177
+)
+"generation/genr_nullary.ml" 25 1210 1216 "generation/genr_nullary.ml" 25 1210 1220
+type(
+  Parsetree.rel_desc -> Code.exp list
+)
+ident(
+  def genr "generation/genr_nullary.ml" 53 2141 2143 "generation/genr_nullary.ml" 53 2141 2177
+)
+"generation/genr_nullary.ml" 26 1232 1247 "generation/genr_nullary.ml" 26 1232 1250
+type(
+  Parsetree.pattern
+)
+ident(
+  def pat "generation/genr_nullary.ml" 27 1257 1263 "generation/genr_nullary.ml" 47 1855 1864
+)
+"generation/genr_nullary.ml" 26 1232 1251 "generation/genr_nullary.ml" 26 1232 1252
+type(
+  Parsetree.expression
+)
+ident(
+  def e "generation/genr_nullary.ml" 27 1257 1263 "generation/genr_nullary.ml" 47 1855 1864
+)
+"generation/genr_nullary.ml" 26 1232 1238 "generation/genr_nullary.ml" 26 1232 1253
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 27 1257 1275 "generation/genr_nullary.ml" 27 1257 1278
+type(
+  Parsetree.pattern
+)
+ident(
+  int_ref pat "generation/genr_nullary.ml" 26 1232 1247 "generation/genr_nullary.ml" 26 1232 1250
+)
+"generation/genr_nullary.ml" 27 1257 1275 "generation/genr_nullary.ml" 27 1257 1288
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 28 1294 1318 "generation/genr_nullary.ml" 28 1294 1319
+type(
+  Longident.t
+)
+ident(
+  def p "generation/genr_nullary.ml" 28 1294 1335 "generation/genr_nullary.ml" 29 1354 1387
+)
+"generation/genr_nullary.ml" 28 1294 1321 "generation/genr_nullary.ml" 28 1294 1325
+type(
+  Parsetree.pattern option
+)
+"generation/genr_nullary.ml" 28 1294 1327 "generation/genr_nullary.ml" 28 1294 1328
+type(
+  bool
+)
+"generation/genr_nullary.ml" 28 1294 1302 "generation/genr_nullary.ml" 28 1294 1329
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 28 1294 1335 "generation/genr_nullary.ml" 28 1294 1336
+type(
+  Longident.t
+)
+ident(
+  int_ref p "generation/genr_nullary.ml" 28 1294 1318 "generation/genr_nullary.ml" 28 1294 1319
+)
+"generation/genr_nullary.ml" 28 1294 1337 "generation/genr_nullary.ml" 28 1294 1338
+type(
+  Longident.t -> Longident.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"generation/genr_nullary.ml" 28 1294 1339 "generation/genr_nullary.ml" 28 1294 1340
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_nullary.ml" 24 1187 1206 "generation/genr_nullary.ml" 24 1187 1207
+)
+"generation/genr_nullary.ml" 28 1294 1339 "generation/genr_nullary.ml" 28 1294 1350
+type(
+  Longident.t
+)
+"generation/genr_nullary.ml" 28 1294 1335 "generation/genr_nullary.ml" 28 1294 1350
+type(
+  bool
+)
+"generation/genr_nullary.ml" 29 1354 1385 "generation/genr_nullary.ml" 29 1354 1386
+type(
+  Parsetree.expression
+)
+ident(
+  int_ref e "generation/genr_nullary.ml" 26 1232 1251 "generation/genr_nullary.ml" 26 1232 1252
+)
+"generation/genr_nullary.ml" 29 1354 1363 "generation/genr_nullary.ml" 29 1354 1386
+type(
+  Code.exp
+)
+"generation/genr_nullary.ml" 29 1354 1362 "generation/genr_nullary.ml" 29 1354 1387
+type(
+  Code.exp list
+)
+"generation/genr_nullary.ml" 30 1388 1412 "generation/genr_nullary.ml" 30 1388 1413
+type(
+  Longident.t
+)
+"generation/genr_nullary.ml" 30 1388 1415 "generation/genr_nullary.ml" 30 1388 1419
+type(
+  Parsetree.pattern option
+)
+"generation/genr_nullary.ml" 30 1388 1421 "generation/genr_nullary.ml" 30 1388 1422
+type(
+  bool
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 30 1388 1423
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 31 1424 1432 "generation/genr_nullary.ml" 31 1424 1440
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 31 1424 1440
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 32 1441 1458 "generation/genr_nullary.ml" 32 1441 1459
+type(
+  string
+)
+"generation/genr_nullary.ml" 32 1441 1449 "generation/genr_nullary.ml" 32 1441 1459
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 32 1441 1459
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 33 1460 1479 "generation/genr_nullary.ml" 33 1460 1480
+type(
+  string
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_nullary.ml" 33 1460 1468 "generation/genr_nullary.ml" 33 1460 1480
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 33 1460 1480
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 34 1481 1503 "generation/genr_nullary.ml" 34 1481 1504
+type(
+  Asttypes.constant
+)
+"generation/genr_nullary.ml" 34 1481 1489 "generation/genr_nullary.ml" 34 1481 1504
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 34 1481 1504
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 35 1505 1524 "generation/genr_nullary.ml" 35 1505 1525
+type(
+  Parsetree.pattern list
+)
+"generation/genr_nullary.ml" 35 1505 1513 "generation/genr_nullary.ml" 35 1505 1525
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 35 1505 1525
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 36 1526 1549 "generation/genr_nullary.ml" 36 1526 1550
+type(
+  bool
+)
+type(
+  Parsetree.pattern option
+)
+type(
+  Longident.t
+)
+"generation/genr_nullary.ml" 36 1526 1534 "generation/genr_nullary.ml" 36 1526 1550
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 36 1526 1550
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 37 1551 1572 "generation/genr_nullary.ml" 37 1551 1573
+type(
+  Parsetree.pattern option
+)
+type(
+  Asttypes.label
+)
+"generation/genr_nullary.ml" 37 1551 1559 "generation/genr_nullary.ml" 37 1551 1573
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 37 1551 1573
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 38 1574 1594 "generation/genr_nullary.ml" 38 1574 1595
+type(
+  Asttypes.closed_flag
+)
+type(
+  (Longident.t * Parsetree.pattern) list
+)
+"generation/genr_nullary.ml" 38 1574 1582 "generation/genr_nullary.ml" 38 1574 1595
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 38 1574 1595
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 39 1596 1615 "generation/genr_nullary.ml" 39 1596 1616
+type(
+  Parsetree.pattern list
+)
+"generation/genr_nullary.ml" 39 1596 1604 "generation/genr_nullary.ml" 39 1596 1616
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 39 1596 1616
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 40 1617 1633 "generation/genr_nullary.ml" 40 1617 1634
+type(
+  Parsetree.pattern
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_nullary.ml" 40 1617 1625 "generation/genr_nullary.ml" 40 1617 1634
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 40 1617 1634
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 41 1635 1659 "generation/genr_nullary.ml" 41 1635 1660
+type(
+  Parsetree.core_type
+)
+type(
+  Parsetree.pattern
+)
+"generation/genr_nullary.ml" 41 1635 1643 "generation/genr_nullary.ml" 41 1635 1660
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 41 1635 1660
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 42 1661 1679 "generation/genr_nullary.ml" 42 1661 1680
+type(
+  Longident.t
+)
+"generation/genr_nullary.ml" 42 1661 1669 "generation/genr_nullary.ml" 42 1661 1680
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 42 1661 1680
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 43 1681 1699 "generation/genr_nullary.ml" 43 1681 1700
+type(
+  Parsetree.pattern
+)
+"generation/genr_nullary.ml" 43 1681 1689 "generation/genr_nullary.ml" 43 1681 1700
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 43 1681 1700
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 44 1701 1721 "generation/genr_nullary.ml" 44 1701 1722
+type(
+  Parsetree.pattern
+)
+"generation/genr_nullary.ml" 44 1701 1709 "generation/genr_nullary.ml" 44 1701 1722
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 30 1388 1396 "generation/genr_nullary.ml" 44 1701 1722
+type(
+  Parsetree.pattern_desc
+)
+"generation/genr_nullary.ml" 45 1726 1734 "generation/genr_nullary.ml" 45 1726 1742
+type(
+  string -> Code.exp list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"generation/genr_nullary.ml" 45 1726 1743 "generation/genr_nullary.ml" 46 1799 1854
+type(
+  string
+)
+"generation/genr_nullary.ml" 45 1726 1734 "generation/genr_nullary.ml" 46 1799 1854
+call(
+  tail
+)
+type(
+  Code.exp list
+)
+"generation/genr_nullary.ml" 27 1257 1263 "generation/genr_nullary.ml" 47 1855 1864
+type(
+  Code.exp list
+)
+"generation/genr_nullary.ml" 48 1865 1886 "generation/genr_nullary.ml" 48 1865 1887
+type(
+  Parsetree.structure_item
+)
+"generation/genr_nullary.ml" 48 1865 1871 "generation/genr_nullary.ml" 48 1865 1887
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 48 1865 1897 "generation/genr_nullary.ml" 48 1865 1898
+type(
+  Parsetree.rpo_status
+)
+"generation/genr_nullary.ml" 48 1865 1890 "generation/genr_nullary.ml" 48 1865 1898
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 48 1865 1871 "generation/genr_nullary.ml" 48 1865 1898
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 48 1865 1912 "generation/genr_nullary.ml" 48 1865 1913
+type(
+  Parsetree.rpo_precedence
+)
+"generation/genr_nullary.ml" 48 1865 1901 "generation/genr_nullary.ml" 48 1865 1913
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 48 1865 1871 "generation/genr_nullary.ml" 48 1865 1913
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 48 1865 1917 "generation/genr_nullary.ml" 48 1865 1919
+type(
+  Code.exp list
+)
+"generation/genr_nullary.ml" 49 1920 1937 "generation/genr_nullary.ml" 49 1920 1938
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nullary.ml" 49 1920 1926 "generation/genr_nullary.ml" 49 1920 1938
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 49 1920 1941 "generation/genr_nullary.ml" 49 1920 1951
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 49 1920 1926 "generation/genr_nullary.ml" 49 1920 1951
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 49 1920 1966 "generation/genr_nullary.ml" 49 1920 1967
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nullary.ml" 49 1920 1969 "generation/genr_nullary.ml" 49 1920 1970
+type(
+  Parsetree.generator
+)
+"generation/genr_nullary.ml" 49 1920 1955 "generation/genr_nullary.ml" 49 1920 1971
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 49 1920 1926 "generation/genr_nullary.ml" 49 1920 1971
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 50 1972 1992 "generation/genr_nullary.ml" 50 1972 1993
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nullary.ml" 50 1972 1995 "generation/genr_nullary.ml" 50 1972 1996
+type(
+  Parsetree.generator
+)
+"generation/genr_nullary.ml" 50 1972 1998 "generation/genr_nullary.ml" 50 1972 1999
+type(
+  Parsetree.generator option
+)
+"generation/genr_nullary.ml" 50 1972 2001 "generation/genr_nullary.ml" 50 1972 2002
+type(
+  Parsetree.distributivity_direction
+)
+"generation/genr_nullary.ml" 50 1972 1978 "generation/genr_nullary.ml" 50 1972 2003
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 49 1920 1926 "generation/genr_nullary.ml" 50 1972 2003
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 50 1972 2028 "generation/genr_nullary.ml" 50 1972 2029
+type(
+  Parsetree.generator
+)
+"generation/genr_nullary.ml" 50 1972 2006 "generation/genr_nullary.ml" 50 1972 2029
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 49 1920 1926 "generation/genr_nullary.ml" 50 1972 2029
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 51 2030 2044 "generation/genr_nullary.ml" 51 2030 2045
+type(
+  Parsetree.generator option
+)
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nullary.ml" 51 2030 2036 "generation/genr_nullary.ml" 51 2030 2045
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 49 1920 1926 "generation/genr_nullary.ml" 51 2030 2045
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 51 2030 2056 "generation/genr_nullary.ml" 51 2030 2057
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nullary.ml" 51 2030 2048 "generation/genr_nullary.ml" 51 2030 2057
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 49 1920 1926 "generation/genr_nullary.ml" 51 2030 2057
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 51 2030 2070 "generation/genr_nullary.ml" 51 2030 2071
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nullary.ml" 51 2030 2060 "generation/genr_nullary.ml" 51 2030 2071
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 49 1920 1926 "generation/genr_nullary.ml" 51 2030 2071
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 51 2030 2084 "generation/genr_nullary.ml" 51 2030 2085
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nullary.ml" 51 2030 2074 "generation/genr_nullary.ml" 51 2030 2085
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 49 1920 1926 "generation/genr_nullary.ml" 51 2030 2085
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 52 2086 2104 "generation/genr_nullary.ml" 52 2086 2105
+type(
+  Parsetree.relation_side
+)
+"generation/genr_nullary.ml" 52 2086 2092 "generation/genr_nullary.ml" 52 2086 2105
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 49 1920 1926 "generation/genr_nullary.ml" 52 2086 2105
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 52 2086 2120 "generation/genr_nullary.ml" 52 2086 2121
+type(
+  Longident.t option
+)
+"generation/genr_nullary.ml" 52 2086 2108 "generation/genr_nullary.ml" 52 2086 2121
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 49 1920 1926 "generation/genr_nullary.ml" 52 2086 2121
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 52 2086 2132 "generation/genr_nullary.ml" 52 2086 2137
+type(
+  bool
+)
+"generation/genr_nullary.ml" 52 2086 2125 "generation/genr_nullary.ml" 52 2086 2137
+type(
+  Code.exp list
+)
+"generation/genr_nullary.ml" 25 1210 1223 "generation/genr_nullary.ml" 52 2086 2137
+type(
+  Parsetree.rel_desc -> Code.exp list
+)
+"generation/genr_nullary.ml" 53 2141 2152 "generation/genr_nullary.ml" 53 2141 2155
+type(
+  Parsetree.relation
+)
+ident(
+  def rel "generation/genr_nullary.ml" 53 2141 2159 "generation/genr_nullary.ml" 53 2141 2177
+)
+"generation/genr_nullary.ml" 53 2141 2159 "generation/genr_nullary.ml" 53 2141 2163
+type(
+  Parsetree.rel_desc -> Code.exp list
+)
+ident(
+  int_ref genr "generation/genr_nullary.ml" 25 1210 1216 "generation/genr_nullary.ml" 25 1210 1220
+)
+"generation/genr_nullary.ml" 53 2141 2164 "generation/genr_nullary.ml" 53 2141 2167
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref rel "generation/genr_nullary.ml" 53 2141 2152 "generation/genr_nullary.ml" 53 2141 2155
+)
+"generation/genr_nullary.ml" 53 2141 2164 "generation/genr_nullary.ml" 53 2141 2177
+type(
+  Parsetree.rel_desc
+)
+"generation/genr_nullary.ml" 53 2141 2159 "generation/genr_nullary.ml" 53 2141 2177
+call(
+  tail
+)
+type(
+  Code.exp list
+)
+"generation/genr_nullary.ml" 53 2141 2143 "generation/genr_nullary.ml" 53 2141 2177
+type(
+  Parsetree.relation -> Code.exp list
+)
+"generation/genr_nullary.ml" 25 1210 1212 "generation/genr_nullary.ml" 53 2141 2177
+type(
+  Parsetree.relation -> Code.exp list
+)
+"generation/genr_nullary.ml" 56 2182 2186 "generation/genr_nullary.ml" 56 2182 2199
+type(
+  Otype.constructor_definition -> Genr_base.generated_function list
+)
+ident(
+  def genr_function "generation/genr_nullary.ml" 73 2727 2757 "generation/genr_nullary.ml" 1 0 -1
+)
+"generation/genr_nullary.ml" 56 2182 2200 "generation/genr_nullary.ml" 56 2182 2204
+type(
+  Otype.constructor_definition
+)
+ident(
+  def cdef "generation/genr_nullary.ml" 57 2207 2209 "generation/genr_nullary.ml" 73 2727 2757
+)
+"generation/genr_nullary.ml" 57 2207 2213 "generation/genr_nullary.ml" 57 2207 2214
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_nullary.ml" 60 2285 2287 "generation/genr_nullary.ml" 73 2727 2757
+)
+"generation/genr_nullary.ml" 57 2207 2217 "generation/genr_nullary.ml" 57 2207 2234
+type(
+  Otype.constructor_definition -> Parsetree.generator
+)
+ident(
+  ext_ref Otype.generator_of_cdef
+)
+"generation/genr_nullary.ml" 57 2207 2235 "generation/genr_nullary.ml" 57 2207 2239
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/genr_nullary.ml" 56 2182 2200 "generation/genr_nullary.ml" 56 2182 2204
+)
+"generation/genr_nullary.ml" 57 2207 2217 "generation/genr_nullary.ml" 57 2207 2239
+call(
+  stack
+)
+type(
+  Parsetree.generator
+)
+"generation/genr_nullary.ml" 58 2240 2246 "generation/genr_nullary.ml" 58 2240 2255
+type(
+  Parsetree.relations
+)
+ident(
+  def relations "generation/genr_nullary.ml" 60 2285 2287 "generation/genr_nullary.ml" 73 2727 2757
+)
+"generation/genr_nullary.ml" 58 2240 2258 "generation/genr_nullary.ml" 58 2240 2275
+type(
+  Otype.constructor_definition -> Parsetree.relations
+)
+ident(
+  ext_ref Otype.relations_of_cdef
+)
+"generation/genr_nullary.ml" 58 2240 2276 "generation/genr_nullary.ml" 58 2240 2280
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/genr_nullary.ml" 56 2182 2200 "generation/genr_nullary.ml" 56 2182 2204
+)
+"generation/genr_nullary.ml" 58 2240 2258 "generation/genr_nullary.ml" 58 2240 2280
+call(
+  stack
+)
+type(
+  Parsetree.relations
+)
+"generation/genr_nullary.ml" 60 2285 2291 "generation/genr_nullary.ml" 60 2285 2298
+type(
+  Code.exp
+)
+ident(
+  def default "generation/genr_nullary.ml" 62 2328 2330 "generation/genr_nullary.ml" 73 2727 2757
+)
+"generation/genr_nullary.ml" 60 2285 2301 "generation/genr_nullary.ml" 60 2285 2321
+type(
+  Parsetree.generator -> Code.exp
+)
+ident(
+  ext_ref Genr_base.generator0
+)
+"generation/genr_nullary.ml" 60 2285 2322 "generation/genr_nullary.ml" 60 2285 2323
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_nullary.ml" 57 2207 2213 "generation/genr_nullary.ml" 57 2207 2214
+)
+"generation/genr_nullary.ml" 60 2285 2301 "generation/genr_nullary.ml" 60 2285 2323
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_nullary.ml" 62 2328 2334 "generation/genr_nullary.ml" 62 2328 2338
+type(
+  Code.exp
+)
+ident(
+  def body "generation/genr_nullary.ml" 73 2727 2729 "generation/genr_nullary.ml" 73 2727 2757
+)
+"generation/genr_nullary.ml" 63 2341 2351 "generation/genr_nullary.ml" 63 2341 2360
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "generation/genr_nullary.ml" 58 2240 2246 "generation/genr_nullary.ml" 58 2240 2255
+)
+"generation/genr_nullary.ml" 63 2341 2351 "generation/genr_nullary.ml" 63 2341 2371
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_nullary.ml" 64 2377 2383 "generation/genr_nullary.ml" 64 2377 2393
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_nullary.ml" 64 2377 2412 "generation/genr_nullary.ml" 64 2377 2413
+type(
+  Parsetree.relations
+)
+"generation/genr_nullary.ml" 64 2377 2396 "generation/genr_nullary.ml" 64 2377 2413
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_nullary.ml" 64 2377 2383 "generation/genr_nullary.ml" 64 2377 2413
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_nullary.ml" 64 2377 2417 "generation/genr_nullary.ml" 64 2377 2424
+type(
+  Code.exp
+)
+ident(
+  int_ref default "generation/genr_nullary.ml" 60 2285 2291 "generation/genr_nullary.ml" 60 2285 2298
+)
+"generation/genr_nullary.ml" 65 2425 2444 "generation/genr_nullary.ml" 65 2425 2447
+type(
+  Parsetree.relation list
+)
+ident(
+  def rls "generation/genr_nullary.ml" 66 2451 2457 "generation/genr_nullary.ml" 72 2692 2723
+)
+"generation/genr_nullary.ml" 65 2425 2431 "generation/genr_nullary.ml" 65 2425 2447
+type(
+  Parsetree.relations_desc
+)
+"generation/genr_nullary.ml" 66 2451 2461 "generation/genr_nullary.ml" 66 2451 2464
+type(
+  Parsetree.relation list
+)
+ident(
+  def rls "generation/genr_nullary.ml" 67 2505 2511 "generation/genr_nullary.ml" 72 2692 2723
+)
+"generation/genr_nullary.ml" 66 2451 2467 "generation/genr_nullary.ml" 66 2451 2477
+type(
+  (Parsetree.relation -> int) ->
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  ext_ref Genr_base.order_rels
+)
+"generation/genr_nullary.ml" 66 2451 2478 "generation/genr_nullary.ml" 66 2451 2497
+type(
+  Parsetree.relation -> int
+)
+ident(
+  ext_ref Relation.precedence
+)
+"generation/genr_nullary.ml" 66 2451 2498 "generation/genr_nullary.ml" 66 2451 2501
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rls "generation/genr_nullary.ml" 65 2425 2444 "generation/genr_nullary.ml" 65 2425 2447
+)
+"generation/genr_nullary.ml" 66 2451 2467 "generation/genr_nullary.ml" 66 2451 2501
+call(
+  stack
+)
+type(
+  Parsetree.relation list
+)
+"generation/genr_nullary.ml" 67 2505 2517 "generation/genr_nullary.ml" 67 2505 2529
+type(
+  Code.exp list list -> Code.exp list
+)
+ident(
+  ext_ref List.flatten
+)
+"generation/genr_nullary.ml" 67 2505 2531 "generation/genr_nullary.ml" 67 2505 2539
+type(
+  (Parsetree.relation -> Code.exp list) ->
+  Parsetree.relation list -> Code.exp list list
+)
+ident(
+  ext_ref List.map
+)
+"generation/genr_nullary.ml" 67 2505 2541 "generation/genr_nullary.ml" 67 2505 2555
+type(
+  Parsetree.generator -> Parsetree.relation -> Code.exp list
+)
+ident(
+  int_ref genr_fun_by_ap "generation/genr_nullary.ml" 24 1187 1191 "generation/genr_nullary.ml" 24 1187 1205
+)
+"generation/genr_nullary.ml" 67 2505 2556 "generation/genr_nullary.ml" 67 2505 2557
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_nullary.ml" 57 2207 2213 "generation/genr_nullary.ml" 57 2207 2214
+)
+"generation/genr_nullary.ml" 67 2505 2540 "generation/genr_nullary.ml" 67 2505 2558
+call(
+  stack
+)
+type(
+  Parsetree.relation -> Code.exp list
+)
+"generation/genr_nullary.ml" 67 2505 2559 "generation/genr_nullary.ml" 67 2505 2562
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rls "generation/genr_nullary.ml" 66 2451 2461 "generation/genr_nullary.ml" 66 2451 2464
+)
+"generation/genr_nullary.ml" 67 2505 2530 "generation/genr_nullary.ml" 67 2505 2563
+call(
+  stack
+)
+type(
+  Code.exp list list
+)
+"generation/genr_nullary.ml" 67 2505 2517 "generation/genr_nullary.ml" 67 2505 2563
+call(
+  stack
+)
+type(
+  Code.exp list
+)
+"generation/genr_nullary.ml" 68 2569 2577 "generation/genr_nullary.ml" 68 2569 2579
+type(
+  Code.exp list
+)
+"generation/genr_nullary.ml" 68 2569 2583 "generation/genr_nullary.ml" 68 2569 2590
+type(
+  Code.exp
+)
+ident(
+  int_ref default "generation/genr_nullary.ml" 60 2285 2291 "generation/genr_nullary.ml" 60 2285 2298
+)
+"generation/genr_nullary.ml" 69 2591 2600 "generation/genr_nullary.ml" 69 2591 2601
+type(
+  Code.exp
+)
+ident(
+  def e "generation/genr_nullary.ml" 69 2591 2606 "generation/genr_nullary.ml" 69 2591 2607
+)
+"generation/genr_nullary.ml" 69 2591 2599 "generation/genr_nullary.ml" 69 2591 2602
+type(
+  Code.exp list
+)
+"generation/genr_nullary.ml" 69 2591 2606 "generation/genr_nullary.ml" 69 2591 2607
+type(
+  Code.exp
+)
+ident(
+  int_ref e "generation/genr_nullary.ml" 69 2591 2600 "generation/genr_nullary.ml" 69 2591 2601
+)
+"generation/genr_nullary.ml" 70 2608 2616 "generation/genr_nullary.ml" 70 2608 2617
+type(
+  Code.exp list
+)
+"generation/genr_nullary.ml" 71 2621 2629 "generation/genr_nullary.ml" 71 2621 2637
+type(
+  string -> Code.exp
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"generation/genr_nullary.ml" 71 2621 2638 "generation/genr_nullary.ml" 72 2692 2723
+type(
+  string
+)
+"generation/genr_nullary.ml" 71 2621 2629 "generation/genr_nullary.ml" 72 2692 2723
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_nullary.ml" 67 2505 2511 "generation/genr_nullary.ml" 72 2692 2723
+type(
+  Code.exp
+)
+"generation/genr_nullary.ml" 66 2451 2457 "generation/genr_nullary.ml" 72 2692 2723
+type(
+  Code.exp
+)
+"generation/genr_nullary.ml" 63 2341 2345 "generation/genr_nullary.ml" 72 2692 2723
+type(
+  Code.exp
+)
+"generation/genr_nullary.ml" 73 2727 2744 "generation/genr_nullary.ml" 73 2727 2745
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_nullary.ml" 57 2207 2213 "generation/genr_nullary.ml" 57 2207 2214
+)
+"generation/genr_nullary.ml" 73 2727 2747 "generation/genr_nullary.ml" 73 2727 2749
+type(
+  Code.pattern list
+)
+"generation/genr_nullary.ml" 73 2727 2751 "generation/genr_nullary.ml" 73 2727 2755
+type(
+  Code.exp
+)
+ident(
+  int_ref body "generation/genr_nullary.ml" 62 2328 2334 "generation/genr_nullary.ml" 62 2328 2338
+)
+"generation/genr_nullary.ml" 73 2727 2730 "generation/genr_nullary.ml" 73 2727 2756
+type(
+  Genr_base.generated_function
+)
+"generation/genr_nullary.ml" 73 2727 2729 "generation/genr_nullary.ml" 73 2727 2757
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_nullary.ml" 62 2328 2330 "generation/genr_nullary.ml" 73 2727 2757
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_nullary.ml" 60 2285 2287 "generation/genr_nullary.ml" 73 2727 2757
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_nullary.ml" 57 2207 2209 "generation/genr_nullary.ml" 73 2727 2757
+type(
+  Genr_base.generated_function list
+)

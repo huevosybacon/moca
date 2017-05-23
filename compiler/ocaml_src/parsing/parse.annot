@@ -1,0 +1,965 @@
+"ocaml_src/parsing/parse.ml" 19 951 959 "ocaml_src/parsing/parse.ml" 19 951 970
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def skip_phrase "ocaml_src/parsing/parse.ml" 19 951 951 "ocaml_src/parsing/parse.ml" 1 0 -1
+)
+"ocaml_src/parsing/parse.ml" 19 951 971 "ocaml_src/parsing/parse.ml" 19 951 977
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocaml_src/parsing/parse.ml" 20 980 982 "ocaml_src/parsing/parse.ml" 27 1281 1351
+)
+"ocaml_src/parsing/parse.ml" 21 986 994 "ocaml_src/parsing/parse.ml" 21 986 997
+type(
+  Parser.token
+)
+ident(
+  def tok "ocaml_src/parsing/parse.ml" 22 1022 1026 "ocaml_src/parsing/parse.ml" 22 1022 1096
+)
+"ocaml_src/parsing/parse.ml" 21 986 1000 "ocaml_src/parsing/parse.ml" 21 986 1011
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  ext_ref Lexer.token
+)
+"ocaml_src/parsing/parse.ml" 21 986 1012 "ocaml_src/parsing/parse.ml" 21 986 1018
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/parse.ml" 19 951 971 "ocaml_src/parsing/parse.ml" 19 951 977
+)
+"ocaml_src/parsing/parse.ml" 21 986 1000 "ocaml_src/parsing/parse.ml" 21 986 1018
+call(
+  stack
+)
+type(
+  Parser.token
+)
+"ocaml_src/parsing/parse.ml" 22 1022 1029 "ocaml_src/parsing/parse.ml" 22 1022 1032
+type(
+  Parser.token
+)
+ident(
+  int_ref tok "ocaml_src/parsing/parse.ml" 21 986 994 "ocaml_src/parsing/parse.ml" 21 986 997
+)
+"ocaml_src/parsing/parse.ml" 22 1022 1033 "ocaml_src/parsing/parse.ml" 22 1022 1035
+type(
+  Parser.token -> Parser.token -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ocaml_src/parsing/parse.ml" 22 1022 1036 "ocaml_src/parsing/parse.ml" 22 1022 1051
+type(
+  Parser.token
+)
+"ocaml_src/parsing/parse.ml" 22 1022 1029 "ocaml_src/parsing/parse.ml" 22 1022 1051
+type(
+  bool
+)
+"ocaml_src/parsing/parse.ml" 22 1022 1052 "ocaml_src/parsing/parse.ml" 22 1022 1054
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/parsing/parse.ml" 22 1022 1055 "ocaml_src/parsing/parse.ml" 22 1022 1058
+type(
+  Parser.token
+)
+ident(
+  int_ref tok "ocaml_src/parsing/parse.ml" 21 986 994 "ocaml_src/parsing/parse.ml" 21 986 997
+)
+"ocaml_src/parsing/parse.ml" 22 1022 1059 "ocaml_src/parsing/parse.ml" 22 1022 1061
+type(
+  Parser.token -> Parser.token -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ocaml_src/parsing/parse.ml" 22 1022 1062 "ocaml_src/parsing/parse.ml" 22 1022 1072
+type(
+  Parser.token
+)
+"ocaml_src/parsing/parse.ml" 22 1022 1055 "ocaml_src/parsing/parse.ml" 22 1022 1072
+type(
+  bool
+)
+"ocaml_src/parsing/parse.ml" 22 1022 1029 "ocaml_src/parsing/parse.ml" 22 1022 1072
+type(
+  bool
+)
+"ocaml_src/parsing/parse.ml" 22 1022 1078 "ocaml_src/parsing/parse.ml" 22 1022 1089
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref skip_phrase "ocaml_src/parsing/parse.ml" 19 951 959 "ocaml_src/parsing/parse.ml" 19 951 970
+)
+"ocaml_src/parsing/parse.ml" 22 1022 1090 "ocaml_src/parsing/parse.ml" 22 1022 1096
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/parse.ml" 19 951 971 "ocaml_src/parsing/parse.ml" 19 951 977
+)
+"ocaml_src/parsing/parse.ml" 22 1022 1078 "ocaml_src/parsing/parse.ml" 22 1022 1096
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 22 1022 1026 "ocaml_src/parsing/parse.ml" 22 1022 1096
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 21 986 990 "ocaml_src/parsing/parse.ml" 22 1022 1096
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 24 1104 1123 "ocaml_src/parsing/parse.ml" 24 1104 1149
+type(
+  Lexer.error
+)
+"ocaml_src/parsing/parse.ml" 24 1104 1151 "ocaml_src/parsing/parse.ml" 24 1104 1152
+type(
+  Location.t
+)
+"ocaml_src/parsing/parse.ml" 24 1104 1110 "ocaml_src/parsing/parse.ml" 24 1104 1153
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 24 1104 1157 "ocaml_src/parsing/parse.ml" 24 1104 1159
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 25 1160 1179 "ocaml_src/parsing/parse.ml" 25 1160 1204
+type(
+  Lexer.error
+)
+"ocaml_src/parsing/parse.ml" 25 1160 1206 "ocaml_src/parsing/parse.ml" 25 1160 1207
+type(
+  Location.t
+)
+"ocaml_src/parsing/parse.ml" 25 1160 1166 "ocaml_src/parsing/parse.ml" 25 1160 1208
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 25 1160 1212 "ocaml_src/parsing/parse.ml" 25 1160 1214
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 26 1215 1234 "ocaml_src/parsing/parse.ml" 26 1215 1270
+type(
+  Lexer.error
+)
+"ocaml_src/parsing/parse.ml" 26 1215 1272 "ocaml_src/parsing/parse.ml" 26 1215 1273
+type(
+  Location.t
+)
+"ocaml_src/parsing/parse.ml" 26 1215 1221 "ocaml_src/parsing/parse.ml" 26 1215 1274
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 26 1215 1278 "ocaml_src/parsing/parse.ml" 26 1215 1280
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 27 1281 1324 "ocaml_src/parsing/parse.ml" 27 1281 1325
+type(
+  char
+)
+"ocaml_src/parsing/parse.ml" 27 1281 1300 "ocaml_src/parsing/parse.ml" 27 1281 1325
+type(
+  Lexer.error
+)
+"ocaml_src/parsing/parse.ml" 27 1281 1327 "ocaml_src/parsing/parse.ml" 27 1281 1328
+type(
+  Location.t
+)
+"ocaml_src/parsing/parse.ml" 27 1281 1287 "ocaml_src/parsing/parse.ml" 27 1281 1329
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 27 1281 1333 "ocaml_src/parsing/parse.ml" 27 1281 1344
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref skip_phrase "ocaml_src/parsing/parse.ml" 19 951 959 "ocaml_src/parsing/parse.ml" 19 951 970
+)
+"ocaml_src/parsing/parse.ml" 27 1281 1345 "ocaml_src/parsing/parse.ml" 27 1281 1351
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/parse.ml" 19 951 971 "ocaml_src/parsing/parse.ml" 19 951 977
+)
+"ocaml_src/parsing/parse.ml" 27 1281 1333 "ocaml_src/parsing/parse.ml" 27 1281 1351
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 20 980 982 "ocaml_src/parsing/parse.ml" 27 1281 1351
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 30 1356 1360 "ocaml_src/parsing/parse.ml" 30 1356 1377
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def maybe_skip_phrase "ocaml_src/parsing/parse.ml" 36 1519 1519 "ocaml_src/parsing/parse.ml" 1 0 -1
+)
+"ocaml_src/parsing/parse.ml" 30 1356 1378 "ocaml_src/parsing/parse.ml" 30 1356 1384
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocaml_src/parsing/parse.ml" 31 1387 1389 "ocaml_src/parsing/parse.ml" 34 1492 1517
+)
+"ocaml_src/parsing/parse.ml" 31 1387 1392 "ocaml_src/parsing/parse.ml" 31 1387 1420
+type(
+  Parser.token -> bool
+)
+ident(
+  ext_ref Parsing.is_current_lookahead
+)
+"ocaml_src/parsing/parse.ml" 31 1387 1421 "ocaml_src/parsing/parse.ml" 31 1387 1436
+type(
+  Parser.token
+)
+"ocaml_src/parsing/parse.ml" 31 1387 1392 "ocaml_src/parsing/parse.ml" 31 1387 1436
+call(
+  stack
+)
+type(
+  bool
+)
+"ocaml_src/parsing/parse.ml" 32 1437 1439 "ocaml_src/parsing/parse.ml" 32 1437 1441
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ocaml_src/parsing/parse.ml" 32 1437 1442 "ocaml_src/parsing/parse.ml" 32 1437 1470
+type(
+  Parser.token -> bool
+)
+ident(
+  ext_ref Parsing.is_current_lookahead
+)
+"ocaml_src/parsing/parse.ml" 32 1437 1471 "ocaml_src/parsing/parse.ml" 32 1437 1481
+type(
+  Parser.token
+)
+"ocaml_src/parsing/parse.ml" 32 1437 1442 "ocaml_src/parsing/parse.ml" 32 1437 1481
+call(
+  stack
+)
+type(
+  bool
+)
+"ocaml_src/parsing/parse.ml" 31 1387 1392 "ocaml_src/parsing/parse.ml" 32 1437 1481
+type(
+  bool
+)
+"ocaml_src/parsing/parse.ml" 33 1482 1489 "ocaml_src/parsing/parse.ml" 33 1482 1491
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 34 1492 1499 "ocaml_src/parsing/parse.ml" 34 1492 1510
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref skip_phrase "ocaml_src/parsing/parse.ml" 19 951 959 "ocaml_src/parsing/parse.ml" 19 951 970
+)
+"ocaml_src/parsing/parse.ml" 34 1492 1511 "ocaml_src/parsing/parse.ml" 34 1492 1517
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/parse.ml" 30 1356 1378 "ocaml_src/parsing/parse.ml" 30 1356 1384
+)
+"ocaml_src/parsing/parse.ml" 34 1492 1499 "ocaml_src/parsing/parse.ml" 34 1492 1517
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 31 1387 1389 "ocaml_src/parsing/parse.ml" 34 1492 1517
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 36 1519 1523 "ocaml_src/parsing/parse.ml" 36 1519 1527
+type(
+  ((Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> 'a) ->
+  Lexing.lexbuf -> 'a
+)
+ident(
+  def wrap "ocaml_src/parsing/parse.ml" 58 2321 2321 "ocaml_src/parsing/parse.ml" 1 0 -1
+)
+"ocaml_src/parsing/parse.ml" 36 1519 1528 "ocaml_src/parsing/parse.ml" 36 1519 1539
+type(
+  (Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> 'a
+)
+ident(
+  def parsing_fun "ocaml_src/parsing/parse.ml" 36 1519 1540 "ocaml_src/parsing/parse.ml" 55 2267 2316
+)
+"ocaml_src/parsing/parse.ml" 36 1519 1540 "ocaml_src/parsing/parse.ml" 36 1519 1546
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocaml_src/parsing/parse.ml" 37 1549 1551 "ocaml_src/parsing/parse.ml" 55 2267 2316
+)
+"ocaml_src/parsing/parse.ml" 38 1555 1563 "ocaml_src/parsing/parse.ml" 38 1555 1566
+type(
+  'a
+)
+ident(
+  def ast "ocaml_src/parsing/parse.ml" 39 1603 1607 "ocaml_src/parsing/parse.ml" 40 1631 1638
+)
+"ocaml_src/parsing/parse.ml" 38 1555 1569 "ocaml_src/parsing/parse.ml" 38 1555 1580
+type(
+  (Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> 'a
+)
+ident(
+  int_ref parsing_fun "ocaml_src/parsing/parse.ml" 36 1519 1528 "ocaml_src/parsing/parse.ml" 36 1519 1539
+)
+"ocaml_src/parsing/parse.ml" 38 1555 1581 "ocaml_src/parsing/parse.ml" 38 1555 1592
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  ext_ref Lexer.token
+)
+"ocaml_src/parsing/parse.ml" 38 1555 1593 "ocaml_src/parsing/parse.ml" 38 1555 1599
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/parse.ml" 36 1519 1540 "ocaml_src/parsing/parse.ml" 36 1519 1546
+)
+"ocaml_src/parsing/parse.ml" 38 1555 1569 "ocaml_src/parsing/parse.ml" 38 1555 1599
+call(
+  stack
+)
+type(
+  'a
+)
+"ocaml_src/parsing/parse.ml" 39 1603 1607 "ocaml_src/parsing/parse.ml" 39 1603 1627
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Parsing.clear_parser
+)
+"ocaml_src/parsing/parse.ml" 39 1603 1627 "ocaml_src/parsing/parse.ml" 39 1603 1629
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 39 1603 1607 "ocaml_src/parsing/parse.ml" 39 1603 1629
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 40 1631 1635 "ocaml_src/parsing/parse.ml" 40 1631 1638
+type(
+  'a
+)
+ident(
+  int_ref ast "ocaml_src/parsing/parse.ml" 38 1555 1563 "ocaml_src/parsing/parse.ml" 38 1555 1566
+)
+"ocaml_src/parsing/parse.ml" 39 1603 1607 "ocaml_src/parsing/parse.ml" 40 1631 1638
+type(
+  'a
+)
+"ocaml_src/parsing/parse.ml" 38 1555 1559 "ocaml_src/parsing/parse.ml" 40 1631 1638
+type(
+  'a
+)
+"ocaml_src/parsing/parse.ml" 42 1646 1662 "ocaml_src/parsing/parse.ml" 42 1646 1688
+type(
+  Lexer.error
+)
+"ocaml_src/parsing/parse.ml" 42 1646 1690 "ocaml_src/parsing/parse.ml" 42 1646 1691
+type(
+  Location.t
+)
+"ocaml_src/parsing/parse.ml" 42 1646 1650 "ocaml_src/parsing/parse.ml" 42 1646 1692
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 42 1646 1696 "ocaml_src/parsing/parse.ml" 42 1646 1699
+ident(
+  def err "ocaml_src/parsing/parse.ml" 42 1646 1703 "ocaml_src/parsing/parse.ml" 42 1646 1712
+)
+"ocaml_src/parsing/parse.ml" 42 1646 1650 "ocaml_src/parsing/parse.ml" 42 1646 1699
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 42 1646 1703 "ocaml_src/parsing/parse.ml" 42 1646 1708
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/parsing/parse.ml" 42 1646 1709 "ocaml_src/parsing/parse.ml" 42 1646 1712
+type(
+  exn
+)
+ident(
+  int_ref err "ocaml_src/parsing/parse.ml" 42 1646 1650 "ocaml_src/parsing/parse.ml" 42 1646 1699
+)
+"ocaml_src/parsing/parse.ml" 42 1646 1703 "ocaml_src/parsing/parse.ml" 42 1646 1712
+type(
+  'a
+)
+"ocaml_src/parsing/parse.ml" 43 1713 1729 "ocaml_src/parsing/parse.ml" 43 1713 1754
+type(
+  Lexer.error
+)
+"ocaml_src/parsing/parse.ml" 43 1713 1756 "ocaml_src/parsing/parse.ml" 43 1713 1757
+type(
+  Location.t
+)
+"ocaml_src/parsing/parse.ml" 43 1713 1717 "ocaml_src/parsing/parse.ml" 43 1713 1758
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 43 1713 1762 "ocaml_src/parsing/parse.ml" 43 1713 1765
+ident(
+  def err "ocaml_src/parsing/parse.ml" 43 1713 1769 "ocaml_src/parsing/parse.ml" 43 1713 1778
+)
+"ocaml_src/parsing/parse.ml" 43 1713 1717 "ocaml_src/parsing/parse.ml" 43 1713 1765
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 43 1713 1769 "ocaml_src/parsing/parse.ml" 43 1713 1774
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/parsing/parse.ml" 43 1713 1775 "ocaml_src/parsing/parse.ml" 43 1713 1778
+type(
+  exn
+)
+ident(
+  int_ref err "ocaml_src/parsing/parse.ml" 43 1713 1717 "ocaml_src/parsing/parse.ml" 43 1713 1765
+)
+"ocaml_src/parsing/parse.ml" 43 1713 1769 "ocaml_src/parsing/parse.ml" 43 1713 1778
+type(
+  'a
+)
+"ocaml_src/parsing/parse.ml" 44 1779 1795 "ocaml_src/parsing/parse.ml" 44 1779 1831
+type(
+  Lexer.error
+)
+"ocaml_src/parsing/parse.ml" 44 1779 1833 "ocaml_src/parsing/parse.ml" 44 1779 1834
+type(
+  Location.t
+)
+"ocaml_src/parsing/parse.ml" 44 1779 1783 "ocaml_src/parsing/parse.ml" 44 1779 1835
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 44 1779 1839 "ocaml_src/parsing/parse.ml" 44 1779 1842
+ident(
+  def err "ocaml_src/parsing/parse.ml" 44 1779 1846 "ocaml_src/parsing/parse.ml" 44 1779 1855
+)
+"ocaml_src/parsing/parse.ml" 44 1779 1783 "ocaml_src/parsing/parse.ml" 44 1779 1842
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 44 1779 1846 "ocaml_src/parsing/parse.ml" 44 1779 1851
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/parsing/parse.ml" 44 1779 1852 "ocaml_src/parsing/parse.ml" 44 1779 1855
+type(
+  exn
+)
+ident(
+  int_ref err "ocaml_src/parsing/parse.ml" 44 1779 1783 "ocaml_src/parsing/parse.ml" 44 1779 1842
+)
+"ocaml_src/parsing/parse.ml" 44 1779 1846 "ocaml_src/parsing/parse.ml" 44 1779 1855
+type(
+  'a
+)
+"ocaml_src/parsing/parse.ml" 45 1856 1896 "ocaml_src/parsing/parse.ml" 45 1856 1897
+type(
+  char
+)
+"ocaml_src/parsing/parse.ml" 45 1856 1872 "ocaml_src/parsing/parse.ml" 45 1856 1897
+type(
+  Lexer.error
+)
+"ocaml_src/parsing/parse.ml" 45 1856 1899 "ocaml_src/parsing/parse.ml" 45 1856 1900
+type(
+  Location.t
+)
+"ocaml_src/parsing/parse.ml" 45 1856 1860 "ocaml_src/parsing/parse.ml" 45 1856 1901
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 45 1856 1905 "ocaml_src/parsing/parse.ml" 45 1856 1908
+ident(
+  def err "ocaml_src/parsing/parse.ml" 46 1912 1918 "ocaml_src/parsing/parse.ml" 47 1972 1987
+)
+"ocaml_src/parsing/parse.ml" 45 1856 1860 "ocaml_src/parsing/parse.ml" 45 1856 1908
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 46 1912 1921 "ocaml_src/parsing/parse.ml" 46 1912 1922
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/parse.ml" 46 1912 1922 "ocaml_src/parsing/parse.ml" 46 1912 1941
+type(
+  string ref
+)
+ident(
+  ext_ref Location.input_name
+)
+"ocaml_src/parsing/parse.ml" 46 1912 1921 "ocaml_src/parsing/parse.ml" 46 1912 1941
+type(
+  string
+)
+"ocaml_src/parsing/parse.ml" 46 1912 1942 "ocaml_src/parsing/parse.ml" 46 1912 1943
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/parse.ml" 46 1912 1944 "ocaml_src/parsing/parse.ml" 46 1912 1946
+type(
+  string
+)
+"ocaml_src/parsing/parse.ml" 46 1912 1921 "ocaml_src/parsing/parse.ml" 46 1912 1946
+type(
+  bool
+)
+"ocaml_src/parsing/parse.ml" 46 1912 1952 "ocaml_src/parsing/parse.ml" 46 1912 1963
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref skip_phrase "ocaml_src/parsing/parse.ml" 19 951 959 "ocaml_src/parsing/parse.ml" 19 951 970
+)
+"ocaml_src/parsing/parse.ml" 46 1912 1964 "ocaml_src/parsing/parse.ml" 46 1912 1970
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/parse.ml" 36 1519 1540 "ocaml_src/parsing/parse.ml" 36 1519 1546
+)
+"ocaml_src/parsing/parse.ml" 46 1912 1952 "ocaml_src/parsing/parse.ml" 46 1912 1970
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 46 1912 1918 "ocaml_src/parsing/parse.ml" 46 1912 1970
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 47 1972 1978 "ocaml_src/parsing/parse.ml" 47 1972 1983
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/parsing/parse.ml" 47 1972 1984 "ocaml_src/parsing/parse.ml" 47 1972 1987
+type(
+  exn
+)
+ident(
+  int_ref err "ocaml_src/parsing/parse.ml" 45 1856 1860 "ocaml_src/parsing/parse.ml" 45 1856 1908
+)
+"ocaml_src/parsing/parse.ml" 47 1972 1978 "ocaml_src/parsing/parse.ml" 47 1972 1987
+type(
+  'a
+)
+"ocaml_src/parsing/parse.ml" 46 1912 1918 "ocaml_src/parsing/parse.ml" 47 1972 1987
+type(
+  'a
+)
+"ocaml_src/parsing/parse.ml" 48 1988 2008 "ocaml_src/parsing/parse.ml" 48 1988 2009
+type(
+  Syntaxerr.error
+)
+"ocaml_src/parsing/parse.ml" 48 1988 1992 "ocaml_src/parsing/parse.ml" 48 1988 2009
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 48 1988 2013 "ocaml_src/parsing/parse.ml" 48 1988 2016
+ident(
+  def err "ocaml_src/parsing/parse.ml" 49 2020 2026 "ocaml_src/parsing/parse.ml" 50 2086 2101
+)
+"ocaml_src/parsing/parse.ml" 48 1988 1992 "ocaml_src/parsing/parse.ml" 48 1988 2016
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 49 2020 2029 "ocaml_src/parsing/parse.ml" 49 2020 2030
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/parse.ml" 49 2020 2030 "ocaml_src/parsing/parse.ml" 49 2020 2049
+type(
+  string ref
+)
+ident(
+  ext_ref Location.input_name
+)
+"ocaml_src/parsing/parse.ml" 49 2020 2029 "ocaml_src/parsing/parse.ml" 49 2020 2049
+type(
+  string
+)
+"ocaml_src/parsing/parse.ml" 49 2020 2050 "ocaml_src/parsing/parse.ml" 49 2020 2051
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/parse.ml" 49 2020 2052 "ocaml_src/parsing/parse.ml" 49 2020 2054
+type(
+  string
+)
+"ocaml_src/parsing/parse.ml" 49 2020 2029 "ocaml_src/parsing/parse.ml" 49 2020 2054
+type(
+  bool
+)
+"ocaml_src/parsing/parse.ml" 49 2020 2060 "ocaml_src/parsing/parse.ml" 49 2020 2077
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref maybe_skip_phrase "ocaml_src/parsing/parse.ml" 30 1356 1360 "ocaml_src/parsing/parse.ml" 30 1356 1377
+)
+"ocaml_src/parsing/parse.ml" 49 2020 2078 "ocaml_src/parsing/parse.ml" 49 2020 2084
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/parse.ml" 36 1519 1540 "ocaml_src/parsing/parse.ml" 36 1519 1546
+)
+"ocaml_src/parsing/parse.ml" 49 2020 2060 "ocaml_src/parsing/parse.ml" 49 2020 2084
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 49 2020 2026 "ocaml_src/parsing/parse.ml" 49 2020 2084
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 50 2086 2092 "ocaml_src/parsing/parse.ml" 50 2086 2097
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/parsing/parse.ml" 50 2086 2098 "ocaml_src/parsing/parse.ml" 50 2086 2101
+type(
+  exn
+)
+ident(
+  int_ref err "ocaml_src/parsing/parse.ml" 48 1988 1992 "ocaml_src/parsing/parse.ml" 48 1988 2016
+)
+"ocaml_src/parsing/parse.ml" 50 2086 2092 "ocaml_src/parsing/parse.ml" 50 2086 2101
+type(
+  'a
+)
+"ocaml_src/parsing/parse.ml" 49 2020 2026 "ocaml_src/parsing/parse.ml" 50 2086 2101
+type(
+  'a
+)
+"ocaml_src/parsing/parse.ml" 51 2102 2106 "ocaml_src/parsing/parse.ml" 51 2102 2125
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 51 2102 2128 "ocaml_src/parsing/parse.ml" 51 2102 2150
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 51 2102 2106 "ocaml_src/parsing/parse.ml" 51 2102 2150
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 52 2154 2164 "ocaml_src/parsing/parse.ml" 52 2154 2167
+type(
+  Location.t
+)
+ident(
+  def loc "ocaml_src/parsing/parse.ml" 53 2194 2200 "ocaml_src/parsing/parse.ml" 55 2267 2316
+)
+"ocaml_src/parsing/parse.ml" 52 2154 2170 "ocaml_src/parsing/parse.ml" 52 2154 2183
+type(
+  Lexing.lexbuf -> Location.t
+)
+ident(
+  ext_ref Location.curr
+)
+"ocaml_src/parsing/parse.ml" 52 2154 2184 "ocaml_src/parsing/parse.ml" 52 2154 2190
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/parse.ml" 36 1519 1540 "ocaml_src/parsing/parse.ml" 36 1519 1546
+)
+"ocaml_src/parsing/parse.ml" 52 2154 2170 "ocaml_src/parsing/parse.ml" 52 2154 2190
+call(
+  stack
+)
+type(
+  Location.t
+)
+"ocaml_src/parsing/parse.ml" 53 2194 2203 "ocaml_src/parsing/parse.ml" 53 2194 2204
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/parse.ml" 53 2194 2204 "ocaml_src/parsing/parse.ml" 53 2194 2223
+type(
+  string ref
+)
+ident(
+  ext_ref Location.input_name
+)
+"ocaml_src/parsing/parse.ml" 53 2194 2203 "ocaml_src/parsing/parse.ml" 53 2194 2223
+type(
+  string
+)
+"ocaml_src/parsing/parse.ml" 53 2194 2224 "ocaml_src/parsing/parse.ml" 53 2194 2225
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/parsing/parse.ml" 53 2194 2226 "ocaml_src/parsing/parse.ml" 53 2194 2228
+type(
+  string
+)
+"ocaml_src/parsing/parse.ml" 53 2194 2203 "ocaml_src/parsing/parse.ml" 53 2194 2228
+type(
+  bool
+)
+"ocaml_src/parsing/parse.ml" 54 2230 2241 "ocaml_src/parsing/parse.ml" 54 2230 2258
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref maybe_skip_phrase "ocaml_src/parsing/parse.ml" 30 1356 1360 "ocaml_src/parsing/parse.ml" 30 1356 1377
+)
+"ocaml_src/parsing/parse.ml" 54 2230 2259 "ocaml_src/parsing/parse.ml" 54 2230 2265
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/parse.ml" 36 1519 1540 "ocaml_src/parsing/parse.ml" 36 1519 1546
+)
+"ocaml_src/parsing/parse.ml" 54 2230 2241 "ocaml_src/parsing/parse.ml" 54 2230 2265
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 53 2194 2200 "ocaml_src/parsing/parse.ml" 54 2230 2265
+type(
+  unit
+)
+"ocaml_src/parsing/parse.ml" 55 2267 2273 "ocaml_src/parsing/parse.ml" 55 2267 2278
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/parsing/parse.ml" 55 2267 2311 "ocaml_src/parsing/parse.ml" 55 2267 2314
+type(
+  Location.t
+)
+ident(
+  int_ref loc "ocaml_src/parsing/parse.ml" 52 2154 2164 "ocaml_src/parsing/parse.ml" 52 2154 2167
+)
+"ocaml_src/parsing/parse.ml" 55 2267 2294 "ocaml_src/parsing/parse.ml" 55 2267 2315
+type(
+  Syntaxerr.error
+)
+"ocaml_src/parsing/parse.ml" 55 2267 2278 "ocaml_src/parsing/parse.ml" 55 2267 2316
+type(
+  exn
+)
+"ocaml_src/parsing/parse.ml" 55 2267 2273 "ocaml_src/parsing/parse.ml" 55 2267 2316
+type(
+  'a
+)
+"ocaml_src/parsing/parse.ml" 53 2194 2200 "ocaml_src/parsing/parse.ml" 55 2267 2316
+type(
+  'a
+)
+"ocaml_src/parsing/parse.ml" 52 2154 2160 "ocaml_src/parsing/parse.ml" 55 2267 2316
+type(
+  'a
+)
+"ocaml_src/parsing/parse.ml" 37 1549 1551 "ocaml_src/parsing/parse.ml" 55 2267 2316
+type(
+  'a
+)
+"ocaml_src/parsing/parse.ml" 58 2321 2325 "ocaml_src/parsing/parse.ml" 58 2321 2339
+type(
+  Lexing.lexbuf -> Parsetree.structure
+)
+ident(
+  def implementation "ocaml_src/parsing/parse.ml" 61 2457 2492 "ocaml_src/parsing/parse.ml" 1 0 -1
+)
+"ocaml_src/parsing/parse.ml" 58 2321 2342 "ocaml_src/parsing/parse.ml" 58 2321 2346
+type(
+  ((Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> Parsetree.structure) ->
+  Lexing.lexbuf -> Parsetree.structure
+)
+ident(
+  int_ref wrap "ocaml_src/parsing/parse.ml" 36 1519 1523 "ocaml_src/parsing/parse.ml" 36 1519 1527
+)
+"ocaml_src/parsing/parse.ml" 58 2321 2347 "ocaml_src/parsing/parse.ml" 58 2321 2368
+type(
+  (Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> Parsetree.structure
+)
+ident(
+  ext_ref Parser.implementation
+)
+"ocaml_src/parsing/parse.ml" 58 2321 2342 "ocaml_src/parsing/parse.ml" 58 2321 2368
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> Parsetree.structure
+)
+"ocaml_src/parsing/parse.ml" 59 2369 2373 "ocaml_src/parsing/parse.ml" 59 2369 2382
+type(
+  Lexing.lexbuf -> Parsetree.signature
+)
+ident(
+  def interface "ocaml_src/parsing/parse.ml" 61 2457 2492 "ocaml_src/parsing/parse.ml" 1 0 -1
+)
+"ocaml_src/parsing/parse.ml" 59 2369 2385 "ocaml_src/parsing/parse.ml" 59 2369 2389
+type(
+  ((Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> Parsetree.signature) ->
+  Lexing.lexbuf -> Parsetree.signature
+)
+ident(
+  int_ref wrap "ocaml_src/parsing/parse.ml" 36 1519 1523 "ocaml_src/parsing/parse.ml" 36 1519 1527
+)
+"ocaml_src/parsing/parse.ml" 59 2369 2390 "ocaml_src/parsing/parse.ml" 59 2369 2406
+type(
+  (Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> Parsetree.signature
+)
+ident(
+  ext_ref Parser.interface
+)
+"ocaml_src/parsing/parse.ml" 59 2369 2385 "ocaml_src/parsing/parse.ml" 59 2369 2406
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> Parsetree.signature
+)
+"ocaml_src/parsing/parse.ml" 60 2407 2411 "ocaml_src/parsing/parse.ml" 60 2407 2426
+type(
+  Lexing.lexbuf -> Parsetree.toplevel_phrase
+)
+ident(
+  def toplevel_phrase "ocaml_src/parsing/parse.ml" 61 2457 2492 "ocaml_src/parsing/parse.ml" 1 0 -1
+)
+"ocaml_src/parsing/parse.ml" 60 2407 2429 "ocaml_src/parsing/parse.ml" 60 2407 2433
+type(
+  ((Lexing.lexbuf -> Parser.token) ->
+   Lexing.lexbuf -> Parsetree.toplevel_phrase) ->
+  Lexing.lexbuf -> Parsetree.toplevel_phrase
+)
+ident(
+  int_ref wrap "ocaml_src/parsing/parse.ml" 36 1519 1523 "ocaml_src/parsing/parse.ml" 36 1519 1527
+)
+"ocaml_src/parsing/parse.ml" 60 2407 2434 "ocaml_src/parsing/parse.ml" 60 2407 2456
+type(
+  (Lexing.lexbuf -> Parser.token) ->
+  Lexing.lexbuf -> Parsetree.toplevel_phrase
+)
+ident(
+  ext_ref Parser.toplevel_phrase
+)
+"ocaml_src/parsing/parse.ml" 60 2407 2429 "ocaml_src/parsing/parse.ml" 60 2407 2456
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> Parsetree.toplevel_phrase
+)
+"ocaml_src/parsing/parse.ml" 61 2457 2461 "ocaml_src/parsing/parse.ml" 61 2457 2469
+type(
+  Lexing.lexbuf -> Parsetree.toplevel_phrase list
+)
+ident(
+  def use_file "ocaml_src/parsing/parse.ml" 61 2457 2492 "ocaml_src/parsing/parse.ml" 1 0 -1
+)
+"ocaml_src/parsing/parse.ml" 61 2457 2472 "ocaml_src/parsing/parse.ml" 61 2457 2476
+type(
+  ((Lexing.lexbuf -> Parser.token) ->
+   Lexing.lexbuf -> Parsetree.toplevel_phrase list) ->
+  Lexing.lexbuf -> Parsetree.toplevel_phrase list
+)
+ident(
+  int_ref wrap "ocaml_src/parsing/parse.ml" 36 1519 1523 "ocaml_src/parsing/parse.ml" 36 1519 1527
+)
+"ocaml_src/parsing/parse.ml" 61 2457 2477 "ocaml_src/parsing/parse.ml" 61 2457 2492
+type(
+  (Lexing.lexbuf -> Parser.token) ->
+  Lexing.lexbuf -> Parsetree.toplevel_phrase list
+)
+ident(
+  ext_ref Parser.use_file
+)
+"ocaml_src/parsing/parse.ml" 61 2457 2472 "ocaml_src/parsing/parse.ml" 61 2457 2492
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> Parsetree.toplevel_phrase list
+)

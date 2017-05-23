@@ -1,0 +1,1156 @@
+"completion/rename.ml" 22 1093 1097 "completion/rename.ml" 22 1093 1103
+type(
+  int -> Term.term -> Term.term
+)
+ident(
+  def rename "completion/rename.ml" 32 1290 1290 "completion/rename.ml" 1 0 -1
+)
+"completion/rename.ml" 22 1093 1104 "completion/rename.ml" 22 1093 1105
+type(
+  int
+)
+ident(
+  def z "completion/rename.ml" 23 1108 1110 "completion/rename.ml" 28 1244 1254
+)
+"completion/rename.ml" 23 1108 1113 "completion/rename.ml" 23 1108 1114
+type(
+  int
+)
+ident(
+  int_ref z "completion/rename.ml" 22 1093 1104 "completion/rename.ml" 22 1093 1105
+)
+"completion/rename.ml" 23 1108 1115 "completion/rename.ml" 23 1108 1116
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"completion/rename.ml" 23 1108 1117 "completion/rename.ml" 23 1108 1118
+type(
+  int
+)
+"completion/rename.ml" 23 1108 1113 "completion/rename.ml" 23 1108 1118
+type(
+  bool
+)
+"completion/rename.ml" 23 1108 1128 "completion/rename.ml" 23 1108 1129
+type(
+  Term.term
+)
+ident(
+  def t "completion/rename.ml" 23 1108 1133 "completion/rename.ml" 23 1108 1134
+)
+"completion/rename.ml" 23 1108 1133 "completion/rename.ml" 23 1108 1134
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/rename.ml" 23 1108 1128 "completion/rename.ml" 23 1108 1129
+)
+"completion/rename.ml" 23 1108 1124 "completion/rename.ml" 23 1108 1134
+type(
+  Term.term -> Term.term
+)
+"completion/rename.ml" 25 1142 1154 "completion/rename.ml" 25 1142 1157
+type(
+  Term.term -> Term.term
+)
+ident(
+  def aux "completion/rename.ml" 25 1142 1146 "completion/rename.ml" 28 1244 1254
+)
+"completion/rename.ml" 26 1169 1181 "completion/rename.ml" 26 1169 1182
+type(
+  Var.var
+)
+ident(
+  def x "completion/rename.ml" 26 1169 1186 "completion/rename.ml" 26 1169 1195
+)
+"completion/rename.ml" 26 1169 1177 "completion/rename.ml" 26 1169 1182
+type(
+  Term.term
+)
+"completion/rename.ml" 26 1169 1191 "completion/rename.ml" 26 1169 1192
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/rename.ml" 26 1169 1181 "completion/rename.ml" 26 1169 1182
+)
+"completion/rename.ml" 26 1169 1192 "completion/rename.ml" 26 1169 1193
+type(
+  Var.var -> int -> Var.var
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"completion/rename.ml" 26 1169 1193 "completion/rename.ml" 26 1169 1194
+type(
+  int
+)
+ident(
+  int_ref z "completion/rename.ml" 22 1093 1104 "completion/rename.ml" 22 1093 1105
+)
+"completion/rename.ml" 26 1169 1190 "completion/rename.ml" 26 1169 1195
+type(
+  Var.var
+)
+"completion/rename.ml" 26 1169 1186 "completion/rename.ml" 26 1169 1195
+type(
+  Term.term
+)
+"completion/rename.ml" 27 1196 1209 "completion/rename.ml" 27 1196 1210
+type(
+  Symb.symbol
+)
+ident(
+  def f "completion/rename.ml" 27 1196 1219 "completion/rename.ml" 27 1196 1243
+)
+"completion/rename.ml" 27 1196 1212 "completion/rename.ml" 27 1196 1214
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/rename.ml" 27 1196 1219 "completion/rename.ml" 27 1196 1243
+)
+"completion/rename.ml" 27 1196 1204 "completion/rename.ml" 27 1196 1215
+type(
+  Term.term
+)
+"completion/rename.ml" 27 1196 1224 "completion/rename.ml" 27 1196 1225
+type(
+  Symb.symbol
+)
+ident(
+  int_ref f "completion/rename.ml" 27 1196 1209 "completion/rename.ml" 27 1196 1210
+)
+"completion/rename.ml" 27 1196 1227 "completion/rename.ml" 27 1196 1235
+type(
+  (Term.term -> Term.term) -> Term.term list -> Term.term list
+)
+ident(
+  ext_ref List.map
+)
+"completion/rename.ml" 27 1196 1236 "completion/rename.ml" 27 1196 1239
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref aux "completion/rename.ml" 25 1142 1154 "completion/rename.ml" 25 1142 1157
+)
+"completion/rename.ml" 27 1196 1240 "completion/rename.ml" 27 1196 1242
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/rename.ml" 27 1196 1212 "completion/rename.ml" 27 1196 1214
+)
+"completion/rename.ml" 27 1196 1227 "completion/rename.ml" 27 1196 1242
+call(
+  stack
+)
+type(
+  Term.term list
+)
+"completion/rename.ml" 27 1196 1219 "completion/rename.ml" 27 1196 1243
+type(
+  Term.term
+)
+"completion/rename.ml" 25 1142 1160 "completion/rename.ml" 27 1196 1243
+type(
+  Term.term -> Term.term
+)
+"completion/rename.ml" 28 1244 1251 "completion/rename.ml" 28 1244 1254
+type(
+  Term.term -> Term.term
+)
+ident(
+  int_ref aux "completion/rename.ml" 25 1142 1154 "completion/rename.ml" 25 1142 1157
+)
+"completion/rename.ml" 25 1142 1146 "completion/rename.ml" 28 1244 1254
+type(
+  Term.term -> Term.term
+)
+"completion/rename.ml" 23 1108 1110 "completion/rename.ml" 28 1244 1254
+type(
+  Term.term -> Term.term
+)
+"completion/rename.ml" 32 1290 1294 "completion/rename.ml" 32 1290 1301
+type(
+  'a * 'b -> 'a * 'b -> 'a * 'b
+)
+ident(
+  def min_max "completion/rename.ml" 34 1336 1336 "completion/rename.ml" 1 0 -1
+)
+"completion/rename.ml" 32 1290 1303 "completion/rename.ml" 32 1290 1304
+type(
+  'a
+)
+ident(
+  def i "completion/rename.ml" 32 1290 1308 "completion/rename.ml" 32 1290 1332
+)
+"completion/rename.ml" 32 1290 1305 "completion/rename.ml" 32 1290 1306
+type(
+  'b
+)
+ident(
+  def s "completion/rename.ml" 32 1290 1308 "completion/rename.ml" 32 1290 1332
+)
+"completion/rename.ml" 32 1290 1302 "completion/rename.ml" 32 1290 1307
+type(
+  'a * 'b
+)
+"completion/rename.ml" 32 1290 1309 "completion/rename.ml" 32 1290 1310
+type(
+  'a
+)
+ident(
+  def u "completion/rename.ml" 32 1290 1316 "completion/rename.ml" 32 1290 1332
+)
+"completion/rename.ml" 32 1290 1311 "completion/rename.ml" 32 1290 1312
+type(
+  'b
+)
+ident(
+  def v "completion/rename.ml" 32 1290 1316 "completion/rename.ml" 32 1290 1332
+)
+"completion/rename.ml" 32 1290 1308 "completion/rename.ml" 32 1290 1313
+type(
+  'a * 'b
+)
+"completion/rename.ml" 32 1290 1316 "completion/rename.ml" 32 1290 1319
+type(
+  'a -> 'a -> 'a
+)
+ident(
+  ext_ref Pervasives.min
+)
+"completion/rename.ml" 32 1290 1320 "completion/rename.ml" 32 1290 1321
+type(
+  'a
+)
+ident(
+  int_ref i "completion/rename.ml" 32 1290 1303 "completion/rename.ml" 32 1290 1304
+)
+"completion/rename.ml" 32 1290 1322 "completion/rename.ml" 32 1290 1323
+type(
+  'a
+)
+ident(
+  int_ref u "completion/rename.ml" 32 1290 1309 "completion/rename.ml" 32 1290 1310
+)
+"completion/rename.ml" 32 1290 1316 "completion/rename.ml" 32 1290 1323
+call(
+  stack
+)
+type(
+  'a
+)
+"completion/rename.ml" 32 1290 1325 "completion/rename.ml" 32 1290 1328
+type(
+  'b -> 'b -> 'b
+)
+ident(
+  ext_ref Pervasives.max
+)
+"completion/rename.ml" 32 1290 1329 "completion/rename.ml" 32 1290 1330
+type(
+  'b
+)
+ident(
+  int_ref s "completion/rename.ml" 32 1290 1305 "completion/rename.ml" 32 1290 1306
+)
+"completion/rename.ml" 32 1290 1331 "completion/rename.ml" 32 1290 1332
+type(
+  'b
+)
+ident(
+  int_ref v "completion/rename.ml" 32 1290 1311 "completion/rename.ml" 32 1290 1312
+)
+"completion/rename.ml" 32 1290 1325 "completion/rename.ml" 32 1290 1332
+call(
+  stack
+)
+type(
+  'b
+)
+"completion/rename.ml" 32 1290 1316 "completion/rename.ml" 32 1290 1332
+type(
+  'a * 'b
+)
+"completion/rename.ml" 34 1336 1344 "completion/rename.ml" 34 1336 1349
+type(
+  Term.term -> Var.var * Var.var
+)
+ident(
+  def range "completion/rename.ml" 34 1336 1336 "completion/rename.ml" 1 0 -1
+)
+"completion/rename.ml" 35 1361 1369 "completion/rename.ml" 35 1361 1370
+type(
+  Var.var
+)
+ident(
+  def x "completion/rename.ml" 35 1361 1374 "completion/rename.ml" 35 1361 1378
+)
+"completion/rename.ml" 35 1361 1365 "completion/rename.ml" 35 1361 1370
+type(
+  Term.term
+)
+"completion/rename.ml" 35 1361 1374 "completion/rename.ml" 35 1361 1375
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/rename.ml" 35 1361 1369 "completion/rename.ml" 35 1361 1370
+)
+"completion/rename.ml" 35 1361 1377 "completion/rename.ml" 35 1361 1378
+type(
+  Var.var
+)
+ident(
+  int_ref x "completion/rename.ml" 35 1361 1369 "completion/rename.ml" 35 1361 1370
+)
+"completion/rename.ml" 35 1361 1374 "completion/rename.ml" 35 1361 1378
+type(
+  Var.var * Var.var
+)
+"completion/rename.ml" 36 1379 1388 "completion/rename.ml" 36 1379 1389
+type(
+  Symb.symbol
+)
+"completion/rename.ml" 36 1379 1391 "completion/rename.ml" 36 1379 1393
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/rename.ml" 36 1379 1398 "completion/rename.ml" 36 1379 1413
+)
+"completion/rename.ml" 36 1379 1383 "completion/rename.ml" 36 1379 1394
+type(
+  Term.term
+)
+"completion/rename.ml" 36 1379 1398 "completion/rename.ml" 36 1379 1404
+type(
+  Var.var * Var.var -> Term.term list -> Var.var * Var.var
+)
+ident(
+  int_ref ranges "completion/rename.ml" 38 1415 1419 "completion/rename.ml" 38 1415 1425
+)
+"completion/rename.ml" 36 1379 1406 "completion/rename.ml" 36 1379 1407
+type(
+  Var.var
+)
+"completion/rename.ml" 36 1379 1408 "completion/rename.ml" 36 1379 1409
+type(
+  Var.var
+)
+"completion/rename.ml" 36 1379 1405 "completion/rename.ml" 36 1379 1410
+type(
+  Var.var * Var.var
+)
+"completion/rename.ml" 36 1379 1411 "completion/rename.ml" 36 1379 1413
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/rename.ml" 36 1379 1391 "completion/rename.ml" 36 1379 1393
+)
+"completion/rename.ml" 36 1379 1398 "completion/rename.ml" 36 1379 1413
+call(
+  tail
+)
+type(
+  Var.var * Var.var
+)
+"completion/rename.ml" 34 1336 1352 "completion/rename.ml" 36 1379 1413
+type(
+  Term.term -> Var.var * Var.var
+)
+"completion/rename.ml" 38 1415 1419 "completion/rename.ml" 38 1415 1425
+type(
+  Var.var * Var.var -> Term.term list -> Var.var * Var.var
+)
+ident(
+  def ranges "completion/rename.ml" 34 1336 1336 "completion/rename.ml" 1 0 -1
+)
+"completion/rename.ml" 38 1415 1426 "completion/rename.ml" 38 1415 1429
+type(
+  Var.var * Var.var
+)
+ident(
+  def acc "completion/rename.ml" 38 1415 1432 "completion/rename.ml" 40 1455 1503
+)
+"completion/rename.ml" 39 1441 1445 "completion/rename.ml" 39 1441 1447
+type(
+  Term.term list
+)
+"completion/rename.ml" 39 1441 1451 "completion/rename.ml" 39 1441 1454
+type(
+  Var.var * Var.var
+)
+ident(
+  int_ref acc "completion/rename.ml" 38 1415 1426 "completion/rename.ml" 38 1415 1429
+)
+"completion/rename.ml" 40 1455 1459 "completion/rename.ml" 40 1455 1460
+type(
+  Term.term
+)
+ident(
+  def t "completion/rename.ml" 40 1455 1470 "completion/rename.ml" 40 1455 1503
+)
+"completion/rename.ml" 40 1455 1464 "completion/rename.ml" 40 1455 1466
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/rename.ml" 40 1455 1470 "completion/rename.ml" 40 1455 1503
+)
+"completion/rename.ml" 40 1455 1459 "completion/rename.ml" 40 1455 1466
+type(
+  Term.term list
+)
+"completion/rename.ml" 40 1455 1470 "completion/rename.ml" 40 1455 1476
+type(
+  Var.var * Var.var -> Term.term list -> Var.var * Var.var
+)
+ident(
+  int_ref ranges "completion/rename.ml" 38 1415 1419 "completion/rename.ml" 38 1415 1425
+)
+"completion/rename.ml" 40 1455 1478 "completion/rename.ml" 40 1455 1485
+type(
+  Var.var * Var.var -> Var.var * Var.var -> Var.var * Var.var
+)
+ident(
+  int_ref min_max "completion/rename.ml" 32 1290 1294 "completion/rename.ml" 32 1290 1301
+)
+"completion/rename.ml" 40 1455 1486 "completion/rename.ml" 40 1455 1489
+type(
+  Var.var * Var.var
+)
+ident(
+  int_ref acc "completion/rename.ml" 38 1415 1426 "completion/rename.ml" 38 1415 1429
+)
+"completion/rename.ml" 40 1455 1491 "completion/rename.ml" 40 1455 1496
+type(
+  Term.term -> Var.var * Var.var
+)
+ident(
+  int_ref range "completion/rename.ml" 34 1336 1344 "completion/rename.ml" 34 1336 1349
+)
+"completion/rename.ml" 40 1455 1497 "completion/rename.ml" 40 1455 1498
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/rename.ml" 40 1455 1459 "completion/rename.ml" 40 1455 1460
+)
+"completion/rename.ml" 40 1455 1490 "completion/rename.ml" 40 1455 1499
+call(
+  stack
+)
+type(
+  Var.var * Var.var
+)
+"completion/rename.ml" 40 1455 1477 "completion/rename.ml" 40 1455 1500
+call(
+  stack
+)
+type(
+  Var.var * Var.var
+)
+"completion/rename.ml" 40 1455 1501 "completion/rename.ml" 40 1455 1503
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/rename.ml" 40 1455 1464 "completion/rename.ml" 40 1455 1466
+)
+"completion/rename.ml" 40 1455 1470 "completion/rename.ml" 40 1455 1503
+call(
+  tail
+)
+type(
+  Var.var * Var.var
+)
+"completion/rename.ml" 38 1415 1432 "completion/rename.ml" 40 1455 1503
+type(
+  Term.term list -> Var.var * Var.var
+)
+"completion/rename.ml" 44 1540 1544 "completion/rename.ml" 44 1540 1549
+type(
+  Term.term -> int
+)
+ident(
+  def delta "completion/rename.ml" 46 1593 1593 "completion/rename.ml" 1 0 -1
+)
+"completion/rename.ml" 44 1540 1550 "completion/rename.ml" 44 1540 1551
+type(
+  Term.term
+)
+ident(
+  def t "completion/rename.ml" 44 1540 1554 "completion/rename.ml" 44 1540 1589
+)
+"completion/rename.ml" 44 1540 1558 "completion/rename.ml" 44 1540 1561
+type(
+  Var.var
+)
+ident(
+  def inf "completion/rename.ml" 44 1540 1580 "completion/rename.ml" 44 1540 1589
+)
+"completion/rename.ml" 44 1540 1563 "completion/rename.ml" 44 1540 1566
+type(
+  Var.var
+)
+ident(
+  def sup "completion/rename.ml" 44 1540 1580 "completion/rename.ml" 44 1540 1589
+)
+"completion/rename.ml" 44 1540 1558 "completion/rename.ml" 44 1540 1566
+type(
+  Var.var * Var.var
+)
+"completion/rename.ml" 44 1540 1569 "completion/rename.ml" 44 1540 1574
+type(
+  Term.term -> Var.var * Var.var
+)
+ident(
+  int_ref range "completion/rename.ml" 34 1336 1344 "completion/rename.ml" 34 1336 1349
+)
+"completion/rename.ml" 44 1540 1575 "completion/rename.ml" 44 1540 1576
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/rename.ml" 44 1540 1550 "completion/rename.ml" 44 1540 1551
+)
+"completion/rename.ml" 44 1540 1569 "completion/rename.ml" 44 1540 1576
+call(
+  stack
+)
+type(
+  Var.var * Var.var
+)
+"completion/rename.ml" 44 1540 1580 "completion/rename.ml" 44 1540 1583
+type(
+  Var.var
+)
+ident(
+  int_ref sup "completion/rename.ml" 44 1540 1563 "completion/rename.ml" 44 1540 1566
+)
+"completion/rename.ml" 44 1540 1584 "completion/rename.ml" 44 1540 1585
+type(
+  Var.var -> Var.var -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"completion/rename.ml" 44 1540 1586 "completion/rename.ml" 44 1540 1589
+type(
+  Var.var
+)
+ident(
+  int_ref inf "completion/rename.ml" 44 1540 1558 "completion/rename.ml" 44 1540 1561
+)
+"completion/rename.ml" 44 1540 1580 "completion/rename.ml" 44 1540 1589
+type(
+  int
+)
+"completion/rename.ml" 44 1540 1554 "completion/rename.ml" 44 1540 1589
+type(
+  int
+)
+"completion/rename.ml" 46 1593 1597 "completion/rename.ml" 46 1593 1610
+type(
+  Term.term -> int
+)
+ident(
+  def renaming_away "completion/rename.ml" 50 1655 1655 "completion/rename.ml" 1 0 -1
+)
+"completion/rename.ml" 46 1593 1611 "completion/rename.ml" 46 1593 1612
+type(
+  Term.term
+)
+ident(
+  def t "completion/rename.ml" 46 1593 1615 "completion/rename.ml" 46 1593 1626
+)
+"completion/rename.ml" 46 1593 1615 "completion/rename.ml" 46 1593 1620
+type(
+  Term.term -> int
+)
+ident(
+  int_ref delta "completion/rename.ml" 44 1540 1544 "completion/rename.ml" 44 1540 1549
+)
+"completion/rename.ml" 46 1593 1621 "completion/rename.ml" 46 1593 1622
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/rename.ml" 46 1593 1611 "completion/rename.ml" 46 1593 1612
+)
+"completion/rename.ml" 46 1593 1615 "completion/rename.ml" 46 1593 1622
+call(
+  stack
+)
+type(
+  int
+)
+"completion/rename.ml" 46 1593 1623 "completion/rename.ml" 46 1593 1624
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"completion/rename.ml" 46 1593 1625 "completion/rename.ml" 46 1593 1626
+type(
+  int
+)
+"completion/rename.ml" 46 1593 1615 "completion/rename.ml" 46 1593 1626
+type(
+  int
+)
+"completion/rename.ml" 50 1655 1659 "completion/rename.ml" 50 1655 1670
+type(
+  int -> Term.term -> int
+)
+ident(
+  def extend_away "completion/rename.ml" 54 1746 1746 "completion/rename.ml" 1 0 -1
+)
+"completion/rename.ml" 50 1655 1671 "completion/rename.ml" 50 1655 1672
+type(
+  int
+)
+ident(
+  def r "completion/rename.ml" 50 1655 1673 "completion/rename.ml" 50 1655 1700
+)
+"completion/rename.ml" 50 1655 1673 "completion/rename.ml" 50 1655 1674
+type(
+  Term.term
+)
+ident(
+  def t "completion/rename.ml" 50 1655 1677 "completion/rename.ml" 50 1655 1700
+)
+"completion/rename.ml" 50 1655 1677 "completion/rename.ml" 50 1655 1680
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"completion/rename.ml" 50 1655 1681 "completion/rename.ml" 50 1655 1682
+type(
+  int
+)
+ident(
+  int_ref r "completion/rename.ml" 50 1655 1671 "completion/rename.ml" 50 1655 1672
+)
+"completion/rename.ml" 50 1655 1684 "completion/rename.ml" 50 1655 1697
+type(
+  Term.term -> int
+)
+ident(
+  int_ref renaming_away "completion/rename.ml" 46 1593 1597 "completion/rename.ml" 46 1593 1610
+)
+"completion/rename.ml" 50 1655 1698 "completion/rename.ml" 50 1655 1699
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/rename.ml" 50 1655 1673 "completion/rename.ml" 50 1655 1674
+)
+"completion/rename.ml" 50 1655 1683 "completion/rename.ml" 50 1655 1700
+call(
+  stack
+)
+type(
+  int
+)
+"completion/rename.ml" 50 1655 1677 "completion/rename.ml" 50 1655 1700
+call(
+  tail
+)
+type(
+  int
+)
+"completion/rename.ml" 54 1746 1750 "completion/rename.ml" 54 1746 1764
+type(
+  Term.term list -> int
+)
+ident(
+  def renaming_aways "completion/rename.ml" 63 1957 1957 "completion/rename.ml" 1 0 -1
+)
+"completion/rename.ml" 55 1767 1777 "completion/rename.ml" 55 1767 1780
+type(
+  int -> Term.term list -> int
+)
+ident(
+  def aux "completion/rename.ml" 55 1767 1769 "completion/rename.ml" 58 1856 1866
+)
+"completion/rename.ml" 55 1767 1781 "completion/rename.ml" 55 1767 1784
+type(
+  int
+)
+ident(
+  def acc "completion/rename.ml" 55 1767 1787 "completion/rename.ml" 57 1812 1855
+)
+"completion/rename.ml" 56 1796 1802 "completion/rename.ml" 56 1796 1804
+type(
+  Term.term list
+)
+"completion/rename.ml" 56 1796 1808 "completion/rename.ml" 56 1796 1811
+type(
+  int
+)
+ident(
+  int_ref acc "completion/rename.ml" 55 1767 1781 "completion/rename.ml" 55 1767 1784
+)
+"completion/rename.ml" 57 1812 1818 "completion/rename.ml" 57 1812 1819
+type(
+  Term.term
+)
+ident(
+  def t "completion/rename.ml" 57 1812 1829 "completion/rename.ml" 57 1812 1855
+)
+"completion/rename.ml" 57 1812 1823 "completion/rename.ml" 57 1812 1825
+type(
+  Term.term list
+)
+ident(
+  def ts "completion/rename.ml" 57 1812 1829 "completion/rename.ml" 57 1812 1855
+)
+"completion/rename.ml" 57 1812 1818 "completion/rename.ml" 57 1812 1825
+type(
+  Term.term list
+)
+"completion/rename.ml" 57 1812 1829 "completion/rename.ml" 57 1812 1832
+type(
+  int -> Term.term list -> int
+)
+ident(
+  int_ref aux "completion/rename.ml" 55 1767 1777 "completion/rename.ml" 55 1767 1780
+)
+"completion/rename.ml" 57 1812 1834 "completion/rename.ml" 57 1812 1845
+type(
+  int -> Term.term -> int
+)
+ident(
+  int_ref extend_away "completion/rename.ml" 50 1655 1659 "completion/rename.ml" 50 1655 1670
+)
+"completion/rename.ml" 57 1812 1846 "completion/rename.ml" 57 1812 1849
+type(
+  int
+)
+ident(
+  int_ref acc "completion/rename.ml" 55 1767 1781 "completion/rename.ml" 55 1767 1784
+)
+"completion/rename.ml" 57 1812 1850 "completion/rename.ml" 57 1812 1851
+type(
+  Term.term
+)
+ident(
+  int_ref t "completion/rename.ml" 57 1812 1818 "completion/rename.ml" 57 1812 1819
+)
+"completion/rename.ml" 57 1812 1833 "completion/rename.ml" 57 1812 1852
+call(
+  stack
+)
+type(
+  int
+)
+"completion/rename.ml" 57 1812 1853 "completion/rename.ml" 57 1812 1855
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "completion/rename.ml" 57 1812 1823 "completion/rename.ml" 57 1812 1825
+)
+"completion/rename.ml" 57 1812 1829 "completion/rename.ml" 57 1812 1855
+call(
+  tail
+)
+type(
+  int
+)
+"completion/rename.ml" 55 1767 1787 "completion/rename.ml" 57 1812 1855
+type(
+  Term.term list -> int
+)
+"completion/rename.ml" 58 1856 1861 "completion/rename.ml" 58 1856 1864
+type(
+  int -> Term.term list -> int
+)
+ident(
+  int_ref aux "completion/rename.ml" 55 1767 1777 "completion/rename.ml" 55 1767 1780
+)
+"completion/rename.ml" 58 1856 1865 "completion/rename.ml" 58 1856 1866
+type(
+  int
+)
+"completion/rename.ml" 58 1856 1861 "completion/rename.ml" 58 1856 1866
+call(
+  stack
+)
+type(
+  Term.term list -> int
+)
+"completion/rename.ml" 55 1767 1769 "completion/rename.ml" 58 1856 1866
+type(
+  Term.term list -> int
+)
+"completion/rename.ml" 65 1971 1975 "completion/rename.ml" 65 1971 1981
+type(
+  Match.pattern -> Match.pattern -> Subs.subs option
+)
+ident(
+  def eq_opt "completion/rename.ml" 70 2096 2096 "completion/rename.ml" 1 0 -1
+)
+"completion/rename.ml" 65 1971 1982 "completion/rename.ml" 65 1971 1984
+type(
+  Match.pattern
+)
+ident(
+  def t1 "completion/rename.ml" 65 1971 1985 "completion/rename.ml" 68 2068 2092
+)
+"completion/rename.ml" 65 1971 1985 "completion/rename.ml" 65 1971 1987
+type(
+  Match.pattern
+)
+ident(
+  def t2 "completion/rename.ml" 66 1990 1992 "completion/rename.ml" 68 2068 2092
+)
+"completion/rename.ml" 67 1996 2004 "completion/rename.ml" 67 1996 2006
+type(
+  Subs.subs
+)
+ident(
+  def s1 "completion/rename.ml" 67 1996 2060 "completion/rename.ml" 67 1996 2067
+)
+"completion/rename.ml" 67 1996 2009 "completion/rename.ml" 67 1996 2022
+type(
+  Match.pattern -> Match.pattern -> Subs.subs
+)
+ident(
+  ext_ref Match.matching_subs
+)
+"completion/rename.ml" 67 1996 2023 "completion/rename.ml" 67 1996 2025
+type(
+  Match.pattern
+)
+ident(
+  int_ref t1 "completion/rename.ml" 65 1971 1982 "completion/rename.ml" 65 1971 1984
+)
+"completion/rename.ml" 67 1996 2026 "completion/rename.ml" 67 1996 2028
+type(
+  Match.pattern
+)
+ident(
+  int_ref t2 "completion/rename.ml" 65 1971 1985 "completion/rename.ml" 65 1971 1987
+)
+"completion/rename.ml" 67 1996 2009 "completion/rename.ml" 67 1996 2028
+call(
+  stack
+)
+type(
+  Subs.subs
+)
+"completion/rename.ml" 67 1996 2033 "completion/rename.ml" 67 1996 2034
+type(
+  Subs.subs
+)
+"completion/rename.ml" 67 1996 2037 "completion/rename.ml" 67 1996 2050
+type(
+  Match.pattern -> Match.pattern -> Subs.subs
+)
+ident(
+  ext_ref Match.matching_subs
+)
+"completion/rename.ml" 67 1996 2051 "completion/rename.ml" 67 1996 2053
+type(
+  Match.pattern
+)
+ident(
+  int_ref t2 "completion/rename.ml" 65 1971 1985 "completion/rename.ml" 65 1971 1987
+)
+"completion/rename.ml" 67 1996 2054 "completion/rename.ml" 67 1996 2056
+type(
+  Match.pattern
+)
+ident(
+  int_ref t1 "completion/rename.ml" 65 1971 1982 "completion/rename.ml" 65 1971 1984
+)
+"completion/rename.ml" 67 1996 2037 "completion/rename.ml" 67 1996 2056
+call(
+  stack
+)
+type(
+  Subs.subs
+)
+"completion/rename.ml" 67 1996 2065 "completion/rename.ml" 67 1996 2067
+type(
+  Subs.subs
+)
+ident(
+  int_ref s1 "completion/rename.ml" 67 1996 2004 "completion/rename.ml" 67 1996 2006
+)
+"completion/rename.ml" 67 1996 2060 "completion/rename.ml" 67 1996 2067
+type(
+  Subs.subs option
+)
+"completion/rename.ml" 67 1996 2000 "completion/rename.ml" 67 1996 2067
+type(
+  Subs.subs option
+)
+"completion/rename.ml" 68 2068 2083 "completion/rename.ml" 68 2068 2084
+type(
+  string
+)
+"completion/rename.ml" 68 2068 2075 "completion/rename.ml" 68 2068 2084
+type(
+  exn
+)
+"completion/rename.ml" 68 2068 2088 "completion/rename.ml" 68 2068 2092
+type(
+  Subs.subs option
+)
+"completion/rename.ml" 66 1990 1992 "completion/rename.ml" 68 2068 2092
+type(
+  Subs.subs option
+)
+"completion/rename.ml" 70 2096 2100 "completion/rename.ml" 70 2096 2102
+type(
+  Match.pattern -> Match.pattern -> bool
+)
+ident(
+  def eq "completion/rename.ml" 75 2214 2214 "completion/rename.ml" 1 0 -1
+)
+"completion/rename.ml" 70 2096 2103 "completion/rename.ml" 70 2096 2105
+type(
+  Match.pattern
+)
+ident(
+  def t1 "completion/rename.ml" 70 2096 2106 "completion/rename.ml" 73 2185 2210
+)
+"completion/rename.ml" 70 2096 2106 "completion/rename.ml" 70 2096 2108
+type(
+  Match.pattern
+)
+ident(
+  def t2 "completion/rename.ml" 71 2111 2113 "completion/rename.ml" 73 2185 2210
+)
+"completion/rename.ml" 72 2117 2125 "completion/rename.ml" 72 2117 2126
+type(
+  Subs.subs
+)
+"completion/rename.ml" 72 2117 2129 "completion/rename.ml" 72 2117 2142
+type(
+  Match.pattern -> Match.pattern -> Subs.subs
+)
+ident(
+  ext_ref Match.matching_subs
+)
+"completion/rename.ml" 72 2117 2143 "completion/rename.ml" 72 2117 2145
+type(
+  Match.pattern
+)
+ident(
+  int_ref t1 "completion/rename.ml" 70 2096 2103 "completion/rename.ml" 70 2096 2105
+)
+"completion/rename.ml" 72 2117 2146 "completion/rename.ml" 72 2117 2148
+type(
+  Match.pattern
+)
+ident(
+  int_ref t2 "completion/rename.ml" 70 2096 2106 "completion/rename.ml" 70 2096 2108
+)
+"completion/rename.ml" 72 2117 2129 "completion/rename.ml" 72 2117 2148
+call(
+  stack
+)
+type(
+  Subs.subs
+)
+"completion/rename.ml" 72 2117 2153 "completion/rename.ml" 72 2117 2154
+type(
+  Subs.subs
+)
+"completion/rename.ml" 72 2117 2157 "completion/rename.ml" 72 2117 2170
+type(
+  Match.pattern -> Match.pattern -> Subs.subs
+)
+ident(
+  ext_ref Match.matching_subs
+)
+"completion/rename.ml" 72 2117 2171 "completion/rename.ml" 72 2117 2173
+type(
+  Match.pattern
+)
+ident(
+  int_ref t2 "completion/rename.ml" 70 2096 2106 "completion/rename.ml" 70 2096 2108
+)
+"completion/rename.ml" 72 2117 2174 "completion/rename.ml" 72 2117 2176
+type(
+  Match.pattern
+)
+ident(
+  int_ref t1 "completion/rename.ml" 70 2096 2103 "completion/rename.ml" 70 2096 2105
+)
+"completion/rename.ml" 72 2117 2157 "completion/rename.ml" 72 2117 2176
+call(
+  stack
+)
+type(
+  Subs.subs
+)
+"completion/rename.ml" 72 2117 2180 "completion/rename.ml" 72 2117 2184
+type(
+  bool
+)
+"completion/rename.ml" 72 2117 2121 "completion/rename.ml" 72 2117 2184
+type(
+  bool
+)
+"completion/rename.ml" 73 2185 2200 "completion/rename.ml" 73 2185 2201
+type(
+  string
+)
+"completion/rename.ml" 73 2185 2192 "completion/rename.ml" 73 2185 2201
+type(
+  exn
+)
+"completion/rename.ml" 73 2185 2205 "completion/rename.ml" 73 2185 2210
+type(
+  bool
+)
+"completion/rename.ml" 71 2111 2113 "completion/rename.ml" 73 2185 2210
+type(
+  bool
+)
+"completion/rename.ml" 75 2214 2218 "completion/rename.ml" 75 2214 2225
+type(
+  Match.pattern -> Match.pattern -> int
+)
+ident(
+  def compare "completion/rename.ml" 78 2305 2349 "completion/rename.ml" 1 0 -1
+)
+"completion/rename.ml" 75 2214 2226 "completion/rename.ml" 75 2214 2228
+type(
+  Match.pattern
+)
+ident(
+  def t1 "completion/rename.ml" 75 2214 2229 "completion/rename.ml" 78 2305 2349
+)
+"completion/rename.ml" 75 2214 2229 "completion/rename.ml" 75 2214 2231
+type(
+  Match.pattern
+)
+ident(
+  def t2 "completion/rename.ml" 76 2234 2236 "completion/rename.ml" 78 2305 2349
+)
+"completion/rename.ml" 77 2240 2248 "completion/rename.ml" 77 2240 2249
+type(
+  Subs.subs
+)
+"completion/rename.ml" 77 2240 2252 "completion/rename.ml" 77 2240 2265
+type(
+  Match.pattern -> Match.pattern -> Subs.subs
+)
+ident(
+  ext_ref Match.matching_subs
+)
+"completion/rename.ml" 77 2240 2266 "completion/rename.ml" 77 2240 2268
+type(
+  Match.pattern
+)
+ident(
+  int_ref t1 "completion/rename.ml" 75 2214 2226 "completion/rename.ml" 75 2214 2228
+)
+"completion/rename.ml" 77 2240 2269 "completion/rename.ml" 77 2240 2271
+type(
+  Match.pattern
+)
+ident(
+  int_ref t2 "completion/rename.ml" 75 2214 2229 "completion/rename.ml" 75 2214 2231
+)
+"completion/rename.ml" 77 2240 2252 "completion/rename.ml" 77 2240 2271
+call(
+  stack
+)
+type(
+  Subs.subs
+)
+"completion/rename.ml" 77 2240 2276 "completion/rename.ml" 77 2240 2277
+type(
+  Subs.subs
+)
+"completion/rename.ml" 77 2240 2280 "completion/rename.ml" 77 2240 2293
+type(
+  Match.pattern -> Match.pattern -> Subs.subs
+)
+ident(
+  ext_ref Match.matching_subs
+)
+"completion/rename.ml" 77 2240 2294 "completion/rename.ml" 77 2240 2296
+type(
+  Match.pattern
+)
+ident(
+  int_ref t2 "completion/rename.ml" 75 2214 2229 "completion/rename.ml" 75 2214 2231
+)
+"completion/rename.ml" 77 2240 2297 "completion/rename.ml" 77 2240 2299
+type(
+  Match.pattern
+)
+ident(
+  int_ref t1 "completion/rename.ml" 75 2214 2226 "completion/rename.ml" 75 2214 2228
+)
+"completion/rename.ml" 77 2240 2280 "completion/rename.ml" 77 2240 2299
+call(
+  stack
+)
+type(
+  Subs.subs
+)
+"completion/rename.ml" 77 2240 2303 "completion/rename.ml" 77 2240 2304
+type(
+  int
+)
+"completion/rename.ml" 77 2240 2244 "completion/rename.ml" 77 2240 2304
+type(
+  int
+)
+"completion/rename.ml" 78 2305 2320 "completion/rename.ml" 78 2305 2321
+type(
+  string
+)
+"completion/rename.ml" 78 2305 2312 "completion/rename.ml" 78 2305 2321
+type(
+  exn
+)
+"completion/rename.ml" 78 2305 2325 "completion/rename.ml" 78 2305 2343
+type(
+  Match.pattern -> Match.pattern -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"completion/rename.ml" 78 2305 2344 "completion/rename.ml" 78 2305 2346
+type(
+  Match.pattern
+)
+ident(
+  int_ref t1 "completion/rename.ml" 75 2214 2226 "completion/rename.ml" 75 2214 2228
+)
+"completion/rename.ml" 78 2305 2347 "completion/rename.ml" 78 2305 2349
+type(
+  Match.pattern
+)
+ident(
+  int_ref t2 "completion/rename.ml" 75 2214 2229 "completion/rename.ml" 75 2214 2231
+)
+"completion/rename.ml" 78 2305 2325 "completion/rename.ml" 78 2305 2349
+type(
+  int
+)
+"completion/rename.ml" 76 2234 2236 "completion/rename.ml" 78 2305 2349
+type(
+  int
+)

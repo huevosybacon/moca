@@ -1,0 +1,2307 @@
+"ocaml_src/utils/ccomp.ml" 17 923 927 "ocaml_src/utils/ccomp.ml" 17 923 934
+type(
+  string -> int
+)
+ident(
+  def command "ocaml_src/utils/ccomp.ml" 25 1077 1077 "ocaml_src/utils/ccomp.ml" 1 0 -1
+)
+"ocaml_src/utils/ccomp.ml" 17 923 935 "ocaml_src/utils/ccomp.ml" 17 923 942
+type(
+  string
+)
+ident(
+  def cmdline "ocaml_src/utils/ccomp.ml" 18 945 947 "ocaml_src/utils/ccomp.ml" 23 1054 1075
+)
+"ocaml_src/utils/ccomp.ml" 18 945 950 "ocaml_src/utils/ccomp.ml" 18 945 951
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/ccomp.ml" 18 945 951 "ocaml_src/utils/ccomp.ml" 18 945 966
+type(
+  bool ref
+)
+ident(
+  ext_ref Clflags.verbose
+)
+"ocaml_src/utils/ccomp.ml" 18 945 950 "ocaml_src/utils/ccomp.ml" 18 945 966
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 19 978 982 "ocaml_src/utils/ccomp.ml" 19 978 994
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"ocaml_src/utils/ccomp.ml" 19 978 995 "ocaml_src/utils/ccomp.ml" 19 978 999
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 19 978 982 "ocaml_src/utils/ccomp.ml" 19 978 999
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 20 1001 1005 "ocaml_src/utils/ccomp.ml" 20 1001 1017
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_string
+)
+"ocaml_src/utils/ccomp.ml" 20 1001 1018 "ocaml_src/utils/ccomp.ml" 20 1001 1025
+type(
+  string
+)
+ident(
+  int_ref cmdline "ocaml_src/utils/ccomp.ml" 17 923 935 "ocaml_src/utils/ccomp.ml" 17 923 942
+)
+"ocaml_src/utils/ccomp.ml" 20 1001 1005 "ocaml_src/utils/ccomp.ml" 20 1001 1025
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 21 1027 1031 "ocaml_src/utils/ccomp.ml" 21 1027 1044
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_newline
+)
+"ocaml_src/utils/ccomp.ml" 21 1027 1044 "ocaml_src/utils/ccomp.ml" 21 1027 1046
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 21 1027 1031 "ocaml_src/utils/ccomp.ml" 21 1027 1046
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 20 1001 1005 "ocaml_src/utils/ccomp.ml" 21 1027 1046
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 18 945 972 "ocaml_src/utils/ccomp.ml" 22 1047 1052
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 18 945 947 "ocaml_src/utils/ccomp.ml" 22 1047 1052
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 23 1054 1056 "ocaml_src/utils/ccomp.ml" 23 1054 1067
+type(
+  string -> int
+)
+ident(
+  ext_ref Sys.command
+)
+"ocaml_src/utils/ccomp.ml" 23 1054 1068 "ocaml_src/utils/ccomp.ml" 23 1054 1075
+type(
+  string
+)
+ident(
+  int_ref cmdline "ocaml_src/utils/ccomp.ml" 17 923 935 "ocaml_src/utils/ccomp.ml" 17 923 942
+)
+"ocaml_src/utils/ccomp.ml" 23 1054 1056 "ocaml_src/utils/ccomp.ml" 23 1054 1075
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 18 945 947 "ocaml_src/utils/ccomp.ml" 23 1054 1075
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 25 1077 1081 "ocaml_src/utils/ccomp.ml" 25 1077 1092
+type(
+  string -> unit
+)
+ident(
+  def run_command "ocaml_src/utils/ccomp.ml" 29 1215 1215 "ocaml_src/utils/ccomp.ml" 1 0 -1
+)
+"ocaml_src/utils/ccomp.ml" 25 1077 1093 "ocaml_src/utils/ccomp.ml" 25 1077 1100
+type(
+  string
+)
+ident(
+  def cmdline "ocaml_src/utils/ccomp.ml" 25 1077 1103 "ocaml_src/utils/ccomp.ml" 25 1077 1126
+)
+"ocaml_src/utils/ccomp.ml" 25 1077 1103 "ocaml_src/utils/ccomp.ml" 25 1077 1109
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"ocaml_src/utils/ccomp.ml" 25 1077 1110 "ocaml_src/utils/ccomp.ml" 25 1077 1117
+type(
+  string -> int
+)
+ident(
+  int_ref command "ocaml_src/utils/ccomp.ml" 17 923 927 "ocaml_src/utils/ccomp.ml" 17 923 934
+)
+"ocaml_src/utils/ccomp.ml" 25 1077 1118 "ocaml_src/utils/ccomp.ml" 25 1077 1125
+type(
+  string
+)
+ident(
+  int_ref cmdline "ocaml_src/utils/ccomp.ml" 25 1077 1093 "ocaml_src/utils/ccomp.ml" 25 1077 1100
+)
+"ocaml_src/utils/ccomp.ml" 25 1077 1109 "ocaml_src/utils/ccomp.ml" 25 1077 1126
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 25 1077 1103 "ocaml_src/utils/ccomp.ml" 25 1077 1126
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 29 1215 1219 "ocaml_src/utils/ccomp.ml" 29 1215 1234
+type(
+  string list -> string
+)
+ident(
+  def build_diversion "ocaml_src/utils/ccomp.ml" 36 1455 1455 "ocaml_src/utils/ccomp.ml" 1 0 -1
+)
+"ocaml_src/utils/ccomp.ml" 29 1215 1235 "ocaml_src/utils/ccomp.ml" 29 1215 1238
+type(
+  string list
+)
+ident(
+  def lst "ocaml_src/utils/ccomp.ml" 30 1241 1243 "ocaml_src/utils/ccomp.ml" 34 1433 1453
+)
+"ocaml_src/utils/ccomp.ml" 30 1241 1248 "ocaml_src/utils/ccomp.ml" 30 1241 1260
+type(
+  string
+)
+ident(
+  def responsefile "ocaml_src/utils/ccomp.ml" 31 1309 1311 "ocaml_src/utils/ccomp.ml" 34 1433 1453
+)
+"ocaml_src/utils/ccomp.ml" 30 1241 1262 "ocaml_src/utils/ccomp.ml" 30 1241 1264
+type(
+  out_channel
+)
+ident(
+  def oc "ocaml_src/utils/ccomp.ml" 31 1309 1311 "ocaml_src/utils/ccomp.ml" 34 1433 1453
+)
+"ocaml_src/utils/ccomp.ml" 30 1241 1247 "ocaml_src/utils/ccomp.ml" 30 1241 1265
+type(
+  string * out_channel
+)
+"ocaml_src/utils/ccomp.ml" 30 1241 1268 "ocaml_src/utils/ccomp.ml" 30 1241 1291
+type(
+  ?mode:open_flag list ->
+  ?temp_dir:string -> string -> string -> string * out_channel
+)
+ident(
+  ext_ref Filename.open_temp_file
+)
+"ocaml_src/utils/ccomp.ml" 30 1241 1292 "ocaml_src/utils/ccomp.ml" 30 1241 1302
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 30 1241 1303 "ocaml_src/utils/ccomp.ml" 30 1241 1305
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 30 1241 1268 "ocaml_src/utils/ccomp.ml" 30 1241 1305
+call(
+  stack
+)
+type(
+  string * out_channel
+)
+"ocaml_src/utils/ccomp.ml" 31 1309 1311 "ocaml_src/utils/ccomp.ml" 31 1309 1320
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ocaml_src/utils/ccomp.ml" 31 1309 1326 "ocaml_src/utils/ccomp.ml" 31 1309 1327
+type(
+  string
+)
+ident(
+  def f "ocaml_src/utils/ccomp.ml" 31 1309 1331 "ocaml_src/utils/ccomp.ml" 31 1309 1357
+)
+"ocaml_src/utils/ccomp.ml" 31 1309 1331 "ocaml_src/utils/ccomp.ml" 31 1309 1345
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"ocaml_src/utils/ccomp.ml" 31 1309 1346 "ocaml_src/utils/ccomp.ml" 31 1309 1348
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocaml_src/utils/ccomp.ml" 30 1241 1262 "ocaml_src/utils/ccomp.ml" 30 1241 1264
+)
+"ocaml_src/utils/ccomp.ml" 31 1309 1349 "ocaml_src/utils/ccomp.ml" 31 1309 1355
+type(
+  (string -> unit, out_channel, unit) format
+)
+"ocaml_src/utils/ccomp.ml" 31 1309 1356 "ocaml_src/utils/ccomp.ml" 31 1309 1357
+type(
+  string
+)
+ident(
+  int_ref f "ocaml_src/utils/ccomp.ml" 31 1309 1326 "ocaml_src/utils/ccomp.ml" 31 1309 1327
+)
+"ocaml_src/utils/ccomp.ml" 31 1309 1331 "ocaml_src/utils/ccomp.ml" 31 1309 1357
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 31 1309 1321 "ocaml_src/utils/ccomp.ml" 31 1309 1358
+type(
+  string -> unit
+)
+"ocaml_src/utils/ccomp.ml" 31 1309 1359 "ocaml_src/utils/ccomp.ml" 31 1309 1362
+type(
+  string list
+)
+ident(
+  int_ref lst "ocaml_src/utils/ccomp.ml" 29 1215 1235 "ocaml_src/utils/ccomp.ml" 29 1215 1238
+)
+"ocaml_src/utils/ccomp.ml" 31 1309 1311 "ocaml_src/utils/ccomp.ml" 31 1309 1362
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 32 1364 1366 "ocaml_src/utils/ccomp.ml" 32 1364 1375
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"ocaml_src/utils/ccomp.ml" 32 1364 1376 "ocaml_src/utils/ccomp.ml" 32 1364 1378
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocaml_src/utils/ccomp.ml" 30 1241 1262 "ocaml_src/utils/ccomp.ml" 30 1241 1264
+)
+"ocaml_src/utils/ccomp.ml" 32 1364 1366 "ocaml_src/utils/ccomp.ml" 32 1364 1378
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 33 1380 1382 "ocaml_src/utils/ccomp.ml" 33 1380 1389
+type(
+  (unit -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.at_exit
+)
+"ocaml_src/utils/ccomp.ml" 33 1380 1395 "ocaml_src/utils/ccomp.ml" 33 1380 1397
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 33 1380 1401 "ocaml_src/utils/ccomp.ml" 33 1380 1417
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.remove_file
+)
+"ocaml_src/utils/ccomp.ml" 33 1380 1418 "ocaml_src/utils/ccomp.ml" 33 1380 1430
+type(
+  string
+)
+ident(
+  int_ref responsefile "ocaml_src/utils/ccomp.ml" 30 1241 1248 "ocaml_src/utils/ccomp.ml" 30 1241 1260
+)
+"ocaml_src/utils/ccomp.ml" 33 1380 1401 "ocaml_src/utils/ccomp.ml" 33 1380 1430
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 33 1380 1390 "ocaml_src/utils/ccomp.ml" 33 1380 1431
+type(
+  unit -> unit
+)
+"ocaml_src/utils/ccomp.ml" 33 1380 1382 "ocaml_src/utils/ccomp.ml" 33 1380 1431
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 34 1433 1435 "ocaml_src/utils/ccomp.ml" 34 1433 1438
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 34 1433 1439 "ocaml_src/utils/ccomp.ml" 34 1433 1440
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/ccomp.ml" 34 1433 1441 "ocaml_src/utils/ccomp.ml" 34 1433 1453
+type(
+  string
+)
+ident(
+  int_ref responsefile "ocaml_src/utils/ccomp.ml" 30 1241 1248 "ocaml_src/utils/ccomp.ml" 30 1241 1260
+)
+"ocaml_src/utils/ccomp.ml" 34 1433 1435 "ocaml_src/utils/ccomp.ml" 34 1433 1453
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 33 1380 1382 "ocaml_src/utils/ccomp.ml" 34 1433 1453
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 32 1364 1366 "ocaml_src/utils/ccomp.ml" 34 1433 1453
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 31 1309 1311 "ocaml_src/utils/ccomp.ml" 34 1433 1453
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 30 1241 1243 "ocaml_src/utils/ccomp.ml" 34 1433 1453
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 36 1455 1459 "ocaml_src/utils/ccomp.ml" 36 1455 1470
+type(
+  string list -> string
+)
+ident(
+  def quote_files "ocaml_src/utils/ccomp.ml" 44 1705 1705 "ocaml_src/utils/ccomp.ml" 1 0 -1
+)
+"ocaml_src/utils/ccomp.ml" 36 1455 1471 "ocaml_src/utils/ccomp.ml" 36 1455 1474
+type(
+  string list
+)
+ident(
+  def lst "ocaml_src/utils/ccomp.ml" 37 1477 1479 "ocaml_src/utils/ccomp.ml" 42 1695 1703
+)
+"ocaml_src/utils/ccomp.ml" 37 1477 1483 "ocaml_src/utils/ccomp.ml" 37 1477 1486
+type(
+  string list
+)
+ident(
+  def lst "ocaml_src/utils/ccomp.ml" 38 1527 1529 "ocaml_src/utils/ccomp.ml" 42 1695 1703
+)
+"ocaml_src/utils/ccomp.ml" 37 1477 1489 "ocaml_src/utils/ccomp.ml" 37 1477 1500
+type(
+  (string -> bool) -> string list -> string list
+)
+ident(
+  ext_ref List.filter
+)
+"ocaml_src/utils/ccomp.ml" 37 1477 1506 "ocaml_src/utils/ccomp.ml" 37 1477 1507
+type(
+  string
+)
+ident(
+  def f "ocaml_src/utils/ccomp.ml" 37 1477 1511 "ocaml_src/utils/ccomp.ml" 37 1477 1518
+)
+"ocaml_src/utils/ccomp.ml" 37 1477 1511 "ocaml_src/utils/ccomp.ml" 37 1477 1512
+type(
+  string
+)
+ident(
+  int_ref f "ocaml_src/utils/ccomp.ml" 37 1477 1506 "ocaml_src/utils/ccomp.ml" 37 1477 1507
+)
+"ocaml_src/utils/ccomp.ml" 37 1477 1513 "ocaml_src/utils/ccomp.ml" 37 1477 1515
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ocaml_src/utils/ccomp.ml" 37 1477 1516 "ocaml_src/utils/ccomp.ml" 37 1477 1518
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 37 1477 1511 "ocaml_src/utils/ccomp.ml" 37 1477 1518
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 37 1477 1501 "ocaml_src/utils/ccomp.ml" 37 1477 1519
+type(
+  string -> bool
+)
+"ocaml_src/utils/ccomp.ml" 37 1477 1520 "ocaml_src/utils/ccomp.ml" 37 1477 1523
+type(
+  string list
+)
+ident(
+  int_ref lst "ocaml_src/utils/ccomp.ml" 36 1455 1471 "ocaml_src/utils/ccomp.ml" 36 1455 1474
+)
+"ocaml_src/utils/ccomp.ml" 37 1477 1489 "ocaml_src/utils/ccomp.ml" 37 1477 1523
+call(
+  stack
+)
+type(
+  string list
+)
+"ocaml_src/utils/ccomp.ml" 38 1527 1533 "ocaml_src/utils/ccomp.ml" 38 1527 1539
+type(
+  string list
+)
+ident(
+  def quoted "ocaml_src/utils/ccomp.ml" 39 1573 1575 "ocaml_src/utils/ccomp.ml" 42 1695 1703
+)
+"ocaml_src/utils/ccomp.ml" 38 1527 1542 "ocaml_src/utils/ccomp.ml" 38 1527 1550
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"ocaml_src/utils/ccomp.ml" 38 1527 1551 "ocaml_src/utils/ccomp.ml" 38 1527 1565
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.quote
+)
+"ocaml_src/utils/ccomp.ml" 38 1527 1566 "ocaml_src/utils/ccomp.ml" 38 1527 1569
+type(
+  string list
+)
+ident(
+  int_ref lst "ocaml_src/utils/ccomp.ml" 37 1477 1483 "ocaml_src/utils/ccomp.ml" 37 1477 1486
+)
+"ocaml_src/utils/ccomp.ml" 38 1527 1542 "ocaml_src/utils/ccomp.ml" 38 1527 1569
+call(
+  stack
+)
+type(
+  string list
+)
+"ocaml_src/utils/ccomp.ml" 39 1573 1579 "ocaml_src/utils/ccomp.ml" 39 1573 1580
+type(
+  string
+)
+ident(
+  def s "ocaml_src/utils/ccomp.ml" 40 1611 1613 "ocaml_src/utils/ccomp.ml" 42 1695 1703
+)
+"ocaml_src/utils/ccomp.ml" 39 1573 1583 "ocaml_src/utils/ccomp.ml" 39 1573 1596
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"ocaml_src/utils/ccomp.ml" 39 1573 1597 "ocaml_src/utils/ccomp.ml" 39 1573 1600
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 39 1573 1601 "ocaml_src/utils/ccomp.ml" 39 1573 1607
+type(
+  string list
+)
+ident(
+  int_ref quoted "ocaml_src/utils/ccomp.ml" 38 1527 1533 "ocaml_src/utils/ccomp.ml" 38 1527 1539
+)
+"ocaml_src/utils/ccomp.ml" 39 1573 1583 "ocaml_src/utils/ccomp.ml" 39 1573 1607
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 40 1611 1616 "ocaml_src/utils/ccomp.ml" 40 1611 1629
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/ccomp.ml" 40 1611 1630 "ocaml_src/utils/ccomp.ml" 40 1611 1631
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/ccomp.ml" 39 1573 1579 "ocaml_src/utils/ccomp.ml" 39 1573 1580
+)
+"ocaml_src/utils/ccomp.ml" 40 1611 1616 "ocaml_src/utils/ccomp.ml" 40 1611 1631
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 40 1611 1632 "ocaml_src/utils/ccomp.ml" 40 1611 1634
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/utils/ccomp.ml" 40 1611 1635 "ocaml_src/utils/ccomp.ml" 40 1611 1639
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 40 1611 1616 "ocaml_src/utils/ccomp.ml" 40 1611 1639
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 40 1611 1640 "ocaml_src/utils/ccomp.ml" 40 1611 1642
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/utils/ccomp.ml" 40 1611 1643 "ocaml_src/utils/ccomp.ml" 40 1611 1654
+type(
+  string
+)
+ident(
+  ext_ref Sys.os_type
+)
+"ocaml_src/utils/ccomp.ml" 40 1611 1655 "ocaml_src/utils/ccomp.ml" 40 1611 1656
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/ccomp.ml" 40 1611 1657 "ocaml_src/utils/ccomp.ml" 40 1611 1664
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 40 1611 1643 "ocaml_src/utils/ccomp.ml" 40 1611 1664
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 40 1611 1616 "ocaml_src/utils/ccomp.ml" 40 1611 1664
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 41 1665 1672 "ocaml_src/utils/ccomp.ml" 41 1665 1687
+type(
+  string list -> string
+)
+ident(
+  int_ref build_diversion "ocaml_src/utils/ccomp.ml" 29 1215 1219 "ocaml_src/utils/ccomp.ml" 29 1215 1234
+)
+"ocaml_src/utils/ccomp.ml" 41 1665 1688 "ocaml_src/utils/ccomp.ml" 41 1665 1694
+type(
+  string list
+)
+ident(
+  int_ref quoted "ocaml_src/utils/ccomp.ml" 38 1527 1533 "ocaml_src/utils/ccomp.ml" 38 1527 1539
+)
+"ocaml_src/utils/ccomp.ml" 41 1665 1672 "ocaml_src/utils/ccomp.ml" 41 1665 1694
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 42 1695 1702 "ocaml_src/utils/ccomp.ml" 42 1695 1703
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/utils/ccomp.ml" 39 1573 1579 "ocaml_src/utils/ccomp.ml" 39 1573 1580
+)
+"ocaml_src/utils/ccomp.ml" 40 1611 1613 "ocaml_src/utils/ccomp.ml" 42 1695 1703
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 39 1573 1575 "ocaml_src/utils/ccomp.ml" 42 1695 1703
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 38 1527 1529 "ocaml_src/utils/ccomp.ml" 42 1695 1703
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 37 1477 1479 "ocaml_src/utils/ccomp.ml" 42 1695 1703
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 44 1705 1709 "ocaml_src/utils/ccomp.ml" 44 1705 1723
+type(
+  string -> string list -> string
+)
+ident(
+  def quote_prefixed "ocaml_src/utils/ccomp.ml" 49 1848 1848 "ocaml_src/utils/ccomp.ml" 1 0 -1
+)
+"ocaml_src/utils/ccomp.ml" 44 1705 1724 "ocaml_src/utils/ccomp.ml" 44 1705 1726
+type(
+  string
+)
+ident(
+  def pr "ocaml_src/utils/ccomp.ml" 44 1705 1727 "ocaml_src/utils/ccomp.ml" 47 1829 1846
+)
+"ocaml_src/utils/ccomp.ml" 44 1705 1727 "ocaml_src/utils/ccomp.ml" 44 1705 1730
+type(
+  string list
+)
+ident(
+  def lst "ocaml_src/utils/ccomp.ml" 45 1733 1735 "ocaml_src/utils/ccomp.ml" 47 1829 1846
+)
+"ocaml_src/utils/ccomp.ml" 45 1733 1739 "ocaml_src/utils/ccomp.ml" 45 1733 1742
+type(
+  string list
+)
+ident(
+  def lst "ocaml_src/utils/ccomp.ml" 46 1783 1785 "ocaml_src/utils/ccomp.ml" 47 1829 1846
+)
+"ocaml_src/utils/ccomp.ml" 45 1733 1745 "ocaml_src/utils/ccomp.ml" 45 1733 1756
+type(
+  (string -> bool) -> string list -> string list
+)
+ident(
+  ext_ref List.filter
+)
+"ocaml_src/utils/ccomp.ml" 45 1733 1762 "ocaml_src/utils/ccomp.ml" 45 1733 1763
+type(
+  string
+)
+ident(
+  def f "ocaml_src/utils/ccomp.ml" 45 1733 1767 "ocaml_src/utils/ccomp.ml" 45 1733 1774
+)
+"ocaml_src/utils/ccomp.ml" 45 1733 1767 "ocaml_src/utils/ccomp.ml" 45 1733 1768
+type(
+  string
+)
+ident(
+  int_ref f "ocaml_src/utils/ccomp.ml" 45 1733 1762 "ocaml_src/utils/ccomp.ml" 45 1733 1763
+)
+"ocaml_src/utils/ccomp.ml" 45 1733 1769 "ocaml_src/utils/ccomp.ml" 45 1733 1771
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ocaml_src/utils/ccomp.ml" 45 1733 1772 "ocaml_src/utils/ccomp.ml" 45 1733 1774
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 45 1733 1767 "ocaml_src/utils/ccomp.ml" 45 1733 1774
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 45 1733 1757 "ocaml_src/utils/ccomp.ml" 45 1733 1775
+type(
+  string -> bool
+)
+"ocaml_src/utils/ccomp.ml" 45 1733 1776 "ocaml_src/utils/ccomp.ml" 45 1733 1779
+type(
+  string list
+)
+ident(
+  int_ref lst "ocaml_src/utils/ccomp.ml" 44 1705 1727 "ocaml_src/utils/ccomp.ml" 44 1705 1730
+)
+"ocaml_src/utils/ccomp.ml" 45 1733 1745 "ocaml_src/utils/ccomp.ml" 45 1733 1779
+call(
+  stack
+)
+type(
+  string list
+)
+"ocaml_src/utils/ccomp.ml" 46 1783 1789 "ocaml_src/utils/ccomp.ml" 46 1783 1792
+type(
+  string list
+)
+ident(
+  def lst "ocaml_src/utils/ccomp.ml" 47 1829 1831 "ocaml_src/utils/ccomp.ml" 47 1829 1846
+)
+"ocaml_src/utils/ccomp.ml" 46 1783 1795 "ocaml_src/utils/ccomp.ml" 46 1783 1803
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"ocaml_src/utils/ccomp.ml" 46 1783 1809 "ocaml_src/utils/ccomp.ml" 46 1783 1810
+type(
+  string
+)
+ident(
+  def f "ocaml_src/utils/ccomp.ml" 46 1783 1814 "ocaml_src/utils/ccomp.ml" 46 1783 1820
+)
+"ocaml_src/utils/ccomp.ml" 46 1783 1814 "ocaml_src/utils/ccomp.ml" 46 1783 1816
+type(
+  string
+)
+ident(
+  int_ref pr "ocaml_src/utils/ccomp.ml" 44 1705 1724 "ocaml_src/utils/ccomp.ml" 44 1705 1726
+)
+"ocaml_src/utils/ccomp.ml" 46 1783 1817 "ocaml_src/utils/ccomp.ml" 46 1783 1818
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/ccomp.ml" 46 1783 1819 "ocaml_src/utils/ccomp.ml" 46 1783 1820
+type(
+  string
+)
+ident(
+  int_ref f "ocaml_src/utils/ccomp.ml" 46 1783 1809 "ocaml_src/utils/ccomp.ml" 46 1783 1810
+)
+"ocaml_src/utils/ccomp.ml" 46 1783 1814 "ocaml_src/utils/ccomp.ml" 46 1783 1820
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 46 1783 1804 "ocaml_src/utils/ccomp.ml" 46 1783 1821
+type(
+  string -> string
+)
+"ocaml_src/utils/ccomp.ml" 46 1783 1822 "ocaml_src/utils/ccomp.ml" 46 1783 1825
+type(
+  string list
+)
+ident(
+  int_ref lst "ocaml_src/utils/ccomp.ml" 45 1733 1739 "ocaml_src/utils/ccomp.ml" 45 1733 1742
+)
+"ocaml_src/utils/ccomp.ml" 46 1783 1795 "ocaml_src/utils/ccomp.ml" 46 1783 1825
+call(
+  stack
+)
+type(
+  string list
+)
+"ocaml_src/utils/ccomp.ml" 47 1829 1831 "ocaml_src/utils/ccomp.ml" 47 1829 1842
+type(
+  string list -> string
+)
+ident(
+  int_ref quote_files "ocaml_src/utils/ccomp.ml" 36 1455 1459 "ocaml_src/utils/ccomp.ml" 36 1455 1470
+)
+"ocaml_src/utils/ccomp.ml" 47 1829 1843 "ocaml_src/utils/ccomp.ml" 47 1829 1846
+type(
+  string list
+)
+ident(
+  int_ref lst "ocaml_src/utils/ccomp.ml" 46 1783 1789 "ocaml_src/utils/ccomp.ml" 46 1783 1792
+)
+"ocaml_src/utils/ccomp.ml" 47 1829 1831 "ocaml_src/utils/ccomp.ml" 47 1829 1846
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 46 1783 1785 "ocaml_src/utils/ccomp.ml" 47 1829 1846
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 45 1733 1735 "ocaml_src/utils/ccomp.ml" 47 1829 1846
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 49 1848 1852 "ocaml_src/utils/ccomp.ml" 49 1848 1865
+type(
+  string option -> string
+)
+ident(
+  def quote_optfile "ocaml_src/utils/ccomp.ml" 53 1924 1924 "ocaml_src/utils/ccomp.ml" 1 0 -1
+)
+"ocaml_src/utils/ccomp.ml" 50 1877 1881 "ocaml_src/utils/ccomp.ml" 50 1877 1885
+type(
+  string option
+)
+"ocaml_src/utils/ccomp.ml" 50 1877 1889 "ocaml_src/utils/ccomp.ml" 50 1877 1891
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 51 1892 1901 "ocaml_src/utils/ccomp.ml" 51 1892 1902
+type(
+  string
+)
+ident(
+  def f "ocaml_src/utils/ccomp.ml" 51 1892 1906 "ocaml_src/utils/ccomp.ml" 51 1892 1922
+)
+"ocaml_src/utils/ccomp.ml" 51 1892 1896 "ocaml_src/utils/ccomp.ml" 51 1892 1902
+type(
+  string option
+)
+"ocaml_src/utils/ccomp.ml" 51 1892 1906 "ocaml_src/utils/ccomp.ml" 51 1892 1920
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.quote
+)
+"ocaml_src/utils/ccomp.ml" 51 1892 1921 "ocaml_src/utils/ccomp.ml" 51 1892 1922
+type(
+  string
+)
+ident(
+  int_ref f "ocaml_src/utils/ccomp.ml" 51 1892 1901 "ocaml_src/utils/ccomp.ml" 51 1892 1902
+)
+"ocaml_src/utils/ccomp.ml" 51 1892 1906 "ocaml_src/utils/ccomp.ml" 51 1892 1922
+call(
+  tail
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 49 1848 1868 "ocaml_src/utils/ccomp.ml" 51 1892 1922
+type(
+  string option -> string
+)
+"ocaml_src/utils/ccomp.ml" 53 1924 1928 "ocaml_src/utils/ccomp.ml" 53 1924 1940
+type(
+  string -> int
+)
+ident(
+  def compile_file "ocaml_src/utils/ccomp.ml" 68 2395 2395 "ocaml_src/utils/ccomp.ml" 1 0 -1
+)
+"ocaml_src/utils/ccomp.ml" 53 1924 1941 "ocaml_src/utils/ccomp.ml" 53 1924 1945
+type(
+  string
+)
+ident(
+  def name "ocaml_src/utils/ccomp.ml" 54 1948 1950 "ocaml_src/utils/ccomp.ml" 66 2364 2393
+)
+"ocaml_src/utils/ccomp.ml" 54 1948 1950 "ocaml_src/utils/ccomp.ml" 54 1948 1957
+type(
+  string -> int
+)
+ident(
+  int_ref command "ocaml_src/utils/ccomp.ml" 17 923 927 "ocaml_src/utils/ccomp.ml" 17 923 934
+)
+"ocaml_src/utils/ccomp.ml" 55 1958 1963 "ocaml_src/utils/ccomp.ml" 55 1958 1977
+type(
+  (string -> string -> string -> string -> string -> string, unit, string)
+  format -> string -> string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocaml_src/utils/ccomp.ml" 56 1978 1985 "ocaml_src/utils/ccomp.ml" 56 1978 2004
+type(
+  (string -> string -> string -> string -> string -> string, unit, string)
+  format
+)
+"ocaml_src/utils/ccomp.ml" 57 2005 2019 "ocaml_src/utils/ccomp.ml" 57 2005 2020
+type(
+  string option ref -> string option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/ccomp.ml" 57 2005 2020 "ocaml_src/utils/ccomp.ml" 57 2005 2038
+type(
+  string option ref
+)
+ident(
+  ext_ref Clflags.c_compiler
+)
+"ocaml_src/utils/ccomp.ml" 57 2005 2019 "ocaml_src/utils/ccomp.ml" 57 2005 2038
+type(
+  string option
+)
+"ocaml_src/utils/ccomp.ml" 58 2044 2059 "ocaml_src/utils/ccomp.ml" 58 2044 2061
+type(
+  string
+)
+ident(
+  def cc "ocaml_src/utils/ccomp.ml" 58 2044 2065 "ocaml_src/utils/ccomp.ml" 58 2044 2067
+)
+"ocaml_src/utils/ccomp.ml" 58 2044 2054 "ocaml_src/utils/ccomp.ml" 58 2044 2061
+type(
+  string option
+)
+"ocaml_src/utils/ccomp.ml" 58 2044 2065 "ocaml_src/utils/ccomp.ml" 58 2044 2067
+type(
+  string
+)
+ident(
+  int_ref cc "ocaml_src/utils/ccomp.ml" 58 2044 2059 "ocaml_src/utils/ccomp.ml" 58 2044 2061
+)
+"ocaml_src/utils/ccomp.ml" 59 2068 2078 "ocaml_src/utils/ccomp.ml" 59 2068 2082
+type(
+  string option
+)
+"ocaml_src/utils/ccomp.ml" 60 2086 2101 "ocaml_src/utils/ccomp.ml" 60 2086 2102
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/ccomp.ml" 60 2086 2102 "ocaml_src/utils/ccomp.ml" 60 2086 2121
+type(
+  bool ref
+)
+ident(
+  ext_ref Clflags.native_code
+)
+"ocaml_src/utils/ccomp.ml" 60 2086 2101 "ocaml_src/utils/ccomp.ml" 60 2086 2121
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 61 2122 2139 "ocaml_src/utils/ccomp.ml" 61 2122 2163
+type(
+  string
+)
+ident(
+  ext_ref Config.native_c_compiler
+)
+"ocaml_src/utils/ccomp.ml" 62 2164 2181 "ocaml_src/utils/ccomp.ml" 62 2164 2207
+type(
+  string
+)
+ident(
+  ext_ref Config.bytecomp_c_compiler
+)
+"ocaml_src/utils/ccomp.ml" 60 2086 2098 "ocaml_src/utils/ccomp.ml" 62 2164 2207
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 57 2005 2012 "ocaml_src/utils/ccomp.ml" 62 2164 2208
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 63 2209 2217 "ocaml_src/utils/ccomp.ml" 63 2209 2230
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"ocaml_src/utils/ccomp.ml" 63 2209 2231 "ocaml_src/utils/ccomp.ml" 63 2209 2234
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 63 2209 2236 "ocaml_src/utils/ccomp.ml" 63 2209 2244
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"ocaml_src/utils/ccomp.ml" 63 2209 2245 "ocaml_src/utils/ccomp.ml" 63 2209 2246
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/ccomp.ml" 63 2209 2246 "ocaml_src/utils/ccomp.ml" 63 2209 2260
+type(
+  string list ref
+)
+ident(
+  ext_ref Clflags.ccopts
+)
+"ocaml_src/utils/ccomp.ml" 63 2209 2245 "ocaml_src/utils/ccomp.ml" 63 2209 2260
+type(
+  string list
+)
+"ocaml_src/utils/ccomp.ml" 63 2209 2235 "ocaml_src/utils/ccomp.ml" 63 2209 2261
+call(
+  stack
+)
+type(
+  string list
+)
+"ocaml_src/utils/ccomp.ml" 63 2209 2216 "ocaml_src/utils/ccomp.ml" 63 2209 2262
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 64 2263 2271 "ocaml_src/utils/ccomp.ml" 64 2263 2285
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref quote_prefixed "ocaml_src/utils/ccomp.ml" 44 1705 1709 "ocaml_src/utils/ccomp.ml" 44 1705 1723
+)
+"ocaml_src/utils/ccomp.ml" 64 2263 2286 "ocaml_src/utils/ccomp.ml" 64 2263 2290
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 64 2263 2292 "ocaml_src/utils/ccomp.ml" 64 2263 2300
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"ocaml_src/utils/ccomp.ml" 64 2263 2301 "ocaml_src/utils/ccomp.ml" 64 2263 2302
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/ccomp.ml" 64 2263 2302 "ocaml_src/utils/ccomp.ml" 64 2263 2322
+type(
+  string list ref
+)
+ident(
+  ext_ref Clflags.include_dirs
+)
+"ocaml_src/utils/ccomp.ml" 64 2263 2301 "ocaml_src/utils/ccomp.ml" 64 2263 2322
+type(
+  string list
+)
+"ocaml_src/utils/ccomp.ml" 64 2263 2291 "ocaml_src/utils/ccomp.ml" 64 2263 2323
+call(
+  stack
+)
+type(
+  string list
+)
+"ocaml_src/utils/ccomp.ml" 64 2263 2270 "ocaml_src/utils/ccomp.ml" 64 2263 2324
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 65 2325 2333 "ocaml_src/utils/ccomp.ml" 65 2325 2357
+type(
+  string -> string
+)
+ident(
+  ext_ref Clflags.std_include_flag
+)
+"ocaml_src/utils/ccomp.ml" 65 2325 2358 "ocaml_src/utils/ccomp.ml" 65 2325 2362
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 65 2325 2332 "ocaml_src/utils/ccomp.ml" 65 2325 2363
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 66 2364 2372 "ocaml_src/utils/ccomp.ml" 66 2364 2386
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.quote
+)
+"ocaml_src/utils/ccomp.ml" 66 2364 2387 "ocaml_src/utils/ccomp.ml" 66 2364 2391
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/ccomp.ml" 53 1924 1941 "ocaml_src/utils/ccomp.ml" 53 1924 1945
+)
+"ocaml_src/utils/ccomp.ml" 66 2364 2371 "ocaml_src/utils/ccomp.ml" 66 2364 2392
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 55 1958 1962 "ocaml_src/utils/ccomp.ml" 66 2364 2393
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 54 1948 1950 "ocaml_src/utils/ccomp.ml" 66 2364 2393
+call(
+  tail
+)
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 68 2395 2399 "ocaml_src/utils/ccomp.ml" 68 2395 2413
+type(
+  string -> string list -> int
+)
+ident(
+  def create_archive "ocaml_src/utils/ccomp.ml" 83 2937 2937 "ocaml_src/utils/ccomp.ml" 1 0 -1
+)
+"ocaml_src/utils/ccomp.ml" 68 2395 2414 "ocaml_src/utils/ccomp.ml" 68 2395 2421
+type(
+  string
+)
+ident(
+  def archive "ocaml_src/utils/ccomp.ml" 68 2395 2422 "ocaml_src/utils/ccomp.ml" 81 2879 2935
+)
+"ocaml_src/utils/ccomp.ml" 68 2395 2422 "ocaml_src/utils/ccomp.ml" 68 2395 2431
+type(
+  string list
+)
+ident(
+  def file_list "ocaml_src/utils/ccomp.ml" 69 2434 2436 "ocaml_src/utils/ccomp.ml" 81 2879 2935
+)
+"ocaml_src/utils/ccomp.ml" 69 2434 2436 "ocaml_src/utils/ccomp.ml" 69 2434 2452
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.remove_file
+)
+"ocaml_src/utils/ccomp.ml" 69 2434 2453 "ocaml_src/utils/ccomp.ml" 69 2434 2460
+type(
+  string
+)
+ident(
+  int_ref archive "ocaml_src/utils/ccomp.ml" 68 2395 2414 "ocaml_src/utils/ccomp.ml" 68 2395 2421
+)
+"ocaml_src/utils/ccomp.ml" 69 2434 2436 "ocaml_src/utils/ccomp.ml" 69 2434 2460
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/utils/ccomp.ml" 70 2462 2468 "ocaml_src/utils/ccomp.ml" 70 2462 2482
+type(
+  string
+)
+ident(
+  def quoted_archive "ocaml_src/utils/ccomp.ml" 71 2511 2513 "ocaml_src/utils/ccomp.ml" 81 2879 2935
+)
+"ocaml_src/utils/ccomp.ml" 70 2462 2485 "ocaml_src/utils/ccomp.ml" 70 2462 2499
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.quote
+)
+"ocaml_src/utils/ccomp.ml" 70 2462 2500 "ocaml_src/utils/ccomp.ml" 70 2462 2507
+type(
+  string
+)
+ident(
+  int_ref archive "ocaml_src/utils/ccomp.ml" 68 2395 2414 "ocaml_src/utils/ccomp.ml" 68 2395 2421
+)
+"ocaml_src/utils/ccomp.ml" 70 2462 2485 "ocaml_src/utils/ccomp.ml" 70 2462 2507
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 71 2511 2519 "ocaml_src/utils/ccomp.ml" 71 2511 2536
+type(
+  string
+)
+ident(
+  ext_ref Config.ccomp_type
+)
+"ocaml_src/utils/ccomp.ml" 72 2542 2546 "ocaml_src/utils/ccomp.ml" 72 2542 2552
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 73 2556 2562 "ocaml_src/utils/ccomp.ml" 73 2556 2569
+type(
+  string -> int
+)
+ident(
+  int_ref command "ocaml_src/utils/ccomp.ml" 17 923 927 "ocaml_src/utils/ccomp.ml" 17 923 934
+)
+"ocaml_src/utils/ccomp.ml" 73 2556 2570 "ocaml_src/utils/ccomp.ml" 73 2556 2584
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocaml_src/utils/ccomp.ml" 73 2556 2585 "ocaml_src/utils/ccomp.ml" 73 2556 2615
+type(
+  (string -> string -> string, unit, string) format
+)
+"ocaml_src/utils/ccomp.ml" 74 2616 2645 "ocaml_src/utils/ccomp.ml" 74 2616 2659
+type(
+  string
+)
+ident(
+  int_ref quoted_archive "ocaml_src/utils/ccomp.ml" 70 2462 2468 "ocaml_src/utils/ccomp.ml" 70 2462 2482
+)
+"ocaml_src/utils/ccomp.ml" 74 2616 2661 "ocaml_src/utils/ccomp.ml" 74 2616 2672
+type(
+  string list -> string
+)
+ident(
+  int_ref quote_files "ocaml_src/utils/ccomp.ml" 36 1455 1459 "ocaml_src/utils/ccomp.ml" 36 1455 1470
+)
+"ocaml_src/utils/ccomp.ml" 74 2616 2673 "ocaml_src/utils/ccomp.ml" 74 2616 2682
+type(
+  string list
+)
+ident(
+  int_ref file_list "ocaml_src/utils/ccomp.ml" 68 2395 2422 "ocaml_src/utils/ccomp.ml" 68 2395 2431
+)
+"ocaml_src/utils/ccomp.ml" 74 2616 2660 "ocaml_src/utils/ccomp.ml" 74 2616 2683
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 73 2556 2569 "ocaml_src/utils/ccomp.ml" 74 2616 2684
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 73 2556 2562 "ocaml_src/utils/ccomp.ml" 74 2616 2684
+call(
+  tail
+)
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 75 2685 2689 "ocaml_src/utils/ccomp.ml" 75 2685 2690
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 76 2694 2704 "ocaml_src/utils/ccomp.ml" 76 2694 2706
+type(
+  int
+)
+ident(
+  def r1 "ocaml_src/utils/ccomp.ml" 79 2813 2819 "ocaml_src/utils/ccomp.ml" 81 2879 2935
+)
+"ocaml_src/utils/ccomp.ml" 77 2709 2717 "ocaml_src/utils/ccomp.ml" 77 2709 2724
+type(
+  string -> int
+)
+ident(
+  int_ref command "ocaml_src/utils/ccomp.ml" 17 923 927 "ocaml_src/utils/ccomp.ml" 17 923 934
+)
+"ocaml_src/utils/ccomp.ml" 77 2709 2725 "ocaml_src/utils/ccomp.ml" 77 2709 2739
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocaml_src/utils/ccomp.ml" 77 2709 2740 "ocaml_src/utils/ccomp.ml" 77 2709 2753
+type(
+  (string -> string -> string, unit, string) format
+)
+"ocaml_src/utils/ccomp.ml" 78 2754 2770 "ocaml_src/utils/ccomp.ml" 78 2754 2784
+type(
+  string
+)
+ident(
+  int_ref quoted_archive "ocaml_src/utils/ccomp.ml" 70 2462 2468 "ocaml_src/utils/ccomp.ml" 70 2462 2482
+)
+"ocaml_src/utils/ccomp.ml" 78 2754 2786 "ocaml_src/utils/ccomp.ml" 78 2754 2797
+type(
+  string list -> string
+)
+ident(
+  int_ref quote_files "ocaml_src/utils/ccomp.ml" 36 1455 1459 "ocaml_src/utils/ccomp.ml" 36 1455 1470
+)
+"ocaml_src/utils/ccomp.ml" 78 2754 2798 "ocaml_src/utils/ccomp.ml" 78 2754 2807
+type(
+  string list
+)
+ident(
+  int_ref file_list "ocaml_src/utils/ccomp.ml" 68 2395 2422 "ocaml_src/utils/ccomp.ml" 68 2395 2431
+)
+"ocaml_src/utils/ccomp.ml" 78 2754 2785 "ocaml_src/utils/ccomp.ml" 78 2754 2808
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 77 2709 2724 "ocaml_src/utils/ccomp.ml" 78 2754 2809
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 77 2709 2717 "ocaml_src/utils/ccomp.ml" 78 2754 2809
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 79 2813 2822 "ocaml_src/utils/ccomp.ml" 79 2813 2824
+type(
+  int
+)
+ident(
+  int_ref r1 "ocaml_src/utils/ccomp.ml" 76 2694 2704 "ocaml_src/utils/ccomp.ml" 76 2694 2706
+)
+"ocaml_src/utils/ccomp.ml" 79 2813 2825 "ocaml_src/utils/ccomp.ml" 79 2813 2827
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ocaml_src/utils/ccomp.ml" 79 2813 2828 "ocaml_src/utils/ccomp.ml" 79 2813 2829
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 79 2813 2822 "ocaml_src/utils/ccomp.ml" 79 2813 2829
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 79 2813 2830 "ocaml_src/utils/ccomp.ml" 79 2813 2832
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ocaml_src/utils/ccomp.ml" 79 2813 2833 "ocaml_src/utils/ccomp.ml" 79 2813 2846
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/ccomp.ml" 79 2813 2847 "ocaml_src/utils/ccomp.ml" 79 2813 2860
+type(
+  string
+)
+ident(
+  ext_ref Config.ranlib
+)
+"ocaml_src/utils/ccomp.ml" 79 2813 2833 "ocaml_src/utils/ccomp.ml" 79 2813 2860
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 79 2813 2861 "ocaml_src/utils/ccomp.ml" 79 2813 2862
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/ccomp.ml" 79 2813 2863 "ocaml_src/utils/ccomp.ml" 79 2813 2864
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 79 2813 2833 "ocaml_src/utils/ccomp.ml" 79 2813 2864
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 79 2813 2822 "ocaml_src/utils/ccomp.ml" 79 2813 2864
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 80 2865 2876 "ocaml_src/utils/ccomp.ml" 80 2865 2878
+type(
+  int
+)
+ident(
+  int_ref r1 "ocaml_src/utils/ccomp.ml" 76 2694 2704 "ocaml_src/utils/ccomp.ml" 76 2694 2706
+)
+"ocaml_src/utils/ccomp.ml" 81 2879 2890 "ocaml_src/utils/ccomp.ml" 81 2879 2897
+type(
+  string -> int
+)
+ident(
+  int_ref command "ocaml_src/utils/ccomp.ml" 17 923 927 "ocaml_src/utils/ccomp.ml" 17 923 934
+)
+"ocaml_src/utils/ccomp.ml" 81 2879 2898 "ocaml_src/utils/ccomp.ml" 81 2879 2911
+type(
+  string
+)
+ident(
+  ext_ref Config.ranlib
+)
+"ocaml_src/utils/ccomp.ml" 81 2879 2912 "ocaml_src/utils/ccomp.ml" 81 2879 2913
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/ccomp.ml" 81 2879 2914 "ocaml_src/utils/ccomp.ml" 81 2879 2917
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 81 2879 2918 "ocaml_src/utils/ccomp.ml" 81 2879 2919
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/ccomp.ml" 81 2879 2920 "ocaml_src/utils/ccomp.ml" 81 2879 2934
+type(
+  string
+)
+ident(
+  int_ref quoted_archive "ocaml_src/utils/ccomp.ml" 70 2462 2468 "ocaml_src/utils/ccomp.ml" 70 2462 2482
+)
+"ocaml_src/utils/ccomp.ml" 81 2879 2914 "ocaml_src/utils/ccomp.ml" 81 2879 2934
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 81 2879 2897 "ocaml_src/utils/ccomp.ml" 81 2879 2935
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 81 2879 2890 "ocaml_src/utils/ccomp.ml" 81 2879 2935
+call(
+  tail
+)
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 79 2813 2819 "ocaml_src/utils/ccomp.ml" 81 2879 2935
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 76 2694 2700 "ocaml_src/utils/ccomp.ml" 81 2879 2935
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 71 2511 2513 "ocaml_src/utils/ccomp.ml" 81 2879 2935
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 70 2462 2464 "ocaml_src/utils/ccomp.ml" 81 2879 2935
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 69 2434 2436 "ocaml_src/utils/ccomp.ml" 81 2879 2935
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 83 2937 2941 "ocaml_src/utils/ccomp.ml" 83 2937 2955
+type(
+  string -> string
+)
+ident(
+  def expand_libname "ocaml_src/utils/ccomp.ml" 95 3243 3243 "ocaml_src/utils/ccomp.ml" 1 0 -1
+)
+"ocaml_src/utils/ccomp.ml" 83 2937 2956 "ocaml_src/utils/ccomp.ml" 83 2937 2960
+type(
+  string
+)
+ident(
+  def name "ocaml_src/utils/ccomp.ml" 84 2963 2965 "ocaml_src/utils/ccomp.ml" 93 3236 3241
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 2968 "ocaml_src/utils/ccomp.ml" 84 2963 2981
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 2982 "ocaml_src/utils/ccomp.ml" 84 2963 2986
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/ccomp.ml" 83 2937 2956 "ocaml_src/utils/ccomp.ml" 83 2937 2960
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 2968 "ocaml_src/utils/ccomp.ml" 84 2963 2986
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 2987 "ocaml_src/utils/ccomp.ml" 84 2963 2988
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 2989 "ocaml_src/utils/ccomp.ml" 84 2963 2990
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 2968 "ocaml_src/utils/ccomp.ml" 84 2963 2990
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 2991 "ocaml_src/utils/ccomp.ml" 84 2963 2993
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 2994 "ocaml_src/utils/ccomp.ml" 84 2963 3004
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 3005 "ocaml_src/utils/ccomp.ml" 84 2963 3009
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/ccomp.ml" 83 2937 2956 "ocaml_src/utils/ccomp.ml" 83 2937 2960
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 3010 "ocaml_src/utils/ccomp.ml" 84 2963 3011
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 3012 "ocaml_src/utils/ccomp.ml" 84 2963 3013
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 2994 "ocaml_src/utils/ccomp.ml" 84 2963 3013
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 3014 "ocaml_src/utils/ccomp.ml" 84 2963 3016
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 3017 "ocaml_src/utils/ccomp.ml" 84 2963 3021
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 2994 "ocaml_src/utils/ccomp.ml" 84 2963 3021
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 2968 "ocaml_src/utils/ccomp.ml" 84 2963 3021
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 85 3022 3029 "ocaml_src/utils/ccomp.ml" 85 3022 3033
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/ccomp.ml" 83 2937 2956 "ocaml_src/utils/ccomp.ml" 83 2937 2960
+)
+"ocaml_src/utils/ccomp.ml" 87 3047 3055 "ocaml_src/utils/ccomp.ml" 87 3047 3062
+type(
+  string
+)
+ident(
+  def libname "ocaml_src/utils/ccomp.ml" 89 3142 3146 "ocaml_src/utils/ccomp.ml" 92 3222 3235
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3071 "ocaml_src/utils/ccomp.ml" 88 3065 3076
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3077 "ocaml_src/utils/ccomp.ml" 88 3065 3078
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3079 "ocaml_src/utils/ccomp.ml" 88 3065 3089
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3090 "ocaml_src/utils/ccomp.ml" 88 3065 3094
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/ccomp.ml" 83 2937 2956 "ocaml_src/utils/ccomp.ml" 83 2937 2960
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3095 "ocaml_src/utils/ccomp.ml" 88 3065 3096
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3098 "ocaml_src/utils/ccomp.ml" 88 3065 3111
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3112 "ocaml_src/utils/ccomp.ml" 88 3065 3116
+type(
+  string
+)
+ident(
+  int_ref name "ocaml_src/utils/ccomp.ml" 83 2937 2956 "ocaml_src/utils/ccomp.ml" 83 2937 2960
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3098 "ocaml_src/utils/ccomp.ml" 88 3065 3116
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3117 "ocaml_src/utils/ccomp.ml" 88 3065 3118
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3119 "ocaml_src/utils/ccomp.ml" 88 3065 3120
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3097 "ocaml_src/utils/ccomp.ml" 88 3065 3121
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3079 "ocaml_src/utils/ccomp.ml" 88 3065 3121
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3122 "ocaml_src/utils/ccomp.ml" 88 3065 3123
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3124 "ocaml_src/utils/ccomp.ml" 88 3065 3138
+type(
+  string
+)
+ident(
+  ext_ref Config.ext_lib
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3079 "ocaml_src/utils/ccomp.ml" 88 3065 3138
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 88 3065 3071 "ocaml_src/utils/ccomp.ml" 88 3065 3138
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 90 3150 3156 "ocaml_src/utils/ccomp.ml" 90 3150 3173
+type(
+  string list -> string -> string
+)
+ident(
+  ext_ref Misc.find_in_path
+)
+"ocaml_src/utils/ccomp.ml" 90 3150 3174 "ocaml_src/utils/ccomp.ml" 90 3150 3175
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/ccomp.ml" 90 3150 3175 "ocaml_src/utils/ccomp.ml" 90 3150 3191
+type(
+  string list ref
+)
+ident(
+  ext_ref Config.load_path
+)
+"ocaml_src/utils/ccomp.ml" 90 3150 3174 "ocaml_src/utils/ccomp.ml" 90 3150 3191
+type(
+  string list
+)
+"ocaml_src/utils/ccomp.ml" 90 3150 3192 "ocaml_src/utils/ccomp.ml" 90 3150 3199
+type(
+  string
+)
+ident(
+  int_ref libname "ocaml_src/utils/ccomp.ml" 87 3047 3055 "ocaml_src/utils/ccomp.ml" 87 3047 3062
+)
+"ocaml_src/utils/ccomp.ml" 90 3150 3156 "ocaml_src/utils/ccomp.ml" 90 3150 3199
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 91 3200 3209 "ocaml_src/utils/ccomp.ml" 91 3200 3218
+type(
+  exn
+)
+"ocaml_src/utils/ccomp.ml" 92 3222 3228 "ocaml_src/utils/ccomp.ml" 92 3222 3235
+type(
+  string
+)
+ident(
+  int_ref libname "ocaml_src/utils/ccomp.ml" 87 3047 3055 "ocaml_src/utils/ccomp.ml" 87 3047 3062
+)
+"ocaml_src/utils/ccomp.ml" 89 3142 3146 "ocaml_src/utils/ccomp.ml" 92 3222 3235
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 86 3034 3041 "ocaml_src/utils/ccomp.ml" 93 3236 3241
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 84 2963 2965 "ocaml_src/utils/ccomp.ml" 93 3236 3241
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 101 3301 3305 "ocaml_src/utils/ccomp.ml" 101 3301 3316
+type(
+  link_mode -> string -> string list -> string -> bool
+)
+ident(
+  def call_linker "ocaml_src/utils/ccomp.ml" 127 4136 4153 "ocaml_src/utils/ccomp.ml" 1 0 -1
+)
+"ocaml_src/utils/ccomp.ml" 101 3301 3317 "ocaml_src/utils/ccomp.ml" 101 3301 3321
+type(
+  link_mode
+)
+ident(
+  def mode "ocaml_src/utils/ccomp.ml" 101 3301 3322 "ocaml_src/utils/ccomp.ml" 127 4136 4153
+)
+"ocaml_src/utils/ccomp.ml" 101 3301 3322 "ocaml_src/utils/ccomp.ml" 101 3301 3333
+type(
+  string
+)
+ident(
+  def output_name "ocaml_src/utils/ccomp.ml" 101 3301 3334 "ocaml_src/utils/ccomp.ml" 127 4136 4153
+)
+"ocaml_src/utils/ccomp.ml" 101 3301 3334 "ocaml_src/utils/ccomp.ml" 101 3301 3339
+type(
+  string list
+)
+ident(
+  def files "ocaml_src/utils/ccomp.ml" 101 3301 3340 "ocaml_src/utils/ccomp.ml" 127 4136 4153
+)
+"ocaml_src/utils/ccomp.ml" 101 3301 3340 "ocaml_src/utils/ccomp.ml" 101 3301 3345
+type(
+  string
+)
+ident(
+  def extra "ocaml_src/utils/ccomp.ml" 102 3348 3350 "ocaml_src/utils/ccomp.ml" 127 4136 4153
+)
+"ocaml_src/utils/ccomp.ml" 102 3348 3354 "ocaml_src/utils/ccomp.ml" 102 3348 3359
+type(
+  string
+)
+ident(
+  def files "ocaml_src/utils/ccomp.ml" 103 3383 3385 "ocaml_src/utils/ccomp.ml" 127 4136 4153
+)
+"ocaml_src/utils/ccomp.ml" 102 3348 3362 "ocaml_src/utils/ccomp.ml" 102 3348 3373
+type(
+  string list -> string
+)
+ident(
+  int_ref quote_files "ocaml_src/utils/ccomp.ml" 36 1455 1459 "ocaml_src/utils/ccomp.ml" 36 1455 1470
+)
+"ocaml_src/utils/ccomp.ml" 102 3348 3374 "ocaml_src/utils/ccomp.ml" 102 3348 3379
+type(
+  string list
+)
+ident(
+  int_ref files "ocaml_src/utils/ccomp.ml" 101 3301 3334 "ocaml_src/utils/ccomp.ml" 101 3301 3339
+)
+"ocaml_src/utils/ccomp.ml" 102 3348 3362 "ocaml_src/utils/ccomp.ml" 102 3348 3379
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 103 3383 3389 "ocaml_src/utils/ccomp.ml" 103 3383 3392
+type(
+  string
+)
+ident(
+  def cmd "ocaml_src/utils/ccomp.ml" 127 4136 4138 "ocaml_src/utils/ccomp.ml" 127 4136 4153
+)
+"ocaml_src/utils/ccomp.ml" 104 3395 3402 "ocaml_src/utils/ccomp.ml" 104 3395 3406
+type(
+  link_mode
+)
+ident(
+  int_ref mode "ocaml_src/utils/ccomp.ml" 101 3301 3317 "ocaml_src/utils/ccomp.ml" 101 3301 3321
+)
+"ocaml_src/utils/ccomp.ml" 104 3395 3407 "ocaml_src/utils/ccomp.ml" 104 3395 3408
+type(
+  link_mode -> link_mode -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/ccomp.ml" 104 3395 3409 "ocaml_src/utils/ccomp.ml" 104 3395 3416
+type(
+  link_mode
+)
+"ocaml_src/utils/ccomp.ml" 104 3395 3402 "ocaml_src/utils/ccomp.ml" 104 3395 3416
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 105 3422 3428 "ocaml_src/utils/ccomp.ml" 105 3422 3442
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocaml_src/utils/ccomp.ml" 105 3422 3443 "ocaml_src/utils/ccomp.ml" 105 3422 3455
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"ocaml_src/utils/ccomp.ml" 106 3456 3464 "ocaml_src/utils/ccomp.ml" 106 3456 3489
+type(
+  string
+)
+ident(
+  ext_ref Config.native_pack_linker
+)
+"ocaml_src/utils/ccomp.ml" 107 3490 3499 "ocaml_src/utils/ccomp.ml" 107 3490 3513
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.quote
+)
+"ocaml_src/utils/ccomp.ml" 107 3490 3514 "ocaml_src/utils/ccomp.ml" 107 3490 3525
+type(
+  string
+)
+ident(
+  int_ref output_name "ocaml_src/utils/ccomp.ml" 101 3301 3322 "ocaml_src/utils/ccomp.ml" 101 3301 3333
+)
+"ocaml_src/utils/ccomp.ml" 107 3490 3498 "ocaml_src/utils/ccomp.ml" 107 3490 3526
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 108 3527 3535 "ocaml_src/utils/ccomp.ml" 108 3527 3540
+type(
+  string
+)
+ident(
+  int_ref files "ocaml_src/utils/ccomp.ml" 102 3348 3354 "ocaml_src/utils/ccomp.ml" 102 3348 3359
+)
+"ocaml_src/utils/ccomp.ml" 109 3541 3549 "ocaml_src/utils/ccomp.ml" 109 3541 3554
+type(
+  string
+)
+ident(
+  int_ref extra "ocaml_src/utils/ccomp.ml" 101 3301 3340 "ocaml_src/utils/ccomp.ml" 101 3301 3345
+)
+"ocaml_src/utils/ccomp.ml" 105 3422 3428 "ocaml_src/utils/ccomp.ml" 109 3541 3554
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 111 3564 3570 "ocaml_src/utils/ccomp.ml" 111 3564 3584
+type(
+  (string ->
+   string ->
+   string -> string -> string -> string -> string -> string -> string, 
+   unit, string)
+  format ->
+  string ->
+  string ->
+  string -> string -> string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocaml_src/utils/ccomp.ml" 111 3564 3585 "ocaml_src/utils/ccomp.ml" 111 3564 3613
+type(
+  (string ->
+   string ->
+   string -> string -> string -> string -> string -> string -> string, 
+   unit, string)
+  format
+)
+"ocaml_src/utils/ccomp.ml" 112 3614 3629 "ocaml_src/utils/ccomp.ml" 112 3614 3630
+type(
+  string option ref -> string option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/ccomp.ml" 112 3614 3630 "ocaml_src/utils/ccomp.ml" 112 3614 3648
+type(
+  string option ref
+)
+ident(
+  ext_ref Clflags.c_compiler
+)
+"ocaml_src/utils/ccomp.ml" 112 3614 3629 "ocaml_src/utils/ccomp.ml" 112 3614 3648
+type(
+  string option
+)
+"ocaml_src/utils/ccomp.ml" 112 3614 3650 "ocaml_src/utils/ccomp.ml" 112 3614 3654
+type(
+  link_mode
+)
+ident(
+  int_ref mode "ocaml_src/utils/ccomp.ml" 101 3301 3317 "ocaml_src/utils/ccomp.ml" 101 3301 3321
+)
+"ocaml_src/utils/ccomp.ml" 112 3614 3629 "ocaml_src/utils/ccomp.ml" 112 3614 3654
+type(
+  string option * link_mode
+)
+"ocaml_src/utils/ccomp.ml" 113 3660 3675 "ocaml_src/utils/ccomp.ml" 113 3660 3677
+type(
+  string
+)
+ident(
+  def cc "ocaml_src/utils/ccomp.ml" 113 3660 3684 "ocaml_src/utils/ccomp.ml" 113 3660 3686
+)
+"ocaml_src/utils/ccomp.ml" 113 3660 3670 "ocaml_src/utils/ccomp.ml" 113 3660 3677
+type(
+  string option
+)
+"ocaml_src/utils/ccomp.ml" 113 3660 3679 "ocaml_src/utils/ccomp.ml" 113 3660 3680
+type(
+  link_mode
+)
+"ocaml_src/utils/ccomp.ml" 113 3660 3670 "ocaml_src/utils/ccomp.ml" 113 3660 3680
+type(
+  string option * link_mode
+)
+"ocaml_src/utils/ccomp.ml" 113 3660 3684 "ocaml_src/utils/ccomp.ml" 113 3660 3686
+type(
+  string
+)
+ident(
+  int_ref cc "ocaml_src/utils/ccomp.ml" 113 3660 3675 "ocaml_src/utils/ccomp.ml" 113 3660 3677
+)
+"ocaml_src/utils/ccomp.ml" 114 3687 3697 "ocaml_src/utils/ccomp.ml" 114 3687 3701
+type(
+  string option
+)
+"ocaml_src/utils/ccomp.ml" 114 3687 3703 "ocaml_src/utils/ccomp.ml" 114 3687 3706
+type(
+  link_mode
+)
+"ocaml_src/utils/ccomp.ml" 114 3687 3697 "ocaml_src/utils/ccomp.ml" 114 3687 3706
+type(
+  string option * link_mode
+)
+"ocaml_src/utils/ccomp.ml" 114 3687 3710 "ocaml_src/utils/ccomp.ml" 114 3687 3722
+type(
+  string
+)
+ident(
+  ext_ref Config.mkexe
+)
+"ocaml_src/utils/ccomp.ml" 115 3723 3733 "ocaml_src/utils/ccomp.ml" 115 3723 3737
+type(
+  string option
+)
+"ocaml_src/utils/ccomp.ml" 115 3723 3739 "ocaml_src/utils/ccomp.ml" 115 3723 3742
+type(
+  link_mode
+)
+"ocaml_src/utils/ccomp.ml" 115 3723 3733 "ocaml_src/utils/ccomp.ml" 115 3723 3742
+type(
+  string option * link_mode
+)
+"ocaml_src/utils/ccomp.ml" 115 3723 3746 "ocaml_src/utils/ccomp.ml" 115 3723 3758
+type(
+  string
+)
+ident(
+  ext_ref Config.mkdll
+)
+"ocaml_src/utils/ccomp.ml" 116 3759 3769 "ocaml_src/utils/ccomp.ml" 116 3759 3773
+type(
+  string option
+)
+"ocaml_src/utils/ccomp.ml" 116 3759 3775 "ocaml_src/utils/ccomp.ml" 116 3759 3782
+type(
+  link_mode
+)
+"ocaml_src/utils/ccomp.ml" 116 3759 3769 "ocaml_src/utils/ccomp.ml" 116 3759 3782
+type(
+  string option * link_mode
+)
+"ocaml_src/utils/ccomp.ml" 116 3759 3786 "ocaml_src/utils/ccomp.ml" 116 3759 3802
+type(
+  string
+)
+ident(
+  ext_ref Config.mkmaindll
+)
+"ocaml_src/utils/ccomp.ml" 117 3803 3813 "ocaml_src/utils/ccomp.ml" 117 3803 3817
+type(
+  string option
+)
+"ocaml_src/utils/ccomp.ml" 117 3803 3819 "ocaml_src/utils/ccomp.ml" 117 3803 3826
+type(
+  link_mode
+)
+"ocaml_src/utils/ccomp.ml" 117 3803 3813 "ocaml_src/utils/ccomp.ml" 117 3803 3826
+type(
+  string option * link_mode
+)
+"ocaml_src/utils/ccomp.ml" 117 3803 3837 "ocaml_src/utils/ccomp.ml" 117 3803 3842
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 117 3803 3830 "ocaml_src/utils/ccomp.ml" 117 3803 3842
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 112 3614 3622 "ocaml_src/utils/ccomp.ml" 118 3843 3852
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 119 3853 3862 "ocaml_src/utils/ccomp.ml" 119 3853 3876
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.quote
+)
+"ocaml_src/utils/ccomp.ml" 119 3853 3877 "ocaml_src/utils/ccomp.ml" 119 3853 3888
+type(
+  string
+)
+ident(
+  int_ref output_name "ocaml_src/utils/ccomp.ml" 101 3301 3322 "ocaml_src/utils/ccomp.ml" 101 3301 3333
+)
+"ocaml_src/utils/ccomp.ml" 119 3853 3861 "ocaml_src/utils/ccomp.ml" 119 3853 3889
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 120 3890 3902 "ocaml_src/utils/ccomp.ml" 120 3890 3903
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/ccomp.ml" 120 3890 3903 "ocaml_src/utils/ccomp.ml" 120 3890 3919
+type(
+  bool ref
+)
+ident(
+  ext_ref Clflags.gprofile
+)
+"ocaml_src/utils/ccomp.ml" 120 3890 3902 "ocaml_src/utils/ccomp.ml" 120 3890 3919
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 120 3890 3925 "ocaml_src/utils/ccomp.ml" 120 3890 3942
+type(
+  string
+)
+ident(
+  ext_ref Config.cc_profile
+)
+"ocaml_src/utils/ccomp.ml" 120 3890 3948 "ocaml_src/utils/ccomp.ml" 120 3890 3950
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 120 3890 3898 "ocaml_src/utils/ccomp.ml" 120 3890 3951
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 121 3952 3960 "ocaml_src/utils/ccomp.ml" 121 3952 3962
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 122 4000 4009 "ocaml_src/utils/ccomp.ml" 122 4000 4023
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref quote_prefixed "ocaml_src/utils/ccomp.ml" 44 1705 1709 "ocaml_src/utils/ccomp.ml" 44 1705 1723
+)
+"ocaml_src/utils/ccomp.ml" 122 4000 4024 "ocaml_src/utils/ccomp.ml" 122 4000 4028
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 122 4000 4029 "ocaml_src/utils/ccomp.ml" 122 4000 4030
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/ccomp.ml" 122 4000 4030 "ocaml_src/utils/ccomp.ml" 122 4000 4046
+type(
+  string list ref
+)
+ident(
+  ext_ref Config.load_path
+)
+"ocaml_src/utils/ccomp.ml" 122 4000 4029 "ocaml_src/utils/ccomp.ml" 122 4000 4046
+type(
+  string list
+)
+"ocaml_src/utils/ccomp.ml" 122 4000 4008 "ocaml_src/utils/ccomp.ml" 122 4000 4047
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 123 4048 4057 "ocaml_src/utils/ccomp.ml" 123 4048 4070
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"ocaml_src/utils/ccomp.ml" 123 4048 4071 "ocaml_src/utils/ccomp.ml" 123 4048 4074
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 123 4048 4076 "ocaml_src/utils/ccomp.ml" 123 4048 4084
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"ocaml_src/utils/ccomp.ml" 123 4048 4085 "ocaml_src/utils/ccomp.ml" 123 4048 4086
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/utils/ccomp.ml" 123 4048 4086 "ocaml_src/utils/ccomp.ml" 123 4048 4100
+type(
+  string list ref
+)
+ident(
+  ext_ref Clflags.ccopts
+)
+"ocaml_src/utils/ccomp.ml" 123 4048 4085 "ocaml_src/utils/ccomp.ml" 123 4048 4100
+type(
+  string list
+)
+"ocaml_src/utils/ccomp.ml" 123 4048 4075 "ocaml_src/utils/ccomp.ml" 123 4048 4101
+call(
+  stack
+)
+type(
+  string list
+)
+"ocaml_src/utils/ccomp.ml" 123 4048 4056 "ocaml_src/utils/ccomp.ml" 123 4048 4102
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 124 4103 4111 "ocaml_src/utils/ccomp.ml" 124 4103 4116
+type(
+  string
+)
+ident(
+  int_ref files "ocaml_src/utils/ccomp.ml" 102 3348 3354 "ocaml_src/utils/ccomp.ml" 102 3348 3359
+)
+"ocaml_src/utils/ccomp.ml" 125 4117 4125 "ocaml_src/utils/ccomp.ml" 125 4117 4130
+type(
+  string
+)
+ident(
+  int_ref extra "ocaml_src/utils/ccomp.ml" 101 3301 3340 "ocaml_src/utils/ccomp.ml" 101 3301 3345
+)
+"ocaml_src/utils/ccomp.ml" 111 3564 3570 "ocaml_src/utils/ccomp.ml" 125 4117 4130
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 104 3395 3399 "ocaml_src/utils/ccomp.ml" 125 4117 4130
+type(
+  string
+)
+"ocaml_src/utils/ccomp.ml" 127 4136 4138 "ocaml_src/utils/ccomp.ml" 127 4136 4145
+type(
+  string -> int
+)
+ident(
+  int_ref command "ocaml_src/utils/ccomp.ml" 17 923 927 "ocaml_src/utils/ccomp.ml" 17 923 934
+)
+"ocaml_src/utils/ccomp.ml" 127 4136 4146 "ocaml_src/utils/ccomp.ml" 127 4136 4149
+type(
+  string
+)
+ident(
+  int_ref cmd "ocaml_src/utils/ccomp.ml" 103 3383 3389 "ocaml_src/utils/ccomp.ml" 103 3383 3392
+)
+"ocaml_src/utils/ccomp.ml" 127 4136 4138 "ocaml_src/utils/ccomp.ml" 127 4136 4149
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 127 4136 4150 "ocaml_src/utils/ccomp.ml" 127 4136 4151
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocaml_src/utils/ccomp.ml" 127 4136 4152 "ocaml_src/utils/ccomp.ml" 127 4136 4153
+type(
+  int
+)
+"ocaml_src/utils/ccomp.ml" 127 4136 4138 "ocaml_src/utils/ccomp.ml" 127 4136 4153
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 103 3383 3385 "ocaml_src/utils/ccomp.ml" 127 4136 4153
+type(
+  bool
+)
+"ocaml_src/utils/ccomp.ml" 102 3348 3350 "ocaml_src/utils/ccomp.ml" 127 4136 4153
+type(
+  bool
+)

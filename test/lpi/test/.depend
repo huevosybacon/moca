@@ -1,0 +1,4 @@
+ex0.cmo :
+ex0.cmx :
+ex1.cmo : ../tableau.cmi ../formula.cmi
+ex1.cmx : ../tableau.cmx ../formula.cmi

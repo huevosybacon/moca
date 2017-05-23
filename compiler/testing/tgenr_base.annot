@@ -1,0 +1,1789 @@
+"testing/tgenr_base.ml" 31 1282 1286 "testing/tgenr_base.ml" 31 1282 1294
+type(
+  Code.exp list -> Code.exp
+)
+ident(
+  def mk_tuple "testing/tgenr_base.ml" 44 1621 1621 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 31 1282 1295 "testing/tgenr_base.ml" 31 1282 1299
+type(
+  Code.exp list
+)
+ident(
+  def exps "testing/tgenr_base.ml" 31 1282 1302 "testing/tgenr_base.ml" 31 1282 1312
+)
+"testing/tgenr_base.ml" 31 1282 1308 "testing/tgenr_base.ml" 31 1282 1312
+type(
+  Code.exp list
+)
+ident(
+  int_ref exps "testing/tgenr_base.ml" 31 1282 1295 "testing/tgenr_base.ml" 31 1282 1299
+)
+"testing/tgenr_base.ml" 31 1282 1302 "testing/tgenr_base.ml" 31 1282 1312
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 34 1375 1379 "testing/tgenr_base.ml" 34 1375 1386
+type(
+  Code.exp list -> Code.exp
+)
+ident(
+  def mk_list "testing/tgenr_base.ml" 44 1621 1621 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 34 1375 1387 "testing/tgenr_base.ml" 34 1375 1391
+type(
+  Code.exp list
+)
+ident(
+  def exps "testing/tgenr_base.ml" 34 1375 1394 "testing/tgenr_base.ml" 34 1375 1403
+)
+"testing/tgenr_base.ml" 34 1375 1399 "testing/tgenr_base.ml" 34 1375 1403
+type(
+  Code.exp list
+)
+ident(
+  int_ref exps "testing/tgenr_base.ml" 34 1375 1387 "testing/tgenr_base.ml" 34 1375 1391
+)
+"testing/tgenr_base.ml" 34 1375 1394 "testing/tgenr_base.ml" 34 1375 1403
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 37 1465 1469 "testing/tgenr_base.ml" 37 1465 1481
+type(
+  string -> Location.t -> Parsetree.generator
+)
+ident(
+  def mk_generator "testing/tgenr_base.ml" 44 1621 1621 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 37 1465 1482 "testing/tgenr_base.ml" 37 1465 1486
+type(
+  string
+)
+ident(
+  def name "testing/tgenr_base.ml" 37 1465 1487 "testing/tgenr_base.ml" 40 1550 1551
+)
+"testing/tgenr_base.ml" 37 1465 1487 "testing/tgenr_base.ml" 37 1465 1490
+type(
+  Location.t
+)
+ident(
+  def loc "testing/tgenr_base.ml" 37 1465 1493 "testing/tgenr_base.ml" 40 1550 1551
+)
+"testing/tgenr_base.ml" 38 1495 1526 "testing/tgenr_base.ml" 38 1495 1530
+type(
+  string
+)
+ident(
+  int_ref name "testing/tgenr_base.ml" 37 1465 1482 "testing/tgenr_base.ml" 37 1465 1486
+)
+"testing/tgenr_base.ml" 38 1495 1509 "testing/tgenr_base.ml" 38 1495 1530
+type(
+  Longident.t
+)
+"testing/tgenr_base.ml" 39 1532 1545 "testing/tgenr_base.ml" 39 1532 1548
+type(
+  Location.t
+)
+ident(
+  int_ref loc "testing/tgenr_base.ml" 37 1465 1487 "testing/tgenr_base.ml" 37 1465 1490
+)
+"testing/tgenr_base.ml" 37 1465 1493 "testing/tgenr_base.ml" 40 1550 1551
+type(
+  Parsetree.generator
+)
+"testing/tgenr_base.ml" 44 1621 1625 "testing/tgenr_base.ml" 44 1621 1636
+type(
+  Asttypes.constant -> Code.exp
+)
+ident(
+  def mk_constant "testing/tgenr_base.ml" 51 1733 1733 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 44 1621 1637 "testing/tgenr_base.ml" 44 1621 1638
+type(
+  Asttypes.constant
+)
+ident(
+  def c "testing/tgenr_base.ml" 45 1641 1643 "testing/tgenr_base.ml" 48 1725 1728
+)
+"testing/tgenr_base.ml" 46 1662 1692 "testing/tgenr_base.ml" 46 1662 1693
+type(
+  Asttypes.constant
+)
+ident(
+  int_ref c "testing/tgenr_base.ml" 44 1621 1637 "testing/tgenr_base.ml" 44 1621 1638
+)
+"testing/tgenr_base.ml" 46 1662 1678 "testing/tgenr_base.ml" 46 1662 1693
+type(
+  Parsetree.expression_desc
+)
+"testing/tgenr_base.ml" 47 1695 1710 "testing/tgenr_base.ml" 47 1695 1723
+type(
+  Location.t
+)
+ident(
+  ext_ref Location.none
+)
+"testing/tgenr_base.ml" 45 1641 1660 "testing/tgenr_base.ml" 48 1725 1728
+type(
+  Parsetree.expression
+)
+"testing/tgenr_base.ml" 45 1641 1643 "testing/tgenr_base.ml" 48 1725 1728
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 51 1733 1737 "testing/tgenr_base.ml" 51 1733 1743
+type(
+  int -> Code.exp
+)
+ident(
+  def mk_int "testing/tgenr_base.ml" 61 2172 2172 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 51 1733 1744 "testing/tgenr_base.ml" 51 1733 1745
+type(
+  int
+)
+ident(
+  def n "testing/tgenr_base.ml" 51 1733 1748 "testing/tgenr_base.ml" 51 1733 1782
+)
+"testing/tgenr_base.ml" 51 1733 1748 "testing/tgenr_base.ml" 51 1733 1759
+type(
+  Asttypes.constant -> Code.exp
+)
+ident(
+  int_ref mk_constant "testing/tgenr_base.ml" 44 1621 1625 "testing/tgenr_base.ml" 44 1621 1636
+)
+"testing/tgenr_base.ml" 51 1733 1780 "testing/tgenr_base.ml" 51 1733 1781
+type(
+  int
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 51 1733 1744 "testing/tgenr_base.ml" 51 1733 1745
+)
+"testing/tgenr_base.ml" 51 1733 1760 "testing/tgenr_base.ml" 51 1733 1782
+type(
+  Asttypes.constant
+)
+"testing/tgenr_base.ml" 51 1733 1748 "testing/tgenr_base.ml" 51 1733 1782
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 52 1783 1787 "testing/tgenr_base.ml" 52 1783 1794
+type(
+  char -> Code.exp
+)
+ident(
+  def mk_char "testing/tgenr_base.ml" 61 2172 2172 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 52 1783 1795 "testing/tgenr_base.ml" 52 1783 1797
+type(
+  char
+)
+ident(
+  def ch "testing/tgenr_base.ml" 52 1783 1800 "testing/tgenr_base.ml" 52 1783 1836
+)
+"testing/tgenr_base.ml" 52 1783 1800 "testing/tgenr_base.ml" 52 1783 1811
+type(
+  Asttypes.constant -> Code.exp
+)
+ident(
+  int_ref mk_constant "testing/tgenr_base.ml" 44 1621 1625 "testing/tgenr_base.ml" 44 1621 1636
+)
+"testing/tgenr_base.ml" 52 1783 1833 "testing/tgenr_base.ml" 52 1783 1835
+type(
+  char
+)
+ident(
+  int_ref ch "testing/tgenr_base.ml" 52 1783 1795 "testing/tgenr_base.ml" 52 1783 1797
+)
+"testing/tgenr_base.ml" 52 1783 1812 "testing/tgenr_base.ml" 52 1783 1836
+type(
+  Asttypes.constant
+)
+"testing/tgenr_base.ml" 52 1783 1800 "testing/tgenr_base.ml" 52 1783 1836
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 53 1837 1841 "testing/tgenr_base.ml" 53 1837 1850
+type(
+  string -> Code.exp
+)
+ident(
+  def mk_string "testing/tgenr_base.ml" 61 2172 2172 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 53 1837 1851 "testing/tgenr_base.ml" 53 1837 1854
+type(
+  string
+)
+ident(
+  def str "testing/tgenr_base.ml" 53 1837 1857 "testing/tgenr_base.ml" 53 1837 1896
+)
+"testing/tgenr_base.ml" 53 1837 1857 "testing/tgenr_base.ml" 53 1837 1868
+type(
+  Asttypes.constant -> Code.exp
+)
+ident(
+  int_ref mk_constant "testing/tgenr_base.ml" 44 1621 1625 "testing/tgenr_base.ml" 44 1621 1636
+)
+"testing/tgenr_base.ml" 53 1837 1892 "testing/tgenr_base.ml" 53 1837 1895
+type(
+  string
+)
+ident(
+  int_ref str "testing/tgenr_base.ml" 53 1837 1851 "testing/tgenr_base.ml" 53 1837 1854
+)
+"testing/tgenr_base.ml" 53 1837 1869 "testing/tgenr_base.ml" 53 1837 1896
+type(
+  Asttypes.constant
+)
+"testing/tgenr_base.ml" 53 1837 1857 "testing/tgenr_base.ml" 53 1837 1896
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 54 1897 1901 "testing/tgenr_base.ml" 54 1897 1909
+type(
+  float -> Code.exp
+)
+ident(
+  def mk_float "testing/tgenr_base.ml" 61 2172 2172 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 54 1897 1910 "testing/tgenr_base.ml" 54 1897 1911
+type(
+  float
+)
+ident(
+  def x "testing/tgenr_base.ml" 54 1897 1914 "testing/tgenr_base.ml" 54 1897 1968
+)
+"testing/tgenr_base.ml" 54 1897 1914 "testing/tgenr_base.ml" 54 1897 1925
+type(
+  Asttypes.constant -> Code.exp
+)
+ident(
+  int_ref mk_constant "testing/tgenr_base.ml" 44 1621 1625 "testing/tgenr_base.ml" 44 1621 1636
+)
+"testing/tgenr_base.ml" 54 1897 1949 "testing/tgenr_base.ml" 54 1897 1964
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"testing/tgenr_base.ml" 54 1897 1965 "testing/tgenr_base.ml" 54 1897 1966
+type(
+  float
+)
+ident(
+  int_ref x "testing/tgenr_base.ml" 54 1897 1910 "testing/tgenr_base.ml" 54 1897 1911
+)
+"testing/tgenr_base.ml" 54 1897 1948 "testing/tgenr_base.ml" 54 1897 1967
+call(
+  stack
+)
+type(
+  string
+)
+"testing/tgenr_base.ml" 54 1897 1926 "testing/tgenr_base.ml" 54 1897 1968
+type(
+  Asttypes.constant
+)
+"testing/tgenr_base.ml" 54 1897 1914 "testing/tgenr_base.ml" 54 1897 1968
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 55 1969 1973 "testing/tgenr_base.ml" 55 1969 1981
+type(
+  int32 -> Code.exp
+)
+ident(
+  def mk_int32 "testing/tgenr_base.ml" 61 2172 2172 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 55 1969 1982 "testing/tgenr_base.ml" 55 1969 1983
+type(
+  int32
+)
+ident(
+  def n "testing/tgenr_base.ml" 55 1969 1986 "testing/tgenr_base.ml" 55 1969 2022
+)
+"testing/tgenr_base.ml" 55 1969 1986 "testing/tgenr_base.ml" 55 1969 1997
+type(
+  Asttypes.constant -> Code.exp
+)
+ident(
+  int_ref mk_constant "testing/tgenr_base.ml" 44 1621 1625 "testing/tgenr_base.ml" 44 1621 1636
+)
+"testing/tgenr_base.ml" 55 1969 2020 "testing/tgenr_base.ml" 55 1969 2021
+type(
+  int32
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 55 1969 1982 "testing/tgenr_base.ml" 55 1969 1983
+)
+"testing/tgenr_base.ml" 55 1969 1998 "testing/tgenr_base.ml" 55 1969 2022
+type(
+  Asttypes.constant
+)
+"testing/tgenr_base.ml" 55 1969 1986 "testing/tgenr_base.ml" 55 1969 2022
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 56 2023 2027 "testing/tgenr_base.ml" 56 2023 2035
+type(
+  int64 -> Code.exp
+)
+ident(
+  def mk_int64 "testing/tgenr_base.ml" 61 2172 2172 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 56 2023 2036 "testing/tgenr_base.ml" 56 2023 2037
+type(
+  int64
+)
+ident(
+  def n "testing/tgenr_base.ml" 56 2023 2040 "testing/tgenr_base.ml" 56 2023 2076
+)
+"testing/tgenr_base.ml" 56 2023 2040 "testing/tgenr_base.ml" 56 2023 2051
+type(
+  Asttypes.constant -> Code.exp
+)
+ident(
+  int_ref mk_constant "testing/tgenr_base.ml" 44 1621 1625 "testing/tgenr_base.ml" 44 1621 1636
+)
+"testing/tgenr_base.ml" 56 2023 2074 "testing/tgenr_base.ml" 56 2023 2075
+type(
+  int64
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 56 2023 2036 "testing/tgenr_base.ml" 56 2023 2037
+)
+"testing/tgenr_base.ml" 56 2023 2052 "testing/tgenr_base.ml" 56 2023 2076
+type(
+  Asttypes.constant
+)
+"testing/tgenr_base.ml" 56 2023 2040 "testing/tgenr_base.ml" 56 2023 2076
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 57 2077 2081 "testing/tgenr_base.ml" 57 2077 2093
+type(
+  nativeint -> Code.exp
+)
+ident(
+  def mk_nativeint "testing/tgenr_base.ml" 61 2172 2172 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 57 2077 2094 "testing/tgenr_base.ml" 57 2077 2095
+type(
+  nativeint
+)
+ident(
+  def n "testing/tgenr_base.ml" 57 2077 2098 "testing/tgenr_base.ml" 57 2077 2138
+)
+"testing/tgenr_base.ml" 57 2077 2098 "testing/tgenr_base.ml" 57 2077 2109
+type(
+  Asttypes.constant -> Code.exp
+)
+ident(
+  int_ref mk_constant "testing/tgenr_base.ml" 44 1621 1625 "testing/tgenr_base.ml" 44 1621 1636
+)
+"testing/tgenr_base.ml" 57 2077 2136 "testing/tgenr_base.ml" 57 2077 2137
+type(
+  nativeint
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 57 2077 2094 "testing/tgenr_base.ml" 57 2077 2095
+)
+"testing/tgenr_base.ml" 57 2077 2110 "testing/tgenr_base.ml" 57 2077 2138
+type(
+  Asttypes.constant
+)
+"testing/tgenr_base.ml" 57 2077 2098 "testing/tgenr_base.ml" 57 2077 2138
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 58 2139 2143 "testing/tgenr_base.ml" 58 2139 2150
+type(
+  unit -> Code.exp
+)
+ident(
+  def mk_unit "testing/tgenr_base.ml" 61 2172 2172 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 58 2139 2151 "testing/tgenr_base.ml" 58 2139 2153
+type(
+  unit
+)
+"testing/tgenr_base.ml" 58 2139 2156 "testing/tgenr_base.ml" 58 2139 2164
+type(
+  Code.exp list -> Code.exp
+)
+ident(
+  int_ref mk_tuple "testing/tgenr_base.ml" 31 1282 1286 "testing/tgenr_base.ml" 31 1282 1294
+)
+"testing/tgenr_base.ml" 58 2139 2165 "testing/tgenr_base.ml" 58 2139 2167
+type(
+  Code.exp list
+)
+"testing/tgenr_base.ml" 58 2139 2156 "testing/tgenr_base.ml" 58 2139 2167
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 61 2172 2176 "testing/tgenr_base.ml" 61 2172 2203
+type(
+  string -> Code.exp list -> Code.exp
+)
+ident(
+  def mk_non_listary_construction "testing/tgenr_base.ml" 70 2494 2494 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 61 2172 2204 "testing/tgenr_base.ml" 61 2172 2208
+type(
+  string
+)
+ident(
+  def name "testing/tgenr_base.ml" 61 2172 2209 "testing/tgenr_base.ml" 67 2440 2489
+)
+"testing/tgenr_base.ml" 61 2172 2209 "testing/tgenr_base.ml" 61 2172 2213
+type(
+  Code.exp list
+)
+ident(
+  def args "testing/tgenr_base.ml" 62 2216 2218 "testing/tgenr_base.ml" 67 2440 2489
+)
+"testing/tgenr_base.ml" 62 2216 2222 "testing/tgenr_base.ml" 62 2216 2239
+type(
+  string
+)
+ident(
+  def gen_function_name "testing/tgenr_base.ml" 63 2287 2289 "testing/tgenr_base.ml" 67 2440 2489
+)
+"testing/tgenr_base.ml" 62 2216 2242 "testing/tgenr_base.ml" 62 2216 2278
+type(
+  string -> string
+)
+ident(
+  ext_ref Genr_base.construction_function_name
+)
+"testing/tgenr_base.ml" 62 2216 2279 "testing/tgenr_base.ml" 62 2216 2283
+type(
+  string
+)
+ident(
+  int_ref name "testing/tgenr_base.ml" 61 2172 2204 "testing/tgenr_base.ml" 61 2172 2208
+)
+"testing/tgenr_base.ml" 62 2216 2242 "testing/tgenr_base.ml" 62 2216 2283
+call(
+  stack
+)
+type(
+  string
+)
+"testing/tgenr_base.ml" 63 2287 2293 "testing/tgenr_base.ml" 63 2287 2311
+type(
+  Code.exp
+)
+ident(
+  def gen_function_ident "testing/tgenr_base.ml" 64 2349 2351 "testing/tgenr_base.ml" 67 2440 2489
+)
+"testing/tgenr_base.ml" 63 2287 2314 "testing/tgenr_base.ml" 63 2287 2327
+type(
+  string -> Code.exp
+)
+ident(
+  ext_ref Code.make_Constant
+)
+"testing/tgenr_base.ml" 63 2287 2328 "testing/tgenr_base.ml" 63 2287 2345
+type(
+  string
+)
+ident(
+  int_ref gen_function_name "testing/tgenr_base.ml" 62 2216 2222 "testing/tgenr_base.ml" 62 2216 2239
+)
+"testing/tgenr_base.ml" 63 2287 2314 "testing/tgenr_base.ml" 63 2287 2345
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 64 2349 2357 "testing/tgenr_base.ml" 64 2349 2361
+type(
+  Code.exp list
+)
+ident(
+  int_ref args "testing/tgenr_base.ml" 61 2172 2209 "testing/tgenr_base.ml" 61 2172 2213
+)
+"testing/tgenr_base.ml" 65 2367 2371 "testing/tgenr_base.ml" 65 2367 2373
+type(
+  Code.exp list
+)
+"testing/tgenr_base.ml" 65 2367 2377 "testing/tgenr_base.ml" 65 2367 2395
+type(
+  Code.exp
+)
+ident(
+  int_ref gen_function_ident "testing/tgenr_base.ml" 63 2287 2293 "testing/tgenr_base.ml" 63 2287 2311
+)
+"testing/tgenr_base.ml" 66 2396 2401 "testing/tgenr_base.ml" 66 2396 2402
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 66 2396 2400 "testing/tgenr_base.ml" 66 2396 2403
+type(
+  Code.exp list
+)
+"testing/tgenr_base.ml" 66 2396 2414 "testing/tgenr_base.ml" 66 2396 2432
+type(
+  Code.exp
+)
+ident(
+  int_ref gen_function_ident "testing/tgenr_base.ml" 63 2287 2293 "testing/tgenr_base.ml" 63 2287 2311
+)
+"testing/tgenr_base.ml" 66 2396 2434 "testing/tgenr_base.ml" 66 2396 2438
+type(
+  Code.exp list
+)
+ident(
+  int_ref args "testing/tgenr_base.ml" 61 2172 2209 "testing/tgenr_base.ml" 61 2172 2213
+)
+"testing/tgenr_base.ml" 66 2396 2407 "testing/tgenr_base.ml" 66 2396 2439
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 67 2440 2444 "testing/tgenr_base.ml" 67 2440 2445
+type(
+  Code.exp list
+)
+"testing/tgenr_base.ml" 67 2440 2456 "testing/tgenr_base.ml" 67 2440 2474
+type(
+  Code.exp
+)
+ident(
+  int_ref gen_function_ident "testing/tgenr_base.ml" 63 2287 2293 "testing/tgenr_base.ml" 63 2287 2311
+)
+"testing/tgenr_base.ml" 67 2440 2483 "testing/tgenr_base.ml" 67 2440 2487
+type(
+  Code.exp list
+)
+ident(
+  int_ref args "testing/tgenr_base.ml" 61 2172 2209 "testing/tgenr_base.ml" 61 2172 2213
+)
+"testing/tgenr_base.ml" 67 2440 2477 "testing/tgenr_base.ml" 67 2440 2487
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 67 2440 2476 "testing/tgenr_base.ml" 67 2440 2488
+type(
+  Code.exp list
+)
+"testing/tgenr_base.ml" 67 2440 2449 "testing/tgenr_base.ml" 67 2440 2489
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 64 2349 2351 "testing/tgenr_base.ml" 67 2440 2489
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 63 2287 2289 "testing/tgenr_base.ml" 67 2440 2489
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 62 2216 2218 "testing/tgenr_base.ml" 67 2440 2489
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 70 2494 2498 "testing/tgenr_base.ml" 70 2494 2521
+type(
+  string -> Code.exp list -> Code.exp
+)
+ident(
+  def mk_listary_construction "testing/tgenr_base.ml" 76 2713 2713 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 70 2494 2522 "testing/tgenr_base.ml" 70 2494 2526
+type(
+  string
+)
+ident(
+  def name "testing/tgenr_base.ml" 70 2494 2527 "testing/tgenr_base.ml" 73 2667 2708
+)
+"testing/tgenr_base.ml" 70 2494 2527 "testing/tgenr_base.ml" 70 2494 2531
+type(
+  Code.exp list
+)
+ident(
+  def args "testing/tgenr_base.ml" 71 2534 2536 "testing/tgenr_base.ml" 73 2667 2708
+)
+"testing/tgenr_base.ml" 71 2534 2540 "testing/tgenr_base.ml" 71 2534 2557
+type(
+  string
+)
+ident(
+  def gen_function_name "testing/tgenr_base.ml" 72 2605 2607 "testing/tgenr_base.ml" 73 2667 2708
+)
+"testing/tgenr_base.ml" 71 2534 2560 "testing/tgenr_base.ml" 71 2534 2596
+type(
+  string -> string
+)
+ident(
+  ext_ref Genr_base.construction_function_name
+)
+"testing/tgenr_base.ml" 71 2534 2597 "testing/tgenr_base.ml" 71 2534 2601
+type(
+  string
+)
+ident(
+  int_ref name "testing/tgenr_base.ml" 70 2494 2522 "testing/tgenr_base.ml" 70 2494 2526
+)
+"testing/tgenr_base.ml" 71 2534 2560 "testing/tgenr_base.ml" 71 2534 2601
+call(
+  stack
+)
+type(
+  string
+)
+"testing/tgenr_base.ml" 72 2605 2611 "testing/tgenr_base.ml" 72 2605 2629
+type(
+  Code.exp
+)
+ident(
+  def gen_function_ident "testing/tgenr_base.ml" 73 2667 2669 "testing/tgenr_base.ml" 73 2667 2708
+)
+"testing/tgenr_base.ml" 72 2605 2632 "testing/tgenr_base.ml" 72 2605 2645
+type(
+  string -> Code.exp
+)
+ident(
+  ext_ref Code.make_Constant
+)
+"testing/tgenr_base.ml" 72 2605 2646 "testing/tgenr_base.ml" 72 2605 2663
+type(
+  string
+)
+ident(
+  int_ref gen_function_name "testing/tgenr_base.ml" 71 2534 2540 "testing/tgenr_base.ml" 71 2534 2557
+)
+"testing/tgenr_base.ml" 72 2605 2632 "testing/tgenr_base.ml" 72 2605 2663
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 73 2667 2676 "testing/tgenr_base.ml" 73 2667 2694
+type(
+  Code.exp
+)
+ident(
+  int_ref gen_function_ident "testing/tgenr_base.ml" 72 2605 2611 "testing/tgenr_base.ml" 72 2605 2629
+)
+"testing/tgenr_base.ml" 73 2667 2702 "testing/tgenr_base.ml" 73 2667 2706
+type(
+  Code.exp list
+)
+ident(
+  int_ref args "testing/tgenr_base.ml" 70 2494 2527 "testing/tgenr_base.ml" 70 2494 2531
+)
+"testing/tgenr_base.ml" 73 2667 2697 "testing/tgenr_base.ml" 73 2667 2706
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 73 2667 2696 "testing/tgenr_base.ml" 73 2667 2707
+type(
+  Code.exp list
+)
+"testing/tgenr_base.ml" 73 2667 2669 "testing/tgenr_base.ml" 73 2667 2708
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 72 2605 2607 "testing/tgenr_base.ml" 73 2667 2708
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 71 2534 2536 "testing/tgenr_base.ml" 73 2667 2708
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 76 2713 2717 "testing/tgenr_base.ml" 76 2713 2737
+type(
+  Parsetree.generator -> 'a list -> bool
+)
+ident(
+  def is_known_and_listary "testing/tgenr_base.ml" 82 2848 2848 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 76 2713 2738 "testing/tgenr_base.ml" 76 2713 2739
+type(
+  Parsetree.generator
+)
+ident(
+  def g "testing/tgenr_base.ml" 76 2713 2740 "testing/tgenr_base.ml" 79 2821 2843
+)
+"testing/tgenr_base.ml" 76 2713 2740 "testing/tgenr_base.ml" 76 2713 2744
+type(
+  'a list
+)
+ident(
+  def args "testing/tgenr_base.ml" 77 2747 2749 "testing/tgenr_base.ml" 79 2821 2843
+)
+"testing/tgenr_base.ml" 77 2747 2754 "testing/tgenr_base.ml" 77 2747 2780
+type(
+  Parsetree.generator -> bool
+)
+ident(
+  ext_ref Check.is_listary_generator
+)
+"testing/tgenr_base.ml" 77 2747 2781 "testing/tgenr_base.ml" 77 2747 2782
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "testing/tgenr_base.ml" 76 2713 2738 "testing/tgenr_base.ml" 76 2713 2739
+)
+"testing/tgenr_base.ml" 77 2747 2754 "testing/tgenr_base.ml" 77 2747 2782
+call(
+  stack
+)
+type(
+  bool
+)
+"testing/tgenr_base.ml" 78 2788 2805 "testing/tgenr_base.ml" 78 2788 2806
+type(
+  Check.error
+)
+type(
+  Location.t
+)
+"testing/tgenr_base.ml" 78 2788 2793 "testing/tgenr_base.ml" 78 2788 2806
+type(
+  exn
+)
+"testing/tgenr_base.ml" 78 2788 2811 "testing/tgenr_base.ml" 78 2788 2816
+type(
+  bool
+)
+"testing/tgenr_base.ml" 77 2747 2749 "testing/tgenr_base.ml" 78 2788 2817
+type(
+  bool
+)
+"testing/tgenr_base.ml" 78 2788 2818 "testing/tgenr_base.ml" 78 2788 2820
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"testing/tgenr_base.ml" 79 2821 2823 "testing/tgenr_base.ml" 79 2821 2834
+type(
+  'a list -> int
+)
+ident(
+  ext_ref List.length
+)
+"testing/tgenr_base.ml" 79 2821 2835 "testing/tgenr_base.ml" 79 2821 2839
+type(
+  'a list
+)
+ident(
+  int_ref args "testing/tgenr_base.ml" 76 2713 2740 "testing/tgenr_base.ml" 76 2713 2744
+)
+"testing/tgenr_base.ml" 79 2821 2823 "testing/tgenr_base.ml" 79 2821 2839
+call(
+  stack
+)
+type(
+  int
+)
+"testing/tgenr_base.ml" 79 2821 2840 "testing/tgenr_base.ml" 79 2821 2841
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"testing/tgenr_base.ml" 79 2821 2842 "testing/tgenr_base.ml" 79 2821 2843
+type(
+  int
+)
+"testing/tgenr_base.ml" 79 2821 2823 "testing/tgenr_base.ml" 79 2821 2843
+type(
+  bool
+)
+"testing/tgenr_base.ml" 77 2747 2749 "testing/tgenr_base.ml" 79 2821 2843
+type(
+  bool
+)
+"testing/tgenr_base.ml" 82 2848 2852 "testing/tgenr_base.ml" 82 2848 2877
+type(
+  string -> 'a list -> bool
+)
+ident(
+  def is_known_and_listary_name "testing/tgenr_base.ml" 88 3066 3066 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 82 2848 2878 "testing/tgenr_base.ml" 82 2848 2883
+type(
+  string
+)
+ident(
+  def gname "testing/tgenr_base.ml" 82 2848 2884 "testing/tgenr_base.ml" 83 2891 2953
+)
+"testing/tgenr_base.ml" 82 2848 2884 "testing/tgenr_base.ml" 82 2848 2888
+type(
+  'a list
+)
+ident(
+  def args "testing/tgenr_base.ml" 83 2891 2893 "testing/tgenr_base.ml" 83 2891 2953
+)
+"testing/tgenr_base.ml" 83 2891 2893 "testing/tgenr_base.ml" 83 2891 2913
+type(
+  Parsetree.generator -> 'a list -> bool
+)
+ident(
+  int_ref is_known_and_listary "testing/tgenr_base.ml" 76 2713 2717 "testing/tgenr_base.ml" 76 2713 2737
+)
+"testing/tgenr_base.ml" 83 2891 2915 "testing/tgenr_base.ml" 83 2891 2927
+type(
+  string -> Location.t -> Parsetree.generator
+)
+ident(
+  int_ref mk_generator "testing/tgenr_base.ml" 37 1465 1469 "testing/tgenr_base.ml" 37 1465 1481
+)
+"testing/tgenr_base.ml" 83 2891 2928 "testing/tgenr_base.ml" 83 2891 2933
+type(
+  string
+)
+ident(
+  int_ref gname "testing/tgenr_base.ml" 82 2848 2878 "testing/tgenr_base.ml" 82 2848 2883
+)
+"testing/tgenr_base.ml" 83 2891 2934 "testing/tgenr_base.ml" 83 2891 2947
+type(
+  Location.t
+)
+ident(
+  ext_ref Location.none
+)
+"testing/tgenr_base.ml" 83 2891 2914 "testing/tgenr_base.ml" 83 2891 2948
+call(
+  stack
+)
+type(
+  Parsetree.generator
+)
+"testing/tgenr_base.ml" 83 2891 2949 "testing/tgenr_base.ml" 83 2891 2953
+type(
+  'a list
+)
+ident(
+  int_ref args "testing/tgenr_base.ml" 82 2848 2884 "testing/tgenr_base.ml" 82 2848 2888
+)
+"testing/tgenr_base.ml" 83 2891 2893 "testing/tgenr_base.ml" 83 2891 2953
+call(
+  tail
+)
+type(
+  bool
+)
+"testing/tgenr_base.ml" 88 3066 3070 "testing/tgenr_base.ml" 88 3066 3085
+type(
+  string -> Code.exp list -> Code.exp
+)
+ident(
+  def mk_construction "testing/tgenr_base.ml" 96 3343 3343 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 88 3066 3086 "testing/tgenr_base.ml" 88 3066 3090
+type(
+  string
+)
+ident(
+  def name "testing/tgenr_base.ml" 88 3066 3091 "testing/tgenr_base.ml" 92 3217 3261
+)
+"testing/tgenr_base.ml" 88 3066 3091 "testing/tgenr_base.ml" 88 3066 3095
+type(
+  Code.exp list
+)
+ident(
+  def args "testing/tgenr_base.ml" 89 3098 3100 "testing/tgenr_base.ml" 92 3217 3261
+)
+"testing/tgenr_base.ml" 89 3098 3104 "testing/tgenr_base.ml" 89 3098 3105
+type(
+  Parsetree.generator
+)
+ident(
+  def g "testing/tgenr_base.ml" 90 3143 3145 "testing/tgenr_base.ml" 92 3217 3261
+)
+"testing/tgenr_base.ml" 89 3098 3108 "testing/tgenr_base.ml" 89 3098 3120
+type(
+  string -> Location.t -> Parsetree.generator
+)
+ident(
+  int_ref mk_generator "testing/tgenr_base.ml" 37 1465 1469 "testing/tgenr_base.ml" 37 1465 1481
+)
+"testing/tgenr_base.ml" 89 3098 3121 "testing/tgenr_base.ml" 89 3098 3125
+type(
+  string
+)
+ident(
+  int_ref name "testing/tgenr_base.ml" 88 3066 3086 "testing/tgenr_base.ml" 88 3066 3090
+)
+"testing/tgenr_base.ml" 89 3098 3126 "testing/tgenr_base.ml" 89 3098 3139
+type(
+  Location.t
+)
+ident(
+  ext_ref Location.none
+)
+"testing/tgenr_base.ml" 89 3098 3108 "testing/tgenr_base.ml" 89 3098 3139
+call(
+  stack
+)
+type(
+  Parsetree.generator
+)
+"testing/tgenr_base.ml" 90 3143 3148 "testing/tgenr_base.ml" 90 3143 3168
+type(
+  Parsetree.generator -> Code.exp list -> bool
+)
+ident(
+  int_ref is_known_and_listary "testing/tgenr_base.ml" 76 2713 2717 "testing/tgenr_base.ml" 76 2713 2737
+)
+"testing/tgenr_base.ml" 90 3143 3169 "testing/tgenr_base.ml" 90 3143 3170
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "testing/tgenr_base.ml" 89 3098 3104 "testing/tgenr_base.ml" 89 3098 3105
+)
+"testing/tgenr_base.ml" 90 3143 3171 "testing/tgenr_base.ml" 90 3143 3175
+type(
+  Code.exp list
+)
+ident(
+  int_ref args "testing/tgenr_base.ml" 88 3066 3091 "testing/tgenr_base.ml" 88 3066 3095
+)
+"testing/tgenr_base.ml" 90 3143 3148 "testing/tgenr_base.ml" 90 3143 3175
+call(
+  stack
+)
+type(
+  bool
+)
+"testing/tgenr_base.ml" 91 3176 3183 "testing/tgenr_base.ml" 91 3176 3206
+type(
+  string -> Code.exp list -> Code.exp
+)
+ident(
+  int_ref mk_listary_construction "testing/tgenr_base.ml" 70 2494 2498 "testing/tgenr_base.ml" 70 2494 2521
+)
+"testing/tgenr_base.ml" 91 3176 3207 "testing/tgenr_base.ml" 91 3176 3211
+type(
+  string
+)
+ident(
+  int_ref name "testing/tgenr_base.ml" 88 3066 3086 "testing/tgenr_base.ml" 88 3066 3090
+)
+"testing/tgenr_base.ml" 91 3176 3212 "testing/tgenr_base.ml" 91 3176 3216
+type(
+  Code.exp list
+)
+ident(
+  int_ref args "testing/tgenr_base.ml" 88 3066 3091 "testing/tgenr_base.ml" 88 3066 3095
+)
+"testing/tgenr_base.ml" 91 3176 3183 "testing/tgenr_base.ml" 91 3176 3216
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 92 3217 3224 "testing/tgenr_base.ml" 92 3217 3251
+type(
+  string -> Code.exp list -> Code.exp
+)
+ident(
+  int_ref mk_non_listary_construction "testing/tgenr_base.ml" 61 2172 2176 "testing/tgenr_base.ml" 61 2172 2203
+)
+"testing/tgenr_base.ml" 92 3217 3252 "testing/tgenr_base.ml" 92 3217 3256
+type(
+  string
+)
+ident(
+  int_ref name "testing/tgenr_base.ml" 88 3066 3086 "testing/tgenr_base.ml" 88 3066 3090
+)
+"testing/tgenr_base.ml" 92 3217 3257 "testing/tgenr_base.ml" 92 3217 3261
+type(
+  Code.exp list
+)
+ident(
+  int_ref args "testing/tgenr_base.ml" 88 3066 3091 "testing/tgenr_base.ml" 88 3066 3095
+)
+"testing/tgenr_base.ml" 92 3217 3224 "testing/tgenr_base.ml" 92 3217 3261
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 90 3143 3145 "testing/tgenr_base.ml" 92 3217 3261
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 89 3098 3100 "testing/tgenr_base.ml" 92 3217 3261
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 96 3343 3347 "testing/tgenr_base.ml" 96 3343 3358
+type(
+  Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  def mk_equality "testing/tgenr_base.ml" 98 3391 3391 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 96 3343 3359 "testing/tgenr_base.ml" 96 3343 3361
+type(
+  Code.exp
+)
+ident(
+  def e1 "testing/tgenr_base.ml" 96 3343 3362 "testing/tgenr_base.ml" 96 3343 3387
+)
+"testing/tgenr_base.ml" 96 3343 3362 "testing/tgenr_base.ml" 96 3343 3364
+type(
+  Code.exp
+)
+ident(
+  def e2 "testing/tgenr_base.ml" 96 3343 3367 "testing/tgenr_base.ml" 96 3343 3387
+)
+"testing/tgenr_base.ml" 96 3343 3367 "testing/tgenr_base.ml" 96 3343 3377
+type(
+  Code.exp -> Code.iname -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.infix_name
+)
+"testing/tgenr_base.ml" 96 3343 3378 "testing/tgenr_base.ml" 96 3343 3380
+type(
+  Code.exp
+)
+ident(
+  int_ref e1 "testing/tgenr_base.ml" 96 3343 3359 "testing/tgenr_base.ml" 96 3343 3361
+)
+"testing/tgenr_base.ml" 96 3343 3381 "testing/tgenr_base.ml" 96 3343 3384
+type(
+  Code.iname
+)
+"testing/tgenr_base.ml" 96 3343 3385 "testing/tgenr_base.ml" 96 3343 3387
+type(
+  Code.exp
+)
+ident(
+  int_ref e2 "testing/tgenr_base.ml" 96 3343 3362 "testing/tgenr_base.ml" 96 3343 3364
+)
+"testing/tgenr_base.ml" 96 3343 3367 "testing/tgenr_base.ml" 96 3343 3387
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 98 3391 3395 "testing/tgenr_base.ml" 98 3391 3406
+type(
+  bool -> int -> int list
+)
+ident(
+  def choose_ints "testing/tgenr_base.ml" 104 3577 3577 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 98 3391 3407 "testing/tgenr_base.ml" 98 3391 3411
+type(
+  bool
+)
+ident(
+  def rand "testing/tgenr_base.ml" 98 3391 3412 "testing/tgenr_base.ml" 100 3458 3491
+)
+"testing/tgenr_base.ml" 98 3391 3412 "testing/tgenr_base.ml" 98 3391 3413
+type(
+  int
+)
+ident(
+  def n "testing/tgenr_base.ml" 99 3416 3418 "testing/tgenr_base.ml" 100 3458 3491
+)
+"testing/tgenr_base.ml" 99 3416 3421 "testing/tgenr_base.ml" 99 3416 3425
+type(
+  bool
+)
+ident(
+  int_ref rand "testing/tgenr_base.ml" 98 3391 3407 "testing/tgenr_base.ml" 98 3391 3411
+)
+"testing/tgenr_base.ml" 99 3416 3431 "testing/tgenr_base.ml" 99 3416 3447
+type(
+  int -> int -> int list
+)
+ident(
+  ext_ref Randomutils.ints
+)
+"testing/tgenr_base.ml" 99 3416 3448 "testing/tgenr_base.ml" 99 3416 3449
+type(
+  int
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 98 3391 3412 "testing/tgenr_base.ml" 98 3391 3413
+)
+"testing/tgenr_base.ml" 99 3416 3451 "testing/tgenr_base.ml" 99 3416 3452
+type(
+  int
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 98 3391 3412 "testing/tgenr_base.ml" 98 3391 3413
+)
+"testing/tgenr_base.ml" 99 3416 3453 "testing/tgenr_base.ml" 99 3416 3454
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"testing/tgenr_base.ml" 99 3416 3455 "testing/tgenr_base.ml" 99 3416 3456
+type(
+  int
+)
+"testing/tgenr_base.ml" 99 3416 3450 "testing/tgenr_base.ml" 99 3416 3457
+type(
+  int
+)
+"testing/tgenr_base.ml" 99 3416 3431 "testing/tgenr_base.ml" 99 3416 3457
+call(
+  tail
+)
+type(
+  int list
+)
+"testing/tgenr_base.ml" 100 3458 3465 "testing/tgenr_base.ml" 100 3458 3482
+type(
+  int -> int -> (int -> int) -> int list
+)
+ident(
+  ext_ref Listutils.from_to
+)
+"testing/tgenr_base.ml" 100 3458 3483 "testing/tgenr_base.ml" 100 3458 3484
+type(
+  int
+)
+"testing/tgenr_base.ml" 100 3458 3485 "testing/tgenr_base.ml" 100 3458 3486
+type(
+  int
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 98 3391 3412 "testing/tgenr_base.ml" 98 3391 3413
+)
+"testing/tgenr_base.ml" 100 3458 3487 "testing/tgenr_base.ml" 100 3458 3491
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"testing/tgenr_base.ml" 100 3458 3465 "testing/tgenr_base.ml" 100 3458 3491
+call(
+  tail
+)
+type(
+  int list
+)
+"testing/tgenr_base.ml" 99 3416 3418 "testing/tgenr_base.ml" 100 3458 3491
+type(
+  int list
+)
+"testing/tgenr_base.ml" 104 3577 3581 "testing/tgenr_base.ml" 104 3577 3605
+type(
+  (int -> 'a) -> bool -> int -> 'a list
+)
+ident(
+  def genr_constants_from_ints "testing/tgenr_base.ml" 107 3655 3655 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 104 3577 3606 "testing/tgenr_base.ml" 104 3577 3608
+type(
+  int -> 'a
+)
+ident(
+  def mk "testing/tgenr_base.ml" 104 3577 3609 "testing/tgenr_base.ml" 104 3577 3650
+)
+"testing/tgenr_base.ml" 104 3577 3609 "testing/tgenr_base.ml" 104 3577 3613
+type(
+  bool
+)
+ident(
+  def rand "testing/tgenr_base.ml" 104 3577 3614 "testing/tgenr_base.ml" 104 3577 3650
+)
+"testing/tgenr_base.ml" 104 3577 3614 "testing/tgenr_base.ml" 104 3577 3615
+type(
+  int
+)
+ident(
+  def n "testing/tgenr_base.ml" 104 3577 3618 "testing/tgenr_base.ml" 104 3577 3650
+)
+"testing/tgenr_base.ml" 104 3577 3618 "testing/tgenr_base.ml" 104 3577 3626
+type(
+  (int -> 'a) -> int list -> 'a list
+)
+ident(
+  ext_ref List.map
+)
+"testing/tgenr_base.ml" 104 3577 3627 "testing/tgenr_base.ml" 104 3577 3629
+type(
+  int -> 'a
+)
+ident(
+  int_ref mk "testing/tgenr_base.ml" 104 3577 3606 "testing/tgenr_base.ml" 104 3577 3608
+)
+"testing/tgenr_base.ml" 104 3577 3631 "testing/tgenr_base.ml" 104 3577 3642
+type(
+  bool -> int -> int list
+)
+ident(
+  int_ref choose_ints "testing/tgenr_base.ml" 98 3391 3395 "testing/tgenr_base.ml" 98 3391 3406
+)
+"testing/tgenr_base.ml" 104 3577 3643 "testing/tgenr_base.ml" 104 3577 3647
+type(
+  bool
+)
+ident(
+  int_ref rand "testing/tgenr_base.ml" 104 3577 3609 "testing/tgenr_base.ml" 104 3577 3613
+)
+"testing/tgenr_base.ml" 104 3577 3648 "testing/tgenr_base.ml" 104 3577 3649
+type(
+  int
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 104 3577 3614 "testing/tgenr_base.ml" 104 3577 3615
+)
+"testing/tgenr_base.ml" 104 3577 3630 "testing/tgenr_base.ml" 104 3577 3650
+call(
+  stack
+)
+type(
+  int list
+)
+"testing/tgenr_base.ml" 104 3577 3618 "testing/tgenr_base.ml" 104 3577 3650
+call(
+  tail
+)
+type(
+  'a list
+)
+"testing/tgenr_base.ml" 107 3655 3659 "testing/tgenr_base.ml" 107 3655 3670
+type(
+  'a -> unit
+)
+ident(
+  def unit_of_int "testing/tgenr_base.ml" 109 3682 3682 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 107 3655 3671 "testing/tgenr_base.ml" 107 3655 3673
+type(
+  'a
+)
+ident(
+  def _n "testing/tgenr_base.ml" 107 3655 3676 "testing/tgenr_base.ml" 107 3655 3678
+)
+"testing/tgenr_base.ml" 107 3655 3676 "testing/tgenr_base.ml" 107 3655 3678
+type(
+  unit
+)
+"testing/tgenr_base.ml" 109 3682 3686 "testing/tgenr_base.ml" 109 3682 3695
+type(
+  bool -> int -> Code.exp list
+)
+ident(
+  def genr_ints "testing/tgenr_base.ml" 118 4241 4302 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 109 3682 3698 "testing/tgenr_base.ml" 109 3682 3722
+type(
+  (int -> Code.exp) -> bool -> int -> Code.exp list
+)
+ident(
+  int_ref genr_constants_from_ints "testing/tgenr_base.ml" 104 3577 3581 "testing/tgenr_base.ml" 104 3577 3605
+)
+"testing/tgenr_base.ml" 109 3682 3723 "testing/tgenr_base.ml" 109 3682 3729
+type(
+  int -> Code.exp
+)
+ident(
+  int_ref mk_int "testing/tgenr_base.ml" 51 1733 1737 "testing/tgenr_base.ml" 51 1733 1743
+)
+"testing/tgenr_base.ml" 109 3682 3698 "testing/tgenr_base.ml" 109 3682 3729
+call(
+  stack
+)
+type(
+  bool -> int -> Code.exp list
+)
+"testing/tgenr_base.ml" 110 3730 3734 "testing/tgenr_base.ml" 110 3730 3744
+type(
+  bool -> int -> Code.exp list
+)
+ident(
+  def genr_chars "testing/tgenr_base.ml" 118 4241 4302 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 110 3730 3747 "testing/tgenr_base.ml" 110 3730 3771
+type(
+  (int -> Code.exp) -> bool -> int -> Code.exp list
+)
+ident(
+  int_ref genr_constants_from_ints "testing/tgenr_base.ml" 104 3577 3581 "testing/tgenr_base.ml" 104 3577 3605
+)
+"testing/tgenr_base.ml" 110 3730 3777 "testing/tgenr_base.ml" 110 3730 3778
+type(
+  int
+)
+ident(
+  def n "testing/tgenr_base.ml" 110 3730 3782 "testing/tgenr_base.ml" 110 3730 3805
+)
+"testing/tgenr_base.ml" 110 3730 3782 "testing/tgenr_base.ml" 110 3730 3789
+type(
+  char -> Code.exp
+)
+ident(
+  int_ref mk_char "testing/tgenr_base.ml" 52 1783 1787 "testing/tgenr_base.ml" 52 1783 1794
+)
+"testing/tgenr_base.ml" 110 3730 3791 "testing/tgenr_base.ml" 110 3730 3802
+type(
+  int -> char
+)
+ident(
+  ext_ref Pervasives.char_of_int
+)
+"testing/tgenr_base.ml" 110 3730 3803 "testing/tgenr_base.ml" 110 3730 3804
+type(
+  int
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 110 3730 3777 "testing/tgenr_base.ml" 110 3730 3778
+)
+"testing/tgenr_base.ml" 110 3730 3790 "testing/tgenr_base.ml" 110 3730 3805
+call(
+  stack
+)
+type(
+  char
+)
+"testing/tgenr_base.ml" 110 3730 3782 "testing/tgenr_base.ml" 110 3730 3805
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 110 3730 3772 "testing/tgenr_base.ml" 110 3730 3806
+type(
+  int -> Code.exp
+)
+"testing/tgenr_base.ml" 110 3730 3747 "testing/tgenr_base.ml" 110 3730 3806
+call(
+  stack
+)
+type(
+  bool -> int -> Code.exp list
+)
+"testing/tgenr_base.ml" 111 3807 3811 "testing/tgenr_base.ml" 111 3807 3823
+type(
+  bool -> int -> Code.exp list
+)
+ident(
+  def genr_strings "testing/tgenr_base.ml" 118 4241 4302 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 111 3807 3826 "testing/tgenr_base.ml" 111 3807 3850
+type(
+  (int -> Code.exp) -> bool -> int -> Code.exp list
+)
+ident(
+  int_ref genr_constants_from_ints "testing/tgenr_base.ml" 104 3577 3581 "testing/tgenr_base.ml" 104 3577 3605
+)
+"testing/tgenr_base.ml" 111 3807 3856 "testing/tgenr_base.ml" 111 3807 3857
+type(
+  int
+)
+ident(
+  def n "testing/tgenr_base.ml" 111 3807 3861 "testing/tgenr_base.ml" 111 3807 3888
+)
+"testing/tgenr_base.ml" 111 3807 3861 "testing/tgenr_base.ml" 111 3807 3870
+type(
+  string -> Code.exp
+)
+ident(
+  int_ref mk_string "testing/tgenr_base.ml" 53 1837 1841 "testing/tgenr_base.ml" 53 1837 1850
+)
+"testing/tgenr_base.ml" 111 3807 3872 "testing/tgenr_base.ml" 111 3807 3885
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"testing/tgenr_base.ml" 111 3807 3886 "testing/tgenr_base.ml" 111 3807 3887
+type(
+  int
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 111 3807 3856 "testing/tgenr_base.ml" 111 3807 3857
+)
+"testing/tgenr_base.ml" 111 3807 3871 "testing/tgenr_base.ml" 111 3807 3888
+call(
+  stack
+)
+type(
+  string
+)
+"testing/tgenr_base.ml" 111 3807 3861 "testing/tgenr_base.ml" 111 3807 3888
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 111 3807 3851 "testing/tgenr_base.ml" 111 3807 3889
+type(
+  int -> Code.exp
+)
+"testing/tgenr_base.ml" 111 3807 3826 "testing/tgenr_base.ml" 111 3807 3889
+call(
+  stack
+)
+type(
+  bool -> int -> Code.exp list
+)
+"testing/tgenr_base.ml" 112 3890 3894 "testing/tgenr_base.ml" 112 3890 3905
+type(
+  bool -> int -> Code.exp list
+)
+ident(
+  def genr_floats "testing/tgenr_base.ml" 118 4241 4302 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 112 3890 3908 "testing/tgenr_base.ml" 112 3890 3932
+type(
+  (int -> Code.exp) -> bool -> int -> Code.exp list
+)
+ident(
+  int_ref genr_constants_from_ints "testing/tgenr_base.ml" 104 3577 3581 "testing/tgenr_base.ml" 104 3577 3605
+)
+"testing/tgenr_base.ml" 112 3890 3938 "testing/tgenr_base.ml" 112 3890 3939
+type(
+  int
+)
+ident(
+  def n "testing/tgenr_base.ml" 112 3890 3943 "testing/tgenr_base.ml" 112 3890 3968
+)
+"testing/tgenr_base.ml" 112 3890 3943 "testing/tgenr_base.ml" 112 3890 3951
+type(
+  float -> Code.exp
+)
+ident(
+  int_ref mk_float "testing/tgenr_base.ml" 54 1897 1901 "testing/tgenr_base.ml" 54 1897 1909
+)
+"testing/tgenr_base.ml" 112 3890 3953 "testing/tgenr_base.ml" 112 3890 3965
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"testing/tgenr_base.ml" 112 3890 3966 "testing/tgenr_base.ml" 112 3890 3967
+type(
+  int
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 112 3890 3938 "testing/tgenr_base.ml" 112 3890 3939
+)
+"testing/tgenr_base.ml" 112 3890 3952 "testing/tgenr_base.ml" 112 3890 3968
+type(
+  float
+)
+"testing/tgenr_base.ml" 112 3890 3943 "testing/tgenr_base.ml" 112 3890 3968
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 112 3890 3933 "testing/tgenr_base.ml" 112 3890 3969
+type(
+  int -> Code.exp
+)
+"testing/tgenr_base.ml" 112 3890 3908 "testing/tgenr_base.ml" 112 3890 3969
+call(
+  stack
+)
+type(
+  bool -> int -> Code.exp list
+)
+"testing/tgenr_base.ml" 113 3970 3974 "testing/tgenr_base.ml" 113 3970 3985
+type(
+  bool -> int -> Code.exp list
+)
+ident(
+  def genr_int32s "testing/tgenr_base.ml" 118 4241 4302 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 113 3970 3988 "testing/tgenr_base.ml" 113 3970 4012
+type(
+  (int -> Code.exp) -> bool -> int -> Code.exp list
+)
+ident(
+  int_ref genr_constants_from_ints "testing/tgenr_base.ml" 104 3577 3581 "testing/tgenr_base.ml" 104 3577 3605
+)
+"testing/tgenr_base.ml" 113 3970 4018 "testing/tgenr_base.ml" 113 3970 4019
+type(
+  int
+)
+ident(
+  def n "testing/tgenr_base.ml" 113 3970 4023 "testing/tgenr_base.ml" 113 3970 4048
+)
+"testing/tgenr_base.ml" 113 3970 4023 "testing/tgenr_base.ml" 113 3970 4031
+type(
+  int32 -> Code.exp
+)
+ident(
+  int_ref mk_int32 "testing/tgenr_base.ml" 55 1969 1973 "testing/tgenr_base.ml" 55 1969 1981
+)
+"testing/tgenr_base.ml" 113 3970 4033 "testing/tgenr_base.ml" 113 3970 4045
+type(
+  int -> int32
+)
+ident(
+  ext_ref Int32.of_int
+)
+"testing/tgenr_base.ml" 113 3970 4046 "testing/tgenr_base.ml" 113 3970 4047
+type(
+  int
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 113 3970 4018 "testing/tgenr_base.ml" 113 3970 4019
+)
+"testing/tgenr_base.ml" 113 3970 4032 "testing/tgenr_base.ml" 113 3970 4048
+type(
+  int32
+)
+"testing/tgenr_base.ml" 113 3970 4023 "testing/tgenr_base.ml" 113 3970 4048
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 113 3970 4013 "testing/tgenr_base.ml" 113 3970 4049
+type(
+  int -> Code.exp
+)
+"testing/tgenr_base.ml" 113 3970 3988 "testing/tgenr_base.ml" 113 3970 4049
+call(
+  stack
+)
+type(
+  bool -> int -> Code.exp list
+)
+"testing/tgenr_base.ml" 114 4050 4054 "testing/tgenr_base.ml" 114 4050 4065
+type(
+  bool -> int -> Code.exp list
+)
+ident(
+  def genr_int64s "testing/tgenr_base.ml" 118 4241 4302 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 114 4050 4068 "testing/tgenr_base.ml" 114 4050 4092
+type(
+  (int -> Code.exp) -> bool -> int -> Code.exp list
+)
+ident(
+  int_ref genr_constants_from_ints "testing/tgenr_base.ml" 104 3577 3581 "testing/tgenr_base.ml" 104 3577 3605
+)
+"testing/tgenr_base.ml" 114 4050 4098 "testing/tgenr_base.ml" 114 4050 4099
+type(
+  int
+)
+ident(
+  def n "testing/tgenr_base.ml" 114 4050 4103 "testing/tgenr_base.ml" 114 4050 4128
+)
+"testing/tgenr_base.ml" 114 4050 4103 "testing/tgenr_base.ml" 114 4050 4111
+type(
+  int64 -> Code.exp
+)
+ident(
+  int_ref mk_int64 "testing/tgenr_base.ml" 56 2023 2027 "testing/tgenr_base.ml" 56 2023 2035
+)
+"testing/tgenr_base.ml" 114 4050 4113 "testing/tgenr_base.ml" 114 4050 4125
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"testing/tgenr_base.ml" 114 4050 4126 "testing/tgenr_base.ml" 114 4050 4127
+type(
+  int
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 114 4050 4098 "testing/tgenr_base.ml" 114 4050 4099
+)
+"testing/tgenr_base.ml" 114 4050 4112 "testing/tgenr_base.ml" 114 4050 4128
+type(
+  int64
+)
+"testing/tgenr_base.ml" 114 4050 4103 "testing/tgenr_base.ml" 114 4050 4128
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 114 4050 4093 "testing/tgenr_base.ml" 114 4050 4129
+type(
+  int -> Code.exp
+)
+"testing/tgenr_base.ml" 114 4050 4068 "testing/tgenr_base.ml" 114 4050 4129
+call(
+  stack
+)
+type(
+  bool -> int -> Code.exp list
+)
+"testing/tgenr_base.ml" 115 4130 4134 "testing/tgenr_base.ml" 115 4130 4149
+type(
+  bool -> int -> Code.exp list
+)
+ident(
+  def genr_nativeints "testing/tgenr_base.ml" 118 4241 4302 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 116 4152 4154 "testing/tgenr_base.ml" 116 4152 4178
+type(
+  (int -> Code.exp) -> bool -> int -> Code.exp list
+)
+ident(
+  int_ref genr_constants_from_ints "testing/tgenr_base.ml" 104 3577 3581 "testing/tgenr_base.ml" 104 3577 3605
+)
+"testing/tgenr_base.ml" 116 4152 4184 "testing/tgenr_base.ml" 116 4152 4185
+type(
+  int
+)
+ident(
+  def n "testing/tgenr_base.ml" 116 4152 4189 "testing/tgenr_base.ml" 116 4152 4222
+)
+"testing/tgenr_base.ml" 116 4152 4189 "testing/tgenr_base.ml" 116 4152 4201
+type(
+  nativeint -> Code.exp
+)
+ident(
+  int_ref mk_nativeint "testing/tgenr_base.ml" 57 2077 2081 "testing/tgenr_base.ml" 57 2077 2093
+)
+"testing/tgenr_base.ml" 116 4152 4203 "testing/tgenr_base.ml" 116 4152 4219
+type(
+  int -> nativeint
+)
+ident(
+  ext_ref Nativeint.of_int
+)
+"testing/tgenr_base.ml" 116 4152 4220 "testing/tgenr_base.ml" 116 4152 4221
+type(
+  int
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 116 4152 4184 "testing/tgenr_base.ml" 116 4152 4185
+)
+"testing/tgenr_base.ml" 116 4152 4202 "testing/tgenr_base.ml" 116 4152 4222
+type(
+  nativeint
+)
+"testing/tgenr_base.ml" 116 4152 4189 "testing/tgenr_base.ml" 116 4152 4222
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 116 4152 4179 "testing/tgenr_base.ml" 116 4152 4223
+type(
+  int -> Code.exp
+)
+"testing/tgenr_base.ml" 116 4152 4154 "testing/tgenr_base.ml" 116 4152 4223
+call(
+  stack
+)
+type(
+  bool -> int -> Code.exp list
+)
+"testing/tgenr_base.ml" 117 4224 4228 "testing/tgenr_base.ml" 117 4224 4238
+type(
+  bool -> int -> Code.exp list
+)
+ident(
+  def genr_units "testing/tgenr_base.ml" 118 4241 4302 "testing/tgenr_base.ml" 1 0 -1
+)
+"testing/tgenr_base.ml" 118 4241 4243 "testing/tgenr_base.ml" 118 4241 4267
+type(
+  (int -> Code.exp) -> bool -> int -> Code.exp list
+)
+ident(
+  int_ref genr_constants_from_ints "testing/tgenr_base.ml" 104 3577 3581 "testing/tgenr_base.ml" 104 3577 3605
+)
+"testing/tgenr_base.ml" 118 4241 4273 "testing/tgenr_base.ml" 118 4241 4274
+type(
+  int
+)
+ident(
+  def n "testing/tgenr_base.ml" 118 4241 4278 "testing/tgenr_base.ml" 118 4241 4301
+)
+"testing/tgenr_base.ml" 118 4241 4278 "testing/tgenr_base.ml" 118 4241 4285
+type(
+  unit -> Code.exp
+)
+ident(
+  int_ref mk_unit "testing/tgenr_base.ml" 58 2139 2143 "testing/tgenr_base.ml" 58 2139 2150
+)
+"testing/tgenr_base.ml" 118 4241 4287 "testing/tgenr_base.ml" 118 4241 4298
+type(
+  int -> unit
+)
+ident(
+  int_ref unit_of_int "testing/tgenr_base.ml" 107 3655 3659 "testing/tgenr_base.ml" 107 3655 3670
+)
+"testing/tgenr_base.ml" 118 4241 4299 "testing/tgenr_base.ml" 118 4241 4300
+type(
+  int
+)
+ident(
+  int_ref n "testing/tgenr_base.ml" 118 4241 4273 "testing/tgenr_base.ml" 118 4241 4274
+)
+"testing/tgenr_base.ml" 118 4241 4286 "testing/tgenr_base.ml" 118 4241 4301
+call(
+  stack
+)
+type(
+  unit
+)
+"testing/tgenr_base.ml" 118 4241 4278 "testing/tgenr_base.ml" 118 4241 4301
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/tgenr_base.ml" 118 4241 4268 "testing/tgenr_base.ml" 118 4241 4302
+type(
+  int -> Code.exp
+)
+"testing/tgenr_base.ml" 118 4241 4243 "testing/tgenr_base.ml" 118 4241 4302
+call(
+  stack
+)
+type(
+  bool -> int -> Code.exp list
+)

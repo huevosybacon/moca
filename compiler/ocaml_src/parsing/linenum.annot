@@ -1,0 +1,1941 @@
+"ocaml_src/parsing/linenum.mll" 19 39 43 "ocaml_src/parsing/linenum.mll" 19 39 51
+type(
+  string ref
+)
+ident(
+  def filename "ocaml_src/parsing/linenum.mll" 20 61 61 "ocaml_src/parsing/linenum.ml" 1 0 -1
+)
+"ocaml_src/parsing/linenum.mll" 19 39 54 "ocaml_src/parsing/linenum.mll" 19 39 57
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/linenum.mll" 19 39 58 "ocaml_src/parsing/linenum.mll" 19 39 60
+type(
+  string
+)
+"ocaml_src/parsing/linenum.mll" 19 39 54 "ocaml_src/parsing/linenum.mll" 19 39 60
+type(
+  string ref
+)
+"ocaml_src/parsing/linenum.mll" 20 61 65 "ocaml_src/parsing/linenum.mll" 20 61 72
+type(
+  int ref
+)
+ident(
+  def linenum "ocaml_src/parsing/linenum.mll" 21 81 81 "ocaml_src/parsing/linenum.ml" 1 0 -1
+)
+"ocaml_src/parsing/linenum.mll" 20 61 75 "ocaml_src/parsing/linenum.mll" 20 61 78
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/linenum.mll" 20 61 79 "ocaml_src/parsing/linenum.mll" 20 61 80
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 20 61 75 "ocaml_src/parsing/linenum.mll" 20 61 80
+type(
+  int ref
+)
+"ocaml_src/parsing/linenum.mll" 21 81 85 "ocaml_src/parsing/linenum.mll" 21 81 92
+type(
+  int ref
+)
+ident(
+  def linebeg "ocaml_src/parsing/linenum.mll" 23 102 102 "ocaml_src/parsing/linenum.ml" 1 0 -1
+)
+"ocaml_src/parsing/linenum.mll" 21 81 95 "ocaml_src/parsing/linenum.mll" 21 81 98
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/linenum.mll" 21 81 99 "ocaml_src/parsing/linenum.mll" 21 81 100
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 21 81 95 "ocaml_src/parsing/linenum.mll" 21 81 100
+type(
+  int ref
+)
+"ocaml_src/parsing/linenum.mll" 23 102 106 "ocaml_src/parsing/linenum.mll" 23 102 122
+type(
+  string -> unit
+)
+ident(
+  def parse_sharp_line "ocaml_src/parsing/linenum.ml" 25 836 836 "ocaml_src/parsing/linenum.ml" 1 0 -1
+)
+"ocaml_src/parsing/linenum.mll" 23 102 123 "ocaml_src/parsing/linenum.mll" 23 102 124
+type(
+  string
+)
+ident(
+  def s "ocaml_src/parsing/linenum.mll" 24 127 129 "ocaml_src/parsing/linenum.mll" 38 751 798
+)
+"ocaml_src/parsing/linenum.mll" 26 180 188 "ocaml_src/parsing/linenum.mll" 26 180 190
+type(
+  int ref
+)
+ident(
+  def l1 "ocaml_src/parsing/linenum.mll" 27 202 206 "ocaml_src/parsing/linenum.mll" 36 653 709
+)
+"ocaml_src/parsing/linenum.mll" 26 180 193 "ocaml_src/parsing/linenum.mll" 26 180 196
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/linenum.mll" 26 180 197 "ocaml_src/parsing/linenum.mll" 26 180 198
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 26 180 193 "ocaml_src/parsing/linenum.mll" 26 180 198
+type(
+  int ref
+)
+"ocaml_src/parsing/linenum.mll" 27 202 216 "ocaml_src/parsing/linenum.mll" 27 202 217
+type(
+  char
+)
+ident(
+  def c "ocaml_src/parsing/linenum.mll" 27 202 231 "ocaml_src/parsing/linenum.mll" 27 202 249
+)
+"ocaml_src/parsing/linenum.mll" 27 202 220 "ocaml_src/parsing/linenum.mll" 27 202 221
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/linenum.mll" 23 102 123 "ocaml_src/parsing/linenum.mll" 23 102 124
+)
+"ocaml_src/parsing/linenum.mll" 27 202 223 "ocaml_src/parsing/linenum.mll" 27 202 224
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 27 202 224 "ocaml_src/parsing/linenum.mll" 27 202 226
+type(
+  int ref
+)
+ident(
+  int_ref l1 "ocaml_src/parsing/linenum.mll" 26 180 188 "ocaml_src/parsing/linenum.mll" 26 180 190
+)
+"ocaml_src/parsing/linenum.mll" 27 202 223 "ocaml_src/parsing/linenum.mll" 27 202 226
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 27 202 220 "ocaml_src/parsing/linenum.mll" 27 202 227
+type(
+  char
+)
+"ocaml_src/parsing/linenum.mll" 27 202 231 "ocaml_src/parsing/linenum.mll" 27 202 232
+type(
+  char
+)
+ident(
+  int_ref c "ocaml_src/parsing/linenum.mll" 27 202 216 "ocaml_src/parsing/linenum.mll" 27 202 217
+)
+"ocaml_src/parsing/linenum.mll" 27 202 233 "ocaml_src/parsing/linenum.mll" 27 202 234
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/parsing/linenum.mll" 27 202 235 "ocaml_src/parsing/linenum.mll" 27 202 238
+type(
+  char
+)
+"ocaml_src/parsing/linenum.mll" 27 202 231 "ocaml_src/parsing/linenum.mll" 27 202 238
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 27 202 239 "ocaml_src/parsing/linenum.mll" 27 202 241
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ocaml_src/parsing/linenum.mll" 27 202 242 "ocaml_src/parsing/linenum.mll" 27 202 243
+type(
+  char
+)
+ident(
+  int_ref c "ocaml_src/parsing/linenum.mll" 27 202 216 "ocaml_src/parsing/linenum.mll" 27 202 217
+)
+"ocaml_src/parsing/linenum.mll" 27 202 244 "ocaml_src/parsing/linenum.mll" 27 202 245
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ocaml_src/parsing/linenum.mll" 27 202 246 "ocaml_src/parsing/linenum.mll" 27 202 249
+type(
+  char
+)
+"ocaml_src/parsing/linenum.mll" 27 202 242 "ocaml_src/parsing/linenum.mll" 27 202 249
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 27 202 231 "ocaml_src/parsing/linenum.mll" 27 202 249
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 27 202 212 "ocaml_src/parsing/linenum.mll" 27 202 249
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 27 202 253 "ocaml_src/parsing/linenum.mll" 27 202 257
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/parsing/linenum.mll" 27 202 258 "ocaml_src/parsing/linenum.mll" 27 202 260
+type(
+  int ref
+)
+ident(
+  int_ref l1 "ocaml_src/parsing/linenum.mll" 26 180 188 "ocaml_src/parsing/linenum.mll" 26 180 190
+)
+"ocaml_src/parsing/linenum.mll" 27 202 253 "ocaml_src/parsing/linenum.mll" 27 202 260
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 27 202 206 "ocaml_src/parsing/linenum.mll" 27 202 265
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 28 267 275 "ocaml_src/parsing/linenum.mll" 28 267 277
+type(
+  int ref
+)
+ident(
+  def l2 "ocaml_src/parsing/linenum.mll" 29 297 301 "ocaml_src/parsing/linenum.mll" 36 653 709
+)
+"ocaml_src/parsing/linenum.mll" 28 267 280 "ocaml_src/parsing/linenum.mll" 28 267 283
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/linenum.mll" 28 267 285 "ocaml_src/parsing/linenum.mll" 28 267 286
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 28 267 286 "ocaml_src/parsing/linenum.mll" 28 267 288
+type(
+  int ref
+)
+ident(
+  int_ref l1 "ocaml_src/parsing/linenum.mll" 26 180 188 "ocaml_src/parsing/linenum.mll" 26 180 190
+)
+"ocaml_src/parsing/linenum.mll" 28 267 285 "ocaml_src/parsing/linenum.mll" 28 267 288
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 28 267 289 "ocaml_src/parsing/linenum.mll" 28 267 290
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/parsing/linenum.mll" 28 267 291 "ocaml_src/parsing/linenum.mll" 28 267 292
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 28 267 284 "ocaml_src/parsing/linenum.mll" 28 267 293
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 28 267 280 "ocaml_src/parsing/linenum.mll" 28 267 293
+type(
+  int ref
+)
+"ocaml_src/parsing/linenum.mll" 29 297 311 "ocaml_src/parsing/linenum.mll" 29 297 312
+type(
+  char
+)
+ident(
+  def c "ocaml_src/parsing/linenum.mll" 29 297 326 "ocaml_src/parsing/linenum.mll" 29 297 346
+)
+"ocaml_src/parsing/linenum.mll" 29 297 315 "ocaml_src/parsing/linenum.mll" 29 297 316
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/linenum.mll" 23 102 123 "ocaml_src/parsing/linenum.mll" 23 102 124
+)
+"ocaml_src/parsing/linenum.mll" 29 297 318 "ocaml_src/parsing/linenum.mll" 29 297 319
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 29 297 319 "ocaml_src/parsing/linenum.mll" 29 297 321
+type(
+  int ref
+)
+ident(
+  int_ref l2 "ocaml_src/parsing/linenum.mll" 28 267 275 "ocaml_src/parsing/linenum.mll" 28 267 277
+)
+"ocaml_src/parsing/linenum.mll" 29 297 318 "ocaml_src/parsing/linenum.mll" 29 297 321
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 29 297 315 "ocaml_src/parsing/linenum.mll" 29 297 322
+type(
+  char
+)
+"ocaml_src/parsing/linenum.mll" 29 297 326 "ocaml_src/parsing/linenum.mll" 29 297 327
+type(
+  char
+)
+ident(
+  int_ref c "ocaml_src/parsing/linenum.mll" 29 297 311 "ocaml_src/parsing/linenum.mll" 29 297 312
+)
+"ocaml_src/parsing/linenum.mll" 29 297 328 "ocaml_src/parsing/linenum.mll" 29 297 330
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocaml_src/parsing/linenum.mll" 29 297 331 "ocaml_src/parsing/linenum.mll" 29 297 334
+type(
+  char
+)
+"ocaml_src/parsing/linenum.mll" 29 297 326 "ocaml_src/parsing/linenum.mll" 29 297 334
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 29 297 335 "ocaml_src/parsing/linenum.mll" 29 297 337
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/parsing/linenum.mll" 29 297 338 "ocaml_src/parsing/linenum.mll" 29 297 339
+type(
+  char
+)
+ident(
+  int_ref c "ocaml_src/parsing/linenum.mll" 29 297 311 "ocaml_src/parsing/linenum.mll" 29 297 312
+)
+"ocaml_src/parsing/linenum.mll" 29 297 340 "ocaml_src/parsing/linenum.mll" 29 297 342
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"ocaml_src/parsing/linenum.mll" 29 297 343 "ocaml_src/parsing/linenum.mll" 29 297 346
+type(
+  char
+)
+"ocaml_src/parsing/linenum.mll" 29 297 338 "ocaml_src/parsing/linenum.mll" 29 297 346
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 29 297 326 "ocaml_src/parsing/linenum.mll" 29 297 346
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 29 297 307 "ocaml_src/parsing/linenum.mll" 29 297 346
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 29 297 350 "ocaml_src/parsing/linenum.mll" 29 297 354
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/parsing/linenum.mll" 29 297 355 "ocaml_src/parsing/linenum.mll" 29 297 357
+type(
+  int ref
+)
+ident(
+  int_ref l2 "ocaml_src/parsing/linenum.mll" 28 267 275 "ocaml_src/parsing/linenum.mll" 28 267 277
+)
+"ocaml_src/parsing/linenum.mll" 29 297 350 "ocaml_src/parsing/linenum.mll" 29 297 357
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 29 297 301 "ocaml_src/parsing/linenum.mll" 29 297 362
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 30 364 368 "ocaml_src/parsing/linenum.mll" 30 364 375
+type(
+  int ref
+)
+ident(
+  int_ref linenum "ocaml_src/parsing/linenum.mll" 20 61 65 "ocaml_src/parsing/linenum.mll" 20 61 72
+)
+"ocaml_src/parsing/linenum.mll" 30 364 376 "ocaml_src/parsing/linenum.mll" 30 364 378
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/parsing/linenum.mll" 30 364 379 "ocaml_src/parsing/linenum.mll" 30 364 392
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"ocaml_src/parsing/linenum.mll" 30 364 393 "ocaml_src/parsing/linenum.mll" 30 364 403
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"ocaml_src/parsing/linenum.mll" 30 364 404 "ocaml_src/parsing/linenum.mll" 30 364 405
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/linenum.mll" 23 102 123 "ocaml_src/parsing/linenum.mll" 23 102 124
+)
+"ocaml_src/parsing/linenum.mll" 30 364 406 "ocaml_src/parsing/linenum.mll" 30 364 407
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 30 364 407 "ocaml_src/parsing/linenum.mll" 30 364 409
+type(
+  int ref
+)
+ident(
+  int_ref l1 "ocaml_src/parsing/linenum.mll" 26 180 188 "ocaml_src/parsing/linenum.mll" 26 180 190
+)
+"ocaml_src/parsing/linenum.mll" 30 364 406 "ocaml_src/parsing/linenum.mll" 30 364 409
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 30 364 411 "ocaml_src/parsing/linenum.mll" 30 364 412
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 30 364 412 "ocaml_src/parsing/linenum.mll" 30 364 414
+type(
+  int ref
+)
+ident(
+  int_ref l2 "ocaml_src/parsing/linenum.mll" 28 267 275 "ocaml_src/parsing/linenum.mll" 28 267 277
+)
+"ocaml_src/parsing/linenum.mll" 30 364 411 "ocaml_src/parsing/linenum.mll" 30 364 414
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 30 364 415 "ocaml_src/parsing/linenum.mll" 30 364 416
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/linenum.mll" 30 364 417 "ocaml_src/parsing/linenum.mll" 30 364 418
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 30 364 418 "ocaml_src/parsing/linenum.mll" 30 364 420
+type(
+  int ref
+)
+ident(
+  int_ref l1 "ocaml_src/parsing/linenum.mll" 26 180 188 "ocaml_src/parsing/linenum.mll" 26 180 190
+)
+"ocaml_src/parsing/linenum.mll" 30 364 417 "ocaml_src/parsing/linenum.mll" 30 364 420
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 30 364 410 "ocaml_src/parsing/linenum.mll" 30 364 421
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 30 364 392 "ocaml_src/parsing/linenum.mll" 30 364 422
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/parsing/linenum.mll" 30 364 379 "ocaml_src/parsing/linenum.mll" 30 364 422
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 30 364 368 "ocaml_src/parsing/linenum.mll" 30 364 422
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 31 424 432 "ocaml_src/parsing/linenum.mll" 31 424 434
+type(
+  int ref
+)
+ident(
+  def f1 "ocaml_src/parsing/linenum.mll" 32 454 458 "ocaml_src/parsing/linenum.mll" 36 653 709
+)
+"ocaml_src/parsing/linenum.mll" 31 424 437 "ocaml_src/parsing/linenum.mll" 31 424 440
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/linenum.mll" 31 424 442 "ocaml_src/parsing/linenum.mll" 31 424 443
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 31 424 443 "ocaml_src/parsing/linenum.mll" 31 424 445
+type(
+  int ref
+)
+ident(
+  int_ref l2 "ocaml_src/parsing/linenum.mll" 28 267 275 "ocaml_src/parsing/linenum.mll" 28 267 277
+)
+"ocaml_src/parsing/linenum.mll" 31 424 442 "ocaml_src/parsing/linenum.mll" 31 424 445
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 31 424 446 "ocaml_src/parsing/linenum.mll" 31 424 447
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/parsing/linenum.mll" 31 424 448 "ocaml_src/parsing/linenum.mll" 31 424 449
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 31 424 441 "ocaml_src/parsing/linenum.mll" 31 424 450
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 31 424 437 "ocaml_src/parsing/linenum.mll" 31 424 450
+type(
+  int ref
+)
+"ocaml_src/parsing/linenum.mll" 32 454 464 "ocaml_src/parsing/linenum.mll" 32 454 465
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 32 454 465 "ocaml_src/parsing/linenum.mll" 32 454 467
+type(
+  int ref
+)
+ident(
+  int_ref f1 "ocaml_src/parsing/linenum.mll" 31 424 432 "ocaml_src/parsing/linenum.mll" 31 424 434
+)
+"ocaml_src/parsing/linenum.mll" 32 454 464 "ocaml_src/parsing/linenum.mll" 32 454 467
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 32 454 468 "ocaml_src/parsing/linenum.mll" 32 454 469
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/parsing/linenum.mll" 32 454 470 "ocaml_src/parsing/linenum.mll" 32 454 483
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/parsing/linenum.mll" 32 454 484 "ocaml_src/parsing/linenum.mll" 32 454 485
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/linenum.mll" 23 102 123 "ocaml_src/parsing/linenum.mll" 23 102 124
+)
+"ocaml_src/parsing/linenum.mll" 32 454 470 "ocaml_src/parsing/linenum.mll" 32 454 485
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 32 454 464 "ocaml_src/parsing/linenum.mll" 32 454 485
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 32 454 486 "ocaml_src/parsing/linenum.mll" 32 454 488
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/parsing/linenum.mll" 32 454 489 "ocaml_src/parsing/linenum.mll" 32 454 490
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/linenum.mll" 23 102 123 "ocaml_src/parsing/linenum.mll" 23 102 124
+)
+"ocaml_src/parsing/linenum.mll" 32 454 492 "ocaml_src/parsing/linenum.mll" 32 454 493
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 32 454 493 "ocaml_src/parsing/linenum.mll" 32 454 495
+type(
+  int ref
+)
+ident(
+  int_ref f1 "ocaml_src/parsing/linenum.mll" 31 424 432 "ocaml_src/parsing/linenum.mll" 31 424 434
+)
+"ocaml_src/parsing/linenum.mll" 32 454 492 "ocaml_src/parsing/linenum.mll" 32 454 495
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 32 454 489 "ocaml_src/parsing/linenum.mll" 32 454 496
+type(
+  char
+)
+"ocaml_src/parsing/linenum.mll" 32 454 497 "ocaml_src/parsing/linenum.mll" 32 454 499
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ocaml_src/parsing/linenum.mll" 32 454 500 "ocaml_src/parsing/linenum.mll" 32 454 503
+type(
+  char
+)
+"ocaml_src/parsing/linenum.mll" 32 454 489 "ocaml_src/parsing/linenum.mll" 32 454 503
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 32 454 464 "ocaml_src/parsing/linenum.mll" 32 454 503
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 32 454 507 "ocaml_src/parsing/linenum.mll" 32 454 511
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/parsing/linenum.mll" 32 454 512 "ocaml_src/parsing/linenum.mll" 32 454 514
+type(
+  int ref
+)
+ident(
+  int_ref f1 "ocaml_src/parsing/linenum.mll" 31 424 432 "ocaml_src/parsing/linenum.mll" 31 424 434
+)
+"ocaml_src/parsing/linenum.mll" 32 454 507 "ocaml_src/parsing/linenum.mll" 32 454 514
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 32 454 458 "ocaml_src/parsing/linenum.mll" 32 454 519
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 33 521 529 "ocaml_src/parsing/linenum.mll" 33 521 531
+type(
+  int ref
+)
+ident(
+  def f2 "ocaml_src/parsing/linenum.mll" 34 552 556 "ocaml_src/parsing/linenum.mll" 36 653 709
+)
+"ocaml_src/parsing/linenum.mll" 33 521 534 "ocaml_src/parsing/linenum.mll" 33 521 537
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocaml_src/parsing/linenum.mll" 33 521 539 "ocaml_src/parsing/linenum.mll" 33 521 540
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 33 521 540 "ocaml_src/parsing/linenum.mll" 33 521 542
+type(
+  int ref
+)
+ident(
+  int_ref f1 "ocaml_src/parsing/linenum.mll" 31 424 432 "ocaml_src/parsing/linenum.mll" 31 424 434
+)
+"ocaml_src/parsing/linenum.mll" 33 521 539 "ocaml_src/parsing/linenum.mll" 33 521 542
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 33 521 543 "ocaml_src/parsing/linenum.mll" 33 521 544
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/parsing/linenum.mll" 33 521 545 "ocaml_src/parsing/linenum.mll" 33 521 546
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 33 521 538 "ocaml_src/parsing/linenum.mll" 33 521 547
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 33 521 534 "ocaml_src/parsing/linenum.mll" 33 521 547
+type(
+  int ref
+)
+"ocaml_src/parsing/linenum.mll" 34 552 562 "ocaml_src/parsing/linenum.mll" 34 552 563
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 34 552 563 "ocaml_src/parsing/linenum.mll" 34 552 565
+type(
+  int ref
+)
+ident(
+  int_ref f2 "ocaml_src/parsing/linenum.mll" 33 521 529 "ocaml_src/parsing/linenum.mll" 33 521 531
+)
+"ocaml_src/parsing/linenum.mll" 34 552 562 "ocaml_src/parsing/linenum.mll" 34 552 565
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 34 552 566 "ocaml_src/parsing/linenum.mll" 34 552 567
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/parsing/linenum.mll" 34 552 568 "ocaml_src/parsing/linenum.mll" 34 552 581
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/parsing/linenum.mll" 34 552 582 "ocaml_src/parsing/linenum.mll" 34 552 583
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/linenum.mll" 23 102 123 "ocaml_src/parsing/linenum.mll" 23 102 124
+)
+"ocaml_src/parsing/linenum.mll" 34 552 568 "ocaml_src/parsing/linenum.mll" 34 552 583
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 34 552 562 "ocaml_src/parsing/linenum.mll" 34 552 583
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 34 552 584 "ocaml_src/parsing/linenum.mll" 34 552 586
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocaml_src/parsing/linenum.mll" 34 552 587 "ocaml_src/parsing/linenum.mll" 34 552 588
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/linenum.mll" 23 102 123 "ocaml_src/parsing/linenum.mll" 23 102 124
+)
+"ocaml_src/parsing/linenum.mll" 34 552 590 "ocaml_src/parsing/linenum.mll" 34 552 591
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 34 552 591 "ocaml_src/parsing/linenum.mll" 34 552 593
+type(
+  int ref
+)
+ident(
+  int_ref f2 "ocaml_src/parsing/linenum.mll" 33 521 529 "ocaml_src/parsing/linenum.mll" 33 521 531
+)
+"ocaml_src/parsing/linenum.mll" 34 552 590 "ocaml_src/parsing/linenum.mll" 34 552 593
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 34 552 587 "ocaml_src/parsing/linenum.mll" 34 552 594
+type(
+  char
+)
+"ocaml_src/parsing/linenum.mll" 34 552 595 "ocaml_src/parsing/linenum.mll" 34 552 597
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ocaml_src/parsing/linenum.mll" 34 552 598 "ocaml_src/parsing/linenum.mll" 34 552 601
+type(
+  char
+)
+"ocaml_src/parsing/linenum.mll" 34 552 587 "ocaml_src/parsing/linenum.mll" 34 552 601
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 34 552 562 "ocaml_src/parsing/linenum.mll" 34 552 601
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 34 552 605 "ocaml_src/parsing/linenum.mll" 34 552 609
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/parsing/linenum.mll" 34 552 610 "ocaml_src/parsing/linenum.mll" 34 552 612
+type(
+  int ref
+)
+ident(
+  int_ref f2 "ocaml_src/parsing/linenum.mll" 33 521 529 "ocaml_src/parsing/linenum.mll" 33 521 531
+)
+"ocaml_src/parsing/linenum.mll" 34 552 605 "ocaml_src/parsing/linenum.mll" 34 552 612
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 34 552 556 "ocaml_src/parsing/linenum.mll" 34 552 617
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 35 619 626 "ocaml_src/parsing/linenum.mll" 35 619 627
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 35 619 627 "ocaml_src/parsing/linenum.mll" 35 619 629
+type(
+  int ref
+)
+ident(
+  int_ref f1 "ocaml_src/parsing/linenum.mll" 31 424 432 "ocaml_src/parsing/linenum.mll" 31 424 434
+)
+"ocaml_src/parsing/linenum.mll" 35 619 626 "ocaml_src/parsing/linenum.mll" 35 619 629
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 35 619 630 "ocaml_src/parsing/linenum.mll" 35 619 631
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ocaml_src/parsing/linenum.mll" 35 619 632 "ocaml_src/parsing/linenum.mll" 35 619 645
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocaml_src/parsing/linenum.mll" 35 619 646 "ocaml_src/parsing/linenum.mll" 35 619 647
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/linenum.mll" 23 102 123 "ocaml_src/parsing/linenum.mll" 23 102 124
+)
+"ocaml_src/parsing/linenum.mll" 35 619 632 "ocaml_src/parsing/linenum.mll" 35 619 647
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 35 619 626 "ocaml_src/parsing/linenum.mll" 35 619 647
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 36 653 659 "ocaml_src/parsing/linenum.mll" 36 653 667
+type(
+  string ref
+)
+ident(
+  int_ref filename "ocaml_src/parsing/linenum.mll" 19 39 43 "ocaml_src/parsing/linenum.mll" 19 39 51
+)
+"ocaml_src/parsing/linenum.mll" 36 653 668 "ocaml_src/parsing/linenum.mll" 36 653 670
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/parsing/linenum.mll" 36 653 671 "ocaml_src/parsing/linenum.mll" 36 653 681
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"ocaml_src/parsing/linenum.mll" 36 653 682 "ocaml_src/parsing/linenum.mll" 36 653 683
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_src/parsing/linenum.mll" 23 102 123 "ocaml_src/parsing/linenum.mll" 23 102 124
+)
+"ocaml_src/parsing/linenum.mll" 36 653 685 "ocaml_src/parsing/linenum.mll" 36 653 686
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 36 653 686 "ocaml_src/parsing/linenum.mll" 36 653 688
+type(
+  int ref
+)
+ident(
+  int_ref f1 "ocaml_src/parsing/linenum.mll" 31 424 432 "ocaml_src/parsing/linenum.mll" 31 424 434
+)
+"ocaml_src/parsing/linenum.mll" 36 653 685 "ocaml_src/parsing/linenum.mll" 36 653 688
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 36 653 689 "ocaml_src/parsing/linenum.mll" 36 653 690
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocaml_src/parsing/linenum.mll" 36 653 691 "ocaml_src/parsing/linenum.mll" 36 653 692
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 36 653 684 "ocaml_src/parsing/linenum.mll" 36 653 693
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 36 653 695 "ocaml_src/parsing/linenum.mll" 36 653 696
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 36 653 696 "ocaml_src/parsing/linenum.mll" 36 653 698
+type(
+  int ref
+)
+ident(
+  int_ref f2 "ocaml_src/parsing/linenum.mll" 33 521 529 "ocaml_src/parsing/linenum.mll" 33 521 531
+)
+"ocaml_src/parsing/linenum.mll" 36 653 695 "ocaml_src/parsing/linenum.mll" 36 653 698
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 36 653 699 "ocaml_src/parsing/linenum.mll" 36 653 700
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/linenum.mll" 36 653 701 "ocaml_src/parsing/linenum.mll" 36 653 702
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 36 653 702 "ocaml_src/parsing/linenum.mll" 36 653 704
+type(
+  int ref
+)
+ident(
+  int_ref f1 "ocaml_src/parsing/linenum.mll" 31 424 432 "ocaml_src/parsing/linenum.mll" 31 424 434
+)
+"ocaml_src/parsing/linenum.mll" 36 653 701 "ocaml_src/parsing/linenum.mll" 36 653 704
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 36 653 695 "ocaml_src/parsing/linenum.mll" 36 653 704
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 36 653 705 "ocaml_src/parsing/linenum.mll" 36 653 706
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/linenum.mll" 36 653 707 "ocaml_src/parsing/linenum.mll" 36 653 708
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 36 653 694 "ocaml_src/parsing/linenum.mll" 36 653 709
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 36 653 671 "ocaml_src/parsing/linenum.mll" 36 653 709
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/parsing/linenum.mll" 36 653 659 "ocaml_src/parsing/linenum.mll" 36 653 709
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 35 619 623 "ocaml_src/parsing/linenum.mll" 36 653 709
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 34 552 556 "ocaml_src/parsing/linenum.mll" 36 653 709
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 33 521 525 "ocaml_src/parsing/linenum.mll" 36 653 709
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 32 454 458 "ocaml_src/parsing/linenum.mll" 36 653 709
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 31 424 428 "ocaml_src/parsing/linenum.mll" 36 653 709
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 30 364 368 "ocaml_src/parsing/linenum.mll" 36 653 709
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 29 297 301 "ocaml_src/parsing/linenum.mll" 36 653 709
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 28 267 271 "ocaml_src/parsing/linenum.mll" 36 653 709
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 27 202 206 "ocaml_src/parsing/linenum.mll" 36 653 709
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 26 180 184 "ocaml_src/parsing/linenum.mll" 36 653 709
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 37 710 725 "ocaml_src/parsing/linenum.mll" 37 710 726
+type(
+  string
+)
+"ocaml_src/parsing/linenum.mll" 37 710 717 "ocaml_src/parsing/linenum.mll" 37 710 726
+type(
+  exn
+)
+"ocaml_src/parsing/linenum.mll" 37 710 746 "ocaml_src/parsing/linenum.mll" 37 710 747
+type(
+  string
+)
+"ocaml_src/parsing/linenum.mll" 37 710 729 "ocaml_src/parsing/linenum.mll" 37 710 747
+type(
+  exn
+)
+"ocaml_src/parsing/linenum.mll" 37 710 717 "ocaml_src/parsing/linenum.mll" 37 710 747
+type(
+  exn
+)
+"ocaml_src/parsing/linenum.mll" 38 751 755 "ocaml_src/parsing/linenum.mll" 38 751 771
+type(
+  string -> unit
+)
+ident(
+  ext_ref Misc.fatal_error
+)
+"ocaml_src/parsing/linenum.mll" 38 751 772 "ocaml_src/parsing/linenum.mll" 38 751 798
+type(
+  string
+)
+"ocaml_src/parsing/linenum.mll" 38 751 755 "ocaml_src/parsing/linenum.mll" 38 751 798
+call(
+  tail
+)
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 24 127 129 "ocaml_src/parsing/linenum.mll" 38 751 798
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.ml" 25 836 840 "ocaml_src/parsing/linenum.ml" 25 836 858
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "ocaml_src/parsing/linenum.ml" 133 7169 7169 "ocaml_src/parsing/linenum.ml" 1 0 -1
+)
+"ocaml_src/parsing/linenum.ml" 27 884 887 "ocaml_src/parsing/linenum.ml" 28 954 991
+type(
+  string
+)
+"ocaml_src/parsing/linenum.ml" 30 1017 1020 "ocaml_src/parsing/linenum.ml" 31 1087 1124
+type(
+  string
+)
+"ocaml_src/parsing/linenum.ml" 33 1150 1153 "ocaml_src/parsing/linenum.ml" 34 1220 1257
+type(
+  string
+)
+"ocaml_src/parsing/linenum.ml" 36 1281 1284 "ocaml_src/parsing/linenum.ml" 76 4081 4110
+type(
+  string
+)
+"ocaml_src/parsing/linenum.ml" 78 4134 4137 "ocaml_src/parsing/linenum.ml" 118 6934 6963
+type(
+  string
+)
+"ocaml_src/parsing/linenum.ml" 120 6991 6994 "ocaml_src/parsing/linenum.ml" 120 6991 6996
+type(
+  string
+)
+"ocaml_src/parsing/linenum.ml" 122 7027 7030 "ocaml_src/parsing/linenum.ml" 122 7027 7032
+type(
+  string
+)
+"ocaml_src/parsing/linenum.ml" 124 7063 7066 "ocaml_src/parsing/linenum.ml" 124 7063 7068
+type(
+  string
+)
+"ocaml_src/parsing/linenum.ml" 126 7097 7100 "ocaml_src/parsing/linenum.ml" 126 7097 7102
+type(
+  string
+)
+"ocaml_src/parsing/linenum.ml" 128 7131 7134 "ocaml_src/parsing/linenum.ml" 128 7131 7136
+type(
+  string
+)
+"ocaml_src/parsing/linenum.ml" 130 7159 7162 "ocaml_src/parsing/linenum.ml" 130 7159 7164
+type(
+  string
+)
+"ocaml_src/parsing/linenum.ml" 25 836 861 "ocaml_src/parsing/linenum.ml" 131 7166 7167
+type(
+  Lexing.lex_tables
+)
+"ocaml_src/parsing/linenum.ml" 133 7169 7177 "ocaml_src/parsing/linenum.ml" 133 7169 7186
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  def skip_line "ocaml_src/parsing/linenum.ml" 133 7169 7169 "ocaml_src/parsing/linenum.ml" 1 0 -1
+)
+"ocaml_src/parsing/linenum.ml" 133 7169 7187 "ocaml_src/parsing/linenum.ml" 133 7169 7193
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocaml_src/parsing/linenum.ml" 134 7196 7200 "ocaml_src/parsing/linenum.ml" 134 7196 7234
+)
+"ocaml_src/parsing/linenum.ml" 134 7196 7200 "ocaml_src/parsing/linenum.ml" 134 7196 7225
+type(
+  Lexing.lexbuf -> int -> int
+)
+ident(
+  int_ref __ocaml_lex_skip_line_rec "ocaml_src/parsing/linenum.ml" 135 7235 7239 "ocaml_src/parsing/linenum.ml" 135 7235 7264
+)
+"ocaml_src/parsing/linenum.ml" 134 7196 7226 "ocaml_src/parsing/linenum.ml" 134 7196 7232
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/linenum.ml" 133 7169 7187 "ocaml_src/parsing/linenum.ml" 133 7169 7193
+)
+"ocaml_src/parsing/linenum.ml" 134 7196 7233 "ocaml_src/parsing/linenum.ml" 134 7196 7234
+type(
+  int
+)
+"ocaml_src/parsing/linenum.ml" 134 7196 7200 "ocaml_src/parsing/linenum.ml" 134 7196 7234
+call(
+  tail
+)
+type(
+  int
+)
+"ocaml_src/parsing/linenum.ml" 135 7235 7239 "ocaml_src/parsing/linenum.ml" 135 7235 7264
+type(
+  Lexing.lexbuf -> int -> int
+)
+ident(
+  def __ocaml_lex_skip_line_rec "ocaml_src/parsing/linenum.ml" 133 7169 7169 "ocaml_src/parsing/linenum.ml" 1 0 -1
+)
+"ocaml_src/parsing/linenum.ml" 135 7235 7265 "ocaml_src/parsing/linenum.ml" 135 7235 7271
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocaml_src/parsing/linenum.ml" 135 7235 7272 "ocaml_src/parsing/linenum.ml" 159 8010 8066
+)
+"ocaml_src/parsing/linenum.ml" 135 7235 7272 "ocaml_src/parsing/linenum.ml" 135 7235 7289
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocaml_src/parsing/linenum.ml" 136 7292 7294 "ocaml_src/parsing/linenum.ml" 159 8010 8066
+)
+"ocaml_src/parsing/linenum.ml" 136 7292 7300 "ocaml_src/parsing/linenum.ml" 136 7292 7313
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"ocaml_src/parsing/linenum.ml" 136 7292 7314 "ocaml_src/parsing/linenum.ml" 136 7292 7332
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocaml_src/parsing/linenum.ml" 25 836 840 "ocaml_src/parsing/linenum.ml" 25 836 858
+)
+"ocaml_src/parsing/linenum.ml" 136 7292 7333 "ocaml_src/parsing/linenum.ml" 136 7292 7350
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocaml_src/parsing/linenum.ml" 135 7235 7272 "ocaml_src/parsing/linenum.ml" 135 7235 7289
+)
+"ocaml_src/parsing/linenum.ml" 136 7292 7351 "ocaml_src/parsing/linenum.ml" 136 7292 7357
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/linenum.ml" 135 7235 7265 "ocaml_src/parsing/linenum.ml" 135 7235 7271
+)
+"ocaml_src/parsing/linenum.ml" 136 7292 7300 "ocaml_src/parsing/linenum.ml" 136 7292 7357
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/parsing/linenum.ml" 137 7363 7371 "ocaml_src/parsing/linenum.ml" 137 7363 7372
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 46 7413 7421 "ocaml_src/parsing/linenum.mll" 46 7413 7437
+type(
+  string -> unit
+)
+ident(
+  int_ref parse_sharp_line "ocaml_src/parsing/linenum.mll" 23 102 106 "ocaml_src/parsing/linenum.mll" 23 102 122
+)
+"ocaml_src/parsing/linenum.mll" 46 7413 7438 "ocaml_src/parsing/linenum.mll" 46 7413 7451
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"ocaml_src/parsing/linenum.mll" 46 7413 7452 "ocaml_src/parsing/linenum.mll" 46 7413 7458
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/linenum.ml" 135 7235 7265 "ocaml_src/parsing/linenum.ml" 135 7235 7271
+)
+"ocaml_src/parsing/linenum.mll" 46 7413 7437 "ocaml_src/parsing/linenum.mll" 46 7413 7459
+call(
+  stack
+)
+type(
+  string
+)
+"ocaml_src/parsing/linenum.mll" 46 7413 7421 "ocaml_src/parsing/linenum.mll" 46 7413 7459
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 47 7461 7469 "ocaml_src/parsing/linenum.mll" 47 7461 7476
+type(
+  int ref
+)
+ident(
+  int_ref linebeg "ocaml_src/parsing/linenum.mll" 21 81 85 "ocaml_src/parsing/linenum.mll" 21 81 92
+)
+"ocaml_src/parsing/linenum.mll" 47 7461 7477 "ocaml_src/parsing/linenum.mll" 47 7461 7479
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/parsing/linenum.mll" 47 7461 7480 "ocaml_src/parsing/linenum.mll" 47 7461 7499
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"ocaml_src/parsing/linenum.mll" 47 7461 7500 "ocaml_src/parsing/linenum.mll" 47 7461 7506
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/linenum.ml" 135 7235 7265 "ocaml_src/parsing/linenum.ml" 135 7235 7271
+)
+"ocaml_src/parsing/linenum.mll" 47 7461 7480 "ocaml_src/parsing/linenum.mll" 47 7461 7506
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 47 7461 7469 "ocaml_src/parsing/linenum.mll" 47 7461 7506
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 48 7508 7516 "ocaml_src/parsing/linenum.mll" 48 7508 7533
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_end
+)
+"ocaml_src/parsing/linenum.mll" 48 7508 7534 "ocaml_src/parsing/linenum.mll" 48 7508 7540
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/linenum.ml" 135 7235 7265 "ocaml_src/parsing/linenum.ml" 135 7235 7271
+)
+"ocaml_src/parsing/linenum.mll" 48 7508 7516 "ocaml_src/parsing/linenum.mll" 48 7508 7540
+call(
+  tail
+)
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 47 7461 7469 "ocaml_src/parsing/linenum.mll" 48 7508 7540
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 46 7413 7419 "ocaml_src/parsing/linenum.mll" 48 7508 7542
+type(
+  int
+)
+"ocaml_src/parsing/linenum.ml" 144 7581 7585 "ocaml_src/parsing/linenum.ml" 144 7581 7586
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 51 7627 7635 "ocaml_src/parsing/linenum.mll" 51 7627 7639
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/parsing/linenum.mll" 51 7627 7640 "ocaml_src/parsing/linenum.mll" 51 7627 7647
+type(
+  int ref
+)
+ident(
+  int_ref linenum "ocaml_src/parsing/linenum.mll" 20 61 65 "ocaml_src/parsing/linenum.mll" 20 61 72
+)
+"ocaml_src/parsing/linenum.mll" 51 7627 7635 "ocaml_src/parsing/linenum.mll" 51 7627 7647
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 52 7649 7657 "ocaml_src/parsing/linenum.mll" 52 7649 7664
+type(
+  int ref
+)
+ident(
+  int_ref linebeg "ocaml_src/parsing/linenum.mll" 21 81 85 "ocaml_src/parsing/linenum.mll" 21 81 92
+)
+"ocaml_src/parsing/linenum.mll" 52 7649 7665 "ocaml_src/parsing/linenum.mll" 52 7649 7667
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/parsing/linenum.mll" 52 7649 7668 "ocaml_src/parsing/linenum.mll" 52 7649 7687
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"ocaml_src/parsing/linenum.mll" 52 7649 7688 "ocaml_src/parsing/linenum.mll" 52 7649 7694
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/linenum.ml" 135 7235 7265 "ocaml_src/parsing/linenum.ml" 135 7235 7271
+)
+"ocaml_src/parsing/linenum.mll" 52 7649 7668 "ocaml_src/parsing/linenum.mll" 52 7649 7694
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 52 7649 7657 "ocaml_src/parsing/linenum.mll" 52 7649 7694
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 53 7696 7704 "ocaml_src/parsing/linenum.mll" 53 7696 7721
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_end
+)
+"ocaml_src/parsing/linenum.mll" 53 7696 7722 "ocaml_src/parsing/linenum.mll" 53 7696 7728
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/linenum.ml" 135 7235 7265 "ocaml_src/parsing/linenum.ml" 135 7235 7271
+)
+"ocaml_src/parsing/linenum.mll" 53 7696 7704 "ocaml_src/parsing/linenum.mll" 53 7696 7728
+call(
+  tail
+)
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 52 7649 7657 "ocaml_src/parsing/linenum.mll" 53 7696 7728
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 51 7627 7633 "ocaml_src/parsing/linenum.mll" 53 7696 7730
+type(
+  int
+)
+"ocaml_src/parsing/linenum.ml" 151 7769 7773 "ocaml_src/parsing/linenum.ml" 151 7769 7774
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 55 7815 7823 "ocaml_src/parsing/linenum.mll" 55 7815 7827
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocaml_src/parsing/linenum.mll" 55 7815 7828 "ocaml_src/parsing/linenum.mll" 55 7815 7835
+type(
+  int ref
+)
+ident(
+  int_ref linenum "ocaml_src/parsing/linenum.mll" 20 61 65 "ocaml_src/parsing/linenum.mll" 20 61 72
+)
+"ocaml_src/parsing/linenum.mll" 55 7815 7823 "ocaml_src/parsing/linenum.mll" 55 7815 7835
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 56 7837 7845 "ocaml_src/parsing/linenum.mll" 56 7837 7852
+type(
+  int ref
+)
+ident(
+  int_ref linebeg "ocaml_src/parsing/linenum.mll" 21 81 85 "ocaml_src/parsing/linenum.mll" 21 81 92
+)
+"ocaml_src/parsing/linenum.mll" 56 7837 7853 "ocaml_src/parsing/linenum.mll" 56 7837 7855
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/parsing/linenum.mll" 56 7837 7856 "ocaml_src/parsing/linenum.mll" 56 7837 7875
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"ocaml_src/parsing/linenum.mll" 56 7837 7876 "ocaml_src/parsing/linenum.mll" 56 7837 7882
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/linenum.ml" 135 7235 7265 "ocaml_src/parsing/linenum.ml" 135 7235 7271
+)
+"ocaml_src/parsing/linenum.mll" 56 7837 7856 "ocaml_src/parsing/linenum.mll" 56 7837 7882
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 56 7837 7845 "ocaml_src/parsing/linenum.mll" 56 7837 7882
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 57 7884 7892 "ocaml_src/parsing/linenum.mll" 57 7884 7897
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocaml_src/parsing/linenum.mll" 57 7884 7898 "ocaml_src/parsing/linenum.mll" 57 7884 7909
+type(
+  exn
+)
+"ocaml_src/parsing/linenum.mll" 57 7884 7892 "ocaml_src/parsing/linenum.mll" 57 7884 7909
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 56 7837 7845 "ocaml_src/parsing/linenum.mll" 57 7884 7909
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 55 7815 7821 "ocaml_src/parsing/linenum.mll" 57 7884 7911
+type(
+  int
+)
+"ocaml_src/parsing/linenum.ml" 158 7950 7954 "ocaml_src/parsing/linenum.ml" 158 7950 7971
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocaml_src/parsing/linenum.ml" 158 7950 7975 "ocaml_src/parsing/linenum.ml" 159 8010 8066
+)
+"ocaml_src/parsing/linenum.ml" 158 7950 7975 "ocaml_src/parsing/linenum.ml" 158 7950 7981
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/linenum.ml" 135 7235 7265 "ocaml_src/parsing/linenum.ml" 135 7235 7271
+)
+"ocaml_src/parsing/linenum.ml" 158 7950 7975 "ocaml_src/parsing/linenum.ml" 158 7950 8000
+type(
+  Lexing.lexbuf -> unit
+)
+"ocaml_src/parsing/linenum.ml" 158 7950 8001 "ocaml_src/parsing/linenum.ml" 158 7950 8007
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/linenum.ml" 135 7235 7265 "ocaml_src/parsing/linenum.ml" 135 7235 7271
+)
+"ocaml_src/parsing/linenum.ml" 158 7950 7975 "ocaml_src/parsing/linenum.ml" 158 7950 8007
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.ml" 159 8010 8016 "ocaml_src/parsing/linenum.ml" 159 8010 8041
+type(
+  Lexing.lexbuf -> int -> int
+)
+ident(
+  int_ref __ocaml_lex_skip_line_rec "ocaml_src/parsing/linenum.ml" 135 7235 7239 "ocaml_src/parsing/linenum.ml" 135 7235 7264
+)
+"ocaml_src/parsing/linenum.ml" 159 8010 8042 "ocaml_src/parsing/linenum.ml" 159 8010 8048
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocaml_src/parsing/linenum.ml" 135 7235 7265 "ocaml_src/parsing/linenum.ml" 135 7235 7271
+)
+"ocaml_src/parsing/linenum.ml" 159 8010 8049 "ocaml_src/parsing/linenum.ml" 159 8010 8066
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocaml_src/parsing/linenum.ml" 158 7950 7954 "ocaml_src/parsing/linenum.ml" 158 7950 7971
+)
+"ocaml_src/parsing/linenum.ml" 159 8010 8016 "ocaml_src/parsing/linenum.ml" 159 8010 8066
+call(
+  tail
+)
+type(
+  int
+)
+"ocaml_src/parsing/linenum.ml" 158 7950 7975 "ocaml_src/parsing/linenum.ml" 159 8010 8066
+type(
+  int
+)
+"ocaml_src/parsing/linenum.ml" 136 7292 7294 "ocaml_src/parsing/linenum.ml" 159 8010 8066
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 61 8112 8116 "ocaml_src/parsing/linenum.mll" 61 8112 8128
+type(
+  string -> int -> string * int * int
+)
+ident(
+  def for_position "ocaml_src/parsing/linenum.mll" 72 8360 8397 "ocaml_src/parsing/linenum.ml" 1 0 -1
+)
+"ocaml_src/parsing/linenum.mll" 61 8112 8129 "ocaml_src/parsing/linenum.mll" 61 8112 8133
+type(
+  string
+)
+ident(
+  def file "ocaml_src/parsing/linenum.mll" 61 8112 8134 "ocaml_src/parsing/linenum.mll" 72 8360 8397
+)
+"ocaml_src/parsing/linenum.mll" 61 8112 8134 "ocaml_src/parsing/linenum.mll" 61 8112 8137
+type(
+  int
+)
+ident(
+  def loc "ocaml_src/parsing/linenum.mll" 62 8140 8142 "ocaml_src/parsing/linenum.mll" 72 8360 8397
+)
+"ocaml_src/parsing/linenum.mll" 62 8140 8146 "ocaml_src/parsing/linenum.mll" 62 8140 8148
+type(
+  in_channel
+)
+ident(
+  def ic "ocaml_src/parsing/linenum.mll" 63 8171 8173 "ocaml_src/parsing/linenum.mll" 72 8360 8397
+)
+"ocaml_src/parsing/linenum.mll" 62 8140 8151 "ocaml_src/parsing/linenum.mll" 62 8140 8162
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in_bin
+)
+"ocaml_src/parsing/linenum.mll" 62 8140 8163 "ocaml_src/parsing/linenum.mll" 62 8140 8167
+type(
+  string
+)
+ident(
+  int_ref file "ocaml_src/parsing/linenum.mll" 61 8112 8129 "ocaml_src/parsing/linenum.mll" 61 8112 8133
+)
+"ocaml_src/parsing/linenum.mll" 62 8140 8151 "ocaml_src/parsing/linenum.mll" 62 8140 8167
+call(
+  stack
+)
+type(
+  in_channel
+)
+"ocaml_src/parsing/linenum.mll" 63 8171 8177 "ocaml_src/parsing/linenum.mll" 63 8171 8179
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "ocaml_src/parsing/linenum.mll" 64 8208 8210 "ocaml_src/parsing/linenum.mll" 72 8360 8397
+)
+"ocaml_src/parsing/linenum.mll" 63 8171 8182 "ocaml_src/parsing/linenum.mll" 63 8171 8201
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"ocaml_src/parsing/linenum.mll" 63 8171 8202 "ocaml_src/parsing/linenum.mll" 63 8171 8204
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocaml_src/parsing/linenum.mll" 62 8140 8146 "ocaml_src/parsing/linenum.mll" 62 8140 8148
+)
+"ocaml_src/parsing/linenum.mll" 63 8171 8182 "ocaml_src/parsing/linenum.mll" 63 8171 8204
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"ocaml_src/parsing/linenum.mll" 64 8208 8210 "ocaml_src/parsing/linenum.mll" 64 8208 8218
+type(
+  string ref
+)
+ident(
+  int_ref filename "ocaml_src/parsing/linenum.mll" 19 39 43 "ocaml_src/parsing/linenum.mll" 19 39 51
+)
+"ocaml_src/parsing/linenum.mll" 64 8208 8219 "ocaml_src/parsing/linenum.mll" 64 8208 8221
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/parsing/linenum.mll" 64 8208 8222 "ocaml_src/parsing/linenum.mll" 64 8208 8226
+type(
+  string
+)
+ident(
+  int_ref file "ocaml_src/parsing/linenum.mll" 61 8112 8129 "ocaml_src/parsing/linenum.mll" 61 8112 8133
+)
+"ocaml_src/parsing/linenum.mll" 64 8208 8210 "ocaml_src/parsing/linenum.mll" 64 8208 8226
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 65 8228 8230 "ocaml_src/parsing/linenum.mll" 65 8228 8237
+type(
+  int ref
+)
+ident(
+  int_ref linenum "ocaml_src/parsing/linenum.mll" 20 61 65 "ocaml_src/parsing/linenum.mll" 20 61 72
+)
+"ocaml_src/parsing/linenum.mll" 65 8228 8238 "ocaml_src/parsing/linenum.mll" 65 8228 8240
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/parsing/linenum.mll" 65 8228 8241 "ocaml_src/parsing/linenum.mll" 65 8228 8242
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 65 8228 8230 "ocaml_src/parsing/linenum.mll" 65 8228 8242
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 66 8244 8246 "ocaml_src/parsing/linenum.mll" 66 8244 8253
+type(
+  int ref
+)
+ident(
+  int_ref linebeg "ocaml_src/parsing/linenum.mll" 21 81 85 "ocaml_src/parsing/linenum.mll" 21 81 92
+)
+"ocaml_src/parsing/linenum.mll" 66 8244 8254 "ocaml_src/parsing/linenum.mll" 66 8244 8256
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocaml_src/parsing/linenum.mll" 66 8244 8257 "ocaml_src/parsing/linenum.mll" 66 8244 8258
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 66 8244 8246 "ocaml_src/parsing/linenum.mll" 66 8244 8258
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 68 8272 8282 "ocaml_src/parsing/linenum.mll" 68 8272 8291
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  int_ref skip_line "ocaml_src/parsing/linenum.ml" 133 7169 7177 "ocaml_src/parsing/linenum.ml" 133 7169 7186
+)
+"ocaml_src/parsing/linenum.mll" 68 8272 8292 "ocaml_src/parsing/linenum.mll" 68 8272 8294
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "ocaml_src/parsing/linenum.mll" 63 8171 8177 "ocaml_src/parsing/linenum.mll" 63 8171 8179
+)
+"ocaml_src/parsing/linenum.mll" 68 8272 8282 "ocaml_src/parsing/linenum.mll" 68 8272 8294
+call(
+  stack
+)
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 68 8272 8295 "ocaml_src/parsing/linenum.mll" 68 8272 8297
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"ocaml_src/parsing/linenum.mll" 68 8272 8298 "ocaml_src/parsing/linenum.mll" 68 8272 8301
+type(
+  int
+)
+ident(
+  int_ref loc "ocaml_src/parsing/linenum.mll" 61 8112 8134 "ocaml_src/parsing/linenum.mll" 61 8112 8137
+)
+"ocaml_src/parsing/linenum.mll" 68 8272 8282 "ocaml_src/parsing/linenum.mll" 68 8272 8301
+type(
+  bool
+)
+"ocaml_src/parsing/linenum.mll" 68 8272 8305 "ocaml_src/parsing/linenum.mll" 68 8272 8307
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 68 8272 8276 "ocaml_src/parsing/linenum.mll" 68 8272 8312
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 69 8313 8320 "ocaml_src/parsing/linenum.mll" 69 8313 8331
+type(
+  exn
+)
+"ocaml_src/parsing/linenum.mll" 69 8313 8335 "ocaml_src/parsing/linenum.mll" 69 8313 8337
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 67 8260 8262 "ocaml_src/parsing/linenum.mll" 70 8338 8343
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 71 8345 8347 "ocaml_src/parsing/linenum.mll" 71 8345 8355
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"ocaml_src/parsing/linenum.mll" 71 8345 8356 "ocaml_src/parsing/linenum.mll" 71 8345 8358
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocaml_src/parsing/linenum.mll" 62 8140 8146 "ocaml_src/parsing/linenum.mll" 62 8140 8148
+)
+"ocaml_src/parsing/linenum.mll" 71 8345 8347 "ocaml_src/parsing/linenum.mll" 71 8345 8358
+call(
+  stack
+)
+type(
+  unit
+)
+"ocaml_src/parsing/linenum.mll" 72 8360 8363 "ocaml_src/parsing/linenum.mll" 72 8360 8364
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 72 8360 8364 "ocaml_src/parsing/linenum.mll" 72 8360 8372
+type(
+  string ref
+)
+ident(
+  int_ref filename "ocaml_src/parsing/linenum.mll" 19 39 43 "ocaml_src/parsing/linenum.mll" 19 39 51
+)
+"ocaml_src/parsing/linenum.mll" 72 8360 8363 "ocaml_src/parsing/linenum.mll" 72 8360 8372
+type(
+  string
+)
+"ocaml_src/parsing/linenum.mll" 72 8360 8374 "ocaml_src/parsing/linenum.mll" 72 8360 8375
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 72 8360 8375 "ocaml_src/parsing/linenum.mll" 72 8360 8382
+type(
+  int ref
+)
+ident(
+  int_ref linenum "ocaml_src/parsing/linenum.mll" 20 61 65 "ocaml_src/parsing/linenum.mll" 20 61 72
+)
+"ocaml_src/parsing/linenum.mll" 72 8360 8374 "ocaml_src/parsing/linenum.mll" 72 8360 8382
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 72 8360 8383 "ocaml_src/parsing/linenum.mll" 72 8360 8384
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ocaml_src/parsing/linenum.mll" 72 8360 8385 "ocaml_src/parsing/linenum.mll" 72 8360 8386
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 72 8360 8374 "ocaml_src/parsing/linenum.mll" 72 8360 8386
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 72 8360 8388 "ocaml_src/parsing/linenum.mll" 72 8360 8389
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocaml_src/parsing/linenum.mll" 72 8360 8389 "ocaml_src/parsing/linenum.mll" 72 8360 8396
+type(
+  int ref
+)
+ident(
+  int_ref linebeg "ocaml_src/parsing/linenum.mll" 21 81 85 "ocaml_src/parsing/linenum.mll" 21 81 92
+)
+"ocaml_src/parsing/linenum.mll" 72 8360 8388 "ocaml_src/parsing/linenum.mll" 72 8360 8396
+type(
+  int
+)
+"ocaml_src/parsing/linenum.mll" 72 8360 8362 "ocaml_src/parsing/linenum.mll" 72 8360 8397
+type(
+  string * int * int
+)
+"ocaml_src/parsing/linenum.mll" 71 8345 8347 "ocaml_src/parsing/linenum.mll" 72 8360 8397
+type(
+  string * int * int
+)
+"ocaml_src/parsing/linenum.mll" 67 8260 8262 "ocaml_src/parsing/linenum.mll" 72 8360 8397
+type(
+  string * int * int
+)
+"ocaml_src/parsing/linenum.mll" 66 8244 8246 "ocaml_src/parsing/linenum.mll" 72 8360 8397
+type(
+  string * int * int
+)
+"ocaml_src/parsing/linenum.mll" 65 8228 8230 "ocaml_src/parsing/linenum.mll" 72 8360 8397
+type(
+  string * int * int
+)
+"ocaml_src/parsing/linenum.mll" 64 8208 8210 "ocaml_src/parsing/linenum.mll" 72 8360 8397
+type(
+  string * int * int
+)
+"ocaml_src/parsing/linenum.mll" 63 8171 8173 "ocaml_src/parsing/linenum.mll" 72 8360 8397
+type(
+  string * int * int
+)
+"ocaml_src/parsing/linenum.mll" 62 8140 8142 "ocaml_src/parsing/linenum.mll" 72 8360 8397
+type(
+  string * int * int
+)

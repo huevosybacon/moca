@@ -1,0 +1,71 @@
+"lib/useful.ml" 16 1023 1027 "lib/useful.ml" 16 1023 1038
+type(
+  'a option -> bool
+)
+ident(
+  def bool_of_opt "lib/useful.ml" 20 1085 1085 "lib/useful.ml" 1 0 -1
+)
+"lib/useful.ml" 17 1050 1054 "lib/useful.ml" 17 1050 1058
+type(
+  'a option
+)
+"lib/useful.ml" 17 1050 1062 "lib/useful.ml" 17 1050 1067
+type(
+  bool
+)
+"lib/useful.ml" 18 1068 1072 "lib/useful.ml" 18 1068 1073
+type(
+  'a option
+)
+"lib/useful.ml" 18 1068 1077 "lib/useful.ml" 18 1068 1081
+type(
+  bool
+)
+"lib/useful.ml" 16 1023 1041 "lib/useful.ml" 18 1068 1081
+type(
+  'a option -> bool
+)
+"lib/useful.ml" 22 1128 1134 "lib/useful.ml" 22 1128 1141
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "lib/useful.ml" 22 1128 1162 "lib/useful.ml" 23 1165 1168
+)
+"lib/useful.ml" 22 1128 1144 "lib/useful.ml" 22 1128 1162
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"lib/useful.ml" 25 1172 1188 "lib/useful.ml" 25 1172 1205
+call(
+  stack
+)
+"lib/useful.ml" 26 1208 1224 "lib/useful.ml" 26 1208 1241
+call(
+  stack
+)
+"lib/useful.ml" 30 1285 1291 "lib/useful.ml" 30 1285 1298
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "lib/useful.ml" 30 1285 1319 "lib/useful.ml" 31 1322 1325
+)
+"lib/useful.ml" 30 1285 1301 "lib/useful.ml" 30 1285 1319
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"lib/useful.ml" 33 1329 1345 "lib/useful.ml" 33 1329 1362
+call(
+  stack
+)
+"lib/useful.ml" 34 1365 1381 "lib/useful.ml" 34 1365 1398
+call(
+  stack
+)

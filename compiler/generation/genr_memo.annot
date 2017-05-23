@@ -1,0 +1,2140 @@
+"generation/genr_memo.ml" 24 1172 1176 "generation/genr_memo.ml" 24 1172 1194
+type(
+  unit -> unit
+)
+ident(
+  def set_memoize_target "generation/genr_memo.ml" 30 1325 1325 "generation/genr_memo.ml" 1 0 -1
+)
+"generation/genr_memo.ml" 24 1172 1196 "generation/genr_memo.ml" 24 1172 1214
+type(
+  unit -> bool
+)
+ident(
+  def get_memoize_target "generation/genr_memo.ml" 30 1325 1325 "generation/genr_memo.ml" 1 0 -1
+)
+"generation/genr_memo.ml" 24 1172 1176 "generation/genr_memo.ml" 24 1172 1214
+type(
+  (unit -> unit) * (unit -> bool)
+)
+"generation/genr_memo.ml" 25 1217 1223 "generation/genr_memo.ml" 25 1217 1237
+type(
+  bool ref
+)
+ident(
+  def memoize_target "generation/genr_memo.ml" 26 1253 1255 "generation/genr_memo.ml" 27 1291 1320
+)
+"generation/genr_memo.ml" 25 1217 1240 "generation/genr_memo.ml" 25 1217 1243
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"generation/genr_memo.ml" 25 1217 1244 "generation/genr_memo.ml" 25 1217 1249
+type(
+  bool
+)
+"generation/genr_memo.ml" 25 1217 1240 "generation/genr_memo.ml" 25 1217 1249
+type(
+  bool ref
+)
+"generation/genr_memo.ml" 26 1253 1260 "generation/genr_memo.ml" 26 1253 1262
+type(
+  unit
+)
+"generation/genr_memo.ml" 26 1253 1266 "generation/genr_memo.ml" 26 1253 1280
+type(
+  bool ref
+)
+ident(
+  int_ref memoize_target "generation/genr_memo.ml" 25 1217 1223 "generation/genr_memo.ml" 25 1217 1237
+)
+"generation/genr_memo.ml" 26 1253 1281 "generation/genr_memo.ml" 26 1253 1283
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"generation/genr_memo.ml" 26 1253 1284 "generation/genr_memo.ml" 26 1253 1288
+type(
+  bool
+)
+"generation/genr_memo.ml" 26 1253 1266 "generation/genr_memo.ml" 26 1253 1288
+type(
+  unit
+)
+"generation/genr_memo.ml" 26 1253 1255 "generation/genr_memo.ml" 26 1253 1289
+type(
+  unit -> unit
+)
+"generation/genr_memo.ml" 27 1291 1298 "generation/genr_memo.ml" 27 1291 1300
+type(
+  unit
+)
+"generation/genr_memo.ml" 27 1291 1304 "generation/genr_memo.ml" 27 1291 1305
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"generation/genr_memo.ml" 27 1291 1305 "generation/genr_memo.ml" 27 1291 1319
+type(
+  bool ref
+)
+ident(
+  int_ref memoize_target "generation/genr_memo.ml" 25 1217 1223 "generation/genr_memo.ml" 25 1217 1237
+)
+"generation/genr_memo.ml" 27 1291 1304 "generation/genr_memo.ml" 27 1291 1319
+type(
+  bool
+)
+"generation/genr_memo.ml" 27 1291 1293 "generation/genr_memo.ml" 27 1291 1320
+type(
+  unit -> bool
+)
+"generation/genr_memo.ml" 26 1253 1255 "generation/genr_memo.ml" 27 1291 1320
+type(
+  (unit -> unit) * (unit -> bool)
+)
+"generation/genr_memo.ml" 25 1217 1219 "generation/genr_memo.ml" 27 1291 1320
+type(
+  (unit -> unit) * (unit -> bool)
+)
+"generation/genr_memo.ml" 30 1325 1329 "generation/genr_memo.ml" 30 1325 1348
+type(
+  int -> unit
+)
+ident(
+  def set_memo_table_size "generation/genr_memo.ml" 36 1480 1480 "generation/genr_memo.ml" 1 0 -1
+)
+"generation/genr_memo.ml" 30 1325 1350 "generation/genr_memo.ml" 30 1325 1369
+type(
+  unit -> int
+)
+ident(
+  def get_memo_table_size "generation/genr_memo.ml" 36 1480 1480 "generation/genr_memo.ml" 1 0 -1
+)
+"generation/genr_memo.ml" 30 1325 1329 "generation/genr_memo.ml" 30 1325 1369
+type(
+  (int -> unit) * (unit -> int)
+)
+"generation/genr_memo.ml" 31 1372 1378 "generation/genr_memo.ml" 31 1372 1393
+type(
+  int ref
+)
+ident(
+  def memo_table_size "generation/genr_memo.ml" 32 1408 1410 "generation/genr_memo.ml" 33 1445 1475
+)
+"generation/genr_memo.ml" 31 1372 1396 "generation/genr_memo.ml" 31 1372 1399
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"generation/genr_memo.ml" 31 1372 1400 "generation/genr_memo.ml" 31 1372 1404
+type(
+  int
+)
+"generation/genr_memo.ml" 31 1372 1396 "generation/genr_memo.ml" 31 1372 1404
+type(
+  int ref
+)
+"generation/genr_memo.ml" 32 1408 1415 "generation/genr_memo.ml" 32 1408 1417
+type(
+  int
+)
+ident(
+  def sz "generation/genr_memo.ml" 32 1408 1421 "generation/genr_memo.ml" 32 1408 1442
+)
+"generation/genr_memo.ml" 32 1408 1421 "generation/genr_memo.ml" 32 1408 1436
+type(
+  int ref
+)
+ident(
+  int_ref memo_table_size "generation/genr_memo.ml" 31 1372 1378 "generation/genr_memo.ml" 31 1372 1393
+)
+"generation/genr_memo.ml" 32 1408 1437 "generation/genr_memo.ml" 32 1408 1439
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"generation/genr_memo.ml" 32 1408 1440 "generation/genr_memo.ml" 32 1408 1442
+type(
+  int
+)
+ident(
+  int_ref sz "generation/genr_memo.ml" 32 1408 1415 "generation/genr_memo.ml" 32 1408 1417
+)
+"generation/genr_memo.ml" 32 1408 1421 "generation/genr_memo.ml" 32 1408 1442
+type(
+  unit
+)
+"generation/genr_memo.ml" 32 1408 1410 "generation/genr_memo.ml" 32 1408 1443
+type(
+  int -> unit
+)
+"generation/genr_memo.ml" 33 1445 1452 "generation/genr_memo.ml" 33 1445 1454
+type(
+  unit
+)
+"generation/genr_memo.ml" 33 1445 1458 "generation/genr_memo.ml" 33 1445 1459
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"generation/genr_memo.ml" 33 1445 1459 "generation/genr_memo.ml" 33 1445 1474
+type(
+  int ref
+)
+ident(
+  int_ref memo_table_size "generation/genr_memo.ml" 31 1372 1378 "generation/genr_memo.ml" 31 1372 1393
+)
+"generation/genr_memo.ml" 33 1445 1458 "generation/genr_memo.ml" 33 1445 1474
+type(
+  int
+)
+"generation/genr_memo.ml" 33 1445 1447 "generation/genr_memo.ml" 33 1445 1475
+type(
+  unit -> int
+)
+"generation/genr_memo.ml" 32 1408 1410 "generation/genr_memo.ml" 33 1445 1475
+type(
+  (int -> unit) * (unit -> int)
+)
+"generation/genr_memo.ml" 31 1372 1374 "generation/genr_memo.ml" 33 1445 1475
+type(
+  (int -> unit) * (unit -> int)
+)
+"generation/genr_memo.ml" 36 1480 1484 "generation/genr_memo.ml" 36 1480 1511
+type(
+  string -> int -> string
+)
+ident(
+  def mk_tuple_string_with_prefix "generation/genr_memo.ml" 45 1812 1812 "generation/genr_memo.ml" 1 0 -1
+)
+"generation/genr_memo.ml" 36 1480 1512 "generation/genr_memo.ml" 36 1480 1518
+type(
+  string
+)
+ident(
+  def prefix "generation/genr_memo.ml" 36 1480 1519 "generation/genr_memo.ml" 42 1757 1807
+)
+"generation/genr_memo.ml" 36 1480 1519 "generation/genr_memo.ml" 36 1480 1525
+type(
+  int
+)
+ident(
+  def length "generation/genr_memo.ml" 37 1528 1530 "generation/genr_memo.ml" 42 1757 1807
+)
+"generation/genr_memo.ml" 37 1528 1538 "generation/genr_memo.ml" 37 1528 1554
+type(
+  int -> string -> string
+)
+ident(
+  def construct_string "generation/genr_memo.ml" 37 1528 1530 "generation/genr_memo.ml" 42 1757 1807
+)
+"generation/genr_memo.ml" 37 1528 1555 "generation/genr_memo.ml" 37 1528 1556
+type(
+  int
+)
+ident(
+  def n "generation/genr_memo.ml" 37 1528 1557 "generation/genr_memo.ml" 41 1680 1756
+)
+"generation/genr_memo.ml" 37 1528 1557 "generation/genr_memo.ml" 37 1528 1562
+type(
+  string
+)
+ident(
+  def acc_s "generation/genr_memo.ml" 38 1565 1569 "generation/genr_memo.ml" 41 1680 1756
+)
+"generation/genr_memo.ml" 38 1565 1572 "generation/genr_memo.ml" 38 1565 1573
+type(
+  int
+)
+ident(
+  int_ref n "generation/genr_memo.ml" 37 1528 1555 "generation/genr_memo.ml" 37 1528 1556
+)
+"generation/genr_memo.ml" 38 1565 1574 "generation/genr_memo.ml" 38 1565 1576
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"generation/genr_memo.ml" 38 1565 1577 "generation/genr_memo.ml" 38 1565 1583
+type(
+  int
+)
+ident(
+  int_ref length "generation/genr_memo.ml" 36 1480 1519 "generation/genr_memo.ml" 36 1480 1525
+)
+"generation/genr_memo.ml" 38 1565 1572 "generation/genr_memo.ml" 38 1565 1583
+type(
+  bool
+)
+"generation/genr_memo.ml" 38 1565 1589 "generation/genr_memo.ml" 38 1565 1594
+type(
+  string
+)
+ident(
+  int_ref acc_s "generation/genr_memo.ml" 37 1528 1557 "generation/genr_memo.ml" 37 1528 1562
+)
+"generation/genr_memo.ml" 39 1600 1607 "generation/genr_memo.ml" 39 1600 1608
+type(
+  int
+)
+ident(
+  int_ref n "generation/genr_memo.ml" 37 1528 1555 "generation/genr_memo.ml" 37 1528 1556
+)
+"generation/genr_memo.ml" 39 1600 1609 "generation/genr_memo.ml" 39 1600 1610
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"generation/genr_memo.ml" 39 1600 1611 "generation/genr_memo.ml" 39 1600 1612
+type(
+  int
+)
+"generation/genr_memo.ml" 39 1600 1607 "generation/genr_memo.ml" 39 1600 1612
+type(
+  bool
+)
+"generation/genr_memo.ml" 40 1613 1622 "generation/genr_memo.ml" 40 1613 1638
+type(
+  int -> string -> string
+)
+ident(
+  int_ref construct_string "generation/genr_memo.ml" 37 1528 1538 "generation/genr_memo.ml" 37 1528 1554
+)
+"generation/genr_memo.ml" 40 1613 1640 "generation/genr_memo.ml" 40 1613 1641
+type(
+  int
+)
+ident(
+  int_ref n "generation/genr_memo.ml" 37 1528 1555 "generation/genr_memo.ml" 37 1528 1556
+)
+"generation/genr_memo.ml" 40 1613 1642 "generation/genr_memo.ml" 40 1613 1643
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"generation/genr_memo.ml" 40 1613 1644 "generation/genr_memo.ml" 40 1613 1645
+type(
+  int
+)
+"generation/genr_memo.ml" 40 1613 1639 "generation/genr_memo.ml" 40 1613 1646
+type(
+  int
+)
+"generation/genr_memo.ml" 40 1613 1648 "generation/genr_memo.ml" 40 1613 1662
+type(
+  (string -> int -> string, unit, string) format -> string -> int -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"generation/genr_memo.ml" 40 1613 1663 "generation/genr_memo.ml" 40 1613 1669
+type(
+  (string -> int -> string, unit, string) format
+)
+"generation/genr_memo.ml" 40 1613 1670 "generation/genr_memo.ml" 40 1613 1676
+type(
+  string
+)
+ident(
+  int_ref prefix "generation/genr_memo.ml" 36 1480 1512 "generation/genr_memo.ml" 36 1480 1518
+)
+"generation/genr_memo.ml" 40 1613 1677 "generation/genr_memo.ml" 40 1613 1678
+type(
+  int
+)
+ident(
+  int_ref n "generation/genr_memo.ml" 37 1528 1555 "generation/genr_memo.ml" 37 1528 1556
+)
+"generation/genr_memo.ml" 40 1613 1647 "generation/genr_memo.ml" 40 1613 1679
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_memo.ml" 40 1613 1622 "generation/genr_memo.ml" 40 1613 1679
+call(
+  tail
+)
+type(
+  string
+)
+"generation/genr_memo.ml" 41 1680 1689 "generation/genr_memo.ml" 41 1680 1705
+type(
+  int -> string -> string
+)
+ident(
+  int_ref construct_string "generation/genr_memo.ml" 37 1528 1538 "generation/genr_memo.ml" 37 1528 1554
+)
+"generation/genr_memo.ml" 41 1680 1707 "generation/genr_memo.ml" 41 1680 1708
+type(
+  int
+)
+ident(
+  int_ref n "generation/genr_memo.ml" 37 1528 1555 "generation/genr_memo.ml" 37 1528 1556
+)
+"generation/genr_memo.ml" 41 1680 1709 "generation/genr_memo.ml" 41 1680 1710
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"generation/genr_memo.ml" 41 1680 1711 "generation/genr_memo.ml" 41 1680 1712
+type(
+  int
+)
+"generation/genr_memo.ml" 41 1680 1706 "generation/genr_memo.ml" 41 1680 1713
+type(
+  int
+)
+"generation/genr_memo.ml" 41 1680 1715 "generation/genr_memo.ml" 41 1680 1729
+type(
+  (string -> string -> int -> string, unit, string) format ->
+  string -> string -> int -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"generation/genr_memo.ml" 41 1680 1730 "generation/genr_memo.ml" 41 1680 1740
+type(
+  (string -> string -> int -> string, unit, string) format
+)
+"generation/genr_memo.ml" 41 1680 1741 "generation/genr_memo.ml" 41 1680 1746
+type(
+  string
+)
+ident(
+  int_ref acc_s "generation/genr_memo.ml" 37 1528 1557 "generation/genr_memo.ml" 37 1528 1562
+)
+"generation/genr_memo.ml" 41 1680 1747 "generation/genr_memo.ml" 41 1680 1753
+type(
+  string
+)
+ident(
+  int_ref prefix "generation/genr_memo.ml" 36 1480 1512 "generation/genr_memo.ml" 36 1480 1518
+)
+"generation/genr_memo.ml" 41 1680 1754 "generation/genr_memo.ml" 41 1680 1755
+type(
+  int
+)
+ident(
+  int_ref n "generation/genr_memo.ml" 37 1528 1555 "generation/genr_memo.ml" 37 1528 1556
+)
+"generation/genr_memo.ml" 41 1680 1714 "generation/genr_memo.ml" 41 1680 1756
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_memo.ml" 41 1680 1689 "generation/genr_memo.ml" 41 1680 1756
+call(
+  tail
+)
+type(
+  string
+)
+"generation/genr_memo.ml" 39 1600 1604 "generation/genr_memo.ml" 41 1680 1756
+type(
+  string
+)
+"generation/genr_memo.ml" 38 1565 1569 "generation/genr_memo.ml" 41 1680 1756
+type(
+  string
+)
+"generation/genr_memo.ml" 42 1757 1762 "generation/genr_memo.ml" 42 1757 1776
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"generation/genr_memo.ml" 42 1757 1777 "generation/genr_memo.ml" 42 1757 1783
+type(
+  (string -> string, unit, string) format
+)
+"generation/genr_memo.ml" 42 1757 1785 "generation/genr_memo.ml" 42 1757 1801
+type(
+  int -> string -> string
+)
+ident(
+  int_ref construct_string "generation/genr_memo.ml" 37 1528 1538 "generation/genr_memo.ml" 37 1528 1554
+)
+"generation/genr_memo.ml" 42 1757 1802 "generation/genr_memo.ml" 42 1757 1803
+type(
+  int
+)
+"generation/genr_memo.ml" 42 1757 1804 "generation/genr_memo.ml" 42 1757 1806
+type(
+  string
+)
+"generation/genr_memo.ml" 42 1757 1784 "generation/genr_memo.ml" 42 1757 1807
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_memo.ml" 42 1757 1762 "generation/genr_memo.ml" 42 1757 1807
+call(
+  tail
+)
+type(
+  string
+)
+"generation/genr_memo.ml" 37 1528 1530 "generation/genr_memo.ml" 42 1757 1807
+type(
+  string
+)
+"generation/genr_memo.ml" 45 1812 1816 "generation/genr_memo.ml" 45 1812 1844
+type(
+  Format.formatter -> unit
+)
+ident(
+  def print_memo_hash_table_module "generation/genr_memo.ml" 117 3565 3565 "generation/genr_memo.ml" 1 0 -1
+)
+"generation/genr_memo.ml" 45 1812 1845 "generation/genr_memo.ml" 45 1812 1848
+type(
+  Format.formatter
+)
+ident(
+  def ppf "generation/genr_memo.ml" 46 1851 1853 "generation/genr_memo.ml" 113 3549 3559
+)
+"generation/genr_memo.ml" 46 1851 1853 "generation/genr_memo.ml" 46 1851 1867
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"generation/genr_memo.ml" 46 1851 1868 "generation/genr_memo.ml" 46 1851 1871
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "generation/genr_memo.ml" 45 1812 1845 "generation/genr_memo.ml" 45 1812 1848
+)
+"generation/genr_memo.ml" 46 1851 1872 "generation/genr_memo.ml" 113 3549 3559
+type(
+  (unit, Format.formatter, unit) format
+)
+"generation/genr_memo.ml" 46 1851 1853 "generation/genr_memo.ml" 113 3549 3559
+call(
+  tail
+)
+type(
+  unit
+)
+"generation/genr_memo.ml" 117 3565 3569 "generation/genr_memo.ml" 117 3565 3582
+type(
+  string ->
+  'a -> Otype.constructor_definition -> Genr_base.generated_function
+)
+ident(
+  def genr_memo_tbl "generation/genr_memo.ml" 162 5434 5434 "generation/genr_memo.ml" 1 0 -1
+)
+"generation/genr_memo.ml" 117 3565 3583 "generation/genr_memo.ml" 117 3565 3588
+type(
+  string
+)
+ident(
+  def tname "generation/genr_memo.ml" 117 3565 3589 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 117 3565 3589 "generation/genr_memo.ml" 117 3565 3595
+type(
+  'a
+)
+ident(
+  def _ctype "generation/genr_memo.ml" 117 3565 3596 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 117 3565 3596 "generation/genr_memo.ml" 117 3565 3600
+type(
+  Otype.constructor_definition
+)
+ident(
+  def cdef "generation/genr_memo.ml" 118 3603 3605 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 118 3603 3611 "generation/genr_memo.ml" 118 3603 3615
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/genr_memo.ml" 117 3565 3596 "generation/genr_memo.ml" 117 3565 3600
+)
+"generation/genr_memo.ml" 119 3621 3626 "generation/genr_memo.ml" 119 3621 3632
+type(
+  string
+)
+ident(
+  def _cname "generation/genr_memo.ml" 120 3666 3670 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 119 3621 3634 "generation/genr_memo.ml" 119 3621 3648
+type(
+  Parsetree.core_type list
+)
+ident(
+  def core_type_list "generation/genr_memo.ml" 120 3666 3670 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 119 3621 3650 "generation/genr_memo.ml" 119 3621 3655
+type(
+  Parsetree.relations
+)
+ident(
+  def _rels "generation/genr_memo.ml" 120 3666 3670 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 119 3621 3657 "generation/genr_memo.ml" 119 3621 3661
+type(
+  Location.t
+)
+ident(
+  def _loc "generation/genr_memo.ml" 120 3666 3670 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 119 3621 3625 "generation/genr_memo.ml" 119 3621 3662
+type(
+  Otype.constructor_definition
+)
+"generation/genr_memo.ml" 120 3666 3674 "generation/genr_memo.ml" 120 3666 3677
+type(
+  int
+)
+ident(
+  def len "generation/genr_memo.ml" 123 3812 3816 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 120 3666 3680 "generation/genr_memo.ml" 120 3666 3691
+type(
+  Parsetree.core_type list -> int
+)
+ident(
+  ext_ref List.length
+)
+"generation/genr_memo.ml" 120 3666 3692 "generation/genr_memo.ml" 120 3666 3706
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref core_type_list "generation/genr_memo.ml" 119 3621 3634 "generation/genr_memo.ml" 119 3621 3648
+)
+"generation/genr_memo.ml" 120 3666 3680 "generation/genr_memo.ml" 120 3666 3706
+call(
+  stack
+)
+type(
+  int
+)
+"generation/genr_memo.ml" 123 3812 3819 "generation/genr_memo.ml" 123 3812 3822
+type(
+  int
+)
+ident(
+  int_ref len "generation/genr_memo.ml" 120 3666 3674 "generation/genr_memo.ml" 120 3666 3677
+)
+"generation/genr_memo.ml" 123 3812 3823 "generation/genr_memo.ml" 123 3812 3824
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"generation/genr_memo.ml" 123 3812 3825 "generation/genr_memo.ml" 123 3812 3826
+type(
+  int
+)
+"generation/genr_memo.ml" 123 3812 3819 "generation/genr_memo.ml" 123 3812 3826
+type(
+  bool
+)
+"generation/genr_memo.ml" 123 3812 3832 "generation/genr_memo.ml" 123 3812 3840
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"generation/genr_memo.ml" 123 3812 3841 "generation/genr_memo.ml" 123 3812 3882
+type(
+  string
+)
+"generation/genr_memo.ml" 123 3812 3832 "generation/genr_memo.ml" 123 3812 3882
+call(
+  stack
+)
+type(
+  unit
+)
+"generation/genr_memo.ml" 123 3812 3816 "generation/genr_memo.ml" 123 3812 3882
+type(
+  unit
+)
+"generation/genr_memo.ml" 124 3884 3892 "generation/genr_memo.ml" 124 3884 3893
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_memo.ml" 125 3928 3932 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 124 3884 3896 "generation/genr_memo.ml" 124 3884 3919
+type(
+  Otype.constructor_definition -> Parsetree.generator
+)
+ident(
+  ext_ref Otype.generator_of_cdef
+)
+"generation/genr_memo.ml" 124 3884 3920 "generation/genr_memo.ml" 124 3884 3924
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/genr_memo.ml" 117 3565 3596 "generation/genr_memo.ml" 117 3565 3600
+)
+"generation/genr_memo.ml" 124 3884 3896 "generation/genr_memo.ml" 124 3884 3924
+call(
+  stack
+)
+type(
+  Parsetree.generator
+)
+"generation/genr_memo.ml" 125 3928 3936 "generation/genr_memo.ml" 125 3928 3948
+type(
+  Parsetree.core_type
+)
+ident(
+  def current_type "generation/genr_memo.ml" 127 3986 3990 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 125 3928 3951 "generation/genr_memo.ml" 125 3928 3968
+type(
+  string -> Parsetree.core_type list -> Parsetree.core_type
+)
+ident(
+  ext_ref Otype.constr_type
+)
+"generation/genr_memo.ml" 125 3928 3969 "generation/genr_memo.ml" 125 3928 3974
+type(
+  string
+)
+ident(
+  int_ref tname "generation/genr_memo.ml" 117 3565 3583 "generation/genr_memo.ml" 117 3565 3588
+)
+"generation/genr_memo.ml" 125 3928 3975 "generation/genr_memo.ml" 125 3928 3977
+type(
+  Parsetree.core_type list
+)
+"generation/genr_memo.ml" 125 3928 3951 "generation/genr_memo.ml" 125 3928 3978
+call(
+  stack
+)
+type(
+  Parsetree.core_type
+)
+"generation/genr_memo.ml" 127 3986 3994 "generation/genr_memo.ml" 127 3986 3995
+type(
+  int
+)
+"generation/genr_memo.ml" 127 3986 3997 "generation/genr_memo.ml" 127 3986 4004
+type(
+  string
+)
+ident(
+  def eq_body "generation/genr_memo.ml" 143 4794 4798 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 127 3986 4006 "generation/genr_memo.ml" 127 3986 4015
+type(
+  string
+)
+ident(
+  def hash_body "generation/genr_memo.ml" 143 4794 4798 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 127 3986 3994 "generation/genr_memo.ml" 127 3986 4015
+type(
+  int * string * string
+)
+"generation/genr_memo.ml" 128 4018 4024 "generation/genr_memo.ml" 128 4018 4038
+type(
+  (int * string * string -> Parsetree.core_type -> int * string * string) ->
+  int * string * string -> Parsetree.core_type list -> int * string * string
+)
+ident(
+  ext_ref List.fold_left
+)
+"generation/genr_memo.ml" 129 4039 4053 "generation/genr_memo.ml" 129 4039 4058
+type(
+  int
+)
+ident(
+  def index "generation/genr_memo.ml" 129 4039 4084 "generation/genr_memo.ml" 141 4714 4754
+)
+"generation/genr_memo.ml" 129 4039 4060 "generation/genr_memo.ml" 129 4039 4069
+type(
+  string
+)
+ident(
+  def eq_string "generation/genr_memo.ml" 129 4039 4084 "generation/genr_memo.ml" 141 4714 4754
+)
+"generation/genr_memo.ml" 129 4039 4071 "generation/genr_memo.ml" 129 4039 4082
+type(
+  string
+)
+ident(
+  def hash_string "generation/genr_memo.ml" 129 4039 4084 "generation/genr_memo.ml" 141 4714 4754
+)
+"generation/genr_memo.ml" 129 4039 4052 "generation/genr_memo.ml" 129 4039 4083
+type(
+  int * string * string
+)
+"generation/genr_memo.ml" 129 4039 4084 "generation/genr_memo.ml" 129 4039 4092
+type(
+  Parsetree.core_type
+)
+ident(
+  def coretype "generation/genr_memo.ml" 130 4096 4106 "generation/genr_memo.ml" 141 4714 4754
+)
+"generation/genr_memo.ml" 130 4096 4110 "generation/genr_memo.ml" 130 4096 4118
+type(
+  string
+)
+ident(
+  def hash_sep "generation/genr_memo.ml" 132 4217 4227 "generation/genr_memo.ml" 141 4714 4754
+)
+"generation/genr_memo.ml" 130 4096 4124 "generation/genr_memo.ml" 130 4096 4129
+type(
+  int
+)
+ident(
+  int_ref index "generation/genr_memo.ml" 129 4039 4053 "generation/genr_memo.ml" 129 4039 4058
+)
+"generation/genr_memo.ml" 130 4096 4130 "generation/genr_memo.ml" 130 4096 4131
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"generation/genr_memo.ml" 130 4096 4132 "generation/genr_memo.ml" 130 4096 4133
+type(
+  int
+)
+"generation/genr_memo.ml" 130 4096 4124 "generation/genr_memo.ml" 130 4096 4133
+type(
+  bool
+)
+"generation/genr_memo.ml" 130 4096 4139 "generation/genr_memo.ml" 130 4096 4142
+type(
+  string
+)
+"generation/genr_memo.ml" 130 4096 4148 "generation/genr_memo.ml" 130 4096 4153
+type(
+  string
+)
+"generation/genr_memo.ml" 130 4096 4121 "generation/genr_memo.ml" 130 4096 4153
+type(
+  string
+)
+"generation/genr_memo.ml" 131 4154 4168 "generation/genr_memo.ml" 131 4154 4177
+type(
+  string
+)
+ident(
+  def equal_sep "generation/genr_memo.ml" 132 4217 4227 "generation/genr_memo.ml" 141 4714 4754
+)
+"generation/genr_memo.ml" 131 4154 4183 "generation/genr_memo.ml" 131 4154 4188
+type(
+  int
+)
+ident(
+  int_ref index "generation/genr_memo.ml" 129 4039 4053 "generation/genr_memo.ml" 129 4039 4058
+)
+"generation/genr_memo.ml" 131 4154 4189 "generation/genr_memo.ml" 131 4154 4190
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"generation/genr_memo.ml" 131 4154 4191 "generation/genr_memo.ml" 131 4154 4192
+type(
+  int
+)
+"generation/genr_memo.ml" 131 4154 4183 "generation/genr_memo.ml" 131 4154 4192
+type(
+  bool
+)
+"generation/genr_memo.ml" 131 4154 4198 "generation/genr_memo.ml" 131 4154 4201
+type(
+  string
+)
+"generation/genr_memo.ml" 131 4154 4207 "generation/genr_memo.ml" 131 4154 4213
+type(
+  string
+)
+"generation/genr_memo.ml" 131 4154 4180 "generation/genr_memo.ml" 131 4154 4213
+type(
+  string
+)
+"generation/genr_memo.ml" 132 4217 4231 "generation/genr_memo.ml" 132 4217 4238
+type(
+  string
+)
+ident(
+  def hstring "generation/genr_memo.ml" 141 4714 4727 "generation/genr_memo.ml" 141 4714 4754
+)
+"generation/genr_memo.ml" 132 4217 4240 "generation/genr_memo.ml" 132 4217 4247
+type(
+  string
+)
+ident(
+  def estring "generation/genr_memo.ml" 141 4714 4727 "generation/genr_memo.ml" 141 4714 4754
+)
+"generation/genr_memo.ml" 132 4217 4231 "generation/genr_memo.ml" 132 4217 4247
+type(
+  string * string
+)
+"generation/genr_memo.ml" 133 4250 4268 "generation/genr_memo.ml" 133 4250 4274
+type(
+  string
+)
+ident(
+  def hash_s "generation/genr_memo.ml" 134 4285 4299 "generation/genr_memo.ml" 135 4352 4414
+)
+"generation/genr_memo.ml" 133 4250 4276 "generation/genr_memo.ml" 133 4250 4280
+type(
+  string
+)
+ident(
+  def eq_s "generation/genr_memo.ml" 134 4285 4299 "generation/genr_memo.ml" 135 4352 4414
+)
+"generation/genr_memo.ml" 133 4250 4267 "generation/genr_memo.ml" 133 4250 4281
+type(
+  string * string
+)
+"generation/genr_memo.ml" 134 4285 4299 "generation/genr_memo.ml" 134 4285 4313
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"generation/genr_memo.ml" 134 4285 4314 "generation/genr_memo.ml" 134 4285 4322
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"generation/genr_memo.ml" 134 4285 4323 "generation/genr_memo.ml" 134 4285 4334
+type(
+  string
+)
+ident(
+  int_ref hash_string "generation/genr_memo.ml" 129 4039 4071 "generation/genr_memo.ml" 129 4039 4082
+)
+"generation/genr_memo.ml" 134 4285 4335 "generation/genr_memo.ml" 134 4285 4343
+type(
+  string
+)
+ident(
+  int_ref hash_sep "generation/genr_memo.ml" 130 4096 4110 "generation/genr_memo.ml" 130 4096 4118
+)
+"generation/genr_memo.ml" 134 4285 4344 "generation/genr_memo.ml" 134 4285 4350
+type(
+  string
+)
+ident(
+  int_ref hash_s "generation/genr_memo.ml" 133 4250 4268 "generation/genr_memo.ml" 133 4250 4274
+)
+"generation/genr_memo.ml" 134 4285 4299 "generation/genr_memo.ml" 134 4285 4350
+type(
+  string
+)
+"generation/genr_memo.ml" 135 4352 4366 "generation/genr_memo.ml" 135 4352 4380
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"generation/genr_memo.ml" 135 4352 4381 "generation/genr_memo.ml" 135 4352 4389
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"generation/genr_memo.ml" 135 4352 4390 "generation/genr_memo.ml" 135 4352 4399
+type(
+  string
+)
+ident(
+  int_ref eq_string "generation/genr_memo.ml" 129 4039 4060 "generation/genr_memo.ml" 129 4039 4069
+)
+"generation/genr_memo.ml" 135 4352 4400 "generation/genr_memo.ml" 135 4352 4409
+type(
+  string
+)
+ident(
+  int_ref equal_sep "generation/genr_memo.ml" 131 4154 4168 "generation/genr_memo.ml" 131 4154 4177
+)
+"generation/genr_memo.ml" 135 4352 4410 "generation/genr_memo.ml" 135 4352 4414
+type(
+  string
+)
+ident(
+  int_ref eq_s "generation/genr_memo.ml" 133 4250 4276 "generation/genr_memo.ml" 133 4250 4280
+)
+"generation/genr_memo.ml" 135 4352 4366 "generation/genr_memo.ml" 135 4352 4414
+type(
+  string
+)
+"generation/genr_memo.ml" 134 4285 4299 "generation/genr_memo.ml" 135 4352 4414
+type(
+  string * string
+)
+"generation/genr_memo.ml" 133 4250 4262 "generation/genr_memo.ml" 135 4352 4415
+type(
+  string * string -> string * string
+)
+"generation/genr_memo.ml" 136 4416 4434 "generation/genr_memo.ml" 136 4416 4447
+type(
+  Parsetree.core_type -> Parsetree.core_type -> bool
+)
+ident(
+  ext_ref Otype.eq_type
+)
+"generation/genr_memo.ml" 136 4416 4448 "generation/genr_memo.ml" 136 4416 4456
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref coretype "generation/genr_memo.ml" 129 4039 4084 "generation/genr_memo.ml" 129 4039 4092
+)
+"generation/genr_memo.ml" 136 4416 4457 "generation/genr_memo.ml" 136 4416 4469
+type(
+  Parsetree.core_type
+)
+ident(
+  int_ref current_type "generation/genr_memo.ml" 125 3928 3936 "generation/genr_memo.ml" 125 3928 3948
+)
+"generation/genr_memo.ml" 136 4416 4434 "generation/genr_memo.ml" 136 4416 4469
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/genr_memo.ml" 137 4475 4493 "generation/genr_memo.ml" 137 4475 4507
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"generation/genr_memo.ml" 137 4475 4508 "generation/genr_memo.ml" 137 4475 4524
+type(
+  (int -> string, unit, string) format
+)
+"generation/genr_memo.ml" 137 4475 4525 "generation/genr_memo.ml" 137 4475 4530
+type(
+  int
+)
+ident(
+  int_ref index "generation/genr_memo.ml" 129 4039 4053 "generation/genr_memo.ml" 129 4039 4058
+)
+"generation/genr_memo.ml" 137 4475 4493 "generation/genr_memo.ml" 137 4475 4530
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_memo.ml" 138 4532 4548 "generation/genr_memo.ml" 138 4532 4562
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"generation/genr_memo.ml" 138 4532 4563 "generation/genr_memo.ml" 138 4532 4580
+type(
+  (int -> int -> string, unit, string) format
+)
+"generation/genr_memo.ml" 138 4532 4581 "generation/genr_memo.ml" 138 4532 4586
+type(
+  int
+)
+ident(
+  int_ref index "generation/genr_memo.ml" 129 4039 4053 "generation/genr_memo.ml" 129 4039 4058
+)
+"generation/genr_memo.ml" 138 4532 4587 "generation/genr_memo.ml" 138 4532 4592
+type(
+  int
+)
+ident(
+  int_ref index "generation/genr_memo.ml" 129 4039 4053 "generation/genr_memo.ml" 129 4039 4058
+)
+"generation/genr_memo.ml" 138 4532 4548 "generation/genr_memo.ml" 138 4532 4592
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_memo.ml" 137 4475 4493 "generation/genr_memo.ml" 138 4532 4592
+type(
+  string * string
+)
+"generation/genr_memo.ml" 139 4593 4613 "generation/genr_memo.ml" 139 4593 4627
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"generation/genr_memo.ml" 139 4593 4628 "generation/genr_memo.ml" 139 4593 4646
+type(
+  (int -> string, unit, string) format
+)
+"generation/genr_memo.ml" 139 4593 4647 "generation/genr_memo.ml" 139 4593 4652
+type(
+  int
+)
+ident(
+  int_ref index "generation/genr_memo.ml" 129 4039 4053 "generation/genr_memo.ml" 129 4039 4058
+)
+"generation/genr_memo.ml" 139 4593 4613 "generation/genr_memo.ml" 139 4593 4652
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_memo.ml" 140 4654 4670 "generation/genr_memo.ml" 140 4654 4684
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"generation/genr_memo.ml" 140 4654 4685 "generation/genr_memo.ml" 140 4654 4700
+type(
+  (int -> int -> string, unit, string) format
+)
+"generation/genr_memo.ml" 140 4654 4701 "generation/genr_memo.ml" 140 4654 4706
+type(
+  int
+)
+ident(
+  int_ref index "generation/genr_memo.ml" 129 4039 4053 "generation/genr_memo.ml" 129 4039 4058
+)
+"generation/genr_memo.ml" 140 4654 4707 "generation/genr_memo.ml" 140 4654 4712
+type(
+  int
+)
+ident(
+  int_ref index "generation/genr_memo.ml" 129 4039 4053 "generation/genr_memo.ml" 129 4039 4058
+)
+"generation/genr_memo.ml" 140 4654 4670 "generation/genr_memo.ml" 140 4654 4712
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_memo.ml" 139 4593 4613 "generation/genr_memo.ml" 140 4654 4712
+type(
+  string * string
+)
+"generation/genr_memo.ml" 136 4416 4430 "generation/genr_memo.ml" 140 4654 4713
+type(
+  string * string
+)
+"generation/genr_memo.ml" 133 4250 4262 "generation/genr_memo.ml" 140 4654 4713
+call(
+  stack
+)
+type(
+  string * string
+)
+"generation/genr_memo.ml" 141 4714 4727 "generation/genr_memo.ml" 141 4714 4732
+type(
+  int
+)
+ident(
+  int_ref index "generation/genr_memo.ml" 129 4039 4053 "generation/genr_memo.ml" 129 4039 4058
+)
+"generation/genr_memo.ml" 141 4714 4733 "generation/genr_memo.ml" 141 4714 4734
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"generation/genr_memo.ml" 141 4714 4735 "generation/genr_memo.ml" 141 4714 4736
+type(
+  int
+)
+"generation/genr_memo.ml" 141 4714 4727 "generation/genr_memo.ml" 141 4714 4736
+type(
+  int
+)
+"generation/genr_memo.ml" 141 4714 4738 "generation/genr_memo.ml" 141 4714 4745
+type(
+  string
+)
+ident(
+  int_ref estring "generation/genr_memo.ml" 132 4217 4240 "generation/genr_memo.ml" 132 4217 4247
+)
+"generation/genr_memo.ml" 141 4714 4747 "generation/genr_memo.ml" 141 4714 4754
+type(
+  string
+)
+ident(
+  int_ref hstring "generation/genr_memo.ml" 132 4217 4231 "generation/genr_memo.ml" 132 4217 4238
+)
+"generation/genr_memo.ml" 141 4714 4727 "generation/genr_memo.ml" 141 4714 4754
+type(
+  int * string * string
+)
+"generation/genr_memo.ml" 132 4217 4227 "generation/genr_memo.ml" 141 4714 4754
+type(
+  int * string * string
+)
+"generation/genr_memo.ml" 130 4096 4106 "generation/genr_memo.ml" 141 4714 4754
+type(
+  int * string * string
+)
+"generation/genr_memo.ml" 129 4039 4047 "generation/genr_memo.ml" 141 4714 4755
+type(
+  int * string * string -> Parsetree.core_type -> int * string * string
+)
+"generation/genr_memo.ml" 142 4756 4765 "generation/genr_memo.ml" 142 4756 4766
+type(
+  int
+)
+"generation/genr_memo.ml" 142 4756 4768 "generation/genr_memo.ml" 142 4756 4770
+type(
+  string
+)
+"generation/genr_memo.ml" 142 4756 4772 "generation/genr_memo.ml" 142 4756 4774
+type(
+  string
+)
+"generation/genr_memo.ml" 142 4756 4764 "generation/genr_memo.ml" 142 4756 4775
+type(
+  int * string * string
+)
+"generation/genr_memo.ml" 142 4756 4776 "generation/genr_memo.ml" 142 4756 4790
+type(
+  Parsetree.core_type list
+)
+ident(
+  int_ref core_type_list "generation/genr_memo.ml" 119 3621 3634 "generation/genr_memo.ml" 119 3621 3648
+)
+"generation/genr_memo.ml" 128 4018 4024 "generation/genr_memo.ml" 142 4756 4790
+call(
+  stack
+)
+type(
+  int * string * string
+)
+"generation/genr_memo.ml" 143 4794 4802 "generation/genr_memo.ml" 143 4794 4807
+type(
+  string
+)
+ident(
+  def xlist "generation/genr_memo.ml" 145 4901 4905 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 143 4794 4810 "generation/genr_memo.ml" 143 4794 4837
+type(
+  string -> int -> string
+)
+ident(
+  int_ref mk_tuple_string_with_prefix "generation/genr_memo.ml" 36 1480 1484 "generation/genr_memo.ml" 36 1480 1511
+)
+"generation/genr_memo.ml" 143 4794 4838 "generation/genr_memo.ml" 143 4794 4841
+type(
+  string
+)
+"generation/genr_memo.ml" 143 4794 4842 "generation/genr_memo.ml" 143 4794 4845
+type(
+  int
+)
+ident(
+  int_ref len "generation/genr_memo.ml" 120 3666 3674 "generation/genr_memo.ml" 120 3666 3677
+)
+"generation/genr_memo.ml" 143 4794 4810 "generation/genr_memo.ml" 143 4794 4845
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_memo.ml" 144 4846 4854 "generation/genr_memo.ml" 144 4846 4859
+type(
+  string
+)
+ident(
+  def ylist "generation/genr_memo.ml" 145 4901 4905 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 144 4846 4862 "generation/genr_memo.ml" 144 4846 4889
+type(
+  string -> int -> string
+)
+ident(
+  int_ref mk_tuple_string_with_prefix "generation/genr_memo.ml" 36 1480 1484 "generation/genr_memo.ml" 36 1480 1511
+)
+"generation/genr_memo.ml" 144 4846 4890 "generation/genr_memo.ml" 144 4846 4893
+type(
+  string
+)
+"generation/genr_memo.ml" 144 4846 4894 "generation/genr_memo.ml" 144 4846 4897
+type(
+  int
+)
+ident(
+  int_ref len "generation/genr_memo.ml" 120 3666 3674 "generation/genr_memo.ml" 120 3666 3677
+)
+"generation/genr_memo.ml" 144 4846 4862 "generation/genr_memo.ml" 144 4846 4897
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_memo.ml" 145 4901 4909 "generation/genr_memo.ml" 145 4901 4917
+type(
+  string
+)
+ident(
+  def tbl_body "generation/genr_memo.ml" 157 5224 5228 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 146 4920 4926 "generation/genr_memo.ml" 146 4920 4940
+type(
+  (string -> string -> string -> string -> string -> int -> string, unit,
+   string)
+  format -> string -> string -> string -> string -> string -> int -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"generation/genr_memo.ml" 147 4941 4949 "generation/genr_memo.ml" 155 5114 5152
+type(
+  (string -> string -> string -> string -> string -> int -> string, unit,
+   string)
+  format
+)
+"generation/genr_memo.ml" 156 5153 5161 "generation/genr_memo.ml" 156 5153 5166
+type(
+  string
+)
+ident(
+  int_ref xlist "generation/genr_memo.ml" 143 4794 4802 "generation/genr_memo.ml" 143 4794 4807
+)
+"generation/genr_memo.ml" 156 5153 5167 "generation/genr_memo.ml" 156 5153 5176
+type(
+  string
+)
+ident(
+  int_ref hash_body "generation/genr_memo.ml" 127 3986 4006 "generation/genr_memo.ml" 127 3986 4015
+)
+"generation/genr_memo.ml" 156 5153 5177 "generation/genr_memo.ml" 156 5153 5182
+type(
+  string
+)
+ident(
+  int_ref xlist "generation/genr_memo.ml" 143 4794 4802 "generation/genr_memo.ml" 143 4794 4807
+)
+"generation/genr_memo.ml" 156 5153 5183 "generation/genr_memo.ml" 156 5153 5188
+type(
+  string
+)
+ident(
+  int_ref ylist "generation/genr_memo.ml" 144 4846 4854 "generation/genr_memo.ml" 144 4846 4859
+)
+"generation/genr_memo.ml" 156 5153 5189 "generation/genr_memo.ml" 156 5153 5196
+type(
+  string
+)
+ident(
+  int_ref eq_body "generation/genr_memo.ml" 127 3986 3997 "generation/genr_memo.ml" 127 3986 4004
+)
+"generation/genr_memo.ml" 156 5153 5198 "generation/genr_memo.ml" 156 5153 5217
+type(
+  unit -> int
+)
+ident(
+  int_ref get_memo_table_size "generation/genr_memo.ml" 30 1325 1350 "generation/genr_memo.ml" 30 1325 1369
+)
+"generation/genr_memo.ml" 156 5153 5218 "generation/genr_memo.ml" 156 5153 5220
+type(
+  unit
+)
+"generation/genr_memo.ml" 156 5153 5197 "generation/genr_memo.ml" 156 5153 5221
+call(
+  stack
+)
+type(
+  int
+)
+"generation/genr_memo.ml" 146 4920 4926 "generation/genr_memo.ml" 156 5153 5221
+call(
+  stack
+)
+type(
+  string
+)
+"generation/genr_memo.ml" 157 5224 5232 "generation/genr_memo.ml" 157 5224 5241
+type(
+  Code.exp
+)
+ident(
+  def body_code "generation/genr_memo.ml" 158 5295 5299 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 157 5224 5267 "generation/genr_memo.ml" 157 5224 5281
+type(
+  string -> Parsetree.expression
+)
+ident(
+  ext_ref Otype.mk_ident
+)
+"generation/genr_memo.ml" 157 5224 5282 "generation/genr_memo.ml" 157 5224 5290
+type(
+  string
+)
+ident(
+  int_ref tbl_body "generation/genr_memo.ml" 145 4901 4909 "generation/genr_memo.ml" 145 4901 4917
+)
+"generation/genr_memo.ml" 157 5224 5266 "generation/genr_memo.ml" 157 5224 5291
+call(
+  stack
+)
+type(
+  Parsetree.expression
+)
+"generation/genr_memo.ml" 157 5224 5244 "generation/genr_memo.ml" 157 5224 5291
+type(
+  Code.exp
+)
+"generation/genr_memo.ml" 158 5295 5303 "generation/genr_memo.ml" 158 5295 5312
+type(
+  Code.lident
+)
+ident(
+  def tbl_ident "generation/genr_memo.ml" 159 5369 5373 "generation/genr_memo.ml" 159 5369 5429
+)
+"generation/genr_memo.ml" 158 5295 5315 "generation/genr_memo.ml" 158 5295 5363
+type(
+  Parsetree.generator -> Code.lident
+)
+ident(
+  ext_ref Genr_base.construction_function_memo_table_ident
+)
+"generation/genr_memo.ml" 158 5295 5364 "generation/genr_memo.ml" 158 5295 5365
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_memo.ml" 124 3884 3892 "generation/genr_memo.ml" 124 3884 3893
+)
+"generation/genr_memo.ml" 158 5295 5315 "generation/genr_memo.ml" 158 5295 5365
+call(
+  stack
+)
+type(
+  Code.lident
+)
+"generation/genr_memo.ml" 159 5369 5404 "generation/genr_memo.ml" 159 5369 5413
+type(
+  Code.lident
+)
+ident(
+  int_ref tbl_ident "generation/genr_memo.ml" 158 5295 5303 "generation/genr_memo.ml" 158 5295 5312
+)
+"generation/genr_memo.ml" 159 5369 5415 "generation/genr_memo.ml" 159 5369 5417
+type(
+  Code.pattern list
+)
+"generation/genr_memo.ml" 159 5369 5419 "generation/genr_memo.ml" 159 5369 5428
+type(
+  Code.exp
+)
+ident(
+  int_ref body_code "generation/genr_memo.ml" 157 5224 5232 "generation/genr_memo.ml" 157 5224 5241
+)
+"generation/genr_memo.ml" 159 5369 5373 "generation/genr_memo.ml" 159 5369 5429
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 158 5295 5299 "generation/genr_memo.ml" 159 5369 5429
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 157 5224 5228 "generation/genr_memo.ml" 159 5369 5429
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 145 4901 4905 "generation/genr_memo.ml" 159 5369 5429
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 143 4794 4798 "generation/genr_memo.ml" 159 5369 5429
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 127 3986 3990 "generation/genr_memo.ml" 159 5369 5429
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 125 3928 3932 "generation/genr_memo.ml" 159 5369 5429
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 124 3884 3888 "generation/genr_memo.ml" 159 5369 5429
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 123 3812 3816 "generation/genr_memo.ml" 159 5369 5429
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 120 3666 3670 "generation/genr_memo.ml" 159 5369 5429
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 118 3603 3605 "generation/genr_memo.ml" 159 5369 5429
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 162 5434 5438 "generation/genr_memo.ml" 162 5434 5447
+type(
+  Code.exp -> Parsetree.generator -> Code.exp -> Code.exp
+)
+ident(
+  def memo_body "generation/genr_memo.ml" 177 5953 5953 "generation/genr_memo.ml" 1 0 -1
+)
+"generation/genr_memo.ml" 162 5434 5448 "generation/genr_memo.ml" 162 5434 5452
+type(
+  Code.exp
+)
+ident(
+  def body "generation/genr_memo.ml" 162 5434 5453 "generation/genr_memo.ml" 174 5900 5948
+)
+"generation/genr_memo.ml" 162 5434 5453 "generation/genr_memo.ml" 162 5434 5454
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_memo.ml" 162 5434 5455 "generation/genr_memo.ml" 174 5900 5948
+)
+"generation/genr_memo.ml" 162 5434 5455 "generation/genr_memo.ml" 162 5434 5456
+type(
+  Code.exp
+)
+ident(
+  def x "generation/genr_memo.ml" 163 5459 5461 "generation/genr_memo.ml" 174 5900 5948
+)
+"generation/genr_memo.ml" 163 5459 5465 "generation/genr_memo.ml" 163 5459 5477
+type(
+  Longident.t
+)
+ident(
+  def result_ident "generation/genr_memo.ml" 164 5499 5501 "generation/genr_memo.ml" 174 5900 5948
+)
+"generation/genr_memo.ml" 163 5459 5487 "generation/genr_memo.ml" 163 5459 5495
+type(
+  string
+)
+"generation/genr_memo.ml" 163 5459 5480 "generation/genr_memo.ml" 163 5459 5495
+type(
+  Longident.t
+)
+"generation/genr_memo.ml" 164 5499 5505 "generation/genr_memo.ml" 164 5499 5508
+type(
+  Code.exp
+)
+ident(
+  def tbl "generation/genr_memo.ml" 165 5576 5578 "generation/genr_memo.ml" 174 5900 5948
+)
+"generation/genr_memo.ml" 164 5499 5521 "generation/genr_memo.ml" 164 5499 5569
+type(
+  Parsetree.generator -> Code.lident
+)
+ident(
+  ext_ref Genr_base.construction_function_memo_table_ident
+)
+"generation/genr_memo.ml" 164 5499 5570 "generation/genr_memo.ml" 164 5499 5571
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_memo.ml" 162 5434 5453 "generation/genr_memo.ml" 162 5434 5454
+)
+"generation/genr_memo.ml" 164 5499 5520 "generation/genr_memo.ml" 164 5499 5572
+call(
+  stack
+)
+type(
+  Code.lident
+)
+"generation/genr_memo.ml" 164 5499 5511 "generation/genr_memo.ml" 164 5499 5572
+type(
+  Code.exp
+)
+"generation/genr_memo.ml" 165 5576 5582 "generation/genr_memo.ml" 165 5576 5592
+type(
+  Longident.t
+)
+ident(
+  def find_ident "generation/genr_memo.ml" 167 5683 5685 "generation/genr_memo.ml" 174 5900 5948
+)
+"generation/genr_memo.ml" 165 5576 5608 "generation/genr_memo.ml" 165 5576 5619
+type(
+  string
+)
+"generation/genr_memo.ml" 165 5576 5601 "generation/genr_memo.ml" 165 5576 5619
+type(
+  Longident.t
+)
+"generation/genr_memo.ml" 165 5576 5621 "generation/genr_memo.ml" 165 5576 5627
+type(
+  string
+)
+"generation/genr_memo.ml" 165 5576 5595 "generation/genr_memo.ml" 165 5576 5628
+type(
+  Longident.t
+)
+"generation/genr_memo.ml" 166 5629 5635 "generation/genr_memo.ml" 166 5629 5644
+type(
+  Longident.t
+)
+ident(
+  def add_ident "generation/genr_memo.ml" 167 5683 5685 "generation/genr_memo.ml" 174 5900 5948
+)
+"generation/genr_memo.ml" 166 5629 5660 "generation/genr_memo.ml" 166 5629 5671
+type(
+  string
+)
+"generation/genr_memo.ml" 166 5629 5653 "generation/genr_memo.ml" 166 5629 5671
+type(
+  Longident.t
+)
+"generation/genr_memo.ml" 166 5629 5673 "generation/genr_memo.ml" 166 5629 5678
+type(
+  string
+)
+"generation/genr_memo.ml" 166 5629 5647 "generation/genr_memo.ml" 166 5629 5679
+type(
+  Longident.t
+)
+"generation/genr_memo.ml" 167 5683 5689 "generation/genr_memo.ml" 167 5683 5700
+type(
+  Code.clause
+)
+ident(
+  def with_clause "generation/genr_memo.ml" 174 5900 5902 "generation/genr_memo.ml" 174 5900 5948
+)
+"generation/genr_memo.ml" 169 5714 5721 "generation/genr_memo.ml" 169 5714 5734
+type(
+  string -> Code.pattern
+)
+ident(
+  ext_ref Code.make_Constant
+)
+"generation/genr_memo.ml" 169 5714 5735 "generation/genr_memo.ml" 169 5714 5746
+type(
+  string
+)
+"generation/genr_memo.ml" 169 5714 5721 "generation/genr_memo.ml" 169 5714 5746
+call(
+  stack
+)
+type(
+  Code.pattern
+)
+"generation/genr_memo.ml" 170 5748 5760 "generation/genr_memo.ml" 170 5748 5772
+type(
+  Code.lident
+)
+ident(
+  int_ref result_ident "generation/genr_memo.ml" 163 5459 5465 "generation/genr_memo.ml" 163 5459 5477
+)
+"generation/genr_memo.ml" 170 5748 5774 "generation/genr_memo.ml" 170 5748 5776
+type(
+  Code.pattern list
+)
+"generation/genr_memo.ml" 170 5748 5778 "generation/genr_memo.ml" 170 5748 5782
+type(
+  Code.exp
+)
+ident(
+  int_ref body "generation/genr_memo.ml" 162 5434 5448 "generation/genr_memo.ml" 162 5434 5452
+)
+"generation/genr_memo.ml" 172 5800 5810 "generation/genr_memo.ml" 172 5800 5816
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.apply3
+)
+"generation/genr_memo.ml" 172 5800 5817 "generation/genr_memo.ml" 172 5800 5826
+type(
+  Code.lident
+)
+ident(
+  int_ref add_ident "generation/genr_memo.ml" 166 5629 5635 "generation/genr_memo.ml" 166 5629 5644
+)
+"generation/genr_memo.ml" 172 5800 5827 "generation/genr_memo.ml" 172 5800 5830
+type(
+  Code.exp
+)
+ident(
+  int_ref tbl "generation/genr_memo.ml" 164 5499 5505 "generation/genr_memo.ml" 164 5499 5508
+)
+"generation/genr_memo.ml" 172 5800 5831 "generation/genr_memo.ml" 172 5800 5832
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_memo.ml" 162 5434 5455 "generation/genr_memo.ml" 162 5434 5456
+)
+"generation/genr_memo.ml" 172 5800 5843 "generation/genr_memo.ml" 172 5800 5855
+type(
+  Code.ident
+)
+ident(
+  int_ref result_ident "generation/genr_memo.ml" 163 5459 5465 "generation/genr_memo.ml" 163 5459 5477
+)
+"generation/genr_memo.ml" 172 5800 5833 "generation/genr_memo.ml" 172 5800 5856
+type(
+  Code.exp
+)
+"generation/genr_memo.ml" 172 5800 5810 "generation/genr_memo.ml" 172 5800 5856
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_memo.ml" 173 5858 5877 "generation/genr_memo.ml" 173 5858 5889
+type(
+  Code.ident
+)
+ident(
+  int_ref result_ident "generation/genr_memo.ml" 163 5459 5465 "generation/genr_memo.ml" 163 5459 5477
+)
+"generation/genr_memo.ml" 173 5858 5868 "generation/genr_memo.ml" 173 5858 5889
+type(
+  Code.exp
+)
+"generation/genr_memo.ml" 173 5858 5891 "generation/genr_memo.ml" 173 5858 5893
+type(
+  Code.exp list
+)
+"generation/genr_memo.ml" 171 5784 5791 "generation/genr_memo.ml" 173 5858 5894
+type(
+  Code.exp
+)
+"generation/genr_memo.ml" 170 5748 5755 "generation/genr_memo.ml" 173 5858 5895
+type(
+  Code.exp
+)
+"generation/genr_memo.ml" 168 5703 5707 "generation/genr_memo.ml" 173 5858 5896
+type(
+  Code.clause
+)
+"generation/genr_memo.ml" 174 5900 5907 "generation/genr_memo.ml" 174 5900 5913
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.apply2
+)
+"generation/genr_memo.ml" 174 5900 5914 "generation/genr_memo.ml" 174 5900 5924
+type(
+  Code.lident
+)
+ident(
+  int_ref find_ident "generation/genr_memo.ml" 165 5576 5582 "generation/genr_memo.ml" 165 5576 5592
+)
+"generation/genr_memo.ml" 174 5900 5925 "generation/genr_memo.ml" 174 5900 5928
+type(
+  Code.exp
+)
+ident(
+  int_ref tbl "generation/genr_memo.ml" 164 5499 5505 "generation/genr_memo.ml" 164 5499 5508
+)
+"generation/genr_memo.ml" 174 5900 5929 "generation/genr_memo.ml" 174 5900 5930
+type(
+  Code.exp
+)
+ident(
+  int_ref x "generation/genr_memo.ml" 162 5434 5455 "generation/genr_memo.ml" 162 5434 5456
+)
+"generation/genr_memo.ml" 174 5900 5907 "generation/genr_memo.ml" 174 5900 5930
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_memo.ml" 174 5900 5934 "generation/genr_memo.ml" 174 5900 5945
+type(
+  Code.clause
+)
+ident(
+  int_ref with_clause "generation/genr_memo.ml" 167 5683 5689 "generation/genr_memo.ml" 167 5683 5700
+)
+"generation/genr_memo.ml" 174 5900 5932 "generation/genr_memo.ml" 174 5900 5947
+type(
+  Code.clauses
+)
+"generation/genr_memo.ml" 174 5900 5902 "generation/genr_memo.ml" 174 5900 5948
+type(
+  Code.exp
+)
+"generation/genr_memo.ml" 167 5683 5685 "generation/genr_memo.ml" 174 5900 5948
+type(
+  Code.exp
+)
+"generation/genr_memo.ml" 165 5576 5578 "generation/genr_memo.ml" 174 5900 5948
+type(
+  Code.exp
+)
+"generation/genr_memo.ml" 164 5499 5501 "generation/genr_memo.ml" 174 5900 5948
+type(
+  Code.exp
+)
+"generation/genr_memo.ml" 163 5459 5461 "generation/genr_memo.ml" 174 5900 5948
+type(
+  Code.exp
+)
+"generation/genr_memo.ml" 177 5953 5957 "generation/genr_memo.ml" 177 5953 5976
+type(
+  string ->
+  'a ->
+  Otype.constructor_definition ->
+  Genr_base.generated_function list -> Genr_base.generated_function list
+)
+ident(
+  def genr_memo_functions "generation/genr_memo.ml" 191 6509 6537 "generation/genr_memo.ml" 1 0 -1
+)
+"generation/genr_memo.ml" 177 5953 5977 "generation/genr_memo.ml" 177 5953 5982
+type(
+  string
+)
+ident(
+  def tname "generation/genr_memo.ml" 177 5953 5983 "generation/genr_memo.ml" 191 6509 6537
+)
+"generation/genr_memo.ml" 177 5953 5983 "generation/genr_memo.ml" 177 5953 5988
+type(
+  'a
+)
+ident(
+  def ctype "generation/genr_memo.ml" 177 5953 5989 "generation/genr_memo.ml" 191 6509 6537
+)
+"generation/genr_memo.ml" 177 5953 5989 "generation/genr_memo.ml" 177 5953 5993
+type(
+  Otype.constructor_definition
+)
+ident(
+  def cdef "generation/genr_memo.ml" 177 5953 5994 "generation/genr_memo.ml" 191 6509 6537
+)
+"generation/genr_memo.ml" 177 5953 5994 "generation/genr_memo.ml" 177 5953 6013
+type(
+  Genr_base.generated_function list
+)
+ident(
+  def generated_functions "generation/genr_memo.ml" 178 6016 6018 "generation/genr_memo.ml" 191 6509 6537
+)
+"generation/genr_memo.ml" 178 6016 6018 "generation/genr_memo.ml" 178 6016 6032
+type(
+  (Genr_base.generated_function list ->
+   Genr_base.generated_function -> Genr_base.generated_function list) ->
+  Genr_base.generated_function list ->
+  Genr_base.generated_function list -> Genr_base.generated_function list
+)
+ident(
+  ext_ref List.fold_left
+)
+"generation/genr_memo.ml" 179 6033 6042 "generation/genr_memo.ml" 179 6033 6049
+type(
+  Genr_base.generated_function list
+)
+ident(
+  def fun_acc "generation/genr_memo.ml" 179 6033 6050 "generation/genr_memo.ml" 190 6457 6508
+)
+"generation/genr_memo.ml" 179 6033 6050 "generation/genr_memo.ml" 179 6033 6057
+type(
+  Genr_base.generated_function
+)
+ident(
+  def gen_fun "generation/genr_memo.ml" 180 6061 6067 "generation/genr_memo.ml" 190 6457 6508
+)
+"generation/genr_memo.ml" 180 6061 6073 "generation/genr_memo.ml" 180 6061 6080
+type(
+  Genr_base.generated_function
+)
+ident(
+  int_ref gen_fun "generation/genr_memo.ml" 179 6033 6050 "generation/genr_memo.ml" 179 6033 6057
+)
+"generation/genr_memo.ml" 184 6232 6254 "generation/genr_memo.ml" 184 6232 6255
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/genr_memo.ml" 185 6273 6281 "generation/genr_memo.ml" 186 6315 6382
+)
+"generation/genr_memo.ml" 184 6232 6258 "generation/genr_memo.ml" 184 6232 6261
+type(
+  Code.pattern
+)
+ident(
+  def arg "generation/genr_memo.ml" 185 6273 6281 "generation/genr_memo.ml" 186 6315 6382
+)
+"generation/genr_memo.ml" 184 6232 6257 "generation/genr_memo.ml" 184 6232 6262
+type(
+  Code.pattern list
+)
+"generation/genr_memo.ml" 184 6232 6264 "generation/genr_memo.ml" 184 6232 6268
+type(
+  Code.exp
+)
+ident(
+  def body "generation/genr_memo.ml" 185 6273 6281 "generation/genr_memo.ml" 186 6315 6382
+)
+"generation/genr_memo.ml" 184 6232 6240 "generation/genr_memo.ml" 184 6232 6269
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 185 6273 6281 "generation/genr_memo.ml" 185 6273 6294
+type(
+  string ->
+  'a -> Otype.constructor_definition -> Genr_base.generated_function
+)
+ident(
+  int_ref genr_memo_tbl "generation/genr_memo.ml" 117 3565 3569 "generation/genr_memo.ml" 117 3565 3582
+)
+"generation/genr_memo.ml" 185 6273 6295 "generation/genr_memo.ml" 185 6273 6300
+type(
+  string
+)
+ident(
+  int_ref tname "generation/genr_memo.ml" 177 5953 5977 "generation/genr_memo.ml" 177 5953 5982
+)
+"generation/genr_memo.ml" 185 6273 6301 "generation/genr_memo.ml" 185 6273 6306
+type(
+  'a
+)
+ident(
+  int_ref ctype "generation/genr_memo.ml" 177 5953 5983 "generation/genr_memo.ml" 177 5953 5988
+)
+"generation/genr_memo.ml" 185 6273 6307 "generation/genr_memo.ml" 185 6273 6311
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/genr_memo.ml" 177 5953 5989 "generation/genr_memo.ml" 177 5953 5993
+)
+"generation/genr_memo.ml" 185 6273 6281 "generation/genr_memo.ml" 185 6273 6311
+call(
+  stack
+)
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 186 6315 6339 "generation/genr_memo.ml" 186 6315 6340
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_memo.ml" 184 6232 6254 "generation/genr_memo.ml" 184 6232 6255
+)
+"generation/genr_memo.ml" 186 6315 6343 "generation/genr_memo.ml" 186 6315 6346
+type(
+  Code.pattern
+)
+ident(
+  int_ref arg "generation/genr_memo.ml" 184 6232 6258 "generation/genr_memo.ml" 184 6232 6261
+)
+"generation/genr_memo.ml" 186 6315 6342 "generation/genr_memo.ml" 186 6315 6347
+type(
+  Code.pattern list
+)
+"generation/genr_memo.ml" 186 6315 6349 "generation/genr_memo.ml" 186 6315 6358
+type(
+  Code.exp -> Parsetree.generator -> Code.pattern -> Code.exp
+)
+ident(
+  int_ref memo_body "generation/genr_memo.ml" 162 5434 5438 "generation/genr_memo.ml" 162 5434 5447
+)
+"generation/genr_memo.ml" 186 6315 6359 "generation/genr_memo.ml" 186 6315 6363
+type(
+  Code.exp
+)
+ident(
+  int_ref body "generation/genr_memo.ml" 184 6232 6264 "generation/genr_memo.ml" 184 6232 6268
+)
+"generation/genr_memo.ml" 186 6315 6364 "generation/genr_memo.ml" 186 6315 6365
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/genr_memo.ml" 184 6232 6254 "generation/genr_memo.ml" 184 6232 6255
+)
+"generation/genr_memo.ml" 186 6315 6366 "generation/genr_memo.ml" 186 6315 6369
+type(
+  Code.pattern
+)
+ident(
+  int_ref arg "generation/genr_memo.ml" 184 6232 6258 "generation/genr_memo.ml" 184 6232 6261
+)
+"generation/genr_memo.ml" 186 6315 6349 "generation/genr_memo.ml" 186 6315 6369
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"generation/genr_memo.ml" 186 6315 6326 "generation/genr_memo.ml" 186 6315 6370
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 186 6315 6374 "generation/genr_memo.ml" 186 6315 6381
+type(
+  Genr_base.generated_function list
+)
+ident(
+  int_ref fun_acc "generation/genr_memo.ml" 179 6033 6042 "generation/genr_memo.ml" 179 6033 6049
+)
+"generation/genr_memo.ml" 186 6315 6325 "generation/genr_memo.ml" 186 6315 6382
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_memo.ml" 185 6273 6281 "generation/genr_memo.ml" 186 6315 6382
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_memo.ml" 187 6383 6404 "generation/genr_memo.ml" 187 6383 6405
+type(
+  Code.exp
+)
+type(
+  Code.pattern list
+)
+type(
+  Parsetree.generator
+)
+"generation/genr_memo.ml" 187 6383 6391 "generation/genr_memo.ml" 187 6383 6405
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 188 6406 6425 "generation/genr_memo.ml" 188 6406 6426
+type(
+  Code.exp
+)
+type(
+  Code.pattern list
+)
+type(
+  Code.lident
+)
+"generation/genr_memo.ml" 188 6406 6414 "generation/genr_memo.ml" 188 6406 6426
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 187 6383 6391 "generation/genr_memo.ml" 188 6406 6426
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 189 6427 6455 "generation/genr_memo.ml" 189 6427 6456
+type(
+  Code.exp
+)
+type(
+  Code.pattern list
+)
+type(
+  Code.lident
+)
+"generation/genr_memo.ml" 189 6427 6435 "generation/genr_memo.ml" 189 6427 6456
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 187 6383 6391 "generation/genr_memo.ml" 189 6427 6456
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 190 6457 6485 "generation/genr_memo.ml" 190 6457 6486
+type(
+  Code.exp
+)
+type(
+  Code.pattern list
+)
+type(
+  Code.lident
+)
+"generation/genr_memo.ml" 190 6457 6465 "generation/genr_memo.ml" 190 6457 6486
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 187 6383 6391 "generation/genr_memo.ml" 190 6457 6486
+type(
+  Genr_base.generated_function
+)
+"generation/genr_memo.ml" 190 6457 6490 "generation/genr_memo.ml" 190 6457 6497
+type(
+  Genr_base.generated_function
+)
+ident(
+  int_ref gen_fun "generation/genr_memo.ml" 179 6033 6050 "generation/genr_memo.ml" 179 6033 6057
+)
+"generation/genr_memo.ml" 190 6457 6501 "generation/genr_memo.ml" 190 6457 6508
+type(
+  Genr_base.generated_function list
+)
+ident(
+  int_ref fun_acc "generation/genr_memo.ml" 179 6033 6042 "generation/genr_memo.ml" 179 6033 6049
+)
+"generation/genr_memo.ml" 190 6457 6490 "generation/genr_memo.ml" 190 6457 6508
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_memo.ml" 180 6061 6067 "generation/genr_memo.ml" 190 6457 6508
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_memo.ml" 179 6033 6037 "generation/genr_memo.ml" 191 6509 6514
+type(
+  Genr_base.generated_function list ->
+  Genr_base.generated_function -> Genr_base.generated_function list
+)
+"generation/genr_memo.ml" 191 6509 6515 "generation/genr_memo.ml" 191 6509 6517
+type(
+  Genr_base.generated_function list
+)
+"generation/genr_memo.ml" 191 6509 6518 "generation/genr_memo.ml" 191 6509 6537
+type(
+  Genr_base.generated_function list
+)
+ident(
+  int_ref generated_functions "generation/genr_memo.ml" 177 5953 5994 "generation/genr_memo.ml" 177 5953 6013
+)
+"generation/genr_memo.ml" 178 6016 6018 "generation/genr_memo.ml" 191 6509 6537
+call(
+  tail
+)
+type(
+  Genr_base.generated_function list
+)

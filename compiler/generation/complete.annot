@@ -1,0 +1,4219 @@
+"generation/complete.ml" 27 1253 1257 "generation/complete.ml" 27 1253 1269
+type(
+  ('a * 'b * Parsetree.relations * 'c) list ->
+  ('a, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t
+)
+ident(
+  def create_table "generation/complete.ml" 36 1512 1512 "generation/complete.ml" 1 0 -1
+)
+"generation/complete.ml" 27 1253 1270 "generation/complete.ml" 27 1253 1275
+type(
+  ('a * 'b * Parsetree.relations * 'c) list
+)
+ident(
+  def cdefs "generation/complete.ml" 28 1278 1280 "generation/complete.ml" 33 1501 1507
+)
+"generation/complete.ml" 28 1278 1284 "generation/complete.ml" 28 1278 1286
+type(
+  ('a, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t
+)
+ident(
+  def ht "generation/complete.ml" 29 1310 1312 "generation/complete.ml" 33 1501 1507
+)
+"generation/complete.ml" 28 1278 1289 "generation/complete.ml" 28 1278 1303
+type(
+  ?random:bool -> int -> ('a, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"generation/complete.ml" 28 1278 1304 "generation/complete.ml" 28 1278 1306
+type(
+  int
+)
+"generation/complete.ml" 28 1278 1289 "generation/complete.ml" 28 1278 1306
+call(
+  stack
+)
+type(
+  ('a, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t
+)
+"generation/complete.ml" 29 1310 1316 "generation/complete.ml" 29 1310 1325
+type(
+  'a * 'b * Parsetree.relations * 'c -> unit
+)
+ident(
+  def enter_def "generation/complete.ml" 32 1470 1474 "generation/complete.ml" 33 1501 1507
+)
+"generation/complete.ml" 29 1310 1327 "generation/complete.ml" 29 1310 1332
+type(
+  'a
+)
+ident(
+  def gname "generation/complete.ml" 30 1359 1363 "generation/complete.ml" 31 1409 1466
+)
+"generation/complete.ml" 29 1310 1334 "generation/complete.ml" 29 1310 1344
+type(
+  'b
+)
+ident(
+  def core_types "generation/complete.ml" 30 1359 1363 "generation/complete.ml" 31 1409 1466
+)
+"generation/complete.ml" 29 1310 1346 "generation/complete.ml" 29 1310 1350
+type(
+  Parsetree.relations
+)
+ident(
+  def rels "generation/complete.ml" 30 1359 1363 "generation/complete.ml" 31 1409 1466
+)
+"generation/complete.ml" 29 1310 1352 "generation/complete.ml" 29 1310 1355
+type(
+  'c
+)
+ident(
+  def loc "generation/complete.ml" 30 1359 1363 "generation/complete.ml" 31 1409 1466
+)
+"generation/complete.ml" 29 1310 1326 "generation/complete.ml" 29 1310 1356
+type(
+  'a * 'b * Parsetree.relations * 'c
+)
+"generation/complete.ml" 30 1359 1367 "generation/complete.ml" 30 1359 1371
+type(
+  Parsetree.relations
+)
+ident(
+  def rels "generation/complete.ml" 31 1409 1415 "generation/complete.ml" 31 1409 1466
+)
+"generation/complete.ml" 30 1359 1374 "generation/complete.ml" 30 1359 1389
+type(
+  (Parsetree.relation -> int) -> Parsetree.relations -> Parsetree.relations
+)
+ident(
+  ext_ref Genr_base.order_relations
+)
+"generation/complete.ml" 30 1359 1390 "generation/complete.ml" 30 1359 1400
+type(
+  Parsetree.relation -> int
+)
+ident(
+  ext_ref Relation.precedence
+)
+"generation/complete.ml" 30 1359 1401 "generation/complete.ml" 30 1359 1405
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref rels "generation/complete.ml" 29 1310 1346 "generation/complete.ml" 29 1310 1350
+)
+"generation/complete.ml" 30 1359 1374 "generation/complete.ml" 30 1359 1405
+call(
+  stack
+)
+type(
+  Parsetree.relations
+)
+"generation/complete.ml" 31 1409 1415 "generation/complete.ml" 31 1409 1426
+type(
+  ('a, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t ->
+  'a -> 'a * 'b * Parsetree.relations * 'c -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"generation/complete.ml" 31 1409 1427 "generation/complete.ml" 31 1409 1429
+type(
+  ('a, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t
+)
+ident(
+  int_ref ht "generation/complete.ml" 28 1278 1284 "generation/complete.ml" 28 1278 1286
+)
+"generation/complete.ml" 31 1409 1430 "generation/complete.ml" 31 1409 1435
+type(
+  'a
+)
+ident(
+  int_ref gname "generation/complete.ml" 29 1310 1327 "generation/complete.ml" 29 1310 1332
+)
+"generation/complete.ml" 31 1409 1437 "generation/complete.ml" 31 1409 1442
+type(
+  'a
+)
+ident(
+  int_ref gname "generation/complete.ml" 29 1310 1327 "generation/complete.ml" 29 1310 1332
+)
+"generation/complete.ml" 31 1409 1444 "generation/complete.ml" 31 1409 1454
+type(
+  'b
+)
+ident(
+  int_ref core_types "generation/complete.ml" 29 1310 1334 "generation/complete.ml" 29 1310 1344
+)
+"generation/complete.ml" 31 1409 1456 "generation/complete.ml" 31 1409 1460
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref rels "generation/complete.ml" 30 1359 1367 "generation/complete.ml" 30 1359 1371
+)
+"generation/complete.ml" 31 1409 1462 "generation/complete.ml" 31 1409 1465
+type(
+  'c
+)
+ident(
+  int_ref loc "generation/complete.ml" 29 1310 1352 "generation/complete.ml" 29 1310 1355
+)
+"generation/complete.ml" 31 1409 1436 "generation/complete.ml" 31 1409 1466
+type(
+  'a * 'b * Parsetree.relations * 'c
+)
+"generation/complete.ml" 31 1409 1415 "generation/complete.ml" 31 1409 1466
+call(
+  tail
+)
+type(
+  unit
+)
+"generation/complete.ml" 30 1359 1363 "generation/complete.ml" 31 1409 1466
+type(
+  unit
+)
+"generation/complete.ml" 32 1470 1474 "generation/complete.ml" 32 1470 1483
+type(
+  ('a * 'b * Parsetree.relations * 'c -> unit) ->
+  ('a * 'b * Parsetree.relations * 'c) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"generation/complete.ml" 32 1470 1484 "generation/complete.ml" 32 1470 1493
+type(
+  'a * 'b * Parsetree.relations * 'c -> unit
+)
+ident(
+  int_ref enter_def "generation/complete.ml" 29 1310 1316 "generation/complete.ml" 29 1310 1325
+)
+"generation/complete.ml" 32 1470 1494 "generation/complete.ml" 32 1470 1499
+type(
+  ('a * 'b * Parsetree.relations * 'c) list
+)
+ident(
+  int_ref cdefs "generation/complete.ml" 27 1253 1270 "generation/complete.ml" 27 1253 1275
+)
+"generation/complete.ml" 32 1470 1474 "generation/complete.ml" 32 1470 1499
+call(
+  stack
+)
+type(
+  unit
+)
+"generation/complete.ml" 33 1501 1505 "generation/complete.ml" 33 1501 1507
+type(
+  ('a, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t
+)
+ident(
+  int_ref ht "generation/complete.ml" 28 1278 1284 "generation/complete.ml" 28 1278 1286
+)
+"generation/complete.ml" 32 1470 1474 "generation/complete.ml" 33 1501 1507
+type(
+  ('a, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t
+)
+"generation/complete.ml" 29 1310 1312 "generation/complete.ml" 33 1501 1507
+type(
+  ('a, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t
+)
+"generation/complete.ml" 28 1278 1280 "generation/complete.ml" 33 1501 1507
+type(
+  ('a, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t
+)
+"generation/complete.ml" 36 1512 1516 "generation/complete.ml" 36 1512 1524
+type(
+  (string, 'a) Hashtbl.t -> Parsetree.generator -> 'a
+)
+ident(
+  def get_cdef "generation/complete.ml" 39 1580 1580 "generation/complete.ml" 1 0 -1
+)
+"generation/complete.ml" 36 1512 1525 "generation/complete.ml" 36 1512 1527
+type(
+  (string, 'a) Hashtbl.t
+)
+ident(
+  def ht "generation/complete.ml" 36 1512 1528 "generation/complete.ml" 36 1512 1575
+)
+"generation/complete.ml" 36 1512 1528 "generation/complete.ml" 36 1512 1529
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/complete.ml" 36 1512 1532 "generation/complete.ml" 36 1512 1575
+)
+"generation/complete.ml" 36 1512 1532 "generation/complete.ml" 36 1512 1544
+type(
+  (string, 'a) Hashtbl.t -> string -> 'a
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"generation/complete.ml" 36 1512 1545 "generation/complete.ml" 36 1512 1547
+type(
+  (string, 'a) Hashtbl.t
+)
+ident(
+  int_ref ht "generation/complete.ml" 36 1512 1525 "generation/complete.ml" 36 1512 1527
+)
+"generation/complete.ml" 36 1512 1549 "generation/complete.ml" 36 1512 1572
+type(
+  Parsetree.generator -> string
+)
+ident(
+  ext_ref Otype.name_of_generator
+)
+"generation/complete.ml" 36 1512 1573 "generation/complete.ml" 36 1512 1574
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/complete.ml" 36 1512 1528 "generation/complete.ml" 36 1512 1529
+)
+"generation/complete.ml" 36 1512 1548 "generation/complete.ml" 36 1512 1575
+call(
+  stack
+)
+type(
+  string
+)
+"generation/complete.ml" 36 1512 1532 "generation/complete.ml" 36 1512 1575
+call(
+  tail
+)
+type(
+  'a
+)
+"generation/complete.ml" 39 1580 1584 "generation/complete.ml" 39 1580 1597
+type(
+  (string, Otype.constructor_definition) Hashtbl.t ->
+  Parsetree.generator -> Parsetree.relations
+)
+ident(
+  def get_relations "generation/complete.ml" 42 1643 1643 "generation/complete.ml" 1 0 -1
+)
+"generation/complete.ml" 39 1580 1598 "generation/complete.ml" 39 1580 1600
+type(
+  (string, Otype.constructor_definition) Hashtbl.t
+)
+ident(
+  def ht "generation/complete.ml" 39 1580 1601 "generation/complete.ml" 39 1580 1638
+)
+"generation/complete.ml" 39 1580 1601 "generation/complete.ml" 39 1580 1602
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/complete.ml" 39 1580 1605 "generation/complete.ml" 39 1580 1638
+)
+"generation/complete.ml" 39 1580 1605 "generation/complete.ml" 39 1580 1622
+type(
+  Otype.constructor_definition -> Parsetree.relations
+)
+ident(
+  ext_ref Otype.relations_of_cdef
+)
+"generation/complete.ml" 39 1580 1624 "generation/complete.ml" 39 1580 1632
+type(
+  (string, Otype.constructor_definition) Hashtbl.t ->
+  Parsetree.generator -> Otype.constructor_definition
+)
+ident(
+  int_ref get_cdef "generation/complete.ml" 36 1512 1516 "generation/complete.ml" 36 1512 1524
+)
+"generation/complete.ml" 39 1580 1633 "generation/complete.ml" 39 1580 1635
+type(
+  (string, Otype.constructor_definition) Hashtbl.t
+)
+ident(
+  int_ref ht "generation/complete.ml" 39 1580 1598 "generation/complete.ml" 39 1580 1600
+)
+"generation/complete.ml" 39 1580 1636 "generation/complete.ml" 39 1580 1637
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/complete.ml" 39 1580 1601 "generation/complete.ml" 39 1580 1602
+)
+"generation/complete.ml" 39 1580 1623 "generation/complete.ml" 39 1580 1638
+call(
+  stack
+)
+type(
+  Otype.constructor_definition
+)
+"generation/complete.ml" 39 1580 1605 "generation/complete.ml" 39 1580 1638
+call(
+  tail
+)
+type(
+  Parsetree.relations
+)
+"generation/complete.ml" 42 1643 1647 "generation/complete.ml" 42 1643 1655
+type(
+  string ->
+  Parsetree.relation -> Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  def add_uniq "generation/complete.ml" 65 2431 2431 "generation/complete.ml" 1 0 -1
+)
+"generation/complete.ml" 43 1658 1664 "generation/complete.ml" 43 1658 1669
+type(
+  string
+)
+ident(
+  def gname "generation/complete.ml" 43 1658 1670 "generation/complete.ml" 57 2140 2199
+)
+"generation/complete.ml" 43 1658 1670 "generation/complete.ml" 43 1658 1672
+type(
+  Parsetree.relation
+)
+ident(
+  def r1 "generation/complete.ml" 44 1676 1680 "generation/complete.ml" 57 2140 2199
+)
+"generation/complete.ml" 44 1676 1684 "generation/complete.ml" 44 1676 1694
+type(
+  unit -> unit
+)
+ident(
+  def print_rule "generation/complete.ml" 47 1812 1816 "generation/complete.ml" 57 2140 2199
+)
+"generation/complete.ml" 44 1676 1695 "generation/complete.ml" 44 1676 1697
+type(
+  unit
+)
+"generation/complete.ml" 45 1700 1706 "generation/complete.ml" 45 1700 1733
+type(
+  (string ->
+   (Format.formatter -> Parsetree.relation -> unit) ->
+   Parsetree.relation -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Parsetree.relation -> unit) ->
+  Parsetree.relation -> unit
+)
+ident(
+  ext_ref Configuration.verbose_print
+)
+"generation/complete.ml" 45 1700 1734 "generation/complete.ml" 45 1700 1770
+type(
+  (string ->
+   (Format.formatter -> Parsetree.relation -> unit) ->
+   Parsetree.relation -> unit, Format.formatter, unit)
+  format
+)
+"generation/complete.ml" 46 1771 1779 "generation/complete.ml" 46 1771 1784
+type(
+  string
+)
+ident(
+  int_ref gname "generation/complete.ml" 43 1658 1664 "generation/complete.ml" 43 1658 1669
+)
+"generation/complete.ml" 46 1771 1785 "generation/complete.ml" 46 1771 1805
+type(
+  Format.formatter -> Parsetree.relation -> unit
+)
+ident(
+  ext_ref Pr_ocaml.pr_relation
+)
+"generation/complete.ml" 46 1771 1806 "generation/complete.ml" 46 1771 1808
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r1 "generation/complete.ml" 43 1658 1670 "generation/complete.ml" 43 1658 1672
+)
+"generation/complete.ml" 45 1700 1706 "generation/complete.ml" 46 1771 1808
+call(
+  tail
+)
+type(
+  unit
+)
+"generation/complete.ml" 47 1812 1820 "generation/complete.ml" 47 1812 1829
+type(
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  def print_add "generation/complete.ml" 48 1860 1864 "generation/complete.ml" 57 2140 2199
+)
+"generation/complete.ml" 47 1812 1830 "generation/complete.ml" 47 1812 1831
+type(
+  Parsetree.relation list
+)
+ident(
+  def l "generation/complete.ml" 47 1812 1834 "generation/complete.ml" 47 1812 1856
+)
+"generation/complete.ml" 47 1812 1834 "generation/complete.ml" 47 1812 1844
+type(
+  unit -> unit
+)
+ident(
+  int_ref print_rule "generation/complete.ml" 44 1676 1684 "generation/complete.ml" 44 1676 1694
+)
+"generation/complete.ml" 47 1812 1845 "generation/complete.ml" 47 1812 1847
+type(
+  unit
+)
+"generation/complete.ml" 47 1812 1834 "generation/complete.ml" 47 1812 1847
+call(
+  stack
+)
+type(
+  unit
+)
+"generation/complete.ml" 47 1812 1849 "generation/complete.ml" 47 1812 1851
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r1 "generation/complete.ml" 43 1658 1670 "generation/complete.ml" 43 1658 1672
+)
+"generation/complete.ml" 47 1812 1855 "generation/complete.ml" 47 1812 1856
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref l "generation/complete.ml" 47 1812 1830 "generation/complete.ml" 47 1812 1831
+)
+"generation/complete.ml" 47 1812 1849 "generation/complete.ml" 47 1812 1856
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 47 1812 1834 "generation/complete.ml" 47 1812 1856
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 48 1860 1872 "generation/complete.ml" 48 1860 1882
+type(
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  def sorted_add "generation/complete.ml" 48 1860 1864 "generation/complete.ml" 57 2140 2199
+)
+"generation/complete.ml" 49 1894 1902 "generation/complete.ml" 49 1894 1904
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 49 1894 1908 "generation/complete.ml" 49 1894 1917
+type(
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  int_ref print_add "generation/complete.ml" 47 1812 1820 "generation/complete.ml" 47 1812 1829
+)
+"generation/complete.ml" 49 1894 1918 "generation/complete.ml" 49 1894 1920
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 49 1894 1908 "generation/complete.ml" 49 1894 1920
+call(
+  tail
+)
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 50 1921 1930 "generation/complete.ml" 50 1921 1932
+type(
+  Parsetree.relation
+)
+ident(
+  def r2 "generation/complete.ml" 51 1948 1958 "generation/complete.ml" 56 2123 2136
+)
+"generation/complete.ml" 50 1921 1936 "generation/complete.ml" 50 1921 1938
+type(
+  Parsetree.relation list
+)
+ident(
+  def rs "generation/complete.ml" 51 1948 1958 "generation/complete.ml" 56 2123 2136
+)
+"generation/complete.ml" 50 1921 1929 "generation/complete.ml" 50 1921 1939
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 50 1921 1943 "generation/complete.ml" 50 1921 1944
+ident(
+  def l "generation/complete.ml" 51 1948 1958 "generation/complete.ml" 56 2123 2136
+)
+"generation/complete.ml" 50 1921 1929 "generation/complete.ml" 50 1921 1944
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 52 1964 1982 "generation/complete.ml" 52 1964 1998
+type(
+  (Parsetree.relation -> int) ->
+  Parsetree.relation -> Parsetree.relation -> int
+)
+ident(
+  ext_ref Relation.compare_relation
+)
+"generation/complete.ml" 52 1964 1999 "generation/complete.ml" 52 1964 2009
+type(
+  Parsetree.relation -> int
+)
+ident(
+  ext_ref Relation.precedence
+)
+"generation/complete.ml" 52 1964 2010 "generation/complete.ml" 52 1964 2012
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r1 "generation/complete.ml" 43 1658 1670 "generation/complete.ml" 43 1658 1672
+)
+"generation/complete.ml" 52 1964 2013 "generation/complete.ml" 52 1964 2015
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r2 "generation/complete.ml" 50 1921 1930 "generation/complete.ml" 50 1921 1932
+)
+"generation/complete.ml" 52 1964 1982 "generation/complete.ml" 52 1964 2015
+call(
+  stack
+)
+type(
+  int
+)
+"generation/complete.ml" 53 2021 2035 "generation/complete.ml" 53 2021 2036
+type(
+  int
+)
+ident(
+  def n "generation/complete.ml" 53 2021 2042 "generation/complete.ml" 53 2021 2070
+)
+"generation/complete.ml" 53 2021 2042 "generation/complete.ml" 53 2021 2043
+type(
+  int
+)
+ident(
+  int_ref n "generation/complete.ml" 53 2021 2035 "generation/complete.ml" 53 2021 2036
+)
+"generation/complete.ml" 53 2021 2044 "generation/complete.ml" 53 2021 2045
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"generation/complete.ml" 53 2021 2046 "generation/complete.ml" 53 2021 2047
+type(
+  int
+)
+"generation/complete.ml" 53 2021 2042 "generation/complete.ml" 53 2021 2047
+type(
+  bool
+)
+"generation/complete.ml" 53 2021 2051 "generation/complete.ml" 53 2021 2053
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r2 "generation/complete.ml" 50 1921 1930 "generation/complete.ml" 50 1921 1932
+)
+"generation/complete.ml" 53 2021 2057 "generation/complete.ml" 53 2021 2067
+type(
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  int_ref sorted_add "generation/complete.ml" 48 1860 1872 "generation/complete.ml" 48 1860 1882
+)
+"generation/complete.ml" 53 2021 2068 "generation/complete.ml" 53 2021 2070
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rs "generation/complete.ml" 50 1921 1936 "generation/complete.ml" 50 1921 1938
+)
+"generation/complete.ml" 53 2021 2057 "generation/complete.ml" 53 2021 2070
+call(
+  stack
+)
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 53 2021 2051 "generation/complete.ml" 53 2021 2070
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 54 2071 2085 "generation/complete.ml" 54 2071 2086
+type(
+  int
+)
+"generation/complete.ml" 54 2071 2090 "generation/complete.ml" 54 2071 2091
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref l "generation/complete.ml" 50 1921 1929 "generation/complete.ml" 50 1921 1944
+)
+"generation/complete.ml" 55 2092 2106 "generation/complete.ml" 55 2092 2107
+type(
+  int
+)
+"generation/complete.ml" 55 2092 2111 "generation/complete.ml" 55 2092 2120
+type(
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  int_ref print_add "generation/complete.ml" 47 1812 1820 "generation/complete.ml" 47 1812 1829
+)
+"generation/complete.ml" 55 2092 2121 "generation/complete.ml" 55 2092 2122
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref l "generation/complete.ml" 50 1921 1929 "generation/complete.ml" 50 1921 1944
+)
+"generation/complete.ml" 55 2092 2111 "generation/complete.ml" 55 2092 2122
+call(
+  tail
+)
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 51 1948 1958 "generation/complete.ml" 56 2123 2136
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 48 1860 1885 "generation/complete.ml" 56 2123 2136
+type(
+  Parsetree.relation list -> Parsetree.relation list
+)
+"generation/complete.ml" 57 2140 2147 "generation/complete.ml" 57 2140 2165
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Genr_base.get_user_rel_order
+)
+"generation/complete.ml" 57 2140 2166 "generation/complete.ml" 57 2140 2168
+type(
+  unit
+)
+"generation/complete.ml" 57 2140 2147 "generation/complete.ml" 57 2140 2168
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/complete.ml" 57 2140 2174 "generation/complete.ml" 57 2140 2183
+type(
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  int_ref print_add "generation/complete.ml" 47 1812 1820 "generation/complete.ml" 47 1812 1829
+)
+"generation/complete.ml" 57 2140 2189 "generation/complete.ml" 57 2140 2199
+type(
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  int_ref sorted_add "generation/complete.ml" 48 1860 1872 "generation/complete.ml" 48 1860 1882
+)
+"generation/complete.ml" 57 2140 2144 "generation/complete.ml" 57 2140 2199
+type(
+  Parsetree.relation list -> Parsetree.relation list
+)
+"generation/complete.ml" 48 1860 1864 "generation/complete.ml" 57 2140 2199
+type(
+  Parsetree.relation list -> Parsetree.relation list
+)
+"generation/complete.ml" 47 1812 1816 "generation/complete.ml" 57 2140 2199
+type(
+  Parsetree.relation list -> Parsetree.relation list
+)
+"generation/complete.ml" 44 1676 1680 "generation/complete.ml" 57 2140 2199
+type(
+  Parsetree.relation list -> Parsetree.relation list
+)
+"generation/complete.ml" 43 1658 1660 "generation/complete.ml" 57 2140 2199
+type(
+  string ->
+  Parsetree.relation -> Parsetree.relation list -> Parsetree.relation list
+)
+"generation/complete.ml" 65 2431 2439 "generation/complete.ml" 65 2431 2447
+type(
+  string ->
+  Parsetree.relation list ->
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  def add_rels "generation/complete.ml" 65 2431 2431 "generation/complete.ml" 1 0 -1
+)
+"generation/complete.ml" 65 2431 2448 "generation/complete.ml" 65 2431 2453
+type(
+  string
+)
+ident(
+  def gname "generation/complete.ml" 65 2431 2454 "generation/complete.ml" 68 2491 2547
+)
+"generation/complete.ml" 65 2431 2454 "generation/complete.ml" 65 2431 2456
+type(
+  Parsetree.relation list
+)
+ident(
+  def l1 "generation/complete.ml" 65 2431 2457 "generation/complete.ml" 68 2491 2547
+)
+"generation/complete.ml" 65 2431 2457 "generation/complete.ml" 65 2431 2459
+type(
+  Parsetree.relation list
+)
+ident(
+  def l2 "generation/complete.ml" 66 2462 2464 "generation/complete.ml" 68 2491 2547
+)
+"generation/complete.ml" 66 2462 2470 "generation/complete.ml" 66 2462 2472
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref l1 "generation/complete.ml" 65 2431 2454 "generation/complete.ml" 65 2431 2456
+)
+"generation/complete.ml" 67 2478 2482 "generation/complete.ml" 67 2478 2484
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 67 2478 2488 "generation/complete.ml" 67 2478 2490
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref l2 "generation/complete.ml" 65 2431 2457 "generation/complete.ml" 65 2431 2459
+)
+"generation/complete.ml" 68 2491 2495 "generation/complete.ml" 68 2491 2497
+type(
+  Parsetree.relation
+)
+ident(
+  def r1 "generation/complete.ml" 68 2491 2507 "generation/complete.ml" 68 2491 2547
+)
+"generation/complete.ml" 68 2491 2501 "generation/complete.ml" 68 2491 2503
+type(
+  Parsetree.relation list
+)
+ident(
+  def m1 "generation/complete.ml" 68 2491 2507 "generation/complete.ml" 68 2491 2547
+)
+"generation/complete.ml" 68 2491 2495 "generation/complete.ml" 68 2491 2503
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 68 2491 2507 "generation/complete.ml" 68 2491 2515
+type(
+  string ->
+  Parsetree.relation list ->
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  int_ref add_rels "generation/complete.ml" 65 2431 2439 "generation/complete.ml" 65 2431 2447
+)
+"generation/complete.ml" 68 2491 2516 "generation/complete.ml" 68 2491 2521
+type(
+  string
+)
+ident(
+  int_ref gname "generation/complete.ml" 65 2431 2448 "generation/complete.ml" 65 2431 2453
+)
+"generation/complete.ml" 68 2491 2522 "generation/complete.ml" 68 2491 2524
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref m1 "generation/complete.ml" 68 2491 2501 "generation/complete.ml" 68 2491 2503
+)
+"generation/complete.ml" 68 2491 2526 "generation/complete.ml" 68 2491 2534
+type(
+  string ->
+  Parsetree.relation -> Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  int_ref add_uniq "generation/complete.ml" 42 1643 1647 "generation/complete.ml" 42 1643 1655
+)
+"generation/complete.ml" 68 2491 2535 "generation/complete.ml" 68 2491 2540
+type(
+  string
+)
+ident(
+  int_ref gname "generation/complete.ml" 65 2431 2448 "generation/complete.ml" 65 2431 2453
+)
+"generation/complete.ml" 68 2491 2541 "generation/complete.ml" 68 2491 2543
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref r1 "generation/complete.ml" 68 2491 2495 "generation/complete.ml" 68 2491 2497
+)
+"generation/complete.ml" 68 2491 2544 "generation/complete.ml" 68 2491 2546
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref l2 "generation/complete.ml" 65 2431 2457 "generation/complete.ml" 65 2431 2459
+)
+"generation/complete.ml" 68 2491 2525 "generation/complete.ml" 68 2491 2547
+call(
+  stack
+)
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 68 2491 2507 "generation/complete.ml" 68 2491 2547
+call(
+  tail
+)
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 66 2462 2464 "generation/complete.ml" 68 2491 2547
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 71 2552 2556 "generation/complete.ml" 71 2552 2577
+type(
+  string ->
+  Parsetree.relation list -> Parsetree.relations -> Parsetree.relations
+)
+ident(
+  def add_rels_to_relations "generation/complete.ml" 84 2991 2991 "generation/complete.ml" 1 0 -1
+)
+"generation/complete.ml" 71 2552 2578 "generation/complete.ml" 71 2552 2583
+type(
+  string
+)
+ident(
+  def gname "generation/complete.ml" 71 2552 2584 "generation/complete.ml" 78 2807 2871
+)
+"generation/complete.ml" 71 2552 2584 "generation/complete.ml" 71 2552 2592
+type(
+  Parsetree.relation list
+)
+ident(
+  def new_rels "generation/complete.ml" 71 2552 2593 "generation/complete.ml" 78 2807 2871
+)
+"generation/complete.ml" 71 2552 2593 "generation/complete.ml" 71 2552 2602
+type(
+  Parsetree.relations
+)
+ident(
+  def relations "generation/complete.ml" 72 2605 2607 "generation/complete.ml" 78 2807 2871
+)
+"generation/complete.ml" 72 2605 2613 "generation/complete.ml" 72 2605 2622
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "generation/complete.ml" 71 2552 2593 "generation/complete.ml" 71 2552 2602
+)
+"generation/complete.ml" 72 2605 2613 "generation/complete.ml" 72 2605 2633
+type(
+  Parsetree.relations_desc
+)
+"generation/complete.ml" 73 2639 2643 "generation/complete.ml" 73 2639 2653
+type(
+  Parsetree.relations_desc
+)
+"generation/complete.ml" 73 2639 2672 "generation/complete.ml" 73 2639 2673
+type(
+  Parsetree.relations
+)
+"generation/complete.ml" 73 2639 2656 "generation/complete.ml" 73 2639 2673
+type(
+  Parsetree.relations_desc
+)
+"generation/complete.ml" 73 2639 2643 "generation/complete.ml" 73 2639 2673
+type(
+  Parsetree.relations_desc
+)
+"generation/complete.ml" 74 2677 2683 "generation/complete.ml" 74 2677 2692
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "generation/complete.ml" 71 2552 2593 "generation/complete.ml" 71 2552 2602
+)
+"generation/complete.ml" 75 2698 2731 "generation/complete.ml" 75 2698 2739
+type(
+  string ->
+  Parsetree.relation list ->
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  int_ref add_rels "generation/complete.ml" 65 2431 2439 "generation/complete.ml" 65 2431 2447
+)
+"generation/complete.ml" 75 2698 2740 "generation/complete.ml" 75 2698 2745
+type(
+  string
+)
+ident(
+  int_ref gname "generation/complete.ml" 71 2552 2578 "generation/complete.ml" 71 2552 2583
+)
+"generation/complete.ml" 75 2698 2746 "generation/complete.ml" 75 2698 2754
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref new_rels "generation/complete.ml" 71 2552 2584 "generation/complete.ml" 71 2552 2592
+)
+"generation/complete.ml" 75 2698 2755 "generation/complete.ml" 75 2698 2757
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 75 2698 2730 "generation/complete.ml" 75 2698 2758
+call(
+  stack
+)
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 75 2698 2717 "generation/complete.ml" 75 2698 2758
+type(
+  Parsetree.relations_desc
+)
+"generation/complete.ml" 74 2677 2681 "generation/complete.ml" 75 2698 2760
+type(
+  Parsetree.relations
+)
+"generation/complete.ml" 76 2761 2778 "generation/complete.ml" 76 2761 2782
+type(
+  Parsetree.relation list
+)
+ident(
+  def rels "generation/complete.ml" 77 2786 2790 "generation/complete.ml" 78 2807 2871
+)
+"generation/complete.ml" 76 2761 2765 "generation/complete.ml" 76 2761 2782
+type(
+  Parsetree.relations_desc
+)
+"generation/complete.ml" 77 2786 2792 "generation/complete.ml" 77 2786 2801
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "generation/complete.ml" 71 2552 2593 "generation/complete.ml" 71 2552 2602
+)
+"generation/complete.ml" 78 2807 2840 "generation/complete.ml" 78 2807 2848
+type(
+  string ->
+  Parsetree.relation list ->
+  Parsetree.relation list -> Parsetree.relation list
+)
+ident(
+  int_ref add_rels "generation/complete.ml" 65 2431 2439 "generation/complete.ml" 65 2431 2447
+)
+"generation/complete.ml" 78 2807 2849 "generation/complete.ml" 78 2807 2854
+type(
+  string
+)
+ident(
+  int_ref gname "generation/complete.ml" 71 2552 2578 "generation/complete.ml" 71 2552 2583
+)
+"generation/complete.ml" 78 2807 2855 "generation/complete.ml" 78 2807 2863
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref new_rels "generation/complete.ml" 71 2552 2584 "generation/complete.ml" 71 2552 2592
+)
+"generation/complete.ml" 78 2807 2864 "generation/complete.ml" 78 2807 2868
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rels "generation/complete.ml" 76 2761 2778 "generation/complete.ml" 76 2761 2782
+)
+"generation/complete.ml" 78 2807 2839 "generation/complete.ml" 78 2807 2869
+call(
+  stack
+)
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 78 2807 2826 "generation/complete.ml" 78 2807 2869
+type(
+  Parsetree.relations_desc
+)
+"generation/complete.ml" 77 2786 2790 "generation/complete.ml" 78 2807 2871
+type(
+  Parsetree.relations
+)
+"generation/complete.ml" 72 2605 2607 "generation/complete.ml" 78 2807 2871
+type(
+  Parsetree.relations
+)
+"generation/complete.ml" 84 2991 2995 "generation/complete.ml" 84 2991 3007
+type(
+  (string, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t ->
+  Parsetree.generator -> Parsetree.rel_desc list -> unit
+)
+ident(
+  def update_props "generation/complete.ml" 97 3498 3498 "generation/complete.ml" 1 0 -1
+)
+"generation/complete.ml" 84 2991 3008 "generation/complete.ml" 84 2991 3010
+type(
+  (string, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t
+)
+ident(
+  def ht "generation/complete.ml" 84 2991 3011 "generation/complete.ml" 91 3312 3358
+)
+"generation/complete.ml" 84 2991 3011 "generation/complete.ml" 84 2991 3012
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/complete.ml" 84 2991 3013 "generation/complete.ml" 91 3312 3358
+)
+"generation/complete.ml" 84 2991 3013 "generation/complete.ml" 84 2991 3022
+type(
+  Parsetree.rel_desc list
+)
+ident(
+  def new_props "generation/complete.ml" 85 3025 3027 "generation/complete.ml" 91 3312 3358
+)
+"generation/complete.ml" 85 3025 3031 "generation/complete.ml" 85 3025 3044
+type(
+  Parsetree.rel_desc -> Parsetree.relation
+)
+ident(
+  def add_dummy_loc "generation/complete.ml" 87 3107 3109 "generation/complete.ml" 91 3312 3358
+)
+"generation/complete.ml" 85 3025 3045 "generation/complete.ml" 85 3025 3049
+type(
+  Parsetree.rel_desc
+)
+ident(
+  def prop "generation/complete.ml" 86 3052 3056 "generation/complete.ml" 86 3052 3103
+)
+"generation/complete.ml" 86 3052 3070 "generation/complete.ml" 86 3052 3074
+type(
+  Parsetree.rel_desc
+)
+ident(
+  int_ref prop "generation/complete.ml" 85 3025 3045 "generation/complete.ml" 85 3025 3049
+)
+"generation/complete.ml" 86 3052 3087 "generation/complete.ml" 86 3052 3100
+type(
+  Location.t
+)
+ident(
+  ext_ref Location.none
+)
+"generation/complete.ml" 86 3052 3056 "generation/complete.ml" 86 3052 3103
+type(
+  Parsetree.relation
+)
+"generation/complete.ml" 87 3107 3113 "generation/complete.ml" 87 3107 3121
+type(
+  Parsetree.relation list
+)
+ident(
+  def new_rels "generation/complete.ml" 88 3160 3162 "generation/complete.ml" 91 3312 3358
+)
+"generation/complete.ml" 87 3107 3124 "generation/complete.ml" 87 3107 3132
+type(
+  (Parsetree.rel_desc -> Parsetree.relation) ->
+  Parsetree.rel_desc list -> Parsetree.relation list
+)
+ident(
+  ext_ref List.map
+)
+"generation/complete.ml" 87 3107 3133 "generation/complete.ml" 87 3107 3146
+type(
+  Parsetree.rel_desc -> Parsetree.relation
+)
+ident(
+  int_ref add_dummy_loc "generation/complete.ml" 85 3025 3031 "generation/complete.ml" 85 3025 3044
+)
+"generation/complete.ml" 87 3107 3147 "generation/complete.ml" 87 3107 3156
+type(
+  Parsetree.rel_desc list
+)
+ident(
+  int_ref new_props "generation/complete.ml" 84 2991 3013 "generation/complete.ml" 84 2991 3022
+)
+"generation/complete.ml" 87 3107 3124 "generation/complete.ml" 87 3107 3156
+call(
+  stack
+)
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 88 3160 3166 "generation/complete.ml" 88 3160 3171
+type(
+  string
+)
+ident(
+  def gname "generation/complete.ml" 89 3203 3205 "generation/complete.ml" 91 3312 3358
+)
+"generation/complete.ml" 88 3160 3174 "generation/complete.ml" 88 3160 3197
+type(
+  Parsetree.generator -> string
+)
+ident(
+  ext_ref Otype.name_of_generator
+)
+"generation/complete.ml" 88 3160 3198 "generation/complete.ml" 88 3160 3199
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/complete.ml" 84 2991 3011 "generation/complete.ml" 84 2991 3012
+)
+"generation/complete.ml" 88 3160 3174 "generation/complete.ml" 88 3160 3199
+call(
+  stack
+)
+type(
+  string
+)
+"generation/complete.ml" 89 3203 3209 "generation/complete.ml" 89 3203 3210
+type(
+  'a
+)
+ident(
+  def s "generation/complete.ml" 90 3254 3256 "generation/complete.ml" 91 3312 3358
+)
+"generation/complete.ml" 89 3203 3212 "generation/complete.ml" 89 3203 3215
+type(
+  'b
+)
+ident(
+  def cts "generation/complete.ml" 90 3254 3256 "generation/complete.ml" 91 3312 3358
+)
+"generation/complete.ml" 89 3203 3217 "generation/complete.ml" 89 3203 3221
+type(
+  Parsetree.relations
+)
+ident(
+  def rels "generation/complete.ml" 90 3254 3256 "generation/complete.ml" 91 3312 3358
+)
+"generation/complete.ml" 89 3203 3223 "generation/complete.ml" 89 3203 3226
+type(
+  'c
+)
+ident(
+  def loc "generation/complete.ml" 90 3254 3256 "generation/complete.ml" 91 3312 3358
+)
+"generation/complete.ml" 89 3203 3209 "generation/complete.ml" 89 3203 3226
+type(
+  'a * 'b * Parsetree.relations * 'c
+)
+"generation/complete.ml" 89 3203 3229 "generation/complete.ml" 89 3203 3241
+type(
+  (string, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t ->
+  string -> 'a * 'b * Parsetree.relations * 'c
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"generation/complete.ml" 89 3203 3242 "generation/complete.ml" 89 3203 3244
+type(
+  (string, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t
+)
+ident(
+  int_ref ht "generation/complete.ml" 84 2991 3008 "generation/complete.ml" 84 2991 3010
+)
+"generation/complete.ml" 89 3203 3245 "generation/complete.ml" 89 3203 3250
+type(
+  string
+)
+ident(
+  int_ref gname "generation/complete.ml" 88 3160 3166 "generation/complete.ml" 88 3160 3171
+)
+"generation/complete.ml" 89 3203 3229 "generation/complete.ml" 89 3203 3250
+call(
+  stack
+)
+type(
+  'a * 'b * Parsetree.relations * 'c
+)
+"generation/complete.ml" 90 3254 3260 "generation/complete.ml" 90 3254 3264
+type(
+  Parsetree.relations
+)
+ident(
+  def rels "generation/complete.ml" 91 3312 3314 "generation/complete.ml" 91 3312 3358
+)
+"generation/complete.ml" 90 3254 3267 "generation/complete.ml" 90 3254 3288
+type(
+  string ->
+  Parsetree.relation list -> Parsetree.relations -> Parsetree.relations
+)
+ident(
+  int_ref add_rels_to_relations "generation/complete.ml" 71 2552 2556 "generation/complete.ml" 71 2552 2577
+)
+"generation/complete.ml" 90 3254 3289 "generation/complete.ml" 90 3254 3294
+type(
+  string
+)
+ident(
+  int_ref gname "generation/complete.ml" 88 3160 3166 "generation/complete.ml" 88 3160 3171
+)
+"generation/complete.ml" 90 3254 3295 "generation/complete.ml" 90 3254 3303
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref new_rels "generation/complete.ml" 87 3107 3113 "generation/complete.ml" 87 3107 3121
+)
+"generation/complete.ml" 90 3254 3304 "generation/complete.ml" 90 3254 3308
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref rels "generation/complete.ml" 89 3203 3217 "generation/complete.ml" 89 3203 3221
+)
+"generation/complete.ml" 90 3254 3267 "generation/complete.ml" 90 3254 3308
+call(
+  stack
+)
+type(
+  Parsetree.relations
+)
+"generation/complete.ml" 91 3312 3314 "generation/complete.ml" 91 3312 3329
+type(
+  (string, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t ->
+  string -> 'a * 'b * Parsetree.relations * 'c -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"generation/complete.ml" 91 3312 3330 "generation/complete.ml" 91 3312 3332
+type(
+  (string, 'a * 'b * Parsetree.relations * 'c) Hashtbl.t
+)
+ident(
+  int_ref ht "generation/complete.ml" 84 2991 3008 "generation/complete.ml" 84 2991 3010
+)
+"generation/complete.ml" 91 3312 3333 "generation/complete.ml" 91 3312 3338
+type(
+  string
+)
+ident(
+  int_ref gname "generation/complete.ml" 88 3160 3166 "generation/complete.ml" 88 3160 3171
+)
+"generation/complete.ml" 91 3312 3340 "generation/complete.ml" 91 3312 3341
+type(
+  'a
+)
+ident(
+  int_ref s "generation/complete.ml" 89 3203 3209 "generation/complete.ml" 89 3203 3210
+)
+"generation/complete.ml" 91 3312 3343 "generation/complete.ml" 91 3312 3346
+type(
+  'b
+)
+ident(
+  int_ref cts "generation/complete.ml" 89 3203 3212 "generation/complete.ml" 89 3203 3215
+)
+"generation/complete.ml" 91 3312 3348 "generation/complete.ml" 91 3312 3352
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref rels "generation/complete.ml" 90 3254 3260 "generation/complete.ml" 90 3254 3264
+)
+"generation/complete.ml" 91 3312 3354 "generation/complete.ml" 91 3312 3357
+type(
+  'c
+)
+ident(
+  int_ref loc "generation/complete.ml" 89 3203 3223 "generation/complete.ml" 89 3203 3226
+)
+"generation/complete.ml" 91 3312 3339 "generation/complete.ml" 91 3312 3358
+type(
+  'a * 'b * Parsetree.relations * 'c
+)
+"generation/complete.ml" 91 3312 3314 "generation/complete.ml" 91 3312 3358
+call(
+  tail
+)
+type(
+  unit
+)
+"generation/complete.ml" 90 3254 3256 "generation/complete.ml" 91 3312 3358
+type(
+  unit
+)
+"generation/complete.ml" 89 3203 3205 "generation/complete.ml" 91 3312 3358
+type(
+  unit
+)
+"generation/complete.ml" 88 3160 3162 "generation/complete.ml" 91 3312 3358
+type(
+  unit
+)
+"generation/complete.ml" 87 3107 3109 "generation/complete.ml" 91 3312 3358
+type(
+  unit
+)
+"generation/complete.ml" 85 3025 3027 "generation/complete.ml" 91 3312 3358
+type(
+  unit
+)
+"generation/complete.ml" 97 3498 3502 "generation/complete.ml" 97 3498 3514
+type(
+  (string, Otype.constructor_definition) Hashtbl.t ->
+  Otype.constructor_definition -> Parsetree.relation -> unit
+)
+ident(
+  def update_by_ap "generation/complete.ml" 206 7444 7444 "generation/complete.ml" 1 0 -1
+)
+"generation/complete.ml" 97 3498 3515 "generation/complete.ml" 97 3498 3517
+type(
+  (string, Otype.constructor_definition) Hashtbl.t
+)
+ident(
+  def ht "generation/complete.ml" 97 3498 3518 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 97 3498 3518 "generation/complete.ml" 97 3498 3522
+type(
+  Otype.constructor_definition
+)
+ident(
+  def cdef "generation/complete.ml" 99 3526 3528 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 99 3526 3532 "generation/complete.ml" 99 3526 3533
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/complete.ml" 100 3562 3564 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 99 3526 3536 "generation/complete.ml" 99 3526 3553
+type(
+  Otype.constructor_definition -> Parsetree.generator
+)
+ident(
+  ext_ref Otype.generator_of_cdef
+)
+"generation/complete.ml" 99 3526 3554 "generation/complete.ml" 99 3526 3558
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/complete.ml" 97 3498 3518 "generation/complete.ml" 97 3498 3522
+)
+"generation/complete.ml" 99 3526 3536 "generation/complete.ml" 99 3526 3558
+call(
+  stack
+)
+type(
+  Parsetree.generator
+)
+"generation/complete.ml" 100 3562 3568 "generation/complete.ml" 100 3562 3577
+type(
+  Parsetree.relations
+)
+ident(
+  def relations "generation/complete.ml" 101 3606 3608 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 100 3562 3580 "generation/complete.ml" 100 3562 3597
+type(
+  Otype.constructor_definition -> Parsetree.relations
+)
+ident(
+  ext_ref Otype.relations_of_cdef
+)
+"generation/complete.ml" 100 3562 3598 "generation/complete.ml" 100 3562 3602
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/complete.ml" 97 3498 3518 "generation/complete.ml" 97 3498 3522
+)
+"generation/complete.ml" 100 3562 3580 "generation/complete.ml" 100 3562 3602
+call(
+  stack
+)
+type(
+  Parsetree.relations
+)
+"generation/complete.ml" 101 3606 3612 "generation/complete.ml" 101 3606 3628
+type(
+  bool
+)
+ident(
+  def g_is_commutative "generation/complete.ml" 102 3660 3662 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 101 3606 3631 "generation/complete.ml" 101 3606 3646
+type(
+  Parsetree.relations -> bool
+)
+ident(
+  ext_ref Relation.has_commutative
+)
+"generation/complete.ml" 101 3606 3647 "generation/complete.ml" 101 3606 3656
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "generation/complete.ml" 100 3562 3568 "generation/complete.ml" 100 3562 3577
+)
+"generation/complete.ml" 101 3606 3631 "generation/complete.ml" 101 3606 3656
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/complete.ml" 102 3660 3666 "generation/complete.ml" 102 3660 3682
+type(
+  bool
+)
+ident(
+  def g_is_associative "generation/complete.ml" 104 3715 3717 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 102 3660 3685 "generation/complete.ml" 102 3660 3700
+type(
+  Parsetree.relations -> bool
+)
+ident(
+  ext_ref Relation.has_associative
+)
+"generation/complete.ml" 102 3660 3701 "generation/complete.ml" 102 3660 3710
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "generation/complete.ml" 100 3562 3568 "generation/complete.ml" 100 3562 3577
+)
+"generation/complete.ml" 102 3660 3685 "generation/complete.ml" 102 3660 3710
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/complete.ml" 104 3715 3721 "generation/complete.ml" 104 3715 3726
+type(
+  Parsetree.generator option
+)
+ident(
+  def e_opt "generation/complete.ml" 111 3946 3948 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 104 3715 3728 "generation/complete.ml" 104 3715 3734
+type(
+  Parsetree.relation_side
+)
+ident(
+  def side_e "generation/complete.ml" 111 3946 3948 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 104 3715 3736 "generation/complete.ml" 104 3715 3747
+type(
+  Parsetree.generator option -> bool
+)
+ident(
+  def equal_e_opt "generation/complete.ml" 111 3946 3948 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 104 3715 3721 "generation/complete.ml" 104 3715 3747
+type(
+  Parsetree.generator option * Parsetree.relation_side *
+  (Parsetree.generator option -> bool)
+)
+"generation/complete.ml" 105 3750 3760 "generation/complete.ml" 105 3750 3767
+type(
+  Parsetree.relations ->
+  (Parsetree.relation_side * Parsetree.generator) option
+)
+ident(
+  ext_ref Relation.neutral
+)
+"generation/complete.ml" 105 3750 3768 "generation/complete.ml" 105 3750 3777
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "generation/complete.ml" 100 3562 3568 "generation/complete.ml" 100 3562 3577
+)
+"generation/complete.ml" 105 3750 3760 "generation/complete.ml" 105 3750 3777
+call(
+  stack
+)
+type(
+  (Parsetree.relation_side * Parsetree.generator) option
+)
+"generation/complete.ml" 106 3783 3795 "generation/complete.ml" 106 3783 3799
+type(
+  Parsetree.relation_side
+)
+ident(
+  def side "generation/complete.ml" 106 3783 3807 "generation/complete.ml" 107 3821 3890
+)
+"generation/complete.ml" 106 3783 3801 "generation/complete.ml" 106 3783 3802
+type(
+  Parsetree.generator
+)
+ident(
+  def e "generation/complete.ml" 106 3783 3807 "generation/complete.ml" 107 3821 3890
+)
+"generation/complete.ml" 106 3783 3794 "generation/complete.ml" 106 3783 3803
+type(
+  Parsetree.relation_side * Parsetree.generator
+)
+"generation/complete.ml" 106 3783 3789 "generation/complete.ml" 106 3783 3803
+type(
+  (Parsetree.relation_side * Parsetree.generator) option
+)
+"generation/complete.ml" 106 3783 3812 "generation/complete.ml" 106 3783 3813
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "generation/complete.ml" 106 3783 3801 "generation/complete.ml" 106 3783 3802
+)
+"generation/complete.ml" 106 3783 3807 "generation/complete.ml" 106 3783 3813
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 106 3783 3815 "generation/complete.ml" 106 3783 3819
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side "generation/complete.ml" 106 3783 3795 "generation/complete.ml" 106 3783 3799
+)
+"generation/complete.ml" 107 3821 3839 "generation/complete.ml" 107 3821 3843
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 107 3821 3847 "generation/complete.ml" 107 3821 3851
+type(
+  bool
+)
+"generation/complete.ml" 107 3821 3859 "generation/complete.ml" 107 3821 3860
+type(
+  Parsetree.generator
+)
+ident(
+  def a "generation/complete.ml" 107 3821 3864 "generation/complete.ml" 107 3821 3889
+)
+"generation/complete.ml" 107 3821 3854 "generation/complete.ml" 107 3821 3860
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 107 3821 3864 "generation/complete.ml" 107 3821 3881
+type(
+  Parsetree.generator -> Parsetree.generator -> int
+)
+ident(
+  ext_ref Relation.compare_generator
+)
+"generation/complete.ml" 107 3821 3882 "generation/complete.ml" 107 3821 3883
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "generation/complete.ml" 106 3783 3801 "generation/complete.ml" 106 3783 3802
+)
+"generation/complete.ml" 107 3821 3884 "generation/complete.ml" 107 3821 3885
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref a "generation/complete.ml" 107 3821 3859 "generation/complete.ml" 107 3821 3860
+)
+"generation/complete.ml" 107 3821 3864 "generation/complete.ml" 107 3821 3885
+call(
+  stack
+)
+type(
+  int
+)
+"generation/complete.ml" 107 3821 3886 "generation/complete.ml" 107 3821 3887
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"generation/complete.ml" 107 3821 3888 "generation/complete.ml" 107 3821 3889
+type(
+  int
+)
+"generation/complete.ml" 107 3821 3864 "generation/complete.ml" 107 3821 3889
+type(
+  bool
+)
+"generation/complete.ml" 107 3821 3829 "generation/complete.ml" 107 3821 3890
+type(
+  Parsetree.generator option -> bool
+)
+"generation/complete.ml" 106 3783 3807 "generation/complete.ml" 107 3821 3890
+type(
+  Parsetree.generator option * Parsetree.relation_side *
+  (Parsetree.generator option -> bool)
+)
+"generation/complete.ml" 108 3891 3897 "generation/complete.ml" 108 3891 3901
+type(
+  (Parsetree.relation_side * Parsetree.generator) option
+)
+"generation/complete.ml" 108 3891 3905 "generation/complete.ml" 108 3891 3909
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 108 3891 3911 "generation/complete.ml" 108 3891 3915
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 109 3917 3930 "generation/complete.ml" 109 3917 3931
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 109 3917 3935 "generation/complete.ml" 109 3917 3940
+type(
+  bool
+)
+"generation/complete.ml" 109 3917 3925 "generation/complete.ml" 109 3917 3941
+type(
+  Parsetree.generator option -> bool
+)
+"generation/complete.ml" 108 3891 3905 "generation/complete.ml" 109 3917 3941
+type(
+  Parsetree.generator option * Parsetree.relation_side *
+  (Parsetree.generator option -> bool)
+)
+"generation/complete.ml" 105 3750 3754 "generation/complete.ml" 109 3917 3941
+type(
+  Parsetree.generator option * Parsetree.relation_side *
+  (Parsetree.generator option -> bool)
+)
+"generation/complete.ml" 111 3946 3952 "generation/complete.ml" 111 3946 3957
+type(
+  Parsetree.generator option
+)
+ident(
+  def a_opt "generation/complete.ml" 116 4069 4071 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 111 3946 3959 "generation/complete.ml" 111 3946 3965
+type(
+  Parsetree.relation_side
+)
+ident(
+  def side_a "generation/complete.ml" 116 4069 4071 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 111 3946 3952 "generation/complete.ml" 111 3946 3965
+type(
+  Parsetree.generator option * Parsetree.relation_side
+)
+"generation/complete.ml" 112 3968 3978 "generation/complete.ml" 112 3968 3987
+type(
+  Parsetree.relations ->
+  (Parsetree.relation_side * Parsetree.generator) option
+)
+ident(
+  ext_ref Relation.absorbent
+)
+"generation/complete.ml" 112 3968 3988 "generation/complete.ml" 112 3968 3997
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "generation/complete.ml" 100 3562 3568 "generation/complete.ml" 100 3562 3577
+)
+"generation/complete.ml" 112 3968 3978 "generation/complete.ml" 112 3968 3997
+call(
+  stack
+)
+type(
+  (Parsetree.relation_side * Parsetree.generator) option
+)
+"generation/complete.ml" 113 4003 4015 "generation/complete.ml" 113 4003 4019
+type(
+  Parsetree.relation_side
+)
+ident(
+  def side "generation/complete.ml" 113 4003 4027 "generation/complete.ml" 113 4003 4039
+)
+"generation/complete.ml" 113 4003 4021 "generation/complete.ml" 113 4003 4022
+type(
+  Parsetree.generator
+)
+ident(
+  def a "generation/complete.ml" 113 4003 4027 "generation/complete.ml" 113 4003 4039
+)
+"generation/complete.ml" 113 4003 4014 "generation/complete.ml" 113 4003 4023
+type(
+  Parsetree.relation_side * Parsetree.generator
+)
+"generation/complete.ml" 113 4003 4009 "generation/complete.ml" 113 4003 4023
+type(
+  (Parsetree.relation_side * Parsetree.generator) option
+)
+"generation/complete.ml" 113 4003 4032 "generation/complete.ml" 113 4003 4033
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref a "generation/complete.ml" 113 4003 4021 "generation/complete.ml" 113 4003 4022
+)
+"generation/complete.ml" 113 4003 4027 "generation/complete.ml" 113 4003 4033
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 113 4003 4035 "generation/complete.ml" 113 4003 4039
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side "generation/complete.ml" 113 4003 4015 "generation/complete.ml" 113 4003 4019
+)
+"generation/complete.ml" 113 4003 4027 "generation/complete.ml" 113 4003 4039
+type(
+  Parsetree.generator option * Parsetree.relation_side
+)
+"generation/complete.ml" 114 4040 4046 "generation/complete.ml" 114 4040 4050
+type(
+  (Parsetree.relation_side * Parsetree.generator) option
+)
+"generation/complete.ml" 114 4040 4054 "generation/complete.ml" 114 4040 4058
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 114 4040 4060 "generation/complete.ml" 114 4040 4064
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 114 4040 4054 "generation/complete.ml" 114 4040 4064
+type(
+  Parsetree.generator option * Parsetree.relation_side
+)
+"generation/complete.ml" 112 3968 3972 "generation/complete.ml" 114 4040 4064
+type(
+  Parsetree.generator option * Parsetree.relation_side
+)
+"generation/complete.ml" 116 4069 4075 "generation/complete.ml" 116 4069 4081
+type(
+  Parsetree.generator -> Parsetree.rel_desc list -> unit
+)
+ident(
+  def update "generation/complete.ml" 117 4103 4105 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 116 4069 4084 "generation/complete.ml" 116 4069 4096
+type(
+  (string, Otype.constructor_definition) Hashtbl.t ->
+  Parsetree.generator -> Parsetree.rel_desc list -> unit
+)
+ident(
+  int_ref update_props "generation/complete.ml" 84 2991 2995 "generation/complete.ml" 84 2991 3007
+)
+"generation/complete.ml" 116 4069 4097 "generation/complete.ml" 116 4069 4099
+type(
+  (string, Otype.constructor_definition) Hashtbl.t
+)
+ident(
+  int_ref ht "generation/complete.ml" 97 3498 3515 "generation/complete.ml" 97 3498 3517
+)
+"generation/complete.ml" 116 4069 4084 "generation/complete.ml" 116 4069 4099
+call(
+  stack
+)
+type(
+  Parsetree.generator -> Parsetree.rel_desc list -> unit
+)
+"generation/complete.ml" 117 4103 4109 "generation/complete.ml" 117 4103 4118
+type(
+  bool -> Parsetree.generator -> Parsetree.rel_desc list -> unit
+)
+ident(
+  def update_if "generation/complete.ml" 118 4172 4174 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 117 4103 4119 "generation/complete.ml" 117 4103 4123
+type(
+  bool
+)
+ident(
+  def cond "generation/complete.ml" 117 4103 4124 "generation/complete.ml" 117 4103 4168
+)
+"generation/complete.ml" 117 4103 4124 "generation/complete.ml" 117 4103 4125
+type(
+  Parsetree.generator
+)
+ident(
+  def g "generation/complete.ml" 117 4103 4126 "generation/complete.ml" 117 4103 4168
+)
+"generation/complete.ml" 117 4103 4126 "generation/complete.ml" 117 4103 4130
+type(
+  Parsetree.rel_desc list
+)
+ident(
+  def rels "generation/complete.ml" 117 4103 4133 "generation/complete.ml" 117 4103 4168
+)
+"generation/complete.ml" 117 4103 4136 "generation/complete.ml" 117 4103 4140
+type(
+  bool
+)
+ident(
+  int_ref cond "generation/complete.ml" 117 4103 4119 "generation/complete.ml" 117 4103 4123
+)
+"generation/complete.ml" 117 4103 4146 "generation/complete.ml" 117 4103 4158
+type(
+  (string, Otype.constructor_definition) Hashtbl.t ->
+  Parsetree.generator -> Parsetree.rel_desc list -> unit
+)
+ident(
+  int_ref update_props "generation/complete.ml" 84 2991 2995 "generation/complete.ml" 84 2991 3007
+)
+"generation/complete.ml" 117 4103 4159 "generation/complete.ml" 117 4103 4161
+type(
+  (string, Otype.constructor_definition) Hashtbl.t
+)
+ident(
+  int_ref ht "generation/complete.ml" 97 3498 3515 "generation/complete.ml" 97 3498 3517
+)
+"generation/complete.ml" 117 4103 4162 "generation/complete.ml" 117 4103 4163
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/complete.ml" 117 4103 4124 "generation/complete.ml" 117 4103 4125
+)
+"generation/complete.ml" 117 4103 4164 "generation/complete.ml" 117 4103 4168
+type(
+  Parsetree.rel_desc list
+)
+ident(
+  int_ref rels "generation/complete.ml" 117 4103 4126 "generation/complete.ml" 117 4103 4130
+)
+"generation/complete.ml" 117 4103 4146 "generation/complete.ml" 117 4103 4168
+call(
+  tail
+)
+type(
+  unit
+)
+"generation/complete.ml" 117 4103 4133 "generation/complete.ml" 117 4103 4168
+type(
+  unit
+)
+"generation/complete.ml" 118 4172 4178 "generation/complete.ml" 118 4172 4189
+type(
+  bool -> Parsetree.rel_desc list -> unit
+)
+ident(
+  def update_g_if "generation/complete.ml" 120 4218 4220 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 118 4172 4190 "generation/complete.ml" 118 4172 4194
+type(
+  bool
+)
+ident(
+  def cond "generation/complete.ml" 118 4172 4197 "generation/complete.ml" 118 4172 4213
+)
+"generation/complete.ml" 118 4172 4197 "generation/complete.ml" 118 4172 4206
+type(
+  bool -> Parsetree.generator -> Parsetree.rel_desc list -> unit
+)
+ident(
+  int_ref update_if "generation/complete.ml" 117 4103 4109 "generation/complete.ml" 117 4103 4118
+)
+"generation/complete.ml" 118 4172 4207 "generation/complete.ml" 118 4172 4211
+type(
+  bool
+)
+ident(
+  int_ref cond "generation/complete.ml" 118 4172 4190 "generation/complete.ml" 118 4172 4194
+)
+"generation/complete.ml" 118 4172 4212 "generation/complete.ml" 118 4172 4213
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/complete.ml" 99 3526 3532 "generation/complete.ml" 99 3526 3533
+)
+"generation/complete.ml" 118 4172 4197 "generation/complete.ml" 118 4172 4213
+call(
+  tail
+)
+type(
+  Parsetree.rel_desc list -> unit
+)
+"generation/complete.ml" 120 4218 4224 "generation/complete.ml" 120 4218 4227
+type(
+  Parsetree.relation
+)
+ident(
+  def rel "generation/complete.ml" 120 4218 4231 "generation/complete.ml" 201 7323 7343
+)
+"generation/complete.ml" 120 4218 4237 "generation/complete.ml" 120 4218 4240
+type(
+  Parsetree.relation
+)
+ident(
+  int_ref rel "generation/complete.ml" 120 4218 4224 "generation/complete.ml" 120 4218 4227
+)
+"generation/complete.ml" 120 4218 4237 "generation/complete.ml" 120 4218 4250
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 122 4257 4272 "generation/complete.ml" 122 4257 4276
+type(
+  Parsetree.relation_side
+)
+ident(
+  def side "generation/complete.ml" 122 4257 4286 "generation/complete.ml" 123 4322 4366
+)
+"generation/complete.ml" 122 4257 4278 "generation/complete.ml" 122 4257 4279
+type(
+  Parsetree.generator
+)
+ident(
+  def e "generation/complete.ml" 122 4257 4286 "generation/complete.ml" 123 4322 4366
+)
+"generation/complete.ml" 122 4257 4263 "generation/complete.ml" 122 4257 4280
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 122 4257 4286 "generation/complete.ml" 122 4257 4302
+type(
+  bool
+)
+ident(
+  int_ref g_is_commutative "generation/complete.ml" 101 3606 3612 "generation/complete.ml" 101 3606 3628
+)
+"generation/complete.ml" 122 4257 4303 "generation/complete.ml" 122 4257 4305
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"generation/complete.ml" 122 4257 4306 "generation/complete.ml" 122 4257 4310
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side "generation/complete.ml" 122 4257 4272 "generation/complete.ml" 122 4257 4276
+)
+"generation/complete.ml" 122 4257 4311 "generation/complete.ml" 122 4257 4313
+type(
+  Parsetree.relation_side -> Parsetree.relation_side -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"generation/complete.ml" 122 4257 4314 "generation/complete.ml" 122 4257 4318
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 122 4257 4306 "generation/complete.ml" 122 4257 4318
+type(
+  bool
+)
+"generation/complete.ml" 122 4257 4286 "generation/complete.ml" 122 4257 4318
+type(
+  bool
+)
+"generation/complete.ml" 123 4322 4329 "generation/complete.ml" 123 4322 4335
+type(
+  Parsetree.generator -> Parsetree.rel_desc list -> unit
+)
+ident(
+  int_ref update "generation/complete.ml" 116 4069 4075 "generation/complete.ml" 116 4069 4081
+)
+"generation/complete.ml" 123 4322 4336 "generation/complete.ml" 123 4322 4337
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/complete.ml" 99 3526 3532 "generation/complete.ml" 99 3526 3533
+)
+"generation/complete.ml" 123 4322 4348 "generation/complete.ml" 123 4322 4356
+type(
+  Parsetree.relation_side -> Parsetree.relation_side
+)
+ident(
+  ext_ref Otype.opposite
+)
+"generation/complete.ml" 123 4322 4357 "generation/complete.ml" 123 4322 4361
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side "generation/complete.ml" 122 4257 4272 "generation/complete.ml" 122 4257 4276
+)
+"generation/complete.ml" 123 4322 4348 "generation/complete.ml" 123 4322 4361
+call(
+  stack
+)
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 123 4322 4363 "generation/complete.ml" 123 4322 4364
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "generation/complete.ml" 122 4257 4278 "generation/complete.ml" 122 4257 4279
+)
+"generation/complete.ml" 123 4322 4339 "generation/complete.ml" 123 4322 4365
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 123 4322 4338 "generation/complete.ml" 123 4322 4366
+type(
+  Parsetree.rel_desc list
+)
+"generation/complete.ml" 123 4322 4329 "generation/complete.ml" 123 4322 4366
+call(
+  tail
+)
+type(
+  unit
+)
+"generation/complete.ml" 125 4368 4388 "generation/complete.ml" 125 4368 4394
+type(
+  Parsetree.relation_side
+)
+ident(
+  def side_c "generation/complete.ml" 126 4408 4416 "generation/complete.ml" 142 5092 5105
+)
+"generation/complete.ml" 125 4368 4396 "generation/complete.ml" 125 4368 4397
+type(
+  Parsetree.generator
+)
+ident(
+  def c "generation/complete.ml" 126 4408 4416 "generation/complete.ml" 142 5092 5105
+)
+"generation/complete.ml" 125 4368 4399 "generation/complete.ml" 125 4368 4400
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 125 4368 4402 "generation/complete.ml" 125 4368 4403
+type(
+  Parsetree.distributivity_direction
+)
+"generation/complete.ml" 125 4368 4374 "generation/complete.ml" 125 4368 4404
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 126 4408 4419 "generation/complete.ml" 126 4408 4424
+type(
+  Parsetree.generator option
+)
+ident(
+  int_ref a_opt "generation/complete.ml" 111 3946 3952 "generation/complete.ml" 111 3946 3957
+)
+"generation/complete.ml" 126 4408 4425 "generation/complete.ml" 126 4408 4427
+type(
+  Parsetree.generator option -> Parsetree.generator option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"generation/complete.ml" 126 4408 4428 "generation/complete.ml" 126 4408 4432
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 126 4408 4419 "generation/complete.ml" 126 4408 4432
+type(
+  bool
+)
+"generation/complete.ml" 128 4454 4472 "generation/complete.ml" 128 4454 4479
+type(
+  Parsetree.relations ->
+  (Parsetree.relation_side * Parsetree.generator * Parsetree.generator option)
+  option
+)
+ident(
+  ext_ref Relation.inverse
+)
+"generation/complete.ml" 128 4454 4481 "generation/complete.ml" 128 4454 4494
+type(
+  (string, Otype.constructor_definition) Hashtbl.t ->
+  Parsetree.generator -> Parsetree.relations
+)
+ident(
+  int_ref get_relations "generation/complete.ml" 39 1580 1584 "generation/complete.ml" 39 1580 1597
+)
+"generation/complete.ml" 128 4454 4495 "generation/complete.ml" 128 4454 4497
+type(
+  (string, Otype.constructor_definition) Hashtbl.t
+)
+ident(
+  int_ref ht "generation/complete.ml" 97 3498 3515 "generation/complete.ml" 97 3498 3517
+)
+"generation/complete.ml" 128 4454 4498 "generation/complete.ml" 128 4454 4499
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref c "generation/complete.ml" 125 4368 4396 "generation/complete.ml" 125 4368 4397
+)
+"generation/complete.ml" 128 4454 4480 "generation/complete.ml" 128 4454 4500
+call(
+  stack
+)
+type(
+  Parsetree.relations
+)
+"generation/complete.ml" 128 4454 4472 "generation/complete.ml" 128 4454 4500
+call(
+  stack
+)
+type(
+  (Parsetree.relation_side * Parsetree.generator * Parsetree.generator option)
+  option
+)
+"generation/complete.ml" 130 4555 4575 "generation/complete.ml" 130 4555 4584
+type(
+  Parsetree.relation_side
+)
+ident(
+  def side_inv' "generation/complete.ml" 131 4601 4617 "generation/complete.ml" 140 5048 5069
+)
+"generation/complete.ml" 130 4555 4586 "generation/complete.ml" 130 4555 4590
+type(
+  Parsetree.generator
+)
+ident(
+  def inv' "generation/complete.ml" 131 4601 4617 "generation/complete.ml" 140 5048 5069
+)
+"generation/complete.ml" 130 4555 4592 "generation/complete.ml" 130 4555 4596
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 130 4555 4574 "generation/complete.ml" 130 4555 4597
+type(
+  Parsetree.relation_side * Parsetree.generator * Parsetree.generator option
+)
+"generation/complete.ml" 130 4555 4569 "generation/complete.ml" 130 4555 4597
+type(
+  (Parsetree.relation_side * Parsetree.generator * Parsetree.generator option)
+  option
+)
+"generation/complete.ml" 131 4601 4620 "generation/complete.ml" 131 4601 4626
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_c "generation/complete.ml" 125 4368 4388 "generation/complete.ml" 125 4368 4394
+)
+"generation/complete.ml" 131 4601 4627 "generation/complete.ml" 131 4601 4628
+type(
+  Parsetree.relation_side -> Parsetree.relation_side -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"generation/complete.ml" 131 4601 4629 "generation/complete.ml" 131 4601 4635
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_a "generation/complete.ml" 111 3946 3959 "generation/complete.ml" 111 3946 3965
+)
+"generation/complete.ml" 131 4601 4620 "generation/complete.ml" 131 4601 4635
+type(
+  bool
+)
+"generation/complete.ml" 131 4601 4636 "generation/complete.ml" 131 4601 4638
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"generation/complete.ml" 131 4601 4639 "generation/complete.ml" 131 4601 4647
+type(
+  Parsetree.relation_side -> Parsetree.relation_side
+)
+ident(
+  ext_ref Otype.opposite
+)
+"generation/complete.ml" 131 4601 4648 "generation/complete.ml" 131 4601 4654
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_c "generation/complete.ml" 125 4368 4388 "generation/complete.ml" 125 4368 4394
+)
+"generation/complete.ml" 131 4601 4639 "generation/complete.ml" 131 4601 4654
+call(
+  stack
+)
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 131 4601 4655 "generation/complete.ml" 131 4601 4656
+type(
+  Parsetree.relation_side -> Parsetree.relation_side -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"generation/complete.ml" 131 4601 4657 "generation/complete.ml" 131 4601 4666
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_inv' "generation/complete.ml" 130 4555 4575 "generation/complete.ml" 130 4555 4584
+)
+"generation/complete.ml" 131 4601 4639 "generation/complete.ml" 131 4601 4666
+type(
+  bool
+)
+"generation/complete.ml" 131 4601 4620 "generation/complete.ml" 131 4601 4666
+type(
+  bool
+)
+"generation/complete.ml" 132 4672 4690 "generation/complete.ml" 132 4672 4696
+type(
+  Parsetree.generator -> Parsetree.rel_desc list -> unit
+)
+ident(
+  int_ref update "generation/complete.ml" 116 4069 4075 "generation/complete.ml" 116 4069 4081
+)
+"generation/complete.ml" 132 4672 4697 "generation/complete.ml" 132 4672 4698
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/complete.ml" 99 3526 3532 "generation/complete.ml" 99 3526 3533
+)
+"generation/complete.ml" 132 4672 4714 "generation/complete.ml" 132 4672 4720
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_c "generation/complete.ml" 125 4368 4388 "generation/complete.ml" 125 4368 4394
+)
+"generation/complete.ml" 132 4672 4722 "generation/complete.ml" 132 4672 4726
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref inv' "generation/complete.ml" 130 4555 4586 "generation/complete.ml" 130 4555 4590
+)
+"generation/complete.ml" 132 4672 4728 "generation/complete.ml" 132 4672 4732
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 132 4672 4734 "generation/complete.ml" 132 4672 4745
+type(
+  Parsetree.distributivity_direction
+)
+"generation/complete.ml" 132 4672 4700 "generation/complete.ml" 132 4672 4746
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 132 4672 4699 "generation/complete.ml" 132 4672 4747
+type(
+  Parsetree.rel_desc list
+)
+"generation/complete.ml" 132 4672 4690 "generation/complete.ml" 132 4672 4747
+call(
+  stack
+)
+type(
+  unit
+)
+"generation/complete.ml" 131 4601 4617 "generation/complete.ml" 132 4672 4747
+type(
+  unit
+)
+"generation/complete.ml" 133 4749 4768 "generation/complete.ml" 133 4749 4774
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_c "generation/complete.ml" 125 4368 4388 "generation/complete.ml" 125 4368 4394
+)
+"generation/complete.ml" 133 4749 4775 "generation/complete.ml" 133 4749 4776
+type(
+  Parsetree.relation_side -> Parsetree.relation_side -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"generation/complete.ml" 133 4749 4777 "generation/complete.ml" 133 4749 4781
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 133 4749 4768 "generation/complete.ml" 133 4749 4781
+type(
+  bool
+)
+"generation/complete.ml" 135 4811 4837 "generation/complete.ml" 135 4811 4844
+type(
+  Parsetree.relations ->
+  (Parsetree.relation_side * Parsetree.generator * Parsetree.generator option)
+  option
+)
+ident(
+  ext_ref Relation.inverse
+)
+"generation/complete.ml" 135 4811 4845 "generation/complete.ml" 135 4811 4854
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "generation/complete.ml" 100 3562 3568 "generation/complete.ml" 100 3562 3577
+)
+"generation/complete.ml" 135 4811 4837 "generation/complete.ml" 135 4811 4854
+call(
+  stack
+)
+type(
+  (Parsetree.relation_side * Parsetree.generator * Parsetree.generator option)
+  option
+)
+"generation/complete.ml" 136 4860 4890 "generation/complete.ml" 136 4860 4891
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 136 4860 4893 "generation/complete.ml" 136 4860 4896
+type(
+  Parsetree.generator
+)
+ident(
+  def inv "generation/complete.ml" 137 4904 4930 "generation/complete.ml" 138 4941 5015
+)
+"generation/complete.ml" 136 4860 4898 "generation/complete.ml" 136 4860 4899
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 136 4860 4889 "generation/complete.ml" 136 4860 4900
+type(
+  Parsetree.relation_side * Parsetree.generator * Parsetree.generator option
+)
+"generation/complete.ml" 136 4860 4884 "generation/complete.ml" 136 4860 4900
+type(
+  (Parsetree.relation_side * Parsetree.generator * Parsetree.generator option)
+  option
+)
+"generation/complete.ml" 137 4904 4930 "generation/complete.ml" 137 4904 4936
+type(
+  Parsetree.generator -> Parsetree.rel_desc list -> unit
+)
+ident(
+  int_ref update "generation/complete.ml" 116 4069 4075 "generation/complete.ml" 116 4069 4081
+)
+"generation/complete.ml" 137 4904 4937 "generation/complete.ml" 137 4904 4940
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref inv "generation/complete.ml" 136 4860 4893 "generation/complete.ml" 136 4860 4896
+)
+"generation/complete.ml" 138 4941 4984 "generation/complete.ml" 138 4941 4988
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 138 4941 4990 "generation/complete.ml" 138 4941 4994
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref inv' "generation/complete.ml" 130 4555 4586 "generation/complete.ml" 130 4555 4590
+)
+"generation/complete.ml" 138 4941 4996 "generation/complete.ml" 138 4941 5000
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 138 4941 5002 "generation/complete.ml" 138 4941 5013
+type(
+  Parsetree.distributivity_direction
+)
+"generation/complete.ml" 138 4941 4970 "generation/complete.ml" 138 4941 5014
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 138 4941 4969 "generation/complete.ml" 138 4941 5015
+type(
+  Parsetree.rel_desc list
+)
+"generation/complete.ml" 137 4904 4930 "generation/complete.ml" 138 4941 5015
+call(
+  tail
+)
+type(
+  unit
+)
+"generation/complete.ml" 139 5016 5040 "generation/complete.ml" 139 5016 5041
+type(
+  (Parsetree.relation_side * Parsetree.generator * Parsetree.generator option)
+  option
+)
+"generation/complete.ml" 139 5016 5045 "generation/complete.ml" 139 5016 5047
+type(
+  unit
+)
+"generation/complete.ml" 134 4787 4805 "generation/complete.ml" 140 5048 5069
+type(
+  unit
+)
+"generation/complete.ml" 133 4749 4765 "generation/complete.ml" 140 5048 5069
+type(
+  unit
+)
+"generation/complete.ml" 131 4601 4617 "generation/complete.ml" 140 5048 5069
+type(
+  unit
+)
+"generation/complete.ml" 141 5070 5084 "generation/complete.ml" 141 5070 5085
+type(
+  (Parsetree.relation_side * Parsetree.generator * Parsetree.generator option)
+  option
+)
+"generation/complete.ml" 141 5070 5089 "generation/complete.ml" 141 5070 5091
+type(
+  unit
+)
+"generation/complete.ml" 127 4438 4448 "generation/complete.ml" 142 5092 5105
+type(
+  unit
+)
+"generation/complete.ml" 126 4408 4416 "generation/complete.ml" 142 5092 5105
+type(
+  unit
+)
+"generation/complete.ml" 144 5107 5122 "generation/complete.ml" 144 5107 5131
+type(
+  Parsetree.relation_side
+)
+ident(
+  def _side_inv "generation/complete.ml" 145 5144 5157 "generation/complete.ml" 146 5205 5280
+)
+"generation/complete.ml" 144 5107 5133 "generation/complete.ml" 144 5107 5136
+type(
+  Parsetree.generator
+)
+ident(
+  def inv "generation/complete.ml" 145 5144 5157 "generation/complete.ml" 146 5205 5280
+)
+"generation/complete.ml" 144 5107 5138 "generation/complete.ml" 144 5107 5142
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 144 5107 5113 "generation/complete.ml" 144 5107 5143
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 145 5144 5157 "generation/complete.ml" 145 5144 5181
+type(
+  Parsetree.generator -> bool
+)
+ident(
+  ext_ref Check.is_local_generator
+)
+"generation/complete.ml" 145 5144 5182 "generation/complete.ml" 145 5144 5185
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref inv "generation/complete.ml" 144 5107 5133 "generation/complete.ml" 144 5107 5136
+)
+"generation/complete.ml" 145 5144 5157 "generation/complete.ml" 145 5144 5185
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/complete.ml" 145 5144 5186 "generation/complete.ml" 145 5144 5188
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"generation/complete.ml" 145 5144 5189 "generation/complete.ml" 145 5144 5194
+type(
+  Parsetree.generator option
+)
+ident(
+  int_ref e_opt "generation/complete.ml" 104 3715 3721 "generation/complete.ml" 104 3715 3726
+)
+"generation/complete.ml" 145 5144 5195 "generation/complete.ml" 145 5144 5196
+type(
+  Parsetree.generator option -> Parsetree.generator option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"generation/complete.ml" 145 5144 5197 "generation/complete.ml" 145 5144 5201
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 145 5144 5189 "generation/complete.ml" 145 5144 5201
+type(
+  bool
+)
+"generation/complete.ml" 145 5144 5157 "generation/complete.ml" 145 5144 5201
+type(
+  bool
+)
+"generation/complete.ml" 146 5205 5213 "generation/complete.ml" 146 5205 5230
+type(
+  Location.t -> Check.error -> unit
+)
+ident(
+  ext_ref Check.raise_error
+)
+"generation/complete.ml" 146 5205 5231 "generation/complete.ml" 146 5205 5232
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/complete.ml" 99 3526 3532 "generation/complete.ml" 99 3526 3533
+)
+"generation/complete.ml" 146 5205 5231 "generation/complete.ml" 146 5205 5241
+type(
+  Location.t
+)
+"generation/complete.ml" 146 5205 5268 "generation/complete.ml" 146 5205 5269
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/complete.ml" 99 3526 3532 "generation/complete.ml" 99 3526 3533
+)
+"generation/complete.ml" 146 5205 5268 "generation/complete.ml" 146 5205 5279
+type(
+  Longident.t
+)
+"generation/complete.ml" 146 5205 5242 "generation/complete.ml" 146 5205 5280
+type(
+  Check.error
+)
+"generation/complete.ml" 146 5205 5213 "generation/complete.ml" 146 5205 5280
+call(
+  tail
+)
+type(
+  unit
+)
+"generation/complete.ml" 148 5282 5297 "generation/complete.ml" 148 5282 5305
+type(
+  Parsetree.relation_side
+)
+ident(
+  def side_inv "generation/complete.ml" 149 5320 5333 "generation/complete.ml" 178 6538 6557
+)
+"generation/complete.ml" 148 5282 5307 "generation/complete.ml" 148 5282 5310
+type(
+  Parsetree.generator
+)
+ident(
+  def inv "generation/complete.ml" 149 5320 5333 "generation/complete.ml" 178 6538 6557
+)
+"generation/complete.ml" 148 5282 5312 "generation/complete.ml" 148 5282 5318
+type(
+  Parsetree.generator option
+)
+ident(
+  def e_opt' "generation/complete.ml" 149 5320 5333 "generation/complete.ml" 178 6538 6557
+)
+"generation/complete.ml" 148 5282 5288 "generation/complete.ml" 148 5282 5319
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 149 5320 5333 "generation/complete.ml" 149 5320 5357
+type(
+  Parsetree.generator -> bool
+)
+ident(
+  ext_ref Check.is_local_generator
+)
+"generation/complete.ml" 149 5320 5358 "generation/complete.ml" 149 5320 5361
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref inv "generation/complete.ml" 148 5282 5307 "generation/complete.ml" 148 5282 5310
+)
+"generation/complete.ml" 149 5320 5333 "generation/complete.ml" 149 5320 5361
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/complete.ml" 149 5320 5362 "generation/complete.ml" 149 5320 5364
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"generation/complete.ml" 149 5320 5365 "generation/complete.ml" 149 5320 5376
+type(
+  Parsetree.generator option -> bool
+)
+ident(
+  int_ref equal_e_opt "generation/complete.ml" 104 3715 3736 "generation/complete.ml" 104 3715 3747
+)
+"generation/complete.ml" 149 5320 5377 "generation/complete.ml" 149 5320 5383
+type(
+  Parsetree.generator option
+)
+ident(
+  int_ref e_opt' "generation/complete.ml" 148 5282 5312 "generation/complete.ml" 148 5282 5318
+)
+"generation/complete.ml" 149 5320 5365 "generation/complete.ml" 149 5320 5383
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/complete.ml" 149 5320 5333 "generation/complete.ml" 149 5320 5383
+type(
+  bool
+)
+"generation/complete.ml" 151 5460 5472 "generation/complete.ml" 151 5460 5473
+type(
+  Parsetree.generator
+)
+ident(
+  def e "generation/complete.ml" 156 5628 5636 "generation/complete.ml" 178 6538 6557
+)
+"generation/complete.ml" 151 5460 5482 "generation/complete.ml" 151 5460 5487
+type(
+  Parsetree.generator option
+)
+ident(
+  int_ref e_opt "generation/complete.ml" 104 3715 3721 "generation/complete.ml" 104 3715 3726
+)
+"generation/complete.ml" 152 5493 5510 "generation/complete.ml" 152 5493 5511
+type(
+  Parsetree.generator
+)
+ident(
+  def e "generation/complete.ml" 152 5493 5515 "generation/complete.ml" 152 5493 5516
+)
+"generation/complete.ml" 152 5493 5505 "generation/complete.ml" 152 5493 5511
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 152 5493 5515 "generation/complete.ml" 152 5493 5516
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "generation/complete.ml" 152 5493 5510 "generation/complete.ml" 152 5493 5511
+)
+"generation/complete.ml" 153 5517 5529 "generation/complete.ml" 153 5517 5533
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 153 5517 5544 "generation/complete.ml" 153 5517 5549
+type(
+  bool
+)
+"generation/complete.ml" 153 5517 5537 "generation/complete.ml" 153 5517 5549
+type(
+  Parsetree.generator
+)
+"generation/complete.ml" 151 5460 5476 "generation/complete.ml" 153 5517 5549
+type(
+  Parsetree.generator
+)
+"generation/complete.ml" 156 5628 5636 "generation/complete.ml" 156 5628 5645
+type(
+  bool -> Parsetree.generator -> Parsetree.rel_desc list -> unit
+)
+ident(
+  int_ref update_if "generation/complete.ml" 117 4103 4109 "generation/complete.ml" 117 4103 4118
+)
+"generation/complete.ml" 156 5628 5646 "generation/complete.ml" 156 5628 5662
+type(
+  bool
+)
+ident(
+  int_ref g_is_associative "generation/complete.ml" 102 3660 3666 "generation/complete.ml" 102 3660 3682
+)
+"generation/complete.ml" 156 5628 5663 "generation/complete.ml" 156 5628 5666
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref inv "generation/complete.ml" 148 5282 5307 "generation/complete.ml" 148 5282 5310
+)
+"generation/complete.ml" 157 5669 5693 "generation/complete.ml" 157 5669 5697
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 157 5669 5699 "generation/complete.ml" 157 5669 5700
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "generation/complete.ml" 151 5460 5472 "generation/complete.ml" 151 5460 5473
+)
+"generation/complete.ml" 157 5669 5702 "generation/complete.ml" 157 5669 5706
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 157 5669 5708 "generation/complete.ml" 157 5669 5719
+type(
+  Parsetree.distributivity_direction
+)
+"generation/complete.ml" 157 5669 5679 "generation/complete.ml" 157 5669 5720
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 158 5722 5746 "generation/complete.ml" 158 5722 5750
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 158 5722 5752 "generation/complete.ml" 158 5722 5753
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "generation/complete.ml" 99 3526 3532 "generation/complete.ml" 99 3526 3533
+)
+"generation/complete.ml" 158 5722 5755 "generation/complete.ml" 158 5722 5759
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 158 5722 5761 "generation/complete.ml" 158 5722 5773
+type(
+  Parsetree.distributivity_direction
+)
+"generation/complete.ml" 158 5722 5732 "generation/complete.ml" 158 5722 5774
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 159 5776 5786 "generation/complete.ml" 159 5776 5796
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 156 5628 5667 "generation/complete.ml" 160 5798 5807
+type(
+  Parsetree.rel_desc list
+)
+"generation/complete.ml" 156 5628 5636 "generation/complete.ml" 160 5798 5807
+call(
+  stack
+)
+type(
+  unit
+)
+"generation/complete.ml" 162 5810 5818 "generation/complete.ml" 162 5810 5829
+type(
+  bool -> Parsetree.rel_desc list -> unit
+)
+ident(
+  int_ref update_g_if "generation/complete.ml" 118 4172 4178 "generation/complete.ml" 118 4172 4189
+)
+"generation/complete.ml" 162 5810 5831 "generation/complete.ml" 162 5810 5838
+type(
+  Parsetree.relation_side -> Parsetree.relation_side -> bool
+)
+ident(
+  ext_ref Relation.eq_side
+)
+"generation/complete.ml" 162 5810 5839 "generation/complete.ml" 162 5810 5847
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_inv "generation/complete.ml" 148 5282 5297 "generation/complete.ml" 148 5282 5305
+)
+"generation/complete.ml" 162 5810 5848 "generation/complete.ml" 162 5810 5854
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_e "generation/complete.ml" 104 3715 3728 "generation/complete.ml" 104 3715 3734
+)
+"generation/complete.ml" 162 5810 5831 "generation/complete.ml" 162 5810 5854
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/complete.ml" 162 5810 5855 "generation/complete.ml" 162 5810 5857
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"generation/complete.ml" 162 5810 5858 "generation/complete.ml" 162 5810 5864
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_e "generation/complete.ml" 104 3715 3728 "generation/complete.ml" 104 3715 3734
+)
+"generation/complete.ml" 162 5810 5865 "generation/complete.ml" 162 5810 5867
+type(
+  Parsetree.relation_side -> Parsetree.relation_side -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"generation/complete.ml" 162 5810 5868 "generation/complete.ml" 162 5810 5872
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 162 5810 5858 "generation/complete.ml" 162 5810 5872
+type(
+  bool
+)
+"generation/complete.ml" 162 5810 5830 "generation/complete.ml" 162 5810 5873
+type(
+  bool
+)
+"generation/complete.ml" 163 5876 5895 "generation/complete.ml" 163 5876 5903
+type(
+  Parsetree.relation_side -> Parsetree.relation_side
+)
+ident(
+  ext_ref Otype.opposite
+)
+"generation/complete.ml" 163 5876 5904 "generation/complete.ml" 163 5876 5910
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_e "generation/complete.ml" 104 3715 3728 "generation/complete.ml" 104 3715 3734
+)
+"generation/complete.ml" 163 5876 5895 "generation/complete.ml" 163 5876 5910
+call(
+  stack
+)
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 163 5876 5912 "generation/complete.ml" 163 5876 5913
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "generation/complete.ml" 151 5460 5472 "generation/complete.ml" 151 5460 5473
+)
+"generation/complete.ml" 163 5876 5886 "generation/complete.ml" 163 5876 5914
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 162 5810 5874 "generation/complete.ml" 164 5916 5925
+type(
+  Parsetree.rel_desc list
+)
+"generation/complete.ml" 162 5810 5818 "generation/complete.ml" 164 5916 5925
+call(
+  stack
+)
+type(
+  unit
+)
+"generation/complete.ml" 166 5928 5936 "generation/complete.ml" 166 5928 5947
+type(
+  bool -> Parsetree.rel_desc list -> unit
+)
+ident(
+  int_ref update_g_if "generation/complete.ml" 118 4172 4178 "generation/complete.ml" 118 4172 4189
+)
+"generation/complete.ml" 166 5928 5949 "generation/complete.ml" 166 5928 5956
+type(
+  Parsetree.relation_side -> Parsetree.relation_side -> bool
+)
+ident(
+  ext_ref Relation.eq_side
+)
+"generation/complete.ml" 166 5928 5957 "generation/complete.ml" 166 5928 5965
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_inv "generation/complete.ml" 148 5282 5297 "generation/complete.ml" 148 5282 5305
+)
+"generation/complete.ml" 166 5928 5966 "generation/complete.ml" 166 5928 5972
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_e "generation/complete.ml" 104 3715 3728 "generation/complete.ml" 104 3715 3734
+)
+"generation/complete.ml" 166 5928 5949 "generation/complete.ml" 166 5928 5972
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/complete.ml" 166 5928 5973 "generation/complete.ml" 166 5928 5975
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"generation/complete.ml" 166 5928 5976 "generation/complete.ml" 166 5928 5984
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_inv "generation/complete.ml" 148 5282 5297 "generation/complete.ml" 148 5282 5305
+)
+"generation/complete.ml" 166 5928 5985 "generation/complete.ml" 166 5928 5987
+type(
+  Parsetree.relation_side -> Parsetree.relation_side -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"generation/complete.ml" 166 5928 5988 "generation/complete.ml" 166 5928 5992
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 166 5928 5976 "generation/complete.ml" 166 5928 5992
+type(
+  bool
+)
+"generation/complete.ml" 166 5928 5948 "generation/complete.ml" 166 5928 5993
+type(
+  bool
+)
+"generation/complete.ml" 167 5996 6015 "generation/complete.ml" 167 5996 6023
+type(
+  Parsetree.relation_side -> Parsetree.relation_side
+)
+ident(
+  ext_ref Otype.opposite
+)
+"generation/complete.ml" 167 5996 6024 "generation/complete.ml" 167 5996 6032
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_inv "generation/complete.ml" 148 5282 5297 "generation/complete.ml" 148 5282 5305
+)
+"generation/complete.ml" 167 5996 6015 "generation/complete.ml" 167 5996 6032
+call(
+  stack
+)
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 167 5996 6034 "generation/complete.ml" 167 5996 6037
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref inv "generation/complete.ml" 148 5282 5307 "generation/complete.ml" 148 5282 5310
+)
+"generation/complete.ml" 167 5996 6039 "generation/complete.ml" 167 5996 6043
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 167 5996 6006 "generation/complete.ml" 167 5996 6044
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 166 5928 5994 "generation/complete.ml" 168 6046 6055
+type(
+  Parsetree.rel_desc list
+)
+"generation/complete.ml" 166 5928 5936 "generation/complete.ml" 168 6046 6055
+call(
+  stack
+)
+type(
+  unit
+)
+"generation/complete.ml" 175 6389 6404 "generation/complete.ml" 175 6389 6409
+type(
+  Parsetree.generator option
+)
+ident(
+  int_ref a_opt "generation/complete.ml" 111 3946 3952 "generation/complete.ml" 111 3946 3957
+)
+"generation/complete.ml" 176 6415 6431 "generation/complete.ml" 176 6415 6432
+type(
+  Parsetree.generator
+)
+ident(
+  def a "generation/complete.ml" 176 6415 6438 "generation/complete.ml" 177 6488 6537
+)
+"generation/complete.ml" 176 6415 6426 "generation/complete.ml" 176 6415 6432
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 176 6415 6438 "generation/complete.ml" 176 6415 6455
+type(
+  Parsetree.generator -> Parsetree.generator -> int
+)
+ident(
+  ext_ref Relation.compare_generator
+)
+"generation/complete.ml" 176 6415 6456 "generation/complete.ml" 176 6415 6457
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref a "generation/complete.ml" 176 6415 6431 "generation/complete.ml" 176 6415 6432
+)
+"generation/complete.ml" 176 6415 6458 "generation/complete.ml" 176 6415 6459
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "generation/complete.ml" 151 5460 5472 "generation/complete.ml" 151 5460 5473
+)
+"generation/complete.ml" 176 6415 6438 "generation/complete.ml" 176 6415 6459
+call(
+  stack
+)
+type(
+  int
+)
+"generation/complete.ml" 176 6415 6460 "generation/complete.ml" 176 6415 6462
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"generation/complete.ml" 176 6415 6463 "generation/complete.ml" 176 6415 6464
+type(
+  int
+)
+"generation/complete.ml" 176 6415 6438 "generation/complete.ml" 176 6415 6464
+type(
+  bool
+)
+"generation/complete.ml" 176 6415 6465 "generation/complete.ml" 176 6415 6467
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"generation/complete.ml" 176 6415 6468 "generation/complete.ml" 176 6415 6474
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_a "generation/complete.ml" 111 3946 3959 "generation/complete.ml" 111 3946 3965
+)
+"generation/complete.ml" 176 6415 6475 "generation/complete.ml" 176 6415 6477
+type(
+  Parsetree.relation_side -> Parsetree.relation_side -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"generation/complete.ml" 176 6415 6478 "generation/complete.ml" 176 6415 6484
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_e "generation/complete.ml" 104 3715 3728 "generation/complete.ml" 104 3715 3734
+)
+"generation/complete.ml" 176 6415 6468 "generation/complete.ml" 176 6415 6484
+type(
+  bool
+)
+"generation/complete.ml" 176 6415 6438 "generation/complete.ml" 176 6415 6484
+type(
+  bool
+)
+"generation/complete.ml" 177 6488 6501 "generation/complete.ml" 177 6488 6507
+type(
+  Parsetree.generator -> Parsetree.rel_desc list -> unit
+)
+ident(
+  int_ref update "generation/complete.ml" 116 4069 4075 "generation/complete.ml" 116 4069 4081
+)
+"generation/complete.ml" 177 6488 6508 "generation/complete.ml" 177 6488 6511
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref inv "generation/complete.ml" 148 5282 5307 "generation/complete.ml" 148 5282 5310
+)
+"generation/complete.ml" 177 6488 6535 "generation/complete.ml" 177 6488 6536
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref a "generation/complete.ml" 176 6415 6431 "generation/complete.ml" 176 6415 6432
+)
+"generation/complete.ml" 177 6488 6513 "generation/complete.ml" 177 6488 6536
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 177 6488 6512 "generation/complete.ml" 177 6488 6537
+type(
+  Parsetree.rel_desc list
+)
+"generation/complete.ml" 177 6488 6501 "generation/complete.ml" 177 6488 6537
+call(
+  tail
+)
+type(
+  unit
+)
+"generation/complete.ml" 178 6538 6549 "generation/complete.ml" 178 6538 6550
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 178 6538 6554 "generation/complete.ml" 178 6538 6556
+type(
+  unit
+)
+"generation/complete.ml" 175 6389 6397 "generation/complete.ml" 178 6538 6557
+type(
+  unit
+)
+"generation/complete.ml" 166 5928 5936 "generation/complete.ml" 178 6538 6557
+type(
+  unit
+)
+"generation/complete.ml" 162 5810 5818 "generation/complete.ml" 178 6538 6557
+type(
+  unit
+)
+"generation/complete.ml" 156 5628 5636 "generation/complete.ml" 178 6538 6557
+type(
+  unit
+)
+"generation/complete.ml" 151 5460 5468 "generation/complete.ml" 178 6538 6557
+type(
+  unit
+)
+"generation/complete.ml" 180 6559 6574 "generation/complete.ml" 180 6559 6582
+type(
+  Parsetree.relation_side
+)
+ident(
+  def side_inv "generation/complete.ml" 180 6559 6603 "generation/complete.ml" 195 7100 7107
+)
+"generation/complete.ml" 180 6559 6584 "generation/complete.ml" 180 6559 6587
+type(
+  Parsetree.generator
+)
+ident(
+  def inv "generation/complete.ml" 180 6559 6603 "generation/complete.ml" 195 7100 7107
+)
+"generation/complete.ml" 180 6559 6594 "generation/complete.ml" 180 6559 6596
+type(
+  Parsetree.generator
+)
+ident(
+  def e' "generation/complete.ml" 180 6559 6603 "generation/complete.ml" 195 7100 7107
+)
+"generation/complete.ml" 180 6559 6589 "generation/complete.ml" 180 6559 6596
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 180 6559 6565 "generation/complete.ml" 180 6559 6597
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 180 6559 6603 "generation/complete.ml" 180 6559 6627
+type(
+  Parsetree.generator -> bool
+)
+ident(
+  ext_ref Check.is_local_generator
+)
+"generation/complete.ml" 180 6559 6628 "generation/complete.ml" 180 6559 6631
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref inv "generation/complete.ml" 180 6559 6584 "generation/complete.ml" 180 6559 6587
+)
+"generation/complete.ml" 180 6559 6603 "generation/complete.ml" 180 6559 6631
+call(
+  stack
+)
+type(
+  bool
+)
+"generation/complete.ml" 184 6765 6771 "generation/complete.ml" 184 6765 6780
+type(
+  bool -> Parsetree.generator -> Parsetree.rel_desc list -> unit
+)
+ident(
+  int_ref update_if "generation/complete.ml" 117 4103 4109 "generation/complete.ml" 117 4103 4118
+)
+"generation/complete.ml" 184 6765 6781 "generation/complete.ml" 184 6765 6797
+type(
+  bool
+)
+ident(
+  int_ref g_is_associative "generation/complete.ml" 102 3660 3666 "generation/complete.ml" 102 3660 3682
+)
+"generation/complete.ml" 184 6765 6798 "generation/complete.ml" 184 6765 6801
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref inv "generation/complete.ml" 180 6559 6584 "generation/complete.ml" 180 6559 6587
+)
+"generation/complete.ml" 184 6765 6803 "generation/complete.ml" 184 6765 6813
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 184 6765 6802 "generation/complete.ml" 184 6765 6814
+type(
+  Parsetree.rel_desc list
+)
+"generation/complete.ml" 184 6765 6771 "generation/complete.ml" 184 6765 6814
+call(
+  stack
+)
+type(
+  unit
+)
+"generation/complete.ml" 186 6817 6830 "generation/complete.ml" 186 6817 6835
+type(
+  Parsetree.generator option
+)
+ident(
+  int_ref e_opt "generation/complete.ml" 104 3715 3721 "generation/complete.ml" 104 3715 3726
+)
+"generation/complete.ml" 187 6841 6855 "generation/complete.ml" 187 6841 6856
+type(
+  Parsetree.generator
+)
+ident(
+  def e "generation/complete.ml" 188 6860 6869 "generation/complete.ml" 190 6959 6969
+)
+"generation/complete.ml" 187 6841 6850 "generation/complete.ml" 187 6841 6856
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 188 6860 6869 "generation/complete.ml" 188 6860 6878
+type(
+  bool -> Parsetree.generator -> Parsetree.rel_desc list -> unit
+)
+ident(
+  int_ref update_if "generation/complete.ml" 117 4103 4109 "generation/complete.ml" 117 4103 4118
+)
+"generation/complete.ml" 188 6860 6879 "generation/complete.ml" 188 6860 6895
+type(
+  bool
+)
+ident(
+  int_ref g_is_associative "generation/complete.ml" 102 3660 3666 "generation/complete.ml" 102 3660 3682
+)
+"generation/complete.ml" 188 6860 6896 "generation/complete.ml" 188 6860 6899
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref inv "generation/complete.ml" 180 6559 6584 "generation/complete.ml" 180 6559 6587
+)
+"generation/complete.ml" 189 6902 6927 "generation/complete.ml" 189 6902 6931
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 189 6902 6933 "generation/complete.ml" 189 6902 6934
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e "generation/complete.ml" 187 6841 6855 "generation/complete.ml" 187 6841 6856
+)
+"generation/complete.ml" 189 6902 6941 "generation/complete.ml" 189 6902 6943
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e' "generation/complete.ml" 180 6559 6594 "generation/complete.ml" 180 6559 6596
+)
+"generation/complete.ml" 189 6902 6936 "generation/complete.ml" 189 6902 6943
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 189 6902 6945 "generation/complete.ml" 189 6902 6956
+type(
+  Parsetree.distributivity_direction
+)
+"generation/complete.ml" 189 6902 6913 "generation/complete.ml" 189 6902 6957
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 188 6860 6900 "generation/complete.ml" 190 6959 6969
+type(
+  Parsetree.rel_desc list
+)
+"generation/complete.ml" 188 6860 6869 "generation/complete.ml" 190 6959 6969
+call(
+  stack
+)
+type(
+  unit
+)
+"generation/complete.ml" 191 6970 6979 "generation/complete.ml" 191 6970 6980
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 191 6970 6984 "generation/complete.ml" 191 6970 6986
+type(
+  unit
+)
+"generation/complete.ml" 186 6817 6823 "generation/complete.ml" 191 6970 6987
+type(
+  unit
+)
+"generation/complete.ml" 193 6990 6996 "generation/complete.ml" 193 6990 7007
+type(
+  bool -> Parsetree.rel_desc list -> unit
+)
+ident(
+  int_ref update_g_if "generation/complete.ml" 118 4172 4178 "generation/complete.ml" 118 4172 4189
+)
+"generation/complete.ml" 193 6990 7009 "generation/complete.ml" 193 6990 7025
+type(
+  bool
+)
+ident(
+  int_ref g_is_commutative "generation/complete.ml" 101 3606 3612 "generation/complete.ml" 101 3606 3628
+)
+"generation/complete.ml" 193 6990 7026 "generation/complete.ml" 193 6990 7028
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"generation/complete.ml" 193 6990 7029 "generation/complete.ml" 193 6990 7037
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_inv "generation/complete.ml" 180 6559 6574 "generation/complete.ml" 180 6559 6582
+)
+"generation/complete.ml" 193 6990 7038 "generation/complete.ml" 193 6990 7040
+type(
+  Parsetree.relation_side -> Parsetree.relation_side -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"generation/complete.ml" 193 6990 7041 "generation/complete.ml" 193 6990 7045
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 193 6990 7029 "generation/complete.ml" 193 6990 7045
+type(
+  bool
+)
+"generation/complete.ml" 193 6990 7008 "generation/complete.ml" 193 6990 7046
+type(
+  bool
+)
+"generation/complete.ml" 194 7049 7066 "generation/complete.ml" 194 7049 7074
+type(
+  Parsetree.relation_side -> Parsetree.relation_side
+)
+ident(
+  ext_ref Otype.opposite
+)
+"generation/complete.ml" 194 7049 7075 "generation/complete.ml" 194 7049 7083
+type(
+  Parsetree.relation_side
+)
+ident(
+  int_ref side_inv "generation/complete.ml" 180 6559 6574 "generation/complete.ml" 180 6559 6582
+)
+"generation/complete.ml" 194 7049 7066 "generation/complete.ml" 194 7049 7083
+call(
+  stack
+)
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 194 7049 7085 "generation/complete.ml" 194 7049 7088
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref inv "generation/complete.ml" 180 6559 6584 "generation/complete.ml" 180 6559 6587
+)
+"generation/complete.ml" 194 7049 7095 "generation/complete.ml" 194 7049 7097
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref e' "generation/complete.ml" 180 6559 6594 "generation/complete.ml" 180 6559 6596
+)
+"generation/complete.ml" 194 7049 7090 "generation/complete.ml" 194 7049 7097
+type(
+  Parsetree.generator option
+)
+"generation/complete.ml" 194 7049 7057 "generation/complete.ml" 194 7049 7098
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 193 6990 7047 "generation/complete.ml" 195 7100 7107
+type(
+  Parsetree.rel_desc list
+)
+"generation/complete.ml" 193 6990 6996 "generation/complete.ml" 195 7100 7107
+call(
+  tail
+)
+type(
+  unit
+)
+"generation/complete.ml" 186 6817 6823 "generation/complete.ml" 195 7100 7107
+type(
+  unit
+)
+"generation/complete.ml" 184 6765 6771 "generation/complete.ml" 195 7100 7107
+type(
+  unit
+)
+"generation/complete.ml" 197 7109 7125 "generation/complete.ml" 197 7109 7126
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 197 7109 7115 "generation/complete.ml" 197 7109 7126
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 197 7109 7137 "generation/complete.ml" 197 7109 7138
+type(
+  Parsetree.generator option
+)
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 197 7109 7129 "generation/complete.ml" 197 7109 7138
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 197 7109 7115 "generation/complete.ml" 197 7109 7138
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 198 7139 7167 "generation/complete.ml" 198 7139 7168
+type(
+  Parsetree.generator
+)
+"generation/complete.ml" 198 7139 7145 "generation/complete.ml" 198 7139 7168
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 197 7109 7115 "generation/complete.ml" 198 7139 7168
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 198 7139 7182 "generation/complete.ml" 198 7139 7183
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 198 7139 7171 "generation/complete.ml" 198 7139 7183
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 197 7109 7115 "generation/complete.ml" 198 7139 7183
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 199 7184 7198 "generation/complete.ml" 199 7184 7199
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 199 7184 7190 "generation/complete.ml" 199 7184 7199
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 197 7109 7115 "generation/complete.ml" 199 7184 7199
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 199 7184 7212 "generation/complete.ml" 199 7184 7213
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 199 7184 7202 "generation/complete.ml" 199 7184 7213
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 197 7109 7115 "generation/complete.ml" 199 7184 7213
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 199 7184 7226 "generation/complete.ml" 199 7184 7227
+type(
+  Parsetree.generator
+)
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 199 7184 7216 "generation/complete.ml" 199 7184 7227
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 197 7109 7115 "generation/complete.ml" 199 7184 7227
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 199 7184 7242 "generation/complete.ml" 199 7184 7243
+type(
+  Parsetree.relation_side
+)
+"generation/complete.ml" 199 7184 7230 "generation/complete.ml" 199 7184 7243
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 197 7109 7115 "generation/complete.ml" 199 7184 7243
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 199 7184 7258 "generation/complete.ml" 199 7184 7259
+type(
+  Longident.t option
+)
+"generation/complete.ml" 199 7184 7246 "generation/complete.ml" 199 7184 7259
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 197 7109 7115 "generation/complete.ml" 199 7184 7259
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 200 7260 7274 "generation/complete.ml" 200 7260 7275
+type(
+  Parsetree.expression
+)
+type(
+  Parsetree.pattern
+)
+"generation/complete.ml" 200 7260 7266 "generation/complete.ml" 200 7260 7275
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 197 7109 7115 "generation/complete.ml" 200 7260 7275
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 200 7260 7278 "generation/complete.ml" 200 7260 7288
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 197 7109 7115 "generation/complete.ml" 200 7260 7288
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 200 7260 7302 "generation/complete.ml" 200 7260 7303
+type(
+  Parsetree.rpo_precedence
+)
+"generation/complete.ml" 200 7260 7291 "generation/complete.ml" 200 7260 7303
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 197 7109 7115 "generation/complete.ml" 200 7260 7303
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 200 7260 7321 "generation/complete.ml" 200 7260 7322
+type(
+  Parsetree.structure_item
+)
+"generation/complete.ml" 200 7260 7306 "generation/complete.ml" 200 7260 7322
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 197 7109 7115 "generation/complete.ml" 200 7260 7322
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 201 7323 7336 "generation/complete.ml" 201 7323 7337
+type(
+  Parsetree.rpo_status
+)
+"generation/complete.ml" 201 7323 7329 "generation/complete.ml" 201 7323 7337
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 197 7109 7115 "generation/complete.ml" 201 7323 7337
+type(
+  Parsetree.rel_desc
+)
+"generation/complete.ml" 201 7323 7341 "generation/complete.ml" 201 7323 7343
+type(
+  unit
+)
+"generation/complete.ml" 120 4218 4231 "generation/complete.ml" 201 7323 7343
+type(
+  unit
+)
+"generation/complete.ml" 120 4218 4220 "generation/complete.ml" 201 7323 7343
+type(
+  Parsetree.relation -> unit
+)
+"generation/complete.ml" 118 4172 4174 "generation/complete.ml" 201 7323 7343
+type(
+  Parsetree.relation -> unit
+)
+"generation/complete.ml" 117 4103 4105 "generation/complete.ml" 201 7323 7343
+type(
+  Parsetree.relation -> unit
+)
+"generation/complete.ml" 116 4069 4071 "generation/complete.ml" 201 7323 7343
+type(
+  Parsetree.relation -> unit
+)
+"generation/complete.ml" 111 3946 3948 "generation/complete.ml" 201 7323 7343
+type(
+  Parsetree.relation -> unit
+)
+"generation/complete.ml" 104 3715 3717 "generation/complete.ml" 201 7323 7343
+type(
+  Parsetree.relation -> unit
+)
+"generation/complete.ml" 102 3660 3662 "generation/complete.ml" 201 7323 7343
+type(
+  Parsetree.relation -> unit
+)
+"generation/complete.ml" 101 3606 3608 "generation/complete.ml" 201 7323 7343
+type(
+  Parsetree.relation -> unit
+)
+"generation/complete.ml" 100 3562 3564 "generation/complete.ml" 201 7323 7343
+type(
+  Parsetree.relation -> unit
+)
+"generation/complete.ml" 99 3526 3528 "generation/complete.ml" 201 7323 7343
+type(
+  Parsetree.relation -> unit
+)
+"generation/complete.ml" 206 7444 7448 "generation/complete.ml" 206 7444 7460
+type(
+  (string, Otype.constructor_definition) Hashtbl.t -> unit
+)
+ident(
+  def update_table "generation/complete.ml" 218 7805 7805 "generation/complete.ml" 1 0 -1
+)
+"generation/complete.ml" 206 7444 7461 "generation/complete.ml" 206 7444 7463
+type(
+  (string, Otype.constructor_definition) Hashtbl.t
+)
+ident(
+  def ht "generation/complete.ml" 207 7466 7468 "generation/complete.ml" 214 7715 7739
+)
+"generation/complete.ml" 207 7466 7472 "generation/complete.ml" 207 7466 7478
+type(
+  'a -> Otype.constructor_definition -> unit
+)
+ident(
+  def update "generation/complete.ml" 214 7715 7717 "generation/complete.ml" 214 7715 7739
+)
+"generation/complete.ml" 207 7466 7479 "generation/complete.ml" 207 7466 7481
+type(
+  'a
+)
+ident(
+  def _g "generation/complete.ml" 207 7466 7482 "generation/complete.ml" 213 7670 7711
+)
+"generation/complete.ml" 207 7466 7482 "generation/complete.ml" 207 7466 7486
+type(
+  Otype.constructor_definition
+)
+ident(
+  def cdef "generation/complete.ml" 208 7489 7493 "generation/complete.ml" 213 7670 7711
+)
+"generation/complete.ml" 208 7489 7497 "generation/complete.ml" 208 7489 7506
+type(
+  Parsetree.relations
+)
+ident(
+  def relations "generation/complete.ml" 209 7535 7539 "generation/complete.ml" 213 7670 7711
+)
+"generation/complete.ml" 208 7489 7509 "generation/complete.ml" 208 7489 7526
+type(
+  Otype.constructor_definition -> Parsetree.relations
+)
+ident(
+  ext_ref Otype.relations_of_cdef
+)
+"generation/complete.ml" 208 7489 7527 "generation/complete.ml" 208 7489 7531
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/complete.ml" 207 7466 7482 "generation/complete.ml" 207 7466 7486
+)
+"generation/complete.ml" 208 7489 7509 "generation/complete.ml" 208 7489 7531
+call(
+  stack
+)
+type(
+  Parsetree.relations
+)
+"generation/complete.ml" 209 7535 7543 "generation/complete.ml" 209 7535 7547
+type(
+  Parsetree.relation list
+)
+ident(
+  def rels "generation/complete.ml" 213 7670 7674 "generation/complete.ml" 213 7670 7711
+)
+"generation/complete.ml" 210 7550 7562 "generation/complete.ml" 210 7550 7571
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref relations "generation/complete.ml" 208 7489 7497 "generation/complete.ml" 208 7489 7506
+)
+"generation/complete.ml" 210 7550 7562 "generation/complete.ml" 210 7550 7582
+type(
+  Parsetree.relations_desc
+)
+"generation/complete.ml" 211 7588 7596 "generation/complete.ml" 211 7588 7606
+type(
+  Parsetree.relations_desc
+)
+"generation/complete.ml" 211 7588 7625 "generation/complete.ml" 211 7588 7626
+type(
+  Parsetree.relations
+)
+"generation/complete.ml" 211 7588 7609 "generation/complete.ml" 211 7588 7626
+type(
+  Parsetree.relations_desc
+)
+"generation/complete.ml" 211 7588 7596 "generation/complete.ml" 211 7588 7626
+type(
+  Parsetree.relations_desc
+)
+"generation/complete.ml" 211 7588 7630 "generation/complete.ml" 211 7588 7632
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 212 7633 7654 "generation/complete.ml" 212 7633 7658
+type(
+  Parsetree.relation list
+)
+ident(
+  def rels "generation/complete.ml" 212 7633 7662 "generation/complete.ml" 212 7633 7666
+)
+"generation/complete.ml" 212 7633 7641 "generation/complete.ml" 212 7633 7658
+type(
+  Parsetree.relations_desc
+)
+"generation/complete.ml" 212 7633 7662 "generation/complete.ml" 212 7633 7666
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rels "generation/complete.ml" 212 7633 7654 "generation/complete.ml" 212 7633 7658
+)
+"generation/complete.ml" 210 7550 7556 "generation/complete.ml" 212 7633 7666
+type(
+  Parsetree.relation list
+)
+"generation/complete.ml" 213 7670 7674 "generation/complete.ml" 213 7670 7683
+type(
+  (Parsetree.relation -> unit) -> Parsetree.relation list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"generation/complete.ml" 213 7670 7685 "generation/complete.ml" 213 7670 7697
+type(
+  (string, Otype.constructor_definition) Hashtbl.t ->
+  Otype.constructor_definition -> Parsetree.relation -> unit
+)
+ident(
+  int_ref update_by_ap "generation/complete.ml" 97 3498 3502 "generation/complete.ml" 97 3498 3514
+)
+"generation/complete.ml" 213 7670 7698 "generation/complete.ml" 213 7670 7700
+type(
+  (string, Otype.constructor_definition) Hashtbl.t
+)
+ident(
+  int_ref ht "generation/complete.ml" 206 7444 7461 "generation/complete.ml" 206 7444 7463
+)
+"generation/complete.ml" 213 7670 7701 "generation/complete.ml" 213 7670 7705
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/complete.ml" 207 7466 7482 "generation/complete.ml" 207 7466 7486
+)
+"generation/complete.ml" 213 7670 7684 "generation/complete.ml" 213 7670 7706
+call(
+  stack
+)
+type(
+  Parsetree.relation -> unit
+)
+"generation/complete.ml" 213 7670 7707 "generation/complete.ml" 213 7670 7711
+type(
+  Parsetree.relation list
+)
+ident(
+  int_ref rels "generation/complete.ml" 209 7535 7543 "generation/complete.ml" 209 7535 7547
+)
+"generation/complete.ml" 213 7670 7674 "generation/complete.ml" 213 7670 7711
+call(
+  tail
+)
+type(
+  unit
+)
+"generation/complete.ml" 209 7535 7539 "generation/complete.ml" 213 7670 7711
+type(
+  unit
+)
+"generation/complete.ml" 208 7489 7493 "generation/complete.ml" 213 7670 7711
+type(
+  unit
+)
+"generation/complete.ml" 214 7715 7717 "generation/complete.ml" 214 7715 7729
+type(
+  (string -> Otype.constructor_definition -> unit) ->
+  (string, Otype.constructor_definition) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"generation/complete.ml" 214 7715 7730 "generation/complete.ml" 214 7715 7736
+type(
+  string -> Otype.constructor_definition -> unit
+)
+ident(
+  int_ref update "generation/complete.ml" 207 7466 7472 "generation/complete.ml" 207 7466 7478
+)
+"generation/complete.ml" 214 7715 7737 "generation/complete.ml" 214 7715 7739
+type(
+  (string, Otype.constructor_definition) Hashtbl.t
+)
+ident(
+  int_ref ht "generation/complete.ml" 206 7444 7461 "generation/complete.ml" 206 7444 7463
+)
+"generation/complete.ml" 214 7715 7717 "generation/complete.ml" 214 7715 7739
+call(
+  tail
+)
+type(
+  unit
+)
+"generation/complete.ml" 207 7466 7468 "generation/complete.ml" 214 7715 7739
+type(
+  unit
+)
+"generation/complete.ml" 218 7805 7809 "generation/complete.ml" 218 7805 7831
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list ->
+  Otype.constructor_definition list
+)
+ident(
+  def adhoc_completion_cdefs "generation/complete.ml" 224 7945 7945 "generation/complete.ml" 1 0 -1
+)
+"generation/complete.ml" 218 7805 7832 "generation/complete.ml" 218 7805 7837
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list
+)
+ident(
+  def cdefs "generation/complete.ml" 219 7840 7842 "generation/complete.ml" 221 7892 7940
+)
+"generation/complete.ml" 219 7840 7846 "generation/complete.ml" 219 7840 7848
+type(
+  (string, Otype.constructor_definition) Hashtbl.t
+)
+ident(
+  def ht "generation/complete.ml" 220 7873 7875 "generation/complete.ml" 221 7892 7940
+)
+"generation/complete.ml" 219 7840 7851 "generation/complete.ml" 219 7840 7863
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list ->
+  (string, Otype.constructor_definition) Hashtbl.t
+)
+ident(
+  int_ref create_table "generation/complete.ml" 27 1253 1257 "generation/complete.ml" 27 1253 1269
+)
+"generation/complete.ml" 219 7840 7864 "generation/complete.ml" 219 7840 7869
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list
+)
+ident(
+  int_ref cdefs "generation/complete.ml" 218 7805 7832 "generation/complete.ml" 218 7805 7837
+)
+"generation/complete.ml" 219 7840 7851 "generation/complete.ml" 219 7840 7869
+call(
+  stack
+)
+type(
+  (string, Otype.constructor_definition) Hashtbl.t
+)
+"generation/complete.ml" 220 7873 7875 "generation/complete.ml" 220 7873 7887
+type(
+  (string, Otype.constructor_definition) Hashtbl.t -> unit
+)
+ident(
+  int_ref update_table "generation/complete.ml" 206 7444 7448 "generation/complete.ml" 206 7444 7460
+)
+"generation/complete.ml" 220 7873 7888 "generation/complete.ml" 220 7873 7890
+type(
+  (string, Otype.constructor_definition) Hashtbl.t
+)
+ident(
+  int_ref ht "generation/complete.ml" 219 7840 7846 "generation/complete.ml" 219 7840 7848
+)
+"generation/complete.ml" 220 7873 7875 "generation/complete.ml" 220 7873 7890
+call(
+  stack
+)
+type(
+  unit
+)
+"generation/complete.ml" 221 7892 7894 "generation/complete.ml" 221 7892 7906
+type(
+  (string ->
+   Otype.constructor_definition ->
+   Otype.constructor_definition list -> Otype.constructor_definition list) ->
+  (string, Otype.constructor_definition) Hashtbl.t ->
+  Otype.constructor_definition list -> Otype.constructor_definition list
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"generation/complete.ml" 221 7892 7912 "generation/complete.ml" 221 7892 7913
+type(
+  string
+)
+"generation/complete.ml" 221 7892 7914 "generation/complete.ml" 221 7892 7918
+type(
+  Otype.constructor_definition
+)
+ident(
+  def cdef "generation/complete.ml" 221 7892 7919 "generation/complete.ml" 221 7892 7933
+)
+"generation/complete.ml" 221 7892 7919 "generation/complete.ml" 221 7892 7920
+type(
+  Otype.constructor_definition list
+)
+ident(
+  def l "generation/complete.ml" 221 7892 7924 "generation/complete.ml" 221 7892 7933
+)
+"generation/complete.ml" 221 7892 7924 "generation/complete.ml" 221 7892 7928
+type(
+  Otype.constructor_definition
+)
+ident(
+  int_ref cdef "generation/complete.ml" 221 7892 7914 "generation/complete.ml" 221 7892 7918
+)
+"generation/complete.ml" 221 7892 7932 "generation/complete.ml" 221 7892 7933
+type(
+  Otype.constructor_definition list
+)
+ident(
+  int_ref l "generation/complete.ml" 221 7892 7919 "generation/complete.ml" 221 7892 7920
+)
+"generation/complete.ml" 221 7892 7924 "generation/complete.ml" 221 7892 7933
+type(
+  Otype.constructor_definition list
+)
+"generation/complete.ml" 221 7892 7907 "generation/complete.ml" 221 7892 7934
+type(
+  string ->
+  Otype.constructor_definition ->
+  Otype.constructor_definition list -> Otype.constructor_definition list
+)
+"generation/complete.ml" 221 7892 7935 "generation/complete.ml" 221 7892 7937
+type(
+  (string, Otype.constructor_definition) Hashtbl.t
+)
+ident(
+  int_ref ht "generation/complete.ml" 219 7840 7846 "generation/complete.ml" 219 7840 7848
+)
+"generation/complete.ml" 221 7892 7938 "generation/complete.ml" 221 7892 7940
+type(
+  Otype.constructor_definition list
+)
+"generation/complete.ml" 221 7892 7894 "generation/complete.ml" 221 7892 7940
+call(
+  tail
+)
+type(
+  Otype.constructor_definition list
+)
+"generation/complete.ml" 220 7873 7875 "generation/complete.ml" 221 7892 7940
+type(
+  Otype.constructor_definition list
+)
+"generation/complete.ml" 219 7840 7842 "generation/complete.ml" 221 7892 7940
+type(
+  Otype.constructor_definition list
+)
+"generation/complete.ml" 224 7945 7949 "generation/complete.ml" 224 7945 7969
+type(
+  'a * Parsetree.type_declaration -> 'a * Parsetree.type_declaration
+)
+ident(
+  def adhoc_completion_ntd "generation/complete.ml" 232 8171 8171 "generation/complete.ml" 1 0 -1
+)
+"generation/complete.ml" 224 7945 7971 "generation/complete.ml" 224 7945 7976
+type(
+  'a
+)
+ident(
+  def tname "generation/complete.ml" 224 7945 7984 "generation/complete.ml" 229 8140 8166
+)
+"generation/complete.ml" 224 7945 7978 "generation/complete.ml" 224 7945 7980
+type(
+  Parsetree.type_declaration
+)
+ident(
+  def td "generation/complete.ml" 224 7945 7984 "generation/complete.ml" 229 8140 8166
+)
+"generation/complete.ml" 224 7945 7970 "generation/complete.ml" 224 7945 7981
+type(
+  'a * Parsetree.type_declaration
+)
+"generation/complete.ml" 224 7945 7984 "generation/complete.ml" 224 7945 7989
+type(
+  'a
+)
+ident(
+  int_ref tname "generation/complete.ml" 224 7945 7971 "generation/complete.ml" 224 7945 7976
+)
+"generation/complete.ml" 225 7991 7999 "generation/complete.ml" 225 7991 8001
+type(
+  Parsetree.type_declaration
+)
+ident(
+  int_ref td "generation/complete.ml" 224 7945 7978 "generation/complete.ml" 224 7945 7980
+)
+"generation/complete.ml" 225 7991 7999 "generation/complete.ml" 225 7991 8012
+type(
+  Parsetree.type_kind
+)
+"generation/complete.ml" 226 8018 8036 "generation/complete.ml" 226 8018 8041
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list
+)
+ident(
+  def cdefs "generation/complete.ml" 227 8045 8051 "generation/complete.ml" 227 8045 8120
+)
+"generation/complete.ml" 226 8018 8022 "generation/complete.ml" 226 8018 8041
+type(
+  Parsetree.type_kind
+)
+"generation/complete.ml" 227 8045 8053 "generation/complete.ml" 227 8045 8055
+type(
+  Parsetree.type_declaration
+)
+ident(
+  int_ref td "generation/complete.ml" 224 7945 7978 "generation/complete.ml" 224 7945 7980
+)
+"generation/complete.ml" 227 8045 8089 "generation/complete.ml" 227 8045 8111
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list ->
+  Otype.constructor_definition list
+)
+ident(
+  int_ref adhoc_completion_cdefs "generation/complete.ml" 218 7805 7809 "generation/complete.ml" 218 7805 7831
+)
+"generation/complete.ml" 227 8045 8112 "generation/complete.ml" 227 8045 8117
+type(
+  (string * Parsetree.core_type list * Parsetree.relations * Location.t) list
+)
+ident(
+  int_ref cdefs "generation/complete.ml" 226 8018 8036 "generation/complete.ml" 226 8018 8041
+)
+"generation/complete.ml" 227 8045 8088 "generation/complete.ml" 227 8045 8118
+call(
+  stack
+)
+type(
+  Otype.constructor_definition list
+)
+"generation/complete.ml" 227 8045 8074 "generation/complete.ml" 227 8045 8118
+type(
+  Parsetree.type_kind
+)
+"generation/complete.ml" 227 8045 8051 "generation/complete.ml" 227 8045 8120
+type(
+  Parsetree.type_declaration
+)
+"generation/complete.ml" 228 8121 8138 "generation/complete.ml" 228 8121 8139
+type(
+  (string * Asttypes.mutable_flag * Parsetree.core_type *
+   Parsetree.relations * Location.t)
+  list
+)
+"generation/complete.ml" 228 8121 8125 "generation/complete.ml" 228 8121 8139
+type(
+  Parsetree.type_kind
+)
+"generation/complete.ml" 229 8140 8159 "generation/complete.ml" 229 8140 8160
+type(
+  Parsetree.relations
+)
+"generation/complete.ml" 229 8140 8144 "generation/complete.ml" 229 8140 8160
+type(
+  Parsetree.type_kind
+)
+"generation/complete.ml" 228 8121 8125 "generation/complete.ml" 229 8140 8160
+type(
+  Parsetree.type_kind
+)
+"generation/complete.ml" 229 8140 8164 "generation/complete.ml" 229 8140 8166
+type(
+  Parsetree.type_declaration
+)
+ident(
+  int_ref td "generation/complete.ml" 224 7945 7978 "generation/complete.ml" 224 7945 7980
+)
+"generation/complete.ml" 225 7991 7993 "generation/complete.ml" 229 8140 8166
+type(
+  Parsetree.type_declaration
+)
+"generation/complete.ml" 224 7945 7984 "generation/complete.ml" 229 8140 8166
+type(
+  'a * Parsetree.type_declaration
+)
+"generation/complete.ml" 232 8171 8175 "generation/complete.ml" 232 8171 8191
+type(
+  (string * Parsetree.type_declaration) list ->
+  (string * Parsetree.type_declaration) list
+)
+ident(
+  def adhoc_completion "generation/complete.ml" 232 8171 8223 "generation/complete.ml" 1 0 -1
+)
+"generation/complete.ml" 232 8171 8194 "generation/complete.ml" 232 8171 8202
+type(
+  (string * Parsetree.type_declaration -> string * Parsetree.type_declaration) ->
+  (string * Parsetree.type_declaration) list ->
+  (string * Parsetree.type_declaration) list
+)
+ident(
+  ext_ref List.map
+)
+"generation/complete.ml" 232 8171 8203 "generation/complete.ml" 232 8171 8223
+type(
+  string * Parsetree.type_declaration -> string * Parsetree.type_declaration
+)
+ident(
+  int_ref adhoc_completion_ntd "generation/complete.ml" 224 7945 7949 "generation/complete.ml" 224 7945 7969
+)
+"generation/complete.ml" 232 8171 8194 "generation/complete.ml" 232 8171 8223
+call(
+  stack
+)
+type(
+  (string * Parsetree.type_declaration) list ->
+  (string * Parsetree.type_declaration) list
+)

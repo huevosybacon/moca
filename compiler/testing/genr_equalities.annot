@@ -1,0 +1,1851 @@
+"testing/genr_equalities.ml" 27 1186 1190 "testing/genr_equalities.ml" 27 1186 1217
+type(
+  int -> Code.exp -> unit
+)
+ident(
+  def print_no_equalities_warning "testing/genr_equalities.ml" 34 1407 1407 "testing/genr_equalities.ml" 1 0 -1
+)
+"testing/genr_equalities.ml" 27 1186 1218 "testing/genr_equalities.ml" 27 1186 1224
+type(
+  int
+)
+ident(
+  def number "testing/genr_equalities.ml" 27 1186 1225 "testing/genr_equalities.ml" 31 1366 1402
+)
+"testing/genr_equalities.ml" 27 1186 1225 "testing/genr_equalities.ml" 27 1186 1228
+type(
+  Code.exp
+)
+ident(
+  def exp "testing/genr_equalities.ml" 28 1231 1233 "testing/genr_equalities.ml" 31 1366 1402
+)
+"testing/genr_equalities.ml" 28 1231 1233 "testing/genr_equalities.ml" 28 1231 1247
+type(
+  ((Format.formatter -> Code.exp -> unit) -> Code.exp -> int -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Code.exp -> unit) -> Code.exp -> int -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"testing/genr_equalities.ml" 29 1248 1252 "testing/genr_equalities.ml" 30 1305 1365
+type(
+  ((Format.formatter -> Code.exp -> unit) -> Code.exp -> int -> unit,
+   Format.formatter, unit)
+  format
+)
+"testing/genr_equalities.ml" 31 1366 1370 "testing/genr_equalities.ml" 31 1366 1391
+type(
+  Format.formatter -> Code.exp -> unit
+)
+ident(
+  ext_ref Pr_code.pr_expression
+)
+"testing/genr_equalities.ml" 31 1366 1392 "testing/genr_equalities.ml" 31 1366 1395
+type(
+  Code.exp
+)
+ident(
+  int_ref exp "testing/genr_equalities.ml" 27 1186 1225 "testing/genr_equalities.ml" 27 1186 1228
+)
+"testing/genr_equalities.ml" 31 1366 1396 "testing/genr_equalities.ml" 31 1366 1402
+type(
+  int
+)
+ident(
+  int_ref number "testing/genr_equalities.ml" 27 1186 1218 "testing/genr_equalities.ml" 27 1186 1224
+)
+"testing/genr_equalities.ml" 28 1231 1233 "testing/genr_equalities.ml" 31 1366 1402
+call(
+  tail
+)
+type(
+  unit
+)
+"testing/genr_equalities.ml" 34 1407 1411 "testing/genr_equalities.ml" 34 1407 1437
+type(
+  string -> Code.exp -> unit
+)
+ident(
+  def print_unknown_type_warning "testing/genr_equalities.ml" 41 1634 1634 "testing/genr_equalities.ml" 1 0 -1
+)
+"testing/genr_equalities.ml" 34 1407 1438 "testing/genr_equalities.ml" 34 1407 1443
+type(
+  string
+)
+ident(
+  def tname "testing/genr_equalities.ml" 34 1407 1444 "testing/genr_equalities.ml" 38 1594 1629
+)
+"testing/genr_equalities.ml" 34 1407 1444 "testing/genr_equalities.ml" 34 1407 1447
+type(
+  Code.exp
+)
+ident(
+  def exp "testing/genr_equalities.ml" 35 1450 1452 "testing/genr_equalities.ml" 38 1594 1629
+)
+"testing/genr_equalities.ml" 35 1450 1452 "testing/genr_equalities.ml" 35 1450 1466
+type(
+  ((Format.formatter -> Code.exp -> unit) -> Code.exp -> string -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Code.exp -> unit) -> Code.exp -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"testing/genr_equalities.ml" 36 1467 1471 "testing/genr_equalities.ml" 37 1524 1593
+type(
+  ((Format.formatter -> Code.exp -> unit) -> Code.exp -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"testing/genr_equalities.ml" 38 1594 1598 "testing/genr_equalities.ml" 38 1594 1619
+type(
+  Format.formatter -> Code.exp -> unit
+)
+ident(
+  ext_ref Pr_code.pr_expression
+)
+"testing/genr_equalities.ml" 38 1594 1620 "testing/genr_equalities.ml" 38 1594 1623
+type(
+  Code.exp
+)
+ident(
+  int_ref exp "testing/genr_equalities.ml" 34 1407 1444 "testing/genr_equalities.ml" 34 1407 1447
+)
+"testing/genr_equalities.ml" 38 1594 1624 "testing/genr_equalities.ml" 38 1594 1629
+type(
+  string
+)
+ident(
+  int_ref tname "testing/genr_equalities.ml" 34 1407 1438 "testing/genr_equalities.ml" 34 1407 1443
+)
+"testing/genr_equalities.ml" 35 1450 1452 "testing/genr_equalities.ml" 38 1594 1629
+call(
+  tail
+)
+type(
+  unit
+)
+"testing/genr_equalities.ml" 41 1634 1638 "testing/genr_equalities.ml" 41 1634 1669
+type(
+  string -> Code.exp -> unit
+)
+ident(
+  def print_unknown_generator_warning "testing/genr_equalities.ml" 48 1828 1828 "testing/genr_equalities.ml" 1 0 -1
+)
+"testing/genr_equalities.ml" 41 1634 1670 "testing/genr_equalities.ml" 41 1634 1675
+type(
+  string
+)
+ident(
+  def gname "testing/genr_equalities.ml" 41 1634 1676 "testing/genr_equalities.ml" 45 1788 1823
+)
+"testing/genr_equalities.ml" 41 1634 1676 "testing/genr_equalities.ml" 41 1634 1679
+type(
+  Code.exp
+)
+ident(
+  def exp "testing/genr_equalities.ml" 42 1682 1684 "testing/genr_equalities.ml" 45 1788 1823
+)
+"testing/genr_equalities.ml" 42 1682 1684 "testing/genr_equalities.ml" 42 1682 1698
+type(
+  ((Format.formatter -> Code.exp -> unit) -> Code.exp -> string -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Code.exp -> unit) -> Code.exp -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"testing/genr_equalities.ml" 43 1699 1703 "testing/genr_equalities.ml" 44 1756 1787
+type(
+  ((Format.formatter -> Code.exp -> unit) -> Code.exp -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"testing/genr_equalities.ml" 45 1788 1792 "testing/genr_equalities.ml" 45 1788 1813
+type(
+  Format.formatter -> Code.exp -> unit
+)
+ident(
+  ext_ref Pr_code.pr_expression
+)
+"testing/genr_equalities.ml" 45 1788 1814 "testing/genr_equalities.ml" 45 1788 1817
+type(
+  Code.exp
+)
+ident(
+  int_ref exp "testing/genr_equalities.ml" 41 1634 1676 "testing/genr_equalities.ml" 41 1634 1679
+)
+"testing/genr_equalities.ml" 45 1788 1818 "testing/genr_equalities.ml" 45 1788 1823
+type(
+  string
+)
+ident(
+  int_ref gname "testing/genr_equalities.ml" 41 1634 1670 "testing/genr_equalities.ml" 41 1634 1675
+)
+"testing/genr_equalities.ml" 42 1682 1684 "testing/genr_equalities.ml" 45 1788 1823
+call(
+  tail
+)
+type(
+  unit
+)
+"testing/genr_equalities.ml" 48 1828 1832 "testing/genr_equalities.ml" 48 1828 1868
+type(
+  string -> string -> Code.exp -> unit
+)
+ident(
+  def print_unknown_generator_type_warning "testing/genr_equalities.ml" 55 2063 2063 "testing/genr_equalities.ml" 1 0 -1
+)
+"testing/genr_equalities.ml" 48 1828 1869 "testing/genr_equalities.ml" 48 1828 1874
+type(
+  string
+)
+ident(
+  def gname "testing/genr_equalities.ml" 48 1828 1875 "testing/genr_equalities.ml" 52 2017 2058
+)
+"testing/genr_equalities.ml" 48 1828 1875 "testing/genr_equalities.ml" 48 1828 1880
+type(
+  string
+)
+ident(
+  def tname "testing/genr_equalities.ml" 48 1828 1881 "testing/genr_equalities.ml" 52 2017 2058
+)
+"testing/genr_equalities.ml" 48 1828 1881 "testing/genr_equalities.ml" 48 1828 1884
+type(
+  Code.exp
+)
+ident(
+  def exp "testing/genr_equalities.ml" 49 1887 1889 "testing/genr_equalities.ml" 52 2017 2058
+)
+"testing/genr_equalities.ml" 49 1887 1889 "testing/genr_equalities.ml" 49 1887 1903
+type(
+  ((Format.formatter -> Code.exp -> unit) ->
+   Code.exp -> string -> string -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Code.exp -> unit) ->
+  Code.exp -> string -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"testing/genr_equalities.ml" 50 1904 1908 "testing/genr_equalities.ml" 51 1961 2016
+type(
+  ((Format.formatter -> Code.exp -> unit) ->
+   Code.exp -> string -> string -> unit, Format.formatter, unit)
+  format
+)
+"testing/genr_equalities.ml" 52 2017 2021 "testing/genr_equalities.ml" 52 2017 2042
+type(
+  Format.formatter -> Code.exp -> unit
+)
+ident(
+  ext_ref Pr_code.pr_expression
+)
+"testing/genr_equalities.ml" 52 2017 2043 "testing/genr_equalities.ml" 52 2017 2046
+type(
+  Code.exp
+)
+ident(
+  int_ref exp "testing/genr_equalities.ml" 48 1828 1881 "testing/genr_equalities.ml" 48 1828 1884
+)
+"testing/genr_equalities.ml" 52 2017 2047 "testing/genr_equalities.ml" 52 2017 2052
+type(
+  string
+)
+ident(
+  int_ref tname "testing/genr_equalities.ml" 48 1828 1875 "testing/genr_equalities.ml" 48 1828 1880
+)
+"testing/genr_equalities.ml" 52 2017 2053 "testing/genr_equalities.ml" 52 2017 2058
+type(
+  string
+)
+ident(
+  int_ref gname "testing/genr_equalities.ml" 48 1828 1869 "testing/genr_equalities.ml" 48 1828 1874
+)
+"testing/genr_equalities.ml" 49 1887 1889 "testing/genr_equalities.ml" 52 2017 2058
+call(
+  tail
+)
+type(
+  unit
+)
+"testing/genr_equalities.ml" 55 2063 2067 "testing/genr_equalities.ml" 55 2063 2100
+type(
+  string -> int -> int -> Code.exp -> unit
+)
+ident(
+  def print_type_arity_mismatch_warning "testing/genr_equalities.ml" 62 2327 2327 "testing/genr_equalities.ml" 1 0 -1
+)
+"testing/genr_equalities.ml" 55 2063 2101 "testing/genr_equalities.ml" 55 2063 2106
+type(
+  string
+)
+ident(
+  def tname "testing/genr_equalities.ml" 55 2063 2107 "testing/genr_equalities.ml" 59 2274 2322
+)
+"testing/genr_equalities.ml" 55 2063 2107 "testing/genr_equalities.ml" 55 2063 2116
+type(
+  int
+)
+ident(
+  def should_be "testing/genr_equalities.ml" 55 2063 2117 "testing/genr_equalities.ml" 59 2274 2322
+)
+"testing/genr_equalities.ml" 55 2063 2117 "testing/genr_equalities.ml" 55 2063 2119
+type(
+  int
+)
+ident(
+  def is "testing/genr_equalities.ml" 55 2063 2120 "testing/genr_equalities.ml" 59 2274 2322
+)
+"testing/genr_equalities.ml" 55 2063 2120 "testing/genr_equalities.ml" 55 2063 2123
+type(
+  Code.exp
+)
+ident(
+  def exp "testing/genr_equalities.ml" 56 2126 2128 "testing/genr_equalities.ml" 59 2274 2322
+)
+"testing/genr_equalities.ml" 56 2126 2128 "testing/genr_equalities.ml" 56 2126 2142
+type(
+  ((Format.formatter -> Code.exp -> unit) ->
+   Code.exp -> string -> int -> int -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Code.exp -> unit) ->
+  Code.exp -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"testing/genr_equalities.ml" 57 2143 2147 "testing/genr_equalities.ml" 58 2200 2273
+type(
+  ((Format.formatter -> Code.exp -> unit) ->
+   Code.exp -> string -> int -> int -> unit, Format.formatter, unit)
+  format
+)
+"testing/genr_equalities.ml" 59 2274 2278 "testing/genr_equalities.ml" 59 2274 2299
+type(
+  Format.formatter -> Code.exp -> unit
+)
+ident(
+  ext_ref Pr_code.pr_expression
+)
+"testing/genr_equalities.ml" 59 2274 2300 "testing/genr_equalities.ml" 59 2274 2303
+type(
+  Code.exp
+)
+ident(
+  int_ref exp "testing/genr_equalities.ml" 55 2063 2120 "testing/genr_equalities.ml" 55 2063 2123
+)
+"testing/genr_equalities.ml" 59 2274 2304 "testing/genr_equalities.ml" 59 2274 2309
+type(
+  string
+)
+ident(
+  int_ref tname "testing/genr_equalities.ml" 55 2063 2101 "testing/genr_equalities.ml" 55 2063 2106
+)
+"testing/genr_equalities.ml" 59 2274 2310 "testing/genr_equalities.ml" 59 2274 2312
+type(
+  int
+)
+ident(
+  int_ref is "testing/genr_equalities.ml" 55 2063 2117 "testing/genr_equalities.ml" 55 2063 2119
+)
+"testing/genr_equalities.ml" 59 2274 2313 "testing/genr_equalities.ml" 59 2274 2322
+type(
+  int
+)
+ident(
+  int_ref should_be "testing/genr_equalities.ml" 55 2063 2107 "testing/genr_equalities.ml" 55 2063 2116
+)
+"testing/genr_equalities.ml" 56 2126 2128 "testing/genr_equalities.ml" 59 2274 2322
+call(
+  tail
+)
+type(
+  unit
+)
+"testing/genr_equalities.ml" 62 2327 2335 "testing/genr_equalities.ml" 62 2327 2352
+type(
+  (Var.var -> Code.exp) -> Term.term -> Code.exp
+)
+ident(
+  def exp_subst_of_term "testing/genr_equalities.ml" 62 2327 2327 "testing/genr_equalities.ml" 1 0 -1
+)
+"testing/genr_equalities.ml" 62 2327 2353 "testing/genr_equalities.ml" 62 2327 2358
+type(
+  Var.var -> Code.exp
+)
+ident(
+  def subst "testing/genr_equalities.ml" 62 2327 2359 "testing/genr_equalities.ml" 74 2656 2724
+)
+"testing/genr_equalities.ml" 62 2327 2359 "testing/genr_equalities.ml" 62 2327 2363
+type(
+  Term.term
+)
+ident(
+  def term "testing/genr_equalities.ml" 63 2366 2368 "testing/genr_equalities.ml" 74 2656 2724
+)
+"testing/genr_equalities.ml" 63 2366 2374 "testing/genr_equalities.ml" 63 2366 2378
+type(
+  Term.term
+)
+ident(
+  int_ref term "testing/genr_equalities.ml" 62 2327 2359 "testing/genr_equalities.ml" 62 2327 2363
+)
+"testing/genr_equalities.ml" 64 2384 2397 "testing/genr_equalities.ml" 64 2384 2398
+type(
+  Var.var
+)
+ident(
+  def x "testing/genr_equalities.ml" 64 2384 2402 "testing/genr_equalities.ml" 64 2384 2409
+)
+"testing/genr_equalities.ml" 64 2384 2388 "testing/genr_equalities.ml" 64 2384 2398
+type(
+  Term.term
+)
+"testing/genr_equalities.ml" 64 2384 2402 "testing/genr_equalities.ml" 64 2384 2407
+type(
+  Var.var -> Code.exp
+)
+ident(
+  int_ref subst "testing/genr_equalities.ml" 62 2327 2353 "testing/genr_equalities.ml" 62 2327 2358
+)
+"testing/genr_equalities.ml" 64 2384 2408 "testing/genr_equalities.ml" 64 2384 2409
+type(
+  Var.var
+)
+ident(
+  int_ref x "testing/genr_equalities.ml" 64 2384 2397 "testing/genr_equalities.ml" 64 2384 2398
+)
+"testing/genr_equalities.ml" 64 2384 2402 "testing/genr_equalities.ml" 64 2384 2409
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 65 2410 2424 "testing/genr_equalities.ml" 65 2410 2425
+type(
+  Symb.symbol
+)
+ident(
+  def x "testing/genr_equalities.ml" 66 2434 2438 "testing/genr_equalities.ml" 74 2656 2724
+)
+"testing/genr_equalities.ml" 65 2410 2427 "testing/genr_equalities.ml" 65 2410 2429
+type(
+  Term.term list
+)
+ident(
+  def ts "testing/genr_equalities.ml" 66 2434 2438 "testing/genr_equalities.ml" 74 2656 2724
+)
+"testing/genr_equalities.ml" 65 2410 2414 "testing/genr_equalities.ml" 65 2410 2430
+type(
+  Term.term
+)
+"testing/genr_equalities.ml" 66 2434 2442 "testing/genr_equalities.ml" 66 2434 2448
+type(
+  string
+)
+ident(
+  def string "testing/genr_equalities.ml" 67 2473 2477 "testing/genr_equalities.ml" 74 2656 2724
+)
+"testing/genr_equalities.ml" 66 2434 2451 "testing/genr_equalities.ml" 66 2434 2467
+type(
+  Symb.symbol -> string
+)
+ident(
+  ext_ref Symb.string_of_symbol
+)
+"testing/genr_equalities.ml" 66 2434 2468 "testing/genr_equalities.ml" 66 2434 2469
+type(
+  Symb.symbol
+)
+ident(
+  int_ref x "testing/genr_equalities.ml" 65 2410 2424 "testing/genr_equalities.ml" 65 2410 2425
+)
+"testing/genr_equalities.ml" 66 2434 2451 "testing/genr_equalities.ml" 66 2434 2469
+call(
+  stack
+)
+type(
+  string
+)
+"testing/genr_equalities.ml" 67 2473 2483 "testing/genr_equalities.ml" 67 2473 2485
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "testing/genr_equalities.ml" 65 2410 2427 "testing/genr_equalities.ml" 65 2410 2429
+)
+"testing/genr_equalities.ml" 68 2491 2498 "testing/genr_equalities.ml" 68 2491 2500
+type(
+  Term.term
+)
+ident(
+  def t1 "testing/genr_equalities.ml" 68 2491 2511 "testing/genr_equalities.ml" 72 2608 2644
+)
+"testing/genr_equalities.ml" 68 2491 2502 "testing/genr_equalities.ml" 68 2491 2504
+type(
+  Term.term
+)
+ident(
+  def t2 "testing/genr_equalities.ml" 68 2491 2511 "testing/genr_equalities.ml" 72 2608 2644
+)
+"testing/genr_equalities.ml" 68 2491 2497 "testing/genr_equalities.ml" 68 2491 2505
+type(
+  Term.term list
+)
+"testing/genr_equalities.ml" 68 2491 2511 "testing/genr_equalities.ml" 68 2491 2528
+type(
+  string -> bool
+)
+ident(
+  ext_ref Pr_ocaml.is_infix
+)
+"testing/genr_equalities.ml" 68 2491 2529 "testing/genr_equalities.ml" 68 2491 2535
+type(
+  string
+)
+ident(
+  int_ref string "testing/genr_equalities.ml" 66 2434 2442 "testing/genr_equalities.ml" 66 2434 2448
+)
+"testing/genr_equalities.ml" 68 2491 2511 "testing/genr_equalities.ml" 68 2491 2535
+call(
+  stack
+)
+type(
+  bool
+)
+"testing/genr_equalities.ml" 69 2539 2545 "testing/genr_equalities.ml" 69 2539 2555
+type(
+  Code.exp -> Code.iname -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.infix_name
+)
+"testing/genr_equalities.ml" 70 2556 2565 "testing/genr_equalities.ml" 70 2556 2582
+type(
+  (Var.var -> Code.exp) -> Term.term -> Code.exp
+)
+ident(
+  int_ref exp_subst_of_term "testing/genr_equalities.ml" 62 2327 2335 "testing/genr_equalities.ml" 62 2327 2352
+)
+"testing/genr_equalities.ml" 70 2556 2583 "testing/genr_equalities.ml" 70 2556 2588
+type(
+  Var.var -> Code.exp
+)
+ident(
+  int_ref subst "testing/genr_equalities.ml" 62 2327 2353 "testing/genr_equalities.ml" 62 2327 2358
+)
+"testing/genr_equalities.ml" 70 2556 2589 "testing/genr_equalities.ml" 70 2556 2591
+type(
+  Term.term
+)
+ident(
+  int_ref t1 "testing/genr_equalities.ml" 68 2491 2498 "testing/genr_equalities.ml" 68 2491 2500
+)
+"testing/genr_equalities.ml" 70 2556 2564 "testing/genr_equalities.ml" 70 2556 2592
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 71 2593 2601 "testing/genr_equalities.ml" 71 2593 2607
+type(
+  Code.iname
+)
+ident(
+  int_ref string "testing/genr_equalities.ml" 66 2434 2442 "testing/genr_equalities.ml" 66 2434 2448
+)
+"testing/genr_equalities.ml" 72 2608 2617 "testing/genr_equalities.ml" 72 2608 2634
+type(
+  (Var.var -> Code.exp) -> Term.term -> Code.exp
+)
+ident(
+  int_ref exp_subst_of_term "testing/genr_equalities.ml" 62 2327 2335 "testing/genr_equalities.ml" 62 2327 2352
+)
+"testing/genr_equalities.ml" 72 2608 2635 "testing/genr_equalities.ml" 72 2608 2640
+type(
+  Var.var -> Code.exp
+)
+ident(
+  int_ref subst "testing/genr_equalities.ml" 62 2327 2353 "testing/genr_equalities.ml" 62 2327 2358
+)
+"testing/genr_equalities.ml" 72 2608 2641 "testing/genr_equalities.ml" 72 2608 2643
+type(
+  Term.term
+)
+ident(
+  int_ref t2 "testing/genr_equalities.ml" 68 2491 2502 "testing/genr_equalities.ml" 68 2491 2504
+)
+"testing/genr_equalities.ml" 72 2608 2616 "testing/genr_equalities.ml" 72 2608 2644
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 69 2539 2545 "testing/genr_equalities.ml" 72 2608 2644
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 73 2645 2651 "testing/genr_equalities.ml" 73 2645 2652
+type(
+  Term.term list
+)
+"testing/genr_equalities.ml" 74 2656 2662 "testing/genr_equalities.ml" 74 2656 2677
+type(
+  string -> Code.exp list -> Code.exp
+)
+ident(
+  ext_ref Tgenr_base.mk_construction
+)
+"testing/genr_equalities.ml" 74 2656 2678 "testing/genr_equalities.ml" 74 2656 2684
+type(
+  string
+)
+ident(
+  int_ref string "testing/genr_equalities.ml" 66 2434 2442 "testing/genr_equalities.ml" 66 2434 2448
+)
+"testing/genr_equalities.ml" 74 2656 2686 "testing/genr_equalities.ml" 74 2656 2694
+type(
+  (Term.term -> Code.exp) -> Term.term list -> Code.exp list
+)
+ident(
+  ext_ref List.map
+)
+"testing/genr_equalities.ml" 74 2656 2696 "testing/genr_equalities.ml" 74 2656 2713
+type(
+  (Var.var -> Code.exp) -> Term.term -> Code.exp
+)
+ident(
+  int_ref exp_subst_of_term "testing/genr_equalities.ml" 62 2327 2335 "testing/genr_equalities.ml" 62 2327 2352
+)
+"testing/genr_equalities.ml" 74 2656 2714 "testing/genr_equalities.ml" 74 2656 2719
+type(
+  Var.var -> Code.exp
+)
+ident(
+  int_ref subst "testing/genr_equalities.ml" 62 2327 2353 "testing/genr_equalities.ml" 62 2327 2358
+)
+"testing/genr_equalities.ml" 74 2656 2695 "testing/genr_equalities.ml" 74 2656 2720
+call(
+  stack
+)
+type(
+  Term.term -> Code.exp
+)
+"testing/genr_equalities.ml" 74 2656 2721 "testing/genr_equalities.ml" 74 2656 2723
+type(
+  Term.term list
+)
+ident(
+  int_ref ts "testing/genr_equalities.ml" 65 2410 2427 "testing/genr_equalities.ml" 65 2410 2429
+)
+"testing/genr_equalities.ml" 74 2656 2685 "testing/genr_equalities.ml" 74 2656 2724
+call(
+  stack
+)
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 74 2656 2662 "testing/genr_equalities.ml" 74 2656 2724
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 67 2473 2477 "testing/genr_equalities.ml" 74 2656 2724
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 66 2434 2438 "testing/genr_equalities.ml" 74 2656 2724
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 63 2366 2368 "testing/genr_equalities.ml" 74 2656 2724
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 77 2729 2733 "testing/genr_equalities.ml" 77 2729 2744
+type(
+  Term.term -> Code.exp
+)
+ident(
+  def exp_of_term "testing/genr_equalities.ml" 81 2822 2822 "testing/genr_equalities.ml" 1 0 -1
+)
+"testing/genr_equalities.ml" 78 2747 2749 "testing/genr_equalities.ml" 78 2747 2766
+type(
+  (Var.var -> Code.exp) -> Term.term -> Code.exp
+)
+ident(
+  int_ref exp_subst_of_term "testing/genr_equalities.ml" 62 2327 2335 "testing/genr_equalities.ml" 62 2327 2352
+)
+"testing/genr_equalities.ml" 78 2747 2772 "testing/genr_equalities.ml" 78 2747 2773
+type(
+  Var.var
+)
+ident(
+  def v "testing/genr_equalities.ml" 78 2747 2777 "testing/genr_equalities.ml" 78 2747 2816
+)
+"testing/genr_equalities.ml" 78 2747 2777 "testing/genr_equalities.ml" 78 2747 2790
+type(
+  string -> Code.exp
+)
+ident(
+  ext_ref Code.make_Constant
+)
+"testing/genr_equalities.ml" 78 2747 2792 "testing/genr_equalities.ml" 78 2747 2813
+type(
+  Var.var -> string
+)
+ident(
+  ext_ref Var.raw_string_of_var
+)
+"testing/genr_equalities.ml" 78 2747 2814 "testing/genr_equalities.ml" 78 2747 2815
+type(
+  Var.var
+)
+ident(
+  int_ref v "testing/genr_equalities.ml" 78 2747 2772 "testing/genr_equalities.ml" 78 2747 2773
+)
+"testing/genr_equalities.ml" 78 2747 2791 "testing/genr_equalities.ml" 78 2747 2816
+call(
+  stack
+)
+type(
+  string
+)
+"testing/genr_equalities.ml" 78 2747 2777 "testing/genr_equalities.ml" 78 2747 2816
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 78 2747 2767 "testing/genr_equalities.ml" 78 2747 2817
+type(
+  Var.var -> Code.exp
+)
+"testing/genr_equalities.ml" 78 2747 2749 "testing/genr_equalities.ml" 78 2747 2817
+call(
+  stack
+)
+type(
+  Term.term -> Code.exp
+)
+"testing/genr_equalities.ml" 81 2822 2826 "testing/genr_equalities.ml" 81 2822 2841
+type(
+  Term.term * Term.term -> Code.exp
+)
+ident(
+  def exp_of_equation "testing/genr_equalities.ml" 87 2941 2941 "testing/genr_equalities.ml" 1 0 -1
+)
+"testing/genr_equalities.ml" 81 2822 2843 "testing/genr_equalities.ml" 81 2822 2852
+type(
+  Term.term
+)
+ident(
+  def left_term "testing/genr_equalities.ml" 82 2868 2870 "testing/genr_equalities.ml" 84 2909 2936
+)
+"testing/genr_equalities.ml" 81 2822 2854 "testing/genr_equalities.ml" 81 2822 2864
+type(
+  Term.term
+)
+ident(
+  def right_term "testing/genr_equalities.ml" 82 2868 2870 "testing/genr_equalities.ml" 84 2909 2936
+)
+"testing/genr_equalities.ml" 81 2822 2842 "testing/genr_equalities.ml" 81 2822 2865
+type(
+  Term.term * Term.term
+)
+"testing/genr_equalities.ml" 82 2868 2870 "testing/genr_equalities.ml" 82 2868 2881
+type(
+  Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Tgenr_base.mk_equality
+)
+"testing/genr_equalities.ml" 83 2882 2886 "testing/genr_equalities.ml" 83 2882 2897
+type(
+  Term.term -> Code.exp
+)
+ident(
+  int_ref exp_of_term "testing/genr_equalities.ml" 77 2729 2733 "testing/genr_equalities.ml" 77 2729 2744
+)
+"testing/genr_equalities.ml" 83 2882 2898 "testing/genr_equalities.ml" 83 2882 2907
+type(
+  Term.term
+)
+ident(
+  int_ref left_term "testing/genr_equalities.ml" 81 2822 2843 "testing/genr_equalities.ml" 81 2822 2852
+)
+"testing/genr_equalities.ml" 83 2882 2885 "testing/genr_equalities.ml" 83 2882 2908
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 84 2909 2913 "testing/genr_equalities.ml" 84 2909 2924
+type(
+  Term.term -> Code.exp
+)
+ident(
+  int_ref exp_of_term "testing/genr_equalities.ml" 77 2729 2733 "testing/genr_equalities.ml" 77 2729 2744
+)
+"testing/genr_equalities.ml" 84 2909 2925 "testing/genr_equalities.ml" 84 2909 2935
+type(
+  Term.term
+)
+ident(
+  int_ref right_term "testing/genr_equalities.ml" 81 2822 2854 "testing/genr_equalities.ml" 81 2822 2864
+)
+"testing/genr_equalities.ml" 84 2909 2912 "testing/genr_equalities.ml" 84 2909 2936
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 82 2868 2870 "testing/genr_equalities.ml" 84 2909 2936
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 87 2941 2949 "testing/genr_equalities.ml" 87 2941 2961
+type(
+  Code.exp -> (Var.var * 'a) list -> (Var.var -> Code.exp) -> Code.exp
+)
+ident(
+  def add_val_defs "testing/genr_equalities.ml" 87 2941 2941 "testing/genr_equalities.ml" 1 0 -1
+)
+"testing/genr_equalities.ml" 87 2941 2962 "testing/genr_equalities.ml" 87 2941 2971
+type(
+  Code.exp
+)
+ident(
+  def final_exp "testing/genr_equalities.ml" 87 2941 2972 "testing/genr_equalities.ml" 92 3107 3172
+)
+"testing/genr_equalities.ml" 87 2941 2972 "testing/genr_equalities.ml" 87 2941 2976
+type(
+  (Var.var * 'a) list
+)
+ident(
+  def vars "testing/genr_equalities.ml" 87 2941 2977 "testing/genr_equalities.ml" 92 3107 3172
+)
+"testing/genr_equalities.ml" 87 2941 2977 "testing/genr_equalities.ml" 87 2941 2982
+type(
+  Var.var -> Code.exp
+)
+ident(
+  def subst "testing/genr_equalities.ml" 88 2985 2987 "testing/genr_equalities.ml" 92 3107 3172
+)
+"testing/genr_equalities.ml" 88 2985 2993 "testing/genr_equalities.ml" 88 2985 2997
+type(
+  (Var.var * 'a) list
+)
+ident(
+  int_ref vars "testing/genr_equalities.ml" 87 2941 2972 "testing/genr_equalities.ml" 87 2941 2976
+)
+"testing/genr_equalities.ml" 89 3003 3007 "testing/genr_equalities.ml" 89 3003 3009
+type(
+  (Var.var * 'a) list
+)
+"testing/genr_equalities.ml" 89 3003 3013 "testing/genr_equalities.ml" 89 3003 3022
+type(
+  Code.exp
+)
+ident(
+  int_ref final_exp "testing/genr_equalities.ml" 87 2941 2962 "testing/genr_equalities.ml" 87 2941 2971
+)
+"testing/genr_equalities.ml" 90 3023 3028 "testing/genr_equalities.ml" 90 3023 3029
+type(
+  Var.var
+)
+ident(
+  def v "testing/genr_equalities.ml" 91 3043 3047 "testing/genr_equalities.ml" 92 3107 3172
+)
+"testing/genr_equalities.ml" 90 3023 3031 "testing/genr_equalities.ml" 90 3023 3032
+type(
+  'a
+)
+"testing/genr_equalities.ml" 90 3023 3027 "testing/genr_equalities.ml" 90 3023 3033
+type(
+  Var.var * 'a
+)
+"testing/genr_equalities.ml" 90 3023 3037 "testing/genr_equalities.ml" 90 3023 3039
+type(
+  (Var.var * 'a) list
+)
+ident(
+  def vs "testing/genr_equalities.ml" 91 3043 3047 "testing/genr_equalities.ml" 92 3107 3172
+)
+"testing/genr_equalities.ml" 90 3023 3027 "testing/genr_equalities.ml" 90 3023 3039
+type(
+  (Var.var * 'a) list
+)
+"testing/genr_equalities.ml" 91 3043 3051 "testing/genr_equalities.ml" 91 3043 3058
+type(
+  Longident.t
+)
+ident(
+  def v_ident "testing/genr_equalities.ml" 92 3107 3111 "testing/genr_equalities.ml" 92 3107 3172
+)
+"testing/genr_equalities.ml" 91 3043 3079 "testing/genr_equalities.ml" 91 3043 3100
+type(
+  Var.var -> string
+)
+ident(
+  ext_ref Var.raw_string_of_var
+)
+"testing/genr_equalities.ml" 91 3043 3101 "testing/genr_equalities.ml" 91 3043 3102
+type(
+  Var.var
+)
+ident(
+  int_ref v "testing/genr_equalities.ml" 90 3023 3028 "testing/genr_equalities.ml" 90 3023 3029
+)
+"testing/genr_equalities.ml" 91 3043 3078 "testing/genr_equalities.ml" 91 3043 3103
+call(
+  stack
+)
+type(
+  string
+)
+"testing/genr_equalities.ml" 91 3043 3061 "testing/genr_equalities.ml" 91 3043 3103
+type(
+  Longident.t
+)
+"testing/genr_equalities.ml" 92 3107 3111 "testing/genr_equalities.ml" 92 3107 3120
+type(
+  Code.lident -> Code.exp -> Code.exp -> Code.exp
+)
+ident(
+  ext_ref Code.let0
+)
+"testing/genr_equalities.ml" 92 3107 3121 "testing/genr_equalities.ml" 92 3107 3128
+type(
+  Code.lident
+)
+ident(
+  int_ref v_ident "testing/genr_equalities.ml" 91 3043 3051 "testing/genr_equalities.ml" 91 3043 3058
+)
+"testing/genr_equalities.ml" 92 3107 3130 "testing/genr_equalities.ml" 92 3107 3135
+type(
+  Var.var -> Code.exp
+)
+ident(
+  int_ref subst "testing/genr_equalities.ml" 87 2941 2977 "testing/genr_equalities.ml" 87 2941 2982
+)
+"testing/genr_equalities.ml" 92 3107 3136 "testing/genr_equalities.ml" 92 3107 3137
+type(
+  Var.var
+)
+ident(
+  int_ref v "testing/genr_equalities.ml" 90 3023 3028 "testing/genr_equalities.ml" 90 3023 3029
+)
+"testing/genr_equalities.ml" 92 3107 3129 "testing/genr_equalities.ml" 92 3107 3138
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 92 3107 3140 "testing/genr_equalities.ml" 92 3107 3152
+type(
+  Code.exp -> (Var.var * 'a) list -> (Var.var -> Code.exp) -> Code.exp
+)
+ident(
+  int_ref add_val_defs "testing/genr_equalities.ml" 87 2941 2949 "testing/genr_equalities.ml" 87 2941 2961
+)
+"testing/genr_equalities.ml" 92 3107 3153 "testing/genr_equalities.ml" 92 3107 3162
+type(
+  Code.exp
+)
+ident(
+  int_ref final_exp "testing/genr_equalities.ml" 87 2941 2962 "testing/genr_equalities.ml" 87 2941 2971
+)
+"testing/genr_equalities.ml" 92 3107 3163 "testing/genr_equalities.ml" 92 3107 3165
+type(
+  (Var.var * 'a) list
+)
+ident(
+  int_ref vs "testing/genr_equalities.ml" 90 3023 3037 "testing/genr_equalities.ml" 90 3023 3039
+)
+"testing/genr_equalities.ml" 92 3107 3166 "testing/genr_equalities.ml" 92 3107 3171
+type(
+  Var.var -> Code.exp
+)
+ident(
+  int_ref subst "testing/genr_equalities.ml" 87 2941 2977 "testing/genr_equalities.ml" 87 2941 2982
+)
+"testing/genr_equalities.ml" 92 3107 3139 "testing/genr_equalities.ml" 92 3107 3172
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 92 3107 3111 "testing/genr_equalities.ml" 92 3107 3172
+call(
+  tail
+)
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 91 3043 3047 "testing/genr_equalities.ml" 92 3107 3172
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 88 2985 2987 "testing/genr_equalities.ml" 92 3107 3172
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 95 3177 3181 "testing/genr_equalities.ml" 95 3177 3190
+type(
+  Parsetree.generator -> Parsetree.relations -> (Term.term * Term.term) list
+)
+ident(
+  def equations "testing/genr_equalities.ml" 110 3698 3698 "testing/genr_equalities.ml" 1 0 -1
+)
+"testing/genr_equalities.ml" 95 3177 3191 "testing/genr_equalities.ml" 95 3177 3192
+type(
+  Parsetree.generator
+)
+ident(
+  def g "testing/genr_equalities.ml" 95 3177 3193 "testing/genr_equalities.ml" 107 3688 3693
+)
+"testing/genr_equalities.ml" 95 3177 3193 "testing/genr_equalities.ml" 95 3177 3197
+type(
+  Parsetree.relations
+)
+ident(
+  def rels "testing/genr_equalities.ml" 97 3242 3244 "testing/genr_equalities.ml" 107 3688 3693
+)
+"testing/genr_equalities.ml" 97 3242 3247 "testing/genr_equalities.ml" 97 3242 3273
+type(
+  Parsetree.generator -> bool
+)
+ident(
+  ext_ref Check.is_listary_generator
+)
+"testing/genr_equalities.ml" 97 3242 3274 "testing/genr_equalities.ml" 97 3242 3275
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "testing/genr_equalities.ml" 95 3177 3191 "testing/genr_equalities.ml" 95 3177 3192
+)
+"testing/genr_equalities.ml" 97 3242 3247 "testing/genr_equalities.ml" 97 3242 3275
+call(
+  stack
+)
+type(
+  bool
+)
+"testing/genr_equalities.ml" 100 3389 3393 "testing/genr_equalities.ml" 100 3389 3441
+type(
+  Parsetree.generator -> Parsetree.relations -> (Term.term * Term.term) list
+)
+ident(
+  ext_ref Genr_listary_equations.testing_equations_of_rels
+)
+"testing/genr_equalities.ml" 100 3389 3442 "testing/genr_equalities.ml" 100 3389 3443
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "testing/genr_equalities.ml" 95 3177 3191 "testing/genr_equalities.ml" 95 3177 3192
+)
+"testing/genr_equalities.ml" 100 3389 3444 "testing/genr_equalities.ml" 100 3389 3448
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref rels "testing/genr_equalities.ml" 95 3177 3193 "testing/genr_equalities.ml" 95 3177 3197
+)
+"testing/genr_equalities.ml" 97 3242 3281 "testing/genr_equalities.ml" 101 3449 3454
+call(
+  tail
+)
+type(
+  (Term.term * Term.term) list
+)
+"testing/genr_equalities.ml" 104 3574 3578 "testing/genr_equalities.ml" 104 3574 3586
+type(
+  (Equation.EqnSet.elt -> Term.term * Term.term) ->
+  Equation.EqnSet.elt list -> (Term.term * Term.term) list
+)
+ident(
+  ext_ref List.map
+)
+"testing/genr_equalities.ml" 105 3587 3616 "testing/genr_equalities.ml" 105 3587 3617
+type(
+  Term.term
+)
+ident(
+  def l "testing/genr_equalities.ml" 105 3587 3625 "testing/genr_equalities.ml" 105 3587 3629
+)
+"testing/genr_equalities.ml" 105 3587 3619 "testing/genr_equalities.ml" 105 3587 3620
+type(
+  Term.term
+)
+ident(
+  def r "testing/genr_equalities.ml" 105 3587 3625 "testing/genr_equalities.ml" 105 3587 3629
+)
+"testing/genr_equalities.ml" 105 3587 3603 "testing/genr_equalities.ml" 105 3587 3621
+type(
+  Equation.EqnSet.elt
+)
+"testing/genr_equalities.ml" 105 3587 3625 "testing/genr_equalities.ml" 105 3587 3626
+type(
+  Term.term
+)
+ident(
+  int_ref l "testing/genr_equalities.ml" 105 3587 3616 "testing/genr_equalities.ml" 105 3587 3617
+)
+"testing/genr_equalities.ml" 105 3587 3628 "testing/genr_equalities.ml" 105 3587 3629
+type(
+  Term.term
+)
+ident(
+  int_ref r "testing/genr_equalities.ml" 105 3587 3619 "testing/genr_equalities.ml" 105 3587 3620
+)
+"testing/genr_equalities.ml" 105 3587 3625 "testing/genr_equalities.ml" 105 3587 3629
+type(
+  Term.term * Term.term
+)
+"testing/genr_equalities.ml" 105 3587 3593 "testing/genr_equalities.ml" 105 3587 3630
+type(
+  Equation.EqnSet.elt -> Term.term * Term.term
+)
+"testing/genr_equalities.ml" 106 3631 3638 "testing/genr_equalities.ml" 106 3631 3662
+type(
+  Equation.EqnSet.t -> Equation.EqnSet.elt list
+)
+ident(
+  ext_ref Equation.EqnSet.elements
+)
+"testing/genr_equalities.ml" 106 3631 3664 "testing/genr_equalities.ml" 106 3631 3678
+type(
+  Parsetree.generator -> Parsetree.relations -> Equation.EqnSet.t
+)
+ident(
+  ext_ref Eqnrel.eqnset_of_rels
+)
+"testing/genr_equalities.ml" 106 3631 3679 "testing/genr_equalities.ml" 106 3631 3680
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "testing/genr_equalities.ml" 95 3177 3191 "testing/genr_equalities.ml" 95 3177 3192
+)
+"testing/genr_equalities.ml" 106 3631 3681 "testing/genr_equalities.ml" 106 3631 3685
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref rels "testing/genr_equalities.ml" 95 3177 3193 "testing/genr_equalities.ml" 95 3177 3197
+)
+"testing/genr_equalities.ml" 106 3631 3663 "testing/genr_equalities.ml" 106 3631 3686
+call(
+  stack
+)
+type(
+  Equation.EqnSet.t
+)
+"testing/genr_equalities.ml" 106 3631 3637 "testing/genr_equalities.ml" 106 3631 3687
+call(
+  stack
+)
+type(
+  Equation.EqnSet.elt list
+)
+"testing/genr_equalities.ml" 101 3449 3460 "testing/genr_equalities.ml" 107 3688 3693
+call(
+  tail
+)
+type(
+  (Term.term * Term.term) list
+)
+"testing/genr_equalities.ml" 97 3242 3244 "testing/genr_equalities.ml" 107 3688 3693
+type(
+  (Term.term * Term.term) list
+)
+"testing/genr_equalities.ml" 110 3698 3702 "testing/genr_equalities.ml" 110 3698 3736
+type(
+  int ->
+  (Parsetree.core_type -> int -> Code.exp list) ->
+  Term.term * Term.term -> Code.exp list
+)
+ident(
+  def genr_values_and_equalities_for_eqn "testing/genr_equalities.ml" 134 4431 4431 "testing/genr_equalities.ml" 1 0 -1
+)
+"testing/genr_equalities.ml" 110 3698 3737 "testing/genr_equalities.ml" 110 3698 3743
+type(
+  int
+)
+ident(
+  def number "testing/genr_equalities.ml" 110 3698 3744 "testing/genr_equalities.ml" 131 4420 4426
+)
+"testing/genr_equalities.ml" 110 3698 3744 "testing/genr_equalities.ml" 110 3698 3755
+type(
+  Parsetree.core_type -> int -> Code.exp list
+)
+ident(
+  def genr_values "testing/genr_equalities.ml" 110 3698 3756 "testing/genr_equalities.ml" 131 4420 4426
+)
+"testing/genr_equalities.ml" 110 3698 3756 "testing/genr_equalities.ml" 110 3698 3759
+type(
+  Term.term * Term.term
+)
+ident(
+  def eqn "testing/genr_equalities.ml" 111 3762 3764 "testing/genr_equalities.ml" 131 4420 4426
+)
+"testing/genr_equalities.ml" 111 3762 3768 "testing/genr_equalities.ml" 111 3762 3771
+type(
+  Code.exp
+)
+ident(
+  def exp "testing/genr_equalities.ml" 112 3797 3799 "testing/genr_equalities.ml" 131 4420 4426
+)
+"testing/genr_equalities.ml" 111 3762 3774 "testing/genr_equalities.ml" 111 3762 3789
+type(
+  Term.term * Term.term -> Code.exp
+)
+ident(
+  int_ref exp_of_equation "testing/genr_equalities.ml" 81 2822 2826 "testing/genr_equalities.ml" 81 2822 2841
+)
+"testing/genr_equalities.ml" 111 3762 3790 "testing/genr_equalities.ml" 111 3762 3793
+type(
+  Term.term * Term.term
+)
+ident(
+  int_ref eqn "testing/genr_equalities.ml" 110 3698 3756 "testing/genr_equalities.ml" 110 3698 3759
+)
+"testing/genr_equalities.ml" 111 3762 3774 "testing/genr_equalities.ml" 111 3762 3793
+call(
+  stack
+)
+type(
+  Code.exp
+)
+"testing/genr_equalities.ml" 113 3803 3811 "testing/genr_equalities.ml" 113 3803 3815
+type(
+  (Var.var * Parsetree.core_type) list
+)
+ident(
+  def vars "testing/genr_equalities.ml" 114 3840 3844 "testing/genr_equalities.ml" 115 3896 3939
+)
+"testing/genr_equalities.ml" 113 3803 3818 "testing/genr_equalities.ml" 113 3803 3832
+type(
+  Term.term * Term.term -> (Var.var * Parsetree.core_type) list
+)
+ident(
+  ext_ref Typed_vars.typed_vars_eqn
+)
+"testing/genr_equalities.ml" 113 3803 3833 "testing/genr_equalities.ml" 113 3803 3836
+type(
+  Term.term * Term.term
+)
+ident(
+  int_ref eqn "testing/genr_equalities.ml" 110 3698 3756 "testing/genr_equalities.ml" 110 3698 3759
+)
+"testing/genr_equalities.ml" 113 3803 3818 "testing/genr_equalities.ml" 113 3803 3836
+call(
+  stack
+)
+type(
+  (Var.var * Parsetree.core_type) list
+)
+"testing/genr_equalities.ml" 114 3840 3848 "testing/genr_equalities.ml" 114 3840 3854
+type(
+  (Var.var -> Code.exp) list
+)
+ident(
+  def substs "testing/genr_equalities.ml" 115 3896 3900 "testing/genr_equalities.ml" 115 3896 3939
+)
+"testing/genr_equalities.ml" 114 3840 3857 "testing/genr_equalities.ml" 114 3840 3868
+type(
+  int ->
+  (Parsetree.core_type -> int -> Code.exp list) ->
+  (Var.var * Parsetree.core_type) list -> (Var.var -> Code.exp) list
+)
+ident(
+  ext_ref Genr_substitutions.genr_substs
+)
+"testing/genr_equalities.ml" 114 3840 3869 "testing/genr_equalities.ml" 114 3840 3875
+type(
+  int
+)
+ident(
+  int_ref number "testing/genr_equalities.ml" 110 3698 3737 "testing/genr_equalities.ml" 110 3698 3743
+)
+"testing/genr_equalities.ml" 114 3840 3876 "testing/genr_equalities.ml" 114 3840 3887
+type(
+  Parsetree.core_type -> int -> Code.exp list
+)
+ident(
+  int_ref genr_values "testing/genr_equalities.ml" 110 3698 3744 "testing/genr_equalities.ml" 110 3698 3755
+)
+"testing/genr_equalities.ml" 114 3840 3888 "testing/genr_equalities.ml" 114 3840 3892
+type(
+  (Var.var * Parsetree.core_type) list
+)
+ident(
+  int_ref vars "testing/genr_equalities.ml" 113 3803 3811 "testing/genr_equalities.ml" 113 3803 3815
+)
+"testing/genr_equalities.ml" 114 3840 3857 "testing/genr_equalities.ml" 114 3840 3892
+call(
+  stack
+)
+type(
+  (Var.var -> Code.exp) list
+)
+"testing/genr_equalities.ml" 115 3896 3900 "testing/genr_equalities.ml" 115 3896 3908
+type(
+  ((Var.var -> Code.exp) -> Code.exp) ->
+  (Var.var -> Code.exp) list -> Code.exp list
+)
+ident(
+  ext_ref List.map
+)
+"testing/genr_equalities.ml" 115 3896 3910 "testing/genr_equalities.ml" 115 3896 3922
+type(
+  Code.exp ->
+  (Var.var * Parsetree.core_type) list -> (Var.var -> Code.exp) -> Code.exp
+)
+ident(
+  int_ref add_val_defs "testing/genr_equalities.ml" 87 2941 2949 "testing/genr_equalities.ml" 87 2941 2961
+)
+"testing/genr_equalities.ml" 115 3896 3923 "testing/genr_equalities.ml" 115 3896 3926
+type(
+  Code.exp
+)
+ident(
+  int_ref exp "testing/genr_equalities.ml" 111 3762 3768 "testing/genr_equalities.ml" 111 3762 3771
+)
+"testing/genr_equalities.ml" 115 3896 3927 "testing/genr_equalities.ml" 115 3896 3931
+type(
+  (Var.var * Parsetree.core_type) list
+)
+ident(
+  int_ref vars "testing/genr_equalities.ml" 113 3803 3811 "testing/genr_equalities.ml" 113 3803 3815
+)
+"testing/genr_equalities.ml" 115 3896 3909 "testing/genr_equalities.ml" 115 3896 3932
+call(
+  stack
+)
+type(
+  (Var.var -> Code.exp) -> Code.exp
+)
+"testing/genr_equalities.ml" 115 3896 3933 "testing/genr_equalities.ml" 115 3896 3939
+type(
+  (Var.var -> Code.exp) list
+)
+ident(
+  int_ref substs "testing/genr_equalities.ml" 114 3840 3848 "testing/genr_equalities.ml" 114 3840 3854
+)
+"testing/genr_equalities.ml" 115 3896 3900 "testing/genr_equalities.ml" 115 3896 3939
+call(
+  stack
+)
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 114 3840 3844 "testing/genr_equalities.ml" 115 3896 3939
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 113 3803 3807 "testing/genr_equalities.ml" 115 3896 3939
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 117 3947 3951 "testing/genr_equalities.ml" 117 3947 3968
+type(
+  exn
+)
+"testing/genr_equalities.ml" 118 3972 3976 "testing/genr_equalities.ml" 118 3972 4003
+type(
+  int -> Code.exp -> unit
+)
+ident(
+  int_ref print_no_equalities_warning "testing/genr_equalities.ml" 27 1186 1190 "testing/genr_equalities.ml" 27 1186 1217
+)
+"testing/genr_equalities.ml" 118 3972 4004 "testing/genr_equalities.ml" 118 3972 4010
+type(
+  int
+)
+ident(
+  int_ref number "testing/genr_equalities.ml" 110 3698 3737 "testing/genr_equalities.ml" 110 3698 3743
+)
+"testing/genr_equalities.ml" 118 3972 4011 "testing/genr_equalities.ml" 118 3972 4014
+type(
+  Code.exp
+)
+ident(
+  int_ref exp "testing/genr_equalities.ml" 111 3762 3768 "testing/genr_equalities.ml" 111 3762 3771
+)
+"testing/genr_equalities.ml" 118 3972 3976 "testing/genr_equalities.ml" 118 3972 4014
+call(
+  stack
+)
+type(
+  unit
+)
+"testing/genr_equalities.ml" 119 4016 4020 "testing/genr_equalities.ml" 119 4016 4022
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 118 3972 3976 "testing/genr_equalities.ml" 119 4016 4022
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 120 4023 4045 "testing/genr_equalities.ml" 120 4023 4050
+type(
+  string
+)
+ident(
+  def tname "testing/genr_equalities.ml" 121 4054 4058 "testing/genr_equalities.ml" 122 4096 4102
+)
+"testing/genr_equalities.ml" 120 4023 4027 "testing/genr_equalities.ml" 120 4023 4050
+type(
+  exn
+)
+"testing/genr_equalities.ml" 121 4054 4058 "testing/genr_equalities.ml" 121 4054 4084
+type(
+  string -> Code.exp -> unit
+)
+ident(
+  int_ref print_unknown_type_warning "testing/genr_equalities.ml" 34 1407 1411 "testing/genr_equalities.ml" 34 1407 1437
+)
+"testing/genr_equalities.ml" 121 4054 4085 "testing/genr_equalities.ml" 121 4054 4090
+type(
+  string
+)
+ident(
+  int_ref tname "testing/genr_equalities.ml" 120 4023 4045 "testing/genr_equalities.ml" 120 4023 4050
+)
+"testing/genr_equalities.ml" 121 4054 4091 "testing/genr_equalities.ml" 121 4054 4094
+type(
+  Code.exp
+)
+ident(
+  int_ref exp "testing/genr_equalities.ml" 111 3762 3768 "testing/genr_equalities.ml" 111 3762 3771
+)
+"testing/genr_equalities.ml" 121 4054 4058 "testing/genr_equalities.ml" 121 4054 4094
+call(
+  stack
+)
+type(
+  unit
+)
+"testing/genr_equalities.ml" 122 4096 4100 "testing/genr_equalities.ml" 122 4096 4102
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 121 4054 4058 "testing/genr_equalities.ml" 122 4096 4102
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 123 4103 4136 "testing/genr_equalities.ml" 123 4103 4141
+type(
+  string
+)
+ident(
+  def gname "testing/genr_equalities.ml" 124 4153 4157 "testing/genr_equalities.ml" 125 4211 4217
+)
+"testing/genr_equalities.ml" 123 4103 4143 "testing/genr_equalities.ml" 123 4103 4148
+type(
+  string
+)
+ident(
+  def tname "testing/genr_equalities.ml" 124 4153 4157 "testing/genr_equalities.ml" 125 4211 4217
+)
+"testing/genr_equalities.ml" 123 4103 4107 "testing/genr_equalities.ml" 123 4103 4149
+type(
+  exn
+)
+"testing/genr_equalities.ml" 124 4153 4157 "testing/genr_equalities.ml" 124 4153 4193
+type(
+  string -> string -> Code.exp -> unit
+)
+ident(
+  int_ref print_unknown_generator_type_warning "testing/genr_equalities.ml" 48 1828 1832 "testing/genr_equalities.ml" 48 1828 1868
+)
+"testing/genr_equalities.ml" 124 4153 4194 "testing/genr_equalities.ml" 124 4153 4199
+type(
+  string
+)
+ident(
+  int_ref gname "testing/genr_equalities.ml" 123 4103 4136 "testing/genr_equalities.ml" 123 4103 4141
+)
+"testing/genr_equalities.ml" 124 4153 4200 "testing/genr_equalities.ml" 124 4153 4205
+type(
+  string
+)
+ident(
+  int_ref tname "testing/genr_equalities.ml" 123 4103 4143 "testing/genr_equalities.ml" 123 4103 4148
+)
+"testing/genr_equalities.ml" 124 4153 4206 "testing/genr_equalities.ml" 124 4153 4209
+type(
+  Code.exp
+)
+ident(
+  int_ref exp "testing/genr_equalities.ml" 111 3762 3768 "testing/genr_equalities.ml" 111 3762 3771
+)
+"testing/genr_equalities.ml" 124 4153 4157 "testing/genr_equalities.ml" 124 4153 4209
+call(
+  stack
+)
+type(
+  unit
+)
+"testing/genr_equalities.ml" 125 4211 4215 "testing/genr_equalities.ml" 125 4211 4217
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 124 4153 4157 "testing/genr_equalities.ml" 125 4211 4217
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 126 4218 4245 "testing/genr_equalities.ml" 126 4218 4250
+type(
+  string
+)
+ident(
+  def gname "testing/genr_equalities.ml" 127 4254 4258 "testing/genr_equalities.ml" 128 4301 4307
+)
+"testing/genr_equalities.ml" 126 4218 4222 "testing/genr_equalities.ml" 126 4218 4250
+type(
+  exn
+)
+"testing/genr_equalities.ml" 127 4254 4258 "testing/genr_equalities.ml" 127 4254 4289
+type(
+  string -> Code.exp -> unit
+)
+ident(
+  int_ref print_unknown_generator_warning "testing/genr_equalities.ml" 41 1634 1638 "testing/genr_equalities.ml" 41 1634 1669
+)
+"testing/genr_equalities.ml" 127 4254 4290 "testing/genr_equalities.ml" 127 4254 4295
+type(
+  string
+)
+ident(
+  int_ref gname "testing/genr_equalities.ml" 126 4218 4245 "testing/genr_equalities.ml" 126 4218 4250
+)
+"testing/genr_equalities.ml" 127 4254 4296 "testing/genr_equalities.ml" 127 4254 4299
+type(
+  Code.exp
+)
+ident(
+  int_ref exp "testing/genr_equalities.ml" 111 3762 3768 "testing/genr_equalities.ml" 111 3762 3771
+)
+"testing/genr_equalities.ml" 127 4254 4258 "testing/genr_equalities.ml" 127 4254 4299
+call(
+  stack
+)
+type(
+  unit
+)
+"testing/genr_equalities.ml" 128 4301 4305 "testing/genr_equalities.ml" 128 4301 4307
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 127 4254 4258 "testing/genr_equalities.ml" 128 4301 4307
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 129 4308 4333 "testing/genr_equalities.ml" 129 4308 4338
+type(
+  string
+)
+ident(
+  def tname "testing/genr_equalities.ml" 130 4358 4362 "testing/genr_equalities.ml" 131 4420 4426
+)
+"testing/genr_equalities.ml" 129 4308 4340 "testing/genr_equalities.ml" 129 4308 4349
+type(
+  int
+)
+ident(
+  def should_be "testing/genr_equalities.ml" 130 4358 4362 "testing/genr_equalities.ml" 131 4420 4426
+)
+"testing/genr_equalities.ml" 129 4308 4351 "testing/genr_equalities.ml" 129 4308 4353
+type(
+  int
+)
+ident(
+  def is "testing/genr_equalities.ml" 130 4358 4362 "testing/genr_equalities.ml" 131 4420 4426
+)
+"testing/genr_equalities.ml" 129 4308 4312 "testing/genr_equalities.ml" 129 4308 4354
+type(
+  exn
+)
+"testing/genr_equalities.ml" 130 4358 4362 "testing/genr_equalities.ml" 130 4358 4395
+type(
+  string -> int -> int -> Code.exp -> unit
+)
+ident(
+  int_ref print_type_arity_mismatch_warning "testing/genr_equalities.ml" 55 2063 2067 "testing/genr_equalities.ml" 55 2063 2100
+)
+"testing/genr_equalities.ml" 130 4358 4396 "testing/genr_equalities.ml" 130 4358 4401
+type(
+  string
+)
+ident(
+  int_ref tname "testing/genr_equalities.ml" 129 4308 4333 "testing/genr_equalities.ml" 129 4308 4338
+)
+"testing/genr_equalities.ml" 130 4358 4402 "testing/genr_equalities.ml" 130 4358 4411
+type(
+  int
+)
+ident(
+  int_ref should_be "testing/genr_equalities.ml" 129 4308 4340 "testing/genr_equalities.ml" 129 4308 4349
+)
+"testing/genr_equalities.ml" 130 4358 4412 "testing/genr_equalities.ml" 130 4358 4414
+type(
+  int
+)
+ident(
+  int_ref is "testing/genr_equalities.ml" 129 4308 4351 "testing/genr_equalities.ml" 129 4308 4353
+)
+"testing/genr_equalities.ml" 130 4358 4415 "testing/genr_equalities.ml" 130 4358 4418
+type(
+  Code.exp
+)
+ident(
+  int_ref exp "testing/genr_equalities.ml" 111 3762 3768 "testing/genr_equalities.ml" 111 3762 3771
+)
+"testing/genr_equalities.ml" 130 4358 4362 "testing/genr_equalities.ml" 130 4358 4418
+call(
+  stack
+)
+type(
+  unit
+)
+"testing/genr_equalities.ml" 131 4420 4424 "testing/genr_equalities.ml" 131 4420 4426
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 130 4358 4362 "testing/genr_equalities.ml" 131 4420 4426
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 112 3797 3799 "testing/genr_equalities.ml" 131 4420 4426
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 111 3762 3764 "testing/genr_equalities.ml" 131 4420 4426
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 134 4431 4435 "testing/genr_equalities.ml" 134 4431 4461
+type(
+  int ->
+  (Parsetree.core_type -> int -> Code.exp list) ->
+  string * 'a * Parsetree.relations * Location.t -> Code.exp list
+)
+ident(
+  def genr_values_and_equalities "testing/genr_equalities.ml" 139 4660 4704 "testing/genr_equalities.ml" 1 0 -1
+)
+"testing/genr_equalities.ml" 134 4431 4462 "testing/genr_equalities.ml" 134 4431 4468
+type(
+  int
+)
+ident(
+  def number "testing/genr_equalities.ml" 134 4431 4469 "testing/genr_equalities.ml" 139 4660 4704
+)
+"testing/genr_equalities.ml" 134 4431 4469 "testing/genr_equalities.ml" 134 4431 4480
+type(
+  Parsetree.core_type -> int -> Code.exp list
+)
+ident(
+  def genr_values "testing/genr_equalities.ml" 134 4431 4481 "testing/genr_equalities.ml" 139 4660 4704
+)
+"testing/genr_equalities.ml" 134 4431 4482 "testing/genr_equalities.ml" 134 4431 4486
+type(
+  string
+)
+ident(
+  def name "testing/genr_equalities.ml" 135 4504 4506 "testing/genr_equalities.ml" 139 4660 4704
+)
+"testing/genr_equalities.ml" 134 4431 4488 "testing/genr_equalities.ml" 134 4431 4489
+type(
+  'a
+)
+"testing/genr_equalities.ml" 134 4431 4491 "testing/genr_equalities.ml" 134 4431 4495
+type(
+  Parsetree.relations
+)
+ident(
+  def rels "testing/genr_equalities.ml" 135 4504 4506 "testing/genr_equalities.ml" 139 4660 4704
+)
+"testing/genr_equalities.ml" 134 4431 4497 "testing/genr_equalities.ml" 134 4431 4500
+type(
+  Location.t
+)
+ident(
+  def loc "testing/genr_equalities.ml" 135 4504 4506 "testing/genr_equalities.ml" 139 4660 4704
+)
+"testing/genr_equalities.ml" 134 4431 4481 "testing/genr_equalities.ml" 134 4431 4501
+type(
+  string * 'a * Parsetree.relations * Location.t
+)
+"testing/genr_equalities.ml" 135 4504 4510 "testing/genr_equalities.ml" 135 4504 4511
+type(
+  Parsetree.generator
+)
+ident(
+  def g "testing/genr_equalities.ml" 136 4539 4541 "testing/genr_equalities.ml" 139 4660 4704
+)
+"testing/genr_equalities.ml" 135 4504 4514 "testing/genr_equalities.ml" 135 4504 4526
+type(
+  string -> Location.t -> Parsetree.generator
+)
+ident(
+  ext_ref Tgenr_base.mk_generator
+)
+"testing/genr_equalities.ml" 135 4504 4527 "testing/genr_equalities.ml" 135 4504 4531
+type(
+  string
+)
+ident(
+  int_ref name "testing/genr_equalities.ml" 134 4431 4482 "testing/genr_equalities.ml" 134 4431 4486
+)
+"testing/genr_equalities.ml" 135 4504 4532 "testing/genr_equalities.ml" 135 4504 4535
+type(
+  Location.t
+)
+ident(
+  int_ref loc "testing/genr_equalities.ml" 134 4431 4497 "testing/genr_equalities.ml" 134 4431 4500
+)
+"testing/genr_equalities.ml" 135 4504 4514 "testing/genr_equalities.ml" 135 4504 4535
+call(
+  stack
+)
+type(
+  Parsetree.generator
+)
+"testing/genr_equalities.ml" 136 4539 4545 "testing/genr_equalities.ml" 136 4539 4549
+type(
+  (Term.term * Term.term) list
+)
+ident(
+  def eqns "testing/genr_equalities.ml" 137 4572 4574 "testing/genr_equalities.ml" 139 4660 4704
+)
+"testing/genr_equalities.ml" 136 4539 4552 "testing/genr_equalities.ml" 136 4539 4561
+type(
+  Parsetree.generator -> Parsetree.relations -> (Term.term * Term.term) list
+)
+ident(
+  int_ref equations "testing/genr_equalities.ml" 95 3177 3181 "testing/genr_equalities.ml" 95 3177 3190
+)
+"testing/genr_equalities.ml" 136 4539 4562 "testing/genr_equalities.ml" 136 4539 4563
+type(
+  Parsetree.generator
+)
+ident(
+  int_ref g "testing/genr_equalities.ml" 135 4504 4510 "testing/genr_equalities.ml" 135 4504 4511
+)
+"testing/genr_equalities.ml" 136 4539 4564 "testing/genr_equalities.ml" 136 4539 4568
+type(
+  Parsetree.relations
+)
+ident(
+  int_ref rels "testing/genr_equalities.ml" 134 4431 4491 "testing/genr_equalities.ml" 134 4431 4495
+)
+"testing/genr_equalities.ml" 136 4539 4552 "testing/genr_equalities.ml" 136 4539 4568
+call(
+  stack
+)
+type(
+  (Term.term * Term.term) list
+)
+"testing/genr_equalities.ml" 137 4572 4578 "testing/genr_equalities.ml" 137 4572 4596
+type(
+  Term.term * Term.term -> Code.exp list
+)
+ident(
+  def gen_values_and_eqs "testing/genr_equalities.ml" 139 4660 4662 "testing/genr_equalities.ml" 139 4660 4704
+)
+"testing/genr_equalities.ml" 138 4599 4603 "testing/genr_equalities.ml" 138 4599 4637
+type(
+  int ->
+  (Parsetree.core_type -> int -> Code.exp list) ->
+  Term.term * Term.term -> Code.exp list
+)
+ident(
+  int_ref genr_values_and_equalities_for_eqn "testing/genr_equalities.ml" 110 3698 3702 "testing/genr_equalities.ml" 110 3698 3736
+)
+"testing/genr_equalities.ml" 138 4599 4638 "testing/genr_equalities.ml" 138 4599 4644
+type(
+  int
+)
+ident(
+  int_ref number "testing/genr_equalities.ml" 134 4431 4462 "testing/genr_equalities.ml" 134 4431 4468
+)
+"testing/genr_equalities.ml" 138 4599 4645 "testing/genr_equalities.ml" 138 4599 4656
+type(
+  Parsetree.core_type -> int -> Code.exp list
+)
+ident(
+  int_ref genr_values "testing/genr_equalities.ml" 134 4431 4469 "testing/genr_equalities.ml" 134 4431 4480
+)
+"testing/genr_equalities.ml" 138 4599 4603 "testing/genr_equalities.ml" 138 4599 4656
+call(
+  stack
+)
+type(
+  Term.term * Term.term -> Code.exp list
+)
+"testing/genr_equalities.ml" 139 4660 4662 "testing/genr_equalities.ml" 139 4660 4680
+type(
+  (Term.term * Term.term -> Code.exp list) ->
+  (Term.term * Term.term) list -> Code.exp list
+)
+ident(
+  ext_ref Listutils.flat_map
+)
+"testing/genr_equalities.ml" 139 4660 4681 "testing/genr_equalities.ml" 139 4660 4699
+type(
+  Term.term * Term.term -> Code.exp list
+)
+ident(
+  int_ref gen_values_and_eqs "testing/genr_equalities.ml" 137 4572 4578 "testing/genr_equalities.ml" 137 4572 4596
+)
+"testing/genr_equalities.ml" 139 4660 4700 "testing/genr_equalities.ml" 139 4660 4704
+type(
+  (Term.term * Term.term) list
+)
+ident(
+  int_ref eqns "testing/genr_equalities.ml" 136 4539 4545 "testing/genr_equalities.ml" 136 4539 4549
+)
+"testing/genr_equalities.ml" 139 4660 4662 "testing/genr_equalities.ml" 139 4660 4704
+call(
+  tail
+)
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 137 4572 4574 "testing/genr_equalities.ml" 139 4660 4704
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 136 4539 4541 "testing/genr_equalities.ml" 139 4660 4704
+type(
+  Code.exp list
+)
+"testing/genr_equalities.ml" 135 4504 4506 "testing/genr_equalities.ml" 139 4660 4704
+type(
+  Code.exp list
+)
